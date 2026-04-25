@@ -16,6 +16,7 @@ const CURRICULUM = [
       { id: 'A4', title: 'Hepatopancreatic-Biliary Surgery', level: 'PGY3-4', readingTime: 50 },
       { id: 'A5', title: 'Breast Surgery & Oncology', level: 'PGY2-3', readingTime: 35 },
       { id: 'A6', title: 'Sarcoma & Peritoneal Oncology', level: 'PGY3-4', readingTime: 42 },
+      { id: 'A7', title: 'Endocrine Surgery & NETs', level: 'PGY2-4', readingTime: 110 },
     ]
   },
   {
@@ -24,7 +25,6 @@ const CURRICULUM = [
       { id: 'B1', title: 'Emergency Surgery', level: 'PGY1-2', readingTime: 45 },
       { id: 'B2', title: 'Hernia Surgery', level: 'PGY1-2', readingTime: 30 },
       { id: 'B3', title: 'Bariatric & Metabolic Surgery', level: 'PGY2-3', readingTime: 38 },
-      { id: 'B4', title: 'Endocrine Surgery', level: 'PGY2-3', readingTime: 32 },
     ]
   },
   {
