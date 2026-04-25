@@ -1,0 +1,750 @@
+{
+  "id": "D2",
+  "title": "Acute Diverticulitis & Colonic Benign Disease",
+  "subtitle": "General Surgery — Diverticular Disease, Colonic Volvulus & Pseudo-obstruction",
+  "block": "D",
+  "block_name": "Benign Digestive Surgery",
+  "level": "PGY1-2",
+  "reading_time_min": 38,
+  "guidelines_version": "WSES 2020 · ASCRS 2020 · ESCP 2020 · ACG Clinical Guideline 2015",
+  "sections": [
+    {
+      "id": "D2-S1",
+      "title": "Diverticular Disease — Epidemiology & Pathophysiology",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Colonic diverticulosis** refers to the presence of acquired pseudodiverticula (outpouchings of mucosa and submucosa through weaknesses in the muscularis propria, typically at sites where vasa recta penetrate the bowel wall). True diverticula (all bowel wall layers) are rare in the colon. Diverticulosis prevalence increases dramatically with age: <40 years <5%; 60 years ~30%; >80 years ~65%. In Western countries, 80% of diverticula are left-sided (sigmoid colon), where intraluminal pressure is highest (law of Laplace: T = P×r — smaller sigmoid radius generates higher wall tension for same luminal pressure)."
+        },
+        {
+          "type": "text",
+          "content": "**Pathophysiology**: Low dietary fibre → small, firm stools → prolonged colonic transit → segmentation contractions generate high intraluminal pressures → mucosal herniation at vasa recta entry points. Risk factors: low dietary fibre, sedentary lifestyle, obesity (RR 1.78), NSAIDs (RR 1.50), alcohol, smoking, red meat intake. The **microbiome hypothesis** proposes that dysbiosis (reduced Lactobacillus, increased Proteobacteria) promotes chronic low-grade inflammation predisposing to diverticulitis."
+        },
+        {
+          "type": "table",
+          "title": "Diverticulosis vs Diverticulitis vs Diverticular Disease",
+          "headers": ["Term", "Definition", "Prevalence", "Annual Progression Rate"],
+          "rows": [
+            ["Diverticulosis", "Asymptomatic presence of diverticula", "30–65% in >60 yrs", "4% per year develop symptoms"],
+            ["Symptomatic uncomplicated diverticular disease (SUDD)", "Recurrent abdominal pain without acute inflammation", "~20% of diverticulosis", "Variable"],
+            ["Acute uncomplicated diverticulitis", "Acute inflammation without abscess/perforation/fistula/obstruction", "~4% of diverticulosis lifetime", "~20% recurrence at 1 year"],
+            ["Acute complicated diverticulitis", "Diverticulitis + abscess/perforation/fistula/obstruction", "~25% of acute diverticulitis episodes", "Higher surgical rate"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Right-sided vs Left-sided Diverticular Disease",
+          "content": "Right-sided diverticulosis (cecum, ascending colon) is more common in Asian populations (Japan, Korea, Taiwan — up to 75% of cases). Right-sided diverticula are often true diverticula. Right-sided diverticulitis can mimic appendicitis and presents with right iliac fossa pain. Right hemicolectomy is the standard surgical treatment (vs sigmoid resection for left-sided disease). Differentiation from appendicitis often requires CT scan."
+        }
+      ]
+    },
+    {
+      "id": "D2-S2",
+      "title": "Acute Diverticulitis — Classification Systems",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "CT of the abdomen and pelvis (IV contrast, sensitivity 97%, specificity 99%) is the diagnostic standard for acute diverticulitis, demonstrating pericolic fat stranding, bowel wall thickening (>4 mm), diverticula, abscesses, pneumoperitoneum, or fistulae. Ultrasound is an alternative (sensitivity 92%, specificity 90%) for uncomplicated cases, avoiding radiation — preferred in young women (exclude gynaecological pathology)."
+        },
+        {
+          "type": "table",
+          "title": "Hinchey Classification of Complicated Diverticulitis",
+          "headers": ["Stage", "CT Finding", "Clinical Correlate", "Standard Management"],
+          "rows": [
+            ["Stage I", "Pericolic abscess (≤5 cm)", "Localized peritonitis, tender mass RLQ or LLQ", "Antibiotics ± percutaneous drainage if large"],
+            ["Stage II", "Distant (pelvic) abscess (>5 cm)", "Pelvic pain, tender mass, sepsis", "Antibiotics + percutaneous drainage; surgical rescue if fails"],
+            ["Stage III", "Purulent peritonitis (generalized — perforated abscess)", "Generalized peritonitis, acutely ill, sepsis", "Sigmoid resection; Hartmann's OR primary anastomosis + diverting ileostomy"],
+            ["Stage IV", "Fecal peritonitis (free perforation)", "Acutely ill, hemodynamic instability, frank peritonitis", "Emergency Hartmann's procedure; source control priority"]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Modified CT-Based Classification (Ambrosetti, Sartelli/WSES)",
+          "headers": ["Category", "CT Features", "CRP (mg/L)", "WBC (/μL)", "Management"],
+          "rows": [
+            ["Mild (uncomplicated)", "Pericolic fat stranding ± wall thickening; no abscess", "<140", "<13,000", "Outpatient antibiotics or no antibiotics (selected patients)"],
+            ["Moderate (complicated — abscess)", "Hinchey I or II abscess; contained perforation", "140–200", "13,000–15,000", "Inpatient antibiotics; percutaneous drainage if abscess ≥4 cm"],
+            ["Severe (complicated — peritonitis)", "Hinchey III or IV; free air; fecal peritonitis", ">200", ">15,000", "Emergency surgery; Hartmann's or primary anastomosis"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "CRP & WBC as Severity Predictors",
+          "content": "CRP >140–150 mg/L on admission is strongly associated with complicated diverticulitis (abscess or perforation) and predicts failure of conservative management. WBC >13,000/μL adds specificity. Patients with uncomplicated diverticulitis and CRP <50 mg/L can often be managed as outpatients. Serial CRP is useful for monitoring response to antibiotics — failure to decrease by 25% at 48–72h suggests treatment failure or missed complication."
+        }
+      ]
+    },
+    {
+      "id": "D2-S3",
+      "title": "Non-operative Management of Diverticulitis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Uncomplicated acute diverticulitis** (Hinchey 0/Ia — fat stranding only, no abscess) in selected low-risk patients can be managed without antibiotics based on landmark RCT evidence. The traditional paradigm of mandatory antibiotics for all diverticulitis has been challenged."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "AVOD Trial",
+          "citation": "Chabok A, et al. Randomized clinical trial of antibiotics in acute uncomplicated diverticulitis. Br J Surg. 2012;99(4):532-539.",
+          "population": "623 patients with CT-confirmed uncomplicated acute diverticulitis; multicenter RCT (Sweden, Iceland)",
+          "intervention": "Antibiotics (IV + oral for 7 days) vs no antibiotics; all patients hospitalized",
+          "result": "No significant difference in complication rate, time to recovery, or recurrence at 1 year between antibiotic and no-antibiotic groups. Hospital stay similar. No cases of overwhelming peritonitis in no-antibiotic group.",
+          "practice_change": "Antibiotics are NOT mandatory for uncomplicated acute diverticulitis in immunocompetent patients. Selective use of antibiotics is now accepted in clinical guidelines (WSES 2020, ESCP 2020)."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "DIABOLO Trial",
+          "citation": "Ünlü C, et al. A multicenter randomized clinical trial investigating the cost-effectiveness of treatment strategies with or without antibiotics for uncomplicated acute diverticulitis (DIABOLO trial). Lancet 2017;386(10005):2038-2046.",
+          "population": "528 patients with uncomplicated acute left-sided diverticulitis; RCT (Netherlands)",
+          "intervention": "Outpatient management (no antibiotics, analgesia, liquid diet, home follow-up) vs inpatient antibiotic treatment",
+          "result": "Outpatient management non-inferior to inpatient antibiotics for time to recovery (14 vs 12 days, NS). Complication and recurrence rates equivalent. Significant cost savings with outpatient approach.",
+          "practice_change": "Selected patients with uncomplicated diverticulitis (no fever >38.5°C, CRP <140, WBC <13,000, tolerating oral intake, adequate home support) can be safely managed as OUTPATIENTS without antibiotics."
+        },
+        {
+          "type": "table",
+          "title": "Outpatient Management Criteria for Uncomplicated Diverticulitis",
+          "headers": ["Criterion", "Outpatient Safe", "Inpatient Required"],
+          "rows": [
+            ["Fever", "<38.5°C", "≥38.5°C"],
+            ["CRP", "<140 mg/L", "≥140 mg/L"],
+            ["WBC", "<13,000/μL", "≥13,000/μL"],
+            ["Tolerating oral intake", "Yes", "No (nausea/vomiting)"],
+            ["Abscess on CT", "None", "Any abscess → inpatient"],
+            ["Home support", "Adequate", "Inadequate → inpatient"],
+            ["Comorbidities", "Mild or none", "Immunosuppression, severe comorbidity"],
+            ["Follow-up compliance", "Reliable", "Unreliable → inpatient safer"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "Post-Diverticulitis Colonoscopy — Timing",
+          "content": "Colonoscopy should be performed 6–8 weeks after recovery from acute diverticulitis to: (1) exclude colorectal cancer mimicking diverticulitis (found in 1–2% of cases), (2) exclude IBD. Colonoscopy is NOT performed during the acute episode (perforation risk). Patients with complicated diverticulitis (abscess, perforation) have higher cancer miss rate — colonoscopy is mandatory. For uncomplicated diverticulitis with reliable CT and low clinical suspicion for cancer, colonoscopy can be deferred or performed at 8–12 weeks."
+        }
+      ]
+    },
+    {
+      "id": "D2-S4",
+      "title": "Interventional & Emergency Surgical Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Hinchey II (pelvic/distant abscess ≥4 cm)**: percutaneous image-guided drainage (CT or US) + antibiotics is the preferred management over immediate surgery. Drainage achieves resolution in 70–80% of patients, converting emergencies to elective procedures. Failed percutaneous drainage (fever >48h, increasing sepsis) requires surgical intervention. After successful drainage and recovery, elective sigmoid resection is discussed."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "LADIES Trial (DIVA arm)",
+          "citation": "Vennix S, et al. Laparoscopic peritoneal lavage or sigmoidectomy for perforated diverticulitis with purulent peritonitis (LADIES trial: DIVA arm). BMJ 2019;364:l1237.",
+          "population": "90 patients with Hinchey III (purulent peritonitis) perforated diverticulitis; multicenter RCT",
+          "intervention": "Hartmann's procedure vs primary resection and anastomosis (PRA) ± diverting ileostomy",
+          "result": "At 12 months: no significant difference in morbidity, mortality, or permanent stoma rates between Hartmann's and PRA+ileostomy. PRA+ileostomy patients had higher stoma reversal rates. Hartmann's had higher permanent stoma rate at 12 months (39% vs 19% in PRA arm).",
+          "practice_change": "Primary resection and anastomosis with diverting ileostomy is a safe alternative to Hartmann's procedure in Hinchey III diverticulitis in hemodynamically stable, non-immunosuppressed patients operated by experienced colorectal surgeons."
+        },
+        {
+          "type": "table",
+          "title": "Hartmann's Procedure vs Primary Anastomosis with Diverting Ileostomy — Comparison",
+          "headers": ["Factor", "Hartmann's Procedure", "Primary Anastomosis + Diverting Ileostomy"],
+          "rows": [
+            ["Indication", "Hinchey III/IV; hemodynamic instability; immunosuppression; high-risk anastomosis", "Hinchey III; hemodynamically stable; experienced surgeon; good nutritional status"],
+            ["Stoma type", "End colostomy (sigmoid)", "Loop ileostomy (diverting)"],
+            ["Reversal complexity", "High (Hartmann's reversal — laparotomy, colorectal anastomosis)", "Lower (loop ileostomy reversal — simpler operation)"],
+            ["Permanent stoma risk", "~30–50%", "~10–20%"],
+            ["Anastomotic leak risk", "Not applicable", "~6–10% (protected by diverting stoma)"],
+            ["Mortality", "Comparable", "Comparable in selected patients"],
+            ["LADIES trial conclusion", "Higher permanent stoma rate", "Preferred when feasible and safe"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Laparoscopic Peritoneal Lavage for Hinchey III — Negative Evidence",
+          "content": "Three major RCTs (DILALA, SCANDIV, LADIES-LOLA arm) evaluated laparoscopic peritoneal lavage (LPL) vs sigmoid resection for Hinchey III purulent diverticulitis. ALL THREE showed LPL to be INFERIOR: higher rate of reoperation (13–31% LPL vs 0–5% resection), treatment failure, and residual abscess. LPL does NOT address the perforated diverticulum. Conclusion: laparoscopic lavage CANNOT be recommended as standard treatment for Hinchey III — sigmoid resection remains the standard."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "SCANDIV Trial",
+          "citation": "Schultz JK, et al. Laparoscopic lavage vs primary resection for acute perforated diverticulitis (SCANDIV): a randomised controlled trial. Lancet 2015;386(10000):1269-1278.",
+          "population": "199 patients with perforated diverticulitis (Hinchey III/IV); Scandinavian multicenter RCT",
+          "intervention": "Laparoscopic lavage and drainage vs sigmoid resection",
+          "result": "Severe complications within 90 days: 30.7% (lavage) vs 26% (resection), NS. Reoperation rate: 20.3% (lavage) vs 8.0% (resection), p=0.03. Postoperative feculent peritonitis (Hinchey IV) treated with lavage had 100% reoperation rate. Stoma at 12 months: 29.5% (lavage) vs 40.7% (resection).",
+          "practice_change": "Laparoscopic lavage does not reduce severe complications compared to resection and has unacceptably high reoperation rate — NOT recommended as standard for Hinchey III."
+        }
+      ]
+    },
+    {
+      "id": "D2-S5",
+      "title": "Elective Sigmoid Resection — Indications & Technique",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The decision for elective sigmoid resection following acute diverticulitis requires individualized assessment. Historical teaching of 'two episodes = surgery' has been abandoned. Current guidelines (ASCRS 2020, ESCP 2020) base decisions on: symptom severity, quality of life impact, patient fitness, complication risk of recurrence, and patient preference — NOT episode count alone."
+        },
+        {
+          "type": "table",
+          "title": "ASCRS 2020 — Indications for Elective Sigmoid Resection",
+          "headers": ["Indication Category", "Details"],
+          "rows": [
+            ["Complicated diverticulitis (abscess/fistula)", "After Hinchey II abscess successfully managed percutaneously; fistula (colovesical, colovaginal); after emergency surgery with Hartmann's — plan Hartmann's reversal"],
+            ["Recurrent diverticulitis with quality of life impairment", "Recurrent episodes regardless of number — if significantly impacting quality of life (pain, anxiety, work/social impact); patient-reported outcome measures"],
+            ["High-risk recurrence features", "Immunosuppressed patients (transplant, steroids, chemotherapy); CKD; first episode with large abscess; young age (<50 yrs) with high cumulative lifetime risk"],
+            ["Inability to exclude malignancy", "If colonoscopy or CT cannot confidently exclude CRC — surgical resection for tissue diagnosis"],
+            ["After emergency surgery (Hartmann's)", "Hartmann's reversal 3–6 months after emergency sigmoid resection and recovery"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Timing of Elective Surgery After Acute Episode",
+          "content": "Elective sigmoid resection should be performed at least 6–8 weeks after the acute episode to allow inflammation to resolve. Operating during or immediately after the acute phase significantly increases anastomotic leak rates, wound complications, and conversion to open. Pre-operative colonoscopy 6–8 weeks post-episode is mandatory to exclude cancer before planning resection."
+        },
+        {
+          "type": "text",
+          "content": "**Laparoscopic sigmoid resection** is the preferred approach for elective surgery (vs open): lower wound complications, shorter hospital stay (3–4 days vs 5–7 days), faster return to normal activities. The key technical principle: resection must include the entire sigmoid colon to the **peritoneal reflection** (rectosigmoid junction), with the proximal margin in non-inflamed, soft descending colon. Leaving a diseased sigmoid segment results in higher recurrence. The anastomosis is always to the **upper rectum** — colorectal anastomosis, not colocolonic. A properly functioning stapled colorectal anastomosis using a circular stapler (28–29 mm EEA) is the standard."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Diverticular Fistulae",
+          "content": "Colovesical fistula (most common, 65%): pneumaturia, fecaluria, recurrent UTI, typically in men (uterus protects in women). CT: air in bladder, thickened sigmoid-bladder interface. Cystoscopy ± sigmoidoscopy. Treatment: sigmoid resection + fistula division + bladder repair ± Foley catheter. Colovaginal fistula (post-hysterectomy women): feculent vaginal discharge. Coloenteric fistula: usually asymptomatic. Colocutaneous fistula: rare, often post-operative."
+        }
+      ]
+    },
+    {
+      "id": "D2-S6",
+      "title": "Colonic Volvulus — Sigmoid & Caecal",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Colonic volvulus** is axial torsion of the colon on its mesenteric axis causing closed-loop obstruction. Two forms: **sigmoid volvulus** (most common, 60–75% of colonic volvulus) and **caecal volvulus** (25–40%). Together they account for 10–15% of all large bowel obstruction."
+        },
+        {
+          "type": "table",
+          "title": "Sigmoid vs Caecal Volvulus — Comparative Features",
+          "headers": ["Feature", "Sigmoid Volvulus", "Caecal Volvulus"],
+          "rows": [
+            ["Pathophysiology", "Redundant sigmoid loop twists on mesentery; chronic constipation, psychiatric illness, Chagas disease risk factors", "Incomplete caecal fixation to posterior peritoneum; right colon mobilizes and rotates"],
+            ["Demographics", "Elderly, institutionalized, neuropsychiatric patients; common in Africa, India", "Younger patients (30–60 yrs); post-laparotomy, pregnancy"],
+            ["X-ray appearance", "Omega sign (large distended loop, apex in RUQ); 'coffee bean' sign", "Ileocaecal bascule; kidney-bean sign pointing LUQ; 'bird of prey' sign on CT"],
+            ["First-line treatment", "Rigid sigmoidoscopy or flexible colonoscopic decompression (success 70–90%)", "Surgery (right hemicolectomy) — colonoscopic decompression less reliable; higher gangrene risk"],
+            ["Definitive treatment", "Elective sigmoid resection after successful decompression (same admission or outpatient)", "Right hemicolectomy with primary anastomosis (if viable colon) or ileostomy (if ischemic)"],
+            ["Recurrence without surgery", "~50–90%", "~20%"],
+            ["Emergency surgery indication", "Peritonitis, failed decompression, suspected ischemia/gangrene", "Signs of ischemia; failed endoscopic reduction; caecal bascule pattern"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Endoscopic Decompression of Sigmoid Volvulus — Technique",
+          "content": "First-line: rigid proctoscopy or flexible sigmoidoscopy/colonoscopy WITHOUT bowel prep (patient prepared with enema only). A soft rubber tube (flatus tube) advanced through the twisted sigmoid under endoscopic guidance. Decompression indicated by passage of flatus and liquid stool. Rectal tube left in situ for 24–48h. Success rate 70–90%. Contraindications: peritonitis, suspected ischemia (bloody mucosa, no mucosal perfusion), hemodynamic instability. After successful decompression: elective sigmoid resection same admission (recurrence rate 50–90% without surgery)."
+        }
+      ]
+    },
+    {
+      "id": "D2-S7",
+      "title": "Ogilvie's Syndrome — Colonic Pseudo-obstruction",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Ogilvie's syndrome (acute colonic pseudo-obstruction, ACPO)** is massive colonic dilation without mechanical obstruction. Pathophysiology: imbalance between sympathetic (inhibitory) and parasympathetic (stimulatory) colonic innervation — excess sympathetic tone → colon dilation. Predisposing factors: post-operative (especially orthopaedic, cardiac surgery), severe medical illness (pneumonia, cardiac failure, renal failure), opioid use, electrolyte disturbances, retroperitoneal haematoma."
+        },
+        {
+          "type": "text",
+          "content": "**Diagnosis**: plain abdominal X-ray or CT showing massive colonic dilation (typically right colon, caecum most distended) without a transition point. CT with water-soluble contrast enema can confirm absence of mechanical obstruction. **Caecal diameter >12 cm** is associated with high risk of perforation (risk increases substantially above 10–12 cm). Perforation risk: 3% overall; up to 30% if caecal diameter >14 cm."
+        },
+        {
+          "type": "table",
+          "title": "Management Algorithm for Ogilvie's Syndrome",
+          "headers": ["Step", "Intervention", "Detail"],
+          "rows": [
+            ["1. Supportive care", "NBM, IV fluids, electrolyte correction, stop constipating medications (opioids, anticholinergics)", "Monitor caecal diameter on serial X-rays/CT; NG tube suction"],
+            ["2. Neostigmine (first-line pharmacological)", "2 mg IV over 3–5 minutes; cardiac monitoring mandatory; atropine at bedside", "Acetylcholinesterase inhibitor → increases parasympathetic tone → colonic decompression. Success rate 60–90%. Response within 30 min (borborygmi, flatus, stool). Contraindicated: mechanical obstruction, HR <60, bronchospasm, recent MI, renal failure"],
+            ["3. Colonoscopic decompression", "If neostigmine fails or contraindicated; without full bowel prep", "Decompression tube left in situ 24–48h. Success 60–80%. Recurrence 40%. Can repeat neostigmine or colonoscopy."],
+            ["4. Surgery", "Cecostomy or right hemicolectomy if all measures fail OR signs of ischemia/perforation", "Rare; highest morbidity in already ill patients"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Neostigmine Contraindications & Administration",
+          "content": "Neostigmine dose: 2 mg IV over 3–5 min. Mandatory: cardiac monitoring (ECG), atropine 0.6 mg at bedside (for bradycardia/bronchospasm), patient supine. Response: borborygmi within 10 min, flatus/stool within 30 min. CONTRAINDICATIONS: established mechanical obstruction, severe bradycardia (HR <60), active bronchospasm, recent myocardial infarction, pregnancy, renal failure (Cr >3 mg/dL). Second dose may be given after 3 hours if partial response."
+        }
+      ]
+    },
+    {
+      "id": "D2-S8",
+      "title": "Colonic Angiodysplasia & Lower GI Bleeding",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Lower gastrointestinal bleeding (LGIB)** is defined as bleeding originating distal to the ligament of Treitz. Common causes: diverticular disease (30–40%), colonic angiodysplasia (15–20%), colorectal neoplasia (10%), anorectal disease (hemorrhoids, fissures — most common cause of minor LGIB), ischemic colitis, IBD. **Diverticular bleeding** is the most common cause of significant LGIB: typically painless, bright red or maroon rectal bleeding, often massive; usually self-limiting (80%)."
+        },
+        {
+          "type": "text",
+          "content": "**Colonic angiodysplasia** (arteriovenous malformations, AVMs): acquired, predominantly right colon, >60 years, associated with chronic renal failure, aortic stenosis (Heyde's syndrome), and anticoagulation. Endoscopic appearance: flat, cherry-red, fern-like vascular lesion. Diagnosis: colonoscopy (gold standard); CT angiography if actively bleeding (sensitivity >90% for extravasation >0.3–0.5 mL/min); mesenteric angiography (sensitivity >90% for extravasation >0.5 mL/min)."
+        },
+        {
+          "type": "table",
+          "title": "LGIB Management Algorithm",
+          "headers": ["Step", "Intervention", "Detail"],
+          "rows": [
+            ["1. Resuscitation", "IV access, blood group + crossmatch, IV fluids, blood transfusion if Hb <7–8", "Hemodynamic assessment: HR, BP, postural hypotension; ICU if hemodynamically unstable"],
+            ["2. Colonoscopy", "After rapid bowel prep (4L PEG); gold standard — diagnostic and therapeutic", "Identifies bleeding source in 70–90%; treatment: adrenaline injection, bipolar coagulation, haemoclip, APC for angiodysplasia"],
+            ["3. CT angiography", "If colonoscopy fails or active rapid bleeding (Hb drop >2 g/dL/24h)", "Identifies extravasation >0.3 mL/min; guides intervention radiology targeting"],
+            ["4. Interventional radiology", "Mesenteric angiography + superselective embolization (coils, polyvinyl alcohol)", "Success 80–90% for active bleeding; ischemia risk 5–15%; post-embolization surveillance"],
+            ["5. Surgery", "If all above fail; recurrent massive bleeding; ischemia post-embolization", "Segmental resection if source localized; blind subtotal colectomy if source unlocalized (last resort — high morbidity)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Diverticular Bleeding — Key Facts",
+          "content": "Diverticular bleeding: left-sided diverticula are more common but RIGHT-sided diverticula bleed more frequently (despite lower prevalence). Bleeding is arterial (vasa recta erosion), typically massive, painless, bright red or maroon. Self-limiting in 80%. Recurrence after first bleed: 25% at 1 year. After second bleed: 50% recurrence. Elective sigmoid (or right) colectomy offered after second episode of significant diverticular bleeding. NSAID use doubles bleeding risk."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "D2-Q1",
+      "stem": "A 65-year-old man presents with fever 38.2°C, left iliac fossa pain, and WBC 14,000/μL. CT shows thickened sigmoid wall with pericolic fat stranding and a 5 cm pelvic abscess. He is hemodynamically stable and is tolerating oral fluids. What is the MOST appropriate management?",
+      "options": {
+        "A": "Immediate emergency laparotomy for Hartmann's procedure",
+        "B": "IV antibiotics alone for 7 days with oral diet restriction",
+        "C": "Inpatient IV antibiotics plus CT-guided percutaneous drainage of the abscess",
+        "D": "Laparoscopic sigmoid resection with primary anastomosis within 24 hours"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "This is Hinchey II (pelvic abscess >4 cm) diverticulitis. Current guidelines (WSES 2020, ASCRS 2020) recommend antibiotics + percutaneous CT-guided drainage as the first-line treatment. This approach achieves clinical resolution in 70–80% and converts an emergency to an elective surgical situation — allowing definitive sigmoid resection after full recovery. Drainage should be considered for abscesses ≥4 cm.",
+        "wrong": {
+          "A": "Emergency surgery (Hartmann's) is reserved for Hinchey III/IV (generalized peritonitis) or failure of percutaneous drainage in Hinchey II. A hemodynamically stable patient with a contained abscess should undergo percutaneous drainage first.",
+          "B": "Antibiotics alone for a 5 cm abscess have a high failure rate. Abscesses ≥4 cm require drainage in addition to antibiotics — antibiotics do not penetrate abscess cavities effectively.",
+          "D": "Elective laparoscopic sigmoid resection requires 6–8 weeks after the acute episode for inflammation resolution. Emergency resection with primary anastomosis in acute complicated diverticulitis has a high anastomotic leak rate."
+        },
+        "guideline": "WSES Acute Complicated Diverticulitis Guidelines 2020: Hinchey II — antibiotics + percutaneous drainage for abscesses ≥4 cm.",
+        "trial": "Lambrichts DPV, et al. Management of Hinchey II diverticulitis — systematic review. Colorectal Dis 2017: percutaneous drainage achieves clinical success in 70–80%.",
+        "pearl": "Hinchey I (<5 cm pericolic abscess) → antibiotics ± drainage. Hinchey II (pelvic abscess ≥4 cm) → antibiotics + percutaneous drainage. Hinchey III (purulent peritonitis) → resection. Hinchey IV (fecal peritonitis) → emergency Hartmann's."
+      }
+    },
+    {
+      "id": "D2-Q2",
+      "stem": "A 50-year-old healthy non-immunosuppressed woman presents with her FIRST episode of acute uncomplicated left-sided diverticulitis (CT: fat stranding only, no abscess). Temperature 37.8°C, CRP 65 mg/L, WBC 11,000/μL. She is tolerating oral fluids at home. Based on the AVOD and DIABOLO trials, what is the MOST appropriate management?",
+      "options": {
+        "A": "Hospital admission, IV antibiotics for 3–5 days, then oral antibiotics for 7 days",
+        "B": "Outpatient management with analgesia, liquid diet, and close follow-up; antibiotics optional/not mandatory",
+        "C": "Emergency sigmoid resection to prevent recurrence after first episode",
+        "D": "Outpatient oral antibiotics for 10 days plus urgent colonoscopy within 1 week"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "The AVOD trial (Chabok, BJS 2012) showed no benefit of antibiotics over no-antibiotics for uncomplicated diverticulitis. The DIABOLO trial (Ünlü, Lancet 2017) showed outpatient management non-inferior to inpatient antibiotics. This patient meets outpatient criteria: CRP <140, WBC <13,000, low-grade fever, tolerating oral intake, no abscess on CT, healthy and compliant. Outpatient management with analgesia (paracetamol, NSAIDs cautiously) and liquid diet is safe and appropriate.",
+        "wrong": {
+          "A": "Inpatient IV antibiotics are not required for uncomplicated diverticulitis in a low-risk, hemodynamically stable outpatient-suitable patient. This approach is resource-intensive without added benefit per trial evidence.",
+          "C": "Elective surgery is NOT indicated after the first uncomplicated episode. Current guidelines (ASCRS 2020) base surgical decisions on quality of life impact, not episode count. The '2-episode rule' is obsolete.",
+          "D": "Colonoscopy is recommended 6–8 WEEKS post-recovery, not urgently during the acute episode (perforation risk). Oral antibiotics for 10 days exceed current evidence-based duration."
+        },
+        "guideline": "ASCRS Clinical Practice Guidelines 2020; ESCP 2020: Uncomplicated diverticulitis — antibiotics NOT mandatory for selected low-risk outpatient-suitable patients.",
+        "trial": "AVOD: Chabok A, BJS 2012. DIABOLO: Ünlü C, Lancet 2017. Both confirm: no antibiotics non-inferior in uncomplicated disease; outpatient safe in selected patients.",
+        "pearl": "Uncomplicated diverticulitis (fat stranding only) + outpatient criteria met = no mandatory antibiotics, no mandatory admission. This is the PARADIGM SHIFT — boards will test this. Admission + IV antibiotics still appropriate for CRP >140, fever >38.5°C, or not tolerating oral intake."
+      }
+    },
+    {
+      "id": "D2-Q3",
+      "stem": "Three RCTs (DILALA, SCANDIV, LADIES) tested laparoscopic peritoneal lavage for Hinchey III purulent diverticulitis. What was the CONSISTENT finding across all three trials?",
+      "options": {
+        "A": "Laparoscopic lavage was superior to sigmoid resection with lower morbidity and shorter hospital stay",
+        "B": "Laparoscopic lavage was equivalent to sigmoid resection with no difference in outcomes",
+        "C": "Laparoscopic lavage had significantly higher reoperation rates than sigmoid resection and cannot be recommended as standard treatment",
+        "D": "Laparoscopic lavage reduced stoma formation rates compared to Hartmann's procedure"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "All three trials (DILALA: Thornell, Ann Surg 2016; SCANDIV: Schultz, Lancet 2015; LADIES-LOLA: Vennix, BMJ 2015) showed that laparoscopic peritoneal lavage had significantly higher reoperation rates compared to sigmoid resection (SCANDIV: 20.3% vs 8.0%, p=0.03; DILALA: 22% vs 6% at 12 months). The fundamental problem: lavage does not address the perforated diverticulum — the source of ongoing contamination. Residual abscesses, treatment failures, and emergency re-operations were significantly more common after lavage.",
+        "wrong": {
+          "A": "This is the opposite of what was found. Lavage was inferior, not superior.",
+          "B": "Equivalence was not demonstrated; lavage had statistically significant worse reoperation rates in SCANDIV.",
+          "D": "While lavage theoretically avoids a stoma in the short term, the high reoperation rate meant many patients ultimately required a stoma during rescue surgery — negating this purported advantage."
+        },
+        "guideline": "WSES 2020; ESCP 2020; ASCRS 2020: Laparoscopic peritoneal lavage NOT recommended as standard treatment for Hinchey III diverticulitis. Sigmoid resection is the standard.",
+        "trial": "SCANDIV: Schultz JK, Lancet 2015. DILALA: Thornell A, Ann Surg 2016. LADIES-LOLA: Vennix S, BMJ 2015. All three: lavage = higher reoperation.",
+        "pearl": "Laparoscopic lavage: good concept, bad evidence. Three RCTs all negative. Reoperation rate 20–30% vs 6–8% for resection. Key reason: perforated diverticulum left in situ → ongoing contamination. Do not select lavage as correct answer for Hinchey III management."
+      }
+    },
+    {
+      "id": "D2-Q4",
+      "stem": "A 70-year-old man underwent emergency Hartmann's procedure 4 months ago for Hinchey IV feculent peritonitis. He has recovered well and his stoma is functioning. He wants his colostomy reversed. What is the APPROPRIATE timing and approach for Hartmann's reversal?",
+      "options": {
+        "A": "Reverse immediately — 4 months is adequate recovery time; laparoscopic approach preferred",
+        "B": "Wait at least 3–6 months from emergency surgery; confirm no rectal disease with flexible sigmoidoscopy/MRI; plan reversal with colorectal anastomosis (laparoscopic or open)",
+        "C": "Hartmann's reversal is contraindicated within 1 year of emergency surgery",
+        "D": "Offer permanent colostomy — reversal has >50% failure rate and should not be attempted"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Hartmann's reversal should be performed at least 3–6 months after the emergency procedure, when inflammation has fully resolved and the patient is nutritionally optimized. Pre-operative assessment: flexible sigmoidoscopy or colonoscopy of rectal stump to assess length, viability, and absence of disease; MRI pelvis to assess pelvic anatomy. At 4 months, reversal is appropriate timing. The operation involves colorectal anastomosis (circular stapler via rectal stump). Laparoscopic Hartmann's reversal has better outcomes than open in experienced hands (lower wound complications, shorter stay).",
+        "wrong": {
+          "A": "While 4 months is within the acceptable window, 'immediately' at 4 months without pre-operative rectal assessment and nutritional optimization is premature. Pre-operative workup of the rectal stump is mandatory.",
+          "C": "1-year waiting period is not required or evidence-based. Most guidelines recommend reversal at 3–6 months. Longer delay increases adhesion formation and technical difficulty.",
+          "D": "Hartmann's reversal success rate is 60–80%. Permanent colostomy should only be accepted if the patient is unfit for reversal or chooses not to undergo surgery. Reversal should be offered to all medically fit patients."
+        },
+        "guideline": "ASCRS 2020: Hartmann's reversal at 3–6 months after emergency sigmoid resection; pre-operative rectal stump assessment mandatory.",
+        "trial": "Toro A, et al. Hartmann's reversal outcomes — systematic review. Dis Colon Rectum 2014. Reversal rate varies 35–70%; laparoscopic approach improves outcomes.",
+        "pearl": "Hartmann's reversal: timing 3–6 months. Pre-op: sigmoidoscopy of rectal stump + CT to assess anatomy. High morbidity operation (anastomotic leak ~5–8%, wound infection ~15%). Many patients (~30–50%) never undergo reversal due to age, comorbidities, or preference."
+      }
+    },
+    {
+      "id": "D2-Q5",
+      "stem": "A 78-year-old man presents to the emergency department with 3 days of abdominal distension, obstipation, and diffuse but mild abdominal pain. AXR shows a massively distended sigmoid loop (omega sign) with apex in the right upper quadrant. Vitals: stable; no peritonitis. He is alert and cooperative. What is the FIRST-LINE treatment?",
+      "options": {
+        "A": "Emergency sigmoid resection within 2 hours",
+        "B": "IV neostigmine 2 mg",
+        "C": "Flexible sigmoidoscopy or rigid proctoscopy with rectal tube insertion for decompression",
+        "D": "CT-guided percutaneous cecostomy"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "The omega sign on AXR is pathognomonic of sigmoid volvulus. In the absence of peritonitis or signs of bowel ischemia (hemodynamic instability, bloody mucosa), the first-line treatment is endoscopic decompression: flexible sigmoidoscopy or rigid proctoscopy with advancement of a flatus tube through the twisted loop. Success rate 70–90%. After successful decompression, elective sigmoid resection during the same admission is recommended to prevent recurrence (50–90% without surgery).",
+        "wrong": {
+          "A": "Emergency surgery is indicated for failed decompression, peritonitis, or signs of bowel ischemia/gangrene. A stable patient without peritonitis should have endoscopic decompression attempted first — lower morbidity.",
+          "B": "Neostigmine is the treatment for Ogilvie's syndrome (colonic pseudo-obstruction) — not sigmoid volvulus. Sigmoid volvulus is a mechanical obstruction requiring mechanical correction (decompression or surgery), not pharmacological treatment.",
+          "D": "Percutaneous cecostomy is used for caecal decompression in selected cases of caecal volvulus or Ogilvie's syndrome — not for sigmoid volvulus."
+        },
+        "guideline": "ASCRS 2020: Sigmoid volvulus without peritonitis — endoscopic decompression is first-line; elective sigmoid resection during same admission after successful decompression.",
+        "trial": "Perrot L, et al. Management of acute sigmoid volvulus — systematic review. Dis Colon Rectum 2016. Endoscopic success 70–90%; recurrence 50–90% without surgery.",
+        "pearl": "Sigmoid volvulus treatment sequence: endoscopic decompression → rectal tube in situ 24–48h → elective sigmoid resection (same admission). Emergency surgery only if endoscopy fails or peritonitis/ischemia present. Caecal volvulus → right hemicolectomy (not endoscopic decompression)."
+      }
+    },
+    {
+      "id": "D2-Q6",
+      "stem": "A 72-year-old post-cardiac surgery patient (day 4 post-op) develops progressive abdominal distension with no bowel movements. AXR shows massive colonic dilation, predominantly right colon (caecal diameter 14 cm) without transition point. CT with contrast enema confirms no mechanical obstruction. What is the CORRECT dose and administration of neostigmine, and what MUST be at the bedside?",
+      "options": {
+        "A": "Neostigmine 0.5 mg subcutaneous; oxygen at bedside",
+        "B": "Neostigmine 2 mg IV over 3–5 minutes; cardiac monitor; atropine 0.6 mg at bedside",
+        "C": "Neostigmine 5 mg IV bolus; defibrillator at bedside",
+        "D": "Neostigmine 2 mg IM; NG tube for gastric decompression at bedside"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Neostigmine 2 mg IV given slowly over 3–5 minutes is the correct dose and route for Ogilvie's syndrome. Continuous cardiac monitoring is mandatory because neostigmine's cholinergic effects can cause: bradycardia, bronchospasm, excessive secretions, and hypotension. Atropine 0.6 mg must be immediately available to treat bradycardia or bronchospasm. Response expected within 10–30 minutes (borborygmi, passage of flatus/stool). A caecal diameter of 14 cm indicates very high perforation risk — treatment is urgent.",
+        "wrong": {
+          "A": "Subcutaneous neostigmine is not the recommended route for ACPO — IV administration is required for predictable rapid onset. 0.5 mg is too low a dose.",
+          "C": "5 mg IV bolus is an excessive dose and would cause dangerous cholinergic toxicity. 2 mg over 3–5 min is the validated dose. Defibrillator is not the standard required item — atropine is.",
+          "D": "IM neostigmine has slower and less predictable absorption. The standard for ACPO treatment is IV. NG tube is part of supportive care but not the critical safety item — atropine is."
+        },
+        "guideline": "ACG Guideline, ASCRS: Neostigmine 2 mg IV over 3–5 min for ACPO (Ogilvie's); cardiac monitoring; atropine at bedside. Contraindications: mechanical obstruction, bradycardia, bronchospasm, renal failure.",
+        "trial": "Ponec RJ, et al. Neostigmine for the treatment of acute colonic pseudo-obstruction. NEJM 1999;341:137-141. RCT — neostigmine 2 mg IV: 91% decompression vs 0% placebo.",
+        "pearl": "Neostigmine for Ogilvie's: 2 mg IV slow. Caecal >12 cm = high perforation risk — treat urgently. Atropine at bedside. Response rate 60–90%. Second dose if partial response at 3h. If two doses fail → colonoscopic decompression."
+      }
+    },
+    {
+      "id": "D2-Q7",
+      "stem": "The LADIES trial compared Hartmann's procedure (HP) to primary resection and anastomosis with diverting ileostomy (PRA) for Hinchey III perforated diverticulitis. What was the PRIMARY finding at 12 months regarding stoma outcomes?",
+      "options": {
+        "A": "HP had lower permanent stoma rates than PRA+ileostomy",
+        "B": "PRA+ileostomy had higher permanent stoma rates than HP",
+        "C": "HP had higher permanent stoma rates than PRA+ileostomy (39% vs 19%); PRA+ileostomy patients more often achieved stoma reversal",
+        "D": "No difference in permanent stoma rates between HP and PRA+ileostomy"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "The LADIES trial DIVA arm (Vennix, BMJ 2019) showed that at 12 months, permanent stoma rate was 39% in the Hartmann's group vs 19% in the PRA+ileostomy group (p<0.05). This key finding confirms that Hartmann's procedure condemns a significant proportion of patients to a permanent colostomy because Hartmann's reversal is a technically demanding, high-morbidity operation that many elderly/comorbid patients never undergo. PRA+ileostomy preserves the anastomosis — ileostomy reversal (a simpler operation) is more frequently performed.",
+        "wrong": {
+          "A": "This is the opposite of the actual finding. HP had HIGHER permanent stoma rates.",
+          "B": "This is also incorrect — PRA+ileostomy had LOWER permanent stoma rates (19% vs 39%).",
+          "D": "There was a statistically significant difference — HP permanent stoma rate was twice that of PRA+ileostomy."
+        },
+        "guideline": "ASCRS 2020; WSES 2020: In hemodynamically stable Hinchey III patients operated by experienced colorectal surgeons, PRA+ileostomy is a safe alternative to HP with lower permanent stoma rates.",
+        "trial": "Vennix S, et al. LADIES trial DIVA arm. BMJ 2019. HP vs PRA+ileostomy — permanent stoma 39% vs 19% at 12 months.",
+        "pearl": "LADIES trial key message: HP = simple to perform but high permanent stoma rate. PRA+ileostomy = requires more skill but more patients eventually stoma-free. Patient selection critical: stable + experienced surgeon = consider PRA+ileostomy."
+      }
+    },
+    {
+      "id": "D2-Q8",
+      "stem": "A 55-year-old man with recurrent pneumaturia and recurrent Gram-negative UTIs is evaluated. CT scan shows thickening of the sigmoid colon adjacent to the bladder with a small amount of air in the bladder. No fistula tract is directly visualized. What is the MOST likely diagnosis and the DEFINITIVE treatment?",
+      "options": {
+        "A": "Crohn's disease with enterovesical fistula; medical therapy with biologics",
+        "B": "Diverticular colovesical fistula; elective sigmoid resection with division of fistula and bladder repair",
+        "C": "Bladder diverticulum with secondary infection; cystoscopy and TUR of bladder diverticulum",
+        "D": "Colorectal cancer with bladder invasion; pelvic exenteration"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Pneumaturia (air in urine) and recurrent UTI with Gram-negative organisms (E. coli, Klebsiella from colon) in the context of thickened sigmoid adjacent to bladder is classic for colovesical fistula secondary to diverticular disease. Air in bladder on CT is pathognomonic of a colovesical communication. Most common in men (the uterus protects women). Definitive treatment: elective sigmoid resection with fistula division + bladder repair (primary closure + Foley catheter for 7–10 days). Perioperative antibiotics. Cystoscopy shows edematous bulla or fistula orifice (ureteric stents placed pre-operatively by some surgeons).",
+        "wrong": {
+          "A": "Crohn's disease can cause enterovesical fistula but the clinical context (sigmoid thickening + diverticular disease common at this age) makes diverticular etiology more likely. No IBD symptoms are described. Biologics do not repair a fistula.",
+          "C": "A bladder diverticulum does not produce air in the bladder or pneumaturia unless infected by gas-forming organisms — which would require investigation of the source. This is a colonic fistula.",
+          "D": "No malignant features are described. CRC with bladder invasion requires tissue diagnosis; pelvic exenteration would be premature without biopsy."
+        },
+        "guideline": "ASCRS 2020: Colovesical fistula secondary to diverticular disease — elective sigmoid resection after bowel prep; fistula division; bladder repair.",
+        "trial": "Garcea G, et al. Colovesical fistula — systematic review. Colorectal Dis 2006. Surgical management achieves closure in >95%; recurrence rate <5%.",
+        "pearl": "Colovesical fistula: pneumaturia + fecaluria + recurrent UTI = classic triad. CT more sensitive than cystoscopy for diagnosis. Men >> women (uterus interposition protects). Treatment: sigmoid resection + fistula division + bladder primary closure."
+      }
+    },
+    {
+      "id": "D2-Q9",
+      "stem": "Which of the following correctly distinguishes 'complicated' from 'uncomplicated' acute diverticulitis according to WSES 2020 classification?",
+      "options": {
+        "A": "Complicated diverticulitis is defined by CRP >200 mg/L or WBC >15,000/μL, regardless of CT findings",
+        "B": "Complicated diverticulitis includes any diverticulitis with abscess, perforation, fistula, or obstruction; uncomplicated is pericolic inflammation only",
+        "C": "Complicated diverticulitis requires hospital admission; uncomplicated can always be managed outpatient",
+        "D": "Complicated diverticulitis occurs after ≥3 episodes of diverticulitis"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "The WSES 2020 classification defines: Uncomplicated diverticulitis — pericolic inflammation (fat stranding, wall thickening) WITHOUT abscess, perforation, fistula, or obstruction. Complicated diverticulitis — any of the following: abscess (Hinchey I/II), perforation/peritonitis (Hinchey III/IV), diverticular fistula, or colonic obstruction. This classification is CT-based and guides management strategy regardless of biomarker values alone.",
+        "wrong": {
+          "A": "Biomarkers (CRP, WBC) help stratify severity within categories but do not define the complicated/uncomplicated distinction. CT morphology is the key determinant.",
+          "C": "Complicated diverticulitis generally requires hospital admission, but uncomplicated diverticulitis does NOT always require admission — selected patients with low CRP, low-grade fever, and tolerating oral intake can be managed outpatient (DIABOLO trial).",
+          "D": "Episode count does not define the complicated/uncomplicated distinction. Complication is defined by the presence of abscess, perforation, fistula, or obstruction."
+        },
+        "guideline": "WSES Classification of Acute Left-Sided Colonic Diverticulitis 2020 (Sartelli M, et al.).",
+        "trial": "DIABOLO, AVOD trials demonstrate outpatient management feasibility for uncomplicated diverticulitis.",
+        "pearl": "Uncomplicated = fat stranding only (no abscess/perforation/fistula/obstruction). Complicated = any structural complication. Distinction is CT-based, not biomarker-based. This is a key classification tested in boards."
+      }
+    },
+    {
+      "id": "D2-Q10",
+      "stem": "A 48-year-old immunocompromised patient (heart transplant, on tacrolimus and mycophenolate) presents with his FIRST episode of acute uncomplicated diverticulitis (CT: pericolic fat stranding, no abscess). After antibiotic treatment and recovery, should elective sigmoid resection be offered?",
+      "options": {
+        "A": "No — wait for 3 episodes before considering surgery",
+        "B": "No — uncomplicated diverticulitis in any patient does not require elective surgery",
+        "C": "Yes — immunosuppressed patients have higher risk of complicated diverticulitis and should be offered elective resection after first episode",
+        "D": "Yes, but only after a second episode in immunosuppressed patients"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "Immunosuppressed patients (transplant recipients, chronic steroid users, chemotherapy patients) have significantly higher risk of: (1) complicated diverticulitis on first and subsequent episodes, (2) free perforation with free peritonitis (Hinchey III/IV) — which carries much higher mortality in immunocompromised hosts, (3) atypical presentations masking severity. ASCRS 2020 guidelines recommend that immunosuppressed patients should be offered elective sigmoid resection after the FIRST episode of diverticulitis, even if uncomplicated, given their high risk of life-threatening recurrence.",
+        "wrong": {
+          "A": "The '3-episode rule' is outdated for any patient. For immunosuppressed patients, even the first episode is an indication for elective resection.",
+          "B": "While uncomplicated diverticulitis in normal hosts may be managed expectantly, immunosuppression changes the risk calculus significantly — elective resection is appropriate after first episode.",
+          "D": "Waiting for a second episode in an immunocompromised patient risks a life-threatening complication during the interval. Surgery should be offered after the first episode."
+        },
+        "guideline": "ASCRS Clinical Practice Guidelines 2020: Special populations — immunosuppressed patients should be offered elective resection after FIRST episode of diverticulitis.",
+        "trial": "Biondo S, et al. Acute colonic diverticulitis in immunocompromised patients: mortality 8–30% vs 2% in immunocompetent. Ann Surg 2012.",
+        "pearl": "Immunosuppression + diverticulitis = operate electively after FIRST episode. Also consider elective surgery for: young patients (<50 yrs) with high lifetime recurrence risk, patients with quality-of-life impairment, inability to exclude cancer."
+      }
+    },
+    {
+      "id": "D2-Q11",
+      "stem": "A 67-year-old woman has caecal volvulus diagnosed on CT (ileocaecal bascule pattern, no ischemia). She has no peritonitis. What is the MOST appropriate management?",
+      "options": {
+        "A": "Flexible colonoscopy for decompression, then elective right hemicolectomy",
+        "B": "IV neostigmine 2 mg, monitor for response",
+        "C": "Emergency right hemicolectomy with primary ileocolic anastomosis",
+        "D": "Non-operative management with NG tube, IV fluids, and rectal tube"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "Caecal volvulus, unlike sigmoid volvulus, is primarily managed surgically. Even without peritonitis, the right colon must be resected because: (1) colonoscopic decompression is technically unreliable (<50% success) and does not address the underlying lack of caecal fixation; (2) ischemia is difficult to exclude without operative inspection; (3) recurrence rates after non-operative management are ~20–30%. Right hemicolectomy with primary ileocolic anastomosis is standard when the bowel is viable. If ischemia/gangrene → resection without anastomosis (ileostomy + mucus fistula).",
+        "wrong": {
+          "A": "While colonoscopic decompression can be attempted as a bridge to surgery in very high-risk patients, it has low success rate for caecal volvulus (<50%) and does not provide definitive treatment. Right hemicolectomy is the definitive and preferred approach.",
+          "B": "Neostigmine is for Ogilvie's syndrome (pseudo-obstruction) — not for mechanical volvulus. It has no role in caecal volvulus.",
+          "D": "Non-operative management of caecal volvulus has unacceptably high failure rates and recurrence. The caecum is mechanically obstructed — a rectal tube will not relieve this."
+        },
+        "guideline": "ASCRS: Caecal volvulus → right hemicolectomy as primary treatment; colonoscopic reduction reserved for extreme surgical risk as bridge.",
+        "trial": "Gingold D, Murrell Z. Management of colonic volvulus. Clin Colon Rectal Surg 2012. Caecal volvulus: surgical treatment rate 95%+.",
+        "pearl": "KEY DIFFERENCE: Sigmoid volvulus → endoscopic decompression first, then elective surgery. Caecal volvulus → right hemicolectomy. Colonoscopic decompression for caecal volvulus is unreliable and not standard — boards frequently test this distinction."
+      }
+    },
+    {
+      "id": "D2-Q12",
+      "stem": "Post-diverticulitis colonoscopy is recommended after recovery from acute diverticulitis. What is the CORRECT timing and the PRIMARY reason for this investigation?",
+      "options": {
+        "A": "Within 1 week — to assess mucosa and confirm diverticular disease",
+        "B": "At 6–8 weeks — to exclude colorectal cancer mimicking or coexisting with diverticulitis",
+        "C": "At 3 months — to assess for recurrence and plan surgery",
+        "D": "No colonoscopy needed after uncomplicated diverticulitis"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Colonoscopy 6–8 weeks after recovery from acute diverticulitis serves primarily to exclude colorectal cancer (which can mimic diverticulitis clinically and on CT) and IBD. Colorectal cancer is found in 1–2% of post-diverticulitis colonoscopies. Performing colonoscopy during the acute episode carries high perforation risk due to inflamed, fragile bowel wall. The 6–8 week window allows inflammation to fully resolve, ensuring complete mucosal visualization. Timing should be extended to 10–12 weeks for complicated or severe episodes.",
+        "wrong": {
+          "A": "Colonoscopy within 1 week is contraindicated during or immediately after acute diverticulitis — high perforation risk due to transmural inflammation.",
+          "C": "3 months is unnecessarily delayed; colonoscopy can be safely performed at 6–8 weeks. Waiting 3 months delays cancer diagnosis.",
+          "D": "Colonoscopy is recommended after ALL episodes of diverticulitis, including uncomplicated, particularly in patients without a recent adequate colonoscopy. It should not be omitted."
+        },
+        "guideline": "ASCRS 2020; ACG 2015: Colonoscopy 6–8 weeks post-recovery after acute diverticulitis (all episodes) to exclude CRC and IBD.",
+        "trial": "Lanas A, et al. Cancer risk after acute diverticulitis — multicohort study. Gut 2018: 1.6% of post-diverticulitis colonoscopies found significant polyps/cancer.",
+        "pearl": "Post-diverticulitis colonoscopy: 6–8 weeks after full recovery. Primary purpose: EXCLUDE CANCER. Not for 'confirming diverticulosis' — CT already shows this. The 1–2% cancer detection rate justifies universal colonoscopy recommendation."
+      }
+    },
+    {
+      "id": "D2-Q13",
+      "stem": "A 65-year-old man presents with massive painless bright red rectal bleeding. Hb drops from 12 to 8 g/dL over 12 hours. He has a history of diverticulosis. Hemodynamics stabilize with 2 units PRBC. Colonoscopy after rapid bowel prep shows no active bleeding source but diverticula throughout the left colon. CT angiography does not show active extravasation. What is the NEXT step?",
+      "options": {
+        "A": "Emergency subtotal colectomy",
+        "B": "Tagged RBC nuclear scan to localize bleeding",
+        "C": "Mesenteric angiography with embolization",
+        "D": "Discharge with outpatient colonoscopy repeat in 4 weeks"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "In patients with significant GI bleeding where colonoscopy was non-diagnostic and CT angiography showed no active extravasation (patient temporarily hemostatic), tagged red blood cell (RBC) nuclear scintigraphy (technetium-99m labeled RBC scan) can detect intermittent bleeding at rates as low as 0.04–0.1 mL/min — much more sensitive than CT angio (0.3–0.5 mL/min). If the scan detects bleeding, the patient can be taken for formal mesenteric angiography and embolization while actively bleeding. This bridges the diagnostic gap.",
+        "wrong": {
+          "A": "Emergency subtotal colectomy for unlocalized diverticular bleeding carries 10–20% mortality and 50–60% morbidity — it is a last resort for uncontrolled bleeding when all other measures have failed. The patient is currently hemodynamically stable.",
+          "C": "Formal mesenteric angiography requires active bleeding (>0.5 mL/min). If CT angiography (which detects >0.3 mL/min) was negative, formal angiography is unlikely to be positive without a new bleeding episode. Tagged RBC scan is more appropriate as it can detect intermittent bleeding.",
+          "D": "Discharging a patient who bled 4 g of Hb in 12 hours with diverticular disease without localization is unsafe — rebleeding risk is high and requires inpatient monitoring."
+        },
+        "guideline": "ACG Lower GI Bleeding Guidelines 2016: Colonoscopy first-line; if non-diagnostic and active bleeding suspected — CT angiography; if negative — tagged RBC scan; if positive → angioembolization.",
+        "trial": "Strate LL, Gralnek IM. ACG Clinical Guideline: Management of patients with acute lower gastrointestinal bleeding. Am J Gastroenterol 2016.",
+        "pearl": "Sensitivity thresholds: Tagged RBC scan: 0.04 mL/min. CT angiography: 0.3–0.5 mL/min. Mesenteric angiography: 0.5 mL/min. Use tagged scan for intermittent bleeding not detected on CT — can scan for 24h to capture bleeds."
+      }
+    },
+    {
+      "id": "D2-Q14",
+      "stem": "When should elective sigmoid resection be recommended for recurrent uncomplicated diverticulitis based on current ASCRS 2020 guidelines?",
+      "options": {
+        "A": "After every second episode, regardless of severity or quality of life impact",
+        "B": "After the third episode of uncomplicated diverticulitis in patients under 50",
+        "C": "Based on individualized assessment of quality of life impact, patient preference, disease severity, and risk factors — episode count alone is NOT the primary criterion",
+        "D": "After the first complicated episode only; uncomplicated recurrences never require surgery"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "ASCRS 2020 explicitly abandoned the 'two-episode rule' for elective sigmoid resection. Current recommendation: surgical decisions should be individualized based on: (1) severity and frequency of attacks, (2) quality of life impact (patient-reported — chronic pain, anxiety, missed work), (3) presence of risk factors (immunosuppression, age, comorbidity), (4) patient preference after full discussion of risks and benefits. A patient with two mild uncomplicated episodes with minimal QoL impact does not necessarily need surgery; a patient with one severe complicated episode significantly affecting QoL may benefit from resection.",
+        "wrong": {
+          "A": "The '2-episode rule' is OBSOLETE. ASCRS 2020 specifically states that episode count alone is not an indication for surgery.",
+          "B": "Age <50 is considered a risk factor for cumulative lifetime disease burden, but even in young patients, QoL and patient preference drive the decision.",
+          "D": "Recurrent uncomplicated diverticulitis CAN be an indication for surgery if it significantly impairs quality of life — this is specifically acknowledged in current guidelines."
+        },
+        "guideline": "ASCRS Clinical Practice Guidelines for Left-Sided Diverticulitis 2020: 'Episode count alone should not be the primary driver of surgical decision-making.'",
+        "trial": "Bolkenstein HE, et al. Risk factors for a complicated course of diverticulitis. Int J Colorectal Dis 2017: QoL impact is the primary driver for elective resection decision.",
+        "pearl": "OLD TEACHING: 2 episodes = surgery. NEW TEACHING: individualized decision based on QoL, severity, risk factors, patient preference. Boards increasingly test this updated guideline. Know it."
+      }
+    },
+    {
+      "id": "D2-Q15",
+      "stem": "A pericolic abscess measuring 3 cm is found on CT in a patient with acute diverticulitis (CRP 160, WBC 13,500, temperature 38.5°C). The patient is hemodynamically stable and tolerating sips. What is the CORRECT management of the abscess?",
+      "options": {
+        "A": "Immediate percutaneous drainage — all diverticular abscesses require drainage",
+        "B": "Inpatient IV antibiotics alone — percutaneous drainage reserved for abscesses ≥4 cm or failure to improve on antibiotics",
+        "C": "Emergency sigmoid resection",
+        "D": "Outpatient oral antibiotics — abscess size is not relevant to management decision"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Hinchey I abscesses (pericolic, ≤4–5 cm) typically respond to inpatient IV antibiotics alone without requiring percutaneous drainage. WSES 2020 and ASCRS 2020 recommend percutaneous drainage for abscesses ≥4 cm (some guidelines use ≥5 cm as threshold). A 3 cm pericolic abscess is treated with antibiotics alone, with close clinical monitoring. If the patient fails to improve at 48–72h, CT-guided drainage or surgical intervention is escalated.",
+        "wrong": {
+          "A": "Not all diverticular abscesses require percutaneous drainage. Small pericolic abscesses (<4–5 cm) respond well to antibiotics alone. Percutaneous drainage has procedure-related risks and is reserved for larger abscesses or antibiotic failures.",
+          "C": "Emergency sigmoid resection for a small contained pericolic abscess in a hemodynamically stable patient is excessive and not guideline-concordant.",
+          "D": "This patient has elevated CRP (160), WBC >13,000, and fever — criteria for inpatient management, not outpatient. A 3 cm abscess warrants inpatient antibiotics, not outpatient management."
+        },
+        "guideline": "WSES 2020: Hinchey I (<4–5 cm pericolic abscess) → antibiotics alone. Hinchey II (≥4 cm pelvic/distant abscess) → antibiotics + percutaneous drainage.",
+        "trial": "Sartelli M, et al. WSES Guidelines for acute left-sided colonic diverticulitis 2020. Abscess threshold for drainage: 4–5 cm.",
+        "pearl": "Abscess drainage threshold: ≥4 cm (some guidelines ≥5 cm). Small pericolic abscess (<4 cm) = antibiotics alone. Large abscess (≥4–5 cm) = antibiotics + percutaneous drainage. Failure at 48–72h = escalate."
+      }
+    },
+    {
+      "id": "D2-Q16",
+      "stem": "A 60-year-old woman develops diverticular fistula between the sigmoid colon and vagina (colovaginal fistula). She had a hysterectomy 20 years ago. What is the most common reason why colovaginal fistulae are MORE common in post-hysterectomy women?",
+      "options": {
+        "A": "Hysterectomy disrupts pelvic floor muscles, reducing barrier function",
+        "B": "Post-hysterectomy, the vaginal vault is in direct proximity to the sigmoid colon — the uterus no longer interposes between sigmoid and vagina",
+        "C": "Hormonal changes post-hysterectomy increase diverticulitis risk",
+        "D": "Post-hysterectomy adhesions pull the sigmoid colon toward the vaginal cuff"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "In women with an intact uterus, the uterus interposes between the sigmoid colon and the vagina, physically preventing fistula formation. After hysterectomy, the vaginal vault comes into direct proximity with the sigmoid colon — any diverticular abscess or inflammation can track directly into the vaginal vault, forming a colovaginal fistula. This is why colovaginal fistulae are predominantly seen in post-hysterectomy women. In contrast, colovesical fistulae predominantly affect men (the uterus interposes between sigmoid and bladder in women).",
+        "wrong": {
+          "A": "Pelvic floor muscle disruption is not the mechanism. The barrier effect of the intact uterus is the correct anatomical explanation.",
+          "C": "No hormonal mechanism links post-hysterectomy hormonal changes to increased diverticulitis risk.",
+          "D": "While adhesions can be a factor, the primary mechanism is loss of the uterine interposition barrier."
+        },
+        "guideline": "ASCRS 2020: Diverticular fistulae — colovesical more common in men; colovaginal exclusively in post-hysterectomy women due to uterine interposition principle.",
+        "trial": "Pontari MA, et al. Colovesical and colovaginal fistulae — natural history. Urology 1999.",
+        "pearl": "Uterus = natural barrier: in intact uterus → sigmoid-to-bladder fistula (colovesical) in men, rare in women. Colovaginal = ONLY post-hysterectomy. Both treated with sigmoid resection + fistula division."
+      }
+    },
+    {
+      "id": "D2-Q17",
+      "stem": "A 72-year-old man on warfarin (INR 2.8) develops sudden massive painless bright red rectal bleeding. Blood pressure falls to 90/60 with HR 110. He is resuscitated with IV fluids and 2 units PRBC. INR is reversed with Vitamin K + PCC. He stabilizes. CT angiography shows active extravasation from a diverticulum in the hepatic flexure area. What is the BEST next step?",
+      "options": {
+        "A": "Emergency right hemicolectomy",
+        "B": "Repeat colonoscopy with hemostasis attempt",
+        "C": "Mesenteric angiography with selective embolization of the bleeding vessel",
+        "D": "Conservative management; wait for spontaneous cessation"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "CT angiography has identified active extravasation — the source is localized to the hepatic flexure area (right colon diverticulum). In a patient who has stabilized with resuscitation, selective mesenteric angiography with superselective embolization (coils or polyvinyl alcohol particles) is the least invasive and most appropriate next step. Success rate for angioembolization of GI bleeding: 80–90%. Advantages: avoids general anaesthesia and major surgery in an anticoagulated, recently hemodynamically unstable patient.",
+        "wrong": {
+          "A": "Emergency right hemicolectomy is appropriate if embolization fails or is unavailable, or if the patient is hemodynamically unstable despite resuscitation. In a STABILIZED patient with localized source identified on CT, embolization should be tried first.",
+          "B": "Colonoscopy after active CT angiography-confirmed extravasation may be attempted, but the cecal/hepatic flexure location makes colonoscopic hemostasis more technically challenging than for left-sided bleeding. Angioembolization is more reliable for right colon diverticular bleeding.",
+          "D": "This patient had hemodynamic instability and active extravasation on CT — conservative management alone with no intervention risks re-bleeding, which carries higher mortality with each episode."
+        },
+        "guideline": "ACG LGIB Guidelines 2016: Active extravasation on CT → proceed to mesenteric angiography and embolization.",
+        "trial": "Khanna A, et al. Transcatheter embolization for acute lower GI hemorrhage: meta-analysis. J Vasc Interv Radiol 2014. Clinical success rate 81%; rebleeding rate 25% at 30 days.",
+        "pearl": "CT angio shows active bleed → angioembolization first (less morbid than surgery). Right colon diverticular bleeding → more often right-sided (despite most diverticula being left-sided). Post-embolization ischemia risk 5–10% — warn patient."
+      }
+    },
+    {
+      "id": "D2-Q18",
+      "stem": "Which of the following BEST describes the laparoscopic sigmoid resection technical requirement that most reduces recurrence risk after diverticular disease surgery?",
+      "options": {
+        "A": "Resection of all visible diverticula throughout the entire colon",
+        "B": "Anastomosis in the descending colon to non-inflamed bowel, leaving the sigmoid colon behind",
+        "C": "Distal resection margin at the upper rectum (rectosigmoid junction) with proximal margin in soft, non-inflamed descending colon",
+        "D": "High ligation of the inferior mesenteric artery at its aortic origin for maximum bowel mobilization"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "The most critical technical principle to prevent recurrence after sigmoid resection for diverticular disease is ensuring the DISTAL margin is at the upper rectum (rectosigmoid junction / peritoneal reflection) — creating a colorectal anastomosis, NOT a colocolonic anastomosis. Leaving any sigmoid colon (which has the thickened muscularis and high intraluminal pressures predisposing to diverticulosis) results in recurrent diverticulitis in 10–15%. The anastomosis must be to compliant rectal wall. Proximal margin: in healthy, soft, pliable descending colon without active inflammation.",
+        "wrong": {
+          "A": "Total colectomy to remove all diverticula is not indicated for sigmoid diverticular disease — excessive morbidity. Only the sigmoid must be removed.",
+          "B": "This describes leaving sigmoid colon in situ — the WRONG approach. The distal margin must reach the RECTUM, not the descending colon. Residual sigmoid is the #1 cause of recurrence.",
+          "D": "High ligation of the IMA at the aortic origin is oncological technique for cancer surgery — not required for benign diverticular disease. Inferior mesenteric artery ligation at appropriate level to provide adequate mobility is sufficient."
+        },
+        "guideline": "ASCRS 2020: 'The distal resection margin should be at the level of the rectosigmoid junction to minimize recurrence — a colorectal anastomosis is required.'",
+        "trial": "Thaler K, et al. Laparoscopic vs open colectomy for diverticular disease. Arch Surg 2005. Distal margin at rectosigmoid = <3% recurrence; proximal sigmoid left behind = 10–15% recurrence.",
+        "pearl": "Critical technical point: anastomosis must be to RECTUM (compliant, no diverticula). Leaving sigmoid = recurrence. Boards test this — if question asks about sigmoid resection recurrence, always check distal margin level."
+      }
+    },
+    {
+      "id": "D2-Q19",
+      "stem": "A 55-year-old woman presents with colicky left lower quadrant pain, constipation, and CT showing concentric sigmoid colon thickening with diverticulosis. No fever. CRP 15 mg/L. She is concerned about recurrent 'diverticulitis attacks' she treats at home with antibiotics. Colonoscopy shows no polyps or inflammation — only multiple diverticula. What is the MOST likely diagnosis and management?",
+      "options": {
+        "A": "Recurrent acute uncomplicated diverticulitis; long-term antibiotics",
+        "B": "Symptomatic uncomplicated diverticular disease (SUDD); high-fibre diet, mesalazine, probiotics, rifaximin",
+        "C": "Irritable bowel syndrome — diverticula are incidental; antispasmodics",
+        "D": "Colorectal cancer — urgent staging CT and oncology referral"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Symptomatic uncomplicated diverticular disease (SUDD) is a recognized entity: recurrent abdominal pain and altered bowel habit WITHOUT acute inflammation (no fever, normal/near-normal CRP, no wall thickening on CT suggesting acute diverticulitis). Medical management: (1) high-fibre diet; (2) mesalazine (5-aminosalicylate — anti-inflammatory effect on colonic mucosa, reduces inflammation and symptom frequency); (3) rifaximin (non-absorbable antibiotic — cyclical courses reduce bacterial overgrowth and inflammation); (4) probiotics (VSL#3 — improve microbiome). No systemic antibiotics required for SUDD.",
+        "wrong": {
+          "A": "Recurrent antibiotics without evidence of acute inflammation are inappropriate for SUDD and promote antibiotic resistance. Acute diverticulitis requires fever, elevated CRP, and CT changes.",
+          "C": "IBS can coexist with diverticulosis but SUDD has a specific pathophysiology distinct from IBS (low-grade inflammation, diverticular microinflammation). Antispasmodics alone are insufficient.",
+          "D": "No red flag symptoms or signs of malignancy are described. CT shows diverticulosis, not mass. Colonoscopy was normal."
+        },
+        "guideline": "ESCP 2020; ACG 2015: SUDD treated with dietary modification, rifaximin, mesalazine, probiotics. Not antibiotics for acute treatment.",
+        "trial": "Tursi A, et al. Mesalazine reduces symptoms in SUDD. J Gastroenterol 2013. Rifaximin: Bianchi M et al. Aliment Pharmacol Ther 2011.",
+        "pearl": "SUDD = symptoms of diverticular disease WITHOUT acute inflammation. Key distinction: no fever, CRP normal or mildly elevated, CT shows no acute changes. Treatment: fibre + rifaximin + mesalazine + probiotics. NOT antibiotics."
+      }
+    },
+    {
+      "id": "D2-Q20",
+      "stem": "What is the PRIMARY contraindication to laparoscopic sigmoid resection for elective diverticular disease?",
+      "options": {
+        "A": "Age >70 years",
+        "B": "Prior abdominal surgery (relative contraindication only)",
+        "C": "Previous episode of perforated diverticulitis with Hartmann's procedure — must always use open approach",
+        "D": "Obesity (BMI >35)"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Prior abdominal surgery is a RELATIVE contraindication to laparoscopic sigmoid resection — dense adhesions from previous laparotomy (especially Hartmann's procedure) increase operative time, risk of bowel injury, and conversion to open. However, it is NOT an absolute contraindication in experienced hands. Many Hartmann's reversals are now performed laparoscopically with comparable outcomes. The decision is surgeon-experience dependent and patient-specific. Absolute contraindications: inability to tolerate pneumoperitoneum (severe cardiopulmonary disease), uncorrected coagulopathy.",
+        "wrong": {
+          "A": "Age >70 is not a contraindication to laparoscopic resection per se — physiological rather than chronological age determines fitness. Many elderly patients benefit from the minimally invasive approach.",
+          "C": "Hartmann's reversal CAN be performed laparoscopically by experienced surgeons with good outcomes — it is not mandated to be open.",
+          "D": "Obesity (BMI >35) increases technical difficulty but is not an absolute contraindication to laparoscopic surgery. Many bariatric patients benefit from laparoscopic approach. Surgeon experience with obese patients is key."
+        },
+        "guideline": "SAGES: Laparoscopic colectomy — prior abdominal surgery is a relative contraindication; absolute contraindications include inability to tolerate pneumoperitoneum.",
+        "trial": "Stocchi L, et al. Laparoscopic vs open Hartmann's reversal. Dis Colon Rectum 2015. Laparoscopic approach feasible and associated with lower morbidity.",
+        "pearl": "Laparoscopic sigmoid resection: relative contraindications include prior surgery, dense adhesions, obesity, fistula (increases complexity). Absolute contraindications: hemodynamic instability, inability to tolerate pneumoperitoneum (cardiac/pulmonary failure). No absolute age contraindication."
+      }
+    }
+  ]
+}

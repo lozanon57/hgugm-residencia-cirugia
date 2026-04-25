@@ -1,0 +1,950 @@
+{
+  "id": "A1",
+  "title": "Principles of Surgical Oncology",
+  "subtitle": "Surgical Oncology — Biological Basis, Margins, and Multidisciplinary Care",
+  "block": "A",
+  "block_name": "Surgical Oncology",
+  "level": "PGY1-2",
+  "reading_time_min": 75,
+  "guidelines_version": "NCCN Principles of Surgical Oncology 2024 · UICC Manual of Clinical Oncology 9th ed.",
+  "textbook_refs": [
+    "Schwartz's Principles of Surgery, 11th ed., Ch. 10",
+    "DeVita, Hellman & Rosenberg's Cancer: Principles & Practice, 11th ed.",
+    "Sobin LH. TNM Classification of Malignant Tumours, 8th ed. (UICC)",
+    "UICC Manual of Clinical Oncology, 9th ed. (Gospodarowicz et al.)"
+  ],
+  "learning_objectives": [
+    "Explain the biological basis of tumour invasion and metastasis relevant to surgical decision-making",
+    "Apply R-classification (R0/R1/R2) and interpret its prognostic implications",
+    "Justify the principles of lymphadenectomy and sentinel node biopsy",
+    "Describe the rationale and sequencing of neoadjuvant and adjuvant therapy",
+    "Define the structure and evidence base for multidisciplinary tumour boards",
+    "Cite level-1 evidence for minimally invasive oncological surgery (CLASSIC, COREAN, COLOR II)",
+    "Describe the tumour microenvironment and its role in immunotherapy response",
+    "Apply liquid biopsy concepts to clinical decision-making",
+    "Perform systematic perioperative risk assessment for oncological procedures",
+    "Apply margin principles across different tumour types and contexts"
+  ],
+  "sections": [
+    {
+      "id": "A1-S1",
+      "title": "Biological Basis of Surgical Oncology",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Surgical oncology is grounded in an understanding of tumour biology that extends far beyond anatomy. The decision to operate — and how to operate — is shaped by the biological behaviour of the tumour: its growth kinetics, invasive capacity, metastatic potential, and response to systemic agents. Modern surgical oncology has moved decisively away from the principle of 'maximum tolerable surgery' toward 'minimum effective surgery', guided by molecular profiling, multimodal treatment, and high-quality surgical technique."
+        },
+        {
+          "type": "text",
+          "content": "Carcinogenesis follows a multi-step process in which normal cells acquire successive mutations conferring growth advantage. The Hanahan and Weinberg hallmarks of cancer framework identifies ten acquired capabilities: sustained proliferative signalling, evasion of growth suppressors, resistance to cell death, replicative immortality, induction of angiogenesis, activation of invasion and metastasis, avoidance of immune destruction, tumour-promoting inflammation, deregulated cellular energetics, and genome instability. Each hallmark represents a potential therapeutic target and shapes tumour behaviour the surgeon must anticipate."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Warburg Effect",
+          "content": "The **Warburg effect** (aerobic glycolysis) is exploited clinically in PET imaging: 18F-FDG accumulates in metabolically active tumour cells. PET-CT is most useful where high glycolytic activity distinguishes tumour from normal tissue — notably lymphoma, oesophageal cancer, and colorectal liver metastases."
+        },
+        {
+          "type": "text",
+          "content": "Local tumour invasion proceeds through disruption of basement membrane integrity, degradation of extracellular matrix (ECM) by matrix metalloproteinases (MMPs), epithelial-mesenchymal transition (EMT), and directed cell migration. EMT — in which epithelial cells acquire mesenchymal phenotype (loss of E-cadherin, gain of vimentin and N-cadherin) — is central to both local invasion and the first steps of haematogenous metastasis. Circulating tumour cells (CTCs) and circulating tumour DNA (ctDNA) are clinical manifestations of this process now entering routine oncological practice."
+        },
+        {
+          "type": "text",
+          "content": "The metastatic cascade requires: local invasion, intravasation into blood or lymph vessels, survival in circulation, extravasation at a distant site, micrometastasis formation, and finally outgrowth to clinically detectable macrometastasis. Each step is inefficient — fewer than 0.01% of circulating tumour cells form successful metastases. The concept of the 'pre-metastatic niche' (Kaplan, Nature 2005) — bone marrow-derived progenitor cells conditioning distant organs before tumour cell arrival — has reshaped understanding of early systemic spread."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Application — Organotropism",
+          "content": "Understanding metastatic organotropism guides surveillance planning. Colorectal cancer metastasises preferentially to the liver (portal venous drainage) and lung. Gastric cancer spreads to peritoneum, liver, and ovaries (Krukenberg tumour). Breast cancer targets bone, lung, liver, and brain. Melanoma can metastasise virtually anywhere, including unusual sites (small bowel, adrenal). This organ specificity reflects molecular interactions between tumour cells and organ-specific stroma ('seed and soil' hypothesis, Paget 1889)."
+        },
+        {
+          "type": "text",
+          "content": "Tumour microenvironment (TME) profoundly influences surgical outcomes. High stromal content (desmoplasia) creates physical barriers to drug delivery and is associated with worse prognosis in pancreatic and breast cancer. Tumour-infiltrating lymphocytes (TILs), particularly CD8+ cytotoxic T-cells, correlate with improved survival in colorectal, breast, and melanoma and are increasingly used as prognostic biomarkers. Immunotherapy-responsive tumours — characterised by microsatellite instability-high (MSI-H) or high tumour mutational burden (TMB-H) — may achieve pathological complete response with neoadjuvant checkpoint inhibition, potentially allowing organ-preserving strategies."
+        },
+        {
+          "type": "table",
+          "title": "Key Biomarkers in Surgical Oncology — Clinical Implications",
+          "headers": ["Biomarker", "Tumour Type", "Surgical Implication", "Therapeutic Implication"],
+          "rows": [
+            ["MSI-H / dMMR", "CRC, endometrial, gastric", "Lynch syndrome: risk-reducing colectomy at first CRC", "Pembrolizumab first-line; organ preservation in rectal cancer"],
+            ["BRCA1/2 germline", "Breast, ovarian, pancreatic", "Risk-reducing surgery (RRSO, prophylactic mastectomy)", "PARP inhibitors (olaparib); platinum sensitivity"],
+            ["HER2 overexpression", "Breast, gastric, biliary", "No direct surgical implication", "Trastuzumab; TDM-1; T-DXd"],
+            ["RAS/BRAF", "CRC", "Guides resection strategy in metastatic disease", "Anti-EGFR therapy only if RAS/BRAF wild-type"],
+            ["TMB-High", "Pan-tumour", "No direct surgical implication", "Pembrolizumab (FDA tumour-agnostic approval)"],
+            ["CDH1 germline", "Gastric (diffuse type)", "Prophylactic total gastrectomy recommended 20-30y", "No systemic therapy implication currently"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Biomarker Timing",
+          "content": "Biomarker testing must occur BEFORE committing to a treatment plan. Discovering MSI-H status after a rectal cancer patient has already completed CRT forfeits the opportunity for neoadjuvant checkpoint inhibition with potential complete response. Test all colorectal cancers for MSI/MMR at diagnosis, not as an afterthought."
+        }
+      ]
+    },
+    {
+      "id": "A1-S2",
+      "title": "Surgical Margins: R-Classification and Oncological Adequacy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The completeness of surgical resection is the single most surgically controllable prognostic factor in solid tumour surgery. The International Union Against Cancer (UICC) R-classification provides the universal language for describing resection completeness: R0 (no residual tumour — microscopically clear margins), R1 (microscopic residual tumour at the resection margin), and R2 (macroscopic residual tumour). This classification applies to the primary resection and any metastasectomy and must be recorded for every oncological procedure."
+        },
+        {
+          "type": "table",
+          "title": "R-Classification — Definitions and Clinical Implications",
+          "headers": ["Classification", "Definition", "Margin Status", "Clinical Impact"],
+          "rows": [
+            ["R0", "No residual tumour", "All margins microscopically clear", "Best oncological outcome; curative intent achieved"],
+            ["R1", "Microscopic residual", "Tumour at ink on pathological examination", "↑ Local recurrence; adjuvant therapy typically indicated"],
+            ["R2", "Macroscopic residual", "Visible tumour left behind", "Palliative intent only; survival equivalent to no surgery in most tumours"],
+            ["Rx", "Cannot be assessed", "Margins not evaluable", "Avoid — reflects inadequate surgical/pathological practice"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "The minimum acceptable margin width beyond which R0 can be declared remains tumour-specific and controversially debated. For colorectal liver metastases, the historical 1cm margin has been superseded by evidence that margin width is less important than the presence or absence of tumour cells at the margin — a sub-millimetre clearance achieved with anatomical precision yields equivalent outcomes to wider margins. For retroperitoneal sarcoma, 1mm clearance is frequently unavoidable given anatomical constraints, yet is functionally R0 if no tumour cells are at the inked margin. For pancreatic cancer, the Royal College of Pathologists UK protocol defines R1 as tumour within 1mm of the resection margin — an international consensus yet to be universally adopted."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — R1 and Re-resection",
+          "content": "Do not conflate **R1** with **re-resection** eligibility. In breast-conserving surgery, R1 mandates re-excision. In rectal cancer surgery, R1 does not — adjuvant chemoradiotherapy is the standard response. Context, tumour biology, patient fitness, and anatomical feasibility all govern the decision. Always discuss R1 cases at the MDT before committing to re-operation."
+        },
+        {
+          "type": "text",
+          "content": "The concept of circumferential resection margin (CRM) is particularly important in rectal cancer. MRI-defined CRM threat — tumour within 1mm of the mesorectal fascia propria on preoperative staging — is the key indication for neoadjuvant chemoradiotherapy. Pathological CRM involvement (R1) increases local recurrence risk from 6% to 22% (MERCURY Study Group, Lancet 2006) and is an independent predictor of worse disease-specific survival. Reporting CRM distance in mm should be mandatory in all rectal cancer pathology reports."
+        },
+        {
+          "type": "table",
+          "title": "Tumour-Specific Margin Definitions — Board High-Yield",
+          "headers": ["Tumour", "R0 Definition", "Key Reference", "Clinical Context"],
+          "rows": [
+            ["Breast (BCS)", "No ink on tumour (2014 SSO/ASTRO)", "Moran, Ann Surg Oncol 2014", "Re-excision if ink on tumour; wider margins unnecessary"],
+            ["Rectal cancer", "CRM >1mm pathologically", "Quirke, Lancet 2009", "R1 = independent predictor of local recurrence and DSS"],
+            ["Pancreatic cancer (UK/EU)", "Tumour >1mm from all margins", "RCPath 2010 standard", "Higher R1 rates with UK vs US protocol — 70% vs 20%"],
+            ["Colorectal liver mets", "No tumour at inked margin (any width)", "Pawlik, Ann Surg 2005", "Sub-mm clearance equivalent to 1cm margin"],
+            ["Retroperitoneal sarcoma", "No tumour at inked surface", "ESMO 2021", "1mm clearance = R0 if no ink on tumour"],
+            ["Gastric cancer", "≥5cm proximal (diffuse), ≥3cm (intestinal)", "JGCA 5th ed. 2021", "Frozen section of proximal margin mandatory"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "NCCN Surgical Oncology Principles 2024",
+          "content": "R0 resection is the primary goal of curative-intent surgery for all solid tumours. When R0 is not achievable with acceptable morbidity, the case should be discussed at MDT to consider: (1) neoadjuvant therapy to downsize, (2) modified surgical approach, (3) intraoperative radiotherapy (IORT), or (4) palliative intent declaration. Debulking surgery (R2) is only indicated in specific circumstances with proven survival benefit (ovarian cancer cytoreduction, neuroendocrine liver metastases)."
+        }
+      ]
+    },
+    {
+      "id": "A1-S3",
+      "title": "Principles of Lymphadenectomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Regional lymph node dissection serves two purposes in surgical oncology: therapeutic (removal of nodal metastases) and staging (accurate pathological N-category). These purposes are not always separable and the balance between them drives the extent of lymphadenectomy in each tumour type. The therapeutic value of nodal dissection — whether removal of microscopic nodal disease improves survival beyond what systemic therapy achieves — remains one of the most debated questions in surgical oncology."
+        },
+        {
+          "type": "text",
+          "content": "Minimum lymph node yield is mandated for adequate staging in most tumour types. For colorectal cancer, NCCN requires ≥12 lymph nodes for adequate staging — fewer nodes suggest inadequate resection or sampling and may lead to understaging. For gastric cancer, the Japanese Gastric Cancer Association (JGCA) mandates ≥16 nodes. For breast cancer, sentinel node biopsy has replaced routine axillary dissection for clinically node-negative disease, with ACOSOG Z0011 establishing that completion axillary dissection can be safely omitted in patients with 1–2 positive sentinel nodes undergoing breast-conserving surgery with whole-breast irradiation."
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "ACOSOG Z0011 (Giuliano, JAMA 2011)",
+          "content": "**Population:** 891 women with T1-T2 breast cancer, 1–2 positive sentinel nodes, breast-conserving surgery + whole-breast RT. **Result:** No difference in 10-year OS (86.3% SLN alone vs 83.6% ALND, p=0.02 for non-inferiority) or locoregional recurrence. **Practice change:** Completion axillary lymph node dissection eliminated for this patient group, significantly reducing arm morbidity."
+        },
+        {
+          "type": "text",
+          "content": "The sentinel lymph node (SLN) concept, pioneered by Morton for melanoma (1992) and Giuliano for breast cancer (1993), relies on the principle that lymphatic drainage from a primary tumour follows an anatomically predictable route to the first-echelon (sentinel) node before involving further nodes. Negative SLN accurately predicts negative nodal basin with 95% accuracy, sparing the majority of patients the morbidity of complete nodal dissection. Technical requirements include dual-agent mapping (radioisotope + blue dye or fluorescent tracer), minimum retrieval of ≥3 sentinel nodes, and experienced surgeon performance."
+        },
+        {
+          "type": "table",
+          "title": "Sentinel Node Biopsy — Validated Contexts and Limitations",
+          "headers": ["Tumour", "Standard Indication", "Key Evidence", "Limitation"],
+          "rows": [
+            ["Breast (cN0)", "T1-T2 clinically node-negative", "Z0011, AMAROS trials", "Not validated post-neoadjuvant in all settings"],
+            ["Melanoma (>T1b)", "All invasive melanoma ≥0.8mm", "MSLT-I trial", "No OS benefit from completion dissection if SLN+"],
+            ["Vulvar cancer", "T1-T2, <4cm, unifocal", "GROINSS-V trial", "Not applicable if CIN or high-risk histology"],
+            ["Endometrial", "Emerging standard cN0", "SENTI-ENDO trial", "Not all centres validated"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Skip metastases — involvement of non-sentinel, higher-echelon nodes without SLN positivity — occur in a minority of cases (5–10% in gastric cancer, <3% in colorectal cancer) and represent a biological phenomenon rather than a technical failure. Their existence does not invalidate SLN biopsy but does highlight the importance of understanding tumour-specific lymphatic patterns before adopting sentinel node techniques outside their validated contexts."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Lymph Node Ratio",
+          "content": "The **lymph node ratio** (positive nodes ÷ total nodes harvested) is a more robust prognostic marker than absolute node count in colorectal and gastric cancer, as it corrects for variation in specimen quality. A ratio >0.25 in colorectal cancer is independently associated with worse disease-specific survival even within the same N-category."
+        }
+      ]
+    },
+    {
+      "id": "A1-S4",
+      "title": "Neoadjuvant and Adjuvant Therapy: Rationale and Sequencing",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The integration of systemic therapy with surgical resection defines modern multimodal oncology. The timing of therapy relative to surgery — neoadjuvant (before) versus adjuvant (after) — is not arbitrary but reflects evidence-based rationale for each tumour type. The fundamental advantage of neoadjuvant therapy is the opportunity to treat micrometastatic disease in a patient with intact performance status, to downsize the primary tumour (potentially converting borderline-resectable to resectable disease), to assess tumour chemoresponsiveness in vivo, and to reduce the risk of intraoperative tumour cell dissemination."
+        },
+        {
+          "type": "table",
+          "title": "Neoadjuvant vs Adjuvant Therapy — Comparative Rationale",
+          "headers": ["Characteristic", "Neoadjuvant", "Adjuvant"],
+          "rows": [
+            ["Timing", "Before surgery", "After surgery"],
+            ["Micrometastasis treatment", "Earlier; patient fitter", "Delayed; post-operative recovery"],
+            ["Tumour downsizing", "Yes — may improve resectability", "Not applicable"],
+            ["Chemoresponsiveness assessment", "Yes — pathological response evaluable", "No"],
+            ["Risk if non-responder", "Tumour progression; delayed surgery", "No risk to resection"],
+            ["Key examples", "Rectal CRT, gastric FLOT, breast HER2+", "Colorectal FOLFOX, breast endocrine Rx"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "The concept of total neoadjuvant therapy (TNT) — delivering all planned chemotherapy and radiotherapy before surgery — has emerged most powerfully in rectal cancer (RAPIDO trial, 2021; PRODIGE-23, 2021). TNT improves pathological complete response (pCR) rates from approximately 15% to 25–28%, potentially enabling non-operative management (watch-and-wait) in complete clinical responders. Achieving pCR after TNT correlates with excellent oncological outcomes — 5-year disease-free survival exceeding 90% in complete responders in the OPRA trial."
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "RAPIDO Trial (Bahadoer, Lancet Oncology 2021)",
+          "content": "**Population:** 920 patients with high-risk rectal cancer (mrT4a/b, mrN2, EMVI+, mrCRM+). **Intervention:** Short-course RT (25 Gy) + 18 weeks CAPOX/FOLFOX → surgery. **Result:** 3-year disease-related treatment failure 23.7% vs 30.4% (standard CRT → surgery → adjuvant chemo). pCR 28.4% vs 14.3%. **Practice change:** Established total neoadjuvant therapy as a standard option for high-risk rectal cancer in Europe."
+        },
+        {
+          "type": "text",
+          "content": "Adjuvant chemotherapy after curative resection aims to eliminate residual micrometastatic disease not removed by surgery. Its benefit must be established by randomised evidence demonstrating survival improvement — not assumed. Level-1 evidence supports adjuvant FOLFOX for stage III and high-risk stage II colorectal cancer (MOSAIC trial, André, NEJM 2004), adjuvant S-1 or capecitabine for D2-resected gastric cancer (ACTS-GC; CLASSIC trial), and adjuvant endocrine therapy for hormone receptor-positive breast cancer (decades of EBCTCG meta-analyses)."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Pathological Complete Response",
+          "content": "Pathological complete response (pCR) — defined as ypT0 N0 after neoadjuvant therapy — is the strongest surrogate endpoint for long-term survival in breast and rectal cancer. In triple-negative breast cancer, pCR predicts 90%+ disease-free survival at 5 years. In rectal cancer (RAPIDO, OPRA), pCR enables consideration of non-operative management (watch-and-wait). pCR rates drive decisions about de-escalation (omit surgery) or escalation (add agents for non-pCR)."
+        }
+      ]
+    },
+    {
+      "id": "A1-S5",
+      "title": "Multidisciplinary Tumour Board",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The multidisciplinary tumour board (MDT) — also termed tumour board, multidisciplinary team meeting, or case conference — is the institutional mechanism by which complex oncological decisions are made collectively by specialists with complementary expertise. Far from a bureaucratic formality, MDT review has been demonstrated in multiple studies to change treatment recommendations in 20–32% of cases reviewed, with changes predominantly toward more active and guideline-concordant management."
+        },
+        {
+          "type": "text",
+          "content": "A complete MDT for surgical oncology includes, at minimum: the operating surgeon, medical oncologist, radiation oncologist, diagnostic radiologist (with subspecialty expertise), pathologist, and specialist nurse or patient navigator. For complex tumours — rectal cancer, hepatopancreatic-biliary, peritoneal oncology — additional subspecialists (hepatologist, interventional radiologist, palliative care physician) and allied health professionals are incorporated. The HGUGM Servicio de Cirugía General y Aparato Digestivo holds weekly oncological MDT meetings with mandatory presentation of all new solid tumour diagnoses before treatment initiation."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "NCCN Evidence for MDT",
+          "content": "Studies from multiple cancer centres demonstrate that MDT review: (1) changes management in 20–32% of cases; (2) increases adherence to clinical guidelines by 20–40%; (3) is independently associated with improved disease-specific survival in colorectal, breast, lung, and upper GI cancers (Kesson, Lancet 2012: breast cancer MDT associated with 18% reduction in cancer-specific mortality). All NCCN guidelines carry a Category 2A recommendation that decisions be made within a multidisciplinary context."
+        },
+        {
+          "type": "case",
+          "content": "A 67-year-old man presents with a 3.5cm sigmoid mass on CT, no distant metastases. Colonoscopy and biopsy confirm moderately differentiated adenocarcinoma. CEA is 18 ng/mL. The surgeon reviews the imaging and plans laparoscopic left hemicolectomy. Before scheduling the procedure, the case is presented at the weekly MDT.",
+          "discussion": "At MDT, the radiologist notes a 1.2cm equivocal liver lesion in segment VI — not clearly characterised on CT. The MDT recommends MRI liver ± contrast-enhanced ultrasound before surgery. MRI reveals a 1.5cm segment VI metastasis. The case is reclassified as stage IVA. Management changes from curative colectomy to systemic chemotherapy (FOLFOX ± bevacizumab) with reassessment for simultaneous or staged resection. Without MDT review, the patient would have received a suboptimal single-modality treatment."
+        },
+        {
+          "type": "text",
+          "content": "Effective MDT function requires more than attendance — it requires high-quality imaging review, complete pathological reporting, documented treatment recommendations, and follow-up on outcomes. MDT dysfunction is associated with time pressure, incomplete imaging, absent key specialists, and failure to document decisions. Regular MDT audit using validated tools (TEAM tool, MDT-MOT) is recommended by NICE and ESMO to maintain quality standards."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — MDT Quality",
+          "content": "An MDT meeting is only as good as the quality of information presented. Incomplete staging imaging, missing pathology results, and absent subspecialty expertise render MDT decisions unreliable. Never present a case to MDT without: complete cross-sectional imaging, histological confirmation, performance status documented, and all relevant biomarker results. Incomplete MDT presentation is worse than no MDT — it creates false confidence in an incomplete decision."
+        }
+      ]
+    },
+    {
+      "id": "A1-S6",
+      "title": "Minimally Invasive Oncological Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The adoption of minimally invasive surgery (MIS) in oncology — laparoscopic and robotic approaches — has been one of the most consequential technical developments of the past three decades. Initial scepticism about oncological equivalence has been systematically addressed by multiple high-quality randomised controlled trials demonstrating non-inferiority for cancer-specific outcomes in selected tumour types and settings. The established benefits of MIS — reduced blood loss, shorter hospital stay, faster recovery, and reduced wound complications — are now achievable without oncological compromise."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "CLASSIC Trial",
+          "citation": "Kim HH, Lancet Oncol 2010; 5-year follow-up Lancet 2014",
+          "population": "1,056 patients with resectable gastric cancer (T2-T4a, N0-N3, M0), randomised to laparoscopic-assisted vs open distal gastrectomy with D2 lymphadenectomy",
+          "intervention": "Laparoscopic-assisted distal gastrectomy with D2 lymphadenectomy vs open distal gastrectomy",
+          "result": "5-year OS: 69.2% laparoscopic vs 62.2% open (p=0.004, non-inferiority confirmed). DFS 58.9% vs 54.4%. Comparable nodal yield and R0 rates.",
+          "practice_change": "Established laparoscopic D2 distal gastrectomy as oncologically equivalent to open surgery for resectable gastric cancer in experienced centres."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "COLOR II Trial",
+          "citation": "van der Pas MHGM, N Engl J Med 2013",
+          "population": "1,044 patients with non-metastatic rectal cancer ≤15cm from anal verge, randomised to laparoscopic vs open resection with TME",
+          "intervention": "Laparoscopic TME vs open TME",
+          "result": "3-year locoregional recurrence: 5.0% laparoscopic vs 5.0% open. OS and DFS equivalent. R0 resection rate and circumferential margin involvement equivalent. Laparoscopic: less blood loss, shorter hospital stay.",
+          "practice_change": "Confirmed non-inferiority of laparoscopic TME for rectal cancer, enabling widespread adoption of laparoscopic rectal surgery in specialist centres."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "COREAN Trial",
+          "citation": "Kang SB, Lancet 2010",
+          "population": "340 patients with mid/low rectal cancer after preoperative CRT, randomised to laparoscopic vs open TME",
+          "intervention": "Laparoscopic TME vs open TME after preoperative CRT",
+          "result": "3-year DFS: 72.3% laparoscopic vs 71.6% open (non-inferiority p=0.003). Local recurrence rate and R0 equivalent. Laparoscopic: superior short-term outcomes.",
+          "practice_change": "First RCT demonstrating non-inferiority of laparoscopic TME after preoperative CRT — the most common clinical scenario for mid/low rectal cancer."
+        },
+        {
+          "type": "table",
+          "title": "MIS vs Open Surgery — Evidence Summary by Tumour Type",
+          "headers": ["Tumour", "Trial", "Oncological Outcome", "Recommendation"],
+          "rows": [
+            ["Colon cancer", "COLOR, CLASSIC", "Non-inferior OS and DFS; equivalent LN yield", "Laparoscopic preferred at experienced centres"],
+            ["Rectal cancer (mid/low)", "COLOR II, COREAN", "Non-inferior; equivalent CRM+ rates in specialist centres", "Laparoscopic standard; taTME emerging for narrow pelvis"],
+            ["Gastric cancer (distal)", "CLASSIC", "Non-inferior 5-year OS; equivalent D2 yield", "Laparoscopic D2 distal gastrectomy standard"],
+            ["Rectal (ACOSOG Z6051)", "Z6051, ALaCaRT 2015", "Non-inferiority NOT confirmed for specimen quality", "Requires high-volume centre credentialling"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Robotic vs Laparoscopic",
+          "content": "Non-inferiority of laparoscopic surgery in these trials was demonstrated in **specialist centres** with high laparoscopic volume. The ROLARR trial (Jayne, JAMA 2017) failed to demonstrate superiority of robotic over laparoscopic TME for conversion rate or oncological outcomes. Robot-assisted surgery currently offers ergonomic advantages to the surgeon without proven patient-level oncological benefit over laparoscopic equivalents."
+        },
+        {
+          "type": "text",
+          "content": "Robotic surgery offers potential advantages over standard laparoscopy in anatomically challenging settings — the narrow male pelvis for TME, precise dissection near critical nerves in thyroid and parathyroid surgery, and reconstruction after HPB resection. The ROLARR trial (Jayne, JAMA 2017) failed to demonstrate superiority of robotic over laparoscopic TME for conversion rate (primary endpoint) or oncological outcomes. Robot-assisted surgery currently offers ergonomic advantages to the surgeon without proven patient-level oncological benefit over laparoscopic equivalents."
+        }
+      ]
+    },
+    {
+      "id": "A1-S7",
+      "title": "Tumour Microenvironment & Immunotherapy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The tumour microenvironment (TME) is the complex ecosystem surrounding cancer cells, comprising immune cells, stromal cells, endothelial cells, and non-cellular components including the extracellular matrix and soluble mediators. Far from being a passive bystander, the TME actively promotes or suppresses tumour growth, invasion, metastasis, and therapeutic response. Modern oncology increasingly recognises that treating cancer means targeting not just the tumour cell, but its entire supporting ecosystem."
+        },
+        {
+          "type": "text",
+          "content": "The immune component of the TME is the central target of immunotherapy. CD8+ cytotoxic T-lymphocytes (CTLs) are the primary anti-tumour immune effectors: they recognise cancer-specific antigens presented on MHC class I molecules and execute tumour cell killing. However, tumours deploy multiple immune evasion mechanisms: downregulation of MHC-I expression, upregulation of inhibitory immune checkpoints (PD-L1/PD-1 axis; CTLA-4), secretion of immunosuppressive cytokines (TGF-β, IL-10), and recruitment of regulatory T-cells (Tregs) and tumour-associated macrophages (TAMs) of the M2 immunosuppressive phenotype."
+        },
+        {
+          "type": "table",
+          "title": "Immune Checkpoint Inhibitors — Mechanisms and Clinical Approvals",
+          "headers": ["Drug", "Target", "Mechanism", "Key Approvals in Surgical Oncology"],
+          "rows": [
+            ["Pembrolizumab", "PD-1", "Blocks PD-1/PD-L1 interaction; restores CTL activity", "MSI-H CRC (all lines); TNBC neoadjuvant (KEYNOTE-522); GEJ/gastric HER2- 1st line"],
+            ["Nivolumab", "PD-1", "Anti-PD-1 IgG4 antibody", "HCC (CHECKMATE-459); gastric/GEJ (CHECKMATE-649)"],
+            ["Atezolizumab", "PD-L1", "Blocks PD-L1 on tumour/APC", "TNBC + chemotherapy (IMpassion130)"],
+            ["Durvalumab", "PD-L1", "Consolidation post-CRT", "Stage III NSCLC post-CRT (PACIFIC trial)"],
+            ["Ipilimumab", "CTLA-4", "Blocks CTLA-4; promotes T-cell activation", "Melanoma adjuvant; combination with nivolumab in MSI-H CRC"],
+            ["Dostarlimab", "PD-1", "Anti-PD-1 antibody", "MSI-H rectal cancer neoadjuvant (Cercek, NEJM 2022)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "Dostarlimab in MSI-H Rectal Cancer (Cercek, NEJM 2022)",
+          "content": "**Population:** 12 patients with MSI-H/dMMR locally advanced rectal cancer, neoadjuvant dostarlimab monotherapy for 6 months. **Result:** 100% clinical complete response rate; all 12 patients entered watch-and-wait without surgery at median follow-up 12 months, with no recurrences. **Practice change:** This landmark study demonstrated that neoadjuvant checkpoint inhibition in MSI-H rectal cancer can achieve complete response in all patients, potentially eliminating the need for surgery, radiotherapy, and chemotherapy in this molecular subgroup."
+        },
+        {
+          "type": "text",
+          "content": "Tumour-infiltrating lymphocytes (TILs) are increasingly recognised as prognostic and predictive biomarkers. In triple-negative breast cancer, each 10% increase in stromal TILs is associated with an 18% reduction in the risk of recurrence or death. The International Immuno-Oncology Biomarker Working Group has standardised TIL assessment methodology. For pathological specimens from surgical resections, TIL quantification is rapidly becoming a routine component of the pathology report in breast and other tumour types."
+        },
+        {
+          "type": "text",
+          "content": "Perioperative immune status influences oncological outcomes beyond immunotherapy response. Surgical stress induces transient immunosuppression through neuroendocrine activation, releasing cortisol and catecholamines that suppress NK cell activity and promote regulatory T-cell expansion. This perioperative immune window — the period of maximum immunosuppression immediately post-surgery — may facilitate metastatic outgrowth. Minimising surgical stress, optimising anaesthetic technique (avoiding opioids where possible), and early return to nutrition are all strategies to limit perioperative immunosuppression."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — MSI-H Testing",
+          "content": "MSI/MMR testing is now mandatory in ALL colorectal cancers at diagnosis, not only when Lynch syndrome is suspected. MSI-H status has three distinct clinical implications: (1) stage II CRC — excellent prognosis with surgery alone, no benefit from 5-FU adjuvant chemotherapy; (2) metastatic CRC — pembrolizumab is preferred first-line over chemotherapy (KEYNOTE-177); (3) locally advanced rectal cancer — neoadjuvant checkpoint inhibition (dostarlimab) achieves 100% cCR and potential organ preservation."
+        }
+      ]
+    },
+    {
+      "id": "A1-S8",
+      "title": "Liquid Biopsy & Molecular Diagnostics",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Liquid biopsy refers to the analysis of tumour-derived material in blood or other body fluids — principally circulating tumour DNA (ctDNA), circulating tumour cells (CTCs), and tumour-derived extracellular vesicles (exosomes). These technologies enable minimally invasive molecular profiling of tumour biology, with direct implications for surgical decision-making, treatment selection, and surveillance. The clinical utility of liquid biopsy is advancing rapidly, with several assays achieving regulatory approval and guideline incorporation."
+        },
+        {
+          "type": "text",
+          "content": "Circulating tumour DNA (ctDNA) is released from tumour cells through apoptosis, necrosis, and active secretion. It constitutes a fraction of the total cell-free DNA (cfDNA) in plasma, ranging from <0.1% (early-stage tumours) to >50% (high-burden metastatic disease). ctDNA analysis can detect tumour-specific mutations (e.g., RAS, BRAF, PIK3CA), copy number alterations, and methylation patterns. Key clinical applications include: genotyping when tissue biopsy is insufficient or inaccessible; monitoring treatment response; detecting molecular residual disease (MRD) after curative surgery; and identifying resistance mechanisms at progression."
+        },
+        {
+          "type": "table",
+          "title": "Liquid Biopsy — Clinical Applications in Surgical Oncology",
+          "headers": ["Application", "Technology", "Tumour Type", "Clinical Impact"],
+          "rows": [
+            ["Molecular residual disease (MRD) post-resection", "ctDNA (tumour-informed panels)", "CRC, breast, lung", "MRD+ predicts recurrence with 90%+ specificity before imaging"],
+            ["Treatment resistance monitoring", "ctDNA serial sampling", "Metastatic CRC, breast, NSCLC", "Early detection of RAS mutation emergence with anti-EGFR therapy"],
+            ["Genotyping (tissue insufficient)", "ctDNA next-gen sequencing", "NSCLC, CRC", "Guide targeted therapy when tissue unavailable"],
+            ["Adjuvant chemotherapy selection", "ctDNA MRD", "Stage II-III CRC (DYNAMIC trial)", "ctDNA-guided adjuvant chemotherapy — non-inferior to standard"],
+            ["Monitoring complete response", "ctDNA clearance", "Rectal, breast neoadjuvant", "ctDNA clearance correlates with pCR"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "DYNAMIC Trial (Tie, NEJM 2022)",
+          "content": "**Population:** 455 patients with stage II CRC after curative resection. **Intervention:** ctDNA-guided adjuvant chemotherapy (treat only ctDNA-positive) vs standard care. **Result:** Reduced adjuvant chemotherapy use by 50% in ctDNA-guided arm with equivalent 3-year recurrence-free survival (93.5% vs 92.4%). **Practice change:** Demonstrates feasibility of de-escalating adjuvant therapy in ctDNA-negative stage II CRC — a paradigm shift toward molecularly guided adjuvant decision-making."
+        },
+        {
+          "type": "text",
+          "content": "Circulating tumour cells (CTCs) represent intact cancer cells shed into the peripheral blood. The CellSearch system (FDA-cleared) counts epithelial CTCs in 7.5mL blood — ≥5 CTCs is associated with worse prognosis in metastatic breast, colorectal, and prostate cancer. CTCs enable downstream phenotypic and genomic analysis, including HER2 status, EMT markers, and resistance mutations. CTC enumeration is available as a prognostic tool in clinical practice, though its role in changing treatment decisions remains primarily investigational."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — ctDNA After Curative Surgery",
+          "content": "Detectable ctDNA in blood after curative-intent surgery (perioperative ctDNA positivity) predicts recurrence with high specificity even when conventional imaging is normal — a median lead time of 8–10 months before radiological detection. ctDNA-positive patients after resection of stage II-III CRC have 10-fold higher recurrence risk than ctDNA-negative patients. This assay is currently being incorporated into adjuvant chemotherapy decision algorithms in clinical trials."
+        },
+        {
+          "type": "text",
+          "content": "Tumour mutational burden (TMB) — measured as the number of somatic mutations per megabase of tumour genome — predicts response to PD-1/PD-L1 checkpoint inhibition in a tumour-agnostic manner. TMB-high (≥10 mut/Mb) tumours respond to pembrolizumab regardless of histology, following FDA tumour-agnostic approval based on the KEYNOTE-158 basket trial. The relationship between TMB and MSI-H is strong but imperfect — approximately 15% of TMB-high tumours are MSS and vice versa. Both biomarkers should be assessed in tumours being considered for immunotherapy."
+        }
+      ]
+    },
+    {
+      "id": "A1-S9",
+      "title": "Perioperative Risk Assessment",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Perioperative risk assessment in oncological surgery is a structured process to determine whether a patient can safely tolerate the planned operation, and to optimise modifiable risk factors before surgery. The fundamental distinction in operability assessment is between tumour resectability (technical surgical feasibility) and patient operability (physiological capacity to tolerate surgery). Both must be evaluated independently — a technically resectable tumour in a physiologically unfit patient does not justify surgery."
+        },
+        {
+          "type": "text",
+          "content": "Cardiopulmonary exercise testing (CPET) provides objective, quantitative assessment of integrated cardiorespiratory reserve — the capacity to deliver oxygen to exercising muscles. The anaerobic threshold (AT) — the VO2 at which anaerobic metabolism supplements aerobic ATP production — is the most clinically useful CPET parameter for surgical risk stratification. AT <11 mL/kg/min is associated with a 3-fold increase in major post-operative complications after major abdominal and thoracic surgery. CPET is the reference standard for risk assessment before major oncological procedures in patients with uncertain cardiorespiratory reserve."
+        },
+        {
+          "type": "table",
+          "title": "CPET Risk Stratification for Major Oncological Surgery",
+          "headers": ["Risk Category", "CPET Parameters", "Perioperative Implications", "Management"],
+          "rows": [
+            ["Low risk", "AT ≥11 mL/kg/min; VE/VCO2 slope <34", "Major surgery tolerated with standard care", "Proceed with planned procedure"],
+            ["Intermediate risk", "AT 8–10 mL/kg/min; VE/VCO2 34–42", "Elevated morbidity; HDU care post-operatively", "Prehabilitation 4–8 weeks; HDU booking"],
+            ["High risk", "AT <8 mL/kg/min; VE/VCO2 >42", "Very high morbidity and mortality", "MDT re-evaluation; consider non-surgical alternative"],
+            ["Indeterminate", "Unable to achieve AT (musculoskeletal/pain limitation)", "CPET uninterpretable", "Stress echocardiography; anaesthetic review"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Frailty — a syndrome of diminished physiological reserve across multiple organ systems — is distinct from comorbidity and is the strongest independent predictor of adverse outcome after major surgery in older patients. The Clinical Frailty Scale (CFS, 1–9), modified Frailty Index (mFI), and FRAIL questionnaire are validated frailty screening tools. CFS ≥5 (moderately frail) is associated with 3-fold higher 30-day mortality and 2-fold higher major complication rates after major abdominal surgery. All patients over 65 undergoing major oncological surgery should undergo frailty screening."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Prehabilitation",
+          "content": "Prehabilitation — structured preoperative exercise, nutritional optimisation, and psychological preparation — improves functional capacity before surgery and reduces post-operative complications. A 4–6 week aerobic exercise programme can increase VO2 peak by 5–15%, converting intermediate-risk patients to low-risk. The PREPARE trial demonstrated that multimodal prehabilitation reduced post-operative complications in major colorectal surgery by 30%. Prehabilitation should be offered to all patients with AT 8–11 mL/kg/min."
+        },
+        {
+          "type": "text",
+          "content": "Nutritional assessment and optimisation are integral components of perioperative risk management. Malnutrition — defined by ESPEN as BMI <18.5 kg/m² with unintentional weight loss >5% in 3 months, or reduced food intake combined with reduced muscle mass — affects 20–50% of surgical oncology patients. It doubles post-operative infection rates, quadruples anastomotic leak risk, and triples 30-day mortality. Preoperative nutritional optimisation (enteral or parenteral nutrition for 7–10 days) should be offered to severely malnourished patients before elective cancer surgery."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Cardiac Risk Timing",
+          "content": "Elective major oncological surgery within 6 months of acute myocardial infarction (AMI) carries a 10–15% major adverse cardiac event (MACE) risk. ESC/AHA guidelines recommend a minimum of 4–6 weeks after NSTEMI before elective non-cardiac surgery, and ideally ≥6 months for STEMI. Cardiology clearance and formal risk stratification are mandatory before proceeding. Do not allow oncological urgency to override patient safety — the risk of perioperative cardiac death may exceed the risk of cancer progression during a 6-week delay for most solid tumours."
+        }
+      ]
+    },
+    {
+      "id": "A1-S10",
+      "title": "Surgical Margins — Principles & Definitions",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Margin assessment in surgical oncology begins with the surgeon and ends with the pathologist — but both must share a common language and protocol to ensure meaningful data. The surgeon must orient the specimen, mark the critical margins (radial, deep, circumferential), and communicate to the pathologist which margins are anatomically constrained and which were deliberately extended. The pathologist must apply standardised inking, slicing, and measurement protocols. Without this surgeon-pathologist dialogue, margin data is unreliable and cannot guide subsequent decisions."
+        },
+        {
+          "type": "text",
+          "content": "The concept of the 'threatened margin' versus the 'involved margin' is critical in preoperative planning. On preoperative imaging (MRI, CT), a threatened margin is defined as tumour within 1mm of a critical fascial boundary — the mesorectal fascia in rectal cancer, the muscularis propria in bladder tumours, the renal capsule in adrenal tumours. A threatened margin identifies patients who require neoadjuvant therapy to achieve R0 status or who need a wider resection that was not initially planned. A margin that is threatened on preoperative imaging may still be pathologically clear after resection — the surgeon must dissect at or beyond the threatened boundary."
+        },
+        {
+          "type": "table",
+          "title": "Intraoperative Frozen Section — When and Why",
+          "headers": ["Indication", "Tumour Type", "Decision Informed", "Accuracy"],
+          "rows": [
+            ["Proximal margin adequacy", "Gastric cancer (diffuse type)", "Extent of oesophageal resection", "95%+ for invasive carcinoma"],
+            ["SMA (retroperitoneal) margin", "Pancreatic cancer", "Additional soft tissue excision", "90%+ correlation with permanent"],
+            ["Bile duct margin", "Cholangiocarcinoma/hilar tumours", "Extent of biliary resection", "85–90% accuracy"],
+            ["Sentinel node histology", "Breast, melanoma", "Proceed to ALND or not (intraop decision)", "85% sensitivity"],
+            ["Thyroid/parathyroid gland", "Thyroid cancer", "Extent of neck dissection", "90%+ for papillary thyroid cancer"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Margin Definitions by Tumour Type",
+          "content": "Three margin definitions every surgical oncology trainee must memorise: (1) **Breast BCS**: R0 = no ink on tumour (SSO/ASTRO 2014 consensus) — wider margins do not reduce recurrence if no ink on tumour; (2) **Rectal CRM**: R1 = tumour ≤1mm from the inked mesorectal fascia (Quirke, Lancet 2009) — not 'tumour at ink'; (3) **Pancreas (UK/EU)**: R1 = tumour ≤1mm from any margin on permanent pathology — dramatically different from US definition (ink on tumour = R1)."
+        },
+        {
+          "type": "text",
+          "content": "Intraoperative assessment of margins by surgeons (gross inspection and palpation) has poor correlation with microscopic margin status. In breast-conserving surgery, intraoperative gross assessment identifies only 30–40% of positive margins that are subsequently detected on permanent histology. Intraoperative techniques that improve margin detection include specimen radiology (immediate post-excision X-ray in breast surgery), frozen section of the targeted margin, and fluorescence guidance with tumour-avid contrast agents. None of these technologies has replaced definitive permanent histology as the gold standard for margin assessment."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Gross Margin Assessment",
+          "content": "Do not reassure a patient that their margins are clear based on intraoperative gross assessment alone. Gross assessment is unreliable — microscopic tumour extension beyond the grossly visible lesion is common in diffuse-type gastric cancer, signet ring carcinoma, invasive lobular breast cancer, and mesothelioma. Formal pathological margin assessment on permanent histology is the only valid basis for declaring R0 resection. If in doubt, send additional tissue for frozen section and wait for the result before closing."
+        }
+      ]
+    },
+    {
+      "consolidation": true
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your understanding of surgical oncology principles with 20 clinical questions.",
+    "questions": [
+      {
+        "id": "A1-Q1",
+        "stem": "A 54-year-old woman undergoes left hemicolectomy for pT3 N1a M0 sigmoid carcinoma. The surgical pathology report states 9 lymph nodes are retrieved and 1 is positive. CEA has normalised post-operatively. Which statement best describes the management implications?",
+        "options": {
+          "A": "The patient is adequately staged and should receive adjuvant FOLFOX as planned",
+          "B": "The nodal yield is inadequate — the case should be re-discussed at MDT before adjuvant therapy",
+          "C": "The positive LN ratio of 1/9 indicates high-risk disease requiring intensified chemotherapy",
+          "D": "Re-resection of the anastomotic site is indicated to improve nodal yield"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "NCCN mandates ≥12 lymph nodes for adequate staging of colorectal cancer. With only 9 nodes retrieved, the patient is at risk of understaging — positive nodes that were not harvested could reclassify her to N2 disease. The MDT should review whether re-operation is warranted (rarely indicated), whether the pathologist can identify additional nodes from the specimen, or whether to proceed accepting potentially understaged disease and adjusting surveillance intensity.",
+          "wrong": {
+            "A": "While adjuvant FOLFOX is appropriate for stage III colorectal cancer, proceeding without addressing inadequate nodal yield risks making decisions on inaccurate staging. MDT discussion is mandatory before finalising the adjuvant plan.",
+            "C": "The LNR concept is valid prognostically, but the immediate concern here is staging adequacy — 9 nodes is below the required minimum of 12. LNR analysis is secondary to ensuring adequate staging.",
+            "D": "Re-resection of the anastomotic site does not retrieve additional lymph nodes from the specimen already submitted. If additional nodes are sought, the pathologist should re-examine the specimen. Anastomotic re-resection for this indication is not indicated."
+          },
+          "guideline": "NCCN Colon Cancer v2.2024 — minimum 12 lymph nodes required for adequate staging",
+          "trial": "Chang GJ et al., JAMA 2007: <12 LN harvest independently associated with worse OS even after adjustment for tumour stage, suggesting inadequate surgery rather than just understaging.",
+          "pearl": "Always check the lymph node count on the pathology report before discussing results with the patient. A count <12 requires action — not assumption that staging is adequate."
+        }
+      },
+      {
+        "id": "A1-Q2",
+        "stem": "Which of the following best describes the advantage of neoadjuvant therapy over adjuvant therapy in rectal cancer?",
+        "options": {
+          "A": "Neoadjuvant therapy eliminates the need for surgical resection in most patients",
+          "B": "Neoadjuvant therapy allows assessment of tumour chemoresponsiveness and may enable sphincter preservation",
+          "C": "Neoadjuvant therapy is preferred because it has fewer side effects than adjuvant therapy",
+          "D": "Neoadjuvant therapy is mandatory for all rectal cancers regardless of stage"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The key advantages of neoadjuvant therapy in rectal cancer are: (1) in vivo assessment of tumour chemoresponsiveness — pathological complete response (pCR) is a prognostic marker and enables non-operative management consideration; (2) tumour downsizing and downstaging that can convert abdominoperineal resection candidates to low anterior resection with sphincter preservation; (3) treatment of micrometastatic disease in a patient with intact performance status. The German Rectal Cancer Trial (Sauer, NEJM 2004) demonstrated reduced local recurrence and improved sphincter preservation rates with preoperative versus postoperative CRT.",
+          "wrong": {
+            "A": "Neoadjuvant therapy achieves pathological complete response in 15–28% of patients. Even in complete responders, surgery remains standard of care — non-operative management (watch-and-wait) is offered only in highly selected patients at experienced centres under research protocols.",
+            "C": "The side effect profile of neoadjuvant and adjuvant chemotherapy is similar in terms of systemic toxicity. The advantage of neoadjuvant therapy is not reduced toxicity but better surgical and oncological outcomes.",
+            "D": "Neoadjuvant therapy is indicated for locally advanced rectal cancer (cT3 with threatened CRM, cT4, or node-positive disease). Stage I rectal cancer (cT1-T2 N0 without CRM threat) is managed with primary surgery."
+          },
+          "guideline": "NCCN Rectal Cancer v2.2024; ESMO Rectal Cancer Guidelines 2023",
+          "trial": "German Rectal Cancer Study (Sauer, NEJM 2004): preoperative vs postoperative CRT — local recurrence 6% vs 13% (p=0.006); sphincter preservation 39% vs 19% in distal tumours.",
+          "pearl": "Neoadjuvant therapy does not delay surgery when properly sequenced — the 6-8 week waiting period after CRT before surgery is mandatory for tumour response assessment and bowel recovery."
+        }
+      },
+      {
+        "id": "A1-Q3",
+        "stem": "A pathology report for a right hemicolectomy specimen states: 'The tumour is at the radial margin with tumour present at the inked surface.' What is the correct R-classification and what is the most appropriate next step?",
+        "options": {
+          "A": "R0 — tumour at the margin is acceptable; no further action needed",
+          "B": "R1 — discuss at MDT; consider adjuvant chemotherapy and surveillance imaging",
+          "C": "R1 — immediate re-resection of the right colon is mandatory",
+          "D": "R2 — palliative chemotherapy should be initiated"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Tumour at the inked surface constitutes R1 (microscopic residual disease). For colon cancer, R1 resection significantly increases local recurrence risk. The appropriate response is MDT discussion to: (1) review imaging for other sites of disease; (2) consider whether re-resection is anatomically feasible and oncologically meaningful; (3) ensure adjuvant chemotherapy is planned; (4) intensify surveillance. R1 does not automatically mandate re-resection — the decision depends on anatomy, patient fitness, and whether residual disease is truly locoregional.",
+          "wrong": {
+            "A": "Tumour at the inked margin is definitionally R1, not R0. R0 requires microscopically clear margins. Accepting R1 without review and management modification is inadequate oncological care.",
+            "C": "Re-resection may be appropriate in some cases but is not mandatory for all R1 colon resections. The decision requires MDT review, imaging, and assessment of technical feasibility. Blind re-resection without understanding the exact anatomical site of R1 margin risks ineffective surgery.",
+            "D": "R2 denotes macroscopic residual tumour — visible disease left behind. The scenario describes microscopic involvement at the margin, which is R1. R2 designation would require different management."
+          },
+          "guideline": "NCCN Colon Cancer v2.2024 — R1 resection requires MDT review and individualised management",
+          "trial": "Quirke P et al. (Lancet 2009): mesorectal plane quality and R1 margin are the most important modifiable surgical quality indicators for colorectal cancer outcomes.",
+          "pearl": "Always review the pathology report yourself before counselling the patient. The R-classification is your responsibility — not just the pathologist's."
+        }
+      },
+      {
+        "id": "A1-Q4",
+        "stem": "The ACOSOG Z0011 trial changed practice in early breast cancer. Which patient population was enrolled and what was the key finding?",
+        "options": {
+          "A": "Mastectomy patients with 3+ positive nodes — axillary dissection remains mandatory",
+          "B": "Breast-conserving surgery patients with 1–2 positive sentinel nodes — completion axillary dissection can be omitted",
+          "C": "Clinically node-positive patients — sentinel node biopsy is not appropriate",
+          "D": "Neoadjuvant chemotherapy patients — axillary dissection can be omitted regardless of nodal status"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ACOSOG Z0011 enrolled women with T1-T2 invasive breast cancer, 1–2 positive sentinel lymph nodes, breast-conserving surgery, and planned whole-breast irradiation. At 10-year follow-up, there was no significant difference in overall survival (86.3% SLN alone vs 83.6% ALND), locoregional recurrence, or disease-free survival. This established that completion axillary lymph node dissection (ALND) can be safely omitted in this patient population, dramatically reducing arm lymphoedema, seroma, and nerve injury without oncological compromise.",
+          "wrong": {
+            "A": "The trial enrolled patients undergoing breast-conserving surgery, not mastectomy. The AMAROS trial (Donker, Lancet Oncology 2014) addressed the mastectomy population and found axillary radiotherapy non-inferior to ALND.",
+            "C": "Z0011 specifically studied clinically node-negative patients who were found to have nodal metastasis on sentinel biopsy — 1 or 2 positive nodes. The finding is that ALND can be omitted even with positive sentinel nodes in this setting.",
+            "D": "The neoadjuvant chemotherapy population is addressed by separate trials (ALLIANCE A011202, SENTINA). Z0011 excluded patients who had received neoadjuvant therapy."
+          },
+          "guideline": "NCCN Breast Cancer v5.2024 — sentinel node biopsy without ALND for cN0 with 1–2 positive SLN, BCS + RT",
+          "trial": "Giuliano AE et al., JAMA 2011 and JAMA 2017 (10-year follow-up): no difference in OS or DFS between SLN alone and ALND in eligible patients.",
+          "pearl": "Z0011 criteria are strict: T1-T2, 1–2 positive SLN, BCS, whole-breast RT, no neoadjuvant therapy. Applying these findings to mastectomy patients, 3+ positive nodes, or neoadjuvant chemotherapy settings is not supported."
+        }
+      },
+      {
+        "id": "A1-Q5",
+        "stem": "A 70-year-old man with performance status ECOG 1 has a T3 N0 M0 sigmoid cancer. Which approach best reflects current evidence for his surgical management?",
+        "options": {
+          "A": "Open sigmoid resection — laparoscopic surgery is not recommended for ECOG 1 patients",
+          "B": "Laparoscopic-assisted sigmoid resection — equivalent oncological outcomes with superior short-term recovery",
+          "C": "Robotic sigmoid resection — demonstrated superior oncological outcomes over laparoscopic",
+          "D": "Laparoscopic resection is contraindicated in patients over 65 years"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Multiple RCTs (CLASSIC, COLOR II, COREAN) have established non-inferiority of laparoscopic versus open resection for colorectal cancer in terms of oncological outcomes (local recurrence, overall survival, R0 rate, lymph node yield). Laparoscopic surgery offers superior short-term outcomes: reduced blood loss, shorter hospital stay, faster return to function, and reduced wound complications. For an ECOG 1 patient with a sigmoid tumour (technically accessible to laparoscopy), laparoscopic-assisted resection is the evidence-based preferred approach at a centre with appropriate laparoscopic volume.",
+          "wrong": {
+            "A": "ECOG performance status is not a contraindication to laparoscopic surgery — in fact, ECOG 0-1 patients are ideal candidates who maximise the recovery benefits. No evidence supports restricting laparoscopic surgery based on ECOG 1 status.",
+            "C": "Robotic colorectal surgery has not demonstrated superior oncological outcomes over laparoscopic surgery. The ROLARR trial (2017) showed no advantage for robotic over laparoscopic TME for the primary endpoint (conversion rate) or oncological results.",
+            "D": "Age alone is not a contraindication to laparoscopic surgery. Frailty, cardiorespiratory reserve, and specific comorbidities should be assessed individually. Multiple studies demonstrate equivalent outcomes in selected elderly patients undergoing laparoscopic colorectal resection."
+          },
+          "guideline": "NCCN Colon Cancer v2.2024; ESMO Colorectal Cancer 2023 — laparoscopic resection recommended for suitable colon cancers at experienced centres",
+          "trial": "COLOR Trial (Veldkamp, Lancet Oncology 2005): laparoscopic vs open colectomy — equivalent 3-year local recurrence and OS; laparoscopic: less blood loss, shorter hospital stay.",
+          "pearl": "The conversion rate from laparoscopic to open surgery is the most important quality indicator for laparoscopic colorectal surgery. A centre conversion rate >10% should prompt review of patient selection and surgeon experience."
+        }
+      },
+      {
+        "id": "A1-Q6",
+        "stem": "A 62-year-old man presents with a 4cm retroperitoneal soft tissue mass. Core biopsy confirms high-grade liposarcoma. CT chest/abdomen/pelvis shows no distant metastases. The tumour abuts but does not clearly invade the inferior vena cava. Which of the following is the most appropriate next step in management?",
+        "options": {
+          "A": "Begin palliative chemotherapy — retroperitoneal sarcoma involving major vessels is unresectable",
+          "B": "Present at MDT including a sarcoma-specialist surgeon before making a treatment recommendation",
+          "C": "Proceed with preoperative radiotherapy to 50 Gy before any further evaluation",
+          "D": "Sentinel lymph node biopsy to assess nodal involvement before planning resection"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Retroperitoneal sarcoma (RPS) management mandates MDT review at a specialist sarcoma centre before any treatment decision. Proximity to major vessels such as the IVC is not an absolute contraindication to resection — en-bloc resection of involved vessels with reconstruction is performed at high-volume centres with acceptable morbidity. The UICC/ESMO principle is that resectability must be defined by a surgeon capable of performing the planned operation. Unilateral surgical decision-making without MDT input is a patient safety risk.",
+          "wrong": {
+            "A": "IVC abutment does not equate to unresectability. Major vessel involvement in RPS requires specialist evaluation — vascular and sarcoma surgeons together can plan en-bloc resection with vascular reconstruction for selected patients. Palliative chemotherapy without attempting curative surgery in a fit patient with potentially resectable disease is inappropriate.",
+            "C": "The role of preoperative radiotherapy in RPS is controversial. STRASS trial (Bonvalot, Lancet Oncology 2020) showed no benefit in overall survival for preoperative RT in RPS, though subgroup analysis suggested benefit in well-differentiated liposarcoma. This decision requires MDT discussion, not reflexive RT prescription.",
+            "D": "Soft tissue sarcomas spread haematogenously, not via lymphatics. Sentinel lymph node biopsy has no role in sarcoma staging. Regional lymph node dissection is not part of standard sarcoma surgery — lymphatic dissemination is rare (<5%)."
+          },
+          "guideline": "ESMO Soft Tissue and Visceral Sarcoma Guidelines 2021 — all RPS cases to be managed at specialist sarcoma centres with MDT input",
+          "trial": "STRASS trial (Bonvalot, Lancet Oncology 2020): preoperative RT did not improve abdominal recurrence-free survival in RPS overall; signal of benefit for well-differentiated liposarcoma.",
+          "pearl": "For retroperitoneal sarcoma, R0 resection is the primary determinant of outcome. Wide resection including adjacent organs (kidney, colon, psoas) is recommended to achieve R0 — multivisceral resection is the standard, not a complication."
+        }
+      },
+      {
+        "id": "A1-Q7",
+        "stem": "A 45-year-old woman with stage IIIC ovarian cancer undergoes primary debulking surgery. The operating surgeon achieves complete cytoreduction (R0 — no visible residual disease). Post-operative CT shows no residual tumour. Compared to a patient with optimal cytoreduction (R2 — residual <1 cm), what is the expected outcome difference?",
+        "options": {
+          "A": "R0 and R2 cytoreduction have equivalent survival — chemotherapy is the dominant treatment factor",
+          "B": "R0 cytoreduction is associated with significantly improved progression-free and overall survival compared to R2",
+          "C": "R2 cytoreduction is preferred because it avoids the morbidity of complete cytoreduction",
+          "D": "R0 cytoreduction is only beneficial if followed by HIPEC — standalone R0 has no survival advantage"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Complete cytoreduction (R0 — no visible residual disease) is the most powerful surgical predictor of survival in ovarian cancer. Each 10% increase in the proportion of patients achieving R0 resection translates to a 5.5% improvement in median survival. Patients achieving R0 have median OS of 50–100+ months versus 30–40 months for those with residual disease. This survival advantage is the principal justification for aggressive cytoreductive surgery in ovarian cancer, including bowel resection, diaphragmatic stripping, and pelvic peritonectomy.",
+          "wrong": {
+            "A": "Chemotherapy alone cannot overcome residual macroscopic disease. The survival advantage of complete cytoreduction is robust across multiple observational datasets and is incorporated into all major guidelines as a primary treatment objective.",
+            "C": "The morbidity of complete cytoreduction (bowel resection, enterostomy, prolonged surgery) is justified by the demonstrated survival benefit. Suboptimal cytoreduction to reduce morbidity sacrifices the primary therapeutic objective and is not supported by evidence.",
+            "D": "HIPEC improves survival in interval cytoreduction (van Driel, NEJM 2018) but complete cytoreduction is beneficial whether or not HIPEC is added. R0 resection alone is associated with superior outcomes compared to any residual disease, with or without HIPEC."
+          },
+          "guideline": "NCCN Ovarian Cancer v2.2024; ESMO Ovarian Cancer Guidelines 2023 — complete gross cytoreduction (R0) is the primary surgical goal",
+          "trial": "Bristow RE et al. (J Clin Oncol 2002): meta-analysis — each 10% increase in proportion achieving maximum cytoreduction associated with 5.5% increase in median OS. van Driel NJ (NEJM 2018): interval cytoreduction + HIPEC improved median survival by 11.8 months.",
+          "pearl": "In ovarian cancer, residual tumour after cytoreduction is the single most important prognostic variable — more important than stage, grade, or histological type. The surgeon's technique directly determines this variable."
+        }
+      },
+      {
+        "id": "A1-Q8",
+        "stem": "A 55-year-old man with metastatic colorectal cancer has a tumour with microsatellite instability-high (MSI-H) status confirmed on pathology. He is being considered for systemic therapy. Which of the following best describes the implication of MSI-H status for his treatment?",
+        "options": {
+          "A": "MSI-H status predicts resistance to all forms of chemotherapy and immunotherapy",
+          "B": "MSI-H status predicts exceptional response to PD-1 checkpoint inhibitor immunotherapy and poor response to fluoropyrimidine-based chemotherapy",
+          "C": "MSI-H status is only relevant for hereditary Lynch syndrome and has no therapeutic implications",
+          "D": "MSI-H tumours should receive intensified FOLFOXIRI — immunotherapy is not approved in colorectal cancer"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "MSI-H/dMMR colorectal cancer is a molecularly distinct subtype with two major therapeutic implications: (1) these tumours respond poorly to fluoropyrimidine monotherapy (5-FU) due to deficient mismatch repair, and (2) they respond exceptionally well to PD-1 checkpoint inhibitors — pembrolizumab and nivolumab are FDA-approved for MSI-H metastatic CRC. The KEYNOTE-158 trial demonstrated 36% objective response rate with pembrolizumab in MSI-H solid tumours. For metastatic MSI-H CRC, pembrolizumab monotherapy is now preferred over FOLFOX as first-line therapy (KEYNOTE-177 trial, 2021).",
+          "wrong": {
+            "A": "MSI-H tumours are among the most immunotherapy-responsive malignancies. The MSI-H biomarker is the strongest predictor of immunotherapy response across all solid tumour types. Resistance to chemotherapy does not extend to immunotherapy.",
+            "C": "MSI-H arises from both germline (Lynch syndrome, ~15% of MSI-H CRC) and somatic mutations (BRAF V600E methylation of MLH1, ~85% of MSI-H CRC). Therapeutic implications apply regardless of the underlying mechanism. Universal tumour testing for MMR/MSI is now mandatory in all colorectal cancers.",
+            "D": "Pembrolizumab received FDA approval for first-line MSI-H/dMMR metastatic CRC following KEYNOTE-177. FOLFOXIRI intensification is used for microsatellite stable (MSS) high-burden disease — adding it to MSI-H disease does not improve outcomes over checkpoint inhibitors."
+          },
+          "guideline": "NCCN Colon Cancer v2.2024 — pembrolizumab Category 1 preferred first-line therapy for MSI-H/dMMR metastatic CRC; universal MMR/MSI testing required",
+          "trial": "KEYNOTE-177 (André, NEJM 2020): pembrolizumab vs FOLFOX/FOLFIRI in first-line MSI-H mCRC — PFS 16.5 vs 8.2 months; ORR 43.8% vs 33.1%. Practice-changing: pembrolizumab is now preferred first-line.",
+          "pearl": "Test ALL colorectal cancers for MSI/MMR status at diagnosis — not only when Lynch syndrome is suspected. MSI-H is predictive of immunotherapy response in any stage and any age group."
+        }
+      },
+      {
+        "id": "A1-Q9",
+        "stem": "A 48-year-old woman undergoes sentinel lymph node biopsy for a 2.2cm invasive ductal breast carcinoma. Three sentinel nodes are retrieved. One node shows isolated tumour cells (ITC, <0.2mm cluster) on cytokeratin immunohistochemistry, with two nodes negative on H&E and IHC. How should this finding be classified and managed?",
+        "options": {
+          "A": "pN1 (positive node) — completion axillary lymph node dissection is mandatory",
+          "B": "pN0(i+) — completion axillary dissection is not indicated; the finding is prognostically equivalent to node-negative disease for adjuvant systemic therapy decisions",
+          "C": "pN1mi (micrometastasis) — short-course axillary radiotherapy is required",
+          "D": "Indeterminate — the node should be re-examined by a second pathologist before management decisions"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Isolated tumour cells (ITC) — defined as clusters of <0.2mm or <200 cells detected by IHC — are classified as pN0(i+) in AJCC 8th edition TNM. Multiple studies (including the MIRROR study and ACOSOG Z0010) demonstrate that pN0(i+) has equivalent prognosis to truly node-negative disease (pN0) and does not independently alter adjuvant systemic therapy decisions. Completion axillary dissection is not indicated for pN0(i+). The distinction between ITC (pN0(i+)), micrometastasis (pN1mi, 0.2–2.0mm), and macrometastasis (pN1, >2.0mm) is clinically critical.",
+          "wrong": {
+            "A": "pN0(i+) is not a positive node in the clinically relevant sense. AJCC 8th edition classifies it as N0 with the qualifier (i+). The decision to perform completion ALND is based on macrometastases or micrometastases in the context of the Z0011 criteria — not ITC.",
+            "C": "pN1mi (micrometastasis, 0.2–2.0mm) would prompt discussion of whether ALND or axillary RT is needed, guided by Z0011 and IBCSG 23-01 trial data. The described finding of <0.2mm clusters is ITC (pN0(i+)), not pN1mi — these are distinct categories.",
+            "D": "The pathological classification of ITC is well defined and does not require second opinion as a routine measure. If genuine diagnostic uncertainty exists about cluster size (near the 0.2mm threshold), re-review is appropriate, but the management algorithm for confirmed ITC is established."
+          },
+          "guideline": "NCCN Breast Cancer v5.2024 — pN0(i+) does not independently affect adjuvant chemotherapy decisions; ALND not indicated",
+          "trial": "IBCSG 23-01 (Galimberti, Lancet Oncology 2013): sentinel node micrometastasis — ALND vs no ALND, no DFS or OS difference at 5 years. MIRROR study (de Boer, NEJM 2009): pN0(i+) has equivalent outcome to pN0 without adjuvant chemotherapy.",
+          "pearl": "Know the three sentinel node categories: ITC <0.2mm (pN0(i+)) = node-negative equivalent; micrometastasis 0.2–2.0mm (pN1mi) = may alter decisions; macrometastasis >2.0mm (pN1) = clearly positive. The size cutoffs are board-tested."
+        }
+      },
+      {
+        "id": "A1-Q10",
+        "stem": "A 66-year-old man with locally advanced pancreatic adenocarcinoma (cT3 N1) has a preoperative CT showing the tumour abutting (less than 180° contact) the superior mesenteric artery (SMA). He has ECOG 1 performance status and no distant metastases. Which of the following best describes the standard management approach?",
+        "options": {
+          "A": "Immediate pancreaticoduodenectomy — SMA abutment is not a contraindication to surgery",
+          "B": "Palliative gemcitabine — SMA involvement makes all pancreatic cancers unresectable",
+          "C": "Borderline resectable classification — neoadjuvant FOLFIRINOX followed by reassessment for resection",
+          "D": "SBRT (stereotactic body radiotherapy) as definitive local treatment without surgery"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Per NCCN 2024 definitions, a pancreatic tumour with <180° SMA contact (abutment) is classified as borderline resectable. The standard management for borderline resectable pancreatic cancer is neoadjuvant chemotherapy (FOLFIRINOX preferred, or gemcitabine + nab-paclitaxel) with the aim of achieving R0 resectability. Neoadjuvant FOLFIRINOX has been shown in multiple studies to convert 30–40% of borderline resectable tumours to potentially resectable status. Reassessment with high-quality CT pancreas protocol after 4–6 cycles determines surgical candidacy.",
+          "wrong": {
+            "A": "SMA abutment (<180°) is the definition of borderline resectable — not clearly resectable. Upfront surgery without neoadjuvant therapy in borderline resectable disease is associated with high R1 rates (60–70%) and should be avoided. Neoadjuvant therapy improves R0 rates in this setting.",
+            "B": "SMA involvement >180° (encasement) defines locally advanced (unresectable) disease. Abutment (<180°) is borderline — not unresectable. The distinction is critical because borderline resectable disease has curative potential with appropriate neoadjuvant therapy.",
+            "D": "SBRT is investigational as a primary local treatment strategy in pancreatic cancer and is not a standard alternative to surgery with curative intent. It may be used as a bridging strategy or for locally advanced unresectable disease — not as definitive treatment for borderline resectable pancreatic cancer."
+          },
+          "guideline": "NCCN Pancreatic Adenocarcinoma v2.2024 — borderline resectable criteria and neoadjuvant FOLFIRINOX recommendation",
+          "trial": "PREOPANC (Versteijne, JAMA Surgery 2020): preoperative CRT improved R0 resection rate (65% vs 31%) in resectable/borderline resectable pancreatic cancer. Multiple phase II studies confirm FOLFIRINOX neoadjuvant superiority in borderline resectable disease.",
+          "pearl": "The key SMA contact angle thresholds in pancreatic cancer: <180° = borderline resectable; ≥180° = locally advanced (unresectable). Always report SMA, SMV, celiac axis, and hepatic artery contact angles on pancreatic protocol CT."
+        }
+      },
+      {
+        "id": "A1-Q11",
+        "stem": "A patient with stage IV colorectal cancer achieves a complete radiological response after 6 months of FOLFOX + bevacizumab, including resolution of all liver metastases. Follow-up MRI liver at 3 months shows no residual lesion. What is the most appropriate surgical decision?",
+        "options": {
+          "A": "No surgery needed — complete radiological response is equivalent to cure",
+          "B": "Resect the previously involved liver segments, even though no lesion is visible — the risk of occult viable tumour at the original sites is high",
+          "C": "Continue chemotherapy indefinitely — surgery is contraindicated after complete response",
+          "D": "Await local recurrence before planning surgery — salvage resection at recurrence has equal outcomes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Complete radiological response (disappearing liver metastases, DLM) does not equate to pathological complete response. In landmark series, 55–80% of DLM sites harbour viable tumour cells at pathological examination despite no imaging evidence of disease. Without resection, 75–80% of DLM sites recur within 2 years. ESMO and NCCN guidelines recommend resecting the previously involved liver segments (or ablating the original site) when technically feasible, using pretreatment imaging to guide the surgical plan. Resection of originally involved segments achieves R0 in this setting and is associated with 40% 5-year survival.",
+          "wrong": {
+            "A": "Radiological complete response in liver metastases is not synonymous with pathological cure. The liver has no nerve supply for pain detection, and micrometastatic residual disease is invisible on MRI until it reaches detectable size. Surgical consolidation is the standard recommendation when feasible.",
+            "C": "Complete radiological response is an optimal moment to consider surgical consolidation — when tumour burden is minimal. Indefinite chemotherapy in a patient eligible for curative resection is an inferior oncological strategy. Bevacizumab must be stopped at least 6 weeks before surgery.",
+            "D": "Waiting for recurrence sacrifices the window of opportunity for curative resection. Once sites re-grow, they may be in different locations, involve more segments, or become unresectable. Resection at original sites is preferred when technically achievable."
+          },
+          "guideline": "ESMO Metastatic Colorectal Cancer Guidelines 2023 — resection of previously involved liver segments recommended for disappearing liver metastases",
+          "trial": "Benoist S et al. (J Clin Oncol 2006): 80% of DLM sites harboured viable tumour cells; 83% of unresected sites recurred. Vanounou T (Ann Surg Oncol 2011): resection of original DLM sites achieved 38% 5-year survival.",
+          "pearl": "Mark the planned surgical boundaries of liver metastases with fiducial clips at the time of initial imaging or laparoscopy. If metastases disappear after chemotherapy, the clips identify the original site for resection — preventing inadvertent omission of the correct liver segment."
+        }
+      },
+      {
+        "id": "A1-Q12",
+        "stem": "A 52-year-old woman is diagnosed with a 1.8cm BRAF V600E-mutated papillary thyroid carcinoma with bilateral central compartment lymph node metastases (cN1b). Distant metastases are excluded. She has no prior neck surgery or irradiation. Which of the following best describes the appropriate surgical extent?",
+        "options": {
+          "A": "Hemithyroidectomy alone — lymph node sampling is not indicated for thyroid cancer",
+          "B": "Total thyroidectomy + central neck dissection (level VI bilateral) — lateral dissection only if level II–V nodes are clinically involved",
+          "C": "Total thyroidectomy alone — central lymph nodes should be observed and treated with radioiodine",
+          "D": "Total thyroidectomy + prophylactic bilateral modified radical neck dissection levels I–V bilaterally"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For papillary thyroid carcinoma with clinically node-positive central compartment disease (cN1a), total thyroidectomy plus bilateral central neck dissection (level VI) is the standard. Lateral neck dissection (levels II–V) is indicated only when lateral nodes are clinically involved (cN1b confirmed by imaging or palpation with or without FNA). In this case, the cN1b designation refers to central compartment (common usage in thyroid oncology — always clarify which compartment). BRAF V600E mutation is a marker of adverse prognosis but does not change the surgical extent — it does inform radioiodine candidacy and eligibility for targeted therapy (vemurafenib/dabrafenib) in advanced disease.",
+          "wrong": {
+            "A": "Lymph node dissection is a core component of thyroid cancer surgery when nodes are clinically involved. Prophylactic central neck dissection is advocated by ATA guidelines for T3/T4 or cN1 disease. Sampling (berry picking) of individual nodes is discouraged — formal compartment-level dissection is standard.",
+            "C": "Radioiodine can treat residual central compartment disease after surgery, but it is not a substitute for surgical clearance of clinically positive nodes. Persistent nodal disease after surgery requires much higher RAI doses with lower efficacy than surgical resection of grossly positive nodes.",
+            "D": "Prophylactic modified radical neck dissection of levels I–V bilaterally is not indicated when lateral neck disease is not clinically evident. Overextension of surgery increases RLN injury and hypoparathyroidism risk without proven oncological benefit. Lateral dissection is compartment-level and compartment-specific."
+          },
+          "guideline": "American Thyroid Association (ATA) Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer 2015 (updated 2023) — total thyroidectomy + therapeutic central ND for cN1 disease",
+          "trial": "Hartl DM et al. (Ann Surg 2014): central neck dissection added staging information in 28% of cases and improved locoregional control without significant increase in hypoparathyroidism when performed by experienced surgeons.",
+          "pearl": "Distinguish prophylactic (elective) from therapeutic central neck dissection: therapeutic dissection for cN1 disease is standard; prophylactic dissection for cN0 is controversial and centre-dependent. For boards, know the ATA recommendation: therapeutic dissection for cN1; consider prophylactic for T3/T4 cN0."
+        }
+      },
+      {
+        "id": "A1-Q13",
+        "stem": "During a Whipple procedure (pancreaticoduodenectomy) for pancreatic head adenocarcinoma, the operating surgeon sends the retroperitoneal (SMA) margin for frozen section. The frozen section returns 'carcinoma present at margin.' Which of the following is the most appropriate response?",
+        "options": {
+          "A": "Abort the resection and convert to palliative bypass — R1 margin from a Whipple is not salvageable",
+          "B": "Complete the resection — intraoperative frozen section of the SMA margin has high false-positive rates; await final pathology",
+          "C": "Attempt additional resection of the SMA margin — take more soft tissue from the retroperitoneal margin and re-submit for frozen section",
+          "D": "Immediately request radiation oncology intraoperative consultation for IORT to the margin"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "When the SMA (retroperitoneal) margin is positive on intraoperative frozen section, the appropriate response is to attempt additional tissue resection from that margin and re-submit for frozen section before accepting R1 status. The retroperitoneal margin is the most commonly positive margin in pancreaticoduodenectomy. If the resection has already been completed and re-resection of the margin is anatomically feasible (additional perivascular soft tissue can be taken without endangering the SMA itself), this should be attempted. The SMA itself cannot be resected in standard Whipple, but additional soft tissue in the SMA groove can be removed. Final margin status is determined on permanent pathology.",
+          "wrong": {
+            "A": "Aborting and converting to bypass after the pancreaticoduodenectomy resection has been completed (once the specimen is off) is not appropriate — the resection has already occurred. Converting to bypass would sacrifice the completed curative-intent resection without benefit. Aborting is only reasonable before irreversible resection steps if the tumour is clearly unresectable.",
+            "B": "Frozen section of the retroperitoneal margin has acceptable accuracy when performed by experienced pathologists. False-positive rates are low. Ignoring a positive frozen section and proceeding without attempting margin clearance results in a known R1 resection — this is not the appropriate strategy.",
+            "D": "IORT is an adjunct that may be considered at centres where it is available for locally advanced or R1 pancreatic resections, but it is not a substitute for intraoperative attempts at margin clearance when the patient is still on the table and re-resection is technically feasible."
+          },
+          "guideline": "NCCN Pancreatic Adenocarcinoma v2.2024 — R0 resection is the primary surgical goal; intraoperative frozen section of margins recommended",
+          "trial": "Verbeke CS et al. (Ann Surg 2009): UK RCP protocol — standardised pathological examination of Whipple specimen; retroperitoneal margin most commonly involved (75% of R1 cases). Margin positivity independently associated with worse OS.",
+          "pearl": "The retroperitoneal (SMA) margin is the critical margin in Whipple — routinely ink it before specimen removal. The so-called '1mm rule' (R1 if tumour within 1mm of the margin on permanent pathology) means many reported 'R0' cases in older literature would be R1 by modern criteria."
+        }
+      },
+      {
+        "id": "A1-Q14",
+        "stem": "A 60-year-old woman with known BRCA2 germline mutation presents for risk-reducing bilateral salpingo-oophorectomy (RRSO). She is premenopausal with no evidence of ovarian cancer on imaging. Which of the following best describes the recommended timing and additional considerations for this surgery?",
+        "options": {
+          "A": "RRSO at any age after diagnosis — no minimum age recommendation exists",
+          "B": "RRSO between ages 40–45 for BRCA2 carriers; concurrent hysterectomy and fallopian tube removal are recommended; thorough examination of the specimen for occult STIC is essential",
+          "C": "RRSO only after completion of childbearing, with no age limit — the risk of cancer before age 50 is negligible in BRCA2",
+          "D": "RRSO is not recommended — annual CA-125 and transvaginal ultrasound surveillance is equivalent in risk reduction"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "BRCA2 carriers have a lifetime ovarian cancer risk of ~15–20% (lower than BRCA1 at 40–50%). NCCN recommends RRSO for BRCA1 carriers at age 35–40 and for BRCA2 carriers at age 40–45, after childbearing is complete. Salpingectomy alone (leaving the ovaries) is not sufficient for ovarian cancer risk reduction as many BRCA-associated 'ovarian' cancers arise from the fallopian tube fimbriae — the fallopian tubes must be included. Occult serous tubal intraepithelial carcinoma (STIC) is found in 5–8% of RRSO specimens and requires comprehensive SEE-FIM (sectioning and extensively examining the fimbriated end) pathological protocol.",
+          "wrong": {
+            "A": "RRSO too early creates premature surgical menopause with significant cardiovascular, bone density, cognitive, and sexual health consequences. Age-specific recommendations balance cancer risk against surgical menopause morbidity. Performing RRSO before age 35–40 is not recommended except in exceptional circumstances.",
+            "C": "While BRCA2 carriers have lower risk than BRCA1 before age 50, the cancer risk begins rising in the early 40s. Waiting indefinitely risks a window of cancer development after the optimal risk-reduction window. NCCN specifies age 40–45 for BRCA2 — not 'any time after childbearing with no limit.'",
+            "D": "Annual CA-125 and TVUS surveillance has been shown in multiple RCTs (UK Collaborative Trial of Ovarian Cancer Screening, UKCTOCS) to be ineffective at reducing ovarian cancer mortality due to the late-stage nature of detection. RRSO reduces ovarian cancer risk by >95% and is the standard recommendation — surveillance is not an equivalent alternative."
+          },
+          "guideline": "NCCN Genetic/Familial High-Risk Assessment: Breast, Ovarian, and Pancreatic v3.2024 — RRSO for BRCA2 at age 40–45 with SEE-FIM pathological protocol",
+          "trial": "Domchek SM et al. (JAMA 2010): PROSE study — RRSO reduced ovarian/fallopian tube/peritoneal cancer incidence by 80% in BRCA carriers; also reduced breast cancer risk in BRCA1 carriers by 56%.",
+          "pearl": "STIC (serous tubal intraepithelial carcinoma) is the precursor lesion to high-grade serous carcinoma found in the fallopian tube fimbriae. The SEE-FIM protocol (complete serial sectioning of the entire fimbriated end at 2mm intervals) is the pathological standard for all RRSO specimens — this is examinable."
+        }
+      },
+      {
+        "id": "A1-Q15",
+        "stem": "A 44-year-old man with a 5cm upper extremity soft tissue sarcoma (intermediate-grade leiomyosarcoma) undergoes wide local excision with 1.5cm clear margins. Post-operatively, CT chest shows no metastatic disease. He is discussed at sarcoma MDT. What adjuvant treatment should be offered?",
+        "options": {
+          "A": "Adjuvant doxorubicin-based chemotherapy — all intermediate/high-grade sarcomas require adjuvant chemotherapy",
+          "B": "Adjuvant radiotherapy to the excision site — radiotherapy reduces local recurrence in high-risk extremity sarcoma",
+          "C": "Observation only — no adjuvant therapy is indicated for intermediate-grade sarcoma with clear margins",
+          "D": "Adjuvant imatinib — tyrosine kinase inhibitors are standard adjuvant therapy for all sarcomas"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Adjuvant radiotherapy is the standard of care for extremity soft tissue sarcoma following limb-sparing surgery. Multiple RCTs demonstrate that adjuvant RT reduces local recurrence from approximately 30–40% (surgery alone) to 10–15% (surgery + RT), without impacting overall survival. The NCI trial (Yang, J Clin Oncol 1998) and Yang et al. established this standard for high and intermediate-grade extremity sarcomas. Adjuvant chemotherapy has not consistently demonstrated OS benefit in soft tissue sarcoma (in contrast to adjuvant RT) and is not standard in intermediate-grade disease — it may be considered for high-grade, large (>5cm) tumours at specialist centres.",
+          "wrong": {
+            "A": "Adjuvant doxorubicin-based chemotherapy is not routinely recommended for all intermediate/high-grade sarcomas. Meta-analyses show a modest DFS benefit but no clear OS benefit for adjuvant chemotherapy. The EORTC 62931 trial (Woll, Lancet Oncology 2012) found no OS or RFS benefit for adjuvant chemotherapy in localised high-risk sarcoma. It may be discussed at MDT for high-grade, large tumours at high risk of metastasis.",
+            "C": "Observation alone after limb-sparing resection is appropriate only for small (<5cm) low-grade sarcomas with wide margins. For a 5cm intermediate-grade tumour, local recurrence risk is sufficient to justify adjuvant RT — observation alone would expose the patient to an avoidable 30-40% local recurrence risk.",
+            "D": "Imatinib is the tyrosine kinase inhibitor used for GIST (gastrointestinal stromal tumour) with KIT or PDGFRA mutations — not for leiomyosarcoma or other histological sarcoma types. Imatinib has no role in non-GIST sarcoma adjuvant therapy."
+          },
+          "guideline": "NCCN Soft Tissue Sarcoma v2.2024 — adjuvant RT for extremity STS with limb-sparing surgery (Category 1); adjuvant chemotherapy Category 2B for high-risk disease",
+          "trial": "NCI Yang JC (J Clin Oncol 1998): adjuvant brachytherapy in extremity STS — local recurrence 31% (no RT) vs 9% (RT) for high-grade tumours. EORTC 62931 (Woll, Lancet Oncology 2012): adjuvant chemotherapy showed no OS or RFS benefit in high-risk localised STS.",
+          "pearl": "Adjuvant RT timing relative to surgery: preoperative RT (50 Gy) is associated with more wound complications but better functional outcomes (smaller field, less fibrosis long-term); postoperative RT (66 Gy) has lower wound complication rate. Choice depends on tumour/patient factors and centre preference."
+        }
+      },
+      {
+        "id": "A1-Q16",
+        "stem": "An oncology multidisciplinary team (MDT) meeting includes presentations of 12 new solid tumour cases. The team reviews literature suggesting that MDT decisions change management in 20–32% of cases. For which of the following clinical scenarios is MDT review most likely to result in a change from the initially proposed treatment?",
+        "options": {
+          "A": "A 40-year-old with a 1cm well-differentiated adenocarcinoma of the sigmoid colon, pT1 N0 M0, on colonoscopy",
+          "B": "A 68-year-old with newly diagnosed locally advanced rectal cancer with equivocal liver lesion on CT, MSI-H status, and a plan for immediate low anterior resection",
+          "C": "A 55-year-old with a benign-appearing colon polyp requiring polypectomy",
+          "D": "A 72-year-old woman with a perioperatively discovered stage I gastric cancer who already underwent curative total gastrectomy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The case with the highest probability of MDT-driven management change is the 68-year-old with locally advanced rectal cancer, equivocal liver lesion, and MSI-H status planned for immediate surgery. MDT review would likely identify: (1) the equivocal liver lesion requires further characterisation (MRI liver) before surgery — if confirmed metastatic, staging changes to stage IV; (2) MSI-H status makes this patient eligible for neoadjuvant pembrolizumab rather than CRT, with potential for complete clinical response; (3) immediate surgery without neoadjuvant therapy is not guideline-concordant for locally advanced rectal cancer. Three management-changing factors converge in this scenario.",
+          "wrong": {
+            "A": "A pT1 N0 sigmoid adenocarcinoma after endoscopic polypectomy with clear margins (Haggitt level 1–3) requires surveillance colonoscopy and no further surgery in most cases — this is a straightforward low-complexity decision with little scope for MDT-driven change.",
+            "C": "Benign polyps requiring polypectomy are endoscopic procedures that do not require MDT review — they are managed within gastroenterology/colonoscopy pathways without oncological MDT input.",
+            "D": "Post-operative MDT review of a completed curative surgery for early gastric cancer is valuable for planning adjuvant therapy but represents a more constrained decision space (surgery already performed). The scenarios for greatest MDT impact are those where treatment has not yet started and multiple complex factors interact."
+          },
+          "guideline": "NCCN 2024 — all newly diagnosed solid tumour patients with complex staging or equivocal findings should be reviewed at MDT before treatment initiation",
+          "trial": "Kesson EM et al. (Lancet 2012): MDT management of breast cancer associated with 18% reduction in cancer-specific mortality. Multiple studies confirm MDT changes management in 20–32% of cases reviewed, with impact highest in complex staging scenarios.",
+          "pearl": "The greatest value of MDT review occurs before treatment initiation — not after. The MDT should be the 'first stop' for newly diagnosed cancer, not an afterthought. Present cases with incomplete staging or management uncertainty before committing to a treatment plan."
+        }
+      },
+      {
+        "id": "A1-Q17",
+        "stem": "A 57-year-old woman with stage IIIA non-small cell lung cancer (cT2 N2 M0) is being discussed at thoracic oncology MDT. Her ECOG PS is 0, pulmonary function is borderline (FEV1 = 65% predicted, DLCO = 70%). PET-CT confirms mediastinal N2 disease at station 7. What is the most appropriate curative-intent treatment strategy?",
+        "options": {
+          "A": "Upfront pneumonectomy — N2 disease is resectable with adequate surgical margins",
+          "B": "Concurrent chemoradiotherapy (cCRT) — the standard curative-intent approach for stage IIIA NSCLC with N2 disease",
+          "C": "Neoadjuvant chemotherapy × 3 cycles → reassessment → surgery if mediastinal downstaging is confirmed",
+          "D": "Immunotherapy monotherapy — checkpoint inhibitors have replaced all other modalities for stage III NSCLC"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For stage IIIA NSCLC with pathologically confirmed N2 mediastinal disease, the standard curative-intent treatment is concurrent chemoradiotherapy (cisplatin/etoposide or carboplatin/paclitaxel + 60–66 Gy). The Intergroup 0139 trial (2009) showed no OS benefit for surgery after induction CRT compared to cCRT alone (with higher perioperative mortality in the surgery arm, particularly after pneumonectomy). Following cCRT, consolidation durvalumab (PD-L1 inhibitor) is now standard based on PACIFIC trial (Antonia, NEJM 2017), improving 5-year OS from 36% to 43%.",
+          "wrong": {
+            "A": "Upfront pneumonectomy for N2 disease without neoadjuvant therapy is associated with very high R1 rates and no survival benefit. Pneumonectomy carries 5–10% operative mortality and is particularly hazardous with borderline pulmonary function. Primary surgery for N2 disease is not standard.",
+            "C": "Neoadjuvant chemotherapy followed by surgery is one management option for select N2 cases (single station, small volume N2 disease), but is not the dominant standard over cCRT. The PACIFIC trial has established cCRT + durvalumab as the standard for stage III NSCLC.",
+            "D": "Immunotherapy monotherapy is not the curative-intent standard for stage III NSCLC. Durvalumab after cCRT (consolidation) is the current standard, but immunotherapy replacing CRT as primary treatment is not established."
+          },
+          "guideline": "NCCN NSCLC v4.2024 — concurrent CRT (Category 1) followed by durvalumab consolidation for unresectable/N2 stage III NSCLC",
+          "trial": "PACIFIC trial (Antonia, NEJM 2017): durvalumab consolidation after cCRT in stage III NSCLC — 5-year OS 43% vs 33%; PFS 16.9 vs 5.6 months. Practice-changing: durvalumab is now mandatory consolidation after cCRT in PD-L1 ≥1% tumours.",
+          "pearl": "The PACIFIC trial transformed stage III NSCLC — always ask whether durvalumab is appropriate after cCRT. Eligibility: no disease progression after cCRT, no grade 3 pneumonitis during CRT, ECOG 0-2, PD-L1 ≥1% (preferred, though not mandated in current label)."
+        }
+      },
+      {
+        "id": "A1-Q18",
+        "stem": "A 73-year-old man with type 2 diabetes, COPD (FEV1 68%), and a recent NSTEMI 4 months ago presents with a resectable T3 N0 M0 hepatocellular carcinoma (5cm, single lesion, preserved hepatic function Child-Pugh A). He is being considered for hepatic resection. What is the most critical preoperative assessment to determine operability?",
+        "options": {
+          "A": "Child-Pugh score only — Child-Pugh A automatically indicates suitability for major hepatectomy",
+          "B": "Cardiopulmonary risk assessment including formal cardiac evaluation (stress testing or echo) given recent NSTEMI, combined with future liver remnant volumetry",
+          "C": "Tumour histology via preoperative biopsy to confirm grading before surgical planning",
+          "D": "PET-CT to exclude occult extrahepatic metastases before committing to hepatic resection"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Operability for major hepatic resection involves two parallel assessments: (1) hepatic reserve adequacy — Child-Pugh score, MELD score, FLR volumetry, and dynamic function tests (ICG-R15 indocyanine green retention) determine whether the residual liver can sustain adequate function post-resection; and (2) patient operative risk — this patient has had an NSTEMI 4 months ago, placing him within the high-risk window for perioperative cardiac events. Current ESC/AHA guidelines recommend ≥6 months wait after recent MI before elective major surgery, or formal cardiology evaluation with risk stratification. Surgery within 4–6 months of NSTEMI carries 10–15% MACE risk. Both assessments must be completed before proceeding.",
+          "wrong": {
+            "A": "Child-Pugh A indicates adequate hepatic reserve for surgery but does not address the patient's cardiac and pulmonary risk. Child-Pugh A alone is insufficient to declare operability — comorbidity assessment is equally important.",
+            "C": "HCC does not routinely require preoperative biopsy when the diagnosis is established by imaging criteria (LI-RADS 5 on multiphase CT/MRI in the context of cirrhosis or chronic liver disease). Percutaneous biopsy of HCC risks tumour seeding along the needle tract, which occurs in 2–5% of biopsied cases. Biopsy should be reserved for diagnostically uncertain cases.",
+            "D": "PET-CT has limited sensitivity for HCC (HCC is often FDG-negative due to hepatocyte-like metabolism) and is not routinely recommended for HCC staging. CT or MRI abdomen with multiphase contrast and CT chest are standard. PET-CT is not the priority assessment here."
+          },
+          "guideline": "NCCN Hepatobiliary Cancers v2.2024; ESC 2022 Cardiovascular Assessment Before Non-Cardiac Surgery — cardiac evaluation mandatory >4 MACE risk after recent ACS",
+          "trial": "ESC Perioperative Cardiovascular Assessment Guidelines (2022): elective major surgery within 6 months of ACS or MI associated with MACE risk 10–15%. Minimum 4–6 weeks after NSTEMI for non-urgent surgery with cardiology clearance.",
+          "pearl": "For HCC in Child-Pugh A cirrhosis: ICG-R15 (indocyanine green retention at 15 minutes) is the most sensitive predictor of post-hepatectomy liver failure. ICG-R15 <10% allows major hepatectomy; 10–19% allows limited resection; ≥20% restricts to non-surgical options or limited segmentectomy."
+        }
+      },
+      {
+        "id": "A1-Q19",
+        "stem": "A 38-year-old woman with a BRCA1 germline mutation has just been diagnosed with triple-negative breast cancer (ER-, PR-, HER2-), 2.5cm, cT2 N0 M0. She asks about neoadjuvant versus adjuvant chemotherapy. Which approach is most consistent with current guidelines and what specific benefit applies to her molecular subtype?",
+        "options": {
+          "A": "Adjuvant chemotherapy after surgery — neoadjuvant therapy offers no advantage in early triple-negative breast cancer",
+          "B": "Neoadjuvant chemotherapy (anthracycline + taxane backbone) — pathological complete response is a surrogate endpoint; residual disease mandates additional capecitabine (CREATE-X trial)",
+          "C": "Neoadjuvant olaparib alone — PARP inhibitors are the preferred neoadjuvant treatment for BRCA1-mutated TNBC",
+          "D": "Upfront surgery followed by adjuvant pembrolizumab — immunotherapy is the only approved adjuvant modality for TNBC"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For stage II-III triple-negative breast cancer (TNBC), neoadjuvant chemotherapy (anthracycline + cyclophosphamide → taxane, typically with carboplatin for BRCA-mutated cases) is preferred over adjuvant therapy. Key benefits: (1) pCR (pathological complete response) assessment guides post-neoadjuvant therapy — patients without pCR have high residual risk; (2) CREATE-X trial (Masuda, NEJM 2017) demonstrated that adjuvant capecitabine after non-pCR in TNBC improved DFS from 56% to 70% (3-year); (3) pembrolizumab can be added to neoadjuvant chemotherapy for high-risk TNBC (KEYNOTE-522: improved EFS 76% → 84%). The BRCA1 mutation also makes her eligible for olaparib adjuvant therapy after primary treatment completion (OlympiA trial).",
+          "wrong": {
+            "A": "Neoadjuvant therapy in TNBC has multiple advantages over adjuvant: pCR assessment, biological information, earlier systemic therapy delivery, potential for breast conservation, and eligibility for adaptive post-neoadjuvant strategies (capecitabine for residual disease, pembrolizumab continuation). Adjuvant-first approach sacrifices these opportunities.",
+            "C": "Neoadjuvant olaparib monotherapy is not the standard approach. PARP inhibitors (olaparib, niraparib) are used as adjuvant therapy after completion of neoadjuvant chemotherapy and surgery in BRCA-mutated high-risk breast cancer (OlympiA trial). Substituting chemotherapy with PARP inhibitors alone in the neoadjuvant setting is investigational.",
+            "D": "Pembrolizumab is approved as part of neoadjuvant chemotherapy (not as standalone adjuvant monotherapy) for high-risk early TNBC based on KEYNOTE-522. Adjuvant pembrolizumab continuation after surgery is part of the KEYNOTE-522 protocol, but it follows neoadjuvant chemo+pembro — it is not a standalone adjuvant modality replacing chemotherapy."
+          },
+          "guideline": "NCCN Breast Cancer v5.2024 — neoadjuvant chemotherapy + pembrolizumab for stage II-III TNBC; adjuvant capecitabine for non-pCR (Category 1); olaparib for BRCA-mutated residual/high-risk disease (OlympiA)",
+          "trial": "CREATE-X (Masuda, NEJM 2017): adjuvant capecitabine in non-pCR TNBC — 5-year OS improvement 12% (78.8% vs 70.3%). KEYNOTE-522 (Schmid, NEJM 2020): pembrolizumab + neoadjuvant chemo improved EFS 84.5% vs 76.8% at 36 months.",
+          "pearl": "The post-neoadjuvant strategy in TNBC is now algorithm-driven: pCR achieved → no additional chemotherapy (pembrolizumab continuation if used neoadjuvantly); no pCR → capecitabine × 6–8 cycles. BRCA1/2 germline → consider olaparib adjuvant after completing chemotherapy."
+        }
+      },
+      {
+        "id": "A1-Q20",
+        "stem": "A 63-year-old man develops rising CEA (baseline 3.2 ng/mL post-resection, now 18 ng/mL at 2 years) following curative resection of a pT3 N2b M0 sigmoid carcinoma. CT thorax-abdomen-pelvis shows no definite recurrence. What is the most appropriate next step?",
+        "options": {
+          "A": "Repeat CT in 6 months — isolated CEA rise without CT evidence of recurrence does not require action",
+          "B": "PET-CT scan — CEA rise with negative CT warrants functional imaging to detect occult recurrence",
+          "C": "Immediate relaparotomy — rising CEA after colorectal cancer surgery always indicates peritoneal recurrence",
+          "D": "Referral for palliative chemotherapy — isolated CEA rise after curative resection indicates systemic failure"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Isolated CEA rise with negative CT (CEA-only recurrence) occurs in 5–10% of colorectal cancer recurrences. CEA elevation precedes radiologically detectable recurrence by a median of 6 months. In this high-risk patient (N2b disease), a PET-CT scan is the appropriate next investigation — PET-CT detects occult recurrence not visible on CT in 30–50% of patients with isolated CEA rise and changes management in a significant proportion. Identifying resectable locoregional or limited distant recurrence allows curative-intent treatment. NCCN and ESMO recommend PET-CT for CEA-only suspected recurrence.",
+          "wrong": {
+            "A": "A six-fold rise in CEA above baseline is clinically significant and requires action, not observation. Delayed investigation risks allowing resectable recurrence to become unresectable. Rising CEA after curative resection mandates workup.",
+            "C": "CEA can rise due to recurrence at any site (liver, lung, peritoneum, anastomosis) or due to non-oncological causes (smoking, inflammatory conditions). Immediate relaparotomy without localising the recurrence is unsafe — the surgical target must be identified. Peritoneal recurrence is one possibility, not the certain diagnosis.",
+            "D": "Initiating palliative chemotherapy before demonstrating the site and extent of recurrence forecloses potentially curative options. If PET-CT or MRI liver identifies oligometastatic resectable disease (e.g., 1–2 liver metastases), curative resection with 40% 5-year survival is achievable. Palliative chemotherapy for potentially resectable disease is inappropriate."
+          },
+          "guideline": "NCCN Colon Cancer v2.2024 — PET-CT for CEA rise with negative CT or equivocal findings; ESMO Colorectal Cancer 2023 — CEA monitoring every 3–6 months for 3 years post-resection",
+          "trial": "Jeffery GM et al. (Cochrane Review 2019): intensive surveillance including CEA monitoring improves detection of resectable recurrence and may improve OS by enabling curative-intent re-treatment. PET-CT sensitivity for CRC recurrence in CEA-only setting: 79–88%.",
+          "pearl": "CEA doubling time is prognostically important: a short doubling time (<4 months) suggests aggressive recurrence; a longer doubling time may indicate slower-growing disease with better surgical options. Document CEA trend (not just absolute value) at each surveillance visit."
+        }
+      }
+    ]
+  }
+}

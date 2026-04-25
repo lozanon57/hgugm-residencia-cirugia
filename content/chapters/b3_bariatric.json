@@ -1,0 +1,718 @@
+{
+  "id": "B3",
+  "title": "Bariatric & Metabolic Surgery",
+  "subtitle": "General Surgery — Obesity, RYGB, Sleeve Gastrectomy & Metabolic Outcomes",
+  "block": "B",
+  "block_name": "General Surgery",
+  "level": "PGY2-3",
+  "reading_time_min": 80,
+  "guidelines_version": "IFSO 2022 · ASMBS/IFSO 2022 Updated Indications · ASMBS Clinical Practice Guidelines 2019",
+  "textbook_refs": [
+    "Schwartz's Principles of Surgery, 11th ed., Ch. 27",
+    "ASMBS/IFSO: Updated Position Statement on Bariatric Surgery Indications 2022",
+    "Mechanick JI et al. Clinical Practice Guidelines for the Perioperative Nutritional, Metabolic and Nonsurgical Support of Bariatric Surgery 2019",
+    "Cirugía de la Obesidad — Manual AEC"
+  ],
+  "learning_objectives": [
+    "Apply updated ASMBS/IFSO 2022 indications for bariatric surgery",
+    "Describe the anatomy and mechanism of weight loss for RYGB and sleeve gastrectomy",
+    "Recognise and manage early and late complications of bariatric surgery",
+    "Explain the metabolic mechanisms of T2DM remission after bariatric surgery",
+    "Outline the mandatory pre-operative multidisciplinary assessment",
+    "Describe operative steps for RYGB and sleeve gastrectomy including bougie size",
+    "Identify long-term nutritional deficiencies and surveillance requirements",
+    "Outline the indications and options for revisional bariatric surgery"
+  ],
+  "sections": [
+    {
+      "id": "B3-S1",
+      "title": "Indications and Patient Selection",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Bariatric surgery is the most effective long-term treatment for severe obesity and associated metabolic comorbidities. The updated ASMBS/IFSO 2022 position statement broadened indications: surgery is recommended for BMI ≥35 kg/m² regardless of comorbidities, and for BMI 30–34.9 kg/m² with at least one obesity-related comorbidity (T2DM, hypertension, sleep apnoea, NAFLD). The 40-year BMI threshold is no longer the universal standard — metabolic disease burden now drives the indication. Contraindications to bariatric surgery: untreated psychiatric disorders preventing long-term compliance, active substance abuse, inability to comply with post-operative nutritional requirements, and medical fitness precluding anaesthesia (though these are relative). Age: bariatric surgery is increasingly offered to adolescents (aged 14–17 with severe obesity and completed bone growth) and to patients >65 years with appropriate selection. Pregnancy should be delayed for minimum 12–18 months after surgery."
+        },
+        {
+          "type": "table",
+          "title": "Bariatric Surgery Indications — ASMBS/IFSO 2022",
+          "headers": ["BMI", "Indication", "Key Comorbidities", "Notes"],
+          "rows": [
+            ["≥40 kg/m²", "Surgery recommended", "Any or none", "Class III obesity"],
+            ["35–39.9 kg/m²", "Surgery recommended", "Any or none", "Previously required comorbidity — now without"],
+            ["30–34.9 kg/m²", "Surgery recommended with comorbidity", "T2DM, OSA, HTN, NAFLD, GERD", "Updated 2022"],
+            ["<30 kg/m²", "Not standard indication", "Investigational in Asian populations with metabolic disease", "Requires IRB-approved protocol"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Metabolic Surgery for T2DM",
+          "content": "Bariatric/metabolic surgery achieves T2DM remission (HbA1c <6.5% without medication) in 50–80% of patients at 1 year. The mechanism is multifactorial: early (hormonal — GLP-1 surge, ghrelin reduction) AND late (sustained weight loss, improved insulin sensitivity). The STAMPEDE trial (Schauer, NEJM 2017, 5-year data) demonstrated T2DM remission in 23% with RYGB vs 5% with medical therapy alone — an 18% absolute difference."
+        }
+      ]
+    },
+    {
+      "id": "B3-S2",
+      "title": "Pre-operative Assessment & Multidisciplinary Team",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Pre-operative bariatric assessment requires a multidisciplinary team (MDT) comprising: surgeon, physician/endocrinologist, dietitian, psychologist/psychiatrist, and anaesthetist. The pre-operative MDT evaluation serves to: (1) confirm the surgical indication, (2) identify and treat obesity-related comorbidities (optimise T2DM, hypertension, sleep apnoea, NAFLD), (3) screen for and treat psychological conditions that may compromise surgical outcomes (active depression, binge eating disorder, unrealistic expectations), (4) identify contraindications, (5) educate the patient on nutritional requirements and post-operative lifestyle changes. Mandatory pre-operative investigations: fasting glucose/HbA1c, lipid profile, thyroid function (exclude hypothyroidism as cause of obesity), FBC, LFTs, renal function, iron studies, folate, B12, vitamin D, PTH, coagulation screen, chest X-ray, ECG, upper GI endoscopy or barium meal (particularly for sleeve to exclude GERD, Helicobacter pylori), sleep study (for OSA evaluation and CPAP initiation). H. pylori eradication is mandatory pre-operatively, particularly for RYGB (inability to access the excluded stomach endoscopically post-operatively). Pre-operative weight loss (low-calorie diet or VLCD for 2–4 weeks) reduces liver volume by 20–30%, facilitates intraoperative exposure, and may reduce conversion rates."
+        },
+        {
+          "type": "table",
+          "title": "Pre-operative Optimisation — Key Targets",
+          "headers": ["Parameter", "Target Before Surgery", "Rationale"],
+          "rows": [
+            ["HbA1c", "<8–9% (ideally <7.5%)", "Reduces wound complication and anastomotic leak risk"],
+            ["Sleep apnoea", "CPAP initiated pre-op", "Reduces post-operative respiratory complications"],
+            ["H. pylori", "Eradicate before RYGB", "Cannot access excluded stomach post-RYGB for endoscopy"],
+            ["Liver volume", "VLCD 2–4 weeks pre-op", "Reduces hepatomegaly; improves intraoperative exposure"],
+            ["Smoking", "Cessation ≥6 weeks pre-op", "Reduces marginal ulcer risk post-RYGB; reduces wound complications"],
+            ["NSAID use", "Discontinue pre-op", "NSAID = strongest risk factor for marginal ulcer after RYGB"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Bariatric Surgery in Adolescents",
+          "content": "Bariatric surgery in adolescents aged 14–17 is appropriate for severe obesity (BMI ≥35 with significant comorbidities or BMI ≥40) when conservative measures have failed and skeletal maturity is confirmed. Sleeve gastrectomy is preferred (lower risk, reversible if needed) over RYGB in adolescents due to superior nutritional risk profile. Mandatory MDT assessment including adolescent psychiatry and family/guardian involvement. Outcomes equivalent to adult surgery with higher compliance when family support is strong."
+        }
+      ]
+    },
+    {
+      "id": "B3-S3",
+      "title": "RYGB — Operative Steps & Anatomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Roux-en-Y gastric bypass (RYGB) creates a small gastric pouch (15–30 mL) connected to a Roux limb of small bowel, bypassing the majority of the stomach, the entire duodenum, and a variable length of proximal jejunum. Operative steps (laparoscopic): (1) Patient positioning: supine/split-leg; surgeon between legs or to the left. Ports: 5 trocars (12mm optical, 12mm right, 5mm left upper, 5mm liver retractor, 5mm assistant). (2) Gastric pouch creation: divide the lesser omentum to expose the lesser curve. Create a horizontal division at the angle of His using a linear stapler (45mm blue load). Create the pouch (~25mL) by vertical division along the lesser curve, keeping the pouch small and excluding the fundus entirely. Pouch too large is the most common cause of weight regain. (3) Division of small bowel: measure the biliopancreatic limb (BP limb) 30–75cm from the ligament of Treitz; divide the jejunum. Measure the Roux (alimentary) limb 100–150cm from the division point distally and create the jejunojejunostomy. (4) Gastrojejunostomy: the Roux limb is brought up to the gastric pouch (antecolic or retrocolic, antegastric). Anastomosis performed by circular stapler (21mm, transoral anvil technique), linear stapler, or hand-sewn. Anterior row reinforced with absorbable sutures. (5) Mesenteric defect closure: ALL mesenteric defects must be closed (jejunojejunostomy mesentery + Petersen's space + mesocolic window if retrocolic). (6) Leak test: methylene blue or endoscopic air insufflation before closure."
+        },
+        {
+          "type": "table",
+          "title": "RYGB — Limb Lengths and Their Significance",
+          "headers": ["Limb", "Standard Length", "Modified for Super-obesity", "Consequence if Too Long"],
+          "rows": [
+            ["Biliopancreatic (BP) limb", "30–75cm from Treitz", "150cm ('distal bypass')", "Protein malnutrition if too long"],
+            ["Roux (alimentary) limb", "100–150cm", "150–200cm", "Nutritional deficiency; diarrhoea"],
+            ["Common channel", "Remainder (typically 250–400cm)", "Minimum 100cm", "Protein malabsorption if <100cm"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Antecolic vs Retrocolic RYGB",
+          "content": "Antecolic RYGB (Roux limb passes anterior to the transverse colon) creates only two mesenteric defects (jejunojejunostomy + Petersen's space). Retrocolic RYGB creates three defects (+ mesocolic window). Retrocolic technically allows a shorter Roux limb to reach without tension, but the additional mesocolic defect creates an extra site for internal hernia. Most current practice is antecolic to reduce internal hernia risk. Petersen's space must be closed in both configurations."
+        }
+      ]
+    },
+    {
+      "id": "B3-S4",
+      "title": "Sleeve Gastrectomy — Operative Steps & Bougie Size",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Laparoscopic sleeve gastrectomy (LSG) resects 75–80% of the stomach along the greater curvature, creating a narrow tubular ('sleeve') gastric remnant. The mechanism of weight loss: restriction (small gastric volume) + ghrelin reduction (fundus — the primary ghrelin-producing tissue — is resected) + accelerated gastric emptying (improved satiety signalling). LSG operative steps: (1) Ports: 5–6 trocars; liver retractor; 12mm optical port. (2) Division of greater omentum from the greater curvature starting 4–6cm from the pylorus (preserve pylorus and antrum to reduce GERD and dumping). (3) Mobilisation continues to the angle of His — complete mobilisation of the fundus including the posterior adhesions is critical; fundus remnant is the most common cause of weight regain after sleeve. (4) Bougie/calibration tube inserted orally — size 34–40Fr (most evidence supports 36Fr as optimal balance of restriction vs leak risk). A smaller bougie (32Fr) creates a tighter sleeve with marginally lower weight regain but higher leak risk. A larger bougie (42Fr+) reduces restriction and increases weight regain. (5) Stapling: divide the stomach along the bougie starting 4–6cm from the pylorus, firing multiple loads of stapler (60mm blue/green loads). The staple line is reinforced with buttress material (pericardial strips, seamguard, or oversewing) — evidence is mixed on whether reinforcement reduces leak rates but is widely practised. (6) Staple line checked for haemostasis; leak tested with methylene blue or endoscopy."
+        },
+        {
+          "type": "table",
+          "title": "Sleeve Gastrectomy — Key Technical Points",
+          "headers": ["Step", "Detail", "Error to Avoid"],
+          "rows": [
+            ["Antrum preservation", "Start stapling 4–6cm from pylorus", "Starting too close to pylorus → GERD + delayed emptying"],
+            ["Fundus mobilisation", "Complete mobilisation of posterior fundus", "Residual fundus → weight regain"],
+            ["Bougie size", "34–40Fr (36Fr most common)", "Too small → higher leak risk; too large → insufficient restriction"],
+            ["Staple line", "Parallel to lesser curve, following the bougie", "Narrowing at the incisura → stricture; twist → obstruction"],
+            ["Angulation (incisura)", "Avoid acute angulation at incisura angularis", "Acute angle → outlet obstruction, dysphagia, leak"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Sleeve Gastrectomy Leak — Recognition and Management",
+          "content": "Staple line leak after sleeve gastrectomy occurs in 1–3% of cases. It typically occurs near the angle of His (proximal staple line) — the most vulnerable point due to mechanical tension, poor perfusion, and angulation. Presentation: day 3–7, tachycardia, fever, increasing abdominal pain, rising CRP. CT with oral contrast is diagnostic (leak + perigastric collection). Management: (1) haemodynamically stable with small contained leak: NGT, NPO, IV antibiotics, CT-guided drainage or ERCP/EGD with covered stent or endoclip; (2) unstable or peritonitis: laparoscopy/laparotomy, washout, drain placement (cannot oversew a sleeve leak — tissue too friable). Persistent sleeve leaks (>4 weeks) may require Roux limb fistulojejunostomy or conversion to RYGB."
+        }
+      ]
+    },
+    {
+      "id": "B3-S5",
+      "title": "Surgical Procedures",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Major Bariatric Procedures — Comparison",
+          "headers": ["Procedure", "Mechanism", "%EWL at 5yr", "T2DM Remission", "Key Risk"],
+          "rows": [
+            ["RYGB", "Restriction + metabolic (GLP-1, ghrelin)", "60–70%", "70–80%", "Internal hernia, nutritional deficiency"],
+            ["Sleeve gastrectomy", "Restriction + ghrelin reduction", "50–60%", "50–60%", "Staple line leak, GERD worsening"],
+            ["SADI-S / One-anastomosis DS", "Restriction + malabsorption", "70–80%", "85–90%", "Protein malnutrition, diarrhoea"],
+            ["Adjustable gastric band", "Restriction only", "40–50%", "40–50%", "Band erosion, slippage — declining use"],
+            ["One-anastomosis gastric bypass (OAGB/MGB)", "Restriction + variable malabsorption", "60–75%", "70–80%", "Bile reflux, nutritional deficiency"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Post-RYGB Nutritional Deficiencies",
+          "content": "All RYGB patients require lifelong supplementation: multivitamin, iron (especially menstruating women), vitamin B12 (IM or high-dose oral), calcium with vitamin D. Thiamine deficiency (Wernicke's encephalopathy) can occur within weeks of excessive vomiting post-operatively — IV thiamine should be given to all bariatric patients with persistent vomiting before any IV glucose administration."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Internal Hernia",
+          "content": "Internal hernia after RYGB occurs through mesenteric defects created during the operation (Petersen's space, mesocolic defect, jejunojejunostomy mesentery). Presentation is intermittent epigastric/periumbilical pain, often non-diagnostic CT between episodes. Any post-RYGB patient with unexplained abdominal pain should be evaluated for internal hernia — diagnostic laparoscopy if CT is inconclusive and clinical suspicion is high."
+        }
+      ]
+    },
+    {
+      "id": "B3-S6",
+      "title": "Complications",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Bariatric Surgery Complications — Recognition and Management",
+          "headers": ["Complication", "Procedure", "Timing", "Presentation", "Management"],
+          "rows": [
+            ["Anastomotic leak", "RYGB", "Day 1–5", "Tachycardia, fever, abdominal pain, rising CRP", "CT → re-operation or percutaneous drain; ICU"],
+            ["Staple line leak", "Sleeve", "Day 1–7", "Same; may be insidious; proximal site most common", "CT → endoscopic stent / drain / re-op; Roux loop for chronic leak"],
+            ["Internal hernia", "RYGB", "Months–years", "Intermittent colicky pain, CT shows mesenteric swirl", "Emergency laparoscopy if suspected"],
+            ["Marginal ulcer", "RYGB", "Months–years", "Epigastric pain, haematemesis; worse with NSAIDs/smoking", "PPI high-dose; endoscopy; NSAID cessation; revision if refractory"],
+            ["Dumping syndrome", "RYGB/sleeve", "Weeks–years", "Early: flushing, palpitations after eating; Late: hypoglycaemia 2–3h post-meal", "Dietary modification; octreotide; acarbose for late dumping"],
+            ["GERD worsening", "Sleeve", "Long-term", "Heartburn, regurgitation, Barrett's", "PPI; consider conversion to RYGB if severe"],
+            ["Band erosion/slippage", "Adjustable band", "Months–years", "Dysphagia (slippage); port site infection/pain (erosion)", "Slippage: urgent deflation ± removal; erosion: endoscopic/surgical removal"],
+            ["Anastomotic stricture", "RYGB", "Weeks–months", "Progressive dysphagia and nausea; reduced intake", "Endoscopic balloon dilation (10–15mm diameter); repeat at 4–6 weeks"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B3-S7",
+      "title": "Nutritional Deficiencies & Long-term Surveillance",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Long-term nutritional surveillance is mandatory after bariatric surgery — deficiencies are common, progressive, and potentially life-threatening if untreated. Iron deficiency is the most common nutritional deficiency after bariatric surgery — occurring in 30–50% of RYGB patients, particularly premenopausal women. Iron absorption requires an acidic environment and gastric acid (which is absent or reduced after RYGB as the duodenum — the primary iron absorption site — is bypassed). Supplementation: oral ferrous sulphate or ferrous gluconate; IV iron sucrose or ferric carboxymaltose for severe deficiency or oral intolerance. Vitamin B12 absorption requires intrinsic factor (secreted by gastric parietal cells) and absorption in the terminal ileum. After sleeve gastrectomy (parietal cell mass reduced) and RYGB (gastric acid and IF production reduced), B12 deficiency develops in 30–40% within 5 years. Supplementation: sublingual or intramuscular B12 (bypasses intrinsic factor dependence); high-dose oral B12 (500–1000 mcg/day) is adequate if compliance assured. Vitamin D and calcium: calcium absorption requires vitamin D and an acidic gastric pH. After RYGB, both conditions are impaired. Calcium citrate (not calcium carbonate — requires acid for absorption) 1500–2000mg/day with vitamin D3 1500–3000 IU/day is the recommended supplementation. Failure leads to secondary hyperparathyroidism and metabolic bone disease. Thiamine (B1) deficiency can cause Wernicke's encephalopathy within weeks of surgery — particularly with persistent vomiting. NEVER give IV glucose without thiamine first in a post-bariatric patient with vomiting. Folate: supplement in all patients, especially women of childbearing age — crucial in pregnancy planning after surgery."
+        },
+        {
+          "type": "table",
+          "title": "Nutritional Deficiencies After Bariatric Surgery",
+          "headers": ["Nutrient", "Prevalence after RYGB", "Clinical Consequence", "Supplementation"],
+          "rows": [
+            ["Iron", "30–50% (esp. menstruating women)", "Microcytic anaemia, fatigue, hair loss", "Ferrous sulphate 65mg elemental iron 2–3x/day; IV iron if intolerant"],
+            ["Vitamin B12", "30–40% at 5 years", "Megaloblastic anaemia, peripheral neuropathy, cognitive impairment", "IM B12 monthly or sublingual 1000mcg/day or high-dose oral 500–1000mcg"],
+            ["Vitamin D / Calcium", "50–70%", "Secondary hyperparathyroidism, osteopenia/osteoporosis, fractures", "Calcium citrate 1500–2000mg/day + Vitamin D3 1500–3000 IU/day"],
+            ["Thiamine (B1)", "Uncommon; high risk with vomiting", "Wernicke's encephalopathy (encephalopathy, ophthalmoplegia, ataxia)", "IV thiamine 200–500mg before any IV glucose; PO thiamine 100mg/day maintenance"],
+            ["Folate", "30–35%", "Megaloblastic anaemia; neural tube defects in pregnancy", "5mg/day especially in women of childbearing age"],
+            ["Zinc", "30–40% (SADI/DS highest)", "Hair loss, immune dysfunction, taste changes, wound healing delay", "15–25mg elemental zinc/day"],
+            ["Protein", "10–20% (SADI/DS highest)", "Muscle wasting, oedema, impaired healing", "60–80g protein/day minimum; protein supplements"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "ASMBS Nutritional Surveillance Schedule",
+          "content": "Minimum post-operative nutritional follow-up: blood tests at 3, 6, 12 months, then annually. Tests: FBC, iron studies, ferritin, B12, folate, vitamin D, PTH, calcium, albumin, zinc, copper (for SADI-S/DS). DEXA scan: baseline before surgery, then every 2 years post-operatively to monitor bone density. Weight monitoring: BMI and % total weight loss at each visit. Protein intake: assess at every visit — target 60–80g/day for RYGB, higher for SADI-S."
+        }
+      ]
+    },
+    {
+      "id": "B3-S8",
+      "title": "Metabolic Mechanisms of T2DM Remission",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The mechanisms of T2DM remission after bariatric surgery are incompletely understood but involve both weight-dependent and weight-independent pathways. Weight-independent mechanisms explain why T2DM can improve dramatically within days of surgery, before significant weight loss has occurred. (1) GLP-1 surge (foregut/hindgut hypothesis): after RYGB and sleeve, rapid delivery of nutrients to the distal gut (L-cells in ileum) causes a massive postprandial GLP-1 surge — 5–10 times normal. GLP-1 stimulates insulin secretion (incretin effect), suppresses glucagon, and improves beta-cell function. (2) Ghrelin reduction: the gastric fundus (primary ghrelin source) is resected in sleeve gastrectomy and excluded in RYGB. Ghrelin suppression reduces appetite, and some data suggest ghrelin directly impairs insulin sensitivity — its reduction may contribute to early T2DM remission. (3) Bile acid signalling: RYGB alters bile acid composition and delivery. Bile acids activate TGR5 receptors in the gut, stimulating GLP-1 release. Altered bile acid profiles post-bypass contribute to improved glucose metabolism through FXR and TGR5 receptor pathways. (4) Changes in gut microbiome: bariatric surgery dramatically alters the gut microbiome composition, increasing bacteria associated with improved metabolic function. Microbiome changes occur within days and may mediate some early metabolic effects. (5) Caloric restriction (weight-dependent): after 3–6 months, sustained weight loss improves hepatic insulin resistance, reduces intracellular lipid accumulation in pancreatic beta-cells, and improves peripheral insulin sensitivity. STAMPEDE trial (5-year data): 23% T2DM remission after RYGB vs 5% medical therapy; RYGB superior to sleeve at 5 years (23% vs 18% complete remission)."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "STAMPEDE Trial",
+          "citation": "Schauer PR et al. NEJM 2017 (5-year data)",
+          "population": "Adults with T2DM and BMI 27–43 (mean 37), randomised to RYGB, sleeve gastrectomy, or intensive medical therapy",
+          "intervention": "Bariatric surgery (RYGB or sleeve) vs intensive medical therapy including lifestyle intervention",
+          "result": "T2DM remission (HbA1c <6% without medication) at 5 years: RYGB 23%, sleeve 18%, medical therapy 5%. Secondary endpoint HbA1c <7%: RYGB 75%, sleeve 65%, medical 27%",
+          "practice_change": "Bariatric surgery substantially superior to medical therapy for T2DM remission in obese patients; RYGB superior to sleeve for T2DM outcomes; supports metabolic surgery indication at lower BMI thresholds"
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — ABCD Score Predicts T2DM Remission",
+          "content": "The ABCD score predicts likelihood of T2DM remission after bariatric surgery: Age <40y (1pt), BMI >35 (1pt), C-peptide level >2.9 ng/mL (2pts), Duration of T2DM <4 years (3pts) — maximum 10 points. Score >8 = 90%+ remission likelihood; score <3 = <50% likelihood. Short duration of T2DM (preserved beta-cell function) is the strongest predictor of remission — surgery is most effective before beta-cell exhaustion occurs."
+        }
+      ]
+    },
+    {
+      "id": "B3-S9",
+      "title": "Revisional Bariatric Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Revisional bariatric surgery is performed in 5–15% of bariatric patients and is indicated for: (1) inadequate weight loss or weight regain; (2) surgical complications not manageable conservatively (GERD after sleeve, marginal ulcer after RYGB, band erosion/slippage); (3) metabolic failure (T2DM recurrence); (4) patient preference or nutritional complications. Revisional surgery carries higher morbidity and mortality than primary surgery — complication rates are 2–3 times higher. The most common revision is conversion of sleeve gastrectomy to RYGB for: (a) severe GERD or Barrett's oesophagus (sleeve worsens GERD in 20–30%), (b) inadequate weight loss, or (c) weight regain. Conversion to RYGB resolves GERD in 85–90% of cases. Conversion of adjustable gastric band (LAGB): band erosion requires surgical/endoscopic removal; after removal, conversion to sleeve or RYGB after 3–6 months. Single-anastomosis duodenal switch (SADI-S) is an increasingly used option for revision after sleeve for inadequate weight loss — adds a malabsorptive component without creating the complexity of full RYGB. Endoscopic revisional options: transoral outlet reduction (TORe) for dilated gastrojejunostomy (RYGB weight regain), endoscopic sleeve gastroplasty (ESG) for weight regain after sleeve."
+        },
+        {
+          "type": "table",
+          "title": "Common Revision Scenarios",
+          "headers": ["Primary Procedure", "Problem", "Revision Options", "Notes"],
+          "rows": [
+            ["Sleeve gastrectomy", "GERD / Barrett's", "Conversion to RYGB", "85–90% GERD resolution post-conversion"],
+            ["Sleeve gastrectomy", "Weight regain", "Conversion to RYGB or SADI-S", "SADI-S preferred for high BMI"],
+            ["RYGB", "Weight regain — dilated pouch/anastomosis", "TORe (endoscopic); pouch revision", "Endoscopic first; surgery if fails"],
+            ["RYGB", "Marginal ulcer refractory to PPI", "Revisional surgery: narrow pouch, remove foreign material", "Exclude excluded stomach perforation/fistula first"],
+            ["Adjustable gastric band", "Band erosion", "Band removal; conversion to sleeve/RYGB after 3–6 months", "Staged approach — single stage has higher complication rate"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Portal Vein Thrombosis After Bariatric Surgery",
+          "content": "Portal vein thrombosis (PVT) is a rare but serious complication of bariatric surgery — incidence 1–2% after sleeve (higher than RYGB). Presentation: fever, abdominal pain, elevated D-dimer, and nausea in the first 2–4 weeks. Diagnosis: CT with IV contrast (filling defect in portal or mesenteric veins). Treatment: immediate anticoagulation (LMWH or UFH, then warfarin for 3–6 months). PVT is associated with dehydration and hypercoagulable state — adequate hydration and early ambulation post-operatively are essential prevention strategies. Some centres routinely anticoagulate high-risk bariatric patients (BMI>50, prior VTE, Factor V Leiden) peri-operatively."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your bariatric surgery knowledge.",
+    "questions": [
+      {
+        "id": "B3-Q1",
+        "stem": "A 45-year-old woman, 3 years post-RYGB, presents with 6 months of intermittent colicky periumbilical pain, worse after eating, with spontaneous resolution over 1–2 hours. BMI is 28 (down from 47). CT abdomen performed during a pain-free period shows no acute pathology. What is the most likely diagnosis and appropriate management?",
+        "options": {
+          "A": "Irritable bowel syndrome — reassure and prescribe antispasmodics",
+          "B": "Internal hernia through mesenteric defect — diagnostic laparoscopy warranted",
+          "C": "Marginal ulcer — upper GI endoscopy",
+          "D": "Bile reflux — convert to sleeve gastrectomy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Internal hernia is the classic post-RYGB complication presenting with intermittent colicky pain that resolves spontaneously (reduction of the hernia). CT during pain-free periods is frequently normal — the hernia reduces before imaging. The typical timing (months to years post-RYGB), characteristic colicky nature, and location (periumbilical) in the post-RYGB setting strongly suggests internal hernia. Diagnostic laparoscopy is warranted when clinical suspicion is high despite normal CT — mesenteric defects (Peterson's space, jejunojejunostomy mesentery, mesocolic defect) are closed at laparoscopy.",
+          "wrong": {
+            "A": "IBS is a diagnosis of exclusion. In a post-RYGB patient with intermittent colicky pain, internal hernia must be excluded before attributing symptoms to IBS.",
+            "C": "Marginal ulcer presents with constant epigastric pain, not episodic colicky pain.",
+            "D": "Conversion to sleeve is not indicated for internal hernia. Bile reflux is a complication of sleeve gastrectomy, not a RYGB complication."
+          },
+          "guideline": "ASMBS 2022 — all post-bariatric patients with abdominal pain should be evaluated for internal hernia; negative CT does not exclude diagnosis",
+          "trial": "Higa KD et al., Obes Surg 2006: internal hernia rate after laparoscopic RYGB 2–5%; closure of mesenteric defects reduces but does not eliminate risk.",
+          "pearl": "A post-RYGB patient with colicky abdominal pain has an internal hernia until proven otherwise. Act promptly — incarceration can lead to bowel ischaemia within hours."
+        }
+      },
+      {
+        "id": "B3-Q2",
+        "stem": "A 38-year-old man with BMI 32 kg/m² and poorly controlled T2DM (HbA1c 9.5% on three oral agents) asks about bariatric surgery. He has no other obesity comorbidities. According to the ASMBS/IFSO 2022 updated position statement, is he a candidate for metabolic surgery?",
+        "options": {
+          "A": "No — BMI must be ≥35 for surgical consideration",
+          "B": "No — BMI must be ≥40 without comorbidities or ≥35 with comorbidities under the older criteria",
+          "C": "Yes — BMI 30–34.9 with T2DM is now an indication per ASMBS/IFSO 2022",
+          "D": "Yes — any BMI with T2DM is an indication according to ASMBS 2022"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The ASMBS/IFSO 2022 updated position statement expanded bariatric surgery indications to include BMI 30–34.9 kg/m² with at least one obesity-related comorbidity — T2DM is the primary metabolic indication at this BMI range. This update removed the longstanding BMI ≥35 or ≥40 thresholds as the only indications and now incorporates metabolic disease burden into decision-making. This patient has BMI 32 + poorly controlled T2DM = surgical candidate under 2022 guidelines.",
+          "wrong": {
+            "A": "The BMI ≥35 criterion applied under the older 1991 NIH consensus guidelines — the 2022 update lowered the threshold for patients with comorbidities.",
+            "B": "This describes the pre-2022 criteria — the 2022 update represents a significant expansion of indications.",
+            "D": "There is no bariatric surgery indication for BMI <30 in standard practice — BMI 30–34.9 with comorbidities is the lowest threshold accepted."
+          },
+          "guideline": "ASMBS/IFSO 2022 — BMI 30–34.9 with at least one obesity-related comorbidity (T2DM, OSA, HTN, NAFLD) = surgical indication",
+          "trial": "STAMPEDE trial (Schauer, NEJM 2017): T2DM remission after bariatric surgery even in patients with BMI 27–32 — motivating the lower BMI threshold.",
+          "pearl": "2022 ASMBS/IFSO update: BMI ≥35 regardless of comorbidity; BMI 30–34.9 with comorbidity. No longer the '40/35' threshold only. For exams: if BMI 30–35 + T2DM = operate. If BMI 30–35 with no comorbidity = NOT yet indicated."
+        }
+      },
+      {
+        "id": "B3-Q3",
+        "stem": "A 52-year-old woman is 5 days post-laparoscopic sleeve gastrectomy. She develops sudden-onset tachycardia (HR 130), fever (38.9°C), and increasing left shoulder tip pain. Her abdomen is mildly tender in the left upper quadrant. WBC is 19,000, CRP 280. What is the most likely diagnosis and immediate management?",
+        "options": {
+          "A": "Pulmonary embolism — CT pulmonary angiography",
+          "B": "Staple line leak — CT with oral contrast; urgent endoscopic or surgical management",
+          "C": "Splenic injury — CT abdomen",
+          "D": "Post-operative ileus — NGT and observation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Tachycardia, fever, and elevated inflammatory markers on day 5 after sleeve gastrectomy are the hallmarks of staple line leak until proven otherwise. Left shoulder tip pain (referred diaphragmatic irritation) is a classical feature of a proximal (angle of His) leak with subdiaphragmatic irritation. CT with water-soluble oral contrast is the diagnostic investigation — identifies the leak site, size of collection, and guides management. Management: (1) haemodynamically stable, small contained leak: NPO, IV antibiotics, CT-guided or surgical drain placement, endoscopic covered stent (90% success rate for acute leaks). (2) Unstable or peritonitis: emergency return to theatre for washout, drain placement, and consideration of stent. Oversewing is not feasible on post-operative sleeve tissue.",
+          "wrong": {
+            "A": "PE is an important differential for tachycardia post-bariatric surgery, but the combination of fever, elevated inflammatory markers, and left shoulder tip pain strongly points to a local leak rather than PE (which would not cause fever or localised tenderness).",
+            "C": "Splenic injury during sleeve is rare and would present with haemoperitoneum signs (hypovolaemia, falling haemoglobin) rather than inflammatory markers elevation.",
+            "D": "Post-operative ileus does not cause fever, tachycardia, or this level of CRP — a surgical complication is far more likely."
+          },
+          "guideline": "ASMBS 2019 — post-sleeve tachycardia >120 on any post-operative day = staple line leak until proven otherwise; CT + endoscopy for management",
+          "trial": "Sakran N, Obes Surg 2013: staple line leak after LSG — most common site angle of His; endoscopic stent success 85%; surgical drainage required for large leaks.",
+          "pearl": "Post-bariatric surgery: any tachycardia >120 after day 1 = leak until proven otherwise. Left shoulder tip pain after sleeve = proximal (angle of His) leak with subdiaphragmatic irritation. CT with oral contrast + surgical review immediately."
+        }
+      },
+      {
+        "id": "B3-Q4",
+        "stem": "A 40-year-old woman, 18 months post-RYGB, develops sweating, palpitations, anxiety, and confusion occurring 2–3 hours after meals. Blood glucose during an episode measures 2.1 mmol/L (38 mg/dL). These episodes are not present in the fasting state. What is the diagnosis and first-line management?",
+        "options": {
+          "A": "Early dumping syndrome — dietary modification to small frequent meals, high protein, low refined carbohydrate",
+          "B": "Reactive hypoglycaemia (late dumping / post-bariatric hypoglycaemia) — dietary modification; acarbose; octreotide if refractory",
+          "C": "Insulinoma — fasting glucose tolerance test and MRI pancreas",
+          "D": "Marginal ulcer — PPI and endoscopy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Post-bariatric hypoglycaemia (also called non-insulinoma pancreatogenous hypoglycaemia syndrome, NIPHS, or late dumping) occurs 2–3 hours post-prandially (not fasting) — distinguishing it from insulinoma (which causes fasting hypoglycaemia). The mechanism: exaggerated GLP-1 release from the distal gut after rapid carbohydrate delivery (bypassed duodenum in RYGB) → massive insulin release → hypoglycaemia after nutrients have been absorbed. Symptoms: neuroglycopenic (confusion, seizures, loss of consciousness). First-line management: dietary modification (low glycaemic index, small frequent meals, avoid simple carbohydrates). Pharmacological: acarbose (alpha-glucosidase inhibitor — slows carbohydrate absorption) or somatostatin analogues (octreotide LAR — reduces GLP-1 and insulin release). Surgery (pancreatectomy) is rarely needed.",
+          "wrong": {
+            "A": "Early dumping (within 30–60 minutes of eating) causes flushing, palpitations, and diarrhoea from osmotic fluid shifts — not hypoglycaemia. This patient's symptoms 2–3h post-meal with documented hypoglycaemia is late dumping/reactive hypoglycaemia.",
+            "C": "Insulinoma causes fasting hypoglycaemia relieved by eating — the post-prandial pattern (exclusively 2–3h after eating, not fasting) distinguishes this from insulinoma. 72-hour supervised fast would not produce hypoglycaemia in this patient.",
+            "D": "Marginal ulcer presents with epigastric pain, not post-prandial hypoglycaemia."
+          },
+          "guideline": "ASMBS 2019 — post-bariatric hypoglycaemia: dietary modification first; acarbose; octreotide LAR; very selective surgical candidates (pancreatectomy rarely indicated)",
+          "trial": "Vella A, NEJM 2012: post-bariatric hypoglycaemia — exaggerated GLP-1 response confirmed; acarbose reduces hypoglycaemic episodes by 50%; dietary modification effective in 70%.",
+          "pearl": "Post-bariatric hypoglycaemia vs insulinoma: post-bariatric = post-prandial ONLY, 2–3h after eating; insulinoma = fasting hypoglycaemia. Management: diet (low GI, small meals, avoid simple carbs) → acarbose → octreotide. Pancreatectomy only as last resort."
+        }
+      },
+      {
+        "id": "B3-Q5",
+        "stem": "A 35-year-old woman who had a laparoscopic sleeve gastrectomy 3 years ago presents with progressively worsening heartburn, regurgitation, and new-onset dysphagia. EGD shows grade C oesophagitis and Barrett's oesophagus (short segment, <3cm). She has failed high-dose PPI therapy. What is the most appropriate management?",
+        "options": {
+          "A": "Fundoplication — Nissen fundoplication is appropriate after sleeve",
+          "B": "Increase PPI dose to maximum — Barrett's oesophagus resolves with acid suppression",
+          "C": "Conversion of sleeve gastrectomy to RYGB",
+          "D": "Oesophagectomy for Barrett's oesophagus with PPI failure"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Sleeve gastrectomy worsens or de novo induces GERD in 20–30% of patients due to: (1) destruction of the angle of His (His angle flap valve), (2) loss of fundic accommodation reducing lower oesophageal sphincter support, (3) increased intragastric pressure from the narrow tubular remnant, (4) shortened intraabdominal oesophageal segment. When GERD is severe, refractory, or complicated by Barrett's oesophagus, conversion of sleeve to RYGB is the definitive treatment. RYGB resolves GERD in 85–90% of cases by diverting acid away from the oesophagus (biliopancreatic limb does not reach the oesophagus). Nissen fundoplication is not appropriate — there is insufficient fundus for a wrap after sleeve, and the anatomy does not permit it.",
+          "wrong": {
+            "A": "Nissen fundoplication after sleeve gastrectomy is anatomically impossible — the fundus has been resected. No fundus = no wrap.",
+            "B": "Barrett's oesophagus in the presence of worsening symptoms on PPI requires intervention — it does not resolve with acid suppression alone. Ongoing acid reflux increases the risk of progression to high-grade dysplasia.",
+            "D": "Oesophagectomy is reserved for high-grade dysplasia or oesophageal carcinoma — short segment Barrett's with active reflux should be treated with RYGB conversion first."
+          },
+          "guideline": "ASMBS 2019 — severe GERD or Barrett's after sleeve gastrectomy: conversion to RYGB is the treatment of choice; resolves GERD in 85–90%",
+          "trial": "Altieri MS, Surg Obes Relat Dis 2018: conversion sleeve to RYGB for GERD — 89% resolution of heartburn; 75% regression of Barrett's at 24 months.",
+          "pearl": "Sleeve + severe GERD + Barrett's = convert to RYGB. Nissen after sleeve is anatomically impossible. Pre-operative counselling: warn all sleeve patients of 20–30% risk of new or worsened GERD — particularly important in patients with pre-existing GERD (consider RYGB as primary procedure)."
+        }
+      },
+      {
+        "id": "B3-Q6",
+        "stem": "A 30-year-old woman, 6 months post-RYGB, presents with 3 days of nausea, vomiting, confusion, and difficulty walking. She has had persistent vomiting since surgery. On examination she has bilateral horizontal nystagmus and ataxia. Blood glucose is normal. What is the diagnosis and immediate treatment?",
+        "options": {
+          "A": "Hypoglycaemia — IV glucose 50% dextrose",
+          "B": "Wernicke's encephalopathy from thiamine deficiency — IV thiamine before any glucose",
+          "C": "Wernicke's encephalopathy from B12 deficiency — IM cyanocobalamin",
+          "D": "Post-RYGB internal hernia — emergency laparoscopy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The triad of encephalopathy, ophthalmoplegia (nystagmus), and ataxia in a post-bariatric patient with persistent vomiting is Wernicke's encephalopathy from acute thiamine (B1) deficiency. Thiamine is absorbed in the proximal small bowel and has minimal body stores (only 2–3 weeks). Persistent vomiting after RYGB rapidly depletes thiamine stores. CRITICAL: IV thiamine 200–500mg must be administered IMMEDIATELY and BEFORE any glucose administration. Giving IV glucose to a thiamine-deficient patient consumes the last remaining thiamine (required for pyruvate dehydrogenase in glucose metabolism) and precipitates acute neurological decompensation and potentially permanent Korsakoff psychosis or death.",
+          "wrong": {
+            "A": "Administering IV glucose before thiamine in a suspected Wernicke's patient is potentially fatal — this is a critical error to avoid. Blood glucose is normal — glucose is not indicated.",
+            "C": "B12 deficiency causes subacute combined degeneration of the spinal cord (posterior column + corticospinal tracts), not the classic Wernicke's triad. B12 deficiency develops over years, not months.",
+            "D": "Internal hernia presents with colicky abdominal pain, not neurological findings."
+          },
+          "guideline": "ASMBS 2019 — all post-bariatric patients with vomiting: IV thiamine 200–500mg before any IV glucose. Wernicke's = medical emergency — thiamine first, glucose never first",
+          "trial": "Aasheim ET, Obes Surg 2008: Wernicke's encephalopathy after bariatric surgery — 32 cases identified; all associated with persistent vomiting; recovery rate 75% with prompt thiamine; incomplete recovery if treatment delayed.",
+          "pearl": "Post-bariatric + vomiting + encephalopathy/ophthalmoplegia/ataxia = Wernicke's. NEVER give glucose before thiamine in bariatric patients. IV thiamine 200–500mg first. This is a board exam classic — know the order."
+        }
+      },
+      {
+        "id": "B3-Q7",
+        "stem": "A 42-year-old man, 2 years post-laparoscopic sleeve gastrectomy, presents with epigastric pain radiating to the back, and 3 episodes of melaena. EGD reveals an ulcer at the junction of the antrum and sleeve body. H. pylori testing is negative. He reports taking ibuprofen regularly for back pain. What is the most appropriate management?",
+        "options": {
+          "A": "Stop NSAIDs, prescribe high-dose PPI (omeprazole 40mg twice daily), and retest at 8 weeks",
+          "B": "Immediate sleeve revision — ulcer at anastomosis requires surgical intervention",
+          "C": "Misoprostol — prostaglandin replacement therapy for NSAID-induced ulcer",
+          "D": "Conversion to RYGB — all sleeve ulcers require conversion"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "NSAID use is the strongest modifiable risk factor for post-bariatric ulceration (marginal ulceration after RYGB; antral/sleeve junction ulceration after sleeve). Management of NSAID-induced sleeve ulceration: (1) immediate NSAID cessation (must find alternative analgesia — paracetamol, tramadol, physiotherapy), (2) high-dose PPI (omeprazole 40mg twice daily or pantoprazole 40mg twice daily — evidence supports double-dose PPI), (3) sucralfate as mucosal protectant, (4) repeat EGD at 8–12 weeks to confirm healing. H. pylori eradication treatment if positive (this patient is H. pylori negative). Surgical intervention is reserved for refractory ulcers not responding to 12 weeks of maximal medical therapy, perforation, or haemorrhage not controlled endoscopically.",
+          "wrong": {
+            "A": "This is the correct answer — conservative medical management with NSAID cessation and PPI.",
+            "B": "Sleeve revision/conversion is not first-line for uncomplicated NSAID-induced sleeve ulcer without perforation or refractory bleeding.",
+            "C": "Misoprostol is a prostaglandin analogue used as adjunctive NSAID gastroprotection — it does not treat an existing ulcer adequately and causes diarrhoea as a side effect.",
+            "D": "Conversion to RYGB is reserved for refractory sleeve ulcers or those associated with severe GERD — not first-line for a treatable NSAID-induced ulcer."
+          },
+          "guideline": "ASMBS 2019 — post-bariatric ulcer: NSAID cessation mandatory; high-dose PPI; EGD recheck at 8–12 weeks; surgery only for refractory or complicated ulcers",
+          "trial": "Coblijn UK, JAMA Surg 2014: NSAID use after RYGB — 4.7-fold increased risk of marginal ulcer; absolute cessation of NSAIDs is non-negotiable post-bariatric.",
+          "pearl": "Post-bariatric ulcer risk factors: NSAIDs (strongest — must stop), smoking (2x risk), H. pylori, corticosteroids. For marginal ulcer after RYGB specifically: also consider foreign material (suture, staple) and excluded stomach acid hypersecretion as causes. Always check for H. pylori before and after surgery."
+        }
+      },
+      {
+        "id": "B3-Q8",
+        "stem": "A 36-year-old woman wishes to conceive and asks about timing of pregnancy after her laparoscopic RYGB performed 8 months ago. She has lost 30kg and her BMI is now 32. What is the most appropriate counselling?",
+        "options": {
+          "A": "She may conceive immediately — weight is now in an acceptable range",
+          "B": "Delay conception for at least 12–18 months after surgery and confirm nutritional adequacy before conception",
+          "C": "Bariatric surgery causes permanent infertility — pregnancy is not possible",
+          "D": "She must wait 5 years before conception — nutritional stores take years to replenish"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Current guidelines recommend delaying pregnancy for a minimum of 12–18 months after bariatric surgery for two reasons: (1) the period of rapid weight loss (months 3–18) creates a catabolic state with elevated foetal risk from nutritional deficiencies (iron, folate, B12, vitamin D, protein); (2) BMI and nutritional status need to stabilise before conception. This patient is at 8 months — still in the rapid weight loss phase. Pre-conception requirements: confirm normal iron, folate, B12, vitamin D levels; ensure adequate protein intake (minimum 60g/day); update all nutritional supplements; involve obstetric team early. Bariatric surgery actually IMPROVES fertility in PCOS and obesity-related anovulation — it does not cause infertility.",
+          "wrong": {
+            "A": "8 months post-op is within the rapid weight loss period — the catabolic state and ongoing nutritional depletion increase risk of foetal growth restriction, neural tube defects, and preterm birth.",
+            "C": "Bariatric surgery improves fertility — obesity and PCOS (common in bariatric patients) are causes of infertility that resolve with weight loss. Surgery does not cause infertility.",
+            "D": "5 years is excessively long — 12–18 months with confirmed nutritional stability is the evidence-based recommendation."
+          },
+          "guideline": "ASMBS/ACOG 2019 — delay pregnancy 12–18 months after bariatric surgery; nutritional screening mandatory before conception; increased monitoring throughout pregnancy",
+          "trial": "Johansson K, JAMA 2015: pregnancy outcomes after bariatric surgery — wait >2 years associated with lower risk of small for gestational age vs <2 years; earlier pregnancy associated with increased preterm birth.",
+          "pearl": "Bariatric surgery + pregnancy: wait 12–18 months minimum; not 5 years. Surgery improves fertility (treats PCOS/anovulation). Pre-conception: check iron, B12, folate, vitamin D, protein. Continue all supplements throughout pregnancy — dose may need adjustment. High-dose folate (5mg/day) recommended."
+        }
+      },
+      {
+        "id": "B3-Q9",
+        "stem": "During a laparoscopic sleeve gastrectomy, the surgeon uses a 32Fr bougie to calibrate the sleeve. At what distance from the pylorus should the first stapler fire be placed, and what is the critical technical error associated with stapling too close to the pylorus?",
+        "options": {
+          "A": "2cm from the pylorus; risk of gastric outlet obstruction",
+          "B": "4–6cm from the pylorus; risk of delayed gastric emptying, increased GERD, and pyloric dysfunction",
+          "C": "8–10cm from the pylorus; risk of leaving too much antrum with insufficient restriction",
+          "D": "At the incisura angularis; risk of complete antral exclusion"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The first stapler fire during sleeve gastrectomy should be placed 4–6cm from the pylorus on the greater curvature. This preserves the antral pump mechanism while providing adequate restriction. Stapling too close to the pylorus (≤2cm) risks: (1) pyloric dysfunction leading to delayed gastric emptying (gastroparesis-like syndrome), (2) increased post-operative GERD due to poor antral peristalsis and impaired pyloric clearance, (3) antral ischaemia. Preserving 4–6cm of antrum maintains normal gastric emptying mechanics. A 32Fr bougie is on the smaller end of the range (typical 34–40Fr) — providing excellent restriction but with marginally higher leak risk at the angularis incisura due to increased intraluminal pressure.",
+          "wrong": {
+            "A": "2cm from the pylorus is too close — damages the pyloric mechanism. Gastric outlet obstruction is not the risk; delayed emptying and GERD are.",
+            "C": "8–10cm leaves too much antrum — reduces restriction and is a common cause of inadequate weight loss after sleeve.",
+            "D": "Starting at the incisura is incorrect anatomy — the incisura is the mid-point, not the start; beginning there removes the antrum entirely and disrupts gastric emptying."
+          },
+          "guideline": "ASMBS Technical/Safety Recommendations — sleeve gastrectomy: first staple fire 4–6cm from pylorus; bougie 34–40Fr; complete fundus mobilisation mandatory",
+          "trial": "Rosenthal RJ et al., SOARD 2012: International Sleeve Gastrectomy Expert Panel Consensus — 4–6cm from pylorus optimal; bougie 32–40Fr; staple line reinforcement recommended.",
+          "pearl": "Sleeve technical pearls: (1) start 4–6cm from pylorus; (2) bougie 34–40Fr (36Fr most common); (3) complete posterior fundus mobilisation to prevent weight regain; (4) avoid acute angulation at incisura (stricture/leak risk); (5) check entire staple line for haemostasis."
+        }
+      },
+      {
+        "id": "B3-Q10",
+        "stem": "A 55-year-old man, 4 years post-RYGB, presents with 3 months of progressively severe epigastric pain and 2 episodes of haematemesis. EGD shows a 1.5cm ulcer at the gastrojejunostomy (marginal ulcer). He is a non-smoker, non-NSAID user, H. pylori negative. PPI therapy at standard dose for 8 weeks has not healed the ulcer. What is the most likely cause and next management step?",
+        "options": {
+          "A": "Inadequate PPI dosing — increase to omeprazole 40mg twice daily for 12 weeks",
+          "B": "Foreign material (suture/staple) at the anastomosis — EGD with removal of exposed suture or staple",
+          "C": "Excluded stomach gastrinoma — secretin stimulation test",
+          "D": "Bile reflux into the Roux limb — conversion to sleeve"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "When a marginal ulcer is refractory to standard-dose PPI after eliminating common causes (NSAIDs, smoking, H. pylori), the next consideration is foreign material (non-absorbable sutures or exposed staples) at the anastomosis. Non-absorbable sutures used during the gastrojejunostomy can erode through the mucosa, acting as a nidus for chronic ulceration. EGD allows identification and removal of exposed sutures/staples using endoscopic scissors or graspers — removal resolves refractory marginal ulcers in a significant proportion of cases. High-dose PPI (twice daily) should also be escalated alongside endoscopic management.",
+          "wrong": {
+            "A": "Escalating to double-dose PPI is appropriate but incomplete — if standard dose has failed, foreign material must be excluded first by endoscopy.",
+            "C": "Excluded stomach gastrinoma (or fistula from excluded stomach causing excess acid exposure) is a rare cause of refractory marginal ulcers but is lower probability than foreign material in this scenario. Excluded stomach acid output can cause recurrent ulcers — nuclear medicine gastric emptying of excluded stomach may help.",
+            "D": "Conversion to sleeve would be inappropriate — sleeve does not improve marginal ulcer and would remove the gastric bypass anatomy."
+          },
+          "guideline": "ASMBS 2019 — refractory marginal ulcer: EGD for foreign material removal; if fails → excluded stomach fistula evaluation → surgical revision (pouch narrowing, re-anastomosis)",
+          "trial": "Bhayani NH, JAMA Surg 2014: marginal ulcer refractory to PPI — foreign suture material identified at EGD in 30%; removal resolved ulcer in 80% of cases.",
+          "pearl": "Refractory marginal ulcer management ladder: (1) ensure NSAID cessation + smoking cessation + H. pylori treatment; (2) high-dose PPI (omeprazole 40mg BD) + sucralfate; (3) EGD for foreign material removal; (4) excluded stomach evaluation; (5) surgical revision. Foreign material is underdiagnosed — always repeat EGD for refractory marginal ulcer."
+        }
+      },
+      {
+        "id": "B3-Q11",
+        "stem": "A 48-year-old woman presents with band erosion 5 years after laparoscopic adjustable gastric band (LAGB) placement. EGD shows the band eroded through the posterior gastric wall into the lumen. She has mild epigastric pain and elevated inflammatory markers. What is the most appropriate management?",
+        "options": {
+          "A": "Deflate the band immediately via the port and observe",
+          "B": "Remove the band surgically via laparotomy — band erosion requires open repair",
+          "C": "Band removal (endoscopic or laparoscopic) followed by conversion to sleeve or RYGB after 3–6 months",
+          "D": "Long-term antibiotics and observation — band erosion can resolve spontaneously"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Gastric band erosion (intragastric band migration) occurs in 1–3% of LAGB patients. The band has eroded into the gastric lumen — this is a clear indication for band removal. Options: (1) endoscopic band removal (if the band is accessible and the connection can be cut endoscopically — requires experienced therapeutic endoscopist); (2) laparoscopic band removal (preferred if endoscopic removal not feasible). After band removal, the gastric wall defect heals with conservative management. Conversion to sleeve gastrectomy or RYGB should be planned as a staged procedure 3–6 months after band removal to allow gastric wall healing and reduce infection risk. Single-stage band removal + conversion has higher complication rates.",
+          "wrong": {
+            "A": "Deflating the band does not address the erosion — the band is inside the gastric lumen and must be physically removed.",
+            "B": "Open laparotomy is not required — laparoscopic or endoscopic removal is preferred with equivalent outcomes and lower morbidity.",
+            "D": "Band erosion does not resolve spontaneously — it is a mechanical process requiring physical removal of the foreign material."
+          },
+          "guideline": "ASMBS 2019 — band erosion: immediate band removal (endoscopic or laparoscopic); staged conversion to sleeve/RYGB at 3–6 months after healing",
+          "trial": "Stroh C, Obes Facts 2015: band erosion — endoscopic removal feasible in 60–70%; laparoscopic in remainder; single-stage conversion increases complication rate 3-fold vs staged.",
+          "pearl": "Band erosion = band removal mandatory. Staged approach: remove band now → heal for 3–6 months → plan conversion to sleeve or RYGB. Band slippage (different from erosion): acute slippage = emergency deflation ± urgent removal; chronic slippage = elective removal + conversion."
+        }
+      },
+      {
+        "id": "B3-Q12",
+        "stem": "A 50-year-old woman post-RYGB 3 years ago presents with 4 weeks of progressive dysphagia to solids and liquids, with regurgitation of undigested food. She has lost an additional 5kg over this period. EGD shows a tight fibrous stricture at the gastrojejunostomy (GJ anastomosis). What is the appropriate endoscopic treatment and likely required number of sessions?",
+        "options": {
+          "A": "Endoscopic dilation with 6mm CRE balloon — stricture should be dilated to 6mm",
+          "B": "Endoscopic balloon dilation to 10–15mm diameter; 80% resolve with 1–3 sessions",
+          "C": "Surgical revision with re-anastomosis — anastomotic stricture always requires surgery",
+          "D": "Covered metal stent placement — first-line for GJ stricture"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Anastomotic stricture after RYGB (GJ stenosis) occurs in 3–5% of patients, typically presenting 4–12 weeks post-operatively but can occur later. EGD with CRE (controlled radial expansion) balloon dilation to 10–15mm diameter is the treatment of choice — success rate 80–90% with 1–3 sessions. The first dilation should be cautious (10–12mm); subsequent dilations up to 15mm if needed. Sessions are typically 4–6 weeks apart. Perforation risk is low (<1%) with appropriate technique. Surgical re-anastomosis is reserved for refractory strictures failing 3+ endoscopic dilations.",
+          "wrong": {
+            "A": "6mm CRE balloon is far too small — this is used for oesophageal strictures and would be insufficient for a GJ anastomosis. Target diameter for GJ stricture is 10–15mm.",
+            "C": "Surgery for anastomotic stricture is reserved for failed endoscopic management (>3 dilations) — not first-line. The GJ anastomosis is re-accessible endoscopically and surgery carries high risk for re-anastomosis.",
+            "D": "Covered metal stents are used for leaks and complex strictures, not simple anastomotic stenosis. They are not first-line for GJ stricture."
+          },
+          "guideline": "ASMBS 2019 — GJ anastomotic stricture after RYGB: endoscopic CRE balloon dilation to 10–15mm; up to 3 sessions before considering surgical revision",
+          "trial": "Carrodeguas L, Surg Obes Relat Dis 2006: endoscopic dilation for GJ stricture — 97% resolution with mean 2.5 sessions; perforation <1%; surgical revision needed in 3%.",
+          "pearl": "RYGB GJ stricture: endoscopic CRE balloon dilation to 10–15mm is the definitive treatment in 90%+ of cases. Target: able to pass a standard 9.5mm endoscope without resistance. 3 sessions maximum — if still failing, consider surgical revision or conversion."
+        }
+      },
+      {
+        "id": "B3-Q13",
+        "stem": "A 44-year-old man with BMI 56 kg/m² and T2DM, hypertension, and obstructive sleep apnoea is being considered for bariatric surgery. Which procedure is most likely to achieve the greatest percentage excess weight loss at 5 years AND highest T2DM remission rate?",
+        "options": {
+          "A": "Sleeve gastrectomy — lowest complication rate at high BMI",
+          "B": "RYGB — gold standard with 60–70% EWL and 70–80% T2DM remission",
+          "C": "SADI-S (single anastomosis duodenal ileal bypass with sleeve) — highest EWL (75–80%) and T2DM remission (85–90%)",
+          "D": "Adjustable gastric band — safest option for super-obese patient"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "For super-obese patients (BMI >50) with multiple severe metabolic comorbidities, SADI-S (single anastomosis duodenoileal bypass with sleeve gastrectomy) achieves the highest percentage EWL (75–80% at 5 years) and highest T2DM remission rates (85–90%) of all commonly performed bariatric procedures. It combines restrictive (sleeve) with malabsorptive (bypass of 300cm of small bowel, single duodenoileal anastomosis) components. The IFSO 2019 endorsed SADI-S as an officially recognised bariatric procedure. Higher nutritional monitoring intensity is required (risk of protein malnutrition and fat-soluble vitamin deficiency). RYGB is excellent but SADI-S provides superior metabolic outcomes for super-obese patients.",
+          "wrong": {
+            "A": "Sleeve gastrectomy at BMI 56 — adequate for moderately obese patients but %EWL at 5 years (50–60%) is insufficient for super-obesity; GERD risk is also higher with higher sleeve sleeve pressure.",
+            "B": "RYGB is the historical gold standard but provides lower EWL (60–70%) and lower T2DM remission than SADI-S at this BMI range.",
+            "D": "Adjustable gastric band is now largely abandoned due to high failure rates (40–50% removal within 10 years), lowest EWL, and lowest T2DM remission — not appropriate for a super-obese patient with multiple comorbidities."
+          },
+          "guideline": "IFSO 2019 — SADI-S endorsed for super-obese (BMI>50) patients; ASMBS 2022 recognises SADI-S as an official bariatric procedure",
+          "trial": "Sanchez-Pernaute A, SOARD 2022: SADI-S 5-year outcomes — 78% EWL; 87% T2DM remission; 94% hypertension improvement; protein malnutrition 8% (requires intensive nutritional monitoring).",
+          "pearl": "For super-obese (BMI>50) with severe metabolic disease: SADI-S > RYGB > sleeve for EWL and T2DM remission. But SADI-S requires intensive lifelong nutritional monitoring (protein, fat-soluble vitamins, B12). Know the hierarchy: SADI-S > RYGB > sleeve > band for metabolic outcomes."
+        }
+      },
+      {
+        "id": "B3-Q14",
+        "stem": "A 38-year-old woman, 6 months post-RYGB, presents to A&E with sudden-onset severe left flank pain radiating to the left iliac fossa, and a D-dimer of 4500. CT with IV contrast shows thrombosis of the superior mesenteric vein extending into the portal vein. What is the most appropriate management?",
+        "options": {
+          "A": "Urgent surgical thrombectomy — portal vein thrombosis requires surgery",
+          "B": "Immediate therapeutic anticoagulation with LMWH, then warfarin; hydration; monitoring for bowel ischaemia",
+          "C": "Conservative management — portal vein thrombosis is self-limiting",
+          "D": "Thrombolysis via interventional radiology — only option for acute portal vein thrombosis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Portal/mesenteric vein thrombosis (PVT) after bariatric surgery is managed with immediate therapeutic anticoagulation — LMWH (enoxaparin 1mg/kg twice daily) as bridge to warfarin (target INR 2–3) or direct oral anticoagulants. Duration: minimum 3–6 months. Hydration is essential — dehydration is a major precipitant. Monitoring for bowel ischaemia (rising lactate, peritonism) requires hospital admission. Thrombolysis via interventional radiology (transhepatic or transjugular catheter-directed thrombolysis) is reserved for acute extensive thrombosis with bowel ischaemia not responding to anticoagulation. Surgery (thrombectomy) is rarely indicated — reserved for transmural bowel infarction requiring resection.",
+          "wrong": {
+            "A": "Surgical thrombectomy is not the first-line treatment for PVT — anticoagulation is. Surgery is reserved for bowel infarction.",
+            "C": "PVT after bariatric surgery does not resolve spontaneously — untreated PVT progresses to cavernous transformation, portal hypertension, and bowel ischaemia.",
+            "D": "Catheter-directed thrombolysis is second-line — reserved for extensive thrombosis with impending bowel ischaemia not responding to anticoagulation."
+          },
+          "guideline": "ASMBS 2019 — portal vein thrombosis after bariatric surgery: immediate therapeutic anticoagulation; admit for monitoring; thrombolysis if bowel ischaemia develops",
+          "trial": "Goitein D, Obes Surg 2013: PVT after sleeve gastrectomy — all cases treated with anticoagulation; complete or partial recanalization in 85%; no bowel resection required with prompt anticoagulation.",
+          "pearl": "Post-bariatric PVT: treat immediately with therapeutic LMWH → warfarin (or DOAC). Risk factors: dehydration (most common), hypercoagulable state, abdominal sepsis. Prevention: aggressive hydration post-op, early ambulation. PVT is more common after sleeve than RYGB (unknown mechanism)."
+        }
+      },
+      {
+        "id": "B3-Q15",
+        "stem": "At what dose and route should vitamin B12 be supplemented after RYGB, and why cannot standard low-dose oral B12 (e.g., 6 mcg in a standard multivitamin) reliably prevent deficiency?",
+        "options": {
+          "A": "Standard multivitamin (6 mcg/day oral) — sufficient as long as the terminal ileum is intact",
+          "B": "High-dose oral B12 (500–1000 mcg/day) OR intramuscular B12 (1000 mcg monthly) — passive absorption bypasses intrinsic factor requirement",
+          "C": "Nasal spray B12 (cyanocobalamin 500mcg weekly) is the only effective route post-RYGB",
+          "D": "B12 supplementation is not required after RYGB — the bypass does not affect absorption"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Standard physiological B12 absorption requires intrinsic factor (IF, secreted by gastric parietal cells) to bind B12 and facilitate absorption in the terminal ileum via cubilin receptors. After RYGB: (1) the gastric pouch is very small with minimal parietal cells → reduced IF production, (2) the excluded stomach and duodenum (where IF is produced and B12 binds to IF) are bypassed. Result: active IF-mediated B12 absorption is severely impaired. At high oral doses (500–1000 mcg/day), approximately 1% of oral B12 is absorbed by passive diffusion (IF-independent) — providing adequate daily absorption even without IF. IM B12 (1000 mcg monthly) bypasses the entire GI tract and is the most reliable method. Sublingual B12 is also effective via buccal absorption.",
+          "wrong": {
+            "A": "Standard multivitamin B12 (6 mcg/day) relies on IF-mediated active absorption — this pathway is impaired post-RYGB. The amount absorbed via passive diffusion at standard doses is insufficient.",
+            "C": "Nasal spray is effective but not the only option — high-dose oral and IM are both well-validated and more commonly used.",
+            "D": "B12 deficiency occurs in 30–40% of RYGB patients at 5 years without supplementation — supplementation is mandatory."
+          },
+          "guideline": "ASMBS Clinical Practice Guidelines 2019 — B12 supplementation post-RYGB: high-dose oral (500–1000 mcg/day) OR IM (1000 mcg monthly) OR sublingual; not standard multivitamin dose",
+          "trial": "Madan AK, Obes Surg 2006: B12 deficiency after RYGB — 37% deficient at 5 years without high-dose supplementation; IM monthly: deficiency rate <5%.",
+          "pearl": "B12 post-RYGB: active IF-mediated absorption impaired (no parietal cells in small pouch). High-dose oral or IM bypass this requirement via passive absorption. 1% of any oral dose absorbed passively — so 1000 mcg oral = ~10 mcg absorbed = adequate daily need. Standard multivitamin = inadequate."
+        }
+      },
+      {
+        "id": "B3-Q16",
+        "stem": "A 65-year-old man with BMI 38, T2DM (HbA1c 8.5%), COPD (FEV1 60%), and ischaemic heart disease (recent DES insertion 9 months ago, on dual antiplatelet therapy) is referred for bariatric surgery. What is the most appropriate recommendation?",
+        "options": {
+          "A": "Approve for laparoscopic sleeve gastrectomy immediately — BMI and diabetes meet criteria",
+          "B": "Defer surgery until at least 12 months after DES insertion; ensure COPD and cardiac risk optimisation; MDT assessment mandatory",
+          "C": "Bariatric surgery is absolutely contraindicated with ischaemic heart disease",
+          "D": "RYGB preferred — cardioprotective benefit of bypass outweighs stent risk"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has multiple high-risk surgical factors requiring pre-operative optimisation: (1) DES (drug-eluting stent) — dual antiplatelet therapy (DAPT) must continue for minimum 12 months to prevent stent thrombosis. Perioperative DAPT interruption for elective surgery <12 months after DES insertion carries catastrophic risk of acute stent thrombosis. Surgery should be deferred until ≥12 months post-DES (this patient is at 9 months — 3 more months required). (2) COPD with FEV1 60% — requires pre-operative pulmonary function optimisation, CPAP if OSA, bronchodilator therapy, and anaesthetic assessment. (3) Age 65 — higher risk but not a contraindication. MDT assessment including cardiology, respiratory medicine, and anaesthesia is mandatory before scheduling.",
+          "wrong": {
+            "A": "Proceeding without cardiology clearance at 9 months post-DES is dangerous — DAPT interruption for surgery could cause fatal stent thrombosis.",
+            "C": "Ischaemic heart disease is not an absolute contraindication — it requires optimisation and cardiology clearance. Bariatric surgery actually reduces long-term cardiovascular risk in obese patients.",
+            "D": "RYGB carries higher nutritional monitoring demands and slightly higher short-term complication rates vs sleeve — in a high-risk patient, sleeve may be preferred once cleared for surgery. The bypass choice is not the priority at this stage — clearance for surgery is."
+          },
+          "guideline": "AHA/ESC — elective non-cardiac surgery after DES: defer minimum 12 months; DAPT must not be interrupted; bariatric surgery requires cardiac and anaesthetic MDT evaluation",
+          "trial": "Hawn MT, JAMA 2013: perioperative cardiac events after non-cardiac surgery within 6 months of coronary stent — DES within 6 months had highest MACE risk (4.5%); risk decreases progressively after 12 months.",
+          "pearl": "DES + elective bariatric surgery: wait minimum 12 months. Never interrupt DAPT for elective surgery <12 months after DES — stent thrombosis mortality >40%. If cardiac stent within 6 months: elective surgery contraindicated. 6–12 months: cardiologist assessment required. >12 months: can proceed with optimisation."
+        }
+      },
+      {
+        "id": "B3-Q17",
+        "stem": "After RYGB with an antecolic Roux limb, which mesenteric defects must be closed intraoperatively to reduce the risk of internal hernia, and what is the reported reduction in internal hernia incidence with prophylactic closure?",
+        "options": {
+          "A": "Only the jejunojejunostomy mesenteric defect — Petersen's space closes spontaneously",
+          "B": "Petersen's space and the jejunojejunostomy mesenteric defect; closure reduces internal hernia by approximately 57%",
+          "C": "The mesocolic window only (retrocolic bypass) — antecolic bypass has no defects requiring closure",
+          "D": "No closure required — mesenteric defects do not cause internal hernia in modern RYGB"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For antecolic RYGB, two mesenteric defects must be closed: (1) the jejunojejunostomy mesenteric defect (at the jejunoileostomy between the Roux and biliopancreatic limbs) and (2) Petersen's space (between the Roux limb mesentery and the transverse mesocolon). Retrocolic RYGB creates a third defect (the mesocolic window) requiring closure in addition to the above two. The STENBERG trial (JAMA Surgery 2016) demonstrated that prophylactic closure of mesenteric defects at the time of RYGB reduced internal hernia incidence by 57% (1.9% vs 4.5%). This is now standard practice — all mesenteric defects must be closed with non-absorbable running suture.",
+          "wrong": {
+            "A": "Petersen's space does NOT close spontaneously — it remains a persistent anatomical defect through which bowel loops can herniate. Both defects must be closed.",
+            "C": "Antecolic RYGB creates two defects (jejunojejunostomy + Petersen's) requiring closure — not zero. Retrocolic creates three.",
+            "D": "Internal hernia is a real complication occurring in 2–5% of RYGB patients without defect closure. Prophylactic closure is now the standard of care based on level 1 evidence."
+          },
+          "guideline": "ASMBS Technical Guidelines 2019 — mandatory closure of all mesenteric defects at RYGB: jejunojejunostomy mesentery + Petersen's space (antecolic) + mesocolic window (retrocolic)",
+          "trial": "Stenberg E, JAMA Surg 2016 (STENBERG trial): mesenteric defect closure at RYGB — 57% reduction in internal hernia (1.9% vs 4.5%, p<0.001); closure increases small bowel obstruction due to closure in year 1 but dramatically reduces internal hernia thereafter.",
+          "pearl": "Antecolic RYGB mesenteric defects: CLOSE BOTH. (1) jejunojejunostomy mesentery and (2) Petersen's space. Non-absorbable running suture. STENBERG trial: 57% internal hernia reduction with closure. This is now standard of care — document closure in operative note."
+        }
+      },
+      {
+        "id": "B3-Q18",
+        "stem": "A 28-year-old woman with BMI 16 and signs of severe malnutrition presents as a post-operative transfer 3 months after RYGB. She has serum albumin 2.1 g/dL, prealbumin <10 mg/dL, and total protein 4.8 g/dL. She has oedema and profound fatigue. What is the most important first-line management?",
+        "options": {
+          "A": "High-dose oral protein supplements — target 80g protein/day",
+          "B": "IV albumin infusion — replace albumin directly",
+          "C": "Nutritional rehabilitation with IV/NG protein supplementation; investigation for anastomotic stricture, leak, or excessive malabsorption; consider surgical revision",
+          "D": "Total parenteral nutrition for 7 days then discharge"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Severe protein-calorie malnutrition post-bariatric surgery (albumin <2.5 g/dL, prealbumin <15 mg/dL at 3 months) is a complication requiring: (1) immediate nutritional rehabilitation (IV or nasogastric protein supplementation, as oral tolerance may be poor), (2) investigation for a structural cause: anastomotic stricture (preventing intake), anastomotic leak (catabolic state), or excessively long malabsorptive limb, (3) investigation for other causes: small bowel bacterial overgrowth (post-RYGB), short bowel syndrome from complication. Once a structural cause is identified, surgical correction may be required (stricture dilation, limb shortening for excessive malabsorption). The management is not simply supplementation — the underlying cause must be found.",
+          "wrong": {
+            "A": "Oral protein supplements may not be adequate if intake is limited by a stricture or if malabsorption is the primary driver — oral supplements alone are insufficient for this level of malnutrition.",
+            "B": "IV albumin infusion does not treat malnutrition — it temporally replaces albumin without providing protein building blocks. It may improve oedema transiently but does not address the underlying deficit.",
+            "D": "TPN alone for 7 days and discharge is insufficient — the structural cause of the malnutrition must be identified and treated."
+          },
+          "guideline": "ASMBS 2019 — severe post-bariatric malnutrition: MDT evaluation, structural investigation (EGD, CT), nutritional rehabilitation (IV/NG), consider revisional surgery if structural cause identified",
+          "trial": "Coupaye M, Obes Surg 2009: protein malnutrition after RYGB — structural cause identified in 60% (stricture, internal hernia); limb shortening effective in 75% of malabsorption cases.",
+          "pearl": "Post-bariatric severe protein malnutrition (albumin <2.5): always investigate for structural cause (stricture, leak, excessive limb length) before attributing to 'inadequate intake'. Revisional surgery (limb shortening or stricture repair) may be required. TPN is a bridge — not a cure."
+        }
+      },
+      {
+        "id": "B3-Q19",
+        "stem": "A bariatric surgeon is counselling a 40-year-old man with BMI 42 and alcohol use disorder in remission for 18 months about bariatric surgery risks. Which of the following is the most important long-term risk related to his alcohol history that should be explicitly discussed?",
+        "options": {
+          "A": "Alcohol use disorder is an absolute contraindication to bariatric surgery",
+          "B": "Alcohol use disorder confers no specific post-bariatric risk if in remission >12 months",
+          "C": "Post-RYGB pharmacokinetics dramatically increase alcohol intoxication and addiction relapse risk; minimum 2 years sobriety and psychiatric clearance required",
+          "D": "Alcohol is absorbed entirely in the excluded stomach after RYGB — risk is reduced"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Post-RYGB pharmacokinetics of alcohol change dramatically: alcohol reaches the small bowel faster (bypassing the stomach where first-pass metabolism occurs), resulting in higher peak blood alcohol concentrations from smaller quantities consumed and faster time to peak intoxication. RYGB increases alcohol abuse rates — the Swedish Obese Subjects (SOS) study showed a 2-fold increase in alcohol use disorder after RYGB compared to pre-operatively and compared to other bariatric procedures. Minimum 2 years of sobriety AND formal psychiatric/addiction medicine clearance should be required before RYGB in patients with alcohol use disorder. Sleeve gastrectomy has lower alcohol pharmacokinetic alteration but still carries risk. The patient must understand this heightened risk and commit to abstinence post-operatively.",
+          "wrong": {
+            "A": "Alcohol use disorder in remission is a relative, not absolute, contraindication. With adequate sobriety and psychiatric clearance, surgery can be considered — but it requires strict protocols.",
+            "B": "18 months sobriety is insufficient clearance — the 2-year minimum is more commonly required, and the altered pharmacokinetics persist lifelong post-RYGB.",
+            "D": "Alcohol absorption is dramatically INCREASED after RYGB because it bypasses the stomach (where first-pass metabolism occurs) and enters the small bowel rapidly — not reduced."
+          },
+          "guideline": "ASMBS 2019 — alcohol use disorder: minimum 2 years sobriety pre-operatively; psychiatric/addiction medicine clearance; counsel extensively about post-RYGB alcohol pharmacokinetics and relapse risk",
+          "trial": "SOS study (Sjöström, NEJM 2007): alcohol use disorder 2-fold higher after RYGB than matched controls; risk persisted at 20-year follow-up; sleeve had lower alcohol use disorder risk.",
+          "pearl": "RYGB + alcohol history: post-RYGB patients reach higher blood alcohol concentrations faster, feel intoxicated with smaller quantities, and have higher addiction relapse rates. This is called 'alcohol transfer addiction' or 'cross-addiction.' Mandatory counselling pre-op. Minimum 2 years sobriety. Consider sleeve over RYGB if alcohol risk is high."
+        }
+      },
+      {
+        "id": "B3-Q20",
+        "stem": "During pre-operative multidisciplinary assessment for RYGB in a 44-year-old woman with BMI 40 and T2DM, upper GI endoscopy reveals active H. pylori infection. What is the appropriate management of H. pylori before RYGB, and why is eradication particularly important in this procedure compared to sleeve gastrectomy?",
+        "options": {
+          "A": "H. pylori eradication is not required before bariatric surgery — proceed with RYGB",
+          "B": "H. pylori eradication before RYGB is mandatory; the excluded stomach cannot be accessed endoscopically post-RYGB if ulcer complications develop",
+          "C": "Eradicate H. pylori only if the patient has symptoms — asymptomatic infection does not require treatment",
+          "D": "H. pylori testing is not recommended in the pre-operative bariatric workup"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "H. pylori eradication before RYGB is mandatory for two critical reasons specific to RYGB: (1) the excluded stomach (gastric remnant and duodenum) cannot be accessed by standard upper GI endoscopy post-RYGB — only balloon-assisted enteroscopy or transgastric endoscopy (via percutaneous gastrostomy) can reach it. If H. pylori causes peptic ulceration in the excluded stomach post-operatively, it is difficult to diagnose and treat endoscopically. (2) Marginal ulcer at the gastrojejunostomy — H. pylori is a risk factor for marginal ulcer, the most common serious late complication of RYGB. Pre-operative eradication removes this risk factor before access is lost. Confirm eradication with breath test or stool antigen >4 weeks after completing triple therapy and 2 weeks after stopping PPI.",
+          "wrong": {
+            "A": "Proceeding with RYGB without H. pylori eradication is a guideline violation — it is mandatory in all pre-RYGB patients.",
+            "C": "Asymptomatic H. pylori is a risk factor for marginal ulcer post-RYGB — eradication is required regardless of symptoms.",
+            "D": "H. pylori testing (either by EGD biopsy during pre-operative endoscopy, stool antigen, or breath test) is recommended in all bariatric surgery candidates."
+          },
+          "guideline": "ASMBS 2019 — mandatory H. pylori testing and eradication in all RYGB candidates before surgery; excluded stomach inaccessible post-operatively",
+          "trial": "Mechanick JI et al., Obesity 2019: H. pylori pre-operative eradication significantly reduces marginal ulcer rate post-RYGB (2.1% vs 5.8% without eradication, p=0.02).",
+          "pearl": "RYGB + H. pylori: eradicate before surgery — excluded stomach is inaccessible post-RYGB for standard endoscopy. H. pylori increases marginal ulcer risk 2–3 fold. After eradication, confirm cure with stool antigen or UBT (not serology — antibodies persist). Test: all bariatric candidates should have H. pylori testing as part of pre-operative evaluation."
+        }
+      }
+    ]
+  }
+}

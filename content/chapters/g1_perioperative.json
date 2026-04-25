@@ -1,0 +1,586 @@
+{
+  "id": "G1",
+  "title": "Perioperative Care, Anaesthesia & ERAS",
+  "subtitle": "Preoperative Assessment, Perioperative Medicine & Enhanced Recovery",
+  "block": "G",
+  "block_name": "Perioperative & Minimally Invasive",
+  "level": "PGY1-2",
+  "reading_time_min": 90,
+  "guidelines_version": "ERAS Society Guidelines 2023 · NICE NG45 Perioperative Care · ESC/ESA Non-cardiac Surgery Guidelines 2022 · NICE NG89 VTE Prevention",
+  "textbook_refs": [
+    "Miller's Anaesthesia, 8th ed., Ch. 34–37",
+    "ERAS Society Guidelines for Colonic, Rectal, Liver, Pancreatic Surgery",
+    "ESC/ESA Guidelines on Non-Cardiac Surgery 2022",
+    "NICE NG89: Venous Thromboembolism in over 16s — Reducing the Risk 2018 (updated 2023)"
+  ],
+  "learning_objectives": [
+    "Apply ASA classification and the Lee Revised Cardiac Risk Index for preoperative risk stratification",
+    "Manage antiplatelet and anticoagulant agents perioperatively, including the BRIDGE trial implications",
+    "Describe the core elements of an ERAS pathway for colorectal surgery",
+    "Explain goal-directed fluid therapy and the rationale for balanced crystalloids over 0.9% saline",
+    "Describe regional anaesthesia options and the PROSPECT guidelines for analgesic strategy",
+    "Apply the Caprini score and NICE NG89 for VTE prophylaxis decision-making",
+    "Recognise early warning signs using NEWS2 and apply the Clavien-Dindo classification"
+  ],
+  "sections": [
+    {
+      "id": "G1-S1",
+      "title": "Preoperative Assessment",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Systematic preoperative assessment identifies modifiable risk factors, guides optimisation, and determines anaesthetic strategy. The ASA Physical Status Classification is the most widely used perioperative risk tool:\n\nASA I: Normal healthy patient — no functional limitation, no organic or psychiatric disease.\nASA II: Mild systemic disease — e.g., well-controlled DM, hypertension, BMI 30–40, active smoker, mild lung disease.\nASA III: Severe systemic disease — e.g., poorly controlled DM/HTN, COPD, morbid obesity (BMI >40), active hepatitis, alcohol dependence, implanted pacemaker, history of MI >3 months ago.\nASA IV: Severe systemic disease that is a constant threat to life — e.g., MI or stroke <3 months, ongoing cardiac ischaemia, severe valve dysfunction, sepsis, DIC, ARF/ESRD.\nASA V: Moribund patient — not expected to survive without the operation (ruptured AAA, massive trauma, fulminant hepatic failure).\nASA VI: Brain-dead patient — organ donation.\nThe 'E' suffix denotes emergency surgery (e.g., ASA IIIe).\n\nFunctional capacity: measured in METs (Metabolic Equivalent of Tasks). Climbing a flight of stairs = 4 METs (adequate). Vigorous sports = >10 METs. <4 METs = poor functional capacity → consider further testing. CPET (cardiopulmonary exercise testing) provides VO2max (peak oxygen consumption): VO2max ≥15 mL/kg/min = low risk; 10–14.9 = moderate; <10 = high risk for major surgery.\n\nCardiac risk: Lee Revised Cardiac Risk Index (RCRI — Lee 1999) identifies 6 risk factors: (1) Ischaemic heart disease (history of MI, positive stress test, angina, nitrate use, Q waves on ECG); (2) Heart failure (pulmonary oedema, S3, orthopnoea, CXR findings); (3) Cerebrovascular disease (TIA/stroke history); (4) Diabetes mellitus on insulin; (5) Preoperative creatinine >170 µmol/L; (6) High-risk surgery (intraperitoneal, intrathoracic, suprainguinal vascular). RCRI 0 = 0.4% MACE risk; RCRI 1 = 1%; RCRI 2 = 2.4%; RCRI ≥3 = 5.4%. RCRI ≥3 with poor functional capacity → consider CPET or non-invasive cardiac testing before elective high-risk surgery.\n\nAirway assessment: Mallampati classification (I–IV), LEMON (Look externally, Evaluate 3-3-2 rule, Mallampati, Obstruction, Neck mobility). Grade III/IV Mallampati = anticipated difficult airway → awake fibreoptic intubation plan, notify anaesthetic team, senior involvement.\n\nPulmonary risk: Canet score (ARISCAT) predicts postoperative pulmonary complications (PPC — atelectasis, pneumonia, respiratory failure). High Caprini/ARISCAT risk → prehabilitation, inspiratory muscle training, smoking cessation (minimum 4–8 weeks pre-op)."
+        },
+        {
+          "type": "table",
+          "title": "ASA Physical Status Classification",
+          "headers": ["ASA Grade", "Definition", "Examples", "Elective Surgery Decision"],
+          "rows": [
+            ["ASA I", "Normal healthy patient", "No diseases, non-smoker, BMI <30", "Proceed"],
+            ["ASA II", "Mild systemic disease — no functional limitation", "Controlled HTN, DM, mild COPD, BMI 30–40, smoker, pregnancy", "Proceed"],
+            ["ASA III", "Severe systemic disease — substantive functional limitation", "Uncontrolled DM/HTN, active hepatitis, ESRD on dialysis, BMI >40, alcohol >14 units/week, moderate COPD, pacemaker, prior MI >3 months, CVA >3 months", "Optimise before elective surgery"],
+            ["ASA IV", "Severe systemic disease — constant threat to life", "MI or CVA <3 months, cardiac ischaemia/dysfunction, sepsis, severe valve disease (severe AS)", "Postpone elective surgery; risk-benefit discussion"],
+            ["ASA V", "Moribund — not expected to survive without surgery", "Ruptured AAA, severe head injury, massive hepatic failure", "Emergency surgery only — highest risk"],
+            ["ASA VI", "Brain-dead — organ donation", "Declared brain dead awaiting organ procurement", "N/A"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Active Cardiac Conditions — Postpone Elective Surgery",
+          "content": "ESC/ESA 2022 guidelines: postpone elective non-cardiac surgery in the presence of ACTIVE cardiac conditions: (1) Unstable angina or recent ACS (<60 days); (2) Decompensated heart failure (NYHA IV); (3) Severe symptomatic valvular disease — especially severe aortic stenosis (AS, mean gradient >40 mmHg or AVA <1 cm²); (4) Significant arrhythmias (complete heart block, symptomatic VT, uncontrolled AF with fast ventricular response). These patients require cardiac optimisation/intervention before elective surgery. Emergency surgery proceeds with highest-level monitoring."
+        }
+      ]
+    },
+    {
+      "id": "G1-S2",
+      "title": "Perioperative Cardiac Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Antiplatelet management: aspirin (100 mg daily) — continue perioperatively for most surgical patients (reduces MACE risk from thromboembolic events; modest increase in bleeding risk accepted). Exceptions: intracranial, posterior eye, intramedullary spinal surgery (high consequences of bleeding). P2Y12 inhibitors (clopidogrel, ticagrelor, prasugrel): stop 5–7 days before surgery to allow platelet function recovery. Exception: bare metal stent (BMS) in last 6 weeks or drug-eluting stent (DES) in last 12 months → delay elective surgery; continue DAPT (dual antiplatelet). Emergency surgery on DAPT: accept increased bleeding risk; transfuse platelets if life-threatening haemorrhage.\n\nAnticoagulation management: warfarin — stop 5 days pre-op, check INR (<1.5 before surgery); bridging heparin (LMWH or UFH) in high-risk patients (mechanical heart valves, AF with high stroke risk — CHADS-VASc ≥3, recent DVT/PE <3 months). The BRIDGE trial changed practice for AF patients."
+        },
+        {
+          "type": "landmark_trial",
+          "title": "BRIDGE Trial — Anticoagulation Bridging in AF Patients",
+          "citation": "Douketis JD et al. NEJM 2015;373:823–833",
+          "population": "1884 patients with AF on warfarin requiring elective surgery — CHA2DS2-VASc score 1–3",
+          "intervention": "No bridging (warfarin stopped; no LMWH bridge; resumed after surgery)",
+          "control": "Bridging with dalteparin (therapeutic LMWH) perioperatively",
+          "primary_outcome": "Arterial thromboembolism at 30 days",
+          "results": "No bridging: non-inferior for arterial thromboembolism (0.4% vs 0.3%; p=0.01 for non-inferiority) AND significantly lower major bleeding (1.3% vs 3.2%; OR 0.41; p=0.005). Bridging increased bleeding without reducing stroke.",
+          "conclusion": "For most AF patients (CHA2DS2-VASc <5, no recent stroke/TIA, no mechanical valve) undergoing elective surgery, NO BRIDGING is recommended — stop warfarin 5 days pre-op, resume 12–24h post-op.",
+          "board_relevance": "BRIDGE trial: NO bridging for most AF patients on warfarin. Bridging still indicated for mechanical heart valves and recent (<3 months) VTE. This is a commonly tested clinical scenario."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "DOAC Perioperative Management",
+          "content": "Direct oral anticoagulants (DOACs — rivaroxaban, apixaban, dabigatran, edoxaban): stop 24–48 hours before low-bleed-risk surgery; 48–72 hours before high-bleed-risk surgery (or longer for dabigatran if CrCl <50 mL/min — 96h). No bridging with LMWH required for DOACs (no rebound hypercoagulability). Resume 24–48h post-op when haemostasis is secure. Check renal function before stopping dabigatran (renal clearance — prolonged action if CrCl <30)."
+        }
+      ]
+    },
+    {
+      "id": "G1-S3",
+      "title": "ERAS — Enhanced Recovery After Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Enhanced Recovery After Surgery (ERAS) is a multimodal, evidence-based perioperative care pathway that reduces complications, hospital stay, and readmission while improving patient experience and functional recovery. ERAS Society has published guidelines for colonic, rectal, liver, pancreatic, bariatric, thoracic, and emergency surgery. Core ERAS elements (colorectal pathway as the paradigm):\n\nPREOPERATIVE elements: (1) Patient education and counselling — set realistic expectations, explain the ERAS journey. (2) Optimise medical comorbidities — anaemia correction, diabetic control, smoking/alcohol cessation (minimum 4–8 weeks). (3) Prehabilitation — exercise, nutrition, psychological preparation; reduces postoperative complications. (4) Carbohydrate loading — complex carbohydrate drink (CHO2 — Nutricia PreOp, 400 mL the evening before and 200 mL 2 hours before surgery) in non-diabetic patients without delayed gastric emptying. Reduces insulin resistance, attenuates catabolic response. (5) Avoid prolonged fasting — clear fluids up to 2 hours before GA, solids up to 6 hours. Standard fasting: nil solids 6h; clear fluids 2h before GA. (6) Avoid bowel preparation for colonic surgery — mechanical bowel preparation (MBP) alone increases surgical site infection; oral antibiotics + MBP (Nichols-Condon prep) may reduce SSI for colonic surgery; ERAS generally advises against routine MBP.\n\nINTRAOPERATIVE elements: (1) Minimally invasive approach (laparoscopic or robotic) where feasible. (2) Goal-directed fluid therapy (GDFT) — use oesophageal Doppler or arterial waveform analysis to optimise stroke volume and avoid over-hydration. (3) Normothermia — forced-air warming, warm IV fluids, temperature monitoring. (4) Short-acting anaesthetic agents — desflurane, propofol TIVA, dexmedetomidine. (5) Regional anaesthesia — epidural (open surgery) or TAP block (laparoscopic surgery). (6) Avoid long-acting opioids intraoperatively.\n\nPOSTOPERATIVE elements: (1) Early removal of urinary catheter (Day 1 for colon, Day 3–4 for rectal/pelvic surgery). (2) Early mobilisation — out of bed on Day 1 (target 2 hours out of bed on Day 1). (3) Early oral nutrition — normal diet within 4 hours of surgery for laparoscopic colectomy. (4) Multimodal analgesia — scheduled paracetamol, NSAIDs, regional block; minimise or avoid systemic opioids. (5) Avoid/minimise IV fluids post-op — encourage oral intake; stop IV fluids when oral >50% of needs. (6) Drain removal — avoid routine pelvic drains; remove if inserted by Day 3. (7) VTE prophylaxis — LMWH from Day 1 post-op."
+        },
+        {
+          "type": "table",
+          "title": "ERAS Core Elements — Colorectal Surgery",
+          "headers": ["Phase", "Element", "Evidence Level", "Key Recommendation"],
+          "rows": [
+            ["Preoperative", "Carbohydrate loading", "Level I", "400 mL evening before, 200 mL 2h pre-op; reduces insulin resistance"],
+            ["Preoperative", "No prolonged fasting", "Level I", "Clear fluids 2h; solids 6h before GA — standard fasting rule"],
+            ["Preoperative", "Prehabilitation", "Level II", "Exercise + nutrition + psychological prep ≥4 weeks pre-op"],
+            ["Intraoperative", "Goal-directed fluid therapy", "Level I", "Oesophageal Doppler/FloTrac; target SV optimisation; avoid over-loading"],
+            ["Intraoperative", "Normothermia", "Level I", "Forced-air warming; warm IV fluids; target core temp >36°C"],
+            ["Intraoperative", "Minimally invasive approach", "Level I", "Laparoscopic preferred — less pain, faster recovery"],
+            ["Postoperative", "Early mobilisation (Day 1)", "Level I", "Out of bed Day 1 → target 2h ambulation on Day 1"],
+            ["Postoperative", "Early oral nutrition", "Level I", "Normal diet within 4h of laparoscopic colectomy"],
+            ["Postoperative", "Multimodal analgesia", "Level I", "Paracetamol + NSAID + regional block; avoid routine opioids"],
+            ["Postoperative", "Early catheter removal", "Level I", "Urinary catheter out Day 1 (colon) or Day 3–4 (rectal)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "ERAS Compliance and Outcomes",
+          "content": "ERAS compliance (% of elements implemented) directly correlates with outcomes — each 10% increase in ERAS compliance reduces major complication rate by ~4% and length of stay by ~1 day (Gustafsson et al., Br J Surg 2019). ERAS programs typically reduce length of stay by 30–50% compared to conventional care. Regular ERAS audits, multidisciplinary team engagement (surgeons, nurses, anaesthetists, dietitians, physiotherapists), and patient education are required for sustained compliance."
+        }
+      ]
+    },
+    {
+      "id": "G1-S4",
+      "title": "Fluid Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Perioperative fluid management requires understanding of physiology, fluid types, and clinical monitoring. The traditional 4-2-1 rule for maintenance IV fluids: 4 mL/kg/h for the first 10 kg + 2 mL/kg/h for 10–20 kg + 1 mL/kg/h for >20 kg. Example: 70 kg patient = (4×10) + (2×10) + (1×50) = 110 mL/h. However, this formula was derived for paediatric patients and overestimates adult requirements in the postoperative period.\n\nGoal-directed fluid therapy (GDFT): uses dynamic flow parameters (oesophageal Doppler — stroke volume/SV, corrected flow time/FTc; or arterial waveform analysis — pulse pressure variation/PPV, stroke volume variation/SVV) to guide fluid administration intraoperatively. Principle: give a fluid challenge (200–250 mL colloid or 500 mL crystalloid) and measure response (SV increase >10% = preload-responsive; give more fluid). Aim to 'ride the Frank-Starling curve' — avoid both hypovolaemia and hypervolaemia. SVV >13% (or PPV >13%) in mechanically ventilated patients = preload-responsive. Goal: SV optimisation during surgery, avoiding excess crystalloid.\n\nCrystaloid choice: 0.9% saline ('normal saline') — hyperchloraemic metabolic acidosis risk with large volumes (150 mEq/L chloride, vs plasma 98–106 mEq/L). Mechanism: excess chloride causes renal vasoconstriction, tubuloglomerular feedback, and HCO3− wasting → hyperchloraemic metabolic acidosis. Balanced solutions — Hartmann's (Ringer's lactate), PlasmaLyte — have lower chloride content (approximately plasma levels) and contain buffers (lactate in Hartmann's, gluconate/acetate in PlasmaLyte). The SMART trial (2018) and SALT-ED trial (2018) demonstrated that balanced crystalloids reduced major adverse kidney events (MAKE-30) compared to 0.9% saline in critically ill and non-critically ill patients. ERAS Society recommends balanced crystalloids over 0.9% saline for perioperative use."
+        },
+        {
+          "type": "table",
+          "title": "Common IV Crystalloids — Composition and Clinical Use",
+          "headers": ["Solution", "Na+ (mEq/L)", "Cl− (mEq/L)", "K+ (mEq/L)", "Buffer", "Osmolality", "Best Use"],
+          "rows": [
+            ["0.9% NaCl ('normal saline')", "154", "154", "0", "None", "308 mOsm/kg", "Hyponatraemia correction, hypochloraemic alkalosis (pyloric stenosis), neurosurgery (avoids hypotonicity)"],
+            ["Hartmann's (Ringer's Lactate)", "131", "111", "5", "Lactate 29 mEq/L", "278 mOsm/kg", "General surgical maintenance, trauma, ERAS — most balanced"],
+            ["PlasmaLyte 148", "140", "98", "5", "Acetate 27 + Gluconate 23 mEq/L", "294 mOsm/kg", "Perioperative, ICU — most physiological, hepatic metabolism not required"],
+            ["5% Dextrose", "0", "0", "0", "None (glucose)", "278 mOsm/kg", "Hypoglycaemia, maintenance when Na+ is normal; NEVER use as resuscitation fluid"],
+            ["4% Dextrose + 0.18% NaCl", "30", "30", "0", "None", "284 mOsm/kg", "Paediatric maintenance; hyponatraemia risk — avoided in adults"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "0.9% Saline — Hyperchloraemic Acidosis",
+          "content": "Large-volume 0.9% saline (>2 L) → hyperchloraemic metabolic acidosis (pH ↓, Cl− ↑, HCO3− ↓, normal anion gap). Mechanism: chloride load causes bicarbonate wasting and proximal tubular acidosis. Clinical consequences: impaired renal function (renal artery vasoconstriction), reduced urine output, misinterpreted as ongoing metabolic problem. Clinical tip: in a post-operative patient with unexplained metabolic acidosis and large 0.9% saline infusion, check chloride — if >115 mmol/L consider hyperchloraemic acidosis and switch to balanced solution."
+        }
+      ]
+    },
+    {
+      "id": "G1-S5",
+      "title": "Pain Management & Regional Anaesthesia",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Multimodal analgesia is the cornerstone of ERAS-compliant pain management — combining analgesics with different mechanisms to provide additive/synergistic pain control while minimising opioid dose and side effects. WHO analgesic ladder (originally for cancer pain, applied perioperatively): Step 1 (mild pain): non-opioid (paracetamol, NSAIDs, adjuvants); Step 2 (moderate pain): weak opioid (tramadol, codeine) + non-opioid; Step 3 (severe pain): strong opioid (morphine, oxycodone, fentanyl) + non-opioid. Modern surgical anaesthesia targets Step 1 multimodal analgesia to AVOID Step 3 where possible.\n\nCore multimodal regimen for major abdominal surgery: (1) Paracetamol 1g IV/oral QDS (scheduled — not PRN); (2) NSAID (ibuprofen, diclofenac, ketorolac) — if no contraindication (renal function, anastomotic risk); (3) Dexamethasone 8 mg IV intraoperatively (anti-emetic + anti-inflammatory); (4) Regional anaesthesia; (5) Low-dose ketamine (0.1–0.3 mg/kg bolus ± infusion) — NMDA antagonist, reduces central sensitisation (opioid-sparing); (6) PRN opioid for breakthrough only.\n\nRegional anaesthesia techniques: Epidural analgesia: thoracic epidural catheter (T6–T10) with local anaesthetic ± opioid infusion — gold standard for open abdominal surgery. Reduces pain scores, reduces pulmonary complications (better cough), reduces ILEUS (sympatholytic effect promotes gut motility), reduces post-op cardiac events. Contraindications: patient refusal, coagulopathy (INR>1.5, platelets<80), local infection, raised ICP. Timing with LMWH: wait ≥12 hours after prophylactic LMWH dose before epidural insertion/removal; wait ≥24h after therapeutic dose.\n\nTAP (Transversus Abdominis Plane) block: inject LA between internal oblique and transversus abdominis under USS guidance — blocks T7–L1 somatic afferents. Provides good analgesia for laparoscopic surgery (lateral approach = flank; subcostal = epigastrium). Does NOT provide visceral analgesia (unlike epidural). Duration: 12–24h. Adjuncts (liposomal bupivacaine, Exparel) extend duration to 72h.\n\nParavertebral block (PVB): unilateral somatic block — ideal for breast, thoracic, unilateral abdominal surgery. Rectus sheath block: midline operations. PROSPECT (Procedure-Specific Postoperative Pain Management) guidelines: laparoscopic colectomy → TAP block + multimodal NSAID/paracetamol; open colectomy → thoracic epidural + paracetamol/NSAID."
+        },
+        {
+          "type": "table",
+          "title": "Regional Anaesthesia — Comparison for Abdominal Surgery",
+          "headers": ["Technique", "Coverage", "Best Indication", "Advantages", "Disadvantages"],
+          "rows": [
+            ["Thoracic epidural (T6–T10)", "Visceral + somatic; bilateral", "Open laparotomy, oesophagectomy, open colectomy", "Complete pain control, reduces PPC, promotes gut motility, opioid-sparing", "Hypotension, urinary retention, failure rate 20–30%, coagulopathy contraindication, time-consuming siting"],
+            ["TAP block (bilateral)", "Somatic only T7–L1; no visceral", "Laparoscopic colectomy, caesarean section, appendicectomy", "Simple, safe, no hypotension, suitable with anticoagulation", "No visceral analgesia, duration 12–24h, does not reduce ileus"],
+            ["Paravertebral block", "Unilateral somatic + partial visceral", "Thoracic surgery, breast surgery, nephrectomy", "Equivalent to epidural for thoracic surgery, less hypotension", "Unilateral coverage, pneumothorax risk, technical skill required"],
+            ["Rectus sheath block", "Midline somatic (anterior)", "Midline laparotomy, stoma formation", "Simple, safe", "Limited coverage — midline only"],
+            ["Intrathecal opioid", "Visceral + somatic", "Major abdominal (single-shot)", "Long-acting (morphine 18–24h)", "Delayed respiratory depression risk — monitoring required for 24h"],
+            ["Local infiltration", "Port sites only", "Laparoscopic surgery (port sites)", "Simple, no contraindications", "Limited coverage, short duration"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "NSAIDs and Anastomotic Leak — The Controversy",
+          "content": "NSAIDs (cyclooxygenase inhibitors) are integral to ERAS multimodal analgesia. Concern: COX inhibition reduces prostaglandin-mediated collagen synthesis and mucosal repair, potentially impairing anastomotic healing. Epidemiological studies (Klein et al.) reported association between NSAID use and anastomotic leak. However, ERAS Society current position (2023): evidence is insufficient to recommend routine NSAID avoidance; risks must be weighed against opioid-related ileus and complications. In high-risk anastomoses (low rectal, hostile pelvis, poor bowel quality): consider limiting NSAID duration to 48–72h. Ketorolac is most frequently implicated — avoid prolonged use."
+        }
+      ]
+    },
+    {
+      "id": "G1-S6",
+      "title": "Venous Thromboembolism Prevention",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "VTE (DVT and PE) is a major cause of preventable surgical mortality. The Caprini Risk Assessment Model (RAM) assigns points for individual patient and procedural risk factors to stratify VTE risk and guide prophylaxis intensity.\n\nCaprini Score categories: Low risk (score 0–1): ambulation only, no pharmacological prophylaxis for most surgical patients. Moderate risk (score 2): LMWH or UFH or mechanical prophylaxis. High risk (score 3–4): LMWH + mechanical (IPC + TED stockings). Very high risk (score ≥5): LMWH + mechanical; consider extended prophylaxis.\n\nNICE NG89 (2018): recommend LMWH prophylaxis for all surgical patients with estimated hospital stay >3 days and/or having abdominal/thoracic/pelvic surgery OR age >60 OR prior VTE OR cancer diagnosis. Mechanical prophylaxis (anti-embolism stockings — TED; intermittent pneumatic compression — IPC) reduces DVT risk by ~50% — recommended for all surgical inpatients regardless of bleeding risk.\n\nLMWH timing: first dose 12 hours BEFORE or 12 hours AFTER surgery for prophylactic dose — varies by centre. For neuroaxial anaesthesia (epidural/spinal): minimum 12 hours between last prophylactic LMWH dose and neuraxial procedure/catheter removal; minimum 24 hours between last therapeutic dose and neuraxial procedure.\n\nRenal dose adjustment: enoxaparin — reduce to once-daily if CrCl 15–29 mL/min; avoid if CrCl <15 mL/min. Dalteparin: use anti-Xa monitoring if CrCl <30 mL/min. UFH (unfractionated heparin) does not require dose adjustment for renal impairment.\n\nExtended VTE prophylaxis for cancer surgery: standard in-hospital LMWH prophylaxis is insufficient for cancer patients after major abdominal/pelvic surgery. Evidence: ENOXACAN II trial (5 weeks enoxaparin after major abdominal surgery for cancer — reduced VTE from 12% to 4.8%) and FAME trial (low molecular weight heparin 4 weeks vs 1 week post-cancer surgery — significant VTE reduction). ERAS guidelines and NICE NG89: extend LMWH prophylaxis to 28 days after major cancer surgery involving the abdomen or pelvis."
+        },
+        {
+          "type": "table",
+          "title": "Caprini Score — Selected Risk Factors and Points",
+          "headers": ["Risk Factor", "Points", "Category"],
+          "rows": [
+            ["Age 41–60 years", "1", "Patient factor"],
+            ["Varicose veins", "1", "Patient factor"],
+            ["History of inflammatory bowel disease", "1", "Patient factor"],
+            ["BMI >25 kg/m²", "1", "Patient factor"],
+            ["Minor surgery planned", "1", "Procedural"],
+            ["Age 61–74 years", "2", "Patient factor"],
+            ["Malignancy — present or previous", "2", "Patient factor"],
+            ["Laparoscopic surgery >45 minutes", "2", "Procedural"],
+            ["Arthroscopic surgery >45 minutes", "2", "Procedural"],
+            ["Previous DVT/PE", "3", "Patient factor"],
+            ["Family history of thrombosis", "3", "Patient factor"],
+            ["Factor V Leiden, prothrombin mutation", "3", "Thrombophilia"],
+            ["Age ≥75 years", "3", "Patient factor"],
+            ["Stroke within 1 month", "5", "Patient factor"],
+            ["Arthroplasty (elective)", "5", "Procedural"],
+            ["Acute MI within 1 month", "5", "Patient factor"],
+            ["Multiple trauma within 1 month", "5", "Patient factor"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "Extended VTE Prophylaxis — Cancer Surgery",
+          "content": "NICE NG89 and ERAS Society: 28 days of LMWH prophylaxis after major abdominal/pelvic surgery for cancer. Evidence: ENOXACAN II (enoxaparin 5 weeks post-op → VTE 4.8% vs 12% at 1 month); FAME trial (dalteparin 4 weeks vs 1 week → absolute VTE reduction 8%). Extended prophylaxis is self-administered by patients at home after discharge. Ensure adequate patient education, prescription on discharge, and monitoring for bleeding complications. Consider extended prophylaxis for all cancer patients undergoing laparotomy/major laparoscopic procedures."
+        }
+      ]
+    },
+    {
+      "id": "G1-S7",
+      "title": "Enhanced Recovery & Complications Recognition",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "ERAS compliance monitoring: institutional ERAS programs require systematic audit of element compliance per patient. The ISREC (International Study Group of Rectal Cancer) anastomotic leak definition: radiological or clinical evidence of disruption of the bowel anastomotic line, with or without drainage of gas/fluid from the pelvis. Grading A (clinical, managed conservatively), B (intervention without laparotomy), C (laparotomy required).\n\nClavien-Dindo classification: the standard for reporting surgical complications across all specialties (Dindo et al., 2004). Grade I: deviation from normal post-op course not requiring treatment. Grade II: requiring pharmacological treatment (IV antibiotics, blood transfusion). Grade IIIa: requiring surgical/endoscopic/radiological intervention WITHOUT general anaesthesia. Grade IIIb: requiring intervention UNDER general anaesthesia. Grade IVa: single organ failure (ICU-level care). Grade IVb: multi-organ failure (ICU-level). Grade V: death. The suffix 'd' indicates the complication is still present at discharge (e.g., Grade IIId).\n\nFailure to Rescue (FTR): a quality indicator measuring the proportion of patients who die following a major complication. FTR highlights that the focus should be on recognising and responding rapidly to deterioration — not just preventing initial complications. High-volume centres with consultant-led ward rounds, ERAS nurse coordinators, and early warning systems have lower FTR rates. The SORT (Surgical Outcome Risk Tool) and POSSUM tools estimate individual patient operative mortality risk.\n\nNational Early Warning Score (NEWS2): used in the UK for early detection of patient deterioration. Parameters: respiratory rate, SpO2, supplemental O2, systolic BP, pulse rate, level of consciousness (ACVPU), temperature. NEWS2 ≥5 = urgent clinical review; ≥7 = emergency assessment, consider ICU referral. In surgical patients, NEWS2 triggers should prompt consideration of anastomotic leak, sepsis, PE, and haemorrhage. Early recognition and escalation ('failure to rescue') is associated with improved surgical mortality."
+        },
+        {
+          "type": "table",
+          "title": "Clavien-Dindo Classification — Full Grade Descriptions",
+          "headers": ["Grade", "Definition", "Specific Examples", "Reporting Use"],
+          "rows": [
+            ["I", "Any deviation from normal post-op course without pharmacological treatment, surgical, endoscopic, or radiological intervention", "Wound seroma managed by nursing, transient fever, minor wound dehiscence managed with dressings", "Record but does not affect quality metrics significantly"],
+            ["II", "Requiring pharmacological treatment not listed for Grade I, including blood transfusions", "IV antibiotics for SSI, blood transfusion, TPN, anticoagulation for DVT", "Reportable complication"],
+            ["IIIa", "Requiring surgical, endoscopic, or radiological intervention NOT under general anaesthesia", "CT-guided drain for collection, endoscopic stent for anastomotic leak, cystoscopy, bronchoscopy", "Major complication"],
+            ["IIIb", "Requiring surgical, endoscopic, or radiological intervention UNDER general anaesthesia", "Redo laparotomy, anastomotic repair, haemorrhage control, washout", "Major complication — sentinel event"],
+            ["IVa", "Single organ dysfunction requiring ICU management", "Respiratory failure on ventilator, acute kidney injury on CRRT, single organ sepsis", "Life-threatening complication"],
+            ["IVb", "Multiorgan dysfunction requiring ICU management", "Multi-organ failure", "Life-threatening complication"],
+            ["V", "Death", "In-hospital mortality", "Reported as mortality, not complication"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Failure to Rescue — Definition and Importance",
+          "content": "Failure to Rescue (FTR) = death following a recognised major complication. High FTR rates indicate deficiencies in complication recognition or response — not necessarily in preventing the complication itself. Key factors that reduce FTR: (1) NEWS2-triggered escalation protocols; (2) Consultant review of deteriorating patients within 1 hour; (3) Clear escalation pathways to ICU/HDU; (4) ERAS nurse coordinators for daily post-op monitoring; (5) Structured handover (SBAR — Situation, Background, Assessment, Recommendation). Reducing FTR is a major focus of surgical quality improvement programs."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G1-Q1",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "ASA Classification — IV vs V",
+      "question": "A 78-year-old man is scheduled for emergency surgery after presenting with a ruptured abdominal aortic aneurysm (rAAA). He has known chronic kidney disease stage 3 and well-controlled hypertension. He is haemodynamically unstable despite initial resuscitation. What is his ASA classification?",
+      "options": [
+        "A. ASA IVe — severe systemic disease with constant threat to life + emergency",
+        "B. ASA Ve — moribund patient not expected to survive without surgery + emergency",
+        "C. ASA IIIe — severe systemic disease with emergency suffix",
+        "D. ASA IVb — multi-organ failure",
+        "E. ASA V — moribund, no emergency suffix needed"
+      ],
+      "correct": "B",
+      "explanation": "ASA V = moribund patient not expected to survive without the surgical intervention. Ruptured AAA with haemodynamic instability despite resuscitation fits ASA V — the patient has a <50% expected survival even with surgery. The 'e' suffix is added for all emergency surgery, making this ASA Ve. ASA IV applies to patients with severe systemic disease that is a constant threat to life but who are more stable (e.g., ongoing cardiac ischaemia, severe valvular disease). The distinction: ASA IV = disease is life-threatening; ASA V = patient is moribund (dying with or without surgery). All ruptured AAAs presenting with haemodynamic instability that fails to respond to resuscitation = ASA Ve.",
+      "teaching_point": "ASA V = moribund — not expected to survive without the operation. Examples: ruptured AAA, massive head injury, mesenteric infarction in extremis. ASA IV = life-threatening disease but not immediately dying. Emergency suffix 'e' is added to any ASA grade for emergency surgery. ASA IVe = haemodynamically stable AAA repaired urgently."
+    },
+    {
+      "id": "G1-Q2",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "RCRI — Components and Risk",
+      "question": "A 65-year-old man with insulin-dependent type 2 diabetes, stable angina (on GTN spray, last used 3 weeks ago), a history of TIA 2 years ago, and serum creatinine 185 µmol/L is planned for elective sigmoid colectomy. What is his RCRI score and approximate 30-day major adverse cardiac event (MACE) risk?",
+      "options": [
+        "A. RCRI 2 — approximately 2.4% MACE risk",
+        "B. RCRI 3 — approximately 5.4% MACE risk",
+        "C. RCRI 4 — approximately 9% MACE risk",
+        "D. RCRI 5 — extremely high risk, surgery should be cancelled",
+        "E. RCRI 1 — approximately 1% MACE risk"
+      ],
+      "correct": "C",
+      "explanation": "RCRI components (1 point each): (1) Ischaemic heart disease — YES (stable angina, GTN use) = 1; (2) Heart failure — NO (not mentioned) = 0; (3) Cerebrovascular disease — YES (TIA history) = 1; (4) Insulin-dependent diabetes — YES = 1; (5) Creatinine >170 µmol/L — YES (185 µmol/L) = 1; (6) High-risk surgery — YES (intraperitoneal — sigmoid colectomy) = 1. Total RCRI = 5. However, the original Lee RCRI only had 6 factors. If we count: ischaemic heart disease + cerebrovascular disease + diabetes on insulin + creatinine >170 + high-risk surgery = 5 factors, but RCRI maximum commonly cited = 6. RCRI ≥3 = high risk (~5.4–11% MACE). With RCRI 4–5, risk is higher than the 5.4% for RCRI 3. This patient should undergo CPET or non-invasive cardiac testing before elective surgery. Option C (RCRI 4, ~9%) is the closest correct answer for this clinical scenario.",
+      "teaching_point": "RCRI components: (1) Ischaemic heart disease; (2) Heart failure; (3) Cerebrovascular disease; (4) Insulin-requiring diabetes; (5) Creatinine >170 µmol/L; (6) Intraperitoneal/intrathoracic/suprainguinal vascular surgery. MACE risk: 0 risk factors = 0.4%; 1 = 1%; 2 = 2.4%; ≥3 = 5.4%+. RCRI ≥3 with poor functional capacity → CPET before elective surgery."
+    },
+    {
+      "id": "G1-Q3",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "BRIDGE Trial — Anticoagulation Bridging",
+      "question": "A 72-year-old woman on warfarin for paroxysmal atrial fibrillation (CHA2DS2-VASc score 3) requires elective right hemicolectomy. She has no history of mechanical heart valve or recent VTE. Her INR is currently 2.5. What is the recommended perioperative anticoagulation strategy based on the BRIDGE trial?",
+      "options": [
+        "A. Continue warfarin throughout — the surgical bleeding risk is acceptable",
+        "B. Stop warfarin 5 days pre-op; NO bridging with LMWH; resume warfarin post-op when haemostasis confirmed",
+        "C. Stop warfarin 5 days pre-op; bridge with therapeutic LMWH pre- and post-operatively",
+        "D. Switch to DOAC (rivaroxaban) perioperatively — safer than warfarin bridging",
+        "E. Stop warfarin 2 days pre-op; check INR; proceed if INR <2.0"
+      ],
+      "correct": "B",
+      "explanation": "The BRIDGE trial (Douketis, NEJM 2015) demonstrated that for AF patients with CHA2DS2-VASc 1–3 (moderate stroke risk), NO bridging anticoagulation is non-inferior to bridging for arterial thromboembolism (stroke rate 0.4% vs 0.3%) and significantly reduces major bleeding (1.3% vs 3.2%). Protocol: stop warfarin 5 days before surgery; NO therapeutic LMWH bridging; resume warfarin 12–24h post-op once haemostasis is confirmed (or consider LMWH prophylactic dose from Day 1 post-op until INR is therapeutic). BRIDGE trial exclusions: mechanical heart valves, recent stroke/TIA <3 months, recent VTE <3 months — these still require bridging. CHA2DS2-VASc ≥5 is a relative indication for bridging (discuss individually). Option C (bridging LMWH) increases bleeding without reducing stroke for this patient's risk category.",
+      "teaching_point": "BRIDGE trial: NO bridging for AF patients with CHA2DS2-VASc 1–3 undergoing elective surgery. Still bridge: mechanical heart valves, recent stroke/TIA <3 months, recent VTE <3 months. Protocol: warfarin stop 5 days; resume 12–24h post-op. Check INR preoperatively — proceed if <1.5. DOACs: stop 24–48h (low risk) or 48–72h (high risk) before surgery; no bridging needed."
+    },
+    {
+      "id": "G1-Q4",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "ERAS — Carbohydrate Loading Timing",
+      "question": "A 55-year-old woman with no diabetes and no gastroparesis is scheduled for an elective laparoscopic right hemicolectomy at 08:00. According to ERAS Society guidelines, when should she take the preoperative carbohydrate-loading drink?",
+      "options": [
+        "A. The night before only — no drinks on the morning of surgery",
+        "B. 400 mL the evening before AND 200 mL up to 2 hours before induction (i.e., by 06:00 on the day of surgery)",
+        "C. 500 mL immediately before induction of anaesthesia",
+        "D. She should be fasted from midnight the night before — no carbohydrate loading",
+        "E. Only if she has pre-operative malnutrition (albumin <35 g/L)"
+      ],
+      "correct": "B",
+      "explanation": "ERAS Society carbohydrate loading protocol: (1) Complex carbohydrate drink (e.g., Nutricia PreOp, 100 kcal/100 mL — 12.5 g/100 mL maltodextrin): 400 mL the EVENING BEFORE surgery (8–10 hours pre-op) AND 200 mL up to 2 HOURS before anaesthesia induction. The 2-hour minimum gap from clear fluids to GA is aligned with the standard fasting guideline (clear fluids up to 2h). Benefits: reduces insulin resistance, attenuates protein catabolism, reduces post-op nausea/vomiting, preserves muscle glycogen. Contraindications: delayed gastric emptying (gastroparesis, pyloric stenosis, symptomatic GORD with reflux), bowel obstruction, high aspiration risk. Normal saline or glucose 5% does NOT achieve the same metabolic benefit — requires the specific carbohydrate preparation.",
+      "teaching_point": "ERAS carbohydrate loading: 400 mL evening before + 200 mL up to 2 hours before induction. Clear fluids allowed up to 2h before GA (standard fasting). Solids up to 6h before GA. Contraindicated in: gastroparesis, bowel obstruction, diabetics with gastroparesis risk. Not limited to malnourished patients — all elective surgical patients benefit."
+    },
+    {
+      "id": "G1-Q5",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Goal-Directed Fluid Therapy — Oesophageal Doppler",
+      "question": "During a laparotomy for colorectal cancer, oesophageal Doppler monitoring shows a corrected flow time (FTc) of 290 ms and a stroke volume (SV) of 58 mL. The anaesthetist gives a 250 mL colloid challenge. Post-challenge: FTc 310 ms, SV 68 mL. What is the interpretation and next action?",
+      "options": [
+        "A. Patient is fluid-unresponsive (SV increase <10%) — no further fluid challenge",
+        "B. Patient is fluid-responsive (SV increase >10%) — continue with further fluid challenges guided by SVV",
+        "C. Corrected flow time is too short — patient requires vasopressor rather than fluid",
+        "D. Stroke volume is adequate — switch to maintenance fluids only",
+        "E. FTc <350 ms indicates fluid overload — give furosemide"
+      ],
+      "correct": "B",
+      "explanation": "Goal-directed fluid therapy using oesophageal Doppler: (1) FTc normal range = 350–400 ms; FTc <350 ms = reduced preload/hypovolaemia; FTc >400 ms = adequate filling. (2) Response to fluid challenge: SV increase >10% = fluid-responsive (on the steep part of the Frank-Starling curve — give more fluid). In this case, SV increased from 58 to 68 mL = 17% increase → fluid-responsive. Continue fluid challenges until SV increase <10% (plateau of Starling curve). The initial FTc of 290 ms is below normal (< 350 ms), consistent with relative hypovolaemia. After the challenge it improved to 310 ms but is still short — the patient still needs fluid. Continue monitoring and administering fluid challenges guided by haemodynamic response. Option A is incorrect — SV increased 17% (>10% = responsive).",
+      "teaching_point": "Oesophageal Doppler GDFT: FTc <350 ms = hypovolaemic; give fluid challenge. Response: SV ↑>10% = fluid-responsive (keep giving). SV ↑<10% = fluid-unresponsive (stop fluids). Target FTc 350–400 ms and optimise SV. SVV >13% in ventilated patient = preload-responsive. Avoid fluid challenges when SVV <8% = non-responsive. GDFT reduces post-op complications and hospital stay."
+    },
+    {
+      "id": "G1-Q6",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "0.9% Saline vs Balanced Crystalloid",
+      "question": "A 60-year-old man undergoes an open Hartmann's procedure and receives 4 litres of 0.9% saline during the case. His post-operative arterial blood gas shows: pH 7.28, pCO2 38 mmHg, HCO3− 17 mmol/L, Na+ 140, Cl− 118 mmol/L, lactate 0.8 mmol/L. What is the diagnosis and the causative agent?",
+      "options": [
+        "A. Lactic acidosis — tissue hypoperfusion from haemorrhage",
+        "B. Hyperchloraemic metabolic acidosis — caused by large-volume 0.9% saline infusion",
+        "C. Diabetic ketoacidosis — check glucose and ketones",
+        "D. Respiratory acidosis — check ventilator settings",
+        "E. Septic shock with metabolic acidosis — start antibiotics urgently"
+      ],
+      "correct": "B",
+      "explanation": "This ABG shows: metabolic acidosis (pH 7.28, HCO3− 17) with normal pCO2 (no respiratory component) and normal lactate (0.8 — excludes lactic acidosis). The key finding is raised chloride = 118 mmol/L (normal 98–106). Anion gap: Na+ − (Cl− + HCO3−) = 140 − (118 + 17) = 5 mEq/L (very low/normal — excludes MUDPILES causes). This is a normal anion gap metabolic acidosis + hyperchloraemia = hyperchloraemic metabolic acidosis from 0.9% saline (154 mEq/L chloride per litre). 4 litres of 0.9% saline administers ~616 mEq excess chloride. Mechanism: chloride load displaces bicarbonate (electroneutrality) and causes renal bicarbonate wasting → metabolic acidosis. Management: stop 0.9% saline; switch to balanced solution (Hartmann's or PlasmaLyte); the acidosis resolves as the kidneys excrete excess chloride.",
+      "teaching_point": "Hyperchloraemic metabolic acidosis: normal anion gap + high chloride (>115 mmol/L) + low HCO3− after large-volume 0.9% saline. Normal lactate excludes tissue hypoperfusion. Treatment: switch to balanced crystalloid (Hartmann's/PlasmaLyte). Prevention: use balanced solutions for surgical resuscitation. The SMART and SALT-ED trials confirmed benefits of balanced solutions."
+    },
+    {
+      "id": "G1-Q7",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Epidural vs TAP Block — Open Colectomy",
+      "question": "A 62-year-old woman undergoes an open (converted from laparoscopic) right hemicolectomy via a Pfannenstiel-extended incision. Postoperatively, what is the recommended primary analgesic technique according to PROSPECT guidelines?",
+      "options": [
+        "A. TAP block bilateral — adequate for open incisions",
+        "B. Thoracic epidural catheter (T7–T10) — gold standard for open laparotomy",
+        "C. Intrathecal morphine single dose only — no epidural catheter needed",
+        "D. IV patient-controlled analgesia (PCA) with morphine as primary strategy",
+        "E. Lidocaine intravenous infusion + systemic opioids only"
+      ],
+      "correct": "B",
+      "explanation": "PROSPECT (Procedure-Specific Postoperative Pain Management) guidelines for open colectomy: thoracic epidural analgesia (TEA) is the RECOMMENDED primary analgesic technique. TEA provides complete somatic AND visceral analgesia for the operative field, significantly reduces post-operative pulmonary complications (better cough, deep breathing), reduces ileus (sympatholytic effect enhances gut motility), and reduces MACE. A thoracic epidural at T7–T10 covers the abdominal dermatomes for open colectomy. TAP block (Option A) provides somatic-only analgesia — adequate for laparoscopic incisions but insufficient visceral analgesia for open laparotomy. Intrathecal morphine (Option C) provides 18–24h analgesia but requires 24h monitoring for delayed respiratory depression and does not continue post-operatively. PCA morphine (Option D) is appropriate when epidural is contraindicated but is inferior to TEA for open surgery.",
+      "teaching_point": "PROSPECT guideline — open colectomy: thoracic epidural (T7–T10) = first-line. Laparoscopic colectomy: TAP block + NSAID + paracetamol = first-line. Epidural for open surgery reduces: pain scores, pulmonary complications (PPC), ileus, MACE. Contraindications to epidural: coagulopathy (INR>1.5, Plt<80,000), patient refusal, local infection, raised ICP. LMWH timing: 12h gap before/after epidural insertion or removal."
+    },
+    {
+      "id": "G1-Q8",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Caprini Score — VTE Risk Categories",
+      "question": "A 58-year-old woman undergoes elective laparoscopic Hartmann's reversal for sigmoid cancer. She has a history of DVT 4 years ago, BMI 32, and is on HRT. The surgery lasts 90 minutes. What is her Caprini score and recommended VTE prophylaxis?",
+      "options": [
+        "A. Caprini 3 — LMWH in-hospital only",
+        "B. Caprini 6 — LMWH + mechanical (IPC) in-hospital + extended LMWH 28 days",
+        "C. Caprini 2 — mechanical prophylaxis only",
+        "D. Caprini 5 — LMWH in-hospital + extended prophylaxis 7 days",
+        "E. Caprini 8 — IVC filter required"
+      ],
+      "correct": "B",
+      "explanation": "Caprini scoring: (1) BMI >25 = 1 point; (2) History of DVT = 3 points; (3) Malignancy (sigmoid cancer history) = 2 points; (4) Laparoscopic surgery >45 min = 2 points; (5) HRT = 1 point. Total = 9 points → very high risk (≥5). Recommended: LMWH + mechanical (IPC + TED stockings) during hospitalisation PLUS extended prophylaxis. For cancer surgery (major abdominal/pelvic), NICE NG89 and ERAS guidelines recommend 28 days of LMWH post-operatively (ENOXACAN II/FAME evidence). This patient has multiple risk factors (cancer, prior DVT, BMI, HRT, major surgery) — clearly very high risk requiring maximum prophylaxis including extended course.",
+      "teaching_point": "Caprini very high risk (≥5): LMWH + mechanical (IPC + TED) + extended prophylaxis. Cancer + major abdominal surgery = minimum 28 days LMWH post-op. Prior DVT = 3 Caprini points (highest single patient factor). Extended prophylaxis = outpatient LMWH self-injection after discharge. Ensure adequate patient education and GP communication on discharge."
+    },
+    {
+      "id": "G1-Q9",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "LMWH Renal Dose Adjustment",
+      "question": "A 78-year-old man with CKD stage 4 (CrCl 22 mL/min) undergoes elective right hemicolectomy for cancer. What is the appropriate VTE prophylaxis and dosing?",
+      "options": [
+        "A. Enoxaparin 40 mg subcutaneously once daily — standard dose",
+        "B. Enoxaparin 20 mg subcutaneously once daily OR unfractionated heparin 5000 IU TDS with renal monitoring",
+        "C. No pharmacological prophylaxis — renal failure is an absolute contraindication to LMWH",
+        "D. Fondaparinux 2.5 mg daily — preferred over LMWH in renal impairment",
+        "E. Warfarin 5 mg daily — preferred anticoagulant in CKD"
+      ],
+      "correct": "B",
+      "explanation": "LMWH (enoxaparin) is primarily renally cleared. In severe renal impairment (CrCl 15–29 mL/min), the prophylactic dose of enoxaparin should be reduced to 20 mg once daily (UK guidelines: enoxaparin 20 mg OD or 40 mg OD with anti-Xa monitoring for CrCl <30). Alternatively, unfractionated heparin (UFH) 5000 IU BD or TDS is an acceptable alternative as UFH does not require renal dose adjustment (eliminated by reticuloendothelial system). Fondaparinux (Option D) is contraindicated in CrCl <30 mL/min (accumulates, higher bleeding risk). Warfarin (Option E) is not appropriate for VTE prophylaxis perioperatively. Anti-Xa monitoring is recommended if LMWH is used in severe renal impairment. Option A (standard 40 mg OD) would lead to LMWH accumulation and excess bleeding risk.",
+      "teaching_point": "LMWH and renal impairment: CrCl 30–50 mL/min = use with caution (standard dose, consider monitoring). CrCl 15–29 mL/min = reduce dose (enoxaparin 20 mg OD) OR use UFH. CrCl <15 mL/min = avoid LMWH; use UFH. Fondaparinux: avoid if CrCl <30. UFH: no renal dose adjustment needed — preferred in severe CKD. Anti-Xa monitoring: 4h post-dose; target 0.2–0.4 IU/mL for prophylaxis."
+    },
+    {
+      "id": "G1-Q10",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Extended Thromboprophylaxis — Cancer Surgery",
+      "question": "A 65-year-old woman undergoes open anterior resection for rectal cancer (R0 resection). She is fit and well. According to NICE NG89 and ERAS Society guidelines, what is the recommended duration of VTE prophylaxis after discharge?",
+      "options": [
+        "A. Stop LMWH on discharge — VTE risk resolved after hospital stay",
+        "B. Continue LMWH for 7 days after discharge",
+        "C. Continue LMWH for 28 days after surgery",
+        "D. Aspirin 75 mg daily for 6 weeks",
+        "E. Continue LMWH indefinitely until oncological treatment is complete"
+      ],
+      "correct": "C",
+      "explanation": "NICE NG89 and ERAS Society guidelines: patients undergoing major abdominal or pelvic surgery for cancer should receive extended LMWH prophylaxis for 28 DAYS post-operatively. Evidence: ENOXACAN II (enoxaparin 5 weeks post-op after cancer surgery reduced VTE from 12% to 4.8%); FAME trial (dalteparin 4 weeks vs 1 week — significant absolute VTE reduction). Rectal cancer surgery with anterior resection is a high-risk procedure for VTE: pelvic surgery, cancer, prolonged operation, potential immobility. The 28-day total duration encompasses both inpatient and post-discharge periods. Option A (stop at discharge) is inadequate — post-discharge VTE is the greatest risk period. Option D (aspirin) is insufficient for VTE prophylaxis in high-risk surgical cancer patients.",
+      "teaching_point": "Extended VTE prophylaxis 28 days: NICE NG89 mandates for major abdominal/pelvic cancer surgery. Applies to: colorectal, gynaecological, urological, hepatobiliary cancer surgery. LMWH self-administered by patient after discharge. Ensure written instructions, prescribed on TTO (take-home medications), district nurse if patient cannot self-inject. Audit compliance — this is a patient safety priority."
+    },
+    {
+      "id": "G1-Q11",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Mallampati Grade III/IV — Management",
+      "question": "During preoperative anaesthetic assessment, a 48-year-old man with a large tongue, limited mouth opening (2 finger-breadths), and short thyromental distance (4 cm) is classified as Mallampati Grade IV. What is the appropriate plan?",
+      "options": [
+        "A. Proceed with routine rapid sequence induction — Mallampati is only one of many airway factors",
+        "B. Plan for awake fibreoptic intubation (AFOI) and ensure senior anaesthetic support; document difficult airway",
+        "C. Request postponement of surgery — Mallampati IV is an absolute contraindication to any GA",
+        "D. Use a laryngeal mask airway (LMA) — avoids need for direct laryngoscopy",
+        "E. Regional anaesthesia only — GA is contraindicated in Mallampati IV"
+      ],
+      "correct": "B",
+      "explanation": "Mallampati Grade IV (only the hard palate visible, no soft palate, uvula, or tonsillar pillars visible) combined with limited mouth opening (2 finger-breadths; normal ≥3) and reduced thyromental distance (4 cm; normal ≥6.5 cm) constitutes a predicted difficult airway. The LEMON assessment: Look externally (large tongue, short neck), Evaluate 3-3-2 (mouth opening <3 finger breadths, hyoid-chin <3 finger breadths, thyroid-mouth floor <2 finger breadths — all abnormal), Mallampati IV, Obstruction absent, Neck mobility (assess). Plan: (1) Awake fibreoptic intubation (AFOI) is the gold standard for predicted difficult airway; (2) Senior anaesthetic support; (3) 'Difficult airway trolley' at bedside; (4) Documentation in notes and patient notification (difficult airway card). Regional anaesthesia (Option E) is an option for some procedures but is not universally applicable — some surgeries require GA regardless.",
+      "teaching_point": "Predicted difficult airway (Mallampati III/IV + other features): plan awake fibreoptic intubation (AFOI). Never attempt RSI in a known difficult airway without backup plan. LEMON mnemonic: Look externally, Evaluate 3-3-2, Mallampati, Obstruction, Neck. 'Cannot intubate, cannot oxygenate' → front of neck access (surgical cricothyroidotomy). Document and give patient a difficult airway alert card."
+    },
+    {
+      "id": "G1-Q12",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "RCRI — Further Investigation Threshold",
+      "question": "A 70-year-old woman with well-controlled hypertension and insulin-dependent diabetes is scheduled for elective laparoscopic cholecystectomy. Her RCRI score is 2. She can climb two flights of stairs without symptoms. What is the most appropriate next step?",
+      "options": [
+        "A. Proceed with surgery — RCRI 2 with good functional capacity (>4 METs) does not require further cardiac testing",
+        "B. Request echocardiography and cardiology review before proceeding",
+        "C. Order exercise stress test (EST) to quantify cardiac reserve",
+        "D. Request CPET — RCRI 2 mandates formal cardiac exercise testing",
+        "E. Postpone surgery indefinitely pending cardiac catheterisation"
+      ],
+      "correct": "A",
+      "explanation": "ESC/ESA 2022 guidelines for non-cardiac surgery: the decision for further cardiac investigation depends on BOTH the RCRI score AND functional capacity. This patient: RCRI 2 (insulin DM = 1; high-risk surgery — laparoscopic cholecystectomy is actually LOW risk, so score may be lower — but assuming it counts). Functional capacity: can climb 2 flights of stairs = >4 METs = ADEQUATE functional capacity. ESC/ESA algorithm: if RCRI ≥3 WITH poor functional capacity (<4 METs) → non-invasive testing or CPET. If RCRI <3 OR functional capacity ≥4 METs → proceed to surgery without further cardiac testing in most cases. Note: laparoscopic cholecystectomy is LOW surgical risk — does not count as 'high-risk surgery' in RCRI. RCRI 2 with good functional capacity = proceed.",
+      "teaching_point": "ESC/ESA 2022: further cardiac testing needed only if RCRI ≥3 AND functional capacity <4 METs before INTERMEDIATE or HIGH risk surgery. Low-risk surgery (laparoscopic cholecystectomy, superficial surgery, endoscopy): no cardiac testing regardless of RCRI. Adequate functional capacity (≥4 METs) = can climb a flight of stairs or walk on flat ground at 4 mph."
+    },
+    {
+      "id": "G1-Q13",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Neuraxial Anaesthesia and LMWH Timing",
+      "question": "A 68-year-old man with a thoracic epidural catheter in situ is being managed post-elective open colectomy. He received his last dose of enoxaparin 40 mg subcutaneously at 22:00 last night. It is now 08:00 the following morning. The team plans to remove the epidural catheter. Is this safe?",
+      "options": [
+        "A. Yes — 10 hours have elapsed, which is sufficient for prophylactic LMWH",
+        "B. No — a minimum of 12 hours must elapse after prophylactic LMWH before epidural catheter removal",
+        "C. Yes — only therapeutic LMWH requires a 12-hour gap; prophylactic doses are safe at any time",
+        "D. No — at least 24 hours must elapse after any LMWH dose before epidural manipulation",
+        "E. Check aPTT — if normal, catheter removal is safe regardless of timing"
+      ],
+      "correct": "B",
+      "explanation": "UK and European (ESA) guidelines on neuraxial anaesthesia and anticoagulation: prophylactic LMWH — minimum 12 hours between last dose and epidural catheter insertion OR removal. At 08:00 after a 22:00 dose, only 10 hours have elapsed — NOT SAFE for catheter removal at this time. The next safe time for removal is 10:00 (12 hours post-dose). Therapeutic LMWH (e.g., enoxaparin 1 mg/kg BD) — minimum 24 hours between last dose and neuraxial procedure. After catheter removal: wait 4 hours before next LMWH dose (regardless of prophylactic or therapeutic). Option D (24 hours for any LMWH) is incorrect — 24 hours is only for therapeutic (treatment) doses.",
+      "teaching_point": "Neuraxial anaesthesia + LMWH timing rules: (1) Prophylactic LMWH → wait ≥12h before neuraxial procedure/catheter removal. (2) Therapeutic LMWH → wait ≥24h. (3) After catheter removal → wait ≥4h before next LMWH dose. (4) Warfarin → INR <1.5 before neuraxial. (5) Clopidogrel → stop 7 days before. Violations risk epidural haematoma → permanent paralysis."
+    },
+    {
+      "id": "G1-Q14",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "NSAIDs and Anastomotic Leak Risk",
+      "question": "A surgical registrar asks whether to prescribe regular ibuprofen 400 mg TDS as part of the ERAS multimodal analgesic regimen following an open low anterior resection with a hand-sewn coloanal anastomosis in a 72-year-old man with mild chronic kidney disease (CrCl 48 mL/min). What is the most appropriate response?",
+      "options": [
+        "A. Prescribe ibuprofen for 5 days — it is a core ERAS element with no evidence of anastomotic harm",
+        "B. Prescribe ibuprofen for 48–72 hours only — limit duration and avoid in high-risk anastomoses and renal impairment; use paracetamol + regional block as alternatives",
+        "C. Prescribe ibuprofen for 48–72 hours — renal function is normal at CrCl 48 mL/min",
+        "D. NSAIDs are absolutely contraindicated after any colorectal anastomosis — use opioids instead",
+        "E. Prescribe ketorolac IV — more potent and safer than ibuprofen for colorectal surgery"
+      ],
+      "correct": "B",
+      "explanation": "This question combines two concerns: (1) NSAIDs and anastomotic leak risk — observational evidence (particularly for ketorolac) suggests increased anastomotic leak risk with prolonged NSAID use after colorectal surgery; the risk is higher for low rectal/coloanal anastomoses (technically high-risk anastomoses). (2) NSAIDs and renal function — CrCl 48 mL/min = CKD stage 3b; NSAIDs cause renal vasoconstriction and reduce GFR, potentially precipitating AKI in borderline renal function. Combined considerations: (1) use NSAIDs for the shortest necessary duration (48–72h maximum); (2) avoid NSAIDs in high-risk anastomoses (low rectal, coloanal) beyond 48h; (3) CrCl <30 = avoid NSAIDs; CrCl 30–60 = use with caution and short course; (4) ketorolac is specifically more implicated in anastomotic leak and should be avoided. Best strategy: paracetamol QDS + thoracic epidural (already placed for open surgery) as primary analgesia — minimise or avoid NSAIDs in this high-risk scenario.",
+      "teaching_point": "NSAIDs in colorectal surgery: limit to 48–72h; avoid ketorolac; higher risk with low rectal/coloanal anastomoses. Renal impairment (CrCl <60): use with caution and short course; avoid if CrCl <30. ERAS analgesia for open low AR: thoracic epidural + paracetamol ± short NSAID course ± low-dose ketamine. NSAIDs are beneficial for ERAS compliance but must be individualised."
+    },
+    {
+      "id": "G1-Q15",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Ketamine — Opioid-Sparing Strategy",
+      "question": "A 45-year-old man with chronic back pain on long-term opioids (oxycodone 40 mg twice daily) requires elective laparoscopic Nissen fundoplication. The anaesthetist is concerned about opioid tolerance and hyperalgesia. Which adjuvant analgesic would most specifically address opioid-induced hyperalgesia (OIH) and opioid tolerance?",
+      "options": [
+        "A. Dexamethasone 8 mg IV — reduces inflammation",
+        "B. Gabapentin 600 mg preoperatively — reduces neuropathic pain",
+        "C. Low-dose ketamine (0.1–0.3 mg/kg IV bolus ± 0.1–0.2 mg/kg/h infusion) — NMDA receptor antagonist",
+        "D. Lidocaine IV infusion — systemic LA reduces opioid requirements",
+        "E. Clonidine 0.1 mg IV — alpha-2 agonist sedation"
+      ],
+      "correct": "C",
+      "explanation": "Opioid-induced hyperalgesia (OIH) is a paradoxical sensitisation to painful stimuli caused by long-term opioid use — mediated by NMDA (N-methyl-D-aspartate) receptor activation in the spinal cord. Ketamine is an NMDA receptor antagonist — it specifically blocks this mechanism, reduces central sensitisation, and prevents/treats OIH. Low-dose ketamine (sub-anaesthetic: 0.1–0.3 mg/kg bolus pre-incision, ± infusion 0.1–0.2 mg/kg/h intraoperatively and 24h post-op) significantly reduces post-operative opioid consumption (systematic review: reduces 24h morphine by ~20%). In opioid-tolerant patients, low-dose ketamine is particularly effective. Psychomimetic side effects are uncommon at sub-anaesthetic doses. Dexamethasone (Option A) is anti-emetic/anti-inflammatory. Gabapentin (Option B) targets neuropathic pain (voltage-gated calcium channels) — useful as adjunct but doesn't specifically address OIH. Lidocaine infusion (Option D) is a valid opioid-sparing strategy (reduces opioid use, promotes gut motility) but doesn't specifically address OIH mechanistically.",
+      "teaching_point": "Opioid-tolerant patients: use low-dose ketamine (0.1–0.3 mg/kg IV bolus + infusion) — NMDA antagonist prevents OIH and reduces opioid consumption. Also consider: lidocaine infusion (0.1 mg/kg/h), gabapentinoids, dexmedetomidine. Regional anaesthesia is paramount. Avoid increasing opioid dose as primary strategy — this worsens OIH long-term."
+    },
+    {
+      "id": "G1-Q16",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Failed Epidural — Alternative Analgesic Options",
+      "question": "A 58-year-old woman undergoes open right hemicolectomy. A thoracic epidural was placed and worked well intraoperatively, but on postoperative Day 2 the catheter is found to have migrated out. She reports pain score 7/10. Her renal function is normal (CrCl 72 mL/min). What is the most appropriate analgesic step?",
+      "options": [
+        "A. Re-site thoracic epidural catheter as the only acceptable alternative",
+        "B. IV PCA morphine alone",
+        "C. Bilateral TAP block + systemic multimodal analgesia (paracetamol + NSAID + PRN opioid)",
+        "D. Intramuscular morphine PRN only",
+        "E. Continue with paracetamol alone and reassure — pain will improve"
+      ],
+      "correct": "C",
+      "explanation": "Failed/displaced epidural after open laparotomy: options include (1) re-site epidural (ideal but may not be possible — post-op coagulopathy from prophylactic LMWH given that morning, patient refusal, or technical difficulty); (2) rescue analgesia with bilateral TAP block (provides somatic wall analgesia — covers lateral abdominal wall T7–L1; easy to perform post-op under USS guidance) + systemic multimodal analgesia (scheduled paracetamol 1g QDS + ibuprofen 400 mg TDS if not contraindicated + opioid PCA or PRN). TAP block is the most practical rescue analgesia after failed epidural for abdominal surgery. Note: TAP block does NOT cover visceral pain — systemic analgesia must accompany it. IV PCA morphine alone (Option B) is a fallback but provides no regional coverage and increases opioid side effects. Re-siting epidural (Option A) may not be feasible safely.",
+      "teaching_point": "Failed epidural rescue analgesia: bilateral TAP block (USS-guided, local anaesthetic) + systemic multimodal (paracetamol + NSAID + PRN opioid). TAP provides somatic wall analgesia. Consider adding systemic lidocaine infusion (0.1 mg/kg/h) and low-dose ketamine to enhance analgesia without increasing opioid load. Document epidural failure; consider re-siting if LMWH timing permits."
+    },
+    {
+      "id": "G1-Q17",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "NEWS2 — Early Warning Score",
+      "question": "A 65-year-old man on Day 3 post-open colectomy has the following observations: RR 22/min, SpO2 93% on room air, BP 95/60 mmHg, HR 110 bpm, Temperature 38.8°C, GCS 14 (confused). He is on no supplemental oxygen. What is his NEWS2 score and what action is required?",
+      "options": [
+        "A. NEWS2 score 4 — routine nursing review in 4 hours",
+        "B. NEWS2 score 9 — emergency assessment, consider ICU referral, senior physician review immediately",
+        "C. NEWS2 score 6 — urgent clinical review within 1 hour",
+        "D. NEWS2 score 12 — immediate resuscitation team activation",
+        "E. NEWS2 score 3 — increase monitoring frequency to hourly"
+      ],
+      "correct": "B",
+      "explanation": "NEWS2 scoring: RR 21–24/min = 2 points; SpO2 93% on room air = 2 points; no supplemental O2 = 0 points; Systolic BP 91–100 = 2 points; HR 101–110 = 1 point; Temperature 38.1–39°C = 1 point; new confusion (ACVPU = V or C) = 3 points. Total = 2+2+0+2+1+1+3 = 11 points. Actually: new confusion scores as 3 points in NEWS2 (change in level of consciousness — any new confusion = 3 points). Total NEWS2 = 2+2+0+2+1+1+3 = 11. NEWS2 ≥7 = emergency assessment + consider ICU/HDU. This patient is likely developing sepsis from an anastomotic leak (Day 3 post-colectomy). Immediate senior review, blood cultures, lactate, CT abdomen, surgical assessment for anastomotic leak. Do not merely increase monitoring frequency.",
+      "teaching_point": "NEWS2: ≥7 = emergency/critical — immediate senior review, consider ICU. 5–6 = urgent clinical review within 1h. 1–4 = increase monitoring frequency. New confusion = 3 points alone (escalates score significantly). In postoperative patients: NEWS2 ≥5 must trigger consideration of anastomotic leak, PE, haemorrhage, sepsis. Failure to escalate = failure to rescue."
+    },
+    {
+      "id": "G1-Q18",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "Clavien-Dindo Grade IIIb",
+      "question": "A 72-year-old woman undergoes laparoscopic anterior resection for rectal cancer. On Day 6, she develops clinical and CT evidence of an anastomotic leak with a pelvic collection. She undergoes a Hartmann's procedure (reversal of the anastomosis, proximal end colostomy) under general anaesthesia. What is the Clavien-Dindo grade of this complication?",
+      "options": [
+        "A. Grade IIIa — radiological intervention without general anaesthesia",
+        "B. Grade IIIb — surgical intervention under general anaesthesia",
+        "C. Grade IVa — single organ failure requiring ICU",
+        "D. Grade II — required IV antibiotics only",
+        "E. Grade IVb — multi-organ failure requiring ICU"
+      ],
+      "correct": "B",
+      "explanation": "Clavien-Dindo Grade IIIb = requiring surgical, endoscopic, or radiological intervention UNDER GENERAL ANAESTHESIA. This patient underwent a Hartmann's procedure (major surgical intervention) under GA for an anastomotic leak — this is the definition of Grade IIIb. Grade IIIa would apply if the intervention was performed without GA (e.g., CT-guided drain, endoscopic stent). If the patient also required ICU care for organ support (single organ failure), this would be Grade IVa. If she needed ICU for organ failure and returned to theatre, the highest applicable grade is Grade IVa or IVb. In this scenario, the question specifies the intervention (Hartmann's under GA) as the defining event — Grade IIIb.",
+      "teaching_point": "Clavien-Dindo IIIa vs IIIb: IIIa = intervention WITHOUT GA (CT drain, endoscopic stent, cystoscopy). IIIb = intervention UNDER GA (return to theatre, major re-operation). Anastomotic leak managed by redo surgery under GA = IIIb. Anastomotic leak managed by CT-guided drain alone = IIIa. If ICU required for organ failure: upgrades to IV regardless of intervention."
+    },
+    {
+      "id": "G1-Q19",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Failure to Rescue",
+      "question": "The Failure to Rescue (FTR) concept is used as a quality indicator in surgical outcomes. Which of the following best defines FTR?",
+      "options": [
+        "A. The rate of major postoperative complications per 100 operations",
+        "B. The proportion of patients who develop a postoperative complication",
+        "C. The mortality rate among patients who develop a major postoperative complication",
+        "D. The proportion of patients requiring unplanned ICU admission",
+        "E. The rate of 30-day readmission after discharge"
+      ],
+      "correct": "C",
+      "explanation": "Failure to Rescue (FTR) is defined as death following a recognised major postoperative complication. It is not about preventing the complication — it is about the capacity to DETECT and RESPOND to complications before they become fatal. FTR = (number of patients who die after a major complication) ÷ (number of patients who develop a major complication). High-volume centres and teaching hospitals have lower FTR rates than low-volume centres — not because they have fewer complications (complication rates may be similar) but because they have better systems for recognising deterioration (NEWS2 monitoring, rapid escalation, ICU/HDU availability, consultant-led review) and managing complications (skills, equipment, specialist support). FTR is a key surgical quality indicator used in hospital mortality reviews (HSMR) and ERAS audits.",
+      "teaching_point": "Failure to Rescue = death after major complication. High FTR = poor complication recognition/response systems. Low FTR at high-volume centres = better monitoring (NEWS2), faster escalation, more ICU beds, specialist expertise. FTR is separate from complication rate. Reducing FTR requires: structured observation, NEWS2 escalation, senior review, early ICU referral, ERAS nurse coordinators."
+    },
+    {
+      "id": "G1-Q20",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Prehabilitation Components",
+      "question": "A 68-year-old man with COPD (FEV1 55%) and BMI 34 is listed for elective open oesophagectomy in 8 weeks. Which combination of prehabilitation elements has the strongest evidence for reducing postoperative pulmonary complications?",
+      "options": [
+        "A. Dietary supplementation with protein shakes alone",
+        "B. Exercise training + nutritional optimisation + smoking cessation + inspiratory muscle training",
+        "C. Pre-operative steroids to reduce airway inflammation",
+        "D. Hospitalisation for 2 weeks of physiotherapy before surgery",
+        "E. Oxygen therapy at home before surgery to optimise SpO2"
+      ],
+      "correct": "B",
+      "explanation": "Prehabilitation is the systematic preparation of patients before surgery to improve physiological reserve and functional capacity, reducing post-operative complications. The strongest evidence exists for the combination of: (1) Exercise training (aerobic + resistance) — improves VO2max, reduces post-op pulmonary complications (RCT evidence for oesophagectomy); (2) Nutritional optimisation — protein supplementation, address malnutrition, correct deficiencies; (3) Smoking cessation — minimum 4–8 weeks pre-op (reduces PPC by 50%; cessation <4 weeks may transiently increase secretions); (4) Inspiratory muscle training (IMT) — specific training of respiratory muscles reduces post-op pneumonia and atelectasis (RCT: Valkenet et al., BMJ 2011 — IMT reduced PPC 50% in cardiac surgery; evidence extrapolated to oesophagectomy). For oesophagectomy patients specifically, pulmonary complications (pneumonia, ARDS) are the leading cause of mortality — prehabilitation targeting respiratory fitness is paramount. 8 weeks is an adequate prehabilitation window (minimum 4 weeks recommended).",
+      "teaching_point": "Prehabilitation components: (1) Exercise (aerobic + resistance) → improves VO2max. (2) Nutritional support → NRS-2002 screen, protein supplements. (3) Smoking cessation ≥4 weeks pre-op → halves pulmonary complication rate. (4) Inspiratory muscle training → reduces PPC by ~50%. (5) Psychological preparation. All four are recommended for high-risk patients before major surgery. Prehabilitation is now endorsed by ERAS Society and ACS Strong for Surgery program."
+    }
+  ]
+}

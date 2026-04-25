@@ -1,0 +1,671 @@
+{
+  "id": "E1",
+  "block": "E",
+  "block_name": "Transplantation & Vascular",
+  "title": "Liver Transplantation",
+  "level": "PGY4-5",
+  "sections": [
+    {
+      "id": "E1-S1",
+      "title": "Indications & Contraindications",
+      "content": [
+        {
+          "type": "text",
+          "content": "Liver transplantation (OLT) is the definitive therapy for end-stage liver disease (ESLD), acute liver failure (ALF), and selected hepatic malignancies. Patient selection is governed by the Model for End-Stage Liver Disease (MELD) score, a continuous numerical scale derived from serum bilirubin, creatinine, and INR that predicts 90-day waitlist mortality. UNOS/EUROTRANSPLANT list patients once MELD ≥15, at which point transplant benefit (survival gained from transplant) exceeds waitlist survival. The MELD-Na modification incorporates serum sodium, improving predictive accuracy for waitlist mortality, particularly in hyponatraemic patients."
+        },
+        {
+          "type": "table",
+          "title": "MELD Score Calculation & Mortality Correlation",
+          "headers": ["MELD Score", "3-Month Waitlist Mortality", "Priority"],
+          "rows": [
+            ["<10", "<2%", "No benefit; do not list"],
+            ["10–14", "2–5%", "Listed but benefit marginal"],
+            ["15–19", "6–15%", "UNOS listing threshold"],
+            ["20–29", "16–30%", "Standard allocation"],
+            ["30–39", "31–60%", "High urgency"],
+            ["≥40", ">70%", "Status 1A equivalent in some regions"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "The Child-Pugh score (bilirubin, albumin, PT/INR, ascites, encephalopathy; A/B/C) preceded MELD and remains clinically relevant for operative risk stratification. Child-Pugh C patients (score ≥10) carry perioperative mortality >25%. EASL 2022 guidelines list the following as primary OLT indications: (1) Decompensated cirrhosis — ascites requiring large-volume paracentesis, spontaneous bacterial peritonitis (SBP), variceal haemorrhage refractory to endoscopic/TIPS therapy, hepatic encephalopathy grade III/IV, hepatorenal syndrome; (2) HCC within Milan criteria — single nodule ≤5 cm or up to 3 nodules each ≤3 cm, no macrovascular invasion, no extrahepatic spread; (3) Acute liver failure — King's College Criteria (KCC): paracetamol — pH<7.30 or PT>100s + creatinine>3.4 + encephalopathy grade III/IV; non-paracetamol — PT>100s OR ≥3 of: age<10 or >40, aetiology (Wilson's, indeterminate, halothane), jaundice-to-encephalopathy>7 days, PT>50s, bilirubin>17.5; (4) Cholestatic — PSC (primary sclerosing cholangitis) with recurrent cholangitis, intractable pruritus, or early cholangiocarcinoma in selected centres; PBC with inadequate ursodeoxycholic acid response; (5) Metabolic — Wilson's disease (ALF presentation), alpha-1-antitrypsin deficiency (ZZ phenotype), familial amyloid polyneuropathy (liver is source of TTR — domino donation possible)."
+        },
+        {
+          "type": "table",
+          "title": "Absolute vs Relative Contraindications to OLT",
+          "headers": ["Category", "Absolute Contraindications", "Relative Contraindications"],
+          "rows": [
+            ["Malignancy", "Active extrahepatic malignancy; cholangiocarcinoma (most centres — selected hilar CCA in specialised centres only)", "HCC beyond Milan without downstaging; prior treated extrahepatic malignancy <5yr disease-free"],
+            ["Infection", "Uncontrolled systemic infection; active tuberculosis; HIV with AIDS-defining illness", "HIV controlled on ART (MELD equivalent outcomes); treated hepatitis B (HBIg/nucleoside analogues)"],
+            ["Cardiopulmonary", "Severe pulmonary hypertension (mPAP>50mmHg); advanced cardiac disease (EF<40%, untreatable CAD); severe hepatopulmonary syndrome", "mPAP 35–50mmHg (may treat with pulm vasodilators then reassess); moderate COPD"],
+            ["Anatomical/Technical", "None absolute — portal vein thrombosis now a relative CI with surgical advances", "Prior complex abdominal surgery; obesity BMI>40"],
+            ["Psychosocial", "Active non-compliance; ongoing substance misuse without rehabilitation commitment", "Alcoholic liver disease <6 months abstinence (centre-specific)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "MELD-Na Formula",
+          "content": "MELD-Na = MELD + 1.32 × (137 − Na) − [0.24 × (137 − Na) × MELD]. Hyponatraemia (Na <130 mEq/L) significantly increases waitlist mortality beyond what MELD alone predicts, making MELD-Na the standard allocation tool in the US and many European centres since 2016."
+        }
+      ]
+    },
+    {
+      "id": "E1-S2",
+      "title": "Donor Selection & Graft Types",
+      "content": [
+        {
+          "type": "text",
+          "content": "Donor shortage is the primary limiting factor in liver transplantation, driving expansion toward marginal and non-standard donors. Donors are classified as donation after brain death (DBD) and donation after circulatory death (DCD). DBD remains the gold standard: brain death causes catecholamine storm → haemodynamic instability → potential graft injury, but warm ischaemia time is effectively zero. DCD donors are classified by the Maastricht classification."
+        },
+        {
+          "type": "table",
+          "title": "Maastricht Classification of DCD Donors",
+          "headers": ["Category", "Description", "Transplant Feasibility"],
+          "rows": [
+            ["I", "Dead on arrival (uncontrolled)", "Rarely feasible — excessive warm ischaemia"],
+            ["II", "Unsuccessful resuscitation (uncontrolled)", "Selected centres — normothermic regional perfusion (NRP) extends feasibility"],
+            ["III", "Awaiting cardiac arrest (controlled — WLST)", "Most common; gold standard DCD — warm ischaemia minimised by rapid procurement"],
+            ["IV", "Cardiac arrest in brain-dead donor (controlled)", "Feasible; similar to DBD if arrest brief"],
+            ["V", "Cardiac arrest in ICU patient (uncontrolled)", "Rare; requires NRP"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "DCD livers carry higher risk of primary non-function and ischaemic cholangiopathy (diffuse biliary stricturing — 'DCD cholangiopathy') due to peribiliary vascular plexus susceptibility to warm ischaemia. The functional warm ischaemia time (fWIT — time from SBP<50 mmHg to cold flush) should be <30 minutes to minimise cholangiopathy risk. Expanded criteria donors (ECD) — also termed marginal donors — include: age >70, steatosis >30%, prolonged ICU stay, elevated liver enzymes, DCD. These grafts may be acceptable with machine perfusion assessment. Split liver transplantation divides one cadaveric liver (typically into left lateral segment for paediatric and extended right lobe for adult recipients) to double utilisation. Living donor liver transplantation (LDLT) uses the right hepatic lobe (segments V–VIII, 60–70% liver volume) from a healthy adult. The right lobe carries a donor mortality of approximately 0.2–0.5% and morbidity of 15–30%. Left lateral segment LDLT for paediatric recipients is safer (donor mortality <0.1%). Back-table preparation involves portal vein reconstruction, hepatic artery lengthening with donor iliac artery conduits when needed, and assessment of bile duct anatomy."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "Machine Perfusion — EASL 2022 Recommendation",
+          "content": "Normothermic machine perfusion (NMP) and hypothermic oxygenated machine perfusion (HOPE) are endorsed for DCD and marginal donors. NMP allows dynamic viability assessment (bile production, lactate clearance, transaminase trend) over 4–12 hours before transplantation decision, reducing discard rates and improving post-transplant outcomes (COPE trial: HOPE reduced EAD and graft loss in DCD livers)."
+        }
+      ]
+    },
+    {
+      "id": "E1-S3",
+      "title": "Surgical Technique",
+      "content": [
+        {
+          "type": "text",
+          "content": "The recipient operation consists of three phases: hepatectomy, anhepatic phase (vascular anastomoses), and reperfusion/biliary reconstruction. Recipient hepatectomy is complicated by portal hypertension (varices, coagulopathy) and prior surgeries. The native hepatectomy can be performed by: (1) Classical caval replacement — total hepatectomy with infrahepatic and suprahepatic IVC excision, requiring venovenous bypass (VVB) to return portal and lower body blood to systemic circulation during the anhepatic phase; (2) Piggyback technique (caval preservation, Belghiti) — native IVC preserved by dissecting hepatic veins off the cava, allowing side-clamping rather than total caval occlusion, eliminating need for VVB in most cases and preserving renal venous drainage."
+        },
+        {
+          "type": "table",
+          "title": "Piggyback vs Classical Caval Replacement",
+          "headers": ["Feature", "Piggyback (Caval Preservation)", "Classical (Caval Replacement)"],
+          "rows": [
+            ["IVC management", "Native IVC preserved; hepatic veins ligated; cavocavostomy", "Total hepatic + IVC en bloc removal"],
+            ["Haemodynamics", "Side clamp — partial IVC obstruction; better tolerated", "Total IVC occlusion — profound hypotension"],
+            ["VVB requirement", "Usually not needed", "Typically needed (or portocaval shunt)"],
+            ["Technical difficulty", "More complex dissection", "Simpler dissection"],
+            ["Anastomosis type", "Side-to-side cavocavostomy or end-to-side", "End-to-end IVC (supra + infrahepatic)"],
+            ["Current preference", "Dominant technique globally", "Reserved for large caudate, Budd-Chiari, LDLT"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Vascular anastomoses sequence: (1) Suprahepatic IVC or hepatic vein (piggyback); (2) Portal vein — end-to-end anastomosis; (3) Hepatic artery — end-to-end with operative microscopy or loupe magnification if diameter <3mm; back-table reconstruction using donor iliac Y-graft if recipient has aberrant arterial anatomy; (4) Reperfusion — portal vein unclamped first (portal reperfusion), then hepatic artery. Reperfusion syndrome (post-reperfusion syndrome, PRS) — >30% decrease in MAP persisting >60 seconds after reperfusion — occurs in 25% of cases due to release of cold, hyperkalaemic, acidic preservation fluid; managed with calcium, adrenaline, and ephedrine. Biliary reconstruction: (1) Duct-to-duct (choledochocholedochostomy) — preferred when recipient bile duct viable; allows future endoscopic access; (2) Roux-en-Y hepaticojejunostomy — used in PSC (diseased recipient duct), paediatric (size mismatch), re-transplantation, or duct damage."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Hepatic Artery Reconstruction Priority",
+          "content": "Hepatic artery thrombosis (HAT) is the most feared early vascular complication. Meticulous back-table arterial reconstruction is critical: replaced/accessory right hepatic arteries (from SMA — present in 20% of donors) must be incorporated. Operative Doppler at table-end verifies flow before closing. Any technical concern mandates on-table angiography."
+        }
+      ]
+    },
+    {
+      "id": "E1-S4",
+      "title": "Immunosuppression",
+      "content": [
+        {
+          "type": "text",
+          "content": "The goal of immunosuppression is to prevent rejection while minimising toxicity. Standard maintenance therapy uses a calcineurin inhibitor (CNI) backbone with adjuncts. Tacrolimus (FK506) is the preferred CNI: it inhibits calcineurin → reduced IL-2 transcription → T-cell suppression. Target trough levels: 8–12 ng/mL in the first 3 months, 5–8 ng/mL thereafter. Cyclosporine (less used) has a narrower therapeutic index and more drug interactions. CNI toxicity includes: nephrotoxicity (dose-dependent afferent arteriolar vasoconstriction — chronic CNI nephropathy causes 20% of late graft loss), neurotoxicity (tremor, posterior reversible encephalopathy — PRES), hypertension, dyslipidaemia, diabetes (tacrolimus > cyclosporine), hirsutism/gingival hyperplasia (cyclosporine). Mycophenolate mofetil (MMF, CellCept) — antimetabolite: inhibits inosine monophosphate dehydrogenase (IMPDH) → reduced purine synthesis → lymphocyte suppression. Main toxicities: GI (diarrhoea, nausea), bone marrow suppression. Corticosteroids — used in induction and acute rejection treatment; minimisation/elimination protocols aim to reduce metabolic side effects. mTOR inhibitors (sirolimus, everolimus) — inhibit mTOR pathway → antiproliferative effects. Primary indication post-OLT: HCC recipients (antiproliferative benefit reduces recurrence — SiLVER trial). Contraindicated in first 30 days (impair hepatic artery healing)."
+        },
+        {
+          "type": "table",
+          "title": "Rejection Types After Liver Transplantation",
+          "headers": ["Type", "Timing", "Mechanism", "Biopsy Findings", "Treatment"],
+          "rows": [
+            ["Acute cellular rejection (ACR)", "1–6 weeks (can occur any time)", "T-cell mediated", "Portal triaditis: mixed inflammatory infiltrate (lymphocytes, eosinophils, neutrophils), bile duct damage, endotheliitis (subendothelial lymphocytes)", "Methylprednisolone 500mg IV × 3 days; steroid-resistant → ATG"],
+            ["Chronic rejection (ductopenic)", ">3–6 months", "Immune-mediated bile duct loss", "Bile duct loss (>50% portal tracts), arterial foam-cell obliteration — 'vanishing bile duct syndrome'", "Increase immunosuppression; often requires re-transplantation"],
+            ["Antibody-mediated rejection (AMR)", "Variable (hyperacute — minutes; acute — days–weeks)", "Donor-specific antibodies (DSA)", "C4d deposition on portal endothelium, microvascular injury, cholestasis", "Plasmapheresis + IVIG + rituximab; poor response"],
+            ["Hyperacute rejection", "Minutes–hours", "Preformed DSA", "Haemorrhagic necrosis", "Re-transplantation (prevention: crossmatch)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "SiLVER Trial — Sirolimus for HCC Post-OLT",
+          "content": "SiLVER (2016, NEJM): 525 OLT recipients with HCC randomised to sirolimus-containing vs mTOR inhibitor-free immunosuppression. Primary endpoint (recurrence-free survival) not significantly different overall. Pre-specified subgroup analysis showed recurrence-free survival benefit at 3–5 years in low-risk HCC (within Milan, AFP<400). No significant OS difference. Guideline implication: sirolimus is preferred CNI alternative in HCC recipients but not mandated universally."
+        }
+      ]
+    },
+    {
+      "id": "E1-S5",
+      "title": "Post-operative Complications",
+      "content": [
+        {
+          "type": "text",
+          "content": "Early post-operative complications (<30 days) are the primary cause of graft loss and mortality. Primary non-function (PNF) occurs within 72 hours — absent bile production, rising transaminases (>3000 U/L), coagulopathy, encephalopathy, haemodynamic instability. PNF incidence is 2–5% and mandates urgent re-transplantation. Early allograft dysfunction (EAD, Olthoff criteria) is less severe but occurs in 20–30%: AST or ALT >2000 on days 1–7, bilirubin ≥10 mg/dL on day 7, INR ≥1.6 on day 7. Hepatic artery thrombosis (HAT) is the most feared vascular complication (3–5% incidence). Early HAT (<14 days): catastrophic — bile duct ischaemia (biliary tree is exclusively HA-supplied in transplanted liver), hepatic necrosis; presents with transaminase spike, rapid deterioration; requires urgent retransplantation or surgical thrombectomy/angioplasty if caught early. Late HAT (>14 days): presents as biliary strictures, chronic hepatic dysfunction. Portal vein thrombosis (PVT) is rare (1–2%) and may present with portal hypertension, ascites, or graft failure; Doppler surveillance mandatory in first 7 days. Biliary complications are the most common overall (15–25%). Anastomotic stricture (most common biliary complication — ~10%) presents with cholestasis weeks to months post-OLT; managed endoscopically (ERCP + dilation/stenting) or percutaneously. Biliary leak (5%): T-tube exit site or anastomotic — managed with ERCP stenting and/or reoperation. Ischaemic cholangiopathy (non-anastomotic strictures — NAS) — associated with DCD grafts, HAT, prolonged ischaemia; diffuse intrahepatic stricturing with progressive cholestasis; poor prognosis, often requires re-transplantation."
+        },
+        {
+          "type": "table",
+          "title": "Early Post-OLT Complications — Diagnosis & Management",
+          "headers": ["Complication", "Timing", "Diagnosis", "Management"],
+          "rows": [
+            ["Primary non-function (PNF)", "<72h", "No bile, transaminases >3000, coagulopathy, encephalopathy", "Urgent re-transplantation"],
+            ["HAT — early", "<14 days", "Doppler US (absent arterial flow); CT angiogram confirmatory", "Urgent re-transplantation or surgical thrombectomy"],
+            ["Portal vein thrombosis", "Days–weeks", "Doppler US; CT angiogram", "Anticoagulation; surgical thrombectomy; TIPS"],
+            ["Anastomotic biliary stricture", "Weeks–months", "LFT cholestasis pattern; MRCP; ERCP", "ERCP dilation + stenting (first-line); percutaneous if ERCP fails; surgical revision"],
+            ["Biliary leak", "Days–2 weeks", "Bile drain output; HIDA scan; MRCP", "ERCP stenting + sphincterotomy; drain; reoperation if peritonitis"],
+            ["Acute cellular rejection", "1–6 weeks", "Liver biopsy (RAI ≥5 moderate rejection)", "Methylprednisolone IV pulse 3 days"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "HAT Clinical Pearl",
+          "content": "In a transplanted liver, the bile ducts have NO peribiliary blood supply from the portal system — they are 100% dependent on the hepatic artery. Therefore, HAT rapidly causes biliary ischaemia and irreversible damage even before hepatocellular necrosis. Daily Doppler surveillance for at least 7 days post-OLT is standard. Sudden transaminase spike + absent HA flow on Doppler = HAT until proven otherwise."
+        }
+      ]
+    },
+    {
+      "id": "E1-S6",
+      "title": "HCC Beyond Milan — Downstaging & Bridging",
+      "content": [
+        {
+          "type": "text",
+          "content": "Milan criteria (Mazzaferro 1996 NEJM) define the original standard for OLT in HCC: 1 nodule ≤5 cm or ≤3 nodules each ≤3 cm, without macrovascular invasion or extrahepatic disease. 5-year OS 75%, recurrence <15% — these outcomes justified the model. The University of California San Francisco (UCSF) criteria expand eligibility: single lesion ≤6.5 cm or ≤3 lesions with largest ≤4.5 cm and total diameter ≤8 cm. The 'Up-to-7' rule (sum of largest tumour diameter + nodule count ≤7) is validated in non-microvascular invasion HCC. Downstaging refers to tumour reduction using locoregional therapy (LRT) to meet transplant criteria. TACE (transarterial chemoembolisation) and ablation (radiofrequency, microwave) are the primary LRT modalities. The UNOS downstaging protocol (Protocol 3, 2017) requires pre-treatment tumour within defined bounds (T2–T3), successful downstaging to within Milan confirmed by cross-sectional imaging at ≥3 months, followed by ≥3 months observation. Patients successfully downstaged have equivalent post-OLT outcomes to those presenting within Milan. AFP is the primary serum biomarker for HCC. AFP >1000 ng/mL at listing independently predicts worse post-OLT outcomes and may be a contraindication in some allocation algorithms (France: AFP score). The RETREAT score (recurrence of HCC after transplant) incorporates AFP at transplant, microvascular invasion on explant pathology, and sum of viable tumour diameters on pre-transplant imaging. Bridging therapy (LRT applied while awaiting transplant to prevent tumour progression beyond criteria) is universally recommended for patients with MELD <22 and expected wait time >6 months."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "Mazzaferro 1996 — Milan Criteria",
+          "citation": "Mazzaferro V et al. Liver transplantation for the treatment of small hepatocellular carcinomas in patients with cirrhosis. N Engl J Med. 1996;334(11):693–699.",
+          "population": "48 patients with cirrhosis and HCC undergoing OLT",
+          "intervention": "Selection by size/number criteria (retrospective derivation): single ≤5cm or ≤3 nodules ≤3cm, no vascular invasion, no extrahepatic disease",
+          "result": "4-year actuarial survival 75%; recurrence-free survival 83% in patients meeting criteria vs 50%/59% in those exceeding criteria",
+          "practice_change": "Established Milan criteria as the universal benchmark for OLT in HCC; became the foundation of national allocation policies worldwide for >25 years"
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "EASL 2022 — HCC Transplant Selection",
+          "content": "EASL 2022 recommends: (1) Milan criteria as minimum standard; (2) Extended criteria acceptable if validated by centre-specific data showing ≤15% 5-year recurrence; (3) AFP >1000 ng/mL should be factored in even within Milan (risk-stratify); (4) Downstaging to within Milan is acceptable with ≥3-month tumour stability post-LRT confirmed by mRECIST."
+        }
+      ]
+    },
+    {
+      "id": "E1-S7",
+      "title": "Outcomes & Recurrence",
+      "content": [
+        {
+          "type": "text",
+          "content": "Registry data from SRTR (Scientific Registry of Transplant Recipients, USA) and ELITA (European Liver & Intestine Transplant Association) consistently demonstrate 1-year patient survival of 85–90%, 5-year survival of 70–75%, and 10-year survival of 55–65%. Median graft survival exceeds 12 years for DBD donors. Leading causes of late mortality (>1 year) include cardiovascular disease (metabolic syndrome amplified by CNI therapy), de novo malignancy (CNI-induced immunosuppression increases cancer risk 3–5× for solid organ cancers; PTLD with EBV-driven lymphoproliferation), chronic rejection (ductopenic), and CNI nephrotoxicity progressing to end-stage renal disease (ESRD) in 10–15% at 10 years. HCC recurrence post-OLT occurs in 15–20% of transplanted HCC patients. Risk factors for recurrence include: AFP >400 ng/mL at transplant (strong independent predictor), microvascular invasion (MVI) on explant pathology (doubles recurrence risk), tumour viability >50% on pre-transplant imaging after LRT, poor tumour differentiation (Grade 3/4), and biology beyond morphological criteria. Treatment of HCC recurrence: sorafenib (SHARP trial kinase inhibitor), lenvatinib, or atezolizumab + bevacizumab for systemic disease; resection for isolated resectable lung/adrenal metastases. mTOR inhibitors (sirolimus, everolimus) reduce HCC recurrence in selected patients (SiLVER trial pre-specified subgroup). Immunosuppression minimisation reduces all-cause cancer risk."
+        },
+        {
+          "type": "table",
+          "title": "RETREAT Score — HCC Recurrence Prediction",
+          "headers": ["Variable", "Points"],
+          "rows": [
+            ["AFP at transplant (ng/mL): ≤20 / 21–100 / 101–1000 / >1000", "0 / 1 / 2 / 3"],
+            ["Microvascular invasion: absent / present", "0 / 3"],
+            ["Sum of diameters viable tumour (pre-transplant imaging, cm): 0 / >0–<2 / ≥2–<5 / ≥5", "0 / 1 / 2 / 3"],
+            ["Total score 0–2: 3-year recurrence ~3%", "Low risk"],
+            ["Total score 3–5: 3-year recurrence ~30%", "Intermediate risk"],
+            ["Total score ≥6: 3-year recurrence ~75%", "High risk"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "mTOR for HCC Recurrence Reduction",
+          "content": "Sirolimus should be considered as the CNI-sparing agent in HCC recipients, particularly those with intermediate RETREAT score. Switch from tacrolimus to sirolimus should be delayed until ≥30 days post-transplant to avoid hepatic artery anastomotic healing complications (sirolimus impairs wound healing via mTOR inhibition of fibroblast proliferation)."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "E1-Q1",
+      "stem": "A 52-year-old man with alcoholic cirrhosis has bilirubin 3.8 mg/dL, INR 2.1, and creatinine 1.9 mg/dL. His serum sodium is 128 mEq/L. Which score best determines his transplant listing priority?",
+      "options": {
+        "A": "Child-Pugh score",
+        "B": "MELD score",
+        "C": "MELD-Na score",
+        "D": "UKELD score"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "MELD-Na incorporates serum sodium into the MELD calculation and more accurately predicts 90-day waitlist mortality in patients with hyponatraemia. Since 2016, UNOS uses MELD-Na for organ allocation. This patient's hyponatraemia (Na 128) would significantly increase his score and priority above MELD alone.",
+        "wrong": {
+          "A": "Child-Pugh predates MELD and is not used for UNOS/EUROTRANSPLANT organ allocation priority. It remains useful for perioperative risk stratification.",
+          "B": "MELD alone (bilirubin, creatinine, INR) is superseded by MELD-Na in the allocation system. MELD-Na is the current standard that accounts for the high waitlist mortality associated with hyponatraemia.",
+          "D": "UKELD (UK Model for End-Stage Liver Disease) is used by NHS Blood and Transplant for listing (threshold UKELD ≥49). It is not the standard in the US or most of Europe."
+        },
+        "guideline": "EASL 2022 Clinical Practice Guidelines on liver transplantation; UNOS Policy Section 9 (MELD-Na allocation since 2016).",
+        "trial": "Kim WR et al. Hyponatremia and mortality among patients on the liver-transplant waiting list. NEJM 2008;359:1018–1026 — established MELD-Na superiority.",
+        "pearl": "MELD-Na = MELD + 1.32 × (137 − Na) − [0.24 × (137 − Na) × MELD]. Maximum Na used in formula is 137; minimum is 125."
+      }
+    },
+    {
+      "id": "E1-Q2",
+      "stem": "A 35-year-old woman presents with fulminant hepatic failure from paracetamol overdose. pH is 7.25 despite adequate resuscitation. Which additional criteria would satisfy King's College Criteria for transplant listing?",
+      "options": {
+        "A": "Bilirubin >300 μmol/L",
+        "B": "Prothrombin time >100 seconds + creatinine >300 μmol/L + grade III encephalopathy",
+        "C": "MELD score >30",
+        "D": "Factor V level <20% in patient >30 years"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "King's College Criteria for paracetamol-induced ALF: pH <7.30 (arterial, after resuscitation) OR all three of: prothrombin time >100 seconds AND creatinine >300 μmol/L (3.4 mg/dL) AND grade III/IV encephalopathy. This patient already meets the pH criterion. If pH improves, the three-criterion cluster would be needed.",
+        "wrong": {
+          "A": "Bilirubin is not part of the King's College Criteria for paracetamol ALF, though it is incorporated in non-paracetamol criteria (bilirubin >300 μmol/L for non-paracetamol if other criteria met).",
+          "C": "MELD score is not used for acute liver failure listing — King's College Criteria or UKELD-equivalent ALF criteria are used. MELD was derived for chronic liver disease.",
+          "D": "Factor V <20% in patients >30 years (Clichy criteria) is an alternative European criterion, not King's College. The Clichy criteria are used mainly in France."
+        },
+        "guideline": "O'Grady JG et al. King's College Hospital criteria for liver transplantation. Gastroenterology 1989. EASL Clinical Practice Guidelines: Acute-on-Chronic Liver Failure 2023.",
+        "trial": "King's College Criteria validated in multiple cohorts with specificity >90% for mortality without transplant in paracetamol ALF.",
+        "pearl": "The pH criterion (<7.30) for paracetamol ALF is the most powerful single predictor — specificity ~95%. It must be measured after adequate fluid resuscitation to exclude lactic acidosis from hypovolaemia."
+      }
+    },
+    {
+      "id": "E1-Q3",
+      "stem": "A 58-year-old man with HCV cirrhosis and a 4.8 cm single HCC nodule without vascular invasion or extrahepatic disease is listed for OLT. His AFP is 850 ng/mL. According to Milan criteria, what is his transplant eligibility status?",
+      "options": {
+        "A": "Within Milan — eligible",
+        "B": "Beyond Milan — requires downstaging",
+        "C": "Within Milan but AFP disqualifies him",
+        "D": "Within UCSF criteria only — requires centre-specific protocol"
+      },
+      "correct": "A",
+      "explanation": {
+        "correct": "Milan criteria: single nodule ≤5 cm (this patient 4.8 cm — within criteria), no macrovascular invasion, no extrahepatic spread. AFP alone does not disqualify under traditional Milan criteria, although it is an independent risk factor for recurrence and may affect priority in some national algorithms (France AFP score). He is within Milan and eligible for standard OLT listing.",
+        "wrong": {
+          "B": "The single 4.8 cm nodule is within the Milan ≤5 cm single nodule threshold. Downstaging is required only for tumours exceeding Milan criteria.",
+          "C": "AFP does not form part of the original Milan criteria. It is used in risk stratification (RETREAT score, France AFP score) and some centres use AFP >1000 as a relative contraindication, but AFP 850 ng/mL alone does not disqualify from Milan-based listing.",
+          "D": "UCSF criteria (single ≤6.5 cm or ≤3 lesions largest ≤4.5 cm, total ≤8 cm) are broader than Milan. A 4.8 cm single nodule is within Milan itself — the narrower standard criterion."
+        },
+        "guideline": "Mazzaferro V et al. NEJM 1996. AASLD/EASL HCC Guidelines 2022: Milan criteria remain the minimum threshold; extended criteria require outcome data validation.",
+        "trial": "Mazzaferro NEJM 1996: 4-year survival 75%, recurrence-free 83% in Milan-criteria patients.",
+        "pearl": "AFP at transplant >400 ng/mL doubles recurrence risk even within Milan. RETREAT score incorporates AFP + MVI + viable tumour diameter to stratify post-OLT recurrence risk."
+      }
+    },
+    {
+      "id": "E1-Q4",
+      "stem": "On postoperative day 3 after OLT, a recipient has AST 4200 U/L, bilirubin 12 mg/dL, INR 3.2, and is encephalopathic. Doppler ultrasound shows absent hepatic artery flow. What is the most appropriate next step?",
+      "options": {
+        "A": "IV heparin infusion and repeat Doppler in 6 hours",
+        "B": "CT angiography to confirm, then urgent surgical exploration or re-transplantation",
+        "C": "ERCP to evaluate biliary cause of dysfunction",
+        "D": "Increase tacrolimus dose to treat suspected acute rejection"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Absent hepatic artery flow on Doppler with clinical deterioration (transaminase spike, coagulopathy, encephalopathy) on day 3 post-OLT is diagnostic of early HAT until proven otherwise. CT angiography confirms and delineates anatomy. Management: urgent surgical exploration (thrombectomy + reconstruction) if caught early (<24h) or re-transplantation if hepatic necrosis established. Early HAT requires emergency response — hours matter.",
+        "wrong": {
+          "A": "Anticoagulation alone is insufficient for HAT causing acute graft failure. Heparin may be started as bridge but surgical/radiological intervention is required urgently. Waiting 6 hours risks irreversible hepatic necrosis.",
+          "C": "ERCP evaluates biliary pathology but cannot diagnose or treat vascular thrombosis. This clinical picture (absent arterial Doppler + acute hepatocellular failure) is vascular emergency, not biliary.",
+          "D": "The clinical picture is not rejection — transaminases in rejection typically rise gradually with less severe coagulopathy. Increasing tacrolimus would be inappropriate and dangerous when the problem is HAT."
+        },
+        "guideline": "EASL 2022 OLT guidelines. HAT classification: early (<14 days) vs late (>14 days) — different management.",
+        "trial": "Stange BJ et al. Hepatic artery thrombosis after adult liver transplantation. Liver Transpl 2003 — overall HAT incidence 3.8%; graft loss without retransplantation near 100% in early HAT without intervention.",
+        "pearl": "In the transplanted liver, the biliary tree is supplied solely by the hepatic artery (no peribiliary portal supply after OLT). HAT → biliary ischaemia → NAS — even late HAT causes progressive biliary stricturing requiring re-transplantation."
+      }
+    },
+    {
+      "id": "E1-Q5",
+      "stem": "A DCD Maastricht category III liver is procured with a functional warm ischaemia time of 18 minutes. Which preservation strategy best reduces the risk of ischaemic cholangiopathy?",
+      "options": {
+        "A": "Standard static cold storage in UW solution",
+        "B": "Hypothermic oxygenated machine perfusion (HOPE)",
+        "C": "Normothermic machine perfusion (NMP) with immediate transplantation",
+        "D": "Warm ischaemia time has no impact — cold ischaemia alone determines outcomes"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "HOPE (hypothermic oxygenated perfusion) after cold storage of DCD livers has been shown in the COPE trial (NEJM 2021) to significantly reduce early allograft dysfunction and ischaemic cholangiopathy compared to static cold storage. HOPE flushes toxic metabolites, recharges ATP, and reduces oxidative injury during reperfusion.",
+        "wrong": {
+          "A": "Static cold storage in UW or HTK solution is standard for DBD livers but associated with higher EAD and NAS rates in DCD livers due to inadequate ATP repletion after warm ischaemic injury.",
+          "C": "NMP allows dynamic viability assessment and is particularly useful for marginal/DCD livers when uncertainty about viability exists. However, HOPE has stronger RCT evidence specifically for DCD cholangiopathy reduction (COPE trial). NMP also requires prolonged perfusion time.",
+          "D": "Warm ischaemia time is the primary determinant of biliary injury in DCD livers. The peribiliary vascular plexus is exquisitely sensitive to warm ischaemia, unlike hepatocytes. fWIT >30 min substantially increases NAS risk."
+        },
+        "guideline": "EASL 2022: Machine perfusion (HOPE or NMP) recommended for DCD livers. COPE trial (van Rijn R, NEJM 2021) established HOPE benefit.",
+        "trial": "COPE trial (NEJM 2021): 156 DCD livers randomised — HOPE vs static cold storage. HOPE reduced EAD (26% vs 40%), biliary non-anastomotic strictures (6% vs 18%), and graft loss at 1 year.",
+        "pearl": "DCD cholangiopathy (ischaemic type NAS) is the Achilles heel of DCD liver transplantation — it affects 15–30% with standard cold storage but <10% with machine perfusion."
+      }
+    },
+    {
+      "id": "E1-Q6",
+      "stem": "A 60-year-old woman with PSC undergoes OLT. Six weeks later she is jaundiced with bilirubin 8.2 mg/dL and elevated alkaline phosphatase. Doppler shows patent hepatic artery and portal vein. What is the most likely diagnosis and first-line management?",
+      "options": {
+        "A": "Acute cellular rejection — methylprednisolone pulse",
+        "B": "Anastomotic biliary stricture — ERCP with balloon dilation and stenting",
+        "C": "Primary non-function — urgent re-transplantation",
+        "D": "Tacrolimus toxicity — dose reduction"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Cholestatic liver function tests (disproportionately elevated ALP/bilirubin vs transaminases), patent vasculature on Doppler, and the 6-week post-OLT timeframe are classic for anastomotic biliary stricture — the most common biliary complication of OLT (~10%). First-line is ERCP with balloon dilation ± stenting (multiple sequential dilations). Success rate 70–80%; surgical revision (hepaticojejunostomy) if ERCP fails.",
+        "wrong": {
+          "A": "ACR presents with mixed enzyme elevation (transaminases + cholestasis) and is diagnosed by biopsy (portal triaditis, endotheliitis, bile duct damage). Cholestatic pattern without significant transaminase rise is more typical of biliary obstruction. Biopsy should confirm before steroid pulse.",
+          "C": "PNF occurs within 72 hours of transplantation with absent graft function. Six weeks post-OLT with a cholestatic pattern and patent vasculature is not PNF.",
+          "D": "Tacrolimus causes cholestatic liver injury rarely; nephrotoxicity and neurotoxicity are more typical side effects. A cholestatic pattern at 6 weeks demands biliary imaging before attributing to CNI toxicity."
+        },
+        "guideline": "EASL 2022 OLT guidelines. Anastomotic stricture most common biliary complication; ERCP is first-line. Note: PSC patients often receive Roux-en-Y biliary reconstruction — ERCP not feasible; PTC is preferred access.",
+        "trial": "Buis CI et al. Biliary complications after OLT: a systematic review. Liver Transpl 2009 — anastomotic strictures account for 40–55% of all biliary complications.",
+        "pearl": "PSC patients who received Roux-en-Y hepaticojejunostomy (as is common for PSC to avoid using the diseased recipient duct) cannot be stented by standard ERCP — percutaneous transhepatic cholangiography (PTC) or balloon-enteroscopy-assisted ERCP (DAE-ERCP) is required."
+      }
+    },
+    {
+      "id": "E1-Q7",
+      "stem": "A DCD Maastricht category IV donor (cardiac arrest in brain-dead donor) is being evaluated. How does this category differ from Maastricht III in terms of transplant decision-making?",
+      "options": {
+        "A": "Category IV is uncontrolled and carries substantially higher warm ischaemia time than category III",
+        "B": "Category IV is controlled (arrest occurred in an already brain-dead donor) and carries similar feasibility to DBD with brief arrest",
+        "C": "Category IV is absolute contraindication to liver procurement",
+        "D": "Category IV requires normothermic regional perfusion regardless of arrest duration"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Maastricht IV refers to cardiac arrest occurring in a donor who has already been declared brain dead (i.e., the donor was being managed as DBD and arrested before procurement). If the arrest is witnessed, brief, and resuscitated promptly, warm ischaemia is minimal and outcomes approach those of standard DBD. This is a 'controlled' scenario in a hospital setting.",
+        "wrong": {
+          "A": "Maastricht IV is not uncontrolled — the donor was already brain dead and under ICU monitoring. Uncontrolled categories are I (dead on arrival) and II (unsuccessful resuscitation). Category III is also controlled (withdrawal of life-sustaining therapy).",
+          "C": "Category IV is not an absolute contraindication. With brief, witnessed arrest and prompt resuscitation, procurement proceeds similarly to DBD. Outcomes depend on total warm ischaemia time.",
+          "D": "NRP is particularly valuable for categories I and II (uncontrolled) where warm ischaemia is prolonged. Category IV with brief arrest does not mandate NRP, though it may be used at operator discretion."
+        },
+        "guideline": "Thuong M et al. Maastricht updated classification. Transpl Int 2016;29:1276–1283. ESOT/ELPAT DCD guidelines 2019.",
+        "trial": "British Transplantation Society DCD guidelines recommend assessing category IV case-by-case based on witnessed vs unwitnessed arrest duration.",
+        "pearl": "Quick mnemonics: Maastricht I/II = uncontrolled (unexpected arrest); III = controlled (planned WLST); IV = brain-dead donor who arrests before procurement; V = unexpected ICU arrest."
+      }
+    },
+    {
+      "id": "E1-Q8",
+      "stem": "A 12-year-old child with biliary atresia is awaiting liver transplantation. She underwent Kasai portoenterostomy at age 6 weeks with partial success but has progressed to cirrhosis with MELD-PELD score of 18. What is the current transplantation strategy?",
+      "options": {
+        "A": "Repeat Kasai portoenterostomy to delay transplantation",
+        "B": "Listed for deceased donor left lateral segment or living donor left lateral segment transplant",
+        "C": "Medical management with ursodeoxycholic acid until native liver failure is complete",
+        "D": "Whole deceased donor liver transplantation only — split liver is contraindicated in prior Kasai"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Biliary atresia is the most common indication for paediatric OLT. A 12-year-old with cirrhosis and PELD 18 requires transplantation. The left lateral segment (segments II/III, 100–250g) is appropriately sized for a child. Living donor left lateral segment (LDLT-LL) from a parent or split cadaveric liver are the standard approaches, with excellent outcomes (5-year OS >85%).",
+        "wrong": {
+          "A": "Repeat Kasai has very poor outcomes after failed primary Kasai and is not indicated once cirrhosis is established. The window for successful Kasai is age <60–90 days.",
+          "C": "UDCA has no proven benefit in biliary atresia cirrhosis. With PELD 18 and established cirrhosis, transplantation — not medical management — is the appropriate treatment.",
+          "D": "Prior Kasai portoenterostomy complicates the hepatectomy (adhesions, abnormal hilar anatomy) but is not a contraindication to split liver transplantation. Left lateral segment split is routinely used in paediatric recipients with prior Kasai."
+        },
+        "guideline": "AISF/AASLD Paediatric Liver Disease Guidelines. Kasai should be performed <60–90 days; if cirrhosis develops, OLT indicated. Split liver and LDLT-LL are both appropriate for paediatric recipients.",
+        "trial": "Kasai M 1959 original description. Serinet MO et al. Age effect of Kasai outcome. Gastroenterology 2009: portoenterostomy after 90 days has significantly worse outcomes.",
+        "pearl": "Biliary atresia is the leading indication for paediatric OLT globally (~50% of paediatric transplants). PELD (Paediatric End-Stage Liver Disease) is used instead of MELD for patients <12 years, incorporating albumin, bilirubin, INR, growth failure, and age <1 year."
+      }
+    },
+    {
+      "id": "E1-Q9",
+      "stem": "A patient on tacrolimus post-OLT develops creatinine rising from 1.2 to 2.8 mg/dL over 3 months. Tacrolimus trough is 9 ng/mL. Renal biopsy shows tubular vacuolisation without rejection features. What is the most appropriate management?",
+      "options": {
+        "A": "Switch to cyclosporine — less nephrotoxic than tacrolimus",
+        "B": "Reduce tacrolimus dose and add MMF; consider conversion to everolimus if persistent",
+        "C": "Increase tacrolimus to 12 ng/mL to prevent rejection precipitating AKI",
+        "D": "Add sirolimus — it reverses CNI nephrotoxicity"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "The clinical picture is CNI (tacrolimus) nephrotoxicity — rising creatinine with trough in therapeutic range, biopsy showing tubular vacuolisation without rejection. The first step is CNI dose minimisation with MMF intensification (CNI-sparing strategy). If toxicity persists, conversion to everolimus (mTOR inhibitor) is a validated CNI-free approach that preserves immunosuppression while allowing renal recovery.",
+        "wrong": {
+          "A": "Cyclosporine is MORE nephrotoxic than tacrolimus at equivalent immunosuppressive doses. Switching from tacrolimus to cyclosporine would worsen or maintain renal dysfunction.",
+          "C": "Increasing tacrolimus would worsen nephrotoxicity. CNI nephrotoxicity is dose-dependent — the correct response is dose reduction, not increase.",
+          "D": "Sirolimus/everolimus do NOT reverse established CNI nephrotoxicity. Early conversion (before fibrosis) may allow some recovery, but sirolimus itself can worsen proteinuria and renal function in advanced CKD. Sirolimus is not added to tacrolimus — it replaces it as a CNI-sparing strategy."
+        },
+        "guideline": "EASL 2022: CNI nephrotoxicity is a major cause of long-term morbidity; dose minimisation and CNI-free protocols (everolimus-based) are recommended for patients with declining GFR.",
+        "trial": "Masetti M et al. Everolimus vs tacrolimus in OLT — H2304 trial (Transplantation 2015): everolimus + reduced tacrolimus superior renal function preservation.",
+        "pearl": "CNI-free conversion to everolimus requires baseline GFR >30 mL/min/1.73m² and proteinuria <800 mg/day to minimise risk. Post-conversion proteinuria monitoring is mandatory."
+      }
+    },
+    {
+      "id": "E1-Q10",
+      "stem": "Liver biopsy in a patient 4 weeks post-OLT shows portal tract infiltration with lymphocytes and eosinophils, bile duct infiltration and damage, and subendothelial lymphocytic infiltration of portal and central veins. The Rejection Activity Index (RAI) is 6. What is the diagnosis and first-line treatment?",
+      "options": {
+        "A": "Chronic ductopenic rejection — increase tacrolimus long-term",
+        "B": "Moderate acute cellular rejection — methylprednisolone 500mg IV × 3 days",
+        "C": "Antibody-mediated rejection — plasmapheresis + IVIG + rituximab",
+        "D": "Recurrent HCV — start direct-acting antivirals"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "The biopsy findings describe the classic triad of acute cellular rejection (ACR): (1) portal triaditis — mixed inflammatory infiltrate with lymphocytes and eosinophils, (2) bile duct damage/infiltration, and (3) endotheliitis (subendothelial lymphocytic infiltration — 'lifting' of endothelium). RAI ≥5 = moderate rejection. First-line: methylprednisolone 500 mg IV daily × 3 days. >80% respond.",
+        "wrong": {
+          "A": "Chronic ductopenic rejection shows bile duct loss in >50% of portal tracts with minimal inflammation and arteriolar foam-cell changes — a late finding after months/years. The current picture at 4 weeks with active infiltration and endotheliitis is ACR.",
+          "C": "AMR shows C4d deposition on portal endothelium and microvascular injury on biopsy; the RAI histological picture (portal triaditis + endotheliitis + bile duct damage) is characteristic of cellular rejection, not antibody-mediated. DSA testing would be required to evaluate AMR.",
+          "D": "Recurrent HCV causes portal inflammation but typically without prominent endotheliitis or eosinophils, and at 4 weeks post-OLT is too early for significant histological recurrence. HCV is also now typically eradicated before OLT with DAAs."
+        },
+        "guideline": "Banff 2016 Schema for liver allograft rejection. EASL 2022 OLT guidelines: methylprednisolone pulse for moderate ACR (RAI ≥5); ATG for steroid-resistant ACR.",
+        "trial": "Demetris AJ et al. Banff schema for grading liver allograft rejection. Hepatology 1997 — RAI scoring: mild 1–2 (portal only), moderate 3–5 (bile duct + endotheliitis), severe ≥6 (pan-lobular involvement).",
+        "pearl": "Eosinophils in the portal infiltrate are a hallmark of ACR — their presence distinguishes ACR from recurrent viral hepatitis. RAI 3–4 = mild; 5–6 = moderate; 7–9 = severe. Treat moderate-severe; mild can be managed with CNI optimisation."
+      }
+    },
+    {
+      "id": "E1-Q11",
+      "stem": "A 45-year-old CMV-seronegative recipient receives a liver from a CMV-seropositive donor (D+/R-). What is the recommended CMV prophylaxis strategy?",
+      "options": {
+        "A": "No prophylaxis needed — CMV is not a significant pathogen post-OLT",
+        "B": "Preemptive strategy — weekly CMV PCR monitoring with treatment if >1000 IU/mL",
+        "C": "Universal prophylaxis with valganciclovir for 6 months (high-risk D+/R-)",
+        "D": "Ganciclovir IV for 2 weeks then switch to aciclovir"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "D+/R- CMV status is the highest-risk combination for CMV disease post-OLT (recipient has no prior immunity, donor organs carry latent virus). ECIL and ASHP guidelines recommend universal prophylaxis with valganciclovir (900 mg daily, renally adjusted) for 6 months in D+/R- solid organ transplant recipients. This significantly reduces CMV disease, indirect effects (graft loss, opportunistic infections), and mortality.",
+        "wrong": {
+          "A": "CMV is a significant pathogen post-OLT causing CMV syndrome, hepatitis, colitis, retinitis, and pneumonitis. It also has indirect immunomodulatory effects increasing susceptibility to other opportunistic infections and rejection.",
+          "B": "Preemptive strategy (monitor and treat when viral load reaches threshold) is appropriate for intermediate-risk combinations (D+/R+ or D-/R+) but not for high-risk D+/R-. In D+/R-, the rapid primary infection kinetics make preemptive monitoring less effective than prophylaxis.",
+          "D": "IV ganciclovir 2 weeks is insufficient. Valganciclovir (the oral prodrug of ganciclovir with excellent bioavailability) is the standard for prophylaxis. Aciclovir has inadequate CMV coverage."
+        },
+        "guideline": "ECIL-7 Transplant Guidelines 2019; AST IDSA Guidelines 2019: 6 months valganciclovir for D+/R- SOT recipients; 3 months for D+/R+ or D-/R+.",
+        "trial": "Lischka P et al. CMV prophylaxis guidelines. Transplantation 2019. Prophylaxis vs preemptive in D+/R-: prophylaxis superior for disease prevention.",
+        "pearl": "Monitor CMV PCR during and after prophylaxis. Late-onset CMV disease (occurring after prophylaxis cessation) is a recognised complication of 6-month prophylaxis — occurring in 10–20% of D+/R- patients. IRIS (immune reconstitution inflammatory syndrome) may contribute."
+      }
+    },
+    {
+      "id": "E1-Q12",
+      "stem": "A living donor right lobe hepatectomy is being performed for LDLT. What is the quoted donor mortality risk, and what is the key intraoperative factor most associated with donor morbidity?",
+      "options": {
+        "A": "Donor mortality 2–3%; bile duct injury most common cause of morbidity",
+        "B": "Donor mortality 0.2–0.5%; bile leak from cut surface/right hepatic duct the most common complication",
+        "C": "Donor mortality <0.05%; intraoperative blood loss is the primary risk factor",
+        "D": "Donor mortality 0.2–0.5%; the major risk is future liver failure from insufficient remnant volume"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Right lobe LDLT donor mortality is accepted at 0.2–0.5% (the 'A2ALL' study and international LDLT registry data converge on this figure). This is substantially higher than left lateral segment donation (<0.1%). The most common complication is biliary — bile leak from the cut surface or right hepatic duct injury, occurring in 5–10% of donors. Biliary complications are the leading cause of donor re-intervention.",
+        "wrong": {
+          "A": "2–3% mortality is excessive and not supported by contemporary data for LDLT in high-volume centres. Mortality 0.2–0.5% is the accepted right lobe figure. Bile duct injury is indeed common but the mortality figure is wrong.",
+          "C": "<0.05% applies to left lateral segment donation only. Right lobe carries higher risk due to larger resection. Blood loss is managed intraoperatively but bile leak is a more frequent source of complication.",
+          "D": "Remnant liver insufficiency is a potential risk if the future liver remnant (FLR) is insufficient — LDLT programs require FLR ≥30% (typically using volumetric CT). However, bile leak remains the more common complication overall."
+        },
+        "guideline": "A2ALL Consortium Liver Transplantation 2012. ILTS Right Lobe LDLT Guidelines 2018: minimum FLR 30%, right lobe weight-to-recipient body weight ratio 0.8–1.0% ideal.",
+        "trial": "Abecassis MM et al. Complications of living donor hepatic lobectomy — A comprehensive report. A2ALL Consortium. Am J Transplant 2012 — biliary complications 9% in right lobe donors.",
+        "pearl": "The ethical tension in LDLT: performing a major hepatectomy on a healthy person carries real mortality risk. Informed consent must include the 0.2–0.5% right lobe mortality. The donor with FLR <30% or with variant arterial/biliary anatomy should NOT be selected."
+      }
+    },
+    {
+      "id": "E1-Q13",
+      "stem": "A patient with alcoholic liver disease (ALD) and MELD 22 is being evaluated for OLT. He stopped drinking 3 months ago. His psychiatry assessment shows high motivation and family support. Which statement best reflects current guidelines on the abstinence requirement?",
+      "options": {
+        "A": "6 months of abstinence is mandatory before listing — this is an absolute requirement in all guidelines",
+        "B": "The '6-month rule' is not evidence-based for predicting relapse; Stanford/SALT criteria with psychosocial assessment are preferred",
+        "C": "ALD patients should never be transplanted — recidivism risk makes it unethical",
+        "D": "3 months abstinence with MELD >20 is the current EASL recommendation"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "The '6-month abstinence rule' has been widely used but is not evidence-based as a predictor of post-transplant relapse. Multiple studies show no significant difference in relapse rates between patients with <6 vs >6 months abstinence. Contemporary guidelines (AASLD 2021, EASL 2022) recommend individualised psychosocial assessment using validated tools (Stanford Integrated Psychosocial Assessment for Transplant — SIPAT; or SALT score) rather than rigid 6-month cut-offs. Acute-on-chronic liver failure (ACLF) from ALD with high MELD may justify early listing without 6 months.",
+        "wrong": {
+          "A": "The 6-month rule is NOT mandatory in all guidelines and is NOT evidence-based for relapse prediction. It was historically used as a proxy for patient 'rehabilitation' and liver recovery, not as a validated relapse predictor.",
+          "C": "ALD is the second most common indication for OLT in Europe and North America with outcomes equivalent to other aetiologies. Post-transplant alcohol relapse occurs in 20–30% but serious relapse with graft injury is less common. ALD is an established indication for OLT.",
+          "D": "EASL does not specify '3 months abstinence with MELD >20' as a specific recommendation. EASL 2022 recommends psychosocial assessment rather than a fixed abstinence duration."
+        },
+        "guideline": "AASLD Liver Transplant Selection Guidelines 2021; EASL 2022: individualised assessment preferred over 6-month rule for ALD OLT candidacy.",
+        "trial": "Im GY et al. ACLF from ALD — early transplantation without 6-month abstinence: Am J Gastroenterol 2019 — comparable outcomes to non-ALD OLT patients.",
+        "pearl": "European Liver Transplant Registry data show ALD 5-year OS >70% post-OLT, similar to viral hepatitis and NASH — equivalent outcomes justify OLT in ALD regardless of abstinence duration when psychosocial evaluation is favourable."
+      }
+    },
+    {
+      "id": "E1-Q14",
+      "stem": "What are the advantages of the piggyback (caval preservation) technique over classical caval replacement in liver transplantation?",
+      "options": {
+        "A": "Simpler hepatectomy; lower risk of HAT; no requirement for portal vein anastomosis",
+        "B": "Preserved IVC flow; avoidance of venovenous bypass in most cases; better haemodynamic stability during anhepatic phase",
+        "C": "Complete elimination of reperfusion syndrome; shorter warm ischaemia time; lower rejection rates",
+        "D": "Preferred for Budd-Chiari syndrome; allows simple cavocavostomy; does not require IVC reconstruction"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Piggyback technique preserves the native IVC — hepatic veins are divided flush with the liver, and a cavocavostomy (side-to-side or end-to-side) replaces the standard two-level caval anastomosis. Key advantages: (1) IVC flow partially maintained throughout anhepatic phase via side-clamping, reducing preload reduction; (2) VVB not required in majority of cases, avoiding its complications (air embolism, brachial plexus injury, thrombosis); (3) Better haemodynamic tolerance, especially in patients with cardiopulmonary compromise.",
+        "wrong": {
+          "A": "The hepatectomy in piggyback is actually MORE complex — careful dissection of hepatic veins off the IVC is required. The portal vein anastomosis is required in both techniques. HAT risk is not technique-dependent.",
+          "C": "Reperfusion syndrome is not eliminated by either technique — it relates to ischaemic reperfusion injury of the graft, not caval technique. Warm ischaemia time and rejection rates are also independent of caval technique.",
+          "D": "Piggyback is relatively contraindicated in Budd-Chiari syndrome because the native IVC/hepatic veins are thrombosed and cannot be preserved — classical replacement is typically required. The technique is correct to describe as cavocavostomy but the Budd-Chiari statement is wrong."
+        },
+        "guideline": "Belghiti J et al. Liver transplantation without venovenous bypass and without inferior vena cava clamping. Arch Surg 1992 — original piggyback description.",
+        "trial": "Mehrabi A et al. Meta-analysis piggyback vs conventional. Clin Transplant 2006 — piggyback associated with reduced intraoperative blood loss and shorter hospital stay; no significant difference in patient/graft survival.",
+        "pearl": "Piggyback is preferred in LDLT (left lobe grafts have smaller HV ostia, side-to-side cavoplasty is favoured) and in patients with severe cardiac disease where VVB-associated haemodynamic shifts are dangerous."
+      }
+    },
+    {
+      "id": "E1-Q15",
+      "stem": "A 49-year-old woman with PBC and MELD 17 has been on the waitlist for 8 months. AFP is 3 ng/mL. Imaging shows no HCC. She is offered a split liver transplant — left lateral segment to a paediatric recipient, extended right lobe (segments IV–VIII) to her. What is the key limitation of accepting this offer?",
+      "options": {
+        "A": "Split livers are only suitable for DBD donors <30 years",
+        "B": "Extended right lobe graft may have insufficient volume for her; small-for-size syndrome risk if graft-to-body weight ratio <0.8%",
+        "C": "Split liver transplant is contraindicated in PBC — bile duct anatomy is too complex",
+        "D": "The left lateral segment must go to the adult patient — paediatric recipients cannot receive split liver"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Small-for-size syndrome (SFSS) occurs when the transplanted liver mass is insufficient for the recipient's metabolic demands. The graft-to-recipient body weight ratio (GRWR) should be ≥0.8% (ideally ≥1.0%) to avoid SFSS. The extended right lobe from a split may have reduced volume (especially if the caudate and medial left lobe segments go with the LL split), and if GRWR <0.8% for this adult recipient, SFSS risk is prohibitive.",
+        "wrong": {
+          "A": "Donor age <50 years is preferred for split liver but is not an absolute criterion. Most centres prefer young donors with good graft quality, but the threshold is not strictly 30 years.",
+          "C": "PBC does not preclude split liver transplantation. Biliary reconstruction (duct-to-duct or Roux-en-Y) is performed according to anatomy at back-table, regardless of the recipient's primary diagnosis.",
+          "D": "The standard split is: left lateral segment (II/III) for the paediatric recipient and extended right lobe (IV–VIII +/- caudate) for the adult. This is the correct anatomical split — the left lateral segment is NOT given to the adult recipient."
+        },
+        "guideline": "SPLIT Registry. EASL 2022: split liver acceptable for adult recipient if GRWR ≥0.8% and donor optimised (young, standard criteria, short ICU stay).",
+        "trial": "Broering DC et al. Split liver transplantation and risk of graft loss. Liver Transpl 2004 — SFSS in 5–10% of split liver recipients with inadequate graft volume.",
+        "pearl": "SFSS features: cholestasis + coagulopathy + ascites + portal hypertension (from portal hyperperfusion of small graft) with elevated bilirubin and modest transaminase elevation. Management: portal flow modulation (splenic artery ligation, splenectomy, or portal vein banding)."
+      }
+    },
+    {
+      "id": "E1-Q16",
+      "stem": "A post-OLT HCC patient (AFP 620 ng/mL at transplant, microvascular invasion found on explant, 2.1 cm viable tumour on pre-transplant MRI) has a RETREAT score of 6. What does this imply and what follow-up is recommended?",
+      "options": {
+        "A": "Low recurrence risk (~3% at 3 years) — standard 6-monthly surveillance",
+        "B": "High recurrence risk (~75% at 3 years) — intensive imaging every 3 months and oncology review",
+        "C": "Moderate recurrence risk (~30%) — annual AFP + 6-monthly imaging",
+        "D": "RETREAT score >4 mandates sorafenib initiation regardless of imaging"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "RETREAT score 6 = high recurrence risk (~75% at 3 years). RETREAT incorporates AFP at transplant (620 ng/mL = 2 points), MVI on explant (3 points), and sum of viable tumour diameter (2.1 cm = 1 point) → total 6. This identifies patients at very high risk who warrant intensive surveillance (CT/MRI every 3 months) and early oncology involvement for systemic therapy planning if recurrence detected.",
+        "wrong": {
+          "A": "RETREAT 0–2 = low risk (~3% at 3 years). This patient scores 6 — high risk. Standard surveillance is inadequate.",
+          "C": "RETREAT 3–5 = intermediate risk (~30%). Score of 6 falls in the high-risk category. Annual AFP and 6-monthly imaging are insufficient for RETREAT ≥6.",
+          "D": "Adjuvant sorafenib post-OLT is not standard and is not mandated by RETREAT score. The STORM trial (adjuvant sorafenib post-resection/ablation for HCC) was negative. Post-OLT adjuvant systemic therapy is investigational. mTOR inhibitors (sirolimus) may be considered but sorafenib is not routinely recommended pre-recurrence."
+        },
+        "guideline": "Mehta N et al. RETREAT score. Am J Transplant 2017 — validated in 721 OLT recipients with HCC. Score 0–2: 3-yr recurrence 3%; 3–5: 30%; ≥6: 75%.",
+        "trial": "STORM trial (Bruix J, Lancet Oncol 2015): adjuvant sorafenib post-resection/ablation for HCC — no significant improvement in recurrence-free survival.",
+        "pearl": "RETREAT is explant-based (MVI can only be assessed post-operatively) — it is a retrospective risk stratifier, not a pre-transplant decision tool. Use it to intensify post-OLT surveillance and initiate systemic therapy at first evidence of recurrence."
+      }
+    },
+    {
+      "id": "E1-Q17",
+      "stem": "A 63-year-old man with NASH cirrhosis (MELD 19, Child-Pugh B9) has a single 5.5 cm HCC on imaging. Two sessions of TACE reduced it to 3.2 cm with >80% necrosis on follow-up MRI at 3 months. He has been observed for 4 months since last imaging with no further growth. What is the most appropriate next step?",
+      "options": {
+        "A": "Repeat TACE — tumour still exceeds Milan criteria",
+        "B": "List for OLT under successful downstaging protocol — now within Milan after sustained response",
+        "C": "Hepatic resection — tumour is now resectable",
+        "D": "Palliative sorafenib — NASH patients have worse OLT outcomes than other aetiologies"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "The patient achieved successful downstaging from a 5.5 cm single HCC (beyond Milan) to 3.2 cm (within Milan single ≤5 cm) with >80% TACE response, confirmed on cross-sectional imaging at 3 months, with 4 additional months of stability. The UNOS downstaging protocol requires tumour within Milan criteria on imaging, confirmed response, and ≥3 months observation. He meets these criteria and should be listed. TACE downstaging to within Milan achieves equivalent post-OLT survival to presenting within Milan.",
+        "wrong": {
+          "A": "Additional TACE is not required — the target (within Milan on imaging) has been achieved. Continuing LRT beyond required endpoints risks hepatotoxicity and adds no benefit if Milan criteria are met.",
+          "C": "Hepatic resection requires adequate liver reserve. MELD 19 / Child-Pugh B9 indicates poor hepatic reserve — resection would carry prohibitive perioperative mortality. In cirrhotic patients, OLT addresses both tumour and underlying liver disease.",
+          "D": "NASH is a well-established OLT indication. Post-OLT survival in NASH is equivalent to other aetiologies. Sorafenib is for unresectable/metastatic HCC — this patient is a transplant candidate after successful downstaging."
+        },
+        "guideline": "UNOS Policy Section 9 (downstaging protocol): pre-treatment T3 tumour within specified bounds → downstaged to T2 (Milan) → 3-month confirmation → MELD exception points granted.",
+        "trial": "Mehta N et al. UNOS downstaging 2018 (NEJM): 118 patients downstaged to within Milan had 5-yr post-OLT OS 77% vs 73% in patients presenting within Milan — equivalent outcomes.",
+        "pearl": "MELD exception points are granted for HCC within Milan: 22 points (equivalent to ~15% waitlist mortality) at listing, increasing by 10% every 3 months. Downstaged patients receive the same exception priority as those presenting within Milan."
+      }
+    },
+    {
+      "id": "E1-Q18",
+      "stem": "During back-table preparation of a liver graft, the hepatic artery anatomy reveals a replaced right hepatic artery arising from the superior mesenteric artery. What is the correct surgical approach?",
+      "options": {
+        "A": "Ligate the replaced right hepatic artery — it is a variant of no clinical significance",
+        "B": "Use the replaced RHA as the primary anastomosis, discarding the proper hepatic artery",
+        "C": "Reconstruct a common hepatic artery conduit by anastomosing the replaced RHA to the left hepatic artery/proper hepatic artery on the back table, then anastomose the single reconstructed trunk to the recipient hepatic artery",
+        "D": "Replaced right hepatic artery from SMA is an absolute contraindication to liver transplantation with this graft"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "A replaced right hepatic artery (rRHA) from the SMA is present in ~15–20% of donors and must be preserved and reconstructed. Standard back-table approach: (1) preserve the SMA segment around the rRHA, (2) anastomose the rRHA to the splenic or gastroduodenal artery stump on the donor, or (3) join rRHA and proper HA into a common trunk using donor iliac artery Y-graft, creating a single anastomotic vessel to the recipient's hepatic artery. This ensures perfusion to both hepatic lobes.",
+        "wrong": {
+          "A": "Ligating the rRHA would result in ischaemia to the entire right hepatic lobe — segments V–VIII — with inevitable graft failure or HAT equivalent in the right lobe. This is never appropriate.",
+          "B": "Using rRHA only and discarding proper HA would ischaemise the left lobe (segments II–IV). Both vessels must be preserved and joined.",
+          "D": "Replaced RHA is a common anatomical variant and is NOT a contraindication to transplantation. It requires expert back-table reconstruction and adds technical complexity but is routinely managed."
+        },
+        "guideline": "ILTS Liver Transplant Technical Standards 2019. Arterial variants must be identified on CT angiography during donor evaluation and confirmed at procurement.",
+        "trial": "No specific RCT — institutional series demonstrate equivalent HAT rates with replaced RHA when properly reconstructed vs normal anatomy.",
+        "pearl": "Preoperative contrast CT angiography of the donor is standard — arterial anatomy is classified by Michels classification. Most important variants: replaced/accessory RHA from SMA (Michels Type III/VI) and replaced/accessory LHA from left gastric artery (Michels Type II/V). Both must be preserved and incorporated."
+      }
+    },
+    {
+      "id": "E1-Q19",
+      "stem": "A 41-year-old woman with Wilson's disease presents with ALF — serum ceruloplasmin 0.06 g/L (low), Kayser-Fleischer rings, haemolytic anaemia, and acute hepatic failure. MELD is 39. Which King's College Criterion modification applies, and what is the treatment priority?",
+      "options": {
+        "A": "Standard paracetamol KCC applies — pH criterion alone determines listing",
+        "B": "Non-paracetamol KCC applies (Wilson's disease as aetiology is listed as a poor-prognosis criterion) — urgent OLT listing indicated",
+        "C": "Copper chelation with D-penicillamine should be tried for 2 weeks before listing",
+        "D": "Wilson's ALF resolves spontaneously in 90% — aggressive medical management sufficient"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Wilson's disease presenting as ALF is a medical emergency. Non-paracetamol KCC apply: PT >100 seconds alone, OR ≥3 of: age <10 or >40, aetiology (Wilson's is explicitly listed as a poor prognosis aetiology alongside indeterminate and halothane), jaundice-to-encephalopathy interval >7 days, PT >50 seconds, bilirubin >300 μmol/L. Wilson's ALF has near 100% mortality without transplantation — D-penicillamine is too slow to act in ALF (weeks). Urgent listing is mandatory.",
+        "wrong": {
+          "A": "Paracetamol KCC (pH criterion) do not apply — there is no paracetamol ingestion. The non-paracetamol criteria apply, and Wilson's disease aetiology specifically is listed as a criterion.",
+          "C": "D-penicillamine and trientine require weeks to mobilise copper. In fulminant Wilson's ALF, there is no time for chelation therapy to work. Continuous renal replacement therapy (CRRT) for copper removal is used as a bridge to OLT, not chelation alone.",
+          "D": "Spontaneous survival in Wilson's ALF without OLT is extremely rare (<5%). Unlike paracetamol ALF (where spontaneous recovery occurs in >50%), Wilson's ALF almost universally progresses to death without OLT."
+        },
+        "guideline": "EASL Wilson Disease Guidelines 2012; AASLD ALF Study Group: Wilson's ALF = urgent liver transplant indication; MELD exception points for acute Wilson's.",
+        "trial": "Dhawan A et al. Wilson score for ALF — Wilson's disease ALF index: bilirubin + AST + WBC + albumin + PT — score >11 predicts OLT requirement with 93% sensitivity.",
+        "pearl": "Wilson's ALF: haemolytic anaemia + Coombs-negative + low ALP (ALP paradoxically low in Wilson's ALF — released alkaline phosphatase destroyed by copper) + renal failure + neuropsychiatric features. This clinical syndrome should prompt urgent ceruloplasmin + urinary copper + slit-lamp examination."
+      }
+    },
+    {
+      "id": "E1-Q20",
+      "stem": "Waitlist priority for organ allocation using MELD-Na: a 58-year-old man has MELD-Na 24, and a 67-year-old woman has MELD-Na 24 but also has HCC within Milan criteria. Which patient receives higher allocation priority and why?",
+      "options": {
+        "A": "The man (higher MELD-Na 24) — MELD-Na determines priority and HCC does not change score",
+        "B": "The woman with HCC — HCC receives MELD exception points (equivalent to MELD 22 at listing increasing every 3 months) making her effective priority higher if she has been waiting >3 months",
+        "C": "Equal priority — MELD-Na 24 is identical; first-come first-served breaks the tie",
+        "D": "The man — HCC patients are deprioritised to discourage transplanting malignancy"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Under UNOS policy, HCC patients within Milan receive MELD exception points independent of their calculated MELD: 22 points equivalent at listing (corresponding to ~15% 90-day waitlist mortality), increasing by 10% per 3-month increment if tumour remains within criteria. If the HCC woman has been listed >3 months, her exception score exceeds MELD-Na 24. The effective allocation score — not the calculated MELD-Na — determines priority. Exception points effectively elevate HCC patients on the waitlist, reflecting that MELD underestimates HCC waitlist mortality risk.",
+        "wrong": {
+          "A": "MELD-Na alone does not determine priority for HCC patients — exception points are added. HCC changes the effective allocation score.",
+          "C": "First-come first-served only applies as a final tiebreaker after score-based allocation. With HCC exception points accruing, the effective scores are not equal.",
+          "D": "HCC patients are not deprioritised — they receive exception points precisely because their waitlist mortality risk is not captured by MELD calculation (HCC causes death through tumour progression beyond criteria, not liver failure per se). Exception points compensate for this."
+        },
+        "guideline": "UNOS Policy Section 9.3: HCC MELD exception points — initial 22 points if within Milan, +10% waitlist mortality equivalent every 3 months. Cap at 34 points (UNOS 2019 modification reduced cap from 40 to 34 to reduce HCC exception score 'inflation').",
+        "trial": "Mehta N et al. Optimising MELD allocation for HCC. Am J Transplant 2018 — demonstrated that HCC exception points overinflated priority for well-compensated HCC patients, leading to the 2019 UNOS reduction of the exception score cap.",
+        "pearl": "MELD exception score reform (2019): HCC exception initially 22 (not 28 as previously) with 3-month observation after listing before exception applied — reduces advantage for HCC patients with low MELD who have abundant wait time."
+      }
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "id": "D6",
+  "block": "D",
+  "block_name": "Benign Digestive Surgery",
+  "title": "Oesophageal & Benign Gastric Disease",
+  "level": "PGY2-3",
+  "sections": [
+    {
+      "id": "D6-S1",
+      "title": "GERD — Gastro-oesophageal Reflux Disease",
+      "content": [
+        {
+          "type": "text",
+          "content": "Gastro-oesophageal reflux disease (GERD) is defined by the Montreal consensus (2006) as a condition that develops when the reflux of stomach contents causes troublesome symptoms and/or complications. Troublesome is defined as symptoms occurring ≥2 days per week with at least moderate severity impacting quality of life. GERD is the most common upper GI disorder in the Western world, affecting approximately 20% of adults. The pathophysiology involves a failure of the anti-reflux barrier comprising the lower oesophageal sphincter (LOS), the diaphragmatic crural sling, and the angle of His (acute gastro-oesophageal angle that creates a flap valve mechanism)."
+        },
+        {
+          "type": "text",
+          "content": "LOS dysfunction is the central mechanism: a normal LOS has a resting pressure of 15–30 mmHg, length 3–4 cm, and at least 2 cm intra-abdominal position. Transient LOS relaxations (TLOSRs) — inappropriate LOS relaxation not associated with swallowing — are the predominant mechanism of reflux in patients with mild-moderate GERD and a competent LOS at rest. In severe GERD, true LOS hypotension (<6 mmHg resting) allows free reflux. Hiatal hernia (particularly Type I — sliding) displaces the gastro-oesophageal junction above the diaphragm, separating the LOS from the crural sling and disrupting the extrinsic component of the anti-reflux barrier. Bile reflux (duodenogastro-oesophageal reflux) contributes to Barrett's metaplasia and adenocarcinoma risk above and beyond acid alone."
+        },
+        {
+          "type": "text",
+          "content": "Diagnostic evaluation: 24-hour ambulatory pH-impedance monitoring is the gold standard for quantifying acid and non-acid reflux events, correlating symptoms with reflux episodes (symptom index ≥50% is positive). The DeMeester score is a composite score derived from six pH-metry parameters (total time pH<4, upright time pH<4, supine time pH<4, total number of reflux episodes, number of episodes >5 minutes, longest reflux episode). A DeMeester score >14.72 defines pathological reflux. The Bravo pH capsule is a radio-telemetry capsule clipped to the oesophageal mucosa 6 cm above the squamo-columnar junction, providing 48–96 hour ambulatory pH data without a trans-nasal catheter — superior patient tolerability, ability to monitor off-PPI and on-PPI on alternate days, and captures day-to-day variability. Impedance monitoring detects non-acid reflux events (liquid, gas, mixed) in addition to acid, making pH-impedance superior to pH-alone for patients with persistent symptoms on PPI therapy."
+        },
+        {
+          "type": "table",
+          "title": "GERD Diagnostic Investigations",
+          "headers": ["Investigation", "Key Parameters", "Normal Threshold", "When to Use"],
+          "rows": [
+            ["24h pH-impedance (off PPI 7 days)", "DeMeester score; % time pH<4; symptom correlation index", "DeMeester <14.72; % time pH<4 < 4.5%", "Pre-operative workup; persistent symptoms on PPI; atypical symptoms"],
+            ["BRAVO pH capsule", "% time pH<4 over 48–96h; symptom index", "As per standard pH thresholds", "Patients intolerant of nasogastric catheter; off vs on PPI comparison"],
+            ["High-resolution manometry", "LOS resting pressure; length; intra-abdominal segment; peristaltic reserve", "LOS >6 mmHg; adequate peristalsis", "Pre-operative essential; assess motility before fundoplication selection"],
+            ["Upper GI endoscopy", "LA Grade (A/B/C/D) oesophagitis; Barrett's; Hiatal hernia; malignancy", "No erosive oesophagitis; SCJ at/below hiatus", "All surgical candidates; Barrett's surveillance"],
+            ["Barium swallow", "Hiatal hernia size/type; reflux; stricture; motility", "No reflux; GEJ below diaphragm", "Type assessment of hiatal hernia; motility disorders; post-operative assessment"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "DeMeester Score — Key Threshold",
+          "content": "DeMeester score >14.72 = pathological acid reflux. This composite score incorporates six variables from 24h pH-metry (Johnson-DeMeester normative values). A score of 14.72 corresponds to the 95th percentile of asymptomatic controls. The DeMeester score is used for surgical candidacy assessment — a positive DeMeester score plus a positive symptom correlation index supports offering anti-reflux surgery."
+        }
+      ]
+    },
+    {
+      "id": "D6-S2",
+      "title": "Surgical Treatment of GERD",
+      "content": [
+        {
+          "type": "text",
+          "content": "Laparoscopic anti-reflux surgery (LARS) is indicated for: (1) confirmed GERD (positive pH-metry and/or oesophagitis) with incomplete symptom control on PPI therapy; (2) confirmed GERD with patient preference to avoid lifelong medication; (3) atypical symptoms (laryngopharyngeal reflux, chronic cough, asthma) with positive reflux monitoring and symptom correlation; (4) complications of GERD (Barrett's oesophagus with ongoing reflux, recurrent aspiration pneumonia); (5) hiatal hernia requiring repair (large symptomatic hernia, Type II/III/IV). Pre-operative evaluation must include upper GI endoscopy, high-resolution manometry (essential to assess oesophageal motility and guide choice of fundoplication), and pH monitoring."
+        },
+        {
+          "type": "table",
+          "title": "Comparison of Fundoplication Types",
+          "headers": ["Type", "Wrap", "Degree", "Indication", "Advantages", "Risks"],
+          "rows": [
+            ["Nissen", "Total posterior wrap", "360°", "Normal/near-normal oesophageal motility", "Most durable anti-reflux effect; lowest recurrence", "Dysphagia (6–10%); gas-bloat syndrome; inability to belch/vomit"],
+            ["Toupet", "Posterior partial wrap", "270°", "Impaired oesophageal motility (<70% peristaltic waves or amplitude <30 mmHg)", "Less dysphagia than Nissen; preserves some ability to belch", "Slightly less acid control than Nissen; higher recurrence rate"],
+            ["Dor", "Anterior partial wrap", "180°", "After Heller myotomy (achalasia); poor motility", "Protects myotomy; easy to perform without posterior dissection", "Least anti-reflux efficacy; rarely used for primary GERD"],
+            ["Linx", "Magnetic sphincter augmentation ring (MSA)", "Circumferential augmentation", "Mild-moderate GERD; normal anatomy", "Reversible; preserves ability to belch/vomit; less dysphagia", "MRI restrictions (conditional device); Dysphagia 6%; removal needed in 3–5%"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "The choice between Nissen (360°) and Toupet (270°) fundoplication is primarily driven by pre-operative oesophageal motility. In patients with ineffective oesophageal motility (IEM — defined as >50% failed peristaltic sequences or distal contractile integral <450 mmHg·cm·s on HRM), a 360° Nissen wrap may cause functional obstruction to oesophageal emptying, worsening post-operative dysphagia. The Toupet posterior partial fundoplication offers comparable reflux control with less post-operative dysphagia in patients with IEM. However, this principle has been questioned by the LOTUS randomised trial and other data suggesting that dysphagia rates do not differ significantly between Nissen and Toupet in selected populations."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "LOTUS Trial — Laparoscopic Fundoplication vs PPI",
+          "citation": "Galmiche JP et al. JAMA 2011;305:1969-1977",
+          "population": "372 patients with chronic GERD, European multicentre RCT",
+          "intervention": "Laparoscopic anti-reflux surgery (Nissen or Toupet) vs esomeprazole 20–40 mg daily for 5 years",
+          "result": "Remission at 5 years: surgery 85% vs PPI 92% (not significant by adjusted analysis). Dysphagia and bloating more common in surgery arm. Regurgitation better controlled by surgery (5% vs 28% PPI).",
+          "practice_change": "Surgery and PPI are both effective long-term treatments. Surgery is superior for regurgitation control. Patient values and symptom profile should guide choice — regurgitation-dominant GERD is better managed surgically."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "REFLUX Trial — LARS vs PPI Long-term",
+          "citation": "Grant AM et al. BMJ 2008;337:a2664 (5-year update: Wileman SM et al. BMJ 2010;341:c4664)",
+          "population": "810 patients with GERD, UK multicentre RCT",
+          "intervention": "Laparoscopic anti-reflux surgery vs continued medical treatment (PPI/H2RA)",
+          "result": "Surgery resulted in better quality of life and GERD symptom control at 5 years. However, 13% of surgical patients still used regular PPIs. Both treatments acceptable.",
+          "practice_change": "LARS provides superior long-term QoL improvement for GERD. Both surgery and PPI are valid; patient preference is key determinant."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "When to Choose Toupet Over Nissen",
+          "content": "Toupet fundoplication (270° posterior wrap) is preferred in: (1) ineffective oesophageal motility (IEM) on HRM (>50% failed sequences or DCI <450 mmHg·cm·s); (2) previous oesophageal surgery; (3) GERD after Heller myotomy if Dor is not preferred. Nissen is preferred in: normal motility, regurgitation-dominant symptoms (tighter wrap), and revisional surgery where the anatomy is unfavourable for posterior dissection. Redo fundoplication requires careful manometry, pH studies, and fluoroscopy to understand the reason for failure before choosing the approach."
+        }
+      ]
+    },
+    {
+      "id": "D6-S3",
+      "title": "Hiatal Hernia",
+      "content": [
+        {
+          "type": "text",
+          "content": "Hiatal hernia is defined as herniation of abdominal structures through the oesophageal hiatus of the diaphragm into the posterior mediastinum. Classification by the modified Hill/Skinner system: Type I (sliding hernia) — the gastro-oesophageal junction (GEJ) slides into the mediastinum, comprising 95% of all hiatal hernias; the GEJ remains the most cranial intrathoracic structure. Type II (true rolling/paraesophageal hernia, PEH) — the GEJ remains in its normal sub-diaphragmatic position while the gastric fundus herniates through a defect anterior or lateral to the oesophageal hiatus; rare (<5%). Type III (mixed/combined) — features of both Types I and II; the GEJ and fundus are both intrathoracic. Type IV — large PEH with other organs herniated (colon, small bowel, spleen, pancreas) into the thorax."
+        },
+        {
+          "type": "text",
+          "content": "Management of Type I sliding hernias follows GERD management principles — the hernia does not require specific repair unless symptomatic or associated with GERD requiring surgery. Large symptomatic Type II/III/IV paraesophageal hernias require surgical repair, particularly with symptoms of obstruction, organoaxial volvulus, or risk of incarceration. Acute complications of PEH include gastric volvulus (organoaxial — along the long axis of the stomach; or mesenteroaxial — across the short axis), Borchardt's triad (epigastric pain, retching without vomiting, inability to pass nasogastric tube), and acute gastric ischaemia/necrosis."
+        },
+        {
+          "type": "text",
+          "content": "Surgical repair of Type III/IV hernias involves: (1) reduction of hernia contents into the abdomen; (2) resection of the hernia sac (debated — associated with less recurrence in some series); (3) crural repair (posterior crural plication with non-absorbable sutures, supplemented with pledgets in large defects); (4) anti-reflux procedure (Nissen or Toupet fundoplication — almost universally added); (5) gastropexy (anterior fixation of stomach to anterior abdominal wall) in elderly frail patients without fundoplication; (6) oesophageal lengthening procedure (Collis gastroplasty) if a shortened oesophagus is encountered — a gastric tube is fashioned along the lesser curve to extend the 'neo-oesophagus'."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "HIATUS Trial — Mesh vs No Mesh Hiatal Hernia Repair",
+          "citation": "Memon MA et al. JAMA Surg 2019;154:e191340",
+          "population": "Systematic review and meta-analysis of 12 RCTs, 1,230 patients with large hiatal hernia",
+          "intervention": "Mesh crural reinforcement vs primary suture cruroplasty",
+          "result": "Mesh repair: lower hernia recurrence at 12–24 months (OR 0.46). No significant difference in dysphagia or long-term complications. Biological mesh associated with lower erosion rates than synthetic.",
+          "practice_change": "Mesh reinforcement of the hiatal repair reduces short and medium-term recurrence. Biological mesh preferred for hiatal reinforcement due to lower erosion risk. Synthetic mesh use at the hiatus carries real erosion risk and should be avoided."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Type IV Hiatal Hernia — Acute Presentation",
+          "content": "Organoaxial gastric volvulus in a Type IV hiatal hernia presents as Borchardt's triad: severe epigastric/chest pain, violent retching without vomiting, inability to pass a nasogastric tube. This is a surgical emergency — gastric ischaemia and necrosis can develop within hours. Management: (1) urgent upper GI endoscopy (may reduce volvulus if early); (2) urgent surgical repair (laparoscopic if haemodynamically stable, open if compromised) — reduce contents, resect any necrotic stomach, crural repair, anti-reflux procedure or gastropexy."
+        }
+      ]
+    },
+    {
+      "id": "D6-S4",
+      "title": "Achalasia",
+      "content": [
+        {
+          "type": "text",
+          "content": "Achalasia is a primary oesophageal motility disorder characterised by the absence of oesophageal peristalsis and failure of the lower oesophageal sphincter to relax with swallowing. The underlying pathology is progressive destruction of the inhibitory neurons (VIP-ergic and nitric oxide-ergic) in the myenteric plexus of the oesophagus and LOS, leading to an imbalance between inhibitory (relaxation) and excitatory (contraction) neural inputs — resulting in LOS hypertension and aperistalsis. The aetiology is autoimmune in most cases, with an association with HLA-DQA1 alleles; Trypanosoma cruzi infection (Chagas disease) causes secondary achalasia."
+        },
+        {
+          "type": "text",
+          "content": "The Eckardt score is the validated clinical symptom scoring system for achalasia: dysphagia (0–3), regurgitation (0–3), retrosternal pain (0–3), weight loss (0–3). Total score 0–12. Score ≤3 = clinical success after treatment. It is used for pre-treatment assessment and post-treatment follow-up."
+        },
+        {
+          "type": "table",
+          "title": "Chicago Classification v4.0 — Achalasia Subtypes and Treatment Response",
+          "headers": ["Subtype", "HRM Findings", "Oesophageal Body", "Best Response", "Notes"],
+          "rows": [
+            ["Type I (Classic)", "Absent peristalsis; IRP >15 mmHg (HRIM); 100% failed sequences", "Minimal pressurisation; dilated oesophagus", "Surgery (Heller+Dor) = POEM > PD", "Most advanced; dilated megaoesophagus in longstanding disease"],
+            ["Type II (Compartmentalised pressurisation)", "Absent peristalsis; IRP >15 mmHg; ≥20% pan-oesophageal pressurisation", "Pan-oesophageal pressurisation in ≥20% swallows", "Best overall response to ALL treatments; POEM preferred", "Most common in practice; best prognosis"],
+            ["Type III (Spastic/jackhammer)", "IRP >15 mmHg; ≥20% premature (spastic) contractions; DL <4.5s", "Spastic contractions; high DCI", "POEM superior (targets both LOS and spastic body)", "Chest pain predominant; POEM targets myotomy along entire spastic segment"],
+            ["Pseudo-achalasia / Secondary", "IRP elevated; aperistalsis; NO LOS relaxation", "Variable — often mimics Type I/II", "Treat underlying cause", "Must exclude malignancy at GEJ (CT chest/abdomen, EUS, endoscopy)"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Treatment options include: (1) Pneumatic dilation (PD) — graduated balloon dilation under fluoroscopy using Rigiflex balloons (30, 35, 40 mm); performed in series if incomplete response; success rate 70–85% short-term, declining to 50–60% at 5 years; 2–3% oesophageal perforation risk. (2) Laparoscopic Heller myotomy (LHM) + Dor (anterior) fundoplication — gold standard open/laparoscopic surgery; 6-cm myotomy on the distal oesophagus extending 2 cm onto the gastric cardia; Dor fundoplication prevents pathological reflux post-myotomy; 90% short-term success, declining to 75–85% at 5 years. (3) Peroral endoscopic myotomy (POEM) — endoscopic submucosal tunnelling to perform a myotomy of the circular muscle layer of the oesophagus and gastric cardia from the inside; highly effective for all subtypes, particularly Type III where the myotomy length can be extended along the spastic segment; 90–95% success. Key limitation: GERD develops in up to 60% post-POEM (no fundoplication possible) — requires lifelong PPI or fundoplication if severe."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "ESCAPE Trial — POEM vs Heller Myotomy",
+          "citation": "Werner YB et al. N Engl J Med 2019;381:2219-2229",
+          "population": "221 patients with achalasia (Types I, II, III), European multicentre RCT",
+          "intervention": "POEM vs laparoscopic Heller myotomy + Dor fundoplication",
+          "result": "Clinical success at 2 years: POEM 83.0% vs Heller 81.7% (non-inferiority met). POEM: higher post-procedure reflux (57% pathological pH-metry) vs Heller (20%). Complication rates similar.",
+          "practice_change": "POEM is non-inferior to Heller myotomy for achalasia symptom control but results in significantly more pathological GERD. Heller + Dor remains preferred for patients at higher reflux risk (Barrett's, obese, LOS reflux mechanisms important)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Pseudoachalasia — Exclude Malignancy",
+          "content": "Secondary achalasia (pseudoachalasia) mimics primary achalasia clinically and on manometry. It is caused by malignancy at the gastro-oesophageal junction (most commonly adenocarcinoma, also lymphoma, lung cancer) infiltrating the myenteric plexus. Clinical clues: age >55 years, symptom onset <6 months, rapid weight loss, absent/asymmetric fundal gas on CXR. Investigation: CT chest/abdomen/pelvis, EUS (mucosal biopsy may be normal if submucosal), and repeat endoscopy with careful inspection of the gastric cardia and GEJ. NEVER attribute achalasia to a primary disorder without excluding malignancy."
+        }
+      ]
+    },
+    {
+      "id": "D6-S5",
+      "title": "Barrett's Oesophagus",
+      "content": [
+        {
+          "type": "text",
+          "content": "Barrett's oesophagus (BO) is defined as the replacement of the normal stratified squamous epithelium of the distal oesophagus by metaplastic columnar epithelium (intestinal metaplasia with goblet cells — the British definition requires endoscopic evidence of columnar mucosa in the tubular oesophagus ≥1 cm, with or without biopsy confirmation, while the American definition additionally requires goblet cells on biopsy). BO is a complication of chronic GERD and is found in approximately 10–15% of patients undergoing endoscopy for GERD symptoms. The annual risk of progression from BO to oesophageal adenocarcinoma (OAC) is approximately 0.3–0.5% per year in non-dysplastic BO — an 11-fold relative risk compared to the general population."
+        },
+        {
+          "type": "text",
+          "content": "The Prague C&M classification describes the endoscopic extent of BO: C = circumferential extent (cm above GEJ); M = maximal extent (cm above GEJ). For example, Prague C3M5 = 3 cm circumferential + 5 cm maximal extent (tongues/islands). This standardised reporting is essential for surveillance comparability."
+        },
+        {
+          "type": "table",
+          "title": "Barrett's Oesophagus — Surveillance Intervals and Endoscopic Treatment",
+          "headers": ["Histology", "Surveillance Interval", "Management"],
+          "rows": [
+            ["Non-dysplastic intestinal metaplasia (NDBO)", "3–5 years (BSG 2014)", "Lifestyle + PPI; surveillance endoscopy with Seattle protocol biopsies (4-quadrant biopsies every 2 cm)"],
+            ["Indefinite for dysplasia (IND)", "6–12 months after PPI optimisation (2 months high-dose PPI)", "Repeat endoscopy after PPI — if persistent IND, manage as LGD"],
+            ["Low-grade dysplasia (LGD)", "6 months to 1 year; confirmed by 2nd expert pathologist", "Endoscopic eradication therapy (RFA preferred) — reduces progression to HGD/cancer by 25% (AIM-LGD trial)"],
+            ["High-grade dysplasia (HGD)", "Immediate endoscopic treatment", "EMR of any visible lesion FIRST (complete staging) + RFA (HALO) for flat HGD. If T1a or T1b sm1 = endoscopic management; T1b sm2+ = surgical resection"],
+            ["Intramucosal carcinoma (T1a)", "Post-EMR surveillance at 3, 6, 12 months, then annually", "EMR + RFA for complete eradication; oesophagectomy not required"],
+            ["T1b submucosal carcinoma", "Oncology MDT", "EMR for staging + risk stratification: sm1 (<500μm depth, no LVI) = endoscopic; sm2+ = oesophagectomy"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Radiofrequency ablation (RFA, HALO system) uses a balloon or focal catheter delivering 10–12 J/cm² of circumferential or focal radiofrequency energy to ablate the Barrett's segment after EMR of visible lesions. Complete eradication of intestinal metaplasia (CE-IM) is achieved in 70–85% of patients after 2–3 sessions. The ASPECT trial (UK RCT) demonstrated that RFA significantly reduced the rate of progression to HGD or cancer in LGD patients. Endoscopic mucosal resection (EMR) is performed for visible lesions within Barrett's (nodules, polyps, flat lesions) before RFA — it provides accurate histological staging (critical for T1a vs T1b distinction and management) and therapeutic resection. Cap-assisted EMR or ligation-EMR (band ligation) are the standard techniques."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "ASPECT Trial — RFA for Low-Grade Dysplasia in Barrett's",
+          "citation": "Phoa KN et al. JAMA 2014;311:1209-1217",
+          "population": "136 patients with LGD in Barrett's oesophagus, European multicentre RCT",
+          "intervention": "Radiofrequency ablation (RFA) vs endoscopic surveillance",
+          "result": "RFA: disease progression to HGD/adenocarcinoma 1.5% vs surveillance 26.5% (RR 0.06). CE-IM 92.6% RFA vs 27.9% surveillance at 3 years.",
+          "practice_change": "RFA is the standard of care for confirmed LGD in Barrett's oesophagus — it dramatically reduces progression to cancer and achieves durable eradication of dysplastic mucosa."
+        }
+      ]
+    },
+    {
+      "id": "D6-S6",
+      "title": "Benign Oesophageal Stricture & Perforation",
+      "content": [
+        {
+          "type": "text",
+          "content": "Benign oesophageal strictures arise from intrinsic or extrinsic causes. Peptic strictures (most common benign stricture) occur in the distal oesophagus at the squamo-columnar junction from chronic acid exposure causing fibrosis. They are typically smooth, regular, and concentric on barium swallow. Management: high-dose PPI, endoscopic dilation (Savary-Gillard bougies or through-the-scope balloon dilators), intralesional steroid injection for recalcitrant strictures, and rarely surgical intervention. Anastomotic strictures post-oesophagectomy or post-gastrectomy occur in 5–20% of cases — managed with serial endoscopic dilations. Caustic (corrosive) strictures from acid or alkali ingestion require acute management (neutralisation, airway assessment) followed by staged dilations — surgery (colonic interposition or gastric pull-up) is reserved for strictures not amenable to dilation."
+        },
+        {
+          "type": "text",
+          "content": "Boerhaave syndrome is spontaneous oesophageal perforation from a sudden dramatic increase in intra-oesophageal pressure against a closed cricopharyngeus — typically during violent vomiting, Valsalva, or instrumentation. The tear is almost always at the left posterolateral wall of the distal third of the oesophagus (weakest point). Mackler's triad classically describes: (1) vomiting or retching; (2) chest pain (sudden severe); (3) subcutaneous emphysema. However, the triad is present in only 14% of cases. Free mediastinal air (pneumomediastinum), left-sided pleural effusion, and contrast (water-soluble — Gastrografin first, then dilute barium if negative) swallow demonstrating extravasation are the key diagnostic features."
+        },
+        {
+          "type": "table",
+          "title": "Pittsburgh Classification for Oesophageal Perforation Severity",
+          "headers": ["Class", "Criteria", "Management"],
+          "rows": [
+            ["Class I (Low risk)", "Age <75 years; no malignancy; cervical perforation; minimal contrast extravasation; diagnosis within 24h; no fluid in mediastinum or pleura; no tachycardia/fever", "Conservative: nil by mouth, IV antibiotics, PPI, NG decompression, close monitoring; surgery if deteriorating"],
+            ["Class II (Medium risk)", "1 risk factor: age >75, delayed presentation (24–48h), location (thoracic), moderate mediastinal soiling, pleural fluid without empyema", "Primary repair (if <24h, tissue viable) + mediastinal drainage; or T-tube drainage; oesophageal stent (SEMS) if repair not possible"],
+            ["Class III (High risk)", "≥2 risk factors, delayed >48–72h, malignancy, severe mediastinal soiling, empyema, systemic sepsis, established fistula", "Oesophageal diversion (spit fistula) or stent + drainage; resection ± reconstruction in staged approach; ICU admission"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Oesophageal perforation management has evolved significantly with the widespread availability of self-expanding metal stents (SEMS) and endoscopic vacuum therapy (EVT). Primary repair (within 24 hours, two-layer closure over a T-tube with pleural decortication and drainage) remains the gold standard for acute diagnosis in fit patients. Self-expanding covered metal stents seal the perforation, allow mediastinal/pleural drainage to continue externally, and can be removed endoscopically after 6–8 weeks. Endoscopic vacuum therapy (EVACs — sponge inserted endoscopically into the perforation cavity, connected to continuous negative pressure drainage) has emerged as highly effective for contained perforations and anastomotic leaks. Oesophageal exclusion (cervical oesophagostomy + gastrostomy for feeding, distal oesophagus stapled) is reserved for the most severe cases."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Mackler's Triad — Sensitivity Only 14%",
+          "content": "Mackler's triad (vomiting + chest pain + subcutaneous emphysema) is pathognomonic of Boerhaave syndrome when present — but only present in 14% of cases. A high index of suspicion is required. Any patient presenting with chest pain and mediastinal air after vomiting requires urgent water-soluble contrast swallow or CT chest with oral contrast to exclude oesophageal perforation. Early diagnosis (within 24 hours) is the single most important prognostic factor."
+        }
+      ]
+    },
+    {
+      "id": "D6-S7",
+      "title": "Peptic Ulcer Disease (Benign)",
+      "content": [
+        {
+          "type": "text",
+          "content": "Peptic ulcer disease (PUD) affects the stomach (gastric ulcer, GU) and proximal duodenum (duodenal ulcer, DU). The aetiology is disruption of the balance between mucosal protective factors (mucus-bicarbonate layer, prostaglandins E2/I2, mucosal blood flow, surface phospholipids, epithelial renewal) and aggressive factors (acid, pepsin, H. pylori virulence factors, NSAIDs). Helicobacter pylori infection is present in 70–90% of DU and 60–70% of GU. NSAIDs are the second most common cause, acting via COX-1 inhibition reducing prostaglandin synthesis (prostaglandins stimulate mucus/bicarbonate secretion and mucosal blood flow). Stress ulcers (Curling's ulcer — burns; Cushing's ulcer — head injury) occur in critically ill patients from reduced mucosal perfusion."
+        },
+        {
+          "type": "text",
+          "content": "H. pylori eradication is mandatory for all H. pylori-positive peptic ulcers. First-line therapy (NICE 2014): standard triple therapy — PPI (standard dose BD) + clarithromycin 500 mg BD + amoxicillin 1 g BD for 7–14 days (14 days superior to 7 days). If penicillin allergy: PPI + clarithromycin + metronidazole. Second-line (failed triple therapy or clarithromycin-resistant area): bismuth-based quadruple therapy — PPI BD + bismuth subcitrate QDS + tetracycline QDS + metronidazole TDS × 14 days. Culture-guided therapy is recommended where clarithromycin resistance is >15–20% (common in Southern Europe). Confirmation of eradication by urea breath test or stool antigen test at ≥4 weeks after completing treatment is essential."
+        },
+        {
+          "type": "text",
+          "content": "Zollinger-Ellison syndrome (ZES) is caused by a gastrinoma — a gastrin-secreting neuroendocrine tumour arising in the gastrinoma triangle (between the cystic duct, the second portion of duodenum, and the neck of pancreas) in 90% of cases. It causes acid hypersecretion, multiple peptic ulcers (often distal duodenal or jejunal — an unusual location), watery diarrhoea, and malabsorption. Diagnosis: fasting serum gastrin >1000 pg/mL is diagnostic; secretin stimulation test (paradoxical rise in gastrin >200 pg/mL after IV secretin 2 U/kg) is the most specific provocative test. Localisation: CT/MRI, endoscopic ultrasound (EUS — highest sensitivity 80–90%), and Ga-68 DOTATATE PET-CT (highly sensitive, replacing octreotide scintigraphy). 25–30% of ZES are part of MEN1 syndrome (check calcium, PTH, prolactin)."
+        },
+        {
+          "type": "table",
+          "title": "Forrest Classification — Upper GI Bleeding from Peptic Ulcer",
+          "headers": ["Forrest Class", "Endoscopic Appearance", "Rebleeding Risk (%)", "Treatment"],
+          "rows": [
+            ["Ia", "Arterial spurting haemorrhage", "90%", "Immediate endoscopic therapy (dual: injection + thermal/clip); PPI infusion; consider IR embolisation if fails"],
+            ["Ib", "Oozing haemorrhage", "50–55%", "Endoscopic therapy (dual); high-dose PPI infusion (80 mg bolus then 8 mg/h × 72h)"],
+            ["IIa", "Non-bleeding visible vessel (pigmented protuberance)", "40–50%", "Endoscopic therapy (dual); high-dose PPI; admit for 72h"],
+            ["IIb", "Adherent blood clot", "20–30%", "Irrigate to remove clot; if underlying IIa = treat; if clear base = IIc management"],
+            ["IIc", "Flat pigmented haematin spot", "5–10%", "High-dose oral PPI; early discharge if haemodynamically stable"],
+            ["III", "Clean base ulcer", "<5%", "Oral PPI; same-day or next-day discharge if stable"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Peptic Ulcer Complications and Surgical Options",
+          "content": "Complications of PUD requiring surgery: (1) Bleeding: failed endoscopic + IR treatment → surgery (under-running of the bleeding vessel via gastrotomy/duodenotomy; Polya gastrectomy for posterior DU bleeding from gastroduodenal artery); (2) Perforation: Graham omental patch for acute anterior DU perforation (laparoscopic preferred); (3) Obstruction: from pyloroduodenal scarring → endoscopic balloon dilatation first; surgical drainage (Heineke-Mikulicz pyloroplasty) if recurrent; (4) Malignant transformation: all gastric ulcers must have biopsies at endoscopy — rebiopsy at 6–12 weeks to confirm healing (healing does not exclude malignancy)."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "D6-Q1",
+      "stem": "A patient with GERD and proven impaired oesophageal motility (DCI 350 mmHg·cm·s, 60% failed peristaltic sequences) requires anti-reflux surgery. Which fundoplication is most appropriate?",
+      "options": {
+        "A": "Nissen 360° total fundoplication — most durable anti-reflux control",
+        "B": "Toupet 270° posterior partial fundoplication — reduced dysphagia risk with impaired motility",
+        "C": "Dor 180° anterior partial fundoplication — always preferred to avoid posterior dissection",
+        "D": "No fundoplication — operate only for hiatal hernia repair given poor motility"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — In patients with ineffective oesophageal motility (IEM: DCI <450 mmHg·cm·s and/or >50% failed peristaltic sequences), a 360° Nissen fundoplication creates a tight wrap that may obstruct oesophageal emptying, worsening dysphagia. The 270° Toupet posterior partial wrap provides adequate acid control with less post-operative dysphagia in this setting.",
+        "wrongA": "Nissen 360° is preferred in patients with normal motility. With impaired motility, the complete wrap may cause functional oesophageal obstruction and severe post-operative dysphagia.",
+        "wrongC": "Dor (anterior 180°) is used primarily after Heller myotomy for achalasia — not for primary GERD. It has the least anti-reflux efficacy of the three options.",
+        "wrongD": "Hiatal hernia repair without an anti-reflux procedure is appropriate only for Type II/III hernia repair in the elderly where the functional outcome of fundoplication is secondary — not for a GERD patient with impaired motility.",
+        "guideline": "SAGES guidelines for anti-reflux surgery: HRM is mandatory pre-operatively; IEM is the primary indication for partial (Toupet) over total (Nissen) fundoplication.",
+        "pearl": "Chicago Classification threshold for IEM: >50% failed peristaltic sequences OR DCI <450 mmHg·cm·s. In practice: DCI 350 and 60% failed sequences = clear IEM = choose Toupet."
+      }
+    },
+    {
+      "id": "D6-Q2",
+      "stem": "A patient with breakthrough GERD symptoms despite standard-dose PPI (omeprazole 20 mg OD) is being evaluated for possible pH monitoring. What is the primary indication for pH-impedance monitoring over pH-alone monitoring in this setting?",
+      "options": {
+        "A": "pH-impedance is cheaper and faster than pH-alone monitoring",
+        "B": "pH-impedance detects non-acid reflux events (liquid, gas, or mixed), which may account for persistent symptoms on PPI therapy despite adequate acid suppression",
+        "C": "pH-impedance monitoring can be performed while the patient remains on their PPI therapy",
+        "D": "pH-alone monitoring cannot calculate the DeMeester score and therefore misses most pathological reflux"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — In patients with persistent symptoms on PPI therapy, the question is whether symptoms are caused by weakly acidic (pH 4–7), non-acid (pH >7), or bile reflux events not suppressed by PPIs. pH-alone monitoring cannot detect these events. pH-impedance simultaneously measures impedance changes (liquid/gas bolus passage) and pH, allowing detection and characterisation of ALL reflux events regardless of acidity.",
+        "wrongA": "pH-impedance is more expensive and technically complex than pH-alone monitoring — not cheaper.",
+        "wrongC": "Both pH and pH-impedance monitoring should ideally be performed off PPI (7 days washout) to assess the degree of acid reflux. However, for specific evaluation of symptom correlation ON therapy, monitoring can be performed on PPIs — this is a distinct indication not specific to impedance.",
+        "wrongD": "Standard pH monitoring absolutely can calculate the DeMeester score — this was developed using 6-parameter pH-metry. The limitation of pH-alone is failure to detect non-acid events, not inability to calculate DeMeester score.",
+        "guideline": "BSG GERD guideline (2019): pH-impedance monitoring is preferred over pH-alone when: symptoms persist despite PPI, atypical reflux symptoms, and pre/post-operative assessment.",
+        "pearl": "DeMeester score threshold = 14.72. Calculated from 6 variables of 24h pH-metry. pH-impedance adds non-acid reflux detection on top of DeMeester — it does not replace it."
+      }
+    },
+    {
+      "id": "D6-Q3",
+      "stem": "The ESCAPE trial compared POEM to laparoscopic Heller myotomy for achalasia. For which achalasia subtype does POEM offer a specific technical advantage over Heller myotomy?",
+      "options": {
+        "A": "Type I achalasia with megaoesophagus",
+        "B": "Type II achalasia with pan-oesophageal pressurisation",
+        "C": "Type III (spastic) achalasia with extensive spastic contractions involving the oesophageal body",
+        "D": "Type II achalasia in elderly patients with poor surgical fitness"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — Type III achalasia involves spastic contractions of the oesophageal body (not just the LOS) causing chest pain and dysphagia. Heller myotomy is traditionally limited to the distal oesophagus (6 cm) and gastric cardia (2 cm) — it does not adequately address the proximal spastic segment. POEM can extend the myotomy proximally to the level of the spastic contractions (sometimes 12–15 cm), targeting the underlying pathology throughout the oesophageal body. This is POEM's major technical advantage for Type III.",
+        "wrongA": "Type I achalasia (megaoesophagus) responds to all treatments but may ultimately require oesophagectomy in end-stage disease. POEM does not have a specific advantage over Heller for Type I.",
+        "wrongB": "Type II achalasia has the best overall response to all treatments (POEM, Heller, PD). POEM is preferred for its minimally invasive nature but does not have a specific anatomical advantage over Heller for Type II.",
+        "wrongD": "Elderly patients with poor fitness may actually be better served by endoscopic dilation (PD) rather than POEM or Heller — POEM requires general anaesthesia and carries procedural risks.",
+        "trial": "ESCAPE trial (Werner 2019, NEJM): POEM non-inferior to Heller overall. Type III achalasia was a pre-specified subgroup where POEM's extended myotomy is expected to outperform Heller's limited myotomy.",
+        "pearl": "Type III achalasia treatment hierarchy: POEM preferred (extends myotomy along spastic body) > Heller + Dor (limited myotomy) > PD (less effective for Type III than I/II)."
+      }
+    },
+    {
+      "id": "D6-Q4",
+      "stem": "A patient with Barrett's oesophagus and confirmed high-grade dysplasia (HGD) on endoscopic biopsies using the Seattle protocol has a 1.5 cm mucosal nodule at the GEJ. What is the priority first step in management?",
+      "options": {
+        "A": "Immediate radiofrequency ablation (RFA) of the entire Barrett's segment",
+        "B": "Referral for oesophagectomy — HGD with nodule represents high cancer risk",
+        "C": "Endoscopic mucosal resection (EMR) of the nodule for histological staging before determining further treatment",
+        "D": "Repeat surveillance endoscopy in 3 months with additional biopsies"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — A visible lesion (nodule) in Barrett's HGD requires EMR BEFORE any ablative therapy. EMR provides: (1) complete histological staging — distinguishing T1a (mucosal, endoscopic management appropriate) from T1b sm2+ (submucosal invasion requiring surgery); (2) therapeutic resection of the visible lesion. RFA is then applied to the remaining flat Barrett's segment to achieve CE-IM after EMR staging.",
+        "wrongA": "RFA before EMR of a visible lesion is incorrect — RFA ablates the mucosal surface and destroys histological architecture, preventing accurate staging. Performing RFA first may mask an underlying submucosal cancer.",
+        "wrongB": "Oesophagectomy is not the immediate next step for HGD with a nodule. Modern endoscopic staging (EMR) stratifies patients — only T1b sm2+ or higher requires surgery. Oesophagectomy for HGD/T1a HGD when endoscopic treatment is available is an over-treatment.",
+        "wrongD": "Repeat surveillance without treatment for confirmed HGD is inappropriate and would delay definitive management — HGD requires action.",
+        "guideline": "BSG Barrett's guidelines (2014) and ESGE guidelines: EMR is mandatory for all visible lesions in Barrett's before ablative therapy. EMR provides histological staging critical for management decisions.",
+        "pearl": "EMR always before RFA if there is a visible lesion. EMR = stage + treat. RFA = ablate flat mucosa after visible lesions removed. T1a = endoscopic; T1b sm2+ = oncology MDT discussion for surgery."
+      }
+    },
+    {
+      "id": "D6-Q5",
+      "stem": "A 58-year-old man presents acutely with severe chest pain, vomiting, and subcutaneous emphysema after a prolonged episode of retching. CXR shows pneumomediastinum and left pleural effusion. A water-soluble contrast swallow shows contrast extravasation at the distal oesophagus. CT scan shows localised mediastinal soiling but no free peritoneal air or empyema. He is haemodynamically stable and 18 hours from symptom onset. According to the Pittsburgh classification, what management approach is most appropriate?",
+      "options": {
+        "A": "Conservative: nil by mouth, IV antibiotics, PPI, close monitoring — no intervention",
+        "B": "Primary oesophageal repair with mediastinal drainage via left thoracotomy or VATS",
+        "C": "Oesophageal diversion (spit fistula) with feeding gastrostomy — too late for primary repair",
+        "D": "Immediate oesophagectomy and gastric pull-up"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — This patient is Pittsburgh Class II (18h presentation, thoracic perforation, moderate mediastinal soiling, no empyema, haemodynamically stable). Primary repair at 18 hours is still possible — the tissue remains viable and repairable within 24 hours in most cases. Left thoracotomy or VATS allows two-layer repair of the oesophageal tear plus mediastinal irrigation and drainage. An oesophageal stent is an alternative if primary repair fails or is technically not possible.",
+        "wrongA": "Conservative management is appropriate for Class I (cervical or otherwise low-risk) perforations. This thoracic perforation with mediastinal soiling and pleural effusion requires active intervention.",
+        "wrongC": "Oesophageal diversion (Class III management) is reserved for presentations >48–72 hours with established infection, empyema, or very unfit patients. At 18 hours in a stable patient, primary repair is the preferred option.",
+        "wrongD": "Immediate oesophagectomy for benign perforation without underlying malignancy is excessive and associated with very high morbidity. It is reserved for perforation through a malignant oesophagus.",
+        "guideline": "Pittsburgh classification guides management: Class I = conservative; Class II = primary repair ± stent; Class III = diversion/drainage.",
+        "trial": "Systematic review (Biancari 2013): mortality for oesophageal perforation treated within 24h = 14%; after 24h = 27%. Early diagnosis and treatment is the key determinant of survival."
+      }
+    },
+    {
+      "id": "D6-Q6",
+      "stem": "Which three components make up Mackler's triad in Boerhaave syndrome?",
+      "options": {
+        "A": "Haematemesis, chest pain, and fever",
+        "B": "Vomiting, chest pain, and subcutaneous emphysema",
+        "C": "Epigastric pain, inability to pass a nasogastric tube, and non-productive retching (Borchardt's triad)",
+        "D": "Dysphagia, mediastinal widening on CXR, and pleural effusion"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Mackler's triad for Boerhaave syndrome consists of: (1) vomiting or violent retching; (2) sudden severe chest/epigastric pain; (3) subcutaneous emphysema (surgical emphysema in the neck/chest). This triad is pathognomonic when present — but occurs in only 14% of cases.",
+        "wrongA": "Haematemesis is not part of Mackler's triad. Fever may develop later but is not part of the classic triad.",
+        "wrongC": "This describes Borchardt's triad for acute gastric volvulus (in paraesophageal hernia): epigastric pain + retching without vomiting + inability to pass NG tube. Both triads must be learned.",
+        "wrongD": "Mediastinal widening and pleural effusion are radiological findings supporting the diagnosis — not components of the clinical triad.",
+        "guideline": "Early diagnosis within 24 hours is the most important prognostic factor in Boerhaave syndrome. Water-soluble contrast swallow remains the first-line diagnostic test after CXR.",
+        "pearl": "Two triads to memorise: Mackler's (Boerhaave) = Vomiting + Chest pain + Subcutaneous emphysema. Borchardt's (Gastric volvulus/PEH) = Epigastric pain + Non-productive retching + Inability to pass NG tube."
+      }
+    },
+    {
+      "id": "D6-Q7",
+      "stem": "What is the DeMeester score threshold that defines pathological acid reflux on 24-hour pH-metry?",
+      "options": {
+        "A": "DeMeester score >7.5",
+        "B": "DeMeester score >14.72",
+        "C": "DeMeester score >20.0",
+        "D": "DeMeester score >25.0"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The DeMeester score threshold for pathological acid reflux is >14.72. This was established by Johnson and DeMeester (1974) as the 95th percentile of their normal asymptomatic control population. The composite score incorporates six parameters from 24-hour pH-metry: total % time pH<4, upright % time pH<4, supine % time pH<4, total reflux episodes, episodes >5 minutes, and longest reflux episode.",
+        "wrongA": "7.5 is not the established DeMeester threshold.",
+        "wrongC": "20.0 is not the threshold — scores above 14.72 are pathological, including those in the 15–20 range.",
+        "wrongD": "25.0 is too high — would miss patients with mild but pathological reflux (DeMeester 14.73–24.99) who are surgical candidates.",
+        "guideline": "Johnson-DeMeester normative values: threshold 14.72 based on 95th percentile of 50 asymptomatic volunteers.",
+        "pearl": "DeMeester score = composite of 6 pH-metry parameters. Threshold: 14.72. Above = pathological reflux. Used alongside symptom correlation index (>50% = positive) for surgical decision-making."
+      }
+    },
+    {
+      "id": "D6-Q8",
+      "stem": "A Type IV hiatal hernia presents acutely with Borchardt's triad. CT scan shows the entire stomach in the chest with organoaxial rotation. What is the immediate management?",
+      "options": {
+        "A": "NG tube insertion in A&E and elective repair when haemodynamically stable",
+        "B": "Upper GI endoscopy to decompress the stomach, followed by definitive surgical repair",
+        "C": "Urgent surgical repair (laparoscopic or open): reduction of contents, assessment for ischaemia, crural repair, anti-reflux procedure or gastropexy",
+        "D": "CT-guided percutaneous decompression of the intrathoracic stomach"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — Acute gastric volvulus with Borchardt's triad is a surgical emergency. Endoscopy may temporise (reduce the volvulus) but definitive surgical repair is mandatory — ischaemia can develop rapidly. The surgical approach includes: reduction of herniated contents, resection of any necrotic stomach (partial or total gastrectomy if needed), repair of the hiatal defect, and anti-reflux procedure or gastropexy.",
+        "wrongA": "NG tube cannot pass because of the volvulus (inability to pass NG tube = Borchardt's triad component). Elective repair is not appropriate — this is an emergency.",
+        "wrongB": "Endoscopy may be attempted first (if available urgently) to decompress and untwist the volvulus, buying time for operative preparation. However, surgical repair cannot be delayed — the acute presentation requires emergency surgery.",
+        "wrongD": "CT-guided percutaneous decompression of an intrathoracic stomach is not a recognised procedure and would not address the mechanical volvulus or the hiatal defect.",
+        "guideline": "SAGES guideline on paraesophageal hernia: acute gastric volvulus = emergency surgical repair. Even in elderly frail patients, acute volvulus carries higher mortality from non-operative management than from urgent surgery.",
+        "pearl": "Borchardt's triad = incarcerated/volvulised paraesophageal hernia until proven otherwise. Emergency → reduce, assess for ischaemia, repair. Mortality from untreated acute gastric volvulus approaches 100%."
+      }
+    },
+    {
+      "id": "D6-Q9",
+      "stem": "The ESCAPE trial demonstrated that POEM results in significantly more pathological GERD than Heller myotomy. What is the main reason for this difference?",
+      "options": {
+        "A": "POEM divides the internal and external oesophageal muscle layers, destroying the entire sphincter complex",
+        "B": "POEM does not allow addition of a fundoplication, whereas Heller myotomy is routinely combined with a Dor anterior fundoplication",
+        "C": "POEM uses thermal energy which damages adjacent vagal nerve fibres and impairs oesophageal peristalsis",
+        "D": "POEM is performed under general anaesthesia which alters LOS tone permanently"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — After Heller myotomy, a Dor (anterior 180°) or Toupet (posterior 270°) fundoplication is routinely added to prevent pathological GERD from the disrupted LOS. POEM is performed entirely endoscopically through a submucosal tunnel and does not allow construction of a fundoplication. Consequently, POEM patients have a disrupted LOS with no anti-reflux mechanism — resulting in 57% pathological acid reflux (pH-metry) vs 20% after Heller + Dor in the ESCAPE trial.",
+        "wrongA": "POEM divides only the circular muscle layer — the longitudinal muscle is preserved. It does not destroy the 'entire sphincter complex'.",
+        "wrongC": "POEM uses submucosal dissection — the thermal energy (with haemostatic devices) is directed into the submucosal tunnel, not toward vagal nerve fibres.",
+        "wrongD": "General anaesthesia does not permanently alter LOS tone.",
+        "trial": "ESCAPE trial (Werner 2019): GERD rate after POEM 57% (pH-metry) vs 20% after Heller + Dor. 68% POEM patients vs 32% Heller patients on regular PPIs at 2 years.",
+        "pearl": "POEM vs Heller: equivalent symptom control, but POEM = more GERD. Practical implication: POEM patients need long-term PPI and regular endoscopic surveillance for Barrett's. Prefer Heller in patients with existing Barrett's or GERD risk factors."
+      }
+    },
+    {
+      "id": "D6-Q10",
+      "stem": "A patient with confirmed Zollinger-Ellison syndrome (ZES) has a fasting serum gastrin of 1,200 pg/mL and a positive secretin stimulation test. Cross-sectional imaging (CT/MRI) fails to localise the gastrinoma. What is the next most sensitive localisation technique?",
+      "options": {
+        "A": "Selective intra-arterial secretin stimulation test (SASS) with hepatic vein gastrin sampling",
+        "B": "Endoscopic ultrasound (EUS)",
+        "C": "Ga-68 DOTATATE PET-CT",
+        "D": "Intra-operative portal vein sampling"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — Ga-68 DOTATATE PET-CT (DOTA-octreotate coupled to Gallium-68) exploits the high density of somatostatin receptors on gastrinomas (as with most well-differentiated NETs). It has superseded octreotide scintigraphy (OctreoScan) as the most sensitive functional imaging modality for gastrinoma localisation, with sensitivity >80%. It is particularly superior for small tumours and lymph node metastases.",
+        "wrongA": "Selective intra-arterial secretin stimulation (SASS) with hepatic vein sampling can regionalise gastrinoma secretion to the head/body/tail of the pancreas or duodenum, but is invasive and requires angiographic expertise — it is not a first-line localisation tool after CT/MRI failure.",
+        "wrongB": "EUS has the highest sensitivity (80–90%) among structural imaging tests for pancreatic/peripancreatic gastrinomas. It is an excellent choice after CT/MRI failure. However, it is operator-dependent and less sensitive for ectopic gastrinomas.",
+        "wrongD": "Intra-operative portal vein sampling is only performed at surgery — it guides intra-operative resection rather than pre-operative localisation.",
+        "guideline": "ENETS consensus guidelines (2016): Ga-68 DOTATATE PET-CT is the investigation of choice for gastrinoma localisation, recommended before EUS for its superior sensitivity and whole-body assessment.",
+        "pearl": "ZES localisation hierarchy: CT/MRI first → if negative → Ga-68 DOTATATE PET-CT (most sensitive whole-body) + EUS (most sensitive for small pancreatic/duodenal lesions) → consider SASS if still unlocalised."
+      }
+    },
+    {
+      "id": "D6-Q11",
+      "stem": "On urgent upper endoscopy for haematemesis, a 2 cm duodenal ulcer with a visible non-bleeding vessel is seen (Forrest IIa). What is the correct endoscopic management?",
+      "options": {
+        "A": "Observe and repeat endoscopy in 24 hours — Forrest IIa has only 5% rebleeding risk",
+        "B": "Dual endoscopic therapy (adrenaline injection + thermal contact/mechanical clip) followed by high-dose PPI infusion",
+        "C": "Single adrenaline injection (1:10,000 solution) alone — evidence does not support additional therapy",
+        "D": "Proceed directly to surgery — Forrest IIa has 90% rebleeding risk"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Forrest IIa (non-bleeding visible vessel) carries a rebleeding risk of 40–50%. Guidelines mandate dual endoscopic therapy: adrenaline injection alone is inferior to combined therapy; mechanical clips and/or thermal contact coagulation should be added. After endoscopic haemostasis, high-dose PPI infusion (80 mg IV bolus then 8 mg/h for 72 hours) maintains gastric pH>6, preventing clot dissolution and reducing rebleeding.",
+        "wrongA": "5% rebleeding risk applies to Forrest IIc (flat haematin spot) and III (clean base). Forrest IIa has 40–50% rebleeding risk — urgent endoscopic treatment is mandatory.",
+        "wrongC": "Adrenaline injection alone achieves haemostasis but has high rebleeding rates. All major RCTs show dual therapy is superior to injection alone for high-risk lesions (Ia, Ib, IIa).",
+        "wrongD": "90% rebleeding risk applies to Forrest Ia (arterial spurting). Forrest IIa (visible vessel, non-bleeding) has 40–50% rebleeding risk — not 90%. Primary endoscopic therapy is appropriate.",
+        "guideline": "NICE CG 141 (2012) and BSG guideline: dual endoscopic therapy for Forrest Ia, Ib, IIa. High-dose PPI infusion (80 mg bolus + 8 mg/h × 72h) after all Forrest Ia/Ib/IIa.",
+        "pearl": "Forrest classification rebleeding risks: Ia 90% → Ib 50% → IIa 40% → IIb 20% → IIc 5% → III <5%. Dual therapy for Ia, Ib, IIa. PPI infusion for all high-risk (Ia, Ib, IIa, IIb)."
+      }
+    },
+    {
+      "id": "D6-Q12",
+      "stem": "What is the first-line eradication regimen for H. pylori infection in a patient WITHOUT penicillin allergy, in a region with <15% clarithromycin resistance?",
+      "options": {
+        "A": "PPI (standard dose) + metronidazole + tetracycline for 7 days",
+        "B": "PPI (standard dose BD) + clarithromycin 500 mg BD + amoxicillin 1 g BD for 7–14 days",
+        "C": "PPI + bismuth subcitrate + metronidazole + tetracycline for 14 days",
+        "D": "PPI + clarithromycin + metronidazole for 7 days (penicillin-free triple therapy)"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Standard triple therapy remains first-line in regions with clarithromycin resistance <15%: PPI standard dose BD + clarithromycin 500 mg BD + amoxicillin 1 g BD for 7–14 days (14 days has superior eradication rates of 85–90% vs 75–80% for 7 days).",
+        "wrongA": "PPI + metronidazole + tetracycline is a component of bismuth-based quadruple therapy — used as second-line, not first-line.",
+        "wrongC": "Bismuth-based quadruple therapy (PBMT) is used as second-line after failed triple therapy, or as first-line in high clarithromycin resistance areas (>15–20%).",
+        "wrongD": "PPI + clarithromycin + metronidazole is an alternative triple therapy for penicillin-allergic patients — not preferred over amoxicillin-based regimen in non-allergic patients due to higher metronidazole resistance.",
+        "guideline": "NICE CG 184 (2014) and Maastricht VI consensus: triple therapy with clarithromycin/amoxicillin/PPI for 14 days is first-line in low-clarithromycin-resistance areas. Confirm eradication with urea breath test ≥4 weeks post-treatment.",
+        "pearl": "Eradication confirmation: urea breath test (UBT) or stool antigen test ≥4 weeks after completing antibiotics, ≥2 weeks off PPI. Serology remains positive years after eradication — cannot be used for confirmation."
+      }
+    },
+    {
+      "id": "D6-Q13",
+      "stem": "A Type IV hiatal hernia has been electively repaired. Two years later the patient presents with recurrent hernia on barium swallow. The HIATUS trial provides evidence regarding which technical aspect of repair?",
+      "options": {
+        "A": "Robotic versus laparoscopic approach to hiatal hernia repair",
+        "B": "Nissen versus Toupet fundoplication for anti-reflux control post-repair",
+        "C": "Mesh reinforcement of the crural repair reduces short-to-medium-term recurrence versus suture cruroplasty alone",
+        "D": "Collis gastroplasty necessity for shortened oesophagus"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — The HIATUS trial (meta-analysis of 12 RCTs, 1,230 patients) demonstrated that mesh reinforcement of the crural repair significantly reduced hernia recurrence at 12–24 months (OR 0.46) compared to primary suture cruroplasty alone. Biological mesh is preferred at the hiatus due to lower erosion risk compared to synthetic mesh.",
+        "wrongA": "Robotic vs laparoscopic approaches were not compared in the HIATUS trial.",
+        "wrongB": "Fundoplication type selection was not the subject of the HIATUS trial.",
+        "wrongD": "Collis gastroplasty for oesophageal shortening was not studied in the HIATUS trial — this is a separate surgical technique decision made intra-operatively.",
+        "trial": "HIATUS systematic review (Memon 2019, JAMA Surgery): mesh reinforcement reduces recurrence OR 0.46; biological mesh preferred; no significant difference in long-term complications.",
+        "pearl": "Large PEH repair: recurrence at 1 year = 15–30% with suture alone vs 5–15% with mesh. Biological mesh preferred to avoid synthetic mesh erosion into the oesophagus — a devastating late complication."
+      }
+    },
+    {
+      "id": "D6-Q14",
+      "stem": "A patient develops recurrent GERD symptoms 4 years after laparoscopic Nissen fundoplication. Barium swallow shows wrap herniation above the diaphragm. What are the indications for redo fundoplication in this setting?",
+      "options": {
+        "A": "Redo surgery is mandatory whenever a fundoplication fails — delay worsens surgical complexity",
+        "B": "Redo fundoplication is indicated when: hernia confirmed; symptoms are predominantly reflux/regurgitation not controlled by PPI; alternative structural cause of failure identified (slip, disruption, tight wrap causing dysphagia); patient fit for laparoscopic surgery",
+        "C": "Redo surgery is contraindicated — all failures should be managed with high-dose PPI lifelong",
+        "D": "Immediate reoperation for any wrap herniation above the diaphragm regardless of symptoms"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Redo anti-reflux surgery is indicated when the reason for failure is identifiable (wrap herniation, slippage, disruption), symptoms are significant and not adequately controlled by optimised PPI, and the patient is fit for reoperative laparoscopic surgery. Pre-operative evaluation requires HRM, pH monitoring, endoscopy, and barium swallow to characterise the failure. Redo surgery carries higher morbidity than primary LARS (conversion rate, oesophageal injury risk) and should be performed in high-volume centres.",
+        "wrongA": "Not all fundoplication failures require redo surgery — patients with mild symptoms controlled on PPI or those unfit for surgery may be managed medically.",
+        "wrongC": "High-dose PPI is appropriate for medically managed failures but redo surgery provides definitive correction of the anatomical failure in suitable candidates.",
+        "wrongD": "Wrap herniation above the diaphragm requires surgical correction only if symptomatic — asymptomatic anatomical recurrence may not require immediate intervention.",
+        "guideline": "SAGES guideline on revisional anti-reflux surgery: full pre-operative workup mandatory; redo surgery in high-volume centres; identify reason for failure before choosing revisional procedure.",
+        "pearl": "Reasons for Nissen failure: (1) Wrap herniation above diaphragm = crural defect; (2) Slipped Nissen = wrap around stomach (not GEJ); (3) Wrap disruption = aperistaltic oesophagus; (4) Tight wrap = dysphagia. Each failure mode has a different revisional approach."
+      }
+    },
+    {
+      "id": "D6-Q15",
+      "stem": "The LOTUS trial compared laparoscopic fundoplication to esomeprazole for GERD over 5 years. Which domain was better controlled by surgery?",
+      "options": {
+        "A": "Heartburn and acid regurgitation overall",
+        "B": "Regurgitation specifically — surgery was superior; heartburn was equivalent between arms",
+        "C": "Dysphagia — surgery eliminated dysphagia better than PPI",
+        "D": "All GERD symptoms — surgery was clearly superior at 5 years with 95% remission"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The LOTUS trial found overall GERD remission was similar between surgery (85%) and PPI (92%) at 5 years. However, in the surgical arm, regurgitation was significantly better controlled (5% vs 28% reporting troublesome regurgitation in PPI arm). Surgery was superior specifically for regurgitation; heartburn was equivalent.",
+        "wrongA": "Overall heartburn control was comparable between surgery and PPI — surgery was not superior for heartburn specifically.",
+        "wrongC": "Surgery was associated with more dysphagia than PPI (a side effect of the wrap). Surgery did not eliminate dysphagia — it introduced new dysphagia in some patients.",
+        "wrongD": "5-year remission: surgery 85% vs PPI 92% — not 95% for surgery, and PPI was numerically superior (though adjusted analysis showed non-significant difference).",
+        "trial": "LOTUS trial (Galmiche 2011, JAMA): regurgitation: surgery 5% vs PPI 28% (p<0.0001). Overall remission: surgery 85% vs PPI 92% (NS after adjustment).",
+        "pearl": "LOTUS clinical message: if the primary symptom is REGURGITATION (not heartburn) — surgery is significantly better. If heartburn-dominant — PPI is equally effective with less procedural risk. Patient symptom profile should drive the decision."
+      }
+    },
+    {
+      "id": "D6-Q16",
+      "stem": "Barrett's oesophagus with confirmed low-grade dysplasia (LGD) is found on surveillance endoscopy with Seattle protocol biopsies. A second expert pathologist confirms LGD. What is the correct management per current guidelines?",
+      "options": {
+        "A": "Repeat surveillance endoscopy in 3–5 years as per non-dysplastic BO",
+        "B": "Immediate oesophagectomy to prevent progression to adenocarcinoma",
+        "C": "Endoscopic eradication therapy (radiofrequency ablation) with follow-up surveillance",
+        "D": "Repeat endoscopy in 6 months without treatment to confirm persistence of LGD"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — Confirmed LGD (confirmed by 2 expert pathologists) is an indication for endoscopic eradication therapy. The ASPECT trial demonstrated that RFA reduces progression from LGD to HGD or adenocarcinoma from 26.5% to 1.5% and achieves CE-IM in >90%. Current BSG and ESGE guidelines recommend RFA as standard care for confirmed LGD.",
+        "wrongA": "3–5 year surveillance is for non-dysplastic BO — not appropriate for confirmed LGD which has a 20–25% risk of progression to HGD/cancer over 5 years without treatment.",
+        "wrongB": "Oesophagectomy is not appropriate for LGD — it carries 2–5% mortality and significant morbidity. Endoscopic treatment achieves equivalent cancer prevention with far lower risk.",
+        "wrongD": "Repeating endoscopy in 6 months without treatment was the surveillance interval in the pre-RFA era for unconfirmed LGD. For confirmed LGD (2 expert pathologists), treatment — not further surveillance — is indicated per current guidelines.",
+        "trial": "ASPECT trial (Phoa 2014, JAMA): RFA for LGD — disease progression 1.5% vs 26.5% surveillance. NNT = 4 to prevent one progression event.",
+        "pearl": "LGD management depends on confirmation: single-pathologist LGD = repeat endoscopy after 2 months high-dose PPI, rebiopsy. Confirmed LGD (2 expert pathologists) = RFA. This is the current evidence-based approach."
+      }
+    },
+    {
+      "id": "D6-Q17",
+      "stem": "The Eckardt score is used to assess achalasia symptom severity. A post-treatment score of ≤3 indicates what?",
+      "options": {
+        "A": "Complete cure — no further follow-up required",
+        "B": "Clinical success — acceptable symptom control achieved by treatment",
+        "C": "Partial response — further treatment required",
+        "D": "Treatment failure — repeat procedure indicated within 3 months"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — An Eckardt score ≤3 after treatment for achalasia defines clinical success. The Eckardt score assesses dysphagia, regurgitation, retrosternal pain, and weight loss (each 0–3, total 0–12). A post-treatment score ≤3 indicates that symptoms are at an acceptable level, though not necessarily zero. This threshold is used in all major achalasia clinical trials as the primary outcome.",
+        "wrongA": "Eckardt ≤3 does not mean complete cure — it means acceptable symptom control. Long-term surveillance (repeat HRM, pH monitoring, symptom assessment) is still recommended at 1, 5, and 10 years.",
+        "wrongC": "Partial response would be defined as Eckardt 4–6 (some improvement but not to the success threshold). Eckardt ≤3 is defined as clinical success, not partial response.",
+        "wrongD": "Treatment failure is defined as Eckardt score >3 (persistent or recurrent symptoms at pre-treatment levels). An Eckardt score of ≤3 does NOT indicate treatment failure.",
+        "guideline": "Chicago Classification for Achalasia uses Eckardt ≤3 as the standard primary outcome threshold in trials (including ESCAPE trial and multicentre achalasia registries).",
+        "pearl": "Eckardt score = 4 items (dysphagia, regurgitation, chest pain, weight loss), each scored 0–3, total 0–12. Score ≤3 = clinical success. Score 4–12 = clinical failure requiring further treatment."
+      }
+    },
+    {
+      "id": "D6-Q18",
+      "stem": "Non-dysplastic Barrett's oesophagus (Prague C2M4) is found in a 55-year-old man on surveillance endoscopy. His previous endoscopy 3 years ago also showed non-dysplastic BO. Multiple biopsies confirm no dysplasia. What is the next surveillance interval?",
+      "options": {
+        "A": "12 months",
+        "B": "2 years",
+        "C": "3–5 years",
+        "D": "10 years"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — Non-dysplastic Barrett's oesophagus requires surveillance endoscopy every 3–5 years per BSG (2014) and ESGE (2017) guidelines. The interval is based on segment length: <3 cm (C0M3) = every 5 years; ≥3 cm (C3 or more) = every 3 years. This patient (C2M4) has a maximal extent of 4 cm but circumferential of only 2 cm — the 3-year interval would apply per most guidelines.",
+        "wrongA": "12 months is the surveillance interval for indefinite for dysplasia (IND) or LGD — not non-dysplastic BO.",
+        "wrongB": "2 years is not a standard surveillance interval in either BSG or ESGE guidelines for non-dysplastic BO.",
+        "wrongD": "10 years would represent under-surveillance for BO with 0.3–0.5% annual cancer risk and is not recommended.",
+        "guideline": "BSG Barrett's guidelines (2014): Non-dysplastic BO: <3 cm = 5 years; ≥3 cm = 3 years. ESGE (2017): BO <1 cm = no surveillance; 1–3 cm = 5 years; 3–10 cm = 3 years.",
+        "pearl": "Surveillance interval depends on segment length (C and M classifications) and dysplasia grade. Memorise: No dysplasia = 3–5 years; IND = 6–12 months; LGD confirmed = RFA; HGD = immediate EMR + RFA."
+      }
+    },
+    {
+      "id": "D6-Q19",
+      "stem": "A patient has a DeMeester score of 32 on pH-metry performed off PPI. The symptom correlation index is 75%. GERD-HRQL score is 22/50. High-resolution manometry shows normal motility (DCI 850 mmHg·cm·s, <20% failed sequences). Which anti-reflux procedure is most appropriate?",
+      "options": {
+        "A": "Toupet 270° fundoplication — all patients with GERD benefit from partial wrap",
+        "B": "Nissen 360° fundoplication — normal motility supports a complete wrap with maximum anti-reflux effect",
+        "C": "Dor 180° fundoplication — least invasive option",
+        "D": "Linx magnetic sphincter augmentation — preferred when HRM shows normal IRL"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — This patient has confirmed pathological GERD (DeMeester 32, well above threshold of 14.72), strong symptom correlation (75% SCI), significant QoL impairment, and NORMAL oesophageal motility (DCI 850, <20% failed sequences). Normal motility supports a 360° Nissen fundoplication, which provides the most durable anti-reflux effect. Toupet is reserved for impaired motility.",
+        "wrongA": "Toupet is specifically indicated for impaired motility to reduce dysphagia risk. With normal motility, Nissen provides superior long-term acid control.",
+        "wrongC": "Dor (anterior 180°) is used after Heller myotomy for achalasia, not for primary GERD. Its anti-reflux efficacy is insufficient for primary GERD treatment.",
+        "wrongD": "Linx (magnetic sphincter augmentation) is an alternative for mild-moderate GERD with normal anatomy. It is not specifically indicated based on 'normal IRL' — IRL (integrated relaxation pressure) is an achalasia parameter, not a GERD parameter.",
+        "guideline": "Pre-operative HRM: normal motility → Nissen 360°. Impaired motility → Toupet 270° or Dor 180°. This is fundamental to anti-reflux surgical decision-making.",
+        "pearl": "The single most important manometry finding guiding fundoplication choice: peristaltic reserve (% successful sequences + DCI amplitude). Normal = Nissen. Impaired (>50% failed or DCI <450) = Toupet."
+      }
+    },
+    {
+      "id": "D6-Q20",
+      "stem": "A patient presents with confirmed achalasia Type I (megaoesophagus, sigmoid oesophagus, Eckardt score 9). Manometry shows IRP 28 mmHg, 100% failed peristalsis, no pan-oesophageal pressurisation. What treatment approach is most appropriate?",
+      "options": {
+        "A": "Pneumatic dilation alone as first-line treatment — least invasive option",
+        "B": "POEM — superior for all types including Type I megaoesophagus",
+        "C": "Laparoscopic Heller myotomy + Dor fundoplication with or without prior oesophageal emptying; oesophagectomy if end-stage sigmoid megaoesophagus",
+        "D": "Botulinum toxin injection into the LOS — safe and effective long-term"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — Type I achalasia (particularly with sigmoid megaoesophagus) has the most advanced structural changes. For classic Type I without sigmoid deformity, Heller + Dor or POEM are appropriate. For end-stage sigmoid megaoesophagus (massively dilated, tortuous oesophagus failing all other treatments), oesophagectomy with gastric pull-up is the definitive treatment. POEM and Heller are still attempted first in sigmoid oesophagus without end-stage changes.",
+        "wrongA": "Pneumatic dilation is less effective for Type I achalasia (lowest response rates among subtypes). It is less durable than surgery. It remains an option for patients unfit for surgery.",
+        "wrongB": "POEM is effective for all types including Type I, but for sigmoid megaoesophagus, outcomes are less predictable and oesophagectomy should be planned if POEM/Heller fail.",
+        "wrongD": "Botulinum toxin LOS injection is only a temporising measure — efficacy lasts 3–6 months, loses effect with repeated injections, and increases fibrosis making subsequent myotomy more difficult. It is not appropriate first-line for Type I achalasia.",
+        "guideline": "ESGE and SAGES guidelines: Heller + Dor or POEM are equivalent first-line surgical options for Types I and II. For end-stage sigmoid megaoesophagus (Eckardt 9, failed prior treatment, massively dilated): consider oesophagectomy.",
+        "pearl": "Type I achalasia treatment decision tree: (1) Heller + Dor or POEM if not sigmoid/end-stage. (2) If sigmoid megaoesophagus without end-stage features — POEM/Heller still attempted. (3) If true end-stage sigmoid megaoesophagus, failed multiple treatments — oesophagectomy with gastric pull-up."
+      }
+    }
+  ]
+}

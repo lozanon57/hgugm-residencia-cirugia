@@ -1,0 +1,60 @@
+<svg viewBox="0 0 500 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PICO Framework">
+  <title>PICO Framework for Clinical Research Questions</title>
+  <defs>
+    <style>text { font-family: system-ui, -apple-system, sans-serif; }</style>
+  </defs>
+
+  <rect width="500" height="380" fill="#FAFBFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="250" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#1B3A6B">PICO Framework</text>
+  <text x="250" y="46" text-anchor="middle" font-size="11" fill="#7A8CA0">Structuring clinical research questions</text>
+
+  <!-- Central label -->
+  <ellipse cx="250" cy="185" rx="52" ry="30" fill="white" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="250" y="181" text-anchor="middle" font-size="10" font-weight="700" fill="#1A1A2E">Research</text>
+  <text x="250" y="195" text-anchor="middle" font-size="10" font-weight="700" fill="#1A1A2E">Question</text>
+
+  <!-- Connector lines -->
+  <line x1="110" y1="130" x2="200" y2="168" stroke="#CBD5E1" stroke-width="2"/>
+  <line x1="390" y1="130" x2="300" y2="168" stroke="#CBD5E1" stroke-width="2"/>
+  <line x1="110" y1="240" x2="200" y2="202" stroke="#CBD5E1" stroke-width="2"/>
+  <line x1="390" y1="240" x2="300" y2="202" stroke="#CBD5E1" stroke-width="2"/>
+
+  <!-- P — Population (navy, top-left) -->
+  <rect x="20" y="72" width="170" height="110" rx="12" fill="#1B3A6B"/>
+  <text x="105" y="100" text-anchor="middle" font-size="28" font-weight="700" fill="white">P</text>
+  <text x="105" y="120" text-anchor="middle" font-size="13" font-weight="700" fill="rgba(255,255,255,0.9)">Population</text>
+  <text x="105" y="137" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.75)">Who are the patients?</text>
+  <text x="105" y="150" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.7)">Age, condition, setting</text>
+  <text x="105" y="163" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.6)" font-style="italic">e.g. Adults with cT3 rectal cancer</text>
+
+  <!-- I — Intervention (teal, top-right) -->
+  <rect x="310" y="72" width="170" height="110" rx="12" fill="#0D6E6E"/>
+  <text x="395" y="100" text-anchor="middle" font-size="28" font-weight="700" fill="white">I</text>
+  <text x="395" y="120" text-anchor="middle" font-size="13" font-weight="700" fill="rgba(255,255,255,0.9)">Intervention</text>
+  <text x="395" y="137" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.75)">What is being tested?</text>
+  <text x="395" y="150" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.7)">Treatment, procedure, exposure</text>
+  <text x="395" y="163" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.6)" font-style="italic">e.g. Laparoscopic TME</text>
+
+  <!-- C — Comparison (gold, bottom-left) -->
+  <rect x="20" y="203" width="170" height="110" rx="12" fill="#C8933A"/>
+  <text x="105" y="231" text-anchor="middle" font-size="28" font-weight="700" fill="white">C</text>
+  <text x="105" y="251" text-anchor="middle" font-size="13" font-weight="700" fill="rgba(255,255,255,0.9)">Comparison</text>
+  <text x="105" y="268" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.75)">What is the alternative?</text>
+  <text x="105" y="281" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.7)">Control, placebo, standard care</text>
+  <text x="105" y="294" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.6)" font-style="italic">e.g. Open TME</text>
+
+  <!-- O — Outcome (green, bottom-right) -->
+  <rect x="310" y="203" width="170" height="110" rx="12" fill="#2E7D32"/>
+  <text x="395" y="231" text-anchor="middle" font-size="28" font-weight="700" fill="white">O</text>
+  <text x="395" y="251" text-anchor="middle" font-size="13" font-weight="700" fill="rgba(255,255,255,0.9)">Outcome</text>
+  <text x="395" y="268" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.75)">What are you measuring?</text>
+  <text x="395" y="281" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.7)">Primary &amp; secondary endpoints</text>
+  <text x="395" y="294" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.6)" font-style="italic">e.g. 3-yr local recurrence rate</text>
+
+  <!-- Example question box -->
+  <rect x="20" y="328" width="460" height="40" rx="8" fill="rgba(27,58,107,0.07)" stroke="#1B3A6B" stroke-width="1.5"/>
+  <text x="250" y="343" text-anchor="middle" font-size="10" font-weight="700" fill="#1B3A6B">Example Question</text>
+  <text x="250" y="359" text-anchor="middle" font-size="9" fill="#444">"In adults with cT3 rectal cancer (P), does laparoscopic TME (I) versus open TME (C) reduce 3-yr local recurrence (O)?"</text>
+</svg>

@@ -1,0 +1,776 @@
+{
+  "id": "D1",
+  "title": "Biliary Surgery",
+  "subtitle": "General Surgery — Acute Cholecystitis, Choledocholithiasis & Biliary Emergencies",
+  "block": "D",
+  "block_name": "Benign Digestive Surgery",
+  "level": "PGY1-2",
+  "reading_time_min": 40,
+  "guidelines_version": "Tokyo Guidelines 2018 · WSES Acute Cholecystitis 2020 · ESGE 2019",
+  "sections": [
+    {
+      "id": "D1-S1",
+      "title": "Biliary Anatomy & Physiology",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The biliary system transports bile from hepatocytes to the duodenum. The liver produces **500–1000 mL of bile per day**, composed of bile salts (67%), phospholipids (22%), cholesterol (4%), bilirubin, water, and electrolytes. Bile salts emulsify dietary fats and facilitate absorption of fat-soluble vitamins (A, D, E, K)."
+        },
+        {
+          "type": "text",
+          "content": "The **extrahepatic biliary tree** consists of the right and left hepatic ducts, which join at the **hepatic confluence (hilar plate)** to form the common hepatic duct (CHD). The cystic duct joins the CHD to form the **common bile duct (CBD)**, which courses posterior to the first part of the duodenum, passes through the head of the pancreas, and drains into the second part of the duodenum via the **ampulla of Vater**, controlled by the **sphincter of Oddi**. The normal CBD diameter is ≤6 mm; after cholecystectomy it may dilate to 10 mm without pathological significance."
+        },
+        {
+          "type": "text",
+          "content": "**Calot's triangle** is bounded superiorly by the inferior surface of the liver, medially by the common hepatic duct, and inferiorly by the cystic duct. The **cystic artery** (usually a branch of the right hepatic artery) runs within this triangle. Safe dissection in Calot's triangle is the cornerstone of cholecystectomy."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Critical View of Safety (CVS) — Strasberg Definition",
+          "content": "Three criteria must ALL be met before clipping: (1) Hepatocystic triangle is cleared of fat and fibrous tissue. (2) The lowest third of the gallbladder is separated from the liver bed. (3) Only two structures are seen entering the gallbladder — the cystic duct and cystic artery. The CVS is the most effective strategy to prevent bile duct injury during laparoscopic cholecystectomy."
+        },
+        {
+          "type": "table",
+          "title": "Anatomical Variants of the Biliary Tree — Clinical Relevance",
+          "headers": ["Variant", "Frequency", "Risk", "Management"],
+          "rows": [
+            ["Aberrant right posterior sectoral duct draining into CHD", "2–4%", "Inadvertent ligation → right posterior sector ischemia/biloma", "IOC or MRCP pre-op; CVS confirmation"],
+            ["Cystic duct joining right hepatic duct", "1–2%", "Right hepatic duct misidentified as cystic duct", "Always trace cystic duct to gallbladder junction"],
+            ["Mirizzi syndrome Type I (external CBD compression by cystic duct stone)", "0.1–0.7%", "Obstructive jaundice, misidentified anatomy", "MRCP; subtotal cholecystectomy or open approach"],
+            ["Mirizzi syndrome Type II (cholecystocholedochal fistula <33% CBD circumference)", "0.1–0.7%", "CBD injury if aggressive dissection", "Subtotal cholecystectomy + T-tube or hepaticojejunostomy"],
+            ["Low union of cystic duct (parallel to CBD)", "15–20%", "Cystic duct clip may encroach on CBD", "Dissect cystic duct close to gallbladder; IOC"],
+            ["Accessory hepatic duct (duct of Luschka)", "30% minor ducts", "Bile leak post-cholecystectomy", "Clip or suture any visible duct in gallbladder fossa"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Mirizzi Syndrome",
+          "content": "Mirizzi syndrome is external compression of the CBD by a large stone impacted in Hartmann's pouch or cystic duct. Type I: external compression only. Type II–IV: progressive erosion into the CBD (cholecystocholedochal fistula) involving <33%, 33–66%, and >66% of CBD circumference respectively. Type V adds cholecystoenteric fistula. Pre-operative MRCP is mandatory. Laparoscopic approach carries high CBD injury risk in Types II–IV; open or subtotal cholecystectomy preferred."
+        }
+      ]
+    },
+    {
+      "id": "D1-S2",
+      "title": "Acute Cholecystitis — Diagnosis & Tokyo TG18 Severity Grading",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Acute cholecystitis results from obstruction of the cystic duct, most commonly by a gallstone (95% calculous; 5% acalculous). Obstruction leads to bile stasis, mucosal inflammation, bacterial invasion (E. coli, Klebsiella, Enterococcus), and progressive transmural inflammation. **Gangrenous cholecystitis** (15%) and **emphysematous cholecystitis** (1%, associated with Clostridium perfringens) represent severe forms with high perforation risk."
+        },
+        {
+          "type": "table",
+          "title": "Tokyo Guidelines TG18 — Diagnostic Criteria for Acute Cholecystitis",
+          "headers": ["Category", "Criteria"],
+          "rows": [
+            ["A. Local signs of inflammation", "Murphy's sign OR right upper quadrant mass/pain/tenderness"],
+            ["B. Systemic signs of inflammation", "Fever >38°C OR elevated CRP OR elevated WBC >10,000/μL"],
+            ["C. Imaging findings", "Ultrasound/CT/MRI: thickened gallbladder wall (>4mm), pericholecystic fluid, sonographic Murphy's sign, gallstones"],
+            ["Suspected diagnosis", "One criterion from A + one from B"],
+            ["Definite diagnosis", "One from A + one from B + one from C"]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Tokyo TG18 — Severity Grading of Acute Cholecystitis",
+          "headers": ["Grade", "Definition", "Management"],
+          "rows": [
+            ["Grade I (Mild)", "Does not meet Grade II/III criteria; acute cholecystitis in a healthy patient with mild local inflammation", "Early laparoscopic cholecystectomy within 72h (preferred)"],
+            ["Grade II (Moderate)", "WBC >18,000; palpable tender mass RUQ; duration >72h; marked local inflammation (gangrenous, pericholecystic abscess, hepatic abscess, biliary peritonitis, emphysematous)", "Early laparoscopic cholecystectomy OR delayed (6–8 wk) after conservative treatment if high surgical risk"],
+            ["Grade III (Severe)", "Organ dysfunction: cardiovascular (hypotension requiring vasopressors), neurological (altered consciousness), respiratory (PaO2/FiO2 <300), renal (oliguria, Cr >2.0), hepatic (PT-INR >1.5), hematological (platelets <100,000)", "Urgent organ support; percutaneous cholecystostomy in high surgical risk; early cholecystectomy if surgical risk acceptable"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "**Ultrasound** is the first-line imaging modality (sensitivity 88%, specificity 80%): gallstones, wall thickening (>4 mm), pericholecystic fluid, sonographic Murphy's sign. **CT abdomen/pelvis** (IV contrast) is indicated when US is non-diagnostic or complications are suspected (perforation, abscess, emphysematous cholecystitis — showing intramural gas). **HIDA scan (hepatobiliary iminodiacetic acid scintigraphy)** has sensitivity 97%, specificity 90% for acute cholecystitis; non-filling of gallbladder at 4h = positive. Reserved for equivocal cases."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Acalculous Cholecystitis",
+          "content": "Occurs in critically ill patients (ICU, post-major surgery, burns, total parenteral nutrition, trauma). Pathophysiology: bile stasis + ischemia. Higher rate of gangrene and perforation than calculous cholecystitis. US shows wall thickening, sludge, pericholecystic fluid without stones. Management: percutaneous cholecystostomy is preferred in unstable patients; cholecystectomy when patient stabilizes."
+        }
+      ]
+    },
+    {
+      "id": "D1-S3",
+      "title": "Laparoscopic Cholecystectomy — Technique & Complications",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Laparoscopic cholecystectomy (LC) is the gold standard for symptomatic gallstone disease. The standard **4-port technique** uses: 10–12 mm umbilical port (camera), 5 mm epigastric port (liver retraction), 5 mm right subcostal working port, and 5 mm lateral right subcostal port (fundus retraction). The **critical view of safety (CVS)** must be achieved and documented photographically before any structure is clipped or divided."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "SAGES CVS Guidelines 2023",
+          "content": "The Society of American Gastrointestinal and Endoscopic Surgeons mandates: (1) CVS must be achieved and documented in every cholecystectomy. (2) When CVS cannot be safely achieved, the surgeon should use an alternative bail-out strategy: intraoperative cholangiography, conversion to open, or subtotal cholecystectomy. (3) Photo documentation of CVS is recommended as standard of care."
+        },
+        {
+          "type": "table",
+          "title": "Subtotal Cholecystectomy — Indications, Techniques & Outcomes",
+          "headers": ["Item", "Details"],
+          "rows": [
+            ["Indications", "Frozen Calot's triangle; severe inflammation/fibrosis; cirrhosis (portal hypertension); Mirizzi syndrome II–IV; gangrenous cholecystitis with posterior wall adherent to liver"],
+            ["Fenestrating technique", "Gallbladder opened, stones evacuated, posterior wall left adherent to liver bed; cystic duct orifice closed from inside; drain placed"],
+            ["Reconstituting technique", "Gallbladder transected below Hartmann's pouch; anterior wall closed; posterior wall left; cystic duct stump oversewn"],
+            ["Bile leak rate", "15–20% (higher than standard LC); managed with ERCP + stent in most cases"],
+            ["Long-term outcomes", "Acceptable; remnant gallbladder can cause recurrent symptoms (5–10%)"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "**Conversion to open** is not a complication but a sound surgical decision. Rates: elective 2–5%; acute cholecystitis up to 15%. Indications: inability to achieve CVS, uncontrolled bleeding, bowel injury, suspected malignancy. **Dome-down approach**: dissection begins at the fundus and proceeds toward the cystic duct when Calot's triangle anatomy is obscured — reduces CBD injury risk."
+        },
+        {
+          "type": "text",
+          "content": "**Single-incision laparoscopic cholecystectomy (SILC)** uses a single umbilical port. Systematic reviews show comparable safety to 4-port LC but longer operating time, higher hernia rate at extraction site (4 vs 1%), and no superiority in pain scores. Not recommended as routine practice; appropriate for highly selected patients in experienced hands."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Early vs Delayed Cholecystectomy in Acute Cholecystitis",
+          "content": "Multiple RCTs and meta-analyses confirm early LC (within 72h of symptom onset) is superior to delayed LC (6–8 weeks): shorter total hospital stay, no increase in complications, conversion rate, or bile duct injuries. TG18 recommends early LC for Grade I and II cholecystitis when the surgical team is experienced. For Grade III, percutaneous cholecystostomy is a bridge to definitive surgery."
+        }
+      ]
+    },
+    {
+      "id": "D1-S4",
+      "title": "Choledocholithiasis — Diagnosis & Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Choledocholithiasis** is present in 10–15% of patients with symptomatic cholelithiasis. Stones in the CBD cause biliary obstruction, jaundice, pancreatitis, and cholangitis. Clinical presentation: right upper quadrant pain, jaundice (conjugated hyperbilirubinemia), elevated alkaline phosphatase (ALP) and gamma-GT, with variable elevation of transaminases."
+        },
+        {
+          "type": "table",
+          "title": "ESGE/ASGE Risk Stratification for Choledocholithiasis (Pre-operative)",
+          "headers": ["Risk Category", "Criteria", "Recommendation"],
+          "rows": [
+            ["High (>50% probability)", "CBD stone on US/CT/MRCP OR bilirubin >4 mg/dL + dilated CBD (>6 mm) OR ascending cholangitis OR gallstone pancreatitis with bilirubin >4 mg/dL", "Proceed to ERCP"],
+            ["Intermediate (10–50%)", "CBD dilation (>6 mm) on US OR bilirubin 1.8–4 mg/dL OR abnormal liver function tests", "EUS or MRCP to confirm; if positive → ERCP"],
+            ["Low (<10%)", "None of the above criteria", "Proceed to LC; intraoperative cholangiography optional"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "**MRCP (magnetic resonance cholangiopancreatography)** has sensitivity 85–92% and specificity 93–97% for CBD stones; non-invasive, no radiation. **EUS (endoscopic ultrasound)** has sensitivity 97% and specificity 96%; preferred when stone <5 mm (may be missed on MRCP) or when MRCP is inconclusive. EUS can proceed directly to ERCP in the same session."
+        },
+        {
+          "type": "table",
+          "title": "Timing Strategies for CBD Stone Management",
+          "headers": ["Strategy", "Approach", "Advantages", "Disadvantages"],
+          "rows": [
+            ["Pre-operative ERCP → LC", "ERCP clears CBD; LC performed separately (same admission or within days)", "Highest CBD clearance rate; standard approach for high-risk patients", "Two procedures; risk of post-ERCP pancreatitis (3–5%)"],
+            ["Simultaneous LC + IOC + LCBDE", "LC with intraoperative cholangiography; if stones found → laparoscopic common bile duct exploration", "Single anesthetic; avoids ERCP; IOC detects unsuspected stones", "Requires LCBDE skills; longer OR time"],
+            ["LC + IOC → post-operative ERCP", "LC performed; IOC used; positive IOC → ERCP postoperatively (within 24–48h)", "Avoids LCBDE learning curve; flexible", "Second intervention; retained stone risk"],
+            ["LC without IOC", "LC only; CBD stones detected if symptomatic postoperatively", "Simplest; acceptable if low risk", "Missed stones; not appropriate for intermediate/high risk"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Intraoperative Cholangiography (IOC) Technique",
+          "content": "IOC is performed via cannulation of the cystic duct after partial transection. Fluoroscopy confirms: (1) free flow of contrast into the duodenum, (2) visualization of right and left hepatic ducts, (3) no filling defects (stones), (4) correct CBD anatomy before clipping. IOC reduces bile duct injury rate by 50–70% in some series. SAGES recommends IOC or fluoroscopic dissection when CVS cannot be achieved."
+        },
+        {
+          "type": "text",
+          "content": "**Laparoscopic Common Bile Duct Exploration (LCBDE)** achieves CBD clearance in 85–95% of cases. Transcystic approach (for stones <8 mm, favorable cystic duct anatomy): basket or balloon extraction, Dormia basket, or electrohydraulic lithotripsy. Transcholedochal approach (choledochotomy): for larger stones or failed transcystic; requires T-tube closure or primary closure over a biliary stent. Outcomes equivalent to ERCP for single-stage management."
+        }
+      ]
+    },
+    {
+      "id": "D1-S5",
+      "title": "Bile Duct Injury — Classification, Management & Reconstruction",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Bile duct injury (BDI) occurs in 0.3–0.7% of laparoscopic cholecystectomies (vs 0.1–0.2% for open). BDI is associated with significant morbidity, impaired quality of life, long-term biliary strictures, secondary biliary cirrhosis, and medicolegal consequences. The most common mechanism is misidentification of the CBD as the cystic duct (classical laparoscopic injury)."
+        },
+        {
+          "type": "table",
+          "title": "Strasberg Classification of Bile Duct Injuries",
+          "headers": ["Class", "Injury Type", "Management"],
+          "rows": [
+            ["A", "Cystic duct leak or leak from small ducts in liver bed (duct of Luschka)", "ERCP + biliary stent ± sphincterotomy; drain if collection"],
+            ["B", "Occlusion of aberrant right hepatic duct (no leak)", "Often asymptomatic; if bile duct atrophy → observation; if obstruction → hepaticojejunostomy"],
+            ["C", "Transection of aberrant right hepatic duct (leak)", "ERCP usually fails; surgical repair required; hepaticojejunostomy"],
+            ["D", "Lateral injury to CHD/CBD without transection", "Primary repair over T-tube if recognized intraoperatively; delayed → hepaticojejunostomy"],
+            ["E1", "Transection of CHD/CBD >2 cm from confluence (Bismuth I)", "Hepaticojejunostomy"],
+            ["E2", "Transection <2 cm from confluence (Bismuth II)", "Hepaticojejunostomy"],
+            ["E3", "Transection at confluence (Bismuth III)", "Hepaticojejunostomy; high technical demand"],
+            ["E4", "Destruction of right/left hepatic duct separation (Bismuth IV)", "Extended hepaticojejunostomy; liver resection occasionally needed; refer to HPB centre"],
+            ["E5", "Combined right sectoral duct injury + CHD injury", "Refer to specialized HPB centre; complex reconstruction"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Immediate vs Delayed Repair of Bile Duct Injuries",
+          "content": "If recognized INTRA-OPERATIVELY: immediate repair by an experienced hepatobiliary surgeon is acceptable for simple injuries (primary repair over T-tube for D-type). For complex injuries (E1–E5), do NOT attempt repair — place drains, transfer to HPB centre within 48–72h. If recognized POST-OPERATIVELY: do NOT rush to operate. Control sepsis, drain biloma/peritonitis (PTC or IR drainage), optimize nutrition, allow 6–8 weeks for inflammation to resolve, then perform hepaticojejunostomy (Roux-en-Y). Overall best outcomes achieved at >6 weeks after injury."
+        },
+        {
+          "type": "table",
+          "title": "Bismuth Classification of Biliary Strictures",
+          "headers": ["Type", "Level of Stricture"],
+          "rows": [
+            ["I", "Low CHD stricture; >2 cm hepatic duct stump"],
+            ["II", "Middle CHD stricture; <2 cm hepatic duct stump"],
+            ["III", "Hilar stricture; hepatic duct confluence preserved"],
+            ["IV", "Destruction of hilar confluence; right and left ducts separated"],
+            ["V", "Involves aberrant right sectoral duct alone or with confluence"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "**Hepaticojejunostomy (Roux-en-Y)** is the gold standard reconstruction for significant BDI. Key principles: tension-free anastomosis to healthy bile duct mucosa, adequate Roux limb length (≥60 cm), mucosa-to-mucosa apposition with absorbable sutures, no routine stenting for simple injuries. Long-term stricture rate after hepaticojejunostomy: 10–30% requiring re-intervention. Endoscopic or percutaneous balloon dilation before reoperation."
+        }
+      ]
+    },
+    {
+      "id": "D1-S6",
+      "title": "Acute Cholangitis — Diagnosis & Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Acute cholangitis results from bile duct obstruction (most commonly choledocholithiasis, followed by malignant stricture, biliary stent occlusion) combined with bacterial infection. Biliary hypertension drives bacteremia and endotoxemia. Most common organisms: E. coli, Klebsiella, Enterococcus, Bacteroides."
+        },
+        {
+          "type": "table",
+          "title": "Classic Presentations of Acute Cholangitis",
+          "headers": ["Triad/Pentad", "Components", "Significance"],
+          "rows": [
+            ["Charcot's Triad (1877)", "Fever/rigors + Jaundice + RUQ pain", "Present in ~70% of acute cholangitis; diagnostic sensitivity 72%"],
+            ["Reynolds' Pentad (1959)", "Charcot's triad + Hypotension + Altered mental status (confusion)", "Indicates Grade III (severe) cholangitis; high mortality; requires emergency decompression"]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Tokyo TG18 — Severity Grading of Acute Cholangitis",
+          "headers": ["Grade", "Criteria", "Management"],
+          "rows": [
+            ["Grade I (Mild)", "Does not meet Grade II/III criteria; responds to initial medical treatment", "Antibiotics; ERCP within 24–48h; cholecystectomy during same admission if indicated"],
+            ["Grade II (Moderate)", "WBC >12,000 or <4,000; fever >39°C; age >75; bilirubin >5 mg/dL; hypoalbuminemia; any two of five", "Antibiotics + urgent ERCP (within 24h); ICU if deteriorating"],
+            ["Grade III (Severe)", "Organ dysfunction (cardiovascular: systolic BP <90; neurological: altered consciousness; respiratory: PaO2/FiO2 <300; renal: Cr >2.0; hepatic: PT-INR >1.5; hematological: platelets <100,000)", "Emergency ERCP (within 12h); ICU; organ support; vasopressors"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "Antibiotic Selection in Acute Cholangitis",
+          "content": "Community-acquired: piperacillin-tazobactam 4.5g IV q8h OR ciprofloxacin + metronidazole. Healthcare-associated/severe: carbapenem (meropenem 1g IV q8h) ± vancomycin if MRSA risk. Duration: Grade I — 3–5 days after source control; Grade II/III — 5–7 days. De-escalate based on culture sensitivity results. Biliary decompression (ERCP with stone extraction ± sphincterotomy) is the definitive treatment — antibiotics alone are insufficient."
+        }
+      ]
+    },
+    {
+      "id": "D1-S7",
+      "title": "Gallstone Pancreatitis — Management & Surgical Timing",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Gallstones are the leading cause of acute pancreatitis in the Western world (40–50%). Small stones (<5 mm) and microlithiasis carry the highest risk of transient ampullary obstruction. Pathophysiology: transient pancreatic duct obstruction → acinar cell injury → activation of pancreatic enzymes → auto-digestion → systemic inflammatory response. Severity follows the **Revised Atlanta Classification**: mild (no organ failure, no local complications), moderately severe (transient organ failure <48h or local complications), severe (persistent organ failure >48h)."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "PONCHO Trial",
+          "citation": "da Costa DW, et al. Same-admission versus interval cholecystectomy for mild gallstone pancreatitis (PONCHO): a multicentre randomised controlled trial. Lancet. 2015;386(10000):1261-1268.",
+          "population": "266 patients with mild gallstone pancreatitis; multicentre RCT (Netherlands)",
+          "intervention": "Same-admission cholecystectomy (within index admission, after clinical recovery) vs interval cholecystectomy (25–30 days after discharge)",
+          "result": "Same-admission LC significantly reduced recurrent gallstone-related complications (4% vs 17%; NNT=8) with no increase in intraoperative complications, conversion rate, or procedure difficulty. Median time to cholecystectomy: 3 days (same-admission) vs 6 weeks (interval).",
+          "practice_change": "Same-admission cholecystectomy is now the standard of care for mild gallstone pancreatitis. Interval approach only acceptable if local resources unavailable or patient medically unfit during index admission."
+        },
+        {
+          "type": "table",
+          "title": "ERCP Indications in Gallstone Pancreatitis",
+          "headers": ["Indication", "Timing", "Evidence"],
+          "rows": [
+            ["Concomitant acute cholangitis", "Emergency ERCP <12h", "Strong; TG18 Grade III cholangitis"],
+            ["Persistent CBD obstruction (jaundice not resolving at 48–72h, worsening LFTs)", "Urgent ERCP within 24–72h", "Moderate; suggests persistent stone"],
+            ["Severe pancreatitis WITHOUT cholangitis", "ERCP does NOT improve outcomes", "IMRIE, NIECE trials — no benefit of routine early ERCP in severe pancreatitis without cholangitis"],
+            ["Mild pancreatitis without jaundice/cholangitis", "ERCP NOT indicated; LC clears stones", "Strong evidence; perform same-admission LC"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "WSES Classification — Gallstone Pancreatitis Severity",
+          "content": "The World Society of Emergency Surgery classifies gallstone pancreatitis as: Mild (Revised Atlanta mild; APACHE II <8; BISAP <2; Ranson <3) — same-admission LC. Moderate (transient organ failure or local complications) — LC same admission if patient recovers clinically; consider interval if complications ongoing. Severe (persistent organ failure; pancreatic necrosis) — definitive biliary surgery deferred 6–8 weeks after resolution of acute phase; interval cholecystectomy after full recovery."
+        },
+        {
+          "type": "text",
+          "content": "**Intraoperative cholangiography (IOC)** is recommended during same-admission LC for gallstone pancreatitis to confirm CBD clearance. If stones found on IOC: transcystic stone extraction or post-operative ERCP. **MRCP** pre-operatively is indicated if persistent jaundice or dilated CBD suggests ongoing CBD obstruction. Same-admission ERCP + sphincterotomy can serve as a definitive bridge to LC in patients deemed too high-risk for immediate surgery."
+        }
+      ]
+    },
+    {
+      "id": "D1-S8",
+      "title": "Percutaneous Cholecystostomy & Special Situations",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Percutaneous cholecystostomy (PC)** is a temporizing procedure for acute cholecystitis in high surgical risk patients (Tokyo Grade III; ASA IV–V; APACHE II >12). Under US or CT guidance, a catheter is placed into the gallbladder via transhepatic (preferred — reduces bile leak) or transperitoneal route. Success in achieving clinical improvement: 85–90%. Bridging interval cholecystectomy performed when patient medically optimized (typically 4–8 weeks). Tube removal: after cholangiogram confirms cystic duct patency (usually 4–6 weeks)."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "When NOT to Perform Interval Cholecystectomy After PC",
+          "content": "Some Grade III patients (very elderly, multiple comorbidities, poor functional status) carry prohibitive surgical risk even after optimization. In these cases, PC can serve as a definitive treatment: tube removed at 6 weeks if cystic duct is patent (stone passed). Long-term recurrence of cholecystitis in non-operative patients: 20–40% at 5 years. Shared decision-making is essential."
+        },
+        {
+          "type": "table",
+          "title": "Bile Leak Management Algorithm",
+          "headers": ["Bile Leak Type", "Strasberg Class", "Initial Management", "Definitive Treatment"],
+          "rows": [
+            ["Cystic duct stump leak (low pressure)", "A", "ERCP + sphincterotomy ± biliary stent (7–10 Fr, 6–8 weeks)", "Stent removal after leak sealed (confirmed fluoroscopically)"],
+            ["Duct of Luschka leak", "A", "ERCP + sphincterotomy ± biliary stent", "Same as above; drain pericholecystic collection if present"],
+            ["CBD lateral injury (small)", "D", "ERCP + stent; drain if biloma", "Delayed repair if ERCP fails; hepaticojejunostomy"],
+            ["Major BDI (complete transection)", "E1–E5", "Control sepsis; PTC drainage; refer HPB specialist", "Roux-en-Y hepaticojejunostomy at 6–8 weeks"]
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "D1-Q1",
+      "stem": "A 45-year-old woman undergoing elective laparoscopic cholecystectomy has a 'difficult Calot's triangle' due to obesity and prior cholecystitis. The operative note must document the critical view of safety (CVS). Which of the following correctly defines ALL THREE required criteria for CVS?",
+      "options": {
+        "A": "Cystic artery identified, cystic duct clipped, gallbladder partially dissected from liver bed",
+        "B": "Hepatocystic triangle cleared of fat/fibrous tissue; lowest third of gallbladder separated from liver bed; only two structures seen entering the gallbladder",
+        "C": "Intraoperative cholangiogram negative for CBD stones; cystic duct confirmed; gallbladder fundus freed",
+        "D": "Cystic duct and cystic artery doubly clipped; gallbladder dissected circumferentially from liver"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "The Critical View of Safety, as defined by Strasberg (1995) and endorsed by SAGES 2023, requires: (1) the hepatocystic triangle is cleared of ALL fat and fibrous tissue; (2) the lowest one-third of the gallbladder is dissected free from the liver bed; AND (3) only TWO structures are seen entering the gallbladder (cystic duct and cystic artery). All three criteria must be met simultaneously before any structure is clipped.",
+        "wrong": {
+          "A": "Identifying the cystic artery alone does not constitute CVS — the triangle must be cleared and only two structures seen entering the gallbladder. The cystic duct should not be clipped until CVS is achieved.",
+          "C": "IOC is a complementary safety measure but is not part of the CVS definition. CVS is a visual/dissection standard, not a radiological one.",
+          "D": "Double-clipping the cystic duct is correct technique AFTER CVS is achieved, but the act of clipping is not part of the CVS definition itself."
+        },
+        "guideline": "SAGES Clinical Practice Guidelines for the Prevention of Bile Duct Injuries, 2023: CVS must be achieved and photo-documented in every cholecystectomy.",
+        "trial": "Strasberg SM, Hertl M, Soper NJ. An analysis of the problem of biliary injury during laparoscopic cholecystectomy. J Am Coll Surg 1995;180:101-125. Landmark paper defining CVS.",
+        "pearl": "Board exams frequently test CVS definition. Remember: THREE criteria, ALL must be met. The most commonly missed criterion is that the lowest THIRD of the gallbladder must be separated from the liver bed — not just the cystic duct area."
+      }
+    },
+    {
+      "id": "D1-Q2",
+      "stem": "A 72-year-old man with type 2 diabetes, CKD stage 3, and atrial fibrillation presents with acute cholecystitis for 4 days. He has fever 38.8°C, RUQ tenderness, WBC 19,000/μL, and CT shows pericholecystic abscess. He has no organ dysfunction. His Tokyo grade is II. Anesthesia assesses him as ASA III. What is the MOST appropriate management?",
+      "options": {
+        "A": "Emergency laparoscopic cholecystectomy within 6 hours",
+        "B": "IV antibiotics alone for 10–14 days, then reassess",
+        "C": "Percutaneous cholecystostomy as definitive treatment",
+        "D": "Early laparoscopic cholecystectomy within 24–72h OR percutaneous cholecystostomy as bridge if surgical risk deemed too high, followed by interval cholecystectomy"
+      },
+      "correct": "D",
+      "explanation": {
+        "correct": "Tokyo TG18 Grade II cholecystitis (WBC >18,000, duration >72h, pericholecystic abscess — marked local inflammation) in an ASA III patient. TG18 recommends early LC within 24–72h for Grade II if the surgical team is experienced and patient is acceptable surgical risk. For Grade II patients with high surgical risk, PC as bridge to interval LC is acceptable. This patient (ASA III, not IV) should be assessed for early LC as first choice; PC is the alternative if deemed too risky.",
+        "wrong": {
+          "A": "Emergency cholecystectomy within 6h is indicated for Grade III with acceptable surgical risk, not Grade II. Grade II allows a window for optimization.",
+          "B": "Antibiotics alone without source control or cholecystectomy has unacceptably high failure rate for Grade II cholecystitis with abscess. TG18 does not recommend antibiotics alone for complicated cholecystitis.",
+          "C": "PC alone as definitive treatment is reserved for Grade III patients at prohibitive surgical risk (ASA V) or those refusing surgery. This ASA III patient should be offered definitive cholecystectomy."
+        },
+        "guideline": "Tokyo Guidelines TG18 (Okamoto et al., J Hepatobiliary Pancreat Sci 2018): Grade II — consider early LC if surgical team experienced; PC if high surgical risk.",
+        "trial": "Multiple RCTs confirm early LC ≤72h is safe and superior to delayed approach for Grade I/II cholecystitis (Gutt et al., Ann Surg 2013).",
+        "pearl": "Tokyo Grade II = moderate cholecystitis. Grade III = severe (organ dysfunction). PC is for Grade III or Grade II at prohibitive surgical risk — not routine Grade II."
+      }
+    },
+    {
+      "id": "D1-Q3",
+      "stem": "During laparoscopic cholecystectomy, CT scan obtained pre-operatively showed a large stone in Hartmann's pouch with extrinsic compression of the common hepatic duct and obstructive jaundice. There is no fistula identified on imaging. What is the MOST likely diagnosis and preferred surgical approach?",
+      "options": {
+        "A": "Choledocholithiasis; proceed to ERCP pre-operatively",
+        "B": "Mirizzi syndrome Type I; subtotal cholecystectomy or open approach with care to avoid CHD injury",
+        "C": "Mirizzi syndrome Type II; hepaticojejunostomy is always required",
+        "D": "Acute cholangitis; ERCP before any surgery"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Mirizzi Type I involves external compression of the CBD/CHD by a stone impacted in Hartmann's pouch or cystic duct, WITHOUT fistula formation. The jaundice is obstructive but the duct wall is intact. Management: subtotal cholecystectomy (leaving the posterior gallbladder wall) to avoid CBD injury, with stone extraction. Open approach or conversion considered if laparoscopic dissection is unsafe. MRCP pre-operatively confirms diagnosis and excludes fistula.",
+        "wrong": {
+          "A": "While ERCP can decompress the biliary system, it does not address the stone in Hartmann's pouch causing mechanical compression. The primary treatment is surgical removal of the gallbladder with the impacted stone.",
+          "C": "Hepaticojejunostomy is required for Mirizzi Type II–IV where there is cholecystocholedochal fistula and CBD wall disruption. Type I has an intact CBD wall and does not routinely require biliary-enteric anastomosis.",
+          "D": "The scenario describes Mirizzi syndrome, not primary cholangitis. If cholangitis were present simultaneously, biliary decompression would precede surgery, but the primary management question here is the Mirizzi syndrome."
+        },
+        "guideline": "EAES/SAGES consensus: Mirizzi syndrome Type I can be managed laparoscopically by experienced surgeons with subtotal cholecystectomy; Types II–IV generally require open surgery and biliary reconstruction.",
+        "trial": "Erben Y, et al. Mirizzi syndrome: analysis of 58 consecutive patients. World J Surg 2011. Subtotal cholecystectomy achieves safe resection without need for biliary reconstruction in Type I.",
+        "pearl": "Mirizzi Type I = external compression, intact CBD (no fistula). Types II–IV = fistula present (increasing CBD circumference involved). Type I → subtotal cholecystectomy. Types II–IV → subtotal cholecystectomy + CBD repair/hepaticojejunostomy depending on defect size."
+      }
+    },
+    {
+      "id": "D1-Q4",
+      "stem": "A surgeon notices intraoperatively that the common bile duct has been completely transected 3 cm below the hepatic confluence. The proximal stump retracts. There is no available hepatobiliary specialist at the institution. What is the CORRECT immediate action?",
+      "options": {
+        "A": "Perform primary end-to-end bile duct anastomosis immediately",
+        "B": "Attempt hepaticojejunostomy at the proximal stump",
+        "C": "Place abdominal drains, close, and arrange urgent transfer to an HPB specialist centre",
+        "D": "Insert a T-tube into the proximal duct and close"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "A Strasberg E1 injury (complete CBD transection >2 cm from confluence) requires hepaticojejunostomy for definitive repair. In the absence of an experienced hepatobiliary surgeon, the correct action is to place closed-suction abdominal drains near the injury, close the abdomen, and arrange urgent transfer to a specialist HPB centre within 24–48h. Attempting repair by an inexperienced surgeon results in worse outcomes than controlled damage-control and delayed expert repair.",
+        "wrong": {
+          "A": "Primary end-to-end bile duct anastomosis is only appropriate for small partial injuries (Type D) or selected simple transections with healthy ends and NO tension, performed by an experienced HPB surgeon. For a retracted proximal stump, tension-free anastomosis is impossible. Stricture rate is >50% for primary repair of complex injuries.",
+          "B": "Hepaticojejunostomy requires significant HPB expertise and should not be attempted by a surgeon without the necessary skills. Poor technique results in anastomotic stricture, biloma, and cholangitis.",
+          "D": "T-tube insertion into the proximal bile duct stump does not constitute definitive repair. It may serve as a temporary measure in highly selected circumstances but is not standard — damage control with drain placement is preferred."
+        },
+        "guideline": "EAES/SAGES: If major BDI is recognized intraoperatively by a non-HPB surgeon — control bleeding, place drains, close, transfer to HPB centre. Do not attempt definitive repair.",
+        "trial": "De Reuver PR, et al. Outcome of endoscopic, percutaneous and surgical procedures for biliary injuries following LC. Ann Surg 2008. Outcomes best when repair performed by experienced HPB surgeon at tertiary centre.",
+        "pearl": "The WORST outcome in BDI occurs when an inexperienced surgeon attempts complex reconstruction. Strasberg E4 (Bismuth IV equivalent) — right and left hepatic duct separation — always requires specialist HPB centre and may need liver resection."
+      }
+    },
+    {
+      "id": "D1-Q5",
+      "stem": "A 55-year-old woman presents with fever 39.5°C, jaundice (bilirubin 8 mg/dL), RUQ pain, hypotension (BP 85/50), and confusion. Ultrasound shows dilated CBD (12 mm) with stones. What is the MOST appropriate IMMEDIATE management?",
+      "options": {
+        "A": "IV antibiotics, fluid resuscitation, and urgent laparoscopic cholecystectomy within 6 hours",
+        "B": "IV antibiotics, fluid resuscitation, ICU admission, and emergency ERCP with sphincterotomy within 12 hours",
+        "C": "Percutaneous cholecystostomy within 2 hours",
+        "D": "IV antibiotics for 48 hours, then re-evaluate for ERCP"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Reynolds' pentad (Charcot's triad + hypotension + altered mental status) indicates Grade III severe cholangitis with cardiovascular and neurological organ dysfunction. Management: (1) immediate resuscitation — IV fluids, vasopressors if required; (2) ICU admission for organ support; (3) broad-spectrum antibiotics (carbapenem); (4) emergency ERCP within 12 hours for biliary decompression (stone extraction ± sphincterotomy ± biliary stent). Biliary decompression is the definitive treatment — antibiotics and resuscitation alone are insufficient.",
+        "wrong": {
+          "A": "Cholecystectomy is NOT the treatment for CBD stones causing cholangitis. ERCP is required to clear the CBD. Moreover, operating on a patient in septic shock with multi-organ dysfunction carries prohibitive mortality risk.",
+          "C": "PC drains the GALLBLADDER, not the CBD. It is not effective for CBD stone-related cholangitis. PC would be indicated for acalculous cholecystitis or Grade III calculous cholecystitis.",
+          "D": "Grade III cholangitis has 10–40% mortality without emergency biliary decompression. Waiting 48h for antibiotics alone is inappropriate and dangerous."
+        },
+        "guideline": "Tokyo TG18: Grade III cholangitis — emergency ERCP within 12 hours; ICU support; broad-spectrum antibiotics.",
+        "trial": "Lai ECS, et al. Endoscopic biliary drainage for severe acute cholangitis. NEJM 1992;326:1582-1586. ERCP superior to emergency surgery for cholangitis — landmark RCT.",
+        "pearl": "Reynolds' pentad = Grade III cholangitis. Mnemonic: FJHCA — Fever, Jaundice, Hypotension, Confusion, Abdominal pain. ERCP is the treatment, not surgery. Surgery reserved for ERCP failure."
+      }
+    },
+    {
+      "id": "D1-Q6",
+      "stem": "A 50-year-old man presents with his FIRST episode of mild gallstone pancreatitis. He recovers clinically after 48 hours of supportive treatment. Bilirubin normalizes; LFTs trend to normal. Ultrasound shows cholelithiasis, no CBD stone. He is otherwise healthy (ASA I). What is the MOST appropriate next step?",
+      "options": {
+        "A": "Discharge home; outpatient ERCP in 4 weeks followed by interval cholecystectomy in 8 weeks",
+        "B": "Same-admission laparoscopic cholecystectomy with intraoperative cholangiography",
+        "C": "Interval cholecystectomy 6–8 weeks after discharge",
+        "D": "ERCP + sphincterotomy alone as definitive treatment to prevent recurrence"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "The PONCHO trial (da Costa, Lancet 2015) demonstrated that same-admission cholecystectomy significantly reduces recurrent gallstone-related complications (pancreatitis, cholangitis, biliary colic) compared to interval cholecystectomy (4% vs 17%; NNT=8) with no increase in intraoperative difficulty. For a clinically recovered, medically fit patient with mild gallstone pancreatitis, same-admission LC with IOC (to confirm CBD clearance given prior pancreatitis) is the current standard of care.",
+        "wrong": {
+          "A": "Interval ERCP followed by interval cholecystectomy delays definitive treatment and increases the risk of recurrent gallstone events during the interval period. PONCHO trial showed this approach inferior to same-admission surgery.",
+          "C": "Interval cholecystectomy is acceptable only if same-admission surgery is not feasible (resource limitations, patient refusal, ongoing medical optimization). It is no longer the standard for mild gallstone pancreatitis in fit patients.",
+          "D": "ERCP + sphincterotomy alone does not remove the gallbladder or stones. It reduces recurrence from ~50% to ~30% — not adequate for a good surgical candidate. Reserved for patients unfit for surgery."
+        },
+        "guideline": "WSES Guidelines for Gallstone Pancreatitis 2019; BSG Guidelines 2020: Same-admission cholecystectomy for mild gallstone pancreatitis in fit patients.",
+        "trial": "da Costa DW et al. PONCHO trial. Lancet 2015;386:1261-1268. Same-admission vs interval LC for mild gallstone pancreatitis — same-admission superior.",
+        "pearl": "PONCHO = same admission wins. NNT=8. Mild gallstone pancreatitis + fit patient = same-admission LC. Severe pancreatitis → interval cholecystectomy after 6–8 weeks."
+      }
+    },
+    {
+      "id": "D1-Q7",
+      "stem": "During laparoscopic cholecystectomy with intraoperative cholangiography, two 4 mm stones are identified in the common bile duct. The cystic duct is wide (5 mm). The surgeon is skilled in laparoscopic common bile duct exploration. What is the BEST single-stage management option?",
+      "options": {
+        "A": "Clip the cystic duct, complete cholecystectomy, arrange post-operative ERCP",
+        "B": "Convert to open for formal choledochotomy and T-tube drainage",
+        "C": "Transcystic laparoscopic CBD exploration with basket or balloon extraction, then complete cholecystectomy",
+        "D": "Abort procedure, arrange pre-operative ERCP, relist for cholecystectomy"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "When IOC reveals CBD stones and the surgeon is experienced in LCBDE, the transcystic approach is ideal for stones <8 mm with a favorable cystic duct (≥4–5 mm diameter). Dormia basket or balloon catheter is passed transcysticly under fluoroscopic guidance to clear the CBD. Single-stage LCBDE + cholecystectomy has equivalent CBD clearance rates to ERCP (85–95%) and avoids a second procedure, post-ERCP pancreatitis risk, and additional hospitalization.",
+        "wrong": {
+          "A": "Completing cholecystectomy and leaving CBD stones risks recurrent cholangitis, jaundice, or pancreatitis. Post-operative ERCP is an acceptable strategy but not optimal when LCBDE is available and feasible.",
+          "B": "Conversion to open for T-tube drainage is excessive for small CBD stones in a laparoscopic LCBDE-capable surgeon. Open choledochotomy is reserved for failed laparoscopic attempts or very large/multiple stones.",
+          "D": "Aborting a procedure already in progress to arrange ERCP later is the least efficient approach. Single-stage management is preferred when technical capability exists."
+        },
+        "guideline": "ESGE/EAES 2019: When CBD stones are found on IOC, LCBDE (transcystic for stones <8 mm) is the preferred single-stage approach if the surgeon is trained.",
+        "trial": "Rogers SJ, et al. Prospective randomized trial of LC + LCBDE vs LC + postoperative ERCP for CBD stones. Arch Surg 2010 — equivalent clearance; LCBDE avoids second procedure.",
+        "pearl": "Transcystic LCBDE = stones <8 mm, wide cystic duct. Transcholedochal LCBDE = stones >8 mm, failed transcystic. Remember: post-ERCP pancreatitis risk ~3–5%; LCBDE avoids this."
+      }
+    },
+    {
+      "id": "D1-Q8",
+      "stem": "A 68-year-old diabetic man on immunosuppression (renal transplant) presents with acute right upper quadrant pain and fever. Ultrasound shows a thickened gallbladder wall (8 mm), intramural gas, and no stones. WBC 22,000. What is the MOST likely diagnosis and MOST appropriate management?",
+      "options": {
+        "A": "Calculous cholecystitis Grade II; laparoscopic cholecystectomy",
+        "B": "Emphysematous acalculous cholecystitis; emergency laparoscopic or open cholecystectomy",
+        "C": "Perforated peptic ulcer; emergency laparotomy",
+        "D": "Acute cholangitis Grade III; emergency ERCP"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Emphysematous cholecystitis (intramural gas on imaging) caused by gas-forming organisms (Clostridium perfringens, E. coli) occurs predominantly in diabetic and immunocompromised patients. This is acalculous (no stones). Emphysematous cholecystitis has a 15% mortality rate and rapid progression to gangrene and perforation. Management: broad-spectrum antibiotics (covering anaerobes — metronidazole or piperacillin-tazobactam) + emergency cholecystectomy (laparoscopic if hemodynamically stable; open if peritonitis or perforation).",
+        "wrong": {
+          "A": "Calculous cholecystitis requires gallstones by definition. The ultrasound in this scenario shows no stones.",
+          "C": "Intramural gas in the gallbladder wall is pathognomonic of emphysematous cholecystitis, not PPU. PPU would show free air under diaphragm.",
+          "D": "No CBD dilation or jaundice is described. Cholangitis requires bile duct obstruction. This presentation fits emphysematous cholecystitis."
+        },
+        "guideline": "WSES Acute Cholecystitis Guidelines 2020: Emphysematous cholecystitis = surgical emergency; mortality 15% even with treatment.",
+        "trial": "Gu MG, et al. Emphysematous cholecystitis — systematic review (2014): perforation in 20%; gangrene in 75%; mortality 15%. Immediate cholecystectomy mandatory.",
+        "pearl": "Intramural gas on CT/US = emphysematous cholecystitis. Gas-forming organisms in diabetics/immunocompromised. This is an emergency — do not delay for ERCP or conservative management."
+      }
+    },
+    {
+      "id": "D1-Q9",
+      "stem": "An 80-year-old woman with multiple comorbidities (NYHA III heart failure, COPD FEV1 35%, CKD4) presents with Tokyo Grade III acute cholecystitis. Anesthesia rates her at prohibitive surgical risk (ASA V). What is the FIRST-LINE treatment?",
+      "options": {
+        "A": "Emergency laparoscopic cholecystectomy accepting the high operative risk",
+        "B": "Antibiotics alone for 14 days; cholecystectomy if she improves",
+        "C": "Percutaneous cholecystostomy under local anaesthesia",
+        "D": "Endoscopic transpapillary gallbladder drainage via ERCP"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "Percutaneous cholecystostomy (PC) under US guidance with local anaesthesia is the standard salvage procedure for Tokyo Grade III cholecystitis in patients at prohibitive surgical risk. PC can be performed under sedation or local anaesthesia, decompresses the gallbladder, allows cultures, and achieves clinical improvement in 85–90% within 24–48h. Definitive cholecystectomy planned when patient medically optimized (if ever feasible).",
+        "wrong": {
+          "A": "Operating on an ASA V patient for cholecystitis has peri-operative mortality exceeding 30%. TG18 explicitly recommends non-operative bridge strategies for Grade III with prohibitive surgical risk.",
+          "B": "Antibiotics alone without source control fails in 40–60% of Grade III cases and risks progression to gallbladder perforation, biliary peritonitis, and septic shock.",
+          "D": "Endoscopic transpapillary gallbladder drainage (ETGBD) is an emerging alternative (particularly if PC is technically challenging due to body habitus or coagulopathy), but PC remains the standard first-line approach per TG18."
+        },
+        "guideline": "Tokyo Guidelines TG18: Grade III cholecystitis with high surgical risk — percutaneous cholecystostomy as bridge to surgery or definitive treatment.",
+        "trial": "Yokoe M, et al. TG18 flowchart for management of acute cholecystitis. J Hepatobiliary Pancreat Sci 2018.",
+        "pearl": "PC = local anaesthesia, US-guided, transhepatic preferred (lower bile leak risk than transperitoneal). Tube removed at 4–6 weeks after cholangiogram confirms cystic duct patency (stone passed)."
+      }
+    },
+    {
+      "id": "D1-Q10",
+      "stem": "Following laparoscopic cholecystectomy, a drain placed prophylactically outputs 200 mL of bile per day on post-operative day 2. Patient is afebrile, WBC normal, bilirubin mildly elevated. CT shows no biloma. What is the MOST appropriate next step?",
+      "options": {
+        "A": "Immediate re-laparoscopy",
+        "B": "ERCP with sphincterotomy and biliary stenting",
+        "C": "Conservative management with drain in situ and repeat imaging in 1 week",
+        "D": "Percutaneous transhepatic cholangiography"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Post-cholecystectomy bile leak (Strasberg A — cystic duct stump or duct of Luschka) produces bilious drain output. In a hemodynamically stable patient without peritonitis, ERCP with sphincterotomy (reduces transpapillary resistance → diverts bile away from leak site) ± biliary stent (7–10 Fr for 6–8 weeks) achieves leak closure in >90% of cases. Drain should remain in situ until leak is confirmed sealed.",
+        "wrong": {
+          "A": "Re-laparoscopy is indicated for bile leak causing peritonitis, hemodynamic instability, or if no drain is in situ and patient is deteriorating. A controlled leak with drain in situ and stable patient does not require immediate surgery.",
+          "C": "Conservative management alone (drain in situ without ERCP) is appropriate only for very low-output leaks (<50 mL/day) that are trending down. 200 mL/day warrants active intervention.",
+          "D": "PTC is reserved for cases where ERCP fails or is not accessible (e.g., Roux-en-Y anatomy). ERCP is the first-line approach for post-cholecystectomy bile leak."
+        },
+        "guideline": "ESGE 2019: Post-cholecystectomy bile leak — ERCP with sphincterotomy ± stent; success rate >90% for Strasberg A injuries.",
+        "trial": "Bergman JJGHM, et al. Treatment of bile duct lesions after LC. Gut 1996. ERCP sphincterotomy highly effective for minor post-LC bile leaks.",
+        "pearl": "Bile leak management by Strasberg class: A → ERCP stent. D → ERCP stent (if partial); hepaticojejunostomy if complete. E1–E5 → specialist HPB repair. Always exclude major injury with MRCP before assuming Strasberg A."
+      }
+    },
+    {
+      "id": "D1-Q11",
+      "stem": "A 60-year-old woman with suspected choledocholithiasis has a bilirubin of 2.5 mg/dL, CBD diameter 7 mm on ultrasound, and elevated GGT. No stones seen on ultrasound. No cholangitis. What is the MOST appropriate next diagnostic step?",
+      "options": {
+        "A": "Proceed directly to ERCP",
+        "B": "MRCP or EUS to confirm CBD stones before ERCP",
+        "C": "CT abdomen with contrast",
+        "D": "Repeat ultrasound in 4 weeks"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "This patient has intermediate probability of CBD stones (bilirubin 1.8–4 mg/dL + dilated CBD 7 mm + elevated GGT but no stones on US and no cholangitis). Per ESGE 2019 and ASGE guidelines, intermediate-risk patients should undergo MRCP (non-invasive; sensitivity 85–92%, specificity 93–97%) or EUS (sensitivity 97%, specificity 96%) BEFORE ERCP. ERCP carries 5–10% risk of complications (pancreatitis, bleeding, perforation) and should not be performed diagnostically. EUS is preferred if stone <5 mm is suspected or if MRCP is inconclusive.",
+        "wrong": {
+          "A": "Proceeding directly to ERCP without confirming stones risks unnecessary complications (post-ERCP pancreatitis 3–5%, bleeding, perforation) in a patient who may not have CBD stones. ERCP is therapeutic, not routinely diagnostic.",
+          "C": "CT has lower sensitivity for CBD stones (25–65%) than MRCP or EUS and involves radiation. It is not the preferred next step for CBD stone evaluation.",
+          "D": "Watchful waiting is inappropriate for a symptomatic patient with suspected CBD obstruction. Delayed diagnosis risks cholangitis or pancreatitis."
+        },
+        "guideline": "ESGE Clinical Guideline 2019: Intermediate-risk patients for CBD stones → MRCP or EUS before ERCP. High-risk → proceed to ERCP.",
+        "trial": "Makary MA, et al. EUS vs MRCP for choledocholithiasis. Gastrointest Endosc 2005 — EUS superior for stones <5 mm.",
+        "pearl": "Risk stratification: High risk (any of: CBD stone on imaging, bilirubin >4, cholangitis) → ERCP. Intermediate risk (CBD dilation + abnormal LFTs, bilirubin 1.8–4) → MRCP/EUS first. Low risk → LC ± IOC."
+      }
+    },
+    {
+      "id": "D1-Q12",
+      "stem": "Which of the following BEST describes the Bismuth Type IV biliary stricture?",
+      "options": {
+        "A": "Low common hepatic duct stricture with >2 cm hepatic duct stump",
+        "B": "Hilar stricture with hepatic duct confluence preserved and right and left ducts in communication",
+        "C": "Stricture involving both right and left hepatic ducts with destruction of hepatic duct confluence",
+        "D": "Aberrant right sectoral duct stricture combined with CHD involvement"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "Bismuth Type IV involves destruction of the hepatic duct confluence such that right and left hepatic ducts are no longer in communication. This is the most technically demanding reconstruction — requiring individual hepaticojejunostomy to both right and left duct systems, sometimes with hepatic resection to access the intrahepatic ducts. Type V additionally involves an aberrant right sectoral duct.",
+        "wrong": {
+          "A": "This describes Bismuth Type I: low CHD stricture with >2 cm residual hepatic duct stump — the most straightforward to reconstruct.",
+          "B": "This describes Bismuth Type III: hilar stricture at the confluence but with continuity preserved between right and left ducts.",
+          "D": "This describes Bismuth Type V: aberrant right sectoral duct involvement plus CHD stricture — the rarest and most complex variant."
+        },
+        "guideline": "Bismuth H, Majno PE. Biliary strictures: classification based on the principles of surgical treatment. World J Surg 2001.",
+        "trial": "Strasberg SM, Helton WS. An analytical review of vasculobiliary injury in laparoscopic and open cholecystectomy. HPB 2011.",
+        "pearl": "Bismuth I: >2 cm stump. II: <2 cm. III: at confluence, communication preserved. IV: confluence destroyed, R and L separated. V: aberrant duct + CHD. Higher Bismuth = worse prognosis and harder reconstruction."
+      }
+    },
+    {
+      "id": "D1-Q13",
+      "stem": "A 42-year-old healthy woman undergoes elective laparoscopic cholecystectomy for symptomatic gallstones. You have achieved the critical view of safety. Intraoperative cholangiography shows contrast flowing freely into the duodenum but also reveals a filling defect in the CBD. The cystic duct diameter is 3 mm. What is the preferred management of the incidental CBD stone?",
+      "options": {
+        "A": "Transcystic LCBDE with Dormia basket",
+        "B": "Transcholedochal LCBDE with choledochotomy",
+        "C": "Complete cholecystectomy; post-operative ERCP within 24–48h",
+        "D": "Convert to open common bile duct exploration"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "With a narrow cystic duct (3 mm), transcystic LCBDE is technically difficult and risks cystic duct avulsion. Transcholedochotomy adds significant complexity. In this situation, completing the cholecystectomy and arranging post-operative ERCP within 24–48h is the safest and most pragmatic approach. This is a recognized and effective strategy — ERCP clearance rates for CBD stones >90%.",
+        "wrong": {
+          "A": "Transcystic LCBDE requires a cystic duct diameter of at least 4–5 mm to pass instruments safely. A 3 mm duct risks avulsion or inadequate instrument passage.",
+          "B": "Transcholedochotomy for a single incidentally found stone is excessive — it requires choledochotomy closure (primary or T-tube) and carries higher morbidity than ERCP.",
+          "D": "Conversion to open is not justified for an incidental CBD stone in a patient who is hemodynamically stable and where ERCP is readily available."
+        },
+        "guideline": "ESGE 2019: Transcystic LCBDE feasible for stones <8 mm with cystic duct ≥4–5 mm. Narrow cystic duct → post-operative ERCP preferred.",
+        "trial": "Rogers SJ, et al. Arch Surg 2010: LC + post-op ERCP equivalent to LC + LCBDE for CBD clearance when LCBDE not feasible.",
+        "pearl": "Transcystic LCBDE requirements: stone <8 mm, cystic duct ≥4–5 mm, experienced surgeon. If these are not met → post-operative ERCP is the safe alternative."
+      }
+    },
+    {
+      "id": "D1-Q14",
+      "stem": "Which of the following is the MOST accurate description of the standard 4-port laparoscopic cholecystectomy port placement?",
+      "options": {
+        "A": "Umbilical (camera 10–12 mm), epigastric (liver retraction 5 mm), right subcostal midclavicular (working 5 mm), right subcostal anterior axillary line (fundus retraction 5 mm)",
+        "B": "Left umbilical (camera 5 mm), right upper quadrant (working 12 mm), epigastric (liver retraction 5 mm), umbilical (suction 5 mm)",
+        "C": "Umbilical (camera 5 mm), epigastric (working 12 mm), right iliac fossa (retraction 5 mm), left subcostal (suction 5 mm)",
+        "D": "Periumbilical (camera 10 mm), right upper quadrant (working 12 mm), left subcostal (liver retraction 5 mm), suprapubic (suction 5 mm)"
+      },
+      "correct": "A",
+      "explanation": {
+        "correct": "Standard 4-port laparoscopic cholecystectomy: (1) 10–12 mm umbilical/periumbilical port for camera (30° scope); (2) 5 mm epigastric port (below xiphoid) for liver/falciform retraction; (3) 5 mm right subcostal port (midclavicular line) as main working port for dissection and clip applier; (4) 5 mm right subcostal port (anterior axillary line) for gallbladder fundus retraction (lateral retraction to expose Calot's triangle). The epigastric port provides upward (cephalad) traction on the gallbladder via the fundus to expose the hepatocystic triangle.",
+        "wrong": {
+          "B": "Left umbilical placement would be ergonomically awkward for right-sided hepatobiliary anatomy and is not standard.",
+          "C": "Right iliac fossa and left subcostal ports are not used for cholecystectomy — these would be too far from the operative field.",
+          "D": "Suprapubic port has no role in laparoscopic cholecystectomy."
+        },
+        "guideline": "SAGES Fundamentals of Laparoscopic Surgery (FLS): Standard LC port placement — umbilical camera, epigastric liver retraction, two right subcostal working ports.",
+        "trial": "Not applicable — technique-based question.",
+        "pearl": "Key: epigastric port = liver/falciform retraction. Two right subcostal ports: medial = working/clips; lateral = fundus retraction. The 30° laparoscope provides optimal visualization of Calot's triangle."
+      }
+    },
+    {
+      "id": "D1-Q15",
+      "stem": "A 65-year-old man undergoes LC for acute cholecystitis. Intraoperatively, the gallbladder is gangrenous and the posterior wall is densely adherent to the liver bed. The hepatocystic triangle is completely obscured by inflammation and fibrosis. CVS cannot be achieved. What is the MOST appropriate bail-out strategy?",
+      "options": {
+        "A": "Continue dissection until CVS is achieved regardless of difficulty",
+        "B": "Subtotal cholecystectomy — open the gallbladder, remove stones, close the cystic duct orifice from inside, leave posterior wall on liver bed",
+        "C": "Immediately convert to open cholecystectomy and proceed with standard dissection",
+        "D": "Complete laparoscopic cholecystectomy without achieving CVS using anatomical landmarks"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "When CVS cannot be achieved due to a frozen/fibrotic hepatocystic triangle, subtotal cholecystectomy is the preferred bail-out strategy — superior to continued dangerous dissection or conversion if the laparoscopic approach is otherwise stable. Fenestrating technique: open the gallbladder, extract stones, close the cystic duct orifice from within the gallbladder lumen (suture or stapler), and leave the posterior wall adherent to the liver. Drain placement. This approach avoids CBD injury and has acceptable outcomes with ~15–20% bile leak rate managed by ERCP.",
+        "wrong": {
+          "A": "Continued forced dissection when CVS cannot be achieved is the primary cause of major bile duct injury. SAGES guidelines explicitly state that further dissection should stop when CVS is not achievable.",
+          "C": "Conversion to open may be necessary but does not automatically make dissection safer in a frozen Calot's triangle. Subtotal cholecystectomy can be performed laparoscopically and avoids the morbidity of laparotomy.",
+          "D": "Proceeding without CVS based on anatomical landmarks alone carries the highest risk of bile duct injury — this is the mechanism of most laparoscopic BDI."
+        },
+        "guideline": "SAGES 2023: Bail-out strategies when CVS unachievable: (1) IOC, (2) subtotal cholecystectomy, (3) conversion to open. All are acceptable — continued dangerous dissection is NOT.",
+        "trial": "Purzner RH, et al. Outcomes of subtotal cholecystectomy. JAMA Surg 2021 — subtotal cholecystectomy safe, effective bail-out with low mortality.",
+        "pearl": "Frozen Calot's triangle = STOP + bail out. Options: IOC to define anatomy, subtotal cholecystectomy, or conversion. Never proceed without CVS based on anatomical assumption — this causes the 'classic' laparoscopic BDI (clip on CBD misidentified as cystic duct)."
+      }
+    },
+    {
+      "id": "D1-Q16",
+      "stem": "A 55-year-old woman has a biliary stricture identified 3 months post-laparoscopic cholecystectomy. She is jaundiced with dilated intrahepatic ducts. MRCP shows a hilar stricture with right and left hepatic ducts separated. She had a bile leak immediately post-operatively managed with drains. What type of injury and management does she have?",
+      "options": {
+        "A": "Strasberg A injury; ERCP + stenting",
+        "B": "Strasberg E4 (Bismuth IV) injury; refer to HPB specialist for hepaticojejunostomy",
+        "C": "Strasberg E1 (Bismuth I) injury; hepaticojejunostomy",
+        "D": "Benign anastomotic stricture; balloon dilation via PTC"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "A hilar stricture with separation of right and left hepatic ducts (no communication) is Strasberg E4 / Bismuth IV — the most complex bile duct injury, requiring specialized HPB expertise. Management: (1) percutaneous transhepatic drainage of both right and left duct systems separately for biliary decompression; (2) optimization over 6–8 weeks; (3) surgical reconstruction — bilateral hepaticojejunostomy to individual right and left hepatic ducts, sometimes requiring liver resection (e.g., segment 4/5 resection) to access adequate healthy duct. Outcomes are significantly poorer than lower injuries.",
+        "wrong": {
+          "A": "Strasberg A is a minor cystic duct/duct of Luschka leak, not a hilar stricture. This patient has a complex major injury.",
+          "C": "Strasberg E1 is a low CBD transection >2 cm below the confluence — a simpler injury than E4. Bismuth I requires a single hepaticojejunostomy.",
+          "D": "This is not a benign anastomotic stricture (no prior biliary-enteric anastomosis was performed). PTC balloon dilation is a temporizing measure, not definitive treatment for Bismuth IV."
+        },
+        "guideline": "EAES/SAGES: Strasberg E4 / Bismuth IV injuries must be managed at specialized HPB centres; reconstruction requires expertise in complex biliary surgery.",
+        "trial": "Stewart L, Way LW. Bile duct injuries during LC: factors that influence the results of treatment. Arch Surg 1995. Complex repairs (E3–E5) have better outcomes at specialized centres.",
+        "pearl": "Strasberg E4 = Bismuth IV = right and left hepatic ducts SEPARATED. Requires bilateral hepaticojejunostomy. This is the most feared and complex BDI pattern."
+      }
+    },
+    {
+      "id": "D1-Q17",
+      "stem": "Which statement about EUS versus MRCP for the diagnosis of choledocholithiasis is MOST accurate?",
+      "options": {
+        "A": "MRCP has higher sensitivity than EUS for stones <5 mm",
+        "B": "EUS has higher sensitivity than MRCP for stones <5 mm and can proceed directly to ERCP in the same session",
+        "C": "Both have equivalent sensitivity; MRCP is preferred because it can be combined with ERCP",
+        "D": "CT with IV contrast is superior to both EUS and MRCP for CBD stone detection"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "For CBD stones <5 mm, EUS (sensitivity 97%, specificity 96%) outperforms MRCP (sensitivity 85–92%, specificity 93–97%). Small stones can be missed on MRCP due to resolution limits and susceptibility artifacts. A key advantage of EUS is that it can be performed in the same endoscopic session as ERCP — if stones are confirmed on EUS, immediate sphincterotomy and stone extraction can follow without scheduling a second procedure.",
+        "wrong": {
+          "A": "This is incorrect. MRCP resolution is limited for stones <5 mm. EUS is superior for small stones.",
+          "C": "MRCP cannot be combined with ERCP in the same session — MRCP is MRI-based and requires a separate appointment. EUS and ERCP share the same endoscopic platform.",
+          "D": "CT has sensitivity of only 25–65% for CBD stones and involves radiation. It is inferior to both EUS and MRCP for stone detection."
+        },
+        "guideline": "ESGE 2019: For intermediate-risk CBD stones, MRCP or EUS equivalent for routine cases; EUS preferred for suspected small stones (<5 mm) and when proceeding to ERCP in same session.",
+        "trial": "Makary MA, et al. EUS vs MRCP for choledocholithiasis. Gastrointest Endosc 2005. EUS superior sensitivity for small stones.",
+        "pearl": "EUS advantage: same session as ERCP — diagnose + treat in one visit. MRCP advantage: non-invasive, no sedation, good for anatomical overview. EUS for small stones or ERCP-same-session planning."
+      }
+    },
+    {
+      "id": "D1-Q18",
+      "stem": "A 35-year-old obese woman (BMI 42) is found to have acute cholecystitis Grade I (Tokyo TG18). She has no previous abdominal surgery. She is referred to a surgeon experienced in single-incision laparoscopic cholecystectomy (SILC). Compared to standard 4-port LC, what does current evidence show about SILC?",
+      "options": {
+        "A": "SILC has lower wound infection rates and shorter hospital stay",
+        "B": "SILC has equivalent safety with superior cosmesis but longer operative time, higher umbilical hernia rate, and no superiority in pain or recovery",
+        "C": "SILC is superior in all outcomes and should be the preferred approach for all patients",
+        "D": "SILC has a lower bile duct injury rate due to better visualization"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Systematic reviews and meta-analyses of SILC vs standard 4-port LC show: comparable safety (bile duct injury rate not significantly different); comparable length of stay; modestly better cosmesis (single umbilical scar); LONGER operative time (+15–20 min); HIGHER umbilical hernia rate (4% vs 0.5–1%); no significant difference in pain scores at 24h or overall analgesic requirements. SILC is not recommended as routine practice; it should be reserved for motivated patients at experienced centres.",
+        "wrong": {
+          "A": "Wound infection rates are not lower with SILC — the umbilical port site is actually larger in SILC (2–3 cm vs 1 cm), potentially increasing hernia and wound morbidity.",
+          "C": "Current evidence does NOT support SILC as superior in all outcomes. Its main advantage is cosmetic — single umbilical scar.",
+          "D": "SILC visualization may actually be more challenging due to instrument crowding and loss of triangulation. Bile duct injury rates are not significantly lower."
+        },
+        "guideline": "SAGES: SILC is safe in experienced hands but should not be considered standard of care. Patient selection and surgeon experience are critical.",
+        "trial": "Arezzo A, et al. Systematic review and meta-analysis of SILC vs conventional LC. Surg Endosc 2011. Higher hernia rate and longer operative time with SILC.",
+        "pearl": "SILC = same safety, better cosmesis, longer time, more hernias. Not recommended as routine. Board exams may test the higher umbilical hernia rate (4% vs <1%) and longer operative time as key disadvantages."
+      }
+    },
+    {
+      "id": "D1-Q19",
+      "stem": "A 70-year-old man presents with jaundice, weight loss, and pruritus developing over 3 months. CT scan shows a 2 cm hilar mass causing biliary obstruction. CA 19-9 is 850 U/mL. MRCP shows a Bismuth III hilar stricture. What is the MOST important next step to differentiate cholangiocarcinoma from benign biliary stricture?",
+      "options": {
+        "A": "Proceed directly to hepaticojejunostomy",
+        "B": "ERCP with biliary brushings/forceps biopsy for cytology/histology, ± intraductal ultrasound or cholangioscopy with targeted biopsy",
+        "C": "Start antibiotics for 4 weeks and repeat imaging",
+        "D": "PET-CT to confirm malignancy before any intervention"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Differentiating hilar cholangiocarcinoma (Klatskin tumour) from benign hilar stricture (PSC, IgG4 cholangiopathy, post-ischemic) is challenging. ERCP with biliary brushings achieves sensitivity 30–50% for cytology alone; fluorescence in situ hybridization (FISH) increases sensitivity. Forceps biopsy, intraductal ultrasound (IDUS), and **cholangioscopy with targeted biopsy** (SpyGlass Direct Visualization System) significantly improve diagnostic yield (sensitivity up to 85%). Additionally, ERCP can place a biliary stent for drainage while diagnosis is established.",
+        "wrong": {
+          "A": "Hepaticojejunostomy for presumed malignancy without tissue diagnosis is inappropriate — this would be the wrong operation if the stricture is benign (e.g., IgG4 cholangiopathy, which responds to steroids). Surgical resection (hepatectomy + bile duct resection) is the definitive treatment for cholangiocarcinoma.",
+          "C": "Antibiotics are not the management for a hilar mass. This presentation is strongly suspicious for cholangiocarcinoma — watchful waiting with antibiotics delays potentially curative surgery.",
+          "D": "PET-CT has limited sensitivity for hilar cholangiocarcinoma and cannot provide tissue diagnosis. It may help assess for metastases before planning resection, but is not the most important NEXT step."
+        },
+        "guideline": "ESGE 2019: Hilar biliary stricture — ERCP with brushings ± SpyGlass cholangioscopy + targeted biopsy for tissue diagnosis before definitive management.",
+        "trial": "Navaneethan U, et al. Single-operator cholangioscopy-guided targeted biopsies for indeterminate biliary strictures. Gastrointest Endosc 2015 — sensitivity 85% for malignancy.",
+        "pearl": "Klatskin tumour (hilar cholangiocarcinoma): Bismuth-Corlette classification guides resectability. Brush cytology alone has low sensitivity (30–50%) — add FISH or cholangioscopy. CA 19-9 >100 U/mL + Bismuth III stricture + weight loss = high suspicion for cholangiocarcinoma."
+      }
+    },
+    {
+      "id": "D1-Q20",
+      "stem": "A 55-year-old man with no prior biliary symptoms is noted on abdominal CT (obtained for unrelated reasons) to have gallstones but no cholecystitis. He is asymptomatic. What is the MOST evidence-based recommendation?",
+      "options": {
+        "A": "Prophylactic laparoscopic cholecystectomy due to risk of future complications",
+        "B": "Ursodeoxycholic acid therapy to dissolve the stones",
+        "C": "Expectant management (no surgery); cholecystectomy only if symptoms develop",
+        "D": "Annual ultrasound surveillance; prophylactic surgery if stones increase in size"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "Asymptomatic gallstones have a low annual risk of developing symptoms (~2% per year) and an even lower risk of serious complications (<0.1% per year). The natural history data (Gracie and Ransohoff, NEJM 1982) shows that most patients with asymptomatic gallstones (~80%) never develop symptoms over 20 years. Prophylactic cholecystectomy is NOT recommended for asymptomatic gallstones in the general population. Exceptions: porcelain gallbladder with specific mucosal calcification patterns (controversial), gallbladder polyps >10 mm, patients undergoing bariatric surgery with gallstones, immunocompromised patients, populations with high gallbladder cancer risk (specific ethnic groups — Chilean, Bolivian, Native American).",
+        "wrong": {
+          "A": "Prophylactic cholecystectomy for asymptomatic gallstones exposes patients to surgical risk without commensurate benefit. Surgical mortality in elective LC is 0.1–0.3% — exceeding the annual complication risk of asymptomatic stones.",
+          "B": "Ursodeoxycholic acid dissolves small cholesterol stones in select patients but requires prolonged treatment and has high recurrence rates. It is not standard recommendation for asymptomatic gallstones.",
+          "D": "There is no evidence that stone size progression predicts symptom development. Annual surveillance is not cost-effective and may cause unnecessary anxiety."
+        },
+        "guideline": "NICE (UK) Guidelines, SAGES: Asymptomatic gallstones — expectant management. Cholecystectomy only for symptomatic disease.",
+        "trial": "Gracie WA, Ransohoff DF. The natural history of silent gallstones. NEJM 1982;307:798-800. 20-year follow-up: 80% of patients with asymptomatic stones never developed symptoms.",
+        "pearl": "Asymptomatic gallstones = watch and wait. Annual complication risk <0.1%. Exceptions: porcelain GB (controversial), polyps >10 mm, bariatric surgery, high cancer-risk populations. Do not operate on incidental asymptomatic gallstones in the general population."
+      }
+    }
+  ]
+}

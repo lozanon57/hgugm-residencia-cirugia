@@ -1,0 +1,778 @@
+{
+  "id": "A3",
+  "title": "Gastric Cancer",
+  "subtitle": "Surgical Oncology — Gastrectomy, D2 Dissection & Perioperative Chemotherapy",
+  "block": "A",
+  "block_name": "Surgical Oncology",
+  "level": "PGY2-3",
+  "reading_time_min": 75,
+  "guidelines_version": "NCCN Gastric Cancer v2.2024 · ESMO 2022 · JGCA 5th ed.",
+  "textbook_refs": [
+    "Schwartz's Principles of Surgery, 11th ed., Ch. 26",
+    "Shackelford's Surgery of the Alimentary Tract, 8th ed., Sect. 4",
+    "Japanese Gastric Cancer Association. Japanese Gastric Cancer Treatment Guidelines 2021 (5th ed.)",
+    "Siewert JR, Hölscher AH. Diseases of the Esophagus. Springer, 2011",
+    "Stomach and Oesophageal Surgery, Griffin SM & Raimes SA, 4th ed."
+  ],
+  "learning_objectives": [
+    "Identify and classify gastric lymph node stations 1–16 per JGCA 5th edition",
+    "Distinguish D1, D1+, and D2 lymphadenectomy and justify D2 as the standard for curative surgery",
+    "Describe the operative steps of total gastrectomy and distal gastrectomy with Roux-en-Y reconstruction",
+    "Apply FLOT perioperative chemotherapy regimen and interpret its evidence base",
+    "Recognise and manage post-gastrectomy syndromes (dumping, bile reflux, B12 deficiency)",
+    "Classify GEJ tumours using the Siewert system and select the appropriate operative approach",
+    "Stage gastric cancer with TNM 8th edition and interpret pTNM categories for adjuvant treatment decisions",
+    "Identify CDH1 mutation implications and recommend prophylactic gastrectomy appropriately"
+  ],
+  "sections": [
+    {
+      "id": "A3-S1",
+      "title": "Surgical Anatomy and Lymph Node Stations",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The stomach is supplied by five named arteries arising from the coeliac axis: left gastric (dominant supply to lesser curvature), right gastric (lesser curvature from hepatic artery), left gastroepiploic (greater curvature from splenic artery), right gastroepiploic (greater curvature from gastroduodenal artery), and short gastric arteries (fundus from splenic artery). The corresponding lymph node stations are numbered 1–16 per the JGCA 5th edition, forming the anatomical basis for the D-level dissection classification. Understanding this arterial supply is essential for both safe dissection and oncologically adequate lymphadenectomy."
+        },
+        {
+          "type": "table",
+          "title": "JGCA Lymph Node Stations — Anatomical Groups and Dissection Levels",
+          "headers": ["Station", "Location", "Vascular Reference", "Included in D-Level"],
+          "rows": [
+            ["1", "Right cardial nodes", "Left gastric artery at cardia", "D1, D1+, D2"],
+            ["2", "Left cardial nodes", "Short gastric/left gastroepiploic at cardia", "D1+ (total gastrectomy), D2"],
+            ["3", "Lesser curvature nodes", "Left and right gastric arteries", "D1, D1+, D2"],
+            ["4sa/4sb/4d", "Greater curvature nodes", "Short gastric, left and right gastroepiploic", "D1 (4d), D1+ (4sa/sb), D2"],
+            ["5", "Suprapyloric nodes", "Right gastric artery", "D1, D1+, D2"],
+            ["6", "Infrapyloric nodes", "Right gastroepiploic/gastroduodenal", "D1, D1+, D2"],
+            ["7", "Left gastric artery nodes", "Along left gastric artery trunk", "D2"],
+            ["8a", "Common hepatic artery nodes (anterosuperior)", "Common hepatic artery", "D2"],
+            ["9", "Coeliac axis nodes", "At origin of left gastric artery", "D2"],
+            ["10", "Splenic hilar nodes", "Splenic hilum", "D2 (total gastrectomy)"],
+            ["11p/11d", "Proximal/distal splenic artery nodes", "Along splenic artery", "D2"],
+            ["12a", "Hepatoduodenal ligament nodes", "Along hepatic artery in hepatoduodenal ligament", "D2"],
+            ["16", "Para-aortic nodes", "Around abdominal aorta", "M1 disease — NOT D2"]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "assets/img/diagrams/gastric_lymph_nodes.svg",
+          "caption": "Figure 1. Gastric lymph node stations 1–12 (JGCA 5th edition). D1 dissection removes perigastric stations 1–6. D2 dissection additionally removes stations 7–12 along named vascular structures.",
+          "alt": "Stomach anterior view with numbered lymph node stations 1-12"
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — D2 Standard",
+          "content": "D2 lymphadenectomy is the standard for curative-intent gastrectomy in all guideline frameworks (NCCN, ESMO, JGCA). The 15-year follow-up of the Dutch D1D2 trial confirmed a survival advantage for D2 over D1 (29% vs 21% cancer-specific survival, p=0.034). A minimum of **16 lymph nodes** must be examined for adequate pathological staging (JGCA); AJCC requires ≥16 for valid N-staging."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Station 16 Para-aortic Nodes — Critical Distinction",
+          "content": "Station 16 (para-aortic nodes) is NOT part of D2 dissection — positive para-aortic nodes represent **M1 disease** in the TNM 8th edition classification. The JCOG9501 trial showed that D3 dissection (including para-aortic nodes) conferred no survival benefit over D2 in gastric cancer and significantly increased morbidity. If station 16 nodes are found positive at staging laparoscopy or intraoperative frozen section, curative gastrectomy should be aborted."
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "FLOT4 Trial (Al-Batran, Lancet 2019)",
+          "content": "**Population:** 716 patients with resectable gastric or GEJ adenocarcinoma, perioperative FLOT (docetaxel/oxaliplatin/leucovorin/5-FU) vs ECF/ECX. **Result:** Median OS 50 vs 35 months (HR 0.77, p=0.012); pCR 16% vs 6%. **Practice change:** FLOT is the Western standard perioperative regimen for resectable gastric and GEJ cancer, replacing ECF/ECX."
+        }
+      ]
+    },
+    {
+      "id": "A3-S2",
+      "title": "Operative Procedures",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "**Distal gastrectomy** (60–75% gastrectomy) is indicated for antral and body tumours when a 5cm proximal margin from the tumour can be achieved. Reconstruction options: Billroth II (gastrojejunostomy), Roux-en-Y gastrojejunostomy (preferred to prevent bile reflux gastritis). **Total gastrectomy** is required for fundic and diffuse-type tumours (signet ring/linitis plastica) and when adequate proximal margin cannot be achieved with distal gastrectomy. Reconstruction is by oesophagojejunostomy (Roux-en-Y). D2 dissection is performed with both procedures."
+        },
+        {
+          "type": "table",
+          "title": "Distal vs Total Gastrectomy — Indications and Key Operative Considerations",
+          "headers": ["Feature", "Distal Gastrectomy", "Total Gastrectomy"],
+          "rows": [
+            ["Indication", "Antrum/body tumours — proximal margin achievable", "Fundic, diffuse-type, or when 5cm proximal margin not achievable"],
+            ["Reconstruction", "Roux-en-Y gastrojejunostomy (preferred) or Billroth II", "Oesophagojejunostomy (Roux-en-Y, 40–60cm limb)"],
+            ["Proximal margin requirement", "≥5cm diffuse-type; ≥3cm intestinal-type", "≥2–3cm above GOJ; frozen section mandatory"],
+            ["Lymphadenectomy", "D2 (stations 1–9, 11p, 12a for distal tumours)", "D2 (stations 1–12, including 10/11d for total)"],
+            ["Spleen preservation", "Standard", "Standard (resect only if station 10 direct infiltration)"],
+            ["Nutritional consequence", "Reduced acid/pepsin; altered gastric emptying", "Complete absence of gastric function; B12 deficiency universal"],
+            ["Anastomotic leak risk", "5–8% (gastrojejunostomy)", "3–10% (oesophagojejunostomy — higher consequences)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Proximal Margin",
+          "content": "For diffuse-type (signet ring) gastric cancer, a **5cm proximal margin** is required due to submucosal spread. For intestinal-type gastric cancer, 3cm is accepted. Intraoperative frozen section of the proximal margin is mandatory if doubt exists. Positive proximal margin is R1 regardless of the distance from the gross tumour."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Minimally Invasive Gastrectomy — Current Evidence",
+          "content": "Laparoscopic distal gastrectomy (LDG) is now standard for early gastric cancer at high-volume Asian centres, with equivalent oncological outcomes and reduced short-term morbidity compared to open surgery (KLASS-01 trial: 5-year OS 94.2% LDG vs 93.3% open). For advanced gastric cancer, laparoscopic total gastrectomy (KLASS-02) shows non-inferior short-term surgical outcomes. Robotic gastrectomy has increasing adoption but lacks definitive survival data over laparoscopic approaches."
+        }
+      ]
+    },
+    {
+      "id": "A3-S3",
+      "title": "Post-Gastrectomy Syndromes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Post-gastrectomy syndromes are functional and nutritional sequelae of altered gastric anatomy. They are more frequent after total than after distal gastrectomy and more common after Billroth II than Roux-en-Y reconstruction. Dumping syndrome (early and late) is the most common functional complication, affecting up to 20% of patients after total gastrectomy. Nutritional deficiencies — particularly vitamin B12, iron, and calcium — require lifelong monitoring and supplementation. Understanding the timing and mechanism of each syndrome is essential for accurate diagnosis and targeted management."
+        },
+        {
+          "type": "table",
+          "title": "Post-Gastrectomy Syndromes — Recognition and Management",
+          "headers": ["Syndrome", "Mechanism", "Timing", "Management"],
+          "rows": [
+            ["Early dumping", "Rapid gastric emptying → osmotic shift + gut hormone release", "15–30 min post-meal", "Small meals, low simple carbohydrate, octreotide for severe"],
+            ["Late dumping (reactive hypoglycaemia)", "Rapid glucose absorption → insulin surge → hypoglycaemia", "1–3 hours post-meal", "Low GI diet, acarbose, octreotide"],
+            ["Bile reflux gastritis", "Duodenal bile into gastric remnant or oesophagus", "Chronic", "Roux-en-Y conversion; ursodeoxycholic acid"],
+            ["Vitamin B12 deficiency", "Loss of intrinsic factor from gastric parietal cells", "Months–years", "IM B12 monthly (lifelong after total gastrectomy)"],
+            ["Iron deficiency anaemia", "Reduced acid for iron absorption; reduced dietary intake", "Months–years", "Oral iron; IV iron if malabsorption"],
+            ["Calcium/Vitamin D deficiency", "Reduced gastric acid impairs calcium absorption; reduced dietary intake", "Months–years", "Calcium + Vitamin D3 supplementation; DEXA at 2 years"],
+            ["Roux stasis syndrome", "Disrupted migrating motor complex in Roux limb", "Weeks–months", "Prokinetics; dietary modification; rarely revision surgery"],
+            ["Afferent loop syndrome", "Afferent limb obstruction after Billroth II", "Acute or chronic", "Surgical revision to Roux-en-Y or drainage procedure"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl",
+          "content": "After total gastrectomy, **vitamin B12 must be supplemented lifelong** by intramuscular injection (hydroxocobalamin 1mg IM every 3 months) — there is no intrinsic factor and oral supplementation is unreliable. Failure to supplement causes irreversible subacute combined degeneration of the spinal cord."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "Annual Nutritional Surveillance After Gastrectomy",
+          "content": "Annual blood panel is mandatory for all post-gastrectomy patients: **FBC** (iron deficiency, megaloblastic anaemia), **serum B12 and folate**, **ferritin and transferrin saturation**, **calcium, phosphate, and 25-OH vitamin D**, **albumin** (nutritional marker). DEXA scan at 2 years to assess for post-gastrectomy osteoporosis (reduced calcium absorption). Register patients with a dietitian at discharge — structured nutritional counselling reduces post-gastrectomy malnutrition."
+        }
+      ]
+    },
+    {
+      "id": "A3-S4",
+      "title": "Gastric Cancer Staging and Lymphadenectomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Accurate staging of gastric cancer is the cornerstone of treatment planning. The AJCC/UICC TNM 8th edition (2017) provides the current staging framework. Clinical staging (cTNM) is based on CT thorax/abdomen/pelvis, EUS for T and N staging, and staging laparoscopy for cT3-T4 or node-positive disease. Pathological staging (pTNM) requires a minimum of 16 lymph nodes examined for adequate N-staging. The distinction between N1 (1–2 positive nodes), N2 (3–6), and N3 (≥7: N3a = 7–15, N3b = ≥16) is critical for adjuvant therapy decisions and prognosis."
+        },
+        {
+          "type": "table",
+          "title": "TNM 8th Edition Gastric Cancer Staging — Key Categories",
+          "headers": ["Category", "Definition", "Survival Implication"],
+          "rows": [
+            ["T1a", "Tumour confined to mucosa (lamina propria/muscularis mucosae)", "ESD eligible if differentiated, no LVI"],
+            ["T1b", "Tumour invades submucosa", "ESD if SM1 ≤500μm, differentiated, no LVI; otherwise gastrectomy + D1+"],
+            ["T2", "Tumour invades muscularis propria", "Gastrectomy + D2; perioperative chemotherapy if ≥T2 in Western practice"],
+            ["T3", "Tumour penetrates subserosa (without peritoneal or adjacent organ invasion)", "Perioperative FLOT standard; staging laparoscopy mandatory"],
+            ["T4a", "Tumour perforates serosa (visceral peritoneum)", "High peritoneal recurrence risk; staging laparoscopy mandatory"],
+            ["T4b", "Tumour invades adjacent structures (aorta, liver, pancreas, colon)", "Extended resection if R0 achievable; neoadjuvant chemotherapy recommended"],
+            ["N1", "1–2 positive regional lymph nodes", "Stage II (with T2-3)"],
+            ["N2", "3–6 positive regional lymph nodes", "Stage IIIA"],
+            ["N3a", "7–15 positive regional lymph nodes", "Stage IIIB/C depending on T"],
+            ["N3b", "≥16 positive regional lymph nodes", "Stage IIIC — very high recurrence risk; all adjuvant therapy"],
+            ["M1", "Distant metastases (including station 16, peritoneal cytology +, peritoneal implants)", "Incurable; systemic chemotherapy standard"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Staging Laparoscopy — When It Is Mandatory",
+          "content": "Staging laparoscopy with peritoneal washings (cytology) is recommended by NCCN for all cT3-T4 or node-positive gastric cancers before laparotomy. It detects occult peritoneal disease in **20–30%** of clinically resectable cases — preventing futile major surgery. Positive peritoneal cytology alone (P0 CY1) upgrades disease to M1 in JGCA staging (though AJCC 8th does not classify CY1 as M1 if no macroscopic peritoneal implants — know your guideline framework)."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "Dutch D1D2 Trial — 15-Year Follow-Up",
+          "citation": "Songun I et al. Lancet Oncology 2010; 11(5):439–449",
+          "population": "711 patients with resectable gastric cancer; randomised to D1 vs D2 lymphadenectomy",
+          "intervention": "D1 (perigastric nodes) vs D2 (D1 + named vascular nodes including stations 7–11) lymphadenectomy",
+          "result": "15-year cancer-specific survival: 29% D2 vs 21% D1 (p=0.034). D2 associated with lower locoregional recurrence (12% vs 22%). Initial higher operative mortality for D2 (10% vs 4%) driven by non-specialist centres; in specialist centres, morbidity was equivalent.",
+          "practice_change": "D2 is the established standard for curative gastrectomy in all guidelines. Long-term follow-up confirms survival benefit previously obscured by early operative mortality. Experienced surgeons at volume centres achieve D2 safely."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "Minimum Lymph Node Requirements for Adequate Staging",
+          "content": "**AJCC TNM 8th edition:** ≥16 lymph nodes examined required for valid N-staging. **JGCA 5th edition:** ≥16 nodes required; recommends ≥25 nodes at expert centres. If fewer than 16 nodes are examined, pN0 is classified as pNx (inadequate staging) — this affects both prognosis and adjuvant therapy decisions. Low lymph node yield is a quality marker for gastrectomy and should be audited."
+        }
+      ]
+    },
+    {
+      "id": "A3-S5",
+      "title": "Perioperative Chemotherapy — FLOT and Beyond",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Perioperative chemotherapy is the standard of care for resectable gastric and gastroesophageal junction (GEJ) adenocarcinoma in Western practice. The FLOT4 trial (Al-Batran, Lancet 2019) established FLOT (docetaxel 50mg/m², oxaliplatin 85mg/m², leucovorin 200mg/m², 5-FU 2600mg/m² continuous infusion) given every 2 weeks as the preferred perioperative regimen, replacing the previously used ECF/ECX based on the MAGIC trial (Cunningham, NEJM 2006). The regimen consists of 4 pre-operative cycles followed by 4 post-operative cycles, with surgery performed 4–6 weeks after the last pre-operative cycle."
+        },
+        {
+          "type": "table",
+          "title": "Perioperative Chemotherapy Regimens — Comparison of Key Trials",
+          "headers": ["Trial", "Regimen", "Population", "Key Result", "Current Role"],
+          "rows": [
+            ["MAGIC (2006)", "ECF/ECX peri-operative × 3 cycles each side", "Resectable gastric/GEJ adenocarcinoma (n=503)", "5-year OS 36% vs 23% surgery alone (HR 0.75)", "Superseded by FLOT in Western practice"],
+            ["FLOT4 (2019)", "FLOT × 4 cycles each side", "Resectable gastric/GEJ (n=716)", "Median OS 50 vs 35 months (HR 0.77); pCR 16%", "Western standard — Category 1 (NCCN/ESMO)"],
+            ["ACTS-GC (2007)", "S-1 adjuvant × 1 year after D2", "Stage II-III gastric cancer, East Asian (n=1059)", "5-year OS 72% vs 61% (HR 0.67)", "East Asian adjuvant standard after D2"],
+            ["CLASSIC (2012)", "CAPOX adjuvant × 6 months after D2", "Stage II-III gastric cancer, East Asian (n=1035)", "5-year DFS 68% vs 53% (HR 0.58)", "East Asian adjuvant alternative to S-1"],
+            ["INT-0116 (2001)", "5-FU/leucovorin + chemoradiotherapy adjuvant", "Resected gastric cancer (n=556)", "Median OS 36 vs 27 months (HR 0.74)", "Adjuvant CRT: US historical standard; now used for R1 and high-risk cases"],
+            ["FLOT7-AIO", "FLOT ± trastuzumab/pertuzumab peri-op (HER2+)", "HER2+ resectable gastric/GEJ (n=~200)", "pCR 34% vs 12% (p<0.001) — survival pending", "Under investigation; not yet approved standard"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "FLOT Regimen — Practical Considerations",
+          "content": "Key practical points for FLOT management: **(1) Toxicity profile:** Neutropenia (G3/4 in 51%), peripheral neuropathy (oxaliplatin), fatigue, nausea. G-CSF prophylaxis recommended. **(2) Response assessment:** CT restaging after 4 pre-operative cycles — if progressive disease, reassess operability. pCR or major pathological response is a favourable prognostic marker. **(3) Post-operative completion:** 4 post-operative cycles should be completed as planned; delays due to surgical complications require MDT review. **(4) Nutritional monitoring:** Weight and nutritional status must be tracked throughout — malnutrition delays surgery and reduces chemotherapy tolerance."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "FLOT4 — Perioperative FLOT vs ECF/ECX",
+          "citation": "Al-Batran SE et al. Lancet 2019; 393(10184):1948–1957",
+          "population": "716 patients with resectable gastric or GEJ adenocarcinoma (T2-T4 or node-positive); multicentre German phase III RCT",
+          "intervention": "Perioperative FLOT (4 cycles pre-op + 4 cycles post-op) vs ECF/ECX (3 cycles pre-op + 3 cycles post-op)",
+          "result": "Median OS 50 months (FLOT) vs 35 months (ECF/ECX), HR 0.77, p=0.012. Pathological complete response 16% vs 6%. 5-year OS 45% vs 36%. R0 resection rate similar (85% vs 78%). Increased toxicity with FLOT (neutropenia, diarrhoea) but manageable.",
+          "practice_change": "FLOT replaced ECF/ECX as the Western standard perioperative regimen for resectable gastric and GEJ cancer. Represents a 15-month median OS improvement and 10% absolute increase in pCR rate."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "HER2 Testing — Must Be Performed Before Starting Treatment",
+          "content": "HER2 testing (IHC ± ISH) must be performed on all gastric cancer specimens **before initiating systemic therapy**. HER2-positive gastric cancer (IHC 3+ or IHC 2+/ISH+) has distinct therapeutic implications: trastuzumab is approved for palliative HER2+ disease (ToGA trial, Bang Lancet 2010), and emerging perioperative data (FLOT7-AIO) suggests benefit of dual HER2 blockade. HER2 expression may change with chemotherapy — retesting at progression/recurrence is recommended."
+        }
+      ]
+    },
+    {
+      "id": "A3-S6",
+      "title": "Post-Gastrectomy Complications and Surgical Emergencies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Post-gastrectomy surgical complications are classified by the Clavien-Dindo system and, for anastomotic leaks, by the International Study Group of Gastric Cancer (ISGC) leak grading (Grades A–C based on clinical impact and intervention required). The most feared early complications are anastomotic leak (especially oesophagojejunostomy after total gastrectomy) and duodenal stump leak after distal gastrectomy. Pancreatic fistula and chylous ascites are important delayed complications following D2 lymphadenectomy involving the pancreatic region and thoracic duct territory."
+        },
+        {
+          "type": "table",
+          "title": "Post-Gastrectomy Surgical Complications — Diagnosis and Management",
+          "headers": ["Complication", "Timing", "Diagnosis", "Key Management"],
+          "rows": [
+            ["Oesophagojejunostomy leak", "Day 4–7", "Drain fluid character; CT; upper GI water-soluble study", "Grade A: conservative. Grade B: endoscopic stent/vacuum. Grade C: re-operation + diversion"],
+            ["Duodenal stump leak", "Day 3–7 (Billroth II / subtotal gastrectomy)", "High amylase drain fluid; CT showing right upper quadrant collection", "Drain, antibiotics, octreotide; surgical revision if uncontrolled"],
+            ["Pancreatic fistula/leak", "Day 3–10", "Drain fluid amylase >3× serum ULN on day 3+", "Grade A: expectant. Grade B: octreotide, drain, NPO. Grade C: surgical drainage or pancreatectomy"],
+            ["Chylous ascites", "Day 3–14", "Milky drain fluid; triglycerides >200 mg/dL", "MCT diet or NPO + TPN; octreotide; VATS duct ligation if refractory"],
+            ["Post-gastrectomy haemorrhage", "Immediate (intraluminal) or delayed (pseudoaneurysm)", "FBC, endoscopy, CT angiography", "Endoscopic haemostasis; IR embolisation; re-operation if haemodynamic instability"],
+            ["Anastomotic stricture", "3–8 weeks", "Dysphagia; OGD showing stenotic anastomosis", "Endoscopic balloon dilation (1–3 sessions); stent for refractory cases; surgical revision rarely"],
+            ["Delayed gastric emptying/Roux stasis", "Weeks–months", "Early satiety, nausea; OGD showing food residue; gastric emptying study", "Prokinetics (metoclopramide, domperidone); dietary modification; rarely revision"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Oesophagojejunostomy Leak — Red Flags Requiring Urgent Action",
+          "content": "Suspect oesophagojejunostomy leak when: fever >38.5°C beyond day 3; tachycardia without other cause; drain output becomes bilious or haematic; pain out of proportion; CRP fails to trend down after day 3 (expected peak day 2–3, CRP >170 mg/L on day 4 is a validated leak predictor). **Pneumomediastinum on CT = Grade C leak = surgical or interventional emergency.** Covered oesophageal stent is first-line for Grade B leaks — success rate 76–85%; surgical revision reserved for haemodynamically unstable patients."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Duodenal Stump — The Lateral Blow-Out",
+          "content": "After Billroth II subtotal gastrectomy, the duodenal stump is the site of highest risk for catastrophic leak ('lateral blow-out'). Risk factors: poor blood supply, tension, staple line ischaemia, distal obstruction. If drain amylase >3× ULN on day 3, leak is confirmed. Management: controlled drainage with wide-bore drain, NPO, octreotide, antibiotics. Surgical revision involves oversewing the stump or Roux-en-Y drainage. Uncontrolled duodenal stump leak carries a mortality of 15–30%."
+        }
+      ]
+    },
+    {
+      "id": "A3-S7",
+      "title": "Gastroesophageal Junction Tumours — Siewert Classification",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Adenocarcinoma of the gastroesophageal junction (GOJ) has increased in incidence in Western populations and represents a distinct oncological entity at the intersection of oesophageal and gastric cancer surgery. The Siewert classification (1998) categorises GOJ tumours anatomically relative to the Z-line and determines the appropriate surgical approach. This classification has been validated across international series and guides the choice of resection (oesophagectomy vs gastrectomy), extent of lymphadenectomy, and perioperative treatment strategy."
+        },
+        {
+          "type": "table",
+          "title": "Siewert Classification of GEJ Adenocarcinoma — Surgical Approach",
+          "headers": ["Type", "Tumour Location", "Typical Origin", "Preferred Resection", "Perioperative Treatment"],
+          "rows": [
+            ["Siewert I", "1–5cm above GOJ (distal oesophagus)", "Barrett's oesophagus/columnar metaplasia", "Ivor Lewis (subtotal) oesophagectomy — 2-field lymphadenectomy (mediastinal + upper abdominal)", "FLOT (NCCN) or CROSS (carboplatin/paclitaxel + RT) — CROSS preferred if oesophageal >3cm"],
+            ["Siewert II", "1cm above to 2cm below GOJ (true cardia)", "Cardiac mucosa or short-segment Barrett's", "Transhiatal total gastrectomy + distal oesophagectomy OR Ivor Lewis (if significant oesophageal involvement)", "FLOT perioperative (NCCN Category 1)"],
+            ["Siewert III", "2–5cm below GOJ (subcardial)", "Gastric cardia mucosa", "Extended total gastrectomy (proximal to ensure R0) — upper abdominal lymphadenectomy", "Perioperative FLOT (as for gastric cancer)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Siewert Classification — How to Determine the Type",
+          "content": "Measure the tumour centre relative to the anatomical GOJ (Z-line). This requires careful review of CT, upper GI endoscopy, and EUS reports together: **Siewert I** = tumour centre 1–5cm above GOJ; **Siewert II** = tumour centre within 1cm above to 2cm below GOJ; **Siewert III** = tumour centre 2–5cm below GOJ. When CT and endoscopy reports conflict, the endoscopic measurement (from incisors to GOJ and tumour lower/upper extent) is most accurate. In practice, Siewert I and II overlap — MDT discussion with the operating surgeon, radiologist, and gastroenterologist is essential."
+        },
+        {
+          "type": "text",
+          "content": "The **CROSS trial** (van Hagen, NEJM 2012) demonstrated that neoadjuvant chemoradiotherapy (carboplatin/paclitaxel + 41.4Gy radiation) followed by surgery improved median OS from 24 to 49 months compared to surgery alone in oesophageal and GEJ cancer (predominantly Siewert I). The **pCR rate was 29% overall** (49% for squamous cell carcinoma, 23% for adenocarcinoma). For Siewert II tumours with significant oesophageal involvement, CROSS may be preferred over FLOT by some centres, especially in North America. For Siewert III tumours, FLOT is standard. This represents an area of active clinical equipoise (ESOPEC trial: FLOT vs CROSS for resectable oesophageal/GEJ — results showed FLOT superior for adenocarcinoma, Hoeppner Lancet 2024)."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "ESOPEC Trial — FLOT vs CROSS for Oesophageal/GEJ Cancer",
+          "citation": "Hoeppner J et al. Lancet 2024; 403(10432):1189–1200",
+          "population": "438 patients with resectable oesophageal and GEJ adenocarcinoma (predominantly Siewert I-II); German multicentre RCT",
+          "intervention": "Perioperative FLOT (4+4 cycles) vs CROSS (carboplatin/paclitaxel + 41.4Gy, then surgery)",
+          "result": "3-year OS 57.4% (FLOT) vs 50.7% (CROSS), HR 0.70, p=0.012. pCR higher with CROSS (35% vs 16%), but FLOT superior in OS and PFS. No difference in R0 rate or perioperative morbidity.",
+          "practice_change": "FLOT is now preferred over CROSS for resectable oesophageal/GEJ adenocarcinoma. CROSS retains a role for squamous cell carcinoma and for patients unable to tolerate FLOT. This trial resolves the FLOT vs CROSS debate in the adenocarcinoma setting."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Frozen Section at the Proximal Oesophageal Margin — Non-Negotiable",
+          "content": "For all Siewert II resections and any GOJ tumour with oesophageal involvement, **intraoperative frozen section of the proximal oesophageal margin is mandatory**. The submucosal spread of diffuse-type GOJ tumours makes gross margin assessment unreliable. If the first frozen section is positive (R1), the resection must be extended — additional oesophageal resection is required before closing. Discovering R1 status on permanent pathology after recovery forecloses the option of immediate re-resection."
+        }
+      ]
+    },
+    {
+      "consolidation": true
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of gastric cancer surgery with 20 clinical questions.",
+    "questions": [
+      {
+        "id": "A3-Q1",
+        "stem": "A 58-year-old man with resectable pT3 N2 gastric adenocarcinoma is being planned for surgery. According to FLOT4 trial evidence and NCCN v2.2024, what is the preferred treatment approach?",
+        "options": {
+          "A": "Upfront total gastrectomy + D2 dissection, then adjuvant FOLFOX",
+          "B": "4 cycles FLOT → total gastrectomy + D2 → 4 cycles FLOT",
+          "C": "Preoperative radiotherapy (45 Gy) + surgery, no chemotherapy",
+          "D": "Surgery only — perioperative chemotherapy increases operative risk"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "FLOT4 (Al-Batran, Lancet 2019) established perioperative FLOT (4 preoperative + 4 postoperative cycles) as the standard of care for resectable gastric cancer in Western practice, demonstrating superior OS (50 vs 35 months) and pCR rates (16% vs 6%) compared to ECF/ECX. NCCN v2.2024 carries this as Category 1 recommendation.",
+          "wrong": {
+            "A": "Upfront surgery with adjuvant chemotherapy is the standard in East Asia (ACTS-GC trial with S-1) but has been superseded in Western practice by perioperative FLOT, which treats micrometastatic disease earlier.",
+            "C": "Preoperative radiotherapy alone is not standard for resectable gastric cancer — it is used for GEJ cancer in combination with chemotherapy (CROSS regimen).",
+            "D": "Perioperative chemotherapy improves survival without meaningful increase in operative mortality in fit patients — avoiding it is not evidence-based."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — Category 1: perioperative FLOT for resectable gastric/GEJ adenocarcinoma",
+          "trial": "FLOT4 (Al-Batran, Lancet 2019): median OS 50 vs 35 months; pCR 16% vs 6% with FLOT vs ECF/ECX.",
+          "pearl": "Always check HER2 status before starting systemic therapy — HER2+ gastric cancer may benefit from trastuzumab in the perioperative or palliative setting."
+        }
+      },
+      {
+        "id": "A3-Q2",
+        "stem": "A 65-year-old man undergoes staging laparoscopy for a clinically resectable gastric adenocarcinoma (cT3 N1, antral location). At laparoscopy, two 2–3mm peritoneal deposits are identified on the pelvic peritoneum and confirmed as metastatic adenocarcinoma on frozen section. No liver metastases are seen. Which of the following best describes the most appropriate management?",
+        "options": {
+          "A": "Proceed with immediate gastrectomy + D2 dissection — the peritoneal deposits are small and can be removed",
+          "B": "Convert to palliative management — peritoneal metastases from gastric cancer represent incurable stage IV disease; systemic chemotherapy is the standard",
+          "C": "Heated intraperitoneal chemotherapy (HIPEC) at the time of laparoscopy — standard treatment for peritoneal gastric cancer",
+          "D": "Proceed with gastrectomy then plan interval HIPEC — staged cytoreductive surgery is the preferred approach"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Positive peritoneal cytology (P1 or macroscopic peritoneal metastases) detected at staging laparoscopy indicates stage IV gastric cancer (M1 disease) and is a contraindication to curative gastrectomy. Peritoneal metastases from gastric cancer carry a median survival of 6–12 months with systemic chemotherapy — significantly worse than haematogenous metastases. Proceeding with gastrectomy in the presence of M1 peritoneal disease does not improve survival and adds major surgical morbidity. The standard management is systemic palliative chemotherapy (FLOT, FOLFOX, or FOLFIRI backbone), potentially with targeted agents based on molecular profile (HER2, PD-L1).",
+          "wrong": {
+            "A": "Small peritoneal deposits do not change the stage IV designation. Attempting to resect or cytoreduce 2-3mm peritoneal deposits while leaving the stomach in situ is not appropriate. Gastrectomy in the setting of proven peritoneal metastases from gastric cancer does not confer survival benefit — it adds morbidity and delays systemic therapy.",
+            "C": "HIPEC for gastric peritoneal carcinomatosis remains investigational in the Western setting. The GASTRICHIP trial (Phase III, France) did not demonstrate survival benefit for adjuvant HIPEC after cytoreductive surgery for resectable gastric peritoneal carcinomatosis. HIPEC is not standard treatment for newly diagnosed peritoneal gastric cancer at staging laparoscopy.",
+            "D": "Staged cytoreductive surgery + HIPEC for gastric peritoneal carcinomatosis is performed at highly specialised centres in selected patients with low peritoneal cancer index (PCI ≤6). This approach is not the standard recommendation in current NCCN or ESMO guidelines and should not be offered without formal assessment at a peritoneal oncology centre."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — positive peritoneal cytology or peritoneal metastases at staging laparoscopy = M1 disease; palliative systemic chemotherapy standard; curative gastrectomy contraindicated",
+          "trial": "GASTRICHIP trial (Glehen, JAMA Surg 2021): cytoreductive surgery + HIPEC vs surgery alone for gastric peritoneal carcinomatosis — no significant OS improvement with HIPEC (primary endpoint not met). Staging laparoscopy detected peritoneal disease in 20–25% of clinical T3-T4 gastric cancers (FLOT4 substudies).",
+          "pearl": "Staging laparoscopy detects occult peritoneal disease in 20–30% of clinically resectable gastric cancers (T3-T4). NCCN recommends staging laparoscopy for all cT3-T4 or any node-positive gastric cancers before proceeding with curative-intent gastrectomy. Do not skip this step — it prevents futile major surgery."
+        }
+      },
+      {
+        "id": "A3-Q3",
+        "stem": "A 61-year-old woman undergoes total gastrectomy with D2 lymphadenectomy for a pT3 N2 gastric adenocarcinoma. Roux-en-Y oesophagojejunostomy is fashioned. On day 5 post-operatively, she develops fever, tachycardia, and drained fluid from the surgical drain turns bilious. CT shows pneumomediastinum and a small pericardial effusion. Which complication has most likely occurred?",
+        "options": {
+          "A": "Grade B anastomotic leak of the oesophagojejunostomy — managed with drain, antibiotics, NPO",
+          "B": "Oesophagojejunostomy leak with mediastinal contamination — a life-threatening complication requiring urgent surgical or endoscopic intervention",
+          "C": "Duodenal stump leak — the most common post-gastrectomy anastomotic complication",
+          "D": "Chylous ascites — thoracic duct injury during D2 dissection producing milky drain output"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Oesophagojejunostomy leak after total gastrectomy is a potentially lethal complication. Pneumomediastinum and pericardial effusion on CT indicate that the leak has tracked superiorly into the mediastinum — a Grade C equivalent leak. Mediastinal contamination from oesophagojejunostomy leak carries mortality rates of 20–40%. Management options include: endoscopic stenting (covered self-expanding oesophageal stent to seal the leak) as the preferred minimally invasive approach, surgical revision if endoscopic management fails, and intensive nutritional support via jejunal feeding tube. The drain being bilious does not define this as a minor leak — the mediastinal extension is the alarming feature.",
+          "wrong": {
+            "A": "A Grade B oesophagojejunostomy leak (contained, without mediastinal extension, haemodynamically stable) would be managed conservatively with drain, antibiotics, and NPO. Pneumomediastinum and pericardial effusion indicate mediastinal tracking — this exceeds Grade B management. Endoscopic stenting or surgical intervention is required.",
+            "C": "Duodenal stump leak is most feared after Billroth II reconstruction or subtotal gastrectomy — it does not occur after total gastrectomy with Roux-en-Y reconstruction where there is no duodenal stump (the duodenum is oversewn). The described findings implicate the oesophagojejunostomy, not a duodenal stump.",
+            "D": "Chylous ascites presents as milky-white drain output (not bilious), occurs 1–2 weeks post-operatively after thoracic duct injury during D2 dissection (particularly around the celiac axis and aorta), and does not cause pneumomediastinum or pericardial effusion. The bilious character and mediastinal air point to oesophagojejunostomy leak."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — oesophagojejunostomy leak management: endoscopic covered stenting first-line for contained leaks; surgical revision for haemodynamically unstable or uncontrolled contamination",
+          "trial": "Sauvanet A et al. (J Gastrointest Surg 2018): self-expanding metallic stent for oesophagojejunostomy leak — clinical success 76%, mortality 15%. Perko Z (Surg Endosc 2020): endoscopic vacuum therapy for anastomotic leaks after total gastrectomy — 85% success rate.",
+          "pearl": "The oesophagojejunostomy is the highest-risk anastomosis in upper GI surgery — it is under tension, in the posterior mediastinum, has tenuous blood supply, and leaks directly contaminate the mediastinum. Leak rate after total gastrectomy is 3–8%. Routine drainage and early CT at any sign of clinical deterioration are mandatory."
+        }
+      },
+      {
+        "id": "A3-Q4",
+        "stem": "A 55-year-old man is diagnosed with a 1.5cm well-differentiated antral gastric cancer on OGD. EUS confirms the tumour is limited to the mucosa (T1a) with no submucosal involvement and no perigastric lymph nodes. No distant metastases. He has no prior gastric surgery. Which management is most appropriate according to current evidence?",
+        "options": {
+          "A": "Total gastrectomy + D2 lymphadenectomy — all gastric cancers require formal gastrectomy",
+          "B": "Endoscopic submucosal dissection (ESD) — curative for selected early gastric cancers meeting expanded criteria",
+          "C": "Distal gastrectomy + D1 lymphadenectomy — ESD is experimental for gastric cancer",
+          "D": "Chemotherapy and endoscopic surveillance — surgery only if cancer progresses"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Endoscopic submucosal dissection (ESD) is the standard curative treatment for early gastric cancer (EGC) meeting the Japanese Gastric Cancer Association expanded criteria: (1) differentiated-type adenocarcinoma; (2) mucosal (T1a) without ulceration, any size; or (3) mucosal with ulceration, ≤3cm; or (4) submucosal invasion ≤500 microns (SM1), no lymphovascular invasion, ≤3cm. This tumour (1.5cm, well-differentiated, T1a, no ulceration) fulfils the expanded ESD criteria. ESD achieves 95%+ en-bloc resection rates and curative resection in >90% of eligible cases. The risk of lymph node metastasis for T1a well-differentiated EGC without ulceration or LVI is <1% — making radical gastrectomy unnecessary and morbid.",
+          "wrong": {
+            "A": "Total gastrectomy + D2 for a T1a mucosal gastric cancer would be significant overtreatment. The Japanese Gastric Cancer Association and ESMO support ESD as the primary treatment for EGC meeting expanded criteria. The lymph node metastasis risk is <1% at this stage — D2 dissection adds morbidity without benefit.",
+            "C": "Distal gastrectomy + D1 is appropriate when ESD criteria are not met (e.g., submucosal T1b invasion >500 microns, undifferentiated type, LVI, ulceration beyond ESD limits). For this T1a well-differentiated tumour, ESD is preferable as a less invasive curative option.",
+            "D": "Chemotherapy alone has no role in T1a gastric cancer — surgery or ESD with curative intent is the standard. Observation while managing T1a cancer with chemotherapy and surveillance is not an appropriate strategy."
+          },
+          "guideline": "Japanese Gastric Cancer Treatment Guidelines 2021 (5th ed.) — ESD as standard treatment for EGC meeting absolute or expanded criteria; ESMO Gastric Cancer 2022 — ESD/EMR for T1a EGC",
+          "trial": "Oda I (Gastric Cancer 2006): ESD for early gastric cancer — en-bloc resection rate 95.5%, local recurrence 0.7% at median 25 months. Gotoda T (Gastric Cancer 2000): lymph node metastasis rate <0.5% for T1a differentiated EGC without ulceration — establishing ESD safety.",
+          "pearl": "After ESD for early gastric cancer, curative resection (eCura A) is declared when all of: en-bloc resection, negative lateral and vertical margins, no LVI, no SM2 invasion. Any deviation (positive margin, LVI, SM2) requires additional surgery. Follow-up OGD at 3–6 months post-ESD is mandatory."
+        }
+      },
+      {
+        "id": "A3-Q5",
+        "stem": "A 67-year-old woman undergoes total gastrectomy + D2 lymphadenectomy for pT3 N3a gastric adenocarcinoma. Pathology confirms 22 lymph nodes retrieved, 9 positive, R0 resection. She has completed 4 cycles of perioperative FLOT and is ready for post-operative cycles. Three weeks post-operatively she develops early satiety and weight loss. OGD shows Roux limb stenosis at the oesophagojejunostomy. Which of the following is the most appropriate management?",
+        "options": {
+          "A": "Restart FLOT chemotherapy — post-operative chemotherapy should not be delayed for functional issues",
+          "B": "Endoscopic balloon dilation of the anastomotic stricture — first-line treatment for oesophagojejunostomy stricture",
+          "C": "Surgical revision of the anastomosis — all post-gastrectomy strictures require reoperation",
+          "D": "Jejunostomy feeding tube only — anastomotic strictures after total gastrectomy are permanent"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Anastomotic stricture (oesophagojejunostomy stenosis) after total gastrectomy occurs in 5–10% of cases, typically presenting 3–6 weeks post-operatively with dysphagia, regurgitation, and weight loss. Endoscopic balloon dilation is the first-line treatment, achieving symptom relief in >85% of cases after 1–3 sessions. Strictures are typically fibrotic or ischaemic in origin. Dilation should be performed with fluoroscopic or endoscopic guidance, using through-the-scope (TTS) balloons, starting with 10mm and progressively dilating to 15–18mm. Early recognition and treatment prevents malnutrition and allows timely resumption of adjuvant chemotherapy.",
+          "wrong": {
+            "A": "Restarting FLOT with unresolved dysphagia and a stenotic anastomosis risks aspiration, malnutrition, and inability to tolerate oral chemotherapy. The structural problem must be addressed before resuming systemic therapy. Adjuvant FLOT can be delayed 4–6 weeks while the stricture is managed — this does not significantly compromise oncological outcomes.",
+            "C": "Surgical revision is reserved for strictures not responding to multiple balloon dilations or for complete occlusion. Most anastomotic strictures respond well to endoscopic dilation. Reoperation in the post-gastrectomy abdomen carries substantial morbidity and is not first-line.",
+            "D": "Jejunostomy feeding alone is a palliative measure for patients with unresolvable strictures. In a patient with a newly formed anastomotic stricture, active endoscopic treatment to restore oral intake is appropriate. Permanent feeding tube without attempting lumen restoration is premature."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — anastomotic stricture after gastrectomy: endoscopic balloon dilation first-line; repeat dilation if recurrent; surgical revision for refractory cases",
+          "trial": "Fukunaga T et al. (Gastrointest Endosc 2012): endoscopic dilation for oesophagojejunostomy stricture — clinical success 88% at 12 months, median 2.1 sessions. Kim TJ (Surg Endosc 2018): risk factors for stricture — male sex, circular stapler ≤25mm, anastomotic leak history.",
+          "pearl": "Prevent oesophagojejunostomy stricture: use ≥25mm circular stapler (21mm staplers have 3-fold higher stricture rate); ensure adequate tension-free anastomosis; avoid ischaemic tension on the conduit. When a patient develops early satiety weeks after total gastrectomy, always obtain early OGD — stricture is treatable."
+        }
+      },
+      {
+        "id": "A3-Q6",
+        "stem": "A 58-year-old man with HER2-positive (3+ by IHC) gastric adenocarcinoma (cT3 N2 M0) is being planned for perioperative chemotherapy before curative gastrectomy. Which of the following best describes the role of trastuzumab in this setting?",
+        "options": {
+          "A": "Add trastuzumab to perioperative FLOT — HER2-positive gastric cancer responds to trastuzumab in both perioperative and palliative settings",
+          "B": "Trastuzumab is only approved for palliative (metastatic) HER2-positive gastric cancer — it should not be added to perioperative FLOT",
+          "C": "Replace FLOT with trastuzumab monotherapy — targeted therapy eliminates the need for chemotherapy in HER2-positive gastric cancer",
+          "D": "Perform surgery first, then trastuzumab + chemotherapy adjuvant — trastuzumab is too cardiotoxic for perioperative use"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Trastuzumab is currently approved for HER2-positive gastric and GEJ cancer in the palliative (metastatic) setting based on the ToGA trial (Bang, Lancet 2010). Despite its dramatic impact in metastatic disease, trastuzumab added to perioperative chemotherapy for resectable HER2-positive gastric cancer has not demonstrated benefit in phase III trials. The FLOT7-AIO trial evaluated trastuzumab + pertuzumab + FLOT vs FLOT alone in perioperative HER2-positive gastric cancer — the primary endpoint (pCR rate) was significantly improved (34% vs 12%) but survival benefit remains under evaluation. As of 2024, adding trastuzumab to perioperative FLOT is not yet approved outside a clinical trial, though it is being increasingly discussed at MDTs.",
+          "wrong": {
+            "A": "Adding trastuzumab to FLOT in the perioperative setting is supported by the FLOT7-AIO pCR data but not yet by approved indications or survival data. This answer reflects an emerging but not yet established practice. The current regulatory approval for trastuzumab is specifically for metastatic/palliative use.",
+            "C": "Trastuzumab monotherapy has no established role as a replacement for chemotherapy in any gastric cancer setting. In all established trials, trastuzumab is added to platinum/fluoropyrimidine chemotherapy — not used alone.",
+            "D": "Cardiotoxicity of trastuzumab is a consideration but does not preclude perioperative use — it is manageable with cardiac monitoring. The reason trastuzumab is not standard in perioperative setting is lack of regulatory approval based on phase III survival data, not cardiotoxicity."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — trastuzumab approved for metastatic HER2+ gastric/GEJ cancer (ToGA); perioperative trastuzumab under investigation (FLOT7-AIO); test HER2 status in ALL gastric cancers",
+          "trial": "ToGA trial (Bang, Lancet 2010): trastuzumab + cisplatin/fluoropyrimidine vs chemotherapy alone in HER2+ metastatic gastric cancer — median OS 13.8 vs 11.1 months (HR 0.74). FLOT7-AIO (Lorenzen, Ann Oncol 2021): trastuzumab + pertuzumab + FLOT — pCR 34% vs 12%; survival data pending.",
+          "pearl": "HER2 testing in gastric cancer: IHC 3+ or IHC 2+/ISH-amplified = HER2-positive. HER2 testing differs from breast cancer — in gastric cancer, basolateral or lateral staining is positive (not circumferential). HER2 testing must be performed on adequate tissue (preferably endoscopic biopsy of multiple tumour fragments) as HER2 expression is heterogeneous in gastric cancer."
+        }
+      },
+      {
+        "id": "A3-Q7",
+        "stem": "A 63-year-old man undergoes distal gastrectomy with Roux-en-Y reconstruction for a pT2 N0 antral cancer. One month post-operatively, he presents complaining of sweating, palpitations, weakness, and near-syncope beginning 15–20 minutes after meals. Finger-stick glucose at the time of an episode shows 2.4 mmol/L (43 mg/dL). What is the most likely diagnosis and first-line treatment?",
+        "options": {
+          "A": "Early dumping syndrome — treated with small frequent meals and reduced simple carbohydrate intake",
+          "B": "Late dumping syndrome (reactive hypoglycaemia) — treated with low glycaemic index diet, acarbose",
+          "C": "Afferent loop syndrome — treated by converting Billroth II to Roux-en-Y reconstruction",
+          "D": "Roux stasis syndrome — treated with prokinetics and dietary modification"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The timing (15–20 minutes post-meal is late dumping — early dumping occurs within 15–30 minutes but is primarily osmotic and vasomotor rather than hypoglycaemic), hypoglycaemic blood glucose (2.4 mmol/L), and symptoms of neuroglycopaenia (sweating, weakness, near-syncope) are characteristic of late dumping (reactive hypoglycaemia). The mechanism: rapid glucose absorption triggers hyperinsulinaemia → insulin overshoot → hypoglycaemia 1–3 hours post-meal. Treatment: (1) low glycaemic index diet; (2) separating solids and liquids; (3) acarbose (alpha-glucosidase inhibitor — delays carbohydrate absorption); (4) somatostatin analogues (octreotide) for refractory cases.",
+          "wrong": {
+            "A": "Early dumping occurs within 15–30 minutes of eating due to rapid emptying of hyperosmolar content into the small bowel, causing fluid shift, gut hormone release (GLP-1, YY peptide), and vasomotor symptoms (flushing, palpitations, diarrhoea). Blood glucose is not low in early dumping — it may be slightly elevated from glucose absorption. The hypoglycaemia in this scenario excludes early dumping as the primary diagnosis.",
+            "C": "Afferent loop syndrome occurs after Billroth II reconstruction (not Roux-en-Y) when the afferent (biliopancreatic) limb becomes obstructed, causing bilious vomiting, abdominal pain, and jaundice. This patient has Roux-en-Y reconstruction — afferent loop syndrome does not occur with Roux-en-Y.",
+            "D": "Roux stasis syndrome is delayed gastric emptying of the Roux limb due to disrupted migrating motor complex. It presents as early satiety, nausea, and bloating — not with hypoglycaemia. Prokinetics (metoclopramide, domperidone) and modified diet are used, but blood glucose would be normal."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — post-gastrectomy syndrome management; ESMO 2022 — dietary modification and acarbose first-line for late dumping/reactive hypoglycaemia",
+          "trial": "Penning C et al. (Obes Surg 2014): acarbose vs placebo for reactive hypoglycaemia after gastric surgery — significant reduction in hypoglycaemic episodes and symptom severity with acarbose. Tack J (Gastroenterology 2021): octreotide LAR for refractory late dumping — effective in 80% of cases.",
+          "pearl": "Distinguish early vs late dumping on timing alone for boards: Early dumping = 15–30 min after eating, vasomotor + GI symptoms, normal glucose. Late dumping = 1–3 hours after eating, neuroglycopaenic symptoms, LOW glucose. Both are treated with dietary modifications first, but late dumping additionally benefits from acarbose."
+        }
+      },
+      {
+        "id": "A3-Q8",
+        "stem": "A 72-year-old woman is diagnosed with a Siewert type II adenocarcinoma of the gastro-oesophageal junction (GOJ), involving the GOJ and proximal 2cm of stomach. The tumour is staged as cT3 N1 M0. EUS confirms submucosal invasion of the distal oesophagus. She has ECOG 1 performance status. Which resection is most appropriate as part of curative-intent surgery?",
+        "options": {
+          "A": "Distal gastrectomy — Siewert type II tumours arise in the gastric cardia and are best treated by gastrectomy alone",
+          "B": "Transhiatal total gastrectomy or extended gastrectomy with distal oesophagectomy — Siewert II requires resection of both stomach and distal oesophagus to achieve R0 proximal margin",
+          "C": "Ivor Lewis oesophagectomy — all GOJ tumours should be treated identically to oesophageal cancer",
+          "D": "Left thoracoabdominal approach alone — Siewert II tumours are best approached via left thoracotomy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Siewert type II GOJ tumours (true cardia tumours, centred at the GOJ, 1cm proximal to 2cm distal to anatomical GOJ) can be resected by either transhiatal total gastrectomy with distal oesophagectomy or by Ivor Lewis oesophagectomy — the choice depends on the degree of oesophageal invasion and centre expertise. With 2cm submucosal oesophageal involvement, transhiatal total gastrectomy with distal oesophagectomy ensures R0 proximal margin. The oesophageal resection must be sufficient to achieve a tumour-free proximal margin (intraoperative frozen section mandatory). Japanese centres typically use total gastrectomy with lower oesophagectomy; Western centres may use Ivor Lewis for greater oesophageal involvement.",
+          "wrong": {
+            "A": "Distal gastrectomy for a Siewert II tumour with oesophageal submucosal invasion would result in an R1 proximal margin — the oesophagus must be included in the resection. Distal gastrectomy is appropriate for Siewert III (sub-cardia) tumours with limited GOJ involvement.",
+            "C": "Ivor Lewis oesophagectomy (right thoracotomy + laparotomy, intrathoracic anastomosis) is the standard for Siewert I (lower oesophageal) tumours. Siewert II can be managed by either Ivor Lewis or transhiatal total gastrectomy — the best option depends on the extent of oesophageal involvement and the centre's expertise. Ivor Lewis is not obligatory for Siewert II.",
+            "D": "The left thoracoabdominal approach (Sweet procedure) allows left-sided oesophagectomy through a combined thoracotomy/laparotomy. It has largely been replaced by minimally invasive approaches. It is not the contemporary standard and is associated with more respiratory morbidity than the transhiatal or Ivor Lewis approach."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — Siewert classification guides surgical approach; Siewert II: transhiatal total gastrectomy + distal oesophagectomy or Ivor Lewis; perioperative FLOT (NCCN/ESMO Category 1)",
+          "trial": "Siewert JR classification (1998): Type I = lower oesophageal adenocarcinoma (1–5cm above GOJ); Type II = true cardia (1cm proximal to 2cm distal); Type III = subcardial (2–5cm below GOJ). Heger P (Br J Surg 2014): transhiatal gastrectomy vs Ivor Lewis for Siewert II — equivalent R0 rates and survival; choice should be centre-specific.",
+          "pearl": "Frozen section of the proximal oesophageal margin is mandatory for Siewert II resections — the submucosal spread of diffuse-type GOJ tumours makes gross assessment unreliable. If frozen section is positive, additional oesophageal resection is required before closing."
+        }
+      },
+      {
+        "id": "A3-Q9",
+        "stem": "A 53-year-old woman undergoes total gastrectomy. At 18 months post-operatively, she presents with fatigue, pallor, and macrocytic anaemia (Hb 89 g/L, MCV 108 fL). Vitamin B12 level is 68 pg/mL (normal >200). She states she was not given B12 supplementation instructions at discharge. Which of the following describes the correct treatment and rationale?",
+        "options": {
+          "A": "Oral vitamin B12 1000 mcg daily — high-dose oral B12 is absorbed via passive diffusion and is equivalent to IM injection",
+          "B": "IM hydroxocobalamin 1mg every 3 months (lifelong) — there is no intrinsic factor after total gastrectomy; oral B12 is not reliably absorbed",
+          "C": "Dietary B12 supplementation via B12-rich foods — a well-balanced diet corrects B12 deficiency after gastrectomy",
+          "D": "B12 supplementation is only needed for 2 years after total gastrectomy — hepatic B12 stores are then replenished"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "After total gastrectomy, all parietal cells (which produce intrinsic factor) are removed. Vitamin B12 absorption depends entirely on intrinsic factor for the active transport pathway in the terminal ileum. Without intrinsic factor, standard oral B12 supplementation via the active pathway is abolished. While very high-dose oral B12 (1000–2000 mcg/day) is absorbed via passive diffusion (1% of dose), this route is unreliable and inconsistent — intramuscular (IM) or subcutaneous hydroxocobalamin 1mg every 3 months is the standard, reliable, and guideline-endorsed route for lifelong B12 replacement after total gastrectomy.",
+          "wrong": {
+            "A": "High-dose oral B12 (1000 mcg/day) is used in some settings (particularly in patients who refuse injections or in some European practices), and passive diffusion does provide some absorption. However, for patients after total gastrectomy where reliable, consistent replacement is critical to prevent irreversible neurological damage (subacute combined degeneration), IM injection is the recommended route in NCCN and ESMO guidelines.",
+            "C": "Dietary B12 sources (meat, fish, dairy) require intact intrinsic factor for absorption — dietary intake alone will not correct B12 deficiency after total gastrectomy. This is a physiologically impossible recommendation given the mechanism of the deficiency.",
+            "D": "B12 deficiency develops 1–5 years after total gastrectomy as hepatic stores are depleted. Supplementation is lifelong — hepatic stores will deplete if supplementation is stopped. There is no time point at which supplementation can be safely discontinued."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — lifelong IM vitamin B12 supplementation after total gastrectomy; ESMO 2022 — hydroxocobalamin 1mg IM every 3 months lifelong",
+          "trial": "Smedby O (Acta Chir Scand 1990): serum B12 deficiency develops in 70–90% of patients within 5 years of total gastrectomy without supplementation. Subacute combined degeneration risk is real but preventable with timely supplementation — onset is insidious and neurological damage can be irreversible.",
+          "pearl": "After total gastrectomy, anticipate three nutritional deficiencies that require lifelong monitoring and supplementation: (1) Vitamin B12 (IM, every 3 months); (2) Iron (ferritin, oral or IV supplementation); (3) Calcium + Vitamin D (reduced gastric acid impairs calcium and iron absorption). Annual blood panel: B12, folate, ferritin, calcium, 25-OH vitamin D, FBC."
+        }
+      },
+      {
+        "id": "A3-Q10",
+        "stem": "During a D2 total gastrectomy, the surgeon encounters a 1.5cm firm lymph node at station 16 (para-aortic). Intraoperative frozen section confirms metastatic adenocarcinoma. Pre-operatively the patient had cT3 N2 M0 staging on CT (para-aortic nodes were not biopsied). What is the most appropriate intraoperative decision?",
+        "options": {
+          "A": "Proceed with total gastrectomy + D2 + para-aortic dissection (D3) — para-aortic node involvement is resectable",
+          "B": "Abort the gastrectomy — positive station 16 confirms M1 disease (stage IV); proceed with gastrojejunostomy for palliation only",
+          "C": "Complete the total gastrectomy + D2, but do not extend to para-aortic nodes — palliative gastrectomy for bleeding/obstruction prevention",
+          "D": "Complete the total gastrectomy + D2 as planned — positive para-aortic node is a staging finding that does not alter the operative plan"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Para-aortic lymph node metastasis (station 16) in gastric cancer is classified as M1 disease (stage IV) according to AJCC/UICC TNM 8th edition and Japanese Gastric Cancer Treatment Guidelines 5th edition. The JCOG9501 trial demonstrated that extended D3 (para-aortic node dissection) did not improve survival over D2 in gastric cancer and significantly increased morbidity. If unexpected M1 disease is confirmed intraoperatively in a patient who presented as potentially curative, the operation should be modified — gastrectomy alone will not cure the patient and should not be performed with curative intent. A gastrojejunostomy or completion of a limited procedure for palliation (if obstruction or bleeding is present) is more appropriate. Post-operative systemic chemotherapy is the definitive management.",
+          "wrong": {
+            "A": "Para-aortic dissection (D3) did not demonstrate survival benefit over D2 dissection even in patients with clinically detected para-aortic nodes — adding it when metastatic disease is found intraoperatively is not evidence-based. JCOG9501 definitively showed no benefit from D3 dissection.",
+            "C": "Proceeding with total gastrectomy when the operation has been established as non-curative (M1 disease confirmed) adds major surgical morbidity (pancreatic fistula, anastomotic leak, bile leak, nutritional depletion) without survival benefit. Palliative gastrectomy for bleeding or obstruction is a separate and specific indication, not a blanket recommendation for all M1 cases.",
+            "D": "Positive para-aortic node does alter the operative plan — it establishes non-resectability with curative intent. Proceeding with D2 gastrectomy as if the staging were unchanged would be inappropriate when the intent has shifted from curative to palliative."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — para-aortic node (station 16) = M1 disease in AJCC/TNM 8th ed.; curative gastrectomy contraindicated; JCOG9501 evidence base for D2 over D3",
+          "trial": "JCOG9501 (Sasako, NEJM 2008): D2 vs D2 + para-aortic node dissection (D3) for resectable gastric cancer — no OS benefit from D3 (5-year OS 70.3% D2+D3 vs 69.2% D2); significantly higher operative morbidity with D3. Definitive evidence that D3 should not be routine.",
+          "pearl": "Staging laparoscopy would have detected para-aortic metastases preoperatively in this case if the lymph node was biopsied — this reinforces the importance of staging laparoscopy before embarking on major gastrectomy. Always perform staging laparoscopy with peritoneal cytology for cT3-T4 gastric cancers before proceeding to laparotomy."
+        }
+      },
+      {
+        "id": "A3-Q11",
+        "stem": "A 44-year-old woman is found to have a CDH1 germline mutation (hereditary diffuse gastric cancer, HDGC) after her sister was diagnosed with diffuse gastric cancer at age 38. She has no symptoms and a gastroscopy with multiple random biopsies is normal. What is the recommended management?",
+        "options": {
+          "A": "Annual gastroscopy with white light endoscopy — surveillance is the standard for CDH1 mutation carriers",
+          "B": "Prophylactic total gastrectomy — the lifetime risk of diffuse gastric cancer exceeds 70% in CDH1 carriers; prophylactic surgery is recommended after age 20",
+          "C": "Laparoscopic sleeve gastrectomy — removes the at-risk gastric mucosa while preserving gastric function",
+          "D": "Chemoprevention with aspirin — CDH1 carriers should receive aspirin to reduce gastric cancer risk"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CDH1 (E-cadherin) germline mutations cause Hereditary Diffuse Gastric Cancer (HDGC) with a lifetime penetrance of 70–80% for diffuse (signet ring) gastric cancer and 40–50% for lobular breast cancer. Because diffuse gastric cancer arises as multifocal microscopic signet ring cell foci beneath intact mucosa, it is invisible to endoscopy (even with chromo-endoscopy) until it becomes clinically advanced. Prophylactic total gastrectomy is therefore recommended for all CDH1 pathogenic variant carriers who wish to reduce their gastric cancer risk, ideally between ages 20–30 (after completion of puberty but before age of highest cancer incidence). At prophylactic gastrectomy, 80–90% of specimens contain signet ring cell foci despite normal pre-operative endoscopy.",
+          "wrong": {
+            "A": "Annual endoscopic surveillance with random biopsies cannot reliably detect early diffuse gastric cancer in CDH1 carriers. The multifocal, submucosal nature of signet ring cell foci makes endoscopic detection impossible until the disease is macroscopically visible and often advanced. Surveillance alone is not appropriate for high-penetrance CDH1 mutation carriers who are willing to undergo surgery.",
+            "C": "Sleeve gastrectomy removes the greater curvature of the stomach but leaves the lesser curvature, cardia, antrum, and pylorus — all potential sites for signet ring cell cancer development. It does not fulfil the requirement for complete gastric mucosa removal. Only total gastrectomy reliably eliminates the risk.",
+            "D": "Aspirin chemoprevention has no established role in CDH1-related HDGC risk reduction. Aspirin reduces sporadic CRC and possibly H. pylori-related gastric cancer risk, but it does not address the germline CDH1-driven carcinogenesis pathway."
+          },
+          "guideline": "IGCLC (International Gastric Cancer Linkage Consortium) guidelines 2020 — prophylactic total gastrectomy recommended for CDH1 pathogenic variant carriers after age 20; surveillance acceptable only for those declining or delaying surgery",
+          "trial": "Fitzgerald RC et al. (Gut 2020): IGCLC updated guidelines — prophylactic gastrectomy recommended; 80–90% of prophylactic specimens contain microscopic signet ring cell foci. Lynch HT (Ann Surg Oncol 2005): cumulative lifetime risk for CDH1 carriers — 67% for diffuse gastric cancer, 39% for lobular breast cancer.",
+          "pearl": "After prophylactic total gastrectomy in CDH1 carriers, counsel patients about: (1) lifelong B12 IM injections; (2) iron and calcium supplementation; (3) dumping syndrome risk; (4) continued breast cancer surveillance (mammography + MRI annually starting age 30, given 40-50% lifetime lobular breast cancer risk from CDH1)."
+        }
+      },
+      {
+        "id": "A3-Q12",
+        "stem": "A 60-year-old man undergoes D2 total gastrectomy for gastric cancer. On day 3 post-operatively, the Jackson-Pratt drain output increases from 80mL/day to 400mL/day of milky-white fluid. Triglyceride level of the drain fluid is 1,850 mg/dL. The patient is haemodynamically stable. What is the diagnosis and most appropriate initial management?",
+        "options": {
+          "A": "Anastomotic leak — drain output should be sent for amylase and Gastrografin swallow study",
+          "B": "Chylous ascites/chylothorax from thoracic duct injury — initial management: low-fat diet or nil by mouth with medium-chain triglyceride (MCT) supplementation",
+          "C": "Pancreatic fistula — drain amylase should be checked; initiate octreotide and nil by mouth",
+          "D": "Lymphorrhea from lymph node dissection — no treatment necessary; will resolve spontaneously"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Milky-white drain fluid with high triglyceride content (>200 mg/dL diagnostic) confirms chylous ascites from thoracic duct injury during D2 gastric cancer surgery. The thoracic duct passes posterior to the aorta and is at risk during high-level lymph node dissection (stations 16, para-aortic). Initial management: (1) nil by mouth or strict low-fat diet to reduce chyle flow (chyle volume is directly related to dietary fat intake); (2) MCT (medium-chain triglyceride) supplementation — MCTs are absorbed directly into portal venous system, bypassing the thoracic duct; (3) octreotide to reduce chyle flow; (4) total parenteral nutrition (TPN) if output does not decrease. Surgical ligation or VATS thoracic duct ligation for refractory cases (>2 weeks, >1L/day).",
+          "wrong": {
+            "A": "Anastomotic leak after total gastrectomy produces bilious (yellowish) or haematic drain output — not milky-white. Amylase is not the initial diagnostic test for milky drain fluid; drain fluid triglyceride is the appropriate test. The triglyceride level of 1,850 mg/dL confirms chylous ascites — not anastomotic leak.",
+            "C": "Pancreatic fistula produces clear serous or yellowish fluid with high amylase (>3× upper normal for serum amylase). Milky-white fluid with high triglyceride is pathognomonic of chyle — not pancreatic juice. Although D2 dissection does risk pancreatic tail injury, the fluid characteristics here are clearly chylous.",
+            "D": "Chylous ascites requires active management — it is not simply lymphorrhea. Untreated chyle leak causes protein and lymphocyte depletion, malnutrition, and immunosuppression. High-output chyle leak (>1L/day) requires TPN and surgical intervention."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024; ESMO 2022 — chylous ascites after gastrectomy: dietary management first-line (MCT diet or NPO + TPN); octreotide; VATS thoracic duct ligation for refractory cases",
+          "trial": "Evans DB (Ann Surg 2018): thoracic duct injury in D2 gastrectomy — incidence 2–4%; MCT diet + octreotide controls >80% of chylous fistulas within 2 weeks. Surgical ligation required in <20%.",
+          "pearl": "Diagnose chylous ascites with drain fluid triglyceride >200 mg/dL — sensitivity >94%, specificity >96%. Visual appearance (milky vs clear) is suggestive but not diagnostic. A drain fluid cholesterol:triglyceride ratio <1 further confirms chylous origin. Start MCT diet the same day — delay increases chyle accumulation and depletion."
+        }
+      },
+      {
+        "id": "A3-Q13",
+        "stem": "A 70-year-old man undergoes staging of a gastric antral cancer diagnosed on OGD. CT shows the primary tumour is a T3 lesion with 3 regional lymph nodes involved. No distant metastases. He has severe COPD (FEV1 38% predicted) and ischaemic heart disease. His functional status allows him to walk 100 metres on flat ground before stopping. Which of the following is the most appropriate initial assessment to determine surgical candidacy?",
+        "options": {
+          "A": "Proceed with surgical planning based on CT staging — functional comorbidities are not contraindications to gastrectomy",
+          "B": "Formal cardiopulmonary risk assessment including CPET (cardiopulmonary exercise testing) and anaesthetic review before any treatment decision",
+          "C": "Immediate palliative chemotherapy — COPD with FEV1 <50% and ischaemic heart disease are absolute contraindications to gastrectomy",
+          "D": "Endoscopic palliation with palliative stenting of the antrum — all medically unfit patients should receive endoscopic management only"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A patient with severe COPD (FEV1 38%), ischaemic heart disease, and limited functional capacity requires comprehensive cardiopulmonary risk stratification before a major abdominal operation (total gastrectomy). Cardiopulmonary exercise testing (CPET) provides objective measurement of cardiopulmonary reserve: anaerobic threshold (AT) <11 mL/kg/min and peak VO2 <15 mL/kg/min are associated with significantly elevated post-operative morbidity and mortality after major abdominal surgery. The CPET result, combined with anaesthetic assessment, echocardiography (to assess LV function), and pulmonary function tests, informs a risk-benefit discussion with the patient. The decision is not binary — prehabilitation (physiotherapy, smoking cessation, optimising medications) may improve fitness before planned surgery.",
+          "wrong": {
+            "A": "CT staging determines tumour resectability — it does not determine patient operability. A technically resectable tumour in a physiologically unfit patient should not proceed to surgery without formal functional assessment. Ignoring COPD and IHD in surgical planning risks preventable perioperative mortality.",
+            "C": "FEV1 <50% and IHD are not absolute contraindications to gastrectomy. They are high-risk features requiring formal assessment. Many patients with severe COPD successfully undergo major surgery with appropriate optimisation and anaesthetic management. CPET and anaesthetic review will determine the individual risk level.",
+            "D": "Endoscopic palliation is appropriate for patients who are truly inoperable or who decline surgery after full counselling. It is not the default for all medically complex patients — surgical candidacy must be formally assessed first. Antral stenting relieves obstruction but does not address the cancer systemically."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — perioperative risk assessment for major GI surgery; CPET recommended for high-risk patients before elective major abdominal surgery; anaesthetic review mandatory",
+          "trial": "Moran J et al. (Br J Anaesth 2016): CPET before major colorectal surgery — AT <11 mL/kg/min associated with 3-fold increase in post-operative major complications. Prehabilitation improves VO2 peak by 5–10% in 4–8 weeks — consider before proceeding to gastrectomy in submaximal patients.",
+          "pearl": "CPET interpretation for surgical risk: AT (anaerobic threshold) >11 mL/kg/min + VE/VCO2 slope <34 = low risk; AT <11 mL/kg/min = high risk; AT <8 mL/kg/min with VE/VCO2 >34 = very high risk. Document CPET result in the operation note or pre-anaesthetic assessment — it is the objective standard for surgical risk communication."
+        }
+      },
+      {
+        "id": "A3-Q14",
+        "stem": "A 57-year-old man undergoes D2 total gastrectomy for a pT3 N2 gastric adenocarcinoma. The pathology report returns 5 days later showing the proximal oesophageal margin is positive (tumour cells at the inked margin — R1). The patient is stable, tolerating jejunal feeding, and has received 4 pre-operative FLOT cycles. What is the most appropriate management?",
+        "options": {
+          "A": "Re-laparotomy and additional oesophageal resection — R1 proximal margin mandates immediate re-resection",
+          "B": "Discuss at MDT: options include additional oesophageal resection (if anatomically feasible), completion of post-operative FLOT, and consideration of adjuvant chemoradiotherapy to the anastomotic region",
+          "C": "Proceed with post-operative FLOT chemotherapy — R1 margin is not clinically significant in gastric cancer",
+          "D": "Palliative chemotherapy only — R1 proximal margin after gastrectomy indicates incurable disease"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "R1 proximal margin (positive oesophageal margin) after gastrectomy should be discussed at MDT. Management options include: (1) additional oesophageal resection if technically feasible (depends on remaining oesophageal length, patient fitness, and anastomotic configuration); (2) post-operative chemoradiotherapy targeting the anastomotic region — adjuvant CRT to the proximal margin has been shown to improve locoregional control in R1 gastric resection; (3) completion of post-operative FLOT chemotherapy as planned, with or without additional radiation. The decision requires multidisciplinary input from the surgeon, radiation oncologist, and medical oncologist. R1 resection after gastrectomy is not equivalent to incurable disease — local treatment intensification can achieve durable control in some patients.",
+          "wrong": {
+            "A": "Re-laparotomy for additional oesophageal resection may be appropriate in selected cases, but it is not a universal mandate. The decision requires understanding of: remaining oesophageal length (is re-resection technically possible without high-cervical anastomosis morbidity?), patient fitness, and whether the R1 margin represents true tumour involvement or margin artefact. MDT review precedes the surgical decision.",
+            "C": "R1 proximal margin in gastric cancer increases local recurrence risk by 2–3 fold and is clinically significant. Treating it as non-significant and proceeding with FLOT without addressing the margin is inadequate oncological management.",
+            "D": "R1 margin after gastrectomy is locoregional residual disease — it does not necessarily indicate systemic incurability. Patients with R1 disease can achieve long-term survival with adjuvant chemoradiotherapy to the anastomotic site. Palliative chemotherapy as the sole management for locoregional R1 disease is not the standard recommendation."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — R1 resection: MDT review mandatory; consider additional resection or adjuvant CRT; complete planned post-operative chemotherapy",
+          "trial": "MacDonald JS (NEJM 2001): INT-0116 adjuvant chemoradiation for resected gastric cancer improved OS (36 vs 27 months); significant benefit for R1 disease. CRITICS trial (Cats, Lancet Oncology 2018): post-operative CRT vs chemotherapy after perioperative epirubicin-based chemotherapy — no OS difference overall but subgroup benefit in R1 patients.",
+          "pearl": "Intraoperative frozen section of the proximal oesophageal margin is mandatory during total gastrectomy — discovering R1 status on permanent pathology after the patient has recovered from surgery and started feeding limits options. Always send the proximal margin for frozen section before closing."
+        }
+      },
+      {
+        "id": "A3-Q15",
+        "stem": "A 55-year-old woman with stage IB (pT2 N0) gastric cancer undergoes distal gastrectomy with D1+ lymphadenectomy (14 nodes retrieved, all negative). She received no perioperative chemotherapy. Post-operatively she is discussing adjuvant treatment options. Which of the following best describes the evidence for adjuvant therapy in her situation?",
+        "options": {
+          "A": "Adjuvant S-1 or capecitabine monotherapy — fluoropyrimidine-based adjuvant therapy significantly improves OS in T2 N0 gastric cancer after D2 resection",
+          "B": "Adjuvant FLOT (4 post-operative cycles) — FLOT is equally effective as adjuvant-only therapy",
+          "C": "Observation only — stage IB (T2 N0) gastric cancer has excellent prognosis after R0 D2 resection; no adjuvant therapy is proven to benefit T2 N0 disease specifically",
+          "D": "Adjuvant capecitabine + oxaliplatin (CAPOX) for 6 months — all resected gastric cancers require adjuvant combination chemotherapy"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The major adjuvant chemotherapy trials in gastric cancer (ACTS-GC: S-1 adjuvant; CLASSIC: CAPOX adjuvant) demonstrated benefit primarily in stage II and III disease (T3/T4 or node-positive disease). The ACTS-GC trial enrolled stage II and III patients after D2 resection and showed S-1 improved 5-year OS from 61% to 72%. Subgroup analysis for T2 N0 (stage IB) patients did not demonstrate a statistically significant benefit. For pT2 N0 R0 disease after adequate D2 dissection (14 nodes retrieved), observation is a reasonable standard per NCCN and ESMO. Adjuvant therapy can be discussed with the patient after MDT review, acknowledging the limited evidence for this low-risk subgroup.",
+          "wrong": {
+            "A": "The benefit of adjuvant S-1 in the ACTS-GC trial was concentrated in stage II-III patients. Stage IB (T2 N0) did not show a statistically significant benefit in the trial subgroup analysis. Adjuvant fluoropyrimidine is not a Category 1 recommendation for T2 N0 after adequate D2 resection.",
+            "B": "FLOT is a perioperative regimen — 4 pre-operative + 4 post-operative cycles. It was designed for use in patients who received the pre-operative component. Using only the post-operative cycles of FLOT without pre-operative treatment is not the FLOT4 protocol and does not have an established evidence base in the adjuvant-only setting.",
+            "D": "CAPOX adjuvant for all resected gastric cancers is not supported. The CLASSIC trial demonstrated CAPOX benefit for stage II/III after D2 resection. For stage IB T2 N0, the data does not clearly support combination adjuvant chemotherapy. Overtreatment risks chemotherapy toxicity without proven benefit."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — adjuvant chemotherapy Category 1 recommendation for stage II-III after D2 resection; stage IB T2 N0 after adequate D2 — observation acceptable; ESMO 2022 — adjuvant therapy discussion at MDT for all resected cases",
+          "trial": "ACTS-GC (Sakuramoto, NEJM 2007): S-1 adjuvant after D2 gastrectomy for stage II-III — 5-year OS 71.7% vs 61.1%. CLASSIC (Bang, Lancet 2012): CAPOX adjuvant after D2 for stage II-III — 5-year DFS 68% vs 53%. Both trials enrolled predominantly stage II/III — limited data for T2 N0.",
+          "pearl": "The adjuvant chemotherapy landscape in gastric cancer differs by geography: East Asia (ACTS-GC standard) — S-1 or CAPOX adjuvant after D2; Western countries (FLOT4 standard) — perioperative FLOT is preferred over adjuvant-only approach. In a patient who received no perioperative therapy (missed neoadjuvant FLOT), adjuvant FLOT or CAPOX can be offered for stage II-III disease — but stage IB T2 N0 benefits are uncertain."
+        }
+      },
+      {
+        "id": "A3-Q16",
+        "stem": "A 62-year-old man undergoes laparoscopic distal gastrectomy with D2 lymphadenectomy and Roux-en-Y reconstruction. On day 2, he has adequate pain control, passing flatus, tolerating sips of water, and his blood tests show CRP 75 mg/L (expected post-operative rise). Drain output is 30mL of serous fluid. Which of the following best describes the appropriate early post-operative management under ERAS principles?",
+        "options": {
+          "A": "Remain nil by mouth until formal water-soluble contrast swallow study on day 5",
+          "B": "Begin clear liquids on day 1–2 and advance to soft diet by day 3–4; remove drain if serous output, target discharge day 5–7",
+          "C": "Maintain nasogastric tube decompression until bowel sounds are confirmed",
+          "D": "Commence TPN (total parenteral nutrition) for 7 days until oral feeding is established"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Under ERAS (Enhanced Recovery After Surgery) principles for gastrectomy, early oral feeding is a core component: clear liquids commenced on day 1–2, with advancement to soft or semi-liquid diet by day 3–4 when tolerated. Clinical markers (passing flatus, tolerating sips, acceptable pain control, non-alarming inflammatory markers) support early advancement. A CRP of 75 mg/L at day 2 is within the expected post-operative inflammatory response — not an indicator of complication. The drain should be removed early (day 2–3) if output is low and serous — prolonged drainage increases infection risk and delays mobilisation. Target discharge is day 5–7 with ERAS protocols, compared to 8–12 days with traditional care.",
+          "wrong": {
+            "A": "Routine water-soluble contrast swallow before oral feeding is not recommended in all patients after gastrectomy — it is reserved for patients with clinical concern for anastomotic leak (fever, tachycardia, elevated drain amylase, inflammatory markers, pain). Universal day 5 swallow studies delay oral feeding unnecessarily and are not part of ERAS protocols.",
+            "C": "Routine nasogastric tube decompression is not part of ERAS for gastrectomy — it is associated with delayed oral feeding, increased pulmonary complications, patient discomfort, and prolonged hospital stay. NGT should be removed within 24 hours of surgery (or immediately post-op) in the absence of specific indications.",
+            "D": "TPN is associated with infections, line complications, gut atrophy, and is more expensive than enteral nutrition. It is reserved for patients in whom enteral feeding is impossible (anastomotic leak with nil by mouth, significant ileus, or specific nutritional deficits). For a patient tolerating sips on day 2, TPN is not indicated."
+          },
+          "guideline": "ERAS Society Guidelines for Gastric Cancer Surgery 2021 — early oral feeding day 1–2; no routine NGT decompression; early drain removal (serous output <100mL/day by day 2–3); target discharge day 5–7",
+          "trial": "Mortensen K et al. (Br J Surg 2014): ERAS for gastrectomy — LOS reduced from 10.3 to 7.1 days; complications reduced by 22% with full ERAS adherence. Lee SM (Gastric Cancer 2012): early oral feeding after gastrectomy — safe, reduces LOS and post-operative complications vs NPO protocol.",
+          "pearl": "ERAS components specific to gastrectomy: (1) pre-operative carbohydrate loading (oral carbohydrate drink 2–4 hours before surgery); (2) epidural or TAP block analgesia; (3) goal-directed intraoperative fluid therapy; (4) active warming; (5) early feeding day 1–2; (6) no routine NGT. These components together, not individually, produce the LOS and complication reduction."
+        }
+      },
+      {
+        "id": "A3-Q17",
+        "stem": "A 49-year-old woman is found incidentally to have a 2.5cm gastric subepithelial lesion in the fundus on CT. OGD shows an intramural bulge with normal overlying mucosa. EUS reveals a hypoechoic spindle-cell lesion arising from the muscularis propria (4th layer). DOG-1 and CD117 (c-KIT) immunohistochemistry are positive. Mitotic index is 3/5mm². What is the most likely diagnosis and appropriate management?",
+        "options": {
+          "A": "Gastric leiomyoma — observation only; benign smooth muscle tumour not requiring surgery",
+          "B": "Gastric GIST (gastrointestinal stromal tumour) with intermediate malignant risk — laparoscopic wedge resection with 1–2cm margin, followed by adjuvant imatinib for 3 years",
+          "C": "Gastric carcinoid — octreotide therapy and annual OGD surveillance",
+          "D": "Gastric lymphoma — systemic chemotherapy (R-CHOP) is first-line treatment"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The combination of hypoechoic spindle cells from the muscularis propria (4th EUS layer), positive DOG-1, and positive CD117 (c-KIT) is diagnostic of GIST. For a 2.5cm gastric GIST with mitotic index 3/5mm², the National Institutes of Health (NIH) GIST risk classification assigns intermediate malignant risk (size 2–5cm, >5 mitoses/5mm² = high risk; 2–5cm, ≤5 mitoses = intermediate risk). Management: laparoscopic wedge resection with negative margins (R0) is the standard surgical approach for gastric GIST. Per SSG XVIII/AIO trial evidence, adjuvant imatinib for 3 years (vs 1 year) significantly improves recurrence-free survival and OS for high-risk GIST. Intermediate-risk GIST management regarding adjuvant imatinib should be discussed at MDT (3 years recommended by ESMO for intermediate-high risk).",
+          "wrong": {
+            "A": "Leiomyoma is DOG-1 and CD117 negative — these markers distinguish GIST from smooth muscle tumours. The immunoprofile here (DOG-1+, CD117+) is pathognomonic of GIST. Leiomyomas arise from the muscularis mucosae (2nd EUS layer) rather than muscularis propria (4th layer). GIST with intermediate risk requires resection.",
+            "C": "Gastric carcinoids (type 1, 2, 3) arise from enterochromaffin-like cells in the mucosa (EUS layer 1–2), are chromogranin/synaptophysin positive, and lack DOG-1/CD117 positivity. The EUS layer (muscularis propria) and immunoprofile here confirm GIST — not carcinoid.",
+            "D": "Gastric lymphoma typically presents as mucosal thickening (layer 1–3 on EUS), is CD20/CD3 positive by IHC (not DOG-1/CD117), and often shows abnormal lymphoid infiltrate on biopsy. GIST immunoprofile does not fit lymphoma."
+          },
+          "guideline": "NCCN Soft Tissue Sarcoma — GIST v2.2024; ESMO GIST Guidelines 2022 — laparoscopic wedge resection for gastric GIST ≤5cm; adjuvant imatinib 3 years for high and intermediate-risk GIST",
+          "trial": "SSG XVIII/AIO trial (Joensuu, JAMA 2012): 3-year vs 1-year adjuvant imatinib for high-risk GIST — 5-year RFS 65.6% vs 47.9%; 5-year OS 92% vs 81.7%. Practice-changing: 3 years adjuvant imatinib is standard for high/intermediate-risk GIST.",
+          "pearl": "GIST risk classification (AFIP/NIH criteria): Low risk = ≤5cm + ≤5 mitoses/5mm²; Intermediate = 2–5cm + >5 mitoses OR 5–10cm + ≤5 mitoses; High risk = >5cm + >5 mitoses OR >10cm any mitoses OR any size with >10 mitoses. Gastric GIST has better prognosis than small bowel or rectal GIST at the same NIH category."
+        }
+      },
+      {
+        "id": "A3-Q18",
+        "stem": "A 66-year-old man with a resected pT3 N3b gastric cancer (total gastrectomy, D2, R0, 24 lymph nodes, 14 positive) completes all 8 cycles of perioperative FLOT. At 6 months post-operatively (3 months after completing all FLOT), surveillance CT shows a 2.5cm lesion in liver segment VI with characteristics consistent with metastasis, and a restaging PET-CT confirms FDG avidity. No other sites of disease. He has ECOG 1. What is the most appropriate next step?",
+        "options": {
+          "A": "Restart FLOT chemotherapy — isolated liver recurrence from gastric cancer should be treated with systemic chemotherapy only",
+          "B": "Liver resection of segment VI — isolated liver recurrence from gastric cancer is treated identically to colorectal liver metastases",
+          "C": "Present at hepatobiliary MDT to assess resectability and discuss multidisciplinary approach; liver resection or local ablation may be appropriate for selected patients with isolated oligometastatic recurrence",
+          "D": "Palliative care referral — recurrent gastric cancer after perioperative FLOT has median survival <6 months"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Isolated liver recurrence from gastric cancer in a patient with ECOG 1 and no other sites of disease represents oligometastatic disease — a setting where selected patients benefit from surgical or ablative local treatment. Multiple retrospective series and meta-analyses demonstrate 5-year OS of 25–35% after R0 hepatic resection for isolated gastric cancer liver metastases in carefully selected patients. The eligibility criteria include: good performance status, R0 primary resection, limited liver disease (≤3 lesions, unilobar preferred), adequate FLR, no peritoneal disease. HPB MDT review and staging to exclude other disease sites are mandatory before deciding on surgical versus ablative approach.",
+          "wrong": {
+            "A": "Systemic chemotherapy alone for isolated liver recurrence from gastric cancer, while standard for diffuse metastatic disease, forgoes a potential curative opportunity in the oligometastatic setting. Multiple studies have shown improved outcomes for surgical/ablative local treatment combined with systemic therapy compared to chemotherapy alone for selected oligometastatic gastric cancer.",
+            "B": "Liver resection for gastric cancer liver metastases is not equivalent in evidence base to colorectal liver metastases. Selection criteria are more stringent (synchronous metastases and peritoneal disease are relative contraindications), and the indication requires MDT evaluation — not automatic resection. Directly proceeding to surgery without MDT review is inappropriate.",
+            "D": "Palliative care referral is premature in an ECOG 1 patient with isolated, potentially resectable liver recurrence. The median survival with chemotherapy alone for metastatic gastric cancer is 10–12 months — but with liver resection in selected patients, 3–5 year survival is achievable. Active treatment evaluation is appropriate."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — isolated oligometastatic recurrence: multidisciplinary evaluation; consider local therapy (resection, ablation) combined with systemic therapy in selected patients; ESMO 2022 — liver-limited gastric cancer metastasis: resection in selected cases may be considered at specialist centres",
+          "trial": "Tiberio GAM (Eur J Surg Oncol 2016): liver resection for gastric cancer liver metastases — 5-year OS 25% in R0 resected patients; significantly superior to chemotherapy alone (5% at 5 years). Patient selection criteria: R0 primary, no peritoneal disease, ≤3 liver metastases, adequate performance status.",
+          "pearl": "Unlike colorectal liver metastases where resection has Level I evidence (multiple RCTs), the evidence for liver resection in gastric cancer liver metastases is Level III–IV (retrospective cohorts). However, in highly selected patients, the survival data is compelling. Presentation at a specialist MDT (gastric oncology + HPB surgery) is the key initial step — do not reflexively label all gastric recurrence as 'palliative only'."
+        }
+      },
+      {
+        "id": "A3-Q19",
+        "stem": "A 68-year-old man undergoes total gastrectomy with D2 lymphadenectomy. During the D2 dissection, the splenic artery is identified and the surgeon is performing station 11 (along the splenic artery) lymph node dissection. The spleen appears dusky after this dissection. Which of the following best describes the management of this intraoperative finding?",
+        "options": {
+          "A": "Distal pancreatectomy and splenectomy en-bloc — the spleen must be removed with the pancreatic tail if ischaemia is present",
+          "B": "Reassess splenic viability after completing the gastrectomy — transient ischaemia from traction is common; splenectomy only if complete infarction is confirmed",
+          "C": "Immediate splenectomy — any evidence of splenic ischaemia mandates splenectomy to prevent post-operative abscess",
+          "D": "Apply warm packs to the spleen and continue — splenic ischaemia always resolves with warming"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Transient splenic discolouration (duskiness) during D2 gastrectomy is common and is most often due to traction on the splenic hilum rather than true arterial ligation. After completing the gastrectomy and releasing all traction, the spleen is reassessed: if colour returns to normal and the short gastric vessels provide adequate perfusion, splenectomy is not required. True splenic ischaemia requiring splenectomy occurs when the main splenic artery is inadvertently ligated. Splenectomy adds significant morbidity to gastrectomy (increased post-operative sepsis risk, requirement for vaccination, pancreatic tail at risk) and is avoided unless definitively indicated. Routine splenectomy as part of D2 gastrectomy is no longer recommended — it does not improve lymph node yield or survival and adds morbidity.",
+          "wrong": {
+            "A": "Distal pancreatectomy + splenectomy en-bloc is a major additional resection that should not be performed based on transient splenic discolouration from traction. This approach adds substantial morbidity (pancreatic fistula, diabetes risk, infectious complications) and is only indicated if the pancreatic tail itself is infiltrated by tumour.",
+            "C": "Not all splenic ischaemia requires immediate splenectomy — reassessment after completing the operation is the appropriate approach for transient traction-related ischaemia. Immediate splenectomy without confirming true non-viability risks an unnecessary major additional procedure.",
+            "D": "Applying warm packs may help transiently with vasospasm but does not address true arterial ligation. This statement is partially correct but incomplete — after warming and traction release, definitive assessment of viability is still required before closing."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — spleen-preserving D2 gastrectomy is the standard; routine splenectomy not recommended; splenectomy only for direct tumour infiltration of the splenic hilum or confirmed non-viability",
+          "trial": "Maruyama K (Ann Surg 1989): D2 gastrectomy without splenectomy — equivalent lymph node yield for stations 10/11 with experienced surgeons; lower complication rates. Yu W (Arch Surg 2006): randomised trial of splenectomy vs spleen preservation during total gastrectomy — no survival benefit from splenectomy; increased morbidity.",
+          "pearl": "If splenectomy is performed during gastrectomy (electively or for trauma/ischaemia), vaccinate the patient against encapsulated organisms before discharge (or within 14 days): pneumococcal vaccine (Pneumovax), meningococcal vaccine (MenACWY), and Haemophilus influenzae type b (Hib). Post-splenectomy vaccination is mandatory — document it in the medical records."
+        }
+      },
+      {
+        "id": "A3-Q20",
+        "stem": "A 61-year-old woman is found to have a 1.8cm subepithelial lesion at the gastro-oesophageal junction on OGD. EUS shows a hyperechoic lesion in the 3rd EUS layer (submucosa). Biopsy returns adipocytes with no evidence of malignancy. CT shows no other lesions. The patient is asymptomatic. What is the most likely diagnosis and appropriate management?",
+        "options": {
+          "A": "Gastric GIST — resect immediately due to malignant potential",
+          "B": "Gastric lipoma — observation only with repeat OGD at 1–2 years; benign lesion not requiring resection unless symptomatic",
+          "C": "Gastric carcinoid — octreotide scan and resection regardless of size",
+          "D": "Gastric leiomyoma — core biopsy and resection if biopsy is inconclusive"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A hyperechoic (bright) subepithelial lesion in the submucosal layer (3rd EUS layer) with adipocyte biopsy is diagnostic of a gastric lipoma. Gastric lipomas are benign mesenchymal tumours with no malignant potential. They arise in the submucosa and have a characteristic hyperechoic appearance on EUS that distinguishes them from GIST (hypoechoic, 4th layer) and carcinoid (1st–3rd layer, mixed echogenicity). Most gastric lipomas are asymptomatic and managed conservatively with endoscopic surveillance. Resection is indicated only for large lesions (>4cm) causing symptoms (obstruction, bleeding) or for diagnostic uncertainty. A 1.8cm asymptomatic lipoma in an appropriate anatomical layer with histological confirmation requires observation only.",
+          "wrong": {
+            "A": "GIST is characteristically hypoechoic and arises from the muscularis propria (4th EUS layer). The hyperechoic appearance and submucosal (3rd layer) location of this lesion, combined with adipocyte histology, are incompatible with GIST. Resection for a confirmed lipoma is not indicated.",
+            "C": "Gastric carcinoids (type 1, 2, 3) arise from the mucosa and have mixed echogenicity on EUS. Octreotide scanning is used for NET staging, not for lipoma evaluation. Adipocyte histology confirms the diagnosis of lipoma — carcinoid is excluded.",
+            "D": "Gastric leiomyoma is hypoechoic and arises from the muscularis mucosae (2nd layer) or muscularis propria (4th layer). The hyperechoic appearance and submucosal location with adipocyte histology confirms lipoma, not leiomyoma. Core biopsy of a confirmed lipoma is unnecessary."
+          },
+          "guideline": "NCCN Gastric Cancer v2.2024 — subepithelial gastric lesions: EUS-guided characterisation; lipoma (hyperechoic, 3rd layer) = benign, observation; GIST (hypoechoic, 4th layer) = risk-stratify for resection",
+          "trial": "Akahoshi K (Gastrointest Endosc 2012): EUS characterisation of gastric subepithelial tumours — accuracy for lipoma diagnosis 97% (hyperechoic, 3rd layer, adipocyte biopsy). Management: surveillance OGD at 1–2 years; resect if >4cm, symptomatic, or uncertain diagnosis.",
+          "pearl": "EUS layer anatomy for boards: Layer 1 = mucosa (echogenic); Layer 2 = muscularis mucosae (hypoechoic); Layer 3 = submucosa (hyperechoic — where lipomas and carcinoids arise); Layer 4 = muscularis propria (hypoechoic — where GIST and leiomyoma arise); Layer 5 = serosa (hyperechoic). Know the EUS layer and echogenicity to identify subepithelial tumour type."
+        }
+      }
+    ]
+  }
+}

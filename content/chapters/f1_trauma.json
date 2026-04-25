@@ -1,0 +1,680 @@
+{
+  "id": "F1",
+  "block": "F",
+  "block_name": "Trauma, Infections & Thoracic",
+  "title": "Abdominal & Thoracic Trauma",
+  "level": "PGY1-3",
+  "sections": [
+    {
+      "id": "F1-S1",
+      "title": "ATLS Primary Survey & Trauma Resuscitation",
+      "content": [
+        {
+          "type": "text",
+          "content": "Advanced Trauma Life Support (ATLS) provides a systematic framework for the initial assessment and management of trauma patients. The ABCDE approach prioritises life-threatening injuries in order of lethality: Airway with cervical spine protection, Breathing and ventilation, Circulation with haemorrhage control, Disability (neurological status), Exposure with environmental control. The primary survey identifies immediately life-threatening conditions; the secondary survey is the head-to-toe examination performed after stabilisation. Adjuncts to the primary survey include FAST exam, chest/pelvis X-ray, and bedside blood gas/lactate."
+        },
+        {
+          "type": "table",
+          "title": "ATLS Primary Survey — Life-Threatening Conditions by Category",
+          "headers": ["Category", "Life-Threatening Condition", "Immediate Management"],
+          "rows": [
+            ["A — Airway", "Airway obstruction (blood, foreign body, oedema)", "Jaw thrust, suction, oral airway; RSI + intubation if GCS ≤8"],
+            ["B — Breathing", "Tension pneumothorax, massive haemothorax, open pneumothorax, flail chest", "Needle decompression (tension PTx); chest drain (massive haemothorax); occlusive dressing (open PTx)"],
+            ["C — Circulation", "Haemorrhagic shock (external, abdominal, pelvic, long bone)", "Haemorrhage control (direct pressure, tourniquet); 2× large bore IV; MTP activation"],
+            ["D — Disability", "Severe TBI with herniation (Cushing's triad)", "Hyperventilate temporarily; mannitol/hypertonic saline; neurosurgical consultation"],
+            ["E — Exposure", "Hypothermia, missed injuries", "Warm IV fluids; bear-hugger; log roll for posterior assessment"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Damage control resuscitation (DCR) is the contemporary approach to haemorrhagic shock in trauma. Key principles: (1) Permissive hypotension — target systolic BP 80–90 mmHg (MAP 50–65 mmHg) until surgical haemostasis; maintains perfusion without exacerbating haemorrhage by clot disruption. EXCEPTION: TBI — maintain MAP ≥80 mmHg to preserve cerebral perfusion pressure. (2) Massive transfusion protocol (MTP) — balanced ratio resuscitation. (3) Tranexamic acid (TXA) — early administration. (4) Avoid crystalloid excess — dilutional coagulopathy worsens haemorrhage. The lethal triad of trauma: hypothermia (<35°C), acidosis (pH <7.2), and coagulopathy (INR >1.5) — each amplifies the others, creating a vicious cycle that is the primary indication for damage control surgery."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "CRASH-2 Trial — Tranexamic Acid in Trauma",
+          "citation": "CRASH-2 Trial Collaborators. Effects of tranexamic acid on death, vascular occlusive events, and blood transfusion in trauma patients with significant haemorrhage (CRASH-2). Lancet. 2010;376(9734):23–32.",
+          "population": "20,211 adult trauma patients with significant haemorrhage or at risk of significant haemorrhage in 274 hospitals, 40 countries",
+          "intervention": "TXA 1g IV over 10 minutes + 1g over 8 hours vs placebo, within 8 hours of injury",
+          "result": "All-cause mortality: TXA 14.5% vs placebo 16.0% (RR 0.91, p=0.0035). Haemorrhagic death: TXA 4.9% vs 5.7% (significant). Late administration (>3 hours): TXA INCREASED mortality (1.44 excess deaths per 100). No increase in vascular occlusive events.",
+          "practice_change": "TXA is now standard in all major trauma centres — administered within 3 hours of injury (ideally within 1 hour). UK military experience (Camp Bastion) demonstrated pre-hospital TXA benefit. The 3-hour window is absolute — TXA MUST NOT be given after 3 hours (fibrinolysis shutdown phase — TXA then promotes clot stability paradoxically causing microvascular thrombosis)."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "PROPPR Trial — 1:1:1 vs 1:1:2 Transfusion Ratio",
+          "citation": "Holcomb JB et al. Transfusion of plasma, platelets, and red blood cells in a 1:1:1 vs a 1:1:2 ratio and mortality in patients with severe trauma. JAMA. 2015;313(5):471–482.",
+          "population": "680 patients with severe trauma requiring massive transfusion at 12 Level 1 trauma centres (USA/Canada)",
+          "intervention": "1:1:1 (plasma:platelets:RBCs) vs 1:1:2 ratio",
+          "result": "24-hour mortality: 1:1:1 12.7% vs 1:1:2 17.0% (not significant, p=0.12). 30-day mortality: equivalent (24.9% vs 26.1%). 1:1:1 group achieved haemostasis faster and had less 24-hour mortality from exsanguination. 1:1:1 — more patients achieved haemostasis (86% vs 78%, p=0.006).",
+          "practice_change": "1:1:1 ratio (plasma:platelets:RBCs) is the standard MTP protocol. Haemostatic resuscitation — treating the coagulopathy of trauma early with blood products rather than crystalloid — is now the evidence-based approach."
+        }
+      ]
+    },
+    {
+      "id": "F1-S2",
+      "title": "Abdominal Trauma",
+      "content": [
+        {
+          "type": "text",
+          "content": "Abdominal trauma is classified as blunt (motor vehicle collision — MVC, falls, assault) or penetrating (gunshot wound — GSW, stab wound). Blunt trauma causes solid organ injury through deceleration and compression; penetrating trauma causes direct tissue destruction. Clinical assessment: abdominal examination is unreliable in altered consciousness (intoxication, head injury), distracting injuries, or spinal cord injury. FAST (Focused Assessment with Sonography in Trauma) is the first-line imaging modality in the primary survey — rapid, bedside, reproducible."
+        },
+        {
+          "type": "table",
+          "title": "FAST Exam — Acoustic Windows and Findings",
+          "headers": ["Window", "Structure Assessed", "Positive Finding (Free Fluid)"],
+          "rows": [
+            ["RUQ (Morrison's pouch)", "Hepatorenal space", "Anechoic stripe between liver and right kidney"],
+            ["LUQ (Koller's pouch)", "Splenorenal space", "Anechoic stripe between spleen and left kidney"],
+            ["Suprapubic (pelvic)", "Pouch of Douglas / rectovesical pouch", "Fluid behind bladder (>500mL detected)"],
+            ["Subxiphoid (pericardial)", "Pericardial space", "Anechoic ring around heart = haemopericardium"],
+            ["E-FAST (thoracic)", "Bilateral pleural spaces", "Absent lung sliding + B-lines absent = pneumothorax; dependent fluid = haemothorax"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "FAST limitations: operator-dependent (sensitivity 63–100% for haemoperitoneum depending on operator experience); detects free fluid but not specific organ injury (liver laceration grade, vascular injury); unreliable for bowel, mesenteric, diaphragmatic, retroperitoneal injuries; poor sensitivity for small amounts of blood (<200 mL). A negative FAST does not exclude significant injury in haemodynamically stable patients — CT is required. CT abdomen with IV contrast (arterial + portal phase) is the gold standard for haemodynamically stable trauma patients: identifies all solid organ injuries with AAST grading, active contrast extravasation (active haemorrhage — blush), retroperitoneal haematoma, bowel wall injury (pneumoperitoneum, fat stranding), vascular injury. Indications for immediate laparotomy without CT: haemodynamic instability with positive FAST; evisceration; peritoneal signs; haemorrhage not controlled by pelvic packing/REBOA."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "FAST — Does Not Exclude Hollow Viscus Injury",
+          "content": "A positive FAST with free fluid in a haemodynamically stable patient identifies haemoperitoneum but cannot distinguish bowel contents from blood. A NEGATIVE FAST does NOT exclude bowel injury, mesenteric injury, retroperitoneal haematoma, or small solid organ injuries. CT with IV contrast is mandatory in stable patients with mechanism suggesting abdominal injury, regardless of FAST result."
+        }
+      ]
+    },
+    {
+      "id": "F1-S3",
+      "title": "Solid Organ Injuries",
+      "content": [
+        {
+          "type": "text",
+          "content": "The AAST (American Association for the Surgery of Trauma) Organ Injury Scale (OIS) grades solid organ injuries I–VI. Non-operative management (NOM) is the standard approach for haemodynamically stable solid organ injuries. Liver: most commonly injured solid organ in blunt trauma (55%). NOM for Grade I–III: success rate >90%. Grade IV/V: NOM attempted if haemodynamically stable — angioembolisation (transcatheter arterial embolisation — TAE) for contrast blush on CT (active extravasation) can achieve haemostasis in 70–85%. Grade V/VI with instability: operative management — perihepatic packing (damage control), Pringle manoeuvre (portal triad clamping), hepatotomy for vessel ligation. Splenic injury: NOM for blunt Grade I–III: success rate 80–90%. NOM failure predictors: high grade (IV/V), active blush on CT, haemodynamic instability, age >55, transfusion requirement >2 units. Angioembolisation extends NOM to Grade IV/V stable. Splenectomy: immediate for haemodynamic instability. Vaccines post-splenectomy: meningococcal, pneumococcal (PCV13), Hib — ideally pre-operatively or at least 14 days post-splenectomy. Kidney: NOM successful in >90% of blunt renal injuries. Ureteropelvic junction injury: diagnosed by CT (collecting system extravasation); manage with ureteral stent ± nephrostomy."
+        },
+        {
+          "type": "table",
+          "title": "AAST Liver OIS — Management by Grade",
+          "headers": ["Grade", "Description", "NOM", "Operative Indication"],
+          "rows": [
+            ["I", "Subcapsular haematoma <10%; laceration <1cm", "Yes — >95% success", "Only if haemodynamically unstable"],
+            ["II", "Subcapsular haematoma 10–50%; laceration 1–3cm", "Yes — >90% success", "Instability or failure of NOM"],
+            ["III", "Subcapsular haematoma >50% or expanding; laceration >3cm", "Yes — angioembolisation if blush", "Instability; expanding haematoma"],
+            ["IV", "Lobar parenchymal disruption 25–75%", "Angioembolisation first if stable", "Instability; failed embolisation"],
+            ["V", "Bilobar disruption >75%; hepatic vein injury", "Selected stable patients only", "Most require operative management"],
+            ["VI", "Hepatic avulsion", "No", "Damage control packing; near-universal operative"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Post-Splenectomy Vaccination Protocol — OPSI",
+          "content": "Overwhelming post-splenectomy infection (OPSI) affects 3–5% of splenectomy patients, with mortality 50–70%. Encapsulated organisms: Streptococcus pneumoniae (most common), Neisseria meningitidis, Haemophilus influenzae type b. Vaccination: ideally given ≥14 days pre-splenectomy (trauma context — give at discharge, minimum 14 days post-op). Vaccines: PCV13 (pneumococcal), MenACWY + MenB (meningococcal), Hib. Penicillin prophylaxis: daily oral penicillin for at least 2 years (some guidelines lifelong). Medical alert bracelet. Annual influenza vaccine (reduces secondary bacterial pneumonia risk)."
+        }
+      ]
+    },
+    {
+      "id": "F1-S4",
+      "title": "Hollow Viscus & Diaphragmatic Injury",
+      "content": [
+        {
+          "type": "text",
+          "content": "Duodenal injury: uncommon (3–5% of abdominal trauma), associated with high-speed deceleration (steering wheel, handlebar). AAST grading I–V. Grade I–II (haematoma/simple laceration): most haematomas resolve with NG decompression and TPN within 2–3 weeks; simple lacerations — primary repair (single layer). Grade III–IV (complex laceration >50% circumference, section): duodenal exclusion (pyloric exclusion with gastrojejunostomy) or resection — duodenopancreatectomy for combined duodenopancreatic injuries. Small bowel: most common hollow viscus injured in penetrating trauma (40%). Single perforations — primary repair (transverse closure to avoid narrowing). Multiple perforations in proximity or devascularised segment — resection. In damage control context: resection without anastomosis; delayed anastomosis at re-laparotomy 24–48h when physiology corrected. Colonic injury: penetrating colon injuries — primary anastomosis is safe in most circumstances (EAST guidelines; Demetriades et al. systematic review): primary repair for right colon, selected left colon injuries without significant contamination or haemodynamic compromise. Proximal diversion (colostomy) for: left colon injuries with significant contamination, anastomotic tension, haemodynamic instability, delayed presentation (>8h), massive transfusion (>6 units). Hartmann's procedure (sigmoid resection, end colostomy, oversewn rectal stump) for severe left-sided injuries."
+        },
+        {
+          "type": "text",
+          "content": "Diaphragmatic injury: penetrating mechanism more common for right-sided injuries; blunt mechanism more common for left-sided (thinner muscular cuff, no hepatic buttress). Left diaphragm rupture: stomach, colon, spleen herniate into chest — can be missed on initial CXR (30–50% missed initially); gastric herniation with volvulus is a late complication. Diagnosis: CXR (nasogastric tube in chest = pathognomonic), CT (diaphragm discontinuity, herniated viscera), laparoscopy (sensitivity 95% for acute diaphragmatic injury — superior to CT). Repair: primary repair via abdominal approach (most trauma surgeons prefer; can address all injuries); laparoscopic repair for isolated stable injuries; thoracic approach for late presentation with adhesions. Non-absorbable suture (polypropylene or polyester) for repair — diaphragm is under constant mechanical stress."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Missed Left Diaphragm Rupture — Late Presentation",
+          "content": "Left diaphragmatic rupture is missed in 30–50% of cases on initial evaluation. Late presentations (weeks–years later) can occur with gastric or colonic obstruction/strangulation from herniation. Classic late presentation: respiratory distress + bowel sounds in the left chest + CXR showing air-fluid levels in the left chest. Diagnosis confirmed by CT or upper GI contrast series. Repair through a thoracic approach (left thoracotomy) is preferred for late presentations due to adhesions between herniated viscera and intrathoracic structures."
+        }
+      ]
+    },
+    {
+      "id": "F1-S5",
+      "title": "Thoracic Trauma",
+      "content": [
+        {
+          "type": "text",
+          "content": "Thoracic trauma accounts for 25% of trauma deaths. Immediately life-threatening thoracic injuries (treated in the primary survey): tension pneumothorax, massive haemothorax, open pneumothorax, flail chest with hypoxia, cardiac tamponade. Potentially life-threatening injuries (secondary survey): pulmonary contusion, tracheobronchial injury, oesophageal injury, myocardial contusion, aortic injury. Tension pneumothorax: air enters pleural space under pressure (valve mechanism) → mediastinal shift → reduced venous return → haemodynamic collapse. Clinical diagnosis — do NOT wait for imaging in haemodynamic compromise. Treatment: immediate needle decompression (14G cannula, 2nd intercostal space midclavicular line, OR 4th/5th ICS anterior axillary line — AAL technique gaining favour) followed by chest drain (5th ICS AAL). Haemothorax: blood in pleural space from lung, intercostal vessel, or great vessel injury. Diagnosis: CXR (opacification), ultrasound (echogenic fluid), CT. Chest drain insertion (28–32Fr) drains most haemothoraces. Indications for VATS or thoracotomy: initial drainage >1500 mL, ongoing bleeding >200 mL/hour × 2–4 hours, retained haemothorax despite thoracostomy."
+        },
+        {
+          "type": "table",
+          "title": "Blunt Thoracic Aortic Injury (BTAI) — AAST Classification & Management",
+          "headers": ["Grade", "Description", "Management"],
+          "rows": [
+            ["I", "Intimal tear only — no haematoma", "Anticoagulation + antihypertensive; serial imaging; observation"],
+            ["II", "Intramural haematoma", "Antihypertensive (β-blocker); serial CT; selective TEVAR for progression"],
+            ["III", "Pseudoaneurysm — contained rupture", "TEVAR (thoracic endovascular aortic repair) — urgent; gold standard"],
+            ["IV", "Aortic transection / free rupture", "Immediate TEVAR or open repair; extreme-risk case"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Flail chest: paradoxical movement of a segment of chest wall (≥3 consecutive ribs fractured in ≥2 places each). The flail segment moves inward on inspiration (reduced tidal volume). Primary treatment: positive pressure ventilation (PPV — intubation) if respiratory failure; adequate analgesia (thoracic epidural, regional blocks — serratus anterior plane block, ESPB). Surgical rib fixation (SSRF — surgical stabilisation of rib fractures): improves pain, ventilator weaning, reduces pneumonia and mortality. Blunt aortic injury: mechanism — high-speed deceleration causing shear at aortic isthmus (ligamentum arteriosum fixed point). CT angiogram is diagnostic. TEVAR for Grade III/IV: introduced via femoral vessels under fluoroscopy; stent-graft deployed across injury. TEVAR complications: left subclavian artery coverage (anterior spinal artery risk — consider carotid-subclavian bypass), paraplegia (spinal cord ischaemia — CSF drainage), endoleak, access vessel injury. Open repair now rarely required — thoracic cross-clamping carries 30–40% paraplegia risk."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "STRATOS Trial — Surgical Rib Fixation vs Non-Operative",
+          "citation": "Beks RB et al. Surgical versus conservative treatment for multiple rib fractures with flail chest (STRATOS): Randomized controlled trial. Br J Surg. 2019;106(9):1201–1211.",
+          "population": "175 adult patients with ≥4 rib fractures including flail chest at 7 Dutch centres",
+          "intervention": "Surgical rib fixation (SSRF) vs conservative (analgesia, physiotherapy, PPV)",
+          "result": "SSRF: shorter ICU stay (8 vs 11 days), shorter ventilator days (6 vs 8), lower pneumonia rate (23% vs 41%), lower 30-day mortality trend (7% vs 15%, not significant). No increase in surgical complications with SSRF.",
+          "practice_change": "SSRF is now recommended for flail chest with ventilator dependence or significant chest wall deformity. Titanium plate systems (MatrixRIB, STRATOS system) are the standard implant. Early SSRF (within 72h) yields better outcomes than late fixation."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Tension Pneumothorax — Clinical Diagnosis Required",
+          "content": "Tension pneumothorax is a CLINICAL diagnosis — do NOT delay treatment for X-ray confirmation in a haemodynamically compromised patient. Classic signs: absent breath sounds unilaterally + tracheal deviation AWAY from the injury + distended neck veins + haemodynamic collapse. Treatment: immediate needle decompression 2nd ICS MCL (14G cannula perpendicular to skin, audible 'hiss' confirms decompression), THEN chest drain. Warning: needle decompression may fail in obese or muscular patients — go directly to finger thoracostomy or chest drain insertion if no immediate improvement."
+        }
+      ]
+    },
+    {
+      "id": "F1-S6",
+      "title": "Damage Control Surgery",
+      "content": [
+        {
+          "type": "text",
+          "content": "Damage control surgery (DCS) is the staged surgical approach for physiologically devastated trauma patients. DCS interrupts the lethal triad before it becomes irreversible. The DCS paradigm: Phase 0 (DCS resuscitation — DCR): MTP activation, TXA, permissive hypotension in the field/ED. Phase 1 (Operating room): abbreviate definitive repair; control haemorrhage (packing, ligation, shunting); control contamination (temporary stapled closure of bowel); pack and temporary abdominal closure. Phase 2 (ICU): physiological restoration — warm patient (target >36°C), correct acidosis (bicarbonate and adequate perfusion), reverse coagulopathy (FFP, platelets, cryoprecipitate, TXA), correct hypocalcaemia (calcium gluconate). Phase 3 (Planned re-laparotomy 24–48h): definitive repairs — anastomoses, fascial closure, wound management."
+        },
+        {
+          "type": "table",
+          "title": "Damage Control Surgery — Indications (Lethal Triad Criteria)",
+          "headers": ["Parameter", "DCS Threshold", "Rationale"],
+          "rows": [
+            ["Temperature", "<35°C", "Hypothermia impairs coagulation factors; below 32°C — refractory coagulopathy"],
+            ["pH", "<7.20", "Acidosis impairs platelet aggregation and coagulation cascade enzymatic function"],
+            ["INR", ">1.5", "Coagulopathy from dilution, consumption, and hypothermia"],
+            ["Base excess", "<-6 or worse", "Marker of global tissue ischaemia/shock severity"],
+            ["Lactate", ">5 mmol/L", "Anaerobic metabolism marker — impending multi-organ failure"],
+            ["Ongoing haemorrhage", "Not controllable", "Technical inability to achieve haemostasis definitively in a reasonable time"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Temporary abdominal closure (TAC) methods: Bogotá bag (sterile plastic bag sutured to skin — historical); vacuum-assisted wound closure (VAC — KCI ABThera system) — preferred; negative pressure maintains peritoneal domain, reduces oedema, protects viscera. Bogotá bag allows bowel distension monitoring but less effective than VAC. Key re-laparotomy principles: (1) Fascial closure should be achieved by 72–96h if possible; delayed closure >5 days significantly increases fistula and enteroatmospheric fistula (EAF) risk. (2) If fascial closure not achievable: planned ventral hernia approach (allow skin closure only, deal with hernia electively at 6–12 months). (3) Primary fascial closure rates: >80% achievable with modern VAC if re-op within 72h."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Damage Control Re-Laparotomy Timing",
+          "content": "Planned re-laparotomy is performed at 24–48 hours once physiology is corrected (temperature >36°C, pH >7.35, INR <1.5, lactate <2). Re-laparotomy includes: removal of packs, definitive organ repairs, bowel anastomosis, definitive closure attempt. If physiology not yet corrected at 24h, defer re-laparotomy and reassess at 48h. The open abdomen is NOT a complication — it is the intended strategy for physiologically unstable patients. The goal is definitive fascial closure within 72h to prevent planned ventral hernia."
+        }
+      ]
+    },
+    {
+      "id": "F1-S7",
+      "title": "Traumatic Brain Injury & Extremity Trauma",
+      "content": [
+        {
+          "type": "text",
+          "content": "TBI classification: mild (GCS 14–15 — concussion), moderate (GCS 9–13), severe (GCS ≤8). Intracranial mass lesions: Epidural haematoma (EDH): biconvex (lens-shaped) hyperdense collection on CT; typically from middle meningeal artery injury (temporal bone fracture); 'lucid interval' (brief LOC → recovery → rapid deterioration). Subdural haematoma (SDH): crescent-shaped collection (follows brain contour); from bridging vein injury; more common in elderly (brain atrophy stretches veins); may be acute (hyperdense), subacute (isodense), or chronic (hypodense). Subarachnoid haemorrhage (SAH): blood in subarachnoid space; thunderclap headache or worst headache of life (non-traumatic); CT shows hyperdense blood in cisterns. Cerebral contusion: bruising of brain parenchyma at coup and contre-coup sites. ICP monitoring: invasive — Camino or EVD (external ventricular drain — allows CSF drainage); indicated for severe TBI (GCS ≤8 + abnormal CT). Treatment thresholds: ICP >22 mmHg requires treatment (BRAIN-IT consensus — updated from old threshold of 20 mmHg). Cerebral perfusion pressure (CPP) = MAP − ICP; target CPP 60–70 mmHg. Decompressive craniectomy: for refractory raised ICP not responding to medical management (DECRA/RESCUEicp trials — reduces ICP mortality but high disability rate)."
+        },
+        {
+          "type": "table",
+          "title": "Intracranial Haematoma — CT Characteristics",
+          "headers": ["Type", "CT Shape", "Location", "Vessel", "Key Clinical Feature"],
+          "rows": [
+            ["Epidural (EDH)", "Biconvex (lens-shaped)", "Between skull and dura", "Middle meningeal artery (temporal)", "Lucid interval; temporal skull fracture"],
+            ["Acute subdural (SDH)", "Crescent (follows brain surface)", "Between dura and arachnoid", "Bridging cortical veins", "Older patients; worse prognosis than EDH"],
+            ["SAH", "Hyperdense cisterns/sulci", "Subarachnoid space", "Circle of Willis aneurysm (non-traumatic) / traumatic cortical", "Thunderclap headache; xanthochromia LP"],
+            ["Cerebral contusion", "Heterogeneous hypodense/hyperdense", "Parenchyma (often temporal/frontal)", "Intraparenchymal", "Delayed haematoma expansion common"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Extremity vascular trauma: hard signs of vascular injury (require immediate surgical exploration without imaging): active haemorrhage, expanding haematoma, absent distal pulse, bruit/thrill, signs of distal ischaemia. Soft signs (require imaging — CT angiogram or duplex): history of haemorrhage at scene, proximity of wound to vessel, reduced but present pulse, stable haematoma, neurological deficit. Damage control for extremity vascular injury: temporary intravascular shunt (TIVS — Javid, Sundt shunts) restores distal perfusion, allowing damage control laparotomy/thoracotomy first; definitive vascular repair follows. Fasciotomy indications in extremity: compartment pressure >30 mmHg, delta pressure <30 mmHg, clinical signs (pain on passive stretch, tense compartment), prophylactic after revascularisation of >4–6h ischaemia. Pelvic ring fracture and haemorrhage: major retroperitoneal bleeding source (venous plexus + iliac vessels). Management: (1) Pelvic binder or external fixator for mechanical stability; (2) REBOA Zone III (infrarenal aorta) for haemodynamic instability as bridge; (3) Pre-peritoneal pelvic packing (PPP) via infraumbilical incision in unstable patients; (4) Angioembolisation for arterial blush on CT in stable patients; (5) Definitive pelvic fracture fixation."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "ICP Threshold — Updated BRAIN-IT Consensus",
+          "content": "The traditional ICP treatment threshold was 20 mmHg (original ATLS/BTF). Updated BRAIN-IT consensus (2015) and BTF 4th edition guidelines (2016) recommend intervention for ICP >22 mmHg. Treatments in escalating order: (1) HOB 30°, sedation, analgesia; (2) Hyperosmolar therapy — mannitol 0.25–1 g/kg or 3% hypertonic saline (HTS); (3) CSF drainage via EVD; (4) Mild hyperventilation (pCO2 35 mmHg); (5) Barbiturate coma (refractory); (6) Decompressive craniectomy (last resort). Avoid pCO2 <35 mmHg (cerebral vasoconstriction → ischaemia) except as temporising measure."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "F1-Q1",
+      "stem": "A 28-year-old man is brought to the ED after a high-speed RTC. GCS is 14. On FAST exam, free fluid is seen in the RUQ (Morrison's pouch) but not in other windows. BP is 115/75, HR 110. What is the most appropriate next step?",
+      "options": {
+        "A": "Immediate laparotomy — positive FAST requires operative intervention",
+        "B": "CT abdomen/pelvis with IV contrast — haemodynamically stable with positive FAST",
+        "C": "Repeat FAST in 30 minutes to quantify fluid progression",
+        "D": "Diagnostic peritoneal lavage (DPL) — more sensitive than FAST for intraperitoneal injury"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "A haemodynamically stable patient (BP 115/75) with a positive FAST (free fluid in Morrison's pouch) requires CT abdomen/pelvis with IV contrast. CT identifies the source of bleeding (liver laceration grade, solid organ injury), quantifies injury, detects active contrast extravasation, and identifies all associated injuries. It enables evidence-based NOM decision-making and angioembolisation planning.",
+        "wrong": {
+          "A": "Immediate laparotomy without CT is reserved for haemodynamically unstable patients (refractory to resuscitation) with a positive FAST. This patient is stable — CT is indicated to plan management. Operating without imaging would lead to exploratory laparotomy when NOM might be appropriate.",
+          "C": "Repeat FAST to 'monitor progression' delays definitive imaging unnecessarily. A positive FAST in a stable patient requires definitive organ injury characterisation by CT, not serial FAST.",
+          "D": "DPL is highly sensitive for intraperitoneal blood but does not characterise injury grade or source. It has been largely replaced by CT in stable patients. DPL is positive if aspirate >10 mL blood or >100,000 RBC/mL — but it cannot distinguish liver Grade III from Grade V laceration."
+        },
+        "guideline": "ATLS 10th Edition. Eastern Association for the Surgery of Trauma (EAST) NOM guidelines. Positive FAST + haemodynamic stability → CT for injury characterisation and NOM planning.",
+        "trial": "Stengel D et al. Meta-analysis: accuracy of FAST. Ann Emerg Med 2005 — FAST sensitivity 64–98% for free fluid, but organ-specific injury characterisation requires CT.",
+        "pearl": "FAST limitations to memorise: (1) Retroperitoneal injuries missed (duodenum, pancreas, aorta, spine); (2) Hollow viscus injury not detectable; (3) Diaphragm injury unreliable; (4) Operator-dependent sensitivity; (5) Only detects >200–300 mL free fluid. FAST is a triage tool — not a definitive diagnostic test."
+      }
+    },
+    {
+      "id": "F1-Q2",
+      "stem": "A 24-year-old soldier with blast injury is brought to a field hospital. He has multiple penetrating injuries with active haemorrhage. Blood pressure is 70/40. The medic asks about TXA administration. It is 2.5 hours since injury. What is the correct advice?",
+      "options": {
+        "A": "TXA should not be given — it increases VTE risk and mortality",
+        "B": "TXA 1g IV over 10 minutes then 1g over 8 hours — within 3-hour window, indicated",
+        "C": "TXA 2g IV as single bolus — high-dose single infusion preferred in military setting",
+        "D": "TXA only appropriate after 3 hours of injury when fibrinolysis is maximal"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "CRASH-2 established the TXA protocol: 1g IV over 10 minutes (loading dose) followed by 1g over 8 hours (maintenance). This patient is 2.5 hours post-injury — within the 3-hour window. TXA significantly reduces haemorrhagic death when given within 3 hours. UK military data from Helmand Province (Camp Bastion study) confirmed survival benefit of pre-hospital TXA in combat trauma.",
+        "wrong": {
+          "A": "CRASH-2 showed TXA does NOT increase VTE risk (vascular occlusive events equivalent between groups). When given within 3 hours, TXA reduces haemorrhagic mortality. The risk (VTE) concern is not evidence-based.",
+          "C": "The CRASH-2 protocol is 1g loading + 1g over 8h maintenance. Single 2g bolus is not the established protocol. The 8-hour maintenance dose provides sustained antifibrinolytic effect during continued bleeding.",
+          "D": "Giving TXA AFTER 3 hours is harmful per CRASH-2 — late TXA increased haemorrhagic death (1.44 excess deaths per 100 patients). TXA must be given within 3 hours. At 2.5 hours, administration is appropriate and time-sensitive."
+        },
+        "guideline": "CRASH-2 Lancet 2010. UK Joint Theatre Clinical Guidelines: TXA within 3 hours (ideally <1 hour) for all casualties with significant haemorrhage or at risk. CRASH-3 (TBI + TXA within 3h): intracranial haemorrhagic death reduced in mild-moderate TBI.",
+        "trial": "CRASH-2 LANCET 2010. Shakur et al. Roberts I et al. Late TXA group analysis confirmed >3h exposure increases mortality.",
+        "pearl": "The mechanism of harm of late TXA: fibrinolysis physiologically peaks at 3–8h post-injury and then shuts down. If TXA is given during the fibrinolysis shutdown phase, it paradoxically stabilises pathological clot in microcirculation → organ ischaemia. Early TXA prevents pathological fibrinolysis; late TXA promotes microvascular thrombosis."
+      }
+    },
+    {
+      "id": "F1-Q3",
+      "stem": "PROPPR trial: what is the recommended PRBC:FFP:platelet ratio for massive transfusion in trauma, and what is the primary endpoint that differed between groups?",
+      "options": {
+        "A": "1:1:2 ratio; primary endpoint was 24-hour mortality (significantly lower in 1:1:2)",
+        "B": "1:1:1 ratio; primary endpoint was 24-hour and 30-day mortality (not significantly different); 1:1:1 achieved haemostasis faster",
+        "C": "2:1:1 ratio (more RBCs); primary endpoint was total transfusion volume",
+        "D": "1:2:1 ratio (more plasma); primary endpoint was coagulopathy correction at 4 hours"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "PROPPR trial compared 1:1:1 (plasma:platelets:RBCs) vs 1:1:2. Primary endpoint: 24-hour and 30-day mortality — not significantly different between groups. However, 1:1:1 showed: significantly faster haemostasis achievement (86% vs 78%), less exsanguination at 24h, and equivalent 30-day mortality. The 1:1:1 ratio is now the standard MTP recommendation — achieving haemostasis faster is the critical benefit.",
+        "wrong": {
+          "A": "1:1:2 is the COMPARATOR in PROPPR. 24-hour mortality was not significantly lower in 1:1:2. 1:1:1 was the intervention group with superior haemostasis achievement.",
+          "C": "2:1:1 (more RBCs) is not the PROPPR protocol. Historical MTP used this approach — heavy on RBCs, light on plasma and platelets. This approach is now superseded by the 1:1:1 balanced resuscitation strategy.",
+          "D": "1:2:1 (more plasma) is not a standard MTP protocol. The PROPPR trial tested 1:1:1 vs 1:1:2. Coagulopathy correction at 4 hours was not the primary endpoint."
+        },
+        "guideline": "EAST/ATLS MTP guidelines: 1:1:1 PRBC:FFP:PLT ratio. Add cryoprecipitate if fibrinogen <1.5 g/L. TXA early. Calcium gluconate (ionised hypocalcaemia from citrate in blood products). Stop crystalloids.",
+        "trial": "Holcomb JB. PROPPR JAMA 2015. Additional evidence: COMBAT trial (point-of-care balanced resuscitation); PAMPER trial (pre-hospital plasma).",
+        "pearl": "Viscoelastic haemostasis assays (VHA — ROTEM/TEG): now used in major trauma centres to guide targeted blood product resuscitation. ROTEM guides: fibrinogen replacement (FIBTEM A5 <7mm → cryoprecipitate), clot firmness (EXTEM A5 <40mm → FFP), platelet function (PLTEM). VHA-guided resuscitation reduces transfusion volume vs empirical 1:1:1."
+      }
+    },
+    {
+      "id": "F1-Q4",
+      "stem": "A 32-year-old motorcyclist sustains blunt abdominal trauma. CT shows a liver Grade IV laceration (25–75% lobar disruption) with active contrast extravasation (arterial blush). BP is 100/70, HR 120, responding to 1L IV fluid. What is the most appropriate management?",
+      "options": {
+        "A": "Immediate laparotomy — Grade IV liver laceration requires operative management",
+        "B": "Transfusion angioembolisation of the bleeding vessel — patient is haemodynamically responsive",
+        "C": "NOM with close observation only — Grade IV liver injuries can be managed conservatively",
+        "D": "FAST exam repeat and CT only if FAST worsens"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "A haemodynamically responsive patient (BP 100/70, responding to resuscitation) with a Grade IV liver laceration + active contrast extravasation (arterial blush) is best managed by hepatic angioembolisation. TAE (transcatheter arterial embolisation) achieves haemostasis in 70–85% of cases with arterial blush, avoiding the morbidity of laparotomy. NOM with TAE extends non-operative management to high-grade injuries in stable/responding patients.",
+        "wrong": {
+          "A": "Grade IV liver laceration in a haemodynamically responding patient is not an absolute operative indication. Angioembolisation has replaced operative management for stable Grade IV injuries at trauma centres. Laparotomy is reserved for haemodynamic instability refractory to resuscitation.",
+          "C": "NOM with observation alone is insufficient for Grade IV with active arterial blush. The contrast extravasation identifies active arterial bleeding that requires intervention (angioembolisation). Observation without treatment risks haemodynamic deterioration.",
+          "D": "CT has already been performed and shows the injury. Repeating FAST is redundant. The management decision is made based on haemodynamic status and CT findings — not serial FAST."
+        },
+        "guideline": "EAST NOM Guidelines for Liver Trauma 2012. Grade IV: NOM with angioembolisation if haemodynamically stable/responsive; Grade V-VI unstable: operative.",
+        "trial": "Demetriades D et al. Liver trauma 2010 — angioembolisation NOM failure rate for Grade IV: 10–15% (requires escalation to laparotomy). Success rate 85%.",
+        "pearl": "Biloma (bile collection) and hepatic abscess are the most common delayed complications of high-grade liver NOM — develop in 10–20% at 4–6 weeks. Diagnosis: CT or hepatobiliary iminodiacetic acid (HIDA) scan. Management: percutaneous drain ± ERCP sphincterotomy for ongoing bile leak."
+      }
+    },
+    {
+      "id": "F1-Q5",
+      "stem": "A 19-year-old student sustained blunt abdominal trauma in a rugby match. CT shows a spleen Grade III injury (subcapsular haematoma >50%, without rupture). He is haemodynamically stable. What is the NOM success rate for blunt Grade III splenic injury, and what is the main risk factor for NOM failure?",
+      "options": {
+        "A": "NOM success rate ~50%; main risk factor is patient age >30",
+        "B": "NOM success rate ~80–90%; main risk factors for failure include arterial blush on CT, age >55, high-grade injury (IV/V), and ongoing transfusion requirement",
+        "C": "NOM is contraindicated for Grade III — immediate splenectomy required",
+        "D": "NOM success rate 95%; failure is exclusively determined by haemodynamic deterioration on the ward"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Blunt splenic Grade III NOM has 80–90% success rate in haemodynamically stable patients. NOM failure risk factors: Grade IV/V injury, arterial blush on CT (active extravasation — indicates ongoing arterial haemorrhage), age >55 (decreased physiological reserve), transfusion requirement >2 units, and large splenic haematoma volume. For Grade III with arterial blush, angioembolisation should be performed to reduce NOM failure.",
+        "wrong": {
+          "A": "NOM success rate of ~50% is far too low. Grade III blunt splenic injuries in stable patients have high NOM success rates (80–90%). Age >30 is not the primary risk factor — age >55 has more evidence as a predictor.",
+          "C": "NOM is the standard of care for haemodynamically stable blunt splenic injuries of all grades, including Grade III. Immediate splenectomy is reserved for haemodynamic instability refractory to resuscitation.",
+          "D": "While haemodynamic deterioration drives escalation to splenectomy, NOM failure can also occur at lower thresholds (blush on CT, ongoing transfusion need). A 95% success rate overstates the NOM efficacy for Grade III injury — this figure is closer to Grade I/II."
+        },
+        "guideline": "EAST Spleen NOM Guidelines 2012; WSES Spleen Trauma Guidelines 2017. Grade III + blush → angioembolisation first, then observe. Grade III stable without blush → NOM alone.",
+        "trial": "Haan JM et al. NOM of blunt splenic injury. J Trauma 2005. Sabe AA et al. Systematic review — NOM failure predictors: Grade IV/V (OR 4.5), arterial blush (OR 3.2), transfusion >2 units (OR 2.8).",
+        "pearl": "Delayed splenic rupture: NOM failure can occur up to 14 days after injury (classically day 3–7). Patients should be restricted from strenuous activity for 6 weeks. Follow-up imaging with USS or CT at 72h for Grade III/IV is recommended to detect pseudoaneurysm formation."
+      }
+    },
+    {
+      "id": "F1-Q6",
+      "stem": "A splenectomised trauma patient is ready for discharge on day 8 post-operative (emergency splenectomy after Grade V splenic injury). When and which vaccines should be administered?",
+      "options": {
+        "A": "Vaccines should be given 2 weeks before any planned splenectomy only — vaccines are not indicated after emergency splenectomy",
+        "B": "PCV13 (pneumococcal), MenACWY + MenB (meningococcal), Hib — given at discharge (≥14 days post-splenectomy ideal; emergency splenectomy — give at discharge if not possible pre-op)",
+        "C": "Annual influenza vaccine only — encapsulated organism vaccines are required only for elective splenectomies",
+        "D": "Vaccines should be delayed 6 months post-splenectomy to allow immune recovery"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Post-splenectomy vaccination prevents OPSI from encapsulated bacteria. The ideal timing is pre-operatively for elective cases, or ≥14 days after splenectomy (better immune response than immediate post-operative period). In emergency splenectomy where pre-op vaccination was impossible, vaccines should be given at discharge — the risk of OPSI outweighs the suboptimal timing. Required vaccines: PCV13 (pneumococcal conjugate), meningococcal ACWY, meningococcal B (MenB), and Hib. Penicillin prophylaxis daily for ≥2 years (UK guidelines — some centres recommend lifelong).",
+        "wrong": {
+          "A": "Post-splenectomy vaccination is absolutely indicated after emergency splenectomy — the OPSI risk is the same regardless of the urgency of splenectomy. Emergency context is the most common scenario where vaccination is delayed, but it must not be omitted.",
+          "C": "All splenectomised patients require encapsulated organism vaccines — emergency and elective. Annual influenza vaccine is additionally recommended but is not the only vaccine required.",
+          "D": "Delaying 6 months post-splenectomy would leave the patient unprotected during the highest OPSI risk period (first 2 years post-splenectomy). Vaccines should be given as soon as possible — discharge day 8 is appropriate."
+        },
+        "guideline": "UK Department of Health Green Book Chapter 7 (Asplenism 2021). IDSA guidelines on post-splenectomy prophylaxis 2017. Vaccination ≥14 days pre-op or at discharge post-op (emergency). Annual influenza + pneumococcal booster every 5 years.",
+        "trial": "No RCT (ethical barrier — OPSI mortality is high). Observational data: OPSI incidence 0.5–3%/year; lifetime risk ~5%. Penicillin prophylaxis reduces OPSI risk by >80%.",
+        "pearl": "OPSI triad: fever + shock + DIC with no obvious source → think encapsulated organism sepsis. OPSI mortality 50–70%. Mechanism: without splenic filtering, encapsulated bacteria (non-opsonised before specific antibody forms) rapidly proliferate. Penicillin prophylaxis is the most effective prevention. Medical alert card + patient education are critical."
+      }
+    },
+    {
+      "id": "F1-Q7",
+      "stem": "A 58-year-old man is involved in a high-speed MVC. CXR shows left-sided opacity obscuring the left hemidiaphragm. The nasogastric tube passes into the left chest. What is the diagnosis and most appropriate investigation?",
+      "options": {
+        "A": "Massive haemothorax — chest drain insertion immediately",
+        "B": "Left diaphragm rupture with gastric herniation — CT thoracoabdominal for confirmation and repair planning",
+        "C": "Tension pneumothorax — needle decompression immediately",
+        "D": "Pulmonary contusion — supportive management with oxygen"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "An NG tube passing into the left chest (above the diaphragm) is pathognomonic of gastric herniation through a left diaphragm rupture. Left diaphragm rupture allows stomach, spleen, and colon to herniate through the defect. CT thoracoabdominal confirms the diagnosis, shows defect size and herniating organs, and guides surgical planning. Operative repair via laparotomy (primary repair — non-absorbable suture) is standard.",
+        "wrong": {
+          "A": "The opacity is gastric and colonic content, not haemothorax. Inserting a chest drain into the herniated stomach or colon would be catastrophic. The NG tube position confirms the diagnosis — this is not haemothorax.",
+          "C": "Tension pneumothorax: tracheal deviation away + haemodynamic instability + absent breath sounds. The NG tube in the left chest and left opacity is not consistent with pneumothorax — it is herniated abdominal viscera.",
+          "D": "Pulmonary contusion causes diffuse alveolar opacification, not a discrete opacity with NG tube displacement into the chest. The NG tube position in the left chest is the key diagnostic finding."
+        },
+        "guideline": "EAST Diaphragm Trauma Guidelines 2010; ATLS 10th Edition. Left diaphragm rupture: missed in 30–50% initially; CT gold standard for confirmation; laparoscopy 95% sensitive in acute phase.",
+        "trial": "Mihos P et al. Traumatic diaphragm rupture: J Trauma 2003. Left-sided 70%; missed on initial CXR 30–50%. NG tube in left chest is specific sign for left diaphragm rupture.",
+        "pearl": "Blunt vs penetrating diaphragm mechanism: blunt injury causes large radial tears (usually left > right); penetrating injury causes small defects that may seal temporarily but herniate later. A normal CXR does not exclude diaphragmatic injury — diagnostic laparoscopy should be performed for stab wounds to the left thoracoabdominal region (nipple-line to costal margin) even with normal CT, as CT sensitivity for small diaphragm injuries is only 60–70%."
+      }
+    },
+    {
+      "id": "F1-Q8",
+      "stem": "A CT angiogram in a blunt chest trauma patient shows blunt thoracic aortic injury (BTAI) Grade III (pseudoaneurysm at the aortic isthmus). The patient is haemodynamically stable. What is the standard management?",
+      "options": {
+        "A": "Immediate open thoracotomy with aortic repair — BTAI Grade III requires open repair",
+        "B": "Conservative management with β-blocker and serial CT only — BTAI always resolves with antihypertensives",
+        "C": "TEVAR (thoracic endovascular aortic repair) — gold standard for Grade III/IV BTAI",
+        "D": "Systemic anticoagulation — aortic pseudoaneurysm resolves with heparinisation"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "BTAI Grade III (pseudoaneurysm = contained aortic rupture) requires urgent repair. TEVAR has replaced open surgery as the gold standard: delivered via femoral access under fluoroscopy, stent-graft deployed across the injury zone at the aortic isthmus. TEVAR: lower perioperative mortality than open (5% vs 15–30%), lower paraplegia rate, shorter procedure. Antihypertensive therapy (β-blocker — target SBP <120, HR <80) is initiated as a bridge to TEVAR in haemodynamically stable patients.",
+        "wrong": {
+          "A": "Open repair for BTAI requires thoracotomy + aortic cross-clamping (30–40% paraplegia risk from spinal cord ischaemia). TEVAR has replaced open repair as first-line for anatomically suitable Grade III/IV injuries. Open repair is reserved for TEVAR failure or unsuitable anatomy.",
+          "B": "Conservative management alone (β-blocker) is appropriate for Grade I–II BTAI (intimal flap without haematoma or minimal haematoma) with serial CT monitoring. Grade III (pseudoaneurysm) has contained rupture — it will not resolve with antihypertensives alone and requires repair.",
+          "D": "Anticoagulation is not a treatment for aortic pseudoaneurysm. In the context of trauma, anticoagulation would increase bleeding risk from other injuries. TEVAR is the appropriate intervention."
+        },
+        "guideline": "SVS BTAI Guidelines 2011; STS 2015. TEVAR recommended for Grade III/IV. Grade I–II: antihypertensive management + serial imaging. Antihypertensive target pre-TEVAR: SBP <120 mmHg.",
+        "trial": "Demetriades D et al. Diagnosis and treatment of blunt thoracic aortic injuries. Ann Surg 2008 — TEVAR associated with 73% reduction in mortality vs open repair (5% vs 18.5%).",
+        "pearl": "TEVAR complication to know: left subclavian artery (LSA) coverage. The aortic isthmus injury is adjacent to the LSA origin — stent landing zone may cover the LSA. If LSA covered without revascularisation: risk of left arm ischaemia, vertebral artery ischaemia, anterior spinal syndrome. Carotid-subclavian bypass before TEVAR if LSA must be covered and adequate collateral flow uncertain."
+      }
+    },
+    {
+      "id": "F1-Q9",
+      "stem": "A 45-year-old man has a tension pneumothorax after a right-sided stab wound to the chest. He is tachycardic (HR 140), hypotensive (BP 78/50), and has absent right breath sounds with distended neck veins. What is the immediate management sequence?",
+      "options": {
+        "A": "CXR first to confirm tension pneumothorax before any intervention",
+        "B": "Needle decompression (14G cannula, 2nd ICS midclavicular line, right side) immediately, then chest drain",
+        "C": "IV fluids and vasopressors while preparing for chest drain — do not perform needle decompression",
+        "D": "Emergency thoracotomy — tension pneumothorax is a thoracotomy indication"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Tension pneumothorax is a clinical diagnosis — immediate needle decompression without imaging delay. 14G cannula inserted perpendicular to skin, 2nd ICS MCL (or 4th/5th ICS anterior axillary line — AAL preferred in obese/muscular patients due to chest wall thickness). Audible hiss + haemodynamic improvement confirms diagnosis. Immediately follow with chest drain (28–32Fr, 5th ICS AAL) for definitive decompression. Needle decompression is temporising only.",
+        "wrong": {
+          "A": "CXR before treatment in haemodynamic collapse from tension pneumothorax wastes critical time and is inappropriate. Clinical diagnosis (absent sounds + tracheal deviation + neck veins + hypotension) mandates immediate needle decompression. The diagnosis is clinical, not radiological.",
+          "C": "IV fluids and vasopressors treat the symptoms (haemodynamic shock) but not the cause (tension pneumothorax compressing the mediastinum, preventing venous return). Only decompression resolves the physiological obstruction. Vasopressors cannot compensate for absent cardiac preload.",
+          "D": "Emergency thoracotomy is indicated for traumatic cardiac arrest or cardiac tamponade not responding to pericardiocentesis. Tension pneumothorax is treated with needle decompression ± chest drain, not thoracotomy."
+        },
+        "guideline": "ATLS 10th Edition. Primary Survey 'B — Breathing': identify and treat tension PTx immediately; needle decompression then chest drain.",
+        "trial": "No RCT (ethical barrier). AAST/EAST consensus. AAL technique gaining favour over 2nd ICS MCL: less failure rate in obese/muscular patients (chest wall 4–5cm in obesity vs 3.5cm average — standard 4.5cm cannula may not reach pleura in 2nd ICS MCL).",
+        "pearl": "Needle decompression failure rate: reported at 30–40% at 2nd ICS MCL in obese/muscular individuals — chest wall thickness exceeds cannula length. The 4th/5th ICS AAL position has a thinner chest wall and higher success rate. If no hiss after needle decompression, immediately insert chest drain (finger thoracostomy first if critical)."
+      }
+    },
+    {
+      "id": "F1-Q10",
+      "stem": "A 68-year-old man sustains a massive haemothorax (2000 mL drained from right chest drain). After initial drainage, ongoing bleeding is 280 mL/hour at 2 hours and 250 mL/hour at 3 hours. What is the indication and most appropriate next step?",
+      "options": {
+        "A": "Continue chest drain drainage and monitor — haemothorax resolves once bleeding stops spontaneously",
+        "B": "Video-assisted thoracoscopic surgery (VATS) or thoracotomy — ongoing haemothorax >200 mL/hour × 2–4 hours",
+        "C": "Angioembolisation of intercostal vessels — first-line for ongoing haemothorax",
+        "D": "VATS only appropriate after 7 days — acute haemothorax has too much blood for VATS"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "The indications for operative intervention for haemothorax are: initial drainage >1500 mL OR ongoing bleeding >200 mL/hour × 2–4 hours. This patient has both (2000 mL initial + >200 mL/hour ongoing). VATS is the preferred approach for haemodynamically stable patients with massive haemothorax — lower morbidity than thoracotomy. Thoracotomy is required for: haemodynamic instability, injury requiring open repair (aortic, pulmonary hilum), or VATS not available.",
+        "wrong": {
+          "A": "Expectant management of ongoing haemothorax >200 mL/hour risks haemodynamic deterioration, blood volume depletion, and retained haemothorax (empyema risk). Operative intervention is the standard when drainage thresholds are exceeded.",
+          "C": "Angioembolisation targets intercostal artery haemorrhage (identified by CT) but is a secondary option for selected cases. For massive haemothorax with ongoing bleeding at this rate, VATS/thoracotomy provides definitive control of all potential sources (lung parenchyma, intercostal vessels, hilar vessels).",
+          "D": "VATS is most effective EARLY in haemothorax management (before clot organisation). The concern about early VATS ('too much blood') is incorrect — modern VATS with irrigation handles acute haemothorax. Delayed VATS (>72h) for retained haemothorax faces organised clot and is more challenging."
+        },
+        "guideline": "EAST Traumatic Haemothorax Guidelines 2014; ATLS 10th Edition. Operative threshold: initial >1500 mL or ongoing >200 mL/hr × 2–4 hrs. Early VATS for retained haemothorax reduces empyema risk.",
+        "trial": "Meyer DM et al. Early VATS for haemothorax. Ann Thorac Surg 1997 — early VATS (<72h) resolves retained haemothorax in 90%; reduces empyema and hospital stay vs chest drain alone.",
+        "pearl": "Retained haemothorax (blood remaining after chest drain): occurs in 20–30% of haemothoraces. Risk: empyema, fibrothorax. Management: VATS within 72h to evacuate clot before organisation. Thrombolytics (tPA) via chest drain are an alternative for small retained haemothoraces in non-operative candidates."
+      }
+    },
+    {
+      "id": "F1-Q11",
+      "stem": "Damage control surgery is being performed for a 30-year-old man with a GSW causing right colonic injury, liver Grade IV injury, and right iliac artery injury with haemorrhage. Temperature is 33.5°C, pH 7.18, INR 2.2. What is the damage control sequence?",
+      "options": {
+        "A": "Perform primary anastomosis, formal hepatic resection, iliac artery repair — complete all repairs in one sitting",
+        "B": "Control haemorrhage (liver packing, temporary vascular shunt for iliac artery), control contamination (stapled colonic closure, no anastomosis), temporary abdominal closure — ICU resuscitation — planned re-laparotomy 24–48h",
+        "C": "Colostomy only — bowel contamination is the priority; haemorrhage can wait",
+        "D": "ICU resuscitation first without surgery — surgery only if haemodynamics worsen"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "The lethal triad (temperature 33.5°C, pH 7.18, INR 2.2) meets all three DCS criteria. DCS Phase 1 sequence: (1) Haemorrhage control — perihepatic packing for Grade IV liver (Pringle if needed), TIVS (temporary intravascular shunt) or ligation for iliac artery to restore lower limb perfusion; (2) Contamination control — fire-and-staple colonic closure without anastomosis; (3) Temporary abdominal closure (VAC). Phase 2: ICU resuscitation (warm, correct pH, reverse coagulopathy). Phase 3: planned re-laparotomy 24–48h for definitive repairs.",
+        "wrong": {
+          "A": "Performing formal hepatic resection, anastomosis, and definitive vascular repair with active lethal triad (temperature 33.5°C, pH 7.18, INR 2.2) would result in metabolic collapse and death. Definitive repairs in a physiologically devastated patient are the historical error that DCS was designed to prevent.",
+          "C": "Bowel contamination control is important but haemorrhage must be addressed simultaneously. Active liver and iliac haemorrhage will kill the patient faster than bowel contamination. DCS addresses haemorrhage AND contamination in the same abbreviated operation.",
+          "D": "ICU resuscitation without surgical haemorrhage control would allow progressive haemorrhage and death. Active surgical bleeding requires operative control before ICU physiological restoration."
+        },
+        "guideline": "EAST DCS Guidelines. ATLS 10th Edition DCS principles. DCS triggers: temperature <35°C + pH <7.2 + INR >1.5 + ongoing haemorrhage (any two criteria sufficient).",
+        "trial": "Rotondo MF et al. 'Damage control': an approach for improved survival in exsanguinating penetrating abdominal injury. J Trauma 1993 — landmark paper establishing DCS. 77% survival in DCS vs 11% in definitive management group meeting DCS criteria.",
+        "pearl": "Temporary intravascular shunts (TIVS): commercially available (Javid, Sundt) or improvised (chest drain, NG tube). Shunts restore distal perfusion in vascular injuries, allowing physiological stabilisation before definitive repair. Shunts can stay in place for 4–6 hours reliably. Heparin-bonded shunts extend patency. Definitive vascular repair at re-laparotomy 24–48h."
+      }
+    },
+    {
+      "id": "F1-Q12",
+      "stem": "After a high-speed RTC, a 35-year-old man develops an epidural haematoma (EDH) on CT — biconvex hyperdense collection right temporal with midline shift 8mm. GCS has deteriorated from 13 to 8. What is the appropriate management?",
+      "options": {
+        "A": "Craniotomy — EDH causing significant mass effect and GCS deterioration is a neurosurgical emergency",
+        "B": "IV mannitol and hyperventilation — medical management sufficient for EDH",
+        "C": "Observation in ICU — small EDH can resolve spontaneously with time",
+        "D": "ICP monitoring via EVD — treat raised ICP medically before considering surgery"
+      },
+      "correct": "A",
+      "explanation": {
+        "correct": "EDH with significant mass effect (midline shift >5mm) and deteriorating GCS (now 8 — severe TBI threshold) is a neurosurgical emergency. Craniotomy (burr hole or formal craniotomy) with haematoma evacuation is the treatment. The outcome from EDH is excellent when treated promptly (mortality <5% with rapid surgery) versus dismal if delayed (mortality >50% in herniation). The 'lucid interval' of EDH (initial brief LOC → recovery → secondary deterioration from expanding haematoma) is the classic pattern — GCS deterioration from 13 to 8 represents the secondary deterioration phase.",
+        "wrong": {
+          "B": "Mannitol and hyperventilation are temporising measures for herniation, not definitive treatment for an EDH. They buy time while preparing for craniotomy but cannot replace surgical evacuation of the expanding haematoma.",
+          "C": "This EDH (biconvex, temporal, midline shift 8mm, GCS 8) is NOT small and NOT suitable for observation. Observation criteria for EDH: <30 mL volume, <1 cm thickness, <5mm midline shift, GCS >8, no pupil asymmetry. This patient fails multiple criteria.",
+          "D": "ICP monitoring is appropriate for diffuse TBI management. For focal mass lesion (EDH) causing herniation, the treatment is surgical evacuation, not just ICP monitoring. EVD helps after haematoma evacuation in selected patients."
+        },
+        "guideline": "BTF TBI Guidelines 4th Edition 2016. EDH surgical indications: volume >30 mL, thickness >1 cm, midline shift >5mm, GCS ≤8, or anisocoria. This patient meets multiple criteria.",
+        "trial": "Bullock MR et al. Surgical management of acute epidural haematoma. Neurosurgery 2006 — EDH >30 mL or midline shift >5mm → surgical evacuation; mortality <10% with rapid surgery vs >50% with delayed.",
+        "pearl": "EDH outcome formula: time to surgery is the critical variable. EDH with bilateral reactive pupils and GCS >8 → elective craniotomy within hours. EDH with blown pupil (CN III compression by uncal herniation) + GCS <8 → emergency craniotomy within 30 minutes. Prognosis excellent if treated before herniation — prognosis poor after bilateral fixed dilated pupils."
+      }
+    },
+    {
+      "id": "F1-Q13",
+      "stem": "A 25-year-old woman sustains a pelvic fracture (open book, Tile type B) in a pedestrian RTC. She is haemodynamically unstable (BP 72/40) despite 2L IV crystalloid. What is the appropriate management sequence for haemorrhage control?",
+      "options": {
+        "A": "Immediate laparotomy — pelvic haemorrhage requires laparotomy for control",
+        "B": "Pelvic binder application → REBOA Zone III or pre-peritoneal pelvic packing (PPP) → pelvic angioembolisation if arterial source identified",
+        "C": "Urgent CT pelvis with angiography → intervention based on findings",
+        "D": "MTP activation only — crystalloid restriction and blood products will stabilise pelvic haemorrhage"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Pelvic haemorrhage management in haemodynamic instability: (1) Pelvic binder (sheet or commercial device — T-POD) reduces pelvic ring volume, tamponades venous bleeding; (2) REBOA Zone III (infrarenal aorta) provides proximal haemostasis as bridge to definitive control; (3) Pre-peritoneal pelvic packing (PPP) — infraumbilical extraperitoneal packing with 3 laparotomy pads per side — directly tamponades pelvic venous plexus bleeding (most pelvic haemorrhage is venous); (4) Angioembolisation — for arterial source (identified by CT in stable patients or by diagnostic angiography in unstable patients after PPP).",
+        "wrong": {
+          "A": "Laparotomy does NOT control retroperitoneal pelvic haemorrhage — opening the peritoneum releases tamponade and worsens bleeding. Laparotomy is for intraperitoneal haemorrhage (positive FAST). PPP (extraperitoneal) is the surgical approach for pelvic haemorrhage, not transperitoneal laparotomy.",
+          "C": "CT angiogram requires haemodynamic stability (or relative stability). This patient is in haemodynamic instability (BP 72/40) — CT delay is dangerous. Mechanical control (binder, PPP/REBOA) must precede imaging in the unstable patient.",
+          "D": "MTP is essential but insufficient alone. Active mechanical haemorrhage from pelvic ring disruption requires physical tamponade (binder, packing) to stop — blood products cannot compensate for ongoing mechanical haemorrhage from open pelvic vessels."
+        },
+        "guideline": "EAST Pelvic Fracture Guidelines 2011; WSES Pelvic Trauma Guidelines 2017. Unstable pelvic fracture with haemodynamic instability: binder → PPP or REBOA → angioembolisation if arterial.",
+        "trial": "Cothren CC et al. Pre-peritoneal pelvic packing vs angiography — J Trauma 2007: PPP achieves haemostasis in 90% of cases; especially effective for venous bleeding (80% of pelvic haemorrhage).",
+        "pearl": "PPP vs angiography for pelvic fracture haemorrhage: 80–85% of pelvic haemorrhage is venous (pelvic venous plexus injury) — not controlled by arterial embolisation. PPP is the most effective first-line surgical intervention for venous pelvic bleeding. Angioembolisation targets the 15–20% arterial component (superior gluteal artery most commonly)."
+      }
+    },
+    {
+      "id": "F1-Q14",
+      "stem": "When is permissive hypotension contraindicated in trauma resuscitation?",
+      "options": {
+        "A": "In patients over 65 years due to impaired cardiac reserve",
+        "B": "In patients with traumatic brain injury — MAP ≥80 mmHg required to maintain cerebral perfusion pressure",
+        "C": "In penetrating trauma — permissive hypotension is only evidence-based for blunt trauma",
+        "D": "In patients with hypothermia — low BP causes further temperature drop"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Permissive hypotension (SBP 80–90, MAP 50–65 mmHg) is the standard resuscitation strategy for haemorrhagic shock in trauma. CRITICAL EXCEPTION: traumatic brain injury (TBI). Cerebral perfusion pressure (CPP) = MAP − ICP. In TBI, raised ICP means CPP is critically dependent on maintaining adequate MAP. If MAP is allowed to drop to 50–65 mmHg and ICP is 25 mmHg, CPP = 25–40 mmHg — causing catastrophic cerebral ischaemia. Target MAP ≥80 mmHg in combined haemorrhage + TBI.",
+        "wrong": {
+          "A": "Age >65 is not an absolute contraindication to permissive hypotension. Elderly patients have reduced physiological reserve, but the principle of minimising haemorrhage augmentation applies regardless of age. Close monitoring is required, but 65 years is not the contraindication threshold.",
+          "C": "Permissive hypotension is evidence-based for both blunt AND penetrating trauma (CRASH-2, military experience, Bickell PN trauma trial). Penetrating trauma studies (Bickell WH, NEJM 1994 — PN trauma) showed delayed fluid resuscitation improved survival — this underpins permissive hypotension in penetrating trauma.",
+          "D": "Hypothermia reduces metabolic demand and is not a contraindication to permissive hypotension. The management of hypothermic trauma: warm patient + correct physiology + control haemorrhage. The temperature-BP interaction is not a contraindication to permissive hypotension strategy."
+        },
+        "guideline": "ATLS 10th Edition. BTF TBI Guidelines 4th Edition 2016: MAP ≥80 mmHg for severe TBI. European Trauma Treatment Guidelines (STOP THE BLEED): permissive hypotension SBP 80–90 for haemorrhage without TBI.",
+        "trial": "Bickell WH et al. Immediate vs delayed fluid resuscitation for hypotensive patients with penetrating torso injuries. NEJM 1994 — delayed resuscitation until operative haemostasis: 70% vs 62% survival. Established permissive hypotension in penetrating trauma.",
+        "pearl": "Combined TBI + haemorrhage is the most challenging resuscitation scenario: competing goals — high MAP for brain (≥80 mmHg) vs low MAP for haemorrhage (50–65 mmHg). Current guidance: prioritise MAP ≥80 mmHg if TBI suspected (ERR on the side of brain protection), while getting to theatre rapidly for haemostasis. Vasopressors may be used to maintain MAP while achieving haemostasis."
+      }
+    },
+    {
+      "id": "F1-Q15",
+      "stem": "A 22-year-old man has a GSW to the right lower quadrant. At laparotomy (haemodynamically stable, positive FAST), there is a through-and-through right colonic perforation with minimal faecal contamination. Which management option is best supported by current evidence?",
+      "options": {
+        "A": "Right hemicolectomy with primary ileocolic anastomosis — primary anastomosis safe for penetrating right colon injury with minimal contamination",
+        "B": "Temporary ileostomy — all colonic injuries require proximal diversion regardless of contamination",
+        "C": "Simple closure of both perforations — primary repair without resection is always adequate",
+        "D": "Hartmann's procedure — right-sided injuries always require resection without anastomosis"
+      },
+      "correct": "A",
+      "explanation": {
+        "correct": "Right colonic penetrating injuries (ileocaecal/ascending) can be managed with primary anastomosis in haemodynamically stable patients with minimal contamination. Right hemicolectomy with ileocolic anastomosis is safe because: small bowel (ileum) has excellent blood supply and bacterial load is lower on the right side. Evidence from Demetriades et al. systematic review and EAST guidelines confirms primary anastomosis for right colon injuries in stable patients with minimal contamination and no major risk factors.",
+        "wrong": {
+          "B": "Universal proximal diversion for all colonic injuries is not supported by evidence. Colostomy complications (stoma retraction, prolapse, parastomal hernia) and the morbidity of reversal outweigh the benefit in patients without risk factors. Selective diversion based on clinical factors is the modern approach.",
+          "C": "Simple closure (primary repair) of both perforations is appropriate for through-and-through injuries to the small bowel or selected right colon where tissue quality is good and blood supply intact. For a right colon through-and-through GSW, either primary repair or resection/anastomosis are acceptable — the choice depends on tissue quality.",
+          "D": "Hartmann's procedure (resection, end stoma, oversewn stump) is the strategy for left-sided (sigmoid/descending) colonic injuries with significant contamination, haemodynamic instability, or delayed presentation — not for right colon with minimal contamination."
+        },
+        "guideline": "EAST Penetrating Colon Trauma Guidelines 2010. Right colon + minimal contamination + stable: primary anastomosis. Left colon + significant contamination / unstable: Hartmann's or diversion.",
+        "trial": "Demetriades D et al. Colonic injuries in 1001 consecutive patients. Ann Surg 2001. Murray JA et al. — primary repair vs diversion for penetrating colon trauma: no benefit to diversion in low-risk patients. NNT to prevent one anastomotic leak by diversion = 56 low-risk patients.",
+        "pearl": "Indications for colonic diversion (colostomy) in penetrating trauma: (1) Haemodynamic instability requiring DCS; (2) Significant faecal contamination; (3) Delayed presentation >8h; (4) Massive transfusion >6 units; (5) Left colon with poor tissue quality; (6) Combined rectal injury with sphincter damage. Without these risk factors, primary anastomosis is the evidence-based approach."
+      }
+    },
+    {
+      "id": "F1-Q16",
+      "stem": "A 40-year-old man sustains multiple rib fractures (ribs 4–8) on the right side with a flail segment. He is tachypnoeic (RR 32/min), using accessory muscles, and SpO2 is 89% on 15L O2 via non-rebreather mask. CXR shows right pulmonary contusion. What is the most appropriate next step?",
+      "options": {
+        "A": "Immediate surgical rib fixation (SSRF) — flail chest with pulmonary contusion requires SSRF",
+        "B": "Positive pressure ventilation (intubation and mechanical ventilation) — respiratory failure requires PPV; SSRF may follow once stabilised",
+        "C": "Intercostal nerve blocks only — adequate analgesia will resolve paradoxical breathing",
+        "D": "CPAP via mask — non-invasive ventilation first-line for flail chest"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "This patient has respiratory failure from flail chest + pulmonary contusion: SpO2 89% despite 15L O2 = inadequate oxygenation. Intubation and mechanical ventilation (PPV) is the immediate priority — positive pressure splints the chest wall internally and improves alveolar recruitment in contused lung. SSRF is considered after stabilisation, but the acute emergency is respiratory failure requiring PPV. SSRF within 72h after stabilisation improves outcomes (STRATOS trial).",
+        "wrong": {
+          "A": "SSRF cannot be performed emergently — it requires planning, imaging, and surgical preparation. The acute emergency (SpO2 89%, respiratory failure) requires immediate airway management (intubation + PPV). SSRF follows once the patient is stabilised on ventilator.",
+          "C": "Intercostal nerve blocks (or epidural) are excellent for analgesia and reduce splinting, improving breathing mechanics. However, SpO2 89% despite max O2 represents failure beyond what analgesia alone can correct — PPV is required. Analgesia is adjunctive to, not a substitute for, ventilatory support.",
+          "D": "CPAP/NIV may be trialled in mild-moderate flail chest without significant hypoxia. SpO2 89% on 15L O2 is severe hypoxaemia — this is beyond NIV territory; intubation and invasive PPV is required. Delayed intubation risks arrest."
+        },
+        "guideline": "EAST Rib Fracture Guidelines 2016; STRATOS trial 2019. Flail chest with respiratory failure → intubation + PPV. SSRF for: flail chest requiring mechanical ventilation, chest wall deformity, failed weaning from ventilator. Thoracic epidural for analgesia (reduces pneumonia).",
+        "trial": "STRATOS Br J Surg 2019: SSRF reduced ICU stay (8 vs 11 days), ventilator days, pneumonia rate (23% vs 41%) — reinforces early SSRF in flail chest. Granetzny A et al. Surgical vs conservative flail chest: Eur J Cardiothorac Surg 2005 — SSRF reduced ventilator days.",
+        "pearl": "The two threats in flail chest: (1) Chest wall paradox — flail segment moves in on inspiration, reducing tidal volume; addressed by PPV (internal pneumatic stabilisation); (2) Pulmonary contusion — alveolar haemorrhage and oedema causing hypoxaemia; addressed by protective lung ventilation (low tidal volume, PEEP). SSRF definitively treats the mechanical chest wall problem but does not treat pulmonary contusion — time is the treatment for contusion (peaks at 48–72h, resolves by 5–7 days)."
+      }
+    },
+    {
+      "id": "F1-Q17",
+      "stem": "What is the ICP treatment threshold recommended by the Brain Trauma Foundation 4th Edition guidelines (2016), and what first-line interventions should be initiated?",
+      "options": {
+        "A": "ICP >20 mmHg; first-line: mannitol 1 g/kg IV bolus",
+        "B": "ICP >22 mmHg; first-line: head of bed elevation 30°, analgesia/sedation, osmotherapy (mannitol or hypertonic saline), CSF drainage if EVD in situ",
+        "C": "ICP >25 mmHg; first-line: decompressive craniectomy",
+        "D": "ICP >30 mmHg; no intervention required below this threshold regardless of CPP"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "BTF 4th Edition (2016) updated the ICP treatment threshold from 20 mmHg to 22 mmHg (based on BEST-TRIP trial and subsequent analysis). First-line ICP management (stepwise): (1) HOB 30° (reduces ICP by reducing intracranial venous congestion without compromising CPP); (2) Adequate analgesia and sedation (propofol, opioids); (3) Osmotherapy — mannitol 0.25–1 g/kg IV bolus or 3% hypertonic saline (HTS) 250 mL bolus (both reduce cerebral oedema via osmotic effect); (4) CSF drainage via EVD; (5) Mild hyperventilation (pCO2 35 mmHg — temporary); (6) Barbiturate coma for refractory ICP; (7) Decompressive craniectomy (last resort).",
+        "wrong": {
+          "A": "The old threshold was 20 mmHg — BTF 4th Edition updated this to 22 mmHg. Mannitol is a first-line osmotherapy but is not the only intervention. A stepwise approach (HOB, sedation, osmotherapy, CSF drainage) is more comprehensive than mannitol alone.",
+          "C": "Decompressive craniectomy is the LAST resort for refractory ICP not responding to all medical management. ICP >25 is not itself a craniectomy threshold — the decision is based on ICP refractory to medical management, not a single numerical threshold.",
+          "D": "ICP >30 mmHg without intervention is incorrect — treatment begins at 22 mmHg. Additionally, CPP (MAP − ICP) must be maintained at 60–70 mmHg regardless of ICP absolute value."
+        },
+        "guideline": "BTF TBI Guidelines 4th Edition 2016. Level IIB recommendation: treat ICP >22 mmHg. CPP target 60–70 mmHg.",
+        "trial": "BEST-TRIP trial (Chesnut RM, NEJM 2012): ICP monitor-guided management vs clinical/CT-guided management — no significant difference in neurological outcomes. Challenged the assumption that ICP monitoring improves outcomes but established modern understanding of ICP thresholds.",
+        "pearl": "Hypertonic saline vs mannitol: both effective osmotherapy. HTS: raises serum osmolality + serum Na; may be better in hypovolaemia (expands intravascular volume); no urinary losses. Mannitol: osmotic diuresis (can cause hypovolaemia — use with caution in haemorrhagic shock). Avoid in serum Na >160 mEq/L and serum osmolality >320 mOsm/kg."
+      }
+    },
+    {
+      "id": "F1-Q18",
+      "stem": "A duodenal injury Grade III (>50% circumference laceration, no ampullary involvement) is identified at laparotomy for a gunshot wound. The patient is haemodynamically stable with mild contamination. What is the appropriate management?",
+      "options": {
+        "A": "Primary repair — Grade III duodenal laceration can always be primarily closed",
+        "B": "Pyloric exclusion with gastrojejunostomy — Grade III duodenal injury with >50% circumference laceration requires diversion",
+        "C": "Duodenopancreatectomy (Whipple) — Grade III injuries require resection",
+        "D": "Damage control with stapled closure — all duodenal injuries require DCS approach"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Grade III duodenal injury (>50% circumference laceration) cannot be safely primarily closed without unacceptable narrowing or dehiscence risk. Pyloric exclusion (gastric outlet occlusion with non-absorbable suture or staple through a gastrotomy) + gastrojejunostomy (bypass) + duodenal repair diverts gastric contents away from the injured duodenum, dramatically reducing leak risk. This is the standard approach for Grade III–IV duodenal injuries without ampullary involvement.",
+        "wrong": {
+          "A": "Primary closure of >50% circumference duodenal laceration risks stenosis and leak. Primary closure is safe for Grade I–II injuries (haematoma or <50% laceration). Grade III mandates additional protection (diversion or exclusion).",
+          "C": "Whipple procedure is reserved for Grade IV–V injuries with ampullary or combined pancreatic head involvement — not for isolated Grade III duodenal injury. Whipple carries significant morbidity/mortality and is unjustified for a repairable lesion.",
+          "D": "DCS with stapled closure is appropriate in physiologically unstable patients meeting DCS criteria. This patient is haemodynamically stable — definitive management at initial operation is appropriate."
+        },
+        "guideline": "EAST Duodenal Trauma Guidelines. Grade I: NOM or primary closure. Grade II: primary closure ± jejunal patch. Grade III: pyloric exclusion + gastrojejunostomy. Grade IV–V (ampullary/biliary involvement): Whipple.",
+        "trial": "Velmahos GC et al. Pyloric exclusion for duodenal injuries. J Trauma 2002 — pyloric exclusion reduces duodenal fistula rate from 15% to 5% in Grade III/IV injuries. Pyloric exclusion suture typically dissolves/opens spontaneously at 3 weeks.",
+        "pearl": "Pyloric exclusion technique: right upper quadrant gastrotomy → non-absorbable suture occludes pylorus from inside → gastrotomy used for gastrojejunostomy. The suture slowly loosens at 3–6 weeks, re-establishing pyloric function. A separate closed suction drain adjacent to the duodenal repair is essential. NGT decompression reduces pressure at the repair."
+      }
+    },
+    {
+      "id": "F1-Q19",
+      "stem": "A trauma patient in the ICU post-DCS has temperature corrected to 36.8°C, pH 7.38, INR 1.3, and lactate 1.8 mmol/L at 36 hours. Bowel was stapled off (two segments left in discontinuity). When should re-laparotomy for definitive repair occur?",
+      "options": {
+        "A": "Immediate return to theatre — 36 hours is too long to leave bowel in discontinuity",
+        "B": "72–96 hours — physiological correction is adequate; re-laparotomy when physiology corrected (temperature >36°C, pH >7.35, INR <1.5, lactate <2), typically 24–48h post-correction",
+        "C": "1 week — bowel in discontinuity is safe for 7 days without anastomosis",
+        "D": "Re-laparotomy only if clinical deterioration — planned re-laparotomy is not indicated"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Physiology is now corrected (all parameters normalised at 36 hours). Re-laparotomy should be planned at 24–48 hours post-physiological correction — i.e., approximately 36–60 hours from the initial DCS. At re-laparotomy: pack removal, definitive bowel anastomosis, fascial closure attempt. The 36-hour timeframe is within the acceptable window (24–72h post-correction). Delaying further risks anastomotic compromise and increases wound complications.",
+        "wrong": {
+          "A": "'Immediate' at 36 hours may be appropriate if physiology was corrected at 24h — but the phrasing 'immediate' suggesting extreme urgency is incorrect. Re-laparotomy is planned (semi-elective) once physiology normalises. The timing here is correct (physiology corrected, 36h post-DCS).",
+          "C": "7 days in bowel discontinuity is too long — risk of enteroatmospheric fistula (EAF) and prolonged open abdomen complications (skin breakdown, infection, sepsis) increases significantly. Anastomosis should be performed within 48–72h of physiological correction, aiming for fascial closure by 72–96h from DCS.",
+          "D": "Planned re-laparotomy is the cornerstone of DCS — it is not optional. Bowel in discontinuity requires anastomosis. The open abdomen requires closure. Waiting for clinical deterioration would mean unnecessary delay, increasing risk of complications."
+        },
+        "guideline": "EAST DCS Guidelines. Re-laparotomy within 24–72h of physiological correction. Fascial closure goal: 72–96h post-DCS.",
+        "trial": "Rotondo MF original DCS paper 1993. Roberts DJ et al. Timing of re-laparotomy — J Trauma 2012: early fascial closure (<7 days) associated with lower EAF, better wound outcomes.",
+        "pearl": "Enteroatmospheric fistula (EAF) — the feared open abdomen complication. EAF occurs when bowel becomes adherent to the wound and perforates into the open abdominal wound. It is virtually unmanageable until definitive closure and carries very high mortality. Prevention: minimise open abdomen duration, avoid bowel desiccation with hydrated dressings/VAC, close fascia within 72h."
+      }
+    },
+    {
+      "id": "F1-Q20",
+      "stem": "A 19-year-old man is brought in unconscious after assault (suspected baseball bat to the head). GCS is 6. CT head shows right temporal acute subdural haematoma (SDH) — crescent-shaped, 12mm thickness, 10mm midline shift. Pupil: right fixed dilated. Left pupils reactive. What does the fixed dilated right pupil indicate and what is the management?",
+      "options": {
+        "A": "Left-sided herniation compressing CN III — left craniotomy required",
+        "B": "Right-sided uncal herniation compressing right CN III (ipsilateral) — emergency right craniotomy for SDH evacuation",
+        "C": "Bilateral CN III injury from orbital trauma — bilateral pupil dilation expected",
+        "D": "Sympathomimetic drug effect — check drug history before any neurosurgical intervention"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Fixed dilated right pupil in right temporal SDH = right uncal herniation. The uncus of the temporal lobe herniates through the tentorium and compresses the ipsilateral (right) CN III from above. CN III compression causes: loss of parasympathetic pupilloconstriction → fixed dilated pupil ipsilateral to the mass lesion. This is a neurosurgical emergency. Right craniotomy for SDH evacuation must be performed within minutes — herniation is reversible if treated rapidly but causes permanent brainstem damage if delayed >20–30 minutes.",
+        "wrong": {
+          "A": "The SDH is right-sided (right temporal). The midline shift is from right → left (right hemisphere pushes left). The uncal herniation is right-sided (uncus herniates right → left). CN III is compressed ipsilaterally (right CN III). Left craniotomy would be the wrong side.",
+          "C": "Bilateral fixed dilated pupils suggest bilateral CN III compression (bilateral herniation — terminal event) or direct brainstem injury. This patient has unilateral right pupil dilation — consistent with ipsilateral uncal herniation from right SDH. Bilateral dilation is not the finding here.",
+          "D": "Drug history is relevant but the clinical urgency of herniation does not allow waiting for drug screen results. A fixed dilated pupil in the context of head injury + SDH + mass effect + GCS 6 mandates neurosurgical intervention. Drug-induced dilation is a diagnosis of exclusion, not a reason to delay treatment for herniation."
+        },
+        "guideline": "BTF TBI Guidelines 4th Edition 2016. Acute SDH with midline shift >5mm, thickness >10mm, or neurological deterioration → surgical evacuation. Craniotomy within 4 hours of diagnosis.",
+        "trial": "Seelig JM et al. NEJM 1981 — landmark paper: SDH evacuation within 4 hours: mortality 30%; >4 hours: mortality 90%. Timing is the critical determinant of SDH outcomes. Bullock MR et al. Surgical SDH management. Neurosurgery 2006.",
+        "pearl": "SDH vs EDH prognostic difference: EDH has excellent prognosis with timely surgery (mortality <5%) because brain parenchyma is not directly injured. Acute SDH has worse prognosis (mortality 30–50%) even with timely surgery because: (1) Brain directly injured (coup-contrecoup); (2) Bridging vein mechanism often associated with underlying contusion; (3) SDH typically involves elderly/atrophic brain with greater stretch forces. Young age and rapid evacuation improve SDH outcomes."
+      }
+    }
+  ]
+}

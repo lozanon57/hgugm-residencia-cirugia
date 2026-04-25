@@ -1,0 +1,65 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Evidence Hierarchy Pyramid">
+  <title>Evidence Hierarchy Pyramid</title>
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="400" height="500" fill="#FAFBFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="200" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#1B3A6B">Evidence Hierarchy</text>
+  <text x="200" y="46" text-anchor="middle" font-size="11" fill="#7A8CA0">From lowest to highest quality of evidence</text>
+
+  <!-- Level 5 — Systematic Review / Meta-analysis (gold, top) -->
+  <polygon points="200,68  140,130  260,130" fill="#C8933A" stroke="white" stroke-width="2"/>
+  <text x="200" y="98" text-anchor="middle" font-size="10" font-weight="700" fill="white">Systematic Review</text>
+  <text x="200" y="112" text-anchor="middle" font-size="10" font-weight="700" fill="white">Meta-analysis</text>
+
+  <!-- Level 4 — RCT (teal) -->
+  <polygon points="140,134  100,196  300,196  260,134" fill="#0D6E6E" stroke="white" stroke-width="2"/>
+  <text x="200" y="160" text-anchor="middle" font-size="11" font-weight="700" fill="white">Randomised Controlled</text>
+  <text x="200" y="175" text-anchor="middle" font-size="11" font-weight="700" fill="white">Trials (RCTs)</text>
+
+  <!-- Level 3 — Cohort / Case-Control (blue) -->
+  <polygon points="100,200  55,270  345,270  300,200" fill="#1B3A6B" stroke="white" stroke-width="2"/>
+  <text x="200" y="228" text-anchor="middle" font-size="11" font-weight="700" fill="white">Cohort Studies</text>
+  <text x="200" y="244" text-anchor="middle" font-size="11" font-weight="700" fill="white">Case-Control Studies</text>
+
+  <!-- Level 2 — Case Reports / Series (light blue) -->
+  <polygon points="55,274  20,348  380,348  345,274" fill="#3B82F6" stroke="white" stroke-width="2"/>
+  <text x="200" y="305" text-anchor="middle" font-size="11" font-weight="700" fill="white">Case Reports</text>
+  <text x="200" y="321" text-anchor="middle" font-size="11" font-weight="700" fill="white">Case Series</text>
+
+  <!-- Level 1 — Expert Opinion (grey, bottom) -->
+  <polygon points="20,352  10,418  390,418  380,352" fill="#94A3B8" stroke="white" stroke-width="2"/>
+  <text x="200" y="380" text-anchor="middle" font-size="11" font-weight="700" fill="white">Expert Opinion</text>
+  <text x="200" y="396" text-anchor="middle" font-size="11" font-weight="700" fill="white">Editorials · Consensus</text>
+
+  <!-- Base cap -->
+  <rect x="10" y="418" width="380" height="6" rx="3" fill="#64748B"/>
+
+  <!-- Right side labels -->
+  <text x="280" y="102" font-size="9" fill="#92621A" font-weight="600">Highest evidence</text>
+  <text x="320" y="168" font-size="9" fill="#0D6E6E">GRADE 1a / 1b</text>
+  <text x="348" y="238" font-size="9" fill="#1B3A6B">GRADE 2a / 2b</text>
+  <text x="384" y="312" font-size="9" fill="#3B82F6">GRADE 3</text>
+  <text x="384" y="384" font-size="9" fill="#64748B">GRADE 4–5</text>
+
+  <!-- Vertical arrow (quality indicator) -->
+  <defs>
+    <marker id="arrowUp" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,8 L4,0 L8,8" fill="none" stroke="#C8933A" stroke-width="1.5"/>
+    </marker>
+  </defs>
+  <line x1="22" y1="415" x2="22" y2="75" stroke="#C8933A" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowUp)"/>
+  <text x="14" y="255" text-anchor="middle" font-size="10" fill="#C8933A" font-weight="600" transform="rotate(-90, 14, 255)">Quality of Evidence</text>
+
+  <!-- Key facts box -->
+  <rect x="20" y="432" width="360" height="56" rx="6" fill="rgba(200,147,58,0.08)" stroke="#C8933A" stroke-width="1"/>
+  <text x="30" y="448" font-size="10" font-weight="700" fill="#7A5A1A">🔑 Surgical Oncology Context</text>
+  <text x="30" y="462" font-size="9" fill="#555">Most surgical evidence is Level 2–3 (cohort studies, registries)</text>
+  <text x="30" y="475" font-size="9" fill="#555">RCTs in surgery face unique challenges: standardisation, blinding, equipoise</text>
+  <text x="30" y="488" font-size="9" fill="#555">CLASSIC, COLOR II, COREAN trials changed laparoscopic colorectal practice</text>
+</svg>

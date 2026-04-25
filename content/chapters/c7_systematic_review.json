@@ -1,0 +1,751 @@
+{
+  "id": "C7",
+  "title": "Systematic Review & Meta-Analysis",
+  "subtitle": "Academic Surgery — PRISMA, Cochrane Methods, Advanced Synthesis & Living Reviews",
+  "block": "C",
+  "block_name": "Academic Surgery",
+  "level": "PGY3-4",
+  "reading_time_min": 65,
+  "guidelines_version": "PRISMA 2020 · Cochrane Handbook v6.3 2022 · GRADE 2013 · PROSPERO · NMA-CONSORT Extension",
+  "textbook_refs": [
+    "Higgins JPT et al. Cochrane Handbook for Systematic Reviews of Interventions. Version 6.3. 2022",
+    "Page MJ et al. PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021",
+    "Guyatt GH et al. GRADE: an emerging consensus on rating quality of evidence and strength of recommendations. BMJ 2008",
+    "Salanti G et al. Graphical methods and numerical summaries for presenting results from multiple-treatment meta-analysis. J Clin Epidemiol 2011",
+    "Tierney JF et al. Individual participant data (IPD) meta-analyses of randomised controlled trials: guidance on their use. PLOS Medicine 2015"
+  ],
+  "learning_objectives": [
+    "Apply PRISMA 2020 guidelines to design and report a systematic review",
+    "Construct a PICO-structured search strategy for a surgical systematic review",
+    "Interpret a forest plot: effect estimate, heterogeneity (I²), and confidence intervals",
+    "Apply the GRADE framework to rate the certainty of evidence",
+    "Identify and test for publication bias using funnel plots and Egger's test",
+    "Understand the principles and interpretation of network meta-analysis and SUCRA ranking",
+    "Distinguish individual patient data meta-analysis from aggregate data meta-analysis",
+    "Describe the Bayesian approach to meta-analysis and its advantages in surgical research",
+    "Understand living systematic reviews and their update cycle",
+    "Apply grey literature searching and contact-authors strategies to minimise publication bias"
+  ],
+  "sections": [
+    {
+      "id": "C7-S1",
+      "title": "Systematic Review Methodology",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "A systematic review applies a pre-specified, transparent, and reproducible methodology to identify, evaluate, and synthesise all available evidence relevant to a clearly defined research question. It is distinguished from a narrative review by its protocol pre-registration (PROSPERO), comprehensive and documented search strategy, explicit inclusion/exclusion criteria, systematic risk of bias assessment, and quantitative synthesis (meta-analysis) when appropriate. The PRISMA 2020 checklist (27 items) is the mandatory reporting standard — completion of the PRISMA checklist is required for submission to most high-impact surgical journals."
+        },
+        {
+          "type": "table",
+          "title": "PRISMA 2020 — Key Process Steps",
+          "headers": ["Stage", "Action", "Tool/Standard"],
+          "rows": [
+            ["Protocol registration", "Pre-register protocol before data extraction", "PROSPERO (prospero.york.ac.uk)"],
+            ["Search strategy", "PICO-structured; Boolean operators; MeSH + free text; date range", "Documented in appendix; PRESS checklist for peer review of search"],
+            ["Database search", "Minimum: MEDLINE, EMBASE, CENTRAL (Cochrane); consider WHO ICTRP for trials", "Exported to Rayyan or Covidence for deduplication"],
+            ["Study selection", "2 independent reviewers; title/abstract then full-text screening; PRISMA flow diagram", "Cohen's kappa for inter-rater agreement"],
+            ["Data extraction", "Pre-piloted extraction form; 2 reviewers independently", "RevMan, Excel, or SRDR"],
+            ["Risk of bias", "RCT: Cochrane RoB 2.0; Observational: ROBINS-I", "Traffic-light plots"],
+            ["Meta-analysis", "Random-effects model if I²>50%; fixed-effects if I²<25%", "RevMan, R (meta package)"],
+            ["Certainty of evidence", "GRADE: 4 levels (high/moderate/low/very low)", "GRADEpro GDT software"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Random Effects vs Fixed Effects Meta-Analysis",
+          "content": "**Fixed-effects meta-analysis** assumes all studies estimate the same true effect size — differences between studies are due to sampling error only. Appropriate when studies are near-identical in design, population, and intervention (rare in surgery). **Random-effects meta-analysis** assumes each study estimates its own true effect drawn from a distribution of true effects — the meta-analysis estimates the mean of this distribution. More appropriate for surgical meta-analyses where between-study heterogeneity exists. Random-effects models weight small studies more heavily than fixed-effects, which can amplify publication bias effects."
+        },
+        {
+          "type": "text",
+          "content": "**PROSPERO registration** is the pre-registration of systematic review protocols in the International Prospective Register of Systematic Reviews, maintained by the Centre for Reviews and Dissemination (University of York). PROSPERO registration must occur before data extraction begins (ideally before screening). Registration establishes: the research question, eligibility criteria, search strategy, outcome hierarchy, and analysis plan — preventing outcome switching and post-hoc protocol changes. PRISMA 2020 requires reporting the PROSPERO registration number. Most journals require PROSPERO registration for systematic reviews submitted after 2020. A PROSPERO record that does not match the published systematic review in its methods or outcomes is a red flag for reviewers and a potential grounds for rejection."
+        }
+      ]
+    },
+    {
+      "id": "C7-S2",
+      "title": "Search Strategy — Grey Literature and Contact Authors",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Publication bias — the preferential publication of positive (statistically significant) results — is the most serious threat to the validity of meta-analytic conclusions. Studies with negative results are less likely to be submitted, accepted, or published, and take longer to be published when they are. A systematic review that searches only published literature therefore systematically overestimates effect sizes. Grey literature searching is a mandatory component of comprehensive systematic searches, specifically to identify unpublished studies."
+        },
+        {
+          "type": "table",
+          "title": "Grey Literature Sources for Surgical Systematic Reviews",
+          "headers": ["Source", "Content", "Access Method", "PRISMA Item"],
+          "rows": [
+            ["ClinicalTrials.gov", "Registered trials including results; unpublished completed trials", "Direct search; NCT number extraction", "PRISMA item 6 — search of registers"],
+            ["WHO ICTRP", "International Clinical Trials Registry Platform — aggregates 17 national registries", "ictrp.who.int search", "PRISMA item 6"],
+            ["ISRCTN", "UK/European trial register; includes surgical RCTs", "isrctn.com direct search", "PRISMA item 6"],
+            ["OpenDOAR institutional repositories", "Theses, dissertations, institutional reports", "Search via DART Europe, EThOS", "PRISMA item 6"],
+            ["Conference proceedings", "ESSO, ASES, ESMO, SSO annual meeting abstracts — often 2–5 years before publication", "Society websites; Clinicalkey; PubMed abstracts", "PRISMA item 6"],
+            ["FDA/EMA approval documents", "Drug/device approval dossiers with trial data", "FDA.gov, EMA.europa.eu", "PRISMA item 6"],
+            ["Author contact", "Unpublished data from known trialists; ongoing trials near completion", "Email request with specific data request", "Documented in search methods"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "PICO vs PICo — Selecting the Correct Framework",
+          "content": "**PICO** (Population, Intervention, Comparison, Outcome) is the standard framework for systematic reviews of interventions and is appropriate for most surgical meta-analyses: 'In patients undergoing colorectal resection (P), does laparoscopic surgery (I) compared to open surgery (C) reduce anastomotic leak rate (O)?' **PICo** (Population, phenomenon of Interest, Context) is used for qualitative systematic reviews: 'Among patients who underwent CRS+HIPEC (P), what are the experiences of quality of life recovery (I) in the context of specialised peritoneal oncology centres (Co)?' PRISMA 2020 requires explicit statement of the review framework used. For surgical research, PICO is nearly always appropriate for quantitative synthesis; PICo for qualitative evidence synthesis."
+        },
+        {
+          "type": "text",
+          "content": "**Contacting authors** for unpublished data or for published data in an unusable format is an important component of reducing publication bias and maximising data utilisation. The Cochrane Handbook recommends contacting corresponding authors of: eligible studies that report insufficient data for meta-analysis; completed trials with no published results (identified via registries); and conference abstracts that may have subsequently been published in full. Response rates to author contact vary from 30–60% — lower response is expected for older studies and deceased investigators. PRISMA 2020 requires reporting of all author contact attempts and responses. **Citation chasing** (forward citation tracking of included studies using Web of Science, Scopus, or Google Scholar) and **snowball searching** (backward searching of reference lists from included studies) are complementary strategies that increase search comprehensiveness."
+        }
+      ]
+    },
+    {
+      "id": "C7-S3",
+      "title": "Interpreting the Forest Plot",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **forest plot** is the visual summary of a meta-analysis. Each horizontal line represents one included study — the central square is the point estimate (OR, RR, MD, or HR), and the width of the line is the 95% confidence interval. The square size is proportional to the study's weight in the analysis. The **diamond** at the bottom represents the pooled estimate — its centre is the summary effect, its width is the 95% CI. If the diamond does not cross the line of no effect (OR=1 for binary outcomes; MD=0 for continuous outcomes), the pooled result is statistically significant at p<0.05. **Heterogeneity** (I²): the proportion of total variability due to between-study differences rather than chance: I²<25% = low heterogeneity; 25–50% = moderate; 50–75% = substantial; >75% = considerable. High heterogeneity warrants subgroup analysis or meta-regression to identify the source."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Publication Bias",
+          "content": "Publication bias occurs because studies with positive (statistically significant) results are more likely to be published, submitted, or published faster than negative studies. This inflates the apparent effect size in a meta-analysis. Detection: **funnel plot asymmetry** (visually inspect for asymmetric distribution of study effect sizes; small studies should cluster at the bottom in a symmetric funnel); **Egger's test** (regression test for funnel plot asymmetry; p<0.10 suggests asymmetry). Correction: **trim and fill method** (imputes missing studies to achieve symmetry and recalculates pooled estimate). Prevention: search trial registries (WHO ICTRP, ClinicalTrials.gov) for unpublished studies; contact authors for unpublished data."
+        },
+        {
+          "type": "table",
+          "title": "Sensitivity Analyses in Meta-Analysis",
+          "headers": ["Type", "Purpose", "When to Use", "Interpretation"],
+          "rows": [
+            ["Leave-one-out", "Remove each study sequentially and re-estimate pool", "Always; particularly important for influential studies", "If removing one study substantially changes the pooled estimate or significance, that study is influential — investigate why"],
+            ["Risk of bias subgroup", "Analyse high vs low RoB studies separately", "When studies have heterogeneous risk of bias", "Higher quality (low RoB) studies should produce the most reliable estimate"],
+            ["Publication status", "Separate published vs unpublished data", "When grey literature is included", "Differences suggest publication bias"],
+            ["Follow-up duration", "Separate short-term vs long-term outcome data", "When outcomes vary by follow-up", "Short-term benefits may not persist — critical for oncological outcomes"],
+            ["Study design subgroup", "RCT vs observational separately", "When both study types are included", "Directional consistency between designs strengthens evidence; discordance suggests confounding in observational studies"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C7-S4",
+      "title": "GRADE Evidence Certainty",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "GRADE — Certainty of Evidence Levels",
+          "headers": ["Level", "Starting Point", "Upgraded by", "Downgraded by", "Meaning"],
+          "rows": [
+            ["High", "RCTs", "Large effect; dose-response; confounders would reduce effect", "Risk of bias; inconsistency; indirectness; imprecision; publication bias", "Very confident the true effect is close to the estimate"],
+            ["Moderate", "RCTs with limitations / upgraded observational", "—", "1 serious domain downgrade", "Moderately confident; true effect likely close but may be substantially different"],
+            ["Low", "Observational studies / RCTs with major limitations", "—", "2 serious domain downgrades", "Limited confidence; true effect may be substantially different"],
+            ["Very low", "Case series / downgraded lower evidence", "—", "3+ serious domain downgrades", "Very little confidence in the estimate; true effect is likely substantially different"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — GRADE in Surgical Guidelines",
+          "content": "GRADE is now required by major guideline bodies (NICE, WHO, ESMO, ASCO) when formulating recommendations. A high-certainty evidence level does not automatically translate into a strong recommendation — the recommendation strength also depends on: values and preferences, resource implications, feasibility, and equity considerations. Conversely, a very low certainty evidence base can still produce a strong recommendation if the intervention is the only feasible option or if harm of inaction is catastrophic. In surgical guidelines (e.g., ESMO 2023, EHS, WSES), most recommendations are based on low or very low certainty evidence — reinforcing the need for more and better-designed surgical trials."
+        }
+      ]
+    },
+    {
+      "id": "C7-S5",
+      "title": "Network Meta-Analysis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Network meta-analysis (NMA) is an extension of pairwise meta-analysis that allows simultaneous comparison of three or more interventions within a single coherent statistical framework, using both direct evidence (trials that directly compare two interventions) and indirect evidence (comparisons made through a common comparator). For example, if trials exist comparing A vs B and B vs C (but no direct A vs C trial), NMA can generate an indirect estimate of A vs C via the B-network — and if a direct A vs C trial also exists, NMA synthesises both into a mixed estimate. This is particularly valuable in surgical oncology where multiple procedures, routes, or techniques may each have been compared only against standard care but not directly against each other."
+        },
+        {
+          "type": "table",
+          "title": "Network Meta-Analysis — Core Assumptions",
+          "headers": ["Assumption", "Definition", "How to Assess", "Consequence if Violated"],
+          "rows": [
+            ["Transitivity", "Studies in the network are sufficiently similar in their patient populations, outcome definitions, and clinical context that indirect comparisons are valid", "Clinical assessment of study populations and interventions; statistical assessment via meta-regression", "Indirect estimates are biased; NMA conclusions may be misleading"],
+            ["Consistency", "Direct and indirect evidence for the same comparison agree (statistical agreement)", "Node-splitting (comparing direct vs indirect estimates); design-by-treatment interaction test", "Inconsistency indicates network heterogeneity or model misspecification"],
+            ["Homogeneity", "Studies within each pairwise comparison are sufficiently similar (standard meta-analysis assumption applied to each link)", "I² within each pairwise comparison", "High heterogeneity within any link reduces confidence in that link's estimate"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — SUCRA Ranking in NMA",
+          "content": "**SUCRA** (Surface Under the Cumulative Ranking Curve) is a probability-based ranking metric used in NMA to rank all interventions simultaneously. SUCRA ranges from 0 to 100%: a SUCRA of 100% indicates the treatment is most likely to be the best; 0% indicates it is most likely the worst. SUCRA is useful for presenting the totality of ranking evidence, but has important limitations: it does not account for the clinical magnitude of differences (a treatment ranked first by 1% may be clinically equivalent to the second-ranked treatment); ranking is highly sensitive to which comparators are included in the network; and SUCRA should never be the primary endpoint of an NMA — absolute effect estimates with credible intervals remain the primary result. The CINeMA framework (Confidence in Network Meta-Analysis) assesses the certainty of NMA evidence, analogous to GRADE for pairwise meta-analysis."
+        },
+        {
+          "type": "text",
+          "content": "NMA reporting follows the CONSORT extension for NMA and the PRISMA NMA extension. Key reporting elements: the network diagram (nodes = interventions; edges = direct comparisons; edge width proportional to number of trials; node size proportional to sample size); league tables (matrix showing all pairwise estimates); SUCRA ranking plots; assessment of consistency (node-splitting results); and sensitivity analyses by risk of bias and heterogeneity. Software: R (netmeta package, gemtc, bnma); Stata (network suite); ADDIS (Bayesian framework). NMA results are rated using CINeMA, which assesses within-study bias, reporting bias, indirectness, imprecision, heterogeneity, and incoherence."
+        }
+      ]
+    },
+    {
+      "id": "C7-S6",
+      "title": "Individual Patient Data Meta-Analysis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Individual Patient Data (IPD) meta-analysis obtains and re-analyses the original participant-level data from each included study, rather than using the published aggregate summary statistics (means, odds ratios, event rates). IPD is considered the gold standard of meta-analysis methodology because it provides: more precise covariate adjustment; ability to standardise outcome definitions and measurement across studies; investigation of treatment effect modification by individual patient characteristics (subgroup analyses that would be impossible with aggregate data); correction of errors in published aggregate data; and the ability to perform time-to-event analyses with exact follow-up times rather than summary statistics."
+        },
+        {
+          "type": "table",
+          "title": "IPD vs Aggregate Data Meta-Analysis — Comparison",
+          "headers": ["Feature", "Aggregate Data (AD)", "Individual Patient Data (IPD)"],
+          "rows": [
+            ["Data obtained", "Summary statistics from publications", "Patient-level dataset from trial investigators"],
+            ["Covariate adjustment", "Limited to what is published", "Full adjustment for all collected covariates"],
+            ["Subgroup analyses", "Ecological fallacy risk; limited by published subgroups", "Valid within-study subgroup analyses possible"],
+            ["Outcome standardisation", "Dependent on published definitions", "Can harmonise outcome definitions across studies"],
+            ["Time-to-event analysis", "Requires digitised Kaplan-Meier curves or published HRs", "Exact event times and censoring available"],
+            ["Resource requirements", "Weeks to months", "1–3 years; data sharing agreements; extensive cleaning"],
+            ["Examples in surgery", "Most published surgical meta-analyses", "NSABP B-06 IPD; SEER-Medicare IPD analyses; EORTC GITSG pooled analyses"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Application — IPD in Peritoneal Surgery",
+          "content": "The PSOGI (Peritoneal Surface Oncology Group International) has conducted IPD analyses pooling patient-level data from multiple international HIPEC centres to examine prognostic factors for overall survival after CRS+HIPEC for colorectal peritoneal metastases. These IPD analyses (Verwaal-derived datasets, Simkens, PSOGI collaborative) have been able to examine PCI thresholds, completeness of cytoreduction scores, and neoadjuvant chemotherapy effects with a precision impossible from published aggregate data alone. The PSOGI registry represents one of the most successful examples of collaborative IPD infrastructure in surgical oncology."
+        }
+      ]
+    },
+    {
+      "id": "C7-S7",
+      "title": "Bayesian Meta-Analysis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Bayesian meta-analysis provides an alternative statistical framework to the classical (frequentist) approach used in most published meta-analyses. In the Bayesian framework, results are expressed as posterior probability distributions rather than point estimates with confidence intervals. The Bayesian approach formally incorporates prior beliefs (prior distributions) about the parameter of interest, which are then updated by the data to produce the posterior distribution. This framework is conceptually aligned with how clinicians actually reason about evidence: 'Given what I knew before this meta-analysis, and given these new data, what is my updated belief about the treatment effect?'"
+        },
+        {
+          "type": "table",
+          "title": "Frequentist vs Bayesian Meta-Analysis — Key Differences",
+          "headers": ["Feature", "Frequentist", "Bayesian"],
+          "rows": [
+            ["Output", "Point estimate + 95% confidence interval", "Posterior distribution + 95% credible interval"],
+            ["Interpretation", "'If the study were repeated infinitely, 95% of CIs would contain the true value'", "'Given the data, there is 95% probability the true value lies in this interval'"],
+            ["Prior information", "Not formally incorporated", "Explicitly incorporated via prior distribution (informative or non-informative)"],
+            ["Probability statements", "Cannot make direct probability statements (p-value is not probability of H0 being true)", "Direct: 'Probability that treatment is better than control = 82%'"],
+            ["Heterogeneity estimation", "DerSimonian-Laird or REML", "Full posterior distribution for τ² (between-study variance)"],
+            ["Network meta-analysis", "Frequentist NMA (netmeta)", "Bayesian NMA (gemtc, MCMC) — often preferred for NMA"],
+            ["Software", "R (meta), Stata", "R (gemtc, bnma), JAGS, Stan, BUGS"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Bayesian NMA in Surgical Guidelines",
+          "content": "Bayesian NMA is the preferred approach for complex networks with many interventions and few direct comparisons, because it naturally handles sparse data through prior distributions and produces full probability distributions for all ranking parameters including SUCRA. NICE (UK) guidance on technology appraisal recommends Bayesian NMA when a network of interventions is being assessed for health technology appraisal. For surgical oncology, Bayesian NMA has been used to compare HIPEC drug regimens (oxaliplatin vs mitomycin-C vs bidirectional chemotherapy) across networks of non-comparative trials — generating indirect estimates that frequentist methods handle less naturally. The credible interval (Bayesian CI) has the intuitive interpretation that frequentist confidence intervals incorrectly get attributed: 'there is 95% probability that the true effect lies in this interval'."
+        }
+      ]
+    },
+    {
+      "id": "C7-S8",
+      "title": "Prospective Meta-Analysis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "A prospective meta-analysis (PMA) is one in which the decision to conduct a meta-analysis, the outcomes to be pooled, and the analysis plan are specified before the results of the individual studies are known. This is distinct from a standard (retrospective) meta-analysis, which synthesises already-published studies and is therefore vulnerable to the selective inclusion of studies with known positive results. PMAs are typically planned before or concurrent with the running of multiple trials on the same question, each of which individually may lack power to detect the primary outcome."
+        },
+        {
+          "type": "table",
+          "title": "Prospective vs Retrospective Meta-Analysis",
+          "headers": ["Feature", "Retrospective Meta-Analysis", "Prospective Meta-Analysis"],
+          "rows": [
+            ["Timing of analysis plan", "After results are known — results can influence meta-analysis design", "Before results are known — eliminates post-hoc bias"],
+            ["Data standardisation", "Uses published summary statistics (different definitions)", "Data collection harmonised prospectively across trials"],
+            ["Risk of publication bias", "High — searches post-publication", "Lower — all planned trials included regardless of result"],
+            ["Risk of outcome switching", "Present if outcomes changed between protocol and publication", "Eliminated — outcomes pre-specified before trial completion"],
+            ["Registration", "PROSPERO (after trials complete)", "PROSPERO before trial data collected"],
+            ["Power", "Derived from published data", "Pre-calculated prospectively; sample sizes coordinated"],
+            ["Examples", "Most systematic reviews", "CGARN (prostate cancer); PMA of HIPEC trials (emerging)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "Prospective Meta-Analysis Alliance (PMA Alliance) Framework",
+          "content": "The PMA Alliance (2001) established principles for prospective meta-analyses: (1) the PMA is planned and analysis protocol registered before individual trial results are available; (2) data are collected in a standardised format across trials; (3) analysis is conducted on IPD where possible; (4) results of individual trials are not known to the PMA coordinators before final analysis. This framework eliminates the retrospective analysis bias that affects traditional meta-analysis. In surgical oncology, the GASTRIC Group PMA of adjuvant chemotherapy after gastric cancer resection and the ACUITY PMA of aortic repair trials are leading examples."
+        }
+      ]
+    },
+    {
+      "id": "C7-S9",
+      "title": "Updating Systematic Reviews — Living Systematic Reviews",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "A living systematic review (LSR) is a systematic review that is continuously updated as new evidence becomes available, rather than being conducted at a single time point. In rapidly evolving fields — oncology treatment protocols, surgical technique innovation, novel device evaluation — the evidence base may change substantially within months of publication of a conventional systematic review. LSRs maintain a persistent, updated synthesis of the evidence, enabling clinical guidelines to incorporate the latest evidence without requiring the full systematic review process to be repeated from scratch."
+        },
+        {
+          "type": "table",
+          "title": "Living Systematic Review — Operational Framework",
+          "headers": ["Component", "Standard Systematic Review", "Living Systematic Review"],
+          "rows": [
+            ["Search frequency", "One-time (or occasional update)", "Continuous or at defined intervals (monthly, quarterly)"],
+            ["Update trigger", "Ad hoc; resource-dependent", "Predetermined surveillance search cadence or triggered by new RCT publication"],
+            ["Protocol", "Fixed at registration", "Evolving; documented amendments with rationale"],
+            ["Publication model", "Single paper", "Versioned online document (e.g., Cochrane Review) with version history"],
+            ["Resource requirements", "Finite; funded as discrete project", "Ongoing; requires sustained team and funding infrastructure"],
+            ["Registration", "PROSPERO one-time", "PROSPERO with LSR notation; updates registered"],
+            ["Examples", "Any conventional Cochrane review", "COVID-19 NMA (ISTH); WHO COVID-19 LSR; NIHR LSR programme"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Application — LSR in Surgical Oncology",
+          "content": "Living systematic reviews are emerging as a model for rapidly evolving surgical oncology evidence bases. The Peritoneal Surface Oncology Group International (PSOGI) has discussed LSR infrastructure for CRS+HIPEC evidence, where new RCTs (PRODIGE 7, COLOPEC 2, ongoing SPIRIDON and CAIRO 6) continuously update the evidence landscape. An LSR of CRS+HIPEC vs systemic chemotherapy would allow surgical oncology guidelines to update the pooled OS estimate and GRADE certainty rating within weeks of a new trial reporting, rather than waiting for a de novo systematic review cycle (2–3 years). The Cochrane Colorectal Cancer Group is a model for this approach in the colorectal field."
+        },
+        {
+          "type": "text",
+          "content": "LSR publication models include: (1) **Versioned PDF** — journal publishes updated versions with version numbers and amendment logs (BMJ Open, Cochrane); (2) **Dynamic online resource** — continuously updated web-based document with version tracking (WHO COVID-19 evidence platform); (3) **Journal-linked pre-registration** — protocol published with commitment to updates at defined intervals. The key challenge for LSRs in surgical research is sustained funding and team commitment — the initial publication attracts resources, but subsequent updates may be unfunded. The NMA surveillance model (monthly alert searches, quarterly update assessment, annual meta-analytic update if threshold number of new studies met) is an operationally feasible approach for surgical research groups."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your systematic review and meta-analysis knowledge with 20 clinical questions covering PRISMA, forest plots, GRADE, network meta-analysis, IPD, Bayesian methods, and living reviews.",
+    "questions": [
+      {
+        "id": "C7-Q1",
+        "stem": "A meta-analysis of 12 RCTs comparing laparoscopic to open colectomy for colon cancer shows a pooled OR for 30-day morbidity of 0.68 (95% CI 0.55–0.84, p=0.0003, I²=62%). Which statement best describes the correct interpretation?",
+        "options": {
+          "A": "Laparoscopic surgery is conclusively superior with no uncertainty — 95% CI does not include 1.0",
+          "B": "The substantial heterogeneity (I²=62%) means the pooled estimate is unreliable and should not be reported",
+          "C": "Laparoscopic surgery is associated with lower odds of 30-day morbidity, but substantial heterogeneity warrants investigation into its sources before clinical conclusions are drawn",
+          "D": "A fixed-effects model should be used instead because I²>50%"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The pooled OR of 0.68 (95% CI 0.55–0.84) indicates laparoscopic surgery is associated with 32% lower odds of 30-day morbidity, and this is statistically significant. However, I²=62% represents substantial heterogeneity — 62% of variability is between-study differences. This means individual studies may have very different true effects. The correct interpretation acknowledges the association while prompting subgroup analysis to explore heterogeneity sources.",
+          "wrong": {
+            "A": "Statistical significance does not mean 'no uncertainty' — substantial heterogeneity means the pooled estimate represents an average of diverse effects.",
+            "B": "Heterogeneity alone does not invalidate a meta-analysis or prevent reporting — it is expected in surgical meta-analyses.",
+            "D": "Fixed-effects models assume studies estimate one true common effect — high I² supports random-effects, not fixed-effects."
+          },
+          "guideline": "Cochrane Handbook v6.3 (2022), Chapter 10: I²>50% = substantial heterogeneity; random-effects model appropriate; subgroup analysis recommended",
+          "trial": "Bonjer HJ et al. COLOR II (Lancet Oncology 2013): heterogeneity in laparoscopic vs open TME meta-analyses driven by surgeon expertise and tumour location.",
+          "pearl": "I² does not measure the amount of heterogeneity — it measures the proportion of variability due to heterogeneity. A large I² always warrants investigation of sources via subgroup analysis and meta-regression."
+        }
+      },
+      {
+        "id": "C7-Q2",
+        "stem": "A surgical trainee is designing a systematic review of peritoneal lavage versus no lavage after perforated appendicectomy. During the screening phase, two independent reviewers disagree on 18/120 (15%) of full-text records. Which statistical measure and threshold should be applied to assess inter-rater agreement?",
+        "options": {
+          "A": "Pearson correlation coefficient; r>0.7 indicates acceptable agreement",
+          "B": "Cohen's kappa; κ>0.6 indicates substantial agreement",
+          "C": "Intraclass correlation coefficient (ICC); ICC>0.8 indicates acceptable agreement",
+          "D": "Percentage agreement; >85% agreement is sufficient"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Cohen's kappa (κ) is the appropriate statistic for inter-rater agreement in systematic review screening because it accounts for chance agreement — unlike percentage agreement, which inflates agreement estimates when the prevalence of one category is very high or very low. The Cochrane Handbook and PRISMA guidelines recommend reporting kappa for both title/abstract and full-text screening. Accepted thresholds: κ<0.2 = slight; 0.21–0.40 = fair; 0.41–0.60 = moderate; 0.61–0.80 = substantial (acceptable minimum for screening); >0.80 = almost perfect. A κ<0.6 at full-text screening should prompt reviewer calibration, discussion of the inclusion criteria, and potentially a third reviewer for arbitration.",
+          "wrong": {
+            "A": "Pearson correlation is used for continuous variables — not appropriate for categorical (include/exclude) screening decisions.",
+            "C": "ICC is appropriate for continuous measurements (e.g., outcome data extraction) — not for categorical screening decisions.",
+            "D": "Percentage agreement does not account for chance agreement and can be misleadingly high when prevalence of one outcome is extreme."
+          },
+          "guideline": "Cochrane Handbook v6.3, Section 4.6 — inter-rater agreement should be reported using Cohen's kappa; κ≥0.6 considered acceptable for study selection",
+          "trial": "McHugh ML. Interrater reliability: the kappa statistic. Biochemia Medica 2012 — widely cited reference for kappa interpretation thresholds.",
+          "pearl": "Report kappa for both screening stages: title/abstract (higher kappa expected — most clearly non-eligible studies are easily excluded) and full-text (lower kappa common — eligibility decisions are harder and more granular)."
+        }
+      },
+      {
+        "id": "C7-Q3",
+        "stem": "A systematic review team searches MEDLINE and EMBASE only, excluding grey literature, trial registries, and conference proceedings. A funnel plot of the 8 included RCTs shows clear asymmetry. What is the most likely explanation for the asymmetry and the most appropriate methodological response?",
+        "options": {
+          "A": "Asymmetry indicates between-study clinical heterogeneity — the correct response is subgroup analysis",
+          "B": "Asymmetry most likely reflects publication bias from the restricted search strategy — the correct response is to expand the search to include grey literature and trial registries, and apply the trim-and-fill method to estimate the adjusted pooled effect",
+          "C": "Asymmetry is expected in small meta-analyses and does not require a response",
+          "D": "Egger's test should be run; if p>0.10, asymmetry can be dismissed"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A restricted search (published databases only) combined with funnel plot asymmetry is the classic scenario for publication bias: negative or small-effect studies were not published and therefore not found. The appropriate response is two-fold: (1) methodologically — expand the search to include grey literature (trial registries, conference abstracts, institutional repositories, author contact) to identify unpublished studies; (2) statistically — apply the trim-and-fill method to estimate how many missing studies might exist and what the adjusted pooled effect would be. The trim-and-fill adjusted estimate represents the effect accounting for the hypothetically missing negative studies. This adjusted estimate is almost always smaller (closer to null) than the unadjusted estimate.",
+          "wrong": {
+            "A": "Funnel plot asymmetry is not a measure of clinical heterogeneity — I² and Cochran Q test address heterogeneity; funnel plot asymmetry specifically addresses small-study effects and publication bias.",
+            "C": "Funnel plot asymmetry in any meta-analysis requires investigation and reporting — even in small meta-analyses, it cannot be dismissed without analysis.",
+            "D": "Egger's test p>0.10 does not definitively rule out publication bias — it has low power in small meta-analyses; the search strategy deficiency is a more fundamental methodological concern."
+          },
+          "guideline": "PRISMA 2020 item 13 — grey literature searching required; Cochrane Handbook Chapter 13 — funnel plot asymmetry; trim-and-fill as sensitivity analysis",
+          "trial": "Egger M et al. Bias in meta-analysis detected by a simple graphical test. BMJ 1997 — foundational paper on funnel plot asymmetry and Egger's test.",
+          "pearl": "Funnel plot asymmetry has multiple causes beyond publication bias: small-study effects (genuine clinical differences in smaller vs larger studies); methodological heterogeneity (smaller studies may have different risk of bias); chance (in small meta-analyses <10 studies, tests are underpowered). Always interpret asymmetry in clinical context."
+        }
+      },
+      {
+        "id": "C7-Q4",
+        "stem": "A systematic review is registered on PROSPERO in March 2023 before data extraction. During the analysis phase (October 2023), the primary review team decides to change the primary outcome from 30-day mortality to 90-day mortality, as most included studies report 90-day data. Which action is required by PROSPERO and PRISMA 2020?",
+        "options": {
+          "A": "No action — the team is free to adapt the analysis to the available data",
+          "B": "The PROSPERO registration must be amended to reflect the outcome change, with the reason documented; the PRISMA checklist must report the deviation and rationale",
+          "C": "The review must be abandoned and reregistered with the correct outcome",
+          "D": "PROSPERO amendments are not permitted — the original registered outcome must be used regardless of data availability"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PROSPERO allows and indeed requires that protocol amendments be documented and dated. When a protocol change is made during the review process (before or during analysis), the PROSPERO record must be updated with: the nature of the change; the reason for the change; and the date of the change. This distinction is critical — protocol changes made AFTER seeing the results of individual studies are a form of outcome switching (p-hacking at the meta-analysis level), whereas a protocol change driven by data availability (most studies report 90-day rather than 30-day mortality) is a legitimate adaptation that must be documented transparently. PRISMA 2020 item 24 requires reporting any deviations from the registered protocol with reasons. Failure to document amendments is a reportable deviation.",
+          "wrong": {
+            "A": "Undocumented protocol changes are a form of outcome switching — transparency is required even for data-driven adaptations.",
+            "C": "Abandonment and re-registration would be wasteful and create duplicate registrations — amendment is the correct process.",
+            "D": "PROSPERO specifically provides an amendment facility for documented protocol changes — rigidity to the original protocol when data dictate adaptation would itself be a methodological error."
+          },
+          "guideline": "PRISMA 2020 item 24 — 'Describe any deviations from the registration or protocol, with reasons'; PROSPERO amendment process",
+          "trial": "Stewart L et al. Preferred reporting items for a systematic review and meta-analysis of individual participant data: the PRISMA-IPD statement. JAMA 2015.",
+          "pearl": "PROSPERO amendment rule: any change to the protocol BEFORE analysis of meta-analytic data is a legitimate documented amendment; any change AFTER seeing the pooled estimate is outcome switching — a form of misconduct. Document amendments with timestamps."
+        }
+      },
+      {
+        "id": "C7-Q5",
+        "stem": "A meta-analysis includes 5 RCTs of laparoscopic vs open oesophagectomy. Three of the 5 trials reported zero anastomotic leaks in the laparoscopic group. Standard log-odds ratio meta-analysis methods cannot be applied to studies with zero events. Which approach is most appropriate for these rare events?",
+        "options": {
+          "A": "Exclude studies with zero events — they contribute no information",
+          "B": "Apply a 0.5 continuity correction to all zero-event cells and proceed with standard meta-analysis",
+          "C": "Use the Peto odds ratio method, which is designed for rare binary outcomes and does not require a continuity correction",
+          "D": "Convert to risk differences — rare events can always be analysed as absolute risks"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The Peto odds ratio is specifically designed for meta-analysis of rare binary outcomes where one or both arms in some studies may have zero events. Unlike standard odds ratio methods, Peto OR: does not require a continuity correction (which introduces bias); uses expected event counts rather than observed counts; and performs well in simulation studies for rare events when relative treatment effects are small to moderate (OR 0.5–2.0) and event rates are <1%. The Cochrane Handbook explicitly recommends the Peto OR for rare events with balanced study arms and moderate effect sizes. For very rare events (<1% rate), relative risks, risk differences, or Bayesian methods may also be considered.",
+          "wrong": {
+            "A": "Excluding zero-event studies systematically removes data from trials that may have demonstrated important safety differences — this introduces selection bias into the meta-analysis.",
+            "B": "Adding 0.5 to all cells (standard continuity correction) introduces a known bias — the correction size is arbitrary and disproportionately influences sparse data; it is not the recommended approach for rare events.",
+            "D": "Risk difference meta-analysis is a valid alternative but requires more careful handling of heterogeneity in baseline risk; it is not universally superior to Peto OR for rare events."
+          },
+          "guideline": "Cochrane Handbook v6.3, Section 10.4.4 — 'The Peto one-step odds ratio method has been shown to have the best properties for sparse data (rare events)'",
+          "trial": "Bradburn MJ et al. Much ado about nothing: a comparison of the performance of meta-analytical methods with rare events. Stat Med 2007.",
+          "pearl": "Peto OR is specifically calibrated for: (1) rare events (<1% event rate); (2) balanced allocation (1:1 randomisation); (3) similar treatment effects across studies (no substantial heterogeneity). For unbalanced allocation or large effect sizes, Bayesian methods or rate difference analysis may be preferred."
+        }
+      },
+      {
+        "id": "C7-Q6",
+        "stem": "A network meta-analysis compares five surgical approaches for rectal cancer (open TME, laparoscopic TME, robotic TME, transanal TME, and hybrid TME). Node-splitting analysis reveals substantial inconsistency between the direct and indirect estimates for the laparoscopic vs open comparison. What is the appropriate interpretation and response?",
+        "options": {
+          "A": "Inconsistency confirms that laparoscopic TME is superior — direct evidence is more reliable than indirect",
+          "B": "Inconsistency indicates a violation of the consistency assumption — the NMA results for this comparison are unreliable and should be reported with explicit caveats; sources of inconsistency should be investigated through sensitivity analyses",
+          "C": "Inconsistency is expected in all NMAs and does not require specific reporting or investigation",
+          "D": "Node-splitting should be repeated with a fixed-effects model to resolve the inconsistency"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The consistency assumption in NMA states that direct and indirect evidence for the same comparison should produce compatible estimates. When node-splitting reveals that direct evidence (trials comparing laparoscopic vs open directly) gives a substantially different result from indirect evidence (derived through other nodes in the network, e.g., via robotic or transanal comparisons), this is 'inconsistency' — a violation of the consistency assumption. Possible causes: different patient populations in different types of trials; effect modification by co-interventions; publication bias in specific comparisons. The NMA estimate for this inconsistent comparison is unreliable and should be explicitly flagged. Investigators should: report the inconsistency transparently; investigate potential sources through network meta-regression; consider excluding the inconsistent comparison from the primary analysis and running it as a sensitivity analysis; or resort to pairwise meta-analysis for the inconsistent comparison.",
+          "wrong": {
+            "A": "Inconsistency does not indicate superiority — it indicates the direct and indirect evidence disagree, making both estimates uncertain.",
+            "C": "Inconsistency in NMA is not expected as routine — when detected, it requires investigation and reporting, as it fundamentally undermines the validity of indirect comparisons in the network.",
+            "D": "Changing to a fixed-effects model does not resolve inconsistency — it addresses heterogeneity within pairwise comparisons, not contradiction between direct and indirect evidence."
+          },
+          "guideline": "PRISMA NMA extension — consistency assessment required; node-splitting results should be reported; inconsistency should be investigated and reported with caveats",
+          "trial": "Salanti G et al. Indirect treatment comparison/network meta-analysis study questions, design and analysis. J Clin Epidemiol 2008.",
+          "pearl": "CINeMA (Confidence in NMA) rating system downgraded for incoherence (inconsistency) just as GRADE is downgraded for inconsistency in pairwise meta-analysis. Incoherent networks should not be used to make clinical recommendations without explicit acknowledgement of this limitation."
+        }
+      },
+      {
+        "id": "C7-Q7",
+        "stem": "A surgical meta-analysis team includes a conference abstract from ESSO 2022 reporting 90% R0 resection rate for PIPAC in peritoneal mesothelioma (n=32). The abstract has not been published as a full paper. The team is uncertain about whether to include it. What is the PRISMA 2020 guidance on inclusion of grey literature in systematic reviews?",
+        "options": {
+          "A": "Conference abstracts should never be included — only peer-reviewed full papers meet inclusion criteria",
+          "B": "Grey literature including conference abstracts should be searched and included if they meet the review's pre-specified eligibility criteria; their inclusion reduces publication bias",
+          "C": "Conference abstracts may be included but only if the full paper was subsequently published",
+          "D": "Grey literature must be excluded — it is not indexed in MEDLINE or EMBASE"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PRISMA 2020 explicitly requires searching grey literature including conference proceedings, trial registries, and unpublished data to minimise publication bias. Conference abstracts that meet the pre-specified eligibility criteria should be included — their exclusion would introduce systematic bias toward published positive results. The appropriate approach: include the abstract if it meets eligibility criteria; rate its risk of bias as typically high (incomplete reporting makes full assessment impossible); perform a sensitivity analysis excluding all grey literature to test whether inclusion of unpublished data substantially changes the pooled estimate. If the abstract substantially changes the estimate, the meta-analysis is vulnerable to publication bias if it were excluded.",
+          "wrong": {
+            "A": "Excluding all grey literature is a well-documented source of publication bias in systematic reviews — PRISMA 2020 explicitly requires grey literature searching precisely to avoid this.",
+            "C": "Restricting to abstracts with subsequent full publications defeats the purpose of grey literature inclusion — the unpublished abstract IS the grey literature.",
+            "D": "PRISMA 2020 requires searching sources beyond MEDLINE and EMBASE specifically because published databases are insufficient for minimising publication bias."
+          },
+          "guideline": "PRISMA 2020 item 6 — 'Specify all databases, registers, websites, and other sources searched'; grey literature searching is mandatory for comprehensive systematic reviews",
+          "trial": "Hopewell S et al. Grey literature in meta-analyses of randomized trials of health care interventions. Cochrane Database of Syst Rev 2007.",
+          "pearl": "Grey literature risk of bias: conference abstracts typically have high risk of bias due to incomplete reporting. Include them, but always run a sensitivity analysis excluding grey literature to test robustness of conclusions."
+        }
+      },
+      {
+        "id": "C7-Q8",
+        "stem": "A meta-analysis using RevMan 5 calculates a pooled HR for overall survival after CRS+HIPEC vs systemic chemotherapy of 0.52 (95% CI 0.41–0.65, I²=71%). The investigators wish to perform a leave-one-out sensitivity analysis. What is the purpose of this analysis and what result would concern the investigators most?",
+        "options": {
+          "A": "Leave-one-out tests for publication bias; a concerning result is p<0.10 in Egger's test after removal of one study",
+          "B": "Leave-one-out sequentially removes each study and recalculates the pooled estimate; a concerning result would be that removing a single study changes the pooled HR significantly or crosses the line of no effect",
+          "C": "Leave-one-out tests for clinical heterogeneity; a concerning result is I²>50% in all iterations",
+          "D": "Leave-one-out identifies the largest study; removing it should always reduce the I²"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Leave-one-out sensitivity analysis assesses the influence of individual studies on the pooled estimate by sequentially removing each study and recalculating the pooled effect. Its purpose is to identify whether any single study is disproportionately driving the overall result — an 'influential study'. The most concerning result would be that removing a single study changes the pooled HR from 0.52 to, for example, 0.78 (substantially attenuated) or crosses the line of no effect (HR=1.0). This would indicate the meta-analysis conclusion is fragile — heavily dependent on one study. Such a study requires investigation: is it the largest study? The most recent? Does it have a different population? The overall conclusion should be reported with explicit acknowledgement of this sensitivity.",
+          "wrong": {
+            "A": "Leave-one-out is not a publication bias test — Egger's test and funnel plot asymmetry address publication bias independently.",
+            "C": "Leave-one-out tracks the pooled estimate (HR and CI) across iterations, not I² — though I² changes can be reported as secondary information.",
+            "D": "Removing the largest study does not reliably reduce I² — heterogeneity is driven by between-study variance, not by study size alone."
+          },
+          "guideline": "Cochrane Handbook v6.3, Section 10.13 — sensitivity analyses: 'Leave-one-out meta-analysis is an important sensitivity analysis to assess the influence of individual studies'",
+          "trial": "Higgins JPT et al. Measuring inconsistency in meta-analyses. BMJ 2003 — foundational paper on I² and sensitivity analyses.",
+          "pearl": "Fragility index: a complementary metric to leave-one-out. The fragility index counts how many events would need to change to flip the significance of the pooled result (p<0.05 → p>0.05). A fragility index of 2 means changing just 2 events across all included studies reverses the conclusion — indicating a very fragile result."
+        }
+      },
+      {
+        "id": "C7-Q9",
+        "stem": "A forward citation search (citation chasing) for a 2018 landmark PRODIGE 7 RCT on HIPEC identifies 47 papers that cited the trial. The review team plans to screen these 47 citing papers for eligibility. What is the purpose of forward citation searching and when is it particularly important?",
+        "options": {
+          "A": "Forward citation searching identifies studies that are related in topic but may not have been captured by the electronic search due to differing terminology",
+          "B": "Forward citation searching is unnecessary if the electronic search was comprehensive",
+          "C": "Forward citation searching is used only for grey literature identification",
+          "D": "Forward citation searching should not be used — it introduces circular inclusion bias"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Forward citation searching (also called 'forward snowballing') identifies papers that have cited a known eligible study. This is important because: (1) newly published studies may use different terminology, outcome names, or MeSH headings than the search strategy — but consistently cite landmark papers like PRODIGE 7; (2) emerging subfields may not yet be fully indexed in the controlled vocabulary of MEDLINE/EMBASE; (3) forward citation also captures papers that comment on, reanalyse, or extend PRODIGE 7 data, which may themselves report extractable data. Forward citation searching is particularly valuable for: rapidly evolving fields (new publications weekly); fields with inconsistent terminology; and searches conducted >12 months before systematic review publication (the literature will have grown).",
+          "wrong": {
+            "A": "This is the correct answer — forward citation captures related studies using different terminology that electronic searches miss.",
+            "B": "Even comprehensive electronic searches miss relevant studies due to inconsistent indexing and evolving terminology — forward citation is complementary, not redundant.",
+            "C": "Forward citation captures published papers, not grey literature — trial registries and conference abstracts are the primary grey literature sources.",
+            "D": "Circular inclusion bias is not a recognised concern in forward citation searching — the risk is capturing irrelevant papers that merely cite the index paper, not bias in the included studies themselves."
+          },
+          "guideline": "PRISMA 2020 item 6 — 'Describe all methods used to search for, and retrieve, articles'; backward and forward citation searching are recommended supplementary strategies",
+          "trial": "Greenhalgh T, Peacock R. Effectiveness and efficiency of search methods in systematic reviews of complex evidence. BMJ 2005 — citation searching identified 30% of eligible studies missed by electronic search.",
+          "pearl": "Three complementary search strategies: (1) Electronic database search (MEDLINE, EMBASE, CENTRAL) — primary; (2) Backward citation (reference lists of included studies) — captures pre-indexing and older studies; (3) Forward citation (papers citing included studies) — captures recent and terminologically divergent studies. All three together maximise search comprehensiveness."
+        }
+      },
+      {
+        "id": "C7-Q10",
+        "stem": "A Bayesian network meta-analysis of 5 HIPEC regimens (oxaliplatin+5FU, mitomycin-C, bidirectional cisplatin+doxorubicin, melphalan, and PIPAC-oxaliplatin) generates SUCRA scores: oxaliplatin+5FU 82%; bidirectional 74%; mitomycin-C 58%; melphalan 41%; PIPAC-oxaliplatin 23%. Which statement best describes the appropriate interpretation of these SUCRA values?",
+        "options": {
+          "A": "Oxaliplatin+5FU is definitively superior and should be recommended as first-line HIPEC",
+          "B": "SUCRA scores rank the probability of each treatment being best, but must be interpreted alongside the absolute effect estimates and their credible intervals — high SUCRA with overlapping credible intervals does not establish clinically meaningful superiority",
+          "C": "PIPAC-oxaliplatin is definitively inferior and should be abandoned",
+          "D": "SUCRA values above 50% indicate statistically significant superiority over placebo"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "SUCRA ranks the probability that each intervention is the best option — oxaliplatin+5FU at SUCRA 82% has the highest probability of being best among the five. However, SUCRA does not indicate the magnitude of the advantage or whether it is clinically meaningful. If the posterior distributions for the efficacy of oxaliplatin+5FU and bidirectional regimens substantially overlap (credible interval overlap), the 8% SUCRA difference may not correspond to any meaningful clinical difference. SUCRA values should always be reported alongside the pairwise effect estimates and their 95% credible intervals — which provide the clinically actionable information. Additionally, comparisons between treatment-naïve HIPEC and PIPAC (which is used in the palliative, unresectable setting) would reflect indirectness rather than a true comparison.",
+          "wrong": {
+            "A": "SUCRA ranking does not equal clinical superiority — the magnitude and precision of the effect estimate must be considered before making clinical recommendations.",
+            "C": "PIPAC-oxaliplatin at SUCRA 23% is least likely to be best in this network, but this comparison is probably inappropriate — PIPAC is used in a different patient population (unresectable) than CRS+HIPEC regimens.",
+            "D": "SUCRA values have no direct relationship to statistical significance vs placebo — they rank treatments relative to each other within the network only."
+          },
+          "guideline": "Salanti G et al. Graphical methods and numerical summaries for presenting results from multiple-treatment meta-analysis. J Clin Epidemiol 2011 — SUCRA methodology",
+          "trial": "Chua TC et al. Systematic review of randomized and nonrandomized trials of HIPEC therapy. Ann Surg Oncol 2009.",
+          "pearl": "NMA reporting minimum set: league table of all pairwise estimates + credible intervals; network diagram; SUCRA plot; node-splitting consistency assessment; GRADE-CINeMA certainty for primary comparison. SUCRA alone is insufficient for clinical guideline recommendations."
+        }
+      },
+      {
+        "id": "C7-Q11",
+        "stem": "A systematic review team wishes to examine whether the effect of laparoscopic vs open colectomy on anastomotic leak differs by patient BMI (normal vs obese). The published aggregate data in the 10 included trials do not stratify results by BMI. What approach can be used to examine this effect modification?",
+        "options": {
+          "A": "Ecological meta-regression using the proportion of obese patients in each trial as a covariate",
+          "B": "Individual patient data meta-analysis — obtaining patient-level data allows genuine within-study BMI subgroup analysis",
+          "C": "Post-hoc subgroup analysis using the trial-level BMI means — this provides equivalent information to IPD",
+          "D": "Effect modification by BMI cannot be assessed in any meta-analysis if not pre-specified in original trials"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Effect modification (treatment effect heterogeneity) by patient-level characteristics (like BMI) can only be validly assessed using individual patient data (IPD) meta-analysis. Ecological meta-regression — using trial-level characteristics as covariates (e.g., proportion of obese patients per trial) — is subject to ecological fallacy: the relationship between BMI and treatment effect at the trial level may not reflect the relationship at the individual patient level. IPD allows genuine within-study subgroup analysis (comparing obese vs non-obese within each trial, then pooling these estimates), which is the valid approach for patient-level effect modification. This is one of the principal advantages of IPD over aggregate data meta-analysis.",
+          "wrong": {
+            "A": "Ecological meta-regression is prone to ecological fallacy — the association between BMI proportion and trial-level effect does not validly represent patient-level interaction. It can generate an hypothesis but cannot confirm effect modification.",
+            "C": "Trial-level BMI means do not capture the variance in BMI within each trial — the same mean BMI can coexist with very different distributions. This approach is methodologically equivalent to ecological meta-regression and has the same limitations.",
+            "D": "While pre-specification of subgroup analyses is important, IPD meta-analysis can legitimately investigate patient-level effect modifiers even if not pre-specified in individual trials, provided it is explicitly described as exploratory."
+          },
+          "guideline": "Cochrane Handbook v6.3, Section 10.11 — 'Subgroup analyses based on individual-level characteristics can only be validly performed using IPD'",
+          "trial": "Tierney JF et al. Individual participant data (IPD) meta-analyses of randomised controlled trials: guidance on their use. PLOS Medicine 2015.",
+          "pearl": "The ecological fallacy: 'Countries with higher fat intake have higher breast cancer rates' does NOT prove that individual women who eat more fat have higher breast cancer risk. Similarly, 'trials with higher mean BMI show less laparoscopic benefit' does NOT prove that obese individuals specifically benefit less — only IPD can demonstrate this."
+        }
+      },
+      {
+        "id": "C7-Q12",
+        "stem": "A meta-analysis team applies the GRADE framework to their pooled estimate of overall survival benefit after CRS+HIPEC vs systemic chemotherapy (based on 3 RCTs with high risk of bias, I²=68%, all conducted in European high-volume centres). What GRADE certainty level should they assign?",
+        "options": {
+          "A": "High — the studies are randomised controlled trials",
+          "B": "Moderate — one serious domain downgrade",
+          "C": "Low — two serious domain downgrades (risk of bias and inconsistency)",
+          "D": "Very low — three serious domain downgrades"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "GRADE starting certainty for RCTs is High. Downgrading factors are applied: (1) Risk of bias — the RCTs have high risk of bias (likely due to open-label surgical design, insufficient allocation concealment, or outcome assessment issues) → downgrade 1 level; (2) Inconsistency — I²=68% represents substantial heterogeneity → downgrade 1 level. Two serious domain downgrades from High give: High → Moderate → Low. Indirectness (all from European high-volume centres — potentially indirect for lower-volume settings) could be considered a third downgrade, but if the review team judges the population generalisable (e.g., for high-volume centres), indirectness may not be applied. The most defensible GRADE rating here is Low certainty — the true effect of CRS+HIPEC vs chemotherapy may be substantially different from the estimated effect.",
+          "wrong": {
+            "A": "RCT starting point is High, but multiple serious downgrade factors apply — the starting point is not the final GRADE rating.",
+            "B": "With two serious downgrade factors identified (RoB and inconsistency), the rating is Low, not Moderate (which results from one serious downgrade).",
+            "D": "Very Low would require three serious downgrade factors — risk of bias, inconsistency, and at least one additional (indirectness, imprecision, or publication bias). With two identified serious factors, Low is appropriate."
+          },
+          "guideline": "GRADE Handbook — five downgrade factors: risk of bias, inconsistency, indirectness, imprecision, publication bias; RCTs start at High; two serious downgrades = Low certainty",
+          "trial": "Guyatt GH et al. GRADE: an emerging consensus on rating quality of evidence and strength of recommendations. BMJ 2008.",
+          "pearl": "GRADE certainty ≠ GRADE recommendation strength. A Low certainty estimate can still produce a strong recommendation if: benefit magnitude is large despite uncertainty; harms are very low; patient values favour the treatment. Certainty and strength are determined independently."
+        }
+      },
+      {
+        "id": "C7-Q13",
+        "stem": "A systematic reviewer finds 3 trials that compare Approach A vs B, 4 trials comparing B vs C, but no trials directly comparing A vs C. The reviewer wishes to generate an A vs C estimate. Which meta-analytic method is specifically designed to provide this?",
+        "options": {
+          "A": "Cumulative meta-analysis — adding studies sequentially provides the A vs C estimate",
+          "B": "Network meta-analysis — indirect evidence through the common comparator B enables an A vs C estimate",
+          "C": "Random-effects meta-analysis — weighting by inverse variance produces the indirect estimate",
+          "D": "Bayesian meta-analysis — prior distributions encode the indirect comparison"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Network meta-analysis is specifically designed to generate indirect comparison estimates through a network of direct comparisons. When A vs B and B vs C direct trial evidence exists but no A vs C trial, NMA uses B as the 'network hub' to derive the indirect A vs C estimate: log(OR A vs C) ≈ log(OR A vs B) + log(OR B vs C). The validity of this estimate depends on the transitivity assumption — that the A vs B trials and B vs C trials are sufficiently similar in their patient populations, outcome definitions, and risk of bias that comparison through B is valid. NMA then synthesises the indirect estimate with any direct A vs C evidence (if it exists) into a mixed pooled estimate.",
+          "wrong": {
+            "A": "Cumulative meta-analysis adds studies chronologically to observe how the pooled estimate evolves over time — it does not generate indirect comparisons.",
+            "C": "Standard random-effects meta-analysis pools direct evidence from studies comparing the same interventions — it cannot generate indirect comparisons from different comparison pairs.",
+            "D": "Bayesian meta-analysis is a statistical framework, not a method specifically for indirect comparisons — NMA can be implemented in either frequentist or Bayesian frameworks, but Bayesian meta-analysis alone (without the network structure) does not generate indirect estimates."
+          },
+          "guideline": "Caldwell DM et al. Simultaneous comparison of multiple treatments: combining direct and indirect evidence. BMJ 2005 — foundational paper on indirect comparison methodology",
+          "trial": "Lu G, Ades AE. Combination of direct and indirect evidence in mixed treatment comparisons. Stat Med 2004.",
+          "pearl": "The indirect comparison formula: log(OR_AC) = log(OR_AB) + log(OR_BC). The variance of the indirect estimate: var(log OR_AC) = var(log OR_AB) + var(log OR_BC). This is why indirect estimates are always less precise than direct estimates from head-to-head trials."
+        }
+      },
+      {
+        "id": "C7-Q14",
+        "stem": "A narrative synthesis is reported in a systematic review that could not perform meta-analysis due to high clinical heterogeneity (I²=85%) across 6 studies. According to PRISMA 2020, what elements must a narrative synthesis include to be adequately reported?",
+        "options": {
+          "A": "A prose summary of each study's findings is sufficient",
+          "B": "Narrative synthesis must include: tabular summary of study characteristics and results; direction and magnitude of effects across studies; assessment of consistency of findings; identification of potential sources of heterogeneity",
+          "C": "Narrative synthesis is only valid if meta-analysis was attempted and failed due to software limitations",
+          "D": "Narrative synthesis must include a vote count of positive vs negative studies"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PRISMA 2020 item 21 (synthesis methods) requires that narrative synthesis is conducted and reported using structured methods when meta-analysis is inappropriate. The Synthesis Without Meta-Analysis (SWiM) guideline (Campbell et al., BMJ 2020) provides the minimum reporting standard: (1) tabular presentation of study characteristics and outcomes; (2) direction of effects (whether all studies favour the same treatment); (3) magnitude of effects (how large is the effect in each study, even without pooling); (4) assessment of consistency (are results broadly consistent or contradictory?); (5) likely sources of heterogeneity. A simple prose narrative without structure ('Study X showed a benefit; Study Y did not') is inadequate and does not meet PRISMA 2020 or SWiM standards.",
+          "wrong": {
+            "A": "Unstructured prose narrative is explicitly insufficient — PRISMA 2020 requires structured narrative synthesis meeting SWiM criteria.",
+            "C": "Narrative synthesis is a valid primary synthesis method when clinical heterogeneity precludes meta-analysis — it is not a fallback for technical failure.",
+            "D": "Vote counting (counting positive vs negative studies) is explicitly discouraged as a synthesis method — it ignores effect size and study quality."
+          },
+          "guideline": "PRISMA 2020 item 21 — narrative synthesis required when meta-analysis inappropriate; Campbell M et al. SWiM reporting guideline. BMJ 2020",
+          "trial": "Campbell M et al. Synthesis without meta-analysis (SWiM) in systematic reviews: reporting guideline. BMJ 2020.",
+          "pearl": "SWiM checklist minimum for narrative synthesis: (1) grouping of studies; (2) description of direction and magnitude; (3) vote count is NOT acceptable; (4) assessment of consistency; (5) sources of heterogeneity. Include a results table regardless of whether meta-analysis was performed."
+        }
+      },
+      {
+        "id": "C7-Q15",
+        "stem": "A systematic review uses R software to run a meta-analysis. The meta package output reports: Q=42.8 (df=9, p<0.001), I²=79% (95% CI 62–89%), τ²=0.18. Which element of this output is NOT correctly reported?",
+        "options": {
+          "A": "Cochran's Q with degrees of freedom and p-value",
+          "B": "I² with 95% confidence interval",
+          "C": "τ² (tau-squared) as a measure of between-study variance",
+          "D": "All elements are correctly reported — this is the complete heterogeneity report"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "All three elements — Q statistic, I², and τ² — are correctly reported and together constitute a comprehensive heterogeneity report according to Cochrane Handbook standards. Q = Cochran's Q test for heterogeneity (significant p-value suggests presence of between-study variability beyond chance); I² = proportion of variability due to heterogeneity (79% = considerable); I² with 95% CI is particularly important because I² alone is imprecisely estimated, especially in small meta-analyses; τ² = the estimated variance of the true effect sizes across studies (the between-study variance in the random-effects model). All four elements together (Q, I², 95%CI for I², τ²) are the complete reporting standard. This question tests recognition that all elements are correct.",
+          "wrong": {
+            "A": "Q statistic with degrees of freedom (number of studies minus 1) and p-value is correctly reported and is a required heterogeneity element.",
+            "B": "I² with 95% CI is correctly reported and particularly important — the 95%CI quantifies uncertainty in the I² estimate, which can be very wide in small meta-analyses.",
+            "C": "τ² (tau-squared) is correctly reported — it quantifies the magnitude of between-study variance in the random-effects model and complements I² (which measures proportion, not magnitude)."
+          },
+          "guideline": "Cochrane Handbook v6.3, Chapter 10 — complete heterogeneity report requires Q, I², and τ²; 95% CI for I² recommended",
+          "trial": "Higgins JPT, Thompson SG. Quantifying heterogeneity in a meta-analysis. Stat Med 2002 — foundational paper on I² calculation and interpretation.",
+          "pearl": "τ² vs I²: I² is scale-free (proportion 0–100%) — useful for comparison across meta-analyses; τ² is on the effect scale (e.g., variance of log OR) — needed for prediction intervals and power calculations. Report both. A prediction interval (PI) incorporates τ² to show the range in which 95% of future study true effects are expected to lie."
+        }
+      },
+      {
+        "id": "C7-Q16",
+        "stem": "A living systematic review (LSR) of HIPEC drug regimens has been running for 2 years with quarterly updates. A new RCT reports at a conference but the full paper is not yet available. The LSR team is considering whether to incorporate the conference data. What is the appropriate approach?",
+        "options": {
+          "A": "Include the conference data immediately in the next update — the LSR is designed for rapid evidence incorporation",
+          "B": "Wait for full peer-reviewed publication before incorporating any new data",
+          "C": "Include conference data as grey literature with explicit notation of its conference-abstract status and associated higher risk of bias; update again when full publication becomes available",
+          "D": "Contact the trial investigators to request the full dataset before the publication"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Living systematic reviews should balance timeliness (rapid evidence incorporation) with scientific rigour (quality assessment). Conference abstracts should be incorporated as grey literature — following the same evidence inclusion standard as any systematic review — with explicit notation that the data are from a conference abstract and therefore have high risk of bias due to incomplete reporting. The LSR team should: include the abstract data in the current update with transparent labelling; rate risk of bias as high (typical for abstracts); plan a protocol-specified update when the full paper publishes, at which point the abstract data will be replaced with full-publication data and risk of bias re-assessed. This approach maximises timeliness without misrepresenting the quality of evidence.",
+          "wrong": {
+            "A": "Including without explicit notation of the abstract status would misrepresent the data quality — readers need to know the source and associated limitations.",
+            "B": "Waiting for full publication defeats the advantage of the LSR model — a major RCT reporting at a top conference is high-priority evidence that should be reflected in the LSR quickly.",
+            "D": "Contacting investigators for pre-publication data raises ethical concerns and is unlikely to be practical — the appropriate approach is to use the conference abstract data with appropriate caveats."
+          },
+          "guideline": "Elliott JH et al. Living Systematic Reviews: an emerging opportunity to narrow the evidence-practice gap. PLOS Medicine 2014 — framework for LSR update processes",
+          "trial": "Thomas J et al. Living systematic reviews: 2. Combining human and machine effort. J Clin Epidemiol 2017.",
+          "pearl": "LSR update trigger options: (1) calendar-based (quarterly, semi-annual) — systematic but may miss between-update RCTs; (2) event-based (triggered when new RCT meets eligibility) — more responsive but resource-intensive; (3) combined — calendar search with immediate update triggered by major RCTs. Most operational LSRs use the combined model."
+        }
+      },
+      {
+        "id": "C7-Q17",
+        "stem": "A meta-analysis of 20 studies has a funnel plot that is asymmetric. Egger's test p=0.03. The trim-and-fill method imputes 4 additional studies and the adjusted pooled OR changes from 0.62 to 0.78 (95%CI crossing 1.0). How should this finding be interpreted and reported?",
+        "options": {
+          "A": "The adjusted estimate is the definitive result — the meta-analysis should report OR 0.78 as the primary finding",
+          "B": "The unadjusted estimate (OR 0.62) should be discarded as biased — only the trim-and-fill adjusted result is valid",
+          "C": "Both estimates should be reported: the primary analysis (unadjusted OR 0.62) and the sensitivity analysis (trim-and-fill adjusted OR 0.78); the difference indicates substantial publication bias that significantly inflates the primary estimate",
+          "D": "A change from OR 0.62 to 0.78 is clinically negligible — publication bias correction is not meaningful in this case"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Trim-and-fill is a sensitivity analysis for publication bias, not a correction method that replaces the primary estimate. The adjusted estimate is hypothetical — it assumes missing negative studies exist and estimates their likely effect, but the actual missing studies may not exist or may have different characteristics than assumed. Both estimates must be reported: the primary meta-analytic estimate (OR 0.62) is the actual observed data; the trim-and-fill estimate (OR 0.78, CI crossing 1.0) represents the adjusted estimate assuming the funnel plot asymmetry reflects publication bias. The critical clinical observation is: after publication bias adjustment, the pooled estimate is no longer statistically significant — indicating that the confidence in the unadjusted estimate is substantially reduced by publication bias concerns.",
+          "wrong": {
+            "A": "Trim-and-fill produces a hypothetical adjusted estimate — it cannot be treated as the definitive result because its assumptions (symmetric distribution of true effects) may not hold.",
+            "B": "The unadjusted estimate represents the observed data and should be reported as the primary result; trim-and-fill is a sensitivity analysis.",
+            "D": "A change from OR 0.62 to 0.78 with the CI crossing 1.0 (loss of statistical significance) is not clinically negligible — it fundamentally changes the interpretation of the evidence."
+          },
+          "guideline": "Cochrane Handbook v6.3, Section 13.3 — trim-and-fill as a sensitivity analysis for publication bias; results should inform certainty of evidence assessment",
+          "trial": "Duval S, Tweedie R. Trim and fill: a simple funnel-plot-based method of testing and adjusting for publication bias in meta-analysis. Biometrics 2000.",
+          "pearl": "When trim-and-fill adjustment eliminates statistical significance: GRADE certainty should be downgraded for publication bias; the clinical conclusion should be explicitly stated as 'uncertain due to likely publication bias'; future research should prioritise prospective registration and reporting of all relevant trials."
+        }
+      },
+      {
+        "id": "C7-Q18",
+        "stem": "A prospective meta-analysis of three ongoing HIPEC RCTs is being planned. Which element distinguishes a prospective meta-analysis from a standard retrospective systematic review?",
+        "options": {
+          "A": "A prospective meta-analysis must include IPD from each trial",
+          "B": "The analysis plan and eligibility criteria are established before the results of the individual trials are available, eliminating post-hoc outcome switching",
+          "C": "A prospective meta-analysis only includes trials not yet published at the time of registration",
+          "D": "Prospective meta-analyses are exempt from PRISMA reporting requirements"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The defining feature of a prospective meta-analysis is that the decision to pool, the eligibility criteria, the outcome hierarchy, and the statistical analysis plan are all established before the results of any of the included trials are known. This eliminates the most serious bias in retrospective meta-analysis: the ability of the meta-analyst to selectively include studies, choose outcomes, or select analytical approaches after seeing the results — a form of p-hacking at the synthesis level. In a prospective MA, all planned trials are included regardless of their result (positive or negative), eliminating publication bias at the meta-analytic level. Prospective MAs use PROSPERO registration with explicit prospective notation.",
+          "wrong": {
+            "A": "IPD is preferred for prospective MA but is not mandatory — prospective MA can use aggregate data from trials as they report, provided the protocol was established beforehand.",
+            "C": "Prospective MA typically includes both ongoing and recently completed (but unreported) trials — the key criterion is that results are not known at protocol registration, not that trials are unpublished.",
+            "D": "PRISMA applies to all systematic reviews including prospective meta-analyses — PRISMA NMA extension applies if multiple interventions are compared."
+          },
+          "guideline": "Tierney JF et al. Prospective meta-analysis: a pre-specified analysis protocol. Clin Trials 2015 — framework for PMA design",
+          "trial": "GASTRIC Group. Benefit of adjuvant chemotherapy for resectable gastric cancer: a meta-analysis. JAMA 2010 — landmark PMA example.",
+          "pearl": "PMA registration requirements: PROSPERO must be notified that this is a PMA (prospective meta-analysis) and the registration must occur before any included trial reports its results. This timestamped registration is the primary evidence that the analysis plan preceded knowledge of results."
+        }
+      },
+      {
+        "id": "C7-Q19",
+        "stem": "A meta-analysis of 8 studies is performed. The pooled OR is 0.71 (95% CI 0.54–0.93, p=0.012, I²=48%). The prediction interval is 0.31–1.62. Which statement correctly describes the additional information provided by the prediction interval?",
+        "options": {
+          "A": "The prediction interval is identical to the confidence interval — both indicate where the true effect lies",
+          "B": "The prediction interval shows the range within which the true effect of a single new study would be expected to lie — it is wider than the CI and incorporates between-study heterogeneity; the fact that it crosses 1.0 means in some future settings the intervention may not be beneficial",
+          "C": "The prediction interval being wider than the CI indicates a calculation error — they should be the same width",
+          "D": "A prediction interval crossing 1.0 means the meta-analysis result is not statistically significant"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The prediction interval (PI) extends beyond the confidence interval by incorporating the between-study variance (τ²) in addition to sampling error. It represents the range within which the true effect size in a single future study would be expected to lie with 95% probability. The CI (0.54–0.93) estimates the mean of the distribution of true effects and does not cross 1.0 (statistically significant). The PI (0.31–1.62) crosses 1.0 — meaning that while the average effect across all included settings favours the intervention, in some settings (with different patient populations, surgical volumes, or co-interventions), the true effect may be null or even harmful. This is the clinically critical interpretation: statistical significance in the pooled estimate does not guarantee benefit in every specific clinical setting. The PI is particularly important for surgical interventions where the volume-outcome relationship creates genuine between-setting heterogeneity.",
+          "wrong": {
+            "A": "CI and PI measure fundamentally different things — CI estimates the mean effect; PI estimates where individual study effects are distributed.",
+            "C": "The PI is always wider than the CI in the presence of heterogeneity (τ²>0) — a wider PI than CI is expected and correct, not an error.",
+            "D": "Statistical significance is determined by the CI, not the PI — the meta-analysis result is statistically significant (CI 0.54–0.93 does not cross 1.0). The PI crossing 1.0 indicates heterogeneity of effects across settings, not lack of significance."
+          },
+          "guideline": "Higgins JPT et al. A re-evaluation of random-effects meta-analysis. J R Stat Soc Ser A 2009 — prediction interval methodology",
+          "trial": "Riley RD et al. Interpretation of random effects meta-analyses. BMJ 2011 — argument that prediction intervals should be routinely reported.",
+          "pearl": "Every random-effects meta-analysis should report the prediction interval alongside the confidence interval. A statistically significant pooled estimate with a PI crossing the null means: 'on average, the intervention is beneficial, but in some settings it may not be.' This is the message that matters for clinical applicability."
+        }
+      },
+      {
+        "id": "C7-Q20",
+        "stem": "A systematic reviewer applies GRADE to an outcome estimated from a meta-analysis of 5 observational studies. The pooled estimate is a very large effect size (OR 5.2, 95% CI 3.1–8.7). Normally, observational studies start at Low certainty. Can GRADE certainty be upgraded in this situation?",
+        "options": {
+          "A": "No — observational studies can never be upgraded above Low certainty",
+          "B": "Yes — GRADE allows upgrading observational evidence for: large effect size (magnitude), dose-response relationship, or when all plausible confounders would reduce the effect; a large effect (OR>5) may upgrade by 1 or 2 levels",
+          "C": "Yes — observational studies are automatically upgraded to High certainty when the OR exceeds 5.0",
+          "D": "No — upgrading applies only to RCT evidence that has been downgraded"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "GRADE provides three criteria for upgrading evidence certainty in observational studies: (1) **Large effect** — OR≥2 may justify upgrading by 1 level; OR≥5 may justify upgrading by 2 levels, provided the effect is consistent across studies and not explained by bias; (2) **Dose-response gradient** — if a dose-response relationship exists (more exposure → more outcome), this supports a causal interpretation and may justify upgrading; (3) **Plausible confounding would reduce the effect** — if all plausible unmeasured confounders would reduce the observed effect (rather than amplify it), the observed large effect is more likely to represent a true effect. For OR 5.2 (95% CI 3.1–8.7) — a very large effect — upgrading by 1 level (Low → Moderate) may be appropriate if the effect is consistent, biologically plausible, and if sensitivity analyses confirm robustness. Upgrading to High is rarely justified for observational evidence alone.",
+          "wrong": {
+            "A": "GRADE explicitly provides upgrading criteria for observational evidence — the starting point is Low but upgrading is possible.",
+            "C": "OR>5 does not automatically trigger any specific GRADE upgrade — the large effect criterion requires qualitative assessment of consistency, plausibility, and absence of bias, not a mechanical threshold application.",
+            "D": "Upgrading is specifically described in GRADE for observational study evidence — it is not limited to downgraded RCTs."
+          },
+          "guideline": "GRADE Handbook — three upgrading factors: large effect, dose-response, plausible confounders; observational studies start at Low; upgrading requires explicit justification in the evidence profile",
+          "trial": "Guyatt G et al. GRADE guidelines 5: rating the quality of evidence — publication bias. J Clin Epidemiol 2011.",
+          "pearl": "Upgrading checklist: (1) Is OR≥2 or ≥5? → potentially upgrade 1 or 2 levels; (2) Is there a dose-response? → potentially upgrade 1 level; (3) Would all plausible unmeasured confounders reduce the effect? → potentially upgrade 1 level. Apply maximally 2 levels of upgrading; never upgrade above High certainty."
+        }
+      }
+    ]
+  }
+}

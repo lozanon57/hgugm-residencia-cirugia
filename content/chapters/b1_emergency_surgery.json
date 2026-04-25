@@ -1,0 +1,754 @@
+{
+  "id": "B1",
+  "title": "Emergency Surgery",
+  "subtitle": "General Surgery — Peritonitis, Obstruction & Acute Abdomen",
+  "block": "B",
+  "block_name": "General Surgery",
+  "level": "PGY1-2",
+  "reading_time_min": 90,
+  "guidelines_version": "WSES Jerusalem Guidelines 2022 · EAST Practice Management Guidelines · WSES Diverticulitis Guidelines 2020",
+  "textbook_refs": [
+    "Schwartz's Principles of Surgery, 11th ed., Ch. 23",
+    "Skandalakis' Surgical Anatomy, 3rd ed., Ch. 9",
+    "World Society of Emergency Surgery (WSES) Guidelines 2022",
+    "Gastrointestinal Surgical Emergencies, 2021"
+  ],
+  "learning_objectives": [
+    "Apply the WSES classification for acute appendicitis and complicated diverticulitis",
+    "Identify indications for emergency laparotomy vs laparoscopy in perforated peptic ulcer",
+    "Classify small bowel obstruction and determine operative vs non-operative management",
+    "Describe the operative management of sigmoid volvulus and colonic pseudo-obstruction",
+    "Apply damage control surgery principles in the haemodynamically unstable patient",
+    "Recognise and manage acute mesenteric ischaemia and lower GI bleeding",
+    "Outline perioperative optimisation of the emergency surgical patient"
+  ],
+  "sections": [
+    {
+      "id": "B1-S1",
+      "title": "Acute Appendicitis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Acute appendicitis is the most common cause of emergency surgery worldwide, with a lifetime risk of 7–8%. The diagnosis is clinical, supported by imaging (CT with IV contrast has sensitivity >95%, specificity >95% in adults). The Alvarado score (≥7 = high probability) and AAAS (Adult Appendicitis Score) stratify diagnostic probability and guide imaging decisions. CT is preferred in adults; ultrasound is first-line in children and pregnant women (to avoid radiation). The Alvarado score allocates points as follows: migration of pain to RIF (1), anorexia (1), nausea/vomiting (1), RIF tenderness (2), rebound tenderness (1), elevated temperature (1), leukocytosis (2) — maximum 10 points. A score ≥7 predicts appendicitis with high probability; 4–6 is equivocal and warrants CT; ≤3 is low risk. CRP adds independent diagnostic value, particularly when elevated >80 mg/L in combination with leukocytosis."
+        },
+        {
+          "type": "table",
+          "title": "WSES Classification — Acute Appendicitis",
+          "headers": ["Grade", "Pathology", "CT Findings", "Management"],
+          "rows": [
+            ["WSES I (uncomplicated)", "Acute non-perforated appendicitis", "Enlarged appendix, periappendiceal fat stranding, no perforation", "Laparoscopic appendicectomy (or antibiotics alone in selected pts)"],
+            ["WSES II (complicated)", "Perforated appendicitis, local peritonitis", "Perforation, localised free fluid, no abscess", "Emergency laparoscopic appendicectomy"],
+            ["WSES III (complicated)", "Periappendiceal abscess", "Walled-off collection >3cm", "Non-operative: IV antibiotics + CT-guided drainage; interval appendicectomy optional"],
+            ["WSES IV (complicated)", "Diffuse peritonitis", "Free intraperitoneal fluid and air, diffuse contamination", "Emergency surgery — laparoscopic or open; peritoneal toilet"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Antibiotic-First for Uncomplicated Appendicitis",
+          "content": "The DIAMOND (2021) and APPAC trials (2015) demonstrated that non-operative management with antibiotics alone is safe for uncomplicated acute appendicitis (WSES I) in selected adults. Success rate ~70% at 1 year; recurrence rate ~30% at 5 years; no appendiceal cancer missed if imaging is adequate. Patients must be counselled about 30% risk of recurrence requiring eventual appendicectomy. Offer as alternative to immediate surgery in WSES I without perforation or high clinical concern."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall",
+          "content": "Never delay surgery for imaging if the patient has peritonitis, haemodynamic instability, or septic shock — clinical diagnosis alone is sufficient for immediate theatre in this setting."
+        }
+      ]
+    },
+    {
+      "id": "B1-S2",
+      "title": "Perforated Peptic Ulcer",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Perforated peptic ulcer (PPU) carries 20–30% mortality in elderly and high-risk patients. Clinical diagnosis: sudden-onset severe epigastric pain, board-like rigidity, free air on erect CXR or CT. CT (sensitivity >95%) identifies perforation site, amount of free gas/fluid, and adjacent organ involvement. Initial resuscitation: IV access, crystalloid, NGT, urinary catheter, antibiotics, PPI. Boey score (1981) risk-stratifies operative mortality: shock on admission (SBP<90), serious medical illness, delayed presentation >24h — each adds 1 point; Boey 3 = >90% mortality. The surgical standard of care is omental patch repair (Graham patch) — either open or laparoscopic. H. pylori eradication is mandatory post-operatively; NSAIDs should be stopped and PPI started long-term. Definitive ulcer surgery (highly selective vagotomy) is rarely performed in the modern era given effective acid suppression."
+        },
+        {
+          "type": "table",
+          "title": "Operative vs Non-Operative Management — Perforated Peptic Ulcer",
+          "headers": ["Factor", "Favours Surgery", "Favours Non-operative (Taylor)"],
+          "rows": [
+            ["Clinical status", "Peritonitis, septic shock", "Stable; sealed perforation on CT"],
+            ["CT findings", "Large perforation, free fluid", "No free fluid; contained perforation"],
+            ["Duration", "Any (peritonitis)", "<24h from onset; no peritonitis"],
+            ["Age/comorbidity", "Any age with peritonitis", "High surgical risk; no peritonitis"],
+            ["Response to resuscitation", "Non-responder", "Rapid improvement with IV fluids/antibiotics"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Laparoscopic vs Open Repair",
+          "content": "Laparoscopic omental patch repair (Graham patch) is equivalent to open repair for PPU in stable patients — meta-analysis (Søreide, Br J Surg 2015): equivalent leak rate, shorter hospital stay. Key requirements: surgeon laparoscopic experience, adequate suturing capability, low estimated contamination. Convert to open if: dense adhesions, large perforation (>10mm), haemodynamic instability, or technically unsafe."
+        }
+      ]
+    },
+    {
+      "id": "B1-S3",
+      "title": "Small Bowel Obstruction",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Adhesive small bowel obstruction (ASBO) accounts for 75% of SBO in adults. Causes: adhesions (70%), hernias (10%), neoplasm (5%), Crohn's (3%), volvulus (2%). Diagnosis: clinical (colicky pain, nausea, vomiting, obstipation) + imaging (CT is preferred — identifies level, cause, and signs of strangulation: mesenteric oedema, free fluid, absent mucosal enhancement). Water-soluble contrast follow-through (Gastrografin challenge) has both diagnostic and therapeutic utility — passage to colon at 24h predicts non-operative resolution with 97% sensitivity. Non-operative management with NGT decompression, IV fluids, and nil by mouth succeeds in 70–80% of ASBO without strangulation. Failure criteria: no improvement at 48–72h, clinical deterioration, or signs of strangulation. A closed-loop obstruction (two points of obstruction creating a sealed segment) carries high risk of rapid ischaemia and demands emergency operation — CT typically shows a U-shaped or C-shaped bowel loop with mesenteric twist ('whirlpool sign')."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Signs of Strangulation — Operate Immediately",
+          "content": "CT signs mandating emergency surgery: absent mucosal enhancement (ischaemia), pneumatosis intestinalis, mesenteric vessel occlusion, closed-loop obstruction, portal venous gas. Clinical signs: persistent localised tenderness, fever, tachycardia unresponsive to resuscitation, rising lactate. Do not delay for serial imaging if strangulation is clinically suspected."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "EAST Guidelines — ASBO Management",
+          "content": "EAST 2013 guidelines: operative intervention required if (1) strangulation present or suspected, (2) complete obstruction without prior abdominal surgery (hernia or de novo cause likely), (3) failure of non-operative management at 3–5 days. Water-soluble contrast challenge is recommended when non-operative management is pursued — passage to colon within 24h has 97% sensitivity for predicting success."
+        }
+      ]
+    },
+    {
+      "id": "B1-S4",
+      "title": "Damage Control Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Damage control surgery (DCS) is the staged surgical approach for haemodynamically unstable patients (abdominal trauma, surgical emergency) who cannot tolerate definitive surgery. Phase 1 (Haemostasis and contamination control): pack bleeding, control gross contamination, temporary abdominal closure (TAC). Phase 2 (ICU resuscitation): correct the 'lethal triad' — hypothermia (<35°C), acidosis (pH<7.2), coagulopathy (INR>1.5). Phase 3 (Definitive surgery): re-laparotomy within 24–48h when physiology corrected; remove packs, restore anatomy, close abdomen. DCS has reduced mortality for damage control scenarios by 20–30% compared to primary definitive surgery in unstable patients. Temporary abdominal closure (TAC) techniques include the Bogota bag, ABThera negative pressure wound therapy (NPWT), and Wittmann patch. NPWT (Vacuum-assisted closure) is the preferred TAC method — it removes fluid, reduces oedema, and facilitates fascial closure. Primary fascial closure is achieved in >70% of patients managed with NPWT-based TAC when closed within 72–96h."
+        },
+        {
+          "type": "table",
+          "title": "Damage Control Surgery — Three Phases",
+          "headers": ["Phase", "Timing", "Goal", "Key Actions"],
+          "rows": [
+            ["Phase 1 — Abbreviated surgery", "Intraoperative", "Survival: stop bleeding, stop contamination", "Packing, vascular shunts, staple bowel, TAC, leave abdomen open"],
+            ["Phase 2 — ICU resuscitation", "Hours to days", "Correct lethal triad", "Correct hypothermia, acidosis, coagulopathy; massive transfusion protocol; vasopressors"],
+            ["Phase 3 — Definitive surgery", "24–48h after physiology corrected", "Restore anatomy", "Remove packs, bowel anastomosis, fascial closure, washout"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Negative Pressure Wound Therapy for Open Abdomen",
+          "content": "NPWT (ABThera system) is the gold standard for temporary abdominal closure after damage control laparotomy. It removes peritoneal exudate (up to 1L/day), prevents fascial retraction, and reduces risk of enteroatmospheric fistula compared to Bogota bag. Achieve primary fascial closure as early as physiology allows (ideally within 72–96h) — delay beyond 7–10 days dramatically reduces closure rate and increases fistula risk."
+        }
+      ]
+    },
+    {
+      "id": "B1-S5",
+      "title": "Acute Diverticulitis — WSES Classification & Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Acute colonic diverticulitis is the most common complication of diverticular disease, affecting 10–25% of patients with diverticulosis during their lifetime. The sigmoid colon is involved in 90% of cases. Diagnosis: CT with IV contrast is the imaging of choice (sensitivity 93–97%, specificity 100%) — demonstrates pericolic fat stranding, thickened bowel wall, and complications (abscess, perforation, fistula). CRP >150 mg/L correlates strongly with complicated disease. The WSES classification (2020) stratifies severity and guides management decisions. Uncomplicated diverticulitis (WSES Ia/Ib) can often be managed as an outpatient with oral antibiotics or, in selected immunocompetent patients, without antibiotics at all (AVOD trial, Chabok, Br J Surg 2012 — no antibiotic equivalent to antibiotics for mild uncomplicated diverticulitis). Complicated diverticulitis (WSES II–IV) requires hospitalisation, IV antibiotics, and may require drainage or surgery."
+        },
+        {
+          "type": "table",
+          "title": "WSES Classification — Acute Diverticulitis",
+          "headers": ["Grade", "Hinchey", "Description", "Management"],
+          "rows": [
+            ["WSES Ia (uncomplicated)", "0", "Mild clinical diverticulitis; CT: pericolic fat stranding only", "Outpatient; oral antibiotics or observation"],
+            ["WSES Ib (uncomplicated)", "0", "Moderate diverticulitis; CT: pericolic fat stranding + wall thickening", "Oral antibiotics; outpatient if tolerating PO"],
+            ["WSES II (complicated)", "Ia/Ib", "Pericolic/mesocolic abscess <4cm or >4cm", "IV antibiotics; CT-guided drainage if >4cm"],
+            ["WSES III (complicated)", "II", "Purulent peritonitis — perforated diverticulitis with generalised peritoneum", "Emergency surgery — laparoscopic lavage OR resection"],
+            ["WSES IV (complicated)", "III/IV", "Faecal peritonitis — free perforation", "Emergency surgery — Hartmann's procedure or primary anastomosis with loop ileostomy"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "Hartmann's Procedure vs Primary Anastomosis — WSES 2020",
+          "content": "For perforated diverticulitis (Hinchey III/IV), both Hartmann's procedure and primary anastomosis with loop ileostomy (PA+LI) are acceptable options. Meta-analyses and the LADIES trial (Vennix, Lancet 2019) show equivalent mortality but higher reversal rates with PA+LI (94% vs 57% for Hartmann's). PA+LI is preferred in haemodynamically stable, non-immunocompromised patients operated by experienced laparoscopic surgeons. Hartmann's remains appropriate for haemodynamically unstable patients, faecal contamination, or inexperienced surgeons."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "LADIES Trial",
+          "citation": "Vennix S et al. Lancet 2019",
+          "population": "Perforated diverticulitis Hinchey III/IV requiring emergency surgery",
+          "intervention": "Hartmann's procedure vs primary anastomosis with loop ileostomy",
+          "result": "No significant difference in 12-month mortality. Stoma reversal: 94% PA+LI vs 57% Hartmann's (p<0.001). More reoperations in PA+LI group",
+          "practice_change": "Primary anastomosis + loop ileostomy is preferred over Hartmann's in stable patients — higher reversal rate, comparable mortality"
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Elective Sigmoid Resection After Diverticulitis",
+          "content": "Elective sigmoid colectomy after uncomplicated diverticulitis is no longer routinely recommended after a single episode. WSES 2020 guidelines recommend individualised decision-making based on: patient age (<50 has higher recurrence risk), immunosuppression, persistence of symptoms, and patient preference. After complicated diverticulitis (abscess, fistula), elective resection is generally recommended 6–8 weeks after recovery to reduce risk of recurrence with complications."
+        }
+      ]
+    },
+    {
+      "id": "B1-S6",
+      "title": "Lower GI Bleeding — Diagnosis & Intervention",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Lower gastrointestinal bleeding (LGIB) is defined as bleeding distal to the ligament of Treitz. Common causes: diverticulosis (30–40%), anorectal causes (haemorrhoids, fissure — 15%), ischaemic colitis (10%), colitis (IBD, infectious — 10%), angiodysplasia/angioectasia (5–10%), neoplasm (5%). Haemodynamic stability determines the urgency of investigation. Initial assessment: haemodynamic resuscitation (IV access, type and screen, transfusion threshold Hb<7g/dL in stable patients), exclude upper GI source (NGT or upper endoscopy if haematemesis or haematochezia with haemodynamic instability — 15% of apparent LGIB is actually UGIB). CT angiography (CTA) is the diagnostic investigation of choice in active LGIB — sensitivity 85–90% for active bleeding (>0.3–0.5mL/min); identifies the bleeding vessel and guides selective mesenteric angiography. Colonoscopy is the definitive diagnostic and therapeutic tool for LGIB — should be performed after adequate bowel preparation within 24h of presentation in haemodynamically stable patients (urgent colonoscopy within 8–12h in high-risk patients per ESGE 2021). Endoscopic haemostasis (adrenaline injection, thermal contact, clips) achieves haemostasis in 85% of colonic causes."
+        },
+        {
+          "type": "table",
+          "title": "LGIB Management Algorithm",
+          "headers": ["Patient Status", "Initial Step", "Definitive Investigation", "Intervention"],
+          "rows": [
+            ["Haemodynamically stable, bleeding settled", "Resuscitate; outpatient if stable", "Elective colonoscopy within 24h", "Endoscopic haemostasis if source identified"],
+            ["Active bleeding, stable", "Resuscitate; IV access; transfuse if Hb<7", "CTA → colonoscopy OR angiography", "Endoscopic or angiographic embolisation"],
+            ["Active bleeding, unstable", "Massive resuscitation; consider ICU", "CTA → interventional radiology (embolisation)", "Superselective embolisation; surgery if failed"],
+            ["Refractory/recurrent, source unknown", "Multidisciplinary (IR + endoscopy + surgery)", "Tagged RBC scan; capsule endoscopy", "Surgery (segmental colectomy if localised; subtotal colectomy if diffuse)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Pitfall — Blind Subtotal Colectomy",
+          "content": "Empirical subtotal colectomy without source localisation carries 30-day mortality up to 30% and has a 40% risk of ongoing bleeding if the source is the small bowel or right colon misidentified. Always attempt to localise the bleeding source before surgery using CTA, tagged RBC scan, or colonoscopy. Reserve blind subtotal colectomy for life-threatening haemorrhage where all other modalities have failed or are unavailable."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Diverticular Bleeding",
+          "content": "Diverticular bleeding typically causes massive painless haematochezia in the elderly. It is RIGHT-sided in 50–60% despite the predominance of diverticulosis on the left. Bleeding stops spontaneously in 80% of episodes but recurs in 20–35%. After two episodes, elective resection of the involved segment should be considered after source confirmation with colonoscopy or tagged RBC scan."
+        }
+      ]
+    },
+    {
+      "id": "B1-S7",
+      "title": "Acute Mesenteric Ischaemia",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Acute mesenteric ischaemia (AMI) is a surgical emergency with overall mortality of 60–80% if not treated within hours. The superior mesenteric artery (SMA) supplies the small bowel from the duodenojejunal flexure to the mid-transverse colon. AMI has four aetiological subtypes: (1) SMA embolism — most common (50%), often cardioembolic (AF, recent MI, endocarditis); (2) SMA thrombosis — atherosclerotic, accounts for 15–25%, often on background of chronic mesenteric ischaemia ('intestinal angina'); (3) Non-occlusive mesenteric ischaemia (NOMI) — 20%, low-flow states (cardiogenic shock, sepsis, vasopressors), no mechanical occlusion; (4) Mesenteric venous thrombosis (MVT) — 5%, associated with hypercoagulable states (Factor V Leiden, PNH, malignancy), better prognosis. Classic presentation: acute onset severe periumbilical pain out of proportion to physical findings (early), progressing to peritonitis (late, implies transmural infarction). Lactate elevation is a late sign. CT angiography is diagnostic — identifies embolus/thrombus, extent of ischaemia, pneumatosis intestinalis, portal venous gas, and free air. Immediate management: IV heparin anticoagulation, IV broad-spectrum antibiotics, nasogastric tube, urinary catheter, vasopressor avoidance where possible."
+        },
+        {
+          "type": "table",
+          "title": "Acute Mesenteric Ischaemia — Aetiology and Management",
+          "headers": ["Aetiology", "Frequency", "CTA Finding", "Management"],
+          "rows": [
+            ["SMA embolism", "50%", "Filling defect in SMA (often at jejunal branches origin)", "Emergency embolectomy (open or endovascular) + bowel assessment + anticoagulation"],
+            ["SMA thrombosis", "25%", "Occlusion at SMA origin; atherosclerotic plaque", "Surgical or endovascular revascularisation; often extensive bowel loss"],
+            ["NOMI", "20%", "Normal vessels; reduced flow; intestinal oedema", "ICU optimisation; vasodilators (papaverine); avoid vasopressors; avoid surgery unless perforation"],
+            ["Mesenteric venous thrombosis", "5%", "Portal/mesenteric vein filling defect", "Anticoagulation; surgery only for peritonitis; better prognosis"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Second-Look Laparotomy in Mesenteric Ischaemia",
+          "content": "After revascularisation and bowel resection for AMI, a planned second-look laparotomy at 24–48h is mandatory to reassess bowel viability and identify additional necrotic segments. At first operation, preserve borderline viable bowel and leave stapled ends — do not anastomose until the bowel is clearly viable at re-look. This staged approach prevents anastomosis of ischaemic bowel and reduces the extent of unnecessary bowel resection."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Pain Out of Proportion",
+          "content": "Acute mesenteric ischaemia classically presents with pain out of proportion to examination findings — this mismatch (severe pain + soft abdomen early on) should prompt urgent CTA even when the examination is initially benign. By the time peritonitis develops, transmural necrosis is established and mortality approaches 80%."
+        }
+      ]
+    },
+    {
+      "id": "B1-S8",
+      "title": "Sigmoid Volvulus & Colonic Pseudo-obstruction",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Sigmoid volvulus accounts for 80% of colonic volvulus in Western countries (caecal volvulus 15%, transverse colon 5%). It is caused by axial rotation of the sigmoid colon on its mesentery, producing a closed-loop obstruction. Risk factors: chronic constipation, high-fibre diet, institutionalised patients, neuropsychiatric disease, African/Asian origin. Clinical features: progressive abdominal distension, obstipation, minimal pain initially (closed-loop obstruction — ischaemia occurs later). Plain AXR shows the classic 'coffee bean' sign (inverted U-shaped sigmoid loop pointing to the RUQ). CT confirms the 'whirlpool' sign at the mesenteric twist. Management ladder: (1) Flexible sigmoidoscopy/rigid proctoscopy with decompression tube — first-line if no peritonitis or CT evidence of ischaemia. Success rate 60–90% but recurrence 40–90%. (2) Emergency sigmoid colectomy — if ischaemia, perforation, peritonitis, or failed endoscopic decompression. After successful endoscopic decompression, elective sigmoid colectomy within the same admission reduces recurrence from 40–90% to <5%. Caecal volvulus cannot be decompressed endoscopically — requires emergency right hemicolectomy or caecostomy."
+        },
+        {
+          "type": "table",
+          "title": "Sigmoid Volvulus — Treatment Ladder",
+          "headers": ["Step", "Method", "Indication", "Success Rate"],
+          "rows": [
+            ["1st line", "Endoscopic decompression (flexible sigmoidoscopy + rectal tube)", "No peritonitis, no CT ischaemia", "60–90%"],
+            ["2nd line (same admission)", "Elective sigmoid colectomy with primary anastomosis", "After successful decompression", "Definitive; recurrence <5%"],
+            ["Emergency", "Hartmann's procedure or primary resection + anastomosis", "Peritonitis, ischaemia, perforation, failed decompression", "Required; Hartmann's preferred if contaminated"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Colonic pseudo-obstruction (Ogilvie syndrome) is a functional obstruction of the colon without a mechanical cause. It is associated with post-operative state, severe illness, electrolyte imbalance (hypokalaemia, hypomagnesaemia), opioid use, and neurological disease. The colon can dilate enormously (caecum >12cm carries high perforation risk). Management: correct electrolytes, stop opioids, mobilise patient, avoid antidiarrhoeal agents. Neostigmine (2mg IV) is the pharmacological treatment of choice — acetylcholinesterase inhibitor that stimulates colonic motor activity. Success rate 75–90% with single dose; repeat if needed. Contra-indications: bradycardia, bronchospasm, mechanical obstruction. Colonoscopic decompression if neostigmine fails. Surgery (caecostomy or colostomy) reserved for perforation or failed endoscopic decompression."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Neostigmine for Ogilvie Syndrome",
+          "content": "Neostigmine 2mg IV is 90% effective for Ogilvie syndrome. Administer with cardiac monitoring (risk of bradycardia) and atropine at bedside. Contraindicated in true mechanical obstruction — confirm with CT before giving. The caecal diameter threshold of 12cm on AXR or CT identifies patients requiring urgent intervention to prevent perforation."
+        }
+      ]
+    },
+    {
+      "id": "B1-S9",
+      "title": "Perioperative Management of the Emergency Patient",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Emergency surgery carries 5–10 times higher mortality than elective surgery for comparable procedures. Perioperative optimisation encompasses pre-operative resuscitation, anaesthetic risk assessment, operative strategy, and post-operative intensive care. The National Emergency Laparotomy Audit (NELA, UK) has demonstrated that processes of care — including senior surgeon and anaesthetist involvement, pre-operative CT, 30-day mortality risk estimation, and post-operative HDU/ICU admission — significantly reduce mortality. The POSSUM score (Physiological and Operative Severity Score for the Enumeration of Mortality and Morbidity) and P-POSSUM are validated for emergency laparotomy risk estimation. The American College of Surgeons NSQIP Surgical Risk Calculator and the Emergency Laparotomy Risk Score (ELRS) provide rapid bedside risk stratification. Pre-operative resuscitation principles: IV fluid administration to optimise preload (guided by lactate clearance and urinary output), blood transfusion to maintain Hb >7–8g/dL (higher threshold in cardiac disease), correction of coagulopathy (FFP, platelets, cryoprecipitate), electrolyte replacement, and warming. Source control is the fundamental principle in peritonitis — early antibiotic administration (within 1 hour of sepsis recognition per Surviving Sepsis Campaign) and surgical source control within 6 hours for peritonitis are associated with improved survival."
+        },
+        {
+          "type": "table",
+          "title": "Antibiotic Regimens for Surgical Infections",
+          "headers": ["Infection Type", "Setting", "First-line Regimen", "Alternative"],
+          "rows": [
+            ["Community-acquired intra-abdominal infection (mild-moderate)", "Non-ICU; no prior antibiotics", "Amoxicillin/clavulanate IV or ciprofloxacin + metronidazole", "Ertapenem (if penicillin allergy or ESBL risk)"],
+            ["Community-acquired intra-abdominal infection (severe/ICU)", "Septic shock; organ dysfunction", "Piperacillin/tazobactam or meropenem + antifungal cover", "Imipenem/cilastatin"],
+            ["Healthcare-associated/post-operative peritonitis", "Prior antibiotics; hospital flora", "Meropenem ± vancomycin (MRSA cover) ± anidulafungin (Candida)", "Consult microbiology"],
+            ["Cholangitis (Tokyo grade III)", "Biliary sepsis with organ failure", "Piperacillin/tazobactam or meropenem; biliary drainage within 24h", "Ciprofloxacin + metronidazole if mild"],
+            ["Necrotising fasciitis", "Skin/soft tissue emergency", "Meropenem + clindamycin (toxin inhibition) + vancomycin", "Piperacillin/tazobactam + clindamycin"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "NELA Quality Indicators — Emergency Laparotomy",
+          "content": "The National Emergency Laparotomy Audit (NELA) quality indicators associated with reduced mortality include: (1) CT scan performed before surgery, (2) risk assessment documented (NELA risk tool or POSSUM), (3) consultant surgeon and anaesthetist directly involved, (4) patient admitted to critical care post-operatively if predicted mortality >5%, (5) surgery commenced within 2 hours of decision for immediate cases. Hospitals meeting all NELA standards have 30-day mortality rates ~5% lower than those not meeting standards."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Source Control Timing in Peritonitis",
+          "content": "For patients with secondary peritonitis (perforation, anastomotic leak), operative source control within 6 hours of diagnosis is associated with significantly improved survival compared to delayed surgery. Every hour of delay beyond 6 hours is associated with a 1–2% increase in mortality per hour in septic shock. Pre-operative resuscitation should be concurrent with surgical preparation, not sequential — do not delay surgery for >30–60 minutes of resuscitation in unstable patients."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your emergency surgery knowledge.",
+    "questions": [
+      {
+        "id": "B1-Q1",
+        "stem": "A 34-year-old woman presents with 12 hours of right iliac fossa pain, fever 38.2°C, and rebound tenderness. Alvarado score is 8. CT confirms acute uncomplicated appendicitis (WSES Grade I). She is haemodynamically stable with no peritoneal signs of perforation. What management options should be discussed with the patient?",
+        "options": {
+          "A": "Emergency laparoscopic appendicectomy — antibiotics are not appropriate for confirmed appendicitis",
+          "B": "Both laparoscopic appendicectomy AND non-operative antibiotic management are valid options for WSES Grade I",
+          "C": "Non-operative management with IV antibiotics is the only appropriate option",
+          "D": "CT-guided drainage followed by interval appendicectomy at 6 weeks"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For uncomplicated appendicitis (WSES Grade I), both laparoscopic appendicectomy and non-operative antibiotic management (APPAC, DIAMOND, CODA trials) are validated options. The patient should be counselled about the 70% 1-year success rate with antibiotics and the 30% recurrence risk. Surgery offers definitive treatment with <1% recurrence. Shared decision-making should consider patient preference, social circumstances, and plan for follow-up.",
+          "wrong": {
+            "A": "Multiple RCTs have demonstrated antibiotic-first as a safe option for uncomplicated appendicitis. It is not accurate to say antibiotics are 'not appropriate'.",
+            "C": "Surgery remains a valid and definitive option — it should not be withheld. The evidence supports both approaches; neither is exclusive.",
+            "D": "CT-guided drainage is appropriate for WSES Grade III (periappendiceal abscess). This patient has uncomplicated appendicitis without abscess — drainage is not indicated."
+          },
+          "guideline": "WSES Jerusalem Guidelines 2022 — both surgical and non-operative management appropriate for WSES I uncomplicated appendicitis",
+          "trial": "APPAC trial (Salminen, JAMA 2015): antibiotics vs appendicectomy — 73% antibiotic success at 1 year; 27% required appendicectomy.",
+          "pearl": "Document the shared decision-making conversation when offering non-operative management. The patient must understand the 30% recurrence risk and commit to follow-up."
+        }
+      },
+      {
+        "id": "B1-Q2",
+        "stem": "A 67-year-old man presents with severe periumbilical pain, nausea, and vomiting for 3 hours. He has atrial fibrillation and is not anticoagulated. Examination reveals a soft abdomen with mild periumbilical tenderness. Lactate is 3.2 mmol/L. CT angiography shows a filling defect in the superior mesenteric artery at the level of the middle colic artery origin with reduced enhancement of jejunal loops. What is the most appropriate immediate management?",
+        "options": {
+          "A": "IV morphine and NGT decompression — await improvement",
+          "B": "Emergency colonoscopy to rule out colonic cause",
+          "C": "IV heparin anticoagulation and emergency surgical or endovascular revascularisation",
+          "D": "Vasopressor infusion and ICU admission"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This patient has acute SMA embolism (cardioembolic from uncontrolled AF) — the classic presentation of pain out of proportion to examination with elevated lactate and CTA showing filling defect. Immediate management requires IV heparin (to prevent propagation and embolism of the thrombus) AND urgent revascularisation — either open surgical SMA embolectomy or endovascular aspiration thrombectomy/thrombolysis. The window for bowel salvage is narrow (approximately 6 hours). After revascularisation, bowel viability is assessed intraoperatively and non-viable segments resected. A planned second-look laparotomy at 24–48h is mandatory.",
+          "wrong": {
+            "A": "Conservative management alone is inappropriate for proven SMA embolism with elevated lactate. Waiting will lead to transmural bowel infarction and death.",
+            "B": "Colonoscopy is used for LGIB, not for suspected SMA embolism. This patient has a small bowel/SMA pathology.",
+            "D": "Vasopressors worsen mesenteric ischaemia by causing splanchnic vasoconstriction — they should be avoided whenever possible in NOMI and are not the first-line treatment in SMA embolism."
+          },
+          "guideline": "WSES Guidelines on Acute Mesenteric Ischaemia 2020 — immediate anticoagulation + revascularisation (open or endovascular) for SMA embolism",
+          "trial": "Ryer EJ et al., J Vasc Surg 2012: endovascular-first strategy for AMI associated with comparable mortality and shorter hospital stay vs open revascularisation in selected patients.",
+          "pearl": "SMA embolism in AF patients: pain out of proportion + soft abdomen + elevated lactate = CTA immediately. Heparin and revascularisation without delay — every hour increases bowel loss."
+        }
+      },
+      {
+        "id": "B1-Q3",
+        "stem": "A 72-year-old woman presents with a 48-hour history of left iliac fossa pain, fever 38.8°C, and localised peritonism. CT shows pericolic fat stranding, sigmoid wall thickening, and a 5cm pericolic fluid collection. WBC 18,000. She is haemodynamically stable. What is the WSES classification and most appropriate management?",
+        "options": {
+          "A": "WSES Ia — outpatient oral antibiotics",
+          "B": "WSES II — IV antibiotics and CT-guided percutaneous drainage of the collection",
+          "C": "WSES III — emergency laparoscopy and sigmoid resection",
+          "D": "WSES IV — Hartmann's procedure"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has WSES Grade II complicated diverticulitis (Hinchey Ia/Ib) — a pericolic abscess >4cm. Management: hospitalisation, IV antibiotics (piperacillin/tazobactam or amoxicillin/clavulanate), and CT-guided percutaneous drainage of the abscess. Collections >4cm generally require drainage in addition to antibiotics, while smaller abscesses (<4cm) often resolve with antibiotics alone. After recovery (4–6 weeks), elective sigmoid colectomy should be discussed given the complicated presentation.",
+          "wrong": {
+            "A": "A 5cm abscess with systemic inflammatory response is not uncomplicated diverticulitis — outpatient management is inappropriate.",
+            "C": "WSES III is purulent peritonitis (Hinchey II) — this patient has a walled-off abscess, not generalised peritonitis. Emergency surgery is not required.",
+            "D": "WSES IV is faecal peritonitis — this patient has a localised abscess, not faecal contamination. Hartmann's is not indicated at this stage."
+          },
+          "guideline": "WSES Guidelines 2020 — WSES II (abscess >4cm): IV antibiotics + CT-guided drainage; elective resection after recovery recommended after complicated diverticulitis",
+          "trial": "AVOD trial (Chabok, Br J Surg 2012): antibiotics are not superior to observation for uncomplicated diverticulitis — but complicated diverticulitis requires IV antibiotics.",
+          "pearl": "WSES diverticulitis classification: WSES I = uncomplicated (pericolic fat stranding only); WSES II = abscess; WSES III = purulent peritonitis; WSES IV = faecal peritonitis. Abscess >4cm = drain it."
+        }
+      },
+      {
+        "id": "B1-Q4",
+        "stem": "A 55-year-old man undergoes emergency laparotomy for perforated sigmoid diverticulitis with faecal peritonitis (Hinchey IV). He is haemodynamically stable, not immunosuppressed, and the operating surgeon is experienced in laparoscopic colorectal surgery. The bowel is resected. Which of the following is the most appropriate completion of the operation?",
+        "options": {
+          "A": "Hartmann's procedure — always indicated in faecal peritonitis",
+          "B": "Primary anastomosis without a protective stoma — faecal contamination is acceptable if well washed out",
+          "C": "Primary anastomosis with a defunctioning loop ileostomy — preferred in stable, non-immunocompromised patients with experienced surgeon",
+          "D": "Colostomy only — resect later as a second stage"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The LADIES trial (Vennix, Lancet 2019) demonstrated that primary anastomosis with defunctioning loop ileostomy (PA+LI) is equivalent to Hartmann's procedure in mortality for perforated diverticulitis, but has significantly higher stoma reversal rates (94% vs 57%). In a haemodynamically stable, non-immunocompromised patient with an experienced colorectal surgeon, PA+LI is the preferred approach because it avoids the morbidity of a Hartmann's reversal (which itself carries 15–30% morbidity). Hartmann's remains preferred for haemodynamically unstable patients, those on immunosuppression, or when surgeon experience is insufficient.",
+          "wrong": {
+            "A": "Hartmann's is no longer always preferred for faecal peritonitis in stable patients — the LADIES trial supports PA+LI as equivalent in mortality with better stoma reversal rates.",
+            "B": "Primary anastomosis without a protective stoma in faecal peritonitis carries unacceptably high anastomotic leak rates. A defunctioning ileostomy is mandatory to protect the anastomosis.",
+            "D": "Three-stage procedures (colostomy only, then resection, then reversal) are now obsolete — they require three operations and have higher overall morbidity."
+          },
+          "guideline": "WSES Guidelines 2020 — primary anastomosis + loop ileostomy preferred over Hartmann's in stable, non-immunocompromised patients with experienced surgeon",
+          "trial": "LADIES trial (Vennix, Lancet 2019): no mortality difference; stoma reversal 94% PA+LI vs 57% Hartmann's (p<0.001).",
+          "pearl": "Remember the three factors that favour primary anastomosis in perforated diverticulitis: (1) haemodynamic stability, (2) no immunosuppression, (3) experienced laparoscopic colorectal surgeon. All three must be present."
+        }
+      },
+      {
+        "id": "B1-Q5",
+        "stem": "A 78-year-old man presents with sudden massive painless haematochezia and syncope. BP is 85/50, HR 120. He is resuscitated with IV fluids and 2 units pRBC. Nasogastric lavage is clear bile. What is the most appropriate next investigation?",
+        "options": {
+          "A": "Urgent upper GI endoscopy",
+          "B": "CT angiography of the abdomen and pelvis",
+          "C": "Urgent colonoscopy after rapid bowel preparation",
+          "D": "Tagged red blood cell scintigraphy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In haemodynamically compromised active LGIB with a clear NGT lavage (UGIB excluded), CT angiography is the most appropriate first investigation. CTA has sensitivity 85–90% for active bleeding at >0.3–0.5 mL/min, can be performed rapidly without bowel preparation, localises the bleeding source, and identifies the vascular anatomy to guide subsequent intervention (superselective mesenteric angiography and embolisation). In this unstable patient, colonoscopy requiring bowel preparation would be dangerous and delaying. CTA guides the interventional radiologist for direct embolisation.",
+          "wrong": {
+            "A": "Upper GI endoscopy is not the priority after clear NGT lavage — this is LGIB. UGIB has been adequately excluded.",
+            "C": "Colonoscopy after bowel prep takes 4–6 hours of preparation time — not appropriate in active haemodynamic compromise. Urgent colonoscopy without prep in an active bleed has poor visualisation.",
+            "D": "Tagged RBC scintigraphy is sensitive for slow bleeding (0.1 mL/min) and is useful for intermittent bleeding but is slow (imaging over 24h), does not allow intervention, and is not first-line in haemodynamically compromised active bleeding."
+          },
+          "guideline": "ESGE Guideline 2021 — CTA recommended as first-line investigation for acute LGIB with haemodynamic compromise; guides angioembolisation",
+          "trial": "Strate LL et al., Am J Gastroenterol 2015: CTA-guided angioembolisation achieves haemostasis in 70–90% of active LGIB, avoiding surgery in the majority.",
+          "pearl": "In active LGIB with haemodynamic instability: (1) resuscitate, (2) exclude UGIB (NGT/upper endoscopy), (3) CTA to localise. Do not delay for bowel prep — CTA first, then angioembolisation or endoscopy."
+        }
+      },
+      {
+        "id": "B1-Q6",
+        "stem": "A 62-year-old man with known diverticulosis presents with his third episode of significant haematochezia in 18 months. Each episode resolved spontaneously. Colonoscopy after his last episode showed diverticulosis predominantly in the right colon. He is currently asymptomatic and haemodynamically stable after resuscitation. What is the most appropriate recommendation?",
+        "options": {
+          "A": "Conservative management — recurrent diverticular bleeding always resolves spontaneously",
+          "B": "Long-term proton pump inhibitor therapy to reduce mucosal bleeding",
+          "C": "Elective right hemicolectomy after confirmed source localisation",
+          "D": "Aortic aneurysm screening — aortoenteric fistula must be excluded"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "After two or more episodes of significant diverticular bleeding, elective surgical resection of the involved segment is recommended to prevent life-threatening recurrent haemorrhage. Diverticular bleeding has a recurrence rate of 25–35% after one episode and 50%+ after two episodes. Localisation of the source (right colon in this case) has been confirmed by colonoscopy — elective right hemicolectomy is appropriate. Source confirmation is essential before surgery because right-sided diverticulosis is responsible for 50–60% of diverticular bleeds despite predominance of disease on the left.",
+          "wrong": {
+            "A": "While individual episodes often resolve, the recurrence risk after two episodes is >50% — conservative management is not appropriate for recurrent significant haemorrhage.",
+            "B": "PPIs have no role in diverticular bleeding — it is a lower GI source. PPIs are used for gastric/duodenal mucosal protection.",
+            "D": "Aortoenteric fistula should be considered in patients with aortic grafts, but this patient has known diverticulosis and three typical diverticular bleeding episodes — the diagnosis is already established."
+          },
+          "guideline": "ESGE 2021 — elective surgical resection recommended after two episodes of significant diverticular bleeding with confirmed source localisation",
+          "trial": "McGuire HH, Ann Surg 1994: recurrence rate after first diverticular bleed 25%; after second episode >50% — supports resection after second episode.",
+          "pearl": "Right-sided diverticular bleeding: remember that 50–60% of diverticular bleeds originate from the right colon despite left-sided predominance of diverticulosis. Always localise before operating."
+        }
+      },
+      {
+        "id": "B1-Q7",
+        "stem": "A 45-year-old woman presents with a 6-hour history of worsening abdominal pain and distension. She had a Roux-en-Y gastric bypass 4 years ago. CT shows a dilated loop of small bowel with a swirling mesenteric pattern and no mechanical cause for obstruction found at prior operations. Lactate is 2.1 mmol/L. What is the most appropriate management?",
+        "options": {
+          "A": "CT-guided drainage",
+          "B": "Gastrografin challenge and observation for 48 hours",
+          "C": "Emergency laparoscopy — internal hernia through mesenteric defect",
+          "D": "IV neostigmine — functional ileus likely post-bariatric"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A post-RYGB patient with colicky abdominal pain, mesenteric whirl sign on CT, and elevated lactate has an internal hernia until proven otherwise. Mesenteric defects created during RYGB (Peterson's space, mesocolic defect, jejunojejunostomy mesentery) allow herniation of bowel loops, creating a closed-loop obstruction that can progress to ischaemia within hours. Emergency laparoscopy is required — delay increases the risk of bowel infarction requiring extensive resection. At laparoscopy, the herniated loop is reduced and mesenteric defects are closed.",
+          "wrong": {
+            "A": "CT-guided drainage is for fluid collections/abscesses, not mechanical bowel obstruction from internal hernia.",
+            "B": "Gastrografin challenge is for adhesive SBO without strangulation signs. This patient has signs of compromised bowel (elevated lactate, mesenteric swirl) — operative delay risks bowel infarction.",
+            "D": "Neostigmine is for Ogilvie syndrome (colonic pseudo-obstruction), not internal hernia. The clinical picture is that of closed-loop mechanical obstruction."
+          },
+          "guideline": "ASMBS 2022 — post-RYGB patients with abdominal pain and CT whirl sign require emergency laparoscopy to exclude internal hernia",
+          "trial": "Higa KD et al., Obes Surg 2006: internal hernia after RYGB occurs in 2–5%; fatal in untreated strangulation — emergency laparoscopy is required.",
+          "pearl": "Post-RYGB + colicky pain + mesenteric swirl on CT + elevated lactate = emergency laparoscopy for internal hernia. Do not give Gastrografin challenge or observe — act immediately."
+        }
+      },
+      {
+        "id": "B1-Q8",
+        "stem": "An 84-year-old nursing home resident presents with abdominal distension and obstipation for 4 days. She is haemodynamically stable. Plain AXR shows a massively dilated sigmoid colon with a coffee bean appearance. CT confirms sigmoid volvulus with caecum measuring 10cm. There are no CT features of ischaemia or perforation. What is the most appropriate first-line management?",
+        "options": {
+          "A": "Emergency Hartmann's procedure",
+          "B": "Flexible sigmoidoscopy with decompression tube placement",
+          "C": "IV neostigmine 2mg",
+          "D": "Colonoscopy to the caecum"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For sigmoid volvulus without clinical or CT evidence of ischaemia or perforation, the first-line treatment is endoscopic decompression — flexible sigmoidoscopy with passage of a rectal decompression tube past the twist. Success rate is 60–90%. The tube remains in situ for 24–48h to prevent immediate recurrence. After successful decompression, elective sigmoid colectomy should be planned during the same admission to prevent recurrence (which occurs in 40–90% without definitive surgery). This patient is 84 years old but is haemodynamically stable — endoscopic decompression avoids the high operative mortality of emergency surgery in the elderly.",
+          "wrong": {
+            "A": "Emergency surgery (Hartmann's) is reserved for failed endoscopic decompression, ischaemia, or perforation. This patient has no signs of these — immediate surgery without attempting endoscopic decompression is inappropriate.",
+            "C": "Neostigmine is for Ogilvie syndrome (colonic pseudo-obstruction) — a different condition. It has no role in sigmoid volvulus, which is a mechanical torsion.",
+            "D": "Full colonoscopy to the caecum is not required or appropriate for sigmoid volvulus — decompression is achieved by passing the scope/tube past the twist at the sigmoid."
+          },
+          "guideline": "WSES Guidelines — sigmoid volvulus without ischaemia/perforation: endoscopic decompression first-line; followed by elective sigmoid colectomy during the same admission",
+          "trial": "Raveenthiran V, Colorectal Dis 2015: systematic review — endoscopic decompression success 60–90%; recurrence 40–90% without subsequent surgery.",
+          "pearl": "Coffee bean sign on AXR pointing to the RUQ = sigmoid volvulus. First-line = endoscopic decompression IF no ischaemia/perforation. Always plan elective sigmoid colectomy during the same admission after successful decompression."
+        }
+      },
+      {
+        "id": "B1-Q9",
+        "stem": "A 52-year-old man with a perforated peptic ulcer (anterior duodenal, 8mm) is brought to theatre 6 hours after onset of severe epigastric pain. He has a Boey score of 1 (delayed presentation >24h — actually 6h, no shock, no serious medical illness). At laparotomy, the contamination is moderate with bile-stained fluid. Which repair technique is most appropriate?",
+        "options": {
+          "A": "Primary closure without omentum — small defect",
+          "B": "Graham patch (omental patch repair) — standard of care for PPU",
+          "C": "Truncal vagotomy and pyloroplasty — definitive ulcer surgery",
+          "D": "Gastrectomy (Billroth II) — most reliable closure for duodenal ulcer"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Graham patch (omental patch repair) is the surgical standard for perforated peptic ulcer regardless of size — the omentum is mobilised and secured over the perforation with interrupted sutures, providing a biological seal that handles tissue oedema better than primary suture closure alone. Even for small perforations, omental reinforcement reduces the risk of suture line failure. The operation should be followed by H. pylori eradication and long-term PPI therapy. Laparoscopic Graham patch is equivalent to open repair in stable patients per multiple meta-analyses.",
+          "wrong": {
+            "A": "Primary closure without omental reinforcement has higher suture line leak rates due to the friable, oedematous duodenal tissue. Omental patch provides biological coverage and suture reinforcement.",
+            "C": "Truncal vagotomy and pyloroplasty (definitive ulcer surgery) is rarely performed today given effective medical therapy. It adds unnecessary operative time in the emergency setting and increases morbidity.",
+            "D": "Gastrectomy (Billroth II) for PPU is reserved for very large, irresectable perforations in experienced hands — it carries substantially higher mortality and morbidity than patch repair."
+          },
+          "guideline": "WSES Guidelines 2020 — Graham omental patch repair is standard of care for PPU; H. pylori eradication mandatory post-operatively",
+          "trial": "Søreide K et al., Br J Surg 2015 meta-analysis: laparoscopic vs open Graham patch — equivalent leak rate; shorter hospital stay with laparoscopy.",
+          "pearl": "Graham patch = omental patch + interrupted sutures over the perforation. Always culture the peritoneal fluid for H. pylori-directed therapy. Post-op: PPI + H. pylori eradication triple therapy."
+        }
+      },
+      {
+        "id": "B1-Q10",
+        "stem": "A 38-year-old man is brought to the emergency department after a road traffic accident. He is hypotensive (BP 80/50), tachycardic (HR 140), and has a distended abdomen. FAST ultrasound shows massive free fluid. At damage control laparotomy, multiple mesenteric injuries and a grade IV splenic laceration are found. After 60 minutes of surgery, he remains acidotic (pH 7.1), hypothermic (34°C), and coagulopathic (INR 2.1). What is the most appropriate next step?",
+        "options": {
+          "A": "Continue definitive repair — all injuries must be repaired before closing",
+          "B": "Splenectomy, bowel anastomosis, and abdominal closure — complete within 90 minutes",
+          "C": "Pack abdomen, staple bowel ends, temporary abdominal closure, transfer to ICU",
+          "D": "Start vasopressor infusion and complete bowel anastomosis"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This patient has the 'lethal triad' — hypothermia (34°C), acidosis (pH 7.1), and coagulopathy (INR 2.1) — the hallmark indicators for damage control surgery. Continuing with definitive repair is lethal: ongoing coagulopathy prevents haemostasis, acidosis impairs myocardial function, and hypothermia worsens all physiological parameters. The correct approach is: (1) haemostasis by packing, (2) gross contamination control by stapling bowel ends (not anastomosing), (3) temporary abdominal closure (ideally NPWT/ABThera), (4) ICU transfer for resuscitation to correct the lethal triad. Definitive repair is performed 24–48h later as Phase 3 DCS when physiology is corrected.",
+          "wrong": {
+            "A": "Attempting definitive repair in the presence of the lethal triad carries near-100% mortality — the surgery cannot be safely completed when haemostasis is impossible due to coagulopathy.",
+            "B": "Even 90 minutes more surgery is too long — the lethal triad must be corrected in ICU before definitive anatomy restoration. Anastomosis in a coagulopathic, acidotic patient will leak.",
+            "D": "Vasopressors worsen mesenteric ischaemia and are not a substitute for damage control. Completing anastomosis in current physiological state is unsafe."
+          },
+          "guideline": "EAST Guidelines on Damage Control Surgery — lethal triad (pH<7.2, temp<35°C, INR>1.5) = absolute indication for DCS; abort and transfer to ICU",
+          "trial": "Rotondo MF et al., J Trauma 1993 — original damage control concept: abbreviated surgery + ICU resuscitation + definitive repair reduced mortality from 92% to 58% in high-risk trauma patients.",
+          "pearl": "The lethal triad (hypothermia, acidosis, coagulopathy) = stop, pack, close, ICU. Memorise the thresholds: temp <35°C, pH <7.2, INR >1.5. DCS Phase 3 at 24–48h when physiology corrected."
+        }
+      },
+      {
+        "id": "B1-Q11",
+        "stem": "A post-operative day 5 patient following elective sigmoid colectomy develops fever, tachycardia, and left lower quadrant pain. CT scan shows an anastomotic dehiscence with a 6cm pelvic fluid collection but no free intraperitoneal air or diffuse peritonitis. The patient is haemodynamically stable. What is the most appropriate management?",
+        "options": {
+          "A": "Immediate return to theatre for Hartmann's procedure",
+          "B": "IV antibiotics only — small anastomotic leak often resolves conservatively",
+          "C": "CT-guided percutaneous drainage of the collection + IV antibiotics + defunctioning loop ileostomy consideration",
+          "D": "Oral antibiotics and discharge — this is a minor anastomotic leak"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A contained anastomotic leak (Clavien-Dindo Grade IIIa) with a pelvic collection in a haemodynamically stable patient can be managed with CT-guided percutaneous drainage + IV antibiotics. This avoids the high morbidity of emergency re-operation (Hartmann's). If the patient fails to improve with drainage (persistent sepsis, leak enlarging, fistula), operative intervention with Hartmann's or re-anastomosis + defunctioning ileostomy is required. A defunctioning loop ileostomy (if not already done) may be considered laparoscopically to divert faecal stream and facilitate healing. The International Study Group of Rectal Cancer (ISREC) classifies anastomotic leaks A (no active intervention), B (active but not reoperation), C (reoperation).",
+          "wrong": {
+            "A": "Immediate Hartmann's is reserved for diffuse peritonitis, haemodynamic instability, or failure of conservative/minimally invasive management. A contained collection should be drained first.",
+            "B": "IV antibiotics alone without drainage of a 6cm collection is insufficient — undrained infection will progress to septic shock.",
+            "D": "Oral antibiotics and discharge is completely inappropriate for an anastomotic leak with a 6cm collection and systemic inflammatory response — this would likely result in septic death."
+          },
+          "guideline": "ISREC classification — Grade B anastomotic leak: active intervention without reoperation (drainage, antibiotics, diversion) is appropriate for contained leaks in stable patients",
+          "trial": "Hyman N et al., Ann Surg 2007: contained anastomotic leaks managed with CT drainage and antibiotics have 70% success rate avoiding reoperation.",
+          "pearl": "Anastomotic leak classification: (A) asymptomatic/incidental, (B) symptomatic but not requiring reoperation, (C) requiring reoperation. Grade B = drain it; Grade C = operate. Always confirm haemodynamic stability before choosing drainage over surgery."
+        }
+      },
+      {
+        "id": "B1-Q12",
+        "stem": "A 65-year-old woman is 2 days post-open right hemicolectomy for caecal cancer. She develops fever (38.6°C), tachycardia, and reduced urine output. WBC 22,000, lactate 2.8 mmol/L. Chest X-ray is clear. CT shows no anastomotic leak or intra-abdominal collection. Wound inspection shows early signs of dehiscence at the lower end of the midline incision with turbid fluid. What is the diagnosis and treatment?",
+        "options": {
+          "A": "Superficial SSI — wound swab and oral antibiotics",
+          "B": "Necrotising fasciitis — urgent debridement under general anaesthesia",
+          "C": "Deep SSI with fascial involvement — CT and IV antibiotics",
+          "D": "Anastomotic leak — re-exploration"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Necrotising fasciitis (NF) is a surgical emergency — rapidly progressive infection of the superficial fascia with systemic sepsis. The LRINEC (Laboratory Risk Indicator for Necrotising Fasciitis) score combines CRP, WBC, haemoglobin, sodium, creatinine, and glucose — score ≥6 warrants operative exploration. This patient has systemic sepsis (fever, tachycardia, elevated lactate, leukocytosis) + wound dehiscence with turbid fluid — NF must be excluded immediately. Treatment: emergency debridement under GA, 'finger test' (absence of fascial resistance = NF confirmed), wide debridement of necrotic tissue, IV broad-spectrum antibiotics (meropenem + clindamycin + vancomycin), HDU/ICU. Second-look debridement in 24–48h.",
+          "wrong": {
+            "A": "Systemic sepsis with lactate 2.8 and wound changes is not a superficial SSI — the severity of the systemic response demands immediate operative evaluation.",
+            "C": "CT imaging should not delay theatre when necrotising fasciitis is clinically suspected — the diagnosis is clinical and operative. CT may miss fasciitis or delay life-saving debridement.",
+            "D": "CT has already excluded anastomotic leak and intra-abdominal pathology — the source of sepsis is the wound. Re-exploration of the abdomen is not the priority."
+          },
+          "guideline": "IDSA Guidelines on Skin and Soft Tissue Infections 2014 — suspected necrotising fasciitis requires immediate surgical exploration and debridement",
+          "trial": "Wong CH et al., J Am Coll Surg 2004: LRINEC score ≥6 has PPV 92% for necrotising fasciitis; immediate surgical exploration mandatory in high clinical suspicion regardless of score.",
+          "pearl": "LRINEC score ≥6 + systemic sepsis + wound changes = theatre immediately for necrotising fasciitis. Do not delay for imaging. The 'finger test' at the wound is diagnostic — if the fascia dissects without resistance, NF is confirmed. Mortality increases 5% for every hour delay."
+        }
+      },
+      {
+        "id": "B1-Q13",
+        "stem": "Which of the following is NOT a component of the Alvarado score for acute appendicitis?",
+        "options": {
+          "A": "Migration of pain to the right iliac fossa",
+          "B": "Rebound tenderness",
+          "C": "Elevated CRP (>80 mg/L)",
+          "D": "Leukocytosis"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "CRP is NOT part of the original Alvarado score (1986). The Alvarado score (MANTRELS mnemonic) includes: Migration of pain (1), Anorexia (1), Nausea/vomiting (1), Tenderness in RIF (2), Rebound tenderness (1), Elevated temperature (1), Leukocytosis (2) = maximum 10 points. CRP was incorporated into the modified Alvarado Score (MASS) and the Adult Appendicitis Score (AAS/AAAS) — a later refinement — but not the original Alvarado. Elevated CRP independently adds diagnostic value but is a separate variable.",
+          "wrong": {
+            "A": "Migration of pain to RIF is worth 1 point in the Alvarado score — it is a classic symptom of appendicitis as the pain shifts from periumbilical to the right iliac fossa.",
+            "B": "Rebound tenderness (Blumberg's sign) is worth 1 point in the Alvarado score.",
+            "D": "Leukocytosis is the highest-weighted component of the Alvarado score, worth 2 points."
+          },
+          "guideline": "Alvarado A, Ann Emerg Med 1986 — original MANTRELS scoring system: maximum 10 points; ≥7 = high probability; 4–6 = equivocal",
+          "trial": "Ohle R et al., BMC Emerg Med 2011 systematic review: Alvarado score sensitivity 96%, specificity 58% — good for ruling out; CT required for equivocal scores 4–6.",
+          "pearl": "Alvarado mnemonic: MANTRELS — Migration, Anorexia, Nausea/vomiting, Tenderness RIF, Rebound, Elevated temperature, Leukocytosis, Shift left (bands). Maximum 10. CRP is NOT included in the original score."
+        }
+      },
+      {
+        "id": "B1-Q14",
+        "stem": "A 58-year-old man with no prior abdominal surgery presents with a 5-day history of vomiting and absolute constipation. CT scan shows a complete small bowel obstruction with dilated loops to the terminal ileum and decompressed colon. No transition point is identified but there is a right-sided groin bulge. There are no CT signs of strangulation. What is the most appropriate management?",
+        "options": {
+          "A": "Gastrografin challenge — non-operative management standard for SBO",
+          "B": "Emergency surgery — complete SBO without prior abdominal surgery requires operative management",
+          "C": "Total parenteral nutrition and observation for 7 days",
+          "D": "CT-guided decompression of dilated loops"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Complete small bowel obstruction without prior abdominal surgery strongly suggests an external hernia or de novo mechanical cause rather than adhesions (no prior abdominal surgery = no adhesions). The right-sided groin bulge strongly points to an inguinal or femoral hernia. EAST and WSES guidelines recommend operative management for complete SBO without prior abdominal surgery because adhesions are not the likely cause, and the underlying cause (hernia, mass, Meckel's diverticulum) requires surgical correction. Gastrografin challenge is validated for adhesive SBO after prior surgery — not for this presentation.",
+          "wrong": {
+            "A": "Gastrografin challenge is appropriate for adhesive SBO (prior surgery). This patient has no prior abdominal surgery — adhesions are not the cause. A likely incarcerated hernia requires surgical exploration.",
+            "C": "TPN and 7-day observation is inappropriate for complete SBO with a groin hernia — this risks strangulation and bowel necrosis with each passing day.",
+            "D": "CT-guided decompression of dilated bowel loops is not a recognised treatment for mechanical SBO."
+          },
+          "guideline": "EAST Practice Management Guidelines for SBO 2013 — complete SBO without prior abdominal surgery is an indication for operative intervention",
+          "trial": "Mak SY et al., J Am Coll Surg 2020: SBO without prior surgery — incarcerated hernia most common cause; all require operative exploration.",
+          "pearl": "Gastrografin challenge is for adhesive SBO (prior surgery). For complete SBO without prior abdominal surgery, look for the cause (hernia, neoplasm, Crohn's) — operative management required. Always examine the groins."
+        }
+      },
+      {
+        "id": "B1-Q15",
+        "stem": "A 48-year-old woman develops fever, right upper quadrant pain, and jaundice 12 hours after laparoscopic cholecystectomy. BP is 90/60, HR 115. Laboratory results show WBC 20,000, bilirubin 85 μmol/L, ALP 450 IU/L, ALT 280 IU/L, CRP 320 mg/L. What is the most likely diagnosis and most appropriate management?",
+        "options": {
+          "A": "Post-operative atelectasis — physiotherapy and oxygen",
+          "B": "Bile duct injury with biliary leak — ERCP + biliary stent",
+          "C": "Acute cholangitis (Tokyo Grade III) — IV antibiotics, resuscitation, and urgent biliary drainage within 24 hours",
+          "D": "Hepatic artery thrombosis — CT angiography"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This patient has Charcot's triad (fever, RUQ pain, jaundice) with haemodynamic compromise — Tokyo Grade III acute cholangitis (organ dysfunction: hypotension). In the post-cholecystectomy context, this likely represents a retained common bile duct stone or a clip on the CBD causing obstruction with ascending infection. Tokyo Grade III cholangitis requires: (1) IV broad-spectrum antibiotics (piperacillin/tazobactam or meropenem), (2) aggressive resuscitation, (3) urgent biliary drainage within 24 hours by ERCP with sphincterotomy and stone extraction or stent placement, (4) ICU admission. Delay in drainage beyond 24h significantly increases mortality in Grade III cholangitis.",
+          "wrong": {
+            "A": "Post-operative atelectasis does not cause jaundice, elevated liver enzymes, or bilirubin. The LFT pattern (cholestatic + hepatitic) and clinical picture are diagnostic of cholangitis.",
+            "B": "ERCP + stent is the correct intervention but the question asks about the immediate management — IV antibiotics and resuscitation must be initiated simultaneously with arranging urgent ERCP. Calling it 'bile duct injury with leak' is incorrect — a leak presents with bile peritonitis, not cholangitis.",
+            "D": "Hepatic artery thrombosis is a complication of liver transplantation, not cholecystectomy. The clinical and biochemical picture is classic cholangitis."
+          },
+          "guideline": "Tokyo Guidelines 2018 — Grade III cholangitis: IV antibiotics + urgent biliary drainage within 24h; ICU admission for haemodynamic support",
+          "trial": "Kiriyama S et al., J Hepatobiliary Pancreat Sci 2018: Tokyo Grade III cholangitis mortality 7.4% with guideline-concordant drainage vs 18% with delayed drainage.",
+          "pearl": "Tokyo Grade III cholangitis = any of: hypotension, altered consciousness, or respiratory failure with acute cholangitis. Drainage within 24h is mandatory — do not delay for further imaging beyond the minimum necessary."
+        }
+      },
+      {
+        "id": "B1-Q16",
+        "stem": "A 70-year-old woman presents with intermittent colicky pain and bilious vomiting for 2 days. AXR shows small bowel obstruction with a large calcified density in the right iliac fossa. CT confirms pneumobilia and an ectopic gallstone (3.5cm) at the terminal ileum. No ischaemia is present. What is the diagnosis and operative approach?",
+        "options": {
+          "A": "Sigmoid volvulus — endoscopic decompression",
+          "B": "Gallstone ileus — enterolithotomy at the site of impaction",
+          "C": "Gallstone ileus — enterolithotomy + cholecystectomy + fistula repair (one-stage)",
+          "D": "Crohn's disease stricture — medical therapy with biological agents"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Gallstone ileus is caused by a large gallstone eroding through the gallbladder wall into the adjacent bowel (most commonly duodenum, forming a cholecystoduodenal fistula) and impacting in the terminal ileum (narrowest part of small bowel). The Rigler triad on CT: (1) pneumobilia, (2) ectopic gallstone, (3) small bowel obstruction. Management: emergency enterolithotomy at the point of impaction to relieve the obstruction. The one-stage procedure (enterolithotomy + cholecystectomy + fistula repair) adds significant operative time and mortality in elderly patients — it is reserved for young, fit patients with complications at the fistula site. The majority (60–70%) of patients are safely managed with enterolithotomy alone; cholecystectomy/fistula repair performed electively if needed.",
+          "wrong": {
+            "A": "Sigmoid volvulus presents with colonic obstruction and coffee-bean sign — not with pneumobilia and ectopic gallstone.",
+            "C": "One-stage repair (enterolithotomy + cholecystectomy + fistula repair) increases operative time and mortality in elderly patients. It is not routinely recommended — enterolithotomy alone is the first-line approach.",
+            "D": "Crohn's stricture is a chronic condition with a different CT appearance (wall thickening, mucosal changes) — not pneumobilia and ectopic calcified stone."
+          },
+          "guideline": "WSES/SIS Guidelines — gallstone ileus: enterolithotomy alone is first-line; cholecystectomy performed in a second stage if gallbladder symptoms persist",
+          "trial": "Reisner RM, Pearl Diver 1994: enterolithotomy alone vs one-stage repair — equivalent recurrence rate; one-stage has higher peri-operative mortality in elderly.",
+          "pearl": "Rigler triad (pneumobilia + ectopic gallstone + SBO) = gallstone ileus. Treatment: enterolithotomy at the point of impaction. Check for additional gallstones in the bowel (10–15% have multiple). Cholecystectomy deferred to elective setting."
+        }
+      },
+      {
+        "id": "B1-Q17",
+        "stem": "A 75-year-old woman develops worsening abdominal distension and obstipation 4 days after elective total hip replacement. She is on regular opioid analgesia. AXR shows a dilated caecum (diameter 13cm) and dilated transverse and descending colon with no transition point. CT confirms no mechanical obstruction and no evidence of ischaemia. What is the most appropriate first-line treatment?",
+        "options": {
+          "A": "Emergency caecostomy — caecal diameter >12cm requires surgery",
+          "B": "IV neostigmine 2mg with cardiac monitoring — treatment of choice for Ogilvie syndrome",
+          "C": "Urgent colonoscopy without bowel preparation",
+          "D": "IV metoclopramide and mobilisation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Colonic pseudo-obstruction (Ogilvie syndrome) is the diagnosis — functional colonic dilatation without mechanical obstruction in a post-operative patient on opioids. The caecum at 13cm exceeds the 12cm threshold associated with perforation risk, but IV neostigmine is the appropriate first-line pharmacological treatment. Neostigmine (2mg IV over 3–5 minutes) achieves decompression in 70–90% of patients with a single dose. Cardiac monitoring is mandatory (bradycardia risk). Atropine should be available. Response is typically seen within 10–30 minutes. If neostigmine is contraindicated (bradycardia, bronchospasm, recent MI) or fails, colonoscopic decompression is the next step. Surgery is reserved for perforation or failed endoscopic decompression.",
+          "wrong": {
+            "A": "Surgery (caecostomy) is not first-line for Ogilvie syndrome — neostigmine and colonoscopic decompression should be attempted first. Caecal diameter >12cm warrants urgent treatment but not immediate surgery.",
+            "C": "Colonoscopic decompression is second-line after failed neostigmine — it is not first-line, requires experienced endoscopist, and has higher complication rate than neostigmine.",
+            "D": "IV metoclopramide acts on the upper GI tract and gastric emptying — it has no role in colonic pseudo-obstruction."
+          },
+          "guideline": "ASGE and ACG Guidelines — Ogilvie syndrome: neostigmine 2mg IV is first-line pharmacological treatment; colonoscopic decompression if neostigmine fails or is contraindicated",
+          "trial": "Ponec RJ et al., NEJM 1999: neostigmine vs placebo for Ogilvie syndrome — 91% decompression with neostigmine vs 0% placebo (p<0.001).",
+          "pearl": "Ogilvie syndrome = massive colonic dilatation without obstruction in hospitalised patients. Neostigmine 2mg IV = 90% effective. Thresholds: caecum >12cm = urgent decompression; >14cm = very high perforation risk. Colonoscopy if neostigmine fails."
+        }
+      },
+      {
+        "id": "B1-Q18",
+        "stem": "A 66-year-old man with Boey score 2 (shock on admission + delayed presentation) undergoes emergency open repair of a perforated duodenal ulcer. Graham patch repair is performed. On day 3 post-operatively, he develops fever, worsening abdominal pain, and drainage of bile-tinged fluid from the surgical drain. CT confirms a small duodenal leak with a localised collection. He is haemodynamically stable on IV antibiotics. What is the most appropriate management?",
+        "options": {
+          "A": "Immediate re-operation — any duodenal leak requires surgical re-exploration",
+          "B": "Remove the surgical drain — it may be propagating the leak",
+          "C": "Continue IV antibiotics, maintain drain in situ, NPO, TPN, consider ERCP for distal decompression",
+          "D": "Oral antibiotics and restart diet — the patient is stable"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A contained post-operative duodenal leak (controlled fistula) in a haemodynamically stable patient is managed conservatively — this is a controlled duodenal fistula. Management pillars: (1) maintain the drain to control the leak and create a controlled fistula tract; (2) nil by mouth to reduce duodenal secretion; (3) TPN for nutritional support; (4) IV PPI (reduce gastric acid secretion); (5) IV octreotide (reduces pancreatic/intestinal secretions); (6) IV broad-spectrum antibiotics. ERCP with papillary stenting reduces the distal pressure gradient and promotes healing of the duodenal leak. Most controlled duodenal fistulae close within 4–6 weeks with conservative management. Re-operation is indicated for septic deterioration, free peritonitis, or failure to close at 6 weeks.",
+          "wrong": {
+            "A": "Re-operation for a contained duodenal leak carries very high morbidity — the friable duodenum is extremely difficult to re-repair in the post-operative setting. Conservative management is preferred for contained leaks in stable patients.",
+            "B": "Removing the drain would convert a controlled fistula to uncontrolled peritoneal contamination — the drain must remain in situ.",
+            "D": "Oral feeding will stimulate duodenal secretion and prevent fistula closure. Restarting diet in the presence of a leak is dangerous."
+          },
+          "guideline": "WSES Guidelines 2020 — controlled duodenal fistula after PPU repair: conservative management (NPO, TPN, octreotide, PPI, drain); ERCP for persistent high-output fistula",
+          "trial": "Søreide K et al., World J Gastroenterol 2009: controlled duodenal fistula after patch repair — 85% close within 4–6 weeks with conservative management.",
+          "pearl": "Post-PPU repair duodenal leak: if CONTAINED = controlled fistula management (drain in situ, NPO, TPN, PPI, octreotide). If UNCONTROLLED (free peritonitis) = re-operation. The drain converts a potentially lethal situation into a manageable controlled fistula — never remove it."
+        }
+      },
+      {
+        "id": "B1-Q19",
+        "stem": "A 55-year-old man presents with sudden severe abdominal pain, bloody diarrhoea, and hypotension after elective coronary artery bypass surgery 2 days ago. CT shows segmental thickening of the sigmoid colon with loss of enhancement and small amount of ascites. There is no pneumoperitoneum. Lactate is 4.5 mmol/L. What is the most likely diagnosis and treatment?",
+        "options": {
+          "A": "Ischaemic colitis — resuscitation + colonoscopy + antibiotics",
+          "B": "Clostridium difficile colitis — IV vancomycin + metronidazole",
+          "C": "Transmural colonic ischaemia with impending perforation — emergency sigmoid colectomy",
+          "D": "Diverticulitis with pericolic abscess — CT-guided drainage"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Post-cardiac surgery colonic ischaemia classically affects the sigmoid colon (watershed territory of inferior mesenteric artery and internal iliac). Findings of transmural ischaemia — absent mucosal enhancement on CT, bloody diarrhoea, elevated lactate (4.5 mmol/L), haemodynamic instability — indicate severe ischaemic colitis with imminent or early perforation. This is NOT mucosal ischaemia (which can be managed conservatively) but transmural ischaemia with full-thickness bowel necrosis. Emergency sigmoid colectomy (Hartmann's procedure in this haemodynamically compromised post-cardiac surgery patient) is required. Delay risks free perforation and faecal peritonitis with near 100% mortality in this context.",
+          "wrong": {
+            "A": "Mucosal ischaemic colitis (mild, transient) can be managed with resuscitation, antibiotics, and colonoscopy. However, absent mucosal enhancement on CT + haemodynamic instability + lactate 4.5 indicates transmural ischaemia — operative management is required.",
+            "B": "C. difficile colitis presents with watery diarrhoea and risk factors (antibiotics, proton pump inhibitors). The CT finding of absent mucosal enhancement and the haemodynamic picture favour ischaemia.",
+            "D": "The clinical picture is not diverticulitis — post-cardiac surgery, bloody diarrhoea, absent mucosal enhancement, and elevated lactate indicate ischaemia."
+          },
+          "guideline": "WSES Guidelines — transmural colonic ischaemia: emergency resection required; Hartmann's procedure preferred in unstable patients",
+          "trial": "Longo WE et al., Ann Surg 1992: post-cardiac surgery colon ischaemia — mortality 70% with conservative management vs 40% with early surgery for transmural disease.",
+          "pearl": "Post-cardiac surgery + bloody diarrhoea + absent mucosal enhancement on CT + elevated lactate = transmural colonic ischaemia = emergency operation. Do not attempt colonoscopy or conservative management when transmural ischaemia is suspected — it risks perforation on scope insertion."
+        }
+      },
+      {
+        "id": "B1-Q20",
+        "stem": "A 32-year-old woman, 28 weeks pregnant, presents with right-sided abdominal pain that started periumbilically and migrated to the right side over 12 hours. She has fever (38.4°C), nausea, and WBC 16,000. She has no prior abdominal surgery. The appendix is not visualised on ultrasound. What is the most appropriate next investigation and if appendicitis is confirmed, what is the most appropriate operation?",
+        "options": {
+          "A": "CT abdomen/pelvis — radiation outweighs MRI availability in pregnancy",
+          "B": "MRI abdomen (without gadolinium) — preferred in pregnancy; if appendicitis confirmed, laparoscopic appendicectomy",
+          "C": "Diagnostic laparoscopy immediately — imaging is not needed in pregnancy",
+          "D": "IV antibiotics and observation — surgical management of appendicitis in pregnancy is too risky"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In a pregnant patient with suspected appendicitis and non-diagnostic ultrasound, MRI without gadolinium is the imaging modality of choice — it avoids ionising radiation, has sensitivity 94% and specificity 97% for appendicitis in pregnancy, and can identify alternative diagnoses. CT is reserved for situations where MRI is not available or would cause dangerous delay (>6 hours). If appendicitis is confirmed, laparoscopic appendicectomy is the preferred surgical approach in pregnancy — SAGES 2011 guidelines confirm laparoscopy is safe in all trimesters with appropriate technique (Hasson open entry in 2nd/3rd trimester; low intraperitoneal pressure 10–12 mmHg; left lateral tilt). The risk of fetal loss from untreated appendicitis (15% risk of premature labour, 20–35% risk of foetal loss with perforation) far outweighs the surgical risk.",
+          "wrong": {
+            "A": "CT delivers ionising radiation to the fetus — while the absolute risk is low, MRI is preferred in pregnancy when available. CT should not be first-line when MRI is accessible.",
+            "C": "Diagnostic laparoscopy without imaging risks operating on a non-surgical diagnosis and misses alternative diagnoses (ovarian torsion, pyelonephritis) — imaging before theatre is preferred in non-emergency presentations.",
+            "D": "Non-operative management of confirmed appendicitis in pregnancy risks perforation, which is associated with 20–35% foetal loss rate. Surgery is indicated for confirmed appendicitis regardless of trimester."
+          },
+          "guideline": "SAGES 2011 Guidelines — laparoscopy safe in all trimesters; MRI preferred over CT in pregnancy for appendicitis diagnosis",
+          "trial": "Freeland M et al., Am J Surg 2009: MRI in pregnancy for suspected appendicitis — sensitivity 94%, specificity 97%; changed management in 50% of cases.",
+          "pearl": "Pregnant patient + suspected appendicitis + non-diagnostic US = MRI (no gadolinium). If confirmed = laparoscopic appendicectomy regardless of trimester. Untreated perforation: 20–35% foetal mortality — operating risk is always lower than the risk of untreated perforated appendicitis in pregnancy."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,742 @@
+{
+  "id": "C2",
+  "title": "Study Design",
+  "subtitle": "Academic Surgery — RCTs, Cohort Studies & Advanced Surgical Trial Methodology",
+  "block": "C",
+  "block_name": "Academic Surgery",
+  "level": "PGY2-4",
+  "reading_time_min": 60,
+  "guidelines_version": "CONSORT 2010 · STROBE 2007 · IDEAL Collaboration 2016 · ICH E9(R1) Estimand Framework",
+  "textbook_refs": [
+    "Hulley SB et al. Designing Clinical Research, 4th ed.",
+    "CONSORT Group. CONSORT 2010 Statement: updated guidelines for reporting parallel group randomised trials",
+    "McCulloch P et al. No surgical innovation without evaluation: the IDEAL recommendations. Lancet 2009",
+    "Bhatt DL et al. Adaptive designs for clinical trials. NEJM 2016",
+    "Creswell JW & Plano Clark VL. Designing and Conducting Mixed Methods Research, 3rd ed."
+  ],
+  "learning_objectives": [
+    "Classify study designs by hierarchy and identify their appropriate clinical questions",
+    "Apply CONSORT 2010 criteria to critically evaluate a randomised controlled trial",
+    "Describe the unique methodological challenges of surgical RCTs",
+    "Define the IDEAL framework for evaluating surgical innovation",
+    "Identify sources of bias in observational surgical research and appropriate mitigation strategies",
+    "Distinguish crossover, factorial, cluster, adaptive, and non-inferiority trial designs",
+    "Apply the estimand framework to define the target of inference",
+    "Describe qualitative research methods and their role in surgical research"
+  ],
+  "sections": [
+    {
+      "id": "C2-S1",
+      "title": "Hierarchy of Study Designs",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Surgical research spans a hierarchy of study designs, each with distinct strengths and limitations. The choice of design must be matched to the research question: aetiology, therapy, prognosis, diagnosis, and harm questions have different optimal designs. The study design determines what can be concluded — not the sample size, not the statistical analysis. Understanding this hierarchy is essential for critical appraisal of the surgical literature."
+        },
+        {
+          "type": "table",
+          "title": "Study Design Classification and Appropriate Questions",
+          "headers": ["Design", "Type", "Best for", "Main Limitation"],
+          "rows": [
+            ["Systematic review + meta-analysis", "Synthesis", "Treatment efficacy; prevalence", "Quality of included studies; heterogeneity"],
+            ["RCT", "Experimental", "Causal inference for treatment effects", "Cost; feasibility in surgery; blinding problems"],
+            ["Prospective cohort", "Observational", "Incidence, prognosis, risk factors", "Selection bias; loss to follow-up; confounding"],
+            ["Retrospective cohort / case-control", "Observational", "Rare disease; long-latency outcomes; hypothesis-generating", "Recall bias; confounding; selection bias"],
+            ["Cross-sectional survey", "Observational", "Prevalence; screening test evaluation", "Cannot establish temporality or causation"],
+            ["Case series / case report", "Descriptive", "Novel findings; hypothesis generation; rare complications", "No control group; cannot establish rates"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — IDEAL Framework for Surgical Innovation",
+          "content": "The IDEAL Collaboration (McCulloch, Lancet 2009) provides a staged framework for evaluating surgical procedures: Stage 1 (Idea — first-in-human), Stage 2a (Development — technical refinement, small series), Stage 2b (Exploration — prospective development study with registry), Stage 3 (Assessment — comparative study, often RCT), Stage 4 (Long-term study — registry, surveillance). Surgical procedures often enter clinical practice at Stage 2a — the IDEAL framework promotes rigorous evaluation before widespread adoption."
+        },
+        {
+          "type": "text",
+          "content": "The parallel group superiority RCT — where participants are randomised to intervention or control and followed for the same primary outcome — is the fundamental design for establishing treatment efficacy. However, this is only one of many randomised designs available to the surgical researcher. Alternative randomised designs (crossover, factorial, cluster, adaptive, stepped-wedge, platform) offer efficiency, pragmatic appeal, or unique suitability to specific research questions. Non-randomised designs (cohort, case-control, registry-based) remain essential when RCTs are not feasible."
+        }
+      ]
+    },
+    {
+      "id": "C2-S2",
+      "title": "Randomised Controlled Trials in Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The RCT is the gold standard for establishing causality, but surgical RCTs face unique challenges: (1) **Blinding**: patients and surgeons cannot be blinded to the operative approach — only outcome assessors can be blinded (assessor-blinded design); (2) **Learning curve**: technical variation between surgeons makes the experimental arm heterogeneous; (3) **Equipoise**: genuine clinical uncertainty must exist for randomisation to be ethical; (4) **Consent**: patients may refuse randomisation when the treatment involves very different operations; (5) **Contamination**: surgeons who participate in both arms may adopt techniques from the experimental arm. These challenges explain why surgery has fewer RCTs than pharmacotherapy."
+        },
+        {
+          "type": "text",
+          "content": "The **CONSORT 2010 statement** provides a 25-item checklist and flow diagram for reporting parallel group RCTs. Key items for surgical trials include: Item 4 (eligibility criteria — include centre volume and surgeon experience thresholds); Item 5 (intervention description — sufficient detail for replication, including learning curve considerations); Item 9 (allocation concealment mechanism — central randomisation by telephone/web is the gold standard); Item 11 (blinding — specify who was blinded and method; for surgical trials, assessor-blinded is the achievable standard); Item 14 (recruitment — CONSORT flow diagram showing all participants at each stage). CONSORT extensions exist for: cluster RCTs, crossover trials, non-inferiority trials, and surgical interventions (TIDieR extension for intervention description)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Allocation Concealment vs Blinding",
+          "content": "Allocation concealment and blinding are different concepts: **Allocation concealment** prevents those enrolling patients from knowing the next allocation — this prevents selection bias at enrolment and is mandatory for all RCTs. **Blinding** prevents knowledge of the allocated treatment from influencing outcome assessment after enrolment. Allocation concealment is achievable in all trials (sealed envelopes, central randomisation); blinding of the surgeon and patient is often impossible in surgical trials. Confusing the two is a common critical appraisal error."
+        },
+        {
+          "type": "table",
+          "title": "CONSORT 2010 — Key Items for Surgical Trial Critical Appraisal",
+          "headers": ["Item", "What to Check", "Red Flag"],
+          "rows": [
+            ["Item 1 — Randomisation method", "Sequence generation: computer-generated or table of random numbers", "Quasi-randomisation (alternating, date of birth, hospital number) is NOT true randomisation"],
+            ["Item 9 — Allocation concealment", "Mechanism to prevent foreknowledge: central telephone/web randomisation, pharmacy control", "Sealed envelopes can be tampered with — not gold standard for surgical trials"],
+            ["Item 11 — Blinding", "Who was blinded: patient, surgeon, outcome assessor, statistician, data monitoring committee", "No mention of blinding at any level is a high-risk-of-bias signal"],
+            ["Item 13 — Flow diagram", "All participants screened, eligible, randomised, analysed; reasons for exclusion at each stage", "Missing or incomplete flow diagram prevents assessment of selection bias"],
+            ["Item 16 — Primary analysis", "Intention-to-treat as primary; per-protocol as sensitivity", "Per-protocol as primary without ITT analysis"],
+            ["Item 19 — Harms", "All serious adverse events and protocol-specified harms must be reported", "Reporting only positive outcomes without harm data"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C2-S3",
+      "title": "Observational Study Methodology",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Key Biases in Surgical Observational Research",
+          "headers": ["Bias", "Definition", "Example", "Mitigation"],
+          "rows": [
+            ["Selection bias", "Groups differ systematically at baseline", "Laparoscopic vs open — younger fitter patients get laparoscopic", "Propensity score matching; multivariable regression"],
+            ["Confounding by indication", "Indication for treatment is associated with outcome", "Sicker patients get more radical surgery", "Instrumental variable analysis; restriction"],
+            ["Immortal time bias", "Follow-up period misattributed to exposed group", "Time to receive neoadjuvant therapy counted as exposure", "Correct time-at-risk calculation"],
+            ["Information bias", "Systematic error in data collection/classification", "Retrospective chart review — missing complications", "Prospective data collection; validated registries"],
+            ["Attrition bias", "Differential loss to follow-up by group", "Patients with complications lost to follow-up", "Intention-to-treat analysis; sensitivity analysis"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Intention-to-Treat Principle",
+          "content": "In RCTs, the **intention-to-treat (ITT) principle** analyses all randomised patients in their assigned group, regardless of what treatment they actually received. ITT preserves the benefits of randomisation (comparable groups) and reflects real-world effectiveness (including non-adherence). The alternative — per-protocol analysis (only patients who completed assigned treatment) — is prone to selection bias. Always report ITT as primary analysis; per-protocol as sensitivity. Missing data in ITT is handled by multiple imputation or mixed models — never by dropping patients."
+        },
+        {
+          "type": "text",
+          "content": "The **STROBE statement** (Strengthening the Reporting of Observational Studies in Epidemiology) provides a 22-item checklist for cohort, case-control, and cross-sectional studies. Key items relevant to surgical observational research: Item 6 (eligibility criteria — must be pre-specified, not defined post-hoc); Item 7 (exposure definition — must be clinically valid and consistently applied); Item 12 (statistical methods — regression model variable selection must be described); Item 13 (participants — flow diagram showing exclusions with reasons); Item 16 (main results — effect sizes with 95% CIs, not just p-values); Item 20 (limitations — must include discussion of confounding, bias, and generalisability)."
+        }
+      ]
+    },
+    {
+      "id": "C2-S4",
+      "title": "Crossover and Factorial Trial Designs",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **crossover design** assigns all participants to receive both treatments in sequence, separated by a washout period. Each participant acts as their own control, eliminating between-subject variability and dramatically increasing statistical efficiency — typically requiring one-quarter the sample of a parallel group trial for the same power. In surgical research, crossover designs are applicable when: (1) the condition is stable and chronic (not curable by the intervention); (2) the intervention has a reversible effect; (3) a washout period can eliminate carryover effects; (4) the intervention is non-invasive (e.g., peri-operative medication, positioning, physiotherapy). Crossover designs are generally not appropriate for operative interventions because surgery is irreversible and the washout period cannot meaningfully eliminate the effects of one operation before the next."
+        },
+        {
+          "type": "text",
+          "content": "The **washout period** in a crossover trial must be long enough to ensure that the effect of the first treatment has completely dissipated before the second treatment begins. If the washout is inadequate, **carryover effect** occurs — the effect of treatment A persists into the measurement period of treatment B, confounding the comparison. Washout duration depends on the biological half-life of the intervention effect. For pharmacological agents, a minimum of 5 half-lives is typically required. For surgical interventions applied to chronic conditions (e.g., nerve blocks, anaesthetic techniques), the washout is guided by the expected duration of biological effect. Statistical detection of carryover uses a test of the period-by-treatment interaction."
+        },
+        {
+          "type": "text",
+          "content": "The **factorial design** tests two or more interventions simultaneously within the same trial. In a 2×2 factorial, participants are randomised to: A+B, A+placebo-B, placebo-A+B, or placebo-A+placebo-B — generating four groups that allow testing of both A and B independently in separate 2-group comparisons. Factorial designs are highly efficient: they can answer two questions for approximately the cost of one trial, provided the two interventions do not interact. When factorial designs are used to test two questions, the power calculation assumes no interaction. When the goal is specifically to test for interaction (does A work better in the presence of B?), the sample size must be multiplied by 4 — making factorial interaction studies very large."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Interaction in Factorial Designs",
+          "content": "The critical assumption of a factorial design is **no qualitative interaction** between the two interventions — meaning A works similarly whether or not B is given. If this assumption is violated, the factorial analysis is misleading. Before using a factorial design, verify biological plausibility of independence. Example: testing two components of an enhanced recovery protocol simultaneously assumes they act additively — if one element counteracts the other, the factorial result will be uninterpretable. Always test for interaction statistically and report the interaction term, even if not significant."
+        },
+        {
+          "type": "table",
+          "title": "Crossover vs Factorial vs Parallel Group — Key Features",
+          "headers": ["Feature", "Parallel Group", "Crossover", "Factorial (2×2)"],
+          "rows": [
+            ["Sample size efficiency", "Reference", "~25% of parallel (within-subject control)", "~50% of parallel (tests 2 questions)"],
+            ["Carryover risk", "None", "Major concern — requires washout period", "None (no temporal sequence)"],
+            ["Applicable in surgery", "Always", "Only non-operative or reversible interventions", "If interventions are independent"],
+            ["CONSORT extension?", "Core CONSORT 2010", "CONSORT crossover extension", "CONSORT factorial extension"],
+            ["Key analysis issue", "ITT primary", "Period and carryover effects must be tested", "Test interaction before main effects"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C2-S5",
+      "title": "Adaptive Trial Designs in Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Adaptive designs allow pre-specified modifications to trial parameters during the trial based on accumulating data, without compromising type I error rate. The modifications must be pre-specified in the protocol and statistical analysis plan — they are not ad-hoc decisions made after observing results. Common adaptive modifications include: **Interim analysis with stopping rules** (stop early for efficacy or futility); **Sample size re-estimation** (adjust the final sample size based on observed variance); **Adaptive allocation** (increase allocation to better-performing arm — response-adaptive randomisation); **Population enrichment** (restrict enrolment to subgroups showing greatest benefit after an interim look); **Seamless phase designs** (combine phase II dose-finding with phase III confirmatory testing)."
+        },
+        {
+          "type": "text",
+          "content": "**Interim analyses** — planned looks at accumulating data during the trial — require pre-specified stopping rules (also called stopping boundaries) to control the overall type I error rate. Because multiple looks at the data inflate the type I error rate (similar to multiple comparisons), the significance threshold at each interim must be adjusted. Common spending functions include: **O'Brien-Fleming boundaries** (very conservative early, approaching full α late — difficult to stop early, appropriate when prior evidence is weak); **Pocock boundaries** (equal alpha at each look — easier to stop early but higher overall early stopping rate); **Lan-DeMets alpha-spending function** (flexible, can be applied at unplanned look times). The Data Safety and Monitoring Board (DSMB) reviews interim analyses — they are independent of the trial team to prevent bias."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "DSMB — Data Safety and Monitoring Board",
+          "content": "All large RCTs, particularly those testing surgical interventions with potential for harm, should have an independent Data Safety and Monitoring Board (DSMB). The DSMB: (1) reviews unblinded interim safety and efficacy data at pre-specified intervals; (2) applies the stopping rules to recommend early termination for benefit, harm, or futility; (3) reviews serious adverse events and unexpected protocol deviations; (4) reports to the trial steering committee while the trial team remains blinded. DSMB members must be independent of the trial — no investigators or sponsor representatives. Regulatory guidance (FDA draft guidance 2019; EMA reflection paper) mandates DSMB for most phase III trials."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Adaptive Designs — When They Go Wrong",
+          "content": "Adaptive designs are methodologically complex and require prospective statistical planning before any data are seen. Common failures include: (1) modifications not pre-specified — any unplanned adaptation inflates type I error; (2) inadequate blinding of adaptation decisions — if the trial team knows which arm is doing better, this introduces bias; (3) operational bias — if arm allocation changes, investigators may deduce which arm is superior from the new allocation ratio; (4) under-powered final analysis — if sample size re-estimation is misapplied. Regulatory agencies (FDA, EMA) require detailed statistical analysis plans for adaptive designs."
+        }
+      ]
+    },
+    {
+      "id": "C2-S6",
+      "title": "Cluster Randomised Trials",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "In a **cluster randomised trial (CRT)**, the unit of randomisation is a group (cluster) rather than an individual — for example, a hospital, a surgical unit, or a theatre team. All eligible individuals within a cluster receive the same intervention. Cluster randomisation is appropriate when: (1) the intervention is delivered at the cluster level (e.g., a new surgical checklist, a training programme, a theatre protocol); (2) individual randomisation would result in contamination (if some surgeons in the same unit use the intervention and others do not, the control group is contaminated); (3) the research question is inherently about a system or team, not an individual patient."
+        },
+        {
+          "type": "text",
+          "content": "The statistical implication of cluster randomisation is that patients within the same cluster are more similar to each other than patients in different clusters — this is called **clustering or within-cluster correlation**. The degree of clustering is quantified by the **intraclass correlation coefficient (ICC)**, which ranges from 0 (no clustering effect — patients within a cluster are as different as patients across clusters) to 1 (perfect clustering — all patients within a cluster have identical outcomes). Even a small ICC (e.g., 0.05) substantially increases the required sample size — the sample size must be multiplied by the **design effect = 1 + (m−1) × ICC**, where m is the average cluster size."
+        },
+        {
+          "type": "table",
+          "title": "Cluster RCT — Sample Size Inflation by ICC and Cluster Size",
+          "headers": ["ICC", "Cluster size (m)", "Design Effect", "Equivalent individual trial ratio"],
+          "rows": [
+            ["0.01", "20", "1.19", "Cluster trial needs 19% more patients"],
+            ["0.05", "20", "1.95", "Cluster trial needs ~2× more patients"],
+            ["0.05", "50", "3.45", "Cluster trial needs 3.5× more patients"],
+            ["0.10", "20", "2.90", "Cluster trial needs ~3× more patients"],
+            ["0.10", "50", "5.90", "Cluster trial needs ~6× more patients"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Stepped-Wedge Design",
+          "content": "The **stepped-wedge design** is a variant of the cluster RCT in which all clusters start in the control condition, then sequentially cross over to the intervention at different randomly assigned time points ('steps'). By the end of the trial, all clusters have received the intervention. This design is appropriate when: (1) the intervention is believed to be beneficial and it would be unacceptable to permanently withhold it from some clusters; (2) the intervention must be rolled out sequentially for logistical reasons; (3) the research question is about implementation effectiveness. All time-periods contribute to both control and intervention estimates, maximising statistical efficiency. Analysis requires mixed models accounting for time trends and clustering."
+        }
+      ]
+    },
+    {
+      "id": "C2-S7",
+      "title": "Non-inferiority and Equivalence Trials",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "A **non-inferiority (NI) trial** tests whether a new treatment is not unacceptably worse than an established active control — within a pre-specified non-inferiority margin (Δ). NI trials are appropriate when: (1) a new treatment has potential advantages in safety, cost, convenience, or invasiveness compared to the established treatment; (2) the established treatment is known to be effective (so placebo control would be unethical); (3) the research question is whether the new treatment can replace the established treatment. Example: 'Is laparoscopic colectomy non-inferior to open colectomy for 5-year overall survival, within a margin of 5% absolute difference?'"
+        },
+        {
+          "type": "text",
+          "content": "The **non-inferiority margin (Δ)** is the largest clinically acceptable difference between the new and standard treatment. Setting Δ requires: (1) clinical judgement — how large a difference would clinicians and patients accept given the benefits of the new treatment?; (2) statistical reasoning — Δ must be smaller than the previously established benefit of the active control over placebo, to preserve at least part of that benefit ('fraction retention' approach). If Δ is too large, a new treatment that is substantially inferior to the standard could be declared non-inferior. Regulatory agencies (FDA, EMA) require pre-specification of Δ with justification."
+        },
+        {
+          "type": "text",
+          "content": "Analysis of NI trials uses the **confidence interval approach**: the trial is non-inferior if the upper confidence limit of the difference (new minus standard) does not exceed Δ. A critical nuance: in NI trials, the ITT analysis (which dilutes treatment differences by including non-adherent patients) is **conservative for superiority** testing but **anti-conservative for NI** testing — non-adherence makes groups look more similar, spuriously supporting NI. Therefore, NI trials must report both ITT and **per-protocol (PP) analyses**, and NI should be declared only if both agree."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "NI Trial Pitfalls — Biocreep and Margin Inflation",
+          "content": "**Biocreep** occurs when successive NI trials each establish a new standard treatment that is slightly worse than the previous one — through the chain of NI margins, the eventual treatment may be substantially inferior to the original placebo-controlled comparator. To prevent biocreep, the NI margin must be explicitly linked to the original placebo-controlled evidence base, not just to the most recent active comparator. Always check: has this non-inferiority margin been justified against the original placebo-controlled evidence for the active control?"
+        }
+      ]
+    },
+    {
+      "id": "C2-S8",
+      "title": "Qualitative Research Methods in Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Qualitative research explores the lived experience, meanings, perspectives, and processes underlying health and healthcare, using methods that generate non-numerical data. In surgical research, qualitative methods address questions that quantitative designs cannot: 'Why do surgeons vary in their adoption of a new technique?'; 'What do patients experience during recovery from major abdominal surgery?'; 'Why is compliance with an enhanced recovery protocol low in this hospital?'. Qualitative findings complement quantitative results and are essential components of complex intervention evaluation."
+        },
+        {
+          "type": "text",
+          "content": "The major qualitative research methods used in surgical research include: (1) **Semi-structured interviews** — in-depth one-to-one conversations using a flexible topic guide; ideal for exploring individual experiences, decision-making, and perspectives; recorded, transcribed verbatim, and analysed thematically; (2) **Focus groups** — group discussions generating data through interaction and debate; ideal for exploring shared experiences and social norms within surgical teams; (3) **Ethnographic observation** — researcher directly observes clinical practice (e.g., in theatre, ward rounds) to understand real-world behaviour; (4) **Document analysis** — systematic analysis of clinical records, meeting minutes, protocols, or policy documents as data sources; (5) **Think-aloud methods** — participants verbalise their reasoning during a task (e.g., reading a consent form) to reveal cognitive processes."
+        },
+        {
+          "type": "text",
+          "content": "**Thematic analysis** is the most widely used analytical approach in surgical qualitative research. The process: (1) familiarisation with the data — read all transcripts thoroughly; (2) generating initial codes — label segments of data systematically; (3) searching for themes — group codes into candidate themes; (4) reviewing themes — check themes against coded data and full dataset; (5) defining and naming themes — produce a clear, accurate account of each theme; (6) producing the report — write up findings with illustrative quotations. Thematic analysis is theoretically flexible — it can be applied within multiple qualitative frameworks (phenomenology, grounded theory, framework analysis)."
+        },
+        {
+          "type": "table",
+          "title": "Qualitative Research Reporting — COREQ Checklist Key Items",
+          "headers": ["Domain", "Key Items", "Common Omissions"],
+          "rows": [
+            ["Research team", "Researcher characteristics; relationship to participants; prior assumptions", "Reflexivity statement often missing in surgical papers"],
+            ["Study design", "Sampling method (purposive vs snowball); sample size justification (data saturation)", "Claiming 'saturation' without describing the process"],
+            ["Data collection", "Interview guide development; recording method; field notes", "Failing to provide the topic guide as supplementary material"],
+            ["Analysis", "Coding process; NVivo or other software; member-checking; triangulation", "Single-analyst coding without peer review of themes"],
+            ["Reporting", "Participant quotations; negative cases; researcher impact on findings", "Only reporting quotes that confirm the researcher's prior view"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Mixed Methods in Surgical Trials",
+          "content": "The Medical Research Council framework for complex interventions recommends **process evaluation** alongside RCTs of complex surgical interventions. A process evaluation uses qualitative and quantitative methods to understand: (1) **Fidelity** — was the intervention delivered as intended?; (2) **Dose** — how much of the intervention did participants receive?; (3) **Mechanisms** — how did the intervention work (or fail)?; (4) **Context** — what contextual factors modified the intervention's effect? Example: the ICAN trial (ICU-delivered rehabilitation after major abdominal surgery) embedded a qualitative process evaluation exploring patient and physiotherapist experiences, explaining why patients in some centres received more rehabilitation than others."
+        }
+      ]
+    },
+    {
+      "id": "C2-S9",
+      "title": "Estimand Framework and Pragmatic vs Explanatory Trials",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The **estimand framework** (ICH E9(R1), 2019) provides a structured approach to defining precisely what the trial is designed to estimate — the 'target of inference'. The estimand consists of five components: (1) **Population** — which patients does this question apply to?; (2) **Treatment** — what are the two (or more) treatments being compared?; (3) **Variable** — what outcome is being measured?; (4) **Population-level summary** — what is the treatment comparison measure (risk difference, hazard ratio, mean difference)?; (5) **Intercurrent events** — what happens to the estimand when patients discontinue treatment, cross over, or die?. The choice of how to handle intercurrent events (e.g., 'treatment policy strategy' = include all patients regardless of treatment discontinuation; 'hypothetical strategy' = what if all patients had adhered?) determines whether the trial estimates effectiveness or efficacy."
+        },
+        {
+          "type": "text",
+          "content": "The distinction between **pragmatic** and **explanatory** trials reflects the estimand's focus. Pragmatic trials estimate the effect of offering a treatment in routine clinical practice — they use broad eligibility criteria, routine care settings, and ITT analysis with the 'treatment policy' strategy for intercurrent events. They measure effectiveness. Explanatory trials estimate the biological effect of treatment when perfectly administered — they use strict eligibility criteria, intensive per-protocol monitoring, and hypothetical strategies for intercurrent events. They measure efficacy. Most phase III surgical trials aim to be pragmatic — the PRECIS-2 tool (Pragmatic-Explanatory Continuum Indicator Summary) provides a graphical assessment of how pragmatic or explanatory a trial design is across 9 domains."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Platform, Basket, and Umbrella Trials",
+          "content": "**Platform trials** are a paradigm in which multiple interventions are tested simultaneously within a single master protocol and infrastructure, with arms that can be added or dropped based on pre-specified stopping rules — sharing control arm data across all comparisons. **Basket trials** enroll patients with a specific molecular/biological marker regardless of tumour histology, testing whether the intervention works across tumour types sharing the target. **Umbrella trials** enroll patients with a single tumour histology but randomise to different targeted therapies based on molecular subtype profiling within the trial. These designs are primarily used in oncology but are beginning to appear in surgical-oncology research (e.g., STAMPEDE in prostate cancer, I-SPY in breast cancer)."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your understanding of study design principles with 20 questions.",
+    "questions": [
+      {
+        "id": "C2-Q1",
+        "stem": "A multicentre RCT comparing laparoscopic to open sigmoid colectomy for diverticular disease reports that 12% of patients randomised to laparoscopic surgery were converted to open. The published analysis includes all randomised patients in their originally assigned groups. Which analytical principle does this represent?",
+        "options": {
+          "A": "Per-protocol analysis — only patients who completed their assigned treatment are analysed, maximising internal validity",
+          "B": "Intention-to-treat analysis — all randomised patients are analysed in their assigned group, preserving the benefits of randomisation",
+          "C": "As-treated analysis — patients are analysed according to the treatment they actually received, best estimating biological efficacy",
+          "D": "Sensitivity analysis — a secondary analysis that excludes converted patients to check whether they influenced the result"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Analysing all randomised patients in their originally assigned groups — regardless of actual treatment received — is the intention-to-treat (ITT) principle. ITT is the methodologically appropriate primary analysis for RCTs because it preserves the benefits of randomisation, avoids selection bias introduced by excluding patients who crossed over, and estimates real-world effectiveness. In a surgical RCT, conversion from laparoscopic to open is part of the real-world outcome of choosing a laparoscopic approach.",
+          "wrong": {
+            "A": "Per-protocol analysis excludes patients who did not complete their assigned treatment. This risks selection bias — converted patients may have more difficult anatomy or worse outcomes.",
+            "C": "As-treated analysis recreates confounding by indication — the very bias that randomisation was designed to eliminate.",
+            "D": "Sensitivity analyses are secondary analyses — not the primary analytical approach described here."
+          },
+          "guideline": "CONSORT 2010 — Item 16: report ITT analysis as primary; clearly distinguish ITT from per-protocol or as-treated analyses",
+          "trial": "COLOR II (van der Pas, Lancet Oncology 2013): laparoscopic vs open rectal cancer — 16% conversion rate; ITT analysis maintained, including converted patients in laparoscopic arm.",
+          "pearl": "In a surgical RCT, the conversion rate is itself a clinically meaningful outcome. ITT protects against the bias that excluding conversions would introduce."
+        }
+      },
+      {
+        "id": "C2-Q2",
+        "stem": "What is the key distinction between allocation concealment and blinding in a randomised surgical trial?",
+        "options": {
+          "A": "Allocation concealment prevents knowledge of group assignment at enrolment; blinding prevents knowledge of assignment during outcome assessment — both are mandatory in surgical trials",
+          "B": "Allocation concealment and blinding are synonymous terms for the same process",
+          "C": "Allocation concealment prevents selection bias at enrolment; blinding prevents performance and detection bias after enrolment — concealment is always achievable, blinding of surgeon is not",
+          "D": "Blinding is more important than allocation concealment — surgical trials only need to report blinding status"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Allocation concealment and blinding address different biases at different time points. Allocation concealment prevents the person enrolling a patient from knowing what allocation the next patient will receive — this prevents selective enrolment of favourable patients to the experimental arm (selection bias). It is achievable in all trials through central randomisation. Blinding prevents knowledge of assigned treatment from influencing outcome assessment, care delivery, or patient behaviour after enrolment — this addresses performance bias and detection bias. In surgical trials, blinding of the surgeon is impossible, but outcome assessor blinding (assessor-blinded) is achievable.",
+          "wrong": {
+            "A": "Blinding of the surgeon is generally not possible in surgical trials — stating it is mandatory is incorrect.",
+            "B": "These are distinct concepts addressing different biases at different stages of the trial.",
+            "D": "Both are important and must be reported. Inadequate allocation concealment is one of the strongest predictors of bias in RCT meta-analyses."
+          },
+          "guideline": "CONSORT 2010 Items 9 (allocation concealment) and 11 (blinding) — both must be reported separately with mechanistic details",
+          "trial": "Moher et al. Cochrane meta-epidemiology (Lancet 1998): inadequate allocation concealment inflated ORs by 30–40% in meta-analyses — one of the strongest determinants of bias.",
+          "pearl": "When critically appraising a surgical RCT, check Items 9 and 11 separately. 'Sealed envelopes' are frequently cited but are not the gold standard — central telephone/web randomisation is."
+        }
+      },
+      {
+        "id": "C2-Q3",
+        "stem": "A crossover trial comparing two analgesic regimens after laparoscopic cholecystectomy includes a 48-hour washout period between treatment periods. The trial finds a significant benefit for regimen A in period 1 but not period 2. What is the most likely explanation?",
+        "options": {
+          "A": "The study was underpowered — a larger sample would eliminate the period difference",
+          "B": "Carryover effect — the effect of regimen A persisted into the second period, confounding the period 2 comparison",
+          "C": "Patient preference bias — patients who received regimen A first preferred it regardless of efficacy",
+          "D": "Learning curve effect — surgeons improved technique between the two periods"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A significant period-by-treatment interaction (different results in period 1 vs period 2) in a crossover trial indicates carryover effect — the effect of the first treatment has not completely dissipated before the second treatment begins. For analgesic regimens after cholecystectomy, a 48-hour washout may be insufficient if the analgesic agent has a half-life approaching or exceeding 24 hours, or if central sensitisation persists. Carryover invalidates the crossover analysis — the trial should be analysed using only first-period data (converting it to a parallel group analysis) or the washout period must be extended in a redesigned study.",
+          "wrong": {
+            "A": "Underpowering would cause both periods to show non-significant results, not a systematic period difference.",
+            "C": "Patient preference would show as a difference in patient-reported outcomes, not in objective analgesic consumption or pain scores.",
+            "D": "A learning curve effect would apply equally to both treatment groups in each period — it would not cause a systematic treatment-by-period interaction."
+          },
+          "guideline": "CONSORT crossover extension — requires reporting of test for carryover (period × treatment interaction) and washout period justification",
+          "trial": "Hills M & Armitage P (Biometrics 1979): statistical analysis of crossover trials — foundational paper establishing tests for carryover and period effects.",
+          "pearl": "Before designing a crossover trial, ensure the washout period is biologically justified. If period-by-treatment interaction is detected, the crossover analysis is invalid — analyse only the first-period data as a parallel group trial."
+        }
+      },
+      {
+        "id": "C2-Q4",
+        "stem": "A cluster RCT randomises 20 surgical units (clusters) to implement an enhanced recovery after surgery (ERAS) protocol versus standard care. Each unit treats an average of 50 patients per year. The ICC for 30-day complications in this surgical population is estimated at 0.05. What is the design effect?",
+        "options": {
+          "A": "1.05",
+          "B": "2.45",
+          "C": "3.45",
+          "D": "5.05"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The design effect for a cluster RCT is calculated as: DE = 1 + (m − 1) × ICC, where m is the average cluster size and ICC is the intraclass correlation coefficient. With m = 50 and ICC = 0.05: DE = 1 + (50 − 1) × 0.05 = 1 + 49 × 0.05 = 1 + 2.45 = 3.45. This means the cluster RCT requires 3.45 times as many patients as an individually randomised trial with the same power. For 20 units with 50 patients each (1,000 total patients), the effective sample size for statistical purposes is only 1,000 / 3.45 ≈ 290 individuals.",
+          "wrong": {
+            "A": "DE = 1.05 would result from ICC = 0.05 and m = 2 (very small clusters). With m = 50, the clustering penalty is much larger.",
+            "B": "DE = 2.45 is the additional inflation factor above 1 — not the design effect itself.",
+            "D": "DE = 5.05 would require either a much higher ICC or much larger clusters than specified."
+          },
+          "guideline": "CONSORT cluster RCT extension — requires reporting of ICC, design effect, and cluster-adjusted sample size calculation",
+          "trial": "EPOCH trial (enhanced recovery after surgery): cluster RCT in 93 UK hospitals — ICC of 0.03 was used in sample size calculation; design effect substantially increased required cluster count.",
+          "pearl": "Even small ICCs (0.01–0.05) dramatically inflate required sample sizes in large clusters. Always calculate the design effect before finalising the cluster RCT sample size."
+        }
+      },
+      {
+        "id": "C2-Q5",
+        "stem": "A non-inferiority trial compares total laparoscopic hysterectomy (TLH) to open hysterectomy for endometrial cancer, using 5-year overall survival as the primary outcome with a non-inferiority margin of Δ = 5%. The trial result is: laparoscopic minus open = −2.1% (95% CI −4.8% to +0.6%). What is the correct conclusion?",
+        "options": {
+          "A": "Laparoscopic is superior — the point estimate is in favour of laparoscopic",
+          "B": "Laparoscopic is non-inferior — the upper confidence limit (+0.6%) does not exceed the non-inferiority margin (5%)",
+          "C": "The trial is inconclusive — the confidence interval crosses zero",
+          "D": "Laparoscopic is inferior — the lower confidence limit (−4.8%) is negative"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In a non-inferiority trial, non-inferiority is declared when the upper bound of the 95% CI for the difference (new minus standard) does not exceed the pre-specified non-inferiority margin Δ. Here, the difference is −2.1% (laparoscopic worse by 2.1%) and the upper confidence limit is +0.6% — this does not exceed Δ = 5%. Therefore, laparoscopic is non-inferior to open within the pre-specified margin. The fact that the CI crosses zero (includes 0) means the trial cannot claim superiority — but for non-inferiority, crossing zero is expected and not problematic.",
+          "wrong": {
+            "A": "Superiority would require the entire 95% CI to be on the favourable side of zero — it is not, since the lower limit is −4.8%.",
+            "C": "Crossing zero does NOT make a non-inferiority trial inconclusive — the operative comparison is against Δ, not against zero.",
+            "D": "A negative lower confidence limit means the data are consistent with laparoscopic being worse by up to 4.8%, but the upper limit (+0.6%) demonstrates the difference is unlikely to exceed Δ = 5%."
+          },
+          "guideline": "CONSORT NI extension — non-inferiority conclusion requires upper CI < Δ; figures should show CI plotted against equivalence/NI margins",
+          "trial": "LACC trial (Ramirez, NEJM 2018): minimally invasive vs open radical hysterectomy for cervical cancer — failed NI (upper CI exceeded Δ), establishing open surgery as standard. Contrasts with many 'positive' NI trials.",
+          "pearl": "In non-inferiority trials, the CI must be interpreted against Δ, not against zero. Draw the CI on a plot with the NI margin marked — it immediately shows whether NI is achieved."
+        }
+      },
+      {
+        "id": "C2-Q6",
+        "stem": "In a 2×2 factorial RCT testing goal-directed fluid therapy (GDFT) AND epidural analgesia in major colorectal surgery, the interaction p-value for GDFT × epidural is p=0.02. What is the most appropriate analytical response?",
+        "options": {
+          "A": "Proceed with the main effects analysis — an interaction p-value of 0.02 is expected by chance",
+          "B": "The interaction is statistically significant — each intervention's effect must be estimated separately according to the other factor's presence/absence, not as a main effect",
+          "C": "Abandon the trial — factorial designs cannot be analysed when interaction is detected",
+          "D": "Use only the GDFT result and discard the epidural comparison"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The core assumption of a factorial design is that the two interventions act independently (no interaction). A statistically significant interaction (p=0.02) means that the effect of GDFT depends on whether the patient also receives epidural, and vice versa. In this situation, reporting main effects is misleading — the benefit of GDFT in patients with epidural may differ substantially from GDFT benefit in patients without epidural. The correct analysis stratifies: report GDFT effect within epidural group, GDFT effect within no-epidural group, epidural effect within GDFT group, and epidural effect within no-GDFT group.",
+          "wrong": {
+            "A": "A p-value of 0.02 for interaction is statistically significant at the conventional α=0.05 — it cannot be dismissed as chance without further analysis. Note: interaction tests are often underpowered, so even marginal significance warrants investigation.",
+            "C": "Detecting an interaction does not invalidate the trial — it changes the analysis strategy. The trial remains valid; the question it answers becomes more nuanced.",
+            "D": "Discarding one comparison without justification is outcome selection bias. Both comparisons must be reported, with appropriate stratified analysis."
+          },
+          "guideline": "CONSORT factorial extension — requires testing and reporting of interaction; if interaction present, report effects within strata of the other factor",
+          "trial": "ENIGMA trial (nitrous oxide vs air in major surgery) crossed with perioperative supplemental oxygen — interaction between the two gases required stratified reporting of effects.",
+          "pearl": "Power to detect interaction requires 4× the sample of the main effect. Most factorial trials are underpowered to detect interaction — a non-significant interaction test does not exclude clinically important interaction."
+        }
+      },
+      {
+        "id": "C2-Q7",
+        "stem": "A stepped-wedge RCT implements a new surgical safety checklist across 15 hospitals sequentially over 18 months. All hospitals start in the control condition and cross over to the intervention at different randomly assigned time points. What is the PRIMARY advantage of this design over a parallel cluster RCT?",
+        "options": {
+          "A": "It requires fewer hospitals to achieve adequate statistical power",
+          "B": "It allows all hospitals to receive the intervention, which is ethically advantageous when the intervention is believed to be beneficial; it also controls for secular time trends within the analysis",
+          "C": "It eliminates the need for randomisation because all clusters eventually receive the intervention",
+          "D": "It produces stronger evidence than a parallel RCT because every cluster experiences both conditions"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The stepped-wedge design has two primary advantages: (1) ethical — all clusters eventually receive the intervention, resolving equipoise concerns when widespread roll-out is planned regardless; (2) methodological — because all clusters are observed in both control and intervention periods, secular time trends (e.g., improving outcomes due to general quality improvement across the system) are controlled for within the analysis rather than confounding it. The design also maximises data use — every cluster contributes to both arms.",
+          "wrong": {
+            "A": "Stepped-wedge designs typically require more clusters than parallel group cluster RCTs for equivalent power, because the effective sample sizes are reduced by the sequential roll-out and correlation between time periods.",
+            "C": "Randomisation is essential in the stepped-wedge design — it determines WHICH time point each cluster crosses over, ensuring the sequence is not determined by cluster characteristics. Without randomisation, the design becomes a before-after study.",
+            "D": "The stepped-wedge does not necessarily provide stronger evidence than a parallel RCT — it has specific assumptions (no carryover, correct modelling of time trends) that, if violated, can produce biased estimates."
+          },
+          "guideline": "Hemming K et al. 'The stepped wedge cluster randomised trial: rationale, design, analysis, and reporting.' BMJ 2015 — definitive methodological paper",
+          "trial": "Safe Childbirth Checklist (WHO, Hirschhorn et al.) — tested using stepped-wedge design across 78 facilities in Karnataka, India — sequential roll-out reflected implementation reality.",
+          "pearl": "The stepped-wedge design is particularly suited to quality improvement interventions that must be rolled out sequentially for logistical or political reasons — it transforms a roll-out into a research design."
+        }
+      },
+      {
+        "id": "C2-Q8",
+        "stem": "Which term BEST describes a trial designed to test whether an intervention works under ideal, controlled conditions with highly selected patients and intensive monitoring?",
+        "options": {
+          "A": "Pragmatic trial",
+          "B": "Equivalence trial",
+          "C": "Explanatory trial",
+          "D": "Adaptive trial"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "An explanatory trial tests efficacy — whether an intervention works under ideal conditions. It uses: narrow eligibility criteria (only patients most likely to respond); intensive per-protocol monitoring to maximise adherence; expert centres and surgeons; and the hypothetical estimand strategy (what would happen if everyone adhered perfectly). Explanatory trials typically precede pragmatic trials in the development pathway — they establish that the mechanism works before asking whether it works in routine practice.",
+          "wrong": {
+            "A": "A pragmatic trial tests effectiveness — whether an intervention works in routine clinical practice with broad eligibility, routine care delivery, and minimal monitoring. It is the opposite of explanatory.",
+            "B": "An equivalence trial tests whether two treatments produce identical results — a different design category from explanatory vs pragmatic.",
+            "D": "An adaptive trial modifies design parameters based on interim data — this is a different classification from explanatory vs pragmatic."
+          },
+          "guideline": "Schwartz D & Lellouch J. 'Explanatory and pragmatic attitudes in therapeutical trials.' J Chronic Dis 1967 — original distinction between explanatory and pragmatic trials",
+          "trial": "CLASSIC trial (laparoscopic vs open rectal surgery): classic explanatory design with credentialled surgeons, strict volume criteria — contrasts with pragmatic ROLARR trial.",
+          "pearl": "Use PRECIS-2 (Pragmatic-Explanatory Continuum Indicator Summary) to profile a trial's pragmatic vs explanatory orientation across 9 domains. It helps ensure the trial answers the right question for its intended use — regulatory, clinical practice, or proof-of-concept."
+        }
+      },
+      {
+        "id": "C2-Q9",
+        "stem": "A phase III surgical oncology trial uses an O'Brien-Fleming stopping boundary for interim efficacy analysis. Compared to a Pocock boundary, what is the key characteristic of O'Brien-Fleming boundaries?",
+        "options": {
+          "A": "O'Brien-Fleming requires a higher p-value for significance at each interim — making early stopping easier",
+          "B": "O'Brien-Fleming requires a very low p-value for early stopping but preserves most of the alpha for the final analysis — making early stopping harder but protecting the overall type I error rate",
+          "C": "O'Brien-Fleming uses the same significance threshold at each interim analysis, unlike Pocock",
+          "D": "O'Brien-Fleming boundaries do not control the overall type I error rate"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "O'Brien-Fleming boundaries are very stringent early in the trial — requiring extremely small p-values (e.g., p<0.001 at the first interim when only 25% of data are available) — and become progressively less stringent, approaching the full α at the final analysis. This means early stopping requires overwhelming evidence, but if the trial continues to completion, the significance threshold is close to the nominal α. O'Brien-Fleming is preferred when investigators want to be conservative about early stopping — it is the standard used by most DSMBs for major surgical trials.",
+          "wrong": {
+            "A": "O'Brien-Fleming makes early stopping harder, not easier — it requires more extreme evidence early in the trial.",
+            "C": "Pocock boundaries use the same threshold at every interim — not O'Brien-Fleming, which has decreasing thresholds over time.",
+            "D": "Both O'Brien-Fleming and Pocock maintain the overall type I error rate at α — that is the purpose of group sequential methods."
+          },
+          "guideline": "O'Brien PC & Fleming TR. 'A multiple testing procedure for clinical trials.' Biometrics 1979 — original paper; FDA guidance on adaptive designs",
+          "trial": "ROOBY trial (off-pump vs on-pump cardiac surgery): used O'Brien-Fleming boundaries for interim analysis — trial continued to completion without early stopping.",
+          "pearl": "The choice between O'Brien-Fleming and Pocock reflects the balance between willingness to stop early for benefit (Pocock: more willing) versus conservatism about early stopping (O'Brien-Fleming: less willing). Most trial statisticians recommend O'Brien-Fleming for surgical trials where early results may not reflect long-term outcomes."
+        }
+      },
+      {
+        "id": "C2-Q10",
+        "stem": "A 'basket trial' design in surgical oncology most accurately describes:",
+        "options": {
+          "A": "A trial enrolling multiple cancer types that share a specific molecular target, testing the same targeted therapy across all histologies simultaneously",
+          "B": "A trial enrolling a single cancer type and testing multiple different interventions simultaneously, each matched to a molecular subtype",
+          "C": "A trial in which multiple centres contribute to a single shared control arm while testing different experimental surgical techniques",
+          "D": "A trial using adaptive randomisation to allocate more patients to the better-performing arm"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "A basket trial enrolls patients defined by a shared molecular/genetic alteration (e.g., BRAF V600E mutation, HER2 amplification, NTRK fusion) regardless of tumour histology — testing whether the targeted therapy works across multiple cancer types sharing the same target. It is the tumour-agnostic approach — 'does this molecular target predict response, regardless of where the tumour is?' Basket trials are efficient when the molecular target is rare in any single histology but common enough across multiple histologies to allow adequate enrolment.",
+          "wrong": {
+            "B": "This describes an umbrella trial — a single cancer type, multiple molecular-matched arms.",
+            "C": "This describes a platform trial — shared infrastructure with multiple experimental arms and a common control.",
+            "D": "This describes response-adaptive randomisation, which can be used within any of these trial designs."
+          },
+          "guideline": "Renfro LA & Mandrekar SJ. 'Definitions and statistical properties of master protocols for personalized medicine in oncology.' J Biopharm Stat 2018",
+          "trial": "NCI-MATCH (Molecular Analysis for Therapy Choice): landmark US basket trial enrolling across >40 tumour types based on molecular profiling — established the basket design in surgical oncology.",
+          "pearl": "Basket (molecular across histologies) vs Umbrella (histology, multiple molecular subtypes) vs Platform (multiple arms, shared control, arms added/dropped) — memorise these three as a connected taxonomy."
+        }
+      },
+      {
+        "id": "C2-Q11",
+        "stem": "Which of the following BEST defines 'per-protocol population' in a surgical RCT?",
+        "options": {
+          "A": "All patients who were screened for trial eligibility, regardless of enrolment",
+          "B": "All randomised patients analysed in their assigned group, regardless of treatment received",
+          "C": "The subset of randomised patients who completed the assigned treatment without major protocol deviations",
+          "D": "Only patients who achieved the target treatment dose, excluding all who discontinued"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The per-protocol (PP) population comprises randomised patients who completed the assigned treatment without major protocol violations — typically excluding patients who: did not receive the assigned intervention; crossed over to the other arm; had eligibility violations discovered after randomisation; were lost to follow-up before primary outcome measurement. PP analysis estimates treatment efficacy under ideal adherence conditions. In superiority trials, PP is used as a sensitivity analysis alongside the primary ITT; in non-inferiority trials, PP analysis is co-primary because ITT is anti-conservative for NI.",
+          "wrong": {
+            "A": "This describes the screened population — broader than any analytical population.",
+            "B": "This describes the intention-to-treat (ITT) population — the primary analytical population for superiority trials.",
+            "D": "Excluding all patients who discontinued is a more stringent criterion than the per-protocol population definition — most PP definitions allow for minor deviations and early discontinuation for pre-specified acceptable reasons."
+          },
+          "guideline": "CONSORT 2010 Item 16 — requires specification of analytical population and reporting of ITT, PP, and safety populations separately",
+          "trial": "ESOPEC trial (perioperative FLOT vs CROSS for oesophageal cancer) — published both ITT and PP analyses, with consistent results supporting the ITT primary analysis.",
+          "pearl": "Define the PP population in the Statistical Analysis Plan BEFORE data lock — post-hoc definition of the PP population introduces bias equivalent to HARKing."
+        }
+      },
+      {
+        "id": "C2-Q12",
+        "stem": "A CONSORT extension specific to surgical interventions recommends reporting which additional information not required by the core CONSORT statement?",
+        "options": {
+          "A": "The surgical volume of participating centres and the minimum experience required of participating surgeons",
+          "B": "The brand names of all surgical instruments used in the trial",
+          "C": "Individual patient surgical records for all participants",
+          "D": "The income of participating institutions"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Surgical RCTs face unique challenges of standardisation and learning curve that pharmaceutical trials do not. The CONSORT extension for surgical interventions, and the TIDieR (Template for Intervention Description and Replication) checklist, require reporting of: (1) minimum surgeon experience criteria (e.g., ≥50 prior laparoscopic TME cases); (2) participating centre volume thresholds; (3) intraoperative findings that modified the procedure; (4) procedures for quality assurance of surgical technique (e.g., video review of operative specimens or key operative steps). These are essential for assessing generalisability and explaining heterogeneity of results across centres.",
+          "wrong": {
+            "B": "Brand names of instruments are generally not required for replication — the technique description (operative steps, energy device type, anastomotic method) is what matters.",
+            "C": "Individual patient surgical records are source documents, not elements of the published report.",
+            "D": "Institutional income is not relevant to surgical trial reporting."
+          },
+          "guideline": "Blencowe NS et al. 'Reporting of interventions in randomised trials of surgery: a systematic review.' Ann Surg 2015; TIDieR checklist (Hoffmann TC, BMJ 2014)",
+          "trial": "ROLARR trial (robotic vs laparoscopic rectal resection) — criticised for insufficient standardisation of robotic technique and variable surgeon experience; highlights the importance of these CONSORT extension items.",
+          "pearl": "Poor description of the surgical intervention is the most common reporting deficiency in surgical RCTs — it prevents meaningful meta-analysis and replication. The TIDieR checklist provides a practical framework for comprehensive intervention description."
+        }
+      },
+      {
+        "id": "C2-Q13",
+        "stem": "What is the estimand framework's 'treatment policy strategy' for handling intercurrent events in a pragmatic surgical trial?",
+        "options": {
+          "A": "Censor patients who discontinue treatment and impute their outcomes",
+          "B": "Include all randomised patients in the analysis regardless of whether they received, completed, or discontinued the assigned treatment — attributing outcomes to the originally assigned treatment policy",
+          "C": "Replace missing data with the last observed value carried forward",
+          "D": "Exclude patients who crossed over to the other treatment arm from the primary analysis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The ICH E9(R1) estimand framework defines how intercurrent events (treatment discontinuation, crossover, death before outcome measurement, use of rescue medication) are handled in the trial's primary analysis. The 'treatment policy strategy' ignores the intercurrent event and measures the outcome regardless — all patients contribute their actual outcomes to the randomised arm, whether or not they completed treatment. This corresponds to the ITT principle and estimates the effect of the treatment *policy* (i.e., offering and assigning the treatment) rather than the biological effect of the treatment itself. It is the default for pragmatic trials measuring effectiveness.",
+          "wrong": {
+            "A": "Censoring and imputation describe specific missing data handling methods, not the treatment policy strategy. Treatment policy strategy means including all patients with their actual outcomes, not imputing them.",
+            "C": "Last observation carried forward (LOCF) is a discredited missing data imputation method — not the estimand framework's approach.",
+            "D": "Excluding crossover patients would correspond to a per-protocol analysis, not the treatment policy strategy."
+          },
+          "guideline": "ICH E9(R1) — Addendum on Estimands and Sensitivity Analysis in Clinical Trials (2019); five strategies for handling intercurrent events: treatment policy, hypothetical, composite, while on treatment, principal stratum",
+          "trial": "SUNFISH trial (risdiplam for SMA): estimand framework explicitly specified in protocol using treatment policy strategy for treatment discontinuation — first major trial to fully implement ICH E9(R1).",
+          "pearl": "The estimand framework forces researchers to be precise about what question they are answering before data collection begins. 'What is the effect of offering treatment A versus treatment B?' (treatment policy) is a different question from 'What would the effect be if everyone had adhered?' (hypothetical strategy)."
+        }
+      },
+      {
+        "id": "C2-Q14",
+        "stem": "In a pragmatic RCT comparing laparoscopic vs open right hemicolectomy across 25 UK hospitals, the authors note that 'outcome assessors reviewed the clinical record for complications without knowledge of operative approach.' Which bias does this specifically address?",
+        "options": {
+          "A": "Selection bias — prevents systematic differences between groups at enrolment",
+          "B": "Attrition bias — ensures all patients complete follow-up",
+          "C": "Detection bias — prevents the knowledge of operative approach influencing outcome classification",
+          "D": "Performance bias — prevents surgeons from modifying care based on treatment allocation"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Detection bias (also called ascertainment bias) occurs when knowledge of the treatment allocation influences how outcomes are measured or classified. If an outcome assessor knows a patient had laparoscopic surgery (the 'better' arm), they might record borderline complications differently than in the open arm. Blinding the outcome assessor to operative approach — achievable even when patient and surgeon blinding is impossible — prevents this. In surgical trials, assessor blinding is the achievable standard that partially compensates for the impossibility of surgical blinding.",
+          "wrong": {
+            "A": "Selection bias is addressed by allocation concealment at enrolment, not by outcome assessor blinding.",
+            "B": "Attrition bias is addressed by minimising loss to follow-up and using ITT analysis — not by outcome assessor blinding.",
+            "D": "Performance bias is addressed by blinding of the care provider (impossible for the surgeon in surgical trials) and by standardising care protocols across arms."
+          },
+          "guideline": "Cochrane Risk of Bias Tool (RoB 2) — Domain 4: bias in measurement of the outcome; assessor blinding reduces detection bias",
+          "trial": "COLOR trial (Veldkamp, Lancet Oncology 2005): used central pathological review of specimens blinded to operative approach to minimise detection bias in pathological outcome assessment.",
+          "pearl": "In any surgical RCT, outcome assessor blinding is the most important and achievable form of blinding. For objective outcomes (mortality, pathological margins), detection bias is lower. For subjective outcomes (quality of life, functional assessment), assessor blinding is critical."
+        }
+      },
+      {
+        "id": "C2-Q15",
+        "stem": "A surgical research team wants to conduct a qualitative study to understand why surgeons in their region do not adopt minimally invasive oesophagectomy despite published evidence of benefit. Which qualitative method is MOST appropriate?",
+        "options": {
+          "A": "Systematic review of published studies on minimally invasive oesophagectomy outcomes",
+          "B": "Cross-sectional questionnaire survey with Likert-scale rating of barriers to adoption",
+          "C": "Semi-structured interviews with surgeons performing and not performing minimally invasive oesophagectomy, with thematic analysis",
+          "D": "Randomised trial of educational intervention to increase adoption rates"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Understanding the complex reasons behind surgeon behaviour — specifically non-adoption of a technique — requires exploration of contextual, personal, and institutional factors that Likert scales cannot capture. Semi-structured interviews allow: follow-up on unexpected responses; exploration of sensitive topics (learning curve fear, institutional politics, patient selection concerns); and nuanced understanding of how surgeons balance evidence against practical constraints. Purposive sampling should include both adopters and non-adopters for maximum variation. Thematic analysis will generate themes such as 'learning curve anxiety', 'case volume concerns', 'lack of mentorship', and 'patient selection ambiguity'.",
+          "wrong": {
+            "A": "A systematic review of outcomes does not address why surgeons fail to adopt — it would confirm the evidence gap but not explain the behaviour.",
+            "B": "A Likert-scale questionnaire constrains responses to pre-defined categories — it cannot capture unexpected barriers or the nuanced reasoning behind adoption decisions.",
+            "D": "An RCT of educational intervention tests whether an intervention changes adoption — it does not first establish why adoption is low, which is the prerequisite for designing an effective intervention."
+          },
+          "guideline": "COREQ (Consolidated Criteria for Reporting Qualitative Research) — 32-item checklist for qualitative studies in healthcare",
+          "trial": "Aggarwal R et al. qualitative study (Ann Surg 2012): semi-structured interviews with 21 upper GI surgeons exploring barriers to robotic surgery adoption — identified training pathway, case volume, and institutional support as key themes.",
+          "pearl": "Qualitative research is not 'soft' science — it requires rigorous methodology (purposive sampling, independent coding, member checking) and produces findings that are not generalisable in the statistical sense but theoretically transferable to similar contexts."
+        }
+      },
+      {
+        "id": "C2-Q16",
+        "stem": "A phase II/III seamless adaptive design in laparoscopic liver resection uses an interim analysis to select the better of two liver transection techniques before continuing to the confirmatory phase. What is the PRIMARY statistical concern with this design?",
+        "options": {
+          "A": "Selection of the better arm inflates the type II error rate (reduces power)",
+          "B": "Using phase II data in the phase III confirmatory analysis inflates the type I error rate if not pre-specified with appropriate statistical methods",
+          "C": "Seamless designs always require more patients than separate phase II and III trials",
+          "D": "Regulatory agencies do not accept seamless adaptive designs"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In a seamless adaptive design, patients from the phase II arm-selection stage are included in the final confirmatory phase III analysis ('data carryover'). This is statistically efficient but inflates the type I error rate if: (1) the arm selection was based on the same endpoint as the final confirmatory analysis; (2) the statistical method does not account for the selection step. Appropriate methods (combination tests, conditional power calculations, closed testing procedures) must be pre-specified to maintain the overall type I error rate. Without these corrections, the apparent phase III significance is spurious.",
+          "wrong": {
+            "A": "Seamless designs with appropriate methods maintain type I error — they are not designed to affect type II error (power). If anything, they may increase power by including phase II data.",
+            "C": "Seamless designs are more efficient (require fewer patients) than separate sequential trials — this is their main advantage.",
+            "D": "FDA and EMA both accept seamless adaptive designs provided appropriate statistical methods are pre-specified and the design is reviewed before trial initiation."
+          },
+          "guideline": "FDA guidance 'Adaptive Design Clinical Trials for Drugs and Biologics' (2019); EMA reflection paper on adaptive designs (2007)",
+          "trial": "I-SPY 2 (Investigation of Serial studies to Predict Your Therapeutic Response): seamless adaptive platform trial in breast cancer — allows drugs to graduate to phase III based on interim Bayesian assessment.",
+          "pearl": "The critical requirement for any adaptive design is that all modifications — including how phase II data are used in phase III — must be pre-specified before ANY data are seen. Post-hoc adaptation decisions invalidate the type I error control."
+        }
+      },
+      {
+        "id": "C2-Q17",
+        "stem": "Which of the following descriptions BEST characterises a pragmatic trial using the PRECIS-2 framework?",
+        "options": {
+          "A": "Narrow eligibility criteria excluding comorbid patients; expert centres only; intensive protocol monitoring; hypothetical estimand; central blinded outcome adjudication",
+          "B": "Broad eligibility criteria; routine care settings; flexible intervention delivery; treatment policy estimand; routine data outcome collection; high generalisability to everyday practice",
+          "C": "Single-centre design with maximum control of confounders; per-protocol analysis as primary; biological mechanism focus",
+          "D": "Maximum statistical power through highly selected population; efficacy focus; laboratory biomarker primary outcome"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PRECIS-2 (Pragmatic-Explanatory Continuum Indicator Summary) assesses trials across 9 domains: eligibility, recruitment, setting, organisation, flexibility of delivery, flexibility of adherence, follow-up, primary outcome, and primary analysis. A maximally pragmatic trial scores high on all 9 domains: open eligibility; routine clinical settings; flexible, real-world intervention delivery; minimal per-protocol monitoring; routine data outcome collection (avoiding expensive specialist assessments); treatment policy estimand (ITT); high generalisability. Pragmatic trials ask: 'Does this intervention work in the real world?'",
+          "wrong": {
+            "A": "This describes a maximally explanatory trial — the opposite of pragmatic.",
+            "C": "Single-centre design with confound control is an explanatory characteristic. Pragmatic trials prefer multicentre designs in routine settings.",
+            "D": "Highly selected populations and biomarker endpoints are explanatory characteristics — maximising internal validity at the cost of generalisability."
+          },
+          "guideline": "Loudon K et al. 'The PRECIS-2 tool: designing trials that are fit for purpose.' BMJ 2015 — definitive paper on pragmatic-explanatory assessment",
+          "trial": "RECOVER trial (rehabilitation after critical illness): maximally pragmatic — broad eligibility, diverse NHS ICUs, flexible physiotherapy delivery, patient-reported outcome — contrasts with explanatory rehabilitation trials in selected populations.",
+          "pearl": "Before designing a surgical trial, complete a PRECIS-2 assessment. If the PRECIS-2 wheel is unbalanced (some domains pragmatic, some explanatory), the trial is likely misaligned — reconcile before finalising the design."
+        }
+      },
+      {
+        "id": "C2-Q18",
+        "stem": "In a cluster RCT of a surgical safety programme, the unit of randomisation is the hospital. Which approach BEST accounts for the clustering in the statistical analysis?",
+        "options": {
+          "A": "Standard logistic regression ignoring the cluster structure",
+          "B": "Mixed effects logistic regression (multilevel model) with a random effect for hospital",
+          "C": "Fisher's exact test applied to each cluster separately",
+          "D": "Meta-analysis of individual hospital results combined with a fixed-effect model"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Mixed effects (multilevel) regression accounts for the hierarchical structure of cluster RCT data — patients nested within hospitals. The random effect for hospital captures between-cluster variability in baseline outcome rates, allowing valid inference about the treatment effect while acknowledging that patients within the same hospital are correlated. This approach simultaneously adjusts for baseline covariates, handles unequal cluster sizes, and properly estimates standard errors. Ignoring clustering underestimates standard errors, producing spuriously narrow confidence intervals and falsely significant p-values.",
+          "wrong": {
+            "A": "Standard logistic regression treats all patients as independent — it underestimates the variance of the treatment effect estimate, producing invalid inference when ICC > 0.",
+            "C": "Analysing each cluster separately destroys statistical power (each cluster has few events) and does not provide a single overall treatment effect estimate.",
+            "D": "Meta-analysis of cluster results using fixed effects ignores between-cluster heterogeneity and does not correctly account for correlation within clusters."
+          },
+          "guideline": "CONSORT cluster RCT extension — Item 12b: statistical methods for cluster RCTs should account for clustering, typically using multilevel models or GEE",
+          "trial": "EPOCH cluster RCT (enhanced recovery): used multilevel mixed-effects logistic regression with hospital as random effect — appropriate primary analysis for the 93-hospital cluster design.",
+          "pearl": "The two main approaches for cluster RCT analysis are: (1) mixed effects models (patient-level analysis with random cluster effect); (2) GEE (Generalised Estimating Equations — cluster-level marginal estimates). For pragmatic interpretation, GEE is often preferred; for efficiency, mixed effects models are superior."
+        }
+      },
+      {
+        "id": "C2-Q19",
+        "stem": "In a non-inferiority trial of laparoscopic versus open pancreatectomy for cancer, what is the CRITICAL distinction between conducting the primary analysis as ITT versus per-protocol, and why?",
+        "options": {
+          "A": "ITT is preferred for NI trials because non-adherence inflates treatment differences, making ITT conservative for NI",
+          "B": "Per-protocol is preferred for NI trials as the primary analysis because non-adherence makes groups more similar in ITT, spuriously supporting non-inferiority; both ITT and PP must be concordant for NI to be accepted",
+          "C": "Neither ITT nor PP is appropriate for NI trials — a Bayesian analysis is required",
+          "D": "ITT and PP give identical results in NI trials by design — the choice is irrelevant"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In superiority trials, ITT is conservative (non-adherence reduces treatment differences, making it harder to achieve significance — this protects against false positives). In non-inferiority trials, this property is reversed: non-adherence in ITT makes the two groups look more similar than they truly are, spuriously supporting NI — even if the new treatment is genuinely inferior, high crossover and non-adherence in ITT can make the CI fall within the NI margin. Therefore, both ITT and per-protocol analyses must be reported for NI trials, and NI should only be declared if BOTH analyses reach the NI conclusion. ICH E9 and most regulatory guidelines mandate this dual requirement.",
+          "wrong": {
+            "A": "This describes the situation for superiority trials, where ITT is the appropriate primary analysis because it is conservative against false positives. For NI trials, ITT is anti-conservative.",
+            "C": "Bayesian analysis is a valid alternative framework but is not required — frequentist analysis with both ITT and PP is the regulatory standard for NI trials.",
+            "D": "ITT and PP commonly give materially different results in NI trials precisely because non-adherence and crossover affect the NI conclusion direction."
+          },
+          "guideline": "ICH E10 — Choice of Control Group; EMA Guideline on the choice of the non-inferiority margin; FDA guidance on NI trials (2016)",
+          "trial": "ACOSOG Z6051 (laparoscopic vs open rectal resection): co-primary ITT and PP analyses — NI was demonstrated in both, providing robust conclusion; contrasts with trials where ITT and PP disagree.",
+          "pearl": "In any NI trial, before accepting the NI conclusion, verify: (1) Was the NI margin pre-specified with justification? (2) Do both ITT and PP analyses support NI? (3) Is the active control demonstrably effective vs placebo (assay sensitivity)? All three must be satisfied."
+        }
+      },
+      {
+        "id": "C2-Q20",
+        "stem": "A surgical trainee is designing a mixed-methods study of an ERAS programme implementation. They plan to conduct an RCT of ERAS vs standard care AND a qualitative process evaluation. In the MRC framework for complex interventions, what is the PRIMARY purpose of the qualitative component?",
+        "options": {
+          "A": "To replace the RCT if it fails to show a significant result",
+          "B": "To understand mechanisms, fidelity, context, and patient experience — explaining how and why the ERAS programme produced (or failed to produce) the quantitative outcomes",
+          "C": "To provide a narrative summary of the RCT findings for non-technical readers",
+          "D": "To increase the sample size by combining qualitative participants with RCT participants"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The MRC framework for complex interventions explicitly recommends a process evaluation alongside RCTs of complex interventions such as ERAS. The process evaluation's purpose is mechanistic understanding, not hypothesis testing: (1) Fidelity — was the ERAS bundle delivered as specified? Which elements were delivered consistently? (2) Dose — how much of the intervention did each patient receive? (3) Mechanisms — did the proposed active mechanisms (early mobilisation, oral intake, multimodal analgesia) actually operate? (4) Context — which contextual factors (ward culture, staffing, patient factors) modified the intervention's effect? This explains why the RCT result occurred and enables translation to other settings.",
+          "wrong": {
+            "A": "The qualitative component is designed prospectively alongside the RCT — it is not a fallback for a negative trial. Process evaluations of negative RCTs can be as informative as those of positive ones.",
+            "C": "Plain language summaries serve a communication purpose — they are not what a process evaluation is. A process evaluation generates new evidence about mechanisms.",
+            "D": "Qualitative and quantitative participants may overlap (interviewing RCT participants about their experience), but the purpose is mechanistic understanding, not sample size augmentation."
+          },
+          "guideline": "Moore GF et al. 'Process evaluation of complex interventions: MRC guidance.' BMJ 2015 — defining document for process evaluation in surgical research",
+          "trial": "ICAN trial (post-ICU rehabilitation): parallel qualitative process evaluation explored patient and physiotherapist perspectives on rehabilitation delivery — explained variation in intervention dose across centres and informed implementation.",
+          "pearl": "A process evaluation should be designed concurrently with the RCT, not as an afterthought. Pre-specify the process evaluation objectives, data sources, and analysis approach in the overall study protocol."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,696 @@
+{
+  "id": "A5",
+  "title": "Breast Surgery & Oncology",
+  "subtitle": "Surgical Oncology — Conservation, Oncoplastics & Sentinel Node",
+  "block": "A",
+  "block_name": "Surgical Oncology",
+  "level": "PGY2-3",
+  "reading_time_min": 65,
+  "guidelines_version": "NCCN Breast Cancer v5.2024 · ESMO 2023 · St Gallen Consensus 2023 · SSO/ASTRO 2014",
+  "textbook_refs": [
+    "Schwartz's Principles of Surgery, 11th ed., Ch. 17",
+    "Harris JR et al. Diseases of the Breast, 5th ed.",
+    "NCCN Clinical Practice Guidelines in Oncology: Breast Cancer v5.2024"
+  ],
+  "learning_objectives": [
+    "Define the indications for breast-conserving surgery versus mastectomy",
+    "Apply the ACOSOG Z0011 criteria for sentinel node biopsy without axillary dissection",
+    "Describe the surgical steps of wire/seed-guided wide local excision",
+    "Interpret molecular subtypes (Luminal A/B, HER2+, TNBC) and their surgical implications",
+    "Outline the indications and techniques for oncoplastic breast surgery",
+    "Select candidates for neoadjuvant chemotherapy and plan post-NAC surgical management",
+    "Choose between implant-based and autologous immediate breast reconstruction",
+    "Apply post-NAC axillary management strategies including targeted axillary dissection"
+  ],
+  "sections": [
+    {
+      "id": "A5-S1",
+      "title": "Breast Conservation vs Mastectomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Breast-conserving surgery (BCS) — wide local excision (WLE) with clear margins followed by whole-breast radiotherapy — is oncologically equivalent to mastectomy for most stage I-III breast cancers. This equivalence was established by the landmark Milan Trial (Veronesi, NEJM 2002) and NSABP B-06 (Fisher, NEJM 2002) with up to 20-year follow-up. BCS should be offered to all women without absolute contraindications (inability to receive RT, multicentric disease requiring non-achievable margins, patient preference for mastectomy)."
+        },
+        {
+          "type": "table",
+          "title": "Contraindications to Breast-Conserving Surgery",
+          "headers": ["Contraindication", "Type", "Notes"],
+          "rows": [
+            ["Multicentric disease (≥2 quadrants)", "Relative/Absolute", "May be overcome by oncoplastic techniques in selected cases"],
+            ["Prior breast irradiation to the same breast", "Absolute", "Retreatment RT not feasible"],
+            ["Positive margins not achievable", "Absolute", "After re-excision attempt; anatomy-dependent"],
+            ["Active SLE/scleroderma", "Relative", "Connective tissue disease increases RT toxicity"],
+            ["Pregnancy (1st/2nd trimester)", "Relative", "RT deferred; mastectomy may be preferred to avoid RT exposure"],
+            ["BRCA1/2 mutation with patient preference", "Not contraindication", "Equivalent local recurrence; contralateral risk counselling mandatory"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "ACOSOG Z0011 (Giuliano, JAMA 2011/2017)",
+          "content": "**Population:** 891 women with T1-T2 breast cancer, 1–2 positive sentinel nodes, BCS + whole-breast RT. **Result:** 10-year OS 86.3% SLN alone vs 83.6% ALND (non-inferiority p=0.02); locoregional recurrence equivalent. **Practice change:** Completion axillary lymph node dissection eliminated for this patient group. Patient eligibility: T1-T2, 1-2 positive SLN, BCS planned, whole-breast RT planned, no neoadjuvant therapy, clinically node-negative."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Margin Width",
+          "content": "For invasive breast cancer with BCS, the SSO/ASTRO consensus (2014) defines adequate margin as **no ink on tumour** — a 1mm or 2mm margin is not required. For DCIS, a 2mm margin is recommended. This consensus reduced re-excision rates without increasing local recurrence."
+        }
+      ]
+    },
+    {
+      "id": "A5-S2",
+      "title": "Sentinel Node Biopsy Technique",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Sentinel lymph node biopsy (SLNB) is the standard axillary staging procedure for clinically node-negative (cN0) breast cancer. Dual-tracer technique (radioisotope 99mTc-labelled colloid + blue dye or fluorescent tracer) achieves the highest detection rate (>96%) with lowest false-negative rate (<5%). The procedure: peritumoral or periareolar injection of tracer; intraoperative gamma probe guidance to identify the hot node(s); visual identification of blue-stained nodes; ex vivo counting. Minimum 3 sentinel nodes should be retrieved; all hot and/or blue nodes are removed."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Z0011 Eligibility",
+          "content": "Do not omit ALND outside Z0011 criteria. Z0011 does NOT apply to: mastectomy patients; patients with ≥3 positive SLN; patients who received neoadjuvant chemotherapy; patients not planned for whole-breast RT. Applying Z0011 findings outside these criteria risks inadequate axillary management."
+        }
+      ]
+    },
+    {
+      "id": "A5-S3",
+      "title": "Molecular Subtypes and Surgical Implications",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Breast Cancer Molecular Subtypes — Surgical Implications",
+          "headers": ["Subtype", "Profile", "Neoadjuvant?", "Key Surgical Point"],
+          "rows": [
+            ["Luminal A", "ER+/PR+ high, HER2-, low Ki-67", "Rarely — endocrine therapy preferred", "BCS preferred; Oncotype DX may guide adjuvant chemo"],
+            ["Luminal B", "ER+, HER2-, high Ki-67 OR HER2+", "Consider if downstaging needed", "SLNB standard; post-NAC restage axilla"],
+            ["HER2+ (non-luminal)", "HER2+ ER-/PR-", "Yes — dual HER2 blockade + chemo", "pCR 50–60%; residual disease → T-DM1"],
+            ["Triple-negative (TNBC)", "ER-, PR-, HER2-", "Yes — BRCAm: olaparib; high pCR rate", "pCR 35–45%; residual disease → capecitabine (CREATE-X)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl",
+          "content": "**BRCA1/2 mutations** do not change the indication for BCS vs mastectomy from an oncological standpoint — local recurrence rates are equivalent. However, mutation carriers have a significantly elevated contralateral breast cancer risk (BRCA1: 65%, BRCA2: 45% lifetime) and bilateral risk-reducing mastectomy should be discussed. The surgical decision is driven by patient preference and contralateral risk management, not ipsilateral recurrence risk."
+        }
+      ]
+    },
+    {
+      "id": "A5-S4",
+      "title": "Neoadjuvant Chemotherapy — Indications & Surgical Planning",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Neoadjuvant chemotherapy (NAC) is administered before surgery to downstage the primary tumour and axilla, enabling breast-conserving surgery in patients who would otherwise require mastectomy, and to assess tumour chemosensitivity in vivo. In addition, pathological complete response (pCR — no residual invasive cancer in breast or nodes, ypT0/is ypN0) is a validated surrogate for improved long-term survival in HER2+ and TNBC subtypes. Subtypes most likely to benefit from and respond to NAC are: HER2+ (dual HER2 blockade with pertuzumab/trastuzumab + chemotherapy; pCR 40–65%), TNBC (platinum-containing regimens; pCR 35–55%), and large Luminal B (high Ki-67; pCR lower but downstaging meaningful). Luminal A tumours have very low pCR rates and rarely benefit from NAC — neoadjuvant endocrine therapy is an option for elderly/frail patients."
+        },
+        {
+          "type": "text",
+          "content": "Response assessment during NAC is critical. Clinical examination, ultrasound, and MRI are used to monitor response after 2 cycles and again at completion of NAC. Placement of a radiopaque clip in the primary tumour bed at diagnosis (before NAC) is mandatory to allow accurate tumour bed localisation for surgical excision, as some tumours disappear radiologically on imaging after NAC. At surgery, the clipped site must be excised even in the setting of complete clinical response."
+        },
+        {
+          "type": "table",
+          "title": "Neoadjuvant Chemotherapy — Subtypes, Regimens, and Residual Disease Management",
+          "headers": ["Subtype", "NAC Regimen", "pCR Rate", "Residual Disease Management"],
+          "rows": [
+            ["HER2+ (non-luminal)", "AC × 4 → paclitaxel/trastuzumab/pertuzumab × 4 (NeoSphere protocol)", "50–65%", "T-DM1 (ado-trastuzumab emtansine) for 14 cycles (KATHERINE trial)"],
+            ["HER2+ (luminal)", "As above ± neoadjuvant AI", "35–50%", "T-DM1 for residual; consider CDK4/6 inhibitors for HR+ residual"],
+            ["TNBC", "AC × 4 → paclitaxel × 4 ± carboplatin (GeparSixto)", "40–55% with platinum", "Capecitabine × 8 cycles (CREATE-X trial); olaparib if BRCAm"],
+            ["Luminal B (HER2-)", "Anthracycline + taxane-based", "10–20%", "Adjuvant CDK4/6 inhibitor (abemaciclib MONARCH-E); consider extended endocrine therapy"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "GeparSixto Trial (von Minckwitz, Lancet Oncol 2014)",
+          "content": "**Population:** 595 patients with HER2+ or TNBC breast cancer treated with neoadjuvant paclitaxel/non-pegylated liposomal doxorubicin ± carboplatin. **Result:** Addition of carboplatin significantly increased pCR in TNBC (36.9% vs 53.2%, p=0.005) but not significantly in HER2+ subgroup. **Practice change:** Established carboplatin as an integral component of neoadjuvant regimens for TNBC, particularly in BRCA mutation carriers, and highlighted the platinum sensitivity of basal-like tumours."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — pCR and Survival Surrogate",
+          "content": "pCR (ypT0/is ypN0) predicts improved event-free survival and OS in **HER2+ and TNBC** but is a weaker surrogate in HR+ (Luminal) subtypes. The FDA has accepted pCR as a regulatory endpoint for accelerated approval in these high-proliferative subtypes. For Luminal tumours, residual cancer burden (RCB score) provides better prognostic discrimination than pCR alone."
+        }
+      ]
+    },
+    {
+      "id": "A5-S5",
+      "title": "Oncoplastic Breast Surgery — Techniques & Indications",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Oncoplastic breast surgery (OPS) combines oncological resection with immediate plastic surgical reconstruction techniques to achieve tumour-free margins while preserving acceptable breast shape and volume. OPS has expanded the indications for breast-conserving surgery, enabling resection of larger tumours and challenging locations (central, lower pole, medial) that would otherwise require mastectomy. Two broad categories of oncoplastic techniques exist: volume displacement (rearranging existing breast tissue) and volume replacement (importing tissue from outside the breast)."
+        },
+        {
+          "type": "table",
+          "title": "Oncoplastic Breast Surgery — Technique Classification and Indications",
+          "headers": ["Category", "Techniques", "Best Indication", "Tumour:Breast Ratio"],
+          "rows": [
+            ["Volume Displacement — Level I", "Glandular advancement flaps, batwing/hatchet excision, round block (periareolar)", "Peripheral tumours; small-medium breasts", "<20%"],
+            ["Volume Displacement — Level II", "Therapeutic reduction mammoplasty (inverted-T, vertical scar), wise pattern, inferior pedicle", "Large-breasted women; central/lower tumours; ptotic breasts", "20–50%"],
+            ["Volume Replacement — Pedicled", "Thoracodorsal artery perforator (TAP) flap, lateral intercostal perforator (LICAP) flap", "Lateral quadrant defects; thin-breasted women", ">20%, moderate volume"],
+            ["Volume Replacement — LD mini-flap", "Latissimus dorsi miniflap (without implant)", "Upper outer/inner quadrant; partial mastectomy defect", "20–40%"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "The key principle in OPS is that the oncological resection must not be compromised by the plastic component — margins take absolute priority. The choice of technique depends on: tumour location; tumour size relative to breast volume (tumour:breast ratio); breast size and degree of ptosis; patient body habitus (availability of donor tissue for volume replacement); and patient preference for contralateral symmetrisation (simultaneous contralateral reduction/mastopexy). Intraoperative specimen imaging (radiology or specimen ultrasound) and orientation with clips/sutures is mandatory to allow targeted re-excision if margins are positive."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Tumour:Breast Ratio >20%",
+          "content": "A **tumour:breast ratio >20%** is the accepted threshold at which standard WLE is likely to produce an unacceptable cosmetic deformity. At this ratio, oncoplastic level II techniques (reduction mammoplasty, large volume displacement) or volume replacement should be considered. In large-breasted women with macromastia, therapeutic mammoplasty (resection of tumour combined with reduction) provides simultaneous oncological and aesthetic benefit and may offer the opportunity to irradiate a smaller breast volume."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Patient Selection for OPS",
+          "content": "Oncoplastic breast surgery is NOT appropriate for: active smokers (flap necrosis risk); poorly controlled diabetes; morbid obesity (wound healing complications); prior radiation to the breast (compromised tissue healing); and — critically — when margins cannot be assured oncologically. OPS should not be used to 'rescue' a sub-optimal resection after the fact. The plastic technique must be planned before the surgical incision."
+        }
+      ]
+    },
+    {
+      "id": "A5-S6",
+      "title": "Immediate Breast Reconstruction — Implant-Based vs Autologous",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Immediate breast reconstruction (IBR) at the time of mastectomy offers psychological, oncological, and practical advantages over delayed reconstruction. IBR does not delay adjuvant chemotherapy (typically starting 3–4 weeks post-mastectomy) or radiation (6–8 weeks post-surgery). Two broad approaches exist: implant-based reconstruction (IBR) — the most common technique worldwide — and autologous tissue reconstruction, which uses the patient's own tissue to recreate the breast mound."
+        },
+        {
+          "type": "table",
+          "title": "Immediate Breast Reconstruction — Implant-Based vs Autologous Comparison",
+          "headers": ["Parameter", "Implant-Based (Direct/Two-Stage)", "DIEP Flap", "TRAM Flap", "LD Flap ± Implant"],
+          "rows": [
+            ["Operative time", "1–2 hours", "6–8 hours (microsurgery)", "4–6 hours", "3–4 hours"],
+            ["Recovery", "2–4 weeks", "4–6 weeks", "4–6 weeks", "3–4 weeks"],
+            ["Donor site morbidity", "None", "Minimal (muscle-sparing)", "Abdominal wall weakness", "Back weakness, seroma"],
+            ["Effect of radiation", "High: capsular contracture, implant failure (30–50% with RT)", "Moderate: fat necrosis but autologous tissue tolerates RT better", "Moderate", "Moderate"],
+            ["Body habitus requirement", "None (requires adequate skin envelope)", "Adequate abdominal tissue", "Adequate abdominal tissue", "Adequate back tissue"],
+            ["Nipple-sparing mastectomy suitability", "Excellent (direct-to-implant)", "Excellent", "Good", "Good"],
+            ["Long-term outcome", "Implant exchange may be needed; 10yr revision ~30%", "Durable; natural feel; ages naturally", "Durable", "Implant-dependent feel"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Two-stage tissue expander (TE) reconstruction involves placement of a temporary tissue expander at mastectomy, with sequential fill over weeks/months to expand the skin envelope, followed by exchange to a permanent implant 3–6 months later. Direct-to-implant (DTI) reconstruction places the final implant at the time of mastectomy and is ideal for nipple-sparing mastectomy with adequate skin flap perfusion. Acellular dermal matrices (ADM, e.g., AlloDerm, Strattice) are used to cover the inferior pole of the implant when native tissue coverage is insufficient, reducing rotation and providing internal support — particularly in DTI procedures."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Radiation Effect on Reconstruction",
+          "content": "Post-mastectomy radiotherapy (PMRT) significantly increases the risk of implant-based reconstruction failure (capsular contracture, implant rupture, chronic pain, poor cosmesis): incidence 30–50% with PMRT vs 5–15% without. When PMRT is anticipated (4+ positive nodes, T3/T4, close margins), discuss with the patient the option of: (1) delayed reconstruction after radiation; (2) autologous reconstruction (DIEP/TRAM tolerate radiation better); or (3) two-stage TE with planned conversion to autologous tissue after radiation. The tissue expander should remain deflated during radiation and exchanged to permanent implant or autologous reconstruction 3–6 months post-RT."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Nipple-Sparing Mastectomy Criteria",
+          "content": "Nipple-sparing mastectomy (NSM) is oncologically safe when: tumour is >2 cm from the nipple; nipple-areola complex (NAC) is not involved clinically or on MRI; no bloody nipple discharge; no Paget's disease; nipple not inverted due to tumour. Intraoperative frozen section of the retroareolar tissue is mandatory — if positive, the NAC must be excised. NSM is contraindicated in inflammatory breast cancer and when subareolar tumour extension is confirmed."
+        }
+      ]
+    },
+    {
+      "id": "A5-S7",
+      "title": "Axillary Management After Neoadjuvant Therapy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Axillary management after NAC is complex because standard SLNB in a previously node-positive (cN+) patient has a higher false-negative rate (FNR) than in cN0 patients. Three landmark prospective studies — FALSE trial (Netherlands), ACOSOG Z1071 (US), and SENTINA (Germany) — assessed the accuracy of post-NAC SLNB in initially node-positive patients who converted to ypN0. All three demonstrated FNR of 12–14% with dual-tracer SLNB alone, which exceeds the acceptable threshold of <10%. This FNR can be reduced to <5% by targeted axillary dissection (TAD)."
+        },
+        {
+          "type": "text",
+          "content": "Targeted Axillary Dissection (TAD) is the recommended strategy for ypN0 assessment after NAC in initially node-positive patients. TAD consists of: (1) clip placement in the biopsy-proven positive node at diagnosis; (2) post-NAC seed/wire localisation of the clipped node; (3) surgical excision of the sentinel nodes PLUS the clipped (marked) node, regardless of whether it is a sentinel node. Retrieval of the marked node is confirmed by specimen radiography. Studies show TAD reduces FNR to 2–4%, making axillary dissection avoidable in patients achieving ypN0 with TAD."
+        },
+        {
+          "type": "table",
+          "title": "Post-NAC Axillary Management — Key Trials",
+          "headers": ["Trial", "Population", "SLNB FNR", "Key Finding"],
+          "rows": [
+            ["ACOSOG Z1071 (Boughey, JAMA 2013)", "cN1 patients post-NAC; dual-tracer SLNB", "12.6% overall", "FNR reduced to 6.8% when ≥3 SLN retrieved; clipped node retrieval further reduces FNR"],
+            ["SENTINA (Kuehn, Lancet Oncol 2013)", "cN+ post-NAC; ypN0 cohort", "14.2%", "FNR unacceptably high with single tracer; dual tracer with ≥3 SLN needed"],
+            ["FALSE Trial (Simons, JAMA Oncol 2022)", "cN1-N2 post-NAC; TAD vs ALND", "FNR 4.2% with TAD", "TAD with clipped node retrieval meets <5% FNR threshold — supports ALND omission in ypN0"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — ypN0 After NAC: Is ALND Still Needed?",
+          "content": "**ypN0 with TAD (clipped node retrieved + ≥3 SLN removed):** ALND can be safely omitted. Multiple studies demonstrate that patients achieving ypN0 with adequate TAD have similar locoregional recurrence rates with axillary irradiation (regional nodal irradiation) substituting for ALND. **ypN1 (residual nodal disease):** ALND is still required in most cases, as residual axillary disease has significant implications for locoregional control and systemic therapy intensification."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — FNR in Post-NAC SLNB Without TAD",
+          "content": "Standard dual-tracer SLNB alone after NAC in initially cN+ patients has an FNR of 12–14% — well above the acceptable <10% threshold. Do NOT rely on SLNB alone in cN1+ patients treated with NAC. Clipped node retrieval (TAD) is mandatory to reduce FNR to acceptable levels. If the clipped node cannot be identified or retrieved, ALND is appropriate."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your breast surgery and oncology knowledge. 20 questions covering all major topics.",
+    "questions": [
+      {
+        "id": "A5-Q1",
+        "stem": "A 48-year-old woman has a 2.2cm T2 N0 M0 ER+/PR+/HER2- breast cancer in the upper outer quadrant. She strongly prefers breast conservation. She has no prior breast irradiation and no connective tissue disease. What is the most appropriate surgical approach?",
+        "options": {
+          "A": "Mastectomy — tumour >2cm is a contraindication to BCS",
+          "B": "Wide local excision (BCS) + sentinel node biopsy + adjuvant whole-breast radiotherapy",
+          "C": "BCS without sentinel node biopsy — lymph node staging is not required for T2 tumours",
+          "D": "Neoadjuvant chemotherapy to reduce tumour size before BCS"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "BCS is appropriate for T2 N0 tumours when R0 resection with acceptable cosmesis is achievable. Tumour size alone does not contraindicate BCS. SLNB is mandatory for all invasive breast cancers undergoing surgery. Whole-breast radiotherapy after BCS is required for local control.",
+          "wrong": {
+            "A": "T2 (>2cm but ≤5cm) is not a contraindication to BCS. The indication is based on achieving clear margins and acceptable cosmesis.",
+            "C": "SLNB is required for all invasive breast cancers undergoing surgery for staging — regardless of clinical N0 status.",
+            "D": "Neoadjuvant chemotherapy is not indicated for Luminal A tumours — these respond poorly to chemotherapy."
+          },
+          "guideline": "NCCN Breast Cancer v5.2024 — BCS appropriate for stage I-II tumours with achievable negative margins; SLNB for all invasive cancers",
+          "trial": "Milan Trial (Veronesi, NEJM 2002): quadrantectomy vs mastectomy — equivalent 20-year OS. NSABP B-06: lumpectomy + RT equivalent to mastectomy.",
+          "pearl": "Always discuss reconstruction options at the time of surgical planning — even for BCS. Oncoplastic techniques can achieve excellent cosmesis for larger excisions."
+        }
+      },
+      {
+        "id": "A5-Q2",
+        "stem": "A 42-year-old woman with a 3 cm ER-/PR-/HER2- (TNBC) breast cancer receives neoadjuvant AC-paclitaxel. Pathological assessment after surgery reveals residual invasive carcinoma in the breast (ypT1b) and one positive lymph node (ypN1). What is the most appropriate adjuvant systemic therapy?",
+        "options": {
+          "A": "No further systemic therapy — chemotherapy was already given pre-operatively",
+          "B": "Adjuvant capecitabine for 8 cycles (CREATE-X regimen)",
+          "C": "Adjuvant T-DM1 for 14 cycles",
+          "D": "Adjuvant olaparib — all TNBC patients with residual disease should receive PARP inhibitors"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The CREATE-X trial (Masuda et al., NEJM 2017) demonstrated that adjuvant capecitabine for 8 cycles in HER2-negative breast cancer patients with residual disease after NAC significantly improved disease-free survival and OS (particularly in TNBC: 5-year OS 78.8% vs 70.3%). Capecitabine is now standard adjuvant therapy for TNBC and HR+ HER2- patients with residual disease after NAC.",
+          "wrong": {
+            "A": "Residual disease after NAC is a high-risk feature requiring treatment intensification — not observation.",
+            "C": "T-DM1 is the standard for HER2+ residual disease (KATHERINE trial), not TNBC. This patient is HER2-.",
+            "D": "Olaparib (PARP inhibitor) is indicated for germline BRCA1/2-mutated HER2-negative breast cancer in the adjuvant setting (OlympiA trial) — only in BRCA mutation carriers, not all TNBC patients."
+          },
+          "guideline": "NCCN Breast v5.2024 — adjuvant capecitabine for non-pCR after NAC in HER2- breast cancer",
+          "trial": "CREATE-X (Masuda, NEJM 2017): n=910 HER2- non-pCR patients; capecitabine improved 5yr DFS (74.1% vs 67.6%) and OS; TNBC subgroup had largest benefit.",
+          "pearl": "Residual disease algorithm after NAC: HER2+ residual → T-DM1 (KATHERINE); TNBC residual → capecitabine (CREATE-X) ± olaparib if BRCA+; HR+ HER2- residual → capecitabine ± CDK4/6 inhibitor (MONARCH-E)."
+        }
+      },
+      {
+        "id": "A5-Q3",
+        "stem": "A 35-year-old woman presents with a 5 cm erythematous right breast with peau d'orange skin changes involving more than one-third of the breast. The nipple is retracted. Core biopsy shows ER+/HER2- invasive ductal carcinoma. The most appropriate initial diagnosis and management is:",
+        "options": {
+          "A": "T3 locally advanced breast cancer — start neoadjuvant chemotherapy",
+          "B": "Inflammatory breast cancer (IBC) — start neoadjuvant chemotherapy; mastectomy is the eventual surgical treatment",
+          "C": "Locally recurrent breast cancer — re-excision of the primary site",
+          "D": "T4b breast cancer — upfront mastectomy followed by adjuvant chemotherapy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Inflammatory breast cancer (IBC) is a clinical diagnosis requiring: (1) rapid onset of erythema, edema (peau d'orange), and/or skin warmth involving ≥1/3 of the breast; (2) pathological confirmation of carcinoma (not required to be in dermal lymphatics, though lymphatic emboli are common). IBC is classified as T4d and is treated with neoadjuvant chemotherapy first (HER2-directed if HER2+; anthracycline/taxane-based) followed by modified radical mastectomy (BCS is contraindicated). Post-mastectomy radiotherapy is mandatory for all IBC.",
+          "wrong": {
+            "A": "T3 locally advanced breast cancer is a large tumour (>5 cm) without skin involvement — skin changes and peau d'orange define a different category.",
+            "C": "There is no indication of prior breast surgery. This is de novo IBC.",
+            "D": "T4b (ulceration or skin nodules) does not capture the clinical picture of IBC (which is T4d). Upfront mastectomy is contraindicated in IBC — NAC must precede surgery."
+          },
+          "guideline": "NCCN Breast v5.2024 — IBC: T4d; NAC mandatory first; modified radical mastectomy + PMRT",
+          "trial": "Cristofanilli M et al., JCO 2007: IBC clinical diagnostic criteria established; neoadjuvant strategy associated with improved outcomes vs upfront surgery.",
+          "pearl": "IBC diagnosis = clinical (erythema + edema ≥1/3 breast + rapid onset) + pathological (biopsy confirming carcinoma). BCS is absolutely contraindicated in IBC. PMRT is mandatory regardless of nodal status or surgical margins."
+        }
+      },
+      {
+        "id": "A5-Q4",
+        "stem": "A 55-year-old woman undergoes modified radical mastectomy. Final pathology shows 5 positive axillary nodes, ER+/HER2-, T2 primary tumour. What is the indication for post-mastectomy radiotherapy (PMRT)?",
+        "options": {
+          "A": "PMRT is not indicated — ER+ tumours rarely recur locoregionally",
+          "B": "PMRT is indicated — ≥4 positive axillary nodes is a standard indication for PMRT",
+          "C": "PMRT is only indicated if margins are positive — 5 nodes without margin involvement does not meet criteria",
+          "D": "PMRT is indicated only for HER2+ or TNBC subtypes after mastectomy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The standard indications for PMRT are: (1) ≥4 positive axillary nodes; (2) T3/T4 primary tumour; (3) positive/close surgical margins. Five positive nodes clearly meets indication (1). The EBCTCG meta-analysis (Lancet 2014) demonstrated that PMRT reduces 10-year locoregional recurrence by ~10% and improves 20-year breast cancer-specific survival by ~4% in women with 1–3 or ≥4 positive nodes. PMRT recommendations are independent of molecular subtype.",
+          "wrong": {
+            "A": "Molecular subtype does not negate the indication for PMRT. ER+ tumours with ≥4 positive nodes have significant locoregional recurrence risk without PMRT.",
+            "C": "PMRT indications include nodal involvement (≥4 nodes) independently of margin status.",
+            "D": "PMRT indications apply to all breast cancer subtypes — molecular subtype does not determine PMRT eligibility."
+          },
+          "guideline": "NCCN Breast v5.2024 — PMRT: ≥4 positive nodes; T3/T4; positive margins; consider 1–3 nodes (multidisciplinary)",
+          "trial": "EBCTCG meta-analysis (Clarke, Lancet 2014): PMRT reduced 10-yr recurrence ~10% and improved 20-yr survival in node-positive disease.",
+          "pearl": "PMRT indications: ≥4+ nodes (definitive); T3/T4 primary (definitive); positive margins (definitive). 1–3 nodes: individualised decision (PMRT decreases locoregional recurrence but OS benefit smaller in 1–3 node category)."
+        }
+      },
+      {
+        "id": "A5-Q5",
+        "stem": "A 45-year-old woman with a breast implant-based reconstruction develops bilateral breast implant-associated ALCL (BIA-ALCL). She presents with late-onset seroma 8 years after bilateral textured implant insertion. What is the most important diagnostic and therapeutic step?",
+        "options": {
+          "A": "MRI breast — BIA-ALCL is best diagnosed on MRI",
+          "B": "Ultrasound-guided aspiration of the seroma with cytology and CD30 immunohistochemistry of the fluid",
+          "C": "Bilateral implant exchange to smooth implants — BIA-ALCL resolves with implant type change",
+          "D": "PET-CT — BIA-ALCL requires staging before any local intervention"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "BIA-ALCL is an uncommon T-cell lymphoma associated almost exclusively with textured breast implants. Late-onset seroma (>1 year after implant insertion) should raise suspicion. Diagnosis requires aspiration of seroma fluid and cytological analysis with CD30 immunohistochemistry — CD30-positive cells confirm BIA-ALCL. Ki-67 and ALK status complete the immunophenotype. Treatment for localised disease (confined to pericapsular fluid/capsule) is complete surgical excision including total capsulectomy and implant removal bilaterally — cure rates approach 100% for Stage IA disease.",
+          "wrong": {
+            "A": "MRI cannot diagnose BIA-ALCL — it may show the seroma but cannot characterise the cytology. Tissue/fluid diagnosis is required.",
+            "C": "Implant exchange alone is insufficient — complete capsulectomy is the treatment for BIA-ALCL. Exchanging to smooth implants without capsulectomy leaves residual tumour.",
+            "D": "PET-CT staging is appropriate after diagnosis is confirmed, not as the first step. Diagnosis precedes staging workup."
+          },
+          "guideline": "NCCN B-Cell Lymphomas/BIA-ALCL 2024 — diagnosis by seroma fluid CD30 cytology; treatment: bilateral total capsulectomy + implant removal for localised disease",
+          "trial": "Brody GS et al., Plast Reconstr Surg 2011: BIA-ALCL registry data establishing textured implant association; FDA Safety Communication 2019.",
+          "pearl": "BIA-ALCL: textured implants + late seroma (>1yr) = aspirate fluid for CD30. Stage IA (confined to fluid/capsule) = bilateral capsulectomy = curative. Stage IIC-IV (lymph node/distant) requires systemic chemotherapy (brentuximab vedotin-based)."
+        }
+      },
+      {
+        "id": "A5-Q6",
+        "stem": "A 38-year-old BRCA1-positive woman has completed her family. She requests risk-reducing surgery. Her last mammogram and MRI were normal 3 months ago. She is otherwise healthy. What is the most appropriate surgical risk-reduction strategy for the ovaries?",
+        "options": {
+          "A": "Bilateral salpingo-oophorectomy (BSO) now — BRCA1 carriers should have BSO by age 35–40",
+          "B": "Annual surveillance MRI and CA-125 — BSO should be deferred until after menopause",
+          "C": "Unilateral oophorectomy — bilateral removal is not required for BRCA1 carriers",
+          "D": "Oral contraceptive pill — adequate chemoprevention for BRCA1 ovarian cancer risk"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "BRCA1-positive women have a lifetime ovarian cancer risk of 39–44%. Risk-reducing bilateral salpingo-oophorectomy (RRBSO) is recommended between ages 35–40 (or after completion of family planning). RRBSO reduces ovarian cancer risk by >95% and also reduces breast cancer risk by ~50% in pre-menopausal BRCA1 carriers (due to oestrogen reduction). At 38 with completed family, RRBSO is both oncologically appropriate and within the recommended timing window.",
+          "wrong": {
+            "B": "Surveillance with MRI and CA-125 is inadequate for ovarian cancer risk reduction in BRCA1 — ovarian cancer is not reliably detected at a treatable stage on surveillance. Deferring BSO until menopause eliminates the breast cancer risk reduction benefit.",
+            "C": "Unilateral oophorectomy is not appropriate — bilateral ovarian removal is required for meaningful risk reduction in BRCA1 carriers.",
+            "D": "OCP does reduce ovarian cancer risk (~50%) and may be used in younger carriers awaiting definitive surgery, but it is not equivalent to RRBSO and does not address the breast cancer risk."
+          },
+          "guideline": "NCCN Genetic/Familial High-Risk Assessment v3.2024 — BRCA1: RRBSO recommended age 35–40 or after completion of childbearing",
+          "trial": "Kauff ND et al., NEJM 2002: RRBSO reduced breast+ovarian cancer risk by 75% in BRCA1/2 carriers; Rebbeck TR et al., NEJM 2002: similar findings.",
+          "pearl": "BRCA1 RRBSO timing: 35–40 years (ovarian cancer risk begins rising at 40); BRCA2 RRBSO timing: 40–45 years (ovarian cancer onset later). RRBSO before natural menopause requires HRT counselling to mitigate premature menopause effects."
+        }
+      },
+      {
+        "id": "A5-Q7",
+        "stem": "A 62-year-old woman presents with unilateral nipple eczema that has persisted for 8 weeks despite topical steroids. Breast examination is unremarkable. Mammogram is normal. What is the most appropriate next investigation?",
+        "options": {
+          "A": "MRI breast — Paget's disease is only visible on MRI",
+          "B": "Punch biopsy or scrape cytology of the nipple skin — to diagnose Paget's disease",
+          "C": "Continue topical steroids for 4 more weeks — 12 weeks total is required before biopsy",
+          "D": "Refer to dermatology — nipple eczema not responding to steroids is a dermatological emergency"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Persistent unilateral nipple changes (eczema, ulceration, crusting, erythema) not responding to topical treatment should be biopsied to exclude Paget's disease of the nipple. Paget's disease is an intraepithelial adenocarcinoma of the nipple, typically associated with underlying DCIS or invasive carcinoma in ~50% of cases. Diagnosis requires punch biopsy or nipple scrape cytology demonstrating the pathognomonic Paget cells (large clear cells with prominent nucleoli) within the epidermis. Mammogram may be normal — the underlying carcinoma may not be detectable on mammogram alone; MRI is the preferred adjunct imaging.",
+          "wrong": {
+            "A": "MRI is a useful adjunct to stage the extent of Paget's disease but cannot provide the histological diagnosis — biopsy is required first.",
+            "C": "Eight weeks of failed topical steroids is sufficient to mandate biopsy. Persisting without histological diagnosis risks delayed treatment of an underlying malignancy.",
+            "D": "Dermatology referral may be appropriate for bilateral nipple eczema, but unilateral non-responding eczema in a woman >40 requires breast surgery evaluation and biopsy first."
+          },
+          "guideline": "NCCN Breast v5.2024 — unilateral nipple eczema not responding to steroids: biopsy to exclude Paget's disease",
+          "trial": "Kothari AS et al., Eur J Surg Oncol 2002: Paget's disease — nipple biopsy diagnostic; associated with underlying DCIS or invasive cancer in 80–100% of cases.",
+          "pearl": "Paget's disease of the nipple: unilateral > bilateral; associated with underlying DCIS/invasive cancer; biopsy = Paget cells (clear cells in epidermis); treatment: central lumpectomy + RT or mastectomy. Bilateral nipple eczema → dermatitis; unilateral → Paget's until proven otherwise."
+        }
+      },
+      {
+        "id": "A5-Q8",
+        "stem": "A patient is found to have a 4 cm phyllodes tumour on core biopsy. The tumour is benign on core biopsy histology. What is the appropriate surgical margin for excision?",
+        "options": {
+          "A": "No ink on tumour (close margin acceptable — same as invasive carcinoma)",
+          "B": "1 cm clear margin — all phyllodes tumours regardless of grade",
+          "C": "1 cm margin for malignant phyllodes; 'no ink on tumour' for benign phyllodes",
+          "D": "Simple enucleation — benign phyllodes does not require a margin"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Phyllodes tumours — even benign grade — have a high local recurrence rate with enucleation or close margins due to their pseudo-encapsulated nature (tumour cells infiltrate the apparent capsule). The standard recommendation is a 1 cm clear margin for all phyllodes tumours, regardless of grade. Local recurrence is significantly reduced with 1 cm margins vs close/positive margins (10% vs 30–40% at 5 years). Borderline and malignant phyllodes carry distant metastasis risk and require even more careful margin assessment.",
+          "wrong": {
+            "A": "'No ink on tumour' is appropriate for invasive breast carcinoma but significantly underestimates the margin requirement for phyllodes tumours.",
+            "C": "Even benign phyllodes requires 1 cm margins — not 'no ink on tumour.' The pseudocapsule is invaded by tumour projections ('leaf-like' fronds) that extend beyond the apparent edge.",
+            "D": "Enucleation of phyllodes tumours is associated with local recurrence rates >50% and is contraindicated."
+          },
+          "guideline": "NCCN Breast v5.2024 / ESMO 2023 — phyllodes tumour: 1 cm clear margin for all grades; simple enucleation contraindicated",
+          "trial": "Chaney AW et al., Cancer 2000: phyllodes local recurrence — 8% with margins ≥1 cm vs 29% with close margins; meta-analysis confirms 1 cm target.",
+          "pearl": "Phyllodes tumours: 1 cm margin regardless of grade. Classification: benign (no recurrence risk at 1 cm), borderline (local recurrence), malignant (local recurrence + distant mets to lung). Systemic therapy limited role in malignant phyllodes — no standard adjuvant regimen."
+        }
+      },
+      {
+        "id": "A5-Q9",
+        "stem": "A 50-year-old woman with a 3.5 cm ER+/HER2- breast cancer in the retroareolar position is being considered for nipple-sparing mastectomy (NSM). MRI shows the tumour is 0.8 cm from the nipple-areola complex. Intraoperative frozen section of the retroareolar tissue returns 'negative for malignancy.' What is the appropriate action?",
+        "options": {
+          "A": "Proceed with NSM — frozen section is negative; the nipple can be preserved",
+          "B": "Excise the nipple-areola complex — tumour <2 cm from nipple is a contraindication to NSM regardless of frozen section",
+          "C": "Abort the operation — NSM is contraindicated for ER+ tumours >3 cm",
+          "D": "Convert to standard mastectomy without preserving the nipple — the frozen section result has no bearing on management"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Nipple-sparing mastectomy has established oncological criteria. A tumour-to-nipple distance of <2 cm is a contraindication to NSM regardless of intraoperative frozen section findings, because microscopic involvement may not be detectable on frozen section and the risk of nipple recurrence is significantly elevated. The standard threshold is ≥2 cm from the nipple on preoperative MRI. With a tumour 0.8 cm from the NAC, the NAC should be excised at the time of mastectomy.",
+          "wrong": {
+            "A": "Frozen section has limited sensitivity for detecting microinvasion and in situ disease at the retroareolar margin. The <2 cm criterion is a contraindication independent of frozen section result.",
+            "C": "NSM is not contraindicated by tumour size alone — the ER+ subtype and 3.5 cm size are not independent contraindications. Proximity to the nipple (<2 cm) is the relevant criterion.",
+            "D": "The frozen section result does bear on management in the context of adequate distance. If tumour were >2 cm away and frozen section negative, NSM would be appropriate. Here the distance criterion overrides."
+          },
+          "guideline": "NCCN Breast v5.2024 / ASBS Guidelines 2019 — NSM contraindications: <2 cm tumour-to-nipple distance; positive retroareolar frozen section; Paget's disease; inflammatory BC",
+          "trial": "Petit JY et al., Breast 2012: NSM in early breast cancer — local recurrence rates equivalent to skin-sparing mastectomy when criteria met; distance <2 cm increases nipple recurrence risk.",
+          "pearl": "NSM criteria: tumour-to-NAC distance ≥2 cm on MRI; no retroareolar invasion on MRI; negative intraoperative frozen section of retroareolar core; no bloody discharge; no Paget's; no IBC. All criteria must be met."
+        }
+      },
+      {
+        "id": "A5-Q10",
+        "stem": "A woman treated 5 years ago with BCS + SLNB for a T1N0 ER+ breast cancer presents with a palpable mass in the ipsilateral axilla. Ultrasound-guided biopsy of the axillary node shows metastatic ER+ carcinoma. CT staging shows no distant disease. What is the most appropriate management of the axilla?",
+        "options": {
+          "A": "Completion axillary lymph node dissection (ALND)",
+          "B": "Repeat SLNB — the initial SLNB did not sample the recurrent node",
+          "C": "Axillary radiotherapy alone — re-operation is contraindicated after prior SLNB",
+          "D": "Observation — isolated axillary recurrence has no curative treatment"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "Axillary recurrence after prior SLNB represents regional treatment failure. Completion ALND (levels I–III dissection) is the standard of care for isolated axillary recurrence confirmed on biopsy. ALND provides locoregional control and allows accurate nodal staging to guide further systemic and radiation therapy. Post-ALND radiotherapy to the axilla/supraclavicular region is typically given to reduce further locoregional recurrence.",
+          "wrong": {
+            "B": "Repeat SLNB after prior SLNB has very poor accuracy due to disrupted lymphatic drainage — it is not appropriate for axillary recurrence management.",
+            "C": "Axillary radiotherapy alone (without surgical clearance of the macroscopic nodal disease) is inferior to ALND for established axillary recurrence with palpable disease. It may be used in patients unfit for surgery.",
+            "D": "Isolated axillary recurrence is potentially curable with ALND ± RT. Five-year OS after salvage ALND for isolated axillary recurrence is 40–60%."
+          },
+          "guideline": "NCCN Breast v5.2024 — axillary recurrence: ALND + regional nodal irradiation; consider systemic therapy based on receptor status",
+          "trial": "Koops HS et al., J Surg Oncol 2004: salvage ALND for isolated axillary recurrence — 5yr OS ~50%; locoregional control superior to RT alone.",
+          "pearl": "Isolated axillary recurrence after SLNB = ALND + RT. Distinguish from distant metastasis (hematogenous) — axillary recurrence is a regional failure with curative potential if no systemic disease."
+        }
+      },
+      {
+        "id": "A5-Q11",
+        "stem": "A 60-year-old woman requires mastectomy for a 6 cm TNBC. She has adequate abdominal tissue. Post-mastectomy radiotherapy (PMRT) is anticipated given 6 positive axillary nodes. Which reconstruction strategy best minimises long-term complications from the combination of mastectomy + PMRT?",
+        "options": {
+          "A": "Immediate direct-to-implant reconstruction — fastest recovery",
+          "B": "Immediate tissue expander followed by exchange to permanent implant after PMRT",
+          "C": "Delayed autologous DIEP flap reconstruction after completion of PMRT",
+          "D": "No reconstruction — PMRT makes reconstruction unsafe"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "When PMRT is anticipated, immediate implant-based reconstruction carries a 30–50% failure rate (capsular contracture, implant rupture, aesthetic failure). The optimal strategy when PMRT is planned is: delayed autologous reconstruction (DIEP flap) after completing all adjuvant therapy including PMRT. Autologous tissue tolerates prior radiation better than implants, achieving superior cosmetic outcomes. The DIEP flap is performed 6–12 months after completion of RT when tissue healing is complete.",
+          "wrong": {
+            "A": "Direct-to-implant reconstruction has the highest failure rate with PMRT — not appropriate when PMRT is planned.",
+            "B": "A tissue expander can serve as a temporary placeholder during RT (deflated during radiation) to preserve the skin envelope, but it should be exchanged to an autologous reconstruction (not permanent implant) after RT for best outcomes.",
+            "D": "PMRT does not preclude reconstruction — delayed autologous reconstruction is specifically designed for this scenario and is highly successful."
+          },
+          "guideline": "NCCN Breast v5.2024 / ASTRO Guidelines — PMRT planned: consider delayed reconstruction; autologous preferred over implant post-radiation",
+          "trial": "Albornoz CR et al., Ann Surg Oncol 2015: systematic review — implant-based reconstruction with PMRT: 30–50% complication rate; autologous after PMRT: superior outcomes.",
+          "pearl": "Algorithm: PMRT anticipated → (1) delayed reconstruction after RT (best option) OR (2) TE as placeholder during RT then autologous reconstruction. Avoid implant as final reconstruction if PMRT planned. DIEP = gold standard autologous reconstruction."
+        }
+      },
+      {
+        "id": "A5-Q12",
+        "stem": "A 47-year-old woman undergoes mastectomy. On final pathology, the deep margin shows carcinoma with 'ink on tumour.' Sentinel node biopsy showed 1 of 2 sentinel nodes positive (macrometastasis). She will receive whole-breast RT to the chest wall. What is the most appropriate next step regarding the deep margin?",
+        "options": {
+          "A": "Proceed with adjuvant treatment only — the chest wall RT will sterilise the positive deep margin",
+          "B": "Re-excision of the deep pectoral fascia/muscle to obtain clear margins",
+          "C": "Mastectomy margins do not require re-excision — local control is managed by radiation",
+          "D": "Wide re-excision is only required if the patient is not receiving PMRT"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A positive deep margin after mastectomy (ink on tumour at the deep/posterior aspect) requires re-excision of the pectoral fascia and/or underlying pectoralis major muscle to achieve R0 resection. Unlike BCS where 'no ink on tumour' applies, mastectomy with a positive margin represents incomplete oncological resection and re-excision is required. PMRT does not substitute for surgical clearance of a positive mastectomy margin.",
+          "wrong": {
+            "A": "RT does not replace surgical re-excision for a positive margin. Residual macroscopic disease at the pectoral fascia requires surgical removal before RT.",
+            "C": "Mastectomy margins do require re-excision when positive — this is a surgical oncology principle. R0 resection is the goal of mastectomy.",
+            "D": "The need for re-excision is independent of PMRT planning. R0 resection is required regardless of subsequent radiation."
+          },
+          "guideline": "NCCN Breast v5.2024 — positive mastectomy margins: re-excision of pectoral fascia/muscle; R0 goal regardless of PMRT",
+          "trial": "Cao J et al., Ann Surg Oncol 2017: positive mastectomy margin and locoregional recurrence — re-excision reduces LRR independently of RT.",
+          "pearl": "Positive mastectomy margin = re-excision. The deep margin after mastectomy should include pectoral fascia; if tumour involves fascia, pectoralis major muscle must be included in re-excision. PMRT treats microscopic residual, not gross positive margins."
+        }
+      },
+      {
+        "id": "A5-Q13",
+        "stem": "A 40-year-old man is found to have a 2 cm ER+/HER2- breast cancer after noticing a subareolar mass. Staging is T2 N0 M0. How does management differ from female breast cancer?",
+        "options": {
+          "A": "No difference — male breast cancer is treated identically to female breast cancer",
+          "B": "Modified radical mastectomy is standard — BCS is not appropriate for male breast cancer",
+          "C": "Tamoxifen is preferred over aromatase inhibitors for adjuvant endocrine therapy in male breast cancer",
+          "D": "Sentinel node biopsy is not validated in male breast cancer — axillary dissection is required"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Male breast cancer (MBC) management largely mirrors female BC, but there are important differences in systemic therapy. For adjuvant endocrine therapy, tamoxifen is preferred over aromatase inhibitors (AIs) in males with ER+ disease. AIs are less effective in males because testosterone is a substrate for aromatase — blocking aromatase causes a compensatory rise in testosterone levels which can overcome the oestrogen blockade. Tamoxifen is the validated endocrine standard for MBC. For surgical treatment, both mastectomy and BCS are acceptable (though mastectomy is more common due to breast anatomy in males), and SLNB is validated.",
+          "wrong": {
+            "A": "There is one key difference: tamoxifen > AI for adjuvant endocrine therapy in males.",
+            "B": "BCS is appropriate for male BC in selected cases (small tumours in men with adequate breast tissue). Modified radical mastectomy is not mandated.",
+            "D": "SLNB is validated in male breast cancer with performance characteristics similar to female BC. ALND is not routinely required."
+          },
+          "guideline": "NCCN Breast v5.2024 — male breast cancer: tamoxifen preferred over AI for adjuvant endocrine therapy; surgical management analogous to female BC",
+          "trial": "Eggemann H et al., J Clin Oncol 2013: tamoxifen superior to AI in male breast cancer — significantly better OS; AI associated with higher mortality in retrospective analysis.",
+          "pearl": "Male breast cancer = tamoxifen, not AI. All other management follows female breast cancer guidelines. BRCA2 (not BRCA1) is the most common germline mutation in male breast cancer — genetic testing recommended for all male BC patients."
+        }
+      },
+      {
+        "id": "A5-Q14",
+        "stem": "A patient asks about the GeparSixto trial and its relevance to her TNBC diagnosis. Which of the following best summarises the key finding?",
+        "options": {
+          "A": "Carboplatin added to standard NAC significantly increased pCR rate in TNBC from 37% to 53%",
+          "B": "Carboplatin did not improve pCR in TNBC — the trial was negative",
+          "C": "GeparSixto showed that platinum was beneficial in HER2+ but not TNBC subtype",
+          "D": "GeparSixto established carboplatin + olaparib as the standard NAC for BRCA-mutated TNBC"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "The GeparSixto trial (von Minckwitz et al., Lancet Oncol 2014) randomised 595 patients with HER2+ or TNBC to standard NAC (paclitaxel/non-pegylated liposomal doxorubicin ± trastuzumab/lapatinib for HER2+) ± carboplatin. In the TNBC subgroup, the addition of carboplatin significantly increased pCR from 36.9% to 53.2% (p=0.005), with the largest benefit in BRCA-mutated patients. In the HER2+ subgroup, the benefit of carboplatin was less significant. This trial established carboplatin as standard NAC for TNBC, particularly BRCA-mutated tumours.",
+          "wrong": {
+            "B": "GeparSixto was positive for the TNBC subgroup — carboplatin significantly improved pCR.",
+            "C": "The HER2+ carboplatin benefit was non-significant; the TNBC benefit was significant — the opposite of this option.",
+            "D": "GeparSixto did not incorporate olaparib — olaparib is studied in the adjuvant setting (OlympiA trial), not in GeparSixto."
+          },
+          "guideline": "NCCN Breast v5.2024 — carboplatin in NAC for TNBC based on GeparSixto and CALGB 40603 data",
+          "trial": "GeparSixto (von Minckwitz, Lancet Oncol 2014): n=595; carboplatin in TNBC — pCR 36.9% → 53.2%; BRCA mutation subgroup: largest benefit.",
+          "pearl": "GeparSixto + CALGB 40603 (both 2014) together established platinum in NAC for TNBC. BRCA-mutated TNBC has the highest pCR with carboplatin (up to 65%). pCR in TNBC = excellent prognosis; non-pCR = add capecitabine (CREATE-X)."
+        }
+      },
+      {
+        "id": "A5-Q15",
+        "stem": "The ATAC trial compared anastrozole vs tamoxifen as adjuvant endocrine therapy for postmenopausal ER+ breast cancer. What was the primary conclusion?",
+        "options": {
+          "A": "Tamoxifen was superior — anastrozole failed to show benefit over tamoxifen",
+          "B": "Anastrozole significantly improved disease-free survival vs tamoxifen with fewer gynaecological side effects, but more arthralgias and bone loss",
+          "C": "Anastrozole and tamoxifen were equivalent in DFS but anastrozole had fewer adverse effects",
+          "D": "The combination of anastrozole + tamoxifen was superior to either agent alone"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The ATAC trial (Arimidex, Tamoxifen, Alone or in Combination; Baum, Lancet 2002 with 10-year follow-up Cuzick, Lancet Oncol 2010) compared 5 years of anastrozole vs tamoxifen vs combination in postmenopausal women with early ER+ breast cancer. Anastrozole significantly improved DFS compared with tamoxifen (HR 0.91 at 10 years), with fewer gynaecological side effects (endometrial cancer, thromboembolic events, vaginal bleeding). However, anastrozole caused more musculoskeletal symptoms (arthralgias) and bone mineral density loss (requiring calcium/vitamin D and bisphosphonate monitoring). The combination arm was no better than tamoxifen and was discontinued.",
+          "wrong": {
+            "A": "Anastrozole was superior to tamoxifen in DFS — tamoxifen was not superior.",
+            "C": "Anastrozole was not equivalent — it was superior in DFS. The adverse effect profile differs significantly.",
+            "D": "The combination arm showed no benefit over tamoxifen alone and was stopped at 5 years."
+          },
+          "guideline": "NCCN Breast v5.2024 — postmenopausal ER+ breast cancer: AI preferred over tamoxifen for adjuvant endocrine therapy (superior DFS, ATAC/BIG 1-98)",
+          "trial": "ATAC (Baum, Lancet 2002; 10yr follow-up Cuzick, Lancet Oncol 2010): anastrozole vs tamoxifen — DFS HR 0.91 favouring anastrozole; fewer gynaecological events; more arthralgias/bone loss.",
+          "pearl": "Postmenopausal ER+: AI (anastrozole/letrozole/exemestane) preferred over tamoxifen. Premenopausal: tamoxifen is standard (AI requires ovarian suppression to be effective). Key side effect trade-offs: tamoxifen → endometrial cancer/DVT/hot flashes; AI → arthralgia/bone loss/fractures."
+        }
+      },
+      {
+        "id": "A5-Q16",
+        "stem": "A breast mass is biopsied by core needle. The pathology report states 'ER 3+ (80% staining), PR 2+ (40% staining), HER2 IHC 2+ (equivocal).' What is the most appropriate next diagnostic step for HER2 status?",
+        "options": {
+          "A": "Repeat core biopsy and IHC — a second IHC 2+ result confirms HER2 negativity",
+          "B": "FISH (fluorescence in situ hybridisation) testing for HER2 gene amplification — IHC 2+ is equivocal and requires reflex FISH",
+          "C": "Treat as HER2-positive — any IHC 2+ result should receive HER2-targeted therapy",
+          "D": "Treat as HER2-negative — IHC 2+ with ER+/PR+ expression is consistent with Luminal A subtype"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Per ASCO/CAP HER2 testing guidelines, IHC 2+ (equivocal — incomplete, intense staining in >10% of cells, or incomplete circumferential staining at any intensity) requires reflex FISH (or ISH) testing to determine HER2 gene amplification status. IHC 3+ (uniform, intense, complete circumferential staining in >10% of cells) is considered positive and does not require FISH. IHC 0 or 1+ is negative. IHC 2+ alone cannot determine HER2 status — FISH is mandatory.",
+          "wrong": {
+            "A": "A second IHC 2+ result does not resolve the equivocal status — FISH is required after any IHC 2+ result.",
+            "C": "IHC 2+ should never be used alone to diagnose HER2 positivity and start targeted therapy — FISH must confirm amplification.",
+            "D": "ER/PR positivity does not determine HER2 status — a tumour can be ER+/PR+/HER2+ (Luminal B HER2-enriched). FISH is required to clarify."
+          },
+          "guideline": "ASCO/CAP HER2 Testing Guideline 2018 — IHC 2+: reflex to FISH/ISH; IHC 3+: HER2 positive; IHC 0-1+: HER2 negative",
+          "trial": "Wolff AC et al., J Clin Oncol 2018: Updated ASCO/CAP HER2 testing guidelines defining equivocal IHC 2+ requiring ISH confirmation.",
+          "pearl": "HER2 IHC interpretation: 0 = negative, 1+ = negative, 2+ = equivocal (FISH required), 3+ = positive. IHC 2+ with FISH HER2/CEP17 ratio ≥2.0 OR mean HER2 copy ≥6.0 = HER2-positive. HER2-low (IHC 1+ or IHC 2+/FISH-) is now a therapeutic category for trastuzumab deruxtecan (T-DXd)."
+        }
+      },
+      {
+        "id": "A5-Q17",
+        "stem": "A 28-year-old woman at 18 weeks gestation is diagnosed with a 3 cm T2 N1 ER-/HER2- (TNBC) breast cancer. She wishes to continue the pregnancy. What is the appropriate approach to systemic therapy?",
+        "options": {
+          "A": "Terminate the pregnancy — chemotherapy is absolutely contraindicated in pregnancy",
+          "B": "Defer all treatment until delivery — chemotherapy in pregnancy causes fetal harm at any trimester",
+          "C": "Chemotherapy can be safely administered after the first trimester (from week 14); anthracycline/taxane-based NAC is appropriate",
+          "D": "Endocrine therapy only during pregnancy — chemotherapy is not used until post-partum"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Chemotherapy administration during the first trimester (weeks 1–12) carries high risk of fetal malformations and is contraindicated. After week 14 (second trimester onwards), standard anthracycline-based (FAC or AC) and taxane-based chemotherapy can be safely administered. The international consensus and NCCN guidelines confirm that chemotherapy in the second and third trimester does not increase major malformation rates compared to unexposed pregnancies, though there is risk of intrauterine growth restriction and premature birth. Anthracyclines (AC) are preferred; taxanes are also used from the second trimester. Chemotherapy should be stopped at least 3 weeks before planned delivery.",
+          "wrong": {
+            "A": "Termination is a patient choice, not a mandatory recommendation. Chemotherapy after the first trimester allows treatment without termination.",
+            "B": "Deferring treatment until delivery for a T2 N1 TNBC would lead to disease progression over the remaining 20 weeks of pregnancy — unacceptable in an aggressive subtype.",
+            "D": "TNBC is ER-negative — endocrine therapy is not applicable. Chemotherapy is the only systemic option for TNBC."
+          },
+          "guideline": "NCCN Breast v5.2024 / ESMO 2023 — pregnancy-associated breast cancer: chemotherapy safe after week 14; anthracycline-based preferred; stop ≥3 weeks before delivery",
+          "trial": "Loibl S et al., Lancet Oncol 2015: TNBC in pregnancy — FAC/FEC chemotherapy from week 14 associated with normal fetal outcomes; no major malformation increase.",
+          "pearl": "Pregnancy + breast cancer: Trimester 1 (weeks 1–12) → no chemo (teratogenic); Trimester 2–3 (weeks 14+) → standard AC-T NAC safe; avoid trastuzumab in pregnancy (oligohydramnios/fetal renal toxicity); stop chemo ≥3 weeks pre-delivery to allow fetal marrow recovery."
+        }
+      },
+      {
+        "id": "A5-Q18",
+        "stem": "A 55-year-old woman presents with a 2.8 cm invasive lobular carcinoma (ILC) in the upper outer quadrant, ER+/HER2-. She asks about differences in management compared to invasive ductal carcinoma. Which of the following is a clinically important difference?",
+        "options": {
+          "A": "ILC is never treated with BCS — mastectomy is always required",
+          "B": "ILC has a diffuse growth pattern making mammographic and clinical detection harder; MRI is more sensitive and recommended for surgical planning",
+          "C": "ILC has a better prognosis than IDC — no systemic therapy is required",
+          "D": "Sentinel node biopsy has a higher false-negative rate in ILC and is not recommended"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Invasive lobular carcinoma (ILC) has a characteristic diffuse, single-file growth pattern ('Indian file') without desmoplastic reaction, making it poorly visible on mammography and difficult to palpate accurately. Clinical and mammographic underestimation of tumour size is common in ILC. MRI is recommended for surgical planning in ILC as it more accurately delineates tumour extent and detects multifocality/multicentricity (present in 20–30% of ILC). This information affects the choice between BCS and mastectomy. MRI-guided surgical planning reduces positive margin rates in ILC.",
+          "wrong": {
+            "A": "ILC can be treated with BCS when R0 margins are achievable — mastectomy is not mandatory. However, conversion from BCS to mastectomy is more common in ILC due to underestimated size.",
+            "C": "ILC does not have a clearly better prognosis than IDC — long-term outcomes are similar. Systemic therapy follows the same molecular subtype-based principles.",
+            "D": "SLNB is validated and appropriate in ILC — false-negative rates are not significantly different from IDC."
+          },
+          "guideline": "NCCN Breast v5.2024 — ILC: MRI for surgical planning; BCS oncologically equivalent when R0 achievable",
+          "trial": "Mann RM et al., Radiology 2008: MRI detects additional foci in ILC in 32% of cases vs 6% for IDC — significantly changes surgical planning.",
+          "pearl": "ILC surgical planning: always order MRI. ILC underestimates size by mean 1.5 cm on mammography and clinical exam. Re-excision rates for positive margins higher in ILC vs IDC when MRI not used for planning."
+        }
+      },
+      {
+        "id": "A5-Q19",
+        "stem": "A 45-year-old BRCA2-positive woman is newly diagnosed with ipsilateral breast cancer. She requests discussion of contralateral prophylactic mastectomy (CPM). Which statement best reflects the current evidence on CPM and survival benefit?",
+        "options": {
+          "A": "CPM improves disease-specific survival in all women with breast cancer — it should be routinely recommended",
+          "B": "CPM reduces the risk of contralateral breast cancer but has not been shown to improve overall survival in most patients; it is most relevant for high-risk patients (BRCA mutation carriers)",
+          "C": "CPM is only appropriate for TNBC — ER+ breast cancer carries low contralateral risk",
+          "D": "CPM eliminates the need for ongoing surveillance mammography of the remaining breast tissue"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Contralateral prophylactic mastectomy (CPM) reduces the risk of contralateral breast cancer by ~90-95%. However, multiple population-based studies have failed to demonstrate a significant overall survival benefit from CPM in the general breast cancer population, because contralateral breast cancer rarely determines survival — distant metastases from the index cancer are the dominant cause of death. The exception is high-risk patients, particularly BRCA1/2 mutation carriers, where the contralateral cancer risk is 40–65% lifetime and CPM in conjunction with risk-reducing intent may offer clinically meaningful benefit. The decision should be individualised, risk-stratified, and patient-led after thorough counselling.",
+          "wrong": {
+            "A": "CPM does not improve OS in the general breast cancer population — population studies consistently show this. It reduces contralateral cancer risk but not ipsilateral recurrence risk.",
+            "C": "Contralateral breast cancer risk applies to all molecular subtypes. BRCA2-positive women (which this patient is) have elevated risk regardless of ER status.",
+            "D": "After CPM, surveillance mammography of the mastectomised breast is not required, but surveillance of any residual tissue (chest wall, axilla) and the contralateral breast (if unilateral) continues."
+          },
+          "guideline": "NCCN Breast v5.2024 — CPM: reduces contralateral BC risk; OS benefit not established in general population; appropriate for BRCA carriers with thorough counselling",
+          "trial": "Bedrosian I et al., J Natl Cancer Inst 2010: CPM did not improve OS in population study except BRCA carriers and young women with ER- disease; Tuttle TM, JNCI 2007: CPM rates increased 150% without evidence-based OS benefit.",
+          "pearl": "CPM reduces contralateral cancer risk by ~95% but does NOT improve OS in the general population. The patient's risk of dying FROM the ipsilateral cancer (distant metastases) far outweighs her risk of dying FROM a future contralateral cancer. CPM is justified in BRCA carriers — not routinely in all breast cancer patients."
+        }
+      },
+      {
+        "id": "A5-Q20",
+        "stem": "A 52-year-old woman has a 4 cm ER+/PR+/HER2- breast cancer with 2 axillary nodes positive on core biopsy. She undergoes BCS after neoadjuvant chemotherapy. Post-NAC pathology shows ypT0 ypN0 (complete pathological response). When should sentinel node biopsy (SLNB) be performed in this setting?",
+        "options": {
+          "A": "SLNB should be performed before NAC to accurately stage the axilla",
+          "B": "SLNB should not be performed in cN+ patients treated with NAC — ALND is always required",
+          "C": "Post-NAC SLNB with targeted axillary dissection (TAD) is appropriate; ypN0 with adequate sampling allows ALND omission",
+          "D": "SLNB is not needed if pCR is achieved in the breast — axillary status can be assumed negative"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "In cN+ patients undergoing NAC, the appropriate axillary management strategy is post-NAC SLNB with TAD (targeted axillary dissection — retrieval of both sentinel nodes and the pre-treatment clipped node). If ypN0 is confirmed with adequate sampling (≥3 sentinel nodes retrieved AND clipped node confirmed retrieved), ALND can be safely omitted. The FALSE trial demonstrated FNR of 4.2% with TAD, which is within the acceptable threshold. Regional nodal irradiation (RNI) is given in lieu of ALND for locoregional control.",
+          "wrong": {
+            "A": "Pre-NAC SLNB would stage the baseline axilla but the result would not determine the need for ALND — it is the post-NAC axillary status that guides management. SLNB before NAC is not routinely required when ALND is the planned definitive axillary management.",
+            "B": "ALND is not mandatory after NAC in cN+ patients achieving ypN0 with TAD — this is the key change in paradigm from ACOSOG Z1071, SENTINA, and FALSE.",
+            "D": "Breast pCR (ypT0) does not reliably predict axillary pCR (ypN0) — approximately 30–40% of patients with pCR in the breast have residual nodal disease. Axillary assessment is mandatory regardless of breast response."
+          },
+          "guideline": "NCCN Breast v5.2024 — cN+ post-NAC: TAD recommended; ypN0 with TAD → ALND omission acceptable; RNI to cover residual axillary risk",
+          "trial": "FALSE Trial (Simons, JAMA Oncol 2022): TAD in cN1-N2 post-NAC — FNR 4.2%; supports ALND omission in ypN0 with adequate TAD sampling.",
+          "pearl": "Post-NAC axillary algorithm for cN+ patients: Clip the positive node at diagnosis → post-NAC SLNB + TAD (retrieve clipped node) → if ypN0: omit ALND + give RNI → if ypN1+: ALND required."
+        }
+      }
+    ]
+  }
+}

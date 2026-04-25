@@ -1,0 +1,632 @@
+{
+  "id": "D5",
+  "block": "D",
+  "block_name": "Benign Digestive Surgery",
+  "title": "Pelvic Floor & Functional Colorectal Disorders",
+  "level": "PGY2-3",
+  "sections": [
+    {
+      "id": "D5-S1",
+      "title": "Pelvic Floor Anatomy & Function",
+      "content": [
+        {
+          "type": "text",
+          "content": "The pelvic floor is a musculofascial diaphragm that provides structural support to the pelvic viscera, maintains continence of urine and faeces, and coordinates the complex mechanism of defaecation. The levator ani muscle complex forms the primary muscular component of the pelvic floor and consists of three parts: iliococcygeus (lateral component arising from the arcus tendineus levator ani to the coccyx), pubococcygeus (anteromedial component from the pubic body to the coccygeal raphe), and puborectalis (most medial and clinically significant component, forming a U-shaped sling that loops around the anorectal junction). The puborectalis maintains the anorectal angle at approximately 90° at rest, creating a functional angulation that contributes to faecal continence by acting as a mechanical flap valve."
+        },
+        {
+          "type": "text",
+          "content": "During voluntary squeeze (maximum contraction), the puborectalis contracts anteriorly, accentuating the anorectal angle to approximately 70° and compressing the anal canal — a key continent mechanism. During defaecation, coordinated relaxation of the puborectalis opens the anorectal angle to 110–130°, straightening the anorectal junction to allow passage of stool. Paradoxical contraction of the puborectalis during straining (instead of appropriate relaxation) is the hallmark of anismus (dyssynergic defaecation), causing functional obstruction to defaecation."
+        },
+        {
+          "type": "text",
+          "content": "The levator ani is innervated primarily by direct branches from S3–S4 on its superior surface and by the pudendal nerve (S2–S4) from below (inferior surface of iliococcygeus). This dual innervation is clinically important: injury at either level causes pelvic floor weakness, and pudendal neuropathy (commonly from obstetric trauma or chronic straining) is a major contributor to both faecal incontinence and pelvic organ prolapse."
+        },
+        {
+          "type": "table",
+          "title": "Anorectal Angle Changes with Pelvic Floor Function",
+          "headers": ["State", "Puborectalis", "Anorectal Angle", "Clinical Significance"],
+          "rows": [
+            ["Rest", "Tonic contraction", "90°", "Passive continent mechanism; flap valve effect"],
+            ["Maximum squeeze", "Maximal voluntary contraction", "70°", "Active continence; assessed by squeeze pressure on manometry"],
+            ["Normal defaecation", "Coordinated relaxation", "110–130°", "Opens anorectal junction; assessed by defaecography"],
+            ["Anismus (dyssynergia)", "Paradoxical contraction on straining", "Fails to open / narrows", "Functional outlet obstruction; identified by EMG, defaecography, balloon expulsion test"],
+            ["Rectal prolapse", "Deficient puborectal sling", ">130° at rest", "Loss of flap valve; associated faecal incontinence"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "The Puborectal Sling — Key Continent Mechanism",
+          "content": "The puborectalis sling is the most important single muscle for gross faecal continence. It is distinct from the external anal sphincter (which provides fine continence and squeeze) and the internal anal sphincter (which provides resting tone). Surgical disruption of the puborectalis (e.g., in suprasphincteric fistula treatment) carries the highest risk of major faecal incontinence of any anorectal procedure."
+        }
+      ]
+    },
+    {
+      "id": "D5-S2",
+      "title": "Obstructed Defaecation Syndrome (ODS)",
+      "content": [
+        {
+          "type": "text",
+          "content": "Obstructed defaecation syndrome (ODS) refers to a group of functional and structural disorders that impair the normal mechanics of defaecation, resulting in a feeling of incomplete evacuation, excessive straining, need for digital assistance, prolonged time on the toilet, and use of laxatives. ODS may result from: structural causes (anterior rectocele, rectal intussusception, enterocele, sigmoidocele, descending perineum syndrome) and functional causes (anismus/dyssynergia, poor rectal sensation). The ODS score (Renzi/Altomare score) is a validated 7-item questionnaire assessing frequency of defaecation, straining, incomplete evacuation, abdominal pain, use of laxatives/enemas, use of digital assistance, and failed defaecation attempts, with higher scores indicating greater functional impact."
+        },
+        {
+          "type": "text",
+          "content": "Rectocele is a herniation of the rectovaginal septum allowing the anterior rectal wall to bulge into the posterior vaginal wall during defaecation. It is detected clinically by bidigital examination (finger in vagina + thumb in rectum simultaneously) and confirmed by defaecography or MRI defaecography. A rectocele is considered clinically significant if it is >2 cm in depth AND demonstrates stool trapping on defaecography (barium retained in the rectocele after attempted evacuation) AND the patient has symptoms that correlate. Surgical repair (STARR, transvaginal rectocele repair, laparoscopic ventral mesh rectopexy) is considered only when conservative measures (pelvic floor physiotherapy, biofeedback, stool consistency optimisation) have failed."
+        },
+        {
+          "type": "text",
+          "content": "Anismus (paradoxical puborectalis syndrome, pelvic floor dyssynergia) is diagnosed when the puborectalis and external anal sphincter paradoxically contract rather than relax during attempted defaecation. It is identified by: (1) balloon expulsion test — inability to expel a 50 mL balloon from the rectum within 60 seconds despite straining; (2) defaecography — failure of the anorectal angle to open, prominent puborectalis impression at the posterior anorectal junction, poor or absent rectal evacuation; (3) EMG of puborectalis/EAS during straining — paradoxical increase in electrical activity. Management is with biofeedback therapy (first-line — success in 60–80%), botulinum toxin injection to the puborectalis (second-line), and rarely surgery (sacral nerve stimulation in refractory cases). Surgical procedures targeting the anorectal anatomy (STARR, etc.) are contraindicated in pure anismus — they will worsen urgency without correcting the functional problem."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "ODS Assessment — Anorectal Physiology Workup",
+          "content": "Complete ODS assessment requires: (1) Anorectal manometry — resting and squeeze pressures, RAIR, compliance; (2) Balloon expulsion test — inability to expel = anismus; (3) Defaecography (fluoroscopic) or MRI defaecography — demonstrates rectocele, intussusception, enterocele, descent, anismus; (4) Colonic transit study — differentiate slow-transit constipation from ODS; (5) EMG — confirms paradoxical contraction. MRI defaecography is preferred where available: no ionising radiation, multiplanar, assesses all compartments simultaneously, and provides excellent soft tissue visualisation."
+        }
+      ]
+    },
+    {
+      "id": "D5-S3",
+      "title": "Faecal Incontinence",
+      "content": [
+        {
+          "type": "text",
+          "content": "Faecal incontinence (FI) — the involuntary loss of flatus, liquid stool, or solid stool — affects 2–13% of the general adult population, rising to 50% in nursing home residents. It is significantly underreported due to patient embarrassment. Causative mechanisms include: sphincter defects (most commonly obstetric injury — third- and fourth-degree perineal tears, occurring in 0.5–6% of vaginal deliveries; also post-haemorrhoidectomy, post-LIS, traumatic); pudendal neuropathy (chronic straining, obstetric stretch injury); rectal prolapse and intussusception; rectal compliance loss (proctitis, irradiation, IBD); diarrhoeal states (IBS, microscopic colitis, post-cholecystectomy, post-vagotomy); and overflow (faecal impaction with spurious diarrhoea)."
+        },
+        {
+          "type": "table",
+          "title": "Wexner (Cleveland Clinic) Continence Score",
+          "headers": ["Category", "Never (0)", "Rarely <1/month (1)", "Sometimes <1/week (2)", "Usually <1/day (3)", "Always ≥1/day (4)"],
+          "rows": [
+            ["Solid stool leakage", "0", "1", "2", "3", "4"],
+            ["Liquid stool leakage", "0", "1", "2", "3", "4"],
+            ["Flatus leakage", "0", "1", "2", "3", "4"],
+            ["Need for pad", "0", "1", "2", "3", "4"],
+            ["Lifestyle alteration", "0", "1", "2", "3", "4"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "The Wexner (Cleveland Clinic Incontinence Score) is the most widely validated tool for faecal incontinence severity. Scores range 0 (perfect continence) to 20 (complete incontinence). A score of ≥9 is generally considered significant enough to warrant active treatment. It is used for patient selection, treatment monitoring, and research outcomes. The St Mark's Incontinence Score is an alternative validated tool."
+        },
+        {
+          "type": "text",
+          "content": "Assessment includes endoanal ultrasound (EUS) to identify structural sphincter defects (IAS and EAS disruption), pudendal nerve terminal motor latency (PNTML) to assess neuropathic component, and high-resolution anorectal manometry. Endoanal MRI provides superior visualisation of the IAS (which appears as a hypointense ring on T2) and EAS, and is particularly useful for complex defects and pre-operative planning for sphincteroplasty. Management is stepwise: dietary manipulation (low-residue diet, fibre titration, avoidance of precipitants) → anti-diarrhoeal agents (loperamide, codeine phosphate) → pelvic floor muscle training → biofeedback → sacral nerve stimulation (SNS) → overlapping sphincteroplasty (if mechanical defect) → posterior tibial nerve stimulation → colostomy as last resort."
+        },
+        {
+          "type": "text",
+          "content": "Sacral nerve stimulation (SNS) uses implantable electrodes at S3 to deliver low-amplitude electrical stimulation to the sacral nerve roots, modulating sphincter function and rectal sensitivity. The mechanism is not fully understood but involves both peripheral (sphincter recruitment) and central (altered cortical processing) effects. SNS is remarkably effective — prospective studies show 75–80% of patients achieve >50% reduction in weekly incontinence episodes. Critically, SNS is effective even in the absence of a structural sphincter defect and may work in patients with pudendal neuropathy — making it broadly applicable. The Exeter protocol (test stimulation for 2–3 weeks before permanent implantation) is used to select responders. Posterior tibial nerve stimulation (PTNS) delivers transcutaneous or percutaneous tibial nerve stimulation (TENS at the ankle) as a non-implantable alternative. Evidence from the CONFIDENCE trial showed PTNS was inferior to SNS but superior to sham stimulation."
+        },
+        {
+          "type": "text",
+          "content": "Overlapping anterior sphincteroplasty is indicated for patients with a discrete anterior EAS defect (classically post-obstetric). The torn ends of the EAS are mobilised and overlapped (Fang technique) or approximated end-to-end. Short-term continence improvement is achieved in 70–85% of patients. However, long-term results are disappointing: 50% of patients experience functional deterioration at 5 years and only 40% maintain meaningful improvement at 10 years, attributed to pudendal neuropathy and further denervation. PNTML measurement before sphincteroplasty was historically used to predict outcome (prolonged PNTML = worse prognosis) but has poor discriminatory value in isolation. SNS may be preferable or used after failed sphincteroplasty."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "SNS for Faecal Incontinence — Systematic Review",
+          "citation": "Thin NN et al. Gut 2013;62:1572-1580",
+          "population": "Systematic review of 34 studies, 944 patients with faecal incontinence",
+          "intervention": "Sacral nerve stimulation (SNS) for faecal incontinence",
+          "result": "75% of patients achieved >50% reduction in incontinence episodes. Mean incontinence episodes per week reduced from 9.5 to 1.7. Continence rates (no incontinence episodes) in 36–47% of patients.",
+          "practice_change": "SNS is now recommended as second-line treatment for faecal incontinence (after conservative measures), before sphincteroplasty even in patients with sphincter defects, due to its superior long-term outcomes."
+        }
+      ]
+    },
+    {
+      "id": "D5-S4",
+      "title": "Constipation & Slow Transit",
+      "content": [
+        {
+          "type": "text",
+          "content": "Constipation is one of the most common functional gastrointestinal complaints, affecting 12–19% of the general population. Rome IV criteria (2016) define functional constipation as the presence of ≥2 of the following for at least 3 months (with symptom onset ≥6 months before diagnosis): straining in >25% of defaecations; lumpy or hard stools in >25% of defaecations; sensation of incomplete evacuation in >25% of defaecations; sensation of anorectal obstruction/blockage in >25% of defaecations; manual manoeuvres to facilitate defaecation in >25% of defaecations; <3 spontaneous complete bowel movements per week. Loose stools are rarely present without the use of laxatives."
+        },
+        {
+          "type": "text",
+          "content": "Slow transit constipation (STC) involves delayed colonic transit measured by radio-opaque marker study (Hinton test): patients swallow a capsule containing 20 radio-opaque markers on day 0; abdominal X-ray at day 5; retention of >5 markers (>25%) indicates delayed transit. The SmartPill (wireless motility capsule) provides simultaneous measurement of pH, pressure, and temperature throughout the gastrointestinal tract, calculating transit times for the stomach, small bowel, and colon independently. STC is characterised by global or segmental colonic dysmotility with reduced mass movements and increased pan-colonic inertia."
+        },
+        {
+          "type": "text",
+          "content": "Medical management of STC includes stepwise escalation: (1) dietary fibre and hydration optimisation; (2) osmotic laxatives (polyethylene glycol, lactulose) — first-line pharmacotherapy; (3) stimulant laxatives (bisacodyl, sodium picosulphate, senna) — effective but tolerance may develop; (4) prucalopride (selective 5-HT4 agonist) — NICE-approved for women (and now men) with chronic constipation not responding to laxatives; mechanism: restores coordinated colonic propulsive motility; (5) linaclotide and lubiprostone for IBS-C subtype. Surgical options are reserved for refractory STC with severe quality of life impairment after thorough physiological testing confirms STC without ODS component. Subtotal colectomy with ileorectal anastomosis (IRA) achieves satisfactory bowel frequency (2–4 bowel movements/day) in 70–90% of carefully selected patients. Predictors of poor outcome: persistent symptoms of urgency, incontinence, abdominal pain after surgery — suggesting IBS or enteric neuropathy as the underlying disorder. Megarectum and megacolon require specific assessment: Hirschsprung's disease in children (RAIR absent) vs acquired in adults."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "Rome IV Criteria — Key Change from Rome III",
+          "content": "Rome IV (2016) removed the requirement to be 'rarely present without laxatives' from the constipation definition criteria and eliminated the 'not meeting IBS criteria' exclusion. This allows overlap between functional constipation and IBS-C to be recognised. Surgeons should be familiar with Rome IV as it is referenced in all major anorectal physiology guidelines."
+        }
+      ]
+    },
+    {
+      "id": "D5-S5",
+      "title": "Rectal Prolapse Surgical Approaches",
+      "content": [
+        {
+          "type": "text",
+          "content": "Surgical management of full-thickness rectal prolapse is either perineal (for frail/high-risk patients) or abdominal (for fit patients, lower recurrence). The choice is guided by patient fitness, prolapse characteristics, and associated pelvic floor disorders."
+        },
+        {
+          "type": "table",
+          "title": "Perineal vs Abdominal Procedures for Rectal Prolapse",
+          "headers": ["Parameter", "Delorme", "Altemeier", "Laparoscopic Ventral Rectopexy (D'Hoore)", "Suture Rectopexy ± Sigmoidectomy"],
+          "rows": [
+            ["Approach", "Perineal", "Perineal", "Abdominal (laparoscopic)", "Abdominal (open or laparoscopic)"],
+            ["Anaesthesia", "Spinal/LA", "Spinal/GA", "General", "General"],
+            ["Tissue removed", "Mucosa only", "Full-thickness bowel + anastomosis", "None", "Sigmoid ± none"],
+            ["Recurrence rate", "15–25%", "10–20%", "3–8%", "5–15%"],
+            ["Continence improvement", "30–50%", "Variable; improved with levatorplasty", "70–85%", "Moderate"],
+            ["Constipation risk", "Low", "Low", "Low (no posterior dissection)", "Higher (posterior dissection)"],
+            ["Nerve injury risk", "Very low", "Low (presacral approach avoided)", "Presacral plexus at promontory (key risk)", "Parasympathetic (posterior dissection)"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "The D'Hoore laparoscopic ventral mesh rectopexy (LVMR) technique has specific anatomical steps that must be understood. Dissection begins at the rectovaginal pouch (Douglas pouch), entering the rectovaginal plane anteriorly without disturbing the posterior mesorectal fascia or lateral ligaments. A synthetic mesh (or biological — more common in women to avoid mesh erosion complications) is sutured to the anterior rectal wall and vaginal vault using non-absorbable sutures. The mesh is then secured to the sacral promontory at the presacral fascia using a single suture or tack. The peritoneum is closed over the mesh to prevent small bowel adhesions. Key advantages: no posterior dissection (preserves autonomic nerves), maintains lateral ligament integrity (no new-onset constipation), effectively treats combined rectal prolapse and anterior rectocele, and reproducible in laparoscopic hands."
+        },
+        {
+          "type": "text",
+          "content": "Frykman-Goldberg procedure (Wells procedure with sigmoidectomy) adds resection of the redundant sigmoid colon to posterior suture rectopexy. The sigmoid is resected between the inferior mesenteric artery (or its branches) and the upper rectum, with colorectal anastomosis. This addresses concurrent constipation and removes the redundant sigmoid reservoir that might contribute to constipation after rectopexy alone. However, the mandatory posterior rectal dissection (exposing the retrorectal space and lateral stalks) puts the parasympathetic nerves at risk, with new-onset constipation in up to 20–30% of patients even without the sigmoidectomy."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Presacral Haemorrhage During Ventral Rectopexy",
+          "content": "Haemorrhage from the presacral venous plexus at the sacral promontory is a potential catastrophe during LVMR. The presacral veins are avalvular and communicate directly with the basivertebral veins — pressure from above causes massive haemorrhage that cannot be controlled by simple suturing (sutures tear the fragile vessel). Management: (1) Direct digital pressure (immediate); (2) Sterile stainless steel thumbtacks (orthopaedic bone tacks) driven into the sacrum to occlude the bleeding point; (3) Packing and pelvic tamponade; (4) Bone wax. Avoid ligation attempts which worsen bleeding."
+        }
+      ]
+    },
+    {
+      "id": "D5-S6",
+      "title": "Pelvic Organ Prolapse",
+      "content": [
+        {
+          "type": "text",
+          "content": "Pelvic organ prolapse (POP) encompasses descent of the bladder (cystocele — anterior compartment), uterus or vaginal vault (apical compartment), and rectum/rectocele (posterior compartment) beyond the vaginal introitus. It is a multidisciplinary condition involving colorectal surgery, urology, and gynaecology. The lifetime risk of surgery for POP or urinary incontinence is approximately 20% for women. Colorectal surgeons become involved when posterior compartment prolapse (rectocele, enterocele, rectal prolapse) contributes to ODS, or when laparoscopic ventral rectopexy also addresses apical and posterior compartment prolapse simultaneously."
+        },
+        {
+          "type": "text",
+          "content": "The POP-Q (Pelvic Organ Prolapse Quantification) system standardises grading of prolapse using anatomical reference points measured in centimetres relative to the hymenal ring. Stage I = descends to ≥1 cm above the hymen; Stage II = descends to within 1 cm of the hymen; Stage III = descends to >1 cm beyond the hymen; Stage IV = complete eversion. For posterior compartment prolapse, defaecography and MRI defaecography complement clinical assessment."
+        },
+        {
+          "type": "text",
+          "content": "Pelvic mesh complications became a significant health concern following the widespread adoption of transvaginal mesh kits (TVT, TOT for stress urinary incontinence; mesh kits for anterior/posterior POP repair) in the 2000s. Mesh erosion (or extrusion) into the vagina or adjacent organs (bladder, rectum) causes chronic pain, dyspareunia, and recurrent infection in 5–15% of cases. Bladder and rectal mesh erosion may require complex reconstructive surgery. NICE, NHS England, and the FDA issued guidance restricting use of transvaginal mesh for POP (not for stress incontinence TVT/TOT which have different risk profiles). The laparoscopic sacrocolpopexy (abdominal route for apical prolapse) has better evidence and lower erosion rates than transvaginal mesh. A multidisciplinary pelvic floor team should manage these patients."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Pelvic Mesh — Current UK Regulatory Position",
+          "content": "NHS England (2019) restricted the use of transvaginal mesh for POP outside specialist centres. Surgeons must be aware of the medico-legal implications. Any patient presenting with pain, urinary symptoms, or rectal symptoms after previous pelvic floor mesh surgery should be referred to a specialist mesh complication service. Do NOT attempt mesh removal without specialist expertise — mesh may be adherent to major pelvic vessels."
+        }
+      ]
+    },
+    {
+      "id": "D5-S7",
+      "title": "Anorectal Physiology Testing Interpretation",
+      "content": [
+        {
+          "type": "text",
+          "content": "Anorectal physiology testing provides objective data on sphincter function, rectal sensation, and the neuromuscular integration required for continence and defaecation. Modern high-resolution anorectal manometry (HRAM) uses multiple closely spaced pressure sensors to produce topographic pressure maps of the anal canal, providing superior spatial and temporal resolution compared to conventional manometry."
+        },
+        {
+          "type": "table",
+          "title": "Anorectal Physiology Test Reference Values and Clinical Interpretation",
+          "headers": ["Test", "Normal Value", "Abnormal Finding", "Clinical Interpretation"],
+          "rows": [
+            ["Resting anal pressure (IAS)", "40–80 mmHg", "<40 mmHg (low); >100 mmHg (high)", "Low = IAS dysfunction/neuropathy/post-LIS. High = fissure, anismus. Measured by automated HRAM."],
+            ["Squeeze pressure (EAS)", "Add ≥50 mmHg to resting", "Low increment = EAS weakness", "Low squeeze = EAS injury (obstetric, surgical), pudendal neuropathy, or denervation"],
+            ["Rectoanal inhibitory reflex (RAIR)", "Present with balloon insufflation 10–50 mL", "Absent", "Absent RAIR = Hirschsprung's disease (must confirm with rectal biopsy for ganglion cells)"],
+            ["Rectal sensation — first sensation", "10–30 mL", ">60 mL = reduced sensation", "Reduced sensation = megarectum, overflow incontinence, pudendal neuropathy"],
+            ["Maximum tolerated volume (MTV)", "100–300 mL", "<100 mL = hyper-reactive; >300 mL = hypocompliant/megarectum", "Low MTV = urgency, proctitis. High MTV = megarectum, overflow."],
+            ["Balloon expulsion test", "Expulsion <60 seconds, 50 mL balloon", "Failure to expel = anismus", "Anismus (dyssynergic defaecation); confirms ODS functional component"],
+            ["Pudendal nerve terminal motor latency (PNTML)", "<2.2 ms bilaterally", ">2.2 ms = prolonged", "Neuropathic sphincter injury; associated with poorer sphincteroplasty outcomes"],
+            ["Colonic transit (radio-opaque markers)", "<5 markers at 5 days (>80% cleared)", ">5 markers = delayed transit", "Slow transit constipation; segmental vs pan-colonic distribution guides surgical approach"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "The rectoanal inhibitory reflex (RAIR) is mediated by intramural neurons in the myenteric plexus — it is the reflex relaxation of the IAS in response to rectal distension, allowing a 'sampling' of rectal contents by the sensitive anoderm. It is absent in Hirschsprung's disease (aganglionic segment lacks the intrinsic neurons to mediate the reflex), regardless of the level of aganglionosis. Hirschsprung's disease must be confirmed by full-thickness or suction rectal biopsy demonstrating absence of ganglion cells on haematoxylin/eosin and hypertrophy of acetylcholinesterase-positive nerve fibres on immunohistochemistry."
+        },
+        {
+          "type": "text",
+          "content": "MRI defaecography offers advantages over traditional fluoroscopic defaecography: no ionising radiation, simultaneous assessment of all three pelvic compartments (anterior — bladder, apical — uterus/vault, posterior — rectum), superior soft tissue visualisation of the levator plate and puborectalis, and ability to assess the levator hiatus dimensions. Limitations include inability to perform in real time at the same speed as fluoroscopy, reduced sensitivity for mild rectoceles due to the supine or semi-recumbent positioning in most MRI protocols, and limited availability. Fluoroscopic defaecography remains the gold standard for dynamic assessment of rectal evacuation."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "RAIR — Clinical Interpretation Pitfall",
+          "content": "A false-negative RAIR (present but weak) may occur in short-segment Hirschsprung's. A false-positive RAIR absence occurs in: ultra-short segment Hirschsprung's (the sensor may be above the aganglionic segment) and in patients with severe megarectum (the rectal balloon distension may not reach the pressure threshold to trigger the reflex — use larger volumes). Always confirm with rectal biopsy before proceeding to surgery."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "CONFIDENCE Trial — PTNS vs SNS for Faecal Incontinence",
+          "citation": "Knowles CH et al. Lancet 2015;386:1206-1216",
+          "population": "227 patients with faecal incontinence, UK multicentre RCT",
+          "intervention": "Posterior tibial nerve stimulation (PTNS) vs sham PTNS vs sacral nerve stimulation (SNS)",
+          "result": "PTNS did not differ significantly from sham stimulation (38% vs 31% success, p=0.19). SNS was superior with 57% success rate. PTNS did not achieve non-inferiority to SNS.",
+          "practice_change": "PTNS cannot be recommended as an alternative to SNS for faecal incontinence. SNS remains the preferred second-line invasive treatment. PTNS may still be considered in patients unwilling or unsuitable for SNS implantation."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "D5-Q1",
+      "stem": "A 52-year-old woman presents with faecal incontinence. Her Wexner score is 14/20. Which components make up the Wexner score?",
+      "options": {
+        "A": "Frequency of leakage, pad use, lifestyle alteration, resting pressure, squeeze pressure",
+        "B": "Solid stool leakage, liquid stool leakage, flatus leakage, need for a pad, lifestyle alteration — each scored 0–4",
+        "C": "Incontinence frequency, incontinence severity, pad use, QoL, and social impact — each scored 0–5",
+        "D": "Urgency, leakage, pad use, dietary restriction, sleep disturbance — scored 0–4"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The Wexner (Cleveland Clinic) Continence Score assesses five domains: solid stool leakage, liquid stool leakage, flatus leakage, need for a pad, and lifestyle alteration. Each domain is scored 0 (never) to 4 (always ≥1/day). Maximum score = 20 (complete incontinence); minimum = 0 (perfect continence). A score ≥9 generally warrants active intervention.",
+        "wrongA": "Resting and squeeze pressures are anorectal manometry measurements, not components of the Wexner score.",
+        "wrongC": "This description resembles the St Mark's Score or FIQL (Faecal Incontinence Quality of Life), not the Wexner score.",
+        "wrongD": "Urgency and sleep disturbance are not Wexner score items.",
+        "guideline": "Wexner score is recommended by ASCRS and ACPGBI as the primary outcome measure for faecal incontinence trials and clinical practice.",
+        "pearl": "Wexner = 5 items × 4-point scale = 20 maximum. Easy to administer in clinic. Score ≥9 = consider biofeedback, SNS, or sphincteroplasty."
+      }
+    },
+    {
+      "id": "D5-Q2",
+      "stem": "A patient with faecal incontinence who has failed conservative management (dietary modification, loperamide, pelvic floor exercises) and biofeedback is referred for further treatment. Endoanal ultrasound shows no sphincter defect. Which is the most appropriate next treatment?",
+      "options": {
+        "A": "Overlapping anterior sphincteroplasty",
+        "B": "Sacral nerve stimulation (SNS)",
+        "C": "Colostomy formation",
+        "D": "Gracilis muscle transposition (dynamic graciloplasty)"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — SNS is the recommended second-line treatment for faecal incontinence regardless of whether a structural sphincter defect is present. Its mechanism involves modulation of the sacral nerve roots (S3), improving both sphincter function and rectal sensation. With no sphincter defect on EUS, sphincteroplasty would have no anatomical substrate to repair.",
+        "wrongA": "Overlapping anterior sphincteroplasty requires a discrete EAS defect to repair. With no sphincter defect on EUS, this procedure has no indication.",
+        "wrongC": "Colostomy is the last resort, appropriate only after all conservative and surgical options have failed. It should not be offered before SNS.",
+        "wrongD": "Dynamic graciloplasty is a complex salvage procedure for patients who have failed SNS and other options. It carries significant morbidity and has largely been replaced by SNS.",
+        "trial": "Thin NN et al. Gut 2013: SNS achieves >50% reduction in incontinence episodes in 75% of patients; 36–47% achieve complete continence.",
+        "pearl": "SNS works even WITHOUT a sphincter defect — this is its greatest advantage over sphincteroplasty. The mechanism is predominantly neuromodulatory (central and peripheral) rather than purely mechanical."
+      }
+    },
+    {
+      "id": "D5-Q3",
+      "stem": "During laparoscopic ventral mesh rectopexy, the mesh is being fixed to the sacral promontory. Which nerve structure is at greatest risk at this anatomical point?",
+      "options": {
+        "A": "Left ureter",
+        "B": "Pudendal nerve in Alcock's canal",
+        "C": "Superior hypogastric plexus (presacral nerve)",
+        "D": "Inferior mesenteric artery"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — The superior hypogastric plexus (presacral nerve) runs over the anterior surface of the L5/S1 disc and sacral promontory, just below the aortic bifurcation. This is the exact site of mesh fixation during LVMR. Injury causes sympathetic dysfunction: bladder voiding difficulty, reduced bladder sensation, and retrograde ejaculation in men.",
+        "wrongA": "The left ureter crosses the left iliac vessels and is at risk during peritoneal incision for sigmoid mobilisation — not specifically at the sacral promontory.",
+        "wrongB": "The pudendal nerve runs in Alcock's canal on the lateral pelvic wall — remote from the sacral promontory and the field of mesh fixation.",
+        "wrongD": "The inferior mesenteric artery is at risk during sigmoid/rectal mobilisation — not during promontory fixation.",
+        "guideline": "D'Hoore LVMR technique: single suture or tack at the promontory — place in the midline to straddle the hypogastric plexus rather than off-centre where nerve injury risk is highest.",
+        "pearl": "Nerve injury at the sacral promontory = sympathetic (superior hypogastric plexus) = bladder dysfunction + retrograde ejaculation. Nerve injury from posterior rectal dissection = parasympathetic (nervi erigentes from S2–S4) = impotence + bladder overactivity. Two different nerve injuries, two different consequences."
+      }
+    },
+    {
+      "id": "D5-Q4",
+      "stem": "A 45-year-old woman undergoes overlapping anterior sphincteroplasty for obstetric EAS defect. Her continence improves markedly at 6 months. At 5-year follow-up, which outcome is most likely?",
+      "options": {
+        "A": "Sustained complete continence in >90% of patients",
+        "B": "Approximately 50% of patients will have deterioration in continence compared to their 6-month result",
+        "C": "Incontinence recurrence is exclusively due to re-tearing of the sphincteroplasty repair",
+        "D": "Long-term outcomes are equivalent to SNS with sphincter defect"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Long-term follow-up studies consistently show that 50–60% of patients experience deterioration in continence by 5 years after overlapping sphincteroplasty, with only 40% maintaining meaningful improvement at 10 years. This deterioration is attributed to progressive pudendal neuropathy, ongoing pelvic floor descent, and ageing, rather than re-tearing.",
+        "wrongA": "90%+ sustained continence is not achievable with sphincteroplasty at 5 years. Short-term results (6 months) are excellent but long-term results are poor.",
+        "wrongC": "Recurrence is primarily due to progressive neuropathy, not mechanical re-disruption of the repair. Imaging often shows the sphincteroplasty repair intact in patients who have become incontinent again.",
+        "wrongD": "Long-term SNS outcomes are generally superior to sphincteroplasty, particularly beyond 5 years, which has influenced current guidelines to offer SNS before sphincteroplasty even in patients with sphincter defects.",
+        "guideline": "ASCRS guidelines (2015): SNS should be offered as an alternative to or before sphincteroplasty given superior long-term outcomes.",
+        "pearl": "Sphincteroplasty works short-term but fails long-term. The underlying neuropathy progresses regardless of the structural repair. Pre-operative PNTML >2.2ms predicts poorer outcome but has limited discriminatory value."
+      }
+    },
+    {
+      "id": "D5-Q5",
+      "stem": "Biofeedback therapy is recommended as first-line treatment for anismus (paradoxical puborectalis syndrome). What is the mechanism by which biofeedback achieves improvement?",
+      "options": {
+        "A": "Strengthens the puborectalis muscle to improve continence",
+        "B": "Teaches the patient to consciously relax the puborectalis and EAS during straining by using real-time visual or tactile feedback of muscle activity",
+        "C": "Provides electrical stimulation to the pudendal nerve to restore normal reflex relaxation",
+        "D": "Stretches the sphincter muscle to reduce resting pressure and improve defaecation"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Biofeedback for anismus uses EMG electrodes or a pressure-sensing probe inserted anally to provide real-time visual feedback of sphincter muscle activity. Patients learn to consciously relax the puborectalis and EAS during straining (the reverse of their paradoxical contraction pattern), correcting the coordination deficit. Success rates are 60–80% in well-selected patients.",
+        "wrongA": "Strengthening the puborectalis would worsen anismus — the problem is paradoxical over-contraction, not weakness. Biofeedback for faecal incontinence (a different indication) does aim to strengthen sphincters.",
+        "wrongC": "Biofeedback is a behavioural therapy, not electrical stimulation. Sacral nerve stimulation uses electrical stimulation — a separate modality.",
+        "wrongD": "Sphincter stretching (anal dilatation, Lord's procedure) is an outdated and discredited treatment associated with high incontinence rates. It is not a mechanism of biofeedback.",
+        "guideline": "NICE (2014) and ACG guidelines: biofeedback is first-line treatment for anismus/dyssynergic defaecation before pharmacological or surgical interventions.",
+        "pearl": "Biofeedback for anismus = teach RELAXATION. Biofeedback for faecal incontinence = teach CONTRACTION. Same tool (EMG feedback), opposite therapeutic goals."
+      }
+    },
+    {
+      "id": "D5-Q6",
+      "stem": "Which of the following best defines the Rome IV criteria for functional constipation?",
+      "options": {
+        "A": "<3 bowel movements per week for at least 12 weeks in the past 12 months",
+        "B": "≥2 of 6 specified symptoms (straining, lumpy stools, incomplete evacuation, anal blockage, manual manoeuvres, <3 SBMs/week) for ≥3 months with onset ≥6 months before diagnosis, with loose stools rarely present without laxatives",
+        "C": "Abdominal pain with constipation for >3 months, relieved partially with defaecation",
+        "D": "Daily straining with <1 spontaneous bowel movement per week requiring laxatives"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Rome IV criteria for functional constipation require ≥2 of the six listed symptoms present for ≥3 months with symptom onset ≥6 months before diagnosis. The six criteria are: straining >25%, lumpy/hard stools >25%, incomplete evacuation >25%, sensation of anorectal obstruction >25%, manual manoeuvres >25%, and <3 spontaneous complete BMs per week. Loose stools are rarely present without laxatives.",
+        "wrongA": "This describes a simplified layperson's definition; Rome IV requires the specific 2-of-6 symptom framework with the stated duration.",
+        "wrongC": "Abdominal pain relieved by defaecation is a criterion for IBS — not functional constipation. Rome IV allows IBS-C and functional constipation to overlap.",
+        "wrongD": "This is not a recognised diagnostic criterion — it would capture a subset of patients but misses many who have infrequent but difficult bowel movements.",
+        "guideline": "Rome IV (Gastroenterology 2016): the consensus functional GI disorder classification system used in all contemporary anorectal physiology research.",
+        "pearl": "Rome IV key change from Rome III: removed the stipulation 'not meeting IBS criteria' — allowing overlap between IBS-C and functional constipation to be recognised clinically."
+      }
+    },
+    {
+      "id": "D5-Q7",
+      "stem": "A 40-year-old woman has confirmed slow transit constipation on radio-opaque marker study with global colonic delay, failed maximum medical therapy (PEG, prucalopride), no ODS component on defaecography, and preserved sphincter function. She is otherwise fit. What surgical option should be discussed?",
+      "options": {
+        "A": "Sigmoid colectomy with colorectal anastomosis",
+        "B": "Subtotal colectomy with ileorectal anastomosis",
+        "C": "Hartmann's procedure",
+        "D": "Ileostomy alone without colectomy"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Subtotal colectomy with ileorectal anastomosis (IRA) is the surgical procedure of choice for refractory slow transit constipation with global colonic delay and no ODS component. It achieves satisfactory bowel frequency (2–4 per day) in 70–90% of carefully selected patients.",
+        "wrongA": "Sigmoid colectomy is inadequate for global slow transit constipation — removing only part of the dysmotile colon leaves residual colonic inertia and continued constipation symptoms.",
+        "wrongC": "Hartmann's procedure leaves a rectal stump and is associated with significant morbidity; it is not appropriate as elective treatment for STC in a fit patient.",
+        "wrongD": "Ileostomy alone without colectomy is a temporising measure occasionally used in very frail patients; it is not the definitive surgical option for a fit patient with STC.",
+        "guideline": "ACPGBI guideline on constipation: subtotal colectomy with IRA is the standard surgical option for STC; patient selection requires exclusion of ODS, IBS, enteric neuropathy, and psychological comorbidity.",
+        "pearl": "Predictors of poor outcome after subtotal colectomy for STC: IBS phenotype, psychological comorbidity, symptoms of urgency and abdominal pain predominating over constipation, and ODS not excluded on defaecography."
+      }
+    },
+    {
+      "id": "D5-Q8",
+      "stem": "Defaecography is performed on a patient with ODS. It shows an anterior rectocele of 3.5 cm depth with stool trapping. What finding on defaecography would confirm a diagnosis of anismus as a co-existing functional problem?",
+      "options": {
+        "A": "Opening of the anorectal angle from 90° to 130° during straining",
+        "B": "Failure of the anorectal angle to open during straining, with a prominent posterior shelf (puborectalis impression)",
+        "C": "Descent of the anorectal junction >4 cm below the pubococcygeal line during straining",
+        "D": "Internal intussusception (rectal infolding) of >3 cm during maximum straining"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Anismus on defaecography appears as failure of the anorectal angle to open (or paradoxical narrowing) during straining to defaecate, combined with a prominent posterior shelf impression at the level of the puborectalis. Contrast does not flow through the anal canal despite straining effort.",
+        "wrongA": "Opening of the anorectal angle from 90° to 130° during straining represents NORMAL defaecatory dynamics — coordinated puborectalis relaxation as expected.",
+        "wrongC": "Descent of the anorectal junction >4 cm represents descending perineum syndrome — a separate entity associated with pudendal neuropathy from chronic straining, not specifically anismus.",
+        "wrongD": "Internal intussusception is a structural cause of ODS (associated with the anterior rectocele in this patient) — not a finding of anismus.",
+        "guideline": "Defaecography criteria for anismus: anorectal angle fails to open AND/OR decreases during straining + incomplete or absent rectal evacuation + no structural obstruction accounting for failure.",
+        "pearl": "Anismus must be identified before treating structural causes — STARR on a patient with coexistent anismus will worsen urgency without improving evacuation, as the fundamental functional barrier persists."
+      }
+    },
+    {
+      "id": "D5-Q9",
+      "stem": "A balloon expulsion test is performed in a patient with chronic constipation and ODS symptoms. She cannot expel a 50 mL water-filled balloon from the rectum after 3 minutes of straining. What diagnosis does this support?",
+      "options": {
+        "A": "Slow transit constipation with global colonic delay",
+        "B": "Hirschsprung's disease",
+        "C": "Anismus (dyssynergic defaecation / pelvic floor dyssynergia)",
+        "D": "Rectal hyposensitivity with megarectum"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — Failure to expel a 50 mL water-filled balloon within 60 seconds (some protocols allow up to 3 minutes) is the diagnostic finding of the balloon expulsion test for anismus/dyssynergic defaecation. It represents the inability to coordinate puborectalis relaxation and increase intra-abdominal pressure simultaneously to overcome pelvic floor resistance.",
+        "wrongA": "Slow transit constipation is diagnosed by colonic transit study (radio-opaque markers), not the balloon expulsion test, which specifically assesses pelvic floor coordination.",
+        "wrongB": "Hirschsprung's disease is diagnosed by absent RAIR on manometry and confirmed by rectal biopsy. The balloon expulsion test is not specific for Hirschsprung's.",
+        "wrongD": "Rectal hyposensitivity (megarectum) would manifest as an elevated threshold of first sensation and maximum tolerated volume on manometry — not primarily failure of balloon expulsion.",
+        "guideline": "Balloon expulsion test: 50 mL balloon, straining to expel, normal = <60 seconds. Failure = strongly suggestive of outlet obstruction/anismus. Combined with defaecography and EMG for full anismus diagnosis.",
+        "pearl": "The balloon expulsion test is the simplest, cheapest, and most reproducible screening test for anismus. It should be performed in all patients with ODS before imaging or EMG."
+      }
+    },
+    {
+      "id": "D5-Q10",
+      "stem": "Pudendal nerve terminal motor latency (PNTML) is measured at 2.6 ms bilaterally in a woman presenting for obstetric sphincter injury assessment. What does this result indicate?",
+      "options": {
+        "A": "Normal bilateral pudendal nerve function — sphincteroplasty can proceed without modification",
+        "B": "Prolonged bilateral PNTML indicating bilateral pudendal neuropathy — associated with poorer outcomes after sphincteroplasty",
+        "C": "Absent PNTML indicating complete pudendal nerve transection — sphincteroplasty contraindicated",
+        "D": "Unilateral nerve injury only — contralateral nerve will compensate fully"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Normal PNTML is <2.2 ms. A PNTML of 2.6 ms bilaterally represents bilateral prolongation, indicating pudendal neuropathy. This is associated with worse outcomes after sphincteroplasty because the neuropathic EAS muscle cannot generate adequate squeeze even after structural repair. However, PNTML has limited discriminatory value — its positive predictive value for poor outcome is insufficient to use as the sole criterion for withholding surgery.",
+        "wrongA": "2.6 ms is above the normal threshold of 2.2 ms — this is NOT normal.",
+        "wrongC": "PNTML 2.6 ms indicates neuropathy (slowed conduction) but not complete transection. Complete transection would render PNTML unmeasurable.",
+        "wrongD": "Bilateral prolongation does not indicate asymmetric injury — both pudendal nerves show neuropathy.",
+        "guideline": "ACPGBI guidance: PNTML should be interpreted in the context of clinical presentation, manometry, and EUS. Prolonged PNTML is a poor prognostic indicator but not an absolute contraindication to sphincteroplasty; SNS should be discussed as an alternative.",
+        "pearl": "Bilateral pudendal neuropathy (PNTML >2.2ms bilateral) = consider SNS over sphincteroplasty. Unilateral neuropathy with intact contralateral nerve and good EUS defect = sphincteroplasty reasonable."
+      }
+    },
+    {
+      "id": "D5-Q11",
+      "stem": "Anorectal manometry in a 4-year-old boy with lifelong constipation shows absence of the rectoanal inhibitory reflex (RAIR) with balloon volumes up to 100 mL. What is the most appropriate next investigation?",
+      "options": {
+        "A": "MRI defaecography to assess the rectocele and intussusception",
+        "B": "Radio-opaque marker transit study",
+        "C": "Full-thickness rectal biopsy (or suction biopsy) to assess for ganglion cells",
+        "D": "Sigmoid colectomy with ileorectal anastomosis"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — Absent RAIR in a child with lifelong constipation is strongly suggestive of Hirschsprung's disease (aganglionic megacolon). The diagnosis requires histological confirmation: suction rectal biopsy (in children under 3 years) or full-thickness biopsy in older children/adults to demonstrate absence of ganglion cells and hypertrophy of acetylcholinesterase-positive nerve fibres in the submucosa and myenteric plexus.",
+        "wrongA": "MRI defaecography is not appropriate for a 4-year-old with suspected Hirschsprung's disease — this is an anatomical and physiological study for adult ODS, not for paediatric aganglionosis.",
+        "wrongB": "Radio-opaque marker transit study assesses colonic transit but does not diagnose Hirschsprung's disease. The absent RAIR is the key finding here.",
+        "wrongD": "Sigmoid colectomy would be inappropriate — Hirschsprung's requires a pull-through procedure (Soave, Swenson, or Duhamel) after confirming the extent of aganglionosis, not a simple segmental resection.",
+        "guideline": "BSG/BSPGHAN guideline: absent RAIR in the correct clinical context mandates rectal biopsy to confirm/exclude Hirschsprung's before any surgical intervention.",
+        "pearl": "RAIR absence = think Hirschsprung's. But always confirm with biopsy — false positives occur with technical error or megarectum requiring very high balloon volumes."
+      }
+    },
+    {
+      "id": "D5-Q12",
+      "stem": "For assessment of an EAS sphincter defect, which investigation provides superior information about the IAS versus the EAS, and what are their respective appearances on endoanal ultrasound?",
+      "options": {
+        "A": "EUS is superior for EAS; IAS appears as hyperechoic ring; EAS appears as hypoechoic ring",
+        "B": "MRI is superior for EAS; both appear isointense on T2",
+        "C": "EUS: IAS = hyperechoic (bright) ring; EAS = hypoechoic (dark) ring. EUS superior for IAS; MRI superior for EAS",
+        "D": "EUS: IAS = hypoechoic ring; EAS = hyperechoic ring"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — On endoanal ultrasound, the IAS appears as a hyperechoic (bright) ring due to its smooth muscle composition. The EAS appears as a hypoechoic (dark) band surrounding the IAS. EUS provides excellent IAS imaging but is less reliable for EAS defects, particularly posterior and superior defects. Endoanal MRI provides superior visualisation of the EAS (especially for scar/atrophy) and is preferred for pre-operative planning of sphincteroplasty when EUS findings are equivocal.",
+        "wrongA": "The echotexture description is reversed — IAS is hyperechoic (not hypoechoic), EAS is hypoechoic.",
+        "wrongB": "Both IAS and EAS do not appear isointense on T2 MRI — the IAS is hypointense (dark signal) on T2; EAS is intermediate signal.",
+        "wrongD": "This is incorrect — IAS = hyperechoic (bright); EAS = hypoechoic (dark) on EUS.",
+        "guideline": "ASCRS guidance: endoanal ultrasound is the first-line investigation for structural sphincter defects; endoanal MRI adds value when EUS is inconclusive or for complex/recurrent cases.",
+        "pearl": "Mnemonic: IAS = Smooth muscle = Bright (hyperechoic) on EUS. EAS = Striated (skeletal) muscle = Dark (hypoechoic) on EUS. The opposite of what most people expect."
+      }
+    },
+    {
+      "id": "D5-Q13",
+      "stem": "A 30-year-old woman sustains a 3rd-degree perineal tear (OASI — obstetric anal sphincter injury) during vaginal delivery. Which classification indicates a complete EAS + IAS tear with intact rectal mucosa?",
+      "options": {
+        "A": "3a — <50% EAS thickness torn",
+        "B": "3b — >50% EAS thickness torn",
+        "C": "3c — full EAS + IAS torn, rectal mucosa intact",
+        "D": "4th degree — full EAS + IAS + rectal mucosa disrupted"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — The Sultan classification for obstetric anal sphincter injuries: 3a = <50% of EAS torn; 3b = >50% of EAS torn; 3c = full EAS thickness + IAS torn (rectal mucosa intact); 4th degree = full EAS + IAS + rectal mucosa/epithelium disrupted. The key distinction between 3c and 4th degree is rectal mucosal involvement.",
+        "wrongA": "3a = only partial EAS (<50%) torn — IAS intact, rectal mucosa intact.",
+        "wrongB": "3b = >50% EAS torn — IAS intact (critical distinction from 3c where IAS is also injured).",
+        "wrongD": "4th degree = EAS + IAS + rectal mucosa all disrupted — the most severe obstetric tear, associated with highest risk of faecal incontinence.",
+        "guideline": "RCOG Green-top guideline 29 (2015): all 3rd and 4th degree tears should be repaired in theatre by an experienced surgeon; post-repair anorectal physiology at 3 months is recommended.",
+        "pearl": "3c vs 4th degree: probe the wound — if rectal mucosa is visible and torn = 4th degree. If IAS is torn but rectum intact = 3c. Both require IAS and EAS repair (IAS = end-to-end or overlapping; EAS = overlapping)."
+      }
+    },
+    {
+      "id": "D5-Q14",
+      "stem": "A patient undergoes perineal rectosigmoidectomy (Altemeier procedure) for full-thickness rectal prolapse. Two years post-operatively she develops recurrent prolapse. What is the best management option?",
+      "options": {
+        "A": "Repeat Altemeier procedure",
+        "B": "Laparoscopic ventral mesh rectopexy (D'Hoore)",
+        "C": "Delorme procedure",
+        "D": "Conservative management with Kegel exercises"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — After a perineal procedure, the optimal management for recurrence is conversion to an abdominal approach (laparoscopic ventral mesh rectopexy), which has the lowest recurrence rate (3–8%) among available options. The previous Altemeier procedure does not preclude LVMR, and the patient should be assessed for fitness for laparoscopic surgery.",
+        "wrongA": "Repeat Altemeier is associated with higher recurrence rates than abdominal approaches. However, if the patient is unfit for general anaesthesia/laparoscopic surgery, a second perineal procedure may be necessary.",
+        "wrongC": "Delorme after Altemeier would be technically challenging due to prior mucosal dissection and has even higher recurrence rates. It is not appropriate here.",
+        "wrongD": "Conservative management has no role in symptomatic full-thickness rectal prolapse requiring active treatment.",
+        "guideline": "ACPGBI and ASCRS guidelines: abdominal rectopexy (LVMR preferred) is associated with the lowest recurrence rates and should be offered to fit patients, including those with prior perineal procedures.",
+        "pearl": "Recurrence rates: LVMR 3–8% < Suture rectopexy ± sigmoidectomy 5–15% < Altemeier 10–20% < Delorme 15–25%. Fitting patients should move up the hierarchy toward abdominal approaches."
+      }
+    },
+    {
+      "id": "D5-Q15",
+      "stem": "The CONFIDENCE trial compared posterior tibial nerve stimulation (PTNS) to sacral nerve stimulation (SNS) for faecal incontinence. What was the primary finding?",
+      "options": {
+        "A": "PTNS was non-inferior to SNS and should be offered as a first-line implantable alternative",
+        "B": "PTNS did not differ significantly from sham stimulation and was inferior to SNS",
+        "C": "PTNS was superior to SNS for patients with isolated pudendal neuropathy",
+        "D": "Both PTNS and SNS had equivalent outcomes; PTNS preferred due to lower cost"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The CONFIDENCE trial (Knowles et al. Lancet 2015) showed that PTNS did not achieve a statistically significant difference from sham stimulation (38% vs 31% success rate, p=0.19) and did not demonstrate non-inferiority to SNS (SNS success 57%). PTNS therefore cannot be recommended as an equivalent alternative to SNS.",
+        "wrongA": "PTNS did not achieve non-inferiority to SNS in the CONFIDENCE trial — the trial specifically failed to show this.",
+        "wrongC": "No subgroup analysis from CONFIDENCE supports PTNS superiority in pudendal neuropathy patients.",
+        "wrongD": "Outcomes were NOT equivalent — SNS was superior. PTNS may still be offered in patients unwilling to undergo implantation, acknowledging its lower efficacy.",
+        "trial": "CONFIDENCE RCT (Knowles CH, Lancet 2015;386:1206-1216): PTNS 38% vs sham 31% (p=0.19, NS); SNS 57% — PTNS inferior to SNS.",
+        "pearl": "PTNS is minimally invasive (acupuncture-like electrode at medial ankle), which is appealing to patients. However, its evidence base for faecal incontinence is weak. It retains a role for urinary urgency incontinence (better evidence)."
+      }
+    },
+    {
+      "id": "D5-Q16",
+      "stem": "Frykman-Goldberg rectopexy adds sigmoidectomy to posterior suture rectopexy. What is the main indication for adding sigmoidectomy?",
+      "options": {
+        "A": "To reduce recurrence rates in all patients with rectal prolapse",
+        "B": "To address constipation caused by a redundant sigmoid colon that will not resolve with rectopexy alone",
+        "C": "To improve continence by reducing rectal compliance",
+        "D": "Sigmoidectomy is mandatory in all posterior rectopexy procedures"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The primary indication for adding sigmoidectomy to posterior rectopexy is to address pre-existing constipation related to a redundant sigmoid colon. Posterior rectopexy alone may worsen or unmask constipation (by straightening and fixing the rectum, reducing reservoir capacity without addressing the redundant sigmoid). Sigmoidectomy reduces colonic inertia and the redundant reservoir.",
+        "wrongA": "Sigmoidectomy does not significantly reduce recurrence rates compared to suture rectopexy alone. Recurrence rates with Frykman-Goldberg are 5–15%, similar to suture rectopexy without sigmoidectomy.",
+        "wrongC": "Sigmoidectomy does not directly target rectal compliance. It targets the redundant sigmoid, which is a distinct anatomical component from the rectum.",
+        "wrongD": "Sigmoidectomy is not mandatory — it is selectively added when constipation is a significant pre-operative complaint and a redundant sigmoid is demonstrated on colonoscopy or imaging.",
+        "guideline": "ASCRS guidelines: rectopexy with sigmoidectomy is preferred over rectopexy alone in patients with concurrent constipation and redundant sigmoid; it carries a small additional anastomotic leak risk.",
+        "pearl": "Paradox of rectopexy and constipation: posterior suture rectopexy reduces prolapse recurrence but may worsen constipation in 10–20% of patients by fixing and tethering the rectum. LVMR avoids this by preserving lateral ligaments."
+      }
+    },
+    {
+      "id": "D5-Q17",
+      "stem": "Which of the following represents a specific advantage of MRI defaecography over fluoroscopic defaecography?",
+      "options": {
+        "A": "MRI defaecography can be performed in real time at the speed of actual defaecation",
+        "B": "MRI defaecography has superior sensitivity for detecting small rectoceles (<1 cm depth)",
+        "C": "MRI defaecography simultaneously assesses all three pelvic compartments without ionising radiation and provides superior soft tissue visualisation",
+        "D": "MRI defaecography is available in all district general hospitals and is cheaper than fluoroscopy"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — MRI defaecography's key advantages are: (1) no ionising radiation; (2) simultaneous multicompartmental assessment (anterior: bladder/urethra; apical: uterus/vault; posterior: rectum) — essential for identifying combined POP; (3) superior soft tissue contrast for levator ani, puborectalis, and perineal body; (4) ability to quantify levator hiatal area. These advantages make it the preferred modality in specialist centres.",
+        "wrongA": "MRI defaecography cannot match fluoroscopy's real-time speed — acquisition time per sequence is several seconds to minutes, making dynamic assessment less precise than fluoroscopy's continuous imaging.",
+        "wrongB": "MRI may actually have lower sensitivity for small rectoceles due to supine/semi-recumbent positioning (less gravitational strain effect). Fluoroscopic defaecography in the upright position may detect smaller structural abnormalities.",
+        "wrongD": "MRI defaecography requires dedicated equipment and expertise and is NOT universally available at DGH level. It is more expensive than fluoroscopy.",
+        "guideline": "EDS (European Defaecography Society) consensus: MRI preferred for multicompartmental assessment and paediatric cases; fluoroscopy preferred for dynamic functional assessment of rectal evacuation.",
+        "pearl": "MRI defaecography advantage = multicompartmental, no radiation, soft tissue. Fluoroscopy advantage = real-time dynamic, widely available, detects subtle functional changes, upright positioning."
+      }
+    },
+    {
+      "id": "D5-Q18",
+      "stem": "Biofeedback is assessed for efficacy in faecal incontinence. What level of evidence supports biofeedback for faecal incontinence?",
+      "options": {
+        "A": "Level Ia — multiple large RCTs consistently demonstrating superiority over no treatment and SNS",
+        "B": "Level Ib — NICE-approved based on a single pivotal RCT",
+        "C": "Moderate — controlled trials showing benefit over no treatment but inferior to SNS; recommended as first-line conservative treatment",
+        "D": "No evidence — biofeedback is no longer recommended by NICE or ASCRS for faecal incontinence"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — Biofeedback for faecal incontinence has moderate evidence supporting its efficacy. Multiple controlled trials and meta-analyses show improvement over baseline, but head-to-head comparisons with SNS show biofeedback is inferior for moderate-severe incontinence. It is nevertheless recommended as a first-line non-invasive treatment before proceeding to SNS.",
+        "wrongA": "The evidence base for biofeedback in FI is not Level Ia. Large RCTs are limited, and methodological heterogeneity makes pooled analysis difficult. The MRC-sponsored NIHR trial showed biofeedback combined with sphincter exercises was superior to exercises alone.",
+        "wrongB": "NICE does not have a single pivotal RCT for biofeedback — the evidence is from multiple smaller trials and systematic reviews.",
+        "wrongD": "Biofeedback is actively recommended by NICE, ASCRS, and ACPGBI as first-line conservative treatment for FI before invasive procedures.",
+        "guideline": "NICE CG 49 (2007) and subsequent updates recommend pelvic floor muscle training (biofeedback) as the first-line non-surgical intervention for FI.",
+        "pearl": "The stepwise management of FI: Diet → antidiarrhoeals → pelvic floor exercises ± biofeedback → SNS → sphincteroplasty (if structural defect) → colostomy. Biofeedback is step 3; SNS is step 4."
+      }
+    },
+    {
+      "id": "D5-Q19",
+      "stem": "Presacral haemorrhage occurs during laparoscopic ventral mesh rectopexy. The bleeding originates from a torn presacral vein. Simple suturing of the vessel worsens haemorrhage. What is the most effective immediate control measure?",
+      "options": {
+        "A": "Insert a haemostatic suture through the bone (sacrum) around the bleeding vessel",
+        "B": "Apply direct pressure with gauze pack and call for senior assistance; if persistent, drive sterile stainless steel thumbtacks into the bleeding point on the sacrum",
+        "C": "Immediate conversion to open surgery with sigmoid colectomy to improve access",
+        "D": "Apply topical thrombin-soaked Gelfoam and close the peritoneum"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Presacral venous haemorrhage is catastrophic because presacral veins are avalvular, valveless, and communicate with the basivertebral system. Suturing tears the fragile vessel further. The key management steps are: (1) immediate direct digital pressure; (2) if this fails, sterile stainless steel thumbtacks are driven into the sacrum at the bleeding point to compress and occlude the venous orifice — this is uniquely effective for presacral venous bleeding. Bone wax, sterile packing, and absorbable haemostatic agents may also help.",
+        "wrongA": "Suturing around the vessel worsens tears in the presacral venous plexus — this is contraindicated and the reason thumbtacks are necessary.",
+        "wrongC": "Conversion to open surgery improves access but does not address the specific haemorrhage mechanism. It may be necessary for packing but the thumbtack technique should be attempted laparoscopically first.",
+        "wrongD": "Topical agents may assist but are insufficient alone for a torrential presacral bleed without first achieving mechanical control.",
+        "guideline": "ASCRS and ACPGBI technical guidance: sterile stainless steel thumbtacks (Rankin tacks, bone tacks) driven into the sacrum are the specific technique for presacral venous haemorrhage — should be available in any theatre performing pelvic surgery.",
+        "pearl": "Presacral venous plexus = avalvular, connected to basivertebral veins = retraction on venous bleeding WORSENS haemorrhage. Counter-intuitive management: push INTO the bone (thumbtacks), don't try to suture."
+      }
+    },
+    {
+      "id": "D5-Q20",
+      "stem": "A patient presents with solitary rectal ulcer syndrome (SRUS) confirmed on sigmoidoscopy and biopsy (fibromuscular obliteration of lamina propria). What is the first-line management?",
+      "options": {
+        "A": "Proctectomy with coloanal anastomosis",
+        "B": "Rectal excision with permanent colostomy",
+        "C": "Biofeedback to correct underlying straining/anismus, sucralfate enemas, dietary modification, and avoidance of straining",
+        "D": "Systemic immunosuppression with mesalazine and prednisolone"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — SRUS is caused by chronic ischaemia of the anterior rectal wall from internal intussusception, paradoxical puborectalis contraction (anismus), and chronic straining. First-line management is behavioural and conservative: biofeedback to correct dyssynergia, high-fibre diet to avoid straining, sucralfate enemas for mucosal healing, and laxatives. Surgery (STARR or rectopexy) is reserved for proven internal intussusception not responding to conservative therapy.",
+        "wrongA": "Proctectomy is inappropriate first-line treatment for SRUS — a benign condition. It is a last resort only.",
+        "wrongB": "Permanent colostomy is the ultimate salvage for refractory SRUS causing severe haemorrhage or uncontrolled symptoms after all other treatments fail. It is not first-line.",
+        "wrongD": "SRUS is not an inflammatory condition — it does not respond to immunosuppression. Its pathophysiology is ischaemic/mechanical, not immunological. Distinguishing SRUS from IBD/Crohn's is important.",
+        "guideline": "ACPGBI guidance on SRUS: biofeedback is the cornerstone of treatment as anismus is present in the majority of patients. Surgical treatment (STARR, rectopexy) only after conservative failure with confirmed intussusception.",
+        "pearl": "SRUS histology: fibromuscular obliteration of the lamina propria + disorganised muscle fibres in the submucosa. This specific histological pattern distinguishes SRUS from IBD, carcinoma, and endometriosis."
+      }
+    }
+  ]
+}

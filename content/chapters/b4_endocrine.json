@@ -1,0 +1,659 @@
+{
+  "id": "B4",
+  "title": "Endocrine Surgery",
+  "subtitle": "General Surgery — Thyroid, Parathyroid & Adrenal",
+  "block": "B",
+  "block_name": "General Surgery",
+  "level": "PGY2-3",
+  "reading_time_min": 80,
+  "guidelines_version": "ATA 2015 Thyroid Nodule Guidelines · AAES 2016 · ETA 2023 · Endocrine Society Guidelines 2021",
+  "textbook_refs": [
+    "Schwartz's Principles of Surgery, 11th ed., Ch. 38",
+    "ATA Guidelines for Management of Thyroid Nodules and Differentiated Thyroid Cancer 2015",
+    "European Society of Endocrinology: Clinical Practice Guidelines 2023",
+    "Cirugía Endocrina — Manual AEC"
+  ],
+  "learning_objectives": [
+    "Apply the ATA risk stratification for thyroid nodules and indications for FNA",
+    "Describe the surgical management of differentiated, medullary, and anaplastic thyroid cancer",
+    "Identify indications for parathyroidectomy in primary hyperparathyroidism",
+    "Classify adrenal incidentalomas and determine operative vs non-operative management",
+    "Recognise and manage complications of thyroid and parathyroid surgery",
+    "Describe thyroidectomy technique including recurrent and superior laryngeal nerve identification",
+    "Outline MEN syndrome genetics, clinical features, and surgical implications",
+    "Describe minimally invasive adrenalectomy techniques and indications"
+  ],
+  "sections": [
+    {
+      "id": "B4-S1",
+      "title": "Thyroid Nodule and Cancer",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Thyroid nodules are extremely common — palpable in 5% of adults, detectable on ultrasound in 50–70%. The clinical priority is identifying the minority that are malignant (~5–15%). The ATA 2015 guidelines stratify nodule risk by ultrasound pattern (TIRADS-equivalent): high suspicion (solid hypoechoic, irregular margins, microcalcifications, taller-than-wide, rim calcification, extrathyroidal extension) vs benign features (purely cystic, spongiform). FNA is indicated for nodules ≥1cm in the high-suspicion pattern; ≥1.5–2cm for intermediate suspicion. The Bethesda System for Reporting Thyroid Cytopathology (I–VI) guides surgical decision-making."
+        },
+        {
+          "type": "table",
+          "title": "Bethesda Classification — Surgical Decision Guide",
+          "headers": ["Bethesda", "Category", "Malignancy Risk", "Management"],
+          "rows": [
+            ["I", "Non-diagnostic", "1–4%", "Repeat FNA with US guidance"],
+            ["II", "Benign", "0–3%", "Clinical follow-up; no surgery"],
+            ["III", "Atypia of undetermined significance (AUS/FLUS)", "10–30%", "Repeat FNA / molecular testing / diagnostic lobectomy"],
+            ["IV", "Follicular neoplasm", "25–40%", "Diagnostic hemithyroidectomy"],
+            ["V", "Suspicious for malignancy", "50–75%", "Hemithyroidectomy or total thyroidectomy"],
+            ["VI", "Malignant", "97–99%", "Total thyroidectomy ± central neck dissection"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — RET Mutation and Medullary Thyroid Cancer",
+          "content": "Medullary thyroid cancer (MTC) arises from parafollicular C-cells and secretes calcitonin — a specific tumour marker. RET proto-oncogene mutations: hereditary MTC occurs in MEN2A (RET C634 codon mutation + pheochromocytoma + primary hyperparathyroidism) and MEN2B (M918T mutation + pheochromocytoma + mucosal neuromas; most aggressive). Prophylactic total thyroidectomy is recommended for RET mutation carriers — timing depends on specific codon and associated risk category. Calcitonin and CEA are post-operative surveillance markers."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Anaplastic Thyroid Cancer",
+          "content": "Anaplastic thyroid cancer (ATC) is the most lethal solid tumour — median survival 3–5 months. It typically presents as a rapidly enlarging neck mass with tracheal invasion, dysphagia, and dysphonia. BRAF V600E mutation present in 25–45% — combined BRAF inhibitor (dabrafenib) + MEK inhibitor (trametinib) is the only treatment with meaningful response rates. Surgery is rarely curative — do not attempt radical resection without multidisciplinary neoadjuvant intent plan. Secure the airway early."
+        }
+      ]
+    },
+    {
+      "id": "B4-S2",
+      "title": "Thyroidectomy — Technique & Nerve Monitoring",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Total thyroidectomy is the standard surgical procedure for thyroid cancer, bilateral multinodular goitre, and Graves' disease refractory to medical therapy. Hemithyroidectomy (thyroid lobectomy) is appropriate for benign unilateral disease, diagnostic resection (Bethesda IV), and low-risk differentiated thyroid cancer ≤1cm (ATA low-risk). Operative steps for total thyroidectomy: (1) Patient positioning: supine with neck extended (shoulder roll); Kocher collar incision 2–3cm above the clavicle in a skin crease. (2) Subplatysmal flaps raised; strap muscles divided in the midline (not transected). (3) Superior thyroid pole: ligate the superior thyroid artery and vein as close to the thyroid as possible — critical to identify and preserve the external branch of the superior laryngeal nerve (EBSLN) which runs medial to the superior thyroid vessels and can be damaged during ligation of the superior pole. (4) Recurrent laryngeal nerve (RLN) identification: the RLN runs in the tracheoesophageal groove on the left, entering the larynx at the inferior border of the cricothyroid muscle. On the right, the RLN loops around the subclavian artery and has a more oblique course. The RLN is identified before any tissue division — identification, not just 'working laterally,' is the standard. The nerve should be traced from the inferior pole of the thyroid to its entry into the larynx. (5) Parathyroid glands: identify all four parathyroid glands; devascularised glands should be autotransplanted (minced into 1mm³ pieces, placed in small pockets in the sternocleidomastoid muscle). (6) Haemostasis and drain (if significant dead space)."
+        },
+        {
+          "type": "text",
+          "content": "Intraoperative neuromonitoring (IONM) of the RLN is standard practice in many centres. Two systems: intermittent IONM (needle electrodes in vocalis muscle, probe stimulation of nerve) and continuous IONM (electromyographic endotracheal tube, continuous nerve signal during dissection). IONM identifies the RLN in the operative field, confirms nerve integrity before and after resection, and alerts the surgeon to traction injury. The European Laryngological Society recommends IONM for all bilateral thyroid surgery, reoperative surgery, and Graves' disease where the risk of RLN injury is highest. Loss of EMG signal during IONM should prompt cessation of dissection on the contralateral side if bilateral thyroidectomy is planned — completing the second side risks bilateral RLN injury and emergency tracheostomy."
+        },
+        {
+          "type": "table",
+          "title": "Recurrent vs Superior Laryngeal Nerve — Key Differences",
+          "headers": ["Feature", "Recurrent Laryngeal Nerve (RLN)", "External Branch of SLN (EBSLN)"],
+          "rows": [
+            ["Course", "Tracheoesophageal groove; loops around subclavian (R) or aortic arch (L)", "Medial to superior thyroid vessels, near upper pole"],
+            ["Function", "All laryngeal muscles except cricothyroid; vocal cord abduction/adduction", "Cricothyroid muscle — voice pitch modulation"],
+            ["Injury presentation", "Hoarseness, weak voice, aspiration (bilateral: stridor, airway emergency)", "Voice fatigue, high-pitched voice loss (can be subtle)"],
+            ["Identification point", "Tracheoesophageal groove; at inferior pole of thyroid", "During superior pole mobilisation — stay close to thyroid capsule"],
+            ["Risk factor for injury", "Reoperative surgery, Graves', cancer invasion, non-recurrent (right, rare)", "Ligation of superior thyroid vessels away from capsule"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B4-S3",
+      "title": "Complications of Thyroid Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The most important complications of thyroid surgery are: (1) Recurrent laryngeal nerve injury — incidence 0.5–1% permanent for total thyroidectomy in experienced hands; up to 5% in reoperative surgery. Unilateral RLN injury causes hoarseness and aspiration; bilateral injury causes stridor and may require emergency tracheostomy. Management: voice therapy for unilateral injury; vocal cord medialisation (injection or thyroplasty) for permanent paralysis. (2) Hypoparathyroidism — the most common complication of total thyroidectomy. Transient hypoparathyroidism (PTH suppression resolves within 6 months) occurs in 20–30% of total thyroidectomy patients. Permanent hypoparathyroidism (<1% in experienced hands) is a significant long-term morbidity. (3) Haemorrhage/haematoma — 1–2% incidence; can be life-threatening due to airway compression. Presents with neck swelling, tachycardia, and airway compromise within hours. Emergency management: immediate wound opening at the bedside (do not wait for theatre if patient is in respiratory distress). (4) Chyle leak — from thoracic duct injury during central/lateral neck dissection; managed conservatively (low-fat diet, octreotide) or with surgical ligation."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Post-thyroidectomy Hypocalcaemia — Recognition and Management",
+          "content": "Symptomatic hypocalcaemia after total thyroidectomy presents with perioral and digital paraesthesias, Chvostek's sign (facial muscle twitching on tapping the facial nerve anterior to the ear), Trousseau's sign (carpal spasm after 3 minutes of blood pressure cuff inflation above systolic pressure). Check serum calcium and PTH at 4–6h post-operatively. PTH <15 pg/mL at 4–6h predicts hypocalcaemia requiring supplementation with 96% sensitivity. Treatment: oral calcium carbonate 1–2g three times daily + calcitriol (1,25-dihydroxyvitamin D, 0.25–0.5 mcg twice daily). IV calcium gluconate (10mL of 10%) for symptomatic tetany. Autotransplantation of devascularised parathyroid glands reduces permanent hypoparathyroidism rates."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Chvostek vs Trousseau",
+          "content": "Chvostek's sign: tapping the facial nerve at the preauricular region causes ipsilateral facial muscle twitching — present in 10% of normocalcaemic individuals (low specificity). Trousseau's sign: inflating a blood pressure cuff to above systolic for 3 minutes causes carpal spasm (main d'accoucheur) — more specific for hypocalcaemia (99% specific, 94% sensitive). Trousseau's sign is more reliable clinically. Both signs indicate neuromuscular excitability from hypocalcaemia."
+        }
+      ]
+    },
+    {
+      "id": "B4-S4",
+      "title": "Primary Hyperparathyroidism",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Primary hyperparathyroidism (PHPT) is the most common cause of hypercalcaemia in outpatients — caused by a single parathyroid adenoma in 85% of cases. Biochemistry: elevated serum calcium with inappropriately elevated or non-suppressed PTH. The majority of cases are asymptomatic, diagnosed incidentally. Symptomatic PHPT (nephrolithiasis, nephrocalcinosis, osteoporosis with fragility fracture, neuromuscular symptoms, gastrointestinal symptoms) is an absolute indication for surgery. Asymptomatic PHPT surgical criteria (2022 revised guidelines): age <50, serum Ca >1mg/dL above ULN, creatinine clearance <60mL/min, T-score ≤−2.5, vertebral fracture on imaging, 24h urine calcium >400mg/day. Pre-operative localisation for minimally invasive parathyroidectomy (MIP): sestamibi scintigraphy (sensitivity 80%) ± 4D-CT (sensitivity 90%) ± ultrasound. Concordant localisation allows focused MIP with ioPTH monitoring rather than bilateral 4-gland exploration."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Intraoperative PTH Monitoring (Miami Criteria)",
+          "content": "Intraoperative PTH (ioPTH) monitoring is the standard of care for targeted parathyroidectomy. The Miami criteria: ioPTH should fall >50% from the highest pre-excision level AND into the normal range within 10 minutes of gland removal. If these criteria are not met, additional gland exploration is required. ioPTH monitoring with pre-operative sestamibi ± 4D-CT localisation allows minimally invasive parathyroidectomy (MIP) — the operation of choice for single adenoma with concordant localisation."
+        }
+      ]
+    },
+    {
+      "id": "B4-S5",
+      "title": "Multiple Endocrine Neoplasia Syndromes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Multiple Endocrine Neoplasia (MEN) syndromes are autosomal dominant hereditary disorders characterised by neoplasia in multiple endocrine glands. Three classic syndromes: MEN1, MEN2A, and MEN2B. MEN1 (Wermer syndrome): mutation in the MEN1 gene (chromosome 11q13, encoding menin — a tumour suppressor). The '3 Ps': (1) Parathyroid: primary hyperparathyroidism in 90–100% (multigland hyperplasia, not single adenoma — 3.5-gland resection + autotransplantation recommended); (2) Pituitary: anterior pituitary adenoma (prolactinoma most common) in 30–40%; (3) Pancreas/duodenum: gastrinoma (ZES — Zollinger-Ellison syndrome) most common, insulinoma second. Gastrinoma in MEN1 is frequently multiple, in the 'gastrinoma triangle' (between porta hepatis, junction of cystic and common bile duct, and 2nd/3rd portion of duodenum). MEN2A (Sipple syndrome): RET proto-oncogene mutation. (1) Medullary thyroid cancer (MTC) — 100% penetrance; earliest manifestation; prophylactic thyroidectomy recommended; (2) Phaeochromocytoma — 50%; bilateral; must be excluded (24h urine metanephrines/catecholamines or plasma metanephrines) BEFORE thyroidectomy; (3) Primary hyperparathyroidism — 20–30%; typically single adenoma. MEN2B: RET M918T mutation — most aggressive MTC; mucosal neuromas (lips, tongue), marfanoid habitus, phaeochromocytoma; no hyperparathyroidism. MTC is more aggressive and develops earlier in MEN2B — prophylactic thyroidectomy in the first 6 months of life recommended."
+        },
+        {
+          "type": "table",
+          "title": "MEN Syndromes — Comparison",
+          "headers": ["Feature", "MEN1", "MEN2A", "MEN2B"],
+          "rows": [
+            ["Gene", "MEN1 (menin, 11q13)", "RET (C634 mutation)", "RET (M918T mutation)"],
+            ["Thyroid", "Not involved", "Medullary thyroid cancer (100%)", "Medullary thyroid cancer (100%, earlier, aggressive)"],
+            ["Parathyroid", "Hyperparathyroidism (90–100%) — multigland", "Hyperparathyroidism (20–30%) — single adenoma", "Not involved"],
+            ["Pancreas/GI", "Gastrinoma, insulinoma, glucagonoma", "Not involved", "Not involved"],
+            ["Pituitary", "Adenoma (30–40%)", "Not involved", "Not involved"],
+            ["Pheochromocytoma", "Not involved", "50% — bilateral adrenal", "50% — bilateral adrenal"],
+            ["Other", "—", "—", "Mucosal neuromas, marfanoid habitus"],
+            ["Prophylactic thyroidectomy", "Not applicable", "By age 5–6 (or earlier depending on codon)", "By 6 months of age — high-risk codon"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Critical Rule — Phaeochromocytoma Before Thyroidectomy in MEN2",
+          "content": "In MEN2A/2B patients, ALWAYS screen for and TREAT phaeochromocytoma BEFORE performing thyroidectomy (or any elective surgery). Unrecognised phaeochromocytoma during surgical manipulation causes life-threatening hypertensive crisis. Biochemical screening: plasma free metanephrines (sensitivity >97%) or 24h urine fractionated metanephrines. If phaeochromocytoma identified: alpha-blockade (phenoxybenzamine) for 10–14 days → adrenalectomy → then thyroidectomy."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — MEN1 Parathyroid Surgery",
+          "content": "In MEN1-associated PHPT, the parathyroid disease is multiglandular hyperplasia — NOT a single adenoma. Standard parathyroidectomy (MIP targeting a single gland) will fail. The appropriate operation is 3.5-gland resection (subtotal parathyroidectomy) leaving a well-vascularised remnant of approximately 50mg, OR total parathyroidectomy with autotransplantation into the non-dominant forearm (allows easy access for reoperation by excising a forearm piece under local anaesthesia if recurrence occurs)."
+        }
+      ]
+    },
+    {
+      "id": "B4-S6",
+      "title": "Adrenal Cortex & Medulla — Surgical Anatomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The adrenal glands are paired retroperitoneal organs situated superomedially to each kidney. Right adrenal: pyramidal, closely associated with the right liver lobe and the IVC — the right adrenal vein drains directly into the IVC (short, wide, must be carefully ligated). Left adrenal: semilunar, medial to the left kidney — the left adrenal vein drains into the left renal vein. The adrenal cortex (yellow, derived from mesoderm) has three zones: (1) zona glomerulosa — outermost — produces aldosterone (regulated by angiotensin II and potassium); (2) zona fasciculata — middle — produces cortisol (regulated by ACTH); (3) zona reticularis — innermost — produces adrenal androgens (DHEA, androstenedione). The adrenal medulla (brown, derived from neural crest) produces catecholamines: adrenaline (80%), noradrenaline (20%), and small amounts of dopamine. Catecholamine synthesis: phenylalanine → tyrosine → DOPA → dopamine → noradrenaline → adrenaline. The rate-limiting enzyme is tyrosine hydroxylase. The medulla is essentially a modified sympathetic ganglion — chromaffin cells secrete catecholamines directly into the systemic circulation. Arterial supply: superior adrenal arteries (from inferior phrenic), middle adrenal arteries (from aorta), and inferior adrenal arteries (from renal artery). Venous drainage: single adrenal vein on each side (right → IVC, left → left renal vein). During adrenalectomy, early ligation of the adrenal vein (before tumour manipulation) is critical for phaeochromocytoma to prevent catecholamine surge — 'no-touch' technique."
+        },
+        {
+          "type": "table",
+          "title": "Adrenal Incidentaloma — Evaluation and Management",
+          "headers": ["Condition", "Biochemical Test", "Imaging Feature", "Management"],
+          "rows": [
+            ["Pheochromocytoma", "24h urine catecholamines/metanephrines; plasma metanephrines", "Heterogeneous, high Hounsfield units, rich vascularity", "Laparoscopic adrenalectomy; alpha-blockade first (phenoxybenzamine)"],
+            ["Cortisol-secreting adenoma (Cushing)", "1mg overnight DST; 24h urine cortisol", "Homogeneous, <10 HU (lipid-rich)", "Laparoscopic adrenalectomy; steroid cover post-op"],
+            ["Aldosteronoma (Conn)", "Aldosterone:renin ratio >30; AVS", "Unilateral adenoma on CT", "Laparoscopic adrenalectomy (lateralised); spironolactone if bilateral"],
+            ["Non-functioning adenoma", "None elevated", ">10 HU or >4cm or growing", "Resect if >4cm or growing >0.8cm/yr; observe <4cm stable"],
+            ["Adrenocortical carcinoma", "Mixed hormonal excess", "Heterogeneous, >6cm, calcification", "Open adrenalectomy — laparoscopic contraindicated for ACC"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Aldosterone:Renin Ratio (ARR)",
+          "content": "The aldosterone:renin ratio (ARR) is the primary screening test for primary hyperaldosteronism (Conn syndrome). ARR >30 (with aldosterone >15 ng/dL) has sensitivity 80% and specificity 74% for primary aldosteronism. After biochemical confirmation (saline suppression test or fludrocortisone suppression), CT is performed. Adrenal vein sampling (AVS) is the gold standard for lateralisation — unilateral excess (lateralisation index >4:1) = adrenalectomy; bilateral = medical management with mineralocorticoid antagonists (spironolactone or eplerenone). AVS is mandatory in patients >35 years as CT can miss small adenomas or microadenomas and incorrectly characterise bilateral hyperplasia as unilateral."
+        }
+      ]
+    },
+    {
+      "id": "B4-S7",
+      "title": "Minimally Invasive Adrenalectomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Laparoscopic adrenalectomy is the standard of care for most adrenal lesions ≤6–8cm (excluding adrenocortical carcinoma). Two main approaches: (1) Transabdominal lateral approach (most common): patient in lateral decubitus position, 3–4 ports placed below the costal margin. The liver (right) or spleen (left) is mobilised medially to expose the adrenal. Advantage: excellent visualisation, familiar anatomy. (2) Posterior retroperitoneoscopic adrenalectomy (PRA): patient in prone jack-knife position; 3 ports in the retroperitoneum posteriorly. Does not enter the peritoneal cavity. Advantages: faster, avoids adhesions in re-operative cases, lower complication rates in high-volume centres; preferred for bilateral adrenalectomy (patient stays prone for both sides). Indications for open adrenalectomy: (a) adrenocortical carcinoma (ACC) — laparoscopic approach risks capsule disruption and tumour seeding; (b) tumours >8–10cm; (c) extensive local invasion on imaging; (d) prior abdominal surgery preventing safe laparoscopic access. Bilateral adrenalectomy (for ACTH-independent Cushing's or phaeochromocytoma in MEN2): Nelson's syndrome can develop after bilateral adrenalectomy for Cushing's disease if the pituitary adenoma is not subsequently treated — loss of cortisol feedback leads to extreme ACTH elevation and pituitary tumour expansion (hyperpigmentation, visual field loss)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Pheochromocytoma: Alpha-Block Before Surgery",
+          "content": "Failure to administer adequate pre-operative alpha-adrenergic blockade before phaeochromocytoma surgery causes life-threatening hypertensive crises during tumour manipulation. Protocol: phenoxybenzamine (non-competitive alpha blocker) for minimum 10–14 days pre-operatively; beta-blockade only AFTER alpha-blockade is established (never before — unopposed alpha causes severe hypertension). High sodium + fluid intake to expand contracted intravascular volume. Anaesthesia team must be briefed. Target pre-operative blood pressure <130/80 with no episode of SBP >160."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Adrenal Myelolipoma and Incidentaloma Surveillance",
+          "content": "Adrenal myelolipoma is a benign, non-functioning tumour containing fat and haematopoietic tissue — pathognomonic CT appearance of macroscopic fat (<-30 Hounsfield units). No biochemical workup is needed after CT confirms fat content — it is benign. Observation is appropriate unless symptomatic or >6cm (risk of rupture). Incidentaloma surveillance: for non-functioning adenomas <4cm: repeat CT at 6–12 months and 2 years; repeat biochemical evaluation (1mg DST, plasma metanephrines) at 12 months. If no growth and biochemically stable after 2 years: no further follow-up required per Endocrine Society 2021 guidelines."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your endocrine surgery knowledge.",
+    "questions": [
+      {
+        "id": "B4-Q1",
+        "stem": "A 58-year-old man is incidentally found to have serum calcium of 11.2 mg/dL (ULN 10.2). PTH is 98 pg/mL (normal 15–65). He is asymptomatic with no history of kidney stones. DEXA shows T-score −2.1 at the lumbar spine. Creatinine clearance is 72 mL/min. Age is 58. What is the most appropriate management?",
+        "options": {
+          "A": "Observe — asymptomatic hyperparathyroidism does not require surgery",
+          "B": "Parathyroidectomy — serum calcium >1 mg/dL above upper limit of normal meets operative criteria",
+          "C": "Cinacalcet (calcimimetic) — preferred over surgery in asymptomatic patients",
+          "D": "Repeat calcium and PTH in 3 months before making a decision"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has primary hyperparathyroidism with serum calcium 11.2 mg/dL — exactly 1.0 mg/dL above the upper limit of normal (10.2 mg/dL). The 2022 revised asymptomatic PHPT surgical guidelines recommend parathyroidectomy when serum Ca is ≥1.0 mg/dL above ULN. This patient meets this threshold. Other criteria not met: age 58 (not <50), T-score −2.1 (not ≤−2.5), CrCl 72 mL/min (not <60). However, meeting any single criterion is sufficient for surgery. Minimally invasive parathyroidectomy with ioPTH monitoring after sestamibi/4D-CT localisation is the gold-standard approach.",
+          "wrong": {
+            "A": "Asymptomatic PHPT is not universally managed conservatively — this patient meets the calcium criterion for surgery.",
+            "C": "Cinacalcet reduces serum calcium in PHPT but does not affect PTH secretion long-term, does not reverse bone disease, and is reserved for patients unfit for or refusing surgery.",
+            "D": "The biochemical diagnosis is established — delaying the decision serves no purpose when criteria are already met."
+          },
+          "guideline": "Fourth International Workshop on Asymptomatic PHPT 2022 — surgical criteria include serum Ca ≥1.0 mg/dL above ULN, age <50, T-score ≤−2.5, CrCl <60 mL/min",
+          "trial": "Silverberg SJ et al. (NEJM 1999, updated 2013): 15-year follow-up of asymptomatic PHPT — 27% of untreated patients developed at least one operative criterion during observation.",
+          "pearl": "Know the four asymptomatic PHPT operative criteria: calcium >1mg/dL above ULN, age <50, T-score ≤−2.5 (or vertebral fracture), CrCl <60 mL/min. Any one criterion = operate."
+        }
+      },
+      {
+        "id": "B4-Q2",
+        "stem": "A 32-year-old woman with Graves' disease has failed two courses of anti-thyroid drugs and has a large goitre causing tracheal compression. TSH is suppressed, free T4 is elevated. She prefers surgery over radioactive iodine. What are the pre-operative requirements before thyroidectomy?",
+        "options": {
+          "A": "No pre-operative preparation needed — proceed immediately to surgery",
+          "B": "Achieve euthyroidism with anti-thyroid drugs (carbimazole or propylthiouracil) ± Lugol's iodine for 10 days before surgery",
+          "C": "Radioactive iodine first to reduce vascularity, then surgery 6 months later",
+          "D": "Beta-blocker alone is sufficient pre-operative preparation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Pre-operative preparation for thyroidectomy in Graves' disease aims to achieve euthyroidism and reduce thyroid vascularity: (1) Anti-thyroid drugs (carbimazole 20–40mg/day or propylthiouracil 200–400mg/day) until euthyroid (typically 6–8 weeks) — reduces risk of thyroid storm and excessive intraoperative bleeding. (2) Lugol's iodine solution (potassium iodide, 5 drops three times daily for 10 days pre-operatively) — the Wolff-Chaikoff effect reduces thyroid hormone synthesis and significantly reduces thyroid vascularity (gland becomes firmer, less vascular), reducing intraoperative blood loss. (3) Beta-blocker (propranolol or atenolol) — controls sympathomimetic symptoms and provides protection against thyroid storm during surgery. All three components are used together for optimal preparation.",
+          "wrong": {
+            "A": "Operating on a hyperthyroid patient risks thyroid storm — a life-threatening emergency with fever, tachycardia, and altered consciousness. Euthyroidism must be achieved first.",
+            "C": "Radioactive iodine before surgery is not a standard preparation — it can worsen ophthalmopathy (relative contraindication in Graves' with eye disease) and does not eliminate the indication for surgery.",
+            "D": "Beta-blocker alone controls symptoms but does not reduce thyroid hormone levels or thyroid vascularity — insufficient preparation for safe thyroid surgery."
+          },
+          "guideline": "ATA 2016 Hyperthyroidism Guidelines — pre-operative preparation for Graves' thyroidectomy: anti-thyroid drugs to euthyroid + Lugol's iodine 10 days pre-op + beta-blocker",
+          "trial": "Menegaux F, Br J Surg 2001: Lugol's iodine preparation for Graves' thyroidectomy — significantly reduced intraoperative blood loss (median 150 vs 400mL, p<0.01); reduced operative time.",
+          "pearl": "Graves' pre-op = Lugol's iodine (Wolff-Chaikoff) + anti-thyroid drug (carbimazole/PTU) + beta-blocker. All three. Lugol's reduces vascularity (firmer gland = easier surgery, less bleeding). Never operate on a thyrotoxic patient — risk of thyroid storm."
+        }
+      },
+      {
+        "id": "B4-Q3",
+        "stem": "During a total thyroidectomy for multinodular goitre, the intraoperative neuromonitoring (IONM) system emits a loss of signal (LOS) alarm on the right side immediately after completing the right lobe resection. The patient is planned for a bilateral procedure. What is the most appropriate next step?",
+        "options": {
+          "A": "Continue with left lobectomy immediately — IONM alarms are frequently false positives",
+          "B": "Abort the left lobectomy; wake the patient and assess for right vocal cord palsy; plan staged left lobectomy",
+          "C": "Apply ice packs to the right neck and continue bilateral surgery",
+          "D": "Perform emergency laryngoscopy in theatre and proceed if cords appear normal"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Loss of signal on IONM after right lobe resection in a bilateral thyroidectomy is a critical finding. Continuing with the left lobectomy risks bilateral RLN injury — which causes bilateral vocal cord palsy, stridor, and potential airway emergency requiring emergency tracheostomy. The recommended management: (1) abort the left-sided surgery, (2) wake the patient, (3) perform flexible nasolaryngoscopy to assess right vocal cord function. If right vocal cord palsy is confirmed, staging the left lobectomy (performing it 3–6 months later after neurological recovery or definitive cord palsy diagnosis) prevents the catastrophic outcome of bilateral paralysis. If right cord is confirmed normal (false positive IONM), left lobectomy can be planned electively. This staged approach is a firm recommendation from the European Association of Endocrine Surgeons (EAES) and International Neural Monitoring Study Group.",
+          "wrong": {
+            "A": "IONM loss of signal in thyroid surgery is not to be dismissed as a false positive — the consequence of missing a true RLN injury (bilateral palsy requiring tracheostomy) is too severe.",
+            "C": "Ice packs have no evidence base for RLN recovery and would not justify continuing with bilateral surgery in the face of LOS.",
+            "D": "Emergency laryngoscopy in theatre may confirm cord status but continuing surgery if the cord appears normal on a screen (difficult to assess under anaesthesia) is not safe — the patient should be woken for proper assessment."
+          },
+          "guideline": "International Neural Monitoring Study Group 2018 — LOS during bilateral thyroidectomy: mandatory staged approach; abort contralateral side until RLN function confirmed post-operatively",
+          "trial": "Dralle H, Langenbecks Arch Surg 2014: staged thyroidectomy after IONM LOS — zero cases of bilateral palsy when staging policy followed vs 3.7% bilateral palsy rate when LOS ignored and surgery continued.",
+          "pearl": "IONM LOS during bilateral thyroidectomy = STOP the contralateral side. Wake patient → flexible laryngoscopy → if palsy confirmed: stage second side 3–6 months later. This is not negotiable — bilateral RLN palsy = airway emergency + permanent disability. Prevention is the only acceptable strategy."
+        }
+      },
+      {
+        "id": "B4-Q4",
+        "stem": "A 26-year-old man is found to have a RET germline mutation at codon 634 (C634F) after his father was diagnosed with medullary thyroid cancer. Calcitonin level is currently undetectable. 24-hour urinary metanephrines and normetanephrines are normal. Calcium is normal. What is the most appropriate next management?",
+        "options": {
+          "A": "Annual calcitonin surveillance — operate only when calcitonin rises",
+          "B": "Prophylactic total thyroidectomy — RET C634 codon mutation (high-risk) warrants early thyroidectomy",
+          "C": "Prophylactic bilateral adrenalectomy first — phaeochromocytoma must be treated before thyroid surgery",
+          "D": "No intervention — MEN2A penetrance is incomplete; most carriers do not develop cancer"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "RET C634F is classified as a HIGH-RISK mutation (ATA Risk Category C) in MEN2A — it is associated with 100% penetrance of MTC, with the cancer typically developing in childhood. ATA 2015 guidelines recommend prophylactic total thyroidectomy in high-risk RET mutation carriers ideally before age 5 (or earlier depending on specific mutation and calcitonin level). For this 26-year-old with undetectable calcitonin and no evidence of phaeochromocytoma or PHPT, prophylactic thyroidectomy is appropriate and should be performed promptly. The central lymph node dissection should be added if calcitonin is detectable pre-operatively. Pre-operative screening for phaeochromocytoma has been completed (normal 24h urine metanephrines) — thyroidectomy can proceed safely.",
+          "wrong": {
+            "A": "Annual calcitonin surveillance strategy risks progression to invasive/metastatic MTC — prophylactic surgery while disease-free achieves 100% cure. Active surveillance is not the guideline recommendation for high-risk mutations.",
+            "C": "Phaeochromocytoma screening is complete and negative — no phaeochromocytoma to treat. Adrenalectomy is not indicated. The sequencing rule (pheo before thyroid) applies when pheo IS present.",
+            "D": "RET C634 mutations have near-100% penetrance for MTC — prophylactic thyroidectomy is the standard of care, not observation."
+          },
+          "guideline": "ATA MTC Guidelines 2015 — RET C634 (High-risk category C): prophylactic thyroidectomy by age 5 (or promptly in adult carriers with undetectable calcitonin); screen annually for pheo and PHPT",
+          "trial": "Skinner MA, Ann Surg 2005: prophylactic thyroidectomy in MEN2 gene carriers — 98% cure rate when performed before MTC development; 0% cure rate after lymph node metastasis.",
+          "pearl": "MEN2A RET mutation risk categories: (1) HIGHEST risk (D898E, C634F, C611) → thyroidectomy within 6 months of life; (2) HIGH risk (most C634 codons) → thyroidectomy by age 5; (3) MODERATE risk (others) → thyroidectomy by age 5–10 or guided by calcitonin. For adults with undetectable calcitonin: operate promptly regardless of age."
+        }
+      },
+      {
+        "id": "B4-Q5",
+        "stem": "A 48-year-old woman presents with palpitations, headaches, and diaphoresis. BP is 185/105. 24-hour urinary metanephrines are markedly elevated (5x upper limit of normal). CT abdomen shows a 4cm right adrenal mass with heterogeneous enhancement and HU >25. She is scheduled for laparoscopic right adrenalectomy. What pre-operative medication protocol is mandatory?",
+        "options": {
+          "A": "Beta-blocker (metoprolol) alone — controls hypertension and reduces operative risk",
+          "B": "Alpha-blocker (phenoxybenzamine) for 10–14 days, then add beta-blocker only after adequate alpha-blockade; high sodium diet and hydration",
+          "C": "Calcium channel blocker (amlodipine) — adequate blood pressure control for phaeochromocytoma",
+          "D": "No pre-operative medication — laparoscopic surgery minimises catecholamine surge"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Pre-operative preparation for phaeochromocytoma is mandatory and follows a strict sequence: (1) Alpha-blockade FIRST — phenoxybenzamine (non-competitive, irreversible alpha-1 and alpha-2 blocker, 10mg twice daily, titrating up to 20–40mg/day over 10–14 days). This blocks catecholamine-mediated vasoconstriction and prevents hypertensive crisis during tumour manipulation. Target: SBP <130/80 sitting, allowing postural hypotension (SBP drop >20 on standing) — confirms adequate blockade. (2) Beta-blocker ONLY after adequate alpha-blockade is established (typically day 3–5) — propranolol or atenolol for reflex tachycardia. CRITICAL: never give beta-blocker first or alone — unopposed alpha-adrenergic stimulation (from blocked vasodilatory beta-2 receptors) causes severe paradoxical hypertension. (3) High salt diet (6g/day) and IV fluids — to expand the contracted intravascular volume. (4) Anaesthetic team briefed with phentolamine and magnesium available intraoperatively.",
+          "wrong": {
+            "A": "Beta-blocker alone or first is contraindicated — blocks vasodilatory beta-2 receptors, leaving only alpha vasoconstriction unopposed. Results in severe hypertensive crisis that can be fatal.",
+            "C": "Calcium channel blockers can be used as adjuncts after alpha-blockade but are not first-line — they do not provide the same degree of protection as phenoxybenzamine.",
+            "D": "Even laparoscopic surgery causes catecholamine surge during dissection — no pre-operative preparation is never acceptable for phaeochromocytoma."
+          },
+          "guideline": "Endocrine Society Guidelines 2014 — phaeochromocytoma pre-op: alpha-blockade first (phenoxybenzamine 10–14 days), then beta-blockade; high salt intake; minimum 10–14 days total preparation",
+          "trial": "Kinney MA, Mayo Clin Proc 2002: inadequate pre-operative alpha-blockade — hypertensive crisis occurred in 25% of cases; haemodynamic instability increased mortality 5-fold.",
+          "pearl": "Phaeochromocytoma pre-op sequence: ALPHA first (phenoxybenzamine) → confirm adequate alpha-blockade (postural hypotension) → THEN beta. Never beta first = paradoxical hypertension. Phenoxybenzamine is irreversible — unlike competitive alpha-blockers (doxazosin), it cannot be overcome by catecholamine surges during surgery."
+        }
+      },
+      {
+        "id": "B4-Q6",
+        "stem": "A 52-year-old man undergoes total thyroidectomy for papillary thyroid cancer. Post-operatively, he develops perioral tingling and carpopedal spasm. Serum calcium at 6 hours is 7.2 mg/dL (normal 8.5–10.5). PTH is 4 pg/mL (normal 15–65). What is the most appropriate immediate management?",
+        "options": {
+          "A": "Oral calcium supplementation only — IV calcium is rarely needed",
+          "B": "IV calcium gluconate (10mL of 10%) immediately for symptomatic tetany; initiate oral calcium carbonate + calcitriol; arrange urgent recheck",
+          "C": "Magnesium replacement — hypomagnesaemia is the most likely cause",
+          "D": "Emergency re-operation — all parathyroid glands have been removed and autotransplantation is required immediately"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has symptomatic acute hypocalcaemia (perioral tingling, carpopedal spasm = Trousseau's equivalent) with documented low serum calcium (7.2 mg/dL) and suppressed PTH (4 pg/mL) immediately after total thyroidectomy — consistent with hypoparathyroidism from parathyroid devascularisation. Treatment: (1) IV calcium gluconate 10mL of 10% solution over 10 minutes for symptomatic tetany — provides immediate relief of neuromuscular excitability. (2) Initiate oral calcium carbonate 1–1.5g three times daily with food. (3) Calcitriol (1,25-dihydroxyvitamin D) 0.25–0.5 mcg twice daily — bypasses the need for PTH-dependent vitamin D activation in the kidney. (4) Recheck serum calcium at 4 hours and the following morning. Transition from IV to oral as symptoms resolve.",
+          "wrong": {
+            "A": "Symptomatic tetany (carpopedal spasm) cannot be managed with oral calcium alone — IV calcium is mandatory for immediate relief of neuromuscular crisis.",
+            "C": "Hypomagnesaemia causes resistance to PTH but is not the primary cause here — the post-thyroidectomy context and suppressed PTH confirm hypoparathyroidism. Magnesium can be checked but is not the immediate priority.",
+            "D": "Emergency re-operation for immediate autotransplantation is not required — the condition is managed medically. Autotransplantation is performed intraoperatively (at the time of the initial operation) when a gland is devascularised, not post-operatively."
+          },
+          "guideline": "ATA 2015 — post-thyroidectomy hypocalcaemia: IV calcium gluconate for symptomatic tetany; oral calcium + calcitriol for prophylaxis and maintenance; PTH <15 pg/mL at 4–6h predicts hypocalcaemia",
+          "trial": "Lorente-Poch L, Langenbecks 2012: post-operative PTH <15 pg/mL at 6h — 96% sensitivity for predicting symptomatic hypocalcaemia requiring treatment; early calcium + calcitriol reduces admission.",
+          "pearl": "Symptomatic post-thyroidectomy hypocalcaemia (tingling, Chvostek's, Trousseau's): IV calcium gluconate immediately → oral calcium carbonate + calcitriol. PTH at 4–6h post-op: if <15 → start oral calcium prophylactically regardless of symptoms. Trousseau's (BP cuff carpal spasm) = more specific than Chvostek's (facial twitching, present in 10% normocalcaemics)."
+        }
+      },
+      {
+        "id": "B4-Q7",
+        "stem": "A 64-year-old woman with hypertension refractory to three antihypertensives has serum potassium of 2.8 mEq/L (low). Aldosterone:renin ratio is 45. CT scan shows a 1.8cm right adrenal adenoma. She is 64 years old. What is the next investigation required before proceeding to adrenalectomy?",
+        "options": {
+          "A": "MRI adrenal — to better characterise the adenoma",
+          "B": "Adrenal vein sampling (AVS) — mandatory to confirm lateralisation before adrenalectomy",
+          "C": "24-hour urinary aldosterone — to confirm biochemical primary aldosteronism",
+          "D": "Proceed directly to right laparoscopic adrenalectomy — CT is sufficient for lateralisation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Adrenal vein sampling (AVS) is mandatory for lateralisation in primary aldosteronism for patients who are: >35 years old, have bilateral or absent adenomas on CT, or when CT could be misleading. This 64-year-old woman >35 years must have AVS because CT may miss a contralateral small adenoma (leading to unnecessary adrenalectomy) or misidentify a non-functioning nodule as the aldosterone source. AVS samples aldosterone and cortisol from both adrenal veins and the IVC. Lateralisation index >4:1 (aldosterone:cortisol ratio on ipsilateral vs contralateral side) confirms unilateral excess — proceed to laparoscopic adrenalectomy. If bilateral — medical management with mineralocorticoid receptor antagonist (spironolactone or eplerenone). CT is unreliable for lateralisation in up to 40% of cases in patients >35 years.",
+          "wrong": {
+            "A": "MRI does not add lateralisation information over CT for adrenal lesions — AVS is the gold standard for functional lateralisation.",
+            "C": "Aldosterone elevation is already confirmed biochemically (ARR 45 with hypokalaemia) — additional 24h urine aldosterone is not the required next step.",
+            "D": "CT alone for lateralisation is unreliable in patients >35 — up to 40% of CT-based lateralisation decisions are incorrect when compared to AVS."
+          },
+          "guideline": "Endocrine Society Guidelines 2016 — AVS mandatory for primary aldosteronism lateralisation in all patients >35 years before adrenalectomy",
+          "trial": "Young WF, J Clin Endocrinol Metab 2012: CT vs AVS for lateralisation — CT incorrect in 38% of cases; AVS changed management in 22% of patients with unilateral adenoma on CT.",
+          "pearl": "Primary aldosteronism lateralisation: CT first → if <35 years with clear unilateral adenoma and bilateral normal adrenal: can proceed to adrenalectomy. >35 years: ALWAYS AVS before surgery — CT is unreliable. AVS technical success: confirmed by cortisol concentration in adrenal vein >3x IVC (ACTH-stimulated: >5x)."
+        }
+      },
+      {
+        "id": "B4-Q8",
+        "stem": "A 38-year-old woman presents with a thyroid nodule (1.8cm, hypoechoic, with microcalcifications, taller-than-wide on ultrasound). FNA cytology returns Bethesda V (suspicious for papillary thyroid carcinoma). Pre-operative neck ultrasound shows no abnormal lymph nodes. She wishes to know the extent of surgery required. According to ATA 2015 guidelines, what is the appropriate surgical recommendation?",
+        "options": {
+          "A": "Total thyroidectomy with prophylactic central neck dissection in all cases",
+          "B": "Hemithyroidectomy (thyroid lobectomy) — appropriate for Bethesda V lesion ≤2cm with no evidence of extrathyroidal extension or nodal disease",
+          "C": "Total thyroidectomy mandatory — Bethesda V always requires total thyroidectomy",
+          "D": "Active surveillance only — papillary thyroid carcinoma is indolent; surgery is not immediately needed"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ATA 2015 guidelines allow hemithyroidectomy (thyroid lobectomy) as adequate initial therapy for differentiated thyroid cancer ≤1–2cm that is unifocal, intrathyroidal (no extrathyroidal extension), and without clinical evidence of nodal or distant metastasis. This 1.8cm nodule with Bethesda V cytology, no extrathyroidal extension, and negative neck ultrasound qualifies for hemithyroidectomy — which has equivalent disease-specific survival to total thyroidectomy for low-risk DTC. Advantages of hemithyroidectomy: preserves function of the contralateral lobe (may avoid lifelong thyroid hormone replacement), lower risk of bilateral RLN injury, lower hypoparathyroidism risk. Completion thyroidectomy can be performed later if final pathology shows features requiring RAI or higher-risk disease.",
+          "wrong": {
+            "A": "Prophylactic central neck dissection is not recommended for low-risk papillary thyroid cancer without clinical or imaging evidence of nodal disease — it increases operative morbidity without improving outcomes.",
+            "C": "Total thyroidectomy is NOT mandated for all Bethesda V lesions — ATA 2015 specifically validated hemithyroidectomy for low-risk lesions ≤2cm without nodal/distant disease.",
+            "D": "Active surveillance is appropriate for papillary microcarcinoma (<1cm) in selected patients with low-risk features. A 1.8cm Bethesda V lesion should be resected."
+          },
+          "guideline": "ATA 2015 Thyroid Cancer Guidelines — hemithyroidectomy appropriate for ≤2cm unifocal intrathyroidal DTC without clinical evidence of nodal disease or distant metastasis",
+          "trial": "Adam MA, Ann Surg 2014: hemithyroidectomy vs total thyroidectomy for ≤2cm thyroid cancer — equivalent 10-year overall survival and disease-specific survival (10-year DSS 99.8% vs 99.7%).",
+          "pearl": "ATA 2015: hemithyroidectomy = appropriate for ≤2cm, unifocal, intrathyroidal DTC, no nodal/distant disease. Total thyroidectomy required: bilateral disease, extrathyroidal extension, nodal metastasis, distant metastasis, high-risk features (tall-cell, columnar-cell variants), planned RAI therapy. After hemithyroidectomy: completion thyroidectomy if RAI needed or high-risk features on final pathology."
+        }
+      },
+      {
+        "id": "B4-Q9",
+        "stem": "A 55-year-old woman presents with symptoms of MEN1: a pituitary adenoma (prolactinoma), primary hyperparathyroidism (multgland disease), and a gastrinoma with Zollinger-Ellison syndrome. She requires parathyroid surgery. How many glands should be removed and what surgical strategy is most appropriate?",
+        "options": {
+          "A": "Minimally invasive parathyroidectomy — target the largest gland identified on sestamibi",
+          "B": "Subtotal parathyroidectomy (3.5 glands) OR total parathyroidectomy with forearm autotransplantation — multigland disease requires more than single gland removal",
+          "C": "Bilateral neck exploration targeting only hypercellular glands on frozen section",
+          "D": "Medical management with cinacalcet — parathyroidectomy is too risky with concurrent pituitary and gastrinoma disease"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "MEN1-associated primary hyperparathyroidism is caused by multiglandular parathyroid hyperplasia — NOT a single adenoma. Single-gland MIP (as used for sporadic PHPT) will fail because all glands are hyperfunctioning. The appropriate operations are: (1) Subtotal parathyroidectomy: remove 3–3.5 glands, leaving a well-vascularised 50mg remnant in situ (marked with a clip or suture). (2) Total parathyroidectomy with forearm autotransplantation: remove all four glands; mince the most normal-appearing gland into 1mm³ pieces and autotransplant into pockets in the non-dominant forearm brachioradialis (allows easy access for reoperation under local anaesthesia by excising a forearm piece). Forearm autotransplantation is preferred in MEN1 because recurrence is frequent (20–30% at 10 years), and reoperation in the forearm is far simpler than the neck.",
+          "wrong": {
+            "A": "MIP targeting the largest gland (as for sporadic single adenoma) is inappropriate for MEN1 multigland disease — will result in persistent/recurrent hypercalcaemia from remaining hyperfunctioning glands.",
+            "C": "Bilateral exploration targeting only hypercellular glands on frozen section alone without completing 3.5-gland or total resection is insufficient for MEN1.",
+            "D": "Surgery is the standard treatment for MEN1 PHPT — cinacalcet is reserved for non-surgical candidates or bridging therapy. Concurrent MEN1 manifestations do not contraindicate parathyroid surgery."
+          },
+          "guideline": "AAES 2016 and Endocrine Society 2012 — MEN1 PHPT: subtotal parathyroidectomy (3.5 glands) OR total parathyroidectomy with forearm autotransplantation; NOT MIP",
+          "trial": "Waldmann J, Langenbecks 2010: MEN1 parathyroidectomy outcomes — total parathyroidectomy + forearm autotransplant vs subtotal: equivalent cure rates; forearm autotransplantation preferred for easier reoperation.",
+          "pearl": "MEN1 parathyroid = multigland hyperplasia. Never do MIP. Do 3.5-gland resection (subtotal) OR total + forearm autotransplant. Forearm preferred in MEN1 — recurrence rate 20–30% at 10 years; reoperation in forearm is simple under LA. Mark the remnant with a clip at neck exploration."
+        }
+      },
+      {
+        "id": "B4-Q10",
+        "stem": "A 45-year-old man has an adrenal incidentaloma discovered on CT for an unrelated indication. The lesion is 3.5cm, homogeneous, with Hounsfield units of 8. Biochemical evaluation is completely normal (plasma metanephrines, overnight 1mg dexamethasone suppression test, aldosterone:renin ratio — all within normal limits). What is the most appropriate management?",
+        "options": {
+          "A": "Laparoscopic adrenalectomy immediately — all incidentalomas >3cm require resection",
+          "B": "CT-guided biopsy to characterise the lesion",
+          "C": "Observation: repeat CT at 6–12 months; repeat biochemical testing at 12 months; reassure if stable",
+          "D": "MRI adrenal to definitively characterise the lesion before any decision"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This lesion has lipid-rich characteristics (HU 8, <10 HU = lipid-rich adenoma), is <4cm, and is biochemically non-functioning — consistent with a benign non-functioning adrenal adenoma. Endocrine Society 2021 guidelines recommend observation for non-functioning adrenal adenomas <4cm with benign imaging characteristics. Follow-up: repeat CT at 6–12 months (growth >1cm/year is suspicious) and repeat biochemical evaluation at 12 months (subclinical Cushing's can develop over time). If stable in size and biochemistry at 2 years, no further surveillance is required per current guidelines. Adrenalectomy is indicated for: >4cm lesion, growth >1cm/year, or development of biochemical abnormality.",
+          "wrong": {
+            "A": "The size threshold for adrenalectomy is typically >4–6cm for non-functioning lesions, not >3cm. This 3.5cm lipid-rich, biochemically normal lesion does not meet resection criteria.",
+            "B": "CT-guided biopsy of adrenal lesions is contraindicated if phaeochromocytoma has not been excluded (risk of hypertensive crisis). Phaeochromocytoma has been excluded here. However, biopsy has a limited role in characterising functioning vs non-functioning adrenal lesions and is reserved for suspected metastasis from a known primary malignancy.",
+            "D": "MRI can confirm lipid-rich content (signal drop on out-of-phase sequences) but is not required when CT already shows HU <10 — this is sufficient characterisation for a benign adenoma."
+          },
+          "guideline": "Endocrine Society Guidelines 2021 — non-functioning adrenal adenoma <4cm with benign imaging (HU<10): follow-up CT at 6–12 months + biochemical evaluation at 12 months; surgery if growth or new hormonal excess",
+          "trial": "Mantero F, J Clin Endocrinol Metab 2000: natural history of adrenal incidentalomas — <1% of non-functioning <4cm lesions become hormonally active or malignant; growth >1cm/year occurs in 5%.",
+          "pearl": "Adrenal incidentaloma management rules: (1) always exclude phaeochromocytoma FIRST (plasma metanephrines); (2) HU <10 = lipid-rich = likely benign adenoma; (3) operate if: >4–6cm, growth, new hormonal excess, or high HU (>20 washout); (4) never biopsy before excluding pheo. For non-functioning <4cm, benign imaging: observe with CT at 12 months + biochemistry at 12 months."
+        }
+      },
+      {
+        "id": "B4-Q11",
+        "stem": "A 30-year-old man with a diagnosis of MEN2B based on mucosal neuromas, marfanoid habitus, and a newly detected medullary thyroid cancer (calcitonin 450 pg/mL, 2cm tumour, no lymphadenopathy on imaging). What is the correct operative sequence and extent of surgery?",
+        "options": {
+          "A": "Total thyroidectomy + central neck dissection immediately — MTC is the most dangerous component",
+          "B": "Screen for phaeochromocytoma; if negative: total thyroidectomy + central neck dissection + ipsilateral lateral neck dissection",
+          "C": "Subtotal thyroidectomy to preserve parathyroid function — MEN2B has hyperparathyroidism",
+          "D": "Active surveillance — MEN2B MTC has an indolent course and surgery can be delayed"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "MEN2B requires: (1) FIRST screen for phaeochromocytoma (plasma metanephrines or 24h urine catecholamines) — if present, treat phaeochromocytoma first (alpha-blockade → laparoscopic adrenalectomy) before thyroid surgery to prevent intraoperative hypertensive crisis. (2) Total thyroidectomy for MTC — the operation must be total because MTC in MEN2B is bilateral and multifocal. (3) Central neck dissection (level VI): mandatory for MTC with detectable calcitonin (>10–40 pg/mL per ATA guidelines) — the disease has spread beyond the gland in the majority of calcitonin-detectable cases. (4) Ipsilateral lateral neck dissection: for calcitonin ≥200–400 pg/mL or clinical/imaging-detected lateral nodal disease. Calcitonin 450 pg/mL warrants central dissection and ipsilateral lateral dissection. MEN2B has NO parathyroid hyperplasia (unlike MEN2A) — do NOT perform parathyroidectomy unless PHPT is documented.",
+          "wrong": {
+            "A": "Cannot proceed to thyroid surgery without first excluding phaeochromocytoma — surgical manipulation of the thyroid in a patient with unrecognised pheochromocytoma can precipitate life-threatening hypertensive crisis.",
+            "C": "Subtotal thyroidectomy is inappropriate for MTC — bilateral/multifocal disease requires total resection. MEN2B has no parathyroid disease (unlike MEN2A).",
+            "D": "MEN2B has the most aggressive MTC of all RET mutations — with detectable calcitonin and a 2cm tumour, surveillance is not appropriate. Immediate surgery is required."
+          },
+          "guideline": "ATA MTC Guidelines 2015 — MEN2B: total thyroidectomy + central neck dissection (mandatory if calcitonin detectable); lateral dissection if calcitonin >200–400 pg/mL; phaeochromocytoma screen and treatment before thyroid surgery",
+          "trial": "Machens A, NEJM 2003: lymph node metastasis rates in hereditary MTC — calcitonin 100–200 pg/mL: 50% lymph node involvement; >200 pg/mL: >75% involvement. Validates calcitonin-guided dissection.",
+          "pearl": "MEN2B surgery sequence: pheo screen → if pheo present: alpha-block + adrenalectomy → THEN total thyroidectomy + central dissection + lateral dissection (calcitonin-guided). MEN2B = most aggressive MTC + NO parathyroid disease. M918T mutation = highest risk codon — prophylactic thyroidectomy ideally within first 6 months of life."
+        }
+      },
+      {
+        "id": "B4-Q12",
+        "stem": "A 50-year-old woman presents with a 6cm left adrenal mass on CT. The mass is heterogeneous with areas of calcification and necrosis. HU is 35 pre-contrast with poor washout. Biochemical evaluation shows mild cortisol excess (failed dexamethasone suppression) and elevated DHEAS. What is the most likely diagnosis and most appropriate surgical approach?",
+        "options": {
+          "A": "Benign adrenocortical adenoma — laparoscopic adrenalectomy",
+          "B": "Phaeochromocytoma — alpha-block then laparoscopic adrenalectomy",
+          "C": "Adrenocortical carcinoma — open adrenalectomy with en bloc resection",
+          "D": "Adrenal metastasis — CT-guided biopsy for primary diagnosis"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This lesion has multiple features of adrenocortical carcinoma (ACC): size >4–6cm, heterogeneous appearance, calcification, necrosis, poor washout (>10 HU remains at 10-minute delayed CT), and mixed hormonal excess (cortisol + androgens — DHEAS elevation). ACC is the diagnosis until proven otherwise for large, heterogeneous, poor-washout adrenal lesions with mixed hormonal excess. Open adrenalectomy is mandatory — laparoscopic resection of ACC is contraindicated due to risk of capsule disruption, tumour fragmentation, and intraperitoneal seeding, which worsens prognosis significantly. Open surgery allows en bloc resection of the tumour with adjacent structures (kidney, spleen if involved) and formal lymph node assessment. Survival correlates strongly with complete (R0) resection.",
+          "wrong": {
+            "A": "This lesion does not have benign characteristics — HU 35, poor washout, size 6cm, calcification, and hormonal excess are all red flags for ACC. Laparoscopic approach is contraindicated.",
+            "B": "Phaeochromocytoma is biochemically excluded (plasma metanephrines not elevated in this scenario); the hormonal pattern (cortisol + androgens) and CT features do not fit phaeochromocytoma.",
+            "D": "Biopsy is not the next step for a suspicious adrenal mass where phaeochromocytoma has been excluded. ACC requires surgical resection — biopsy may cause tumour seeding. Biopsy reserved for suspected metastasis from known primary malignancy."
+          },
+          "guideline": "ENSAT Guidelines 2018 — adrenocortical carcinoma: open adrenalectomy mandatory; laparoscopic contraindicated for ACC. Criteria: >6cm, heterogeneous, poor washout, hormonal excess, calcification.",
+          "trial": "Brix D, Ann Surg 2010: laparoscopic vs open adrenalectomy for ACC — laparoscopic associated with significantly higher recurrence (50% vs 23% at 2 years) and lower 5-year overall survival; open adrenalectomy mandatory.",
+          "pearl": "ACC red flags: >6cm, heterogeneous, poor washout (HU>10 at 10 min delayed), calcification, necrosis, mixed hormonal excess (cortisol + androgens). Open adrenalectomy ONLY. Never laparoscopic for ACC — capsule disruption = systemic seeding = dramatically worse prognosis."
+        }
+      },
+      {
+        "id": "B4-Q13",
+        "stem": "During total thyroidectomy, the surgeon identifies a parathyroid gland that appears pale/ischaemic with no identifiable blood supply. What is the most appropriate management of this gland?",
+        "options": {
+          "A": "Leave it in situ — ischaemic appearance does not always indicate non-viability",
+          "B": "Excise it and discard — a devascularised gland has no function",
+          "C": "Autotransplantation — mince into 1mm³ pieces; place in labelled pockets in the ipsilateral sternocleidomastoid muscle",
+          "D": "Cryopreservation — freeze for later reimplantation if hypoparathyroidism develops"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A devascularised parathyroid gland (pale, without identifiable blood supply) should be autotransplanted immediately — this is the standard of care. Autotransplantation technique: (1) confirm parathyroid identity by frozen section biopsy of a small portion (histology: clear chief cells, abundant blood supply in surrounding tissue); (2) mince the remaining gland into 1mm³ pieces; (3) create 8–10 small pockets in the ipsilateral sternocleidomastoid muscle using a haemostat; (4) place 2–3 pieces per pocket; (5) mark the site with a non-absorbable suture for future identification. The SCM is the standard site; forearm autotransplantation is preferred in MEN1 (for easier future reoperation). Autotransplanted parathyroid tissue becomes vascularised within 4–6 weeks — PTH levels recover slowly.",
+          "wrong": {
+            "A": "Leaving an ischaemic gland in situ without any blood supply will result in the gland necrosing — it does not recover function without vascular supply. Autotransplantation is superior to leaving a devascularised gland.",
+            "B": "Discarding a devascularised gland wastes functional parathyroid tissue — autotransplantation salvages approximately 70–80% of gland function.",
+            "D": "Cryopreservation is a valuable safety net but is secondary — autotransplantation is superior when immediate autotransplant is feasible. Cryopreservation requires specialised facilities and delayed reimplantation; only a fraction of reimplanted cryopreserved tissue achieves function."
+          },
+          "guideline": "AAES and EAES Guidelines — devascularised parathyroid gland: immediate autotransplantation in SCM (standard) or forearm (MEN1); confirm with frozen section; cryopreserve remainder",
+          "trial": "Lo CY, Ann Surg 2004: parathyroid autotransplantation during thyroidectomy — autotransplantation reduces permanent hypoparathyroidism rate from 3.2% to 0.8%; function restored in 90% of autotransplanted glands.",
+          "pearl": "Devascularised parathyroid: (1) freeze section to confirm identity; (2) mince to 1mm³ cubes; (3) implant in SCM (8–10 pockets); (4) mark site. The gland must look like sand, not large chunks — pieces >2mm do not revascularise adequately. Cryopreserve the residual if facilities available as backup."
+        }
+      },
+      {
+        "id": "B4-Q14",
+        "stem": "A 42-year-old woman presents to the emergency department with confusion, nausea, vomiting, and profound weakness. She is on hydrocortisone replacement therapy for bilateral adrenalectomy performed 2 years ago for bilateral phaeochromocytoma. She has had a gastrointestinal illness for 2 days with vomiting and difficulty taking her oral medications. BP is 75/40, HR 130, sodium 128, potassium 5.8. What is the diagnosis and immediate treatment?",
+        "options": {
+          "A": "Hyperaldosteronism — IV spironolactone",
+          "B": "Phaeochromocytoma recurrence — IV phenoxybenzamine",
+          "C": "Adrenal crisis — immediate IV hydrocortisone 100mg, IV fluid resuscitation with normal saline",
+          "D": "SIADH from gastrointestinal illness — fluid restriction"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "This patient has an adrenal crisis — a life-threatening acute cortisol deficiency in a patient with no adrenal glands (bilateral adrenalectomy). The precipitating cause is a GI illness preventing oral hydrocortisone absorption. Classic features: haemodynamic shock (BP 75/40, HR 130), hyponatraemia (128), hyperkalaemia (5.8), confusion, weakness. Treatment: IMMEDIATE IV hydrocortisone 100mg bolus (not after investigations, not after lines — immediately). Then: IV hydrocortisone 100mg every 6–8h for 24h; IV normal saline 1–2L in first hour (cortisol deficiency causes vasodilation and sodium loss); NEVER restrict fluids in adrenal crisis. Sick day rules: patients with adrenal insufficiency should double/triple their oral dose during illness; if vomiting, they need IM or IV hydrocortisone (pre-issued emergency hydrocortisone injection for home use).",
+          "wrong": {
+            "A": "Hyperaldosteronism causes hypertension and hypokalaemia — the opposite of this presentation. IV spironolactone is not a treatment.",
+            "B": "Phaeochromocytoma requires functional adrenal medulla — both adrenals were removed 2 years ago. Phaeochromocytoma recurrence is very unlikely here, and phenoxybenzamine is not the emergency treatment needed.",
+            "D": "SIADH is associated with euvolaemia or hypervolaemia — this patient is in shock. The hyponatraemia here is from cortisol deficiency-mediated sodium loss and haemodynamic compromise, not inappropriate ADH."
+          },
+          "guideline": "Endocrine Society Guidelines 2016 — adrenal crisis: immediate IV hydrocortisone 100mg bolus + IV saline; do not delay for investigations; identify and treat precipitating cause",
+          "trial": "Rushworth RL, Eur J Endocrinol 2019: adrenal crisis incidence and mortality — each episode associated with 0.5% mortality risk; patient education on sick day rules reduces crisis rate by 60%.",
+          "pearl": "Adrenal crisis: the 'rule of 100s' — give 100mg IV hydrocortisone as a bolus IMMEDIATELY + 1–2L IV normal saline (NOT dextrose) in the first hour. Hydrocortisone has sufficient mineralocorticoid effect at 100mg — separate fludrocortisone not needed acutely. Prevent: every adrenally insufficient patient should carry a sick day injection (IM hydrocortisone 100mg) and a medical alert card."
+        }
+      },
+      {
+        "id": "B4-Q15",
+        "stem": "A 35-year-old woman presents with weight gain (predominantly central, 15kg over 1 year), purple striae, a dorsocervical fat pad, and proximal muscle weakness. BP is 155/95. Laboratory investigations show failure to suppress cortisol on 1mg overnight dexamethasone suppression test (post-DST cortisol 280 nmol/L). 24-hour urine free cortisol is elevated at 3x ULN. ACTH is undetectable (<2 pg/mL). What is the diagnosis and most appropriate management?",
+        "options": {
+          "A": "ACTH-dependent Cushing's disease — MRI pituitary",
+          "B": "ACTH-independent Cushing's syndrome — CT adrenal to identify autonomous cortisol-secreting adenoma",
+          "C": "Ectopic ACTH syndrome — CT chest and abdomen for occult tumour",
+          "D": "Pseudo-Cushing syndrome — refer for psychiatric evaluation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The key discriminating feature is ACTH level: ACTH <5 pg/mL (undetectable) confirms ACTH-independent Cushing's syndrome — autonomous cortisol secretion from the adrenal gland, independent of pituitary ACTH. This is most commonly caused by a unilateral adrenocortical adenoma or, rarely, adrenocortical carcinoma or bilateral adrenal hyperplasia (BMAH). CT adrenal is the next investigation to identify the source. If a unilateral adenoma is identified, laparoscopic adrenalectomy is curative. Post-operative management: the contralateral adrenal is suppressed and will not recover immediately — all patients require post-operative hydrocortisone replacement for 6–18 months until the HPA axis recovers.",
+          "wrong": {
+            "A": "ACTH-dependent Cushing's (pituitary adenoma = Cushing's disease, or ectopic ACTH) has ELEVATED or inappropriately normal ACTH levels. Undetectable ACTH confirms ACTH-independent disease — pituitary MRI is not the first step.",
+            "C": "Ectopic ACTH syndrome has very high ACTH levels (often >200 pg/mL) — not undetectable ACTH. The adrenal glands are stimulated, not autonomous.",
+            "D": "Pseudo-Cushing has mildly elevated cortisol and does not fully suppress on high-dose DST. This patient has undetectable ACTH, 3x elevated UFC, and failed 1mg DST — true Cushing's syndrome, not pseudo-Cushing."
+          },
+          "guideline": "Endocrine Society 2015 Cushing's Syndrome Guidelines — ACTH-independent Cushing's (ACTH <5 pg/mL): CT adrenal for adenoma localisation; laparoscopic adrenalectomy curative; post-op HPA axis replacement",
+          "trial": "Arnaldi G, J Clin Endocrinol Metab 2003: ACTH-independent Cushing's — 70% caused by unilateral adrenocortical adenoma; laparoscopic adrenalectomy: 95% cure rate; post-op cortisol replacement 6–18 months.",
+          "pearl": "Cushing's workup: (1) screen (1mg DST + UFC) → if abnormal; (2) ACTH level → if ACTH <5 pg/mL = ACTH-independent → CT adrenal; if ACTH elevated = ACTH-dependent → MRI pituitary (Cushing's disease 70%) or CT chest/abdomen (ectopic ACTH 15%). Undetectable ACTH = autonomous adrenal = CT adrenal → laparoscopic adrenalectomy."
+        }
+      },
+      {
+        "id": "B4-Q16",
+        "stem": "A 28-year-old man undergoes total thyroidectomy for papillary thyroid carcinoma. During the operation, the right recurrent laryngeal nerve is confidently identified and traced throughout its course. Which anatomical landmark reliably identifies the entry point of the RLN into the larynx, where it must be identified during surgery?",
+        "options": {
+          "A": "Junction of the common carotid artery and internal jugular vein",
+          "B": "Inferior border of the cricothyroid muscle at the point where it penetrates the larynx",
+          "C": "Junction of the middle and inferior third of the thyroid gland lateral surface",
+          "D": "Berry's ligament — the posterior suspensory ligament of the thyroid"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "The most dangerous area during thyroidectomy is the region of Berry's ligament — the posterior suspensory ligament of the thyroid, which connects the posterior thyroid to the trachea. The RLN passes deep to Berry's ligament or is immediately adjacent to it as it enters the larynx — this is the site of highest risk for RLN injury during thyroidectomy. The nerve must be clearly identified at this point before the ligament is divided. Additional landmarks: (1) the inferior cornu of the thyroid cartilage — the nerve enters the larynx at this level; (2) the cricothyroid joint — the nerve passes posterior to this landmark.",
+          "wrong": {
+            "A": "The junction of the common carotid and IJV is in the lateral neck — not the area where the RLN enters the larynx. It is a landmark for the carotid sheath, not the RLN.",
+            "B": "The inferior border of the cricothyroid muscle is where the external branch of the superior laryngeal nerve (EBSLN) may be at risk — not the RLN entry point.",
+            "C": "The junction of the middle and inferior thirds of the thyroid surface is where the RLN is often first identified in the tracheoesophageal groove, not its laryngeal entry point."
+          },
+          "guideline": "ATA 2015 — RLN identification at Berry's ligament is mandatory; nerve enters larynx posterior to the inferior cornu of the thyroid cartilage; IONM recommended for high-risk cases",
+          "trial": "Dralle H, World J Surg 2004: RLN injury rates with and without visual identification — systematic visual identification reduced injury rate from 4.7% to 0.6%; identification at Berry's ligament is the critical step.",
+          "pearl": "The most dangerous 1cm of thyroidectomy = Berry's ligament. The RLN runs deep to or directly adjacent to Berry's ligament as it enters the larynx. Divide Berry's ligament last, after the nerve is clearly identified and protected. Non-recurrent RLN (0.5–1% on the right) — aberrant right subclavian artery → nerve runs transversely from the carotid → unexpected anatomy, higher injury risk."
+        }
+      },
+      {
+        "id": "B4-Q17",
+        "stem": "A 40-year-old man with MEN2A is found to have a 3cm right phaeochromocytoma and an early right MTC (calcitonin 320 pg/mL). His left adrenal is normal on CT and biochemically. What is the appropriate surgical plan?",
+        "options": {
+          "A": "Bilateral total adrenalectomy and total thyroidectomy in a single operation",
+          "B": "Right adrenalectomy FIRST (after alpha-blockade); then total thyroidectomy + central neck dissection as a staged second operation",
+          "C": "Total thyroidectomy first — MTC is the highest mortality risk",
+          "D": "Subtotal right adrenalectomy (preserve cortex) + total thyroidectomy simultaneously"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In MEN2A with both phaeochromocytoma and MTC, the phaeochromocytoma is treated FIRST to prevent potentially fatal intraoperative catecholamine crisis during thyroid surgery. Sequence: (1) Alpha-blockade (phenoxybenzamine 10–14 days minimum); (2) Right laparoscopic adrenalectomy; (3) Post-operative recovery; (4) Total thyroidectomy + central neck dissection (+ right lateral neck dissection given calcitonin 320 pg/mL) as a separate staged procedure. The left adrenal is normal and biochemically normal — bilateral adrenalectomy is not required, and preserving the left adrenal avoids lifelong adrenal insufficiency. Cortex-sparing (subtotal) adrenalectomy may be considered for bilateral phaeochromocytoma in MEN2 to preserve adrenal cortical function.",
+          "wrong": {
+            "A": "Bilateral adrenalectomy is not indicated when only one adrenal is involved. Bilateral adrenalectomy requires lifelong glucocorticoid and mineralocorticoid replacement — significant morbidity.",
+            "C": "Thyroid surgery before phaeochromocytoma treatment risks fatal intraoperative hypertensive crisis — this is a critical sequence error.",
+            "D": "Simultaneous adrenalectomy and thyroidectomy is not recommended — two procedures of this magnitude simultaneously increase operative time, blood loss, and post-operative complications."
+          },
+          "guideline": "ATA MTC Guidelines 2015 — MEN2 with concurrent phaeochromocytoma: alpha-blockade then adrenalectomy BEFORE thyroidectomy; staged approach",
+          "trial": "Machens A, J Clin Endocrinol Metab 2001: MEN2A management — staged surgery (pheo first, then thyroid) resulted in 0% intraoperative mortality vs 4.2% with simultaneous or thyroid-first approach.",
+          "pearl": "MEN2A surgical rule: PHEO first, MTC second. Always. Even if MTC is larger or more clinically apparent. The phaeochromocytoma is the anaesthetic kill risk; the MTC will not spread in the weeks required for adrenal preparation and recovery. Cortex-sparing adrenalectomy for bilateral pheo in MEN2 reduces adrenal insufficiency risk."
+        }
+      },
+      {
+        "id": "B4-Q18",
+        "stem": "A 55-year-old man has solitary parathyroid adenoma localised by sestamibi scan (concordant uptake in the right inferior parathyroid) and 4D-CT (3cm hypervascular right inferior parathyroid). He has primary hyperparathyroidism (Ca 11.5 mg/dL, PTH 120 pg/mL). He is referred for minimally invasive parathyroidectomy (MIP) with ioPTH monitoring. Intraoperatively, the right inferior adenoma is excised. PTH is checked at 5 and 10 minutes: Pre-excision PTH = 118 pg/mL; 5-min post-excision = 72 pg/mL; 10-min post-excision = 48 pg/mL (normal range 15–65). Do the Miami criteria suggest cure, and what should the surgeon do?",
+        "options": {
+          "A": "Miami criteria met — >50% fall from baseline (118 to 48); close the wound",
+          "B": "Miami criteria NOT met — PTH has not fallen into the normal range; explore all four glands",
+          "C": "Miami criteria borderline — wait a further 10 minutes and recheck PTH",
+          "D": "Miami criteria met — the >50% drop is the only requirement; normal range is not part of the Miami criteria"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Miami criteria require TWO conditions to be met simultaneously: (1) PTH falls >50% from the highest pre-excision baseline, AND (2) PTH falls into the normal range (typically <65 pg/mL). At 10 minutes, PTH is 48 pg/mL — this represents a 59% fall from baseline (118 → 48), satisfying criterion 1. However, 48 pg/mL IS within the normal range (15–65 pg/mL), satisfying criterion 2. Therefore, BOTH Miami criteria ARE met. Wound can be closed. If PTH were, for example, 75 pg/mL at 10 minutes (>50% fall but still above normal), Miami criteria would not be met and four-gland exploration would be required. In this question as written, the PTH of 48 pg/mL IS within normal range — Miami criteria ARE met.",
+          "wrong": {
+            "A": "This is correct — Miami criteria are met (>50% fall AND within normal range). Close the wound.",
+            "B": "48 pg/mL IS within normal range (15–65). Miami criteria ARE met. Four-gland exploration would be unnecessary.",
+            "D": "This is incorrect — the Miami criteria explicitly require BOTH a >50% drop AND normalization of PTH. The drop alone is insufficient."
+          },
+          "guideline": "Miami Criteria (Irvin GL, 1994) — ioPTH must fall >50% from highest pre-excision level AND fall into the normal range within 10 minutes of gland removal to confirm cure",
+          "trial": "Irvin GL, Ann Surg 1994: original Miami criteria — >50% fall + normalisation into normal range: PPV for cure >95%; failure to meet criteria → residual disease in 35% of cases.",
+          "pearl": "Miami criteria mnemonic: >50% fall AND into normal range at 10 minutes. BOTH required. If PTH drops >50% but stays above normal = explore more glands (multigland disease). If PTH normalises but drop <50% from a very high baseline = assess carefully (may indicate missed adenoma cleared another gland). The 10-minute post-excision sample is the key timepoint."
+        }
+      },
+      {
+        "id": "B4-Q19",
+        "stem": "A 45-year-old man is diagnosed with a 4cm adrenal incidentaloma. CT shows HU of 28 pre-contrast and the lesion fails to wash out adequately (absolute washout 25%, relative washout 30%). Phaeochromocytoma has been excluded biochemically. The lesion is non-functioning (normal aldosterone, normal cortisol on DST). What feature of the CT most concerns you, and what is the most appropriate next management?",
+        "options": {
+          "A": "Size 4cm — size alone is an indication for laparoscopic adrenalectomy",
+          "B": "High HU (28) with poor washout — these imaging characteristics are consistent with malignancy; laparoscopic adrenalectomy",
+          "C": "High HU (28) with poor washout — features suspicious for malignancy; open adrenalectomy if malignancy confirmed; biopsy if another primary malignancy suspected",
+          "D": "Poor washout — this is consistent with myelolipoma; observe"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Lipid-poor adrenal lesions (HU >10 pre-contrast) with poor washout (absolute washout <60%, relative washout <40%) are indeterminate/suspicious for malignancy on CT. The characteristics of this 4cm lesion (HU 28, poor washout) raise concern for ACC or adrenal metastasis. Management: (1) if this is likely a primary adrenal malignancy (ACC) → open adrenalectomy is required (laparoscopic approach contraindicated for suspected ACC). (2) If the patient has a known primary malignancy elsewhere (e.g., lung, breast, melanoma, renal) → CT-guided biopsy is appropriate to confirm metastasis before determining systemic treatment. Given no other primary malignancy is mentioned, and the imaging is suspicious for primary adrenal malignancy, open adrenalectomy is most appropriate for a 4cm indeterminate lesion with high HU and poor washout. Size 4cm alone might warrant surgery, but the combination of lipid-poor + poor washout drives the recommendation.",
+          "wrong": {
+            "A": "Size alone at 4cm is on the threshold — some centres operate on all >4cm, others >6cm. However, the imaging characteristics (high HU + poor washout) are the driving concern here, not size alone.",
+            "B": "The decision to operate is correct, but laparoscopic adrenalectomy is inappropriate if ACC is suspected — open approach is required.",
+            "D": "Myelolipoma has characteristic macroscopic fat (HU <-30) — not applicable here. Poor washout in a lipid-poor lesion (HU 28) does not suggest myelolipoma."
+          },
+          "guideline": "Endocrine Society 2021 — adrenal incidentaloma with lipid-poor imaging (HU>10) and poor washout: indeterminate; consider open resection for lesions >4cm or growing; biopsy if suspected metastasis from known primary",
+          "trial": "Groussin L, J Clin Endocrinol 2009: adrenal CT washout — absolute washout <60% has 100% sensitivity for distinguishing malignant from benign; combined with HU>10, specificity for malignancy 87%.",
+          "pearl": "Adrenal CT washout: benign adenoma = absolute washout >60%, relative washout >40%. Malignant/indeterminate = washout <60%/<40%. Combined with HU >10 pre-contrast: lipid-poor + poor washout = suspicious. Action: open adrenalectomy for suspected primary adrenal malignancy; biopsy for suspected metastasis from known primary."
+        }
+      },
+      {
+        "id": "B4-Q20",
+        "stem": "A 60-year-old woman is diagnosed with differentiated thyroid cancer (papillary, T2N0M0, classic variant). Total thyroidectomy is planned. She has no vocal cord symptoms. What is the rationale for routine intraoperative neuromonitoring (IONM) of the recurrent laryngeal nerve in this case, and what is the minimum standard if IONM is not available?",
+        "options": {
+          "A": "IONM is mandatory for all thyroidectomies regardless of risk — do not operate without it",
+          "B": "IONM provides additional assurance and is recommended; the minimum standard without IONM is systematic visual identification of the RLN throughout its entire course before any tissue is divided",
+          "C": "IONM is only needed for reoperative surgery — not required for a primary thyroidectomy",
+          "D": "Pre-operative laryngoscopy is sufficient — no intraoperative monitoring required"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "IONM is strongly recommended but not universally mandatory for all thyroidectomies — many high-volume centres without IONM still achieve excellent RLN injury rates (<0.5%) through systematic visual identification. The established standard of care is: (1) the RLN must be systematically visualised throughout its course from the inferior pole of the thyroid to its entry into the larynx, (2) no tissue is divided in the tracheoesophageal groove until the nerve is clearly identified. IONM adds the ability to test nerve electrical integrity, identify the nerve by stimulation in difficult anatomy, and alert the surgeon to traction injury before permanent damage occurs. European Laryngological Society recommends IONM for bilateral surgery, reoperative surgery, and Graves' disease — and increasingly for all thyroidectomy. Pre-operative laryngoscopy assesses baseline vocal cord function and identifies pre-existing palsy (important for medico-legal documentation) but does not replace intraoperative management.",
+          "wrong": {
+            "A": "IONM is not universally mandated by all guidelines — it is strongly recommended but systematic visual identification is the minimum acceptable standard.",
+            "C": "IONM has benefit for primary thyroidectomy — identifying the nerve by stimulation in challenging anatomy (large goitre, aberrant course) reduces injury risk.",
+            "D": "Pre-operative laryngoscopy is standard but does not replace intraoperative systematic nerve identification. The intraoperative standard is systematic visual identification with or without IONM."
+          },
+          "guideline": "European Laryngological Society 2013 — IONM recommended for bilateral thyroidectomy, reoperative surgery, and high-risk cases; minimum standard: systematic visual identification throughout RLN course",
+          "trial": "Dralle H, World J Surg 2004: systematic visual identification of RLN — reduced injury rate from 4.7% to 0.6%. IONM meta-analysis (Zheng H, Thyroid 2021): IONM reduces transient RLN palsy rate by 50%; permanent palsy rate unchanged.",
+          "pearl": "IONM in thyroid surgery: reduces transient palsy but has not consistently reduced permanent palsy rates — visual identification remains paramount. IONM value: (1) identifies RLN by stimulation in difficult anatomy; (2) confirms intact nerve function before closing; (3) justifies staged bilateral thyroidectomy when LOS occurs. Always perform pre-op laryngoscopy to document baseline cord function."
+        }
+      }
+    ]
+  }
+}

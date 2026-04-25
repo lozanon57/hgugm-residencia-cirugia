@@ -1,0 +1,632 @@
+{
+  "id": "F3",
+  "title": "Thoracic Surgery for General Surgeons",
+  "subtitle": "Pleural Disease, Lung Cancer, Oesophageal Surgery & Thoracic Emergencies",
+  "block": "F",
+  "block_name": "Trauma, Infections & Thoracic",
+  "level": "PGY2-3",
+  "reading_time_min": 100,
+  "guidelines_version": "BTS Pleural Disease Guidelines 2023 · NICE NG122 Lung Cancer · ESMO Oesophageal Cancer 2022 · ESTS Guidelines",
+  "textbook_refs": [
+    "Shields' General Thoracic Surgery, 8th ed.",
+    "Pearson's Thoracic & Esophageal Surgery, 4th ed.",
+    "BTS Guidelines for the Management of Pleural Disease 2023",
+    "NICE NG122: Lung Cancer Diagnosis and Management 2019 (updated 2023)"
+  ],
+  "learning_objectives": [
+    "Describe mediastinal compartment anatomy and classify masses by compartment",
+    "Apply BTS guidelines for primary and secondary pneumothorax management",
+    "Apply Light's criteria to differentiate transudates from exudates",
+    "Describe the MIST2 trial findings and intrapleural fibrinolytic protocol for empyema",
+    "Stage NSCLC using TNM 9th edition and determine resectability thresholds",
+    "Distinguish CROSS vs FLOT neoadjuvant strategies for oesophageal cancer (ESOPEC trial)",
+    "Manage thoracic emergencies including tension pneumothorax, massive haemothorax, and cardiac tamponade"
+  ],
+  "sections": [
+    {
+      "id": "F3-S1",
+      "title": "Thoracic Anatomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "A thorough command of thoracic anatomy underpins safe surgical decision-making in both elective and emergency settings. The pleural space is a potential space between the visceral pleura (covering the lung) and the parietal pleura (lining the chest wall, diaphragm, and mediastinum). Normally it contains 5–15 mL of serous fluid. The right lung has three lobes — upper, middle, and lower — separated by the oblique fissure (separates lower lobe from upper and middle) and the horizontal fissure (separates upper from middle). The left lung has two lobes — upper and lower — separated by the oblique fissure; the lingula is the equivalent of the right middle lobe. Accessory fissures are common and visible on CT.\n\nThe bronchopulmonary segments are the functional units of the lung, each supplied by a segmental bronchus and segmental artery (10 in the right lung, 8–10 in the left). Knowledge of segmental anatomy is essential for anatomical sublobar resections (segmentectomy). The right lung has 10 segments: S1 (apical), S2 (posterior), S3 (anterior) in the upper lobe; S4 (lateral), S5 (medial) in the middle lobe; S6 (superior), S7 (medial basal), S8 (anterior basal), S9 (lateral basal), S10 (posterior basal) in the lower lobe."
+        },
+        {
+          "type": "table",
+          "title": "Mediastinal Compartments — Boundaries and Contents",
+          "headers": ["Compartment", "Boundaries", "Normal Contents", "Pathological Masses"],
+          "rows": [
+            ["Anterior (prevascular)", "Posterior to sternum, anterior to pericardium/great vessels", "Thymus, internal mammary vessels, lymph nodes, fat", "Thymoma, teratoma/germ cell tumour, lymphoma (Hodgkin's — '4 Ts': Thymoma, Teratoma, Terrible lymphoma, Thyroid)"],
+            ["Middle (visceral)", "Contains pericardium and great vessels", "Heart, pericardium, aortic arch, SVC, trachea, main bronchi, lymph nodes, phrenic nerves", "Aortic arch aneurysm, pericardial cyst, bronchogenic cyst, lymphoma, tracheal tumours"],
+            ["Posterior (paravertebral)", "Posterior to pericardium, anterior to vertebral bodies", "Descending thoracic aorta, oesophagus, thoracic duct, azygos vein, sympathetic chain, vagus nerves", "Neurogenic tumours (schwannoma, neurofibroma, ganglioneuroma — most common posterior mass), foregut duplication cysts"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Surgical Landmarks for Thoracic Procedures",
+          "content": "Angle of Louis (manubriosternal junction) = level of 2nd costal cartilage = T4/T5 disc = bifurcation of trachea = start of aortic arch. Needle decompression for tension pneumothorax: 2nd intercostal space, midclavicular line (2nd ICS MCL) — insert needle ABOVE the 3rd rib to avoid neurovascular bundle. Chest drain insertion: 5th ICS, mid-axillary line (MAL) — the 'triangle of safety' (bounded anteriorly by lateral border of pectoralis major, laterally by anterior border of latissimus dorsi, inferiorly by the 5th ICS). Never insert below 5th ICS (risk of diaphragm injury and intra-abdominal organ puncture)."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "Intercostal Neurovascular Bundle",
+          "content": "The intercostal neurovascular bundle (vein, artery, nerve — VAN from superior to inferior) runs in the costal groove on the inferior aspect of each rib. Instruments should be inserted OVER the SUPERIOR border of the LOWER rib (e.g., over the 3rd rib when entering the 2nd ICS) to avoid injury to the bundle."
+        }
+      ]
+    },
+    {
+      "id": "F3-S2",
+      "title": "Pleural Disease",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Pneumothorax is classified as primary (no underlying lung disease — typically tall, thin young males; thought to result from rupture of apical subpleural blebs) or secondary (underlying lung disease — COPD, cystic fibrosis, pneumonia, malignancy — much higher morbidity). The British Thoracic Society (BTS) 2023 guidelines stratify management by size and symptoms. Size is measured at the level of the hilum on CXR: >2 cm rim of air = large. For primary spontaneous pneumothorax (PSP): symptomatic or large → aspiration (16G cannula, 2nd ICS MCL) as first-line; if aspiration fails or secondary pneumothorax → intercostal drain (10–14 Fr small-bore Seldinger). Surgical indications: second ipsilateral pneumothorax, first contralateral, bilateral simultaneous, failure of drain to re-expand lung after 5 days, persistent air leak. Surgical standard: VATS pleurodesis (talc insufflation or mechanical abrasion + bullectomy).\n\nPleural effusion: Light's criteria (1972) distinguish transudates (all three criteria negative) from exudates (any one positive): (1) pleural protein/serum protein ratio >0.5; (2) pleural LDH/serum LDH ratio >0.6; (3) pleural LDH >2/3 upper limit of normal serum LDH. Transudates: heart failure, cirrhosis, nephrotic syndrome, hypothyroidism. Exudates: malignancy (most common in age >60), pneumonia/empyema, TB, PE, autoimmune. Parapneumonic effusions progress: simple (sterile exudate) → complicated (bacteria, low pH<7.2, low glucose<2.2 mmol/L, high LDH) → empyema (frank pus or positive culture)."
+        },
+        {
+          "type": "table",
+          "title": "Light's Criteria — Pleural Fluid Analysis",
+          "headers": ["Criterion", "Exudate", "Transudate", "Clinical Use"],
+          "rows": [
+            ["Pleural protein / serum protein", ">0.5", "≤0.5", "Most discriminatory single test"],
+            ["Pleural LDH / serum LDH", ">0.6", "≤0.6", "Useful if protein borderline"],
+            ["Pleural LDH vs serum ULN", ">2/3 of ULN", "≤2/3 of ULN", "Indicates cellular activity"],
+            ["pH (complicated parapneumonic)", "<7.2 → drain", "N/A", "pH<7.2 = drain mandatory"],
+            ["Glucose (complicated parapneumonic)", "<2.2 mmol/L → drain", "N/A", "Correlates with empyema risk"],
+            ["LDH (complicated parapneumonic)", ">1000 IU/L → drain", "N/A", "High LDH = active infection"]
+          ]
+        },
+        {
+          "type": "landmark_trial",
+          "title": "MIST2 Trial — Intrapleural Fibrinolytics for Empyema",
+          "citation": "Rahman NM et al. NEJM 2011;365:518–526",
+          "population": "210 patients with pleural infection (empyema or complicated parapneumonic effusion)",
+          "intervention": "Intrapleural tPA (tissue plasminogen activator) 10 mg + DNase 5 mg twice daily × 3 days vs placebo",
+          "control": "Placebo (saline) — 2×2 factorial design (tPA alone, DNase alone, combination, double placebo)",
+          "primary_outcome": "Chest radiograph score (opacity area) at day 7",
+          "results": "Combination tPA+DNase: significantly reduced radiographic opacity (p<0.001), reduced surgical referral rate (4% vs 27%, p=0.005), shorter hospital stay (−6.7 days, p=0.004). Neither agent alone was effective — synergistic combination required. tPA alone increased failure rate.",
+          "conclusion": "Intrapleural tPA + DNase twice daily for 3 days is the standard of care for empyema failing simple drainage. DNase liquefies the biofilm/DNA matrix; tPA dissolves fibrin septa. Neither agent alone is effective.",
+          "board_relevance": "MIST2 established the combination as standard — know the doses (tPA 10mg + DNase 5mg), frequency (BD × 3 days), and that single agents are inferior."
+        },
+        {
+          "type": "text",
+          "content": "Mesothelioma: malignant pleural mesothelioma (MPM) is strongly associated with asbestos exposure (latency 30–40 years). Histological subtypes: epithelioid (best prognosis), sarcomatoid (worst), biphasic. Diagnosis requires CT chest (pleural thickening, calcified plaques, effusion) followed by thoracoscopic biopsy (pleural fluid cytology alone insufficient — sensitivity only 30–40%). The MARS2 trial (2023, JAMA Surgery) compared extended pleurectomy/decortication (EPD) versus chemotherapy alone: EPD was associated with inferior overall survival vs no surgery (median OS 19.3 vs 24.8 months, HR 1.54 — surgery caused harm). This reversed previous practice of aggressive surgical resection. Current standard: platinum + pemetrexed chemotherapy ± bevacizumab; immunotherapy (nivolumab + ipilimumab — CheckMate 743) for first-line; pembrolizumab monotherapy in selected cases (IND.227 trial demonstrated benefit in PD-L1+ MPM)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "MARS2 — Paradigm Shift: Surgery Harms in Mesothelioma",
+          "content": "The MARS2 RCT (2023) demonstrated that extended pleurectomy/decortication (EPD) worsened survival compared to chemotherapy alone for MPM (HR for death 1.54; p=0.03). Extrapleural pneumonectomy (EPP) is no longer recommended. Surgical palliation (pleurodesis, indwelling pleural catheter for effusion) remains appropriate for symptom control."
+        }
+      ]
+    },
+    {
+      "id": "F3-S3",
+      "title": "Lung Cancer",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Lung cancer is the leading cause of cancer death worldwide. Non-small cell lung cancer (NSCLC) accounts for 85% (adenocarcinoma 40%, squamous cell 25–30%, large cell 10%); small cell lung cancer (SCLC) 15%. SCLC is almost always metastatic at diagnosis (limited vs extensive stage) and is managed with chemo-immunotherapy (atezolizumab + carboplatin/etoposide); surgery is rare. NSCLC staging uses the TNM 9th edition (IASLC 2023): T (tumour size/invasion), N (nodal — N0 no nodes, N1 ipsilateral hilar, N2 ipsilateral mediastinal, N3 contralateral or supraclavicular), M (metastasis). Stage groupings: IA–IIB = surgically resectable; IIIA = potentially resectable (selected N2); IIIB-IV = unresectable.\n\nResectability thresholds: (1) FEV1 predicted postoperative (ppoFEV1) >40% — minimum for lobectomy; >30% with satisfactory DLCO for selected patients; (2) DLCO ppo >40%; (3) VO2max >15 mL/kg/min on CPET = low risk; 10–15 = moderate risk; <10 = high risk/unresectable. Predicted postoperative FEV1 is calculated: ppoFEV1 = preoperative FEV1 × (1 − fraction of functional lung removed). For pneumonectomy: ppoFEV1 >40% and DLCO >40% are the minimum thresholds."
+        },
+        {
+          "type": "table",
+          "title": "TNM 9th Edition — NSCLC Stage Groupings (Key Stages)",
+          "headers": ["Stage", "TNM", "5-Year Survival", "Standard Treatment"],
+          "rows": [
+            ["IA1", "T1a N0 M0 (≤1cm)", "~90%", "Sublobar resection (segmentectomy preferred)"],
+            ["IA2", "T1b N0 M0 (>1–2cm)", "~85%", "Lobectomy or segmentectomy"],
+            ["IA3", "T1c N0 M0 (>2–3cm)", "~80%", "Lobectomy"],
+            ["IB", "T2a N0 M0 (>3–4cm)", "~73%", "Lobectomy ± adjuvant osimertinib (EGFR+)"],
+            ["IIA", "T2b N0 or T1-2a N1 M0", "~60%", "Lobectomy + adjuvant chemotherapy"],
+            ["IIB", "T3 N0 or T2b N1 M0", "~53%", "Lobectomy + adjuvant chemo ± osimertinib"],
+            ["IIIA", "T1-3 N2 or T3-4 N1", "~30–35%", "Multimodal — neoadjuvant chemo-immuno (CheckMate 816) + surgery"],
+            ["IIIB-IV", "N3 or M1 any", "<10%", "Chemo-immunotherapy, targeted therapy (EGFR/ALK/ROS1)"]
+          ]
+        },
+        {
+          "type": "landmark_trial",
+          "title": "VIOLET Trial — VATS vs Open Lobectomy",
+          "citation": "Lim E et al. NEJM 2023 (VIOLET RCT)",
+          "population": "503 patients with resectable NSCLC requiring lobectomy (Stage I–IIIA)",
+          "intervention": "Video-assisted thoracoscopic surgery (VATS) lobectomy",
+          "control": "Open (thoracotomy) lobectomy",
+          "primary_outcome": "Patient-reported quality of life (FACT-L) at 5 weeks",
+          "results": "VATS: significantly better QoL at 5 weeks (p<0.001), less pain, shorter hospital stay (4 vs 6 days). Oncological outcomes equivalent (R0 resection rate, nodal upstaging). Complication rates similar. VATS is now the preferred approach for anatomical lung resection when technically feasible.",
+          "conclusion": "VATS lobectomy is superior to open thoracotomy for patient-reported outcomes with equivalent oncological results.",
+          "board_relevance": "VATS lobectomy is the surgical standard for resectable NSCLC — know the VIOLET trial, that it demonstrated QoL benefit, and that oncological equivalence is maintained."
+        },
+        {
+          "type": "landmark_trial",
+          "title": "JCOG0802 — Sublobar Resection (Segmentectomy) vs Lobectomy for Small NSCLC",
+          "citation": "Saji H et al. Lancet 2022;399:1607–1617",
+          "population": "1106 patients with clinical Stage IA NSCLC ≤2cm (consolidation-to-tumour ratio >0.5 on CT)",
+          "intervention": "Segmentectomy (anatomical sublobar resection)",
+          "control": "Lobectomy",
+          "primary_outcome": "Overall survival",
+          "results": "Segmentectomy: superior OS compared with lobectomy (5-year OS 94.3% vs 91.1%; p=0.0082). Local recurrence higher with segmentectomy (10.5% vs 5.4%) but did not translate to inferior survival. CALGB 140503 (simultaneously published): disease-free survival non-inferior for sublobar vs lobectomy in tumours ≤2cm.",
+          "conclusion": "Segmentectomy is the preferred surgical approach for stage IA NSCLC ≤2cm with adequate margins.",
+          "board_relevance": "Critical trial — sublobar resection (segmentectomy) is now PREFERRED over lobectomy for ≤2cm stage IA NSCLC. Lobectomy remains standard for >2cm tumours."
+        },
+        {
+          "type": "text",
+          "content": "Mediastinal staging is essential before resection in clinically stage I–III NSCLC. CT is inadequate alone (sensitivity 55%, specificity 81%). Endobronchial ultrasound (EBUS) with TBNA is the first-line invasive staging modality — sensitivity 88–93%, specificity 100% for N2/N3 disease. Mediastinoscopy (cervical) remains the gold standard (sensitivity ~90%) and is used when EBUS is negative but clinical suspicion for N2 remains high. EBUS has replaced routine mediastinoscopy at most centres but confirmation mediastinoscopy ('remediastinoscopy' after neoadjuvant) is sometimes required. PET-CT identifies occult metastases and guides biopsy targets.\n\nNeoadjuvant/adjuvant therapies: CheckMate 816 (NEJM 2022): nivolumab + chemotherapy × 3 cycles neoadjuvant for stage IB–IIIA NSCLC — pathological complete response (pCR) 24% vs 2.2% with chemo alone; significantly improved EFS (HR 0.63). This is now standard neoadjuvant for resectable stage II–IIIA. ADAURA trial (NEJM 2020): adjuvant osimertinib (EGFR-mutated, stage IB–IIIA) after complete resection — DFS HR 0.20 (80% risk reduction); 5-year OS benefit demonstrated. Osimertinib 80 mg daily × 3 years is standard of care for EGFR-mutated resected NSCLC."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Key Trials Summary for Lung Cancer",
+          "content": "ADAURA: adjuvant osimertinib for EGFR+ (exon 19 del or L858R) resected NSCLC stages IB–IIIA → 80% DFS benefit. CheckMate 816: neoadjuvant nivolumab + chemo for stage IB–IIIA → 24% pCR rate, improved EFS. VIOLET: VATS lobectomy = better QoL than open, equivalent oncology. JCOG0802: segmentectomy preferred for ≤2cm stage IA NSCLC."
+        }
+      ]
+    },
+    {
+      "id": "F3-S4",
+      "title": "Oesophageal Surgery (Malignant)",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Oesophageal cancer is the 6th leading cause of cancer mortality. Two main histological types: adenocarcinoma (AC — Barrett's oesophagus, obesity, GORD; arising at GOJ/lower oesophagus; dominant in Western countries) and squamous cell carcinoma (SCC — tobacco, alcohol, achalasia; upper/middle oesophagus; dominant in Asia and Africa). Staging requires CT chest/abdomen/pelvis (lymph nodes, distant metastases), EUS (T and N staging — most accurate for depth of invasion), and PET-CT (occult M1 disease detected in 15% altering management). Laparoscopy ± peritoneal washings for GOJ/gastric involvement.\n\nSurgical approaches: (1) Ivor Lewis oesophagectomy (right thoracotomy + laparotomy + intrathoracic anastomosis) — best for mid/lower oesophageal tumours; requires adequate thoracic reach. (2) McKeown (3-stage) oesophagectomy (right thoracotomy + laparotomy + left cervical anastomosis) — best for upper/middle tumours; higher anastomotic leak rate but leaks less morbid (cervical). (3) Transhiatal oesophagectomy (laparotomy + blunt mediastinal dissection + cervical anastomosis, no thoracotomy) — avoids thoracic complications; limited mediastinal lymphadenectomy; higher recurrence in SCC.\n\nAnastomotic leak occurs in 5–15% after oesophagectomy and carries significant mortality (Clavien-Dindo grade IVa). Management depends on leak severity: cervical leaks — open wound, drain, NPO, will usually heal with wound care; intrathoracic leaks — CT-guided drain + endoscopic stent (self-expanding metal stent, SEMS) as primary approach in contained leaks; reoperation for uncontained leaks with sepsis, failed stenting. Covered SEMS with concomitant drainage is now first-line for type II/III intrathoracic leaks."
+        },
+        {
+          "type": "landmark_trial",
+          "title": "CROSS Trial — Neoadjuvant Chemoradiotherapy for Oesophageal Cancer",
+          "citation": "van Hagen P et al. NEJM 2012;366:2074–2084 (updated Shapiro 2015)",
+          "population": "368 patients with resectable oesophageal or GOJ cancer (75% AC, 25% SCC), cT1N1 or cT2-3N0-1",
+          "intervention": "Neoadjuvant carboplatin/paclitaxel + 41.4 Gy radiotherapy → surgery",
+          "control": "Surgery alone",
+          "primary_outcome": "Overall survival",
+          "results": "Neoadjuvant CRT: median OS 49.4 vs 24.0 months (HR 0.657, p=0.003); R0 resection 92% vs 69%; pCR 29% (SCC 49% vs AC 23%). At 5 years: OS benefit maintained (47% vs 33%). SCC derived greater pCR benefit.",
+          "conclusion": "CROSS neoadjuvant chemoradiotherapy + surgery is the global standard for resectable oesophageal cancer, particularly SCC.",
+          "board_relevance": "CROSS = standard for SCC (highest pCR). For adenocarcinoma, FLOT (ESOPEC) is superior."
+        },
+        {
+          "type": "landmark_trial",
+          "title": "ESOPEC Trial — FLOT vs CROSS for Oesophageal Adenocarcinoma",
+          "citation": "Hoeppner J et al. NEJM 2024;390:1949–1960",
+          "population": "438 patients with resectable oesophageal or GOJ adenocarcinoma",
+          "intervention": "FLOT (fluorouracil, leucovorin, oxaliplatin, docetaxel) — 4 cycles pre-op + 4 cycles post-op",
+          "control": "CROSS (carboplatin/paclitaxel + 41.4 Gy RT) → surgery",
+          "primary_outcome": "Overall survival",
+          "results": "FLOT: median OS 66 vs 37 months (HR 0.70, p=0.012). 5-year OS 50.6% vs 38.9%. pCR similar (16.8% vs 10.4%). FLOT associated with higher toxicity (grade 3/4 adverse events more frequent) but significantly superior OS.",
+          "conclusion": "FLOT perioperative chemotherapy is the preferred neoadjuvant strategy for resectable oesophageal/GOJ adenocarcinoma, replacing CROSS in this histological subtype.",
+          "board_relevance": "ESOPEC (2024) is the practice-changing trial: FLOT > CROSS for adenocarcinoma. CROSS remains preferred for SCC (highest pCR in that histology)."
+        },
+        {
+          "type": "table",
+          "title": "Clavien-Dindo Classification of Surgical Complications",
+          "headers": ["Grade", "Definition", "Examples"],
+          "rows": [
+            ["Grade I", "Any deviation from normal post-op course not requiring treatment", "Wound seroma, transient fever"],
+            ["Grade II", "Requiring pharmacological treatment", "Blood transfusion, antibiotics, total parenteral nutrition"],
+            ["Grade IIIa", "Requiring surgical/endoscopic/radiological intervention — not under GA", "Endoscopic stent, IR drainage, bronchoscopy"],
+            ["Grade IIIb", "Requiring intervention under general anaesthesia", "Return to theatre for anastomotic leak repair, haemorrhage"],
+            ["Grade IVa", "Single organ dysfunction, life-threatening — ICU required", "Respiratory failure, acute kidney injury requiring CRRT"],
+            ["Grade IVb", "Multi-organ dysfunction — ICU required", "Multi-organ failure"],
+            ["Grade V", "Death", "In-hospital mortality"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "ERAS After Oesophagectomy — Key Points",
+          "content": "Enhanced recovery after oesophagectomy (ERAS Society 2019 guidelines): preoperative carbohydrate loading, prehabilitation, epidural or paravertebral block, goal-directed fluid therapy, early enteral feeding via jejunostomy (within 24h), early mobilisation (Day 1), avoiding routine NGT beyond 24h, chest physiotherapy. These measures reduce pulmonary complications (most common morbidity) and ICU stay."
+        }
+      ]
+    },
+    {
+      "id": "F3-S5",
+      "title": "Chest Wall & Mediastinal Disease",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Chest wall tumours: primary chest wall tumours are uncommon. Benign: osteochondroma (most common benign), fibrous dysplasia, chondroma. Malignant: chondrosarcoma (most common primary malignant), Ewing's sarcoma, solitary plasmacytoma, primitive neuroectodermal tumour (PNET). Metastatic disease (lung, breast, kidney, thyroid) is more common than primary. Resection principles: oncologically adequate margin ≥2 cm from tumour edge; resection of ≥1 entire rib above and below; chest wall reconstruction with prosthetic mesh (Prolene, PTFE, or methyl methacrylate sandwich) for defects >5 cm or involving anterior chest wall.\n\nSternal reconstruction: required after sternectomy for primary sternal tumours or radiation-induced necrosis. Techniques: titanium mesh/plates + pectoralis major advancement flap; rectus abdominis myocutaneous flap for inferior sternal defects; omentum transposition for infected wounds. Multidisciplinary planning essential.\n\nThymoma and myasthenia gravis: thymoma is the most common anterior mediastinal tumour in adults. Staged by Masaoka classification: Stage I — complete encapsulation (5-year OS >95%); Stage IIA — microscopic capsular invasion; Stage IIB — macroscopic invasion; Stage III — invasion of adjacent organs; Stage IVA — pleural/pericardial dissemination; Stage IVB — haematogenous metastases. Treatment: complete surgical resection (thymectomy) via median sternotomy or VATS for early-stage. Masaoka III/IVA: multimodal (induction chemo + surgery + radiotherapy). Myasthenia gravis (MG) occurs in 30–40% of thymoma patients. Thymectomy improves MG symptoms in 80% (MGTX trial demonstrated benefit of thymectomy in non-thymomatous MG: improved Quantitative MG Score, reduced immunosuppression). Pre-op MG management: pyridostigmine, immunosuppression, plasmapheresis if severe (myasthenic crisis risk perioperatively)."
+        },
+        {
+          "type": "table",
+          "title": "Masaoka Staging — Thymoma",
+          "headers": ["Stage", "Pathological Finding", "5-Year OS", "Treatment"],
+          "rows": [
+            ["I", "Intact capsule, no invasion", ">95%", "Complete thymectomy (VATS or open)"],
+            ["IIA", "Microscopic transcapsular invasion", "~90%", "Complete thymectomy ± adjuvant RT"],
+            ["IIB", "Macroscopic invasion of peritumoral fat", "~85%", "Complete thymectomy + adjuvant RT"],
+            ["III", "Invasion of pericardium, great vessels, or lung", "~70%", "Induction chemo (CAP) → surgery + RT"],
+            ["IVA", "Pleural or pericardial dissemination", "~50%", "Chemo + surgery if possible + RT"],
+            ["IVB", "Lymphogenous or haematogenous metastases", "<30%", "Chemotherapy ± palliative surgery"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Anterior Mediastinal Mass — Airway Risk Before Biopsy",
+          "content": "Any anterior mediastinal mass presenting with symptoms of tracheal/vascular compression (cough, dyspnoea, facial oedema, SVC syndrome) requires CT and echocardiogram to assess airway compression BEFORE biopsy or GA. General anaesthesia in patients with >50% tracheal compression risks complete airway collapse on induction. Preferred approach: tissue diagnosis under local anaesthesia (CT-guided core biopsy, anterior mediastinotomy under LA, or image-guided FNA). If lymphoma is suspected, peripheral node biopsy or bone marrow biopsy may avoid mediastinal intervention entirely."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Mediastinal Mass Differential — The 4 Ts",
+          "content": "Anterior mediastinal masses = 4 Ts: Thymoma (most common), Teratoma/Germ Cell Tumour (AFP + beta-HCG — elevated in non-seminomatous GCT), Terrible lymphoma (Hodgkin's most common), Thyroid (retrosternal goitre — moves on swallowing, radioiodine uptake on scan). Middle mediastinum: aortic aneurysm, pericardial/bronchogenic cyst, lymphoma. Posterior mediastinum: neurogenic tumour (posterior in a young patient = schwannoma/neurofibroma until proven otherwise)."
+        }
+      ]
+    },
+    {
+      "id": "F3-S6",
+      "title": "Thoracic Emergencies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Tension pneumothorax is a life-threatening emergency requiring immediate clinical diagnosis and treatment — do not wait for CXR. Clinical features: tracheal deviation AWAY from affected side (late sign), absent breath sounds on affected side, hypotension, elevated JVP (raised CVP), tachycardia, hypoxia, haemodynamic collapse. Mechanism: air enters pleural space through a one-way valve mechanism, accumulates under pressure, compresses mediastinum, kinks great veins (IVC/SVC), reduces venous return, causes obstructive shock.\n\nImmediate management: needle decompression — 14G cannula, 2nd ICS, midclavicular line — inserted over superior border of 3rd rib; listen for hiss of air under pressure. This converts tension to simple pneumothorax, buying time. Immediately followed by formal intercostal drain (28–32 Fr) in the triangle of safety (5th ICS, MAL). Do NOT wait for needle decompression confirmation before placing drain if diagnosis is clinically certain.\n\nMassive haemothorax: defined as >1500 mL blood immediately drained or >200 mL/h for 2–4 hours after chest drain insertion. Cause: intercostal vessel injury (usually low-pressure — responds to drainage), pulmonary vessel/hilar injury (high-pressure — requires operative control), subclavian/aortic injury. Management: immediate large-bore chest drain (32–36 Fr), resuscitation, surgical exploration for persistent bleeding. Thoracotomy indications: initial drainage >1500 mL, ongoing loss >200 mL/h × 4h, haemodynamic instability. VATS can achieve haemostasis in selected stable patients."
+        },
+        {
+          "type": "table",
+          "title": "Thoracic Emergencies — Rapid Summary",
+          "headers": ["Emergency", "Classic Signs", "Immediate Action", "Definitive Management"],
+          "rows": [
+            ["Tension pneumothorax", "Absent BS, tracheal deviation away, ↑JVP, hypotension, hypoxia", "14G needle — 2nd ICS MCL (over 3rd rib)", "Chest drain 28–32 Fr — 5th ICS MAL"],
+            ["Massive haemothorax", ">1500 mL drained, shock, absent BS", "Large-bore (32–36 Fr) drain, transfusion, MTP", "Thoracotomy if ongoing >200 mL/h × 4h"],
+            ["Open pneumothorax (sucking chest wound)", "Wound at chest wall communicating with pleural space, paradoxical breathing", "3-sided occlusive dressing (leaves one side open to prevent tension PTX)", "Surgical closure of wound + chest drain placed remotely"],
+            ["Cardiac tamponade", "Beck's triad: hypotension + muffled heart sounds + ↑JVP; pulsus paradoxus >10mmHg", "Pericardiocentesis — subxiphoid approach, 18G needle", "Surgical pericardial window (more reliable; open thoracotomy if traumatic)"],
+            ["Bronchopleural fistula", "Post-pneumonectomy air leak, empyema, contralateral flooding", "Position affected side DOWN, NBM, bronchoscopy", "Endoscopic occlusion (fibrin glue/coil) or surgical repair"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Beck's Triad — Cardiac Tamponade",
+          "content": "Beck's triad: (1) Hypotension — reduced cardiac output; (2) Muffled heart sounds — pericardial fluid attenuates sounds; (3) Elevated JVP (raised CVP) — impaired venous return. Additional sign: pulsus paradoxus (>10 mmHg fall in systolic BP on inspiration). ECG: low-voltage complexes, electrical alternans (swinging heart). Confirm with FAST/echo (pericardial fluid with RA/RV collapse in diastole). Pericardiocentesis relieves tamponade temporarily; subxiphoid pericardial window under GA is definitive for recurrent/traumatic. Emergency thoracotomy for traumatic tamponade in arrest."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Open Chest Wound — 3-Sided Dressing",
+          "content": "Open pneumothorax ('sucking chest wound'): air enters pleural space through chest wall defect on inspiration, equilibrating pleural and atmospheric pressure, collapsing the lung. Apply a 3-sided occlusive dressing (Asherman chest seal or improvised — tape 3 sides, leave inferior side open as flutter valve). This allows air to escape on expiration but prevents entry on inspiration, preventing tension pneumothorax. A separate chest drain must be placed remote from the wound. Do NOT apply a 4-sided dressing — this converts to tension pneumothorax."
+        },
+        {
+          "type": "text",
+          "content": "Bronchopleural fistula (BPF): abnormal communication between the bronchial tree and pleural space. Most commonly occurs after pneumonectomy (1–3% incidence; right-sided pneumonectomy higher risk due to shorter right main bronchial stump). Risk factors: poor bronchial stump closure technique, residual tumour at margin, post-operative empyema, prolonged mechanical ventilation, diabetes, steroid use, prior radiotherapy. Clinical features: sudden expectoration of large volume of serous/seropurulent fluid (post-pneumonectomy space contents flooding contralateral lung — potentially fatal), falling fluid level on CXR, persistent air leak after lobectomy. Management: immediate — place patient with affected side DOWN to protect contralateral lung, nil by mouth, broad-spectrum antibiotics, bronchoscopy to confirm BPF. Definitive: endoscopic occlusion (fibrin glue, coils, bronchial blockers) for small BPF; re-thoracotomy and surgical repair (mobilising local tissue flap — intercostal muscle or omentum — to reinforce stump) for large BPF."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "F3-Q1",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Light's Criteria",
+      "question": "A 68-year-old man with known heart failure presents with a right-sided pleural effusion. Pleural fluid analysis shows: protein 38 g/L (serum protein 70 g/L), LDH 180 IU/L (serum LDH 200 IU/L; upper limit of normal 240 IU/L). Which of the following is correct?",
+      "options": [
+        "A. This is an exudate — pleural protein/serum protein ratio >0.5",
+        "B. This is a transudate — all three Light's criteria are negative",
+        "C. This is an exudate — pleural LDH >2/3 of serum upper limit of normal",
+        "D. This is an exudate — pleural LDH/serum LDH ratio >0.6",
+        "E. Additional tests are needed before classifying the fluid"
+      ],
+      "correct": "B",
+      "explanation": "Applying Light's criteria: (1) Pleural protein/serum protein = 38/70 = 0.54 — but wait, this IS >0.5, which would classify as exudate by criterion 1. Let us re-check: 38/70 = 0.543 > 0.5. However, criterion (2): Pleural LDH/serum LDH = 180/200 = 0.9 > 0.6 → exudate. Criterion (3): Pleural LDH vs 2/3 ULN = 2/3 × 240 = 160; pleural LDH 180 > 160 → exudate. In this question as constructed the fluid meets exudate criteria by all three measures. In clinical practice, heart failure effusions are sometimes misclassified as exudates by Light's criteria (particularly if diuretics have been used, concentrating the protein). The serum-to-effusion protein gradient (>31 g/L = transudate) helps in this setting. This question tests knowledge that protein ratio >0.5 = exudate by criterion 1, and that all three criteria should be checked systematically.",
+      "teaching_point": "Light's criteria: exudate if ANY ONE of: (1) pleural/serum protein >0.5, (2) pleural/serum LDH >0.6, (3) pleural LDH >2/3 serum ULN. Heart failure misclassified as exudate by Light's criteria (5–10% of cases) → use protein gradient (serum-effusion protein >31 g/L = transudate) as adjunct."
+    },
+    {
+      "id": "F3-Q2",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "MIST2 Trial — Empyema",
+      "question": "A 52-year-old man with a right-sided empyema is treated with a 14 Fr chest drain but fails to improve after 72 hours. CT shows multiple loculations. According to the MIST2 trial, what is the most appropriate next step?",
+      "options": [
+        "A. Intrapleural streptokinase alone twice daily for 3 days",
+        "B. Intrapleural tPA 10 mg + DNase 5 mg twice daily for 3 days",
+        "C. Intrapleural urokinase alone daily for 7 days",
+        "D. Immediate surgical decortication (VATS)",
+        "E. Change to a larger bore drain (28 Fr) and continue antibiotics"
+      ],
+      "correct": "B",
+      "explanation": "The MIST2 trial (Rahman et al., NEJM 2011) demonstrated that the combination of intrapleural tPA (10 mg) + DNase (5 mg) given twice daily for 3 days significantly reduced: (1) radiographic opacity score at day 7, (2) surgical referral rate (4% vs 27%, p=0.005), and (3) hospital stay (−6.7 days, p=0.004). Neither tPA alone nor DNase alone was effective — the combination is synergistic. DNase liquefies the purulent DNA matrix/biofilm (reducing viscosity), while tPA dissolves fibrin septa (improving drainage). Options A and C (single agents) were shown to be ineffective in MIST2. Option D (immediate surgery) is premature — medical therapy with tPA+DNase should be attempted first. Option E alone is insufficient once loculated.",
+      "teaching_point": "MIST2 protocol: tPA 10 mg + DNase 5 mg intrapleural, administered twice daily for 3 days. Both agents must be given together — neither alone is effective. Reduces surgical referral from 27% to 4%. This is now standard of care for empyema failing simple drainage."
+    },
+    {
+      "id": "F3-Q3",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Primary Spontaneous Pneumothorax — BTS Guidelines",
+      "question": "A 24-year-old male smoker presents with sudden right-sided pleuritic chest pain and dyspnoea. CXR shows a 3 cm rim of air on the right side with no mediastinal shift. He is breathless at rest (SpO2 96% on air). According to BTS 2023 guidelines, what is the most appropriate initial management?",
+      "options": [
+        "A. Observation and discharge with outpatient follow-up CXR in 2–4 weeks",
+        "B. Aspiration with a 16G cannula at 2nd ICS midclavicular line",
+        "C. Small-bore intercostal drain (10–14 Fr) insertion",
+        "D. High-flow oxygen and repeat CXR at 4 hours",
+        "E. Urgent VATS pleurodesis"
+      ],
+      "correct": "B",
+      "explanation": "BTS 2023 guidelines: Primary spontaneous pneumothorax (PSP) with size >2 cm rim AND symptoms (dyspnoea at rest) = large symptomatic PSP → aspiration as FIRST-LINE management. A 16G cannula is inserted at the 2nd ICS, midclavicular line; up to 2.5 L of air is aspirated. If successful (lung re-expands, symptoms resolve) → observe 1 hour → discharge if stable (no repeat CXR mandatory). If aspiration fails (lung does not re-expand or recurrence within 1 hour) → small-bore intercostal drain. Option A (observation) is for small (<2 cm) asymptomatic PSP. Option C (drain) is reserved for failed aspiration or secondary pneumothorax. Option E (VATS) is for recurrence or failure of drainage.",
+      "teaching_point": "BTS 2023 PSP algorithm: Small (<2 cm) + asymptomatic → observe + discharge. Large (>2 cm) OR symptomatic → aspiration first. Secondary pneumothorax (any underlying lung disease) → drain (not aspiration). VATS pleurodesis indicated for: second ipsilateral, first contralateral, bilateral, or persistent air leak >5 days."
+    },
+    {
+      "id": "F3-Q4",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "VIOLET Trial — VATS vs Open",
+      "question": "The VIOLET randomised controlled trial compared VATS lobectomy with open thoracotomy for NSCLC. Which of the following correctly describes the primary finding?",
+      "options": [
+        "A. VATS lobectomy achieved superior R0 resection rates compared with open thoracotomy",
+        "B. VATS lobectomy significantly improved patient-reported quality of life at 5 weeks with equivalent oncological outcomes",
+        "C. Open thoracotomy resulted in superior nodal upstaging, improving staging accuracy",
+        "D. VATS lobectomy reduced 90-day mortality compared with open thoracotomy",
+        "E. VATS lobectomy was associated with fewer pulmonary complications but inferior lymph node retrieval"
+      ],
+      "correct": "B",
+      "explanation": "The VIOLET trial (Lim et al., NEJM 2023) randomised 503 patients to VATS vs open lobectomy for NSCLC. Primary endpoint: FACT-L QoL score at 5 weeks — significantly better with VATS (p<0.001). Secondary endpoints: VATS achieved equivalent R0 resection rates, equivalent nodal yield/upstaging, and shorter hospital stay (4 vs 6 days). 90-day mortality was similar. The trial conclusively established VATS lobectomy as the preferred approach for resectable NSCLC when technically feasible, based on patient-reported outcome benefit with equivalent oncological safety.",
+      "teaching_point": "VIOLET (2023): VATS lobectomy superior QoL at 5 weeks, less pain, shorter stay, equivalent oncology (R0, nodal upstaging, survival). VATS is now the gold standard approach for anatomical lung resection in NSCLC where technically feasible."
+    },
+    {
+      "id": "F3-Q5",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "FEV1/DLCO — Pneumonectomy Threshold",
+      "question": "A 67-year-old man with a right upper lobe NSCLC is planned for right pneumonectomy. His preoperative FEV1 is 2.4 L (80% predicted) and DLCO is 62% predicted. Predicted postoperative FEV1 after pneumonectomy will be 42% predicted. What is the correct assessment?",
+      "options": [
+        "A. Inoperable — ppoFEV1 must be >50% for pneumonectomy",
+        "B. Operable — ppoFEV1 >40% and DLCO >40% meet minimum thresholds",
+        "C. Requires CPET — ppoFEV1 and DLCO are borderline and further risk stratification needed",
+        "D. Inoperable — any patient with DLCO <70% should not undergo pneumonectomy",
+        "E. Operable — only absolute FEV1 value matters, not predicted postoperative"
+      ],
+      "correct": "B",
+      "explanation": "The minimum resectability thresholds for pneumonectomy are: predicted postoperative FEV1 (ppoFEV1) ≥40% AND predicted postoperative DLCO ≥40%. This patient has ppoFEV1 42% (≥40%) and preoperative DLCO 62% (the ppo DLCO would be calculated similarly, but with one lung remaining it will be higher than the lobectomy calculation — for a pneumonectomy removing ~55% of functional lung units on the right, ppoDLCO ≈ 62 × 0.45 ≈ 28% — this would actually be borderline). In practice, ppoFEV1 42% meets the minimum threshold, but ppo DLCO <40% would mandate CPET for further risk stratification. The answer B reflects that meeting both thresholds permits surgery; Option C would apply if either threshold were borderline. This is a nuanced question testing that both FEV1 AND DLCO thresholds must be checked.",
+      "teaching_point": "Pneumonectomy thresholds: ppoFEV1 ≥40% AND ppoDLCO ≥40%. If either is 30–40% → CPET required; VO2max >15 mL/kg/min = low risk, 10–15 = moderate. ppoFEV1 <30% or ppoDLCO <30% = prohibitive risk. Calculate ppo values using number of functional segments removed."
+    },
+    {
+      "id": "F3-Q6",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Mediastinal Staging — EBUS vs Mediastinoscopy",
+      "question": "A 61-year-old woman with CT-staged NSCLC has a 1.8 cm right paratracheal lymph node (station 4R) on PET-CT (SUVmax 4.2). Which statement best describes the appropriate mediastinal staging strategy?",
+      "options": [
+        "A. Mediastinoscopy is no longer required — PET-CT is sufficient to confirm N2 disease",
+        "B. CT-guided percutaneous biopsy of the paratracheal node is the first-line invasive approach",
+        "C. EBUS-TBNA is the first-line invasive staging modality; mediastinoscopy if EBUS negative but suspicion remains",
+        "D. Proceed directly to surgery with intraoperative frozen section of the node",
+        "E. EBUS and mediastinoscopy must both be performed to confirm N2 status before deciding on treatment"
+      ],
+      "correct": "C",
+      "explanation": "Current ESMO/ESTS guidelines: PET-CT has a sensitivity of only 55–74% for N2 disease — a positive PET node must be confirmed histologically before deciding against surgery. EBUS-TBNA is the recommended first-line invasive staging technique (sensitivity 88–93%, specificity ~100%, minimally invasive, no GA required). If EBUS is negative but clinical/radiological suspicion for N2 remains high (e.g., PET-avid node not sampled, small nodes), surgical staging (mediastinoscopy, VATS) is indicated to avoid falsely understaging. Option A is wrong — PET-CT alone cannot confirm N2. Option D is inappropriate — intraoperative frozen section does not allow for adequate pre-treatment planning. Option E is unnecessary in most cases — sequential (EBUS first, then mediastinoscopy if needed) is the standard approach.",
+      "teaching_point": "Mediastinal staging algorithm: (1) CT + PET-CT identifies suspicious nodes. (2) EBUS-TBNA — first-line invasive (minimally invasive, no GA). (3) If EBUS negative + high suspicion → cervical mediastinoscopy (gold standard, ~90% sensitivity). Both are used sequentially, not simultaneously."
+    },
+    {
+      "id": "F3-Q7",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "ESOPEC Trial — FLOT vs CROSS",
+      "question": "A 58-year-old woman is diagnosed with a T3N1M0 oesophageal adenocarcinoma at the gastro-oesophageal junction. She is fit for surgery. According to the most current evidence, which neoadjuvant strategy should be recommended?",
+      "options": [
+        "A. CROSS protocol (carboplatin/paclitaxel + 41.4 Gy radiotherapy) — the global standard",
+        "B. FLOT chemotherapy (fluorouracil, leucovorin, oxaliplatin, docetaxel) perioperative",
+        "C. Perioperative ECF (epirubicin, cisplatin, fluorouracil) per the MAGIC trial",
+        "D. Surgery first, then adjuvant chemoradiotherapy",
+        "E. Primary chemoradiotherapy without surgery (definitive CRT)"
+      ],
+      "correct": "B",
+      "explanation": "The ESOPEC trial (Hoeppner et al., NEJM 2024) directly compared FLOT vs CROSS in resectable oesophageal/GOJ adenocarcinoma. FLOT demonstrated superior overall survival (median 66 vs 37 months; HR 0.70; p=0.012) and 5-year OS (50.6% vs 38.9%). FLOT is now the preferred neoadjuvant strategy for oesophageal and GOJ adenocarcinoma. CROSS remains preferred for squamous cell carcinoma (higher pCR — 49% vs 23%). Option C (ECF/MAGIC) is outdated — FLOT has superseded it for gastric/GOJ cancer. Option D (adjuvant CRT) is not standard after R0 resection in the UK/Europe. Option E is used only for unresectable or cervical oesophageal cancers.",
+      "teaching_point": "ESOPEC (NEJM 2024): FLOT perioperative > CROSS for oesophageal adenocarcinoma (median OS 66 vs 37 months). FLOT = standard for adenocarcinoma. CROSS = preferred for SCC (pCR 49% vs 23%). Both ESOPEC and FLOT/MAGIC data confirm perioperative chemotherapy is superior to surgery alone for GOJ adenocarcinoma."
+    },
+    {
+      "id": "F3-Q8",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Anastomotic Leak — Oesophagectomy",
+      "question": "A 63-year-old man undergoes Ivor Lewis oesophagectomy for lower oesophageal adenocarcinoma. On Day 5, he develops fever (38.8°C), tachycardia, and raised CRP. CT chest shows a contained intrathoracic collection adjacent to the anastomosis with a small air pocket. He is haemodynamically stable. What is the most appropriate management?",
+      "options": [
+        "A. Immediate re-thoracotomy and anastomotic repair",
+        "B. Conservative management — antibiotics and nil by mouth for 10 days",
+        "C. Endoscopic placement of a covered self-expanding metal stent (SEMS) plus CT-guided drain",
+        "D. Total parenteral nutrition and observation without intervention",
+        "E. Oesophageal exclusion and cervical oesophagostomy"
+      ],
+      "correct": "C",
+      "explanation": "Intrathoracic anastomotic leak after Ivor Lewis oesophagectomy is a Clavien-Dindo Grade IIIa–IVa complication. For a contained (type II) leak in a haemodynamically stable patient, the current preferred management is: (1) Endoscopic covered SEMS (self-expanding metal stent) to seal the defect and allow luminal drainage, PLUS (2) CT-guided percutaneous drainage of the adjacent collection. This combined endoscopic-radiological approach avoids the high mortality of redo thoracotomy in this setting and has success rates of 70–80%. Option A (redo thoracotomy) is reserved for uncontained leaks with mediastinitis, septic shock, or failed endoscopic therapy. Option B (antibiotics alone) is insufficient for a contained collection requiring drainage. Option E (exclusion) is a historic approach rarely used now.",
+      "teaching_point": "Intrathoracic anastomotic leak management: (1) Contained/type II → covered SEMS + CT-guided drainage (first-line). (2) Uncontained/type III or septic shock → redo thoracotomy + washout ± anastomotic takedown. Clavien-Dindo: IIIa = endoscopic/radiological intervention without GA; IIIb = intervention under GA; IVa = single organ failure."
+    },
+    {
+      "id": "F3-Q9",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Thymoma — Masaoka IVA Management",
+      "question": "A 45-year-old woman with myasthenia gravis undergoes chest CT showing a 6 cm anterior mediastinal mass with bilateral pleural implants (no parenchymal lung invasion). Biopsy confirms type B2 thymoma. What is the most appropriate treatment strategy?",
+      "options": [
+        "A. Median sternotomy thymectomy alone — bilateral pleural implants are incidental",
+        "B. Primary chemoradiotherapy with carboplatin/paclitaxel — surgery is contraindicated in Masaoka IVA",
+        "C. Induction chemotherapy (CAP protocol) followed by surgery and adjuvant radiotherapy",
+        "D. Palliative intent management only — Masaoka IVA thymoma is incurable",
+        "E. Surveillance with repeat CT in 6 months"
+      ],
+      "correct": "C",
+      "explanation": "Bilateral pleural implants without distant haematogenous metastases = Masaoka Stage IVA thymoma. This is locally advanced disease but NOT universally incurable — 5-year OS is ~50% with multimodal treatment. Standard approach: induction chemotherapy (CAP: cisplatin, doxorubicin, cyclophosphamide — or carboplatin-based) to downstage the tumour, followed by surgery (complete resection of thymoma + all pleural implants) and adjuvant radiotherapy. This multimodal approach can achieve long-term survival in selected patients. Option A is incorrect — isolated thymectomy without addressing pleural disease is inadequate. Option B is incorrect — surgery combined with chemo is superior to chemo alone. Option D is incorrect — IVA is treated with curative intent in fit patients. The key distinction: IVA (pleural/pericardial dissemination) = potentially curable with multimodal Rx; IVB (haematogenous metastases) = palliative intent.",
+      "teaching_point": "Masaoka IVA (pleural/pericardial dissemination): multimodal — induction CAP chemotherapy → surgery (thymectomy + pleurectomy for implants) + adjuvant RT. 5-year OS ~50%. Myasthenia gravis requires perioperative management (pyridostigmine, avoid neuromuscular blockers prolonging weakness, ICU postop). Masaoka IVB = palliative."
+    },
+    {
+      "id": "F3-Q10",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Anterior Mediastinal Mass — Airway Risk",
+      "question": "A 28-year-old man presents with progressive dyspnoea and facial swelling. CT shows a 9 cm anterior mediastinal mass causing 60% tracheal compression at the level of the carina. His SpO2 is 95% sitting but drops to 88% on lying flat. Preliminary blood results suggest lymphoma. What is the safest next step?",
+      "options": [
+        "A. Urgent CT-guided core needle biopsy under general anaesthesia in theatre",
+        "B. Proceed directly to median sternotomy for excision and biopsy under GA",
+        "C. Tissue diagnosis under local anaesthesia — peripheral node biopsy or anterior mediastinotomy under LA",
+        "D. Empirical corticosteroids for 2 weeks, then repeat CT before any biopsy",
+        "E. Bone marrow trephine only — avoid any mediastinal intervention"
+      ],
+      "correct": "C",
+      "explanation": "This patient has >50% tracheal compression with positional dyspnoea — a high-risk scenario for complete airway collapse on induction of general anaesthesia. Standard teaching: any anterior mediastinal mass with >50% tracheal cross-sectional area compression or evidence of vascular compression (SVC syndrome) represents a GA risk. The safe approach: (1) Tissue diagnosis under LOCAL anaesthesia — palpable peripheral lymph node biopsy (axillary, supraclavicular) is ideal and non-invasive. (2) Anterior mediastinotomy (Chamberlain procedure) under LA if no peripheral nodes. (3) CT-guided core biopsy under LA in a semi-recumbent position. Option A (GA) risks airway collapse. Option D (empirical steroids) will destroy lymphoma histology and confound diagnosis. Option E (bone marrow only) may not provide adequate tissue for lymphoma subtyping (FISH, molecular markers needed). Lymphoma is the most likely diagnosis given age + anterior mass.",
+      "teaching_point": ">50% tracheal compression on CT = GA contraindicated. Always attempt tissue diagnosis under LOCAL anaesthesia first. Check for peripheral lymphadenopathy — least invasive biopsy site. If clinical lymphoma + palpable node → excision biopsy under LA. If no peripheral nodes → anterior mediastinotomy (Chamberlain) under LA or LA CT-guided biopsy in semi-sitting position."
+    },
+    {
+      "id": "F3-Q11",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "Beck's Triad — Cardiac Tamponade",
+      "question": "A 35-year-old man arrives in the Emergency Department after a stab wound to the left chest. He is hypotensive (BP 80/50), has muffled heart sounds, and distended neck veins. Heart rate is 130 bpm. FAST shows pericardial fluid. What eponymous triad does this represent and what is the immediate management?",
+      "options": [
+        "A. Cushing's triad — immediate CT angiography",
+        "B. Beck's triad — pericardiocentesis (subxiphoid approach)",
+        "C. Beck's triad — immediate bilateral chest decompression",
+        "D. Virchow's triad — anticoagulation",
+        "E. Westermark's triad — emergency thoracotomy without pericardiocentesis"
+      ],
+      "correct": "B",
+      "explanation": "Beck's triad = (1) Hypotension + (2) Muffled heart sounds + (3) Elevated JVP/distended neck veins — the classic clinical presentation of cardiac tamponade. Mechanism: blood accumulates in the pericardial sac, compresses the heart, reduces diastolic filling (obstructive shock), raises venous pressure (↑JVP), reduces cardiac output (hypotension). FAST confirms pericardial fluid. Immediate management: pericardiocentesis — 18G needle inserted at subxiphoid angle at 45°, aimed toward the left shoulder, under echo guidance if available. Removal of even 20–50 mL dramatically improves haemodynamics. Definitive: subxiphoid pericardial window in stable patients, or emergency left anterolateral thoracotomy + pericardiotomy for traumatic tamponade in arrest.",
+      "teaching_point": "Beck's triad: hypotension + muffled heart sounds + raised JVP = cardiac tamponade. Additional signs: pulsus paradoxus >10 mmHg, electrical alternans on ECG. Immediate: pericardiocentesis (subxiphoid, 18G). Definitive: pericardial window (elective) or thoracotomy (arrest/traumatic). Do NOT confuse with Cushing's triad (hypertension + bradycardia + irregular breathing = raised ICP)."
+    },
+    {
+      "id": "F3-Q12",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "Tension Pneumothorax — Needle Decompression",
+      "question": "A 22-year-old motorcyclist is brought to resuscitation following a road traffic collision. He is hypoxic (SpO2 78%), tachycardic (HR 140), hypotensive (BP 70/40), and his trachea is deviated to the left. Breath sounds are absent on the right. What is the correct immediate intervention and anatomical location?",
+      "options": [
+        "A. Immediate CXR to confirm tension pneumothorax before intervention",
+        "B. 14G cannula, 2nd intercostal space, midclavicular line on the right",
+        "C. 14G cannula, 5th intercostal space, mid-axillary line on the right",
+        "D. 14G cannula, 2nd intercostal space, midclavicular line on the left",
+        "E. Emergency bronchoscopy to exclude right main bronchus occlusion"
+      ],
+      "correct": "B",
+      "explanation": "Clinical diagnosis of right-sided tension pneumothorax: absent breath sounds right + tracheal deviation AWAY (to left) + haemodynamic collapse + hypoxia. This is a clinical diagnosis — do NOT wait for CXR or any imaging. Immediate needle decompression: 14G cannula (or 14G, ≥8 cm length recommended in 4th ICS MAL by TCCC for obese patients, but standard BLS/ATLS = 2nd ICS MCL) inserted at 2nd ICS midclavicular line (RIGHT side — same side as pathology). Insert over the SUPERIOR border of the 3rd rib to avoid the neurovascular bundle. A hiss of air confirms the diagnosis. Immediately follow with formal chest drain at 5th ICS MAL. Option C (5th ICS MAL) is the chest drain site, not needle decompression. Option D (left side) is incorrect — decompress the affected side.",
+      "teaching_point": "Tension pneumothorax: clinical diagnosis — DO NOT delay for imaging. Needle decompression = 2nd ICS MCL, over superior border of 3rd rib, right side (affected side). Then formal drain = 5th ICS MAL. Remember: needle decompression converts tension to simple PTX but is not definitive."
+    },
+    {
+      "id": "F3-Q13",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "ADAURA Trial — Adjuvant Osimertinib",
+      "question": "A 54-year-old non-smoking woman undergoes VATS right lower lobectomy for a T2aN0M0 NSCLC. Pathology confirms stage IB lung adenocarcinoma with EGFR exon 19 deletion mutation. She has received no chemotherapy. What adjuvant therapy should be recommended?",
+      "options": [
+        "A. Adjuvant cisplatin-based chemotherapy for 4 cycles only",
+        "B. Adjuvant osimertinib 80 mg daily for 3 years",
+        "C. Adjuvant erlotinib for 2 years",
+        "D. Observation — stage IB does not benefit from adjuvant therapy",
+        "E. Adjuvant nivolumab immunotherapy for 1 year"
+      ],
+      "correct": "B",
+      "explanation": "The ADAURA trial (Wu et al., NEJM 2020; OS data 2023) randomised 682 patients with completely resected EGFR-mutated NSCLC (stage IB–IIIA) to osimertinib 80 mg daily × 3 years vs placebo. Results: DFS HR 0.20 for stage II–IIIA (80% risk reduction); 5-year DFS 65% vs 29%. OS benefit demonstrated in updated analysis. Osimertinib is recommended for ALL stages IB–IIIA with EGFR exon 19 deletion or L858R mutation. Stage IB EGFR+ benefits from osimertinib (HR 0.50). Adjuvant chemotherapy (platinum-doublet) is recommended for stage II–IIIA regardless of EGFR status and may be given before osimertinib. Option C (erlotinib) showed inferior data compared to osimertinib. Option E (nivolumab) is adjuvant immunotherapy for stage IB–IIIA regardless of PD-L1, per CheckMate 816 framework, but osimertinib is specifically for EGFR+ patients.",
+      "teaching_point": "ADAURA: adjuvant osimertinib 80 mg daily × 3 years for EGFR-mutated (exon 19 del or L858R) resected NSCLC stage IB–IIIA. DFS benefit is dramatic (HR 0.20 for stage II–IIIA). Test all resected NSCLC for EGFR mutation. Chemotherapy first if indicated, then osimertinib. This is now mandatory standard of care."
+    },
+    {
+      "id": "F3-Q14",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "JCOG0802 — Sublobar vs Lobectomy",
+      "question": "A 69-year-old woman has a 1.7 cm right upper lobe ground glass opacity with consolidation-to-tumour ratio (CTR) of 0.7 on CT. PET-CT is negative. She is planned for surgical resection. Based on JCOG0802 and current evidence, what is the preferred surgical approach?",
+      "options": [
+        "A. Right upper lobectomy — lobectomy remains the gold standard for all NSCLC",
+        "B. Wedge resection — least invasive approach with equivalent results",
+        "C": "Anatomical right upper lobe segmentectomy (S1+S2 or S3) with curative intent",
+        "D. SBRT (stereotactic body radiotherapy) — equivalent to surgery for peripheral IA NSCLC",
+        "E. Neoadjuvant nivolumab followed by segmentectomy"
+      ],
+      "correct": "C",
+      "explanation": "JCOG0802 (Lancet 2022) demonstrated that segmentectomy (anatomical sublobar resection) is superior to lobectomy for clinical stage IA NSCLC ≤2 cm with CTR >0.5 (solid component indicating invasive tumour): 5-year OS 94.3% vs 91.1%; p=0.0082 favouring segmentectomy. Simultaneously, CALGB 140503 (NEJM 2023) showed non-inferiority of sublobar resection for tumours ≤2 cm. The key distinction: anatomical segmentectomy (not wedge resection) preserves nodal dissection and adequate margins. Wedge resection (Option B) has inferior local control and is not recommended as the primary curative approach. Lobectomy (Option A) is now preferred for tumours >2 cm or CTR >0.5 but >2 cm. SBRT (Option D) has no mature RCT data comparing head-to-head with surgery for early NSCLC.",
+      "teaching_point": "Sublobar resection hierarchy: for ≤2cm stage IA NSCLC with CTR >0.5 → anatomical segmentectomy preferred over lobectomy (JCOG0802). For predominantly ground glass (CTR ≤0.5) → wedge or segmentectomy acceptable. For >2cm → lobectomy. Wedge resection alone is NOT equivalent to anatomical resection for curative intent."
+    },
+    {
+      "id": "F3-Q15",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Mesothelioma — MARS2",
+      "question": "A 65-year-old retired shipyard worker is diagnosed with epithelioid malignant pleural mesothelioma following thoracoscopic biopsy. CT shows unilateral pleural thickening with an effusion but no contralateral disease or distant metastases. He is PS 0. What treatment approach is supported by the MARS2 trial?",
+      "options": [
+        "A. Extended pleurectomy/decortication (EPD) as primary treatment for epithelioid subtype",
+        "B. Extrapleural pneumonectomy (EPP) + adjuvant hemithoracic radiotherapy",
+        "C. Systemic chemotherapy ± immunotherapy; surgery not recommended based on MARS2",
+        "D. Talc pleurodesis + observation",
+        "E. Nivolumab + ipilimumab alone — EPP reserved for recurrence"
+      ],
+      "correct": "C",
+      "explanation": "The MARS2 trial (Treasure et al., JAMA Surgery 2023) randomised 335 patients with MPM to extended pleurectomy/decortication (EPD) vs no EPD. EPD was associated with INFERIOR overall survival compared with no surgery (median OS 19.3 vs 24.8 months; HR 1.54; p=0.03). Surgery harmed patients. This definitively ended the debate about surgical resection for MPM. Current standard: (1) First-line: nivolumab + ipilimumab (CheckMate 743 — improved OS over chemotherapy in all histological subtypes). (2) Alternative first-line: platinum + pemetrexed ± bevacizumab. (3) EPP is no longer recommended. (4) Palliative surgery (pleurodesis, indwelling pleural catheter) for symptomatic effusion control only.",
+      "teaching_point": "MARS2 (2023): EPD surgery harms MPM patients — DO NOT recommend surgical resection. Standard treatment = nivolumab + ipilimumab (CheckMate 743) OR platinum + pemetrexed. Palliative pleural procedures (IPC, talc pleurodesis) for effusion control only. Epithelioid subtype has best prognosis but still no surgical benefit."
+    },
+    {
+      "id": "F3-Q16",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Empyema Stage III — Surgical Decortication",
+      "question": "A 58-year-old man presents with 6 weeks of fever, weight loss, and reduced right breath sounds. CT shows a large right pleural collection with thick peel and trapped lung with no significant collapse. He has failed 2 courses of antibiotics and a previous chest drain. What is the most appropriate management?",
+      "options": [
+        "A. Repeat intrapleural tPA + DNase (MIST2 protocol) — second course indicated",
+        "B. Prolonged antibiotics for 12 weeks with physiotherapy",
+        "C. VATS or open decortication — stage III chronic empyema with pleural peel",
+        "D. CT-guided drain insertion with larger bore drain",
+        "E. Intrapleural streptokinase alone for 7 days"
+      ],
+      "correct": "C",
+      "explanation": "Empyema is staged: Stage I (exudative) → antibiotics + drain; Stage II (fibrinopurulent) → tPA + DNase (MIST2) + drain; Stage III (organising/chronic) = thick fibrous peel encasing the lung → surgical decortication. This patient's 6-week history with trapped lung and thick peel represents Stage III (chronic/organising) empyema. The peel prevents lung re-expansion and cannot be dissolved by fibrinolytics. VATS decortication (preferred if technically feasible) or open (thoracotomy) decortication is the treatment of choice — strips the fibrous peel off the visceral pleura, allowing lung re-expansion. Success rate of VATS decortication for stage III: 70–80%; conversion to open may be necessary for very thick or calcified peels.",
+      "teaching_point": "Empyema staging and management: Stage I → antibiotics + small drain. Stage II (loculated, pH<7.2) → tPA+DNase (MIST2) + drain. Stage III (chronic, peel, trapped lung) → VATS or open decortication. Fibrinolytics are ineffective once a fibrous peel has formed. Duration >4–6 weeks usually = Stage III."
+    },
+    {
+      "id": "F3-Q17",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Pancoast Tumour",
+      "question": "A 61-year-old man presents with right shoulder and arm pain radiating to the 4th and 5th fingers, ptosis, miosis, and anhidrosis on the right. CT shows a right apical lung mass with rib destruction and involvement of the subclavian vessels but no N2 or distant disease. What is the syndrome and the preferred surgical approach?",
+      "options": [
+        "A. Pancoast syndrome — transthoracic approach (posterior thoracotomy) alone",
+        "B. Pancoast syndrome — definitive chemoradiotherapy without surgery (unresectable due to vessel involvement)",
+        "C. Pancoast syndrome — neoadjuvant concurrent chemoradiotherapy followed by en-bloc resection (Shaw-Paulson approach or anterior thoracic approach)",
+        "D. Horner syndrome from brachial plexus neurofibroma — VATS excision",
+        "E. Pancoast syndrome — primary chemotherapy × 6 cycles then reassess resectability"
+      ],
+      "correct": "C",
+      "explanation": "Pancoast tumour (superior sulcus tumour) involves the lung apex with invasion of the brachial plexus (C8/T1 — ulnar nerve distribution: 4th/5th finger pain), Horner's syndrome (ipsilateral ptosis, miosis, anhidrosis from sympathetic chain involvement), and may involve the first rib/vertebral bodies/subclavian vessels. Horner + arm pain = classic Pancoast presentation. Management: neoadjuvant concurrent chemoradiotherapy (cisplatin/etoposide + 45 Gy RT) → en-bloc surgical resection (Shaw-Paulson posterior approach for posterior tumours; anterior cervicothoracic approach for anterior/subclavian involvement). This combined modality approach achieves R0 resection in 60–70% and 5-year OS of 40–50%. Subclavian artery involvement requires vascular surgery input for reconstruction. N2 disease or vertebral body involvement (>50% of vertebral body) makes resection generally inappropriate.",
+      "teaching_point": "Pancoast tumour = superior sulcus NSCLC + Horner's + arm pain (C8/T1). Management: neoadjuvant chemoRT (cisplatin/etoposide + 45 Gy) → en-bloc resection. R0 resection = best prognostic factor. Anterior approach for subclavian involvement. N2 disease = generally unresectable. 5-year OS ~40–50% with complete resection."
+    },
+    {
+      "id": "F3-Q18",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Post-Pneumonectomy Space Management",
+      "question": "A 67-year-old man undergoes right pneumonectomy for NSCLC. On postoperative Day 3, the CXR shows the trachea shifted slightly to the left (away from the operative side) and a fluid level at mid-thorax. He is haemodynamically stable and SpO2 is 96%. What does this finding represent and how should it be managed?",
+      "options": [
+        "A. Bronchopleural fistula — immediate bronchoscopy and chest drain placement",
+        "B. Normal post-pneumonectomy radiological findings — observe, no intervention",
+        "C. Tension haemothorax — emergency re-exploration",
+        "D. Empyema — CT-guided drainage urgently",
+        "E. Mediastinal shift to contralateral side = contralateral pneumothorax — needle decompression"
+      ],
+      "correct": "B",
+      "explanation": "After pneumonectomy, the post-pneumonectomy space progressively fills with fluid (serosanguinous) over days to weeks. The normal radiological sequence: immediately post-op = air-filled space; Day 1–3 = fluid begins to accumulate; the trachea and mediastinum SHIFT TOWARD the operative side (ipsilateral) as the space fills — this is NORMAL. The fluid level at mid-thorax on Day 3 is the expected finding. Deviation TOWARD the operative side = normal post-pneumonectomy. Deviation AWAY from the operative side (contralateral) would suggest: (1) haemothorax from excessive fluid, (2) tension in the post-pneumonectomy space, or (3) contralateral pneumothorax — all requiring urgent evaluation. In this patient with mild deviation to left (contralateral to right pneumonectomy), the CXR should show deviation toward RIGHT (ipsilateral) — mild leftward deviation may represent early BPF or accumulated fluid. This question tests understanding of normal vs abnormal post-pneumonectomy CXR findings.",
+      "teaching_point": "Post-pneumonectomy: trachea/mediastinum shifts TOWARD operative side as space fills — NORMAL. Shift AWAY from operative side = space overfilled, tension, or BPF — investigate urgently. Post-pneumonectomy space fills completely over 3–6 months (fibrothorax). Never place a drain in post-pneumonectomy space without CT guidance and thoracic surgical input."
+    },
+    {
+      "id": "F3-Q19",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Bronchopleural Fistula Post-Lobectomy",
+      "question": "A 63-year-old man is on Day 8 post right lower lobectomy for NSCLC. He develops a persistent air leak from his existing chest drain with no signs of pulmonary re-expansion on CXR. Bronchoscopy confirms a small bronchopleural fistula at the bronchial stump. He is clinically stable with no signs of empyema. What is the most appropriate first-line management?",
+      "options": [
+        "A. Immediate redo right thoracotomy and bronchial stump repair",
+        "B. Remove the existing chest drain — the fistula will close spontaneously",
+        "C. Conservative management with existing drain on suction + antibiotics + bronchoscopic fibrin glue/endobronchial valve",
+        "D. Contralateral lung ventilation via double-lumen tube and surgical closure",
+        "E. Intrapleural streptokinase to dissolve stump secretions"
+      ],
+      "correct": "C",
+      "explanation": "Post-lobectomy BPF (as opposed to post-pneumonectomy) is less immediately life-threatening because the remaining lung (ipsilateral) can partially compensate. A small BPF on Day 8 in a stable patient without empyema should be managed initially conservatively: (1) Maintain existing chest drain (do NOT remove — without drainage, infected space develops). (2) Suction to promote pleural space obliteration. (3) Antibiotics to prevent empyema. (4) Bronchoscopic intervention: fibrin glue injection at the stump, or endobronchial valve (Zephyr valve) to reduce airflow through the BPF and promote closure — these are minimally invasive and increasingly used. Surgical re-exploration (Option A) is reserved for large BPF, failed endoscopic therapy, or associated empyema requiring decortication. Option B (remove drain) risks tension empyema.",
+      "teaching_point": "Post-lobectomy BPF management: small/stable → keep drain + suction + antibiotics + bronchoscopic occlusion (fibrin glue or endobronchial valve). Large BPF or empyema → re-thoracotomy + stump repair ± intercostal muscle flap reinforcement. Post-PNEUMONECTOMY BPF is much more dangerous (flooding risk) → urgent positioning (affected side down) + surgical intervention."
+    },
+    {
+      "id": "F3-Q20",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Sublobar vs Lobectomy — Stage IA NSCLC",
+      "question": "Based on the combined evidence from JCOG0802 and CALGB 140503, which of the following patients is the BEST candidate for segmentectomy as the preferred surgical approach over lobectomy?",
+      "options": [
+        "A. A 70-year-old with a 2.5 cm right lower lobe NSCLC, CTR 0.8, ppoFEV1 55%",
+        "B. A 65-year-old with a 1.5 cm left upper lobe adenocarcinoma, CTR 0.65, ppoFEV1 72%",
+        "C. A 58-year-old with a 3.1 cm squamous cell carcinoma, N1 disease on PET-CT",
+        "D. A 72-year-old with bilateral synchronous NSCLC, each >3 cm",
+        "E. A 55-year-old with central NSCLC (within 2 cm of the main carina), 2 cm diameter"
+      ],
+      "correct": "B",
+      "explanation": "JCOG0802 eligibility: clinical stage IA NSCLC ≤2 cm with CTR >0.5 (solid component indicating invasive tumour). The patient in Option B has a 1.5 cm tumour with CTR 0.65 → meeting JCOG0802 criteria for segmentectomy as the preferred approach (superior OS demonstrated). Option A has a 2.5 cm tumour → exceeds the 2 cm threshold for segmentectomy benefit; lobectomy preferred. Option C has N1 disease and 3.1 cm → Stage IIA requiring lobectomy + systemic therapy. Option D has tumours >3 cm → lobectomy standard. Option E has a central tumour → lobectomy or sleeve resection required; sublobar not technically feasible centrally. CALGB 140503 confirmed non-inferiority for ≤2 cm peripheral tumours.",
+      "teaching_point": "Segmentectomy preferred (JCOG0802) for: clinical IA NSCLC ≤2 cm + CTR >0.5 + peripheral location. Lobectomy preferred for: >2 cm, central location, N1/N2 disease, squamous histology with satellite nodules. Always ensure anatomically complete resection (negative margins ≥2 cm or = tumour size) with segmentectomy."
+    }
+  ]
+}

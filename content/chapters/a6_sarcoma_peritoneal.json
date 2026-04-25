@@ -1,0 +1,704 @@
+{
+  "id": "A6",
+  "title": "Sarcoma & Peritoneal Oncology",
+  "subtitle": "Surgical Oncology — Retroperitoneal Sarcoma, CRS+HIPEC, PIPAC",
+  "block": "A",
+  "block_name": "Surgical Oncology",
+  "level": "PGY3-4",
+  "reading_time_min": 72,
+  "guidelines_version": "TARPSWG Retroperitoneal Sarcoma Guidelines 2023 · ESMO Soft Tissue Sarcoma 2021 · ESMO Peritoneal Metastases 2023",
+  "textbook_refs": [
+    "Schwartz's Principles of Surgery, 11th ed., Ch. 37",
+    "ESMO Clinical Practice Guidelines: Soft Tissue and Visceral Sarcomas 2021",
+    "Sugarbaker PH. Peritoneal Carcinomatosis, 3rd ed."
+  ],
+  "learning_objectives": [
+    "Classify retroperitoneal sarcoma by histological subtype and apply TARPSWG surgical principles",
+    "Describe the rationale, patient selection, and technique of CRS+HIPEC for colorectal peritoneal metastases",
+    "Define the Peritoneal Cancer Index (PCI) and Completeness of Cytoreduction (CC) score",
+    "Explain PIPAC as a palliative treatment modality for peritoneal malignancy",
+    "Identify prognostic factors for CRS+HIPEC outcomes",
+    "Apply FNCLCC grading to sarcoma and recognise histotype-specific chemosensitivity",
+    "Describe pseudomyxoma peritonei subtypes and surgical management",
+    "Recognise peritoneal mesothelioma features and CRS+HIPEC eligibility criteria",
+    "Understand quality of life trajectory and surveillance after CRS+HIPEC"
+  ],
+  "sections": [
+    {
+      "id": "A6-S1",
+      "title": "Retroperitoneal Sarcoma",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Retroperitoneal sarcomas (RPS) represent a heterogeneous group of mesenchymal malignancies arising in the retroperitoneal space. The two most common histological subtypes — well-differentiated liposarcoma (WDLPS) and dedifferentiated liposarcoma (DDLPS), together comprising 40–50% of RPS, and leiomyosarcoma (LMS, 20%) — have markedly different biological behaviours, recurrence patterns, and responses to systemic therapy. Histological subtype is the dominant prognostic factor and should drive surgical strategy."
+        },
+        {
+          "type": "table",
+          "title": "Retroperitoneal Sarcoma — Key Histological Subtypes",
+          "headers": ["Subtype", "Frequency", "Recurrence Pattern", "Chemo/RT Response", "Surgery Strategy"],
+          "rows": [
+            ["WDLPS", "30%", "Local recurrence dominant", "Poor", "Extended resection; preserve FLR and major vessels"],
+            ["DDLPS", "18%", "Local + distant", "Partial (trabectedin)", "Extended resection; consider adjuvant RT"],
+            ["LMS", "20%", "Distant (lung, liver) dominant", "Moderate (gemcitabine/docetaxel)", "Compartmental resection; systemic therapy priority"],
+            ["Solitary fibrous tumour", "5%", "Late local/distant", "Limited", "R0 primary goal; long surveillance"],
+            ["MPNST", "5%", "Local + distant", "Limited", "Wide resection; adjuvant RT for R1"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "TARPSWG Surgical Principles for RPS",
+          "content": "The Trans-Atlantic RPS Working Group (TARPSWG) recommends: (1) **Extended resection** for primary RPS — en-bloc removal of the tumour with adherent organs (ipsilateral kidney, colon, psoas muscle) accepted to achieve R0/R1 margins, even at the cost of significant morbidity; (2) Compartmental resection — removing the entire anatomical compartment occupied by the tumour; (3) Surgery at **high-volume expert centres** — outcomes are volume-dependent; (4) Multidisciplinary planning for complex vascular involvement (IVC, aorta)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall",
+          "content": "Do not attempt en-bloc resection of RPS without preoperative cross-sectional imaging reviewed by an experienced HPB/sarcoma radiologist. Vascular involvement (IVC, renal vessels, aorta) requires vascular surgery collaboration. Operating without a plan for major vessel reconstruction is dangerous."
+        }
+      ]
+    },
+    {
+      "id": "A6-S2",
+      "title": "Cytoreductive Surgery + HIPEC",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Cytoreductive surgery (CRS) combined with hyperthermic intraperitoneal chemotherapy (HIPEC) is the standard of care for selected patients with peritoneal metastases from colorectal cancer. The procedure achieves two goals: CRS removes all visible peritoneal disease (peritonectomy of affected surfaces); HIPEC delivers high-concentration chemotherapy (oxaliplatin 460 mg/m² or mitomycin C) directly to the peritoneal cavity at 41–43°C, exploiting the dose-intensity and heat-sensitisation effect to eliminate microscopic residual disease."
+        },
+        {
+          "type": "text",
+          "content": "Patient selection is the most critical determinant of CRS+HIPEC outcome. The Peritoneal Cancer Index (PCI) quantifies disease burden — the abdomen is divided into 13 regions, each scored 0–3 based on the largest implant visible. PCI 0–20 is generally associated with acceptable outcomes for CRC-origin disease; PCI >20 predicts low R0 achievement and higher morbidity without survival benefit. The Completeness of Cytoreduction (CC) score grades residual disease: CC-0 (no visible residual), CC-1 (≤2.5mm residual), CC-2 (>2.5mm, any surface), CC-3 (>25mm, or unresectable). Only CC-0 and CC-1 resections are associated with survival benefit."
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "Verwaal RCT (Sugarbaker, NEJM 2003 / JNCI 2008)",
+          "content": "**Population:** 105 patients with peritoneal carcinomatosis from colorectal cancer, randomised CRS+HIPEC (mitomycin C) vs systemic 5-FU/leucovorin. **Result:** Median OS 22.3 vs 12.6 months (p<0.001); 5-year OS 45% vs 0%. **Practice change:** Established CRS+HIPEC as the only potentially curative treatment for selected patients with colorectal peritoneal metastases, and as the standard of care in experienced centres."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — HIPEC Patient Selection",
+          "content": "Optimal candidates for CRS+HIPEC: (1) Colorectal peritoneal metastases (no extra-abdominal disease); (2) PCI ≤15–20; (3) ECOG PS 0–1; (4) No hepatic parenchymal metastases (or limited, resectable); (5) Adequate cardiorespiratory reserve for 6–10h surgery; (6) Response or stability on systemic chemotherapy (excludes rapidly progressive disease). Synchronous peritoneal + liver metastases: case-by-case — combined CRS+HIPEC + hepatectomy carries high morbidity."
+        }
+      ]
+    },
+    {
+      "id": "A6-S3",
+      "title": "PIPAC — Pressurised Intraperitoneal Aerosol Chemotherapy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "PIPAC (Pressurised Intraperitoneal Aerosol Chemotherapy) is a novel palliative treatment modality for unresectable peritoneal malignancy. Under laparoscopic access, chemotherapy is aerosolised and delivered under pressure (12 mmHg) into the peritoneal cavity. The aerosol creates a drug concentration gradient that penetrates peritoneal tissue to a depth of 3–5mm — substantially deeper than conventional intraperitoneal instillation. PIPAC is typically repeated every 4–6 weeks and can be combined with concurrent systemic chemotherapy."
+        },
+        {
+          "type": "text",
+          "content": "PIPAC is not curative — it aims to control peritoneal disease and palliate symptoms (ascites, abdominal pain) in patients with unresectable peritoneal metastases from gastric, colorectal, ovarian, and mesothelioma origin. Histological response (tumour regression grading on sequential biopsies) is achieved in 50–75% of patients across tumour types. PIPAC is currently investigated in Phase II/III trials and should be offered within structured protocols at centres with PIPAC expertise."
+        }
+      ]
+    },
+    {
+      "id": "A6-S4",
+      "title": "Pseudomyxoma Peritonei — Histological Subtypes & CRS+HIPEC",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Pseudomyxoma peritonei (PMP) is a clinical syndrome characterised by mucinous tumour implants and gelatinous ascites resulting from rupture of a mucinous neoplasm, most commonly arising from the appendix. The term 'pseudomyxoma peritonei' describes the clinical presentation, not a specific pathological entity — histological subtype is the dominant prognostic factor. The revised pathological classification (Murphy/PSOGI 2016 consensus) stratifies PMP into three main groups: acellular mucin (AM), low-grade mucinous carcinoma peritonei (LGMCP), and high-grade mucinous carcinoma peritonei (HGMCP), with or without signet ring cells."
+        },
+        {
+          "type": "text",
+          "content": "CRS+HIPEC is the standard of care for PMP. The PCI in PMP is typically high — often 25–39 — because mucinous disease spreads in a characteristic redistribution pattern to dependent areas (right iliac fossa, pelvis, greater omentum, right subphrenic space). Paradoxically, despite high PCI, the relative ease of complete cytoreduction (mucinous material is often amenable to stripping without extensive bowel resection in LGMCP) means that CRS+HIPEC remains feasible in most LGMCP patients even at high PCI, with excellent long-term outcomes. HIPEC for PMP most commonly uses mitomycin C (30 mg/m² over 90 minutes at 42°C), sometimes combined with cisplatin."
+        },
+        {
+          "type": "table",
+          "title": "PMP Histological Subtypes — Prognosis and Management",
+          "headers": ["Subtype", "Murphy/PSOGI Term", "Ki-67", "10yr OS", "HIPEC Rationale"],
+          "rows": [
+            ["Acellular mucin", "Acellular mucin (AM)", "<1%", "~90%", "Surgical cytoreduction may suffice; HIPEC for sterilisation of micro-deposits"],
+            ["Low-grade mucinous carcinoma", "LGMCP (low-grade PMP)", "<10%", "~63%", "CRS+HIPEC standard; mitomycin C protocol; excellent long-term outcomes"],
+            ["High-grade mucinous carcinoma", "HGMCP (high-grade PMP)", ">10%", "~20%", "CRS+HIPEC indicated if CC-0/1 achievable; systemic chemotherapy for non-cytoreducible"],
+            ["HGMCP with signet ring cells", "HGMCP-SRC", "Variable", "<10%", "Poor prognosis; systemic therapy; CRS+HIPEC in selected cases only"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Appendiceal Origin and Murphy Criteria",
+          "content": "PMP is almost invariably of appendiceal origin (>95% of cases). When peritoneal mucinous disease is identified, the appendix must always be examined. The Murphy criteria (2001) require: (1) appendiceal mucinous neoplasm as the primary tumour (LAMN or MACA); (2) peritoneal mucinous disease; (3) characteristic redistribution pattern. PMP from primary ovarian mucinous tumours is now considered exceptional — most cases previously attributed to ovarian origin were metastatic appendiceal disease. Bilateral ovarian 'Krukenberg-type' mucinous deposits in PMP represent secondary involvement and do not indicate ovarian primary."
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "Long-term CRS+HIPEC Outcomes in PMP (Moran, Lancet Oncol 2019)",
+          "content": "**Data:** Multi-centre registry study of 2200+ patients with PMP undergoing CRS+HIPEC. **Result:** LGMCP — 10-year OS 63%, median OS not reached; HGMCP — 10-year OS 20%; signet ring — median OS <36 months. **Practice relevance:** Long-term survival is achievable in LGMCP with CRS+HIPEC, validating the aggressive surgical approach even for high PCI disease. Completeness of cytoreduction (CC-0) is the strongest predictor of survival in all subtypes."
+        }
+      ]
+    },
+    {
+      "id": "A6-S5",
+      "title": "Peritoneal Mesothelioma — Diagnosis & CRS+HIPEC Outcomes",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Malignant peritoneal mesothelioma (MPeM) is a rare, aggressive malignancy arising from the mesothelial lining of the peritoneal cavity. It is distinct from pleural mesothelioma in aetiology, presentation, management, and prognosis. Asbestos exposure is an aetiological factor in approximately 30–40% of cases (lower than pleural mesothelioma). BAP1 (BRCA-associated protein 1) tumour suppressor gene mutation is found in approximately 20–25% of cases and is associated with germline susceptibility to mesothelioma — genetic counselling is warranted. BAP1-mutated MPeM is paradoxically associated with better survival (epithelioid histology more common)."
+        },
+        {
+          "type": "text",
+          "content": "Histological subtypes of MPeM are: epithelioid (most common, best prognosis), biphasic (mixed epithelioid and sarcomatoid), and sarcomatoid (worst prognosis, very rare in peritoneal). Diagnosis requires histological confirmation — the key differential is adenocarcinoma, which requires specific immunohistochemistry (IHC) to distinguish. Calretinin, WT1, CK5/6, D2-40 (mesothelial markers) are positive in mesothelioma; CEA, MOC-31, Ber-EP4 (adenocarcinoma markers) are negative. This IHC panel is mandatory on all core biopsies or diagnostic laparoscopy biopsies."
+        },
+        {
+          "type": "text",
+          "content": "CRS+HIPEC is the standard of care for epithelioid MPeM with adequate performance status. PCI threshold for CRS+HIPEC in MPeM is generally considered <20, though selected patients with PCI up to 30 have been treated at expert centres. HIPEC regimen: cisplatin 200–250 mg/m² + doxorubicin 15–25 mg/m² (or cisplatin + pemetrexed) at 41–43°C for 60–90 minutes. Five-year OS after CRS+HIPEC for epithelioid MPeM is 40–60% at expert centres — significantly better than the historical median OS of 12 months with systemic therapy alone. Sarcomatoid histology is a contraindication to CRS+HIPEC due to futility."
+        },
+        {
+          "type": "table",
+          "title": "Peritoneal Mesothelioma vs Adenocarcinoma — Immunohistochemistry Panel",
+          "headers": ["Marker", "Mesothelioma", "Adenocarcinoma", "Utility"],
+          "rows": [
+            ["Calretinin", "Positive (nuclear + cytoplasmic)", "Negative", "Most specific positive mesothelioma marker"],
+            ["WT1", "Positive (nuclear)", "Negative (except ovarian)", "Strong positive in mesothelioma"],
+            ["CK5/6", "Positive", "Negative (usually)", "Squamous/mesothelial marker"],
+            ["D2-40 (podoplanin)", "Positive", "Negative", "Lymphatic/mesothelial marker"],
+            ["CEA (carcinoembryonic antigen)", "Negative", "Positive", "Key negative marker for mesothelioma"],
+            ["MOC-31 / Ber-EP4", "Negative", "Positive", "Adenocarcinoma markers; negative in mesothelioma"],
+            ["BAP1 (IHC loss)", "Loss in ~60%", "Retained", "BAP1 nuclear loss supports mesothelioma diagnosis"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — MARS2 Trial Context",
+          "content": "The MARS2 trial (Treasure, Lancet 2023) evaluated extended pleurectomy/decortication vs no surgery in pleural mesothelioma and showed no benefit from surgery. This is a **pleural mesothelioma** trial and does NOT apply to peritoneal mesothelioma — CRS+HIPEC for epithelioid MPeM has consistently demonstrated survival benefit in prospective registries. Do not extrapolate MARS2 to peritoneal disease."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — IHC Differentiation from Adenocarcinoma",
+          "content": "Peritoneal mesothelioma can mimic adenocarcinoma histologically and should always be considered in the differential for peritoneal malignancy, particularly in the absence of a known primary. Request the full mesothelioma IHC panel on ALL peritoneal biopsies. Misdiagnosis as adenocarcinoma results in treatment with systemic chemotherapy regimens that are inappropriate for mesothelioma, delaying CRS+HIPEC evaluation at a specialist centre."
+        }
+      ]
+    },
+    {
+      "id": "A6-S6",
+      "title": "Systemic Therapy in Retroperitoneal Sarcoma — By Histotype",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Chemotherapy for retroperitoneal sarcoma follows histotype-specific principles — there is no universal 'sarcoma chemotherapy.' Sensitivity to standard regimens (doxorubicin ± ifosfamide) varies dramatically by histotype. Systemic therapy is generally reserved for unresectable, metastatic, or recurrent RPS, or as neoadjuvant therapy in specific scenarios. The fundamental principle is: histotype drives treatment selection — biopsy and molecular characterisation are mandatory before systemic therapy."
+        },
+        {
+          "type": "table",
+          "title": "Retroperitoneal Sarcoma Systemic Therapy — By Histotype",
+          "headers": ["Histotype", "Chemosensitivity", "First-Line Agents", "Adjuvant Role", "Notes"],
+          "rows": [
+            ["WDLPS", "Very poor", "Not typically chemotherapy (low-grade)", "No established role", "CDK4/MDM2 amplified; palbociclib investigational; surgery remains primary treatment"],
+            ["DDLPS", "Partial", "Doxorubicin ± ifosfamide; trabectedin (2nd line)", "No clear benefit — STRASS trial negative", "Trabectedin targets FUS/DDIT3 — activity in DDLPS; Eribulin shows OS benefit in liposarcoma"],
+            ["LMS", "Moderate", "Doxorubicin + dacarbazine; gemcitabine/docetaxel", "No clear role for adjuvant", "Gemcitabine/docetaxel active in uterine LMS; retroperitoneal LMS: doxorubicin-based first-line"],
+            ["Synovial sarcoma", "High (SYT-SSX)", "Ifosfamide-based regimens", "Ifosfamide-based adjuvant considered", "Highest sensitivity to ifosfamide; trabectedin 2nd line"],
+            ["SFT (solitary fibrous tumour)", "Limited", "Bevacizumab + temozolomide (Stacchiotti regimen)", "No standard", "VEGF pathway; risk stratification by Demicco criteria"],
+            ["MPNST", "Limited", "Doxorubicin + ifosfamide; MEK inhibitors (NF1-associated)", "No clear role", "NF1-associated MPNST may respond to MEK inhibition (selumetinib)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Trabectedin in DDLPS",
+          "content": "Trabectedin (Yondelis) is a marine-derived alkylating agent with specific activity in liposarcomas and leiomyosarcoma through its interaction with minor groove DNA binding and RNA splicing factors. In DDLPS, trabectedin targets the FUS-DDIT3 fusion (created by the 12q13-15 MDM2/CDK4 amplification pathway). It is used as second-line therapy after doxorubicin failure. The phase III L-Sarcoma trial demonstrated improved progression-free survival (5.6 vs 1.5 months) vs best supportive care in liposarcoma and LMS. Eribulin also showed OS benefit in liposarcoma (L-sarcoma subgroup analysis)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — One Size Does Not Fit All",
+          "content": "Standard empirical doxorubicin + ifosfamide is appropriate for some RPS histotypes (synovial sarcoma, some DDLPS, LMS) but is largely ineffective and potentially harmful in WDLPS (very low-grade, not chemo-sensitive) and SFT. Administering doxorubicin-based chemotherapy to a WDLPS patient exposes them to cardiotoxicity without benefit. Always confirm histotype before initiating systemic therapy. Molecular profiling (MDM2 amplification for WDLPS/DDLPS; SYT-SSX for synovial sarcoma; STAT6 for SFT) is essential."
+        }
+      ]
+    },
+    {
+      "id": "A6-S7",
+      "title": "Quality of Life & Long-term Follow-up After CRS+HIPEC",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "CRS+HIPEC is a major surgical procedure with significant short- and long-term impacts on patient quality of life (QoL). The EORTC QLQ-C30 questionnaire, supplemented by the QLQ-CR29 (colorectal) or QLQ-OV28 (ovarian) modules, is the standard patient-reported outcome tool in CRS+HIPEC research. Understanding the trajectory of QoL recovery is essential for patient counselling and shared decision-making."
+        },
+        {
+          "type": "text",
+          "content": "In the immediate postoperative period (weeks 1–8), patients typically experience a substantial decline across all QoL domains — global health status, physical functioning, fatigue, and pain — below baseline. Recovery follows a predictable trajectory: by 3 months, most patients regain pre-operative QoL; by 6 months, the majority return to baseline or exceed it (particularly in symptom-free patients). By 12 months, functional recovery is generally complete in patients without major complications or recurrence. Importantly, patients who achieve CC-0 cytoreduction and remain recurrence-free report QoL equivalent to age-matched healthy controls at 12 months."
+        },
+        {
+          "type": "text",
+          "content": "Long-term sequelae after CRS+HIPEC include: nutritional impairment (bowel resection, short bowel syndrome in extensive small bowel resection; managed with dietary modification, enzyme supplementation, parenteral nutrition in severe cases); stoma formation (permanent or temporary ostomy in 15–30% of CRS+HIPEC patients); adhesion-related complications; and — specific to platinum-based HIPEC regimens — mild cognitive impairment and peripheral neuropathy from cisplatin exposure. Surveillance imaging (CT thorax/abdomen/pelvis with contrast) is recommended every 3–6 months for the first 2 years, then 6-monthly for years 3–5, then annually."
+        },
+        {
+          "type": "table",
+          "title": "Surveillance Schedule After CRS+HIPEC by Tumour Type",
+          "headers": ["Tumour Type", "Year 1–2", "Year 3–5", "Year >5", "Imaging Modality"],
+          "rows": [
+            ["Colorectal peritoneal metastases", "CT every 3 months", "CT every 6 months", "Annual CT", "CT TAP + CEA/CA19-9"],
+            ["PMP (LGMCP)", "CT every 6 months", "CT annually", "CT every 2 years", "CT TAP + tumour markers (CEA, CA125, CA19-9)"],
+            ["Peritoneal mesothelioma", "CT every 3–4 months", "CT every 6 months", "Annual CT", "CT TAP ± PET-CT at 2yr"],
+            ["Ovarian peritoneal metastases", "CT every 3 months + CA125", "CT every 6 months", "Annual CA125 + imaging", "CT TAP + CA125"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Functional Recovery Timeline",
+          "content": "Patients undergoing CRS+HIPEC should be counselled to expect: (1) **Immediate postoperative** (weeks 1–4): fatigue, pain, poor appetite — worst QoL period; (2) **3 months**: significant improvement — most return to baseline physical function; (3) **6 months**: return to near-normal daily activities; (4) **12 months**: full functional recovery in uncomplicated cases. The 6–12 month functional recovery window is important for surgical planning discussions and return-to-work counselling."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Recurrence Pattern by Tumour Type",
+          "content": "Recurrence pattern after CRS+HIPEC varies by tumour type and guides surveillance strategy: **CRC peritoneal**: peritoneal recurrence (40–60%) + hepatic (25%); **PMP LGMCP**: peritoneal recurrence dominant (local), very late (10+ years); **MPeM epithelioid**: peritoneal recurrence, occasionally pleural; **RPS recurrence**: local dominant (WDLPS/DDLPS) vs distant (LMS). Peritoneal recurrence after CRS+HIPEC can be re-treated with repeat CRS+HIPEC in selected cases — particularly PMP and MPeM with long disease-free intervals."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of sarcoma and peritoneal oncology. 20 questions covering all major topics.",
+    "questions": [
+      {
+        "id": "A6-Q1",
+        "stem": "A 52-year-old woman with synchronous colorectal peritoneal metastases (no liver or distant disease) is evaluated for CRS+HIPEC. CT-based PCI is estimated at 18. She is ECOG PS 1 and has responded to 6 cycles of FOLFOX. Which statement best describes her candidacy?",
+        "options": {
+          "A": "She is not a candidate — PCI >15 is an absolute contraindication to CRS+HIPEC",
+          "B": "She is a potential candidate — PCI 18 is within the acceptable range and systemic response supports resectability",
+          "C": "She requires liver resection first before peritoneal disease can be addressed",
+          "D": "PIPAC is the preferred treatment because she has synchronous presentation"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PCI 18 is within the accepted range (≤20) for CRS+HIPEC in colorectal peritoneal metastases. Response to FOLFOX indicates favourable tumour biology (non-refractory disease) and supports resectability. ECOG PS 1 is acceptable. She should undergo diagnostic laparoscopy to formally assess PCI and resectability before committing to open CRS+HIPEC.",
+          "wrong": {
+            "A": "PCI ≤20 is the generally accepted threshold for CRS+HIPEC in colorectal peritoneal metastases, not ≤15.",
+            "C": "She has no liver disease — the question states no liver or distant disease. Liver resection is not relevant here.",
+            "D": "PIPAC is a palliative option for patients who are not candidates for CRS+HIPEC. This patient is a potential CRS+HIPEC candidate."
+          },
+          "guideline": "ESMO Peritoneal Metastases 2023 — CRS+HIPEC recommended for selected colorectal peritoneal metastases; PCI ≤20, PS 0–1, systemic response",
+          "trial": "Verwaal RCT (2003, 2008): median OS 22.3 vs 12.6 months for CRS+HIPEC vs chemotherapy alone; 5-year OS 45% vs 0%.",
+          "pearl": "Diagnostic laparoscopy before open CRS+HIPEC is not optional — it provides accurate PCI and avoids futile laparotomy in 15–20% of patients who appear resectable on CT."
+        }
+      },
+      {
+        "id": "A6-Q2",
+        "stem": "A 58-year-old man presents with a PCI of 28 on diagnostic laparoscopy for appendiceal mucinous neoplasm with peritoneal spread. Histology from laparoscopy biopsy confirms low-grade mucinous carcinoma peritonei (LGMCP). He is ECOG PS 0. What is the most appropriate management?",
+        "options": {
+          "A": "Palliative systemic chemotherapy — PCI >20 is a contraindication to CRS+HIPEC for any indication",
+          "B": "CRS+HIPEC should be considered despite high PCI — LGMCP has a characteristic distribution amenable to cytoreduction and achieves excellent long-term survival",
+          "C": "PIPAC for 3 cycles, then reassess — PCI must be reduced below 20 before open CRS+HIPEC",
+          "D": "Right hemicolectomy only — appendiceal primary removal is the only surgical intervention required"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Pseudomyxoma peritonei (LGMCP) is a special case where high PCI does not automatically preclude CRS+HIPEC. The mucinous deposits in PMP have a characteristic redistribution pattern and are often amenable to complete cytoreduction even at PCI 25–39, because the mucinous material strips away from peritoneal surfaces without extensive bowel resection in low-grade disease. Ten-year OS for LGMCP after CRS+HIPEC is approximately 63%. PCI thresholds from colorectal adenocarcinoma do not apply directly to PMP. CRS+HIPEC at an expert PMP centre should be offered to this patient.",
+          "wrong": {
+            "A": "The PCI >20 contraindication applies primarily to colorectal adenocarcinoma peritoneal metastases. In LGMCP, high PCI does not preclude CRS+HIPEC — the biology and resectability differ fundamentally.",
+            "C": "PIPAC is for unresectable peritoneal malignancy. LGMCP with high PCI is not necessarily unresectable at a PMP specialist centre. PIPAC is not a standard 'debulking' approach before CRS+HIPEC.",
+            "D": "Right hemicolectomy alone treats the appendiceal primary but leaves all peritoneal disease untreated — inadequate management of PMP."
+          },
+          "guideline": "PSOGI 2017 Guidelines — LGMCP/PMP: CRS+HIPEC at expert centre regardless of PCI; high PCI in LGMCP does not preclude complete cytoreduction",
+          "trial": "Moran B et al., Lancet Oncol 2019: multi-centre PMP registry — LGMCP 10yr OS 63%; CC-0 strongest predictor; PCI not contraindication in LGMCP.",
+          "pearl": "PMP exception to PCI rule: high PCI (>20, even >30) does not preclude CRS+HIPEC in LGMCP. Mucinous material is strippable; CC-0 is achievable even at high PCI in expert hands. Prognosis is histotype-dependent: LGMCP (excellent), HGMCP (moderate), HGMCP-SRC (poor)."
+        }
+      },
+      {
+        "id": "A6-Q3",
+        "stem": "A core biopsy of a peritoneal nodule from a 65-year-old man with occupational asbestos exposure returns 'epithelioid malignancy.' The pathologist requests additional immunohistochemistry. Which IHC panel best differentiates peritoneal mesothelioma from adenocarcinoma?",
+        "options": {
+          "A": "Ki-67, p53, and EGFR",
+          "B": "Calretinin (positive in mesothelioma), CEA, and Ber-EP4 (positive in adenocarcinoma); WT1 and D2-40 as additional mesothelial markers",
+          "C": "HER2, ER, and PR",
+          "D": "CDX2, CK20, and CK7 — colorectal and pancreatobiliary markers"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The standard IHC panel to distinguish peritoneal mesothelioma from adenocarcinoma uses: positive mesothelial markers (calretinin — most specific; WT1 — nuclear; CK5/6; D2-40/podoplanin) and negative adenocarcinoma markers (CEA, MOC-31, Ber-EP4, BG8). Mesothelioma: calretinin+, WT1+, D2-40+, CEA-, Ber-EP4-. Adenocarcinoma: calretinin-, CEA+, Ber-EP4+, MOC-31+. BAP1 nuclear loss by IHC supports mesothelioma diagnosis (~60% of cases). A minimum of 2 positive mesothelial markers and 2 negative adenocarcinoma markers is required for diagnosis.",
+          "wrong": {
+            "A": "Ki-67, p53, and EGFR are proliferation/oncogene markers — they do not differentiate mesothelioma from adenocarcinoma lineage.",
+            "C": "HER2, ER, and PR are breast cancer markers — not relevant for differentiating peritoneal mesothelioma from adenocarcinoma.",
+            "D": "CDX2/CK20/CK7 identify colorectal and pancreatobiliary adenocarcinoma subtypes — useful for primary tumour identification, not for the mesothelioma vs adenocarcinoma differential."
+          },
+          "guideline": "ESMO Soft Tissue Sarcoma/Mesothelioma Guidelines 2021 — IHC panel for mesothelioma: calretinin, WT1, D2-40 (positive) + CEA, MOC-31, Ber-EP4 (negative)",
+          "trial": "Ordóñez NG, Am J Surg Pathol 2003: calretinin most sensitive and specific mesothelial marker; D2-40 high specificity for mesothelioma.",
+          "pearl": "Mesothelioma IHC: 2 positive (calretinin, WT1, CK5/6, D2-40) + 2 negative (CEA, MOC-31, Ber-EP4) = diagnosis. BAP1 nuclear loss on IHC: supports mesothelioma AND indicates germline BAP1 mutation (offer genetic counselling)."
+        }
+      },
+      {
+        "id": "A6-Q4",
+        "stem": "A 45-year-old woman has a 15 cm retroperitoneal mass. CT shows a well-encapsulated fat-containing tumour with thin internal septations in the left retroperitoneum. No necrosis or nodular enhancement. Biopsy confirms well-differentiated liposarcoma (WDLPS). What is the key molecular marker that confirms the diagnosis?",
+        "options": {
+          "A": "SYT-SSX gene fusion (FISH)",
+          "B": "MDM2 amplification (FISH or IHC) — present in WDLPS and DDLPS",
+          "C": "EWSR1-FLI1 fusion — diagnostic of Ewing sarcoma in the retroperitoneum",
+          "D": "SS18 (SYT) rearrangement"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Well-differentiated liposarcoma (WDLPS) and dedifferentiated liposarcoma (DDLPS) are characterised by amplification of the MDM2 gene (chromosome 12q14-15), which also typically includes CDK4 co-amplification. MDM2 amplification detected by FISH or MDM2 protein overexpression by IHC confirms the diagnosis of WDLPS/DDLPS and distinguishes it from a benign lipoma (no MDM2 amplification) or other retroperitoneal fat-containing tumours. This distinction is critical because large retroperitoneal lipomas may be managed conservatively while WDLPS requires resection.",
+          "wrong": {
+            "A": "SYT-SSX (now SS18::SSX) gene fusion is pathognomonic for synovial sarcoma — not liposarcoma.",
+            "C": "EWSR1-FLI1 fusion is the hallmark of Ewing sarcoma — distinct histology and presentation.",
+            "D": "SS18 rearrangement is a broader designation for synovial sarcoma fusions — not relevant to liposarcoma."
+          },
+          "guideline": "ESMO Soft Tissue Sarcoma 2021 — WDLPS/DDLPS: MDM2 amplification mandatory for diagnosis; distinguishes from benign lipoma",
+          "trial": "Binh MB et al., Cancer 2005: MDM2 amplification by FISH — 100% sensitivity for WDLPS/DDLPS; 0% in benign lipomas.",
+          "pearl": "Retroperitoneal fat-containing mass: size >10 cm + MDM2 amplification = WDLPS (not lipoma). WDLPS cannot metastasise but can dedifferentiate (DDLPS) which can metastasise. MDM2 FISH or IHC is the test — lipoma biopsy shows no MDM2 amplification."
+        }
+      },
+      {
+        "id": "A6-Q5",
+        "stem": "According to the FNCLCC grading system, which of the following tumour characteristics is NOT used to determine the grade of a soft tissue sarcoma?",
+        "options": {
+          "A": "Tumour differentiation score",
+          "B": "Mitotic rate per 10 high-power fields",
+          "C": "Percentage of tumour necrosis",
+          "D": "Tumour size (>5 cm vs ≤5 cm)"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "The FNCLCC (Fédération Nationale des Centres de Lutte contre le Cancer) grading system uses three parameters: (1) Tumour differentiation score (1–3, based on histological resemblance to normal tissue); (2) Mitotic count (1–3, per 10 HPF); (3) Tumour necrosis (0 = none, 1 = <50%, 2 = ≥50%). These three scores are summed to give FNCLCC grade 1 (2–3 points, low), grade 2 (4–5 points, intermediate), or grade 3 (6–8 points, high). Tumour size is part of the AJCC TNM staging (T1 ≤5 cm, T2 >5 cm) but is NOT a component of the FNCLCC grading system.",
+          "wrong": {
+            "A": "Tumour differentiation score IS a FNCLCC parameter — it is score 1 (resembles normal tissue), 2 (partial differentiation), or 3 (undifferentiated).",
+            "B": "Mitotic rate IS a FNCLCC parameter — score 1 (<10 mitoses/10HPF), 2 (10–19), 3 (≥20).",
+            "C": "Tumour necrosis IS a FNCLCC parameter — score 0 (no necrosis), 1 (<50%), 2 (≥50%)."
+          },
+          "guideline": "ESMO Soft Tissue Sarcoma 2021 — FNCLCC grading: differentiation + mitotic rate + necrosis; grade 1–3",
+          "trial": "Coindre JM et al., Cancer 1988: FNCLCC grading validated as predictor of distant metastasis and disease-specific survival in soft tissue sarcoma.",
+          "pearl": "FNCLCC Grade = Differentiation + Mitosis + Necrosis. Total 2–3 = Grade 1; 4–5 = Grade 2; 6–8 = Grade 3. Grade 3 sarcomas have 50–60% risk of distant metastasis. Tumour size → AJCC T stage, not FNCLCC grade."
+        }
+      },
+      {
+        "id": "A6-Q6",
+        "stem": "A 55-year-old man has a primary right retroperitoneal WDLPS that recurs locally 3 years after initial resection. Staging CT shows a large local recurrence with no distant disease. What is the most important prognostic consideration regarding recurrence pattern in RPS by histotype?",
+        "options": {
+          "A": "WDLPS recurs primarily as distant (haematogenous) metastases — systemic chemotherapy is the priority",
+          "B": "WDLPS recurs primarily locally; re-resection is the treatment of choice for local recurrence; distant metastasis is uncommon in pure WDLPS",
+          "C": "LMS recurs primarily locally — local re-resection controls 80% of LMS recurrences",
+          "D": "DDLPS and WDLPS have identical recurrence patterns and should be treated the same"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "WDLPS is a low-grade tumour that recurs predominantly as local recurrence (retroperitoneal location, progressive re-growth) rather than distant metastasis. Pure WDLPS essentially never metastasises — the risk of metastasis arises when it dedifferentiates to DDLPS. Surgical re-resection of local WDLPS recurrence is the appropriate treatment. LMS, in contrast, recurs primarily as distant metastases (lung, liver) — distant recurrence is the dominant problem in LMS, not local recurrence. This histotype-specific recurrence pattern dictates the surveillance imaging approach and treatment priority.",
+          "wrong": {
+            "A": "WDLPS does not metastasise distantly (in the absence of dedifferentiation). Systemic chemotherapy has no role in WDLPS local recurrence.",
+            "C": "LMS recurs primarily as distant metastases (lung, liver) — not locally. Local re-resection of LMS recurrence has limited impact on overall outcome because the dominant recurrence pattern is haematogenous.",
+            "D": "DDLPS and WDLPS have very different prognoses. DDLPS can metastasise (25–30% risk); WDLPS essentially cannot. They require different management strategies despite shared MDM2 amplification."
+          },
+          "guideline": "TARPSWG Guidelines 2023 / ESMO 2021 — WDLPS: local recurrence dominant; re-resect; LMS: distant recurrence dominant; systemic therapy priority",
+          "trial": "Gronchi A et al., Ann Surg 2009: RPS recurrence patterns by histotype — WDLPS 95% local recurrence; LMS 70% distant metastasis.",
+          "pearl": "RPS recurrence by histotype: WDLPS → local (re-resect repeatedly); DDLPS → local + distant (systemic therapy for metastatic); LMS → distant/lung dominant (systemic therapy priority). This determines follow-up imaging focus and treatment planning."
+        }
+      },
+      {
+        "id": "A6-Q7",
+        "stem": "During a CRS+HIPEC procedure, the surgeon instils oxaliplatin at 460 mg/m² for 30 minutes at 43°C. What is the primary biological rationale for the hyperthermic component of HIPEC?",
+        "options": {
+          "A": "Hyperthermia sterilises the peritoneal cavity by destroying bacteria — it is an antimicrobial measure",
+          "B": "Hyperthermia at 41–43°C enhances chemotherapy cytotoxicity through increased drug uptake, inhibition of DNA repair, and direct tumour cell killing via protein denaturation",
+          "C": "Hyperthermia allows higher systemic drug absorption — the goal is increased plasma drug concentrations",
+          "D": "Hyperthermia increases peritoneal blood flow to dilute chemotherapy toxicity on normal tissues"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The hyperthermic component of HIPEC (41–43°C) exploits several mechanisms: (1) Direct tumour cell kill — malignant cells are more thermosensitive than normal tissue due to their relatively poor vascularity and impaired heat dissipation; (2) Chemotherapy synergy — heat increases drug uptake and membrane permeability, enhancing intracellular drug concentration; (3) Inhibition of heat shock protein-mediated DNA repair mechanisms, preventing tumour cells from repairing chemotherapy-induced DNA damage; (4) Immune enhancement — hyperthermia promotes antigen presentation and natural killer cell activity. The temperature range 41–43°C is a critical therapeutic window — below 41°C, hyperthermic effects are insufficient; above 43°C, systemic toxicity increases substantially.",
+          "wrong": {
+            "A": "Hyperthermia is not used for antimicrobial purposes in HIPEC — the peritoneal cavity is not infected and this is not the rationale.",
+            "C": "Systemic absorption of HIPEC chemotherapy is deliberately minimised through the peritoneal-plasma barrier — the goal is high local concentration with low systemic exposure. Hyperthermia does not increase systemic absorption as a primary mechanism.",
+            "D": "Increasing peritoneal blood flow to dilute chemotherapy on normal tissues is incorrect — hyperthermia actually limits normal tissue damage through tumour-specific thermosensitivity."
+          },
+          "guideline": "Ceelen et al., Crit Rev Oncol Hematol 2021 — HIPEC mechanism: thermal synergy, DNA repair inhibition, increased drug penetration",
+          "trial": "Kampinga HH et al., Int J Hyperthermia 2018: molecular mechanisms of hyperthermia — heat shock protein inhibition, DNA repair blockade, cell membrane permeabilisation.",
+          "pearl": "HIPEC temperature rationale: 41–43°C = therapeutic window. Below 41°C = insufficient hyperthermic effect; above 43°C = systemic toxicity, bowel injury. The combination of heat + chemotherapy achieves synergistic cancer killing that neither achieves alone."
+        }
+      },
+      {
+        "id": "A6-Q8",
+        "stem": "In the PRODIGE 7 trial (Quenet, Lancet Oncol 2021), which evaluated oxaliplatin-based HIPEC vs no HIPEC after CRS for colorectal peritoneal metastases, what was the key finding and its implications?",
+        "options": {
+          "A": "HIPEC with oxaliplatin significantly improved OS — confirming oxaliplatin HIPEC as standard of care",
+          "B": "HIPEC with oxaliplatin did not improve OS compared to CRS alone; morbidity was higher with HIPEC — raising questions about the role of HIPEC",
+          "C": "Mitomycin C HIPEC was superior to oxaliplatin HIPEC — the trial established mitomycin C as the preferred agent",
+          "D": "CRS without HIPEC was inferior — HIPEC improved DFS but not OS"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PRODIGE 7 (Quenet et al., Lancet Oncol 2021) randomised 265 patients with colorectal peritoneal metastases to CRS + oxaliplatin HIPEC (460 mg/m², 30 min, 43°C) vs CRS alone. There was no significant difference in OS (41.2 vs 41.7 months) or DFS between the two groups. The HIPEC group had higher grade 3–4 morbidity (24.1% vs 13.6%). PRODIGE 7 controversially challenged the role of oxaliplatin-based HIPEC, though the trial has been criticised for its oxaliplatin regimen duration (30 min is short) and patient selection. Mitomycin C-based HIPEC (as in the original Verwaal RCT) remains supported by earlier evidence. The field continues to debate — practice at most centres continues CRS+HIPEC while awaiting further trial data.",
+          "wrong": {
+            "A": "PRODIGE 7 did not show OS benefit for oxaliplatin HIPEC — this is the controversial negative finding.",
+            "C": "PRODIGE 7 did not compare oxaliplatin to mitomycin C — it compared oxaliplatin HIPEC to no HIPEC.",
+            "D": "PRODIGE 7 showed no DFS benefit either — the negative result applied to both DFS and OS."
+          },
+          "guideline": "ESMO Peritoneal Metastases 2023 — PRODIGE 7 results: oxaliplatin HIPEC no OS benefit; CRS+HIPEC remains expert centre recommendation pending further evidence",
+          "trial": "PRODIGE 7 (Quenet, Lancet Oncol 2021): n=265 CRC peritoneal metastases; CRS + oxaliplatin HIPEC vs CRS alone; OS 41.2 vs 41.7 months (NS); higher morbidity with HIPEC.",
+          "pearl": "PRODIGE 7 is the most controversial trial in CRS+HIPEC for CRC. Key criticisms: (1) oxaliplatin 30-min HIPEC duration short; (2) high-quality patient selection; (3) 90% of patients received systemic chemotherapy post-CRS. Mitomycin C HIPEC data (Verwaal) remain the historical foundation. Most expert centres continue CRS+HIPEC while awaiting corroborating RCT data."
+        }
+      },
+      {
+        "id": "A6-Q9",
+        "stem": "Before open CRS+HIPEC for colorectal peritoneal metastases, diagnostic laparoscopy is performed. What is the primary purpose, and what is the false-negative rate of CT in predicting resectability?",
+        "options": {
+          "A": "Diagnostic laparoscopy is optional — CT PCI accurately predicts resectability in >90% of cases",
+          "B": "Diagnostic laparoscopy identifies unresectable disease in 15–20% of patients who appeared resectable on CT, particularly small bowel mesentery involvement not visible on CT",
+          "C": "Diagnostic laparoscopy is used to perform HIPEC — it replaces open surgery for low PCI disease",
+          "D": "Diagnostic laparoscopy is contraindicated before CRS+HIPEC because it causes adhesions"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Diagnostic laparoscopy before CRS+HIPEC is standard practice because CT systematically underestimates peritoneal disease burden, particularly involving the small bowel mesentery. Approximately 15–20% of patients deemed resectable on CT are found to have unresectable disease at laparoscopy — most commonly small bowel mesentery involvement precluding complete cytoreduction (which would leave the patient with short bowel syndrome after extensive small bowel resection). Laparoscopy avoids futile laparotomy in these patients. Laparoscopic PCI correlates better with final surgical PCI than CT-estimated PCI.",
+          "wrong": {
+            "A": "CT underestimates PCI and resectability — its false-negative rate for unresectable disease is 15–20%. Diagnostic laparoscopy is not optional.",
+            "C": "Laparoscopic HIPEC is investigational and not standard of care for colorectal peritoneal metastases. PIPAC is the laparoscopic palliative approach — not curative HIPEC.",
+            "D": "Laparoscopic adhesions after diagnostic laparoscopy are minimal and do not preclude subsequent open CRS+HIPEC, which is typically planned 2–4 weeks after laparoscopy."
+          },
+          "guideline": "ESMO Peritoneal Metastases 2023 — diagnostic laparoscopy mandatory before open CRS+HIPEC to exclude unresectable disease",
+          "trial": "Esquivel J et al., Ann Surg 2016: diagnostic laparoscopy prior to CRS+HIPEC — 17% of patients had unresectable disease on laparoscopy despite CT suggesting resectability.",
+          "pearl": "CT PCI = underestimate (especially small bowel mesentery and lesser sac). Laparoscopic PCI = more accurate. Standard sequence: CT → diagnostic laparoscopy → if resectable → open CRS+HIPEC (same admission or planned). Laparoscopy spares 15–20% of patients a futile laparotomy."
+        }
+      },
+      {
+        "id": "A6-Q10",
+        "stem": "A 68-year-old woman with unresectable gastric peritoneal metastases and moderate ascites is referred for PIPAC. Which agent and dose is standard for gastric cancer PIPAC, and what response assessment method is used?",
+        "options": {
+          "A": "Oxaliplatin 92 mg/m² — same as colorectal HIPEC but at reduced dose",
+          "B": "Cisplatin 7.5 mg/m² + doxorubicin 1.5 mg/m² (PIPAC-OPC protocol) — histological response grading on serial biopsies",
+          "C": "5-FU 400 mg/m² — given as PIPAC for gastric cancer only",
+          "D": "Mitomycin C 35 mg/m² — same agent as appendiceal mucinous HIPEC but at lower dose"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The standard PIPAC regimen for gastric and ovarian cancer is cisplatin 7.5 mg/m² + doxorubicin 1.5 mg/m² (the PIPAC-OPC protocol, established by the Reymond/Solass group in Germany). For colorectal cancer PIPAC, oxaliplatin 92 mg/m² is used as monotherapy. Response assessment after each PIPAC cycle uses serial biopsy with histological regression grading (Peritoneal Regression Grading Score, PRGS, or modified Ryan tumour regression grade on sequential biopsies taken from the same peritoneal region at each PIPAC). This histological response tracking is unique to PIPAC — most systemic therapy uses radiological response.",
+          "wrong": {
+            "A": "Oxaliplatin PIPAC is for colorectal cancer PIPAC, not gastric cancer PIPAC. Gastric cancer PIPAC uses cisplatin+doxorubicin.",
+            "C": "5-FU is not delivered as PIPAC — it is a systemic agent. PIPAC uses agents with high peritoneal penetration (platinum, anthracyclines).",
+            "D": "Mitomycin C is used in CRS+HIPEC for appendiceal and colorectal disease — not in standard PIPAC protocols for gastric cancer."
+          },
+          "guideline": "ESMO Peritoneal Metastases 2023 — PIPAC: palliative; cisplatin+doxorubicin for gastric/ovarian; oxaliplatin for CRC; response by histological grading",
+          "trial": "Nadiradze G et al., J Cancer Res Clin Oncol 2016: PIPAC cisplatin+doxorubicin in gastric cancer — 50% histological response; Solass W, Ann Surg Oncol 2014.",
+          "pearl": "PIPAC regimens: gastric/ovarian → cisplatin 7.5 mg/m² + doxorubicin 1.5 mg/m²; colorectal → oxaliplatin 92 mg/m². Given every 4–6 weeks. Response assessed by serial biopsy PRGS (not CT — peritoneal deposits not reliably measured radiologically)."
+        }
+      },
+      {
+        "id": "A6-Q11",
+        "stem": "A patient with pseudomyxoma peritonei (LGMCP) presents for evaluation with PCI estimated at 35 on CT. The surgeon confirms complete cytoreduction is achievable at diagnostic laparoscopy. Is surgery still indicated?",
+        "options": {
+          "A": "No — PCI >20 is a universal contraindication to CRS+HIPEC regardless of histotype",
+          "B": "Yes — LGMCP with high PCI remains a strong indication for CRS+HIPEC; completeness of cytoreduction (CC-0) is achievable and associated with 10-year OS of 63%",
+          "C": "Only if systemic chemotherapy has been tried first — LGMCP responds well to systemic 5-FU/oxaliplatin",
+          "D": "Palliative drainage of mucin only — mucinous ascites cannot be completely cleared surgically"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PMP/LGMCP is the exemplary indication for CRS+HIPEC regardless of high PCI. The mucinous deposits of LGMCP are biologically different from solid carcinoma peritoneal implants — they do not invade the small bowel mesentery in low-grade disease and can be stripped from peritoneal surfaces completely even at PCI 35–39. Long-term OS for LGMCP with CC-0 CRS+HIPEC is approximately 63% at 10 years. The PCI threshold that applies to colorectal adenocarcinoma (≤20) does not apply to LGMCP. All fit patients with LGMCP should be referred to a specialist PMP centre for evaluation.",
+          "wrong": {
+            "A": "The PCI >20 contraindication applies to colorectal adenocarcinoma peritoneal metastases, not to PMP/LGMCP. This is a critical distinction.",
+            "C": "LGMCP does not respond well to standard systemic chemotherapy (it is a mucinous, often slow-growing tumour with low proliferative activity). Systemic 5-FU is not standard first-line for LGMCP — CRS+HIPEC is.",
+            "D": "Palliative drainage of mucin without cytoreduction provides only temporary relief and does not address the underlying disease — it is not the appropriate treatment for a surgically fit patient with LGMCP."
+          },
+          "guideline": "PSOGI/ESMO 2023 — LGMCP/PMP: CRS+HIPEC standard regardless of PCI; refer to specialist centre",
+          "trial": "Chua TC et al., Ann Surg 2012: systematic review PMP — CC-0 10yr OS 63% for LGMCP; PCI not a barrier in low-grade disease.",
+          "pearl": "PMP mantra: high PCI + LGMCP = still operate (at expert centre). The biology of low-grade mucinous disease is fundamentally different from CRC peritoneal metastases — do not apply CRC PCI thresholds to PMP."
+        }
+      },
+      {
+        "id": "A6-Q12",
+        "stem": "A 60-year-old man with epithelioid peritoneal mesothelioma (PCI 16) is evaluated for CRS+HIPEC. He has no prior asbestos exposure. Testing reveals BAP1 nuclear loss on IHC from the biopsy. What is the clinical implication of BAP1 loss?",
+        "options": {
+          "A": "BAP1 loss indicates sarcomatoid histology — CRS+HIPEC is contraindicated",
+          "B": "BAP1 loss supports the mesothelioma diagnosis and indicates possible germline BAP1 mutation — genetic counselling and germline testing are warranted",
+          "C": "BAP1 loss is a poor prognostic marker — this patient should receive systemic therapy rather than surgery",
+          "D": "BAP1 loss is irrelevant to management — treatment decisions are based solely on PCI and histological subtype"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "BAP1 (BRCA1-associated protein 1) nuclear loss on IHC supports the diagnosis of mesothelioma (highly specific). Additionally, BAP1 loss in mesothelioma may reflect either somatic or germline mutation. Approximately 20–25% of peritoneal mesothelioma patients have germline BAP1 mutations (BAP1 tumour predisposition syndrome), which also confers elevated risk of uveal melanoma, cutaneous melanoma, and clear cell renal cell carcinoma. Genetic counselling and germline BAP1 testing are warranted for all patients with BAP1-deficient mesothelioma, particularly in the absence of asbestos exposure. BAP1-mutated mesothelioma paradoxically has a better prognosis (more likely epithelioid histology).",
+          "wrong": {
+            "A": "BAP1 loss does not indicate sarcomatoid histology — they are independent features. Histological subtype and BAP1 status are determined separately.",
+            "C": "BAP1 loss in epithelioid MPeM is associated with better prognosis, not worse. It does not contraindicate CRS+HIPEC.",
+            "D": "BAP1 loss is highly clinically relevant — it supports the diagnosis and identifies patients for germline testing and family counselling."
+          },
+          "guideline": "ESMO Mesothelioma Guidelines 2021 — BAP1 IHC: confirms mesothelioma diagnosis; germline testing recommended in BAP1-deficient cases",
+          "trial": "Baumann F et al., J Thorac Oncol 2015: germline BAP1 mutations in mesothelioma — 20% germline prevalence; BAP1 syndrome predisposes to multiple malignancies.",
+          "pearl": "BAP1 in mesothelioma: (1) Diagnostic value — BAP1 loss supports mesothelioma diagnosis; (2) Germline significance — ~20% have hereditary BAP1 mutation; offer genetic counselling; (3) Prognostic value — BAP1-mutated MPeM: better prognosis (epithelioid predominance). BAP1 syndrome: mesothelioma + uveal melanoma + ccRCC + cutaneous melanocytic lesions."
+        }
+      },
+      {
+        "id": "A6-Q13",
+        "stem": "A patient with incomplete cytoreduction (CC2 — residual disease 2.5–25 mm) after CRS attempt for colorectal peritoneal metastases. HIPEC is still administered. What does current evidence show about the survival benefit of incomplete cytoreduction?",
+        "options": {
+          "A": "CC2 and CC3 have equivalent survival outcomes to CC0 — all levels of cytoreduction are beneficial",
+          "B": "CC2/CC3 (incomplete cytoreduction) confers no survival benefit over systemic chemotherapy alone — only CC0 and CC1 are associated with improved survival",
+          "C": "CC2 is acceptable — 2.5–25 mm residual disease is adequately treated by HIPEC chemotherapy penetration",
+          "D": "HIPEC after incomplete cytoreduction is contraindicated — it increases morbidity without benefit"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Completeness of Cytoreduction (CC) score is the most powerful predictor of CRS+HIPEC outcomes. CC-0 (no residual visible disease) and CC-1 (residual nodules ≤2.5 mm, within HIPEC drug penetration depth) are associated with significant survival benefit. CC-2 (residual 2.5–25 mm) and CC-3 (>25 mm or unresectable disease) are associated with no improvement in OS compared to systemic chemotherapy alone. HIPEC penetrates peritoneal tissue to approximately 3–5 mm — residual disease >2.5 mm is not adequately treated by HIPEC. Proceeding with HIPEC after CC-2/CC-3 cytoreduction exposes the patient to the morbidity of surgery and HIPEC without the survival benefit.",
+          "wrong": {
+            "A": "All levels of cytoreduction are NOT equivalent. CC-2/CC-3 = no survival benefit = systemic chemotherapy equivalent.",
+            "C": "HIPEC penetration is 3–5 mm maximum. Residual disease of 2.5–25 mm (CC-2) is NOT adequately treated by HIPEC.",
+            "D": "HIPEC after incomplete cytoreduction is not absolutely contraindicated in all guidelines — however, it is clinically not beneficial, and most centres would close without HIPEC if CC-0/CC-1 cannot be achieved."
+          },
+          "guideline": "ESMO Peritoneal Metastases 2023 — CC-0/CC-1 only: survival benefit; CC-2/CC-3: no benefit; do not proceed to HIPEC if CC-2/CC-3 inevitable",
+          "trial": "Verwaal VJ, JNCI 2008: CC score and survival — CC-0: median OS 48 months; CC-1: 26 months; CC-2: 8 months (equivalent to chemotherapy); Elias D, Ann Oncol 2010: confirmed CC-0/CC-1 survival advantage.",
+          "pearl": "CC score is the single most important predictor of CRS+HIPEC survival. If you cannot achieve CC-0 or CC-1, the operation should be abandoned (close and treat systemically). CC-2/CC-3 = futile cytoreduction."
+        }
+      },
+      {
+        "id": "A6-Q14",
+        "stem": "In the context of CRS+HIPEC for colorectal peritoneal metastases, what is Early Postoperative Intraperitoneal Chemotherapy (EPIC) and how does it compare to HIPEC?",
+        "options": {
+          "A": "EPIC is administered during surgery (same as HIPEC) but at normothermic temperature — current standard has replaced HIPEC",
+          "B": "EPIC is intraperitoneal chemotherapy delivered through surgical drains in the early postoperative period (days 1–5) after CRS; it is used in addition to or as an alternative to HIPEC, but HIPEC has become the dominant approach due to logistical advantages",
+          "C": "EPIC and HIPEC are identical procedures — the terms are interchangeable",
+          "D": "EPIC is only used for ovarian cancer peritoneal metastases — it has no role in colorectal peritoneal metastases"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "EPIC (Early Postoperative Intraperitoneal Chemotherapy) consists of intraperitoneal chemotherapy (typically 5-FU, mitomycin C, or paclitaxel) instilled through drains in the early postoperative period (POD 1–5) after CRS. It was pioneered by Sugarbaker as a complement to CRS to treat microscopic residual disease in the early healing phase. EPIC requires patient cooperation (instillation and dwell time with drains), is associated with GI toxicity, and is logistically complex. HIPEC — delivered intraoperatively in a controlled setting — has largely supplanted EPIC at most centres because it is more reliably delivered and has established efficacy data. Some centres use both HIPEC + EPIC sequentially.",
+          "wrong": {
+            "A": "EPIC is postoperative (POD 1–5), not intraoperative. HIPEC is intraoperative. They are distinct procedures.",
+            "C": "EPIC and HIPEC are different: EPIC = postoperative, normothermic, through drains; HIPEC = intraoperative, hyperthermic, open circuit or closed circuit perfusion.",
+            "D": "EPIC has been used in colorectal peritoneal metastases (Sugarbaker's original protocols). It is not restricted to ovarian cancer."
+          },
+          "guideline": "Sugarbaker PH, Peritoneal Carcinomatosis 3rd ed. — EPIC protocols; ESMO 2023: HIPEC preferred over EPIC; EPIC investigational",
+          "trial": "Glehen O et al., J Clin Oncol 2004: CRS + HIPEC ± EPIC for CRC peritoneal metastases — multicentre analysis; HIPEC alone achieves similar outcomes to HIPEC+EPIC in most series.",
+          "pearl": "EPIC = postoperative IP chemotherapy through drains (POD 1–5); HIPEC = intraoperative hyperthermic IP chemotherapy. HIPEC has replaced EPIC at most centres due to logistical ease and equivalent/superior outcomes. EPIC may still be used at Sugarbaker centres as supplemental treatment."
+        }
+      },
+      {
+        "id": "A6-Q15",
+        "stem": "A 50-year-old woman has a trabectedin-eligible diagnosis. Which sarcoma histotype is she most likely to have, and what is the mechanism of trabectedin activity?",
+        "options": {
+          "A": "Synovial sarcoma — trabectedin targets the SYT-SSX fusion",
+          "B": "Dedifferentiated liposarcoma (DDLPS) or leiomyosarcoma (LMS) — trabectedin binds the minor groove of DNA and disrupts transcription of oncogenic fusion proteins and FUS-DDIT3 pathway",
+          "C": "Ewing sarcoma — trabectedin disrupts EWSR1-FLI1 transcriptional activity",
+          "D": "WDLPS — trabectedin is specifically approved for well-differentiated liposarcoma as first-line therapy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Trabectedin is approved by the EMA for unresectable or metastatic liposarcoma and leiomyosarcoma after failure of anthracycline-based therapy. Its mechanism is unique: trabectedin binds to the minor groove of DNA and interferes with transcription factor binding, particularly targeting FUS-DDIT3 (in myxoid/round cell liposarcoma) and disrupting the transcriptional machinery of other translocation-associated sarcomas. In LMS, trabectedin disrupts oncogenic transcriptional complexes. The L-Sarcoma RCT demonstrated improved PFS for trabectedin vs dacarbazine in liposarcoma and LMS. It is primarily used as second-line therapy in DDLPS and LMS after doxorubicin failure.",
+          "wrong": {
+            "A": "Trabectedin does have activity in synovial sarcoma (SYT-SSX), but its primary approved indication and strongest evidence are in liposarcoma and LMS. Synovial sarcoma is not the primary indication.",
+            "C": "Ewing sarcoma (EWSR1-FLI1) — trabectedin has some preclinical activity but is not an approved or standard indication for Ewing sarcoma.",
+            "D": "WDLPS is not the primary indication for trabectedin — WDLPS is low-grade and chemotherapy-insensitive. DDLPS (dedifferentiated component) is the liposarcoma subtype with trabectedin activity."
+          },
+          "guideline": "ESMO Soft Tissue Sarcoma 2021 — trabectedin: second-line for liposarcoma (DDLPS/MRCLS) and LMS after doxorubicin failure",
+          "trial": "L-Sarcoma RCT (Demetri, J Clin Oncol 2016): trabectedin vs dacarbazine in LPS+LMS — PFS 4.2 vs 1.5 months; FDA approved for L-sarcoma.",
+          "pearl": "Trabectedin indications: DDLPS, myxoid/round cell LPS, LMS — second-line after doxorubicin. Unique mechanism: DNA minor groove binding → transcription factor disruption. WDLPS = chemotherapy-insensitive (do not give doxorubicin or trabectedin to pure WDLPS)."
+        }
+      },
+      {
+        "id": "A6-Q16",
+        "stem": "A 55-year-old woman with signet ring cell gastric cancer develops peritoneal metastases. CT shows PCI of 22 with no extraperitoneal disease. She has responded to 3 months of FLOT. What is the prognosis of signet ring cell peritoneal metastases compared to non-signet ring colorectal peritoneal metastases and what are the implications for CRS+HIPEC?",
+        "options": {
+          "A": "Signet ring cell peritoneal metastases have equivalent prognosis to non-signet ring CRC peritoneal metastases — CRS+HIPEC is equally indicated",
+          "B": "Signet ring cell peritoneal metastases have significantly worse prognosis — CRS+HIPEC outcomes are poor; case selection is critical and many expert centres consider signet ring histology a relative contraindication",
+          "C": "Signet ring cell histology is a contraindication to all forms of surgery — palliative care only",
+          "D": "Signet ring cell gastric peritoneal metastases should be treated with HIPEC only (no CRS) — cytoreduction is not needed"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Signet ring cell (SRC) peritoneal metastases — whether from gastric cancer or colorectal cancer — have significantly worse prognosis compared to non-signet ring histology after CRS+HIPEC. For gastric SRC peritoneal metastases, median OS after CRS+HIPEC is typically <24 months, even in CC-0 resections. Multiple studies identify SRC histology as an independent poor prognostic factor for CRS+HIPEC outcomes. Many expert peritoneal oncology centres consider SRC histology a relative contraindication to CRS+HIPEC for gastric peritoneal metastases. CRS+HIPEC for gastric peritoneal metastases remains investigational (GYMSSA, PERISCOPE-I/II trials) and should be offered within clinical trials.",
+          "wrong": {
+            "A": "Signet ring cell histology has a markedly worse prognosis than non-signet ring CRC peritoneal metastases — they are not equivalent.",
+            "C": "While prognosis is poor, surgery is not absolutely contraindicated — selected cases may be offered CRS+HIPEC within trials. Palliative care is not the only option.",
+            "D": "HIPEC without CRS is not effective — HIPEC only treats microscopic disease and cannot address gross peritoneal deposits. CRS is always required before HIPEC."
+          },
+          "guideline": "ESMO Peritoneal Metastases 2023 — gastric SRC peritoneal metastases: investigational; refer to trial; poor prognosis after CRS+HIPEC",
+          "trial": "GYMSSA trial (Levine, JAMA Surg 2019): gastric cancer CRS+HIPEC — poor outcomes in SRC subgroup; PERISCOPE-II ongoing (NCT02179489).",
+          "pearl": "SRC peritoneal metastases: worst prognosis category for CRS+HIPEC across all tumour types. Gastric SRC peritoneal metastases: median OS <18 months even after CC-0 cytoreduction. Offer within clinical trials only. In CRC, SRC component (>50% SRC) is also associated with poor CRS+HIPEC outcomes."
+        }
+      },
+      {
+        "id": "A6-Q17",
+        "stem": "During CRS+HIPEC for ovarian cancer peritoneal recurrence, bilateral ovarian involvement is found. What is the appropriate surgical management of bilateral ovarian disease in this setting?",
+        "options": {
+          "A": "Unilateral oophorectomy of the most affected ovary — preserve the contralateral ovary to maintain hormonal function",
+          "B": "Bilateral salpingo-oophorectomy — bilateral ovarian involvement in ovarian cancer CRS+HIPEC requires bilateral removal as part of the cytoreductive strategy",
+          "C": "Bilateral ovaries should be preserved — oophorectomy increases morbidity without oncological benefit in the context of HIPEC",
+          "D": "Bilateral oophorectomy only if the patient has completed menopause — preserve ovaries in premenopausal women"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In CRS+HIPEC for ovarian cancer, bilateral salpingo-oophorectomy (BSO) is standard because: (1) ovarian cancer is a bilateral disease in >70% of cases; (2) the ovaries are a common site of peritoneal deposit and require removal for CC-0 cytoreduction; (3) oestrogen stimulates ovarian cancer growth (particularly ER+ subtypes); (4) in patients with recurrent ovarian cancer, both ovaries are presumptively involved even if macroscopically asymmetric. Ovarian preservation in ovarian cancer surgery (primary or recurrent) is inappropriate and compromises cytoreduction completeness.",
+          "wrong": {
+            "A": "Unilateral oophorectomy for bilateral ovarian cancer involvement is oncologically inadequate — the contralateral ovary is a source of residual disease.",
+            "C": "Bilateral oophorectomy is oncologically essential in ovarian cancer CRS+HIPEC. The morbidity of surgical menopause is managed with HRT (where not contraindicated) — it does not justify leaving ovarian cancer in situ.",
+            "D": "Menopausal status does not change the requirement for BSO in ovarian cancer — premenopausal patients should be counselled about surgical menopause and offered HRT, but the ovaries must be removed."
+          },
+          "guideline": "ESMO Ovarian Cancer 2023 / NCCN Ovarian Cancer v3.2024 — BSO standard in all ovarian cancer surgery; recurrent disease: BSO as part of CRS",
+          "trial": "Chi DS et al., J Clin Oncol 2009: Interval CRS for ovarian cancer — BSO mandatory component; CC-0 achieved in 72% of patients.",
+          "pearl": "Ovarian cancer surgery (primary or recurrent CRS+HIPEC): BSO always. Preserve ovaries only in: (1) Borderline ovarian tumours in young women desiring fertility (with strict criteria); (2) Non-ovarian primary with ovarian metastases where ovarian preservation is part of the cytoreduction plan. Standard ovarian cancer = always BSO."
+        }
+      },
+      {
+        "id": "A6-Q18",
+        "stem": "Is laparoscopic CRS feasible for carefully selected peritoneal malignancy? Under which conditions is laparoscopic CRS most applicable?",
+        "options": {
+          "A": "Laparoscopic CRS is never feasible — the procedure requires open access for adequate visualisation and manipulation",
+          "B": "Laparoscopic CRS is feasible for selected patients with very low PCI (≤6) and limited peritoneal disease, particularly for appendiceal or ovarian primaries; it reduces morbidity vs open surgery in this select group",
+          "C": "Laparoscopic CRS is the standard approach for all PCI ≤20 disease — it should replace open CRS",
+          "D": "Laparoscopic CRS is only appropriate as a diagnostic procedure — therapeutic cytoreduction must be open"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Laparoscopic CRS is feasible and has been reported in highly selected patients with very limited peritoneal disease (PCI ≤6–10), typically from appendiceal, ovarian, or colorectal primaries. In these cases, laparoscopic peritonectomy, omentectomy, and limited organ resection can achieve CC-0 cytoreduction with lower morbidity than open surgery. The LACC trial and several retrospective series suggest equivalence in selected low-PCI cases. However, laparoscopic CRS is not standard of care and is not applicable to high PCI disease, which requires extensive peritonectomy and multiple organ resections requiring open access.",
+          "wrong": {
+            "A": "Laparoscopic CRS is feasible in selected cases — it is not universally contraindicated.",
+            "C": "Laparoscopic CRS is not the standard for all PCI ≤20 disease. It is limited to very low PCI (typically ≤6) in expert hands.",
+            "D": "Laparoscopic CRS can be therapeutic (not only diagnostic) in selected very low PCI cases — laparoscopic peritonectomy and omentectomy are technically feasible."
+          },
+          "guideline": "ESMO Peritoneal Metastases 2023 — laparoscopic CRS: investigational; selected PCI ≤6-10 at expert centres; not standard of care",
+          "trial": "Esquivel J et al., J Surg Oncol 2016: laparoscopic CRS for peritoneal surface malignancy — feasibility in PCI ≤10; morbidity lower than open CRS.",
+          "pearl": "Laparoscopic CRS: feasible only for very low PCI (≤6–10) disease in expert hands. Not standard — remains investigational. Most CRS+HIPEC requires open surgery for adequate visualisation of all 13 PCI regions and multiple organ resections."
+        }
+      },
+      {
+        "id": "A6-Q19",
+        "stem": "A novel trial compares normothermic (37°C) vs hyperthermic (43°C) intraperitoneal perfusion for peritoneal carcinomatosis. The investigators hypothesise that normothermic perfusion may be equally efficacious. What does current evidence indicate?",
+        "options": {
+          "A": "Normothermic intraperitoneal perfusion is equivalent to hyperthermic — the standard should change to normothermic",
+          "B": "Hyperthermic perfusion is superior to normothermic based on preclinical and clinical data demonstrating synergistic cytotoxicity between heat and intraperitoneal chemotherapy; normothermic IP chemotherapy (NIPC) remains investigational",
+          "C": "Normothermic perfusion is superior — hyperthermia increases systemic drug absorption and toxicity without additional tumour kill",
+          "D": "There is no difference between normothermic and hyperthermic perfusion — the chemotherapy agent determines efficacy, not temperature"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Hyperthermic intraperitoneal chemotherapy (HIPEC) exploits the synergistic cytotoxic effect of heat + chemotherapy. Preclinical data demonstrate: (1) Tumour cells are more heat-sensitive than normal cells at 41–43°C due to impaired vascular heat dissipation; (2) Heat increases drug uptake and membrane permeability; (3) Heat inhibits HSP-mediated DNA repair mechanisms, enhancing chemotherapy-induced DNA damage. Normothermic intraperitoneal chemotherapy (NIPC or NIPEC) has been investigated as an alternative (simpler to deliver, potentially less systemic toxicity) but has not been shown to be equivalent or superior to HIPEC in randomised evidence. HIPEC remains the standard hyperthermic approach.",
+          "wrong": {
+            "A": "There is no evidence from randomised trials that normothermic perfusion is equivalent to HIPEC. Normothermic IP chemotherapy remains investigational.",
+            "C": "Hyperthermia does not primarily increase systemic absorption — the peritoneal-plasma barrier limits systemic exposure. The main toxicity pathway of HIPEC is through peritoneal drug exposure.",
+            "D": "Temperature is not irrelevant — the hyperthermic effect provides independent cytotoxicity and chemotherapy synergy. Agent choice matters, but temperature matters too."
+          },
+          "guideline": "Ceelen W et al., Crit Rev Oncol Hematol 2021 — hyperthermic mechanism: drug synergy, DNA repair inhibition; normothermic IP: investigational (PIANIST trial ongoing)",
+          "trial": "Klaver CE et al. (COLOPEC, Br J Surg 2019): normothermic adjuvant IP oxaliplatin vs systemic — no benefit; hyperthermic HIPEC remains preferred approach.",
+          "pearl": "HIPEC vs NIPEC (normothermic IP chemotherapy): the hyperthermic component provides independent cytotoxicity that normothermic delivery cannot replicate. NIPEC is investigational. Do not conflate with EPIC (early postoperative IP chemotherapy, also normothermic but different timing)."
+        }
+      },
+      {
+        "id": "A6-Q20",
+        "stem": "The VARE trial evaluated adjuvant radiotherapy in retroperitoneal sarcoma after R1 resection. What was the primary finding and its implication for adjuvant RT in RPS?",
+        "options": {
+          "A": "Adjuvant RT significantly reduced local recurrence in all RPS histotypes — RT is now standard after all R1 resections",
+          "B": "The STRASS trial (not VARE) found no overall benefit of preoperative RT in RPS; adjuvant RT evidence remains limited — RT is considered in selected cases (DDLPS, MPNST) with R1 margins",
+          "C": "Adjuvant RT has no role in any RPS histotype — surgery alone is the definitive treatment",
+          "D": "Adjuvant RT is only indicated for LMS — other histotypes do not benefit"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The STRASS trial (Bonvalot et al., Lancet Oncol 2020) was the key RCT for preoperative radiotherapy in RPS. It randomised 266 patients with primary RPS to preoperative RT (50.4 Gy) + surgery vs surgery alone. The primary endpoint (abdominal recurrence-free survival) was not met overall (HR 0.95, p=0.76). However, a pre-specified subgroup analysis showed a significant benefit in WDLPS/DDLPS histotype (HR 0.67), not in LMS. Adjuvant RT evidence in RPS is limited — it is considered in selected cases (DDLPS or MPNST with R1 margins) where local recurrence is the dominant failure mode. RT is generally not indicated in WDLPS (low recurrence risk at R0/R1 if adequately resected) or LMS (distant metastasis dominant).",
+          "wrong": {
+            "A": "The STRASS trial was negative for its primary endpoint overall — RT does not provide universal benefit in all RPS histotypes.",
+            "C": "Adjuvant RT does have a role in selected RPS (DDLPS, MPNST with R1 margins) — it is not completely without indication.",
+            "D": "LMS recurs distantly — adjuvant RT to the primary site has less impact on LMS outcomes. The histotype that may benefit from RT is DDLPS/WDLPS (local recurrence dominant), not LMS."
+          },
+          "guideline": "ESMO Soft Tissue Sarcoma 2021 — preoperative RT in RPS: consider in WDLPS/DDLPS based on STRASS subgroup; not standard; adjuvant RT for MPNST R1",
+          "trial": "STRASS (Bonvalot, Lancet Oncol 2020): preoperative RT vs surgery in RPS — no overall benefit; WDLPS/DDLPS subgroup: HR 0.67 abdominal recurrence (exploratory).",
+          "pearl": "STRASS key lessons: (1) preoperative RT not standard for all RPS; (2) histotype matters — WDLPS/DDLPS may benefit (local recurrence dominant); LMS does not (distant dominant); (3) RT planning must avoid irradiating small bowel unnecessarily. Adjuvant RT decision: multidisciplinary at specialist sarcoma centre."
+        }
+      }
+    ]
+  }
+}

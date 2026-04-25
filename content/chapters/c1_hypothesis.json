@@ -1,0 +1,901 @@
+{
+  "id": "C1",
+  "title": "Hypothesis Generation & Research Question",
+  "subtitle": "Academic Surgery — From Clinical Observation to Testable Hypothesis",
+  "block": "C",
+  "block_name": "Academic Surgery",
+  "level": "PGY1+",
+  "reading_time_min": 55,
+  "guidelines_version": "Hulley's Designing Clinical Research 4th ed. · EQUATOR Network 2023 · Declaration of Helsinki 2013 · ICH E6(R2) GCP",
+  "textbook_refs": [
+    "Hulley SB et al. Designing Clinical Research, 4th ed. (2013), Ch. 2",
+    "Guyatt G et al. Users' Guides to the Medical Literature, 3rd ed. (2015)",
+    "Sackett DL et al. Evidence-Based Medicine (2000)",
+    "World Medical Association. Declaration of Helsinki (2013 revision)",
+    "ICH E6(R2) Good Clinical Practice Consolidated Guideline (2016)"
+  ],
+  "learning_objectives": [
+    "Apply the FINER criteria to evaluate the quality of a research question",
+    "Construct a PICO question from a clinical observation",
+    "Distinguish null hypothesis, alternative hypothesis, and directional hypothesis",
+    "Identify common errors in hypothesis formulation (HARKing, p-hacking, outcome switching)",
+    "Match a hypothesis to an appropriate study design",
+    "Apply the Declaration of Helsinki and ICH GCP principles to surgical research contexts",
+    "Identify key components of a grant application and major surgical funding bodies",
+    "Recognise the three categories of research misconduct and their consequences",
+    "Describe open science practices including pre-registration and data sharing",
+    "Define roles and responsibilities within a surgical research team"
+  ],
+  "sections": [
+    {
+      "id": "C1-S1",
+      "title": "What Makes a Good Research Question",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The research question is the cornerstone of every study. A poorly formulated question cannot be salvaged by sophisticated methodology, large sample sizes, or advanced statistical analysis. Conversely, a precisely defined, clinically meaningful question — even if addressed by a modest single-centre cohort — makes a genuine contribution to knowledge. The discipline of formulating a good research question before designing any study is the most important habit a surgical investigator can develop."
+        },
+        {
+          "type": "text",
+          "content": "The FINER criteria, proposed by Hulley and colleagues, provide a systematic framework for evaluating research questions. Each criterion addresses a distinct dimension of question quality: **F**easible (can this study actually be done?), **I**nteresting (does the answer matter?), **N**ovel (is the question unanswered?), **E**thical (can it be studied without unacceptable harm?), **R**elevant (will the answer change clinical practice or guide future research?). A research question must satisfy all five criteria — failure on any single dimension is usually fatal to the study."
+        },
+        {
+          "type": "table",
+          "title": "FINER Criteria — Detailed Assessment Framework",
+          "headers": ["Criterion", "Key Questions", "Common Failure Mode", "Surgical Example"],
+          "rows": [
+            ["Feasible", "Adequate subjects? Technical capability? Budget? Timeline?", "Overestimating accrual — the commonest grant-failure mode", "Power calculation shows 800 patients needed; your centre does 40/year"],
+            ["Interesting", "Will surgeons, patients, or guidelines act on this answer?", "Incremental questions with no practice impact", "5th RCT comparing two equivalent mesh types"],
+            ["Novel", "Has this been answered? Is a meta-analysis already definitive?", "Replicating existing evidence without added value", "RCT of antibiotic prophylaxis in bowel resection — settled"],
+            ["Ethical", "Could harm to participants outweigh benefit? Equipoise present?", "No clinical equipoise — one arm known inferior", "RCT of no-repair vs repair of rectal perforation — no equipoise"],
+            ["Relevant", "Will a positive OR negative result change something?", "Proxy outcome with no clinical translation", "Measuring cytokine levels with no patient-outcome link"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Application",
+          "content": "You observe that your centre's anastomotic leak rate after low anterior resection in diabetic patients seems higher than the published literature. Before designing a study, apply FINER: **F** — your centre performs 80 LAR/year, 20–25% in diabetics (feasible for pilot); **I** — anastomotic leak doubles reoperation and stoma rates, hugely impactful; **N** — existing data are inconsistent, no prospective study specifically in T2DM with modern glycaemic targets; **E** — observational study, no experimental risk; **R** — if confirmed, optimise glycaemic targets pre-operatively and change patient counselling. All five criteria passed — proceed to PICO formulation."
+        },
+        {
+          "type": "text",
+          "content": "The **novelty** criterion deserves particular attention in the era of systematic reviews and meta-analyses. Before formulating a new research question, a systematic literature search is mandatory — not a convenient Google Scholar search but a formal MEDLINE/EMBASE/Cochrane search with a defined strategy. If a high-quality systematic review already exists on the question, consider: (1) whether your question is more specific (different population, intervention, or outcome subgroup); (2) whether practice has changed since the review's search date; (3) whether there is genuine equipoise about the existing evidence. Reproducing established findings without additive value is not research — it is publication waste."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall",
+          "content": "The most common error in novelty assessment is **insufficient literature search**. A study designed without finding the existing evidence does not become novel retroactively — peer reviewers will identify the prior work and reject the manuscript. Conduct a structured systematic search of MEDLINE (PubMed), EMBASE, and Cochrane Database **before** writing the protocol, not before submission."
+        }
+      ]
+    },
+    {
+      "id": "C1-S2",
+      "title": "The PICO Framework",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "PICO — Population, Intervention, Comparison, Outcome — is the structured template for translating a clinical question into a researchable format. Originally developed for systematic review question framing (Richardson, 1995), PICO has become the universal language of clinical research question formulation across study designs. A correctly formulated PICO statement constrains the study scope, defines inclusion/exclusion criteria, specifies the primary outcome, and — importantly — makes the research question directly auditable against prior literature."
+        },
+        {
+          "type": "text",
+          "content": "**Population (P):** Describes the specific patient group of interest with sufficient precision to determine eligibility. Overly broad populations dilute the study signal; overly narrow populations limit generalisability. The P should specify: diagnosis, severity/stage, demographic constraints relevant to the question (age, sex), relevant comorbidities, and treatment context (primary vs recurrent, elective vs emergency). Example: 'Adult patients (≥18 years) with resectable T2-T3 rectal adenocarcinoma without distant metastases undergoing elective curative resection at a high-volume centre.'"
+        },
+        {
+          "type": "text",
+          "content": "**Intervention (I):** The treatment, procedure, diagnostic test, or exposure being studied. The I must be specified with sufficient technical detail to ensure reproducibility. For surgical trials this is particularly challenging: 'laparoscopic anterior resection' encompasses a wide range of techniques, surgeon experience levels, and institutional protocols. The CONSORT extension for surgical trials requires specification of procedure complexity, learning curve, and surgeon credentialling. Example: 'Laparoscopic total mesorectal excision (TME) performed by a surgeon with ≥50 laparoscopic TME cases in a centre performing ≥20 TME/year.'"
+        },
+        {
+          "type": "text",
+          "content": "**Comparison (C):** The control or comparator against which the intervention is measured. In RCTs this is the control arm; in observational studies it is the reference group. The C must represent the genuine clinical alternative — not a deliberately weakened comparator (biased design). 'Placebo' is appropriate when no active treatment exists; 'standard care' must be precisely defined as it varies geographically and temporally. In some questions, the comparison is absence of the intervention (pre-post designs) or a historical control — both of which carry significant methodological limitations."
+        },
+        {
+          "type": "text",
+          "content": "**Outcome (O):** The endpoint that will be measured. Outcome specification is the most consequential PICO element because it determines sample size, statistical analysis, and the clinical meaningfulness of results. Outcomes are classified as: **Primary** (the single pre-specified endpoint powering the study), **Secondary** (pre-specified additional endpoints, hypothesis-generating), and **Exploratory** (post-hoc, hypothesis-generating only). Patient-centred outcomes (overall survival, quality of life, functional recovery) are preferred over surrogate endpoints (tumour markers, imaging response) when the question concerns patient benefit."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — PICO in Surgical Research",
+          "content": "Surgical studies frequently use **composite outcomes** (e.g., 'major morbidity = Clavien-Dindo ≥3') as primary endpoints, combining events that may have different clinical significance. Always scrutinise composite endpoints: if the composite is driven primarily by minor components, the apparent treatment effect may not translate to clinically meaningful benefit. Decomposing composite outcomes in sensitivity analyses is good analytical practice."
+        },
+        {
+          "type": "case",
+          "content": "You are a PGY3 surgical resident who has noticed that patients undergoing emergency colostomy reversal (Hartmann's reversal) at your centre have a higher anastomotic leak rate when the reversal is performed within 3 months of the original operation compared to those operated after 6 months. You want to design a study to test this observation formally.",
+          "discussion": "PICO formulation: **P** — Adult patients undergoing elective Hartmann's reversal after emergency sigmoid resection for diverticular disease or volvulus, excluding malignancy. **I** — Reversal performed within 3 months of the index operation ('early reversal'). **C** — Reversal performed 6–12 months after index operation ('delayed reversal'). **O** — Primary: anastomotic leak rate (Grade B or C per International Study Group). Secondary: 90-day morbidity (Clavien-Dindo), operative time, conversion to open, length of stay, permanent stoma rate. This PICO maps to a retrospective cohort design as a starting point, with a prospective RCT as the definitive test if the cohort study demonstrates a clinically significant signal."
+        }
+      ]
+    },
+    {
+      "id": "C1-S3",
+      "title": "From Clinical Observation to Hypothesis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The research loop describes the iterative process by which clinical observation generates hypotheses, hypotheses generate studies, studies generate evidence, and evidence changes practice — which in turn generates new observations. Entry into this loop requires disciplined translation of informal clinical impression into a formally stated hypothesis. The gap between observation ('it seems like...') and hypothesis ('we hypothesise that...') is bridged by structured questioning, systematic literature review, and critical appraisal of existing evidence."
+        },
+        {
+          "type": "text",
+          "content": "Clinical observation is subject to cognitive biases that systematically distort informal data collection. **Availability bias** causes recent or memorable cases to be over-represented in informal recall. **Confirmation bias** filters new observations through pre-existing beliefs. **Ascertainment bias** occurs when outcomes are observed more carefully in one group than another (e.g., more imaging in high-risk patients). Formal research methodology exists precisely to control these biases through pre-specification, blinding, and randomisation. The first step in converting observation to hypothesis is acknowledging that informal clinical impressions are hypothesis-generating only — not hypothesis-confirming."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Availability Bias",
+          "content": "The most memorable cases — complications, unusual presentations, treatment failures — are disproportionately represented in informal clinical memory. A surgeon who recently managed three anastomotic leaks in diabetic patients may genuinely believe the leak rate in diabetics is higher at their centre, when in reality the cumulative data do not show a difference. **Formal audit or registry analysis is the minimum standard** before designing a hypothesis-driven study."
+        },
+        {
+          "type": "text",
+          "content": "The progression from observation to hypothesis follows a logical sequence. First, the observation is described in neutral, non-causal language: 'Among our patients, anastomotic leak appears more frequent in diabetics.' Second, a causal mechanism is proposed based on biological plausibility: 'Hyperglycaemia impairs neutrophil function, collagen synthesis, and angiogenesis — all critical for anastomotic healing.' Third, the hypothesis is formalised as a testable statement: 'In patients undergoing low anterior resection, perioperative hyperglycaemia (mean glucose >10 mmol/L) is associated with increased anastomotic leak rate.' Fourth, the hypothesis is matched to an appropriate study design and powered accordingly."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Biological Plausibility",
+          "content": "A hypothesis without a plausible biological mechanism is a statistical artefact waiting to be disproven. Before formalising a hypothesis, articulate **why** the association should exist mechanistically. Reviewers and grant committees will ask. If you cannot explain the biology, reconsider whether the observed association is spurious."
+        }
+      ]
+    },
+    {
+      "id": "C1-S4",
+      "title": "Types of Hypothesis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "A hypothesis is a precisely stated proposition about a relationship between variables that can be tested by empirical data. Three types of hypothesis are relevant to clinical research: the null hypothesis, the alternative hypothesis, and the directional hypothesis. Understanding their logical relationship is fundamental to interpreting p-values, confidence intervals, and statistical test results."
+        },
+        {
+          "type": "text",
+          "content": "The **null hypothesis (H₀)** states that there is no difference, no association, or no effect between the groups being compared. H₀ is the default position — the assumption that existing practice is adequate and any observed difference is due to chance. Example: 'There is no difference in anastomotic leak rate between diabetic and non-diabetic patients undergoing low anterior resection (H₀: leak rate_diabetic = leak rate_non-diabetic).' The study is designed to gather sufficient evidence to reject H₀ at a pre-specified significance threshold (typically α=0.05)."
+        },
+        {
+          "type": "text",
+          "content": "The **alternative hypothesis (H₁)** is the proposition the investigator believes to be true and wishes to demonstrate. H₁ is accepted by default when H₀ is rejected. Example: 'The anastomotic leak rate is different between diabetic and non-diabetic patients.' The alternative hypothesis can be two-tailed (different, in either direction) or one-tailed (specifically higher or lower)."
+        },
+        {
+          "type": "text",
+          "content": "A **directional hypothesis** specifies the expected direction of the difference: 'Anastomotic leak rate is **higher** in diabetic patients than non-diabetic patients.' Directional hypotheses are appropriate when there is strong prior evidence or biological rationale supporting a specific direction. They allow the use of one-tailed statistical tests, which are more powerful but less conservative. One-tailed tests are controversial in clinical research because a result in the unexpected direction is often clinically important and should not be ignored."
+        },
+        {
+          "type": "table",
+          "title": "Hypothesis Types — Summary",
+          "headers": ["Type", "Statement form", "Statistical test", "When to use"],
+          "rows": [
+            ["Null (H₀)", "'There is no difference between A and B'", "Two-tailed (default)", "Always stated; what you aim to reject"],
+            ["Alternative (H₁)", "'There is a difference between A and B'", "Two-tailed", "Standard for most clinical studies"],
+            ["Directional (H₁)", "'A is greater/less than B'", "One-tailed", "Strong prior evidence of specific direction; use cautiously"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Misinterpreting p-values",
+          "content": "**p < 0.05 does not mean the alternative hypothesis is true.** It means the probability of observing the data (or more extreme data) if H₀ were true is less than 5%. Rejecting H₀ is not the same as proving H₁. A statistically significant result can still be clinically irrelevant (large sample, tiny effect size), methodologically flawed (uncontrolled confounding), or a false positive (type I error). Always interpret p-values alongside effect sizes and confidence intervals."
+        }
+      ]
+    },
+    {
+      "id": "C1-S5",
+      "title": "Matching Hypothesis to Study Design",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The study design is not freely chosen — it is determined by the research question, hypothesis type, available resources, and ethical constraints. Choosing an inappropriate design for a given hypothesis is one of the most consequential errors in surgical research. The hierarchy of evidence reflects the relative ability of different designs to control for bias and confounding — not their absolute quality, since a well-conducted cohort study outperforms a poorly conducted RCT."
+        },
+        {
+          "type": "table",
+          "title": "Hypothesis-to-Design Matching",
+          "headers": ["Research Question Type", "Optimal Design", "Alternative", "Key Limitation"],
+          "rows": [
+            ["Does intervention A cause outcome B?", "RCT", "Prospective cohort (if RCT not feasible)", "Ethical/practical constraints on randomisation"],
+            ["How common is condition X?", "Cross-sectional survey / registry", "Systematic review of prevalence studies", "Sampling bias, temporal validity"],
+            ["What predicts outcome Y?", "Prospective cohort", "Retrospective cohort (registry)", "Confounding by indication in observational studies"],
+            ["What causes rare disease?", "Case-control", "Nested case-control (large cohort)", "Recall bias, selection of controls"],
+            ["What is the evidence base?", "Systematic review + meta-analysis", "Narrative review (lower evidence)", "Publication bias, heterogeneity"],
+            ["What happens after new procedure?", "Case series with structured follow-up", "Registry-based audit", "No comparison group; hypothesis-generating only"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Surgical RCTs face unique challenges that distinguish them from pharmaceutical trials. **Blinding** of the patient is often impossible (scars, different recovery profiles). **Blinding of the surgeon** is definitionally impossible — the surgeon knows what operation they are performing. **Standardisation** of the intervention is difficult — two surgeons performing 'laparoscopic TME' may be doing substantially different operations. The **IDEAL framework** (Idea, Development, Exploration, Assessment, Long-term study) provides a staged approach to evaluating surgical innovations that respects the learning curve and technical evolution inherent to surgical procedures."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Application — Feasibility Studies",
+          "content": "Before committing to a full-scale RCT, most surgical research groups conduct a **feasibility or pilot study** to test: (1) recruitment rate — can you achieve the required sample size?; (2) protocol adherence — will surgeons follow the intervention protocol consistently?; (3) outcome measurement — can the primary outcome be captured reliably?; (4) retention — do patients complete follow-up? A feasibility study should use a pre-specified progression criterion: 'If ≥80% of eligible patients consent and ≥90% complete 6-month follow-up, proceed to full trial.' NIHR and MRC require feasibility data for surgical RCT funding."
+        }
+      ]
+    },
+    {
+      "id": "C1-S6",
+      "title": "Common Errors in Hypothesis Formulation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The integrity of the research process depends on the hypothesis being formulated **before** data collection and analysis, remaining unchanged through the study, and being reported honestly regardless of the result. Multiple systematic distortions of this process have been documented in the surgical and medical literature, collectively contributing to the 'replication crisis' in biomedical science — the observation that a substantial proportion of published research findings cannot be replicated."
+        },
+        {
+          "type": "text",
+          "content": "**HARKing — Hypothesising After Results are Known** — occurs when a researcher analyses data exploratorily, identifies a significant association, and then reports it as if it were the pre-specified hypothesis. HARKing is a form of research misconduct because it inflates the type I error rate (false positive rate): with 20 comparisons, one will be significant at p<0.05 by chance alone. When reported as a confirmatory hypothesis, this chance finding appears to be real evidence. HARKing is detectable by comparing protocols (registered on ClinicalTrials.gov or ISRCTN) with published primary outcomes."
+        },
+        {
+          "type": "text",
+          "content": "**Outcome switching** is a specific form of HARKing in which the primary outcome specified at registration is changed to a secondary or exploratory outcome that happened to reach statistical significance. A landmark analysis of 323 registered RCTs (Chan, JAMA 2004) found that 62% had at least one primary outcome that was either silently changed, introduced, or omitted between registration and publication. Outcome switching is addressed by mandatory prospective registration with primary outcome specification before study initiation."
+        },
+        {
+          "type": "text",
+          "content": "**P-hacking** (also termed data dredging or significance hunting) involves testing multiple hypotheses or multiple subgroups until a p<0.05 is found, without pre-specifying the comparisons. P-hacking exploits the mathematical property that with enough comparisons, false positives become inevitable. Corrections for multiple comparisons (Bonferroni, Benjamini-Hochberg FDR) are designed to counteract this inflation, but the most robust protection is pre-specification of all comparisons in a statistical analysis plan."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Pre-registration",
+          "content": "All clinical trials should be registered in a publicly accessible registry (ClinicalTrials.gov, ISRCTN, ANZCTR) **before** the first patient is enrolled. Registration requires specification of: primary outcome, secondary outcomes, inclusion/exclusion criteria, sample size, and statistical analysis plan. Journals increasingly require pre-registration as a condition of submission. For observational studies, pre-registration on Open Science Framework (OSF) or similar platforms is best practice."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Selective Reporting",
+          "content": "Reporting only statistically significant results (or only non-significant results when that supports your argument) is **publication bias** at the study level and **selective reporting** within a study. Both distort the evidence base. Reporting guidelines (CONSORT for RCTs, STROBE for observational studies) mandate reporting of all pre-specified outcomes, including null results. A negative result, if properly powered, is as valuable as a positive one."
+        }
+      ]
+    },
+    {
+      "id": "C1-S7",
+      "title": "Ethical Framework for Surgical Research — Declaration of Helsinki and GCP",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "All research involving human participants must be conducted within an ethical framework grounded in respect for persons, beneficence, and justice. The **Declaration of Helsinki** (World Medical Association, 1964; revised most recently in 2013) is the foundational ethical document for medical research. It establishes that: (1) the interests of individual research participants must always take precedence over the interests of science and society; (2) research involving humans must be preceded by adequate laboratory and animal study; (3) every research protocol must be reviewed and approved by an independent Research Ethics Committee (REC) before the study begins; (4) informed consent must be obtained from all participants; (5) results — including negative results — must be published."
+        },
+        {
+          "type": "text",
+          "content": "**Good Clinical Practice (GCP)** — codified in the International Council for Harmonisation guideline ICH E6(R2) — is the international quality standard for designing, conducting, recording, and reporting clinical trials involving human participants. GCP ensures that trial data are credible and that participants' rights, safety, and wellbeing are protected. GCP requires: a qualified investigator, adequate resources, an approved protocol, documented informed consent, accurate data collection, pharmacovigilance reporting, and sponsor oversight. In the UK, GCP training is mandatory for all staff involved in NHS research. Clinical trials of investigational medicinal products (CTIMPs) require additional MHRA authorisation."
+        },
+        {
+          "type": "table",
+          "title": "Declaration of Helsinki — Key Principles for Surgical Research",
+          "headers": ["Principle", "Content", "Surgical Application"],
+          "rows": [
+            ["Paragraph 13 — REC approval", "Independent ethics committee must approve all protocols before initiation", "Institutional review board (IRB) or REC approval required before first enrolment"],
+            ["Paragraph 25 — Informed consent", "Free, informed, documented consent from competent participants", "Patient must understand both arms of the RCT including risks of each"],
+            ["Paragraph 26 — Vulnerable populations", "Special protections for incapacitated, emergency, paediatric populations", "Emergency surgical research requires prospective ethics waiver and proxy consent procedures"],
+            ["Paragraph 27 — Surrogate consent", "Legal representative may consent for incapacitated participant if ethics approved", "Emergency laparotomy trial — assent from next of kin with deferred consent from patient"],
+            ["Paragraph 34 — Negative results", "Authors, editors, sponsors have obligation to publish all results", "Negative surgical RCT results must be published, not suppressed"],
+            ["Paragraph 35 — Post-trial access", "Participants should have access to beneficial intervention after trial completion", "Investigational surgical technique available to control arm if proven superior"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "GCP — Core Responsibilities of the Principal Investigator",
+          "content": "The Principal Investigator (PI) bears ultimate responsibility for the conduct of the trial at their site. GCP mandates that the PI: (1) is medically qualified and competent; (2) has completed GCP training; (3) ensures informed consent is properly obtained and documented; (4) reports serious adverse events (SAEs) to the sponsor within 24 hours; (5) maintains accurate, contemporaneous source data; (6) permits monitoring and audit access; (7) ensures delegation of duties is documented in the delegation log. Non-compliance with GCP can result in invalidation of trial data and regulatory action."
+        },
+        {
+          "type": "text",
+          "content": "The ethical requirement of **clinical equipoise** is central to surgical research design. Equipoise — genuine uncertainty in the expert medical community about the comparative merits of two treatments — is the ethical justification for randomisation. A surgeon who genuinely believes that one operative approach is superior cannot ethically randomise patients to the inferior arm. Apparent equipoise (a surgeon pretending to be uncertain for research purposes) is unethical. Equipoise can exist at the community level even when individual surgeons have preferences — this 'collective equipoise' justifies multi-surgeon RCTs."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Emergency Surgical Research — Special Consent Challenges",
+          "content": "Research in emergency surgical settings (trauma, bowel obstruction, ruptured aneurysm) poses unique ethical challenges because: patients may lack capacity for consent at the time of randomisation; time pressure may prevent adequate discussion; proxies may not be available. Ethics committees may approve **deferred consent** or **waiver of consent** for emergency research, provided: the research cannot be done without the waiver, the risk is minimal relative to the emergency condition, patients are fully informed retrospectively at the earliest opportunity, and they may withdraw data if they choose. CRASH-2 (antifibrinolytic therapy in trauma) used a waiver of consent model approved in 40 countries."
+        }
+      ]
+    },
+    {
+      "id": "C1-S8",
+      "title": "Grant Application Structure and Funding Bodies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Securing research funding is an essential skill for the academic surgeon. Grant success rates at major funding bodies are typically 10–20%, making an understanding of application structure and reviewer expectations critical. A grant application is essentially a research protocol with a persuasive narrative — it must convince reviewers that the question is important, the team is capable, the methodology is rigorous, and the budget is justified. The structure of most major grant applications follows a common template, though specific requirements vary by funder."
+        },
+        {
+          "type": "table",
+          "title": "Major Surgical Research Funding Bodies",
+          "headers": ["Funder", "Country", "Typical Programme", "Focus Area"],
+          "rows": [
+            ["NIHR (National Institute for Health and Care Research)", "UK", "HTA, EME, HS&DR, Research for Patient Benefit", "Pragmatic clinical trials; health technology assessment; implementation"],
+            ["MRC (Medical Research Council)", "UK", "MRC Clinical Trials; MRC/NIHR EME Programme", "Discovery science; methodological development; early-phase trials"],
+            ["NIH (National Institutes of Health)", "USA", "R01 (independent investigator); R21 (exploratory); K-series (career development)", "Broad biomedical research; basic science to clinical translation"],
+            ["ASCO (American Society of Clinical Oncology)", "USA", "ASCO Young Investigator Award; ASCO Career Development Award", "Oncology-focused clinical and translational research"],
+            ["European Research Council (ERC)", "Europe", "ERC Starting Grant; ERC Consolidator Grant", "Frontier research; basic and applied science"],
+            ["Wellcome Trust", "UK/International", "Wellcome Clinical Research Career Development Fellowship; Investigator Awards", "Translational research; global health; mental health"],
+            ["ESMO / EORTC", "Europe", "EORTC clinical trials; ESMO research grants", "European oncology trials; cancer research"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "A competitive grant application typically contains the following sections: (1) **Lay summary** — a clear, jargon-free explanation of the research for non-specialist reviewers and the public (often posted publicly); (2) **Scientific background** — a critical synthesis of existing evidence demonstrating the gap the study will address; (3) **Research objectives and hypotheses** — precisely formulated FINER-compliant questions; (4) **Methodology** — study design, population, intervention, outcomes, sample size calculation, statistical analysis plan; (5) **Team** — investigator qualifications, track record, and collaborative structure; (6) **Feasibility** — patient access data, pilot data, site capability; (7) **Timeline** — GANTT chart with milestones and deliverables; (8) **Budget** — detailed, justified costs; (9) **Dissemination plan** — publication strategy, patient and public involvement, policy impact; (10) **Ethical considerations** — ethics approval strategy, participant burden, data governance."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Pilot Data for Grant Success",
+          "content": "The single most powerful predictor of grant success is **preliminary data**. Reviewers ask: 'Can this team do this study?' Pilot data demonstrate that: (1) the patient population exists in the numbers claimed; (2) the team can successfully consent and recruit; (3) the outcome can be reliably measured; (4) the intervention is technically deliverable. Even a 20-patient pilot study with appropriate outcomes dramatically increases grant competitiveness. Plan your career as a sequence of pilot → grant → full RCT → systematic review."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "NIHR Research for Patient Benefit — Practical Tips",
+          "content": "NIHR Research for Patient Benefit (RfPB) is the most accessible UK funder for surgical residents beginning their academic career. Key requirements: (1) the research question must be generated by clinicians and patients together; (2) Patient and Public Involvement (PPI) is mandatory — at least one patient contributor must be named; (3) applications are considered quarterly; (4) maximum award typically £250,000 over 3 years. Success rates approximately 15–20%. Two-stage application: outline (short, often reviewed within the region) then full application if shortlisted."
+        }
+      ]
+    },
+    {
+      "id": "C1-S9",
+      "title": "Research Misconduct — Fabrication, Falsification, and Plagiarism",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Research misconduct encompasses a range of behaviours that undermine the integrity of the scientific record. The three cardinal forms are defined by the US Office of Research Integrity (ORI) and adopted internationally: **Fabrication** — making up data or results and recording or reporting them as if real; **Falsification** — manipulating research materials, equipment, data, or results such that the research is not accurately represented; **Plagiarism** — appropriating another's ideas, processes, results, or words without giving appropriate credit. These three categories — collectively termed FFP — represent the most serious forms of misconduct and are grounds for retraction, institutional investigation, and professional disqualification."
+        },
+        {
+          "type": "table",
+          "title": "Forms of Research Misconduct — Definitions and Consequences",
+          "headers": ["Category", "Definition", "Surgical Example", "Consequence"],
+          "rows": [
+            ["Fabrication", "Inventing data that were not collected", "Reporting operative times for procedures not actually performed in the stated protocol", "Retraction; dismissal; research funding ban; GMC referral"],
+            ["Falsification", "Manipulating or selectively altering data", "Removing outlier anastomotic leak cases from database to achieve p<0.05", "Retraction; institutional investigation; may constitute fraud"],
+            ["Plagiarism", "Using others' work without attribution", "Copying a methods section from a prior paper without citation", "Retraction of article; copyright infringement; career damage"],
+            ["Duplicate publication", "Publishing the same data in multiple journals", "Submitting the same case series to two journals simultaneously", "Retraction; journal blacklisting; editor alerts"],
+            ["Authorship misconduct", "Gift, ghost, or guest authorship", "Adding department chief as co-author who had no study involvement", "Journal sanctions; institutional policy violation"],
+            ["Image manipulation", "Altering histological or Western blot images", "Artificially enhancing contrast on pathology images", "Retraction; may be classified as fabrication"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Beyond the FFP triad, the research community recognises a spectrum of **questionable research practices (QRPs)** that — while not always rising to the level of formal misconduct — systematically distort the scientific record. These include: HARKing, p-hacking, selective outcome reporting, inadequate data storage, failure to declare conflicts of interest, and gift authorship. QRPs are widespread — surveys suggest 30–70% of researchers have engaged in at least one QRP — and collectively contribute to the replication crisis more than outright fraud, because individual instances are difficult to detect and address."
+        },
+        {
+          "type": "text",
+          "content": "In the UK, research misconduct is investigated under the **UK Research Integrity Office (UKRIO)** framework and individual institutional policies. The General Medical Council (GMC) requires doctors to be honest in research and to report suspected misconduct. Authors on multi-author papers bear shared responsibility for the integrity of published data — adding your name to a paper without reviewing the underlying data is ethically and professionally hazardous. The Committee on Publication Ethics (COPE) provides guidance on managing misconduct at the editorial level and is consulted by most major surgical journals."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Authorship Standards — ICMJE Criteria",
+          "content": "The International Committee of Medical Journal Editors (ICMJE) defines authorship by four criteria, ALL of which must be met: (1) Substantial contributions to conception or design, OR acquisition, analysis, or interpretation of data; (2) Drafting the work or revising it critically for intellectual content; (3) Final approval of the version to be published; (4) Agreement to be accountable for all aspects of the work. Anyone who does not meet all four criteria should be listed in Acknowledgements, not as an author. Gift authorship (adding contributors for prestige or reciprocity) and ghost authorship (failing to name actual contributors) are both violations of ICMJE standards."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "ORCID — Researcher Identity",
+          "content": "ORCID (Open Researcher and Contributor ID) provides a persistent 16-digit identifier for researchers. It distinguishes your publications from similarly named colleagues, connects across databases (PubMed, Scopus, Web of Science), and tracks name changes. Most major funders (NIHR, Wellcome, NIH) now require ORCID registration in grant applications. Most major journals request ORCID at submission. Register at orcid.org — it is free and takes 5 minutes. Include your ORCID in your CV and correspondence."
+        }
+      ]
+    },
+    {
+      "id": "C1-S10",
+      "title": "Open Science — Pre-registration, Data Sharing, and Reproducibility",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Open science encompasses a set of practices designed to make the research process more transparent, reproducible, and accessible. The open science movement emerged partly in response to the replication crisis — the recognition that many published findings could not be independently reproduced. Key components of open science relevant to surgical researchers include: prospective trial registration, pre-registration of study protocols and statistical analysis plans, open access publication, data sharing, code sharing, and open materials."
+        },
+        {
+          "type": "text",
+          "content": "**Prospective trial registration** in a WHO-approved registry (ClinicalTrials.gov, ISRCTN, ANZCTR) before the first patient is enrolled is now a condition of publication in virtually all major surgical journals and a requirement for ethical approval in most countries. Registration commits the team to the pre-specified primary outcome and statistical analysis plan, making post-hoc outcome switching detectable. The ICMJE requires registration as a prerequisite for journal submission. Studies of observational design can be registered on OSF (Open Science Framework) with a time-stamped protocol."
+        },
+        {
+          "type": "text",
+          "content": "**Data sharing** — making individual participant data (IPD) available to other researchers under appropriate governance — enables replication of analyses, patient-level meta-analysis, and re-use of costly datasets. The NIH mandates a Data Management and Sharing Plan for all funded research since January 2023. NIHR research data sharing guidance requires that data be shared within 12 months of study completion. Data sharing must respect: patient consent (either specific or broad), GDPR/data protection legislation, anonymisation requirements, and institutional governance. Suitable platforms include UK Data Service, Harvard Dataverse, and Zenodo."
+        },
+        {
+          "type": "table",
+          "title": "Open Science Practices — Practical Implementation",
+          "headers": ["Practice", "Tool/Platform", "Requirement Level", "Benefit"],
+          "rows": [
+            ["Trial registration", "ClinicalTrials.gov; ISRCTN", "Mandatory for RCTs (ICMJE)", "Prevents HARKing; enables systematic reviews"],
+            ["Protocol pre-registration", "OSF; PROSPERO (for systematic reviews)", "Best practice for observational studies", "Time-stamps hypothesis; reduces publication bias"],
+            ["Statistical Analysis Plan (SAP)", "Published in trial registry or as protocol paper", "Required by CONSORT, STROBE", "Prevents p-hacking; enables replication"],
+            ["Open access publication", "PubMed Central; institutional repositories; hybrid journals", "Mandated by NIH, NIHR, Wellcome", "Maximises readership and impact"],
+            ["Data sharing", "UK Data Service; Harvard Dataverse; Zenodo; XNAT", "Mandatory for NIH/NIHR funded research", "Enables replication; increases citation rate"],
+            ["Code sharing", "GitHub; OSF; Zenodo", "Increasingly required by journals", "Enables computational reproducibility"],
+            ["Registered reports", "Journals offering Registered Report format", "Voluntary; guarantees publication pre-data", "Eliminates publication bias for small studies"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "Reproducibility in Surgical Research",
+          "content": "Reproducibility requires that an independent researcher, given the same data and code, arrives at the same conclusions. Replicability requires that an independent researcher, collecting new data with the same protocol, arrives at the same conclusions. In surgical research, full replication is rarely possible (different surgeons, hospitals, eras), but reproducibility of analysis is achievable. Share: (1) anonymised datasets; (2) all analysis code (R, Stata, SPSS syntax); (3) the statistical analysis plan; (4) the outcome measurement protocol. A reproducible surgical study is one where any statistician given the data arrives at the same numbers."
+        }
+      ]
+    },
+    {
+      "id": "C1-S11",
+      "title": "The Research Team — Roles, Collaboration, and Conflicts of Interest",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Modern surgical research is inherently collaborative. Single-surgeon, single-centre studies — however carefully conducted — have limited generalisability and are insufficient for most policy-changing questions. The contemporary surgical research team spans multiple disciplines: clinical investigators, biostatisticians, qualitative researchers, health economists, trial managers, data managers, patient and public representatives, and methodologists. Understanding the roles within this team and managing the relationships between them is as important as understanding the science itself."
+        },
+        {
+          "type": "table",
+          "title": "Surgical Research Team — Roles and Responsibilities",
+          "headers": ["Role", "Responsibilities", "When Essential"],
+          "rows": [
+            ["Chief Investigator (CI)", "Overall scientific and regulatory accountability; grant holder; lead author", "All funded studies; multicentre trials"],
+            ["Principal Investigator (PI)", "Site-level accountability; GCP responsibility; local recruitment", "Each participating centre in multicentre study"],
+            ["Biostatistician", "Sample size; statistical analysis plan; analysis; reporting", "All quantitative studies (mandatory for grants)"],
+            ["Trial Manager / Research Nurse", "Day-to-day protocol delivery; consent; data collection; adverse event reporting", "All RCTs; complex prospective studies"],
+            ["Data Manager", "Database design; data quality; data governance; linkage", "Large studies; studies using electronic records"],
+            ["Health Economist", "Cost-effectiveness analysis; HTA submissions; budget impact modelling", "NIHR HTA studies; trials with economic endpoint"],
+            ["Qualitative Researcher", "Process evaluation; patient experience; implementation research", "Complex interventions; mixed-methods studies"],
+            ["Patient and Public Involvement (PPI) Representative", "Co-design of research question; outcome selection; trial materials; dissemination", "All NIHR-funded research (mandatory)"],
+            ["Sponsor Representative", "Regulatory oversight; insurance; GCP monitoring", "All CTIMPs; NHS-sponsored studies"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "**Conflicts of interest (COI)** arise when a researcher's financial, professional, or personal interests could inappropriately influence their judgement in the conduct, reporting, or interpretation of research. The major categories of COI in surgical research are: **Financial COI** — funding from device or pharmaceutical companies, consultancy fees, equity interests, speaker payments, patent royalties; **Professional COI** — desire to demonstrate superiority of one's own technique, career advancement incentives, institutional prestige; **Personal COI** — prior beliefs, prior publications, personal relationships with authors. All journals require disclosure of COI at submission. All grant applications require disclosure of financial interests. Failure to disclose constitutes misconduct."
+        },
+        {
+          "type": "text",
+          "content": "Industry-sponsored surgical research presents particular challenges. Device manufacturers may fund RCTs of their products with contract provisions that give the sponsor control over data access, publication decisions, or statistical analysis. The NEJM, JAMA, and Lancet require that academic investigators have independent access to all trial data and the right to publish regardless of results. 'Publication restriction' clauses in industry contracts violate journal policy and should not be signed. The FDAAA 2007 (US) and CTR regulation (EU) require registration and results reporting of industry-sponsored trials within 12 months of study completion."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Device Industry Relationships in Surgical Research",
+          "content": "Surgical device companies routinely provide training, equipment loans, and 'educational' funding to surgeons. These arrangements create financial conflicts of interest that should be declared. Specifically: (1) if you receive payment for training surgeons on a device you are then studying, this is a COI that must be declared; (2) if a company funds a registry that you lead, their analysis rights must be contractually limited; (3) proctored surgical cases funded by the device company should not be included in your 'independent' outcomes data. The Association of British Healthcare Industries (ABHI) code of practice and MedTech Europe Code govern industry-healthcare professional relationships."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Delphi Consensus Methodology in Surgical Research",
+          "content": "When RCT evidence is absent and expert opinion must be formalised, the **Delphi method** provides a structured approach to reaching consensus. In surgical research, Delphi studies are used to: define core outcome sets (e.g., COMET Initiative — what outcomes should all trials in a domain measure?); establish consensus on case definitions (e.g., anastomotic leak grading); prioritise research questions (e.g., James Lind Alliance Priority Setting Partnerships). Delphi uses iterative anonymous questionnaire rounds (typically 2–3) with controlled feedback between rounds, converging toward consensus defined a priori (e.g., ≥70% agreement). Participant panels should include surgeons, other clinicians, and patients."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your understanding of hypothesis generation, research ethics, and open science with 20 questions.",
+    "questions": [
+      {
+        "id": "C1-Q1",
+        "stem": "A PGY2 surgical resident wants to study whether perioperative high-dose vitamin C supplementation reduces anastomotic leak after colorectal surgery. Applying the FINER criteria, which criterion is MOST at risk?",
+        "options": {
+          "A": "Feasible — colorectal surgery is too rare to recruit adequate numbers",
+          "B": "Novel — vitamin C in surgical healing is a completely unstudied topic",
+          "C": "Relevant — anastomotic leak is not an important outcome in colorectal surgery",
+          "D": "Ethical — no equipoise exists if prior evidence already establishes harm or benefit"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Before designing this study, the resident must conduct a systematic literature search. If prior RCTs already demonstrate that high-dose vitamin C causes harm (pro-oxidant effects at high doses, renal oxalate stones) or definitively establish benefit, then clinical equipoise is absent — it would be unethical to randomise patients to a known inferior arm. The Ethics criterion fails when equipoise is absent.",
+          "wrong": {
+            "A": "Colorectal surgery is one of the most common major operations — approximately 150,000 colectomies/year in the UK alone. Feasibility of recruitment is not the primary concern here.",
+            "B": "Vitamin C and wound healing has been studied extensively. The question is not whether it is studied, but whether existing evidence already provides a definitive answer removing equipoise.",
+            "C": "Anastomotic leak is one of the most consequential complications of colorectal surgery, associated with reoperation, stoma formation, sepsis, and increased cancer recurrence. Relevance is not at risk."
+          },
+          "guideline": "ICH E6 GCP guidelines — clinical equipoise as prerequisite for RCT conduct",
+          "trial": "Elia M et al. (Cochrane 2019): systematic review of nutritional supplements and surgical outcomes — individual nutrients alone have not shown consistent benefit in adequately nourished patients.",
+          "pearl": "Every research question must pass FINER before study design begins. A single failing criterion — especially Ethics — is sufficient to abandon or fundamentally redesign the study."
+        }
+      },
+      {
+        "id": "C1-Q2",
+        "stem": "A surgeon analyses their 5-year colorectal database post-hoc and finds that statin use is associated with 40% reduction in anastomotic leak (p=0.04). They write this up as a 'pre-specified hypothesis-driven study.' What is the methodological problem?",
+        "options": {
+          "A": "The sample size is too small",
+          "B": "Statins have no plausible mechanism for reducing anastomotic leak",
+          "C": "This is HARKing — the hypothesis was formulated after seeing the data",
+          "D": "A p-value of 0.04 is not statistically significant"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "HARKing (Hypothesising After Results are Known) occurs when a researcher explores data, identifies a significant association, and retrospectively presents it as a pre-specified hypothesis. This inflates the false positive rate — with many potential associations in a 5-year database, some will be significant by chance. The correct approach is to label this as a hypothesis-generating observation and design a prospective confirmatory study.",
+          "wrong": {
+            "A": "Sample size is a concern but not identified as the specific problem in the question. The fundamental issue is the retrospective hypothesis formulation.",
+            "B": "Statins have plausible anti-inflammatory and vascular biology mechanisms relevant to healing — biological plausibility is not the problem here.",
+            "D": "A p-value of 0.04 is below the conventional α=0.05 threshold and would be considered statistically significant. The problem is not the p-value but how the analysis was conducted and presented."
+          },
+          "guideline": "EQUATOR Network — reporting guidelines emphasise prospective hypothesis specification and full disclosure of exploratory vs confirmatory analyses",
+          "trial": "Chan AW et al. (JAMA 2004): 62% of RCTs had primary outcome discrepancies between registration and publication — HARKing and outcome switching are widespread.",
+          "pearl": "The solution to HARKing is prospective registration. Register your study with a pre-specified primary outcome on ClinicalTrials.gov before any data collection begins."
+        }
+      },
+      {
+        "id": "C1-Q3",
+        "stem": "What is the correct formulation of a null hypothesis for a study comparing 30-day surgical site infection (SSI) rates between laparoscopic and open colectomy?",
+        "options": {
+          "A": "Laparoscopic colectomy will have a lower SSI rate than open colectomy",
+          "B": "There is no difference in 30-day SSI rate between laparoscopic and open colectomy",
+          "C": "Open colectomy causes more wound infections due to larger incisions",
+          "D": "Laparoscopic colectomy is superior to open colectomy for all outcomes"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The null hypothesis (H₀) always states that there is no difference, no effect, or no association between the compared groups. It is the default position that the study aims to gather sufficient evidence to reject.",
+          "wrong": {
+            "A": "This is a directional alternative hypothesis (H₁), specifying the expected direction of the difference. Not the null hypothesis.",
+            "C": "This is a causal claim and directional alternative hypothesis. Null hypotheses do not assert causality or direction.",
+            "D": "This is an overreaching alternative hypothesis covering multiple outcomes. A null hypothesis must correspond to the specific, pre-defined primary outcome."
+          },
+          "guideline": "Hulley SB et al. Designing Clinical Research, 4th ed. — Chapter 5: Hypotheses",
+          "trial": "COLOR Trial (Veldkamp, Lancet Oncology 2005): primary outcome was SSI and overall morbidity — correctly pre-specified null hypothesis enabled definitive conclusion.",
+          "pearl": "Every study has exactly one null hypothesis corresponding to the primary outcome. The null hypothesis is never 'there is a difference' — that is always the alternative."
+        }
+      },
+      {
+        "id": "C1-Q4",
+        "stem": "Which of the following is the correct PICO formulation for the research question: 'Does laparoscopic appendicectomy reduce surgical site infection compared to open appendicectomy in adults with uncomplicated acute appendicitis?'",
+        "options": {
+          "A": "P=appendicitis, I=surgery, C=no surgery, O=infection",
+          "B": "P=adults with uncomplicated acute appendicitis, I=laparoscopic appendicectomy, C=open appendicectomy, O=surgical site infection rate",
+          "C": "P=surgeons, I=laparoscopic technique, C=open technique, O=satisfaction",
+          "D": "P=all surgical patients, I=laparoscopy, C=open surgery, O=all complications"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The PICO framework requires precise specification of each element. Population — adults with uncomplicated acute appendicitis; Intervention — laparoscopic appendicectomy; Comparison — open appendicectomy; Outcome — surgical site infection rate. Each element precisely matches the research question without over-broadening the scope.",
+          "wrong": {
+            "A": "This PICO is far too vague — 'surgery' is not a specific intervention, 'no surgery' is not the clinical alternative, and 'infection' is not the precisely defined outcome.",
+            "C": "The population is surgeons, not patients — this formulates a different research question entirely. The population in clinical PICO is always the patient group.",
+            "D": "All surgical patients is too broad — the population must specify the condition. All complications as an outcome is too vague."
+          },
+          "guideline": "Richardson WS et al. JAMA 1995 — original PICO formulation for evidence-based medicine practice",
+          "trial": "Cochrane Review: laparoscopic vs open appendicectomy in adults — 85 RCTs, 9,765 patients. This meta-analysis was findable because studies used consistent PICO framing.",
+          "pearl": "A well-formed PICO can be directly entered as a search string into MEDLINE. If it yields zero relevant results, it may be too narrow. If 10,000+, too broad."
+        }
+      },
+      {
+        "id": "C1-Q5",
+        "stem": "A researcher analyses 50 subgroups in a large RCT dataset and finds that in diabetic women over 70 with T3 sigmoid cancer, laparoscopic surgery is significantly better than open (p=0.03). The pre-specified primary analysis was neutral. What is the most appropriate interpretation?",
+        "options": {
+          "A": "This subgroup finding proves laparoscopic surgery is superior in this population and should immediately change practice",
+          "B": "This is likely a false positive due to multiple comparisons — it should be considered hypothesis-generating only",
+          "C": "A p=0.03 in a subgroup analysis is more reliable than the primary analysis because it identifies responders",
+          "D": "The subgroup finding should be reported as the primary result since it reached significance"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Unplanned subgroup analyses are highly prone to false positives. With 50 subgroups tested at α=0.05, approximately 2–3 significant results are expected by chance alone. A significant finding in a post-hoc subgroup should be considered hypothesis-generating only, assessed for biological plausibility, and subjected to interaction testing.",
+          "wrong": {
+            "A": "A post-hoc subgroup analysis cannot change practice — it generates a hypothesis to be tested in a dedicated study.",
+            "C": "Post-hoc subgroup p-values are less reliable than the pre-specified primary analysis, not more.",
+            "D": "Reporting a post-hoc finding as the primary result is a form of outcome switching and violates the statistical analysis plan."
+          },
+          "guideline": "CONSORT 2010 — subgroup analyses must be pre-specified with statistical analysis plan and tested with interaction terms",
+          "trial": "ISIS-2 (Lancet 1988) — aspirin was ineffective in patients born under Gemini or Libra in an unplanned subgroup. Illustrates the absurdity of unplanned subgroup analyses.",
+          "pearl": "The key question for any subgroup analysis is: was it pre-specified? If yes, treat with reasonable confidence. If no (post-hoc), treat as hypothesis-generating only."
+        }
+      },
+      {
+        "id": "C1-Q6",
+        "stem": "According to the Declaration of Helsinki (2013 revision), what is the MINIMUM ethical requirement before a surgical RCT can commence enrolment?",
+        "options": {
+          "A": "Publication of a pilot study demonstrating feasibility",
+          "B": "Registration on ClinicalTrials.gov",
+          "C": "Independent Research Ethics Committee (REC) review and approval of the protocol",
+          "D": "Written consent from the lead surgeon's department head"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Declaration of Helsinki Paragraph 23 states that the research protocol must be submitted for review, comment, guidance, and approval to a Research Ethics Committee (REC) before the study begins. The REC must be independent of the researcher and the sponsor. REC approval is mandatory before any participant is enrolled, any study intervention is applied, or any research data are collected.",
+          "wrong": {
+            "A": "Pilot studies are methodologically advisable but are not a mandatory ethical requirement before commencing an RCT.",
+            "B": "Trial registration is a transparency and publication-ethics requirement, not the primary ethical approval mechanism under Helsinki. Registration should accompany or precede first enrolment, but REC approval is the foundational requirement.",
+            "D": "Departmental approval is an institutional requirement, not the independent ethical review mandated by Helsinki. The committee must be independent of the investigator."
+          },
+          "guideline": "Declaration of Helsinki 2013 — Paragraph 23: Independent Ethics Committee approval mandatory before study initiation",
+          "trial": "EORTC trials — all require independent IRB/REC approval at each participating centre before any patients are enrolled at that site.",
+          "pearl": "No patient should be approached for research participation, and no research procedure should be performed, before REC approval is in place. Commencing a trial before ethics approval is research misconduct."
+        }
+      },
+      {
+        "id": "C1-Q7",
+        "stem": "Which of the following is the correct definition of Good Clinical Practice (GCP) in the context of surgical research?",
+        "options": {
+          "A": "A set of surgical technique standards that ensure optimal patient outcomes in clinical care",
+          "B": "An international quality standard for designing, conducting, recording, and reporting clinical trials involving human participants",
+          "C": "A framework for calculating appropriate sample sizes in surgical RCTs",
+          "D": "A system of peer review for surgical journal manuscripts"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Good Clinical Practice (ICH E6(R2)) is the international quality standard that provides a unified standard for the EU, Japan, and USA to facilitate the mutual acceptance of clinical data. GCP encompasses: the responsibilities of sponsors and investigators; protocol design and documentation; informed consent procedures; data quality and integrity; safety reporting; and monitoring. GCP training is mandatory for all staff involved in clinical research at NHS-sponsored sites.",
+          "wrong": {
+            "A": "GCP is a research regulatory standard, not a clinical care quality framework. Clinical care standards are governed by NICE, GMC guidance, and professional society recommendations.",
+            "C": "Sample size calculation is a statistical component of research design, not the definition of GCP.",
+            "D": "Peer review is a publication and quality assurance process managed by journals, entirely separate from GCP."
+          },
+          "guideline": "ICH E6(R2) Good Clinical Practice Consolidated Guideline 2016 — foundational document for all clinical trial conduct",
+          "trial": "NIHR Clinical Research Network requires GCP certification for all staff involved in adopted portfolio studies, including surgical trials.",
+          "pearl": "GCP training must be renewed every 2 years in most NHS institutions. It is a prerequisite for being named as an investigator on any funded clinical trial."
+        }
+      },
+      {
+        "id": "C1-Q8",
+        "stem": "A trauma surgery team wants to conduct an RCT comparing two haemostatic agents in patients with intra-abdominal haemorrhage requiring emergency laparotomy. Most patients will be unconscious or in haemorrhagic shock at enrolment. What consent approach is ethically appropriate?",
+        "options": {
+          "A": "Standard written informed consent obtained from all patients before randomisation",
+          "B": "No consent required in emergency settings — clinical necessity overrides research ethics",
+          "C": "Deferred consent — research intervention proceeds with proxy/next-of-kin assent; patient is fully informed at earliest opportunity post-recovery",
+          "D": "The study cannot be conducted because emergency patients can never be enrolled in research"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The Declaration of Helsinki (Paragraph 27) and UK Mental Capacity Act (2005) allow research to proceed without prospective consent when: (1) the patient lacks capacity due to the emergency condition; (2) the research cannot otherwise be conducted; (3) proxy/legal representative assent is obtained; (4) the patient is fully informed at the earliest opportunity and may withdraw. This 'deferred consent' model was used by landmark trials including CRASH-2 (tranexamic acid in trauma) and ROOBY (off-pump vs on-pump bypass). Ethics committee approval of this specific consent procedure is mandatory.",
+          "wrong": {
+            "A": "Standard prospective written consent is impossible in an incapacitated emergency patient — this approach would exclude the very population the research targets.",
+            "B": "Research ethics requirements apply even in emergency settings. The absence of capacity requires a defined alternative consent procedure, not abandonment of consent altogether.",
+            "D": "Emergency patients are an important research population — excluding them leads to evidence gaps in emergency care. Ethical frameworks exist specifically to enable this research."
+          },
+          "guideline": "Declaration of Helsinki Paragraph 27 — deferred consent; EU Clinical Trials Regulation 536/2014 — emergency consent procedures",
+          "trial": "CRASH-2 (Lancet 2010) — enrolled >20,000 trauma patients using deferred consent across 40 countries; reduced mortality by 9%; ethical framework approved by ethics committees in all participating countries.",
+          "pearl": "Deferred consent requires pre-approval of the specific procedure by the ethics committee — it is not a general waiver. The consent process after recovery must be documented in the research record."
+        }
+      },
+      {
+        "id": "C1-Q9",
+        "stem": "A surgical trainee plans to publish a retrospective case series using routinely collected clinical data from the hospital electronic health record without obtaining patient consent. Which statement is MOST accurate regarding ethical requirements?",
+        "options": {
+          "A": "Retrospective studies using anonymised routinely collected data always require individual patient consent",
+          "B": "Retrospective studies are exempt from ethical oversight if data are anonymised and the number of patients is small",
+          "C": "Many jurisdictions permit retrospective audit and research using anonymised data with ethics committee approval but without individual consent, depending on the nature of the data and local regulations",
+          "D": "Ethical approval is only required for prospective studies involving experimental interventions"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "The ethical requirements for secondary data analysis depend on jurisdiction, data type, and degree of anonymisation. In the UK, service evaluation and clinical audit using fully anonymised data may not require REC approval, but formal quality improvement and research studies require at minimum NHS governance approval (HRA assessment) and often REC review. In the US, fully de-identified retrospective data may qualify for IRB exemption under the Common Rule. Crucially, 'anonymised' is not the same as 'identifiable removed' — the standard is that re-identification must be practically impossible. Local Research and Development (R&D) office guidance must be consulted in all cases.",
+          "wrong": {
+            "A": "Individual patient consent is not always required for secondary analysis of anonymised data — this would make most retrospective research impractical and is not the universal standard.",
+            "B": "Small sample size does not provide ethical exemption. Even with 10 patients, if the data contain sensitive or identifiable information, ethical safeguards apply.",
+            "D": "Ethical oversight applies to all research involving human participants or their data, including retrospective observational studies, regardless of whether an intervention is tested."
+          },
+          "guideline": "UK HRA guidance — 'Is my study research?' decision tool; GDPR Article 9 — special category health data; Common Rule 45 CFR 46.104 — exempt categories",
+          "trial": "Swaminathan et al. (BJS 2020): UK-wide retrospective NBOCA analysis used HES-NBOCA linked data under Section 251 approval — required NHS Digital Data Access Request Committee approval, not individual consent.",
+          "pearl": "When in doubt about ethical requirements for retrospective data use, consult your institutional R&D office BEFORE starting the study. Post-hoc ethics applications are not generally accepted and may prevent publication."
+        }
+      },
+      {
+        "id": "C1-Q10",
+        "stem": "A consultant surgeon declares that they have no conflict of interest when submitting a surgical device RCT to a journal. However, they received £15,000 in speaker fees and £8,000 in consulting fees from the device manufacturer in the previous 2 years. What is the correct assessment of this declaration?",
+        "options": {
+          "A": "The declaration is accurate — only equity stakes constitute a true conflict of interest",
+          "B": "The declaration is inaccurate — financial payments from the device manufacturer must be declared as conflicts of interest",
+          "C": "The declaration is accurate — payments below £25,000 are below the declaration threshold",
+          "D": "The declaration is only relevant if the surgeon is the first author"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Most major journals and regulatory bodies require disclosure of all financial relationships with commercial entities that have an interest in the research, regardless of the amount. ICMJE guidelines require disclosure of all financial relationships within the past 36 months that could be perceived as a conflict, including: consulting fees, speaker honoraria, travel support, research funding, equity interests, and patents. Speaker fees and consulting fees from the device manufacturer being studied are exactly the type of relationship that must be disclosed — they create a financial incentive that could influence study conduct, analysis, or reporting.",
+          "wrong": {
+            "A": "Equity is one form of financial conflict but not the only one. Consulting fees, speaker payments, research funding, and honoraria all constitute financial conflicts requiring disclosure.",
+            "C": "There is no universal monetary threshold below which disclosure is not required. ICMJE and most journals require disclosure of any relevant financial relationship.",
+            "D": "All co-authors must disclose conflicts of interest, not only the first author. Every author bears responsibility for the integrity of the work."
+          },
+          "guideline": "ICMJE Uniform Requirements — conflict of interest disclosure; COPE guidance on conflicts of interest in peer review and publication",
+          "trial": "Lundh A et al. (BMJ 2017): industry-funded trials show systematically more favourable results — demonstrates why financial conflict disclosure is essential for evidence interpretation.",
+          "pearl": "When in doubt about whether something constitutes a conflict of interest, declare it. Undisclosed conflicts, when subsequently discovered, result in journal corrections or retractions. Disclosure does not prevent publication — concealment does."
+        }
+      },
+      {
+        "id": "C1-Q11",
+        "stem": "A researcher registers their multicentre colorectal cancer RCT on ClinicalTrials.gov with '5-year overall survival' as the primary outcome. After data lock, they change the primary outcome to '3-year disease-free survival' because it reached statistical significance when 5-year OS did not. This best exemplifies which research practice?",
+        "options": {
+          "A": "Per-protocol analysis",
+          "B": "Adaptive trial design — legitimate outcome modification based on interim data",
+          "C": "Outcome switching — changing the primary outcome after seeing results",
+          "D": "Surrogate endpoint substitution — an accepted methodological technique"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Outcome switching — changing the pre-specified primary outcome after data have been collected and analysed, and replacing it with a secondary or exploratory outcome that happened to reach significance — is a form of research misconduct. It inflates the false positive rate identically to running multiple analyses. Reviewers and readers who compare the registration record with the manuscript will detect the discrepancy. The CONSORT 2010 statement Item 6a requires authors to report the pre-specified primary outcome exactly as registered. Journals are increasingly cross-checking manuscripts against registry records.",
+          "wrong": {
+            "A": "Per-protocol analysis refers to inclusion criteria for the analysis population (only patients who completed their assigned treatment), not to outcome definition.",
+            "B": "Adaptive designs may permit pre-specified outcome adjustments based on interim data, but these adaptations must be pre-specified in the protocol and statistical analysis plan before any data are seen.",
+            "D": "Surrogate endpoint substitution describes using a biomarker or intermediate endpoint instead of a clinical outcome — this is a different methodological concept and not what is described here."
+          },
+          "guideline": "CONSORT 2010 Item 6a — outcomes must be reported exactly as pre-specified; Chan AW et al. JAMA 2004 — outcome switching prevalence in registered RCTs",
+          "trial": "ReACT trial example: TAILORx (NEJM 2018) pre-specified its primary endpoint (recurrence score threshold) precisely before analysis — contrasts with unacceptable post-hoc switching.",
+          "pearl": "Always compare a published trial's primary outcome against its registry entry. If they differ without explanation, treat the study's primary finding with suspicion."
+        }
+      },
+      {
+        "id": "C1-Q12",
+        "stem": "A qualitative study exploring surgeon decision-making in borderline resectable pancreatic cancer would be BEST described by which methodological approach?",
+        "options": {
+          "A": "Randomised controlled trial with blinded outcome assessment",
+          "B": "Retrospective cohort study using national registry data",
+          "C": "Thematic analysis of semi-structured interviews with pancreatic surgeons",
+          "D": "Cross-sectional survey with a validated quantitative questionnaire"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Qualitative research explores the 'how' and 'why' of human experience, behaviour, and decision-making using methods such as semi-structured interviews, focus groups, and ethnographic observation. Thematic analysis of in-depth interviews is the most appropriate method for understanding the complex, contextual reasoning behind surgical decision-making — a phenomenon that numerical questionnaires or registry data cannot adequately capture. Qualitative findings are presented as themes and narratives, not statistics, and are not intended to be generalisable in the statistical sense but to provide theoretical transferability.",
+          "wrong": {
+            "A": "An RCT tests a quantitative intervention hypothesis — it is entirely inappropriate for exploring subjective decision-making processes.",
+            "B": "Registry data capture what surgeons do, not why they do it. Decision-making rationale is not recorded in clinical registries.",
+            "D": "A quantitative questionnaire reduces decision-making to numeric scales — it cannot capture the contextual nuance, ambiguity, and individualised reasoning that qualitative methods access."
+          },
+          "guideline": "COREQ (Consolidated Criteria for Reporting Qualitative Research) — 32-item checklist for reporting qualitative surgical studies",
+          "trial": "Blazeby JM et al. series on qualitative research in surgical oncology — established the role of qualitative methods in understanding surgical decision-making and patient experience.",
+          "pearl": "In surgical mixed-methods research, qualitative work typically runs alongside or after a quantitative trial to understand implementation, patient experience, and surgeon behaviour — this is the process evaluation component of complex intervention trials."
+        }
+      },
+      {
+        "id": "C1-Q13",
+        "stem": "Regarding prospective versus retrospective data collection in surgical research, which statement is MOST accurate?",
+        "options": {
+          "A": "Retrospective data are always inferior to prospective data and should never be used",
+          "B": "Prospective data collection is the only approach acceptable to high-impact journals",
+          "C": "Prospective data collection reduces information bias by standardising variable definitions and measurement prospectively, but retrospective studies using validated registries may provide acceptable data quality",
+          "D": "Retrospective studies are free from selection bias, making them equivalent to prospective studies for causality inference"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Prospective data collection defines variables and measures them systematically before outcomes occur, minimising information bias (misclassification of exposures and confounders). However, well-conducted retrospective studies using validated clinical registries (e.g., ACS-NSQIP, NBOCA) with standardised variable definitions and prospective outcome collection within the registry can provide high-quality data. The key quality indicators are: standardised variable definitions, completeness of data capture, validated outcome classification, and independence of data collection from outcome assessment. Large retrospective registry studies routinely appear in high-impact surgical journals.",
+          "wrong": {
+            "A": "Retrospective studies are valuable, particularly when prospective designs are not feasible (rare outcomes, long latency, large population needed). They are the backbone of much surgical evidence.",
+            "B": "High-impact journals regularly publish well-conducted retrospective and registry studies. Journal tier is determined by study quality and clinical importance, not design category.",
+            "D": "Retrospective studies are highly susceptible to selection bias (who was treated at this centre), information bias (incomplete records), and confounding by indication — they cannot establish causality equivalently to prospective designs."
+          },
+          "guideline": "STROBE 2007 — reporting checklist for observational studies distinguishes prospective from retrospective and requires transparent reporting of data source quality",
+          "trial": "Bevan V et al. (Lancet Oncology 2019): prospective NBOCA data enabled valid national outcomes comparison precisely because data collection was prospective within the registry framework.",
+          "pearl": "'Retrospective' and 'poor quality' are not synonyms. Ask: (1) Were variables pre-defined before outcome occurred (in the registry)? (2) How complete is data capture? (3) Was outcome assessment standardised? A prospectively collected national registry is far superior to a retrospective single-centre chart review."
+        }
+      },
+      {
+        "id": "C1-Q14",
+        "stem": "A surgeon is designing an RCT comparing two mesh fixation techniques for inguinal hernia repair. They believe, based on their clinical experience, that tack fixation is superior to suture fixation. Can this surgeon maintain clinical equipoise in this trial?",
+        "options": {
+          "A": "Yes — as long as the surgeon randomises patients, clinical equipoise is satisfied",
+          "B": "No — a surgeon with a strong personal belief in one technique's superiority does not have individual equipoise; however, the trial may still be ethical if collective community equipoise exists",
+          "C": "Yes — personal opinion is irrelevant; only the published literature needs to be in equipoise",
+          "D": "No — no RCT should be conducted if any investigator has a preference, as this invalidates the entire study"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Clinical equipoise exists at two levels: individual equipoise (the treating surgeon is genuinely uncertain) and collective equipoise (the expert community as a whole is genuinely uncertain). When a surgeon holds a strong personal belief that one treatment is superior, they lack individual equipoise — this may create bias in non-specific aspects of care and counselling. However, RCTs can ethically proceed on the basis of collective community equipoise even when individual investigators have preferences — provided robust randomisation, allocation concealment, and blinded outcome assessment are in place. The trial should be transparent about this and use independent outcome assessors.",
+          "wrong": {
+            "A": "The act of randomisation satisfies allocation requirements but does not create ethical equipoise. A surgeon who believes one arm is inferior but randomises anyway faces an ethical conflict.",
+            "C": "Personal investigator beliefs affect trial conduct in subtle ways (counselling emphasis, non-specific care, outcome assessment). They cannot be entirely dismissed as irrelevant.",
+            "D": "Individual investigator preference is ubiquitous in surgical trials — if it precluded all RCTs, most surgical questions would be unanswerable. Collective equipoise is the operative standard."
+          },
+          "guideline": "Freedman B. 'Equipoise and the ethics of clinical research.' NEJM 1987 — foundational paper on collective equipoise as the ethical standard",
+          "trial": "TIPP Trial (laparoscopic vs open inguinal hernia repair): conducted with genuine community equipoise despite individual surgeon preferences — found both approaches equivalent in most outcomes.",
+          "pearl": "Community equipoise — genuine uncertainty in the broader expert community — is the ethical standard for RCTs, not individual surgeon equipoise. Document the community uncertainty with a systematic literature review."
+        }
+      },
+      {
+        "id": "C1-Q15",
+        "stem": "What is the PRIMARY purpose of a feasibility study in surgical research, as distinct from a full-scale RCT?",
+        "options": {
+          "A": "To provide definitive evidence of treatment superiority with the smallest possible sample",
+          "B": "To test the logistical and procedural components of a planned full RCT, assessing recruitment, consent rates, protocol adherence, and outcome measurement",
+          "C": "To replace the need for a full RCT if the feasibility study is large enough",
+          "D": "To estimate the effect size precisely so no full RCT is needed"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A feasibility study tests whether a full-scale RCT can be conducted — it does not test the research hypothesis definitively. Key parameters assessed: eligibility rate (what proportion of screened patients are eligible), consent rate (what proportion of eligible patients agree to participate), randomisation adherence (do patients receive their assigned intervention), protocol adherence (are surgeons following the intervention specification), retention rate (are patients completing follow-up), and outcome measurement feasibility (can the primary outcome be reliably captured). Feasibility studies should use pre-specified progression criteria: 'we will proceed to a full RCT if ≥60% of eligible patients consent and ≥90% complete 3-month follow-up.'",
+          "wrong": {
+            "A": "A feasibility study is explicitly not powered or designed to test the research hypothesis. Its purpose is procedural, not to demonstrate superiority.",
+            "C": "A feasibility study never replaces a full RCT — it informs whether a full RCT is achievable and what refinements are needed to the protocol.",
+            "D": "Effect size estimation from a feasibility study is inherently imprecise due to small sample size — it should inform sample size calculation for the full trial but cannot substitute for it."
+          },
+          "guideline": "Teare et al. 'Sample size requirements to estimate key design parameters from external pilot randomised controlled trials.' Trials 2014; NIHR guidance on feasibility and pilot studies",
+          "trial": "ELECTRIC feasibility trial preceded the full ELECTRIC RCT of electrical stimulation for post-operative ileus — demonstrated 68% recruitment rate and informed the full sample size calculation.",
+          "pearl": "Do not test the primary research hypothesis in a feasibility study and report the p-value. This is a fundamental misuse of feasibility data. Report recruitment rate, consent rate, retention, and protocol adherence instead."
+        }
+      },
+      {
+        "id": "C1-Q16",
+        "stem": "In a surgical RCT using length of hospital stay as a secondary endpoint, the investigators wish to use a surrogate endpoint (CRP at day 3 post-operatively) as the primary endpoint instead, to reduce sample size. Which statement BEST describes the key limitation of this approach?",
+        "options": {
+          "A": "CRP is too difficult to measure in a surgical trial",
+          "B": "Surrogate endpoints are only valid as primary endpoints if a formal validation study has demonstrated that the surrogate reliably predicts the clinical outcome of interest",
+          "C": "Surrogate endpoints are never used as primary endpoints in surgical trials",
+          "D": "Length of stay is a superior surrogate endpoint to CRP for all surgical conditions"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A surrogate endpoint is a laboratory or physiological measure used as a proxy for a clinically meaningful outcome. Surrogate endpoints are only valid primary endpoints when: (1) the surrogate is on the causal pathway to the clinical outcome; (2) a formal validation study has demonstrated that treatment effects on the surrogate predict treatment effects on the clinical outcome; (3) the FDA/EMA or established literature has accepted the surrogate for regulatory or trial purposes. CRP reduction after surgery does not have established surrogate validation for length of stay — a trial showing lower CRP in one group does not necessarily mean shorter stay, fewer complications, or better patient-reported outcomes.",
+          "wrong": {
+            "A": "CRP measurement is technically straightforward and routinely available in all surgical centres. Measurement feasibility is not the issue.",
+            "C": "Surrogate endpoints are used as primary endpoints in appropriately validated contexts — e.g., blood pressure for cardiovascular events, PSA for prostate cancer recurrence. The issue is whether CRP is validated for this purpose.",
+            "D": "Length of stay is itself often considered a surrogate for more patient-centred outcomes — it is not automatically superior to other surrogates."
+          },
+          "guideline": "Prentice RL. Surrogate endpoints in clinical trials. Stat Med 1989 — original criteria for surrogate validity; FDA guidance on surrogate endpoints",
+          "trial": "SWOG S0205 (gefitinib in lung cancer) — showed improved EGFR response (surrogate) but no survival benefit — illustrates the danger of unvalidated surrogates as primary endpoints.",
+          "pearl": "Before using a surrogate as a primary endpoint, ask: 'Is there a systematic review or meta-analysis showing that treatment effects on this surrogate predict treatment effects on the patient-centred outcome?' If not, use a clinical outcome."
+        }
+      },
+      {
+        "id": "C1-Q17",
+        "stem": "A research team is designing a study to establish expert consensus on the definition of 'major anastomotic leak' for use as a standardised outcome in colorectal cancer trials. Which methodology is MOST appropriate?",
+        "options": {
+          "A": "Randomised controlled trial comparing different definitions",
+          "B": "Systematic review of all existing anastomotic leak definitions in the literature",
+          "C": "Delphi consensus methodology with iterative anonymous expert rounds and patient representative input",
+          "D": "Single expert opinion from the most published colorectal surgeon"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Delphi methodology is specifically designed to establish expert consensus when no RCT evidence can exist (you cannot randomise a definition). The structured anonymous iterative process: Round 1 generates candidate items (through open-ended questionnaire or systematic review); Round 2 rates items on Likert scales with anonymous feedback; Round 3 re-rates after seeing group distribution — eliminates authority bias and anchoring. Consensus is defined a priori (e.g., ≥70% agreement). Including patient representatives ensures the definition reflects patient-important features. The International Study Group of Rectal Surgery (ISREC) used exactly this approach to establish the international anastomotic leak grading system.",
+          "wrong": {
+            "A": "An RCT cannot determine a consensus definition — definitions are not randomisable interventions.",
+            "B": "A systematic review documents existing definitions and their variation — a necessary first step, but it does not itself establish consensus. The Delphi process uses the review findings as input.",
+            "D": "Single expert opinion represents the lowest level of evidence and is susceptible to individual bias and authority effects. Consensus requires structured input from multiple appropriately selected experts."
+          },
+          "guideline": "COMET Initiative (Core Outcome Measures in Effectiveness Trials) — methodology for developing core outcome sets using Delphi consensus; GRAPPA guidance",
+          "trial": "Rahbari NN et al. (Ann Surg 2010) — international Delphi study established the International Study Group of Rectal Surgery definition of anastomotic leak, now used in >100 published trials.",
+          "pearl": "A well-conducted Delphi study producing a standardised outcome or variable definition is a highly citable contribution to the field — it enables future meta-analyses by providing a common language across studies."
+        }
+      },
+      {
+        "id": "C1-Q18",
+        "stem": "According to ICMJE authorship criteria, a consultant surgeon who recruited patients into a trial, provided the study idea, and performed all operations but did NOT contribute to writing or critically revising the manuscript, and did NOT approve the final version, should be:",
+        "options": {
+          "A": "Listed as first author because they performed all operations",
+          "B": "Listed as last author because they are the senior investigator",
+          "C": "Listed in the Acknowledgements section, not as an author, because they do not meet all ICMJE criteria",
+          "D": "Listed as corresponding author to ensure their contact details are publicly available"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "ICMJE requires ALL four criteria to be met for authorship: (1) substantial contribution to conception/design OR acquisition/analysis/interpretation of data; (2) drafting OR critically revising the work; (3) final approval of the version to be published; (4) accountability for all aspects. This surgeon meets criteria 1 (operations, study concept) but fails criteria 2 (no manuscript contribution), 3 (no final approval), and 4 (accountability). They should be listed in the Acknowledgements as having provided surgical care and study leadership, but cannot be an author. Granting authorship without meeting all four criteria is gift authorship — an ICMJE and COPE violation.",
+          "wrong": {
+            "A": "Performing operations — while a crucial contribution — satisfies only criterion 1. Without manuscript contribution and final approval, first authorship is not merited.",
+            "B": "Senior position or PI status does not automatically confer authorship. Authorship is earned by intellectual contribution to the work, not by hierarchy.",
+            "D": "Corresponding author status conveys responsibility for the accuracy of all data — this cannot be assigned to someone who did not contribute to or approve the manuscript."
+          },
+          "guideline": "ICMJE Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals — authorship criteria (2023 update)",
+          "trial": "McNutt M et al. (Science 2018): analysis of authorship practices — gift and ghost authorship remain prevalent in surgical journals despite ICMJE guidance.",
+          "pearl": "Before submitting any manuscript, verify that every listed author genuinely satisfies all four ICMJE criteria. As first author, you are responsible for ensuring this — undisclosed gift authorship discovered post-publication reflects on all named authors."
+        }
+      },
+      {
+        "id": "C1-Q19",
+        "stem": "A surgical researcher submits an observational study using NHS hospital episode statistics (HES) data to a journal. Which open science practice is MOST applicable and increasingly expected by journals for this type of study?",
+        "options": {
+          "A": "Publishing a protocol paper before the study begins and sharing the anonymised analysis dataset and statistical code alongside the manuscript",
+          "B": "Pre-registering the study on ClinicalTrials.gov (mandatory for all observational studies)",
+          "C": "Making the HES data itself publicly available via a free download repository",
+          "D": "Open science practices only apply to RCTs — observational studies are exempt"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "For observational studies using routine data, the key open science practices are: (1) pre-registration of the study protocol and statistical analysis plan on OSF or ISRCTN before data analysis begins (not mandatory but increasingly expected); (2) publishing a protocol paper describing the study design, exposure and outcome definitions, and statistical approach; (3) sharing the analysis code (R/Stata/SAS scripts) so others can verify the analysis; (4) providing a data access statement explaining how the underlying data can be accessed (HES data cannot be freely shared but the access pathway via NHS Digital/UKRI can be described). Sharing the analysis code enables reproducibility even when the raw data cannot be shared.",
+          "wrong": {
+            "A": "This is substantially correct — protocol registration plus code sharing is the current best practice for observational studies using routinely collected data.",
+            "B": "ClinicalTrials.gov is primarily for interventional studies (clinical trials). Observational studies are better registered on OSF, ISRCTN, or the WHO registry for observational studies.",
+            "C": "HES data are NHS patient data containing sensitive personal health information — they cannot be made publicly available. Access is through NHS Digital Data Access Request Committee with appropriate governance.",
+            "D": "Open science practices increasingly apply to all study types, including observational. The STROBE guidelines companion paper (STROBE-STARD) and RECORD statement explicitly recommend open practices for observational studies."
+          },
+          "guideline": "RECORD Statement 2015 — reporting standards for observational studies using routinely collected data; OSBORNE open science framework for observational research",
+          "trial": "Hippisley-Cox J et al. (BMJ QResearch studies) — routinely publish Stata analysis code alongside papers using CPRD/HES data, enabling independent replication.",
+          "pearl": "Even when you cannot share the raw data (due to governance restrictions), sharing the analysis code and a synthetic data example is a meaningful contribution to reproducibility."
+        }
+      },
+      {
+        "id": "C1-Q20",
+        "stem": "What is the most appropriate first step for a PGY3 surgical resident who suspects that a senior colleague has fabricated operative time data in a published case series?",
+        "options": {
+          "A": "Immediately contact the publishing journal's editor directly with the allegation",
+          "B": "Raise concerns with the institutional Research Integrity Officer or follow the local research misconduct procedure, as most institutions have a formal process for this",
+          "C": "Publish a letter to the editor criticising the data without notifying the institution",
+          "D": "Ignore the concern — junior trainees should not challenge senior colleagues on research matters"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Suspected research misconduct should be raised through formal institutional channels in the first instance. Most UK NHS Trusts and universities have a Research Integrity Officer or designated person for this purpose, following the UKRIO Code of Practice for Research. The institutional investigation can: access original source data; interview witnesses; examine laboratory notebooks and electronic records; involve an independent external reviewer. The institution notifies the journal, funder, and GMC if the investigation confirms misconduct. Going to the journal directly first may be appropriate if the institution itself is implicated, but standard first step is institutional reporting.",
+          "wrong": {
+            "A": "Direct journal contact bypasses the institutional investigation process that has access to original data and witnesses. Journals typically ask whether institutional investigation has been initiated before acting.",
+            "C": "Publishing an allegation without investigation exposes the trainee to defamation risk and does not follow due process. COPE guidance recommends institutional investigation before public allegations.",
+            "D": "All researchers — regardless of seniority — have both the right and the professional obligation to raise genuine concerns about research integrity. The GMC Good Medical Practice requires honesty in research. Hierarchy does not override this duty."
+          },
+          "guideline": "UKRIO Code of Practice for Research 2019 — institutional responsibilities for investigation; GMC Good Medical Practice 2013 Para 71 — honesty in research reporting",
+          "trial": "Stapel affair (psychology, 2011) — case study in research misconduct investigation process: initial concern raised by junior researchers to institutional committee led to full investigation and >50 retractions.",
+          "pearl": "Whistleblowing in research is protected in the UK under the Public Interest Disclosure Act 1998. You cannot be legitimately dismissed or penalised for raising a genuine concern about research misconduct through proper channels."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "pearls": [
+    {
+      "text": "The mesorectal fascia propria is the key anatomical structure in TME. Intact mesorectum correlates with <5% local recurrence at 5 years versus >20% with mesorectal defects.",
+      "source": "A2 · Colorectal Cancer",
+      "tags": ["rectum", "TME", "local recurrence", "anatomy"]
+    },
+    {
+      "text": "R0 resection requires tumour-free margins. The minimum acceptable margin width remains debated: 1mm is widely accepted for colorectal, but 5mm or more is preferred where anatomy permits.",
+      "source": "A1 · Principles of Surgical Oncology",
+      "tags": ["margins", "R0", "oncology", "resection"]
+    },
+    {
+      "text": "The FINER criteria define a good research question: Feasible, Interesting, Novel, Ethical, Relevant. Every study must pass all five before proceeding.",
+      "source": "C1 · Hypothesis Generation",
+      "tags": ["research", "FINER", "study design"]
+    },
+    {
+      "text": "For cT3 N+ rectal cancer with threatened CRM, NCCN v2.2024 mandates long-course chemoradiotherapy (45 Gy + capecitabine) before surgery — not short-course RT.",
+      "source": "A2 · Colorectal Cancer",
+      "tags": ["rectal cancer", "CRM", "neoadjuvant", "NCCN"]
+    },
+    {
+      "text": "Complete Mesocolic Excision (CME) for colon cancer follows the same embryological plane logic as TME for rectum: dissect in the correct fascial plane to remove an intact mesocolon.",
+      "source": "A2 · Colorectal Cancer",
+      "tags": ["CME", "colon", "mesocolon", "planes"]
+    },
+    {
+      "text": "The IMRaD structure (Introduction, Methods, Results, Discussion) is not arbitrary — each section answers a specific question: Why? How? What? So what?",
+      "source": "C5 · Scientific Writing",
+      "tags": ["writing", "IMRaD", "manuscript"]
+    },
+    {
+      "text": "Sentinel node biopsy is the standard axillary staging for clinically node-negative breast cancer. The ACOSOG Z0011 trial established that completion axillary dissection can be omitted when 1–2 sentinel nodes are positive in selected patients.",
+      "source": "A5 · Breast Surgery",
+      "tags": ["breast", "sentinel node", "axilla", "ACOSOG"]
+    },
+    {
+      "text": "The Couinaud classification divides the liver into 8 functionally independent segments based on portal pedicles and hepatic veins — each can be resected independently.",
+      "source": "A4 · HPB Surgery",
+      "tags": ["liver", "Couinaud", "segments", "resection"]
+    },
+    {
+      "text": "In gastric cancer, D2 lymphadenectomy is the standard for curative-intent surgery. The 15-year Dutch D1D2 trial follow-up confirmed a survival advantage for D2 over D1.",
+      "source": "A3 · Gastric Cancer",
+      "tags": ["gastric", "D2", "lymphadenectomy", "survival"]
+    },
+    {
+      "text": "CONSORT item 12a requires reporting of statistical methods used to compare groups. Simply stating 'Student t-test was used' is insufficient — report the test, its assumptions, and whether they were verified.",
+      "source": "C5 · Scientific Writing",
+      "tags": ["CONSORT", "statistics", "reporting", "methods"]
+    },
+    {
+      "text": "Null hypothesis (H₀) states there is no difference between groups. The study is designed to reject H₀, not to prove the alternative — a critical distinction in interpreting p-values.",
+      "source": "C1 · Hypothesis Generation",
+      "tags": ["null hypothesis", "statistics", "p-value"]
+    },
+    {
+      "text": "Anastomotic leak after colorectal surgery is graded by the International Study Group definition: Grade A (no intervention), Grade B (intervention without re-laparotomy), Grade C (re-laparotomy).",
+      "source": "A2 · Colorectal Cancer",
+      "tags": ["anastomotic leak", "colorectal", "complications"]
+    },
+    {
+      "text": "The multidisciplinary tumour board (MDT) is not optional — evidence shows MDT review changes management in 20–30% of cases and is independently associated with improved oncological outcomes.",
+      "source": "A1 · Principles of Surgical Oncology",
+      "tags": ["MDT", "multidisciplinary", "tumour board"]
+    },
+    {
+      "text": "Peritoneal metastasis from colorectal cancer is now classified as M1c (AJCC 8th), acknowledging it has a worse prognosis than isolated hepatic or pulmonary metastasis.",
+      "source": "A2 · Colorectal Cancer",
+      "tags": ["peritoneal", "metastasis", "M1c", "colorectal"]
+    },
+    {
+      "text": "HARKing — Hypothesising After Results are Known — is a form of research misconduct that inflates type I error rates and should be explicitly avoided in study planning.",
+      "source": "C1 · Hypothesis Generation",
+      "tags": ["HARKing", "bias", "research integrity"]
+    },
+    {
+      "text": "The STROBE checklist (Strengthening the Reporting of Observational Studies in Epidemiology) has 22 items applicable to cohort, case-control, and cross-sectional studies.",
+      "source": "C5 · Scientific Writing",
+      "tags": ["STROBE", "observational", "reporting"]
+    },
+    {
+      "text": "For retroperitoneal sarcoma, the European approach (TARPSWG guidelines) recommends extended resection including adherent organs en bloc, accepting higher morbidity to achieve R0.",
+      "source": "A6 · Sarcoma & Peritoneal Oncology",
+      "tags": ["sarcoma", "retroperitoneal", "R0", "TARPSWG"]
+    },
+    {
+      "text": "The CRS+HIPEC procedure for peritoneal carcinomatosis from colorectal origin: Sugarbaker's landmark RCT (2003) showed median OS 22.3 vs 12.6 months for HIPEC vs systemic chemotherapy alone.",
+      "source": "A6 · Sarcoma & Peritoneal Oncology",
+      "tags": ["CRS", "HIPEC", "peritoneal", "colorectal"]
+    },
+    {
+      "text": "The Roux-en-Y gastric bypass creates a 15–30 mL gastric pouch with a 100–150 cm alimentary limb. Weight loss is driven by restriction AND metabolic hormone changes (GLP-1, ghrelin reduction).",
+      "source": "B3 · Bariatric Surgery",
+      "tags": ["RYGB", "bariatric", "gastric bypass", "metabolic"]
+    },
+    {
+      "text": "In thyroid surgery, the recurrent laryngeal nerve (RLN) must be identified and traced for its entire course — not just avoided. Identification reduces injury risk from 2% to <0.5%.",
+      "source": "B4 · Endocrine Surgery",
+      "tags": ["thyroid", "RLN", "recurrent laryngeal nerve"]
+    }
+  ]
+}

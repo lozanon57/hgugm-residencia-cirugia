@@ -1,0 +1,941 @@
+{
+  "id": "C5",
+  "title": "Scientific Writing",
+  "subtitle": "Academic Surgery — From Manuscript to Publication",
+  "block": "C",
+  "block_name": "Academic Surgery",
+  "level": "PGY1+",
+  "reading_time_min": 60,
+  "guidelines_version": "EQUATOR Network 2023 · ICMJE 2024 · CONSORT 2010 · SAMPL Guidelines 2015",
+  "textbook_refs": [
+    "Glasziou P et al. Systematic Reviews in Health Care: A Practical Guide (2001)",
+    "ICMJE Recommendations for the Conduct, Reporting, Editing and Publication of Scholarly Work in Medical Journals (updated 2024)",
+    "Strunk W & White EB. The Elements of Style (4th ed.) — brevity and clarity principles",
+    "Lang TA, Altman DG. Basic statistical reporting for articles published in biomedical journals: the SAMPL Guidelines. 2015",
+    "Hoogenboom BJ, Manske RC. How to write a scientific article. Int J Sports Phys Ther 2012"
+  ],
+  "learning_objectives": [
+    "Apply the IMRaD structure correctly to each section of a manuscript",
+    "Write a Methods section that satisfies the reproducibility standard",
+    "Distinguish reporting without interpretation (Results) from evidence synthesis (Discussion)",
+    "Apply CONSORT, STROBE, PRISMA, and CARE reporting guidelines",
+    "Evaluate authorship eligibility against ICMJE criteria",
+    "Select a target journal using objective criteria (scope, impact factor, open access)",
+    "Write a structured abstract following the 250-word discipline",
+    "Construct a professional cover letter and response-to-reviewers document",
+    "Design publication-quality figures and tables according to journal standards",
+    "Apply SAMPL guidelines for statistical reporting in manuscripts"
+  ],
+  "sections": [
+    {
+      "id": "C5-S1",
+      "title": "The IMRaD Structure",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The IMRaD structure — Introduction, Methods, Results, and Discussion — is not an arbitrary convention imposed by journals. It reflects the logical architecture of scientific reasoning: why the study was needed, how it was conducted, what was found, and what it means. Understanding that each section answers a specific question — and only that question — is the most important conceptual step in learning to write scientifically. IMRaD emerged in the early 20th century and was formalised by the American National Standards Institute in 1972. Its widespread adoption by biomedical journals has transformed scientific communication by enforcing a shared logic structure that allows rapid extraction of specific information by different readers: clinicians looking for applicability read the abstract and conclusion; statisticians interrogate the Methods; meta-analysts mine the Results."
+        },
+        {
+          "type": "table",
+          "title": "IMRaD — The Question Each Section Must Answer",
+          "headers": ["Section", "Core Question", "Length (typical)", "Common Error"],
+          "rows": [
+            ["Introduction", "Why was this study needed? What gap does it fill?", "3–4 paragraphs / 400–600 words", "Narrating all existing literature instead of identifying the gap"],
+            ["Methods", "How was the study done? Could another centre replicate it?", "Largest section — unlimited, limited only by necessity", "Insufficient detail on eligibility criteria, exposures, and statistical analysis"],
+            ["Results", "What did the study find?", "Guided by figures/tables; text guides the reader", "Interpretation or discussion of results in the Results section"],
+            ["Discussion", "What do the findings mean in context?", "4–5 paragraphs / 600–900 words", "Repeating results; overreaching conclusions; ignoring limitations"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "The **Introduction** has a funnel structure: begin broadly with the clinical problem and its burden, progressively narrow to the specific knowledge gap, and conclude with a precise statement of the study objective. The introduction ends with the study aim — not the results and not the conclusions. A classic three-paragraph introduction: (1) disease burden and unmet clinical need; (2) prior evidence and its limitations; (3) study rationale and objective. The Introduction should not exceed one printed page — reviewers are fatigued by lengthy preamble."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — The Introduction Gap Statement",
+          "content": "Every Introduction must contain an explicit **gap statement** — the precise articulation of what is unknown or insufficiently characterised. Examples: 'However, no randomised trial has compared X to Y in this population.' 'Existing cohort studies are limited by short follow-up and heterogeneous patient selection.' 'The impact of laparoscopic versus open resection on functional outcomes after rectal cancer surgery remains undefined.' The gap statement is the justification for your study's existence."
+        },
+        {
+          "type": "text",
+          "content": "The **Discussion** should follow a four-paragraph architecture regardless of manuscript length: (1) Summary paragraph — restate the principal findings in 3–5 sentences without repeating numbers already in the Results; (2) Comparison with literature — how do your findings align with or differ from prior studies, and why?; (3) Strengths and limitations — an honest appraisal, written with the same critical rigour you would apply to someone else's work; (4) Conclusion — what should clinicians do differently as a result of this study, and what future research is needed? The Discussion should never introduce new data not already in the Results section."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Discussion as Results Redux",
+          "content": "The most common Discussion error is re-presenting results with slightly different wording. 'As shown in Table 2, the leak rate was 8% in the laparoscopic group vs 12% in the open group' belongs in Results. In the Discussion, you write: 'The lower anastomotic leak rate observed with laparoscopic surgery is consistent with the postulated benefits of reduced tissue trauma and improved visualisation of the anastomotic site, and aligns with the meta-analytic finding of Slim et al. (2014).' Interpretation, not repetition."
+        }
+      ]
+    },
+    {
+      "id": "C5-S2",
+      "title": "Writing the Introduction — Funnel Structure",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Introduction is perhaps the most strategically important section of the manuscript from the perspective of peer review. It is the first full section a reviewer reads after the abstract, and it establishes the intellectual framework that justifies the entire study. A poorly constructed Introduction signals to reviewers that the authors may not have a clear grasp of the state of the literature or the novelty of their contribution. The funnel structure — broad to narrow — is not merely a stylistic convention; it mirrors the logical path from clinical importance to scientific necessity."
+        },
+        {
+          "type": "table",
+          "title": "Three-Paragraph Introduction Template",
+          "headers": ["Paragraph", "Function", "Content", "Word Target"],
+          "rows": [
+            ["Paragraph 1", "Clinical context and burden", "Disease epidemiology, clinical impact, unmet need. Start with the patient, not the biology.", "100–150 words"],
+            ["Paragraph 2", "State of the evidence and its limitations", "What prior studies have shown and why they are insufficient (design limitations, population gaps, outcome gaps, conflicting results).", "150–200 words"],
+            ["Paragraph 3", "Gap statement and study aim", "Explicit gap statement followed by: 'Therefore, the aim of this study was to...' or 'The objective of this prospective cohort study was to...'", "80–100 words"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Example — Introduction for a Peritoneal Surgery Cohort",
+          "content": "**Paragraph 1:** 'Colorectal peritoneal metastases (CPM) occur in 10–15% of patients with colorectal cancer and historically carried a median survival of 5–7 months with systemic chemotherapy alone. The combination of cytoreductive surgery (CRS) and hyperthermic intraperitoneal chemotherapy (HIPEC) has transformed the oncological landscape for selected patients, with landmark trials demonstrating median overall survival of 22–63 months in optimally cytoreduced patients.'\n**Paragraph 2:** 'However, patient selection for CRS+HIPEC remains heterogeneous and controversially debated. Most published series derive from single high-volume centres, limiting generalisability. Predictive models such as the Peritoneal Surface Disease Severity Score (PSDSS) and the Peritoneal Cancer Index (PCI) correlate with prognosis, but no validated algorithm integrates preoperative imaging, clinical, and biological factors to optimise patient selection prospectively.'\n**Paragraph 3:** 'No prospective multicentre study has evaluated the utility of integrated PCI + PSDSS + CEA as a combined selection tool in a European surgical oncology centre network. Therefore, the aim of this study was to develop and internally validate a multivariate selection score for CRS+HIPEC candidacy using prospective data from five HIPEC centres in Spain.'"
+        },
+        {
+          "type": "text",
+          "content": "Common Introduction errors to avoid: (1) **Literature review without argument** — citing papers chronologically without synthesising what they collectively demonstrate and where they fall short; (2) **Premature Methods** — describing what you did in the Introduction ('we conducted a prospective study...') before the Methods section; (3) **Results in the Introduction** — announcing findings before presenting them (common in press releases; unacceptable in manuscripts); (4) **Overloaded opening sentence** — 'Colorectal cancer, the third most common malignancy worldwide, affecting X million individuals annually, with a global incidence of Y and a mortality of Z...' — readers lose the thread. Start with the clinical problem, not the epidemiological statistics."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Active vs Passive Voice in the Introduction",
+          "content": "The Introduction is the section where active voice is most appropriate: 'Prior studies have failed to demonstrate...' (active) rather than 'It has not been demonstrated by prior studies...' (passive). Active voice is clearer, more direct, and signals confidence. However, the **Methods section** traditionally uses passive voice to emphasise the procedure rather than the actor: 'Patients were enrolled consecutively between January 2018 and December 2022' rather than 'We enrolled patients consecutively.' Most journals accept either; ICMJE does not mandate a voice preference, but consistency within sections is expected."
+        }
+      ]
+    },
+    {
+      "id": "C5-S3",
+      "title": "Writing the Methods Section",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Methods section carries the heaviest intellectual burden in a scientific manuscript because it is the section against which the validity and reproducibility of the entire study rests. The reproducibility standard — could an independent team at another centre conduct this study from your Methods section alone and obtain comparable results? — is the single criterion by which Methods should be written. Every element that is not described is a flaw in reproducibility."
+        },
+        {
+          "type": "text",
+          "content": "A complete Methods section for a surgical cohort study contains: (1) **Study design and setting** — observational/interventional, single/multi-centre, prospective/retrospective, dates of data collection; (2) **Participants** — explicit inclusion and exclusion criteria (not just 'consecutive patients'), how eligibility was verified, and the source population; (3) **Intervention/Exposure** — surgical procedure described to the level of technical detail that enables classification of cases, including surgeon volume and credentialling; (4) **Outcomes** — primary and secondary outcomes defined a priori with measurement method and timing; (5) **Data sources** — where data came from (electronic records, prospective database, operation notes), who extracted them, and quality checks performed; (6) **Statistical analysis** — all tests pre-specified with justification, handling of missing data, sensitivity analyses, and software used."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Application — Describing the Surgical Intervention",
+          "content": "Describing a surgical procedure in the Methods section requires a balance between completeness and brevity. Do NOT write: 'All patients underwent laparoscopic sigmoid resection.' DO write: 'All patients underwent elective laparoscopic-assisted sigmoid resection with high ligation of the inferior mesenteric artery (IMA). A double-stapled end-to-end colorectal anastomosis was fashioned using a 29mm circular stapler. All procedures were performed by one of three surgeons, each with >100 prior laparoscopic sigmoid resections and a centre volume of >40 laparoscopic colorectal resections per year. Defunctioning loop ileostomy was constructed at the surgeon's discretion for anastomoses ≤8cm from the anal verge or in the presence of technical concern.' This level of detail is the reproducibility standard."
+        },
+        {
+          "type": "text",
+          "content": "Statistical analysis reporting is among the most poorly executed components of surgical manuscripts. CONSORT item 12a requires specification of the statistical methods used to compare primary and secondary outcomes. This includes: the statistical test chosen and justification (e.g., 'Kaplan-Meier survival analysis with log-rank comparison was used for time-to-event outcomes; proportional hazards assumption was verified by Schoenfeld residuals'); handling of missing data (complete case analysis, multiple imputation, or last observation carried forward — with justification); confounders included in multivariable analysis and method of selection (a priori clinical selection preferred over stepwise algorithmic selection); software and version."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "CONSORT 2010 — Methods Checklist Items",
+          "content": "Key CONSORT items for Methods: Item 3a (eligibility criteria); Item 4a (settings and locations); Item 5 (interventions with sufficient detail for replication); Item 6a (primary and secondary outcomes, and how they were assessed); Item 7a (sample size calculation — target, assumptions, and power); Item 8a (sequence generation method for randomisation); Item 9 (allocation concealment mechanism); Item 11a (blinding — who was blinded and how); Item 12a (statistical methods for primary and secondary outcomes)."
+        },
+        {
+          "type": "table",
+          "title": "SAMPL Guidelines — Statistical Reporting Standards for Methods",
+          "headers": ["Element", "Required Information", "Example"],
+          "rows": [
+            ["Descriptive statistics", "Specify distribution before choosing measure of central tendency", "Normally distributed → mean ± SD; skewed → median (IQR)"],
+            ["Comparative tests", "Name the test, state whether one- or two-tailed, and justify", "Mann-Whitney U test (two-tailed) for non-normally distributed continuous variables"],
+            ["Regression models", "Specify type, variable selection method, and goodness-of-fit", "Binary logistic regression; a priori variable selection based on clinical plausibility; Hosmer-Lemeshow test"],
+            ["Survival analysis", "State the method, censoring rules, and assumption verification", "Kaplan-Meier with log-rank; censored at last known alive contact; PH assumption verified by Schoenfeld residuals (p=0.38)"],
+            ["Sample size", "State primary outcome, α, power, expected effect, and calculated n", "α=0.05, power=80%, expected difference in leak rate 8% vs 14%, n=186 per arm"],
+            ["Missing data", "Report amount, pattern, and handling method", "Missing data in 12/250 (4.8%) cases; multiple imputation with 20 datasets under MAR assumption"],
+            ["Software", "Name and version", "All analyses in R v4.3.1 (R Foundation, Vienna); survival package v3.5-7"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C5-S4",
+      "title": "Results: Reporting Without Interpretation",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Results section presents the data. Nothing more. The discipline of reporting without interpretation — stating what was found without explaining why or what it means — is simultaneously the simplest principle in scientific writing and among the most commonly violated. Every sentence in Results should be verifiable by examining the tables and figures. Every table and figure should have a corresponding text narrative guiding the reader through the most important findings."
+        },
+        {
+          "type": "text",
+          "content": "Effective Results organisation: (1) begin with participant flow — how many were assessed for eligibility, how many met criteria, how many were included (CONSORT flow diagram for RCTs, adapted flow for observational studies); (2) present baseline characteristics of the study population before any analysis; (3) report primary outcome first, then secondary outcomes, then subgroups and sensitivity analyses; (4) present absolute numbers alongside proportions (22/150 [14.7%], not just 14.7%); (5) report effect sizes with 95% confidence intervals before p-values — 'the anastomotic leak rate was lower in the laparoscopic group (8/120 [6.7%] vs 14/110 [12.7%]; OR 0.49, 95%CI 0.20–1.21; p=0.12)' provides far more information than 'p=0.12 (non-significant)'."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Tables vs Figures",
+          "content": "**Tables** convey exact numerical values and are appropriate for baseline characteristics, complication data, regression model outputs, and comparison of multiple outcomes across groups. **Figures** convey patterns, trends, distributions, and relationships — Kaplan-Meier curves, box plots, scatter plots, forest plots. The decision rule: if the reader needs the exact number, use a table. If the reader needs to understand a trend or relationship, use a figure. Never duplicate the same data in both a table and a figure."
+        },
+        {
+          "type": "text",
+          "content": "Reporting of p-values follows a consistent convention: report exact p-values to 2 decimal places when ≥0.01 (p=0.04, p=0.38), and as p<0.001 when below this threshold. Never write 'p=NS' without specifying the actual value — reviewers will request it, and it provides no information about the magnitude of the effect. The threshold for statistical significance must be pre-specified (α=0.05 unless otherwise justified) and reported in the Methods; results should never be reported as 'almost significant' (p=0.06) or 'trending toward significance' — these phrases are not statistically meaningful and are a red flag for reviewers."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Decimal Place Consistency",
+          "content": "Report all values to a consistent and clinically meaningful number of decimal places. Percentages: one decimal place for proportions >5% (14.7%), two decimal places for rare events <5% (0.34%). Continuous variables: match the precision of the measurement instrument (weight to one decimal place if measured in 0.1 kg increments). P-values: two decimal places when ≥0.01, then <0.001. Reporting an OR as 1.2349857 is scientifically absurd — round to 1.23. Statistical software outputs many decimal places; the author selects the appropriate precision. Inconsistency within a table (some values to 1 dp, others to 3 dp) signals careless proofreading."
+        }
+      ]
+    },
+    {
+      "id": "C5-S5",
+      "title": "Discussion: The Four-Paragraph Architecture",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "A well-structured Discussion is the intellectual centrepiece of the manuscript — where the investigator demonstrates not just data literacy but clinical wisdom. The four-paragraph structure provides a scaffolding that prevents both over-reach and under-interpretation. Each paragraph has a specific function and a specific boundary."
+        },
+        {
+          "type": "table",
+          "title": "Four-Paragraph Discussion Architecture",
+          "headers": ["Paragraph", "Function", "Content", "Do NOT"],
+          "rows": [
+            ["1 — Summary", "Restate principal findings in clinical terms", "3–5 sentences synthesising the 1–2 most important results; include direction and magnitude", "Re-present all results with numbers (that is the Results section)"],
+            ["2 — Contextualisation", "Compare with existing literature", "Where do your results agree/disagree with prior work and why? Explain discordances.", "List prior studies without synthesising what they mean collectively"],
+            ["3 — Strengths & Limitations", "Honest methodological appraisal", "Name specific limitations with direction and likely magnitude of bias; match strengths to claims", "Use vague language ('some limitations exist') or omit limitations entirely"],
+            ["4 — Conclusion", "Clinical implication and future research", "One sentence of implication; one sentence of future research needed", "Introduce new data; overclaim causality; hedge excessively"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Overreaching Conclusions",
+          "content": "The most serious Discussion error — the one most likely to attract major revision or rejection — is concluding beyond what the data support. A single-centre retrospective cohort cannot 'prove', 'demonstrate', or 'establish' causality. It can 'suggest', 'indicate', 'provide evidence', or 'support the hypothesis' that a relationship exists. Reserve causal language for RCTs with appropriate design controls. Reviewers are pattern-matching for overreach — every overclaim will be flagged."
+        }
+      ]
+    },
+    {
+      "id": "C5-S6",
+      "title": "Abstract Writing — Structured vs Unstructured",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The abstract is the most read section of any manuscript and frequently the only section read by busy clinicians making evidence-based decisions. It must stand completely alone — a reader who reads only the abstract should understand the study design, key findings, and clinical implications without accessing the full text. Two formats exist: structured and unstructured. Structured abstracts — with explicit headings (Background, Methods, Results, Conclusions) — are required by most surgical journals including BJS, EJSO, Annals of Surgery, and JAMA Surgery. Unstructured abstracts (a single prose paragraph) are used by some journals including NEJM and Lancet for original articles, and by most journals for review articles and editorials."
+        },
+        {
+          "type": "table",
+          "title": "Structured Abstract — Section-by-Section Requirements",
+          "headers": ["Heading", "Content Required", "Word Budget", "Common Error"],
+          "rows": [
+            ["Background", "Clinical problem + knowledge gap (2–3 sentences)", "40–60 words", "Starting with generic epidemiology rather than the gap"],
+            ["Methods", "Design, setting, population (eligibility), intervention/exposure, primary outcome", "60–80 words", "Omitting sample size, date range, or primary outcome definition"],
+            ["Results", "n analysed, primary outcome with effect size + 95%CI, 2–3 secondary outcomes", "80–100 words", "Reporting only p-values without effect sizes; omitting CIs"],
+            ["Conclusions", "One sentence of clinical implication; one sentence of scope/limitation", "30–40 words", "Overreaching causality; repeating results rather than interpreting them"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "The **250-word discipline** is the most important technical constraint in abstract writing. Most journals impose a word limit of 250–300 words. Writing to this limit requires precise prioritisation: every sentence must earn its place. The Methods sentence 'This was a prospective cohort study conducted at a single tertiary referral centre specialising in peritoneal surface malignancy between January 2018 and December 2022, enrolling consecutive patients meeting predefined eligibility criteria including histologically confirmed colorectal peritoneal metastases, ECOG performance status 0–2, and absence of systemic metastases on preoperative imaging' contains the necessary information but uses 56 words. This is appropriate — the abstract Methods must be complete, not truncated."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Writing Order: Abstract Last, Edited Most",
+          "content": "The abstract should be written **last** — after the complete manuscript is finalised — but edited **most**. Because the abstract will be read by the widest audience (database searches, social media, press summaries), every word choice matters disproportionately. The Results section of the abstract must include: the denominator (n analysed), the primary outcome event rate in each group (or mean difference for continuous outcomes), the effect size (OR, RR, HR, MD) with 95% CI, and the p-value. Abstracts that report only p-values ('p=0.03') without effect sizes will be returned for revision by most current editors."
+        },
+        {
+          "type": "text",
+          "content": "**Visual abstracts** are increasingly required or encouraged by high-impact journals (JAMA Surgery, Annals of Surgery, BJS) as graphical summaries for social media dissemination. A visual abstract condenses the study into a single infographic: clinical question (left panel) and key result with effect size (right panel). Design standards: maximum 3–4 data elements; no paragraph text (bullet points or single-line labels only); colour-coded comparison groups; journal logo and DOI in footer. Studies with visual abstracts receive 2–3 times more social media engagement and up to 30% more article downloads."
+        }
+      ]
+    },
+    {
+      "id": "C5-S7",
+      "title": "Figures & Tables — Design Standards for Publication",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Publication-quality figures and tables are not merely aesthetic — they are functional communication tools that must convey complex data clearly, without distortion, and in a format reproducible at the journal's final print resolution. Most journals require figures at 300 DPI minimum (600 DPI preferred for line art) in TIFF or EPS format. Common file formats that are unacceptable: JPEG (lossy compression distorts numerical data), PowerPoint screenshots (inadequate resolution), screenshots from statistical software without annotation."
+        },
+        {
+          "type": "table",
+          "title": "Figure Design Standards by Type",
+          "headers": ["Figure Type", "Recommended Format", "Key Elements", "Common Errors"],
+          "rows": [
+            ["Kaplan-Meier survival curve", "Line graph with censoring marks", "Both groups clearly labelled; at-risk table below x-axis; median survival ± 95%CI stated in figure or legend; log-rank p-value", "No at-risk table; missing censoring marks; no confidence bands"],
+            ["Forest plot (meta-analysis)", "Horizontal CI plot", "Study names + weights; point estimates (squares scaled to weight); CI lines; diamond for pooled estimate; line of no effect; I² and Q-test p-value", "Missing overall diamond; no heterogeneity statistic; unlabelled axes"],
+            ["Box plot", "Box-and-whisker", "Median line; IQR box; whiskers at 1.5×IQR; outliers as individual points; n per group labelled", "Showing mean±SEM instead of median/IQR for non-normal data; no individual data points for small n"],
+            ["Flow diagram (CONSORT)", "Structured flowchart", "All exclusions numbered with reasons; n at each stage; parallel allocation arms shown", "Omitting reasons for exclusion; non-standard format"],
+            ["Bar chart", "Vertical bars", "Error bars must be defined (SD, SEM, or 95%CI) in legend; y-axis starting at zero", "Broken y-axis; undefined error bars; 3D effects that distort perception"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "Figure Legend Sufficiency Standard",
+          "content": "Every figure must be interpretable **without reading the main text**. The figure legend must contain: (1) a brief title (not a sentence — a noun phrase); (2) definition of all abbreviations used in the figure; (3) definition of error bars or shading; (4) explanation of any colour coding or line styles; (5) sample sizes per group; (6) statistical test used and p-value if displayed in the figure. A legend that reads 'Kaplan-Meier survival curves' is inadequate. A legend that reads 'Kaplan-Meier overall survival curves for patients undergoing CRS+HIPEC (blue) versus systemic chemotherapy alone (red) for colorectal peritoneal metastases. At-risk numbers are shown below the x-axis. Median survival was 34.2 months (95%CI 28.6–41.0) vs 12.7 months (95%CI 9.3–16.1) respectively. Log-rank p<0.001.' meets the sufficiency standard."
+        },
+        {
+          "type": "text",
+          "content": "**Table design** follows the three-line rule in most surgical journals (consistent with APA and Vancouver styles): a horizontal rule above the column headers, a horizontal rule below the column headers, and a horizontal rule at the bottom of the table. No vertical rules within the table body. Column headers must be self-explanatory with units in parentheses (e.g., 'Age (years)', 'BMI (kg/m²)', 'Tumour size (cm)'). Footnotes below the table define abbreviations and provide statistical details. Baseline characteristics tables (Table 1) should report: n (%), mean±SD or median (IQR) as appropriate, and p-values from appropriate between-group tests — though many journals now discourage significance testing for Table 1 (baseline characteristics from RCTs should be similar by design; reporting p-values implies they 'should' differ)."
+        }
+      ]
+    },
+    {
+      "id": "C5-S8",
+      "title": "The Abstract",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The abstract is the most read section of any manuscript and frequently the only section read by busy clinicians making evidence-based decisions. A structured abstract (Background, Methods, Results, Conclusions) is required by most surgical journals and enforces the same logical architecture as the full manuscript. The word limit is typically 250–300 words — every word must earn its place."
+        },
+        {
+          "type": "text",
+          "content": "**Background:** 2–3 sentences identifying the clinical problem and knowledge gap. Do not start with 'X is a common condition affecting Y% of the population' — this is filler. State the gap directly: 'The impact of diabetes on anastomotic healing after laparoscopic colorectal surgery is poorly characterised in prospective data.' **Methods:** Specify design, setting, population, intervention, comparison, and primary outcome. Include date range and sample size. **Results:** Report the primary outcome with effect size and 95% CI; 2–3 secondary outcomes. Include the sample size analysed. **Conclusions:** One sentence of implication; one sentence of scope limitation. 'These findings suggest laparoscopic TME is associated with reduced anastomotic leak in diabetic patients and support its use as the preferred approach in this population. Prospective validation in a multicentre setting is warranted.'"
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — The 250-Word Discipline",
+          "content": "Writing a 250-word abstract that fully characterises a study is one of the hardest writing challenges in medicine. The discipline forces you to identify what actually matters. If you cannot summarise your Methods in 3 sentences, your Methods are probably unfocused. If your Results paragraph is 4 sentences with 3 effect sizes and p-values, you are providing the minimum essential information — not being sparse. The abstract should be written **last** but edited most."
+        }
+      ]
+    },
+    {
+      "id": "C5-S9",
+      "title": "Reporting Guidelines",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Reporting guidelines are minimum checklists of information that must be present in a manuscript for readers to critically appraise the study. They do not determine study quality — a study can follow all CONSORT items and still be methodologically poor — but they ensure that the information necessary for quality assessment is present. Journals increasingly mandate guideline compliance at submission, and EQUATOR Network maintains the definitive list of guidelines by study type."
+        },
+        {
+          "type": "table",
+          "title": "Reporting Guidelines — Surgical Research",
+          "headers": ["Guideline", "Study Type", "Key Items", "Source"],
+          "rows": [
+            ["CONSORT 2010", "Randomised controlled trials", "25 items + flow diagram; requires allocation sequence, blinding details, ITT analysis", "www.consort-statement.org"],
+            ["STROBE 2007", "Cohort, case-control, cross-sectional", "22 items; addresses selection bias, confounding, and missing data", "www.strobe-statement.org"],
+            ["PRISMA 2020", "Systematic reviews and meta-analyses", "27 items + flow diagram; requires protocol registration, search strategy, risk of bias", "www.prisma-statement.org"],
+            ["CARE 2013", "Case reports", "13 items; timeline, patient perspective, diagnostic reasoning, follow-up", "www.care-statement.org"],
+            ["SCARE 2020", "Surgical case reports", "Extension of CARE with surgical-specific items", "www.scarecriteria.org"],
+            ["TRIPOD 2015", "Prediction models (diagnostic/prognostic)", "22 items; model development, validation, discrimination, calibration", "www.tripod-statement.org"],
+            ["CHEERS 2022", "Health economic evaluations", "28 items; perspective, time horizon, discount rate, sensitivity analysis", "www.equator-network.org"],
+            ["SAMPL 2015", "Statistical analysis and methods in literature", "Covers descriptive stats, inferential tests, regression, survival, Bayesian", "www.equator-network.org"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "**CONSORT** (Consolidated Standards of Reporting Trials) is the most influential reporting guideline, demonstrating that trial reporting quality significantly improves when journals mandate its use. Key CONSORT items surgeons commonly under-report: item 4a (settings and locations — which hospitals, what volume?), item 5 (intervention description — at what level of technical detail?), item 9 (allocation concealment — numbered envelopes is no longer considered adequate), item 12a (statistical methods — which tests for which outcomes?), and item 19 (adverse events — must include all serious adverse events, not just those considered intervention-related)."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "STROBE — Observational Study Reporting",
+          "content": "STROBE item 16 requires reporting of the number of participants with missing data for each variable. Item 16b mandates description of how missing data were handled (complete case analysis, multiple imputation, etc.). Item 12b requires sensitivity analyses to assess robustness of results. Item 13a requires reporting of efforts to address confounding — not merely listing potential confounders but describing how they were measured and controlled. Most surgical observational studies are inadequately reported on these items."
+        }
+      ]
+    },
+    {
+      "id": "C5-S10",
+      "title": "Cover Letter & Submission Strategy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The cover letter is the first document an editor reads — it determines whether a manuscript proceeds to peer review or receives a desk rejection within 24–48 hours. A well-crafted cover letter is not a summary of the manuscript; it is a structured argument for why this specific manuscript belongs in this specific journal, now. Editors at high-impact journals receive hundreds of submissions monthly; the cover letter must immediately establish novelty, fit, and quality."
+        },
+        {
+          "type": "table",
+          "title": "Cover Letter Structure",
+          "headers": ["Paragraph", "Content", "Length"],
+          "rows": [
+            ["Opening", "Manuscript title, study type, and direct statement of submission ('We submit for consideration...')", "2–3 sentences"],
+            ["Novelty and significance", "What is new in this study and why does it matter? State the knowledge gap and how this manuscript fills it.", "3–4 sentences"],
+            ["Fit to journal", "Why this journal? Reference the journal's readership, recent related publications, or scope — never generic ('EJSO is a leading journal'). Be specific.", "2–3 sentences"],
+            ["Ethical and compliance statements", "Ethical approval reference number, patient consent, data availability, conflict of interest statement, no simultaneous submission", "3–5 sentences"],
+            ["Suggested reviewers", "2–3 names (optional but welcomed) with institution and reason for expertise — never competitors or collaborators", "Optional, 2–3 lines"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Generic Cover Letters",
+          "content": "Generic cover letters that begin 'We are pleased to submit our manuscript entitled...' and contain no journal-specific content are immediately recognisable and signal a mass-submission strategy. Editors notice when the letter does not mention their journal by name, or worse, when a previous journal's name appears (a common error when recycling letters from prior rejections). The cover letter should also explicitly state: (1) that the manuscript has not been submitted elsewhere simultaneously; (2) that all authors have approved the submission; (3) the word count and figure/table count; and (4) any previous interactions with the editorial office (e.g., a prior submission that was revised)."
+        },
+        {
+          "type": "text",
+          "content": "**Submission strategy** begins with target journal selection before manuscript writing, not after. A cascading submission strategy — submitting to the highest-impact journal first and descending on rejection — is time-inefficient, takes 6–18 months per journal cycle, and results in a manuscript progressively aged in a competitive field. A more efficient strategy: honestly assess the manuscript against the journal's typical acceptance criteria (sample size, design, novelty, statistical sophistication) before submission; target the journal where the manuscript is competitive on its merits, not aspirationally; consider splitting the submission into a short communication (preliminary findings, rapid dissemination) versus a full paper (definitive analysis) if appropriate."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Journal Instructions to Authors Compliance",
+          "content": "Before submitting, read the journal's Instructions to Authors (ITA) in full — every requirement. Common ITA-specific requirements that cause immediate return of manuscripts: word count limits (some journals impose 3,000-word main text limits for Original Articles); reference style (Vancouver numbered vs APA author-date); figure resolution and format (TIFF 300 DPI, not PNG); reference limit (some journals cap at 30–40 references); structured abstract format (required headings may differ from standard Background/Methods/Results/Conclusions); supplementary data policy; data sharing statement format; CRediT authorship contribution statement; mandatory declaration of AI assistance in writing or data analysis. Non-compliance is the single most common cause of desk rejection that is entirely avoidable."
+        }
+      ]
+    },
+    {
+      "id": "C5-S11",
+      "title": "Responding to Reviewers — Structure & Tone",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Receiving a decision of 'Major Revision' is a positive outcome — the manuscript is publishable in principle and the editor believes the authors can address the concerns raised. The response-to-reviewers document is a formal scientific correspondence that is evaluated as rigorously as the manuscript itself. A well-constructed response significantly increases the probability of acceptance at revision stage; a defensive or incomplete response frequently results in a second round of major revision or rejection."
+        },
+        {
+          "type": "table",
+          "title": "Response-to-Reviewers Document Structure",
+          "headers": ["Element", "Content", "Standard"],
+          "rows": [
+            ["Cover page", "Date, manuscript ID, title, and acknowledgement of reviewers", "Professional, brief, non-effusive"],
+            ["General response", "1–2 paragraphs summarising the major changes made and the revised manuscript's improvements", "Substantive, not generic"],
+            ["Reviewer 1, Comment 1", "Verbatim quote of reviewer comment, then author response, then revised text with page/line reference", "Every comment addressed individually"],
+            ["Agreement responses", "When reviewer is correct: 'The reviewer correctly identifies...We have revised the manuscript to...(page X, line Y)'", "Concrete: show the change, state where"],
+            ["Disagreement responses", "When reviewer is incorrect: 'We respectfully disagree. [Evidence/reference]. The original text has been retained but we have added clarification...'", "Evidence-based; respectful; non-capitulating"],
+            ["Revised text excerpts", "Paste the revised text in full within the response document", "Allows reviewers to verify changes without re-reading entire manuscript"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Example — Responding to a Statistical Critique",
+          "content": "**Reviewer Comment:** 'The authors used a multivariable logistic regression model but do not report whether the proportional odds assumption was verified. The variable selection process using stepwise regression is also methodologically problematic.'\n\n**Author Response:** 'We thank Reviewer 2 for this important methodological observation. The reviewer is correct that stepwise variable selection is susceptible to overfitting and spurious model building. We have revised the statistical analysis accordingly. The multivariable logistic regression model now uses a priori variable selection based on clinical plausibility (as recommended by Harrell, 2001) rather than stepwise selection. Variables included were those identified by the clinical team as biologically plausible predictors of the primary outcome prior to data analysis: age, ASA grade, PCI, and neoadjuvant chemotherapy receipt. We have also verified the Hosmer-Lemeshow goodness-of-fit test (χ²=7.4, df=8, p=0.49, indicating adequate fit). These changes are detailed in the revised Methods section (page 6, lines 142–156) and the updated results are presented in the revised Table 3.'"
+        },
+        {
+          "type": "text",
+          "content": "Tone in the response document must remain consistently professional and respectful, regardless of the quality of the reviewer comments. Reviewers donate their time without compensation; even poorly articulated comments deserve a courteous response. Never use language that implies reviewer incompetence, even obliquely. If a reviewer has clearly misunderstood a key aspect of the study, address the misunderstanding by clarifying the manuscript rather than correcting the reviewer: 'We recognise that the original text may have been unclear on this point. We have revised the Methods section to explicitly state...' This approach both addresses the concern and demonstrates good faith."
+        }
+      ]
+    },
+    {
+      "id": "C5-S12",
+      "title": "Supplementary Material & Data Availability",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Supplementary material allows authors to present information that is important for reproducibility and completeness but would disrupt the narrative flow of the main manuscript or exceed journal word/page limits. The decision of what belongs in the main text versus supplementary material requires careful judgement: supplementary material is widely read by systematic reviewers and methodologically sophisticated readers, but rarely accessed by busy clinicians. The core clinical findings and their direct interpretation must always appear in the main text."
+        },
+        {
+          "type": "table",
+          "title": "Main Text vs Supplementary Material — Decision Framework",
+          "headers": ["Content Type", "Main Text", "Supplementary"],
+          "rows": [
+            ["Primary outcome results", "Always main text", "Never supplementary-only"],
+            ["Full database search strategy", "Abbreviated in Methods", "Full Boolean string in supplement"],
+            ["Sensitivity analyses", "If primary, main text; if secondary, supplement acceptable", "Supplementary acceptable for exploratory analyses"],
+            ["Additional patient subgroup analyses", "If pre-specified and clinically important, main text", "Post-hoc subgroups → supplementary"],
+            ["Operative technique description", "Key technical steps in Methods", "Step-by-step protocol or video → supplementary"],
+            ["Extended baseline characteristics", "Core demographics in Table 1", "Extended comorbidity lists → supplementary table"],
+            ["Risk of bias assessments (meta-analysis)", "Summary RoB figure in main text", "Full domain-level RoB table in supplementary"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "**Data availability statements** are now mandatory at most journals and increasingly demanded by funders. A data availability statement specifies where the data underlying the study are stored, whether they are publicly accessible, and under what conditions they can be accessed. Three tiers: (1) **Open data** — 'The dataset supporting the conclusions of this article is available in [repository name] at [DOI/URL]' — increasingly required by funders (NIH, Wellcome, Spanish FECYT); (2) **Conditional access** — 'The dataset is available from the corresponding author upon reasonable request, subject to data transfer agreement and institutional ethical approval'; (3) **Data not available** — 'The dataset cannot be made publicly available due to patient privacy and institutional data governance restrictions; a fully anonymised subset is available upon request.' Privacy legislation (GDPR in Europe) may restrict data sharing for patient-level clinical data without explicit consent for data sharing."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "ICMJE Data Sharing Policy (2018)",
+          "content": "Since 2018, ICMJE member journals (including Annals of Surgery, JAMA Surgery, BJS, NEJM, Lancet) require that RCT data sharing plans be registered prospectively (in ClinicalTrials.gov) as a condition of publication. For observational studies, most journals now require a data availability statement even if data are not publicly available. Systematic reviews must include the full electronic search strategy (PRISMA item 7) in the manuscript or supplement and register their protocol on PROSPERO before data extraction begins. Non-compliance with data availability requirements is increasingly a basis for rejection or retraction."
+        }
+      ]
+    },
+    {
+      "id": "C5-S13",
+      "title": "Authorship",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Authorship of a scientific publication confers both credit and responsibility — credit for intellectual contribution and responsibility for the integrity of the reported work. The International Committee of Medical Journal Editors (ICMJE) defines authorship by four criteria, all of which must be met by each author. Failure to apply these criteria rigorously leads to two of the most prevalent forms of publication misconduct: ghost authorship and gift authorship."
+        },
+        {
+          "type": "table",
+          "title": "ICMJE Authorship Criteria (all four required)",
+          "headers": ["Criterion", "Practical Standard", "Common Misconception"],
+          "rows": [
+            ["1. Substantial contribution to conception/design OR acquisition/analysis/interpretation", "Significant intellectual input — not mere data collection", "Collecting data without intellectual contribution does not qualify"],
+            ["2. Drafting OR critically revising the manuscript for intellectual content", "Reading and approving the final draft is insufficient", "Reviewing for typos is not critical revision for intellectual content"],
+            ["3. Final approval of the version to be published", "Must read and agree to the submitted version", "Cannot approve a version you have not read"],
+            ["4. Accountability for all aspects of the work", "Willing to investigate and resolve accuracy/integrity concerns", "Cannot be an author without accepting this responsibility"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — The Corresponding Author",
+          "content": "The **corresponding author** takes primary responsibility for communication with the journal (submission, peer review, revision, proofing) and is the public point of contact after publication. The corresponding author does not need to be the first or last author. However, the corresponding author must have full access to the data, be able to vouch for its integrity, and be available for post-publication queries (including data sharing requests, which are now mandated by many journals and funders)."
+        }
+      ]
+    },
+    {
+      "id": "C5-S14",
+      "title": "Choosing a Journal",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Journal selection is a strategic decision that affects turnaround time, readership, and ultimately the impact of your work. The correct approach is systematic — not submitting to the highest-impact journal first and descending in rejection-cascade, but matching the manuscript to the journal where it best fits and will reach the most relevant audience."
+        },
+        {
+          "type": "table",
+          "title": "Reference Journals for Surgical Oncology",
+          "headers": ["Journal", "IF (approx.)", "Scope", "Submission Notes"],
+          "rows": [
+            ["JAMA Surgery", "~16", "Broad surgical practice; high novelty bar", "Multi-centre or methodologically exceptional"],
+            ["Annals of Surgery", "~13", "Major surgical RCTs, large cohorts", "Landmark trial data; surgical innovation"],
+            ["BJS (British Journal of Surgery)", "~10", "European surgical practice; oncology strong", "Rigorous methodology; CONSORT mandatory"],
+            ["Annals of Surgical Oncology", "~5", "Surgical oncology — peritoneal, HPB, colorectal", "Excellent fit for HGUGM oncology work"],
+            ["EJSO", "~4–5", "European surgical oncology, peritoneal disease", "Accepts single-centre cohorts with novel findings"],
+            ["Colorectal Disease", "~3–4", "Colorectal surgery — international readership", "Accepts technique papers and medium-size cohorts"],
+            ["Cancers (MDPI)", "~5", "Open access; broad oncology", "Rapid review; lower barrier; OA fee applies"],
+            ["JCO", "~28", "Medical oncology; surgery as part of multimodal", "Surgical data within large oncology RCTs"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Predatory Journals",
+          "content": "Predatory journals charge article processing charges (APCs) without providing legitimate peer review, editorial standards, or indexing. Red flags: unsolicited email invitations, implausibly rapid peer review (<72 hours), journals not indexed in MEDLINE/PubMed or Scopus, missing editorial board, journal name designed to mimic legitimate journals. Check legitimacy: is the journal listed in MEDLINE via PubMed's journal search? Is the publisher a member of COPE? Beall's List (archived) provides historical guidance. Publishing in predatory journals damages career credibility and does not constitute legitimate scientific contribution."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of scientific writing principles with 20 clinical questions covering IMRaD structure, reporting guidelines, authorship, submission strategy, and statistical reporting.",
+    "questions": [
+      {
+        "id": "C5-Q1",
+        "stem": "A surgical resident writes in the Results section of their manuscript: 'The lower anastomotic leak rate observed with laparoscopic surgery likely reflects the benefits of reduced tissue trauma and improved visualisation, consistent with the findings of Slim et al.' Which error has been made?",
+        "options": {
+          "A": "The sentence contains a statistical error",
+          "B": "The sentence interprets and contextualises findings — appropriate only in the Discussion",
+          "C": "The reference to Slim et al. is inappropriate in the Results",
+          "D": "The sentence is too long for the Results section"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Results section should contain only data — what was observed, with exact numbers, confidence intervals, and p-values. Interpretation ('likely reflects the benefits'), causal explanation ('reduced tissue trauma'), and comparison with prior literature ('consistent with Slim et al.') all belong exclusively in the Discussion.",
+          "wrong": {
+            "A": "No statistical error is apparent — the problem is structural, not mathematical.",
+            "C": "References may appear in the Results when citing validated assessment tools, but not for contextualisation.",
+            "D": "Sentence length is not the issue — the content is in the wrong section."
+          },
+          "guideline": "ICMJE recommendations — Results should present but not interpret data",
+          "trial": "Glasziou P et al., 'What is missing from descriptions of treatment in trials?' — systematic review showing frequent interpretation within results sections.",
+          "pearl": "The test for every Results sentence: does it state a finding only? If it explains, interprets, or contextualises — it belongs in the Discussion."
+        }
+      },
+      {
+        "id": "C5-Q2",
+        "stem": "A researcher submits a manuscript reporting a randomised controlled trial comparing two surgical approaches. The journal asks for the CONSORT 2010 checklist. Which item is MOST commonly incompletely reported in surgical RCTs?",
+        "options": {
+          "A": "Item 13a (participant flow diagram)",
+          "B": "Item 5 (intervention description with sufficient detail for replication)",
+          "C": "Item 1 (title identifying the study as an RCT)",
+          "D": "Item 17 (outcomes and estimation)"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "CONSORT item 5 — describing interventions in sufficient detail that they could be replicated — is consistently the most poorly reported item in surgical RCTs. Surgical procedures involve learning curves and differ between surgeons in ways that pharmaceutical interventions do not.",
+          "wrong": {
+            "A": "Participant flow diagrams are generally well-reported — visually intuitive and journals provide templates.",
+            "C": "Title and abstract items are almost universally reported — editorial requirements enforce these.",
+            "D": "Effect sizes and CIs are frequently missing, but item 5 remains the greatest deficit."
+          },
+          "guideline": "CONSORT 2010 item 5 — 'The interventions for each group with sufficient details to allow replication'",
+          "trial": "Jacquier I et al., Trials 2013: item 5 non-compliance found in 78% of surgical RCTs examined.",
+          "pearl": "For surgical interventions, item 5 must specify: procedure name, key technical steps, surgeon credentialling (case volume), and learning curve management."
+        }
+      },
+      {
+        "id": "C5-Q3",
+        "stem": "A PGY4 resident is the lead author on a manuscript. The department head asks to be added as last author because 'it's expected' — she reviewed the abstract and approved submission but did not contribute to study design, data collection, analysis, or manuscript writing. According to ICMJE criteria, what is the correct response?",
+        "options": {
+          "A": "Add her as last author — department head authorship is an accepted academic convention",
+          "B": "Add her in the Acknowledgements section with a description of her contribution",
+          "C": "Negotiate: add her as second author in exchange for providing critical intellectual revision",
+          "D": "Approving submission satisfies ICMJE criterion 3 — authorship is appropriate"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ICMJE requires ALL FOUR criteria for authorship. Reviewing an abstract and approving submission satisfies criterion 3 only. This is gift authorship — recognised publication misconduct. The correct response is acknowledgement.",
+          "wrong": {
+            "A": "Convention does not override ethical standards. Seniority is not an ICMJE criterion.",
+            "C": "Retroactively adding contribution to justify authorship is backdating and does not make the contribution real.",
+            "D": "Criterion 3 requires approval of the published version; all four criteria must be met simultaneously."
+          },
+          "guideline": "ICMJE Recommendations 2024 — all four authorship criteria required; contributions below threshold should be acknowledged",
+          "trial": "Wislar JS et al., BMJ 2011: 21% of Annals of Internal Medicine articles contained honorary authors.",
+          "pearl": "If you encounter gift authorship pressure: COPE provides resources for managing authorship disputes and journals have ethics boards that take complaints seriously."
+        }
+      },
+      {
+        "id": "C5-Q4",
+        "stem": "Which reporting guideline should be used for a prospective observational cohort study evaluating risk factors for surgical site infection after laparoscopic colectomy?",
+        "options": {
+          "A": "CONSORT 2010",
+          "B": "PRISMA 2020",
+          "C": "STROBE 2007",
+          "D": "CARE 2013"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "STROBE applies to cohort studies, case-control studies, and cross-sectional studies. A prospective cohort evaluating risk factors is precisely the STROBE target.",
+          "wrong": {
+            "A": "CONSORT applies exclusively to randomised controlled trials.",
+            "B": "PRISMA applies to systematic reviews and meta-analyses.",
+            "D": "CARE applies to individual patient case reports."
+          },
+          "guideline": "STROBE 2007 — applicable to all observational epidemiological study designs",
+          "trial": "von Elm E et al., Lancet 2007 — original STROBE publication: 22-item checklist for observational studies.",
+          "pearl": "Use EQUATOR Network's study design filter at www.equator-network.org to identify the correct guideline for any study type."
+        }
+      },
+      {
+        "id": "C5-Q5",
+        "stem": "A manuscript Discussion states: 'Our findings definitively prove that laparoscopic colectomy prevents anastomotic leak and should immediately replace open surgery at all centres.' The study was a single-centre retrospective cohort of 145 patients. What is the primary problem with this statement?",
+        "options": {
+          "A": "The sample size is too small to make any statement about outcomes",
+          "B": "The statement overreaches the causal inference possible from a retrospective observational cohort",
+          "C": "The statement should have been in the Results section",
+          "D": "The terminology is too informal for a scientific manuscript"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Retrospective observational cohort studies cannot prove causality — they demonstrate association, adjusted for measured confounders, but unmeasured confounders can explain any observed difference. 'Definitively prove' and 'should immediately replace...at all centres' both massively overreach what a single-centre retrospective study of 145 patients can demonstrate.",
+          "wrong": {
+            "A": "The fundamental error is causal overreach, not sample size — the language would be inappropriate even with 1,000 patients.",
+            "C": "Discussion is the correct section for conclusions — the error is in content, not location.",
+            "D": "The language is direct but the problem is scientific overreach, not register."
+          },
+          "guideline": "ICMJE recommendations — conclusions should be consistent with the data and acknowledge limitations",
+          "trial": "Ioannidis JP (PLOS Medicine 2005): 'Why Most Published Research Findings Are False' — overreach in observational research.",
+          "pearl": "Match language to study design: cohort → 'associated with'; RCT → 'caused/prevented/reduced'. Never use causal language for observational designs."
+        }
+      },
+      {
+        "id": "C5-Q6",
+        "stem": "A surgical manuscript Methods section reads: 'Continuous variables were compared using Student's t-test and categorical variables using chi-squared test.' Pre-operative BMI data are highly skewed (median 31, IQR 26–38; Shapiro-Wilk p<0.001). Which SAMPL guideline violation has occurred?",
+        "options": {
+          "A": "The chi-squared test is inappropriate for categorical variables",
+          "B": "The t-test was applied to a non-normally distributed continuous variable — the Mann-Whitney U test should have been used",
+          "C": "The Shapiro-Wilk test should not be reported in the Methods",
+          "D": "SAMPL guidelines only apply to randomised trials, not cohort studies"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Student's t-test assumes normality of the data distribution. Shapiro-Wilk p<0.001 confirms the BMI distribution is significantly non-normal. SAMPL guidelines require selection of statistical tests that match the data distribution: for non-normally distributed continuous variables, the Mann-Whitney U (Wilcoxon rank-sum) test is appropriate. Reporting mean±SD for skewed BMI data and applying a t-test violates both SAMPL guidelines and basic statistical assumptions.",
+          "wrong": {
+            "A": "Chi-squared is appropriate for categorical variables with adequate expected cell frequencies (>5 per cell); it is not the error here.",
+            "C": "Reporting the Shapiro-Wilk result is good practice — it documents the basis for test selection.",
+            "D": "SAMPL guidelines apply to all biomedical publications regardless of study design."
+          },
+          "guideline": "SAMPL Guidelines 2015 — specify statistical tests appropriate to data distribution; report median (IQR) for non-normal continuous variables",
+          "trial": "Lang TA, Altman DG. Basic statistical reporting for articles published in biomedical journals: the SAMPL Guidelines. Eur J Clin Invest 2015.",
+          "pearl": "Check normality before choosing a test: normally distributed → t-test (mean±SD); skewed → Mann-Whitney U (median/IQR). Reporting mean±SD for clearly skewed data is both statistically wrong and misleading."
+        }
+      },
+      {
+        "id": "C5-Q7",
+        "stem": "A manuscript reports anastomotic leak rates as '14.666666%' in the open group and '6.666666%' in the laparoscopic group. The actual data are 22/150 and 10/150 patients respectively. Which principle of scientific writing has been violated?",
+        "options": {
+          "A": "Percentages should always be rounded to the nearest whole number in surgical manuscripts",
+          "B": "Reporting excessive decimal places that exceed the precision of the measurement is misleading and violates conventions of scientific communication",
+          "C": "Both the numerator and denominator must always be reported alongside percentages",
+          "D": "Percentages should be reported to three decimal places for maximum precision"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Reporting 14.666666% implies a precision of measurement that does not exist — cases are counted as whole numbers (22 patients, not 22.000000). SAMPL and standard scientific writing conventions require reporting percentages to one decimal place for proportions >5%: 14.7% and 6.7%. Additionally, both the numerator and denominator should be presented: '22/150 (14.7%)' and '10/150 (6.7%)'. Excessive decimal places are a sign of direct copy-paste from statistical software without editorial judgement.",
+          "wrong": {
+            "A": "Rounding to the nearest whole number (15% and 7%) loses meaningful precision for reporting purposes — one decimal place is the standard.",
+            "C": "Reporting numerator and denominator is good practice and is actually required, but it is not the primary violation identified here.",
+            "D": "Three decimal places for percentages is excessive and clinically meaningless for event rates in surgical cohorts."
+          },
+          "guideline": "SAMPL Guidelines 2015 — report values to a precision consistent with measurement precision; percentages to one decimal place",
+          "trial": "Simera I et al. — reporting checklist meta-research consistently identifies inconsistent decimal reporting as a quality marker.",
+          "pearl": "Decimal place rule: percentages → one decimal (14.7%); ORs and HRs → two decimal (OR 1.85); p-values → two decimal when ≥0.01, then p<0.001."
+        }
+      },
+      {
+        "id": "C5-Q8",
+        "stem": "A researcher writes a cover letter for an EJSO submission that begins: 'We are pleased to submit our manuscript for consideration in your prestigious journal, which is a leading publication in surgical oncology.' The manuscript is a single-centre prospective cohort of 89 CRS+HIPEC patients. Which statement best describes the quality of this cover letter?",
+        "options": {
+          "A": "The opening is appropriate — professional courtesy establishes a positive tone with the editor",
+          "B": "The letter lacks journal-specific justification for submission and uses generic, uninformative language that does not advance the case for publication",
+          "C": "The cover letter is too short — it should include a complete abstract",
+          "D": "Mentioning the journal by name is inappropriate — the letter should be journal-neutral"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This cover letter opening provides no journal-specific information and uses a generic compliment ('prestigious journal', 'leading publication') that editors immediately recognise as a template. An effective EJSO cover letter should: state the specific CRS+HIPEC focus that matches EJSO's peritoneal oncology readership; reference EJSO's recent publications in the same space (demonstrating genuine familiarity); state the knowledge gap filled; and provide the key finding with effect size. 'We submit to EJSO because this journal has published the seminal European CRS+HIPEC outcome data (Glehen 2010, Verwaal 2003) and this prospective study directly addresses the gap in selection criteria for PIPAC candidates identified in EJSO's 2022 guidelines paper' is specific, credible, and persuasive.",
+          "wrong": {
+            "A": "Generic compliments signal mass-submission and are counterproductive — experienced editors view them negatively.",
+            "C": "The cover letter should NOT include a complete abstract — that wastes the editor's time and duplicates information already on the submission platform.",
+            "D": "Mentioning the journal by name is essential and expected — a letter without the journal name is a red flag for template recycling."
+          },
+          "guideline": "ICMJE — cover letter should state why the manuscript is appropriate for the specific journal",
+          "trial": "Ware M, Mabe M. The STM Report 2015: editors report that cover letter quality predicts submission seriousness.",
+          "pearl": "Cover letter formula: (1) title + design; (2) gap filled; (3) key result with effect size; (4) why specifically THIS journal; (5) ethical compliance; (6) no simultaneous submission declaration."
+        }
+      },
+      {
+        "id": "C5-Q9",
+        "stem": "A junior researcher must decide whether to place the complete Boolean search strategy for a systematic review in the main Methods section or in a supplementary appendix. According to PRISMA 2020 guidelines, which approach is correct?",
+        "options": {
+          "A": "The full search strategy must appear in the main Methods section — supplementary material is not acceptable for mandatory PRISMA items",
+          "B": "The full search strategy for at least one database should be documented, and may be placed in supplementary material if the main text contains the key elements",
+          "C": "The search strategy does not need to be reported at all — only the databases searched and date range are required",
+          "D": "The search strategy should be deposited in PROSPERO instead of the manuscript"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "PRISMA 2020 item 7 requires the full electronic search strategy for at least one database, including any filters applied. This is typically placed in a supplementary appendix (which is acceptable and commonplace) because full Boolean search strings for multiple databases can be extremely lengthy. The main Methods text should describe the databases searched, date range, language restrictions, and key search concepts — the complete strings go in supplementary. PRISMA 2020 explicitly states that search strategies should be reported 'in supplementary material if needed for length'.",
+          "wrong": {
+            "A": "PRISMA 2020 explicitly permits supplementary reporting of the full search strategy — this is standard practice.",
+            "C": "Reporting only databases and date range without the full search string fails PRISMA item 7 — the purpose is search reproducibility.",
+            "D": "PROSPERO registration contains the protocol, not the final search strategy; the manuscript must report the actual search used."
+          },
+          "guideline": "PRISMA 2020 item 7 — 'Present the full search strategies for all databases, registers and websites, including any filters and limits used'",
+          "trial": "Page MJ et al. PRISMA 2020 explanation and elaboration. BMJ 2021;372:n160.",
+          "pearl": "The PRESS checklist (Peer Review of Electronic Search Strategies) provides a tool for having search strategies independently reviewed by a librarian — recommended before systematic review publication."
+        }
+      },
+      {
+        "id": "C5-Q10",
+        "stem": "A manuscript figure legend reads: 'Figure 2. Survival curves.' What is the minimum additional information required for this legend to meet publication standards?",
+        "options": {
+          "A": "The figure number and title alone are sufficient — additional detail is redundant with the main text",
+          "B": "The legend must include: outcome measured, patient groups compared, definition of censoring, number at risk, median survival with CI, and statistical test with p-value",
+          "C": "The sample size in each group and the p-value are the only additional elements required",
+          "D": "Figure legends for Kaplan-Meier curves should be kept brief to avoid redundancy with the Results section"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Every figure must be interpretable without reading the main text — the 'figure legend sufficiency standard'. For a Kaplan-Meier survival curve, the legend must contain: the outcome being measured (overall survival, disease-free survival, etc.); the patient groups being compared with differentiation (colour/line style definition); censoring definition (what event triggers censoring); at-risk numbers at each time point (typically shown in a table below the x-axis, referenced in the legend); median survival with 95% CI for each group; and the statistical test (log-rank) with p-value. 'Figure 2. Survival curves' provides none of this information and is entirely unacceptable for publication.",
+          "wrong": {
+            "A": "Figures must be self-contained — a reader should not need the main text to interpret any figure.",
+            "C": "Sample size and p-value are necessary but far from sufficient for a complete Kaplan-Meier legend.",
+            "D": "Brevity is not a virtue if it sacrifices comprehensibility — legend length is not penalised by journals."
+          },
+          "guideline": "EQUATOR/CONSORT — figures must be self-explanatory; ICMJE requires all abbreviations in figures to be defined in the legend",
+          "trial": "Moher D et al. CONSORT 2010 — item 13b: 'For each group, number of participants (denominator) included in each analysis and whether the analysis was by original assigned groups'",
+          "pearl": "Legend sufficiency test: give the figure and legend to a colleague who hasn't read the paper — can they describe the main finding? If not, the legend is insufficient."
+        }
+      },
+      {
+        "id": "C5-Q11",
+        "stem": "An author writes in the Discussion: 'Our study has several limitations, including its retrospective design.' No further detail is provided. A peer reviewer requests elaboration. Which type of limitation analysis meets the standard expected by high-impact surgical journals?",
+        "options": {
+          "A": "Listing the limitation is sufficient — journals do not expect quantitative assessment of bias magnitude",
+          "B": "The limitation should specify: the type of bias introduced (selection bias from retrospective ascertainment), its likely direction (overestimation/underestimation of effect), and its probable magnitude relative to the observed effect",
+          "C": "Limitations should be moved to the Methods section to avoid weakening the Discussion",
+          "D": "Retrospective design is not a true limitation if the data were collected prospectively within a retrospective analysis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "High-impact journals expect limitation statements that are specific, directional, and contextualised. 'Retrospective design' alone tells the reviewer nothing actionable. The expected standard is: 'The retrospective design introduces potential for selection bias, as patients who did not undergo surgery are not captured in our database, likely resulting in an overestimation of the benefit of intervention in a fitter patient subgroup. This is partially mitigated by our consecutive series design and prospective data collection from 2018 onwards, though unmeasured confounding by performance status remains possible.' This identifies the bias type, direction, magnitude estimate, and mitigation.",
+          "wrong": {
+            "A": "Journals do expect specific and directional limitation analysis — vague listing is a common cause of reviewer requests for major revision.",
+            "C": "Limitations belong in the Discussion — placing them in Methods conflates study conduct with study appraisal.",
+            "D": "Retrospective analysis of prospectively collected data reduces, but does not eliminate, limitations — ascertainment, indication bias, and unmeasured confounding remain concerns."
+          },
+          "guideline": "STROBE item 19 — 'Discuss limitations of the study, taking into account sources of potential bias or imprecision and discuss both direction and magnitude of potential biases'",
+          "trial": "Vandenbroucke JP et al. Strengthening the Reporting of Observational Studies in Epidemiology (STROBE). PLoS Med 2007.",
+          "pearl": "For each limitation, ask three questions: (1) What bias does this introduce? (2) In which direction does it push my estimate? (3) How large is the likely effect? Answering all three is the standard."
+        }
+      },
+      {
+        "id": "C5-Q12",
+        "stem": "A manuscript uses Vancouver citation style (numbered references). The author inserts references in alphabetical order by first author surname rather than in the order they first appear in the text. Which error has been made?",
+        "options": {
+          "A": "No error — Vancouver style allows either alphabetical or appearance-order numbering",
+          "B": "Vancouver style requires references to be numbered consecutively in the order they first appear in the text, not alphabetically",
+          "C": "Alphabetical ordering is required by Vancouver style — appearance-order numbering is APA convention",
+          "D": "The distinction between alphabetical and appearance-order numbering is a journal preference, not a Vancouver standard"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The Vancouver citation style (used by most biomedical journals including BJS, EJSO, Lancet, NEJM, Annals of Surgery) requires references to be numbered consecutively in the order in which they first appear in the text. Reference [1] is the first citation in the Introduction; references are then numbered sequentially through Methods, Results, and Discussion. Alphabetical ordering is a feature of the APA style (Author, Year) used primarily in social sciences. Submitting a Vancouver-style manuscript with alphabetically ordered references is a formatting error that will be returned for correction before peer review.",
+          "wrong": {
+            "A": "Vancouver style has a specific rule: appearance-order numbering — there is no alphabetical option.",
+            "C": "This is incorrect — APA uses author-date in-text citations (Smith, 2020), not numbered references.",
+            "D": "Appearance-order numbering is a fundamental rule of Vancouver style, not a journal preference."
+          },
+          "guideline": "International Committee of Medical Journal Editors — Vancouver style: 'Number references consecutively in the order in which they are first mentioned in the text'",
+          "trial": "ICMJE Recommendations 2024, Section IV.A.9 — reference formatting standards for biomedical journals.",
+          "pearl": "Most surgical journals use Vancouver style (numbered, appearance-order). Social science journals use APA (Author, Year). Check the target journal's Instructions to Authors before formatting references — errors here cause immediate formatting rejection."
+        }
+      },
+      {
+        "id": "C5-Q13",
+        "stem": "A manuscript Acknowledgements section reads: 'The authors thank the hospital administration for support, all nursing staff of Ward 3B, the statistical software R, and Dr María García for her invaluable contribution to data collection.' Which element of this Acknowledgements section requires correction according to ICMJE guidelines?",
+        "options": {
+          "A": "Software should never be acknowledged — only cited in the Methods section",
+          "B": "Dr García should be listed as an author if her data collection contribution was substantial, OR her written consent to be named in the Acknowledgements must have been obtained",
+          "C": "The Acknowledgements section should not name individuals — only organisations",
+          "D": "Thanking nursing staff is inappropriate in a scientific manuscript"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ICMJE has two requirements regarding named individuals in the Acknowledgements: (1) anyone listed must have given explicit written permission to be named — they may have views on the work that they do not wish to appear to endorse by association; (2) if Dr García's contribution to data collection was substantial and met ICMJE criterion 1, she should have been evaluated for authorship, not relegated to acknowledgements. Data collection alone is insufficient for authorship (criterion 1 requires intellectual contribution), but if she also contributed to analysis or manuscript revision, her authorship should be reconsidered. The written consent requirement is the most commonly violated ICMJE acknowledgement rule.",
+          "wrong": {
+            "A": "Software is routinely acknowledged (or cited) in both Methods and Acknowledgements — this is accepted practice.",
+            "C": "ICMJE permits and encourages naming individuals who contributed below the authorship threshold, with their consent.",
+            "D": "Acknowledging clinical support staff is appropriate and increasingly encouraged by journals."
+          },
+          "guideline": "ICMJE Recommendations 2024 — 'All persons designated as authors should qualify for authorship... persons who do not meet criteria should be listed in the acknowledgements with written permission'",
+          "trial": "Bates T et al. Authorship and contributorship in medical publications. JAMA 2004.",
+          "pearl": "Before listing anyone in Acknowledgements: (1) check they don't qualify as an author; (2) obtain their written consent to be named; (3) briefly describe their contribution (e.g., 'statistical consultation', 'database management')."
+        }
+      },
+      {
+        "id": "C5-Q14",
+        "stem": "A surgical oncology unit publishes results from a 5-year single-centre experience. The same dataset is subsequently used for a second manuscript focused only on patients with signet ring cell histology (n=18). The first paper was published; the second is submitted to a different journal without disclosing the overlap. Which publication ethics violation has occurred?",
+        "options": {
+          "A": "Duplicate publication — the same dataset has been published twice without disclosing the overlap",
+          "B": "Salami publishing — the same dataset has been sliced into the smallest publishable units without justification",
+          "C": "No violation — subgroup analyses of specific histologies are always legitimate separate publications",
+          "D": "Ghost authorship — if different authors appear on each paper from the same dataset"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Salami publishing (also termed 'least publishable unit' or 'data fragmentation') refers to dividing a dataset that could be reported in a single comprehensive paper into multiple smaller papers to maximise the number of publications from one body of work. A 5-year dataset published in full, then re-sliced by histological subtype without disclosing the parent publication and overlap, constitutes salami publishing. The key distinguishing features: the n=18 subgroup analysis would be underpowered, the novelty is questionable (histology was available in the original dataset), and the overlap was not disclosed. Note: legitimate separate publications from overlapping datasets are acceptable when disclosed and when each paper has a genuinely distinct primary question.",
+          "wrong": {
+            "A": "Duplicate publication would involve submitting the same dataset with the same analysis and conclusions — here, a subgroup analysis creates some differentiation, making this salami publishing rather than pure duplication.",
+            "C": "Subgroup analyses are legitimate only when: the subgroup hypothesis is pre-specified, the parent publication overlap is declared, and the subgroup analysis provides clinically meaningful information not available from the parent paper.",
+            "D": "Ghost authorship involves concealing contributors — different authorship lists on related papers is not automatically ghost authorship."
+          },
+          "guideline": "COPE — 'Redundant publication and data fragmentation (salami publishing) are unethical; prior related publications must be declared'",
+          "trial": "Baggs JG et al. Duplicate publication and related issues. J Am Geriatr Soc 2008.",
+          "pearl": "When in doubt about whether a manuscript represents legitimate reporting of new data: ask 'Would a reader who had read the first paper learn something genuinely new and independently valuable from this second paper?' If no — the publication is fragmented."
+        }
+      },
+      {
+        "id": "C5-Q15",
+        "stem": "A manuscript Conflict of Interest statement reads: 'The authors declare no conflicts of interest.' One author received €10,000 in consulting fees from a device manufacturer whose stapler is used in the study procedure during the study period. Which ICMJE obligation has been violated?",
+        "options": {
+          "A": "No violation — consulting fees below €25,000 do not require disclosure",
+          "B": "The consulting relationship with a company whose product is evaluated in the study must be declared, regardless of the fee amount",
+          "C": "The conflict of interest statement only applies to pharmaceutical studies, not device studies",
+          "D": "Consulting fees paid to the institution (not individually) do not require declaration"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ICMJE requires disclosure of all financial relationships with entities whose products or competing products are described, discussed, or evaluated in the manuscript — regardless of the financial amount. A €10,000 consulting relationship with the stapler manufacturer constitutes a direct financial interest that could influence reporting, analysis, or interpretation of results involving that device. ICMJE uses the principle 'when in doubt, disclose' — the threshold is not the fee amount but whether a reasonable reader would want to know about the relationship. Undisclosed conflicts of interest are among the most serious research integrity violations and have been the basis for high-profile retractions.",
+          "wrong": {
+            "A": "There is no financial threshold below which conflicts do not require declaration — ICMJE requires disclosure of all relevant relationships.",
+            "C": "ICMJE conflict of interest requirements apply equally to device studies, pharmaceutical studies, and any other studies with potential financial conflicts.",
+            "D": "ICMJE requires disclosure of financial relationships regardless of whether fees are paid to the individual or to their institution on their behalf."
+          },
+          "guideline": "ICMJE Recommendations 2024 — 'Conflicts of interest exist when an author...has financial or personal relationships that inappropriately influence (bias) his or her actions'; mandatory disclosure for all relevant financial relationships",
+          "trial": "Krimsky S, Rothenberg LS. Financial interest and its disclosure in scientific publications. JAMA 1998 — early landmark study on undisclosed conflicts.",
+          "pearl": "ICMJE provides a standardised COI disclosure form (ICMJE COI form) that most journals now require authors to complete individually. When completing it: disclose everything related to the study topic from the past 36 months. 'When in doubt, disclose' is the operative standard."
+        }
+      },
+      {
+        "id": "C5-Q16",
+        "stem": "A researcher is submitting a manuscript. The data sharing statement should read: 'The dataset supporting the conclusions of this article is available from the corresponding author upon reasonable request.' However, the funder is the Spanish ISCIII (Instituto de Salud Carlos III), which mandates immediate open data sharing. Which action is required?",
+        "options": {
+          "A": "The conditional access statement is sufficient — funder mandates apply only after publication",
+          "B": "The data must be deposited in a publicly accessible repository (e.g., Zenodo, Figshare, OSF) prior to publication, with the DOI included in the data availability statement, to comply with the funder mandate",
+          "C": "Conditional data sharing complies with GDPR — funder mandates cannot override privacy legislation",
+          "D": "The ISCIII mandate only applies to clinical trials, not observational studies"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Funder data sharing mandates are contractual obligations attached to grant funding. Spanish ISCIII, in alignment with European Open Science Cloud and Horizon Europe requirements, mandates open data sharing as a condition of grant receipt — not merely as a recommendation. Compliance requires depositing the dataset (appropriately anonymised per GDPR) in a publicly accessible repository with a permanent identifier (DOI) before or at the time of publication. The data availability statement must reference the repository and DOI. 'Available upon reasonable request' does not satisfy an open data mandate — it is a weaker conditional access statement.",
+          "wrong": {
+            "A": "Funder mandates are contractual conditions that apply throughout the research lifecycle, including at publication.",
+            "C": "GDPR and open data mandates are not in conflict — anonymisation of patient data enables both GDPR compliance and open sharing. Full patient-identifiable datasets would not be shared; anonymised analysis datasets can be.",
+            "D": "ISCIII open data requirements apply to all funded research generating analysable datasets, including observational studies."
+          },
+          "guideline": "Spanish ISCIII Open Science Policy 2022; Horizon Europe Open Research Data mandate; ICMJE data sharing policy 2018",
+          "trial": "Wilkinson MD et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 2016 — foundational paper for open data standards.",
+          "pearl": "Check funder data sharing requirements before study design, not at submission. Plan for anonymised dataset creation, appropriate consent language for data sharing, and repository selection (Zenodo is free; figshare is free; OSF is free) as part of the research protocol."
+        }
+      },
+      {
+        "id": "C5-Q17",
+        "stem": "In the Methods section of a surgical manuscript, a researcher writes: 'The procedure was performed by experienced surgeons.' A reviewer requests clarification on surgical expertise. Which revised statement best meets the CONSORT item 5 reproducibility standard?",
+        "options": {
+          "A": "The procedure was performed by board-certified colorectal surgeons",
+          "B": "The procedure was performed by surgeons with formal training in minimally invasive colorectal surgery",
+          "C": "All procedures were performed by one of three surgeons (PL, MG, RS), each with a minimum of 150 completed laparoscopic colectomies prior to study commencement, at a centre performing >80 laparoscopic colorectal resections annually",
+          "D": "The procedure was performed by consultant surgeons with subspecialty interest in colorectal oncology"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "CONSORT item 5 requires interventions to be described 'with sufficient details to allow replication'. For surgical interventions, this requires specific, quantifiable information about surgical expertise: the number and identity of surgeons (or anonymised as 'Surgeon 1, 2, 3'), the minimum case volume required, and the centre volume. 'Experienced' and 'board-certified' are qualitative labels that cannot be independently verified or replicated. A centre planning to replicate the study needs to know: how many surgeons were involved, what case volume they had achieved, and what centre volume standard was applied. This specificity allows readers to assess whether their own surgeons meet the expertise threshold.",
+          "wrong": {
+            "A": "Board certification confirms training completion but not volume or specific technical expertise — inadequate for CONSORT item 5.",
+            "B": "Formal training is vague and non-quantifiable — what level of training? How many cases?",
+            "D": "Subspecialty interest is a self-reported, unverifiable descriptor — not an objective expertise criterion."
+          },
+          "guideline": "CONSORT 2010 item 5 — 'The interventions for each group with sufficient details to allow replication, including how and when they were actually administered'",
+          "trial": "Boutron I et al. Extending the CONSORT statement to randomised trials of non-pharmacological treatment: explanation and elaboration. Ann Intern Med 2008.",
+          "pearl": "For surgical expertise in Methods: specify (1) number of surgeons; (2) minimum individual case volume; (3) centre annual volume; (4) any credentialling process; (5) whether a run-in phase was included. These five elements meet the reproducibility standard."
+        }
+      },
+      {
+        "id": "C5-Q18",
+        "stem": "A manuscript results section reports a multivariable logistic regression. The output table includes an odds ratio of 2.47 (95% CI 1.12–5.43, p=0.025) for diabetes as an independent predictor of anastomotic leak. Which additional information is required to fully meet SAMPL reporting standards for regression analysis?",
+        "options": {
+          "A": "The c-statistic (AUC) of the logistic regression model and the Hosmer-Lemeshow goodness-of-fit p-value",
+          "B": "The standardised beta coefficient for direct comparison between predictors",
+          "C": "The sensitivity and specificity of the model at the optimal cut-off",
+          "D": "The reference category must always be the intervention group, not the control group"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "SAMPL guidelines for logistic regression reporting require: the regression coefficients or odds ratios with 95% CIs for each variable; the model's overall fit (Hosmer-Lemeshow test p-value); and the model's discriminatory ability (c-statistic/AUC). Reporting individual predictor ORs without model-level performance metrics is incomplete — a model can have several individually significant predictors yet perform poorly overall (low AUC) due to collinearity or model misspecification. The Hosmer-Lemeshow test assesses calibration (whether predicted probabilities match observed event rates); the c-statistic assesses discrimination (how well the model separates cases from non-cases).",
+          "wrong": {
+            "A": "This is the correct answer, not a wrong answer — c-statistic and Hosmer-Lemeshow are the key missing elements.",
+            "B": "Standardised beta coefficients are used in linear regression for continuous outcomes — not appropriate for logistic regression where the OR already provides the measure of association.",
+            "C": "Sensitivity and specificity at a cut-off are relevant for a diagnostic prediction model but not required for a regression analysis of risk factors.",
+            "D": "The reference category convention (which group is the comparator) is a display choice — it does not affect SAMPL compliance."
+          },
+          "guideline": "SAMPL Guidelines 2015 — logistic regression: 'Report odds ratios (with 95% CIs), the overall model fit (e.g., Hosmer-Lemeshow test), and the model's discriminatory ability (e.g., c-statistic)'",
+          "trial": "Harrell FE. Regression Modeling Strategies. Springer 2001 — definitive reference for regression reporting standards.",
+          "pearl": "Multivariable logistic regression minimum reporting set: individual predictor ORs + 95%CIs + p-values; model AUC/c-statistic; Hosmer-Lemeshow p-value; number of events per variable (EPV ≥10 recommended). Missing any element will trigger a reviewer revision request."
+        }
+      },
+      {
+        "id": "C5-Q19",
+        "stem": "A surgical team creates a visual abstract for a JAMA Surgery submission showing the study's Kaplan-Meier survival result. The visual abstract uses a red/green colour scheme to distinguish the two patient groups. A reviewer raises a concern about accessibility. What is the issue?",
+        "options": {
+          "A": "Visual abstracts are not permitted by JAMA Surgery",
+          "B": "Red-green colour combinations are inaccessible to individuals with red-green colour blindness (deuteranopia/protanopia), affecting approximately 8% of males",
+          "C": "The visual abstract should use black and white only to ensure print compatibility",
+          "D": "Kaplan-Meier curves cannot be displayed in visual abstracts due to information density"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Red-green colour blindness (deuteranopia and protanopia) affects approximately 8% of males and 0.5% of females. Using red and green as the only distinguishing feature between comparison groups makes the figure inaccessible to this population — they cannot distinguish the two survival curves. Journal guidelines and universal design principles require colorblind-safe palettes. Recommended alternatives: blue-orange (excellent contrast for all colour vision types); blue-red (better than red-green for most colour vision deficiencies); or supplementing colour with line style differences (solid vs dashed) so that the groups are distinguishable even in greyscale or for colour-blind readers.",
+          "wrong": {
+            "A": "JAMA Surgery actively encourages visual abstracts and provides specific formatting guidelines for them.",
+            "C": "Black and white is not required — colourblind-safe colour palettes (blue-orange, blue-red) are preferred over greyscale.",
+            "D": "Kaplan-Meier curves are among the most commonly used figure types in visual abstracts for survival studies."
+          },
+          "guideline": "JAMA Surgery author guidelines — figures should use colourblind-safe palettes; EQUATOR visual abstract standards recommend blue-orange colour scheme",
+          "trial": "Wong B. Points of view: Color blindness. Nature Methods 2011;8:441 — foundational guidance on colorblind-safe figure design.",
+          "pearl": "Colorblind-safe colour pairs: blue + orange (best); blue + red; purple + orange. Test any figure using Coblis (Color Blindness Simulator) or the Ishihara simulation tool before submission. Always add line-style differentiation as a secondary distinguishing feature."
+        }
+      },
+      {
+        "id": "C5-Q20",
+        "stem": "An author uses AI writing assistance to draft the Discussion section of a surgical manuscript. The final Discussion has been substantially revised and critically reviewed by all authors. What is the correct disclosure practice according to current ICMJE and major journal policies?",
+        "options": {
+          "A": "AI tools cannot be listed as authors — all writing produced by AI must be disclosed in the Methods or Acknowledgements section with description of the tool used",
+          "B": "AI assistance in writing does not require disclosure as long as the content has been verified by human authors",
+          "C": "AI tools should be listed as co-authors to ensure accountability for AI-generated content",
+          "D": "Disclosure is only required if the AI generated the primary statistical analysis, not the writing"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "ICMJE (2023) and virtually all major journals (NEJM, Lancet, Nature, BJS, EJSO) now require disclosure of AI tool use in manuscript preparation. AI tools cannot be listed as authors — they cannot meet ICMJE authorship criteria (particularly criterion 4: accountability for the work). Use must be disclosed in the Methods section (if used for data analysis) or Acknowledgements/cover letter (if used for writing assistance), specifying the tool name and version. The rationale: readers and reviewers have a right to know how the manuscript was prepared; AI tools can hallucinate references, misrepresent findings, or introduce subtle errors that human review may not catch.",
+          "wrong": {
+            "A": "This is the correct answer — AI tools cannot be authors and use must be disclosed.",
+            "B": "Human verification does not eliminate the disclosure obligation — the tool's contribution must be transparent regardless of subsequent human review.",
+            "C": "AI tools do not meet ICMJE authorship criteria and cannot be held accountable for integrity concerns — they cannot be listed as authors under any circumstances.",
+            "D": "Disclosure applies to any use of AI in manuscript preparation, including writing, editing, or figure generation — not limited to statistical analysis."
+          },
+          "guideline": "ICMJE 2023 update — AI tools may not be listed as authors; their use in manuscript preparation must be disclosed; corresponding author takes responsibility for AI-generated content",
+          "trial": "Thacker SB. Meta-analysis: a quantitative approach to research integration. JAMA 1988 — predates AI, but the principle of transparent methodology reporting is foundational.",
+          "pearl": "Standard AI disclosure language (adapt as needed): 'The authors used [Tool Name, Version] (Company, Location) to assist with initial drafting of the Discussion section. The AI-generated text was subsequently reviewed, substantially revised, and critically appraised by all authors, who take full responsibility for the accuracy and integrity of the final manuscript.'"
+        }
+      }
+    ]
+  }
+}

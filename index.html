@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#1B3A6B" />
+  <meta name="description" content="Surgical Residency Academic Platform — Dr. Pablo Lozano Lominchar, HGUGM · Complutense University of Madrid" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <title>HGUGM Surgical Residency Course</title>
+
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <!-- Preconnect for CDN fonts -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+</head>
+<body>
+
+  <!-- ── Top Navigation ───────────────────────────────────── -->
+  <nav class="top-nav">
+    <a href="#/" class="nav-brand">
+      <svg class="nav-logo" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="32" height="32" rx="8" fill="white" fill-opacity="0.15"/>
+        <path d="M8 16 C8 11.6 11.6 8 16 8 C20.4 8 24 11.6 24 16" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+        <path d="M8 16 C8 20.4 11.6 24 16 24 C20.4 24 24 20.4 24 16" stroke="#C8933A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+        <line x1="16" y1="10" x2="16" y2="22" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="12" y1="16" x2="20" y2="16" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <span>Surgical Residency</span>
+    </a>
+
+    <div class="nav-links" role="navigation" aria-label="Main navigation">
+      <a href="#/" data-route="home">🏠 Home</a>
+      <a href="#/curriculum" data-route="curriculum">📚 Chapters</a>
+      <a href="#/search" data-route="search">🔍 Search</a>
+      <a href="#/progress" data-route="progress">📊 Progress</a>
+      <a href="#/about" data-route="about">ℹ️ About</a>
+    </div>
+
+    <div class="nav-actions">
+      <button class="btn-icon" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
+      <a href="#/search" class="btn-icon" title="Search" aria-label="Search">🔍</a>
+    </div>
+  </nav>
+
+  <!-- ── Reading Progress Bar ─────────────────────────────── -->
+  <div class="reading-progress-bar" id="readingProgressBar" style="display:none;">
+    <div class="reading-progress-fill" id="readingProgressFill"></div>
+  </div>
+
+  <!-- ── Main App Mount ────────────────────────────────────── -->
+  <main id="app" role="main">
+    <div class="flex-center" style="min-height:60vh;">
+      <div class="spinner"></div>
+    </div>
+  </main>
+
+  <!-- ── Bottom Tab Bar (mobile) ──────────────────────────── -->
+  <nav class="bottom-tabs" aria-label="Mobile navigation">
+    <a href="#/" data-route="home">
+      <span class="tab-icon">🏠</span>
+      <span>Home</span>
+    </a>
+    <a href="#/curriculum" data-route="curriculum">
+      <span class="tab-icon">📚</span>
+      <span>Chapters</span>
+    </a>
+    <a href="#/search" data-route="search">
+      <span class="tab-icon">🔍</span>
+      <span>Search</span>
+    </a>
+    <a href="#/progress" data-route="progress">
+      <span class="tab-icon">📊</span>
+      <span>Progress</span>
+    </a>
+    <a href="#/about" data-route="about">
+      <span class="tab-icon">ℹ️</span>
+      <span>About</span>
+    </a>
+  </nav>
+
+  <!-- ── Libraries (CDN) ──────────────────────────────────── -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+
+  <!-- ── App Scripts ───────────────────────────────────────── -->
+  <script src="assets/js/progress.js"></script>
+  <script src="assets/js/knowledge.js"></script>
+  <script src="assets/js/reader.js"></script>
+  <script src="assets/js/quiz.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

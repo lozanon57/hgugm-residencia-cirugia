@@ -1,0 +1,732 @@
+{
+  "id": "A4",
+  "title": "Hepatopancreatic-Biliary Surgery",
+  "subtitle": "Surgical Oncology — Liver, Pancreas, and Biliary Tract",
+  "block": "A",
+  "block_name": "Surgical Oncology",
+  "level": "PGY3-4",
+  "reading_time_min": 80,
+  "guidelines_version": "NCCN Hepatocellular v3.2024 · NCCN Pancreatic v2.2024 · ESMO 2023 · ISGPS 2023",
+  "textbook_refs": [
+    "Schwartz's Principles of Surgery, 11th ed., Ch. 31–33",
+    "Blumgart's Surgery of the Liver, Biliary Tract and Pancreas, 6th ed.",
+    "Skandalakis' Surgical Anatomy, 3rd ed., Ch. 21–23"
+  ],
+  "learning_objectives": [
+    "Apply Couinaud segmental anatomy to plan hepatic resections",
+    "Define resectability criteria and FLR requirements for major hepatectomy",
+    "Describe the operative steps and vascular anatomy of pancreaticoduodenectomy (Whipple)",
+    "Classify and manage post-pancreatectomy complications (POPF, DGE, PPH)",
+    "Identify the anatomical criteria for cholangiocarcinoma resectability",
+    "Apply NCCN/ISGPS resectability criteria for pancreatic cancer including borderline disease",
+    "Stage HCC using BCLC and select appropriate treatment per stage",
+    "Classify cholangiocarcinoma by Bismuth-Corlette and plan surgical approach",
+    "Define ISGPS post-hepatectomy complication grades and management",
+    "Apply Fukuoka criteria for IPMN surveillance and operative indications"
+  ],
+  "sections": [
+    {
+      "id": "A4-S1",
+      "title": "Liver: Couinaud Anatomy and Resection Planning",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Couinaud classification divides the liver into 8 functionally independent segments based on portal pedicles and hepatic vein drainage. Each segment has its own portal triad (portal vein, hepatic artery, bile duct) and drains into one of the three hepatic veins. This functional independence allows individual segments to be resected while maintaining viability of adjacent segments — the anatomical basis of modern liver surgery."
+        },
+        {
+          "type": "figure",
+          "src": "assets/img/diagrams/liver_segments.svg",
+          "caption": "Figure 1. Couinaud liver segmentation. The main portal scissura (Cantlie's line, midplane of middle hepatic vein) divides the functional left from the right lobe. Segments I–IV constitute the left liver; V–VIII the right liver.",
+          "alt": "Couinaud segments I-VIII with hepatic veins"
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — FLR Requirements",
+          "content": "Minimum **Future Liver Remnant (FLR)** for safe major hepatectomy: ≥25% in normal liver; ≥30% after significant chemotherapy (>6 cycles); ≥40% in underlying liver disease (cirrhosis, steatohepatitis). When FLR is insufficient, portal vein embolisation (PVE) of the resection side induces 30–40% compensatory hypertrophy in 4–6 weeks."
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "EORTC 40983 (Nordlinger, Lancet 2008)",
+          "content": "**Population:** 364 patients with resectable CRLM, perioperative FOLFOX4 vs surgery alone. **Result:** 3-year PFS 35.4% vs 28.1% (p=0.058, marginal). **Practice change:** Perioperative chemotherapy became standard for resectable CRLM in many European centres, though debate continues regarding upfront surgery for clearly resectable low-risk disease."
+        }
+      ]
+    },
+    {
+      "id": "A4-S2",
+      "title": "Pancreaticoduodenectomy (Whipple Procedure)",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Pancreaticoduodenectomy (PD) is indicated for pancreatic head, periampullary (ampullary, duodenal, distal bile duct) adenocarcinoma and appropriate benign or low-grade malignant disease (IPMN with high-grade dysplasia, solid pseudopapillary neoplasm). The resection includes: head, neck, uncinate of pancreas; duodenum; proximal 10–15 cm jejunum; distal common bile duct; gallbladder. Pylorus-preserving PD (PPPD) avoids antrectomy and is equivalent oncologically with potentially better nutrition."
+        },
+        {
+          "type": "table",
+          "title": "Post-Pancreatectomy Complications — ISGPS Definitions",
+          "headers": ["Complication", "Definition (ISGPS)", "Grade", "Management"],
+          "rows": [
+            ["POPF (Post-op pancreatic fistula)", "Drain amylase >3× upper limit normal on Day 3+", "A (biochemical), B (clinical), C (re-op)", "Octreotide, NPO; drain; re-operation for C"],
+            ["DGE (Delayed gastric emptying)", "Unable to return to solid oral diet by POD 7", "A (POD 7–14), B (POD 14–21), C (>21)", "NG tube, prokinetics, TPN for severe"],
+            ["PPH (Post-pancreatectomy haemorrhage)", "Haemorrhage >24h post-op from surgical site", "Early (<24h) / Late; Grade B,C require intervention", "Angioembolisation; re-operation"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Vascular Resectability",
+          "content": "Pancreatic cancer is **borderline resectable** when the tumour contacts the superior mesenteric artery (SMA) or common hepatic artery (CHA) without distortion, or the superior mesenteric-portal vein (SMPV) confluence with ≤180° contact. Neoadjuvant FOLFIRINOX or gemcitabine/nab-paclitaxel is standard for borderline-resectable disease. Arterial involvement >180° or >1cm length renders disease **locally advanced** (unresectable without vascular reconstruction expertise)."
+        }
+      ]
+    },
+    {
+      "id": "A4-S3",
+      "title": "Cholangiocarcinoma",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Hilar cholangiocarcinoma (Klatskin tumour) is classified by the Bismuth-Corlette system (Types I–IVb) based on ductal involvement at the confluence. Resectability requires: uninvolved hepatic artery and portal vein on the side of remnant liver; uninvolved second-order biliary radicles in the remnant lobe; adequate FLR (typically right or left trisectionectomy). Preoperative biliary drainage of the FLR side is required when FLR bilirubin is elevated. R0 resection is the strongest prognostic factor — R1 5-year OS is <10% vs 30–40% for R0."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl",
+          "content": "The **Bismuth-Corlette classification** for hilar cholangiocarcinoma: Type I — below confluence; Type II — at confluence, both hepatic ducts patent; Type IIIa — right hepatic duct occluded; Type IIIb — left hepatic duct occluded; Type IV — both hepatic ducts occluded. Types I-IIIa/b are potentially resectable; Type IV requires complex reconstruction or is unresectable."
+        }
+      ]
+    },
+    {
+      "id": "A4-S4",
+      "title": "Pancreatic Cancer — Resectability Criteria & Borderline Disease",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Pancreatic ductal adenocarcinoma (PDAC) resectability is determined by the relationship of the tumour to the major mesenteric and hepatic vessels. NCCN 2024 and the International Study Group for Pancreatic Surgery (ISGPS) define four categories based on cross-sectional imaging. Resectable disease is managed with upfront surgery; borderline-resectable disease requires neoadjuvant therapy before reassessment; locally advanced disease is typically unresectable without major vascular reconstruction at expert centres; metastatic disease is managed with palliative systemic therapy. The distinction between borderline-resectable and locally advanced is critical because it determines whether the patient enters a neoadjuvant pathway aimed at conversion to resection."
+        },
+        {
+          "type": "table",
+          "title": "NCCN/ISGPS Resectability Criteria for Pancreatic Adenocarcinoma",
+          "headers": ["Category", "SMA / Celiac Axis", "SMV / Portal Vein", "CHA", "Approach"],
+          "rows": [
+            ["Resectable", "No contact", "No contact or ≤180° without vein deformity", "No contact", "Upfront surgery (Whipple or distal pancreatectomy)"],
+            ["Borderline Resectable", "Contact ≤180° (SMA) or any contact (CA) without involvement of aorta", ">180° contact OR occlusion reconstructible", "Short segment contact or encasement at GDA origin; reconstructible", "Neoadjuvant FOLFIRINOX ± RT, then re-stage"],
+            ["Locally Advanced", "Contact >180° (SMA); any CA involvement encasing aorta", "Occlusion not reconstructible", "Long-segment encasement", "Systemic therapy; consider conversion surgery at expert centres"],
+            ["Metastatic", "Any", "Any", "Any", "Palliative systemic therapy (FOLFIRINOX or gem/nab-P)"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Neoadjuvant therapy for borderline-resectable PDAC typically consists of FOLFIRINOX (oxaliplatin, irinotecan, leucovorin, 5-FU) for fit patients (ECOG 0–1, bilirubin <1.5× ULN), followed by stereotactic body RT (SBRT) or hypofractionated RT (50.4 Gy in 28 fractions) targeting the primary tumour and regional nodes. After 4–6 months, re-staging CT assesses response; CA 19-9 normalisation is a favourable prognostic marker. Conversion surgery — resection of a previously locally advanced tumour that has responded — is feasible in 10–20% of initially locally advanced cases and confers a survival benefit similar to upfront resectable disease in selected patients."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Venous Reconstruction",
+          "content": "Segment resection and reconstruction of the superior mesenteric-portal vein confluence is oncologically acceptable in pancreatic cancer if R0 resection is achievable and the patient can tolerate the added operative complexity. Lateral venorrhaphy, patch repair, segmental resection with primary anastomosis, or interposition graft (autologous or prosthetic) are all described. Venous involvement per se is not a contraindication to resection at experienced centres — arterial involvement (SMA, CA) is the true barrier to R0."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Borderline Disease on CT",
+          "content": "Borderline-resectable criteria are frequently missed on standard CT reports. Always review cross-sectional imaging personally using a dedicated pancreatic protocol (triple-phase CT, 3mm cuts with MPR reconstruction). Contact between tumour and SMA measuring ≤180° on axial images is easily overlooked by non-specialist radiologists and may lead to inappropriate upfront surgery in borderline-resectable patients."
+        }
+      ]
+    },
+    {
+      "id": "A4-S5",
+      "title": "Hepatocellular Carcinoma — BCLC Staging & Surgical Indications",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The Barcelona Clinic Liver Cancer (BCLC) staging system integrates tumour characteristics, liver function (Child-Pugh class, MELD score), and performance status to guide treatment allocation in HCC. It is endorsed by AASLD, EASL, and ESMO as the standard staging and treatment framework. Each BCLC stage is linked to a specific treatment recommendation based on the best available evidence."
+        },
+        {
+          "type": "table",
+          "title": "BCLC Staging System for Hepatocellular Carcinoma",
+          "headers": ["Stage", "Tumour", "Liver Function", "PS", "Recommended Treatment"],
+          "rows": [
+            ["0 — Very early", "Single ≤2 cm", "Child-Pugh A", "0", "Resection or ablation (RFA) — 5yr OS ~70%"],
+            ["A — Early", "Single any size OR up to 3 nodules ≤3 cm", "Child-Pugh A–B", "0", "Resection (if adequate FLR) / ablation / transplant (Milan criteria)"],
+            ["B — Intermediate", "Multinodular, no vascular invasion, no extra-hepatic", "Child-Pugh A–B", "0", "TACE (transarterial chemoembolisation)"],
+            ["C — Advanced", "Vascular invasion OR extra-hepatic spread", "Child-Pugh A–B", "1–2", "Sorafenib / lenvatinib / atezolizumab+bevacizumab"],
+            ["D — End-stage", "Any", "Child-Pugh C", "3–4", "Best supportive care; consider transplant listing if <10pts Child-Pugh C"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Surgical resection for HCC requires: single tumour (no satellite nodules or vascular invasion on imaging); Child-Pugh A (MELD <10 preferred); adequate FLR (≥40% for cirrhotic liver — higher threshold than non-cirrhotic). Laparoscopic hepatectomy for HCC in Child-Pugh A cirrhosis is oncologically equivalent to open resection and associated with less post-operative liver failure due to reduced hepatic ischaemia and shorter hospital stay. The OSLO-COMET trial (2016) demonstrated laparoscopic superiority for minor resections in overall morbidity."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Milan Criteria for Transplant",
+          "content": "The **Milan Criteria** for liver transplant in HCC: single tumour ≤5 cm OR up to 3 tumours all ≤3 cm; no vascular invasion; no extrahepatic spread. Patients meeting Milan criteria achieve 5-year post-transplant OS ~70% — equivalent to transplant for non-malignant indications. The UCSF criteria (single ≤6.5 cm or ≤3 tumours with largest ≤4.5 cm and total ≤8 cm) have been adopted at some centres without convincing survival disadvantage. Bridging therapy (TACE, ablation) is used during the wait period to prevent drop-off."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Child-Pugh and Resection Risk",
+          "content": "Child-Pugh B is a relative contraindication to major hepatectomy (segments ≥3) due to risk of post-hepatectomy liver failure (PHLF). Child-Pugh C is an absolute contraindication to resection. Even in Child-Pugh A, bilirubin >1 mg/dL and albumin <3.5 g/dL substantially increase PHLF risk. The ALBI (Albumin-Bilirubin) grade provides a more discriminating assessment than Child-Pugh and is increasingly used for surgical risk stratification in HCC."
+        }
+      ]
+    },
+    {
+      "id": "A4-S6",
+      "title": "Biliary Tract — Cholangiocarcinoma Types & Management",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Cholangiocarcinoma (CCA) arises from bile duct epithelium and is classified anatomically into intrahepatic (iCCA, 10–15%), perihilar/hilar (pCCA — Klatskin tumour, 50–60%), and distal (dCCA, 20–30%). Each anatomical type has distinct surgical management, prognostic profile, and adjuvant therapy considerations. Risk factors include primary sclerosing cholangitis (PSC), choledochal cysts, hepatolithiasis, liver fluke infestation (Opisthorchis viverrini in Southeast Asia), and cirrhosis."
+        },
+        {
+          "type": "table",
+          "title": "Bismuth-Corlette Classification — Resectability and Operative Approach",
+          "headers": ["Type", "Bile Duct Involvement", "Typical Operation", "Resectability"],
+          "rows": [
+            ["I", "Below the confluence", "Bile duct excision + hepaticojejunostomy", "Resectable — liver-sparing"],
+            ["II", "At the confluence; right and left hepatic ducts patent", "Hilar resection + hepaticojejunostomy ± caudate lobe", "Resectable"],
+            ["IIIa", "Right hepatic duct second-order radicles involved", "Right hepatectomy (±extended) + caudate + bile duct excision", "Resectable"],
+            ["IIIb", "Left hepatic duct second-order radicles involved", "Left hepatectomy (±extended) + caudate + bile duct excision", "Resectable"],
+            ["IV", "Both right and left second-order radicles involved", "Hepatectomy (typically right trisectionectomy) + caudate or palliation", "Often unresectable; selected cases at expert centres"],
+            ["Distal CCA", "Distal CBD (below cystic duct)", "Pancreaticoduodenectomy (Whipple)", "Resectable in ~70%"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Distal cholangiocarcinoma (dCCA) is managed with pancreaticoduodenectomy (Whipple procedure), which provides the best oncological result for lesions of the distal bile duct. Five-year OS after R0 resection is 25–40% for dCCA — superior to pCCA. For pCCA, caudate lobe resection (segment I) is mandatory because bile ducts from segment I drain directly into the hepatic duct confluence and are invariably involved in Bismuth II–IV tumours. Preoperative portal vein embolisation (PVE) of the future resection side is indicated when FLR is <40% (cirrhotic or cholestatic liver) or <25% (normal liver) to reduce the risk of post-hepatectomy liver failure."
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "BILCAP Trial (Primrose, Lancet Oncol 2019)",
+          "content": "**Population:** 447 patients with resected biliary tract cancer (CCA or gallbladder cancer), adjuvant capecitabine vs observation. **Result:** Median OS 51.1 vs 36.4 months (p=0.028 per-protocol analysis); HR 0.75. **Practice change:** Adjuvant capecitabine for 6 months became the standard of care after R0/R1 resection of biliary tract cancers. This is the only positive adjuvant trial in CCA and replaced the previous watch-and-wait standard."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Portal Vein Embolisation Before Major Hepatectomy",
+          "content": "In hilar CCA requiring right trisectionectomy (segments I, IV–VIII), the FLR is often only segments II–III (~25% total volume). In a cholestatic liver (elevated bilirubin), the safe FLR threshold rises to ≥40%. PVE of the right portal branches (±right anterior sector) induces hypertrophy of segments II–III. PVE should be performed after biliary drainage of the FLR side (left lobe) to ensure the hypertrophying remnant is functional. Biliary drainage before PVE of the contralateral side is the critical sequence to remember."
+        }
+      ]
+    },
+    {
+      "id": "A4-S7",
+      "title": "Post-Hepatectomy Complications — ISGPS Definitions",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Major hepatic resections carry a risk of specific life-threatening complications beyond standard surgical morbidity. The International Study Group of Liver Surgery (ISGLS/ISGPS) has defined standardised grading systems for the most important post-hepatectomy complications, enabling uniform reporting and comparison across centres. These complications — post-hepatectomy liver failure (PHLF), post-pancreatectomy complications after combined resections, bile leak, and haemorrhage — must be recognised early and managed in a structured stepwise fashion."
+        },
+        {
+          "type": "table",
+          "title": "ISGPS/ISGLS Post-Hepatectomy Complications — Grading and Management",
+          "headers": ["Complication", "ISGLS Definition", "Grade A", "Grade B", "Grade C", "Key Management"],
+          "rows": [
+            ["Post-Hepatectomy Liver Failure (PHLF)", "Peak bilirubin >50 µmol/L on Day 5+ OR 50% rise from preop with INR >1.5", "Biochemical only; no change in clinical management", "Requires change in clinical management; non-invasive interventions", "Requires invasive interventions (dialysis, transplant evaluation)", "Avoid nephrotoxins; nutritional support; plasma exchange in severe; transplant evaluation for grade C"],
+            ["Bile Leak", "Bilirubin in drain >3× serum on Day 3+ OR bile peritonitis requiring intervention", "Managed conservatively", "Requires interventional radiology or ERCP", "Requires re-operation", "ERCP + stent for anastomotic leak; IR-guided drain for collections"],
+            ["POPF (after hepato-pancreatectomy)", "Drain amylase >3× ULN on Day 3+", "Biochemical leak only", "Clinical impact; drain maintained; antibiotics; TPN", "Re-operation or percutaneous drainage", "NPO, octreotide, drain management; IR drainage"],
+            ["PPH (Post-pancreatectomy haemorrhage)", "Haemorrhage from surgical site >24h", "Grade B: haemodynamically stable; angiography/transfusion", "Grade C: haemodynamic instability; re-operation", "—", "Early: surgical haemostasis; Late: angioembolisation preferred over re-operation"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — ALPPS for Small Future Liver Remnant",
+          "content": "**ALPPS (Associating Liver Partition and Portal Vein Ligation for Staged Hepatectomy)** achieves rapid FLR hypertrophy (7–14 days vs 4–6 weeks for PVE) by combining right portal vein ligation with in situ liver splitting in stage 1, followed by completion right hepatectomy in stage 2. ALPPS is associated with higher morbidity (30–40% major complications) and should be reserved for patients in whom PVE has failed or is not technically feasible, particularly those with rapidly progressing disease who cannot wait 4–6 weeks. The LIGRO trial (2022) showed improved R0 rates vs TSH (two-stage hepatectomy)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Post-Hepatectomy Liver Failure",
+          "content": "PHLF carries a mortality of 30–90% in Grade C. Early recognition requires daily LFTs and INR in the first postoperative week. The '50-50 rule' (bilirubin >50 µmol/L AND prothrombin time >50 seconds on Day 5) predicts 50% 90-day mortality. Avoid nephrotoxic drugs (NSAIDs, aminoglycosides, contrast), ensure adequate nutrition, and involve hepatology early. Liver transplant for PHLF is possible at some centres but controversial given organ scarcity."
+        }
+      ]
+    },
+    {
+      "id": "A4-S8",
+      "title": "Pancreatic Cystic Neoplasms — IPMN & Mucinous",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Pancreatic cystic lesions are increasingly detected incidentally on cross-sectional imaging. The most common cystic neoplasms with malignant potential are intraductal papillary mucinous neoplasms (IPMN) and mucinous cystic neoplasms (MCN). Serous cystadenomas and pseudocysts lack malignant potential and can be managed conservatively. Accurate classification is critical because management — from surveillance to surgical resection — depends entirely on the correct diagnosis and risk stratification."
+        },
+        {
+          "type": "text",
+          "content": "IPMN arises from the pancreatic ductal epithelium and is classified as main-duct (MD-IPMN), branch-duct (BD-IPMN), or mixed-type. MD-IPMN has a high malignancy rate (40–70%) and surgical resection is recommended for all patients who are fit. BD-IPMN has a lower malignancy risk (15–25%) and is managed according to the 2017 revised Fukuoka Guidelines, which distinguish 'worrisome features' from 'high-risk stigmata'. Mucinous cystic neoplasm (MCN) occurs predominantly in women (>90%), in the body/tail, does not communicate with the duct, has an ovarian-type stroma, and is resected electively when symptomatic or increasing in size, given malignant transformation risk of ~10–15%."
+        },
+        {
+          "type": "table",
+          "title": "Fukuoka 2017 Criteria for Branch-Duct IPMN Management",
+          "headers": ["Feature Category", "Features", "Action"],
+          "rows": [
+            ["High-Risk Stigmata (resect)", "Obstructive jaundice with pancreatic cyst; enhancing solid component; main duct ≥10 mm", "Surgical resection recommended in all operable patients"],
+            ["Worrisome Features (EUS ± resect)", "Cyst ≥3 cm; enhancing cyst wall; main duct 5–9 mm; abrupt MPD calibre change with upstream atrophy; lymphadenopathy; elevated CA 19-9; cyst growth ≥5mm/2yr; new-onset DM", "EUS-FNA; resection if concerning cytology/EUS features"],
+            ["Low-risk (surveillance)", "BD-IPMN <3 cm; no worrisome features or high-risk stigmata", "MRI surveillance: 6m, 1yr, then annually if stable; indefinite for young patients"]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Surveillance Intervals for Low-Risk BD-IPMN (Fukuoka 2017)",
+          "headers": ["Cyst Size", "Initial Surveillance Interval", "Subsequent Interval"],
+          "rows": [
+            ["<1 cm", "CT/MRI in 2–3 years", "Every 2 years"],
+            ["1–2 cm", "CT/MRI annually for 2 years", "Every 1–2 years if stable"],
+            ["2–3 cm", "EUS in 3–6 months, then MRI every 6–12 months", "Alternate MRI and EUS every 6 months; resection if equivocal"],
+            [">3 cm (no worrisome features)", "EUS alternate with MRI every 3–6 months", "Consider resection in young fit patients given cumulative risk"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — MCN vs IPMN Distinction",
+          "content": "**Key distinction for boards:** MCN occurs almost exclusively in women; does NOT communicate with the pancreatic duct (confirmed by MRCP or EUS); has ovarian-type stroma on pathology; located in body/tail; typically unilocular or oligolocular. IPMN communicates with the duct (demonstrates mucin extruding from papilla at ERCP = pathognomonic), occurs in either sex, any age, any pancreatic location. On MRI: communication with main duct differentiates IPMN from MCN. This distinction matters because all resectable MCNs should be resected (elective); IPMN follow risk stratification."
+        }
+      ]
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your HPB surgery knowledge. 20 questions covering pancreatic cancer, hepatic surgery, biliary disease, and perioperative management.",
+    "questions": [
+      {
+        "id": "A4-Q1",
+        "stem": "A patient planned for right hepatectomy (segments V-VIII) for colorectal liver metastases has an FLR of 21% on CT volumetry. Liver parenchyma is normal (no chemotherapy >6 cycles, no cirrhosis). What is the most appropriate next step?",
+        "options": {
+          "A": "Proceed with right hepatectomy — 21% is above the safe threshold",
+          "B": "Right portal vein embolisation to increase FLR to ≥25% before surgery",
+          "C": "Consider ablation only — the patient is not resectable",
+          "D": "Start FOLFOX chemotherapy and reassess resectability in 3 months"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The minimum safe FLR for right hepatectomy in normal liver is 25%. At 21%, post-hepatectomy liver failure risk is unacceptably high. Right portal vein embolisation (PVE) occludes the portal supply to the right lobe, inducing compensatory hypertrophy of the left lobe (FLR) of 30–40% in 4–6 weeks. Once FLR exceeds 25–30%, surgery proceeds.",
+          "wrong": {
+            "A": "21% is below the 25% minimum for normal liver — proceeding risks post-hepatectomy liver failure.",
+            "C": "Ablation is an option for unresectable or medically unfit patients, but this patient is potentially resectable after FLR augmentation.",
+            "D": "Chemotherapy alone does not augment FLR. The immediate problem is FLR inadequacy requiring PVE."
+          },
+          "guideline": "ESMO Metastatic CRC 2023 — FLR minimum 25% normal liver; PVE for inadequate FLR",
+          "trial": "Abdalla EK et al., Ann Surg 2002: PVE induces median 37% FLR hypertrophy; enables resection in 85% of initially inadequate-FLR patients.",
+          "pearl": "Always perform CT volumetry before major hepatectomy. An FLR calculation from the CT is mandatory — clinical impression is insufficient."
+        }
+      },
+      {
+        "id": "A4-Q2",
+        "stem": "A 63-year-old man has a pancreatic head mass on CT. The mass contacts the superior mesenteric artery over 160° of its circumference and abuts the SMV-portal vein confluence without occlusion. CA 19-9 is 420 U/mL. No distant metastases. According to NCCN 2024, what is the most appropriate initial management?",
+        "options": {
+          "A": "Upfront pancreaticoduodenectomy — vein contact without occlusion is resectable",
+          "B": "Neoadjuvant FOLFIRINOX followed by re-staging CT before surgical consideration",
+          "C": "Palliative systemic therapy — SMA contact >180° makes this locally advanced and unresectable",
+          "D": "Chemoradiation alone with SBRT — surgery is not indicated"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "SMA contact of 160° (≤180°) combined with SMV-portal vein abutment without occlusion meets the NCCN criteria for borderline-resectable pancreatic cancer. The standard approach for borderline-resectable PDAC is neoadjuvant FOLFIRINOX (for fit patients) or gemcitabine/nab-paclitaxel for 4–6 months, followed by restaging CT. If CA 19-9 normalises and imaging shows no progression, surgical exploration is planned. This strategy improves R0 rates and selects patients with favourable tumour biology.",
+          "wrong": {
+            "A": "The combination of SMA contact (160°) and SMV abutment classifies this as borderline-resectable, not resectable. Upfront surgery risks R1 margins and poor oncological outcome.",
+            "C": "SMA contact of 160° (≤180°) is borderline-resectable, not locally advanced. Locally advanced requires >180° SMA contact or aortic involvement.",
+            "D": "Chemoradiation alone is not the standard — it may be part of neoadjuvant sequencing but does not replace systemic chemotherapy as the backbone of borderline-resectable management."
+          },
+          "guideline": "NCCN Pancreatic Adenocarcinoma v2.2024 — Borderline Resectable: SMA contact ≤180° or SMV involvement reconstructible; neoadjuvant therapy preferred",
+          "trial": "PREOPANC-2 (van Dam, Lancet Gastroenterol 2022): neoadjuvant gemcitabine-based CRT vs upfront surgery in resectable/borderline-resectable PDAC — OS benefit in borderline-resectable subgroup.",
+          "pearl": "For borderline-resectable PDAC: neoadjuvant FOLFIRINOX → restage CT → if no progression → surgery. CA 19-9 normalisation is the best surrogate marker of response to neoadjuvant therapy."
+        }
+      },
+      {
+        "id": "A4-Q3",
+        "stem": "A patient undergoes a distal pancreatectomy. On postoperative day 4, the surgical drain amylase is 4,800 U/L (serum amylase 120 U/L). The patient is afebrile, tolerating a soft diet, and drain output is 30 mL/day of clear fluid. What ISGPS POPF grade does this represent and what is the appropriate management?",
+        "options": {
+          "A": "POPF Grade B — start octreotide, keep NPO, and maintain drain",
+          "B": "POPF Grade A (biochemical leak) — continue oral diet; drain may be removed when output decreases",
+          "C": "POPF Grade C — arrange urgent CT and plan for re-operation",
+          "D": "Normal — drain amylase on Day 4 has no clinical significance"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "POPF Grade A (biochemical leak) is defined by drain amylase >3× ULN on Day 3 or later WITHOUT clinical impact. This patient is asymptomatic, afebrile, tolerating oral diet — the elevated drain amylase does not alter clinical management. Grade A POPF requires no additional intervention; the drain is maintained briefly and removed when output decreases. It does not require octreotide, NPO, or radiological intervention.",
+          "wrong": {
+            "A": "Grade B POPF requires clinical impact — fever, delayed diet advancement, need for octreotide, prolonged drainage, or radiological intervention. This patient has none of these.",
+            "C": "Grade C requires re-operation, endoscopic, or radiological intervention for sepsis or haemorrhage. This presentation is mild with no signs of systemic impact.",
+            "D": "Drain amylase >3× ULN after Day 3 defines POPF by ISGPS — this is clinically significant and requires classification and monitoring."
+          },
+          "guideline": "ISGPS POPF Definition 2016 (revised 2017) — Grade A: biochemical only, no clinical change; Grade B: clinical impact; Grade C: re-operation required",
+          "trial": "Bassi C et al., Surgery 2017: Updated ISGPS POPF grading — Grade A reclassified as 'biochemical leak' to distinguish from clinically relevant fistula.",
+          "pearl": "Grade A POPF is a biochemical finding, not a true complication. The clinical relevance threshold is Grade B (changes management). On boards: if patient is asymptomatic and eating → Grade A; if febrile, drain infected, or requires intervention → Grade B."
+        }
+      },
+      {
+        "id": "A4-Q4",
+        "stem": "A 55-year-old fit patient requires right hepatectomy for intrahepatic cholangiocarcinoma. Preoperative CT volumetry shows FLR of 32%. The patient has normal liver parenchyma and normal bilirubin. Liver function tests are normal. What is the appropriate next step?",
+        "options": {
+          "A": "Portal vein embolisation — FLR must be ≥40% for all hepatectomies",
+          "B": "Proceed directly to right hepatectomy — FLR 32% is adequate for normal liver",
+          "C": "ALPPS procedure — FLR below 35% always requires ALPPS",
+          "D": "Delay surgery and repeat volumetry in 4 weeks without intervention"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The minimum safe FLR for major hepatectomy in a normal liver (no cirrhosis, no significant chemotherapy exposure, no cholestasis) is 25%. An FLR of 32% exceeds this threshold. Proceeding directly to right hepatectomy is safe. PVE is indicated when FLR is <25% in normal liver, <30% after >6 cycles of chemotherapy, or <40% in cirrhotic/cholestatic liver. ALPPS is reserved for cases where PVE has failed or disease progression does not allow the 4–6 week wait for PVE-induced hypertrophy.",
+          "wrong": {
+            "A": "The 40% FLR threshold applies to cirrhotic or diseased liver, not to normal parenchyma. Applying the cirrhosis threshold to a normal liver leads to unnecessary PVE.",
+            "C": "ALPPS has a much higher morbidity profile than standard hepatectomy or PVE. It is not indicated when FLR is already adequate.",
+            "D": "No intervention is needed — the FLR is already sufficient. Delay without reason exposes the patient to tumour progression."
+          },
+          "guideline": "ESMO Liver Surgery 2023 — FLR ≥25% safe for normal liver; ≥30% after chemotherapy; ≥40% for cirrhotic/diseased liver",
+          "trial": "Makuuchi M et al., Hepatology 1990: Original FLR criteria for major hepatectomy; Farges O et al., Ann Surg 2013: validated FLR thresholds.",
+          "pearl": "FLR thresholds: Normal liver ≥25%, Chemotherapy-damaged ≥30%, Cirrhotic/cholestatic ≥40%. Memorise these three numbers — they recur on boards."
+        }
+      },
+      {
+        "id": "A4-Q5",
+        "stem": "For a standard right hepatectomy (resection of segments V–VIII), which Couinaud segments constitute the hepatic vein drainage of the right lobe?",
+        "options": {
+          "A": "Segments I, V, VI, VII, VIII drain via the right hepatic vein only",
+          "B": "Segments V and VIII drain via the middle hepatic vein; VI and VII via the right hepatic vein",
+          "C": "All of segments V–VIII drain exclusively via the right hepatic vein",
+          "D": "Segments V–VIII drain via the right hepatic vein; Cantlie's line separates V–VIII from IV"
+        },
+        "correct": "D",
+        "explanation": {
+          "correct": "Cantlie's line (the main portal scissura) runs from the gallbladder fossa to the left side of the IVC and corresponds to the plane of the middle hepatic vein. This line separates the right liver (segments V–VIII) from the left liver (segments I–IV). Segments V and VIII also drain partly via the middle hepatic vein, which is why the middle hepatic vein often needs to be assessed for tributary anatomy before right hepatectomy — its preservation protects drainage from segment IV.",
+          "wrong": {
+            "A": "Segment I (caudate lobe) drains directly into the IVC via multiple small veins — it does not drain via the right hepatic vein.",
+            "B": "While V and VIII have contributions from the middle hepatic vein, the right hepatic vein remains the dominant drainage for segments V–VIII.",
+            "C": "Segments V and VIII share drainage with the middle hepatic vein. The middle hepatic vein is often divided during right hepatectomy, necessitating careful assessment of its tributaries."
+          },
+          "guideline": "Couinaud Classification — standard hepatic segmental anatomy; Bismuth H. (1982) functional anatomy of the liver.",
+          "trial": "Makuuchi M et al.: ultrasound-guided anatomical hepatectomy based on Couinaud segments.",
+          "pearl": "Cantlie's line = plane of middle hepatic vein = boundary between right and left functional lobes. The anatomical right lobe (right of falciform) ≠ functional right liver (right of Cantlie's line, i.e., segments V–VIII)."
+        }
+      },
+      {
+        "id": "A4-Q6",
+        "stem": "A 58-year-old man with Child-Pugh A cirrhosis (score 5) and HBV-related cirrhosis has a 3.5 cm solitary HCC. AFP is 320 ng/mL. No vascular invasion or satellite lesions on MRI. Liver function tests are otherwise normal. Which statement best reflects the BCLC-based treatment recommendation?",
+        "options": {
+          "A": "BCLC-B — TACE is the recommended treatment regardless of resectability",
+          "B": "BCLC-A — resection, ablation, or transplant evaluation are all appropriate options",
+          "C": "BCLC-0 — ablation is mandated; resection is not appropriate for lesions <5 cm",
+          "D": "BCLC-C — sorafenib should be initiated given elevated AFP"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A solitary 3.5 cm HCC in a Child-Pugh A patient with ECOG PS 0 corresponds to BCLC-A (early HCC). BCLC-A encompasses single tumours of any size OR up to 3 tumours ≤3 cm each. For BCLC-A, all three curative options are available: resection (if FLR adequate, portal hypertension absent), ablation (if ≤3 cm and accessible), or transplant (if within Milan criteria). A 3.5 cm solitary tumour is within Milan criteria (single ≤5 cm) — transplant evaluation is appropriate. AFP level does not define BCLC stage.",
+          "wrong": {
+            "A": "TACE is the treatment for BCLC-B (intermediate: multinodular, no vascular invasion, no extrahepatic spread). A solitary 3.5 cm tumour with no other features is BCLC-A.",
+            "C": "BCLC-0 is very early: single tumour ≤2 cm. At 3.5 cm this patient is BCLC-A. BCLC-0 and A both allow resection or ablation.",
+            "D": "BCLC-C requires vascular invasion or extrahepatic spread. Elevated AFP alone does not determine BCLC stage."
+          },
+          "guideline": "EASL HCC Clinical Practice Guidelines 2022 — BCLC staging and treatment allocation; NCCN Hepatocellular Carcinoma v3.2024",
+          "trial": "Llovet JM et al., NEJM 2008 (sorafenib SHARP trial): established BCLC-C/D treatment; Mazzaferro V et al., NEJM 1996: Milan criteria for transplant.",
+          "pearl": "BCLC-A ≠ ablation-only. For a 3.5 cm tumour, ablation has inferior local control compared to resection. RFA vs resection: resection preferred for lesions >3 cm or adjacent to major bile ducts/vessels. Transplant within Milan criteria offers definitive oncological and cirrhosis treatment simultaneously."
+        }
+      },
+      {
+        "id": "A4-Q7",
+        "stem": "A 67-year-old jaundiced patient has a Bismuth Type IV hilar cholangiocarcinoma. MRI shows bilateral second-order biliary radicle involvement. The right portal vein is invaded; the left portal vein is clear. What is the most appropriate surgical strategy if the patient is fit and no distant metastases are present?",
+        "options": {
+          "A": "Right hepatectomy with caudate lobe resection — because left portal vein is clear, the left lobe becomes the FLR",
+          "B": "Bismuth IV is universally unresectable — proceed directly to palliative stenting",
+          "C": "Left hepatectomy only — the right side is involved so left hepatectomy addresses the tumour",
+          "D": "ERCP and bilateral stenting as definitive management — resection is not indicated in Bismuth IV"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "In Bismuth Type IV CCA, both right and left hepatic ducts are involved at the second-order radicles. However, resection is still possible at expert centres when portal vein involvement is unilateral. Here, right portal vein invasion means the left lobe (FLR, segments II–III + caudate lobe) remains vascularly intact. A right trisectionectomy or extended right hepatectomy with caudate lobe resection (mandatory in all Bismuth II–IV) can achieve R0. Preoperative right PVE may be needed to increase the left-lobe FLR before resection. Bismuth IV should not be universally labelled 'unresectable' — case-by-case expert MDT evaluation is required.",
+          "wrong": {
+            "B": "While Bismuth IV has reduced resectability rates, it is not universally unresectable. Expert centres report R0 resection in selected Bismuth IV with 5-year OS 20–30%.",
+            "C": "Left hepatectomy would remove the clear left portal vein side — incorrect. The invaded right portal vein means the right lobe must be resected, leaving the left lobe as FLR.",
+            "D": "Bilateral stenting is palliative for unresectable disease. This patient should first be evaluated for resection at an expert HPB centre."
+          },
+          "guideline": "ESMO Biliary Tract Cancer 2023 — Bismuth IV: resect when portal vein involvement is unilateral and FLR is adequate; caudate lobe mandatory",
+          "trial": "Nagino M et al., Ann Surg 2010: extended right hepatectomy with caudate lobe for hilar CCA — 5-year OS 40% for R0 resection.",
+          "pearl": "In Bismuth IV: the side of portal vein invasion determines which lobe is resected (the involved side goes) and which lobe becomes FLR (the clear side stays). Caudate lobe resection is ALWAYS required in Bismuth II–IV — segment I bile ducts drain directly into the confluence."
+        }
+      },
+      {
+        "id": "A4-Q8",
+        "stem": "A patient undergoes a right hepatectomy for CRLM. On postoperative Day 5, bilirubin is 68 µmol/L (preop 12 µmol/L) and INR is 1.8. The patient is jaundiced, confused, and has increasing abdominal tenderness. What is the diagnosis and most critical next step?",
+        "options": {
+          "A": "Post-hepatectomy liver failure (PHLF) Grade B — conservative management with nutritional support",
+          "B": "Post-hepatectomy liver failure (PHLF) Grade C — urgent evaluation for liver support and possible transplant listing",
+          "C": "Bile leak Grade B — arrange ERCP for biliary stenting",
+          "D": "Anastomotic failure — return to theatre for re-hepaticojejunostomy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The '50-50 rule' (bilirubin >50 µmol/L AND prothrombin activity <50% / INR >1.5 on Day 5) predicts severe PHLF with 50% 90-day mortality. With bilirubin 68 µmol/L and INR 1.8 on Day 5, combined with encephalopathy (confusion) and clinical deterioration — this is PHLF Grade C (requires invasive intervention). Grade C management includes: ICU transfer; plasma exchange or MARS liver support; nephrology for renal replacement; hepatology and transplant team evaluation. Early transplant listing should be considered.",
+          "wrong": {
+            "A": "Grade B PHLF requires change in clinical management but not invasive intervention. Confusion and INR >1.5 on Day 5 with rising bilirubin constitute Grade C.",
+            "C": "Bile leak presents with bile in drain or peritonitis, not primarily with encephalopathy and coagulopathy. The 50-50 pattern on Day 5 is classic PHLF.",
+            "D": "There is no mention of a hepaticojejunostomy in this case — this was a straightforward hepatectomy. Anastomotic failure does not explain the coagulopathy and encephalopathy."
+          },
+          "guideline": "ISGLS Post-Hepatectomy Liver Failure Definition 2011 — 50-50 rule on Day 5 predicts severe PHLF",
+          "trial": "Balzan S et al., J Am Coll Surg 2005: 50-50 rule validated in 775 hepatectomies as predictor of 90-day mortality.",
+          "pearl": "The 50-50 rule on Day 5: bilirubin >50 µmol/L AND prothrombin activity <50% (INR >1.5) = PHLF with ~50% 90-day mortality. This combination with confusion = Grade C = transplant evaluation needed urgently."
+        }
+      },
+      {
+        "id": "A4-Q9",
+        "stem": "A 61-year-old woman has an asymptomatic 2.5 cm branch-duct IPMN in the pancreatic body. MRI shows a cystic lesion with no enhancing solid component, no main duct dilation, and no lymphadenopathy. CA 19-9 is normal. According to the revised Fukuoka 2017 guidelines, which feature would mandate surgical resection?",
+        "options": {
+          "A": "Cyst size 2.5 cm in isolation",
+          "B": "An enhancing solid component within the cyst on contrast MRI",
+          "C": "Patient age >60 years",
+          "D": "Normal CA 19-9 with stable cyst over 12 months"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "An enhancing solid component within a pancreatic cystic lesion is a 'high-risk stigma' per the revised Fukuoka 2017 guidelines and mandates surgical resection in all operable patients. High-risk stigmata also include: obstructive jaundice with a pancreatic cyst and main pancreatic duct ≥10 mm. Worrisome features (cyst ≥3 cm, enhancing cyst wall, MPD 5–9 mm, abrupt MPD calibre change, lymphadenopathy, CA 19-9 elevation, growth ≥5mm/2yr) prompt EUS-FNA but do not automatically mandate resection.",
+          "wrong": {
+            "A": "Cyst size ≥3 cm is a worrisome feature (prompts EUS), not a high-risk stigma. A 2.5 cm cyst alone does not mandate resection.",
+            "C": "Patient age is not a Fukuoka criterion. Age influences surgical fitness decisions but does not determine resection indication.",
+            "D": "Stable CA 19-9 and stable cyst are reassuring findings supporting continued surveillance, not resection."
+          },
+          "guideline": "Revised Fukuoka International Consensus Guidelines 2017 — IPMN management: high-risk stigmata vs worrisome features",
+          "trial": "Tanaka M et al., Pancreatology 2017: International consensus guidelines for IPMN management.",
+          "pearl": "High-risk stigmata = operate; Worrisome features = EUS ± consider resection; No features + size <3cm = surveillance. The key difference: enhancing solid component = high-risk stigma = resect."
+        }
+      },
+      {
+        "id": "A4-Q10",
+        "stem": "A 70-year-old patient with a synchronous pancreatic head adenocarcinoma (resectable) and two resectable bilobar liver metastases is referred for surgical planning. What is the most appropriate management?",
+        "options": {
+          "A": "Simultaneous pancreaticoduodenectomy and bilateral hepatic metastatectomy — combined resection is standard of care",
+          "B": "Systemic chemotherapy (FOLFIRINOX) — simultaneous liver+pancreas resection carries prohibitive morbidity; reassess if no progression",
+          "C": "Liver resection first (staged), then Whipple at a second operation",
+          "D": "Palliative biliary bypass only — liver metastases at diagnosis preclude curative intent"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Pancreatic adenocarcinoma with synchronous liver metastases is stage IV disease. The presence of hepatic metastases places this in the metastatic (M1) category. Simultaneous resection of pancreas and liver for PDAC with synchronous metastases is not standard of care and is associated with very high morbidity without evidence of survival benefit. The appropriate approach is systemic chemotherapy (FOLFIRINOX if fit, gem/nab-P if not) with reassessment — conversion surgery (resection of primary after distant response) is considered only at specialist centres in exceptional responders.",
+          "wrong": {
+            "A": "Simultaneous major pancreatic and hepatic resection carries 30–50% morbidity and no proven survival benefit in stage IV PDAC. It is not standard practice.",
+            "C": "Staged resection would address the liver but not the fundamental problem: this is M1 disease where the liver metastases represent systemic spread, not oligometastatic disease amenable to cure.",
+            "D": "Palliative biliary bypass alone is reasonable if the patient cannot tolerate systemic therapy. However, systemic chemotherapy is the appropriate first-line approach given performance status."
+          },
+          "guideline": "NCCN Pancreatic Adenocarcinoma v2.2024 — M1 disease (hepatic metastases): systemic chemotherapy; resection not standard",
+          "trial": "Hackert T et al., Ann Surg 2016: conversion surgery for locally advanced PDAC — valid concept but not applicable to M1 disease.",
+          "pearl": "Liver metastases from PDAC = M1 = stage IV = systemic therapy. This is categorically different from CRLM, where resection of liver metastases is curative intent. PDAC liver metastases reflect haematogenous spread — resection has not demonstrated survival benefit."
+        }
+      },
+      {
+        "id": "A4-Q11",
+        "stem": "Three days after laparoscopic cholecystectomy, a 45-year-old woman develops RUQ pain, fever (38.8°C), and jaundice. MRCP shows a Type A bile leak (cystic duct stump leak) with a small peri-hepatic collection. What is the most appropriate management?",
+        "options": {
+          "A": "Urgent re-laparoscopy to oversew the cystic duct stump",
+          "B": "ERCP with biliary sphincterotomy ± plastic stent placement plus percutaneous drainage of the collection",
+          "C": "Conservative management with antibiotics — most bile leaks resolve spontaneously",
+          "D": "Right hepatic duct ligation — the cystic duct stump has retracted to the CBD"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A Type A bile leak (cystic duct stump or peripheral radicle leak) is the most common post-cholecystectomy bile leak. Management is endoscopic: ERCP with sphincterotomy reduces the biliary pressure gradient (bile flows preferentially into duodenum rather than the stump), combined with a biliary stent if needed. Concomitant percutaneous IR drainage of the peri-hepatic collection addresses the septic source. This approach is definitive in >90% of Type A leaks without re-operation.",
+          "wrong": {
+            "A": "Re-operation is reserved for Type D leaks (major duct transection) or failure of endoscopic management. Re-laparoscopy for a Type A leak risks escalating a manageable complication.",
+            "C": "Conservative management alone is insufficient with fever and a peri-hepatic collection — the collection requires drainage to control sepsis, and the bile leak requires reduction in biliary pressure via ERCP.",
+            "D": "Right hepatic duct ligation would be a catastrophic error — it would create a Type D (major duct) injury, not treat the cystic duct stump leak."
+          },
+          "guideline": "ATOM classification of bile duct injuries 2013 — Type A: peripheral leaks; ERCP + stent as first-line management",
+          "trial": "Perera MT et al., Ann R Coll Surg Engl 2014: systematic review confirming ERCP as definitive management for Type A post-cholecystectomy bile leaks.",
+          "pearl": "ATOM bile duct injury classification: A = peripheral leak (cystic stump/radicle) → ERCP; B = partial occlusion of bile duct → ERCP; C = non-occlusive injury to major duct → ERCP ± hepaticojejunostomy; D = complete transection → surgical reconstruction."
+        }
+      },
+      {
+        "id": "A4-Q12",
+        "stem": "A 55-year-old patient presents with acute biliary pancreatitis that has resolved. MRCP shows a 12 mm common bile duct with two calculi. The patient is otherwise fit. What is the preferred management for the CBD stones?",
+        "options": {
+          "A": "Watchful waiting — most CBD stones pass spontaneously after pancreatitis",
+          "B": "ERCP with sphincterotomy and stone extraction, followed by elective laparoscopic cholecystectomy",
+          "C": "Laparoscopic cholecystectomy with intraoperative cholangiogram and surgical CBD exploration if stones confirmed",
+          "D": "Open cholecystectomy with T-tube drainage of the CBD"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The standard management for CBD stones following biliary pancreatitis is ERCP with sphincterotomy and stone clearance, followed by laparoscopic cholecystectomy (ideally in the same admission or within 2 weeks). A 12 mm CBD with two calculi will not pass spontaneously and requires endoscopic clearance. ERCP precedes cholecystectomy to clear the duct first, reducing the risk of recurrent pancreatitis during the interval.",
+          "wrong": {
+            "A": "12 mm stones will not pass spontaneously. Watchful waiting risks recurrent pancreatitis, cholangitis, and biliary obstruction.",
+            "C": "Laparoscopic CBD exploration (LCBDE) is an alternative to ERCP at experienced laparoscopic centres, with equivalent stone clearance rates. However, ERCP with sphincterotomy is the more widely available standard and the default answer in most exam settings unless LCBDE expertise is specified.",
+            "D": "Open cholecystectomy with T-tube is the historical approach. It has been replaced by minimally invasive strategies — either ERCP + laparoscopic cholecystectomy or laparoscopic CBD exploration."
+          },
+          "guideline": "BSG/AUGIS CBD Stone Guidelines 2022 — ERCP + sphincterotomy for CBD stones; cholecystectomy in same admission or within 2 weeks",
+          "trial": "Reinders JS et al., Ann Surg 2010: ERCP vs LCBDE — equivalent stone clearance; ERCP preferred if expertise available.",
+          "pearl": "After ERCP stone clearance, cholecystectomy should ideally occur in the same admission to prevent gallstone pancreatitis recurrence (risk 15–30% if deferred >6 weeks)."
+        }
+      },
+      {
+        "id": "A4-Q13",
+        "stem": "During a Pringle manoeuvre in open hepatectomy, the surgeon occludes hepatic inflow. Which anatomical structure in the hepatoduodenal ligament contains the portal vein, and what is its relationship to the hepatic artery?",
+        "options": {
+          "A": "Portal vein is anterior; hepatic artery is posterior; bile duct is to the right",
+          "B": "Portal vein is posterior; hepatic artery is to the left (anteriorly); bile duct is to the right",
+          "C": "Portal vein is to the right; bile duct is posterior; hepatic artery is to the left",
+          "D": "Portal vein and hepatic artery run together anteriorly; bile duct is separate posteriorly"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The hepatoduodenal ligament (free edge of the lesser omentum) contains three structures: the portal vein posteriorly (largest structure), the common hepatic artery / proper hepatic artery to the left anteriorly, and the common bile duct to the right anteriorly. This arrangement is remembered as the 'HPB triangle': Hepatic artery (left), Portal vein (posterior), Bile duct (right). The Pringle manoeuvre compresses this entire pedicle between thumb (posteriorly in the foramen of Winslow) and fingers (anteriorly) to occlude hepatic inflow during parenchymal transection.",
+          "wrong": {
+            "A": "The portal vein is not anterior — it is the most posterior of the three structures, largest and most easily compressed.",
+            "C": "The bile duct is not posterior — it is anterior and to the right. The portal vein is posterior.",
+            "D": "The portal vein and hepatic artery do not run together anteriorly — the portal vein is distinctly posterior."
+          },
+          "guideline": "Standard hepatobiliary surgical anatomy — hepatoduodenal ligament contents.",
+          "trial": "N/A — anatomical fact.",
+          "pearl": "Mnemonic for hepatoduodenal ligament: from right to left anteriorly = Bile duct (right), Hepatic artery (left), Portal vein (posterior). BHP — or 'Big HPB': B=bile duct right, H=hepatic artery left, P=portal vein posterior."
+        }
+      },
+      {
+        "id": "A4-Q14",
+        "stem": "A 72-year-old patient with known Child-Pugh C cirrhosis (score 11) is found to have a 4 cm HCC on screening ultrasound. CT confirms no vascular invasion and no extrahepatic disease. He is ECOG PS 2. What is the most appropriate management?",
+        "options": {
+          "A": "Hepatic resection — a single HCC without vascular invasion is always resectable",
+          "B": "TACE — BCLC-B disease should receive transarterial therapy",
+          "C": "Best supportive care ± sorafenib — Child-Pugh C with PS 2 is BCLC-D; surgery is contraindicated",
+          "D": "Stereotactic body radiotherapy (SBRT) — this avoids the risks of surgery in cirrhosis"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Child-Pugh C cirrhosis with ECOG PS 2 corresponds to BCLC-D (end-stage HCC). Child-Pugh C is an absolute contraindication to hepatic resection, TACE, and most active interventions, as the risk of hepatic decompensation is overwhelming. BCLC-D management is best supportive care. If the patient would be otherwise transplantable, transplant evaluation is appropriate (Child-Pugh C does not preclude transplant — it is actually an indication). Systemic therapy (atezolizumab/bevacizumab or sorafenib) carries high risk in Child-Pugh C.",
+          "wrong": {
+            "A": "Child-Pugh C is an absolute contraindication to resection — post-hepatectomy liver failure in Child-Pugh C approaches 100% for major resections.",
+            "B": "TACE requires adequate liver reserve (Child-Pugh A–B). Child-Pugh C makes TACE-induced decompensation and liver failure highly likely.",
+            "D": "SBRT carries risk of radiation-induced liver disease in Child-Pugh C and is not standard of care for BCLC-D."
+          },
+          "guideline": "EASL HCC Clinical Practice Guidelines 2022 — BCLC-D: Child-Pugh C or PS 3–4 → best supportive care; transplant evaluation if appropriate",
+          "trial": "Llovet JM et al., J Hepatol 2016: Updated BCLC staging; Child-Pugh C defines BCLC-D.",
+          "pearl": "Child-Pugh score ≥10 (class C) = contraindication to hepatic resection regardless of tumour characteristics. Always assess liver function first, then tumour characteristics. The liver matters more than the tumour in surgical planning for HCC."
+        }
+      },
+      {
+        "id": "A4-Q15",
+        "stem": "A randomised controlled trial compares laparoscopic vs open distal pancreatectomy for pancreatic body/tail tumours. Which trial provided the highest-level evidence, and what was the primary finding?",
+        "options": {
+          "A": "LEOPARD trial (van Hilst, JAMA Surg 2019): laparoscopic distal pancreatectomy associated with faster functional recovery and less blood loss",
+          "B": "PLOT trial: open distal pancreatectomy associated with lower POPF rate",
+          "C": "DISPACT trial: no difference in outcomes between laparoscopic and open approaches",
+          "D": "LEOPARD-2: simultaneous laparoscopic splenectomy mandatory with laparoscopic distal pancreatectomy"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "The LEOPARD trial (van Hilst et al., JAMA Surgery 2019) was the first randomised controlled trial comparing laparoscopic vs open distal pancreatectomy. Primary outcome was functional recovery (time to functional recovery = mobilisation + adequate oral intake + pain management with oral analgesics). Laparoscopic distal pancreatectomy was superior: median 4 vs 6 days functional recovery (p<0.001), less blood loss, shorter hospital stay, equivalent POPF rates and morbidity. Oncological outcomes were equivalent. This trial established laparoscopic distal pancreatectomy as the preferred approach at experienced centres.",
+          "wrong": {
+            "B": "There is no 'PLOT trial' relevant to this comparison. POPF rates were equivalent in LEOPARD.",
+            "C": "The DISPACT trial evaluated stapler vs handsewn closure of the pancreatic remnant in distal pancreatectomy — not laparoscopic vs open comparison.",
+            "D": "LEOPARD-2 assessed laparoscopic vs robotic distal pancreatectomy; splenectomy is not mandated — splenic preservation is preferred when oncologically safe."
+          },
+          "guideline": "NCCN Pancreatic Adenocarcinoma v2.2024 — laparoscopic distal pancreatectomy is appropriate for body/tail tumours at experienced centres",
+          "trial": "LEOPARD trial (van Hilst, JAMA Surg 2019): n=108 RCT; laparoscopic distal pancreatectomy superior for functional recovery (4 vs 6 days); equivalent POPF and oncological outcomes.",
+          "pearl": "For distal pancreatectomy: laparoscopic is now preferred over open at experienced centres based on LEOPARD. For pancreaticoduodenectomy (head), laparoscopic vs open equivalence is less established — LEOPARD-2 evaluated robotic vs laparoscopic for distal pancreatectomy."
+        }
+      },
+      {
+        "id": "A4-Q16",
+        "stem": "During pancreaticoduodenectomy for resectable pancreatic head cancer, the SMV is found to be adherent to the uncinate process and cannot be separated. The surgeon considers venous resection. Which of the following best describes the oncological rationale?",
+        "options": {
+          "A": "Venous involvement denotes T4 disease — resection is not curative and should be abandoned",
+          "B": "SMV/portal vein resection and reconstruction is oncologically acceptable when R0 resection is achievable; venous involvement does not preclude curative intent",
+          "C": "Venous involvement always indicates borderline-resectable disease — surgery should not have been undertaken",
+          "D": "Ligation of the SMV without reconstruction is acceptable if collateral drainage is adequate"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "SMV/portal vein involvement in pancreatic cancer does not preclude curative-intent surgery when R0 resection is achievable with venous reconstruction. ISGPS and NCCN explicitly endorse venous resection and reconstruction (lateral venorrhaphy, patch repair, segmental resection with primary anastomosis, or interposition graft) as part of standard pancreaticoduodenectomy when necessary. Studies demonstrate equivalent OS to standard PD when R0 is achieved. The critical determinant is R0 margin status, not venous involvement per se. Arterial involvement (SMA, celiac axis) remains the true oncological barrier.",
+          "wrong": {
+            "A": "SMV involvement is not T4 in the AJCC 8th edition — T4 requires involvement of the celiac axis or SMA. SMV involvement does not automatically indicate unresectability.",
+            "C": "Borderline-resectable requires imaging demonstrating SMV involvement — if imaging predicted resectable and intraoperative findings show adherence, proceeding with venous resection is appropriate rather than abandoning the operation.",
+            "D": "SMV ligation without reconstruction would lead to acute portal hypertension, mesenteric venous ischaemia, bowel necrosis, and death — it is never appropriate."
+          },
+          "guideline": "ISGPS Venous Resection Guidelines 2014 — venous resection acceptable for R0 intent; NCCN v2.2024 endorses vein resection as part of PD",
+          "trial": "Nakao A et al., Ann Surg 2006: portal vein resection during PD — equivalent OS to standard PD when R0 achieved; meta-analysis Tseng JF 2004.",
+          "pearl": "Venous resection (SMV/PV) during Whipple: acceptable; Arterial resection (SMA/CA): high morbidity, select cases only at expert centres. The distinction between vein and artery involvement is fundamental to surgical planning."
+        }
+      },
+      {
+        "id": "A4-Q17",
+        "stem": "During pancreaticoduodenectomy, intraoperative frozen section of the pancreatic neck margin returns 'positive for high-grade dysplasia (PanIN-3).' The patient has a borderline-resectable pancreatic head cancer. What is the most appropriate response?",
+        "options": {
+          "A": "Proceed with reconstruction — PanIN-3 at the margin does not affect long-term outcomes",
+          "B": "Convert to total pancreatectomy to obtain a negative pancreatic margin",
+          "C": "Re-excise additional pancreatic tissue from the neck margin until frozen section is negative or until total pancreatectomy becomes necessary",
+          "D": "Abandon the operation — positive frozen section indicates R1 margins that preclude curative intent"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A positive pancreatic neck margin on frozen section warrants an attempt to re-excise additional pancreatic parenchyma to achieve a negative margin before proceeding to reconstruction. This may involve taking 0.5–1 cm additional pancreatic tissue and re-sending frozen sections. If repeated frozen sections remain positive, total pancreatectomy may be necessary to achieve R0. Proceeding with known PanIN-3 at the margin significantly increases local recurrence risk. However, total pancreatectomy is a major step — re-excision attempts should be made first.",
+          "wrong": {
+            "A": "PanIN-3 (high-grade dysplasia/carcinoma in situ) at the pancreatic neck margin represents an R1 (or R0 with high recurrence risk) situation and should prompt re-excision.",
+            "B": "Total pancreatectomy is only appropriate if repeated re-excisions cannot achieve a negative margin. It should not be the first response to a single positive frozen section — the diabetes and exocrine insufficiency consequences are severe.",
+            "D": "R1 margins are associated with reduced but not zero survival benefit. Abandoning curative-intent surgery at this stage (reconstruction complete) is not appropriate — re-excision should be attempted."
+          },
+          "guideline": "NCCN Pancreatic v2.2024 — R0 resection is goal; re-excise for positive neck margin if technically feasible",
+          "trial": "Raut CP et al., Ann Surg 2007: margin status after PD — R0 vs R1 OS 25 vs 15 months; supports aggressive margin management.",
+          "pearl": "For pancreatic neck margin on frozen section: PanIN-1/2 (low-grade dysplasia) at margin → acceptable; PanIN-3 / invasive carcinoma at margin → re-excise. Aim for R0 at all anastomotic margins (pancreatic neck, bile duct, retroperitoneal margin)."
+        }
+      },
+      {
+        "id": "A4-Q18",
+        "stem": "A patient with resected distal cholangiocarcinoma (R0) is being considered for adjuvant therapy. Which trial established the current standard of care?",
+        "options": {
+          "A": "PRODIGE-12: gemcitabine/oxaliplatin adjuvant chemotherapy — negative trial",
+          "B": "BILCAP: adjuvant capecitabine for 6 months significantly improved OS in per-protocol analysis",
+          "C": "ABC-02: cisplatin/gemcitabine is the adjuvant standard after resection of biliary cancers",
+          "D": "SWOG 0809: adjuvant gemcitabine/capecitabine followed by chemoradiation — standard in North America only"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The BILCAP trial (Primrose et al., Lancet Oncology 2019) randomised 447 patients with resected biliary tract cancers (including CCA and gallbladder cancer) to adjuvant capecitabine vs observation. In the per-protocol analysis, capecitabine significantly improved median OS (51.1 vs 36.4 months; HR 0.75, p=0.028). This established adjuvant capecitabine for 6 months as the current standard of care after resection of biliary tract cancers in the UK and internationally. It is the only positive adjuvant RCT in this disease.",
+          "wrong": {
+            "A": "PRODIGE-12 (gemcitabine/oxaliplatin adjuvant) was a negative trial — no significant OS improvement.",
+            "C": "ABC-02 (Valle et al., NEJM 2010) established cisplatin/gemcitabine for advanced/metastatic biliary cancers — it is the palliative first-line standard, NOT an adjuvant trial.",
+            "D": "SWOG 0809 was a single-arm phase II trial of adjuvant gemcitabine/capecitabine + chemoradiation — not a randomised trial and not the current standard."
+          },
+          "guideline": "ESMO Biliary Tract Cancer 2023 — adjuvant capecitabine for 8 cycles after R0/R1 resection (BILCAP evidence)",
+          "trial": "BILCAP (Primrose JN, Lancet Oncol 2019): 447 patients, adjuvant capecitabine vs observation; median OS 51.1 vs 36.4 months in per-protocol analysis; HR 0.75.",
+          "pearl": "BILCAP = adjuvant biliary tract cancers (capecitabine, 8 cycles, 6 months). ABC-02 = palliative biliary tract cancers (cisplatin+gemcitabine). Do not confuse these two landmark trials."
+        }
+      },
+      {
+        "id": "A4-Q19",
+        "stem": "A patient on postoperative day 9 after Whipple procedure is still unable to advance beyond liquids. Nasogastric tube output remains 500–800 mL/day. He is haemodynamically stable, afebrile, and CT shows no intra-abdominal collection. What is the ISGPS definition of delayed gastric emptying (DGE) and appropriate management?",
+        "options": {
+          "A": "DGE Grade A — NPO and TPN mandatory; nasogastric tube for decompression",
+          "B": "DGE Grade B — unable to tolerate solid diet by POD 7; manage with nasogastric decompression, prokinetics (metoclopramide), and nutritional support",
+          "C": "DGE Grade C — re-operation required to revise the gastrojejunostomy",
+          "D": "Normal postoperative recovery — gastric emptying takes up to 3 weeks after Whipple"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ISGPS defines DGE as inability to return to standard solid-food diet by POD 7. Grade A: POD 7–14 with NGT required; Grade B: POD 14–21 with NGT retained or re-inserted; Grade C: >POD 21 with NGT retained or re-inserted. At POD 9 with ongoing NGT output and inability to advance diet, this is Grade B DGE. Management: NGT decompression for high output, prokinetics (metoclopramide, erythromycin), parenteral or jejunal tube nutritional support, exclude mechanical obstruction or intra-abdominal collection (already excluded by CT), and patience — DGE typically resolves within 3–4 weeks.",
+          "wrong": {
+            "A": "Grade A DGE (POD 7–14) does not mandatorily require TPN — enteral nutrition via jejunal tube (placed at Whipple) is preferred and TPN reserved for when enteral access is not available.",
+            "C": "Grade C requires >POD 21 without progress. Re-operation for DGE is exceptionally rare — DGE is almost always a motility issue, not a mechanical anastomotic problem.",
+            "D": "DGE is a recognised complication requiring grading and management, not a normal variant. NGT output of 500–800 mL/day on POD 9 after Whipple is abnormal and requires intervention."
+          },
+          "guideline": "ISGPS DGE Definition 2007 (revised 2010) — Grade A: POD 7–14 NGT; Grade B: POD 14–21; Grade C: >POD 21",
+          "trial": "Wente MN et al., Surgery 2007: International Study Group of Pancreatic Surgery DGE definition and grading.",
+          "pearl": "DGE Grades: A = NGT POD 7–14; B = NGT POD 14–21; C = NGT >POD 21. Management: exclude collection (CT), prokinetics, jejunal feeding. DGE after Whipple is common (20–50%) — it almost always resolves without re-operation."
+        }
+      },
+      {
+        "id": "A4-Q20",
+        "stem": "A patient with a 45% FLR requires right hepatectomy for a large hepatic metastasis. Preoperative PVE of the right portal vein is performed. Six weeks later, volumetry shows the FLR has increased to only 27% (below the 30% target after chemotherapy exposure). What is the most appropriate next step?",
+        "options": {
+          "A": "Proceed with right hepatectomy — any hypertrophy after PVE is sufficient",
+          "B": "Consider ALPPS (liver partition + portal vein ligation for staged hepatectomy) to achieve rapid further hypertrophy",
+          "C": "Abandon surgical approach — if FLR does not reach target after PVE, surgery is contraindicated",
+          "D": "Repeat PVE of the same right portal vein — a second embolisation will induce further hypertrophy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "When PVE fails to achieve adequate FLR hypertrophy (defined as <5% growth or failure to reach target threshold), ALPPS is the established rescue strategy. ALPPS combines right portal vein ligation with in situ liver splitting (Stage 1) to achieve rapid and substantial FLR hypertrophy (typically 70–90% growth in 7–14 days). Stage 2 (completion hepatectomy) follows once FLR is adequate. ALPPS carries higher morbidity than standard hepatectomy (30–40% major complications) but is appropriate when PVE has demonstrably failed and the disease allows the two-stage approach.",
+          "wrong": {
+            "A": "After chemotherapy, the FLR threshold is ≥30%. At 27%, proceeding risks post-hepatectomy liver failure — the target has not been met.",
+            "C": "Abandoning surgery is premature when ALPPS offers a validated rescue strategy. Patients who respond to PVE but inadequately should be considered for ALPPS before surgical candidacy is withdrawn.",
+            "D": "Repeated PVE of the same territory does not provide additional hypertrophy — the ipsilateral portal blood has already been redirected. A second PVE of the same side has no rationale."
+          },
+          "guideline": "ESMO 2023 / ISGLS — ALPPS as rescue for failed PVE; target FLR >30% after chemotherapy before major hepatectomy",
+          "trial": "LIGRO trial (Sandstrom, Ann Surg 2018): ALPPS vs TSH for CRLM — higher R0 rates with ALPPS; ALPPS Group International Registry 2015: safety data.",
+          "pearl": "PVE failure → ALPPS. ALPPS: Stage 1 (PVL + liver split) → wait 7–14 days → volumetry → Stage 2 (hepatectomy) when FLR adequate. Higher morbidity than sequential PVE+hepatectomy but indispensable in inadequate PVE responders."
+        }
+      }
+    ]
+  }
+}

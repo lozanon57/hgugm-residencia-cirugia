@@ -1,0 +1,608 @@
+/* ============================================================
+   app.js — SPA Router & View Orchestration
+   HGUGM Surgical Residency Course
+   ============================================================ */
+
+'use strict';
+
+/* ── Curriculum Manifest ────────────────────────────────────── */
+const CURRICULUM = [
+  {
+    block: 'A', blockName: 'Surgical Oncology', icon: '🔴',
+    chapters: [
+      { id: 'A1', title: 'Principles of Surgical Oncology', level: 'PGY1-2', readingTime: 40 },
+      { id: 'A2', title: 'Colorectal Cancer', level: 'PGY2-3', readingTime: 45 },
+      { id: 'A3', title: 'Gastric Cancer', level: 'PGY2-3', readingTime: 38 },
+      { id: 'A4', title: 'Hepatopancreatic-Biliary Surgery', level: 'PGY3-4', readingTime: 50 },
+      { id: 'A5', title: 'Breast Surgery & Oncology', level: 'PGY2-3', readingTime: 35 },
+      { id: 'A6', title: 'Sarcoma & Peritoneal Oncology', level: 'PGY3-4', readingTime: 42 },
+    ]
+  },
+  {
+    block: 'B', blockName: 'General Surgery — Emergencies & Wall', icon: '🔵',
+    chapters: [
+      { id: 'B1', title: 'Emergency Surgery', level: 'PGY1-2', readingTime: 45 },
+      { id: 'B2', title: 'Hernia Surgery', level: 'PGY1-2', readingTime: 30 },
+      { id: 'B3', title: 'Bariatric & Metabolic Surgery', level: 'PGY2-3', readingTime: 38 },
+      { id: 'B4', title: 'Endocrine Surgery', level: 'PGY2-3', readingTime: 32 },
+    ]
+  },
+  {
+    block: 'D', blockName: 'Benign Digestive Surgery', icon: '🟠',
+    chapters: [
+      { id: 'D1', title: 'Biliary Surgery — Cholecystitis & Choledocholithiasis', level: 'PGY1-2', readingTime: 40 },
+      { id: 'D2', title: 'Acute Diverticulitis & Colonic Benign Disease', level: 'PGY1-2', readingTime: 35 },
+      { id: 'D3', title: 'Inflammatory Bowel Disease — Crohn\'s & Ulcerative Colitis', level: 'PGY2-3', readingTime: 45 },
+      { id: 'D4', title: 'Proctology — Haemorrhoids, Fissures, Fistulae & Pilonidal', level: 'PGY1-2', readingTime: 35 },
+      { id: 'D5', title: 'Pelvic Floor & Functional Colorectal Disorders', level: 'PGY2-3', readingTime: 35 },
+      { id: 'D6', title: 'Oesophageal & Benign Gastric Disease', level: 'PGY2-3', readingTime: 40 },
+      { id: 'D7', title: 'Small Bowel, Mesentery & Nutritional Access', level: 'PGY1-2', readingTime: 30 },
+    ]
+  },
+  {
+    block: 'E', blockName: 'Transplantation & Vascular', icon: '🟣',
+    chapters: [
+      { id: 'E1', title: 'Liver Transplantation', level: 'PGY4-5', readingTime: 45 },
+      { id: 'E2', title: 'Renal & Multivisceral Transplantation', level: 'PGY4-5', readingTime: 35 },
+      { id: 'E3', title: 'Vascular Surgery for General Surgeons', level: 'PGY2-3', readingTime: 40 },
+    ]
+  },
+  {
+    block: 'F', blockName: 'Trauma, Infections & Thoracic', icon: '⚫',
+    chapters: [
+      { id: 'F1', title: 'Abdominal & Thoracic Trauma', level: 'PGY1-3', readingTime: 45 },
+      { id: 'F2', title: 'Surgical Infections, Sepsis & Necrotising Fasciitis', level: 'PGY1-2', readingTime: 35 },
+      { id: 'F3', title: 'Thoracic Surgery for General Surgeons', level: 'PGY2-3', readingTime: 35 },
+      { id: 'F4', title: 'Paediatric Surgery for General Surgeons', level: 'PGY2-3', readingTime: 35 },
+    ]
+  },
+  {
+    block: 'G', blockName: 'Perioperative & Minimally Invasive', icon: '🩵',
+    chapters: [
+      { id: 'G1', title: 'Perioperative Care, Anaesthesia & ERAS', level: 'PGY1-2', readingTime: 38 },
+      { id: 'G2', title: 'Surgical Nutrition & Metabolism', level: 'PGY1-2', readingTime: 30 },
+      { id: 'G3', title: 'Minimally Invasive Surgery — Laparoscopy & Robotics', level: 'PGY1-3', readingTime: 38 },
+    ]
+  },
+  {
+    block: 'C', blockName: 'Academic Surgery', icon: '🟢',
+    chapters: [
+      { id: 'C1', title: 'Hypothesis Generation & Research Question', level: 'PGY1+', readingTime: 28 },
+      { id: 'C2', title: 'Study Design', level: 'PGY1+', readingTime: 35 },
+      { id: 'C3', title: 'Biostatistics for Surgeons', level: 'PGY2+', readingTime: 40 },
+      { id: 'C4', title: 'Clinical Databases & Registry Research', level: 'PGY2+', readingTime: 30 },
+      { id: 'C5', title: 'Scientific Writing', level: 'PGY1+', readingTime: 35 },
+      { id: 'C6', title: 'Peer Review & Journal Process', level: 'PGY2+', readingTime: 25 },
+      { id: 'C7', title: 'Systematic Review & Meta-Analysis', level: 'PGY3+', readingTime: 42 },
+      { id: 'C8', title: 'Critical Appraisal', level: 'PGY2+', readingTime: 30 },
+    ]
+  }
+];
+
+/* ── Chapter total for progress ─────────────────────────────── */
+const ALL_CHAPTERS = CURRICULUM.flatMap(b => b.chapters);
+
+/* ── Router ─────────────────────────────────────────────────── */
+const Router = {
+  currentRoute: null,
+
+  init() {
+    window.addEventListener('hashchange', () => this.resolve());
+    this.resolve();
+  },
+
+  resolve() {
+    const hash = window.location.hash.replace('#', '') || '/';
+    const parts = hash.split('/').filter(Boolean);
+    const route = parts[0] || '';
+    const param = parts[1] || '';
+
+    this.currentRoute = route;
+    this.updateNav(route);
+    document.getElementById('readingProgressBar').style.display = 'none';
+
+    if (route === 'chapter' && param) {
+      renderChapterView(param.toUpperCase());
+      document.title = `Loading… | HGUGM Surgical Course`;
+    } else if (route === 'curriculum') {
+      renderCurriculumView();
+      document.title = 'Curriculum | HGUGM Surgical Course';
+    } else if (route === 'search') {
+      renderSearchView();
+      document.title = 'Search | HGUGM Surgical Course';
+    } else if (route === 'progress') {
+      renderProgressView();
+      document.title = 'My Progress | HGUGM Surgical Course';
+    } else if (route === 'about') {
+      renderAboutView();
+      document.title = 'About | HGUGM Surgical Course';
+    } else {
+      renderHomeView();
+      document.title = 'HGUGM Surgical Residency Course';
+    }
+
+    window.scrollTo(0, 0);
+  },
+
+  updateNav(route) {
+    const navRoute = route === 'chapter' ? 'curriculum' : (route || 'home');
+    document.querySelectorAll('[data-route]').forEach(el => {
+      el.classList.toggle('active', el.dataset.route === navRoute);
+    });
+  }
+};
+
+/* ── Mount Helper ───────────────────────────────────────────── */
+function mountView(html) {
+  const app = document.getElementById('app');
+  app.innerHTML = `<div class="view-animate">${html}</div>`;
+}
+
+/* ── HOME VIEW ──────────────────────────────────────────────── */
+function renderHomeView() {
+  const progress = Progress.getProgress();
+  const totalSections = getTotalSections();
+  const doneSections = Object.values(progress.chapters_read || {})
+    .reduce((sum, ch) => sum + (ch.sections_done || []).length, 0);
+  const pct = totalSections > 0 ? Math.round((doneSections / totalSections) * 100) : 0;
+
+  const lastRead = getLastRead(progress);
+  const continueCard = lastRead
+    ? `<a href="#/chapter/${lastRead.id}" class="continue-card">
+        <div>
+          <div class="continue-label">Continue Reading</div>
+          <div class="continue-title">${lastRead.id} · ${lastRead.title}</div>
+          <div class="continue-progress">Section ${lastRead.sectionIdx + 1}</div>
+        </div>
+        <div class="continue-arrow">→</div>
+      </a>`
+    : `<a href="#/curriculum" class="continue-card">
+        <div>
+          <div class="continue-label">Get Started</div>
+          <div class="continue-title">Browse all chapters</div>
+          <div class="continue-progress">${ALL_CHAPTERS.length} chapters · ${totalSections} sections</div>
+        </div>
+        <div class="continue-arrow">→</div>
+      </a>`;
+
+  const blocksHtml = CURRICULUM.map(block => `
+    <a href="#/chapter/${block.chapters[0].id}" class="block-card">
+      <div class="block-icon">${block.icon}</div>
+      <div class="block-name">${block.blockName}</div>
+      <div class="block-chapters">${block.chapters.length} chapters</div>
+    </a>`).join('');
+
+  const pearl = Knowledge.getRandomPearl();
+  const pearlHtml = pearl
+    ? `<div class="pearl-widget">
+        <div class="pearl-tag">🔑 Today's Pearl</div>
+        <div class="pearl-text">${pearl.text}</div>
+        <div class="pearl-source">← ${pearl.source}</div>
+      </div>`
+    : '';
+
+  const streakHtml = (progress.streak && progress.streak.current > 0)
+    ? `<div style="text-align:right; font-size:0.85rem; color:var(--gold);">🔥 ${progress.streak.current}-day streak</div>`
+    : '';
+
+  mountView(`
+    <div class="hero-section">
+      <div class="hero-title">HGUGM Surgical Residency Course</div>
+      <div class="hero-subtitle">Dr. Pablo Lozano Lominchar, MD, PhD, EBPSM</div>
+      <div class="hero-institution">Surgical Oncology | HGUGM · Complutense University of Madrid</div>
+    </div>
+
+    <div class="container" style="padding-top:24px; padding-bottom:40px;">
+      ${continueCard}
+
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px;">
+        <h2 style="font-size:1rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em;">Curriculum Blocks</h2>
+        ${streakHtml}
+      </div>
+
+      <div class="blocks-grid">${blocksHtml}</div>
+
+      ${pearlHtml}
+
+      <div class="progress-overview">
+        <div class="progress-label">Your overall progress — ${pct}% complete</div>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" style="width:${pct}%"></div>
+        </div>
+        <div class="progress-count">${doneSections} of ${totalSections} sections read</div>
+      </div>
+
+      ${renderRecentActivity(progress)}
+    </div>
+
+    ${renderFooter()}
+  `);
+}
+
+function getLastRead(progress) {
+  const chapters = progress.chapters_read || {};
+  let latest = null;
+  let latestDate = null;
+  for (const [id, data] of Object.entries(chapters)) {
+    if (data.last_date && (!latestDate || data.last_date > latestDate)) {
+      latestDate = data.last_date;
+      const chapterInfo = ALL_CHAPTERS.find(c => c.id === id);
+      if (chapterInfo) {
+        latest = {
+          id,
+          title: chapterInfo.title,
+          sectionIdx: (data.sections_done || []).length
+        };
+      }
+    }
+  }
+  return latest;
+}
+
+function getTotalSections() {
+  return 245; // sum of all sections across 35 chapters
+}
+
+function renderRecentActivity(progress) {
+  const scores = progress.quiz_scores || {};
+  const entries = Object.entries(scores).slice(0, 3);
+  if (!entries.length) return '';
+
+  const items = entries.map(([id, data]) => {
+    const ch = ALL_CHAPTERS.find(c => c.id === id);
+    return `<div style="display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-bottom:1px solid var(--border); font-size:0.88rem;">
+      <span>${ch ? ch.title : id}</span>
+      <span style="color:var(--teal); font-weight:600;">${data.score}/${data.total} quiz</span>
+    </div>`;
+  }).join('');
+
+  return `<div style="margin-top:20px;">
+    <h3 style="font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin-bottom:10px;">Recent Quiz Activity</h3>
+    ${items}
+  </div>`;
+}
+
+/* ── CURRICULUM VIEW ────────────────────────────────────────── */
+let _activeBlockFilter = null;
+
+function filterBlock(block) {
+  _activeBlockFilter = block;
+}
+
+function renderCurriculumView() {
+  const progress = Progress.getProgress();
+
+  const blocksHtml = CURRICULUM.map(block => {
+    const chaptersHtml = block.chapters.map(ch => {
+      const chProg = (progress.chapters_read || {})[ch.id];
+      const completed = chProg && chProg.completed;
+      const sectDone = chProg ? (chProg.sections_done || []).length : 0;
+      const quizData = (progress.quiz_scores || {})[ch.id];
+      const quizBadge = quizData
+        ? `<span style="font-size:0.75rem; color:var(--teal);">Quiz: ${quizData.score}/${quizData.total}</span>`
+        : '';
+
+      return `<a href="#/chapter/${ch.id}" class="chapter-list-item">
+        <div class="chapter-id-badge">${ch.id}</div>
+        <div class="chapter-list-info">
+          <div class="chapter-list-title">${ch.title}</div>
+          <div class="chapter-list-meta">${ch.level} · ${ch.readingTime} min read${sectDone > 0 ? ` · ${sectDone} sections read` : ''}</div>
+          ${quizBadge}
+        </div>
+        <div class="chapter-list-status">${completed ? '✅' : (sectDone > 0 ? '📖' : '○')}</div>
+      </a>`;
+    }).join('');
+
+    return `<div class="curriculum-block">
+      <div class="curriculum-block-header">
+        <span class="curriculum-block-icon">${block.icon}</span>
+        <span class="curriculum-block-title">Block ${block.block}: ${block.blockName}</span>
+        <span class="curriculum-block-count">${block.chapters.length} chapters</span>
+      </div>
+      ${chaptersHtml}
+    </div>`;
+  }).join('');
+
+  mountView(`
+    <div class="container" style="padding-top:32px; padding-bottom:40px;">
+      <div class="page-header">
+        <h1 style="font-size:1.8rem; color:var(--navy);">Curriculum</h1>
+        <p class="text-muted" style="margin-top:6px;">35 chapters across 7 blocks — full general surgery residency curriculum</p>
+      </div>
+      ${blocksHtml}
+    </div>
+    ${renderFooter()}
+  `);
+}
+
+/* ── CHAPTER VIEW ───────────────────────────────────────────── */
+async function renderChapterView(chapterId) {
+  mountView(`<div class="flex-center" style="min-height:60vh;"><div class="spinner"></div></div>`);
+
+  try {
+    const CHAPTER_FILES = {
+      // Block A — Surgical Oncology
+      A1: 'a1_oncology_principles', A2: 'a2_colorectal', A3: 'a3_gastric',
+      A4: 'a4_hpb', A5: 'a5_breast', A6: 'a6_sarcoma_peritoneal',
+      // Block B — General Surgery
+      B1: 'b1_emergency_surgery', B2: 'b2_hernia', B3: 'b3_bariatric', B4: 'b4_endocrine',
+      // Block D — Benign Digestive Surgery
+      D1: 'd1_biliary', D2: 'd2_diverticulitis', D3: 'd3_ibd',
+      D4: 'd4_proctology', D5: 'd5_pelvic_floor', D6: 'd6_oesophageal_benign', D7: 'd7_small_bowel',
+      // Block E — Transplantation & Vascular
+      E1: 'e1_liver_transplant', E2: 'e2_renal_transplant', E3: 'e3_vascular',
+      // Block F — Trauma, Infections & Thoracic
+      F1: 'f1_trauma', F2: 'f2_infections', F3: 'f3_thoracic', F4: 'f4_paediatric',
+      // Block G — Perioperative & MIS
+      G1: 'g1_perioperative', G2: 'g2_nutrition', G3: 'g3_mis',
+      // Block C — Academic Surgery
+      C1: 'c1_hypothesis', C2: 'c2_study_design', C3: 'c3_biostatistics',
+      C4: 'c4_databases', C5: 'c5_scientific_writing', C6: 'c6_peer_review',
+      C7: 'c7_systematic_review', C8: 'c8_critical_appraisal',
+    };
+    const filename = CHAPTER_FILES[chapterId.toUpperCase()];
+    if (!filename) throw new Error(`Unknown chapter: ${chapterId}`);
+    const res = await fetch(`content/chapters/${filename}.json`);
+    if (!res.ok) throw new Error(`Chapter ${chapterId} not found`);
+    const chapter = await res.json();
+
+    document.title = `${chapter.title} | HGUGM Surgical Course`;
+    document.getElementById('readingProgressBar').style.display = 'block';
+
+    const html = Reader.renderChapter(chapter);
+    mountView(html);
+
+    Reader.initScrollTracking(chapter);
+    Reader.buildTOC(chapter);
+    Quiz.initChapterQuiz(chapter);
+    Progress.trackChapterOpen(chapterId);
+
+  } catch (err) {
+    const chInfo = ALL_CHAPTERS.find(c => c.id === chapterId);
+    mountView(`
+      <div class="container" style="padding-top:40px;">
+        <a href="#/curriculum" class="btn btn-ghost" style="margin-bottom:20px;">← Back to Curriculum</a>
+        <div class="card">
+          <div class="card-body">
+            <div style="text-align:center; padding:40px 20px;">
+              <div style="font-size:3rem; margin-bottom:16px;">📖</div>
+              <h2 style="color:var(--navy); margin-bottom:8px;">${chInfo ? chInfo.title : chapterId}</h2>
+              <p class="text-muted">This chapter content is being prepared. Check back soon.</p>
+              <div style="margin-top:24px;">
+                <a href="#/curriculum" class="btn btn-primary">Browse Other Chapters</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `);
+  }
+}
+
+/* ── SEARCH VIEW ────────────────────────────────────────────── */
+function renderSearchView() {
+  mountView(`
+    <div class="container" style="padding-top:32px; padding-bottom:40px;">
+      <div class="page-header">
+        <h1 style="font-size:1.8rem; color:var(--navy);">Search</h1>
+        <p class="text-muted" style="margin-top:6px;">Search chapter titles, sections, and clinical pearls</p>
+      </div>
+
+      <div class="search-input-wrapper">
+        <input type="search" class="search-input" id="searchInput"
+          placeholder="Search topics, trials, procedures…"
+          autocomplete="off" autocorrect="off" spellcheck="false"
+          aria-label="Search course content" />
+        <span class="search-icon" aria-hidden="true">🔍</span>
+      </div>
+
+      <div id="searchResults">
+        <div class="empty-state">
+          <div class="empty-icon">🔍</div>
+          <h3>Start typing to search</h3>
+          <p>Search across all chapter content, clinical pearls, and landmark trials</p>
+        </div>
+      </div>
+    </div>
+    ${renderFooter()}
+  `);
+
+  SearchEngine.initView();
+}
+
+/* ── PROGRESS VIEW ──────────────────────────────────────────── */
+function renderProgressView() {
+  const progress = Progress.getProgress();
+  const chRead = progress.chapters_read || {};
+  const quizScores = progress.quiz_scores || {};
+  const streak = progress.streak || { current: 0 };
+  const totalTime = progress.total_time_min || 0;
+
+  const completedCount = Object.values(chRead).filter(c => c.completed).length;
+  const totalSections = getTotalSections();
+  const doneSections = Object.values(chRead).reduce((s, c) => s + (c.sections_done || []).length, 0);
+  const quizAvg = Object.values(quizScores).length > 0
+    ? Math.round(Object.values(quizScores).reduce((s, q) => s + (q.score / q.total * 100), 0) / Object.values(quizScores).length)
+    : 0;
+
+  const chaptersDetailHtml = ALL_CHAPTERS.map(ch => {
+    const d = chRead[ch.id];
+    const q = quizScores[ch.id];
+    const sectDone = d ? (d.sections_done || []).length : 0;
+    const pct = Math.round(sectDone / 7 * 100); // avg 7 sections per chapter
+
+    return `<div style="margin-bottom:16px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px; font-size:0.88rem;">
+        <span style="font-weight:600;">${ch.id} · ${ch.title}</span>
+        <div style="display:flex; gap:12px; align-items:center; flex-shrink:0; margin-left:12px;">
+          ${q ? `<span style="color:var(--teal); font-size:0.8rem;">Quiz: ${q.score}/${q.total}</span>` : ''}
+          <span style="color:var(--muted); font-size:0.8rem;">${sectDone} sections</span>
+          ${d && d.completed ? '<span class="completion-badge">✓ Done</span>' : ''}
+        </div>
+      </div>
+      <div class="progress-bar-track" style="height:6px;">
+        <div class="progress-bar-fill" style="width:${Math.min(pct,100)}%"></div>
+      </div>
+    </div>`;
+  }).join('');
+
+  mountView(`
+    <div class="container" style="padding-top:32px; padding-bottom:40px;">
+      <div class="page-header">
+        <h1 style="font-size:1.8rem; color:var(--navy);">My Progress</h1>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value">${completedCount}</div>
+          <div class="stat-label">Chapters Complete</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">${doneSections}</div>
+          <div class="stat-label">Sections Read</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">${quizAvg > 0 ? quizAvg + '%' : '—'}</div>
+          <div class="stat-label">Quiz Avg Score</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">${streak.current > 0 ? streak.current + '🔥' : '0'}</div>
+          <div class="stat-label">Day Streak</div>
+        </div>
+      </div>
+
+      <div class="progress-overview" style="margin-bottom:28px;">
+        <div class="progress-label">Overall course completion</div>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" style="width:${Math.round(doneSections/totalSections*100)}%"></div>
+        </div>
+        <div class="progress-count">${doneSections} of ${totalSections} sections · ${totalTime} min total study time</div>
+      </div>
+
+      <h2 style="font-size:1rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin-bottom:16px;">Chapter-by-Chapter</h2>
+      ${chaptersDetailHtml}
+
+      <div style="margin-top:32px; text-align:center;">
+        <button class="btn btn-ghost btn-sm" onclick="if(confirm('Reset all progress? This cannot be undone.')){Progress.reset(); Router.resolve();}">
+          Reset Progress
+        </button>
+      </div>
+    </div>
+    ${renderFooter()}
+  `);
+}
+
+/* ── ABOUT VIEW ─────────────────────────────────────────────── */
+function renderAboutView() {
+  mountView(`
+    <div class="container" style="padding-top:32px; padding-bottom:40px; max-width:780px;">
+      <div class="about-hero">
+        <div class="about-name">Dr. Pablo Lozano Lominchar</div>
+        <div class="about-degrees">MD, PhD, EBPSM (European Board of Peritoneal Surface Malignancy)</div>
+        <div class="about-institution">Consultant Surgeon – Surgical Oncology<br>Hospital General Universitario Gregorio Marañón (HGUGM)<br>Associate Professor, Complutense University of Madrid</div>
+      </div>
+
+      <div class="card" style="margin-bottom:16px;">
+        <div class="card-body">
+          <h2 style="font-size:1.1rem; color:var(--navy); margin-bottom:12px;">About This Course</h2>
+          <div class="reading-text">
+            <p>This platform is the digital equivalent of having Schwartz, Skandalakis, Chassin, and Shackelford open simultaneously — structured for modern surgical residents at HGUGM.</p>
+            <p>Content is written at postgraduate medical level, referencing specific guideline versions (NCCN 2024, ESMO 2023, JGCA 5th ed.) and landmark trials by name and year.</p>
+            <p>The learning architecture respects the fundamental order of surgical education: <strong>Theory → Synthesis → Application → Consolidation</strong>. You come here to study, not to be tested. Questions exist only to reinforce reading.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-bottom:16px;">
+        <div class="card-body">
+          <h2 style="font-size:1.1rem; color:var(--navy); margin-bottom:12px;">Curriculum</h2>
+          <div style="display:flex; flex-direction:column; gap:10px; font-size:0.9rem;">
+            <div><strong>Block A — Surgical Oncology</strong> (6 chapters): Oncology principles, colorectal, gastric, HPB, breast, sarcoma & peritoneal</div>
+            <div><strong>Block B — General Surgery</strong> (4 chapters): Emergency, hernia, bariatric, endocrine</div>
+            <div><strong>Block C — Academic Surgery</strong> (8 chapters): Research methodology, biostatistics, scientific writing, critical appraisal</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-bottom:16px;">
+        <div class="card-body">
+          <h2 style="font-size:1.1rem; color:var(--navy); margin-bottom:12px;">Technical Notes</h2>
+          <div class="reading-text" style="font-size:0.9rem;">
+            <p>This platform runs 100% from GitHub Pages — no server, no login, no cost. It works offline after first load (PWA). All progress is stored locally in your browser.</p>
+            <p>Guidelines: NCCN 2024 · ESMO 2023 · JGCA 5th Edition · AJCC 8th Edition</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h2 style="font-size:1.1rem; color:var(--navy); margin-bottom:12px;">Contact & Attribution</h2>
+          <div style="font-size:0.9rem; line-height:1.8; color:var(--muted);">
+            <div>📧 lozanon57@hotmail.com</div>
+            <div>🔬 ORCID: 0000-0002-5413-8449</div>
+            <div>🏥 Hospital General Universitario Gregorio Marañón, Madrid</div>
+            <div style="margin-top:12px; font-size:0.82rem;">For educational use within HGUGM Surgical Residency Programme. Content updated to NCCN 2024 · ESMO 2023.</div>
+            <div style="margin-top:8px; font-size:0.82rem;">License: CC BY-NC 4.0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    ${renderFooter()}
+  `);
+}
+
+/* ── Footer ─────────────────────────────────────────────────── */
+function renderFooter() {
+  return `<footer class="site-footer">
+    <div class="container">
+      <div class="footer-name">Dr. Pablo Lozano Lominchar, MD, PhD, EBPSM</div>
+      <div>Consultant Surgeon – Surgical Oncology | HGUGM · Complutense University of Madrid</div>
+      <div class="footer-links">
+        <span>lozanon57@hotmail.com</span>
+        <span>ORCID: 0000-0002-5413-8449</span>
+        <span>NCCN 2024 · ESMO 2023 · JGCA 5th ed.</span>
+        <span>For educational use within HGUGM Surgical Residency Programme</span>
+        <span>CC BY-NC 4.0</span>
+      </div>
+    </div>
+  </footer>`;
+}
+
+/* ── Dark Mode ──────────────────────────────────────────────── */
+const ThemeManager = {
+  init() {
+    const saved = localStorage.getItem('surgres_theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+    document.getElementById('themeToggle').addEventListener('click', () => this.toggle());
+    this.updateIcon();
+  },
+
+  toggle() {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('surgres_theme', next);
+    this.updateIcon();
+  },
+
+  updateIcon() {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    document.getElementById('themeToggle').textContent = isDark ? '☀️' : '🌙';
+  }
+};
+
+/* ── Service Worker Registration ────────────────────────────── */
+function registerServiceWorker() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
+}
+
+/* ── Init ───────────────────────────────────────────────────── */
+document.addEventListener('DOMContentLoaded', () => {
+  ThemeManager.init();
+  Knowledge.loadPearls();
+  SearchEngine.buildIndex(CURRICULUM);
+  Router.init();
+  registerServiceWorker();
+});

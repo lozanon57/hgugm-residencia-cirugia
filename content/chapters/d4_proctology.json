@@ -1,0 +1,724 @@
+{
+  "id": "D4",
+  "block": "D",
+  "block_name": "Benign Digestive Surgery",
+  "title": "Proctology — Haemorrhoids, Fissures, Fistulae & Pilonidal",
+  "level": "PGY1-2",
+  "sections": [
+    {
+      "id": "D4-S1",
+      "title": "Anorectal Anatomy",
+      "content": [
+        {
+          "type": "text",
+          "content": "A thorough understanding of anorectal anatomy is essential for any surgeon operating in this region. The anal canal extends approximately 4 cm from the anal verge to the anorectal junction. The dentate line (pectinate line) sits roughly midway along the canal and is the embryological junction between the endoderm-derived upper canal and the ectoderm-derived lower canal. This distinction has critical clinical significance: above the dentate line, the mucosa is columnar, sensation is mediated by autonomic fibres (insensate to pain but sensitive to stretch and pressure), venous drainage is to the portal system via the superior rectal vein, and lymphatic drainage is to the inferior mesenteric nodes. Below the dentate line, the lining is squamous epithelium (anoderm), sensation is exquisitely sensitive to pain via somatic fibres from the inferior rectal branch of the pudendal nerve, venous drainage is systemic via the inferior rectal veins to the internal iliac, and lymphatics drain to inguinal nodes."
+        },
+        {
+          "type": "text",
+          "content": "The anal columns of Morgagni are 8–12 vertical mucosal folds that converge at the dentate line. Between adjacent columns, the anal valves form a series of small pockets called anal sinuses (crypts of Morgagni). These sinuses contain anal glands that drain into the intersphincteric space. Infection of these glands is the starting point for the vast majority of anorectal abscesses and fistulae — the cryptoglandular hypothesis, originally proposed by Parks in 1961."
+        },
+        {
+          "type": "text",
+          "content": "The sphincter complex consists of two distinct muscular layers. The internal anal sphincter (IAS) is a thickening of the circular smooth muscle of the rectum. It is under involuntary autonomic control (sympathetic maintains tone; parasympathetic promotes relaxation), contributes approximately 70–80% of resting anal pressure, and is responsible for the rectoanal inhibitory reflex (RAIR). The external anal sphincter (EAS) is skeletal (voluntary) muscle that forms three loops (subcutaneous, superficial, deep), is innervated by the inferior rectal nerve (branch of the pudendal nerve, S2-S4), and contributes the majority of squeeze pressure. The puborectalis is the most medial component of the levator ani and wraps around the anorectal junction, creating the anorectal angle (approximately 90° at rest, 70° with squeeze, 110–130° during defaecation)."
+        },
+        {
+          "type": "text",
+          "content": "The pudendal nerve (S2, S3, S4) is the principal somatic nerve of the perineum. It exits the greater sciatic foramen, loops around the ischial spine, and re-enters the perineum through the lesser sciatic foramen to run in Alcock's canal on the medial surface of the obturator internus. Its branches are the inferior rectal nerve (external sphincter, perianal skin), perineal nerve (perineal muscles, scrotal/labial skin), and dorsal nerve of the penis/clitoris. Pudendal nerve terminal motor latency (PNTML) measurement is used to assess neuropathic sphincter injury in faecal incontinence workup."
+        },
+        {
+          "type": "table",
+          "title": "Anorectal Spaces — Anatomy, Contents, and Clinical Relevance",
+          "headers": ["Space", "Location", "Contents", "Abscess Drainage"],
+          "rows": [
+            ["Perianal", "Subcutaneous around anal verge", "Fat, inferior rectal vessels", "Lateral to anus, no anaesthesia required if superficial"],
+            ["Intersphincteric", "Between IAS and EAS", "Anal glands, fatty tissue", "Internal drainage via proctoscope or EUA"],
+            ["Ischiorectal (ischioanal)", "Lateral to EAS, below levators", "Fat, inferior rectal nerves/vessels", "Large radial incision lateral to anus"],
+            ["Supralevator", "Above levator ani, lateral to rectum", "Fat, lymphatics", "Drain via ischiorectal fossa (if origin ischiorectal) OR transrectal (if origin pelvic/intersphincteric — never transsphincteric)"],
+            ["Submucosal", "Between mucosa and IAS", "Haemorrhoidal plexus", "Rare; internal drainage"],
+            ["Retrorectal (presacral)", "Between rectum and sacrum", "Fat, sacral vessels, autonomic nerves", "Posterior midline or trans-sacral approach"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Above vs Below the Dentate Line",
+          "content": "Internal haemorrhoids, adenocarcinoma, and the proximal fistula internal opening are above the dentate line — insensate (autonomic innervation). External haemorrhoids, fissures, and perianal skin tags are below — extremely sensitive (somatic innervation). This explains why rubber band ligation of internal haemorrhoids must be placed above the dentate line to be painless, and why thrombosed external haemorrhoids are intensely painful."
+        }
+      ]
+    },
+    {
+      "id": "D4-S2",
+      "title": "Haemorrhoids",
+      "content": [
+        {
+          "type": "text",
+          "content": "Haemorrhoids are cushions of submucosal tissue containing arteriovenous communications and smooth muscle fibres, located in the left lateral, right anterior, and right posterior positions of the anal canal (corresponding to 3, 7, and 11 o'clock in the lithotomy position). The anal cushion theory (Thomson, 1975) holds that haemorrhoids are not simply dilated veins but normal vascular structures that contribute to anal continence by cushioning the anal canal during the resting state. Symptoms arise when these cushions prolapse, bleed, or become strangulated — most commonly due to straining, constipation, pregnancy, or low-fibre diet causing disruption of the Treitz muscle attachment to the rectal wall."
+        },
+        {
+          "type": "table",
+          "title": "Haemorrhoid Classification",
+          "headers": ["Type", "Grade/Degree", "Description", "Treatment Options"],
+          "rows": [
+            ["Internal", "Grade I", "Bleed, do not prolapse", "Dietary modification, fibre supplementation, sclerotherapy, IRC"],
+            ["Internal", "Grade II", "Prolapse on straining, reduce spontaneously", "Rubber band ligation (most effective office procedure)"],
+            ["Internal", "Grade III", "Prolapse requiring manual reduction", "Rubber band ligation or surgical haemorrhoidectomy"],
+            ["Internal", "Grade IV", "Irreducible prolapse; includes strangulated/thrombosed", "Surgical haemorrhoidectomy; emergency if strangulated"],
+            ["External", "N/A", "Below dentate line, covered by anoderm; thrombosed = acute pain", "Conservative (warm baths, analgesia) vs excision if <72 h"],
+            ["Mixed/Circumferential", "N/A", "Combination of internal and external components", "Haemorrhoidectomy; STARR if associated rectal prolapse"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Conservative management remains first-line for Grades I–II and should be offered to all patients regardless of grade. High-fibre diet (25–30 g/day), adequate hydration (>1.5 L/day), sitz baths (warm water 10–15 min 2–3 times daily), avoidance of straining, and topical preparations (hydrocortisone/lidocaine for symptom relief only — no evidence of curative effect) form the cornerstone. Bulk-forming laxatives (ispaghula, methylcellulose) are superior to stimulant laxatives for haemorrhoid symptoms."
+        },
+        {
+          "type": "text",
+          "content": "Office-based procedures are appropriate for Grades I–III. Rubber band ligation (RBL) is the most effective office procedure, with a success rate of 70–80% after one to three sessions. A rubber band is placed 1–2 cm above the dentate line, causing ischaemic necrosis and fibrosis over 7–10 days. The band must be placed above the dentate line to avoid severe pain. Post-procedure bleeding occurs in approximately 1–2% of cases, potentially severe and requiring hospital admission. Syncovagal episodes occur in up to 5%. Infection and sepsis are rare (<1 in 10,000) but potentially life-threatening. Patients must be advised to report fever, urinary retention, and inability to pass urine. Sclerotherapy (5% phenol in arachis oil, 2–3 mL submucosal injection) is suitable for Grade I–II bleeding haemorrhoids, particularly in anticoagulated patients. Infrared coagulation (IRC) uses infrared radiation to coagulate tissue at 1–2 cm above the dentate line; equivalent to sclerotherapy for Grade I–II."
+        },
+        {
+          "type": "text",
+          "content": "Surgical haemorrhoidectomy is indicated for Grade III–IV haemorrhoids failing office procedures, circumferential disease, or patient preference. Milligan-Morgan (open) haemorrhoidectomy excises three haemorrhoidal pedicles with three separate wounds left open to heal by secondary intention. Ferguson (closed) haemorrhoidectomy is similar but wounds are closed primarily with absorbable suture — favoured in North America. Both techniques achieve similar long-term outcomes. Stapled haemorrhoidopexy (STARR/PPH) uses a circular stapler placed 2–3 cm above the dentate line to excise a ring of mucosa and reduce prolapse without excising the haemorrhoidal tissue itself. It is associated with less post-operative pain but higher recurrence rates and specific complications including rectal urgency, tenesmus, and rarely rectovaginal fistula or rectal perforation. The eTHOS trial (UK, 2016) showed stapled haemorrhoidopexy had higher recurrence at 24 months compared to conventional haemorrhoidectomy (20.5% vs 7.5%). Transanal haemorrhoidal dearterialisation (THD/HALO) uses Doppler-guided ligation of the terminal branches of the superior rectal artery plus mucopexy to reduce prolapse — less pain, comparable efficacy to RBL for Grade II–III but less durable than haemorrhoidectomy for Grade IV. LigaSure haemorrhoidectomy uses bipolar vessel-sealing technology and is associated with less intra-operative blood loss and similar outcomes to conventional diathermy excision."
+        },
+        {
+          "type": "table",
+          "title": "Complications of Haemorrhoidectomy",
+          "headers": ["Complication", "Incidence", "Management"],
+          "rows": [
+            ["Post-operative pain", "Universal; worst days 1–3", "Multi-modal analgesia: regular paracetamol + NSAIDs + topical lidocaine; avoid constipation"],
+            ["Urinary retention", "5–20%; higher in males, spinal anaesthesia", "Catheterisation; limit intra-op IV fluids; early mobilisation"],
+            ["Primary haemorrhage (<24 h)", "1–2%", "Return to theatre for suture ligation; rarely transfusion"],
+            ["Secondary haemorrhage (day 7–10)", "1–2%; band slough", "Hospital admission; digital pressure; EUA + suture; blood transfusion if severe"],
+            ["Anal stenosis", "1–3%; long-term", "Dilatation; advancement flap for severe cases"],
+            ["Faecal incontinence", "0.5–1%; due to IAS injury or excessive skin tag excision", "Anorectal physiology; SNS if significant"],
+            ["Anal fistula/skin tags", "Rare post-Milligan-Morgan", "Elective treatment once healed"],
+            ["Perianal sepsis", "Rare but serious post-RBL", "IV antibiotics; EUA; drainage"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Strangulated Grade IV Internal Haemorrhoids",
+          "content": "Acute strangulated Grade IV haemorrhoids (prolapsed and irreducible with oedema and early necrosis) require urgent surgical haemorrhoidectomy within 24–72 hours. In experienced hands, emergency haemorrhoidectomy is safe and avoids prolonged suffering. Historically feared for risk of sepsis, contemporary evidence supports its safety. Anticoagulated patients may be managed conservatively with osmotic agents and reduction attempts before elective surgery."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "eTHOS Trial (Stapled vs Conventional Haemorrhoidectomy)",
+          "citation": "Watson AJ et al. Lancet 2016;388:2375-2385",
+          "population": "777 patients with Grade II–IV haemorrhoids, UK multicentre RCT",
+          "intervention": "Stapled haemorrhoidopexy (PPH) vs conventional haemorrhoidectomy",
+          "result": "Stapled haemorrhoidopexy: less post-op pain at 3 weeks but higher recurrence at 24 months (20.5% vs 7.5%). Similar quality of life at 24 months. No difference in serious complications.",
+          "practice_change": "Confirmed that stapled haemorrhoidopexy has significantly higher long-term recurrence. Conventional haemorrhoidectomy remains the gold standard for Grade III–IV disease."
+        }
+      ]
+    },
+    {
+      "id": "D4-S3",
+      "title": "Anal Fissure",
+      "content": [
+        {
+          "type": "text",
+          "content": "An anal fissure is a tear in the anoderm distal to the dentate line. Acute fissures are superficial mucosal tears present for less than 6 weeks; chronic fissures (>6 weeks) demonstrate features of induration, a sentinel skin tag distally, and a hypertrophied anal papilla proximally. The pathophysiology involves internal anal sphincter spasm causing ischaemia of the posterior commissure (the watershed zone of blood supply from the inferior rectal artery), perpetuating a cycle of pain → spasm → ischaemia → fissure non-healing."
+        },
+        {
+          "type": "text",
+          "content": "Location is of paramount diagnostic importance. Approximately 90% of primary fissures are in the posterior midline, followed by 10% in the anterior midline (more common in women post-partum, where the perineal body provides less supporting tissue). Lateral or multiple fissures, or fissures that fail to respond to standard treatment, should prompt investigation for a secondary cause: Crohn's disease, tuberculosis, HIV/sexually transmitted infections (herpes simplex, syphilis, chlamydia), leukaemic infiltration, or anal carcinoma. The mnemonic SCANT helps: Syphilis, Crohn's, Anal cancer, Numerous/atypical, Tuberculosis."
+        },
+        {
+          "type": "table",
+          "title": "Treatment Algorithm for Anal Fissure",
+          "headers": ["Stage", "Treatment", "Mechanism", "Healing Rate", "Side Effects"],
+          "rows": [
+            ["Acute (<6 weeks)", "Fibre, sitz baths, topical lidocaine, stool softeners", "Reduce trauma; symptomatic relief", "50% at 4 weeks", "Minimal"],
+            ["Chronic — first line", "Topical 0.2–0.4% GTN (glyceryl trinitrate) TDS for 8 weeks", "Nitric oxide → IAS relaxation → reduced ischaemia", "40–50% healing", "Headache 20–30% (dose-limiting)"],
+            ["Chronic — alternative first line", "Topical 2% diltiazem cream BD for 8 weeks", "Calcium channel blocker → IAS relaxation", "40–65% healing", "Less headache than GTN; local irritation"],
+            ["Chronic — second line", "Botulinum toxin A injection (20–30 units IAS each side of fissure)", "Chemical sphincterotomy; reversible; effect lasts 3–4 months", "60–80% healing at 2 months", "Temporary faecal incontinence 0–10%; fissure may recur"],
+            ["Chronic — surgical first line", "Lateral internal sphincterotomy (LIS)", "Division of distal 1/3 IAS; reduces spasm permanently", "90–95% healing", "Faecal incontinence (any) 0–35%; keyhole deformity"],
+            ["Recurrent/failed LIS", "Advancement flap (V-Y or rotational anoderm)", "Brings healthy vascularised tissue to fissure bed", "60–80%", "Flap necrosis; requires anaesthesia"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Lateral internal sphincterotomy (LIS) is the most effective treatment for chronic anal fissure with healing rates of 90–95%. The procedure divides the lower one-third of the IAS in the lateral position (3 or 9 o'clock), avoiding the posterior midline where the fissure lies. The open technique involves a small lateral incision to expose the intersphincteric groove before dividing the IAS under direct vision; the closed technique uses a blade introduced through the intersphincteric groove. Both techniques have equivalent outcomes. The principal concern is faecal incontinence: minor (flatus/soiling) in up to 35% of patients, major (liquid/solid stool) in 1–5%. Risk is highest in women with prior obstetric injury, elderly patients, and those with pre-existing sphincter defects (pre-operative anorectal physiology/endoanal ultrasound is recommended in high-risk patients). The tailored sphincterotomy (dividing only enough IAS to reach the distal extent of the fissure) may reduce incontinence risk while maintaining efficacy."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Lateral Fissure — Always Investigate Secondary Cause",
+          "content": "A fissure outside the posterior or anterior midline is pathological until proven otherwise. Perform EUA with biopsy, HIV testing, STI screen, and colonoscopy/CT to exclude Crohn's disease and malignancy. Crohn's-associated fissures should be managed medically (biologics, immunosuppressants) and NOT with LIS, which risks non-healing and fistula formation in the inflammatory milieu."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Botulinum Toxin Dosing and Technique",
+          "content": "Botulinum toxin A (Botox) 20–50 units is injected into the IAS at 2–4 sites flanking the fissure under direct vision or EUA. Effect onset is 24–72 hours; duration 2–4 months. Healing rates range 60–80% for primary treatment; repeat injection achieves similar rates. The main concern is temporary faecal incontinence (up to 10%), which resolves as the toxin wears off. Botulinum toxin is preferred over LIS in high-risk patients for incontinence (women with obstetric history, those with manometry showing low resting pressure)."
+        }
+      ]
+    },
+    {
+      "id": "D4-S4",
+      "title": "Anorectal Abscess & Fistula-in-Ano",
+      "content": [
+        {
+          "type": "text",
+          "content": "The cryptoglandular hypothesis explains that 90% of anorectal abscesses and fistulae arise from infection of the anal glands (Parks' glands) at the base of the anal crypts. Approximately 30–50% of drained anorectal abscesses will subsequently develop a persistent fistula. A fistula-in-ano is an abnormal communication between the anal canal (usually at the crypt — the internal opening) and the perianal skin (external opening). Understanding the anatomy of the sphincter complex relative to the fistula tract is the cornerstone of classification and guides management to avoid incontinence."
+        },
+        {
+          "type": "table",
+          "title": "Parks Classification of Fistula-in-Ano",
+          "headers": ["Type", "Tract Path", "Incidence", "Sphincter at Risk", "Notes"],
+          "rows": [
+            ["Intersphincteric", "Between IAS and EAS → perianal skin", "45–70%", "IAS only", "Simplest; lay open (fistulotomy) safe; low risk of incontinence"],
+            ["Transsphincteric", "Through EAS → ischiorectal fossa → perianal skin", "25–30%", "EAS (variable amount)", "Most common type requiring seton; amount of EAS crossed determines approach"],
+            ["Suprasphincteric", "Over top of puborectalis → ischiorectal fossa", "5%", "EAS + puborectalis", "Unusual; complex management; seton, LIFT, or flap"],
+            ["Extrasphincteric", "From rectum, outside entire sphincter complex", "1–5%", "Entire complex bypassed", "Usually secondary (Crohn's, trauma, pelvic sepsis); requires treating primary cause"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Goodsall's rule predicts the course of fistula tracts based on the position of the external opening relative to a transverse line drawn through the centre of the anus. External openings posterior to this line tend to have a curved tract leading to a single internal opening in the posterior midline. External openings anterior to this line tend to have a short, straight radial tract to the nearest crypt. The important exception: anterior external openings more than 3 cm from the anal verge may also follow a curved course to the posterior midline, behaving like posterior fistulae. Goodsall's rule has a positive predictive value of approximately 80% and is less reliable for complex, horseshoe, or recurrent fistulae."
+        },
+        {
+          "type": "text",
+          "content": "Assessment requires delineation of the internal opening, the primary tract, and any secondary extensions. Examination under anaesthesia (EUA) combined with probing is the gold standard but has limitations in complex tracts. MRI fistulography (pelvic MRI with thin cuts through the anal canal) has 80–90% accuracy for identifying primary tracts and secondary extensions; it is the investigation of choice for complex, recurrent, or high fistulae. Endoanal ultrasound (hydrogen peroxide-enhanced) is useful for simple fistulae but inferior to MRI for suprasphincteric/extrasphincteric tracts."
+        },
+        {
+          "type": "text",
+          "content": "Management is guided by the amount of sphincter muscle enclosed within the tract. Simple, low intersphincteric fistulae may be laid open safely (fistulotomy). High transsphincteric, suprasphincteric, and extrasphincteric fistulae require sphincter-preserving techniques. The loose seton (a suture or silastic drain passed through the fistula tract and loosely tied around the enclosed muscle) achieves drainage, allows fibrosis around the tract, and can be used as a staged approach before definitive sphincter-preserving repair. The cutting seton (Hippocrates seton) is tightened progressively to slowly cut through the sphincter, allowing fibrosis to prevent retraction and incontinence — largely abandoned due to high incontinence rates in contemporary practice. The LIFT procedure (Ligation of the Intersphincteric Fistula Tract, Rojanasakul 2007) involves identification and ligation/excision of the fistula tract in the intersphincteric plane via a short curvilinear incision, preserving both sphincters. Primary success rate 50–80%; simple to perform; low incontinence risk. Advancement flap (mucosal/full thickness) covers the internal opening with a well-vascularised flap of rectal wall after curettage/coring of the tract — success 50–80%, recurrence higher with obesity, Crohn's, smoking, active proctitis. The fistula plug (bioprosthetic, derived from porcine small intestine submucosa) is placed in the tract after curettage — low incontinence risk but inconsistent success (20–80%); largely supplemented by LIFT. Video-Assisted Anal Fistula Treatment (VAAFT) uses a rigid endoscope to visualise the tract from the inside, ablate the epithelium, and close the internal opening under direct vision. Over-the-scope clip (OTSC) can be applied endoscopically to close the internal opening in selected cases."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Supralevator Abscess — Drainage Route Determines Outcome",
+          "content": "Supralevator abscess must be drained by the correct route to avoid creating iatrogenic fistulae. If the abscess arose from an upward extension of an intersphincteric abscess: drain transrectally (never through the ischiorectal fossa, as this creates a suprasphincteric fistula). If the abscess arose from an upward extension of an ischiorectal abscess: drain through the ischiorectal fossa (never transrectally). If it arose from pelvic disease: treat the primary pelvic pathology."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "Crohn's Fistula — Different Principles Apply",
+          "content": "Crohn's-associated anorectal fistulae should be managed medically first: anti-TNF therapy (infliximab, adalimumab) achieves fistula closure in 35–55% of cases. Loose seton drainage relieves sepsis and maintains the tract while medical therapy is optimised. Definitive surgical repair should be deferred until Crohn's disease is in remission. Proctectomy with permanent stoma may ultimately be necessary in refractory disease with severe rectal involvement. Fistulotomy is contraindicated due to risk of non-healing, sphincter damage, and incontinence."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "LIFT Procedure — Systematic Review",
+          "citation": "Han JG et al. Dis Colon Rectum 2016;59:664-674",
+          "population": "Systematic review, 1,295 patients with transsphincteric fistula",
+          "intervention": "LIFT procedure (ligation of intersphincteric fistula tract)",
+          "result": "Primary healing rate 74.6%; recurrence 13.9%; no major incontinence reported; mean healing time 5–9 weeks",
+          "practice_change": "LIFT is now recommended as first-line sphincter-preserving surgery for transsphincteric fistula given excellent safety profile and satisfactory primary healing rates."
+        }
+      ]
+    },
+    {
+      "id": "D4-S5",
+      "title": "Pilonidal Disease",
+      "content": [
+        {
+          "type": "text",
+          "content": "Pilonidal disease is a chronic, acquired inflammatory condition of the natal cleft (intergluteal sulcus) caused by loose hairs penetrating the skin and creating a foreign body reaction, leading to a subcutaneous sinus or abscess. Hormonal, mechanical (sitting, friction), and hygiene factors contribute. It predominantly affects young, hirsute males in the second and third decade; rare after age 40 when follicular activity decreases. The term 'pilonidal' derives from pilus (hair) and nidus (nest). The disease may present acutely as a pilonidal abscess requiring urgent drainage, or chronically as persistent sinus with discharge."
+        },
+        {
+          "type": "text",
+          "content": "Acute pilonidal abscess management is incision and drainage (I&D) under local or general anaesthesia, with the incision placed laterally (off-midline) rather than in the natal cleft. Off-midline drainage has lower recurrence rates than midline drainage and may pre-empt the need for formal sinus excision. Cultures should be sent as gram-negative organisms (E. coli, Bacteroides) are common alongside Staphylococcus aureus. Approximately 40–50% of patients will develop chronic pilonidal disease after I&D and require definitive surgery."
+        },
+        {
+          "type": "table",
+          "title": "Surgical Options for Chronic Pilonidal Disease",
+          "headers": ["Procedure", "Technique", "Wound", "Recurrence", "Return to Work"],
+          "rows": [
+            ["Midline excision with laying open", "Excise sinus; leave wound open for secondary healing", "Open; heals by granulation over 6–10 weeks", "High (20–40%); midline wound vulnerable to re-implantation", "Delayed (4–6 weeks); daily dressing required"],
+            ["Excision with primary midline closure", "Excise sinus; close primarily in midline", "Closed; faster initial healing", "Very high (up to 40%); tension on wound", "Faster but high wound breakdown rate"],
+            ["Karydakis procedure (off-midline closure)", "Asymmetric ellipse excision; advance skin flap to close off midline", "Closed; scar lateral to midline", "5–10%", "10–14 days; well-tolerated"],
+            ["Bascom cleft lift (modified Karydakis)", "Asymmetric skin flap to flatten and relocate the natal cleft laterally", "Closed; excellent cosmesis", "3–8%; lowest recurrence rates", "10–14 days"],
+            ["Limberg (rhomboid) flap", "Rhomboid excision + rotation flap", "Closed with flap", "5–15%", "Longer recovery; more extensive surgery"],
+            ["Sinusectomy (Bascom original)", "Minimal excision of sinus pits only; curettage", "Minimal; primary closure", "15–25%; good for limited disease", "Rapid (days); outpatient"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "The Bascom cleft lift and Karydakis procedure are the two most widely adopted techniques, both achieving off-midline wound closure by advancing skin across the natal cleft. This reduces the depth of the cleft, eliminates the local moisture-retaining environment, and places the wound away from the midline where re-implantation is most likely. Meta-analyses consistently demonstrate that off-midline techniques have lower recurrence rates (3–10%) compared to midline excision with laying open (20–40%) while providing comparable or faster return to activity. Patient education regarding hair removal (shaving, laser epilation) and hygiene is important for all techniques to reduce recurrence."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Pilonidal vs Perianal Fistula",
+          "content": "Pilonidal sinuses in the natal cleft are typically not connected to the anal canal — the internal opening of an anorectal fistula is always at the dentate line. This distinction can be confirmed by probing (pilonidal tracts do not enter the rectum) and MRI. Squamous cell carcinoma arising in chronic pilonidal sinuses is a rare but recognised complication requiring wide local excision."
+        }
+      ]
+    },
+    {
+      "id": "D4-S6",
+      "title": "Rectal Prolapse & Intussusception",
+      "content": [
+        {
+          "type": "text",
+          "content": "Full-thickness rectal prolapse (procidentia) is a circumferential protrusion of all layers of the rectal wall through the anus. It must be distinguished from mucosal prolapse (only the mucosa protrudes — circumferential folds seen), haemorrhoidal prolapse (separate discrete cushions), and internal intussusception (rectal intussusception with no external protrusion — a leading cause of obstructed defaecation and solitary rectal ulcer syndrome). Full-thickness prolapse primarily affects elderly women (10:1 female predominance), is associated with pudendal neuropathy, pelvic floor weakness, and a history of nulliparity or multiple vaginal deliveries, constipation, and psychiatric illness."
+        },
+        {
+          "type": "text",
+          "content": "Clinical assessment includes inspection (ask patient to strain in squatting position), evaluation for pelvic floor defects, sphincter assessment (Wexner incontinence score), and anorectal physiology/endoanal ultrasound. Defaecography or MRI defaecography identifies internal intussusception and associated enterocele or sigmoidocele."
+        },
+        {
+          "type": "table",
+          "title": "Surgical Approaches for Full-Thickness Rectal Prolapse",
+          "headers": ["Approach", "Procedure", "Mechanism", "Recurrence", "Continence", "Best For"],
+          "rows": [
+            ["Perineal", "Delorme procedure", "Strip mucosal sleeve; plicate underlying muscularis", "15–25%", "Improvement in 30–50%", "Elderly/high surgical risk; short prolapse (<3 cm)"],
+            ["Perineal", "Altemeier procedure (perineal rectosigmoidectomy)", "Full-thickness resection of prolapsed segment + coloanal anastomosis ± levatorplasty", "10–20%", "Variable; levatorplasty improves", "Elderly/high risk; long prolapse; strangulation"],
+            ["Abdominal", "Laparoscopic ventral mesh rectopexy (D'Hoore)", "Anterior rectopexy via presacral space; no posterior dissection; mesh from ventral rectum to sacral promontory", "3–8%", "Best improvement; no new constipation", "Fit patients; associated ODS; women with anterior compartment prolapse"],
+            ["Abdominal", "Suture rectopexy (Wells/Frykman-Goldberg with sigmoidectomy)", "Lateral rectal fixation to presacral fascia ± sigmoid resection for constipation", "5–15%", "Moderate improvement", "When sigmoidectomy required for concurrent constipation"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Laparoscopic ventral mesh rectopexy (LVMR), as described by D'Hoore (2004), has become the preferred abdominal approach in most centres with colorectal expertise. The key technical features are: (1) anterior dissection in the rectovaginal/rectoprostatic space only — avoiding the lateral and posterior dissection that injures the autonomic nerves; (2) a biological or synthetic mesh is sutured to the anterior rectum and vaginal vault (or seminal vesicles in men), then fixed proximally to the sacral promontory; (3) no posterior dissection preserves the integrity of the lateral ligaments and reduces new-onset constipation compared to posterior rectopexy. The principal nerve at risk is the presacral nerve (superior hypogastric plexus) at the sacral promontory — injury causes bladder and sexual dysfunction. Haemorrhage from the presacral venous plexus (presacral haemorrhage) is managed by direct pressure, sterile tacks (orthopaedic thumbtacks), packing, or bone wax."
+        },
+        {
+          "type": "text",
+          "content": "For internal intussusception causing obstructed defaecation syndrome (ODS), STARR (Stapled TransAnal Rectal Resection) uses two firings of a circular stapler transanally to resect the anterior and posterior rectal walls, reducing intussusception. It is indicated in carefully selected patients with documented internal intussusception and a significant anterior and posterior component on defaecography, failed conservative treatment, and absence of significant sphincter defect. Complications include post-operative urgency (20–30%), de novo faecal incontinence (5–15%), staple-line dehiscence, rectovaginal fistula, and rarely rectal perforation. STARR improves ODS scores in 70–80% of patients at 12 months but patient selection is critical."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Altemeier vs Delorme — Choosing the Perineal Approach",
+          "content": "Both are perineal procedures for patients unfit for abdominal surgery. Delorme is preferred for short mucosal-predominant prolapse (<3–4 cm) and can be performed under local anaesthesia with sedation. Altemeier (perineal rectosigmoidectomy) is preferred for longer prolapse, strangulation/incarceration, or when sigmoid resection adds oncological benefit. Levatorplasty (posterior approximation of the levator muscles) added to either procedure improves continence outcomes. Recurrence rates are higher than abdominal approaches but are appropriate trade-offs in frail, elderly patients."
+        }
+      ]
+    },
+    {
+      "id": "D4-S7",
+      "title": "Anal Cancer",
+      "content": [
+        {
+          "type": "text",
+          "content": "Anal canal carcinoma must be distinguished from anal margin tumours based on anatomical location. Anal canal tumours arise between the anorectal junction and the anal verge; anal margin tumours arise on the perianal skin more than 5 cm from the verge. Squamous cell carcinoma (SCC) accounts for 85% of anal canal tumours; other histologies include adenocarcinoma (arising from anal glands or rectal mucosa), small cell carcinoma, melanoma, and lymphoma. Anal canal SCC is pathophysiologically distinct from colorectal adenocarcinoma and requires entirely different management."
+        },
+        {
+          "type": "text",
+          "content": "Human papillomavirus (HPV) — particularly high-risk subtypes 16 and 18 — is detected in over 85% of anal SCC cases. Risk factors include HIV infection (30–50-fold increased risk), receptive anal intercourse, immunosuppression, history of other HPV-related malignancies (cervical, vulvar, penile), and smoking. HPV vaccination (9-valent, targeting HPV 6, 11, 16, 18, 31, 33, 45, 52, 58) is recommended for boys and girls up to age 26 and may be offered to immunocompromised adults up to age 45. High-resolution anoscopy (HRA) with acetic acid and Lugol's iodine is used for screening of high-risk populations."
+        },
+        {
+          "type": "text",
+          "content": "Staging follows the AJCC 8th edition TNM classification. Investigation requires MRI pelvis (local staging), CT chest/abdomen/pelvis (distant staging), and PET-CT (increasingly used for nodal staging and treatment response). Inguinal node involvement (N3 in older classifications; now N1c in AJCC 8th) is present in 10–20% at diagnosis and should prompt bilateral inguinal irradiation. Proctoscopy, HIV status, and gynaecological review (for women) are essential."
+        },
+        {
+          "type": "table",
+          "title": "Nigro Protocol — Definitive Chemoradiotherapy for Anal SCC",
+          "headers": ["Component", "Drug/Dose", "Schedule", "Rationale"],
+          "rows": [
+            ["Radiotherapy", "50.4–54 Gy (IMRT preferred)", "25–30 fractions over 5–6 weeks; inguinal nodes if involved", "Primary tumour control; sphincter preservation"],
+            ["Chemotherapy — cycle 1", "5-Fluorouracil 1000 mg/m²/day CI days 1–4 + Mitomycin C 12 mg/m² IV bolus day 1", "Concurrent with RT week 1", "5-FU: radiosensitiser; MMC: hypoxic cell radiosensitiser; synergistic"],
+            ["Chemotherapy — cycle 2", "5-Fluorouracil 1000 mg/m²/day CI days 29–32", "Concurrent with RT week 5", "Maintains concurrent sensitisation"],
+            ["Assessment", "Clinical examination + MRI pelvis", "8–12 weeks post-treatment (mucositis must resolve)", "Residual disease assessed; biopsy only if clinical suspicion"],
+            ["Complete response", "No biopsy needed if clinical CR", "Surveillance: EUA 6-monthly for 2 years, then annually", "APR avoided; OS equivalent to surgery in responders"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "The Nigro protocol (originally described by Nigro in 1974 using 30 Gy + 5-FU + MMC) evolved into definitive chemoradiotherapy as the standard of care following landmark trials demonstrating equivalent or superior outcomes to APR with sphincter preservation. The ACT I trial (UKCCCR 1996) showed chemoradiation superior to radiation alone in reducing locoregional relapse and disease-specific mortality. The RTOG 98-11 trial compared mitomycin C versus cisplatin — MMC-based regimens were non-inferior and produced superior colostomy-free survival, confirming the Nigro protocol as standard. Intensity-modulated radiotherapy (IMRT) reduces toxicity (acute GI, dermatological, haematological) compared to conventional RT and is now preferred."
+        },
+        {
+          "type": "text",
+          "content": "Salvage abdominoperineal resection (APR) is reserved for: (1) residual disease at 6-month assessment (biopsy proven); (2) locoregional relapse after complete response to CRT; (3) side effects precluding completion of CRT. Salvage APR has 5-year survival of 25–40% and is associated with high perineal wound morbidity (up to 50% wound breakdown due to irradiated field). Biological mesh reconstruction and myocutaneous flaps (gracilis, rectus abdominis — VRAM) are used to reduce wound complications. Anal adenocarcinoma is treated as a low rectal adenocarcinoma (neoadjuvant CRT + surgery), not as SCC."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Nigro Protocol — Never Forget Mitomycin C",
+          "content": "The two drugs in the Nigro protocol are 5-Fluorouracil (5-FU) AND Mitomycin C (MMC). RTOG 98-11 showed that replacing MMC with cisplatin resulted in inferior colostomy-free survival. MMC acts as a hypoxic cell radiosensitiser — it reduces the radioresistant hypoxic tumour fraction. The combination of 5-FU + MMC + RT remains standard in 2026. Carboplatin + paclitaxel (InterAACT trial) shows promise for metastatic disease."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "RTOG 98-11 — MMC vs Cisplatin in Anal SCC",
+          "citation": "Ajani JA et al. J Clin Oncol 2008;26:3913-3919 (updated 2012)",
+          "population": "649 patients with anal canal SCC, multicentre RCT",
+          "intervention": "5-FU + mitomycin C + RT vs induction cisplatin/5-FU then 5-FU + cisplatin + RT",
+          "result": "5-year disease-free survival: MMC arm 67.8% vs cisplatin arm 57.8% (p=0.006). Colostomy rate: 10% vs 19% (p=0.02). Overall survival NS.",
+          "practice_change": "Confirmed MMC-based Nigro protocol as gold standard. Cisplatin cannot substitute MMC in the concurrent setting."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "D4-Q1",
+      "stem": "A 45-year-old man undergoes EUA for an anorectal fistula. The external opening is located at 2 o'clock (anterior), 1.5 cm from the anal verge. According to Goodsall's rule, what is the most likely course of the fistula tract?",
+      "options": {
+        "A": "Curved tract to a posterior midline internal opening",
+        "B": "Short, straight radial tract to the nearest anterior crypt",
+        "C": "Suprasphincteric tract looping over the puborectalis",
+        "D": "Extrasphincteric tract communicating with the rectum above the sphincters"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Goodsall's rule states that anterior external openings (anterior to the transverse anal line) tend to have short, straight radial tracts leading directly to the nearest crypt at the dentate line. This patient's opening is 1.5 cm from the verge (not >3 cm) and is anterior, so a straight anterior tract is expected.",
+        "wrongA": "A curved tract to the posterior midline applies to posterior external openings per Goodsall's rule. The exception for anterior openings applies only when the external opening is more than 3 cm from the anal verge — in which case even anterior openings may follow a curved posterior course.",
+        "wrongC": "Suprasphincteric fistulae (Parks class III) are anatomical classification not predicted by Goodsall's rule, which predicts direction of the internal opening, not the sphincter relationship.",
+        "wrongD": "Extrasphincteric fistulae are typically caused by trauma, pelvic sepsis, or Crohn's disease and are not predicted by Goodsall's rule.",
+        "guideline": "Goodsall's rule (1900) remains clinically useful with ~80% accuracy. MRI fistulography provides definitive pre-operative mapping especially for complex tracts.",
+        "pearl": "Key exception: anterior external openings >3 cm from the anal verge may track curvilinearly to the posterior midline, mimicking posterior fistulae."
+      }
+    },
+    {
+      "id": "D4-Q2",
+      "stem": "A 32-year-old woman has a transsphincteric fistula involving approximately 40% of the external anal sphincter. She has no prior sphincter injury. Which is the most appropriate first-line sphincter-preserving surgical procedure?",
+      "options": {
+        "A": "Cutting seton placed progressively tightened over 8 weeks",
+        "B": "Fistulotomy (lay open technique)",
+        "C": "LIFT procedure (ligation of intersphincteric fistula tract)",
+        "D": "Immediate mucosal advancement flap"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — The LIFT procedure is now recommended as first-line sphincter-preserving surgery for transsphincteric fistulae. It ligates the fistula tract in the intersphincteric plane, preserving both the IAS and EAS, with healing rates of 74% and no reported major incontinence.",
+        "wrongA": "The cutting seton is largely abandoned due to high incontinence rates (up to 30%) from sphincter division. A loose seton may be placed temporarily for drainage but is not the definitive procedure of choice.",
+        "wrongB": "Fistulotomy (lay open) is contraindicated for transsphincteric fistulae involving significant amounts of EAS. It is appropriate for low intersphincteric fistulae only.",
+        "wrongD": "Advancement flap is an excellent option but is typically reserved for when LIFT fails or for anterior fistulae in women where the perineal body is at risk. It is not the preferred first-line choice.",
+        "guideline": "ACPGBI and ASCRS guidelines recommend LIFT as a first-line sphincter-preserving procedure for transsphincteric fistulae crossing significant sphincter muscle.",
+        "trial": "Han JG et al. systematic review (Dis Colon Rectum 2016) — LIFT primary healing rate 74.6%, no major incontinence.",
+        "pearl": "The LIFT procedure exploits the intersphincteric space to divide the fistula without touching either sphincter. It can be repeated if the first attempt fails."
+      }
+    },
+    {
+      "id": "D4-Q3",
+      "stem": "A 55-year-old woman with a chronic posterior midline anal fissure and low resting anal pressure on manometry requires definitive treatment. Which is the most appropriate option to minimise incontinence risk?",
+      "options": {
+        "A": "Lateral internal sphincterotomy dividing the lower third of the IAS",
+        "B": "Botulinum toxin A 30 units injected into the IAS",
+        "C": "Advancement flap of anoderm to close the fissure bed",
+        "D": "Excision of the fissure with primary suture closure"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — In a patient with already low resting anal pressure (indicating baseline sphincter compromise or neuropathy), LIS carries a very high incontinence risk. Botulinum toxin A achieves 60–80% healing, is reversible (4 months duration), and produces temporary incontinence in only 0–10% of patients, making it the safer choice.",
+        "wrongA": "LIS achieves 90–95% healing but any further reduction in IAS function in a patient with already low resting pressure may precipitate significant faecal incontinence. Pre-operative manometry identifying low pressure is a relative contraindication to LIS.",
+        "wrongC": "Advancement flap is indicated for recurrent fissure after failed LIS or botulinum toxin, not as first-line therapy. It requires normal or near-normal sphincter to provide donor tissue.",
+        "wrongD": "Primary suture closure of a fissure is not a recognised technique and would not address the underlying sphincter spasm causing ischaemia.",
+        "guideline": "ASCRS Clinical Practice Guidelines (2017) recommend botulinum toxin or topical agents before LIS in patients with low resting pressure or risk factors for incontinence.",
+        "pearl": "Low resting pressure on anorectal manometry before LIS should always trigger reconsideration — these patients have less 'margin' before becoming incontinent."
+      }
+    },
+    {
+      "id": "D4-Q4",
+      "stem": "A patient undergoes rubber band ligation (RBL) for Grade II internal haemorrhoids. Five hours post-procedure he develops severe pelvic pain, urinary retention, and fever of 38.8°C. What is the most important next step?",
+      "options": {
+        "A": "Prescribe oral co-amoxiclav and review in clinic in 48 hours",
+        "B": "Arrange urgent CT abdomen and pelvis",
+        "C": "Admit for IV antibiotics, urgent EUA, and surgical drainage if sepsis confirmed",
+        "D": "Reassure the patient that mild discomfort and low-grade fever are expected after RBL"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — This triad of severe pain, urinary retention, and fever after RBL represents life-threatening post-RBL sepsis (pelvic sepsis/Fournier's gangrene equivalent). Immediate admission, IV broad-spectrum antibiotics (covering gram-negative and anaerobes), and urgent EUA with drainage is mandatory. Delay can result in fatal outcome.",
+        "wrongA": "Oral antibiotics and delayed review are completely inadequate for post-RBL pelvic sepsis. The infection can spread rapidly to involve the retroperitoneum and perineum.",
+        "wrongB": "CT may be useful but should not delay surgical assessment. Airway, resuscitation, and surgical consultation take priority over imaging in a clinically septic patient.",
+        "wrongD": "Mild perineal discomfort and vasovagal episodes are expected after RBL. Fever >38.5°C, urinary retention, and severe pain beyond 24 hours are NOT normal and mandate urgent assessment.",
+        "guideline": "All patients receiving RBL must be given written warning to attend A&E immediately if they develop fever, inability to urinate, or severe worsening pain within 2 weeks.",
+        "pearl": "Post-RBL sepsis is rare (0.01–0.1%) but carries a mortality of up to 50% if not recognised early. The band creates a necrotic portal for perianal infection."
+      }
+    },
+    {
+      "id": "D4-Q5",
+      "stem": "Comparing Milligan-Morgan to Ferguson haemorrhoidectomy, which statement is most accurate?",
+      "options": {
+        "A": "Milligan-Morgan results in significantly less post-operative pain than Ferguson",
+        "B": "Ferguson haemorrhoidectomy has lower long-term recurrence rates",
+        "C": "Both techniques have comparable long-term outcomes; Ferguson is associated with faster initial healing",
+        "D": "Milligan-Morgan is contraindicated in circumferential haemorrhoidal disease"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — Meta-analyses comparing open (Milligan-Morgan) versus closed (Ferguson) haemorrhoidectomy show equivalent long-term recurrence rates and patient satisfaction. Ferguson (closed) technique may be associated with faster initial wound healing due to primary closure, though this advantage is modest. Both are considered gold standard operations.",
+        "wrongA": "There is no consistent evidence that Milligan-Morgan produces significantly less pain than Ferguson. Post-operative pain is a universal feature of both techniques.",
+        "wrongB": "Long-term recurrence rates are comparable between both techniques. No large RCT has demonstrated superior recurrence prevention for either.",
+        "wrongD": "Milligan-Morgan is widely used for circumferential disease — the three pedicles are excised with skin bridges preserved between wounds to prevent anal stenosis. Stenosis risk exists with both techniques if skin bridges are inadequate.",
+        "guideline": "NICE CG 1995 and subsequent systematic reviews confirm both approaches are acceptable; surgeon familiarity and training should guide choice.",
+        "pearl": "The defining difference is wound closure: Milligan-Morgan wounds are left open (secondary intention); Ferguson wounds are closed primarily with absorbable suture. Both require adequate skin bridge preservation."
+      }
+    },
+    {
+      "id": "D4-Q6",
+      "stem": "A 25-year-old male presents with a recurrent pilonidal sinus after midline excision and primary closure 18 months ago. Which surgical approach offers the lowest recurrence rate?",
+      "options": {
+        "A": "Re-excision with primary midline closure",
+        "B": "Bascom cleft lift (off-midline asymmetric flap)",
+        "C": "Laying open (marsupialization) of the sinus",
+        "D": "Limberg rhomboid flap"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The Bascom cleft lift achieves the lowest reported recurrence rates (3–8%) by flattening the natal cleft, relocating the wound laterally, and eliminating the moist midline environment conducive to hair implantation. It is particularly valuable for recurrent disease after midline procedures.",
+        "wrongA": "Midline closure is associated with the highest recurrence rates (up to 40%) because the wound lies in the natal cleft where moisture and friction promote re-implantation of hairs. It should not be repeated after failure.",
+        "wrongC": "Laying open (marsupialization) is effective for primary disease but healing is prolonged (6–10 weeks) and recurrence rates are moderate (15–20%). It is not the preferred option for recurrent disease.",
+        "wrongD": "Limberg rhomboid flap has reasonable recurrence rates (5–15%) but requires more extensive tissue mobilisation. It is a valid alternative to Bascom/Karydakis but not superior in most meta-analyses for recurrent disease.",
+        "trial": "Systematic review by Al-Khamis et al. (Cochrane 2010) — off-midline closure consistently superior to midline closure across all outcomes including recurrence, healing time, and patient satisfaction.",
+        "pearl": "Recurrent pilonidal disease should always be managed with an off-midline technique. Repeating midline excision and closure has the highest failure rate of any option."
+      }
+    },
+    {
+      "id": "D4-Q7",
+      "stem": "A 38-year-old woman presents with a 3-month history of severe anal pain during and after defaecation, and bright red rectal bleeding. Examination reveals a fissure at the 9 o'clock position (lateral). What is the most important next investigation?",
+      "options": {
+        "A": "Topical GTN 0.4% and review at 8 weeks",
+        "B": "Lateral internal sphincterotomy at this admission",
+        "C": "Stool cultures and Helicobacter pylori breath test",
+        "D": "Colonoscopy, HIV test, STI screen including herpes simplex and syphilis serology, and consider EUA with biopsy"
+      },
+      "correct": "D",
+      "explanation": {
+        "correct": "D — A lateral fissure (outside the posterior and anterior midlines) is a secondary fissure until proven otherwise. The differential includes Crohn's disease, HIV-related ulceration, herpes simplex, syphilis, tuberculosis, and anal carcinoma. Full investigation including colonoscopy, HIV testing, STI screen, and biopsy under EUA is mandatory before any definitive treatment.",
+        "wrongA": "Empirical GTN treatment of a lateral fissure without investigating secondary causes risks missing a serious underlying diagnosis, particularly Crohn's disease or malignancy.",
+        "wrongB": "LIS for a lateral fissure is dangerous — if the underlying cause is Crohn's disease, LIS wounds may fail to heal and can create a large non-healing defect with incontinence.",
+        "wrongC": "Stool cultures and H. pylori testing are irrelevant to the investigation of a lateral anal fissure.",
+        "guideline": "ASCRS guidelines explicitly state that non-midline fissures require investigation for secondary causes before treatment is initiated.",
+        "pearl": "SCANT mnemonic for lateral fissure secondary causes: Syphilis, Crohn's, Anal cancer, Numerous (multiple/atypical), Tuberculosis."
+      }
+    },
+    {
+      "id": "D4-Q8",
+      "stem": "A 52-year-old HIV-positive man presents with anal SCC, 3 cm in size, no palpable inguinal nodes, and PET-CT negative for distant metastasis. He has CD4 count 350 cells/μL on antiretroviral therapy. What is the optimal treatment?",
+      "options": {
+        "A": "Abdominoperineal resection (APR) — first-line surgery to achieve clear margins",
+        "B": "5-FU + cisplatin chemoradiotherapy — avoid mitomycin C in HIV patients",
+        "C": "Nigro protocol: 5-FU + mitomycin C + RT (50.4 Gy), with close haematological monitoring",
+        "D": "Radiotherapy alone 54 Gy — avoid chemotherapy due to HIV-related immunosuppression"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — HIV-positive patients on antiretroviral therapy with preserved CD4 counts (>200 cells/μL) should receive standard Nigro protocol chemoradiotherapy. HIV status alone is not a contraindication to standard CRT. Close monitoring for haematological toxicity (myelosuppression from MMC) is required and dose adjustments may be necessary.",
+        "wrongA": "APR is not first-line treatment for anal SCC. Definitive CRT with the Nigro protocol achieves equivalent or superior survival with sphincter preservation, and surgery is reserved for residual or recurrent disease.",
+        "wrongB": "RTOG 98-11 demonstrated that cisplatin cannot substitute mitomycin C in the concurrent setting — MMC-based regimens produced superior colostomy-free survival. This applies to HIV-positive patients on ART with adequate CD4 count.",
+        "wrongD": "ACT I trial showed chemoradiation superior to radiotherapy alone for locoregional control and disease-specific mortality in anal SCC.",
+        "trial": "RTOG 98-11 (Ajani 2012): confirmed MMC superiority over cisplatin for colostomy-free survival (10% vs 19% colostomy rate, p=0.02).",
+        "pearl": "HIV-positive patients with CD4 >200 on ART tolerate standard CRT but require dose modifications if CD4 is low (<200). Anal SCC risk is 30–50-fold higher in HIV."
+      }
+    },
+    {
+      "id": "D4-Q9",
+      "stem": "During incision and drainage of a perianal abscess, the surgeon notices a visible internal opening at the base of the abscess cavity. What is the recommended management at this initial operation?",
+      "options": {
+        "A": "Proceed immediately to lay open the fistula tract in the same sitting",
+        "B": "Place a loose seton through the fistula tract during I&D",
+        "C": "Drain the abscess only; formal fistula assessment at EUA under planned conditions after abscess resolution",
+        "D": "Inject hydrogen peroxide through the external opening to identify the tract and perform primary lay-open"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — At the time of acute abscess drainage, the inflammatory oedema and tissue disruption make it impossible to accurately assess the anatomy of the sphincter complex and the amount of muscle enclosed by any potential fistula tract. Premature fistulotomy risks inadvertent sphincter damage and incontinence. The recommended approach is adequate I&D with resolution of the acute infection, followed by formal EUA (with or without MRI) to characterise and treat the fistula definitively.",
+        "wrongA": "Immediate lay-open at the time of abscess drainage is unreliable and risks incontinence due to poor anatomical assessment in an acutely inflamed field.",
+        "wrongB": "Loose seton placement at the time of I&D may be appropriate in highly selective cases (simple low intersphincteric tract, clear anatomy) but is not recommended as a routine policy at first drainage.",
+        "wrongD": "Hydrogen peroxide injection at the time of acute abscess drainage does not add reliable information and risks contaminating the wound.",
+        "guideline": "ACPGBI and ASCRS guidelines recommend separating abscess drainage from definitive fistula treatment in the acute setting.",
+        "pearl": "Approximately 30–50% of drained abscesses will develop a fistula. Not all require treatment if asymptomatic after drainage. Formal assessment with EUA and/or MRI should be planned electively."
+      }
+    },
+    {
+      "id": "D4-Q10",
+      "stem": "A 40-year-old man presents with perianal pain, fever, and no external swelling. Digital rectal examination reveals a fluctuant tender mass in the intersphincteric plane at 6 o'clock. CT scan confirms an intersphincteric abscess with no ischiorectal extension. What is the correct drainage approach?",
+      "options": {
+        "A": "Incise perianal skin lateral to the anus and drain via the ischiorectal fossa",
+        "B": "Drain internally via proctoscopy, incising the mucosa overlying the abscess",
+        "C": "Urgent CT-guided percutaneous drainage from the posterior perineum",
+        "D": "Conservative management with IV antibiotics and review at 48 hours"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — An intersphincteric abscess has no external component visible or palpable. It lies between the IAS and EAS, accessed only via the anal canal. Internal drainage through the IAS under EUA (proctoscope-guided incision of the overlying mucosa or IAS) is the correct approach.",
+        "wrongA": "External incision into the ischiorectal fossa for an intersphincteric abscess would not reach the abscess and risks creating an inadvertent high fistula (suprasphincteric) by violating the wrong anatomical plane.",
+        "wrongC": "CT-guided drainage is not appropriate for intersphincteric abscesses, which are accessible transanally under anaesthesia.",
+        "wrongD": "Antibiotics alone will not adequately treat an established abscess. Intersphincteric abscesses may spread rapidly to the supralevator space or ischiorectal fossa if not drained promptly.",
+        "guideline": "Intersphincteric abscess is the most commonly misdiagnosed anorectal abscess because there is no external fluctuance — diagnosis requires digital rectal examination or EUA.",
+        "pearl": "The four anorectal abscess types and their drainage routes: Perianal → lateral incision; Intersphincteric → internal (transanal); Ischiorectal → external lateral incision; Supralevator → route depends on origin (see separate pearl)."
+      }
+    },
+    {
+      "id": "D4-Q11",
+      "stem": "A supralevator abscess is diagnosed on CT scan arising from an upward extension of an ischiorectal abscess. Which drainage route is correct?",
+      "options": {
+        "A": "Transrectal drainage via proctoscopy",
+        "B": "Drainage through the ischiorectal fossa",
+        "C": "Transabdominal (laparoscopic) drainage",
+        "D": "CT-guided aspiration of the supralevator collection"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — When a supralevator abscess arises from an upward extension of an ischiorectal abscess, it must be drained through the ischiorectal fossa (same anatomical compartment from which it originated). Transrectal drainage in this scenario would create an iatrogenic suprasphincteric fistula.",
+        "wrongA": "Transrectal drainage is correct ONLY when the supralevator abscess arises from an upward extension of an intersphincteric abscess. Draining an ischiorectal-origin supralevator abscess transrectally creates a suprasphincteric fistula — a disastrous iatrogenic complication.",
+        "wrongC": "Transabdominal drainage is reserved for supralevator abscesses arising from pelvic disease (Crohn's, diverticular, pelvic inflammatory disease) — the primary pelvic pathology must be treated.",
+        "wrongD": "CT-guided aspiration is temporising at best; most supralevator abscesses require formal surgical drainage.",
+        "guideline": "Parks' principle (1961): supralevator abscess drainage route must mirror its origin to avoid creating a higher-complexity fistula than was present.",
+        "pearl": "Mnemonic: Ischiorectal origin → drain through ischiorectal fossa. Intersphincteric origin → drain transrectally. Pelvic origin → treat primary disease transabdominally."
+      }
+    },
+    {
+      "id": "D4-Q12",
+      "stem": "Which statement best describes the relationship between a lateral external fistula opening and secondary (non-cryptoglandular) causes?",
+      "options": {
+        "A": "Lateral fistulae are almost always cryptoglandular and can be treated with standard fistulotomy",
+        "B": "A fistula opening at the 3 or 9 o'clock position almost always indicates Crohn's disease",
+        "C": "Anterior fistulae in women are always secondary to obstetric trauma",
+        "D": "Any fistula opening in the lateral position should prompt investigation for secondary causes including Crohn's disease, malignancy, and infection"
+      },
+      "correct": "D",
+      "explanation": {
+        "correct": "D — Lateral fistula openings (outside the normal posterior and anterior midline positions) are associated with secondary causes and warrant full investigation. While not all lateral fistulae are secondary, the index of suspicion must be high and investigation (colonoscopy, MRI, biopsy, HIV/STI testing) should precede treatment.",
+        "wrongA": "Lateral fistulae are not reliably cryptoglandular. Performing fistulotomy without investigating secondary causes risks treating (or worsening) Crohn's disease or malignancy.",
+        "wrongB": "Although Crohn's disease commonly causes lateral fistulae, this is not universal. Other secondary causes (syphilis, tuberculosis, anal carcinoma) must also be excluded.",
+        "wrongC": "Obstetric trauma typically causes anterior rectovaginal fistulae, not lateral anorectal fistulae. Anterior fistulae in women should also be assessed for rectovaginal component.",
+        "guideline": "ECCO guidelines on perianal Crohn's disease (2016): all atypical fistulae should be biopsied to exclude Crohn's before surgery.",
+        "pearl": "A simple rule: the two midline positions (12 o'clock posterior, 6 o'clock anterior in prone jack-knife, or reversed in lithotomy) are the normal primary fistula sites. Any other position = investigate secondary cause."
+      }
+    },
+    {
+      "id": "D4-Q13",
+      "stem": "A patient with a chronic anal fissure receives botulinum toxin injection to the internal anal sphincter. At 3-month follow-up, the fissure has healed, but the patient reports occasional soiling of underwear. What is the expected prognosis of this complication?",
+      "options": {
+        "A": "This represents permanent sphincter injury requiring SNS evaluation",
+        "B": "Temporary faecal soiling is expected; it will resolve within 2–4 months as toxin effect wears off",
+        "C": "Immediate sphincteroplasty is required to restore continence",
+        "D": "The soiling indicates the fissure has not healed and re-injection is required"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Botulinum toxin causes temporary chemical denervation of the IAS, which may produce mild faecal soiling or incontinence in 0–10% of patients. This effect is self-limiting and resolves as the toxin wears off (typically 3–4 months). It is a predictable and reversible side effect.",
+        "wrongA": "Botulinum toxin does not cause permanent sphincter injury. Persistent incontinence beyond 6 months post-injection would warrant further evaluation but is very uncommon.",
+        "wrongC": "Sphincteroplasty is inappropriate for botulinum toxin-related temporary incontinence — there is no structural sphincter defect.",
+        "wrongD": "The soiling is a treatment effect (IAS relaxation) confirming the toxin is working, not evidence of treatment failure.",
+        "guideline": "Patients should be counselled pre-procedure about temporary soiling risk (0–10%). This is a key advantage of botulinum toxin over LIS: reversibility.",
+        "pearl": "Botulinum toxin's reversibility is its main advantage over LIS. If the patient has existing sphincter weakness (low resting pressure, obstetric history), the temporary incontinence during the toxin effect period may be more pronounced."
+      }
+    },
+    {
+      "id": "D4-Q14",
+      "stem": "Which components of the Nigro protocol are mandatory for standard first-line treatment of T2N0M0 anal squamous cell carcinoma?",
+      "options": {
+        "A": "5-FU + cisplatin + 54 Gy RT",
+        "B": "5-FU + mitomycin C + 50.4–54 Gy RT",
+        "C": "Mitomycin C alone + 54 Gy RT (omit 5-FU if renal impairment)",
+        "D": "Carboplatin + paclitaxel + 50.4 Gy RT"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The standard Nigro protocol consists of 5-Fluorouracil (1000 mg/m²/day CI on days 1–4 and 29–32) + Mitomycin C (12 mg/m² IV bolus day 1) concurrent with radiotherapy 50.4–54 Gy in 25–30 fractions. This achieves complete response in 65–80% of cases.",
+        "wrongA": "Cisplatin has been tested as a substitute for MMC in RTOG 98-11 but produced inferior colostomy-free survival. 5-FU + cisplatin is not the standard first-line regimen.",
+        "wrongC": "MMC alone without 5-FU is not a recognised regimen. Both drugs are required for the synergistic radiosensitisation effect.",
+        "wrongD": "Carboplatin + paclitaxel (InterAACT trial) is used for metastatic anal SCC, not localised disease. It is not part of the standard Nigro protocol.",
+        "trial": "RTOG 98-11: 5-FU + MMC + RT vs 5-FU + cisplatin + RT — MMC arm: colostomy rate 10%, DFS 67.8% at 5 years (p=0.006 for DFS).",
+        "pearl": "The two drugs: 5-FU (S-phase antimetabolite, radiosensitiser) + MMC (alkylating agent, hypoxic cell radiosensitiser). Both act synergistically with radiation to target well-oxygenated AND hypoxic tumour fractions."
+      }
+    },
+    {
+      "id": "D4-Q15",
+      "stem": "A 55-year-old woman undergoes laparoscopic ventral mesh rectopexy (D'Hoore technique) for full-thickness rectal prolapse. Post-operatively she reports difficulty voiding and reduced bladder sensation. Which structure was most likely injured?",
+      "options": {
+        "A": "Pudendal nerve in Alcock's canal",
+        "B": "Presacral nerve (superior hypogastric plexus) at the sacral promontory",
+        "C": "Inferior mesenteric artery during high ligation",
+        "D": "Ureter during peritoneal closure"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The presacral nerve (superior hypogastric plexus) runs just below the aortic bifurcation and across the sacral promontory — the exact site where mesh fixation sutures or tacks are placed during ventral rectopexy. Injury causes bladder dysfunction (voiding difficulty, reduced sensation) and sexual dysfunction (retrograde ejaculation in men, dyspareunia in women).",
+        "wrongA": "Pudendal nerve injury causes perineal sensory loss and external sphincter weakness — not primarily bladder voiding difficulty. The pudendal nerve is in Alcock's canal, remote from the operative field in ventral rectopexy.",
+        "wrongC": "Inferior mesenteric artery ligation (not performed in D'Hoore LVMR) would cause sigmoid/rectal ischaemia, not voiding dysfunction.",
+        "wrongD": "Ureteral injury would cause hydronephrosis, haematuria, or urinary leak — not the pattern described. The ureter is at risk but the presentation here is specifically neurogenic bladder.",
+        "guideline": "D'Hoore LVMR technique avoids posterior dissection specifically to protect the lateral ligaments and parasympathetic nerves. The main nerve at risk is the presacral (sympathetic) plexus at the promontory during mesh fixation.",
+        "pearl": "The D'Hoore technique's key advantage is no posterior dissection = preserved parasympathetic nerves. But suturing at the sacral promontory risks the superior hypogastric plexus (sympathetic) — causing bladder dysfunction and sexual side effects."
+      }
+    },
+    {
+      "id": "D4-Q16",
+      "stem": "A 35-year-old man develops a thrombosed external haemorrhoid. He presents 48 hours after symptom onset with severe pain. On examination, a 2 cm tense, tender, purple lump is visible at the anal verge. What is the optimal management?",
+      "options": {
+        "A": "Conservative management: topical nifedipine, warm baths, analgesia, and review in 1 week",
+        "B": "Excision under local anaesthesia in the clinic/emergency department",
+        "C": "Urgent haemorrhoidectomy under general anaesthesia including all haemorrhoidal pedicles",
+        "D": "Rubber band ligation above the dentate line"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — A thrombosed external haemorrhoid presenting within 72 hours with severe pain is best managed by excision (not simple incision and drainage, which leads to re-thrombosis) under local anaesthesia in an outpatient/emergency setting. Elliptical excision of the entire thrombosed segment provides immediate pain relief and prevents recurrence. Beyond 72 hours, conservative management is preferred as the thrombus begins to organise and resolve.",
+        "wrongA": "Conservative management is appropriate for presentations beyond 72 hours or when symptoms are mild/improving. At 48 hours with severe pain, excision is preferred.",
+        "wrongC": "Formal haemorrhoidectomy under GA for a simple thrombosed external haemorrhoid is over-treatment. Excision under local anaesthesia achieves the same outcome with far less morbidity.",
+        "wrongD": "Rubber band ligation is for internal haemorrhoids only. Banding below the dentate line (external haemorrhoids) causes severe pain and is contraindicated.",
+        "guideline": "ASCRS Practice Parameters: excision under local anaesthesia is recommended for thrombosed external haemorrhoids within 72 hours of onset.",
+        "pearl": "Key distinction: simple INCISION (drainage only) leaves a skin envelope that re-fills and leads to recurrence. EXCISION (removal of entire thrombosed tissue) prevents recurrence and provides more durable pain relief."
+      }
+    },
+    {
+      "id": "D4-Q17",
+      "stem": "A Grade IV strangulated internal haemorrhoid presents in a 60-year-old man. The prolapsed mass is oedematous but not necrotic. He is otherwise fit and well. What is the most appropriate management?",
+      "options": {
+        "A": "Admit for conservative management: osmotic dressings, ice packs, and elective haemorrhoidectomy in 8–12 weeks",
+        "B": "Urgent surgical haemorrhoidectomy within 24–72 hours",
+        "C": "Rubber band ligation applied to each prolapsed cushion in clinic",
+        "D": "Emergency APR given risk of progression to Fournier's gangrene"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Strangulated Grade IV haemorrhoids require urgent haemorrhoidectomy within 24–72 hours in fit patients. Contemporary evidence demonstrates that emergency haemorrhoidectomy is safe when performed by experienced surgeons. Prolonged conservative management allows progression to mucosal necrosis, ulceration, and septic complications.",
+        "wrongA": "While some centres use conservative measures as a bridge, fitting patients with irreducible strangulated haemorrhoids should generally proceed to urgent surgery rather than wait 8–12 weeks, during which septic complications may supervene.",
+        "wrongC": "Rubber band ligation is contraindicated for Grade IV prolapsed haemorrhoids — the tissue cannot be reduced into the anal canal and banding would be anatomically impossible and dangerous.",
+        "wrongD": "APR (abdominoperineal resection) is a cancer operation and is entirely inappropriate for benign haemorrhoidal disease.",
+        "guideline": "ACPGBI guidance supports emergency haemorrhoidectomy for strangulated haemorrhoids in fit patients as safe and effective.",
+        "pearl": "The concern about emergency haemorrhoidectomy (historical — increased bleeding and sepsis risk) has been largely dispelled by contemporary series. The key technical point is to treat the haemorrhoids as per an elective procedure, preserving adequate skin bridges."
+      }
+    },
+    {
+      "id": "D4-Q18",
+      "stem": "STARR (stapled transanal rectal resection) is performed for internal rectal intussusception. Which complication is most specifically associated with this procedure and should be discussed at consent?",
+      "options": {
+        "A": "Anastomotic leak requiring laparotomy",
+        "B": "Faecal incontinence due to sphincter division",
+        "C": "De novo rectal urgency, tenesmus, and a sense of incomplete evacuation",
+        "D": "Permanent colostomy formation"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — De novo rectal urgency and tenesmus are the most specifically characteristic complications of STARR, occurring in 20–30% of patients. The circular stapler reduces rectal capacity and alters rectal compliance, triggering urgency and a sensation of incomplete evacuation. This must be discussed at consent as it is a significant quality-of-life impact.",
+        "wrongA": "Anastomotic leak from the staple line is a recognised complication but is rare (<1%). The far more common and functionally significant complication is urgency.",
+        "wrongB": "STARR does not involve any sphincter division — it is a transanal resection of the rectal wall above the sphincters. Incontinence due to sphincter injury is not a characteristic STARR complication.",
+        "wrongD": "Permanent colostomy is an extremely rare outcome of STARR, only in the event of catastrophic rectal perforation or uncontrolled sepsis.",
+        "guideline": "NICE IPG 351 (2010) and subsequent systematic reviews confirm urgency/tenesmus as the major functional complication of STARR, occurring in 20–30%.",
+        "pearl": "STARR patient selection is critical: good sphincter function pre-operatively, documented intussusception (anterior + posterior component) on defaecography, failed conservative measures. It should NOT be offered to patients with baseline urgency or incontinence."
+      }
+    },
+    {
+      "id": "D4-Q19",
+      "stem": "A patient with Crohn's disease presents with a complex high transsphincteric fistula. MRI shows an active tract with internal opening at the posterior midline crypt. Biologic therapy (infliximab) has been started. Which is the most appropriate surgical approach to the fistula?",
+      "options": {
+        "A": "Immediate fistulotomy to establish definitive drainage",
+        "B": "Loose seton drainage to control sepsis while biologic therapy is optimised",
+        "C": "Advancement flap repair immediately after first infliximab infusion",
+        "D": "Proctectomy and permanent ileostomy as primary treatment"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Loose seton drainage is the cornerstone of surgical management for Crohn's high fistulae. It controls ongoing sepsis, maintains the fistula tract patent for medical therapy to work, and avoids sphincter damage. Definitive repair (advancement flap, LIFT, or closure with biologic-induced remission) is deferred until Crohn's disease is in clinical and endoscopic remission.",
+        "wrongA": "Fistulotomy for a high transsphincteric Crohn's fistula risks catastrophic sphincter injury, non-healing wounds (due to Crohn's tissue pathology), and incontinence. It is contraindicated.",
+        "wrongC": "Advancement flap repair immediately after first infliximab infusion is premature — remission has not been confirmed. Flap repair requires optimal conditions: quiescent disease, normal rectal mucosa, no active proctitis.",
+        "wrongD": "Proctectomy is appropriate for end-stage Crohn's proctitis with unremitting disease but is not primary treatment for a fistula in a patient who has just started biologic therapy.",
+        "trial": "ACCENT II trial (Sands et al. NEJM 2004): infliximab maintenance achieved fistula closure in 36% vs 19% placebo at 54 weeks in Crohn's perianal fistulae.",
+        "pearl": "Crohn's fistula management hierarchy: (1) drain sepsis (loose seton), (2) optimise biologics (infliximab/adalimumab), (3) repair when in remission. Never start with definitive repair in active Crohn's."
+      }
+    },
+    {
+      "id": "D4-Q20",
+      "stem": "The Altemeier perineal rectosigmoidectomy differs from the Delorme procedure in which of the following ways?",
+      "options": {
+        "A": "Altemeier is an abdominal procedure; Delorme is perineal",
+        "B": "Altemeier involves full-thickness resection of the prolapsed segment and coloanal anastomosis; Delorme involves mucosal stripping with plication of the underlying muscularis",
+        "C": "Delorme has significantly lower recurrence rates than Altemeier",
+        "D": "Altemeier cannot be combined with levatorplasty"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Altemeier procedure (perineal rectosigmoidectomy) involves full-thickness resection of the prolapsed bowel segment via the perineal approach, followed by coloanal anastomosis, and optionally levatorplasty. Delorme procedure involves stripping only the mucosa from the prolapsed segment, then plicating the denuded muscularis with a series of sutures to reduce the prolapse, without any bowel resection or anastomosis.",
+        "wrongA": "Both Altemeier and Delorme are perineal (transanal) procedures, appropriate for high-risk patients not suited for abdominal approaches.",
+        "wrongC": "Recurrence rates are broadly comparable between the two perineal procedures (Altemeier 10–20%, Delorme 15–25%). Abdominal approaches (LVMR) have the lowest recurrence at 3–8%.",
+        "wrongD": "Levatorplasty (posterior approximation of levator ani muscles) is routinely added to Altemeier procedure to improve continence outcomes. It can also be added to Delorme.",
+        "guideline": "ACPGBI and ASCRS guidelines: perineal procedures are appropriate for frail/elderly patients; Altemeier preferred for larger prolapse (>3–4 cm); Delorme for shorter prolapse or extreme frailty.",
+        "pearl": "The key difference: Delorme = mucosa only stripped + muscularis plication (no anastomosis). Altemeier = full-thickness resection + anastomosis. Altemeier allows levatorplasty and excision of redundant sigmoid, making it more versatile for longer prolapses."
+      }
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "id": "F4",
+  "title": "Paediatric Surgery for General Surgeons",
+  "subtitle": "Neonatal Emergencies, Common Conditions & Paediatric Oncology",
+  "block": "F",
+  "block_name": "Trauma, Infections & Thoracic",
+  "level": "PGY2-3",
+  "reading_time_min": 95,
+  "guidelines_version": "APSA Clinical Practice Guidelines · NICE NG76 Child Maltreatment · SIOP/COG Protocols 2022 · IPEG Guidelines",
+  "textbook_refs": [
+    "Ashcraft's Pediatric Surgery, 6th ed.",
+    "Pediatric Surgery, Coran et al., 7th ed.",
+    "APSA Clinical Practice Guidelines — Paediatric Appendicitis 2022",
+    "SIOP Wilms Tumour Protocol 2016"
+  ],
+  "learning_objectives": [
+    "Diagnose and manage neonatal intestinal obstruction including malrotation, Hirschsprung's disease, and atresias",
+    "Distinguish gastroschisis from omphalocele and outline the principles of abdominal wall defect closure",
+    "Apply Bell's staging for NEC and identify surgical indications",
+    "Describe the Ramstedt pyloromyotomy and the metabolic preparation required",
+    "Apply the Paediatric Appendicitis Score and describe non-operative management criteria",
+    "Outline SIOP vs COG approaches to Wilms' tumour and describe neuroblastoma risk stratification",
+    "Recognise child abuse patterns and describe paediatric trauma modifications"
+  ],
+  "sections": [
+    {
+      "id": "F4-S1",
+      "title": "Neonatal Surgical Emergencies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Neonatal surgical emergencies require rapid diagnosis and a coordinated multidisciplinary approach. The most important neonatal intestinal obstructions are: duodenal atresia, jejunoileal atresia, malrotation/volvulus, Hirschsprung's disease, and anorectal malformations.\n\nDuodenal atresia: failure of recanalisation of the duodenal lumen (8th–10th week). Associated with Down's syndrome (trisomy 21) in 30% of cases. Classic radiographic finding: 'double bubble sign' — gas in stomach and first part of duodenum, absent distal gas. Presentation: bilious vomiting within first 24 hours of life (obstruction is usually post-ampullary — 80% distal to ampulla of Vater). Diagnosis: AXR (double bubble). Management: NGT decompression, IV fluids, correct electrolytes, echocardiogram (25% have cardiac defects), then elective duodenoduodenostomy (diamond anastomosis) once stabilised. Annular pancreas is a differential causing duodenal obstruction — same surgical management.\n\nMalrotation and volvulus: the midgut normally rotates 270° counterclockwise around the superior mesenteric artery (SMA) between weeks 4–10. Malrotation = incomplete rotation, leaving the caecum in the right upper quadrant and Ladd's bands crossing the duodenum. Volvulus = clockwise twist of the midgut around the narrow SMA pedicle — the most urgent neonatal surgical emergency. Presentation: bilious vomiting (bilious vomiting in a neonate = emergency until proven otherwise), upper abdominal distension. Upper GI contrast study (gold standard): corkscrew appearance of duodenum/jejunum; failure of DJ flexure to cross midline. Ultrasound: SMA/SMV inversion ('whirlpool sign'). Management: immediate resuscitation, IV antibiotics, urgent laparotomy (Ladd's procedure — do not delay for hydration if haemodynamically stable)."
+        },
+        {
+          "type": "table",
+          "title": "Ladd's Procedure — Steps",
+          "headers": ["Step", "Action", "Purpose"],
+          "rows": [
+            ["1. Eviscerate bowel", "Exteriorise entire small bowel to expose the SMA pedicle", "Assess viability and extent of volvulus"],
+            ["2. Detorse volvulus", "Rotate bowel COUNTERCLOCKWISE (anticlockwise) to detorse", "Restore SMA flow; allow reperfusion — assess bowel viability"],
+            ["3. Ladd's bands division", "Divide peritoneal bands (Ladd's bands) crossing duodenum from caecum/right colon to retroperitoneum", "Relieve duodenal obstruction"],
+            ["4. Broaden the mesenteric base", "Divide peritoneum at base of mesentery to widen the SMA pedicle", "Prevent recurrent volvulus"],
+            ["5. Appendicectomy", "Remove appendix (incidental)", "Prevents future diagnostic confusion (appendix now in LEFT iliac fossa)"],
+            ["6. Reposition bowel", "Small bowel to RIGHT, large bowel to LEFT — no attempt to achieve normal rotation", "Stable anatomical positioning"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Bilious Vomiting in a Neonate = Emergency",
+          "content": "Any neonate with bilious (green) vomiting must be assumed to have malrotation with midgut volvulus until proven otherwise. Time from volvulus to bowel infarction can be <6 hours. Delay for investigations beyond essential resuscitation is inappropriate. Immediate upper GI contrast study (if haemodynamically stable) or direct to theatre (if in extremis). The entire midgut can become non-viable, condemning the child to short bowel syndrome or death."
+        },
+        {
+          "type": "text",
+          "content": "Hirschsprung's disease: failure of neural crest cell migration to the distal colon, resulting in an aganglionic segment of variable length (80% rectosigmoid; 5% total colonic). Presents as delayed passage of meconium (>48h after birth), abdominal distension, bilious vomiting. Diagnosis: suction rectal biopsy (gold standard) — shows ABSENCE of ganglion cells in the submucosal and myenteric plexuses, with hypertrophied nerve bundles. AXR: dilated proximal colon with narrow aganglionic segment. Contrast enema: 'transition zone' between dilated proximal bowel and narrow distal aganglionic segment. Management: bowel rest, rectal washouts, colostomy if obstructed → definitive pull-through procedure (Swenson, Soave, or Duhamel — laparoscopic approaches now standard). Enterocolitis (Hirschsprung-associated enterocolitis — HAEC) is the most dangerous complication: fever, distension, explosive diarrhoea → rectal washouts, antibiotics, decompression.\n\nNEC (Necrotising Enterocolitis): predominantly affects premature infants (<32 weeks). Multifactorial: ischaemia, bacterial translocation, immature gut immunity. Bell's staging: Stage I (suspected) = apnoea, temperature instability, ileus; Stage IIA (proven) = pneumatosis intestinalis on AXR, blood in stools; Stage IIB = metabolic acidosis, thrombocytopenia; Stage IIIA (advanced) = deteriorating, peritonitis but no perforation; Stage IIIB = perforation (pneumoperitoneum on AXR). Medical management (Stages I–IIA): NBM, NGT, broad-spectrum antibiotics (48–72h), TPN. Surgical indications: pneumoperitoneum (IIIB), fixed dilated bowel loop (>24h unchanged), clinical deterioration despite maximum medical therapy, abdominal wall erythema. Surgical options: peritoneal drain (primary for very small premature infants <1000g) vs laparotomy + resection (preferred if stable enough). The NECTAR trial (ongoing) is comparing these approaches.\n\nAbdominal wall defects: gastroschisis = herniation of bowel through a RIGHT paraumbilical wall defect (umbilical cord is normal, to the LEFT of the defect); no peritoneal sac; no major associated anomalies; bowel is thickened/matted from amniotic fluid exposure. Omphalocele (exomphalos) = herniation through the umbilical ring, covered by a sac (amnion + peritoneum); umbilical cord inserts into the apex of the sac; ASSOCIATED with major anomalies in 60–70% (cardiac, chromosomal — Beckwith-Wiedemann syndrome, Down's, Patau's). Management of gastroschisis: emergency silo (spring-loaded or sutured) with gradual daily reduction → primary closure or staged closure; intestinal function recovery may take weeks. Omphalocele: avoid sac rupture, staged closure; treat associated anomalies first."
+        },
+        {
+          "type": "table",
+          "title": "Bell's Staging — Necrotising Enterocolitis",
+          "headers": ["Stage", "Systemic", "Intestinal", "Radiological", "Management"],
+          "rows": [
+            ["IA — Suspected NEC", "Temperature instability, apnoea, bradycardia", "Distension, vomiting, blood in stools", "Normal or mild ileus", "NBM 48h, antibiotics, TPN, frequent AXR"],
+            ["IIA — Proven NEC (mild)", "As above", "Absent bowel sounds, abdominal tenderness", "Pneumatosis intestinalis", "NBM 7–10 days, antibiotics, TPN"],
+            ["IIB — Proven NEC (moderate)", "Mild metabolic acidosis, mild thrombocytopenia", "Abdominal wall oedema/cellulitis", "Pneumatosis, portal venous gas", "As IIA + ICU monitoring"],
+            ["IIIA — Advanced NEC (no perforation)", "Mixed acidosis, DIC, oliguria, hypotension", "Peritonitis, marked tenderness", "Marked pneumatosis, ascites", "ICU maximum support; surgical consultation; may require urgent operation"],
+            ["IIIB — Advanced NEC (perforation)", "Shock, DIC", "Peritonitis, erythema", "Pneumoperitoneum", "SURGICAL — peritoneal drain vs laparotomy"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Gastroschisis vs Omphalocele — Key Distinction",
+          "content": "Gastroschisis: PARA-umbilical defect (right side), NO sac, bowel exposed directly (thickened/foreshortened), umbilical cord SEPARATE and normal, NO associated anomalies (isolated defect). Omphalocele: UMBILICAL ring defect, sac PRESENT (amnion-peritoneum), cord inserts into sac apex, ASSOCIATED anomalies in 60–70% (cardiac, chromosomal, Beckwith-Wiedemann). Mnemonic: Gastroschisis = Gap in abdominal wall, Guts exposed, no covering. Omphalocele = sac (O = covered/round)."
+        }
+      ]
+    },
+    {
+      "id": "F4-S2",
+      "title": "Paediatric Inguinal Hernia & Hydrocele",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Paediatric inguinal hernia is an indirect hernia caused by failure of closure of the processus vaginalis (the peritoneal diverticulum that accompanies the testis/round ligament as it descends into the scrotum/labia). Unlike adult hernia repair, children do NOT require mesh — the fundamental procedure is HIGH LIGATION OF THE PROCESSUS VAGINALIS AT THE INTERNAL INGUINAL RING, with no mesh reinforcement. The floor of the inguinal canal does not need repair in children. Incidence: 1–3% of infants; males >>females (5:1); more common on the right (60%).\n\nIncarceration risk: highest in infants <1 year (up to 30% risk of incarceration). Irreducible hernia in an infant is an emergency — manual reduction under analgesia/sedation, then repair within 24–48h (allows oedema to resolve). Emergency surgery required if reduction fails or ischaemia is suspected. Bilateral exploration: previously routine; now laparoscopic inspection of the contralateral processus vaginalis (patent processus vaginalis 40% contralateral) guides selective repair.\n\nHydrocele: accumulation of fluid in the tunica vaginalis secondary to a patent processus vaginalis. Communicating hydrocele: varies in size (larger after activity, smaller in morning) — persists due to open processus vaginalis. Non-communicating hydrocele: constant size — trapped fluid, processus vaginalis closed. Management: communicating hydrocele → observe until age 2 (90% close spontaneously); if persistent at 2 years → surgical ligation of processus vaginalis (same as hernia repair). Non-communicating hydrocele → observe until 12–18 months (most resolve); persistent/large → hydrocelectomy. There is no role for aspiration in children (high recurrence, infection risk).\n\nLaparoscopic vs open inguinal hernia repair in infants: laparoscopic (70° scope through umbilicus, peritoneal suture ligation of internal ring) offers advantages of simultaneous contralateral assessment and shorter recovery; evidence shows comparable recurrence rates. Both approaches are accepted. IPEG guidelines (2018): either approach acceptable; preference for laparoscopic in bilateral/bilateral assessment."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "NO MESH in Paediatric Inguinal Hernia Repair",
+          "content": "The processus vaginalis is simply ligated at the internal ring — NO mesh is required or appropriate in children. The posterior inguinal canal wall is structurally normal and does not require reinforcement. Mesh in children carries risks of foreign body reaction, interference with growth, and testicular ischaemia. Always document on board exams: paediatric inguinal hernia = high ligation at internal ring only."
+        }
+      ]
+    },
+    {
+      "id": "F4-S3",
+      "title": "Pyloric Stenosis",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Hypertrophic pyloric stenosis (HPS) affects 2–4 per 1000 live births; males > females (4–5:1); first-born males most commonly. Pathophysiology: progressive hypertrophy of the pyloric muscle, causing gastric outlet obstruction. Presentation: non-bilious projectile vomiting at 3–6 weeks of age; hunger after vomiting (unlike the unwell child with sepsis); palpable pyloric 'olive mass' in right epigastrium (pathognomonic — present in 60–70% if examined carefully during test feed). Metabolic consequence of prolonged vomiting of HCl: hypochloraemic, hypokalaemic metabolic alkalosis. Urine: paradoxical aciduria (kidneys excrete H+ to preserve Na+ in exchange for K+ when K+ depletion is severe — 'paradoxical aciduria'). Biochemistry: Na+ low/normal, K+ low, Cl− very low, pH high, HCO3− high.\n\nDiagnosis: ultrasound is the diagnostic investigation of choice (avoids radiation). Pyloric muscle thickness ≥4 mm and/or pyloric channel length ≥16 mm confirms diagnosis. Upper GI contrast study (barium meal — 'string sign', 'double track sign', 'shoulder sign') if US inconclusive.\n\nPre-operative resuscitation (CRITICAL): HPS is a medical emergency before surgery — DO NOT rush to theatre. Correct the metabolic alkalosis first. 0.9% NaCl + 20 mmol/L KCl at appropriate maintenance rate; target Cl− >100 mmol/L, K+ >3.5 mmol/L, BE <3.5 before surgery. This typically requires 24–48 hours. GA induction in uncorrected alkalosis risks apnoea post-extubation.\n\nRamstedt pyloromyotomy: the definitive surgical treatment. The pyloric muscle is split longitudinally down to but NOT through the mucosa; the mucosa should bulge through the split; no suturing of muscle is required. Laparoscopic approach (3-port or umbilical single-incision) is equivalent to open in experienced hands — GUTS trial (UK, 2009): laparoscopic vs open — equivalent outcomes (mucosal perforation rate, operative time, length of stay), but laparoscopic associated with fewer wound complications. Most centres now use laparoscopic as primary approach."
+        },
+        {
+          "type": "table",
+          "title": "Metabolic Disturbance in Pyloric Stenosis",
+          "headers": ["Parameter", "Finding", "Mechanism"],
+          "rows": [
+            ["pH", "Raised (>7.45) — metabolic alkalosis", "Loss of HCl in vomit raises serum HCO3−"],
+            ["Chloride", "Low (<95 mmol/L) — hypochloraemia", "Vomit contains high HCl; renal HCO3− retention at expense of Cl−"],
+            ["Potassium", "Low (<3.5 mmol/L) — hypokalaemia", "Aldosterone-driven K+ loss in exchange for Na+ (volume depletion); HCO3−/K+ exchange"],
+            ["Sodium", "Low/normal", "Volume depletion + water retention"],
+            ["Urine pH", "Acidic (paradoxical aciduria)", "Severe K+ depletion → H+ secreted instead of K+ to reclaim Na+"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "GUTS Trial — Laparoscopic vs Open Pyloromyotomy",
+          "content": "GUTS RCT (UK, 2009, Hall et al.): laparoscopic vs open Ramstedt pyloromyotomy in 180 infants. No significant difference in operative complications (mucosal perforation ~3% both groups), time to full feeds, or hospital stay. Laparoscopic had fewer wound infections/wound complications. Both approaches are safe and effective. Laparoscopic is now the preferred approach at most paediatric surgical centres."
+        }
+      ]
+    },
+    {
+      "id": "F4-S4",
+      "title": "Appendicitis in Children",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Paediatric appendicitis: different from adults — perforation rate higher (30–45%, vs 15–20% in adults) due to delayed presentation and thinner appendiceal wall; omentum is less developed in young children, limiting local containment. The Paediatric Appendicitis Score (PAS — Samuel 2002) components: (1) migration of pain to RIF (1 point); (2) anorexia (1); (3) nausea/vomiting (1); (4) RIF tenderness on coughing/hopping/percussion (2); (5) fever ≥38°C (1); (6) leukocytosis ≥10,000 (1); (7) RIF tenderness on palpation (2). Maximum 10 points. PAS ≥6 = high probability; PAS ≤2 = low probability; PAS 3–5 = equivocal → imaging.\n\nImaging: ultrasound is FIRST-LINE in children (no radiation, identifies appendix ≥75% of cases, also evaluates ovary/other causes in girls). MRI if ultrasound inconclusive (sensitivity 97%, specificity 96%) — preferred over CT in children to avoid ionising radiation. CT is reserved for diagnostic uncertainty when MRI unavailable or in obese children where US is limited.\n\nNon-operative management (NOM) for uncomplicated appendicitis: APSA (American Pediatric Surgery Association) guidelines and multiple RCTs demonstrate that NOM with IV antibiotics is safe for uncomplicated appendicitis (no perforation, abscess, or appendicolith) in children. NOM success rate: ~70–80% at 1 year. Recurrence within 1 year: ~20–30%. NOM should be offered as an alternative after careful counselling about recurrence risk. Requires: confirmed uncomplicated appendicitis (CT or MRI), clinically improving with antibiotics, no appendicolith (fecolith), no peritonitis.\n\nPerforated appendicitis: laparoscopic appendicectomy is the standard for perforated appendicitis. Benefits: lower wound infection rate, shorter hospital stay, reduced adhesion formation. Post-perforation abscess: if well-contained pericaecal abscess + no peritonitis → IV antibiotics ± CT-guided drainage; interval appendicectomy at 6–12 weeks (optional — recurrence risk ~10%). Immediate appendicectomy for perforated appendicitis with peritonitis."
+        },
+        {
+          "type": "table",
+          "title": "Paediatric Appendicitis Score (PAS)",
+          "headers": ["Component", "Points", "Notes"],
+          "rows": [
+            ["Migration of pain to RIF", "1", "History of periumbilical → RIF migration"],
+            ["Anorexia", "1", "Clinically significant loss of appetite"],
+            ["Nausea/vomiting", "1", "Either present"],
+            ["RIF tenderness on coughing/hopping/percussion", "2", "Higher weight — indicates localised peritonism"],
+            ["Fever ≥38°C", "1", "Rectal or tympanic"],
+            ["Leukocytosis ≥10,000/µL", "1", "WBC threshold"],
+            ["RIF tenderness on direct palpation", "2", "Higher weight — most specific sign"],
+            ["TOTAL", "10", "≤2 low risk; 3–5 equivocal (image); ≥6 high risk (operate)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "APSA Guidelines — Non-Operative Management of Uncomplicated Appendicitis",
+          "content": "APSA 2022 guidelines: NOM with IV antibiotics (ceftriaxone + metronidazole, or ampicillin-sulbactam) is a safe alternative to immediate appendicectomy in children with UNCOMPLICATED appendicitis (no perforation, no appendicolith, no free fluid beyond the pelvis). Success rate 70–80% at 1 year. Families must be counselled about 20–30% recurrence risk requiring delayed appendicectomy. NOM SHOULD NOT be offered if: CT/MRI shows perforation, appendicolith (fecolith), phlegmon, or abscess >3 cm."
+        }
+      ]
+    },
+    {
+      "id": "F4-S5",
+      "title": "Paediatric Trauma",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Paediatric trauma management follows ATLS principles but with important modifications reflecting physiological and anatomical differences. Children have: larger head-to-body ratio (higher head injury risk), more pliable rib cage (internal organ injury with fewer rib fractures), smaller circulating blood volume (70 mL/kg), higher metabolic rate and temperature loss risk, limited physiological reserve but better initial compensation.\n\nATLS paediatric modifications: Fluid resuscitation: initial bolus 10 mL/kg IV crystalloid (NOT 20 mL/kg as in adults); reassess; repeat if no response; 3rd bolus → consider blood products. Blood transfusion: packed red cells 10 mL/kg. Weight estimation: Broselow tape or formula: weight (kg) = (age + 4) × 2. Intraosseous (IO) access: mandatory skill — if IV access cannot be established within 60 seconds in a shocked child → IO access. Site: proximal tibia (2 cm below tibial tuberosity, anteromedial surface) — first choice; distal femur, humeral head as alternatives. IO can deliver all drugs and fluids including blood products.\n\nSolid organ injury — NOM: Children have higher success rates for non-operative management of solid organ injuries than adults. Spleen NOM success rate: >90% in haemodynamically stable children (vs ~70–80% in adults). Liver NOM: similar high success rates. APSA guidelines (solid organ injury): haemodynamically stable + no peritonitis = attempt NOM regardless of injury grade. CT grading guides admission/observation protocol (Grade I–II = 2-day admission; Grade III = ICU admission; Grade IV–V = ICU + angioembolisation consideration). Blood transfusion requirement (>40 mL/kg/24h) or haemodynamic instability = operative intervention.\n\nBurns in children: Lund-Browder chart is the accurate method for burns assessment in children — accounts for changing body surface area proportions with age (head is larger relative proportion in infants: 19% at birth vs 9% in adults; legs are smaller: 14% at birth vs 18% in adults). Rule of nines is INACCURATE in children <10 years. Parkland formula applies: 3–4 mL/kg/% TBSA in first 24h (half in first 8h, half in next 16h). Child <30 kg: add 100% maintenance fluids to Parkland calculation."
+        },
+        {
+          "type": "table",
+          "title": "Child Abuse — Red Flag Fracture Patterns",
+          "headers": ["Fracture Type", "Specificity for Abuse", "Notes"],
+          "rows": [
+            ["Posterior rib fractures", "Highly specific", "Caused by grasping/squeezing chest; virtually pathognomonic for non-accidental injury"],
+            ["Metaphyseal corner (bucket handle) fractures", "Highly specific", "Caused by twisting/pulling forces; classic in infants <1 year"],
+            ["Multiple fractures at different stages of healing", "Highly specific", "Indicates repeated trauma over time"],
+            ["Spiral fractures of long bones in non-ambulant children", "High specificity", "Children <1 year cannot generate twisting force by themselves"],
+            ["Skull fractures — complex/bilateral/multiple", "Moderate specificity", "Simple linear skull fractures can occur accidentally"],
+            ["Scapular/sternal fractures", "High specificity", "Very rarely accidental in children"],
+            ["Classic accidental fractures (clavicle, toddler's tibial spiral)", "Low specificity", "Must not over-diagnose; clavicle fracture = birth trauma common"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Child Abuse — NICE NG76 Mandatory Considerations",
+          "content": "NICE NG76 red flags for non-accidental injury: any injury in non-ambulant child (<6–9 months); injury inconsistent with developmental stage or history; delay in seeking medical attention; multiple bruises in unusual locations (ears, neck, face in non-mobile child); retinal haemorrhages (shaken baby); posterior rib fractures. Safeguarding process: mandatory documentation, referral to safeguarding team, skeletal survey (full-body X-ray series), ophthalmology, social services involvement. Do NOT discharge without senior review and safeguarding plan."
+        }
+      ]
+    },
+    {
+      "id": "F4-S6",
+      "title": "Paediatric Oncology for Surgeons",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Wilms' tumour (nephroblastoma): most common renal malignancy in children (peak age 3–4 years). Associated syndromes: WAGR (Wilms', Aniridia, Genitourinary anomalies, intellectual disability — WT1 deletion); Beckwith-Wiedemann syndrome; Denys-Drash syndrome. Bilateral in 5–7% (synchronous or metachronous — must screen contralateral kidney). Tumour marker: AFP is NOT elevated (use AFP for hepatoblastoma). Staging: I (confined to kidney, resected); II (extends beyond kidney, resected); III (residual non-haematogenous — lymph nodes, positive margin); IV (haematogenous metastases — lung most common); V (bilateral).\n\nTreatment controversy — SIOP vs COG approach: SIOP (European, International Society of Paediatric Oncology) protocol: PREOPERATIVE chemotherapy (vincristine + actinomycin D × 4 weeks for localised disease; + doxorubicin × 6 weeks for metastatic) → nephrectomy → adjuvant based on histology. Advantages: tumour shrinkage (reduces surgical complications), avoids tumour rupture, identifies blastemal-predominant histology (worse prognosis). COG (Children's Oncology Group — North America): IMMEDIATE nephrectomy → adjuvant chemotherapy based on surgical stage and histology. Advantage: accurate pre-treatment staging and histology without downstaging bias. Both approaches achieve similar long-term survival (~90% 5-year OS for favourable histology). UK uses SIOP protocol.\n\nNeuroblastoma: most common extracranial solid tumour in children (peak age 18 months). Arises from neural crest cells (adrenal medulla most common site — 40%; paraspinal ganglia). Key markers: urinary catecholamines (VMA, HVA), LDH, ferritin, NSE. Imaging: CT + MIBG (meta-iodobenzylguanidine) scan — highly specific for neuroblastoma. Risk stratification: low (Stage I–II, no MYCN amp), intermediate, high-risk (Stage IV, >18 months, MYCN amplification). MYCN amplification: present in 20% — strongly associated with rapid progression, chemotherapy resistance, poor prognosis (5-year OS ~30% in high-risk). Image-Defined Risk Factors (IDRFs): anatomical criteria defining resectability risk (encasement of vessels, intraspinal extension, etc.) — if IDRFs present, induction chemotherapy before surgery reduces surgical risk.\n\nHepatoblastoma: most common primary liver tumour in children (peak age <3 years; 90% <5 years). Tumour marker: AFP — markedly elevated (can be >100,000 µg/L); AFP is used for diagnosis, treatment monitoring, and recurrence detection. Staging: PRETEXT (Pretreatment Extent of Disease — SIOPEL) staging system — divides liver into 4 sectors; PRETEXT I (1 sector) to PRETEXT IV (all 4 sectors). Treatment: SIOPEL protocol (SIOP European Liver Tumour Study Group) — cisplatin-based neoadjuvant chemotherapy (PLADO or SIOPEL-4) → surgical resection → post-operative chemotherapy. Resection is achievable in ~80% after chemotherapy. Liver transplantation: for PRETEXT IV or unresectable disease after chemotherapy (excellent outcomes, 5-year OS >80%)."
+        },
+        {
+          "type": "table",
+          "title": "Paediatric Oncology — Key Tumours Summary",
+          "headers": ["Tumour", "Age Peak", "Tumour Marker", "Key Staging", "Surgical Role", "Chemotherapy Protocol"],
+          "rows": [
+            ["Wilms' tumour", "3–4 years", "None specific (AFP NOT elevated)", "Stages I–V (SIOP/COG)", "Nephrectomy (post-chemo in SIOP; primary in COG)", "Vincristine + Actinomycin D ± Doxorubicin"],
+            ["Neuroblastoma", "18 months", "Urinary VMA/HVA, NSE, LDH, ferritin", "INRG (Low/Intermediate/High risk)", "Resection if IDRFs resolved; adrenalectomy for adrenal primary", "Multi-agent (COJEC/OPEC) for high-risk"],
+            ["Hepatoblastoma", "<3 years", "AFP (markedly elevated)", "PRETEXT I–IV", "Resection post-chemo; liver transplant if unresectable", "SIOPEL — cisplatin-based"],
+            ["Rhabdomyosarcoma", "2–6 years; adolescents", "None (CT/MRI for local staging)", "IRS Group I–IV (local to metastatic)", "Resection if feasible (wide margin); avoid mutilating surgery pre-chemo", "VAC (vincristine, actinomycin D, cyclophosphamide)"],
+            ["Retinoblastoma", "<5 years", "None (genetic testing RB1)", "International Classification A–E", "Enucleation for advanced unilateral; eye-sparing for bilateral", "Chemoreduction + local therapy"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "MYCN Amplification in Neuroblastoma",
+          "content": "MYCN (N-Myc) proto-oncogene amplification (>10 copies) in neuroblastoma is the single most important adverse prognostic factor: associated with rapid tumour growth, treatment resistance, and poor survival (5-year OS <30% in high-risk MYCN-amplified vs >90% in low-risk non-amplified). Identification by FISH or PCR on tumour tissue. High-risk treatment: induction chemotherapy → surgery → high-dose chemo/stem cell transplant → radiotherapy → isotretinoin (differentiation therapy) → dinutuximab (anti-GD2 immunotherapy — improves OS in high-risk). Always test for MYCN on biopsy."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "F4-Q1",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "Double Bubble Sign — Duodenal Atresia",
+      "question": "A neonate born at 37 weeks gestation develops bilious vomiting within 12 hours of birth. AXR shows two gas-filled structures in the upper abdomen with no gas in the remainder of the bowel. Which of the following is the most likely diagnosis and its most common chromosomal association?",
+      "options": [
+        "A. Jejunal atresia — no chromosomal association",
+        "B. Duodenal atresia — trisomy 21 (Down's syndrome) in 30%",
+        "C. Malrotation with volvulus — associated with intestinal rotation defects",
+        "D. Hirschsprung's disease — associated with trisomy 21 in 5%",
+        "E. Meconium ileus — associated with cystic fibrosis"
+      ],
+      "correct": "B",
+      "explanation": "The 'double bubble sign' on AXR is pathognomonic of duodenal atresia: gas fills the stomach (left bubble) and first part of the duodenum (right bubble) with absent distal bowel gas (obstruction is complete). Duodenal atresia results from failure of recanalisation of the duodenal lumen at weeks 8–10. The key association is trisomy 21 (Down's syndrome) — present in 30% of duodenal atresia cases. All neonates with duodenal atresia should have echocardiography (25% associated cardiac defects — VSD, ASD, tetralogy of Fallot) and karyotype. Management: NGT decompression, IV fluids, electrolyte correction, then elective duodenoduodenostomy once stable.",
+      "teaching_point": "Double bubble sign = duodenal atresia. Key association: Down's syndrome (trisomy 21) in 30%. Also check: cardiac defects (25%), vertebral anomalies, renal anomalies. Surgical repair = duodenoduodenostomy (diamond anastomosis). Bilious vomiting in neonate = obstruction distal to ampulla of Vater (80% of duodenal atresias are post-ampullary)."
+    },
+    {
+      "id": "F4-Q2",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Malrotation vs Volvulus — Ultrasound",
+      "question": "A 5-day-old male infant presents with sudden onset bilious vomiting. Ultrasound is performed. Which finding would be most concerning for midgut volvulus?",
+      "options": [
+        "A. SMA lying to the left of the SMV (superior mesenteric vein) with a 'whirlpool sign'",
+        "B. Normal SMA/SMV relationship with a dilated stomach",
+        "C. Pyloric muscle thickness of 3.8 mm",
+        "D. Free fluid in the pelvis without bowel dilatation",
+        "E. Mesenteric adenopathy with bowel wall thickening"
+      ],
+      "correct": "A",
+      "explanation": "Normal anatomy: the superior mesenteric vein (SMV) lies to the RIGHT of the superior mesenteric artery (SMA). In malrotation, the relationship may be inverted (SMV to the left of SMA — 'SMA/SMV inversion'). The 'whirlpool sign' on Doppler ultrasound represents the bowel and mesentery wrapping around the SMA in a clockwise direction — this is diagnostic of midgut volvulus. SMA/SMV inversion + whirlpool sign = urgent surgical emergency. Upper GI contrast study confirms (corkscrew duodenum, failure of DJ flexure to cross midline). Option B represents a normal SMA/SMV with dilated stomach (pyloric cause). Option C is below the pyloric stenosis threshold (need ≥4 mm).",
+      "teaching_point": "Malrotation ultrasound: SMV to LEFT of SMA (inverted) + 'whirlpool sign' (Doppler swirling of mesenteric vessels around SMA) = midgut volvulus until proven otherwise. Confirm with upper GI contrast study (corkscrew/DJ flexure not crossing midline). Immediate Ladd's procedure."
+    },
+    {
+      "id": "F4-Q3",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Ladd's Procedure Steps",
+      "question": "During a Ladd's procedure for malrotation with volvulus, after detorsion of the bowel clockwise/counterclockwise, what is the correct sequence of remaining steps?",
+      "options": [
+        "A. Close abdomen → observe bowel viability → reopen if ischaemia",
+        "B. Divide Ladd's bands → broaden mesenteric base → appendicectomy → reposition (small bowel right, large bowel left)",
+        "C. Perform Roux-en-Y duodenojejunostomy → appendicectomy → normal anatomical positioning",
+        "D. Divide Ladd's bands → attempt normal anatomical rotation → appendicectomy",
+        "E. Appendicectomy first → divide Ladd's bands → attempt fixation of mesentery with sutures"
+      ],
+      "correct": "B",
+      "explanation": "Ladd's procedure steps after detorsion (counterclockwise): (1) Assess bowel viability — resect non-viable segments. (2) Divide Ladd's bands — peritoneal bands from caecum/right colon crossing anterior to duodenum (these bands cause duodenal obstruction). (3) Broaden the mesenteric base — divide the peritoneum at the root of the mesentery to widen the SMA pedicle, reducing risk of re-volvulation. (4) Appendicectomy — remove appendix (will be in the left iliac fossa post-Ladd's, preventing future clinical confusion). (5) Reposition — small bowel to RIGHT side, large bowel to LEFT side (non-rotation position, anatomically stable). Do NOT attempt to recreate normal rotation (counter-clockwise) — this is technically impossible.",
+      "teaching_point": "Ladd's procedure (after detorsion counterclockwise): (1) bowel viability; (2) divide Ladd's bands; (3) broaden mesenteric base; (4) appendicectomy; (5) small bowel right, large bowel left. Do NOT suture bowel in position. Do NOT attempt anatomical rotation. Appendicectomy prevents future diagnostic confusion."
+    },
+    {
+      "id": "F4-Q4",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "Gastroschisis vs Omphalocele",
+      "question": "A neonate is born with bowel herniated outside the abdominal cavity. The umbilical cord is normal and the bowel is directly exposed without a covering membrane. The bowel appears thickened and matted. Which diagnosis is correct and what associated anomalies should be sought?",
+      "options": [
+        "A. Omphalocele — check for cardiac and chromosomal anomalies",
+        "B. Gastroschisis — low risk of associated anomalies; condition is usually isolated",
+        "C. Omphalocele — the sac has ruptured in utero",
+        "D. Gastroschisis — associated with trisomy 18 in 30%",
+        "E. Umbilical hernia — occurs through the umbilical ring; no action needed"
+      ],
+      "correct": "B",
+      "explanation": "This is gastroschisis: para-umbilical wall defect (normal umbilical cord separate from the defect); NO peritoneal sac covering the bowel; thickened/matted bowel from amniotic fluid exposure. Gastroschisis has LOW risk of major associated anomalies — it is predominantly an isolated abdominal wall defect (intestinal atresia in 10–15% as a secondary complication of vascular compromise). Management: immediate silo (spring-loaded reduces time to closure), daily reduction, primary or staged closure. Omphalocele has HIGH associated anomaly rate (cardiac 30%, chromosomal 30–40%, Beckwith-Wiedemann). A ruptured omphalocele would still have remnants of sac at edges and the umbilical cord inserts into the defect.",
+      "teaching_point": "Gastroschisis: para-umbilical, NO sac, normal cord to LEFT, NO major anomalies (isolated), thickened bowel. Omphalocele: umbilical ring, sac PRESENT, cord inserts into sac, major anomalies 60–70% (cardiac, chromosomal). Key exam distinction: 'no sac = gastroschisis = no major anomalies'."
+    },
+    {
+      "id": "F4-Q5",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "NEC — Bell Stage IIIB Surgical Indication",
+      "question": "A 28-week gestational age premature infant (birth weight 900g) develops abdominal distension and bloody stools on day 14 of life. AXR shows pneumoperitoneum. Bell's staging indicates Stage IIIB NEC. What is the most appropriate surgical intervention?",
+      "options": [
+        "A. Continued maximum medical management — pneumoperitoneum can resolve with antibiotics",
+        "B. Peritoneal drain (primary) or laparotomy with resection of non-viable bowel",
+        "C. Laparotomy with primary anastomosis only — avoid stoma in premature infants",
+        "D. Exploratory laparoscopy with bowel exteriorisation",
+        "E. Intravenous immunoglobulin (IVIG) treatment for 5 days"
+      ],
+      "correct": "B",
+      "explanation": "Bell Stage IIIB (pneumoperitoneum = intestinal perforation) is the definitive surgical indication for NEC. In a very low birth weight infant (<1000g), both peritoneal drain and laparotomy are acceptable as primary surgical approaches. Peritoneal drain (bedside placement under LA) is often used as primary intervention in extremely premature infants who cannot tolerate GA/laparotomy: it stabilises the patient (drainage of infected peritoneal fluid) and may be definitive for ~25% of cases; the remainder will require laparotomy. Laparotomy + resection of non-viable bowel + stoma formation (enterostomy) is the definitive approach. Primary anastomosis is generally AVOIDED in NEC (high anastomotic failure rate in inflamed, ischaemic bowel). Option A is incorrect — pneumoperitoneum mandates surgical intervention. The NECTAR trial is ongoing to define whether drain vs laparotomy is superior.",
+      "teaching_point": "NEC Bell IIIB (pneumoperitoneum) = surgical emergency. Very small premature (<1000g): peritoneal drain as primary bridge to laparotomy. Standard: laparotomy + resection + stoma (avoid primary anastomosis). Medical management alone (Stage I–IIA). Surgical indications: pneumoperitoneum, fixed dilated loop >24h, abdominal wall erythema, clinical deterioration."
+    },
+    {
+      "id": "F4-Q6",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Hirschsprung's Disease — Diagnosis",
+      "question": "A 3-day-old term neonate has not passed meconium. He is distressed with abdominal distension. A contrast enema shows a transition zone at the rectosigmoid junction with proximal dilatation. What is the gold standard diagnostic investigation and its specific finding?",
+      "options": [
+        "A. Rectal manometry — absence of the rectoanal inhibitory reflex (RAIR)",
+        "B. Suction rectal biopsy — absence of ganglion cells in the submucosal and myenteric plexuses with hypertrophied nerve trunks",
+        "C. Full-thickness rectal biopsy under GA — presence of hypertrophied smooth muscle",
+        "D. Contrast enema — transition zone is pathognomonic, no further investigation needed",
+        "E. Genetic testing for RET proto-oncogene mutation — confirms diagnosis"
+      ],
+      "correct": "B",
+      "explanation": "The gold standard diagnostic test for Hirschsprung's disease is suction rectal biopsy (performed at the bedside without GA using a suction biopsy device): tissue is taken from the posterior rectal wall 2 cm above the dentate line. Histological findings: ABSENCE of ganglion cells in the submucosal (Meissner's) and myenteric (Auerbach's) plexuses + HYPERTROPHIED acetylcholinesterase-positive nerve trunks. Option A (rectal manometry — absence of RAIR) is an alternative diagnostic tool but requires equipment and patient cooperation; sensitivity ~90%, but not the gold standard. Option C (full-thickness biopsy) is a more invasive alternative used when suction biopsy is non-diagnostic. Option D (contrast enema — transition zone) suggests the diagnosis but is not definitive — calibre transition can be absent in neonates. Option E (RET mutation) is relevant for familial cases but not a routine diagnostic test.",
+      "teaching_point": "Hirschsprung's diagnosis: suction rectal biopsy (gold standard) = absent ganglion cells + hypertrophied AChe-positive nerve trunks. Transition zone on contrast enema is suggestive but not diagnostic. Anorectal manometry (absent RAIR) is an alternative. Treatment: rectal washouts until definitive pull-through (Swenson/Soave/Duhamel — laparoscopic)."
+    },
+    {
+      "id": "F4-Q7",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "Pyloric Stenosis — Metabolic Abnormality",
+      "question": "A 5-week-old male infant presents with 2 weeks of non-bilious projectile vomiting after every feed. He appears hungry after vomiting. Venous blood gas shows pH 7.58, pCO2 52 mmHg, HCO3− 42 mmol/L. Electrolytes: Na+ 132, K+ 2.9, Cl− 81 mmol/L. What is the metabolic diagnosis and its mechanism?",
+      "options": [
+        "A. Respiratory alkalosis from hyperventilation — treat with rebreathing bag",
+        "B. Hypochloraemic, hypokalaemic metabolic alkalosis — from loss of HCl in gastric vomit",
+        "C. Hyperchloraemic metabolic acidosis — from diarrhoeal bicarbonate losses",
+        "D. Mixed metabolic and respiratory alkalosis — from sepsis-induced hyperventilation",
+        "E. Hypokalaemic metabolic alkalosis only — chloride is unrelated to the diagnosis"
+      ],
+      "correct": "B",
+      "explanation": "Pyloric stenosis causes progressive loss of gastric hydrochloric acid (HCl) through vomiting. The metabolic consequences: (1) Cl− loss → hypochloraemia (Cl 81 mmol/L); (2) H+ loss → metabolic alkalosis (pH 7.58, HCO3− 42); (3) compensatory respiratory retention of CO2 (pCO2 52 = respiratory compensation); (4) K+ loss via aldosterone-mediated exchange (volume depletion activates RAAS → aldosterone promotes Na+ retention at expense of K+ and H+ secretion) → hypokalaemia (K 2.9). The compensatory high pCO2 (respiratory compensation for metabolic alkalosis) explains the slightly elevated pCO2 — this is appropriate compensation, NOT respiratory acidosis. The infant is hungry after vomiting (not unwell) = consistent with pyloric stenosis (unlike gastroenteritis where the child is unwell).",
+      "teaching_point": "Pyloric stenosis metabolic picture: pH↑, HCO3−↑, Cl−↓, K−↓, pCO2 mildly ↑ (compensatory). Hypochloraemic + hypokalaemic metabolic alkalosis. Correct BEFORE surgery: 0.9% NaCl + KCl; target Cl− >100, K+ >3.5, HCO3− <30 mmol/L. Paradoxical aciduria: K+ depletion so severe that H+ is secreted preferentially in the distal tubule despite systemic alkalosis."
+    },
+    {
+      "id": "F4-Q8",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Ramstedt Pyloromyotomy — GUTS Trial",
+      "question": "A 4-week-old infant with confirmed hypertrophic pyloric stenosis (pyloric muscle thickness 5 mm, length 20 mm on USS) has been medically optimised. Regarding surgical management, which statement is supported by the GUTS trial?",
+      "options": [
+        "A. Open Ramstedt pyloromyotomy is superior to laparoscopic — lower mucosal perforation rate",
+        "B. Laparoscopic pyloromyotomy has equivalent surgical outcomes to open but with fewer wound complications",
+        "C. Laparoscopic approach should be avoided in infants under 3 months — risk of hypothermia",
+        "D. Endoscopic balloon dilatation of the pylorus is a safe alternative to surgery",
+        "E. Mesh closure of the pyloromyotomy site is required after open repair"
+      ],
+      "correct": "B",
+      "explanation": "The GUTS (Grampian UK Trial of Surgery for pyloric stenosis) RCT (Hall et al., 2009) randomised 180 infants to laparoscopic vs open Ramstedt pyloromyotomy. Results: equivalent mucosal perforation rates (~3% both groups), equivalent time to full feeds (~24h both groups), equivalent length of stay. Laparoscopic group: fewer wound complications (wound infection/dehiscence), better cosmesis. The trial established that laparoscopic pyloromyotomy is EQUIVALENT to open with the advantage of fewer wound complications. Most paediatric surgical centres now perform laparoscopic as first choice. Option A is incorrect — no difference in mucosal perforation rate. Option D (balloon dilatation) has higher perforation rates and lower success than surgery — not standard care.",
+      "teaching_point": "GUTS trial: laparoscopic = open pyloromyotomy in outcomes; laparoscopic = fewer wound complications. Ramstedt procedure: longitudinal split of pyloric muscle to mucosa — mucosa should bulge; do NOT suture muscle after splitting. Post-op: start feeding 4–6h post-op (or when awake) — early feeding safe."
+    },
+    {
+      "id": "F4-Q9",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Paediatric Inguinal Hernia — Mesh Use",
+      "question": "A 6-month-old male infant undergoes elective repair of a left inguinal hernia. During the procedure, the spermatic cord is identified, the hernial sac is dissected, and the processus vaginalis is ligated at the internal inguinal ring. What should be done next?",
+      "options": [
+        "A. Place a polypropylene mesh plug to reinforce the internal ring",
+        "B. Close the internal ring with sutures (Shouldice repair technique)",
+        "C. Close the wound — no further repair of the posterior canal wall is required",
+        "D. Insert a PTFE mesh patch to repair the posterior inguinal canal floor",
+        "E. Perform a tension-free Lichtenstein repair with lightweight mesh"
+      ],
+      "correct": "C",
+      "explanation": "In paediatric inguinal hernia repair, high ligation of the processus vaginalis at the internal inguinal ring is the COMPLETE procedure — no mesh is required and the posterior inguinal canal wall does NOT need to be repaired. The posterior wall is anatomically normal in children; the hernia is entirely due to the patent processus vaginalis (an indirect defect). Adding mesh would be inappropriate and potentially harmful (foreign body in a growing child, risk of testicular atrophy from inflammatory reaction, interference with future fertility). After ligating the processus vaginalis at the internal ring, wound closure completes the procedure. In laparoscopic repair, the internal ring is closed with a purse-string or Z-suture.",
+      "teaching_point": "Paediatric inguinal hernia: HIGH LIGATION OF THE PROCESSUS VAGINALIS ONLY. NO mesh. NO posterior wall repair. The defect is entirely indirect (patent processus vaginalis). Mesh is inappropriate in children — risk of foreign body reaction, testicular ischaemia, growth restriction. This is a guaranteed exam question: state 'high ligation, no mesh' for paediatric hernia."
+    },
+    {
+      "id": "F4-Q10",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "Communicating Hydrocele — Conservative Management",
+      "question": "A 14-month-old boy has a right-sided scrotal swelling that is transilluminable and varies in size throughout the day — larger in the evening after activity. Parents report it was present since birth. The swelling is non-tender and the testes can be identified separately. What is the most appropriate management?",
+      "options": [
+        "A. Urgent referral for surgical ligation of the processus vaginalis",
+        "B. Aspiration of the hydrocele fluid under local anaesthesia",
+        "C. Observation until age 2 — most communicating hydroceles resolve spontaneously",
+        "D. Scrotal exploration to rule out testicular torsion",
+        "E. Orchidopexy — hydrocele may be associated with undescended testis"
+      ],
+      "correct": "C",
+      "explanation": "This is a communicating hydrocele (variable size throughout the day — larger when active, smaller in the morning after lying flat = fluid moving between peritoneal cavity and scrotum via the patent processus vaginalis). In boys under 2 years, communicating hydroceles have a high rate of spontaneous resolution (90% by age 2) as the processus vaginalis closes naturally. Current guideline: observe until age 2 years — only operate if it persists beyond age 2 (surgical ligation of processus vaginalis). Option B (aspiration) is contraindicated in children — high recurrence rate, pain, infection risk. Option A (urgent surgery) is inappropriate at 14 months — still within the spontaneous resolution window. Option D is incorrect — there is no torsion (normal testis, transilluminable, non-tender).",
+      "teaching_point": "Communicating hydrocele (variable size, transilluminable): observe until age 2 — high spontaneous resolution rate. Operate if persistent after age 2: high ligation processus vaginalis (same as hernia repair). Non-communicating hydrocele (constant size, isolated): observe until 12–18 months, then hydrocelectomy if persists. NEVER aspirate hydroceles in children."
+    },
+    {
+      "id": "F4-Q11",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "PAS Score Components",
+      "question": "A 9-year-old girl presents with 18 hours of abdominal pain, initially periumbilical then migrating to the right iliac fossa. She is anorexic and vomited once. Temperature 38.2°C. On examination: RIF tenderness on percussion; she cannot hop on her right foot without pain. WBC 13,500/µL. What is her Paediatric Appendicitis Score (PAS)?",
+      "options": [
+        "A. 5 points",
+        "B. 6 points",
+        "C. 7 points",
+        "D. 8 points",
+        "E. 9 points"
+      ],
+      "correct": "D",
+      "explanation": "PAS scoring: (1) Migration of pain to RIF: YES = 1 point; (2) Anorexia: YES = 1 point; (3) Nausea/vomiting: YES = 1 point; (4) RIF tenderness on coughing/hopping/percussion: YES (positive hop test, percussion tenderness) = 2 points; (5) Fever ≥38°C: YES (38.2°C) = 1 point; (6) Leukocytosis ≥10,000: YES (13,500) = 1 point; (7) RIF tenderness on direct palpation: the question does not explicitly state direct tenderness but implies it from the clinical context. If we add the 2 points for direct palpation tenderness (standard for this presentation): total = 1+1+1+2+1+1+1 = 8. PAS 8 = HIGH PROBABILITY (≥6 = high risk). Should proceed to appendicectomy or confirmatory imaging (US/MRI). This patient meets criteria for surgical management.",
+      "teaching_point": "PAS maximum = 10. PAS ≥6 = high probability → appendicectomy (or imaging to confirm then surgery). PAS 3–5 = equivocal → USS first; MRI if inconclusive. PAS ≤2 = low probability → discharge with instructions. Remember: RIF tenderness on coughing/hopping/percussion = 2 points; RIF direct tenderness = 2 points — these are the high-value items."
+    },
+    {
+      "id": "F4-Q12",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Paediatric Appendicitis — Non-Operative Management APSA Criteria",
+      "question": "An 8-year-old boy presents with 12 hours of right iliac fossa pain. Ultrasound confirms acute uncomplicated appendicitis (no perforation, no appendicolith, wall thickness 9 mm, no free fluid outside the pelvis). His parents ask about non-operative management. Which of the following represents the most important contraindication to non-operative management in this child?",
+      "options": [
+        "A. Age <10 years",
+        "B. Presence of an appendicolith (fecolith) on imaging",
+        "C. White cell count >15,000/µL",
+        "D. Duration of symptoms >12 hours",
+        "E. Right iliac fossa tenderness"
+      ],
+      "correct": "B",
+      "explanation": "APSA guidelines (2022) and supporting RCT data identify appendicolith (fecolith) as a contraindication to non-operative management in paediatric appendicitis. Appendicolith is associated with significantly higher failure rates of NOM (>50% requiring appendicectomy within 30 days) and higher rates of perforation if treatment is deferred. An appendicolith obstructs the appendiceal lumen and prevents the appendix from draining — making antibiotic-only treatment substantially less effective. Other relative contraindications: perforation, abscess >3 cm, severe peritonitis. Age <10 (Option A) is not a contraindication — age is not a determinant in APSA guidelines. WBC >15,000 (Option C) is a marker of severity but not a standalone contraindication. Duration >12h (Option D) is not a contraindication in itself.",
+      "teaching_point": "NOM contraindications (APSA 2022): (1) Appendicolith/fecolith — highest risk of failure and perforation; (2) CT/MRI evidence of perforation; (3) Peritonitis; (4) Abscess >3 cm. NOM success rate WITHOUT appendicolith: ~75%. WITH appendicolith: ~40–50% failure. Always image to exclude appendicolith before offering NOM."
+    },
+    {
+      "id": "F4-Q13",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Wilms' Tumour — SIOP vs COG Approach",
+      "question": "A 3-year-old girl is found to have a large (12 cm) right renal mass on MRI. CT shows no distant metastases. She is haemodynamically stable. In a UK/European centre following SIOP protocol, what is the most appropriate initial management?",
+      "options": [
+        "A. Immediate right nephrectomy to obtain accurate pathological staging",
+        "B. Percutaneous biopsy followed by targeted therapy based on molecular markers",
+        "C. Neoadjuvant chemotherapy (vincristine + actinomycin D for 4 weeks) before nephrectomy",
+        "D. Surgical excision of the mass with left nephrectomy for specimen margin adequacy",
+        "E. Total body irradiation before surgical resection"
+      ],
+      "correct": "C",
+      "explanation": "SIOP (Society of Paediatric Oncology — European standard followed in UK) protocol for localised Wilms' tumour: PREOPERATIVE chemotherapy with vincristine + actinomycin D × 4 weeks (for localised stage I–III), then nephrectomy, then adjuvant chemotherapy based on histology/stage. Rationale: tumour shrinkage reduces surgical complexity and risk of intraoperative rupture (spillage), fewer surgical complications, allows identification of blastemal-predominant histology (high-risk subtype) for treatment intensification. COG (North American) protocol: immediate nephrectomy → adjuvant based on surgical stage and histology. Both achieve ~90% 5-year OS. Key board point: SIOP = preoperative chemo first; COG = immediate surgery first. In the UK: SIOP protocol is used. The large size of this tumour (12 cm) makes SIOP approach particularly appropriate to reduce operative risk.",
+      "teaching_point": "SIOP (UK/Europe): neoadjuvant chemo → nephrectomy → adjuvant. COG (North America): nephrectomy → adjuvant chemo. Both achieve equivalent OS (~90% favourable histology). SIOP advantage: tumour shrinkage, less rupture. COG advantage: accurate pre-chemo staging. Know which protocol your country follows."
+    },
+    {
+      "id": "F4-Q14",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Neuroblastoma — MYCN Amplification",
+      "question": "A 2-year-old boy presents with an abdominal mass, weight loss, and bone pain. CT shows a suprarenal retroperitoneal mass encasing the aorta and SMA (image-defined risk factors present). Biopsy confirms neuroblastoma. MYCN amplification is detected. What is the prognostic significance of this finding?",
+      "options": [
+        "A. MYCN amplification predicts a favourable response to first-line chemotherapy",
+        "B. MYCN amplification is associated with high-risk disease, aggressive biology, and poor prognosis (5-year OS <30% in high-risk)",
+        "C. MYCN amplification mandates immediate surgical resection before chemotherapy",
+        "D. MYCN amplification is only relevant if the child is >5 years of age at diagnosis",
+        "E. MYCN amplification predicts complete response to MIBG therapy"
+      ],
+      "correct": "B",
+      "explanation": "MYCN (N-Myc proto-oncogene) amplification (>10 copies on FISH) is the single most important adverse prognostic biomarker in neuroblastoma. It is present in ~20% of cases and is strongly associated with: rapid tumour progression, chemotherapy resistance, metastatic disease, and poor prognosis. In MYCN-amplified Stage IV neuroblastoma >18 months: 5-year OS is approximately 30% with current treatment. Treatment for high-risk disease: induction chemotherapy (COJEC/rapid COJEC protocol) → surgical resection of primary tumour → high-dose chemotherapy + autologous stem cell rescue → radiotherapy to the primary tumour bed → maintenance therapy with 13-cis-retinoic acid (isotretinoin) → anti-GD2 immunotherapy (dinutuximab/naxitamab — significantly improves OS in high-risk). IDRFs (image-defined risk factors) in this patient (encasement of aorta/SMA) mean surgery should NOT be performed first — induction chemo is required to resolve IDRFs.",
+      "teaching_point": "MYCN amplification = high-risk neuroblastoma = poor prognosis (OS <30%). Treatment of high-risk NB: COJEC induction chemo → surgery (if IDRFs resolved) → high-dose chemo + stem cell rescue → RT → isotretinoin + dinutuximab (anti-GD2). IDRFs present = always give chemotherapy first, then reassess for resection."
+    },
+    {
+      "id": "F4-Q15",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Hepatoblastoma — AFP Monitoring",
+      "question": "A 20-month-old girl is diagnosed with hepatoblastoma (PRETEXT III, AFP 142,000 µg/L). She receives 4 cycles of cisplatin-based SIOPEL chemotherapy. Her AFP falls to 8,200 µg/L. She undergoes extended right hepatectomy with R0 resection. Post-operatively, AFP is 340 µg/L at 4 weeks. How should this AFP trend be interpreted?",
+      "options": [
+        "A. A level of 340 µg/L at 4 weeks post-resection indicates complete cure — no further monitoring needed",
+        "B. AFP 340 µg/L is expected to be abnormal for age — normal adult AFP is <10 µg/L but children have higher normal levels",
+        "C. AFP 340 µg/L at 4 weeks is concerning — expected post-resection decline should approach normal; this may indicate residual or recurrent disease",
+        "D. AFP elevation after hepatoblastoma is only significant if >10,000 µg/L",
+        "E. AFP monitoring should be discontinued after complete resection"
+      ],
+      "correct": "C",
+      "explanation": "After complete R0 resection of hepatoblastoma, AFP should decline logarithmically toward normal (adult normal <10 µg/L; children >1 year normal <7 µg/L). The half-life of AFP is approximately 5–7 days. After 4 weeks (approximately 4–5 half-lives), AFP should have fallen substantially closer to normal. A level of 340 µg/L at 4 weeks after R0 resection from a preoperative level of 142,000 µg/L represents a significant decline but may still be above expected if declining appropriately. Clinical concern arises if: AFP fails to normalise, AFP plateaus, or AFP rises after initial decline — these indicate residual/recurrent disease requiring re-evaluation (CT chest/abdomen, consider relapse protocol including high-dose chemotherapy or transplant). The key teaching point is that AFP is used for monitoring, and any failure to decline to near-normal range post-resection warrants investigation.",
+      "teaching_point": "AFP in hepatoblastoma: markedly elevated at diagnosis, used for monitoring treatment response and detecting relapse. Post-R0 resection: AFP should approach normal within 4–8 weeks. AFP half-life = 5–7 days. Plateau or rising AFP after resection = recurrence until proven otherwise. AFP monitoring continues every 3 months for 2–3 years post-treatment."
+    },
+    {
+      "id": "F4-Q16",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Child Abuse — Fracture Pattern",
+      "question": "A 4-month-old infant is brought to the Emergency Department by parents with a history of 'fell off the sofa'. Skeletal survey shows bilateral posterior rib fractures at different stages of healing, and a metaphyseal corner fracture of the right distal tibia. What is the correct interpretation?",
+      "options": [
+        "A. These are typical accidental fractures in a mobile infant — reassure parents",
+        "B. Posterior rib fractures and metaphyseal corner fractures are highly specific for non-accidental injury — initiate safeguarding referral",
+        "C. Posterior rib fractures are common in premature infants from handling — exclude prematurity and discharge",
+        "D. The metaphyseal corner fracture indicates rickets — check calcium and vitamin D levels and discharge",
+        "E. Falls from sofas commonly cause bilateral posterior rib fractures in infants — no further action needed"
+      ],
+      "correct": "B",
+      "explanation": "Bilateral posterior rib fractures and metaphyseal corner (bucket-handle) fractures are among the MOST SPECIFIC skeletal injuries for non-accidental injury (NAI) in children. Posterior rib fractures require a grasping/squeezing mechanism (anteroposterior compression of the chest) — the level of force needed is not achievable from sofa falls. Metaphyseal corner fractures result from twisting/jerking forces on an infant's limbs. Multiple fractures at different stages of healing indicate repeated trauma over time. A 4-month-old infant is non-ambulant — falls from sofas do NOT cause these specific injury patterns. NICE NG76 mandates: safeguarding referral, full skeletal survey, ophthalmology (retinal haemorrhages), social services involvement, and senior paediatric review before any discharge.",
+      "teaching_point": "Highest specificity fractures for NAI: (1) POSTERIOR RIB fractures (grasping/squeezing); (2) METAPHYSEAL CORNER/'BUCKET-HANDLE' fractures (twisting); (3) Multiple fractures at different healing stages; (4) Spiral long bone fractures in non-ambulant children. Non-ambulant infant (<9 months) with ANY fracture → NAI must be excluded. Never discharge without safeguarding review."
+    },
+    {
+      "id": "F4-Q17",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "Intraosseous Access — Site",
+      "question": "A 2-year-old child presents in haemorrhagic shock following a road traffic collision. Two attempts at peripheral IV access have failed. What is the most appropriate immediate vascular access and preferred anatomical site?",
+      "options": [
+        "A. Percutaneous femoral vein central line — large calibre, reliable access",
+        "B. Cut-down at the long saphenous vein at the ankle",
+        "C. Intraosseous access — proximal tibia (2 cm below the tibial tuberosity, anteromedial surface)",
+        "D. Jugular venous cut-down",
+        "E. PICC line insertion — acceptable in paediatric emergencies"
+      ],
+      "correct": "C",
+      "explanation": "ATLS/EPLS paediatric guidelines: if IV access cannot be established within 60 seconds (or 3 attempts), proceed immediately to intraosseous (IO) access. IO access provides rapid vascular access with flow rates comparable to peripheral IV for resuscitation fluids. All emergency drugs, fluids (including blood products and hypertonic saline), and catecholamines can be administered via IO. Preferred site: proximal tibia — 2 cm below the tibial tuberosity on the anteromedial (flat) surface. Alternative sites: distal femur (2–3 cm above lateral condyle), humeral head (in older children/adults), distal tibia (medial malleolus). IO needle: EZ-IO (drill-driven), FAST1 (sternal — adults only), or manual Jamshidi needle. Option A (femoral CVC) requires skill and time. Option B (saphenous cut-down) is acceptable but slower than IO in skilled hands. IO is faster and first-line.",
+      "teaching_point": "Paediatric IO access: indicated after 60 seconds OR 3 failed IV attempts in shocked child. Preferred site: proximal tibia (2 cm below tibial tuberosity, anteromedial flat surface). All drugs and fluids including blood products can be given via IO. Contraindications: fracture or previous IO at same site, overlying infection. EZ-IO drill is standard device."
+    },
+    {
+      "id": "F4-Q18",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Splenic NOM in Children",
+      "question": "A 9-year-old boy sustains blunt abdominal trauma. CT shows a Grade III splenic laceration with a small perisplenic haematoma. Blood pressure is 105/65 mmHg, heart rate 95 bpm, and haemoglobin is 9.8 g/dL. He has been given 20 mL/kg crystalloid bolus with improvement. What is the most appropriate management?",
+      "options": [
+        "A. Emergency splenectomy — Grade III splenic injury requires operative management",
+        "B. Angioembolisation — indicated for all Grade III splenic injuries in children",
+        "C. Admission to ICU for haemodynamic monitoring — non-operative management (NOM) with blood transfusion if required",
+        "D. Diagnostic laparoscopy to confirm the CT findings",
+        "E. Discharge with outpatient follow-up CT in 2 weeks"
+      ],
+      "correct": "C",
+      "explanation": "APSA guidelines for paediatric solid organ injury: haemodynamically stable children (responding to resuscitation) should be managed NON-OPERATIVELY regardless of CT injury grade. Splenic NOM success rate in children exceeds 90% (compared to 70–80% in adults) — the paediatric spleen has greater capacity for haemostasis due to a thicker capsule. This child is haemodynamically stable (responding to resuscitation, BP 105/65, HR 95). Management: ICU admission (Grade III → ICU per APSA protocol), haemoglobin monitoring, blood transfusion if Hb <7–8 g/dL or haemodynamic instability. Activity restriction for 2–3 weeks post-discharge. Angioembolisation (Option B) is reserved for haemodynamically stable patients with active contrast extravasation on CT or failure of initial NOM — not routine for Grade III. Splenectomy (Option A) only for haemodynamic instability not responding to resuscitation.",
+      "teaching_point": "Paediatric splenic NOM: success rate >90% in haemodynamically stable children. APSA: NOM for all grades if haemodynamically stable. ICU for Grade III–V. Blood transfusion if needed. Angioembolisation for active bleeding/contrast extravasation on CT. Splenectomy only for refractory haemodynamic instability. Always preserve the spleen in children (risk of OPSI after splenectomy)."
+    },
+    {
+      "id": "F4-Q19",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "Burns — Lund-Browder vs Rule of Nines",
+      "question": "A 4-year-old child sustains burns to both lower limbs and the head. A nurse uses the 'rule of nines' and calculates the TBSA as 27%. A burns surgeon recalculates using the Lund-Browder chart and obtains 24%. Which method is correct and why?",
+      "options": [
+        "A. The rule of nines is correct — it is validated for all age groups",
+        "B. The Lund-Browder chart is correct — it accounts for age-related changes in body surface area proportions in children",
+        "C. Both methods are equally accurate in children — use either consistently",
+        "D. The rule of nines underestimates burns in children because children have larger legs",
+        "E. Lund-Browder overestimates head burns in children — the rule of nines is more accurate for head"
+      ],
+      "correct": "B",
+      "explanation": "The Lund-Browder chart is the accurate method for burns assessment in children because it accounts for age-related changes in body surface area proportions: in infants, the head represents ~19% of BSA (vs 9% in adults), and the legs are proportionally smaller (~14% each at birth vs ~18% each in adults). The rule of nines assigns 9% to the head in all ages — this OVERESTIMATES head burns and UNDERESTIMATES lower limb burns in young children. The discrepancy between methods is clinically significant for fluid resuscitation calculations (Parkland formula). Option D is incorrect: children have SMALLER legs (not larger) proportionally — rule of nines underestimates head burns and overestimates lower limb burns. The correct answer is that Lund-Browder is more accurate because it adjusts for age-specific surface area.",
+      "teaching_point": "Burns surface area in children: Lund-Browder chart (age-adjusted) is accurate. Rule of nines is INACCURATE in children <10 years — overestimates legs, underestimates head. Paediatric fluid resuscitation: Parkland 3–4 mL/kg/%TBSA + 100% maintenance fluids in children <30 kg. Superficial (red, no blistering) and epidermal burns are NOT included in TBSA calculation."
+    },
+    {
+      "id": "F4-Q20",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "Paediatric Fluid Resuscitation Volume",
+      "question": "A 3-year-old child (weight 14 kg) is brought to the Emergency Department in hypovolaemic shock following a splenic injury. What is the correct initial fluid bolus volume and fluid type according to ATLS paediatric guidelines?",
+      "options": [
+        "A. 280 mL (20 mL/kg) 0.9% saline — standard ATLS bolus",
+        "B. 140 mL (10 mL/kg) Hartmann's or 0.9% saline",
+        "C. 500 mL (standard adult bolus) 0.9% saline",
+        "D. 70 mL (5 mL/kg) 4.5% albumin solution",
+        "E. 420 mL (30 mL/kg) Plasmalyte — maximum resuscitation dose"
+      ],
+      "correct": "B",
+      "explanation": "ATLS paediatric guidelines (10th edition): initial IV fluid bolus for paediatric haemorrhagic shock = 10 mL/kg crystalloid (Hartmann's/Ringer's lactate or 0.9% saline). Weight = 14 kg; 10 mL/kg = 140 mL. This is administered rapidly (wide-bore IV or IO) over 5–10 minutes, then the child is reassessed. If response is adequate (improved BP, reduced HR, improved consciousness): continue monitoring. If no response: repeat 10 mL/kg bolus (second dose = 140 mL). If still no response after second bolus: transfuse packed red cells (10 mL/kg). This is different from the adult ATLS initial bolus (previously 20 mL/kg, now 500 mL crystalloid with permissive hypotension in penetrating trauma). In traumatic haemorrhage, damage control resuscitation with early blood products (MTP activation) is increasingly preferred over large crystalloid volumes.",
+      "teaching_point": "Paediatric shock fluid bolus: 10 mL/kg crystalloid (Hartmann's or 0.9% NaCl). Reassess. Second bolus if needed (10 mL/kg). Then blood transfusion (10 mL/kg pRBC) if no response. Total weight formula: weight (kg) = (age + 4) × 2. IO access if IV fails within 60 seconds. Maximum crystalloid before blood products: 2 × 10 mL/kg then switch to blood."
+    }
+  ]
+}

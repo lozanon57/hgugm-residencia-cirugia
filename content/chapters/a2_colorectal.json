@@ -1,0 +1,920 @@
+{
+  "id": "A2",
+  "title": "Colorectal Cancer",
+  "subtitle": "Surgical Oncology — Operative Principles & Evidence",
+  "block": "A",
+  "block_name": "Surgical Oncology",
+  "level": "PGY2-3",
+  "reading_time_min": 80,
+  "guidelines_version": "NCCN v2.2024 · ESMO 2023",
+  "textbook_refs": [
+    "Schwartz's Principles of Surgery, 11th ed., Ch. 28",
+    "Shackelford's Surgery of the Alimentary Tract, 8th ed.",
+    "Skandalakis' Surgical Anatomy, 3rd ed., Ch. 18",
+    "Cirugía Colorrectal — Grupo Español de Cirujanos Colorrectales"
+  ],
+  "learning_objectives": [
+    "Describe the anatomical basis and surgical planes of TME",
+    "Apply NCCN 2024 staging criteria to determine neoadjuvant strategy for rectal cancer",
+    "Identify the technical steps and critical landmarks of right hemicolectomy, left hemicolectomy, and low anterior resection",
+    "Interpret MRI mesorectal staging and CRM threat assessment",
+    "Grade and manage anastomotic leak using the International Study Group classification",
+    "Define resectability criteria for synchronous colorectal liver metastases",
+    "Apply Lynch syndrome surveillance and surgical recommendations",
+    "Outline the watch-and-wait protocol and eligibility criteria",
+    "Describe the management of synchronous and metachronous liver metastases",
+    "Apply correct operative decision-making for colon cancer based on tumour location"
+  ],
+  "sections": [
+    {
+      "id": "A2-S1",
+      "title": "Surgical Anatomy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The large bowel is invested by the **mesocolon**, a bilobed peritoneal reflection containing the vascular pedicles, lymphatics, and autonomic nerves. Understanding the embryological fusion planes is the foundation of oncological colonic surgery. The mesocolon is separated from the retroperitoneum by an avascular embryological fusion plane — the correct dissection plane in complete mesocolic excision (CME), analogous to the holy plane in TME."
+        },
+        {
+          "type": "text",
+          "content": "The arterial supply of the colon derives from the superior mesenteric artery (SMA) and inferior mesenteric artery (IMA). The right colon (caecum, ascending colon, hepatic flexure, proximal transverse colon) is supplied by the ileocolic, right colic, and middle colic arteries from the SMA. The left colon (splenic flexure, descending colon, sigmoid) is supplied by the left colic and sigmoid branches of the IMA. The marginal artery of Drummond provides collateral flow along the mesenteric border — this continuity is critical when IMA ligation is planned in sigmoid and rectal resection."
+        },
+        {
+          "type": "text",
+          "content": "The rectum extends from the rectosigmoid junction (approximately at the level of S3) to the anorectal ring, a total length of 12–15 cm. It is conventionally divided into three thirds: upper (10–15 cm from anal verge), middle (5–10 cm), and lower (0–5 cm). This classification has clinical importance: upper rectal cancers may be treated with anterior resection without full TME; middle and lower rectal cancers mandate complete TME with preservation of the entire mesorectum to the pelvic floor."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Mesorectal Fascia",
+          "content": "The **mesorectal fascia propria** is the key anatomical structure in TME. Intact mesorectum on pathology correlates with <5% local recurrence at 5 years vs >20% with mesorectal defects (Quirke, Lancet 2009). Quality of the mesorectal excision is graded as: mesorectal (complete, smooth fascia), intramesorectal (moderate, irregularities not reaching muscularis propria), and muscularis (defects reaching muscularis propria — highest local recurrence risk)."
+        },
+        {
+          "type": "text",
+          "content": "The autonomic nerve supply to the pelvis is at risk during rectal surgery. The hypogastric nerves (sympathetic) descend from the superior hypogastric plexus at the level of the aortic bifurcation, coursing lateral to the presacral fascia. Injury during posterior mobilisation causes retrograde ejaculation in men. The pelvic splanchnic nerves (parasympathetic, S2–S4) emerge lateral to the rectum and are at risk during lateral dissection. Injury causes erectile dysfunction and bladder dysfunction. Bilateral nerve-sparing TME is achievable in most cases through meticulous dissection in the holy plane."
+        },
+        {
+          "type": "table",
+          "title": "Colorectal Blood Supply — Operative Implications",
+          "headers": ["Segment", "Arterial Supply", "Venous Drainage", "Ligation Level for Cancer"],
+          "rows": [
+            ["Caecum / ascending colon", "Ileocolic artery (SMA)", "Ileocolic vein → SMV", "High ligation at SMA origin"],
+            ["Hepatic flexure / proximal transverse", "Middle colic artery (SMA)", "Middle colic vein → SMV", "Extended right hemicolectomy; middle colic at origin"],
+            ["Descending colon / sigmoid", "Left colic + sigmoid branches (IMA)", "IMA vein → portal vein", "High tie IMA at aortic origin"],
+            ["Upper rectum", "Superior rectal artery (IMA terminal)", "Superior rectal vein → IMA vein", "IMA ligation; preserve left colic if technically feasible"],
+            ["Mid/lower rectum", "Middle + inferior rectal (internal iliac)", "Middle rectal veins → internal iliac", "IMA high tie; lateral vessels divided during lateral TME dissection"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Presacral Venous Plexus",
+          "content": "Do not confuse the **presacral fascia** (Waldeyer's fascia) with the mesorectal fascia. The correct plane in TME is the areolar holy plane **anterior** to the presacral fascia — entry into the presacral venous plexus posterior to this fascia causes catastrophic haemorrhage, sometimes requiring thumbtack haemostasis. Always identify the correct tissue plane before committing to posterior dissection."
+        }
+      ]
+    },
+    {
+      "id": "A2-S2",
+      "title": "Staging and Preoperative Workup",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Colorectal cancer is staged according to the AJCC 8th edition TNM system, which provides the framework for prognosis estimation and treatment planning. Clinical staging (prefix c) precedes treatment; pathological staging (prefix p) follows resection. The distinction between clinical and pathological stage is fundamental — neoadjuvant therapy may achieve downstaging (ypTNM) that dramatically alters prognosis and treatment decisions."
+        },
+        {
+          "type": "table",
+          "title": "TNM Staging — Colorectal Cancer (AJCC 8th ed.)",
+          "headers": ["Stage", "T", "N", "M", "5-yr OS (approx.)"],
+          "rows": [
+            ["I",   "T1–T2",  "N0",      "M0", "~90%"],
+            ["IIA", "T3",     "N0",      "M0", "~75%"],
+            ["IIB", "T4a",    "N0",      "M0", "~65%"],
+            ["IIC", "T4b",    "N0",      "M0", "~55%"],
+            ["IIIA","T1–T2",  "N1",      "M0", "~70%"],
+            ["IIIB","T3–T4a", "N1–N2a",  "M0", "~50%"],
+            ["IIIC","Any T",  "N2b",     "M0", "~35%"],
+            ["IVA", "Any T",  "Any N",   "M1a","~20%"],
+            ["IVB", "Any T",  "Any N",   "M1b","~10%"],
+            ["IVC", "Any T",  "Any N",   "M1c","<5%"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Preoperative staging workup for colon cancer includes: CT thorax-abdomen-pelvis with IV contrast (primary staging and metastasis detection), colonoscopy with biopsy (histological confirmation, synchronous tumour exclusion — present in 2–8%), and CEA level (prognostic baseline; postoperative monitoring). For rectal cancer, additional mandatory investigations include high-resolution pelvic MRI (mesorectal staging, CRM assessment) and rigid sigmoidoscopy to precisely document distance from the anal verge."
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "MERCURY Study (2006, Lancet Oncology)",
+          "content": "**Population:** 408 patients with rectal cancer, preoperative MRI staging, prospective multicenter cohort. **Key finding:** MRI prediction of CRM involvement — sensitivity 77%, specificity 94%. MRI CRM distance of ≤1mm predicted histological CRM involvement with high accuracy. **Practice change:** High-resolution thin-slice MRI (3mm axial slices perpendicular to tumour axis) became the standard staging tool for rectal cancer, replacing ERUS for CRM assessment. ERUS retains utility for early T-stage (T1-T2) assessment."
+        },
+        {
+          "type": "text",
+          "content": "MRI mesorectal staging reports should include: T-category (mrT), N-category (mrN), CRM distance (mm), extramural venous invasion (EMVI — associated with systemic relapse), relationship to peritoneal reflection, and distance from anal verge and sphincter complex. The MERCURY-II criteria for MRI-defined CRM threat (≤1mm) and the presence of EMVI on MRI are the two strongest imaging-based predictors of systemic recurrence and local recurrence respectively."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "NCCN Rectal Cancer v2.2024 — Staging Algorithm",
+          "content": "All rectal cancer patients require: (1) complete colonoscopy; (2) CT chest/abdomen/pelvis with contrast; (3) pelvic MRI (preferred) or endorectal ultrasound; (4) CEA. PET-CT is not routinely indicated but may be considered for equivocal findings on CT or when staging is critical for management (e.g., borderline resectable liver metastases). MSI/MMR status should be tested in all colorectal cancers."
+        },
+        {
+          "type": "table",
+          "title": "High-Risk Stage II CRC — Adverse Features Requiring MDT Discussion for Adjuvant Chemotherapy",
+          "headers": ["Feature", "Threshold", "Prognostic Impact"],
+          "rows": [
+            ["Lymph node yield", "<12 nodes retrieved", "Understaging risk; inadequate resection"],
+            ["Lymphovascular invasion (LVI)", "Present", "×2 risk of LN metastasis and systemic recurrence"],
+            ["Perineural invasion (PNI)", "Present", "Independent predictor of worse DFS and OS"],
+            ["Tumour budding", "Grade 3 (≥10 buds at invasive front)", "Equivalent prognostic impact to N1 disease"],
+            ["Bowel obstruction/perforation", "At presentation", "Risk of peritoneal dissemination"],
+            ["T-category", "pT4", "Stage IIB/IIC — high-risk regardless of other features"],
+            ["Microsatellite status", "MSS (not MSI-H)", "MSI-H stage II does not benefit from 5-FU; excellent prognosis"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2-S3",
+      "title": "Colon Cancer Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Surgical resection of colon cancer requires complete removal of the primary tumour with adequate margins and an intact mesocolic envelope containing the regional lymph nodes. The operation is determined by tumour location, which dictates the vascular pedicle to be ligated and the extent of bowel to be removed. For all colonic resections, the fundamental oncological principles are: ligation of the feeding artery at its origin (high tie), en-bloc removal of the mesocolon within its fascial envelope, and harvest of ≥12 lymph nodes."
+        },
+        {
+          "type": "text",
+          "content": "**Right hemicolectomy** is indicated for caecal, ascending colon, and hepatic flexure cancers. The ileocolic and right colic arteries (when present) are ligated at their origin from the SMA. An extended right hemicolectomy, including the middle colic artery, is performed for hepatic flexure and proximal transverse colon cancers. The resection includes 5–10 cm of terminal ileum, the caecum, ascending colon, and relevant transverse colon. Reconstruction is by ileotransverse anastomosis. The embryological fusion plane between the right mesocolon and Gerota's fascia (renal/retroperitoneal fascia) defines the posterior dissection boundary."
+        },
+        {
+          "type": "text",
+          "content": "**Left hemicolectomy** for descending and sigmoid colon cancers requires ligation of the IMA. The level of IMA ligation is determined by tumour location: ligation at the origin from the aorta (high tie) maximises lymph node harvest and may be required for sigmoid cancers; ligation distal to the left colic artery origin (low tie) preserves the descending colon blood supply. The marginal artery continuity and sigmoid artery division must be carefully planned to ensure adequate perfusion of the anastomosis."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Complete Mesocolic Excision (CME)",
+          "content": "CME, described by Hohenberger (2009), is the colonic equivalent of TME. It requires: (1) dissection in the correct embryological plane between the mesocolon and parietal retroperitoneum; (2) central vascular ligation at the arterial root; (3) removal of an intact mesocolon envelope. CME is associated with a higher lymph node yield (mean 32 vs 18 nodes) and improved 5-year cancer-specific survival (89.1% vs 81.9% in the Erlangen cohort). CME is now standard at high-volume centres."
+        },
+        {
+          "type": "case",
+          "content": "A 61-year-old woman undergoes laparoscopic right hemicolectomy for a pT3 N1b hepatic flexure adenocarcinoma. The operation is straightforward with high ligation of the ileocolic artery. Specimen pathology: 21 lymph nodes, 3 positive. Day 4 post-operatively she develops fever (38.9°C), tachycardia, and abdominal pain. CRP 280 mg/L. CT shows a 4cm pericolic fluid collection at the anastomosis with pneumatosis.",
+          "discussion": "This is an anastomotic leak. The International Study Group grading: Grade A (no deviation from normal, no intervention), Grade B (intervention required without re-laparotomy — drain, antibiotics, NPO), Grade C (re-laparotomy required). The CT findings — pneumatosis, significant collection — suggest at least Grade B. Fluid collection without free perforation may be amenable to CT-guided drainage (Grade B) with conversion to re-laparotomy if failure. After stabilisation, the adjuvant chemotherapy plan (FOLFOX indicated for N1 disease) should be delayed until full recovery — typically 8–12 weeks post-operatively."
+        }
+      ]
+    },
+    {
+      "id": "A2-S4",
+      "title": "Rectal Cancer Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Total mesorectal excision (TME), described by Heald in 1982, is the standard surgical technique for mid and lower rectal cancer. TME involves sharp dissection in the holy plane between the mesorectal fascia propria and the presacral fascia, removing the entire mesorectum as an intact cylindrical specimen. Heald's original series reported 4% local recurrence at 5 years — a transformative result at a time when local recurrence rates of 25–40% were considered acceptable."
+        },
+        {
+          "type": "text",
+          "content": "**Low anterior resection (LAR)** is indicated for tumours of the mid and upper rectum (>5 cm from the anal verge) where an adequate distal margin of ≥1–2 cm can be achieved with sphincter preservation. The operation requires: sigmoidectomy with high IMA ligation, complete TME to the pelvic floor, transection of the rectum with a linear stapler, and colorectal or coloanal anastomosis. A defunctioning loop ileostomy is typically fashioned for anastomoses ≤6 cm from the anal verge or when technical factors increase leak risk."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Distal Margin",
+          "content": "A distal margin of **≥1cm** is acceptable for mid-rectal cancers. For low rectal cancers undergoing intersphincteric resection, tumour-free distal margin of ≥5mm may be oncologically adequate. Do **not** sacrifice sphincter preservation for an unnecessarily wide distal margin when <5mm distal margin means the difference between LAR and APR — consult the MDT for borderline cases."
+        },
+        {
+          "type": "text",
+          "content": "**Abdominoperineal resection (APR)** is indicated when sphincter preservation is not achievable — tumours involving the external sphincter, puborectalis, or levator ani, or when a tumour-free distal margin cannot be obtained. Standard APR includes: sigmoidectomy with IMA ligation, complete TME, extralevator abdominoperineal excision (ELAPE) for T3–T4 tumours at or below the anorectal junction, and end colostomy formation. ELAPE, described by Holm (2007), removes the levators en-bloc with the mesorectum and anal canal, reducing CRM positivity from ~30% (cylindrical APR) to ~10% in T3-T4 low tumours."
+        },
+        {
+          "type": "text",
+          "content": "**Transanal TME (taTME)** is a hybrid approach in which the distal rectal dissection is performed from below (transanally) while the abdominal portion is completed laparoscopically. TaTME improves visualisation in the narrow male pelvis, potentially reducing CRM positivity and incomplete mesorectal excision rates in this challenging anatomy. The multicentre COLOR III trial (van der Pas, Lancet 2022) demonstrated non-inferiority of taTME to laparoscopic TME for CRM positivity (3.9% vs 5.8%) and equivalent short-term outcomes. TaTME requires specific training — a defined learning curve of approximately 40 cases — and should not be adopted without structured credentialling."
+        },
+        {
+          "type": "table",
+          "title": "Rectal Cancer Surgery — Procedure Selection",
+          "headers": ["Tumour Level", "Procedure", "Stoma", "Key Technical Point"],
+          "rows": [
+            ["Upper rectum (>10cm)", "High anterior resection ± partial mesorectal excision", "Optional diversion", "5cm distal mesorectal margin beyond tumour"],
+            ["Mid rectum (5–10cm)", "Low anterior resection + complete TME", "Defunctioning ileostomy if <6cm anastomosis", "Distal margin ≥1cm; protect hypogastric nerves"],
+            ["Low rectum (1–5cm), sphincter-preserving", "LAR + complete TME ± intersphincteric resection", "Mandatory ileostomy", "Distal margin ≥5mm; assess levator involvement"],
+            ["Low rectum, sphincter-involved", "ELAPE / APR", "End colostomy permanent", "Remove levators en-bloc; ELAPE reduces CRM+"],
+            ["T1 N0 favourable histology, <3cm", "Transanal local excision (TEM/TAMIS)", "None", "Full-thickness excision; pathology review mandatory"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2-S5",
+      "title": "Neoadjuvant Strategies",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The neoadjuvant treatment of locally advanced rectal cancer has undergone a revolution over the past decade, evolving from single-modality short-course radiotherapy or long-course chemoradiotherapy to complex total neoadjuvant therapy (TNT) regimens integrating full systemic chemotherapy before surgery. This shift is driven by two goals: improving local disease control (reducing CRM positivity and local recurrence) and addressing systemic disease earlier (reducing distant metastasis as the dominant cause of death)."
+        },
+        {
+          "type": "table",
+          "title": "Neoadjuvant Options for Rectal Cancer — NCCN v2.2024",
+          "headers": ["Approach", "Regimen", "Indication", "pCR Rate"],
+          "rows": [
+            ["Short-course RT (SCRT)", "25 Gy in 5 fractions", "T3 N0, non-threatened CRM, immediate surgery", "5–15%"],
+            ["Long-course CRT", "45–50.4 Gy + capecitabine, 6 wks", "cT3 with threatened CRM, cT4, N+", "15–20%"],
+            ["TNT: SCRT + consolidation chemo", "25 Gy → FOLFOX/CAPOX → surgery (RAPIDO)", "High-risk: T4, N2, EMVI+, mrCRM+", "25–30%"],
+            ["TNT: Induction chemo + CRT", "FOLFOX → CRT → surgery (PRODIGE-23)", "cT3-T4 Nx, planned radical surgery", "26–28%"],
+            ["Checkpoint inhibitor (MSI-H)", "Dostarlimab or pembrolizumab neoadjuvant", "MSI-H/dMMR locally advanced rectal", "Up to 100% pCR (NEJM 2022)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "Dostarlimab in MSI-H Rectal Cancer (Cercek, NEJM 2022)",
+          "content": "**Population:** 12 patients with MSI-H/dMMR locally advanced rectal cancer, neoadjuvant dostarlimab (PD-1 inhibitor) for 6 months. **Result:** 100% clinical complete response; all 12 patients entered watch-and-wait without surgery at median follow-up 12 months. **Practice change:** Neoadjuvant checkpoint inhibition is now being systematically explored for MSI-H rectal cancer — potentially eliminating the need for surgery, radiotherapy, and chemotherapy in this molecularly defined subgroup. Testing MSI/MMR status in ALL colorectal cancers is now mandatory."
+        },
+        {
+          "type": "text",
+          "content": "Watch-and-wait (W&W) — non-operative management after complete clinical response (cCR) to neoadjuvant therapy — has emerged as a validated management strategy for complete responders. The International Watch & Wait Database (IWWD, Renehan, Lancet 2016) demonstrated that patients achieving cCR after CRT have excellent organ-preservation rates (73% at 3 years) with oncological outcomes comparable to surgery in complete responders. cCR is defined by: absence of residual tumour on MRI, normalisation of previously pathological lymph nodes, and endoscopic mucosal whitening/flattening with negative biopsy."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Clinical Application — Watch-and-Wait Selection",
+          "content": "W&W requires extremely careful patient selection and intensive surveillance. Candidates must have: (1) confirmed cCR on MRI and endoscopy 8–12 weeks post-CRT; (2) willingness to comply with 3-monthly surveillance for 2 years; (3) anatomy amenable to endoscopic and MRI assessment; (4) histological confirmation of absence of residual disease. Approximately 25% of cCR patients experience local regrowth within 2 years — 80–90% of these are still salvageable with surgery. W&W should only be offered at experienced centres with structured protocols."
+        }
+      ]
+    },
+    {
+      "id": "A2-S6",
+      "title": "Complications: Anastomotic Leak",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Anastomotic leak is the most feared complication of colorectal surgery, occurring in 2–5% of colonic anastomoses and 5–15% of colorectal or coloanal anastomoses. The incidence is highest for low pelvic anastomoses — within 5 cm of the anal verge. Risk factors can be divided into patient-related (malnutrition, steroid use, diabetes, smoking, neoadjuvant CRT, ASA ≥3, male sex) and technical (inadequate blood supply, anastomotic tension, stapler malfunction, inadequate defunctioning)."
+        },
+        {
+          "type": "table",
+          "title": "Anastomotic Leak — International Study Group Grading",
+          "headers": ["Grade", "Definition", "Clinical Features", "Management"],
+          "rows": [
+            ["A", "Radiological/biochemical only", "Rising CRP, small collection on CT, no systemic sepsis", "Conservative — antibiotics, NPO, monitoring"],
+            ["B", "Clinical deviation, no re-laparotomy", "Fever, peritoneal signs, CT collection ± fistula", "Percutaneous drain ± endoscopic vacuum therapy (EVT)"],
+            ["C", "Re-laparotomy required", "Systemic sepsis, peritonitis, free perforation on CT", "Surgical drainage ± washout; Hartmann's or defunctioning"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Endoscopic vacuum therapy (EVT) — a negative pressure device placed endoscopically into the presacral cavity — has emerged as a highly effective treatment for Grade B anastomotic leaks after LAR. EVT achieves cavity closure in 80–90% of cases, preserving the anastomosis and potentially avoiding permanent stoma. It requires weekly or twice-weekly endoscopic changes under sedation until the cavity is obliterated. EVT has largely replaced defunctioning loop ileostomy (without addressing the leak itself) as the management of choice for contained post-LAR anastomotic leaks at centres with EVT expertise."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Anastomotic Leak and Local Recurrence",
+          "content": "Anastomotic leak after rectal cancer surgery is associated with a **doubling of local recurrence risk** — independent of tumour stage. The proposed mechanism is peritoneal tumour cell seeding from luminal contamination at the time of leak. This underscores the importance of defunctioning ileostomy for high-risk anastomoses and aggressive management of established leaks."
+        }
+      ]
+    },
+    {
+      "id": "A2-S7",
+      "title": "Metastatic Colorectal Cancer — Liver Metastases",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The liver is the most common site of colorectal metastasis, affected in up to 50% of patients during the course of their disease. Hepatic resection of colorectal liver metastases (CRLM) is the only potentially curative treatment — 5-year survival of 40–60% in optimally selected patients, compared to <5% with chemotherapy alone. The paradigm shift in CRLM management over the past two decades has been the expansion of resectability criteria rather than their restriction."
+        },
+        {
+          "type": "text",
+          "content": "Contemporary resectability criteria for CRLM have moved from anatomical criteria (number, size, unilobar) to functional criteria: **achievability of R0 resection with adequate future liver remnant (FLR)**. The minimum FLR required for safe hepatic resection is ≥25% of total liver volume in a normal liver, ≥30% in patients who have received significant chemotherapy, and ≥40% in patients with underlying liver disease. Portal vein embolisation (PVE) of the liver to be resected induces compensatory hypertrophy of the FLR (30–40% volume gain in 4–6 weeks) and is the standard technique to increase FLR before major hepatectomy."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "ESMO Metastatic Colorectal Cancer 2023 — Resectability",
+          "content": "All patients with CRLM should be discussed at an **HPB-experienced MDT**. Resectability must be defined by a surgeon capable of performing the planned resection. The ESMO/EORTC categories: **Resectable** (upfront R0 achievable with adequate FLR); **Potentially resectable** (R0 achievable after downsizing with systemic therapy — typically 4–6 cycles FOLFOX/FOLFIRI ± targeted agent); **Unresectable** (no chance of R0 regardless of systemic therapy response)."
+        },
+        {
+          "type": "text",
+          "content": "Synchronous CRLM (present at time of primary diagnosis) occurs in 15–25% of colorectal cancer patients. The optimal surgical sequencing remains debated: primary first (most common in symptomatic primary), liver first (for large bilobar liver disease requiring multiple-stage surgery), or simultaneous resection (for selected patients with limited liver disease and uncomplicated primary). The choice is driven by symptom burden, oncological risk, and surgical complexity. Large RCTs addressing this question remain ongoing (e.g., SYNCHRONOUS trial)."
+        }
+      ]
+    },
+    {
+      "id": "A2-S8",
+      "title": "Colon Cancer — Operative Decisions",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Operative decision-making in colon cancer surgery requires integration of tumour biology, anatomical location, patient fitness, and surgical expertise. While the principles of oncological resection (high vascular ligation, mesocolic excision, adequate lymphadenectomy) are universal, the specific decisions about approach (laparoscopic vs open), extent of resection, stoma formation, and reconstruction vary by case. High-volume surgical centres applying CME with laparoscopic technique achieve significantly better oncological outcomes than lower-volume centres using conventional approaches."
+        },
+        {
+          "type": "text",
+          "content": "The management of obstructing colon cancer deserves particular attention. Left-sided obstruction (sigmoid, descending colon) in a haemodynamically stable patient is best managed by endoscopic self-expanding metallic stent (SEMS) placement as a bridge to elective surgery. SEMS decompresses the colon, permits staging workup, and allows optimisation of nutritional and functional status before planned laparoscopic resection. In the ESCO trial, SEMS-bridged elective surgery achieved primary anastomosis in 67% vs 43% in emergency surgery, with 8.4% vs 43% permanent stoma rate. Emergency surgery is reserved for perforation, peritonitis, or caecal ischaemia."
+        },
+        {
+          "type": "table",
+          "title": "Right vs Left Hemicolectomy — Key Technical Distinctions",
+          "headers": ["Element", "Right Hemicolectomy", "Left Hemicolectomy / Sigmoid"],
+          "rows": [
+            ["Arterial ligation", "Ileocolic ± right colic at SMA origin", "IMA at aortic origin (high tie)"],
+            ["Embryological plane", "Right mesocolon / Gerota's fascia junction", "Left mesocolon / Toldt's fascia"],
+            ["Key structure at risk", "Right ureter, duodenum, right gonadal vessels", "Left ureter, IMA bifurcation, inferior mesenteric vein"],
+            ["Reconstruction", "Ileotransverse anastomosis (handsewn or stapled)", "Colorectal or sigmoid anastomosis (circular stapler)"],
+            ["Defunctioning stoma", "Not routinely required", "Consider if anastomosis <15cm from anal verge or high risk"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — IMA Ligation Level",
+          "content": "High tie of the IMA (at aortic origin) maximises lymph node yield at the apical node (station 253 in Japanese classification). Low tie (distal to left colic artery) preserves left colic circulation. Current evidence does not show OS benefit for high vs low tie in stage II-III disease, but high tie is required for adequate lymphadenectomy when tumour is within 10cm of the IMA origin. Always document the IMA ligation level in the operative note."
+        },
+        {
+          "type": "text",
+          "content": "Transverse colon cancer presents a technical challenge due to variable anatomy of the middle colic artery. Options include extended right hemicolectomy (for right-sided transverse tumours with middle colic ligation), extended left hemicolectomy (for left-sided transverse tumours), or transverse colectomy with anastomosis. Transverse colectomy is technically demanding due to anastomosis under tension and is generally avoided at high-volume centres in favour of extended hemicolectomy, which provides better lymphatic clearance and a tension-free anastomosis."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Ureteric Identification",
+          "content": "The left ureter is at particular risk during IMA ligation in left hemicolectomy and sigmoid resection. It crosses anterior to the left iliac vessels at the pelvic brim and runs immediately medial to the gonadal vessels. Failure to identify the ureter before IMA division is the most common cause of iatrogenic ureteric injury in colorectal surgery. If you cannot identify the left ureter clearly, do not divide the IMA until you have done so. Prophylactic ureteric stent placement should be considered for re-operative surgery, bulky tumours, or extensive adhesions."
+        }
+      ]
+    },
+    {
+      "id": "A2-S9",
+      "title": "Lynch Syndrome & Hereditary CRC",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Lynch syndrome (hereditary non-polyposis colorectal cancer, HNPCC) is the most common hereditary colorectal cancer syndrome, caused by germline mutations in DNA mismatch repair (MMR) genes: MLH1, MSH2, MSH6, and PMS2. Constitutional MMR deficiency (CMMRD) is a rare biallelic form. Lynch syndrome accounts for 3–5% of all colorectal cancers and 15–20% of CRC in patients under 50. The lifetime risk of CRC is 40–80% for MLH1/MSH2 carriers and 10–40% for MSH6/PMS2 carriers."
+        },
+        {
+          "type": "table",
+          "title": "Lynch Syndrome — Gene-Specific Cancer Risks and Surveillance",
+          "headers": ["Gene", "CRC Lifetime Risk", "Other Major Cancers", "CRC Surveillance Start", "Colonoscopy Interval"],
+          "rows": [
+            ["MLH1", "40–70%", "Endometrial (40–60%), ovarian, gastric, biliary", "Age 20–25 or 5 yr before earliest family CRC", "Every 1–2 years"],
+            ["MSH2", "40–70%", "Endometrial (40–60%), urinary tract, small bowel", "Age 20–25 or 5 yr before earliest family CRC", "Every 1–2 years"],
+            ["MSH6", "10–40%", "Endometrial (15–70%), ovarian", "Age 25–30", "Every 1–2 years"],
+            ["PMS2", "10–20%", "Endometrial (15–25%)", "Age 25–30", "Every 1–2 years"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Surgical decision-making in Lynch syndrome is profoundly influenced by the high lifetime risk of metachronous CRC. For a patient with Lynch syndrome presenting with their first CRC, the choice between segmental colectomy and extended (subtotal or total) colectomy must balance: (1) the risk of metachronous CRC in the remaining colon (15–20% at 10 years with segmental resection); (2) functional outcomes after extended resection; and (3) the patient's age, gender, family planning, and compliance with surveillance. NCCN recommends discussing extended colectomy with Lynch syndrome patients presenting with their first CRC, particularly MLH1/MSH2 carriers under 60 years of age."
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "CAPP2 Trial (Burn, Lancet 2011)",
+          "content": "**Population:** 861 Lynch syndrome mutation carriers, randomised to aspirin 600mg daily vs placebo for 2 years. **Result:** Post hoc analysis at 4.5 years showed 63% reduction in CRC incidence (HR 0.37, p=0.02) in the aspirin group, with no benefit during active treatment. **Practice change:** Aspirin chemoprevention is now discussed with Lynch syndrome carriers — CAPP3 trial is evaluating optimal dose (100mg vs 300mg vs 600mg). NCCN notes aspirin 100–300mg daily as a reasonable option for Lynch syndrome carriers."
+        },
+        {
+          "type": "text",
+          "content": "Familial adenomatous polyposis (FAP) is caused by APC germline mutations and is characterised by hundreds to thousands of colorectal adenomas. Without prophylactic surgery, CRC develops in virtually all FAP patients by age 40. Prophylactic colectomy is standard — options include total colectomy with ileorectal anastomosis (IRA) if the rectum has few polyps, or proctocolectomy with ileal pouch-anal anastomosis (IPAA). The choice depends on polyp burden in the rectum, rectal cancer risk, and patient preference. All first-degree relatives of FAP patients should undergo APC genetic testing."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Universal Tumour Testing",
+          "content": "Universal MMR/MSI testing of all colorectal cancers at diagnosis is now recommended by NCCN, ESMO, and ASCO — not only when Lynch syndrome is clinically suspected. MMR testing (IHC for MLH1, MSH2, MSH6, PMS2) costs <$200 and identifies: (1) Lynch syndrome carriers requiring family testing; (2) sporadic MSI-H tumours with poor 5-FU response; (3) MSI-H tumours eligible for pembrolizumab in metastatic disease. IHC loss of MLH1 should trigger reflexive BRAF V600E and MLH1 promoter methylation testing to distinguish Lynch from sporadic MSI-H."
+        }
+      ]
+    },
+    {
+      "id": "A2-S10",
+      "title": "Rectal Cancer — Neoadjuvant & Watch-and-Wait",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The shift toward organ preservation in rectal cancer — maintaining the rectum and avoiding a permanent stoma — represents one of the most significant paradigm changes in colorectal oncology. This paradigm requires precision in: identifying complete clinical responders after neoadjuvant therapy, applying structured surveillance protocols, and managing the minority who develop local regrowth with timely salvage surgery. The evidence base for watch-and-wait (W&W) has matured rapidly, moving from expert-only practice to a guideline-endorsed management option."
+        },
+        {
+          "type": "text",
+          "content": "The definition of clinical complete response (cCR) requires all four criteria to be simultaneously met: (1) MRI — normalisation of tumour signal intensity, no residual tumour mass, no pathological lymph nodes, tumour replaced by fibrosis; (2) endoscopy — flat white scar at the tumour site, no mucosal irregularity or mass, ulceration absent or completely fibrotic; (3) digital rectal examination (DRE) — no palpable abnormality; (4) biopsies from the scar site — negative for malignancy (at least 3–4 biopsies from the scar). Partial response does not qualify for W&W — these patients proceed to surgery."
+        },
+        {
+          "type": "table",
+          "title": "Watch-and-Wait — Surveillance Protocol (IWWD Standard)",
+          "headers": ["Timepoint", "Assessment", "Frequency", "Action if Regrowth"],
+          "rows": [
+            ["Months 1–24", "MRI pelvis + flexible sigmoidoscopy + CEA", "Every 3 months", "Immediate salvage surgery referral"],
+            ["Months 25–60", "MRI pelvis + flexible sigmoidoscopy + CEA", "Every 6 months", "Salvage surgery if technically feasible"],
+            ["Annual", "CT chest/abdomen/pelvis", "Annually × 5 years", "Systemic workup for distant recurrence"],
+            ["First 2 years", "DRE at every visit", "Every 3 months", "Any palpable abnormality → re-biopsy + MRI"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "OPRA Trial (Garcia-Aguilar, JCO 2022)",
+          "content": "**Population:** 324 patients with locally advanced rectal cancer (cT2-T4, N0-N2), TNT (induction FOLFOX → CRT or CRT → consolidation FOLFOX). **Result:** Overall organ preservation rate 53%; induction FOLFOX → CRT arm achieved 59% organ preservation vs 47% for CRT → consolidation arm. pCR 28% in induction arm. **Practice change:** TNT with induction FOLFOX first maximises organ preservation rates compared to consolidation-first approaches."
+        },
+        {
+          "type": "text",
+          "content": "Local regrowth after cCR occurs in approximately 25% of W&W patients, predominantly within the first 2 years. Critically, 80–90% of regrowths are detected at an early stage when the tumour remains endoluminally accessible and surgically salvageable — this is the justification for the intensive 3-monthly surveillance protocol. In the IWWD analysis, there was no significant difference in disease-specific survival between W&W patients with eventual salvage surgery and patients who underwent primary surgery, provided regrowth was detected early."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Non-Operative Management Eligibility",
+          "content": "W&W is only appropriate for patients who achieve a TRUE complete clinical response — not partial responders, not 'near-complete' responses. Accepting a partial response for non-operative management results in leaving viable cancer in situ with unacceptably high rates of local progression. When in doubt, discuss at MDT and obtain specialist endoscopy review before declaring cCR. Patient willingness and ability to comply with 3-monthly surveillance is equally important — patients unwilling or unable to comply should proceed to surgery."
+        }
+      ]
+    },
+    {
+      "id": "A2-S11",
+      "title": "Metachronous & Synchronous Liver Metastases",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Colorectal liver metastases (CRLM) are classified as synchronous (present at time of primary diagnosis, occurring in 15–25% of patients) or metachronous (developing after primary resection, occurring in 20–25% of patients during surveillance). This distinction influences management approach, surgical timing, and prognosis. Metachronous CRLM generally carries a slightly better prognosis than synchronous disease, though modern series with bilobar disease and multiple metastases have blurred this historical distinction."
+        },
+        {
+          "type": "text",
+          "content": "For synchronous CRLM, three surgical sequencing strategies exist: (1) **Primary-first** — most appropriate when the primary is symptomatic (bleeding, obstruction), technically challenging to resect, or when liver disease is limited and does not require immediate treatment. Surgery is staged: colorectal resection first, then liver resection 6–8 weeks later. (2) **Liver-first** — appropriate when the liver disease is the dominant oncological risk (extensive bilateral disease requiring staged hepatectomy, borderline resectability) and the primary is asymptomatic. (3) **Simultaneous** — for carefully selected patients with uncomplicated primary and limited liver resection (≤3 segments), where combined morbidity is acceptable."
+        },
+        {
+          "type": "table",
+          "title": "CRLM Surgical Sequencing — Decision Framework",
+          "headers": ["Scenario", "Recommended Sequence", "Rationale", "Key Criteria"],
+          "rows": [
+            ["Symptomatic primary + limited liver disease", "Primary-first", "Relieve obstruction/bleeding; CRLM resectable electively", "Asymptomatic liver disease"],
+            ["Asymptomatic primary + dominant bilobar liver disease", "Liver-first", "Liver disease is the life-limiting problem", "Asymptomatic primary; adequate staging"],
+            ["Asymptomatic primary + ≤3 liver metastases, same operation feasible", "Simultaneous", "Single anaesthetic; no oncological delay", "Minor hepatectomy only; fit patient"],
+            ["Bilobar disease requiring PVE", "Staged hepatectomy (two-stage)", "FLR inadequate; PVE needed", "First stage: clear contralateral lobe; PVE → second stage"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Board Pearl — Two-Stage Hepatectomy",
+          "content": "Two-stage hepatectomy for bilobar CRLM: Stage 1 = clear the left lobe (or future remnant lobe) of metastases + right portal vein embolisation (PVE). Wait 4–6 weeks for left lobe (FLR) hypertrophy. Stage 2 = right hepatectomy to remove the remaining metastases. Overall 5-year OS 25–35%. Key failure mode: 30% of patients fail to reach stage 2 due to disease progression — this reinforces the importance of initial response to systemic chemotherapy as a selection criterion for this complex approach."
+        },
+        {
+          "type": "text",
+          "content": "Ablative techniques — radiofrequency ablation (RFA), microwave ablation (MWA), and stereotactic body radiotherapy (SBRT) — complement surgical resection in CRLM management. Ablation is appropriate for: (1) CRLM not amenable to resection due to proximity to major vessels or bile ducts; (2) patients with inadequate FLR who cannot tolerate further resection; (3) patients with recurrent disease after prior hepatectomy in whom further resection is technically impossible. Ablation should not routinely replace resection when resection is technically feasible — long-term local recurrence rates after ablation (20–30%) exceed those after resection (5–10%)."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "EORTC 40983 Trial (EPOC)",
+          "citation": "Nordlinger B, Lancet 2008; updated Lancet Oncol 2013",
+          "population": "364 patients with 1–4 resectable CRLM, randomised to perioperative FOLFOX (6 cycles pre-op + 6 post-op) vs surgery alone",
+          "intervention": "Perioperative FOLFOX + hepatic resection vs hepatic resection alone",
+          "result": "3-year PFS improvement from 28.1% to 35.4% in eligible patients (p=0.041). No OS benefit at 8 years of follow-up. Perioperative chemotherapy increased postoperative complications (25% vs 16%).",
+          "practice_change": "Perioperative FOLFOX is an option for resectable CRLM. ESMO recommends it for borderline resectable disease; for clearly resectable CRLM upfront surgery remains an alternative."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Chemotherapy-Associated Liver Injury",
+          "content": "Prolonged pre-operative chemotherapy (>6 cycles FOLFOX) causes chemotherapy-associated steatohepatitis (CASH) — also called oxaliplatin-associated sinusoidal injury (blue liver). This increases post-hepatectomy morbidity and mortality. FOLFIRI + bevacizumab is associated with steatosis. Limit pre-operative chemotherapy to 4–6 cycles for resectable disease. Always perform ICG-R15 or FLR volumetry before major hepatectomy in patients who have received significant pre-operative chemotherapy."
+        }
+      ]
+    },
+    {
+      "consolidation": true
+    }
+  ],
+  "consolidation": {
+    "intro": "Test your understanding of colorectal cancer surgery with 20 clinical questions.",
+    "questions": [
+      {
+        "id": "A2-Q1",
+        "stem": "A 58-year-old man has a 4.5 cm rectal adenocarcinoma on MRI staged cT3c N1 at 7 cm from the anal verge. The circumferential resection margin is threatened (1mm on MRI). Performance status ECOG 0. Which is the most appropriate initial management?",
+        "options": {
+          "A": "Immediate low anterior resection with TME",
+          "B": "Short-course radiotherapy (5×5 Gy) followed by immediate surgery",
+          "C": "Long-course chemoradiotherapy (45 Gy + capecitabine) followed by restaging MRI at 8–12 weeks",
+          "D": "Transanal endoscopic microsurgery (TEM)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "For cT3 N+ mid-rectal cancer with threatened CRM (≤1mm), NCCN v2.2024 recommends long-course CRT (45 Gy in 25 fractions + concurrent capecitabine). This allows tumour downsizing and CRM clearance before surgery, reducing R1 resection rate from ~30% to ~10%. Restaging MRI at 8–12 weeks assesses response and identifies complete responders who may be candidates for watch-and-wait.",
+          "wrong": {
+            "A": "Immediate surgery with threatened CRM risks R1 resection and associated doubling of local recurrence risk. Neoadjuvant therapy is mandatory for CRM threat.",
+            "B": "Short-course RT (5×5 Gy) is appropriate for resectable T3 N0 rectal cancer without CRM threat, or when immediate surgery is planned (Stockholm III trial). It does not provide adequate tumour downsizing for threatened margins.",
+            "D": "TEM is indicated only for T1 N0 lesions <3 cm with favourable histology. This patient is cT3c N1 — TEM would be oncologically catastrophic."
+          },
+          "guideline": "NCCN Rectal Cancer v2.2024 — Category 1 recommendation for CRT in threatened CRM",
+          "trial": "German Rectal Cancer Study (Sauer, NEJM 2004): preoperative vs postoperative CRT — local recurrence 6% vs 13%; sphincter preservation 39% vs 19% in distal tumours.",
+          "pearl": "Always assess CRM on high-resolution MRI (3mm slices perpendicular to tumour axis) before deciding on neoadjuvant approach. MRI CRM threat ≤1mm is the pivotal decision point for long-course CRT."
+        }
+      },
+      {
+        "id": "A2-Q2",
+        "stem": "A 65-year-old woman undergoes low anterior resection for pT3 N2a rectal cancer after long-course CRT (ypT2 N0 after neoadjuvant). Day 6 post-operatively she develops a temperature of 38.4°C, pelvic pain, and CRP 210 mg/L. CT pelvis shows a 3cm pericolic collection adjacent to the anastomosis with a small amount of free gas. No free peritoneal fluid. What is the most appropriate management?",
+        "options": {
+          "A": "Emergency return to theatre for Hartmann's procedure",
+          "B": "CT-guided percutaneous drainage and broad-spectrum antibiotics (Grade B leak)",
+          "C": "Conservative management with oral antibiotics only",
+          "D": "Immediate laparoscopic washout and defunctioning ileostomy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The clinical picture (fever, pelvic pain, elevated CRP) with CT showing a contained pericolic collection and small amount of gas without free peritoneal contamination represents a Grade B anastomotic leak — clinical deviation requiring intervention but not re-laparotomy. CT-guided percutaneous drainage with broad-spectrum antibiotics is first-line management. If a defunctioning ileostomy was not previously fashioned, consideration should be given to endoscopic vacuum therapy (EVT) which can achieve anastomotic salvage in 80-90% of Grade B leaks.",
+          "wrong": {
+            "A": "Emergency Hartmann's procedure (anastomosis takedown, end colostomy) is indicated for Grade C leaks with free peritoneal contamination, faecal peritonitis, or haemodynamic instability. This patient has a contained leak — Grade C management is excessive.",
+            "C": "Oral antibiotics alone are inadequate for a Grade B leak with a 3cm collection. Percutaneous or surgical drainage is required to source control.",
+            "D": "Laparoscopic washout and defunctioning ileostomy without addressing the underlying collection is incomplete management. The collection must be drained, and EVT or percutaneous drainage is preferred over operative intervention for contained leaks."
+          },
+          "guideline": "International Study Group of Rectal Cancer — anastomotic leak grading and management protocol",
+          "trial": "Mees ST et al., Endoscopic vacuum therapy in anastomotic leakage after low anterior resection — systematic review 2022: 83% anastomotic preservation rate with EVT.",
+          "pearl": "Always document the defunctioning ileostomy status when assessing post-LAR leaks — the management algorithm differs based on whether a stoma is already in place."
+        }
+      },
+      {
+        "id": "A2-Q3",
+        "stem": "A 55-year-old man with sigmoid cancer (pT3 N2b M1a) has 4 bilobar liver metastases (2 in segments II/III, 2 in segment VII). He has received 6 cycles of FOLFOX with good partial response. CT volumetry shows FLR of 22% (normal liver). Which is the most appropriate next step?",
+        "options": {
+          "A": "Continue chemotherapy — bilobar disease is not resectable",
+          "B": "Right portal vein embolisation to increase FLR before planned right hepatectomy + left lateral sectionectomy",
+          "C": "Immediate simultaneous primary resection and right hepatectomy",
+          "D": "SIRT (selective internal radiation therapy) as definitive local treatment"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The patient has potentially resectable CRLM — bilobar disease responding to chemotherapy, with a technically achievable R0 resection (right hepatectomy + left lateral sectionectomy for segments II/III metastases). However, FLR of 22% is below the minimum safe threshold of 25% for normal liver. Right portal vein embolisation (PVE) will induce compensatory hypertrophy of the left lobe (FLR), typically achieving 30-40% volume gain in 4-6 weeks. Once FLR exceeds 25-30%, staged hepatic resection can proceed safely.",
+          "wrong": {
+            "A": "Bilobar disease is no longer an absolute contraindication to resection. With modern two-stage hepatectomy and PVE, patients with bilobar CRLM can achieve R0 resection and 5-year survival rates of 30-40%. Chemotherapy response indicates tumour biology favourable for surgical cure.",
+            "C": "Simultaneous colonic and major hepatic resection combined with inadequate FLR (22%) would risk post-hepatectomy liver failure — a potentially fatal complication. The FLR must be optimised before major hepatectomy.",
+            "D": "SIRT is a palliative/bridging modality for unresectable liver-only CRLM. In a patient with potentially resectable disease responding to chemotherapy, SIRT should not replace the curative intent of surgical resection."
+          },
+          "guideline": "ESMO Metastatic Colorectal Cancer 2023 — FLR minimum 25% (normal liver); PVE recommended when FLR inadequate",
+          "trial": "Wicherts DA et al., Ann Surg 2010: two-stage hepatectomy with PVE — 5-year OS 42% in initially unresectable bilobar CRLM after R0 resection.",
+          "pearl": "FLR adequacy is the key surgical decision in major hepatectomy — not the number or size of metastases. A technically feasible R0 resection with adequate FLR is the only true contraindication test."
+        }
+      },
+      {
+        "id": "A2-Q4",
+        "stem": "The RAPIDO trial compared total neoadjuvant therapy (TNT) to standard CRT for high-risk rectal cancer. Which of the following best describes the primary finding and its clinical implication?",
+        "options": {
+          "A": "TNT achieved superior overall survival at 3 years compared to standard CRT",
+          "B": "TNT achieved superior pCR rates (28.4% vs 14.3%) and reduced 3-year disease-related treatment failure",
+          "C": "TNT was inferior to standard CRT due to increased surgical morbidity",
+          "D": "TNT eliminated the need for surgery in most patients with high-risk rectal cancer"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The RAPIDO trial (Bahadoer, Lancet Oncology 2021) enrolled 920 patients with high-risk rectal cancer (mrT4a/b, mrN2, EMVI+, or mrCRM+). TNT (short-course RT 25Gy → 18 weeks CAPOX → surgery) achieved a pCR rate of 28.4% vs 14.3% with standard CRT, and reduced 3-year disease-related treatment failure from 30.4% to 23.7% (p=0.019). Overall survival difference was not statistically significant at this follow-up. TNT did not eliminate the need for surgery — it improved preoperative response rates.",
+          "wrong": {
+            "A": "The RAPIDO trial primary endpoint was disease-related treatment failure, not overall survival. There was no statistically significant OS difference at 3-year follow-up, though longer follow-up may reveal a survival benefit.",
+            "C": "TNT in RAPIDO was not associated with increased surgical morbidity compared to standard CRT. Postoperative complication rates were similar between arms.",
+            "D": "RAPIDO did not eliminate surgical need — all patients proceeded to surgery as planned. The improved pCR rates may enable more watch-and-wait in complete responders in subsequent protocols, but this was not a RAPIDO endpoint."
+          },
+          "guideline": "NCCN Rectal Cancer v2.2024 — TNT is a Category 1 option for high-risk rectal cancer",
+          "trial": "RAPIDO (Bahadoer, Lancet Oncology 2021): SCRT + consolidation chemo → surgery vs standard CRT → surgery. pCR 28.4% vs 14.3%; 3-yr disease-related treatment failure 23.7% vs 30.4%.",
+          "pearl": "TNT shifts systemic chemotherapy delivery from adjuvant (post-operative) to neoadjuvant (pre-operative) — treating micrometastatic disease in a patient with full performance status before the physiological stress of surgery."
+        }
+      },
+      {
+        "id": "A2-Q5",
+        "stem": "In the context of TME surgery, which layer defines the correct posterior dissection plane, and what is the consequence of entering the wrong layer posteriorly?",
+        "options": {
+          "A": "The muscularis propria — entering the mesorectum causes incomplete excision",
+          "B": "The holy plane (anterior to presacral fascia) — entering posterior to presacral fascia risks presacral venous plexus haemorrhage",
+          "C": "The peritoneal reflection — entering above this causes ureteric injury",
+          "D": "The visceral peritoneum — entering the presacral space causes nerve injury only"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The correct posterior dissection plane in TME is the areolar holy plane situated anterior to the presacral (Waldeyer's) fascia. This plane is avascular and allows the mesorectum to be swept forward in a bloodless manner. If the surgeon strays posterior to the presacral fascia, entry into the presacral venous plexus occurs — producing catastrophic haemorrhage that is extremely difficult to control. Management requires direct pressure, prosthetic thumbtack (stainless steel tack) haemostasis into sacral foramina, bone wax, or topical haemostatic agents. Re-entry into the correct plane must be established before proceeding.",
+          "wrong": {
+            "A": "Dissecting within the muscularis propria would represent an intramesorectal plane — leaving mesorectal tissue behind and risking an incomplete resection with positive CRM. This is not the consequence of posterior plane error.",
+            "C": "Ureteric injury is a risk during IMA ligation and lateral pelvic dissection, not posterior TME dissection. The ureters course lateral to the pelvic side wall.",
+            "D": "The presacral venous plexus haemorrhage is not a nerve injury alone — it is haemorrhagic. The hypogastric nerves are at risk during posterior dissection, but the dominant risk of entering posterior to the presacral fascia is life-threatening haemorrhage."
+          },
+          "guideline": "NCCN Rectal Cancer Surgical Technical Standards 2024",
+          "trial": "Quirke P et al. (Lancet 2009): mesorectal excision completeness directly correlates with local recurrence — intramesorectal and muscularis plane resections associated with significantly worse outcomes.",
+          "pearl": "If you encounter unexpected bleeding in the posterior TME dissection, do not persist — place a swab, control haemorrhage, and re-establish the correct plane. Never dissect blindly through a bleeding field in the presacral space."
+        }
+      },
+      {
+        "id": "A2-Q6",
+        "stem": "A 72-year-old woman presents to the emergency department with a 3-day history of obstipation, abdominal distension, and vomiting. CT abdomen-pelvis shows complete large bowel obstruction at the sigmoid colon with a 4cm obstructing mass, proximal colonic dilatation to 11cm, but no pneumoperitoneum or evidence of perforation. She is haemodynamically stable. What is the most appropriate next step?",
+        "options": {
+          "A": "Emergency Hartmann's procedure — obstructing sigmoid cancer requires immediate surgical resection",
+          "B": "Self-expanding metallic stent (SEMS) as bridge to elective surgery — allows bowel decompression and optimisation before resection",
+          "C": "Colonoscopic decompression without stenting — preferable to SEMS in obstructing colon cancer",
+          "D": "Emergency diverting loop colostomy followed by elective anterior resection in 6 weeks"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Self-expanding metallic stent (SEMS) as a bridge to elective surgery is the preferred initial management for left-sided malignant large bowel obstruction in a haemodynamically stable patient without perforation. SEMS achieves decompression in 90–95% of cases, allowing bowel preparation, nutritional optimisation, staging workup (CT chest for metastases, MRI for local staging), and MDT discussion before planned laparoscopic resection. The ESCO trial and multiple meta-analyses demonstrate that stenting significantly reduces the need for emergency surgery and permanent stoma formation (30-day stoma rate 45% emergency surgery vs 9% SEMS bridge). A caecal diameter >12cm on CT or caecal gangrene are indications to proceed to emergency surgery.",
+          "wrong": {
+            "A": "Emergency surgery in an obstructed, unprepared colon carries a 15–20% anastomotic leak rate, 30–40% permanent stoma rate, and 5-fold higher mortality than elective resection. Emergency Hartmann's should be reserved for cases with perforation, peritonitis, ischaemia, or failure/contraindication to SEMS.",
+            "C": "Colonoscopic decompression alone (without stenting) is not a sustainable option for malignant obstruction — the obstruction will recur. SEMS provides sustained decompression while planning definitive treatment. Diagnostic colonoscopy alone in complete obstruction risks perforation.",
+            "D": "Diverting loop colostomy as a planned bridge operation adds a second operative step, creates a stoma that may become permanent, and does not facilitate laparoscopic staging of the primary tumour. SEMS is preferred over diverting colostomy as a bridge to elective surgery in NCCN and ESMO guidelines."
+          },
+          "guideline": "NCCN Colon Cancer v2.2024 — SEMS preferred bridge-to-surgery for malignant left-sided large bowel obstruction without perforation; ESMO 2023 supports SEMS over emergency surgery for haemodynamically stable patients",
+          "trial": "ESCO trial (Sloothaak, Br J Surg 2014): stenting vs emergency surgery — primary anastomosis rate 67% vs 43%; permanent stoma rate 8.4% vs 43%; no difference in oncological outcome at 3 years.",
+          "pearl": "Contraindications to SEMS include: perforation, peritonitis, caecal ischaemia, tumour >12cm from anal verge (difficult endoscopic access), and MSI-H tumour in a young fit patient eligible for primary anastomosis. Bevacizumab use is a relative contraindication — increases perforation risk."
+        }
+      },
+      {
+        "id": "A2-Q7",
+        "stem": "A 50-year-old man with a pT3 N0 M0 colon cancer undergoes right hemicolectomy with clear margins (R0) and 18 lymph nodes retrieved. Pathology reports the following adverse features: lymphovascular invasion (LVI), perineural invasion (PNI), and tumour budding grade 3. CEA is normal. His oncologist is considering adjuvant chemotherapy. Which of the following best describes the evidence for adjuvant chemotherapy in this scenario?",
+        "options": {
+          "A": "Adjuvant chemotherapy (CAPOX or FOLFOX) is strongly indicated — LVI, PNI, and high-grade budding classify this as high-risk stage II disease",
+          "B": "Adjuvant chemotherapy is not beneficial in stage II colon cancer — observation is standard regardless of adverse pathological features",
+          "C": "Adjuvant 5-FU monotherapy is preferred over combination regimens for high-risk stage II disease",
+          "D": "Neoadjuvant chemotherapy should have been given — adjuvant therapy has no proven benefit after R0 resection"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "This patient has stage IIA colon cancer (pT3 N0) with multiple high-risk features: lymphovascular invasion, perineural invasion, and high-grade tumour budding (Bd3 — defined as ≥10 single tumour cells or clusters of <5 cells at the invasive front). NCCN defines high-risk stage II colon cancer by the presence of any of: T4 stage, <12 LN, LVI, PNI, poor differentiation, bowel obstruction or perforation, or high tumour budding. For high-risk stage II, NCCN Category 2A recommends discussion of adjuvant CAPOX or FOLFOX. MSI status should be tested — MSI-H stage II has favourable prognosis and does not benefit from adjuvant 5-FU (QUASAR trial).",
+          "wrong": {
+            "B": "Observation is appropriate for low-risk stage II colon cancer (T3, no adverse features, ≥12 LN, MSS). This patient has three adverse features — the combination of LVI + PNI + Bd3 places him in the high-risk category where adjuvant chemotherapy discussion is guideline-concordant.",
+            "C": "For high-risk stage II, oxaliplatin-based combination therapy (CAPOX or FOLFOX) is preferred over 5-FU monotherapy. The MOSAIC trial established that adding oxaliplatin improves DFS in stage III disease; for high-risk stage II, the benefit is extrapolated and discussed with patients based on risk-benefit analysis.",
+            "D": "Neoadjuvant chemotherapy is not standard for non-obstructing, non-metastatic colon cancer. Adjuvant therapy after R0 resection is the appropriate sequence for colon cancer, unlike rectal cancer where neoadjuvant CRT is standard for locally advanced disease."
+          },
+          "guideline": "NCCN Colon Cancer v2.2024 — high-risk stage II features: T4, <12 LN, LVI, PNI, poor differentiation, bowel obstruction/perforation, high-grade budding; adjuvant CAPOX or FOLFOX Category 2A",
+          "trial": "QUASAR trial (Kerr, Lancet 2007): adjuvant 5-FU in stage II CRC — 3.6% OS benefit. MSI-H stage II does not benefit from 5-FU (relative hazard ratio unfavourable in subgroup analysis). MOSAIC (André, NEJM 2004): FOLFOX improved 6-year OS in stage III; applied to high-risk stage II by extrapolation.",
+          "pearl": "Always test MSI/MMR status in stage II colon cancer before offering adjuvant chemotherapy. MSI-H stage II CRC has excellent prognosis with surgery alone and does not benefit from 5-FU — chemotherapy may even worsen outcomes. This is one of the most clinically significant predictive uses of MSI testing."
+        }
+      },
+      {
+        "id": "A2-Q8",
+        "stem": "A 44-year-old woman undergoes laparoscopic low anterior resection for a pT2 N0 M0 rectal cancer at 7cm from the anal verge. The pathology confirms ypT2 N0 (no neoadjuvant therapy was given). At the time of closure, the anastomosis is 5cm from the anal verge. The stapler fires well with two intact donuts. Intraoperative air leak test is negative. Which of the following is the most appropriate decision regarding a defunctioning stoma?",
+        "options": {
+          "A": "No stoma — anastomosis is technically adequate and air-leak-negative; stoma is only needed for anastomoses <3cm from the anal verge",
+          "B": "Defunctioning loop ileostomy should be fashioned — anastomoses ≤6cm from the anal verge have sufficient leak risk to warrant routine diversion",
+          "C": "Defunctioning sigmoid colostomy — preferred over ileostomy as it produces formed stool and is easier to manage",
+          "D": "Stoma is only required if the patient received neoadjuvant radiotherapy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "A 5cm anastomosis from the anal verge is a low pelvic anastomosis with inherently higher leak risk than mid or high colorectal anastomoses. NCCN and ESMO guidelines recommend defunctioning loop ileostomy for all anastomoses ≤6cm from the anal verge, or when technical risk factors are present (tension, inadequate blood supply, neoadjuvant CRT, male sex, obese pelvis, diabetes). The anastomotic leak rate for low anastomoses without diversion is 10–15% — defunctioning reduces the clinical severity of leaks (from Grade C requiring relaparotomy to Grade A/B manageable conservatively) and reduces the leak rate. A loop ileostomy is preferred over loop colostomy as it produces less spillage into the distal limb and has lower complication rates.",
+          "wrong": {
+            "A": "A threshold of <3cm for routine diversion is too conservative and not consistent with current guidelines. The 6cm threshold is the appropriate guideline cutoff. Even without technical risk factors, a 5cm anastomosis warrants defunctioning.",
+            "C": "Loop ileostomy is preferred over loop sigmoid colostomy for defunctioning after low anterior resection. Ileostomy has lower complication rates (prolapse, retraction, parastomal hernia) and produces liquid effluent that does not contaminate the distal limb as effectively as sigmoid stool. Loop sigmoid colostomy also requires more proximal mobilisation.",
+            "D": "Neoadjuvant radiotherapy is a risk factor that increases the indication for defunctioning, but the decision to divert is also driven by anastomotic height regardless of neoadjuvant therapy. A 5cm anastomosis without prior CRT still warrants defunctioning in most guideline frameworks."
+          },
+          "guideline": "NCCN Rectal Cancer v2.2024 — defunctioning loop ileostomy recommended for anastomoses ≤6cm from the anal verge or with additional risk factors; ESMO 2023 supports routine diversion for low anastomoses",
+          "trial": "Montedori A et al. (Cochrane Review 2010): defunctioning stoma after LAR — significantly reduces clinical anastomotic leak rate requiring relaparotomy; no change in anastomotic leak rate overall but converts Grade C to Grade A/B leaks.",
+          "pearl": "The defunctioning stoma does not prevent anastomotic leak — it modifies the clinical severity of leaks that do occur. Grade C leaks (re-laparotomy) are reduced; overall leak rate is not significantly changed. Always document the distance from the anal verge to the anastomosis precisely — this determines stoma policy."
+        }
+      },
+      {
+        "id": "A2-Q9",
+        "stem": "A 61-year-old man has a 2.5cm sessile polyp in the sigmoid colon removed by endoscopic mucosal resection (EMR). Pathology confirms moderately differentiated adenocarcinoma invading the submucosa (pT1), with the following features: Haggitt level 4, submucosal invasion depth 2,200 microns, lymphovascular invasion present, and the deep margin has a 0.5mm clearance. What is the most appropriate next step?",
+        "options": {
+          "A": "Surveillance colonoscopy in 3 months — pT1 cancers removed by EMR have excellent prognosis",
+          "B": "Discuss at MDT and recommend sigmoid colectomy — adverse histological features indicate high risk of nodal metastasis",
+          "C": "Repeat EMR at the scar site — additional tissue needed to clear the deep margin",
+          "D": "Adjuvant chemotherapy with capecitabine — pT1 with LVI is equivalent to stage III disease"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This pT1 polyp cancer has multiple high-risk features that substantially increase the risk of regional lymph node metastasis: (1) Haggitt level 4 (invasion into submucosal stalk, worst Haggitt category); (2) submucosal invasion depth >1,000 microns (Sm3 invasion — risk of LN metastasis 15–25%); (3) lymphovascular invasion (doubles LN metastasis risk); (4) deep margin <1mm clearance. These features are 4 of the 4 high-risk criteria that mandate surgical resection. The calculated LN metastasis risk in this polyp cancer exceeds 20%, justifying sigmoid colectomy for curative staging and treatment. MDT review is mandatory before deciding on surgical approach.",
+          "wrong": {
+            "A": "Surveillance alone is appropriate only for low-risk pT1 cancers: Haggitt 1–3, submucosal invasion <1,000 microns, no LVI, well/moderate differentiation, clear deep margin (>1mm). This polyp meets none of these low-risk criteria — all four features indicate high risk.",
+            "C": "Repeat EMR at the scar site does not address the risk of lymph node metastasis, which is the primary concern with these adverse features. EMR is a submucosal procedure that cannot sample or remove regional lymph nodes. Re-EMR has a role for incomplete polypectomy of benign lesions — not for high-risk pT1 cancer with LVI.",
+            "D": "Adjuvant chemotherapy is not indicated for pT1 N0 colorectal cancer. If the patient undergoes colectomy and pathology confirms R0 resection without nodal involvement (pN0), observation is the standard. Capecitabine for pT1 disease would represent overtreatment."
+          },
+          "guideline": "NCCN Colon Cancer v2.2024 — pT1 polyp cancer high-risk criteria for surgical resection: Haggitt 4, >1000 microns submucosal invasion, LVI, poor differentiation, deep margin <1mm",
+          "trial": "Ueno H et al. (Gut 2004): pT1 CRC with submucosal invasion >2mm associated with 18.2% LN metastasis rate; LVI independently increased risk to 28.6%. Cooper HS (Ann Surg Oncol 2017): adverse features in pT1 CRC mandate colectomy.",
+          "pearl": "Know the Haggitt classification: Level 1 = invasion into head of polyp; Level 2 = neck; Level 3 = stalk; Level 4 = invasion into submucosal layer of bowel wall. Only Level 4 is truly high-risk for nodal metastasis in the Haggitt system alone. The sm depth criteria (>1000 microns) applies to flat/sessile polyps."
+        }
+      },
+      {
+        "id": "A2-Q10",
+        "stem": "A 55-year-old woman undergoes laparoscopic right hemicolectomy. During mobilisation of the hepatic flexure, the right ureter is inadvertently divided at the level of the pelvic brim. The injury is recognised immediately after transection. What is the most appropriate intraoperative management?",
+        "options": {
+          "A": "Place a JJ stent cystoscopically and close — ureteral injuries recognised intraoperatively do not require immediate repair",
+          "B": "End-to-end ureteroureterostomy over a double-J stent — immediate primary repair of the transected ureter",
+          "C": "Ureteroileal conduit — all ureteral injuries require permanent urinary diversion",
+          "D": "Ligate both ends of the ureter and return in 48–72 hours for elective repair — primary repair is contraindicated in contaminated field"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Intraoperatively recognised ureteral transection should be repaired primarily when recognised immediately. End-to-end ureteroureterostomy over a double-J stent is the preferred technique for mid-ureteral injuries with good tissue viability, adequate length, and tension-free anastomosis. The anastomosis is performed with absorbable sutures (4-0 or 5-0 PDS) in interrupted fashion after spatulating both ends. Urology consultation should be obtained immediately. Primary repair has 90%+ success rates when performed within hours of injury with viable tissue. Immediate repair avoids the complications of delayed repair (urinoma, sepsis, fistula, loss of renal function).",
+          "wrong": {
+            "A": "JJ stent alone cannot bridge a transected ureter — the ureteral continuity must be restored surgically. JJ stenting is appropriate for partial injuries or strictures, not complete transection. Leaving a transected ureter without repair causes urinoma, sepsis, and renal failure.",
+            "C": "Ureteroileal conduit (ileal conduit) is used for permanent urinary diversion after radical cystectomy or when the ureter is too short for reimplantation. It is not the initial management for a clean iatrogenic transection with viable ends and adequate length — primary repair is preferred.",
+            "D": "Ligating both ends and returning later creates a warm ischaemia injury and urinoma. Delayed repair (>6 hours) is less successful than immediate primary repair. The field in this case is not contaminated (this is a right hemicolectomy without bowel entry at the site of injury); immediate repair is appropriate."
+          },
+          "guideline": "EAU Urological Trauma Guidelines 2023 — iatrogenic ureteral injury: immediate primary repair if recognised intraoperatively; ureteroureterostomy over double-J stent preferred for mid-ureteral injuries",
+          "trial": "Turgut Karadag S et al. (J Laparoendosc Adv Surg Tech 2020): intraoperative recognition and immediate repair of ureteral injuries associated with 91% success rate vs 65% for delayed repair.",
+          "pearl": "Prevent ureteral injury during left hemicolectomy and sigmoid resection by: (1) identifying the left ureter before IMA ligation — the ureter crosses the IMA at the pelvic brim; (2) using ureteric stents prophylactically in re-do surgery, extensive adhesions, or bulky tumours. If you cannot identify the ureter, do not proceed with IMA division until you have done so."
+        }
+      },
+      {
+        "id": "A2-Q11",
+        "stem": "A 48-year-old man with a clinical complete response (cCR) after total neoadjuvant therapy (TNT) for a mid-rectal cancer (mrT3c N2, mrCRM threatened) is being considered for non-operative management (watch-and-wait). At restaging 12 weeks after completion of TNT, MRI shows no residual tumour signal, and flexible sigmoidoscopy shows mucosal whitening with no visible tumour. Biopsies from the scar site are negative. He opts for watch-and-wait. What is the most appropriate surveillance protocol for the first 2 years?",
+        "options": {
+          "A": "Annual CT abdomen-pelvis only — MRI and endoscopy are too sensitive and lead to over-investigation",
+          "B": "Clinical assessment, MRI pelvis, and flexible sigmoidoscopy every 3 months for 2 years",
+          "C": "Surveillance colonoscopy every 6 months — colonoscopy is preferred over sigmoidoscopy for watch-and-wait surveillance",
+          "D": "No surveillance required for the first year if the initial cCR is confirmed — regrowth within 1 year is extremely rare"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Watch-and-wait (W&W) requires an intensive surveillance protocol because local regrowth occurs in approximately 25% of cCR patients within 2 years, and 80–90% of regrowths are still salvageable with surgery. The International Watch & Wait Database (IWWD) protocol mandates: (1) clinical assessment (digital rectal examination, CEA) every 1–3 months; (2) MRI pelvis every 3 months for 2 years then 6-monthly; (3) flexible sigmoidoscopy every 3 months for 2 years. CT chest/abdomen/pelvis every 6 months for distant disease surveillance. The 3-monthly frequency for the first 2 years reflects the peak regrowth period. Surveillance beyond 2 years can be spaced to 6-monthly.",
+          "wrong": {
+            "A": "Annual CT alone is wholly inadequate for W&W surveillance. CT cannot assess the primary site for mucosal regrowth (this requires endoscopy and high-resolution MRI). The surveillance interval is 3 months, not 12 months, for the first 2 years.",
+            "C": "Flexible sigmoidoscopy is preferred over full colonoscopy for W&W surveillance because it provides direct mucosal assessment of the primary site without requiring bowel preparation, allowing more frequent and less burdensome evaluation. Colonoscopy is important for polyp surveillance of the remaining colon but is not the primary tool for W&W rectal regrowth monitoring.",
+            "D": "Regrowth within the first year is common — the 25% regrowth rate is cumulative and evenly distributed across the first 2 years. Eliminating first-year surveillance would miss the majority of early regrowths and forfeit the opportunity for timely surgical salvage."
+          },
+          "guideline": "International Watch & Wait Database (IWWD) protocol; NCCN Rectal Cancer v2.2024 — W&W surveillance every 3 months (MRI + sigmoidoscopy + CEA) for 2 years",
+          "trial": "IWWD (Renehan, Lancet 2016): 880 patients with cCR — 73.3% organ preservation at 3 years; 25.2% local regrowth; 88% of regrowths salvaged with radical surgery. Local regrowth did not significantly reduce OS compared to primary surgery.",
+          "pearl": "Define cCR precisely for boards: (1) MRI — no residual tumour signal, normal mesorectal nodes, normalised CRM; (2) Sigmoidoscopy — complete mucosal healing, flat white scar, no mucosal irregularity; (3) DRE — no palpable mass; (4) biopsies negative. All four criteria must be met before declaring cCR. Partial response is not cCR."
+        }
+      },
+      {
+        "id": "A2-Q12",
+        "stem": "A 69-year-old woman is being planned for elective laparoscopic right hemicolectomy for a T3 N0 ascending colon adenocarcinoma. Her body mass index is 33 kg/m². Which of the following components of an Enhanced Recovery After Surgery (ERAS) protocol has the strongest evidence for reducing hospital stay and complications in this setting?",
+        "options": {
+          "A": "Mechanical bowel preparation (MBP) with oral antibiotics — essential before all colonic surgery",
+          "B": "Multimodal analgesia (avoiding opioids), early mobilisation, and early oral feeding — core ERAS components with level-1 evidence",
+          "C": "Prolonged nasogastric tube decompression for 48–72 hours post-operatively to prevent ileus",
+          "D": "Routine abdominal drain placement to detect anastomotic leak early"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "The evidence base for ERAS in colorectal surgery is established at level I (multiple RCTs and meta-analyses). Core components with the strongest evidence include: (1) multimodal opioid-sparing analgesia (paracetamol + NSAIDs + regional anaesthesia/epidural/TAP block) — reduces ileus and complications; (2) early oral feeding (within 24 hours) — reduces infections and length of stay; (3) early mobilisation (out of bed on day of surgery) — reduces VTE and pulmonary complications; (4) goal-directed fluid therapy (avoiding both fluid excess and deficit); (5) avoidance of routine nasogastric tubes. The ERAS Society guidelines demonstrate 30% reduction in hospital LOS and complication rates with full protocol adherence.",
+          "wrong": {
+            "A": "Mechanical bowel preparation alone (without oral antibiotics) has been shown in meta-analyses to be equivalent to no preparation for right hemicolectomy and is not mandatory. The current evidence supports oral antibiotic bowel preparation combined with MBP for left-sided operations to reduce SSI risk (COLCARE data), but MBP alone is not an essential ERAS component.",
+            "C": "Routine nasogastric decompression post-operatively is actively discouraged in ERAS protocols. Multiple RCTs show that routine NGT use delays oral feeding, increases pulmonary complications, and extends hospital stay without reducing anastomotic complications. NGT should only be used for specific indications (nausea, vomiting, gastric outlet obstruction).",
+            "D": "Routine abdominal drain placement after colonic anastomosis has not been shown to reduce anastomotic leak rates or improve outcomes, and is associated with increased ileus and infection. ERAS protocols recommend omitting routine drains unless the anastomosis is technically challenging."
+          },
+          "guideline": "ERAS Society Guidelines for Perioperative Care in Elective Colorectal Surgery 2018 (updated 2023) — multimodal analgesia, early feeding, early mobilisation are Category 1 recommendations",
+          "trial": "Gustafsson UO et al. (Clin Nutr 2021): ERAS adherence score directly correlates with complication reduction. Nelson G (World J Surg 2022): ERAS meta-analysis — 30% reduction in LOS, 17% reduction in overall complications with full ERAS adherence.",
+          "pearl": "Three ERAS components that residents most often forget: (1) avoid hypothermia (active warming throughout surgery and recovery); (2) goal-directed fluid therapy (not 'liberal' crystalloid — both restriction and excess harm); (3) PONV prophylaxis (two antiemetics for moderate-high PONV risk — ondansetron + dexamethasone)."
+        }
+      },
+      {
+        "id": "A2-Q13",
+        "stem": "A 66-year-old man has a 3.5cm adenocarcinoma at the rectosigmoid junction, 16cm from the anal verge. Staging MRI shows pelvic staging as mrT3a N0, CRM >5mm. No distant metastases. What surgical procedure and extent of mesorectal excision is most appropriate?",
+        "options": {
+          "A": "Total mesorectal excision with low anterior resection — all rectal cancers within 15cm require complete TME",
+          "B": "High anterior resection with partial mesorectal excision — the distal mesorectal margin should be 5cm below the lower tumour edge",
+          "C": "Sigmoid colectomy without any mesorectal excision — this is a rectosigmoid tumour outside the true rectum",
+          "D": "Abdominoperineal resection — tumours at the rectosigmoid junction always require APR for oncological adequacy"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For upper rectal cancers (>10cm from the anal verge) at the rectosigmoid junction, partial mesorectal excision (PME) with high anterior resection is appropriate. The principle is that the distal mesorectal dissection should extend 5cm below the lower tumour margin to clear the regional mesorectal lymphatic drainage at this level. Complete TME (to the pelvic floor) is not required for upper rectal cancers and adds unnecessary dissection with risk of autonomic nerve injury and anastomotic complications. The anastomosis is formed at or above the peritoneal reflection (typically 10–12cm from the anal verge), and defunctioning stoma is not routinely required for high anastomoses.",
+          "wrong": {
+            "A": "Complete TME to the pelvic floor is the standard for mid and lower rectal cancers (≤10cm from the anal verge). For upper rectal cancers (>10cm), partial mesorectal excision with a 5cm distal mesorectal margin is sufficient and avoids unnecessary pelvic dissection.",
+            "C": "Tumours at the rectosigmoid junction have mesorectal lymphatic drainage and require at least partial mesorectal excision (not a standard sigmoid colectomy). Treating this as a sigmoid tumour without mesorectal excision risks inadequate regional lymphadenectomy and local recurrence in the upper mesorectum.",
+            "D": "APR is indicated for tumours involving the sphincter complex or requiring sacrifice of the anal canal for adequate distal margin. A tumour 16cm from the anal verge does not reach the sphincter and does not require APR — high anterior resection with primary colorectal anastomosis is appropriate and achieves sphincter preservation without oncological compromise."
+          },
+          "guideline": "NCCN Rectal Cancer v2.2024 — upper rectal cancers (>10cm): high anterior resection + partial mesorectal excision with 5cm distal mesorectal margin; complete TME for tumours ≤10cm",
+          "trial": "Heald RJ original TME series (1998): complete TME mandated only for mid/lower rectum. Benedetti-Panici P (Eur J Surg 2001): partial mesorectal excision for upper rectal tumours — local recurrence rate 4.1%, equivalent to complete TME at this level.",
+          "pearl": "The distal mesorectal margin rule: for upper rectum, take 5cm of mesorectum below the tumour and divide the rectum 2–3cm below. The discrepancy between the mesorectal and rectal division points is because the mesorectum tapers at the pelvic floor — the 5cm mesorectal margin extends further distally than the 2cm rectal margin."
+        }
+      },
+      {
+        "id": "A2-Q14",
+        "stem": "A 54-year-old woman has synchronous resectable colorectal liver metastases — a pT4a N2b sigmoid cancer and 2 bilobar liver metastases (segment III and VII). She has no significant comorbidity. CT confirms technical resectability. Staging is stage IVA. Which surgical sequence is most appropriate?",
+        "options": {
+          "A": "Simultaneous sigmoid resection and liver resection in one operation",
+          "B": "Liver-first strategy — liver resection first, then sigmoid resection after recovery",
+          "C": "Colorectal-first strategy — sigmoid resection first, then liver resection after 6–8 weeks",
+          "D": "Chemotherapy for 6 months before any surgery — no upfront surgery for synchronous stage IV disease"
+        },
+        "correct": "A",
+        "explanation": {
+          "correct": "For selected patients with synchronous resectable colorectal liver metastases where both the primary and liver disease can be resected with acceptable combined morbidity, simultaneous resection in a single operation is a valid and increasingly preferred strategy. Simultaneous resection avoids two separate general anaesthetics and recoveries, reduces the interval for disease progression between procedures, and achieves faster definitive treatment. Suitable candidates: uncomplicated primary (no obstruction, perforation), limited liver resection (≤3 segments), fit patient (ASA ≤3), adequate FLR. Major hepatectomy simultaneously with colorectal resection significantly increases morbidity and should generally be staged.",
+          "wrong": {
+            "B": "Liver-first strategy is appropriate when the liver disease is the dominant risk (large bilobar disease requiring Portal Vein Embolisation or two-stage hepatectomy) or when the primary is asymptomatic. For this patient with resectable bilobar disease (segment III + VII = minor resections in different lobes), and a symptomatic T4 primary, simultaneous resection is appropriate. Liver-first is not the default.",
+            "C": "Colorectal-first is appropriate when the primary is symptomatic (obstruction, bleeding, perforation risk) and the liver disease is extensive requiring conversion therapy. In this case with resectable liver disease, it is a valid option but adds a second operative step unnecessarily for limited liver disease.",
+            "D": "Upfront systemic chemotherapy for 3–6 months before surgery in synchronous resectable CRLM is controversial. ESMO recommends upfront surgery for clearly resectable disease (primary and liver), reserving conversion chemotherapy for borderline or unresectable metastatic disease. Unnecessary delay to surgery risks disease progression in a potentially curable patient."
+          },
+          "guideline": "ESMO Metastatic Colorectal Cancer 2023 — simultaneous resection for synchronous CRLM where combined surgery is safe (minor hepatectomy + colorectal resection); liver-first or staged approach for complex liver disease",
+          "trial": "SYNCHRONOUS trial (ongoing): randomising simultaneous vs staged resection. Yin Z (Br J Surg 2013): meta-analysis — simultaneous resection comparable morbidity to staged approach for minor hepatectomies; significantly higher morbidity for major hepatectomy simultaneously.",
+          "pearl": "The key surgical principle for simultaneous resection: minor hepatic resection (≤3 segments) can be combined safely with colorectal resection; major hepatectomy (≥4 segments) combined with colorectal resection carries prohibitive morbidity and should be staged."
+        }
+      },
+      {
+        "id": "A2-Q15",
+        "stem": "A 59-year-old man undergoes colonoscopy for colorectal cancer screening. A 3cm flat lesion is identified in the ascending colon, endoscopically classified as Paris 0-IIa + 0-IIb (flat elevated with flat component). The lesion cannot be completely removed endoscopically. Biopsies confirm high-grade dysplasia (no invasive cancer). What is the most appropriate management?",
+        "options": {
+          "A": "Repeat colonoscopy in 6 months with biopsy — high-grade dysplasia does not require immediate intervention",
+          "B": "Endoscopic submucosal dissection (ESD) — allows en-bloc full-thickness submucosal resection of flat lesions",
+          "C": "Right hemicolectomy — surgically resectable non-polypoid lesion not amenable to endoscopic en-bloc resection should be managed surgically",
+          "D": "Transanal endoscopic microsurgery (TEM) — appropriate for all large right colon lesions"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "A 3cm flat lesion (Paris 0-IIa + 0-IIb) with high-grade dysplasia that cannot be removed en-bloc endoscopically should be managed with surgical resection (right hemicolectomy). The reason: piecemeal EMR of flat lesions has high recurrence rates (15–30%) and prevents accurate histopathological assessment of margins and depth of invasion. ESD could achieve en-bloc resection but requires high expertise and is not universally available — and for lesions where invasive cancer cannot be excluded, ESD recurrence requires surgery anyway. High-grade dysplasia in colorectal flat lesions carries a 30–50% risk of synchronous or metachronous invasive cancer within 5 years, making definitive surgical resection the safer option when endoscopic en-bloc removal is not achievable.",
+          "wrong": {
+            "A": "Surveillance alone for a 3cm non-polypoid lesion with high-grade dysplasia that cannot be endoscopically removed is inappropriate — it leaves unresectable, high-risk mucosa in situ with no intervention. High-grade dysplasia in this context represents the highest pre-malignant risk.",
+            "B": "ESD is a valid technique for en-bloc resection of flat lesions ≤2–3cm at expert centres. However, for a 3cm lesion with a complex morphology (Paris 0-IIa + 0-IIb) that has already been assessed as not amenable to standard endoscopic resection, ESD may still be attempted at an ESD expert centre as an alternative to surgery. However, surgical resection avoids the risk of incomplete endoscopic removal and provides staging if invasive cancer is found.",
+            "D": "TEM (Transanal Endoscopic Microsurgery) is a technique for transanal resection of rectal lesions. It is anatomically limited to the rectum (typically ≤15cm from the anal verge) and has no role in right colon lesions."
+          },
+          "guideline": "NCCN Colon Cancer v2.2024 — flat lesions not amenable to en-bloc endoscopic resection should undergo surgical resection; high-grade dysplasia is a standard indication for complete removal",
+          "trial": "Kahi CJ (Gastrointest Endosc 2019): piecemeal EMR of large flat lesions — 16% residual/recurrent rate at first surveillance colonoscopy. Jayanna M (Dis Colon Rectum 2013): surgical resection for endoscopically unresectable large flat lesions — 18% had unsuspected invasive carcinoma on final histology.",
+          "pearl": "When endoscopy cannot achieve en-bloc resection of a flat or sessile lesion, the question becomes: can ESD be safely performed at this centre? If yes, offer ESD as an alternative to surgery. If not, proceed to surgical resection. Never accept piecemeal resection for lesions where invasive cancer cannot be excluded — piecemeal margins cannot be assessed."
+        }
+      },
+      {
+        "id": "A2-Q16",
+        "stem": "A 67-year-old man undergoes elective open sigmoidectomy for diverticular disease. On day 5, he develops fever, WBC 18 × 10⁹/L, and watery diarrhoea. He was on prophylactic co-amoxiclav perioperatively. C. difficile toxin assay is positive. Oral metronidazole was commenced on day 4 with no improvement. What is the appropriate next step?",
+        "options": {
+          "A": "Continue metronidazole for 14 days — treatment requires at least 14 days to be effective",
+          "B": "Switch to oral vancomycin 125mg QDS — first-line treatment for non-severe CDI where metronidazole fails",
+          "C": "Commence IV metronidazole — oral absorption may be inadequate in post-operative ileus",
+          "D": "Emergency colectomy — post-operative CDI always requires surgical management"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Clostridium difficile infection (CDI) treatment has been significantly revised following IDSA 2021 guidelines. Metronidazole is no longer first-line for CDI — vancomycin or fidaxomicin is preferred due to superior efficacy and lower recurrence rates. If the patient was started on metronidazole and is not improving, the appropriate switch is to oral vancomycin 125mg four times daily for 10–14 days (the IDSA/SHEA standard first-line therapy for non-severe CDI). Fidaxomicin 200mg BD is an alternative with lower recurrence rates. Metronidazole failure rates exceed 15% in hospitalised patients.",
+          "wrong": {
+            "A": "Continuing metronidazole after 4 days of no improvement is not appropriate — the 2021 IDSA guidelines no longer recommend metronidazole for CDI regardless of severity. Metronidazole has been de-escalated due to inferior cure rates (90% vs 96–98% for vancomycin) and higher recurrence rates.",
+            "C": "IV metronidazole has poor luminal concentrations in the colon (it relies on colonic secretion) and is less effective than oral vancomycin for CDI. IV metronidazole may be added to oral vancomycin in fulminant CDI (shock, ileus), but it should not replace oral vancomycin as the primary anticolitis agent.",
+            "D": "Emergency colectomy is indicated only for fulminant CDI with toxic megacolon (colonic diameter >6cm on CT), bowel perforation, or haemodynamic deterioration despite maximal medical therapy. This patient has non-severe CDI — surgical management at this stage is premature and inappropriate."
+          },
+          "guideline": "IDSA/SHEA CDI Clinical Practice Guidelines 2021 — vancomycin 125mg QDS (10–14 days) or fidaxomicin 200mg BD is first-line for non-severe CDI; metronidazole no longer recommended as first-line",
+          "trial": "Johnson S et al. (Clin Infect Dis 2021): IDSA update — vancomycin and fidaxomicin superior to metronidazole in cure rates and recurrence prevention. Fidaxomicin associated with 40% lower recurrence rate than vancomycin (CLARITY, DIFICID trials).",
+          "pearl": "Define CDI severity for treatment selection: non-severe (WBC <15, creatinine <1.5× baseline) → vancomycin or fidaxomicin; severe (WBC ≥15, creatinine >1.5×) → vancomycin 125mg QDS; fulminant (shock, ileus, megacolon) → vancomycin 500mg QDS + IV metronidazole 500mg TDS ± surgery."
+        }
+      },
+      {
+        "id": "A2-Q17",
+        "stem": "A 76-year-old woman with ECOG 2 performance status, controlled hypertension, and mild cognitive impairment presents with a sigmoid adenocarcinoma (pT3 N1a M0) after elective laparoscopic sigmoidectomy. Pathology reports 14 lymph nodes, 1 positive, R0 resection. She tolerates the surgery well and is discharged on day 5. At the post-operative MDT, adjuvant chemotherapy is discussed. What is the most appropriate recommendation?",
+        "options": {
+          "A": "FOLFOX (oxaliplatin + 5-FU + leucovorin) for 12 cycles — identical to younger patients with stage III disease",
+          "B": "Capecitabine monotherapy — single-agent fluoropyrimidine is appropriate first-line adjuvant therapy for fit elderly patients; oxaliplatin adds toxicity without proven OS benefit in patients >70 years",
+          "C": "No adjuvant chemotherapy — age >75 and ECOG 2 are absolute contraindications to adjuvant therapy",
+          "D": "CAPOX for 8 cycles — reduced intensity combination regimen is appropriate for all elderly stage III patients"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "For elderly patients (>70 years) with stage III colon cancer, the benefit of adding oxaliplatin to adjuvant fluoropyrimidine therapy is not clearly established. Multiple subgroup analyses of MOSAIC (FOLFOX) and the ACCENT database demonstrate that the DFS benefit of oxaliplatin is attenuated in patients >70 years, while peripheral neuropathy risk (cumulative, irreversible) is substantially higher. The NCCN and ESMO guidelines recommend capecitabine monotherapy as a standard adjuvant option for elderly patients where oxaliplatin toxicity outweighs benefit. ECOG 2 further limits tolerance for combination chemotherapy. A geriatric assessment (G8 or CGA) should guide the final decision.",
+          "wrong": {
+            "A": "Full-dose FOLFOX for an ECOG 2, 76-year-old patient without geriatric assessment is inappropriate. Oxaliplatin-induced peripheral neuropathy is dose-dependent, cumulative, and irreversible — a 76-year-old with ECOG 2 has high risk of dose-limiting toxicity and functional deterioration with full oxaliplatin-based therapy.",
+            "C": "Age >75 and ECOG 2 are not absolute contraindications to adjuvant therapy. Functional status, comorbidity burden, and patient preference all inform the decision. Stage IIIA N1a disease has a meaningful survival benefit from adjuvant fluoropyrimidine therapy, and a fit 76-year-old can safely receive capecitabine.",
+            "D": "CAPOX (8 cycles = 6 months) may be appropriate for younger, fitter elderly patients, but ECOG 2 and cognitive impairment in this patient favour single-agent capecitabine over combination therapy. Reduce intensity before reducing duration."
+          },
+          "guideline": "NCCN Colon Cancer v2.2024 — capecitabine acceptable as adjuvant therapy for stage III in elderly patients; geriatric assessment recommended before adjuvant decisions in patients >70 years",
+          "trial": "MOSAIC subgroup analysis (André, J Clin Oncol 2009): no significant DFS benefit from FOLFOX over LV5FU2 in patients >70 years; OS not improved. ACCENT database meta-analysis: oxaliplatin benefit significantly attenuated in >70s.",
+          "pearl": "Use the G8 frailty screening tool (8-item questionnaire, score ≤14 indicates frailty needing comprehensive geriatric assessment) before offering adjuvant chemotherapy to patients >70 years. Frail patients have reduced treatment tolerance and may derive less net benefit from chemotherapy than non-frail patients."
+        }
+      },
+      {
+        "id": "A2-Q18",
+        "stem": "A 62-year-old woman undergoes laparoscopic left hemicolectomy with primary anastomosis and no diverting stoma for a descending colon cancer. On day 7, she develops severe abdominal pain, guarding, and fever 39.2°C. CT abdomen shows free peritoneal air and faecal material diffusely in the abdomen. She is haemodynamically unstable (BP 85/50 mmHg, HR 115 bpm) despite initial resuscitation. What is the most appropriate definitive surgical management?",
+        "options": {
+          "A": "CT-guided percutaneous drainage and broad-spectrum antibiotics — Grade B anastomotic leak",
+          "B": "Emergency return to theatre: laparotomy, washout, Hartmann's procedure (anastomosis takedown, end colostomy)",
+          "C": "Laparoscopic repeat anastomosis with defunctioning ileostomy",
+          "D": "Endoscopic vacuum therapy (EVT) placement with ICU admission"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "This patient has a Grade C anastomotic leak (free peritoneal contamination, faecal peritonitis, haemodynamic instability) requiring emergency laparotomy. The Hartmann's procedure — anastomosis takedown, proximal end colostomy, and closure of the rectal/colonic stump — is the standard management for unstable patients with faecal peritonitis. The principles are: (1) source control (remove the leaking anastomosis); (2) peritoneal lavage (copious washout); (3) avoid re-anastomosis in a contaminated, shocked patient; (4) resuscitate in ICU. Hartmann's reversal can be planned 3–6 months later when the patient has recovered and nutritional status is restored.",
+          "wrong": {
+            "A": "CT-guided drainage is appropriate for Grade B leaks (contained pericolic collection without free peritoneal contamination, haemodynamically stable). Free intraperitoneal faecal matter and haemodynamic instability define Grade C — this requires operative intervention, not percutaneous drainage.",
+            "C": "Re-anastomosis in a contaminated field with faecal peritonitis in a haemodynamically unstable patient is contraindicated — it will inevitably fail and add to the morbidity. Damage control surgery (Hartmann's) is the principle.",
+            "D": "Endoscopic vacuum therapy is appropriate for contained presacral cavities after low anterior resection (Grade B leaks after LAR). It cannot address free intraperitoneal faecal contamination or haemodynamic instability — this patient requires emergency laparotomy, not endoscopy."
+          },
+          "guideline": "International Study Group of Rectal Cancer — Grade C anastomotic leak: emergency laparotomy, source control, peritoneal washout, Hartmann's procedure or defunctioning for unstable patients",
+          "trial": "Hirst NA et al. (Ann Surg 2020): Grade C anastomotic leak mortality 15–20% without surgical intervention; Hartmann's procedure reduces mortality compared to non-operative management in unstable patients. Damage control laparotomy principles applied.",
+          "pearl": "In the unstable patient with faecal peritonitis after anastomotic leak: do not attempt to save the anastomosis. The priority is haemorrhage control and source control — Hartmann's in 90 minutes with good washout is better than a 3-hour attempt at re-anastomosis. Reversal of Hartmann's can be offered electively."
+        }
+      },
+      {
+        "id": "A2-Q19",
+        "stem": "A 49-year-old man undergoes genetic testing after his father died of colorectal cancer at age 42, and his sister was diagnosed with endometrial cancer at age 38. His test reveals a pathogenic MLH1 germline mutation (Lynch syndrome). He has no current symptoms and a recent colonoscopy 18 months ago was normal. What is the most appropriate colorectal surveillance recommendation for this patient?",
+        "options": {
+          "A": "Colonoscopy every 5 years — Lynch syndrome carries only modest lifetime cancer risk",
+          "B": "Colonoscopy every 1–2 years beginning at age 20–25 or 2–5 years before the earliest family diagnosis",
+          "C": "Prophylactic total colectomy now — all Lynch syndrome carriers should undergo prophylactic surgery",
+          "D": "CT colonography every 3 years — equivalent to colonoscopy for Lynch syndrome surveillance"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Lynch syndrome (HNPCC) caused by MLH1, MSH2, MSH6, or PMS2 germline mutations carries a 40–70% lifetime risk of colorectal cancer (MLH1/MSH2 carriers have the highest risk). Annual or biennial colonoscopy beginning at age 20–25 (or 2–5 years before the earliest age of CRC diagnosis in the family) is the NCCN and ESMO standard surveillance recommendation. Colonoscopy is preferred over CT colonography because Lynch syndrome CRCs may develop from flat or subtle adenomas that are detectable only by high-definition endoscopy. Chromoendoscopy increases polyp detection in Lynch syndrome surveillance.",
+          "wrong": {
+            "A": "Five-year intervals are inappropriate for Lynch syndrome. The adenoma-to-carcinoma sequence is accelerated in MMR-deficient mucosa — polyps can progress to cancer in as little as 2–3 years, compared to 10+ years in average-risk individuals. Annual or biennial colonoscopy is required.",
+            "C": "Prophylactic total colectomy is not recommended for Lynch syndrome carriers without established cancer. It is discussed when the patient develops a first colorectal cancer (at which point subtotal colectomy is often preferred over segmental resection to avoid the high risk of metachronous CRC). Prophylactic colectomy in a gene carrier without cancer is not the standard recommendation.",
+            "D": "CT colonography (virtual colonoscopy) has insufficient sensitivity for flat lesions and smaller polyps and cannot allow polypectomy. It is not an appropriate substitute for optical colonoscopy in Lynch syndrome surveillance where rapid adenoma development and subtle lesions require direct mucosal assessment."
+          },
+          "guideline": "NCCN Colorectal Cancer Screening v2.2024 — MLH1/MSH2 Lynch syndrome: colonoscopy every 1–2 years starting at age 20–25; MSH6/PMS2: colonoscopy every 1–2 years starting at age 25–30",
+          "trial": "CAPP2 trial (Burn, Lancet 2011): aspirin 600mg daily reduced CRC incidence in Lynch syndrome by 63% at 4.5-year follow-up (post hoc analysis). NCCN notes aspirin can be discussed with Lynch syndrome patients as chemoprevention, although dose and duration remain under study.",
+          "pearl": "Lynch syndrome cancer spectrum (Amsterdam criteria II — '3-2-1-0 rule'): 3 relatives with Lynch-associated cancer; 2 successive generations; 1 affected before age 50; 0 patients with FAP excluded. Extra-colonic Lynch cancers: endometrial (highest risk after CRC), ovarian, gastric, urinary tract, small bowel, biliary, brain."
+        }
+      },
+      {
+        "id": "A2-Q20",
+        "stem": "A 53-year-old man has a biopsy-confirmed T2 N0 low rectal cancer at 3cm from the anal verge. Staging MRI confirms tumour confined to the muscularis propria, no lymph node involvement, and 8mm CRM clearance. He has good sphincter function and desires sphincter preservation. He does not wish to have neoadjuvant therapy. Which of the following is the most appropriate operative approach?",
+        "options": {
+          "A": "Transanal local excision (TEM or TAMIS) — T2 N0 low rectal cancer can be managed with local excision alone",
+          "B": "Abdominoperineal resection — all T2 cancers at 3cm from the anal verge require APR",
+          "C": "Intersphincteric resection (ISR) with coloanal anastomosis — sphincter-preserving surgery achieving ≥5mm distal margin with curative intent",
+          "D": "Total mesorectal excision via laparoscopic low anterior resection with straight stapling — always feasible for T2 tumours"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "For a T2 N0 low rectal cancer at 3cm from the anal verge in a patient desiring sphincter preservation, intersphincteric resection (ISR) is the appropriate sphincter-preserving technique. ISR removes the internal sphincter (and mesorectum) en-bloc with the tumour, achieving adequate circumferential and distal margins while preserving the external sphincter and puborectalis muscle. A coloanal anastomosis is fashioned to the level of the dentate line. ISR is appropriate for T2 and selected T3 tumours where the external sphincter is not involved. A ≥5mm distal margin is achievable. A defunctioning loop ileostomy is fashioned routinely.",
+          "wrong": {
+            "A": "Transanal local excision (TEM/TAMIS) alone is oncologically inadequate for T2 rectal cancer. Local excision does not remove the mesorectum or regional lymph nodes, and residual disease risk is high. The local recurrence rate after local excision of T2 tumours is 20–30% — unacceptable in a fit patient. Local excision is appropriate for T1 N0 tumours with favourable histology only.",
+            "B": "APR should be reserved for tumours where the external sphincter or levator ani is involved, or where an adequate distal margin cannot be achieved with ISR. With a 3cm distance from the anal verge and a T2 tumour not invading the external sphincter, ISR is feasible and preferable to APR given the patient's desire for sphincter preservation.",
+            "D": "A standard low anterior resection with stapled anastomosis at 3cm from the anal verge would require the anastomosis at or below the dentate line — a stapled colorectal anastomosis is technically not possible at 3cm with standard instruments. ISR with handsewn coloanal anastomosis is the appropriate technique for tumours this close to the anal verge."
+          },
+          "guideline": "NCCN Rectal Cancer v2.2024 — intersphincteric resection with coloanal anastomosis for low rectal tumours not invading the external sphincter, as an alternative to APR when sphincter preservation is desired; defunctioning ileostomy recommended",
+          "trial": "Rullier E et al. (J Am Coll Surg 2005): ISR for low rectal cancers — R0 resection 96%, local recurrence 9% at 5 years, continence adequate in 75% of patients. Martin ST (Ann Surg 2012): ISR vs APR in low rectal cancer — equivalent oncological outcomes with significantly improved quality of life (body image, sexuality).",
+          "pearl": "Functional outcomes after ISR: warn patients that continence is impaired compared to standard LAR. Low anterior resection syndrome (LARS) — frequency, urgency, incontinence — affects up to 75% of ISR patients at 1 year, improving to 50% at 5 years. Pre-operative counselling and post-operative biofeedback pelvic floor physiotherapy are essential components of care."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,631 @@
+{
+  "id": "E2",
+  "block": "E",
+  "block_name": "Transplantation & Vascular",
+  "title": "Renal & Multivisceral Transplantation",
+  "level": "PGY4-5",
+  "sections": [
+    {
+      "id": "E2-S1",
+      "title": "Renal Transplantation",
+      "content": [
+        {
+          "type": "text",
+          "content": "Renal transplantation is the treatment of choice for end-stage renal disease (ESRD), offering superior survival and quality of life over haemodialysis (HD) or peritoneal dialysis (PD). The leading ESRD aetiologies requiring transplantation are: diabetic nephropathy (30–40%), hypertensive nephrosclerosis (25–30%), glomerulonephritis (15%), polycystic kidney disease (5–10%), and IgA nephropathy (5%). Recipient evaluation includes cardiovascular risk stratification (most common cause of post-transplant mortality), assessment for malignancy, infection screen (TB, HIV, CMV, EBV, hepatitis B/C), urological evaluation (bladder function — video-urodynamics if prior voiding dysfunction), and psychosocial assessment. Contraindications mirror those for OLT, with the addition of active uraemia-related complications that first require optimisation."
+        },
+        {
+          "type": "text",
+          "content": "Living donor transplantation (LDT) offers superior outcomes over deceased donor (DDT): 1-year graft survival 95% vs 89%; half-life 12–15 years vs 8–10 years. Living donors can be emotionally related (spouse, partner, friend) or genetically related (sibling, parent, child). HLA matching reduces rejection risk: a 0-mismatch kidney (6/6 HLA match) has significantly longer graft survival than a 6-mismatch graft. The crossmatch test (complement-dependent cytotoxicity — CDC crossmatch, or flow cytometry crossmatch — FCXM) detects preformed donor-specific antibodies (DSA): a positive T-cell crossmatch is an absolute contraindication to transplantation (hyperacute rejection risk). PRA (panel reactive antibody) measures degree of sensitisation — highly sensitised patients (PRA >80%) have prolonged wait times."
+        },
+        {
+          "type": "text",
+          "content": "Surgical technique: the kidney is placed retroperitoneally in the right iliac fossa (right placement preferred — provides easier access to iliac vessels and shorter vein on left kidney). The renal artery is anastomosed end-to-side to the external iliac artery. The renal vein is anastomosed end-to-side to the external iliac vein. Urinary reconstruction uses the Lich-Gregoir extravesical ureteroneocystostomy: the ureter is tunnelled submucosally through a 3–4 cm submucosal tunnel in the detrusor muscle, creating an antireflux mechanism without entering the bladder formally. A double-J ureteric stent is placed routinely (removed at 4–6 weeks). Delayed graft function (DGF) — requirement for dialysis within the first week post-transplant — occurs in 20–30% of DBD, 40–50% of DCD kidneys. DGF is due to ischaemia-reperfusion injury and acute tubular necrosis (ATN); it prolongs hospitalisation but does not independently predict long-term graft survival when managed appropriately."
+        },
+        {
+          "type": "table",
+          "title": "Living vs Deceased Donor Renal Transplant Outcomes",
+          "headers": ["Outcome", "Living Donor", "DBD Deceased", "DCD Deceased"],
+          "rows": [
+            ["1-year graft survival", "~95%", "~89%", "~85%"],
+            ["Half-life (graft)", "12–15 years", "8–10 years", "6–8 years"],
+            ["DGF rate", "5–10%", "20–30%", "40–50%"],
+            ["Cold ischaemia time", "Minimal (<2h)", "12–24h typical", "8–18h (shorter preferred)"],
+            ["Primary non-function", "<1%", "2–3%", "4–8%"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Lich-Gregoir Ureteroneocystostomy",
+          "content": "The extravesical Lich-Gregoir technique creates an antireflux mechanism without cystotomy: a 3–4 cm seromuscular incision is made in the bladder posterolateral wall, the mucosa is mobilised but not opened, the ureter is laid in the trough and the muscle is closed over it. This creates a flap valve preventing vesicoureteric reflux. A double-J stent is placed for 4–6 weeks to prevent early ureteric obstruction from post-anastomotic oedema."
+        }
+      ]
+    },
+    {
+      "id": "E2-S2",
+      "title": "Immunosuppression in Renal Transplant",
+      "content": [
+        {
+          "type": "text",
+          "content": "Induction immunosuppression at the time of transplantation provides intense early immunosuppression to prevent acute rejection during the most vulnerable period. Basiliximab (anti-IL-2 receptor monoclonal antibody — chimeric CD25 blocker) is standard for low/standard immunological risk. Antithymocyte globulin (ATG — polyclonal rabbit antibody against T-cell surface antigens) is reserved for high-risk recipients (sensitised patients, re-transplants, DCD kidneys, DGF). ATG provides deeper lymphodepletion but carries higher infection risk. Maintenance triple therapy: (1) Tacrolimus — target trough 8–12 ng/mL in first 3 months, 5–8 ng/mL thereafter; (2) Mycophenolate mofetil (MMF) or mycophenolic acid (MPA) 1–1.5g twice daily; (3) Prednisolone — tapered from 30 mg to 5–7.5 mg daily over 6–12 weeks (some centres aim for steroid withdrawal at 3 months)."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "BK Virus Nephropathy",
+          "content": "BK polyomavirus (BKV) reactivates under potent immunosuppression (particularly tacrolimus + MMF). BK nephropathy (BKVN) affects 1–10% of renal transplant recipients and is a major cause of graft loss. Screening: urine BK PCR every 3 months in first 2 years; plasma BK PCR if urine positive. Treatment: immunosuppression reduction (reduce tacrolimus target + reduce/stop MMF). There is no approved antiviral — cidofovir is nephrotoxic and reserved for severe cases. BKVN on biopsy shows nuclear viral inclusions (Haufen bodies) with interstitial nephritis; must be distinguished from rejection (SV40 immunostaining positive in BKVN)."
+        },
+        {
+          "type": "table",
+          "title": "Rejection Types in Renal Transplantation",
+          "headers": ["Type", "Timing", "Biopsy Features (Banff)", "Treatment"],
+          "rows": [
+            ["Hyperacute", "Minutes (intraoperative)", "Thrombotic microangiopathy, haemorrhagic necrosis", "Nephrectomy — prevention only (crossmatch)"],
+            ["Acute T-cell mediated (TCMR)", "Days–months", "Tubulitis (t-score ≥1) + interstitial infiltrate (i-score ≥2) — Banff IA/IB/IIA/IIB", "Methylprednisolone pulse; ATG for steroid-resistant"],
+            ["Acute antibody-mediated (ABMR)", "Days–weeks (or late)", "Peritubular capillaritis + C4d + DSA; glomerulitis (g≥1)", "Plasmapheresis + IVIG ± rituximab ± bortezomib"],
+            ["Chronic active ABMR", "Months–years", "Transplant glomerulopathy (GBM duplication), arteriolar hyalinosis, C4d±", "Intensify IS; plasmapheresis; poor prognosis"],
+            ["CNI toxicity (mimic)", "Any", "Arteriolar hyalinosis, vacuolisation — NO inflammatory infiltrate; SV40 negative", "CNI dose reduction; switch to mTOR inhibitor"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E2-S3",
+      "title": "Surgical Complications of Renal Transplant",
+      "content": [
+        {
+          "type": "text",
+          "content": "Urological complications affect 5–15% of renal transplant recipients and are the most common early surgical complications. Urine leak (1–5%): typically at the ureteroneocystostomy anastomosis, presenting in the first 2 weeks with pain, swelling, elevated creatinine, and drain fluid creatinine >2× serum creatinine. Management: if small, Foley catheter drainage ± percutaneous nephrostomy decompression; if large, re-exploration and revision of anastomosis. Ureteral obstruction (2–10%): early (<3 months) — ureteric oedema, haematoma, technical; late — fibrosis, ischaemia, BK virus. Diagnosis: ultrasound (hydronephrosis) + nuclear renogram (obstructive pattern) + antegrade nephrostogram. Management: percutaneous nephrostomy → balloon dilation/stent → surgical revision if refractory."
+        },
+        {
+          "type": "text",
+          "content": "Lymphocele (5–15%): most common late (>4 weeks) fluid collection post-renal transplant. Lymphatic channels from the iliac vessel dissection accumulate fluid around the transplant. Diagnosis: ultrasound (anechoic, non-enhancing); lymphocele fluid has creatinine = serum creatinine (unlike urine leak) and contains lymphocytes. Management: expectant for small asymptomatic lymphoceles; laparoscopic marsupialization (fenestration into peritoneal cavity) for large/obstructive lymphoceles. Renal artery stenosis (TRAS): presents 3 months to 2 years post-transplant with hypertension, graft dysfunction, and — pathognomonic — a bruit over the transplant. Doppler US: peak systolic velocity >250 cm/s at anastomosis, tardus-parvus waveform distal to stenosis. Treatment: percutaneous transluminal angioplasty ± stenting (first-line). Wound complications: perigraft haematoma, wound infection, dehiscence — particularly in obese, diabetic, or immunosuppressed recipients. Vascular thrombosis: renal artery/vein thrombosis — early (first days) — presents with anuric graft and severe pain; diagnosis by Doppler; usually requires graft nephrectomy."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Lymphocele vs Urine Leak vs Haematoma — Bedside Distinction",
+          "content": "Test aspirate fluid creatinine: if >2× serum creatinine → urine leak (contains filtered urine). Lymphocele fluid creatinine = serum creatinine, contains lymphocytes and chylomicrons. Haematoma: haemorrhagic fluid, haematocrit similar to blood. Ultrasound characteristics: haematoma is echogenic/complex early; lymphocele is anechoic; urine urinoma is also anechoic but appears earlier (<2 weeks) than lymphocele (>4 weeks)."
+        }
+      ]
+    },
+    {
+      "id": "E2-S4",
+      "title": "Pancreas Transplantation",
+      "content": [
+        {
+          "type": "text",
+          "content": "Pancreas transplantation restores endogenous insulin secretion in patients with Type 1 diabetes mellitus (T1DM) and selected Type 2 DM with minimal insulin resistance. Three categories exist: (1) Simultaneous pancreas-kidney (SPK) — most common (70–80% of pancreas transplants); transplant both organs in same operation in T1DM with ESRD (eGFR <20 mL/min); superior graft survival as kidney rejection provides early warning; (2) Pancreas after kidney (PAK) — pancreas transplant after successful kidney transplant; avoids kidney-pancreas combined surgery; (3) Pancreas transplant alone (PTA) — in patients with severe hypoglycaemia unawareness or brittle T1DM without significant nephropathy. Surgical technique: deceased donor pancreas with donor duodenum is transplanted intraperitoneally to the right iliac fossa. The superior mesenteric artery and splenic artery are reconstructed via a Y-graft from donor iliac artery to create a single inflow vessel. Portal vein is anastomosed to recipient external iliac vein (systemic drainage) or superior mesenteric vein (portal drainage — more physiological, reduces hyperinsulinaemia). Exocrine drainage: enteric drainage (duodeno-jejunostomy — preferred, avoids metabolic complications) vs bladder drainage (urinary amylase monitoring for rejection — historical; bladder drainage complications: urethritis, dehydration, metabolic acidosis — require conversion to enteric in 20–30%)."
+        },
+        {
+          "type": "table",
+          "title": "Pancreas Transplant Categories — Indications & Outcomes",
+          "headers": ["Category", "Indication", "1-yr Graft Survival", "Advantage"],
+          "rows": [
+            ["SPK", "T1DM + ESRD (eGFR <20)", "Pancreas ~85%; Kidney ~93%", "Kidney acts as 'sentinel' for rejection; single operation"],
+            ["PAK", "T1DM with prior successful kidney Tx", "Pancreas ~75%", "Avoids combined surgery complexity"],
+            ["PTA", "T1DM + hypoglycaemia unawareness, no ESRD", "Pancreas ~72%", "Eliminates diabetes risk without ESRD"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Pancreas Graft Thrombosis",
+          "content": "Graft thrombosis is the leading non-immunological cause of early pancreas graft loss (5–10%). The pancreas has high vascular resistance and low flow, making it prone to thrombosis — particularly in the graft venous system. Prevention: systemic anticoagulation with heparin infusion for 5–7 days post-transplant (institution-specific), then aspirin. Diagnosis: Doppler US (absent flow), CT angiogram. Treatment: urgent re-exploration (thrombectomy rarely successful); usually requires graft pancreatectomy. Risk factors: long cold ischaemia time, donor obesity, DCD pancreas, recipient haemodynamic instability."
+        }
+      ]
+    },
+    {
+      "id": "E2-S5",
+      "title": "Intestinal & Multivisceral Transplantation",
+      "content": [
+        {
+          "type": "text",
+          "content": "Intestinal transplantation is the least common but most immunologically challenging solid organ transplant. Indication: intestinal failure (IF) Type III — permanent dependence on parenteral nutrition (PN) with life-threatening PN complications (catheter-related sepsis, progressive liver disease, loss of venous access). Short bowel syndrome (SBS) is the most common aetiology in adults (post-mesenteric ischaemia, Crohn's disease) and children (midgut volvulus, necrotising enterocolitis, gastroschisis). PN failure is defined by: two life-threatening infections/year, progressive liver failure (IFALD — intestinal failure-associated liver disease), or loss of major venous access. Three types of intestinal transplant: (1) Isolated intestinal — small bowel only; for IF without significant liver disease; (2) Liver + intestinal — combined; for IF with IFALD; (3) Multivisceral — en bloc liver + stomach + pancreas + intestine ± colon; for diffuse abdominal pathology (tumour, total vascular thrombosis)."
+        },
+        {
+          "type": "text",
+          "content": "The intestinal graft carries the highest antigen load of any transplanted organ (enteric immune system, massive mucosal surface) and the highest rejection rate — acute cellular rejection occurs in 40–60% of recipients within the first year. Rejection monitoring: endoscopy with mucosal biopsies every 1–2 weeks in the first 3 months, then monthly; clinical signs include increased stomal output, fever, abdominal pain; biopsy shows crypt apoptosis, mucosal ulceration, villous blunting. Graft-versus-host disease (GVHD) is unique to intestinal/multivisceral transplantation — donor lymphocytes in the mesenteric lymph nodes can engraft and attack recipient tissues (skin rash, liver, bone marrow). Management: immunosuppression adjustment, OKT3, ATG. Infection — bacterial translocation from rejected/ischaemic mucosa and high immunosuppression burden make infection the leading cause of death post-intestinal transplant. CMV enteritis, EBV-associated PTLD, and fungal infections are major threats."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "Intestinal Transplant Registry Report — 2019",
+          "citation": "Grant D et al. 2003 Report of the Intestinal Transplant Registry. A new era has dawned. Ann Surg. 2005;241(4):607–613; Updated 2019 ITR data.",
+          "population": "3000+ intestinal transplants worldwide from 80+ centres",
+          "intervention": "Isolated intestinal, liver+intestinal, multivisceral transplantation",
+          "result": "1-year patient survival improved from 52% (1985–1994) to 78% (2005–2019) for isolated intestinal Tx; 5-year OS 50–60%. Rejection remains primary complication (40–60% in year 1). PTLD incidence 5–10%.",
+          "practice_change": "Induction with IL-2 receptor blockers and tacrolimus-based maintenance reduced rejection. Endoscopic surveillance protocols and early antiviral prophylaxis improved outcomes. Intestinal Tx remains investigational at most centres."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "GVHD in Intestinal Transplant",
+          "content": "GVHD affects 5–10% of intestinal transplant recipients. It must be distinguished from rejection (reverse direction — donor attacking host). Clinical presentation: erythematous skin rash (dorsal hands/feet first), diarrhoea (but native colon affected, not graft), elevated liver enzymes, pancytopenia. Biopsy of skin or host colon (not graft) shows characteristic apoptotic bodies. Management: systemic steroids, mycophenolate, and donor lymphocyte depletion with ATG."
+        }
+      ]
+    },
+    {
+      "id": "E2-S6",
+      "title": "Organ Preservation & Allocation",
+      "content": [
+        {
+          "type": "text",
+          "content": "Cold ischaemia time (CIT) is the period from organ perfusion with cold preservation solution to vascular reperfusion in the recipient. Acceptable CIT limits before graft injury becomes prohibitive: kidney ≤24 hours (though DGF risk rises steeply beyond 18h); liver ≤12 hours for standard criteria (shorter for DCD — <8h); pancreas ≤12 hours; intestine ≤8 hours (most sensitive to ischaemia). Warm ischaemia time (WIT) — the period of no-flow or inadequate perfusion at body temperature — is far more injurious than equivalent cold ischaemia. Preservation solutions: UW (University of Wisconsin) solution — gold standard for liver, pancreas, kidney; high-viscosity, adenosine/glutathione/raffinose-based. HTK (histidine-tryptophan-ketoglutarate) — lower viscosity, better distribution; preferred by some for pancreas and heart. Custodiol = HTK brand name."
+        },
+        {
+          "type": "table",
+          "title": "Cold Ischaemia Time Limits by Organ",
+          "headers": ["Organ", "Acceptable CIT", "Maximum CIT", "Most Sensitive to"],
+          "rows": [
+            ["Kidney", "≤18h (optimal)", "24h", "Warm ischaemia (DCD)"],
+            ["Liver", "≤10h (optimal)", "12–16h (DBD)", "Biliary epithelium; warm ischaemia"],
+            ["Pancreas", "≤10h (optimal)", "12h", "Venous thrombosis; oedema"],
+            ["Intestine", "≤6h (optimal)", "8h", "Mucosal ischaemia; bacterial translocation"],
+            ["Heart", "≤4h", "6h (exceptional)", "Cardiomyocyte ischaemia"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Machine perfusion: hypothermic machine perfusion (HMP) for kidneys reduces DGF rate in DCD kidneys (ORCA trial). Normothermic machine perfusion (NMP) for liver (OrganOx metra — CE-marked) allows metabolic assessment and reconditioning. Hypothermic oxygenated perfusion (HOPE) for livers reduces ischaemia-reperfusion injury (COPE trial, NEJM 2021). EUROTRANSPLANT allocation: kidneys are allocated using the Eurotransplant Kidney Allocation System (ETKAS) — point-based scoring: HLA mismatch (MM score), waiting time, PRA (sensitisation), recipient age, and the 'zero-mismatch rule' (0-MM kidneys must be offered nationally before local allocation). Highly sensitised recipients (cPRA >85%) receive accelerated access (ETKAS AM programme). UNOS allocation (USA): kidney allocation system (KAS) implemented 2014 — incorporates estimated post-transplant survival (EPTS score), donor kidney profile index (KDPI), dialysis time, prior living donor status, age matching (paediatric priority), and sensitisation."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "ORCA Trial — HMP for DCD Kidneys",
+          "citation": "Moers C et al. Machine Perfusion or Cold Storage in Deceased-Donor Kidney Transplantation. N Engl J Med. 2009;360(1):7–19.",
+          "population": "336 deceased-donor kidney pairs (one kidney per donor randomised to HMP, contralateral to cold storage)",
+          "intervention": "Hypothermic machine perfusion (LifePort Kidney Transporter) vs standard cold storage",
+          "result": "HMP: DGF 20.8% vs cold storage 26.5% (RR 0.57); primary non-function 2.4% vs 5.5%; graft survival at 1 year 94% vs 90%",
+          "practice_change": "HMP is now recommended standard for DCD kidneys and high-risk DBD kidneys in most European centres; machine perfusion resistance index (RI <0.4) also helps predict viability"
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "EUROTRANSPLANT 0-Mismatch Rule",
+          "content": "Any kidney with 0 HLA mismatches (6-antigen match — A, B, DR all matched) must be offered to all Eurotransplant member countries before local allocation, regardless of waiting time. This rule prioritises the rare 'perfect match' allocation to prevent immunological sensitisation and maximises long-term graft outcomes. In UNOS/KAS, the 0-MM rule was abolished in 2014 and replaced with the EPTS/KDPI points system."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "E2-Q1",
+      "stem": "A 45-year-old man undergoes renal transplantation. The ureter is anastomosed to the bladder using the Lich-Gregoir technique. On postoperative day 3, he develops pain and swelling over the graft and rising creatinine. Drain fluid creatinine is 890 μmol/L (serum creatinine 320 μmol/L). What is the most likely diagnosis?",
+      "options": {
+        "A": "Lymphocele — aspirate and observe",
+        "B": "Perigraft haematoma — CT scan and surgical exploration",
+        "C": "Urine leak from ureteroneocystostomy — Foley catheter drainage and percutaneous nephrostomy",
+        "D": "Acute rejection — methylprednisolone pulse"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "Drain fluid creatinine >2× serum creatinine confirms a urine leak. The classic early (first 2 weeks) urological complication post-renal transplant is urine leak from the ureteroneocystostomy, particularly the Lich-Gregoir anastomosis. Management: Foley catheter (decompresses bladder, reducing pressure at anastomosis) + percutaneous nephrostomy (diverts urine proximally). If leak persists or is large → surgical revision.",
+        "wrong": {
+          "A": "Lymphocele fluid creatinine equals serum creatinine (not >2×). It also typically appears later (>4 weeks). Drain fluid creatinine 890 vs serum 320 confirms urinary rather than lymphatic origin.",
+          "B": "Haematoma fluid would contain blood (haematocrit similar to blood) — not fluid with high creatinine. CT may be performed to characterise, but the biochemical data confirms urine, not haematoma.",
+          "D": "Acute rejection would cause rising creatinine but would not produce high-creatinine drain fluid. Biochemical evidence of urine leak takes priority over rejection assessment at this stage."
+        },
+        "guideline": "BTS/RA UK Renal Transplant Guidelines 2020. Urine leak: most common early urological complication; drain fluid creatinine >2× serum = diagnostic of urinary origin.",
+        "trial": "Streeter EH et al. Urine leak after renal transplantation. BJU Int 2002 — urine leak in 2–5% of Lich-Gregoir ureteroneocystostomy; Foley drainage achieves resolution in 50–60%.",
+        "pearl": "The double-J ureteric stent placed at transplantation reduces urine leak and early ureteric obstruction. The stent is removed cystoscopically at 4–6 weeks. Stent-related UTI risk increases after 6 weeks."
+      }
+    },
+    {
+      "id": "E2-Q2",
+      "stem": "A renal transplant recipient on tacrolimus + MMF + prednisolone at 6 months post-transplant has urine BK PCR of 450,000 copies/mL and plasma BK PCR of 15,000 copies/mL. Creatinine has risen from 1.4 to 2.1 mg/dL over 3 months. What is the most appropriate management?",
+      "options": {
+        "A": "Start IV cidofovir immediately",
+        "B": "Reduce tacrolimus target trough and consider MMF dose reduction",
+        "C": "Increase tacrolimus — rising creatinine suggests rejection",
+        "D": "Renal biopsy first; if BKVN confirmed, start leflunomide"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Plasma BK PCR >10,000 copies/mL with rising creatinine is diagnostic of presumptive BK nephropathy. The cornerstone of BK management is immunosuppression reduction: reduce tacrolimus target (from 8–10 to 5–7 ng/mL) and reduce/halve MMF dose. Monitor plasma PCR monthly — aim for >1 log reduction. Renal biopsy is confirmatory but not mandatory before initiating IS reduction; IS reduction is first-line regardless.",
+        "wrong": {
+          "A": "Cidofovir is nephrotoxic and not routinely recommended for BK nephropathy. It is reserved for severe, biopsy-proven BKVN not responding to IS reduction. First-line is IS reduction, not antiviral therapy.",
+          "C": "Increasing tacrolimus would worsen BK replication. The rising creatinine in this context (plasma BK >10,000) is most likely BK nephropathy, not rejection. Distinguishing features: BK typically has slower creatinine rise, no fever, positive plasma PCR; rejection may have more acute presentation.",
+          "D": "Leflunomide has antiviral properties against BK virus and has been used, but evidence is limited and it is not first-line. IS reduction is the established initial step. Biopsy may follow if creatinine continues to rise despite IS reduction."
+        },
+        "guideline": "KDIGO Transplant Guideline 2009; AST Guidelines on BK 2013: IS reduction for plasma BK >10,000 copies/mL. KDIGO 2022 update: IS reduction remains cornerstone; no approved antiviral.",
+        "trial": "Hirsch HH et al. Prospective study of polyomavirus type BK replication and nephropathy in renal-transplant recipients. NEJM 2002 — established plasma PCR >10,000 as clinical action threshold.",
+        "pearl": "BK diagnosis hierarchy: (1) Urine decoy cells (high sensitivity, low specificity); (2) Urine BK PCR (positive at lower thresholds first); (3) Plasma BK PCR >10,000 = presumptive BKVN; (4) Biopsy SV40 immunostaining = definitive. SV40 immunostain cross-reacts with all polyomaviruses — it is used as proxy for BK in renal biopsy."
+      }
+    },
+    {
+      "id": "E2-Q3",
+      "stem": "Eight months after renal transplantation, a recipient presents with uncontrolled hypertension (BP 180/105 on 3 antihypertensives) and a new bruit over the transplant. Creatinine has risen from 1.6 to 2.8 mg/dL. Duplex Doppler shows peak systolic velocity 280 cm/s at the renal artery anastomosis with a tardus-parvus waveform distally. What is the diagnosis and treatment?",
+      "options": {
+        "A": "Chronic rejection — intensify immunosuppression",
+        "B": "Transplant renal artery stenosis (TRAS) — percutaneous transluminal angioplasty ± stenting",
+        "C": "CNI nephrotoxicity — reduce tacrolimus",
+        "D": "Lymphocele compressing the renal artery — laparoscopic marsupialization"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "The triad of new-onset hypertension resistant to multiple agents, rising creatinine, and a bruit over the transplant at 8 months is classic for TRAS. Doppler confirmation: PSV >250 cm/s at the anastomosis + tardus-parvus waveform (delayed rise, rounded peak) distal to stenosis confirms haemodynamically significant stenosis. First-line: percutaneous transluminal angioplasty (PTA) ± stenting. Surgical revision is reserved for PTA failure.",
+        "wrong": {
+          "A": "Chronic rejection presents with proteinuria and gradual creatinine rise without a bruit. Biopsy shows transplant glomerulopathy. Intensifying immunosuppression does not treat vascular stenosis.",
+          "C": "CNI toxicity causes gradual creatinine rise with tubular changes on biopsy — not a bruit or Doppler evidence of stenosis. Blood pressure may be elevated with CNI toxicity but without a bruit.",
+          "D": "A lymphocele could compress the collecting system (hydronephrosis) or ureter, but would not cause a bruit or the characteristic Doppler findings of arterial stenosis. Lymphocele ultrasound shows a discrete anechoic collection."
+        },
+        "guideline": "BTS/RA Renal Transplant Guidelines 2020. TRAS occurs in 2–10% of renal transplants, typically 3 months to 2 years post-transplant. PTA success rate >80%.",
+        "trial": "Roberts JP et al. Angioplasty for TRAS. Transplantation 1989 — PTA achieves technical success in 85%, with sustained hypertension improvement in 70%.",
+        "pearl": "TRAS causes a physiological state similar to renovascular hypertension in native kidneys — excessive RAAS activation from ischaemic allograft. ACE inhibitors can reduce GFR further by reducing efferent arteriolar tone (use with caution). PTA is curative in most cases."
+      }
+    },
+    {
+      "id": "E2-Q4",
+      "stem": "A highly sensitised patient (cPRA 95%) with T1DM and ESRD undergoes simultaneous pancreas-kidney (SPK) transplant. On day 7, pancreas graft amylase has normalised but serum creatinine rises from 1.5 to 3.2 mg/dL. Renal biopsy shows Banff IIA rejection (tubulitis t2 + interstitial infiltrate i2 + arteriolar inflammation v1). What is the most appropriate treatment?",
+      "options": {
+        "A": "Methylprednisolone pulse 500mg IV × 3 days only",
+        "B": "Methylprednisolone pulse followed by ATG if no response; DSA testing to exclude ABMR",
+        "C": "Plasmapheresis + IVIG — highly sensitised patient has preformed DSA",
+        "D": "Graft pancreatectomy — high sensitisation makes rejection unmanageable"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Banff IIA TCMR (tubulitis + interstitial infiltrate + vascular inflammation) is moderate-to-severe rejection. First-line: methylprednisolone 500 mg IV × 3 days. For steroid-resistant TCMR (creatinine not improving at 48–72h) → ATG (polyclonal rabbit ATG, anti-thymocyte globulin). Given high sensitisation (cPRA 95%), DSA testing and C4d staining should be performed to exclude concurrent ABMR — which would require plasmapheresis + IVIG.",
+        "wrong": {
+          "A": "Steroid pulse alone is appropriate for Banff IA/IB (mild) rejection. Banff IIA has vascular inflammation (v1) — the vascular component predicts steroid resistance; ATG should be initiated if no rapid response.",
+          "C": "Plasmapheresis + IVIG targets antibody-mediated rejection (ABMR). The biopsy shows T-cell mediated features (tubulitis, interstitial infiltrate). While DSA should be checked given high sensitisation, plasmapheresis is not first-line for pure TCMR.",
+          "D": "Rejection is treatable — graft nephrectomy is a last resort for patients with severe rejection unresponsive to all treatment, not the initial step. SPK rejection has better outcomes than PAK or PTA because the kidney rejection provides early warning while pancreas function is preserved."
+        },
+        "guideline": "KDIGO Transplant 2009; BTS Renal Transplant Guidelines 2020: Banff IIA → steroids, escalate to ATG for steroid-resistant cases.",
+        "trial": "Webster AC et al. Tacrolimus versus ciclosporin as primary immunosuppression for kidney transplant recipients. Cochrane 2005 — tacrolimus associated with lower acute rejection rates and superior graft survival.",
+        "pearl": "In SPK, the kidney often rejects first — because immune surveillance of the kidney (regular creatinine monitoring + biopsy access) detects rejection earlier than the pancreas. The kidney thus acts as a 'sentinel' graft — rejection of kidney prompts treatment that also treats the pancreas."
+      }
+    },
+    {
+      "id": "E2-Q5",
+      "stem": "A 12-year-old child with a history of midgut volvulus and massive small bowel resection (15 cm residual jejunum) has developed IFALD on PN — total bilirubin 8.2 mg/dL, rising over 6 months. What type of intestinal transplant is most appropriate?",
+      "options": {
+        "A": "Isolated intestinal transplant — intestinal failure without liver failure",
+        "B": "Liver + intestinal transplant — IFALD requires combined liver-intestinal Tx",
+        "C": "Multivisceral transplant — en bloc stomach + liver + pancreas + intestine required",
+        "D": "Renal + intestinal transplant — SBS causes secondary renal oxalate nephropathy"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "This child has intestinal failure Type III (permanent PN dependence) with IFALD (bilirubin 8.2 mg/dL — indicating significant liver injury from PN). Combined liver + intestinal transplantation is indicated when IF is associated with liver disease (IFALD). The combined transplant allows the new liver to reconstitute hepatic function while the new intestine eliminates the PN requirement and its hepatotoxic effects.",
+        "wrong": {
+          "A": "Isolated intestinal Tx is appropriate for IF without liver disease. This child has IFALD (elevated bilirubin, progressive) — the liver must also be replaced. Isolated intestinal Tx would leave the damaged liver in situ.",
+          "C": "Multivisceral transplant replaces stomach + pancreas + liver + intestine + colon (en bloc). It is indicated for diffuse visceral pathology (extensive mesenteric thrombosis, total intestinal aganglionosis, central venous thrombosis, some GI tumours requiring resection of all viscera). This child has localised SBS — stomach and pancreas are intact; full multivisceral is not required.",
+          "D": "Renal + intestinal Tx is not an established combination. While SBS can cause hyperoxaluria and renal oxalate stones over time, it is not an indication to combine renal and intestinal transplants."
+        },
+        "guideline": "American Society of Transplant Surgeons intestinal transplant guidelines 2020. Intestinal transplant indications: IF with IFALD → liver+intestinal; IF with portal vein thrombosis + IFALD → multivisceral.",
+        "trial": "Grant D et al. ITR 2005. IFALD bilirubin >3 mg/dL with progressive fibrosis = listing indication for liver+intestinal Tx.",
+        "pearl": "PN-associated IFALD is caused by phytosterols in lipid emulsions, bile acid toxicity from intestinal stasis, and recurrent sepsis. Fish-oil based lipid emulsions (Omegaven/SMOF) reduce IFALD progression and may delay transplant listing."
+      }
+    },
+    {
+      "id": "E2-Q6",
+      "stem": "A T1DM patient who received a simultaneous pancreas-kidney 3 years ago has enteric drainage of exocrine pancreatic secretions. He now develops rising creatinine (1.9 → 3.1 mg/dL) with no glycaemic changes. Glucose tolerance test remains normal. What can be inferred about pancreas graft status?",
+      "options": {
+        "A": "Both kidney and pancreas are being rejected simultaneously",
+        "B": "Kidney rejection is occurring; pancreas endocrine function (glucose control) preserved — kidney provides early rejection warning in SPK",
+        "C": "Pancreas exocrine failure is causing pancreatitis and secondary renal impairment",
+        "D": "CNI toxicity is causing renal impairment; pancreas is unaffected by CNI"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "In SPK with enteric drainage, there is no direct monitor of pancreas exocrine function (unlike bladder drainage where urinary amylase can be measured). Endocrine function (insulin production) is monitored by glucose. Normal glucose tolerance test = pancreas endocrine function intact. Rising creatinine = kidney rejection signal. This illustrates the 'sentinel' function of the kidney in SPK — kidney rejection is detectable and prompts treatment before pancreas is significantly affected.",
+        "wrong": {
+          "A": "If both organs were being rejected equally, glucose would also be rising (insulin secretion would fail). Normal glucose tolerance suggests isolated kidney rejection without pancreas endocrine involvement.",
+          "C": "Pancreas exocrine function with enteric drainage is not directly monitored clinically (no urinary amylase). Pancreatitis as a complication would present with abdominal pain and hyperamylasaemia, not isolated creatinine rise.",
+          "D": "CNI toxicity is a valid differential for rising creatinine, but the key teaching point here is about the sentinel function of kidney in SPK. CNI toxicity would not explain the clinical scenario presented as a distinction question."
+        },
+        "guideline": "IPTR Registry data. Benefit of SPK over PTA: kidney provides rejection sentinel; urinary amylase monitoring possible with bladder drainage as additional rejection marker.",
+        "trial": "Becker BN et al. Simultaneous pancreas-kidney and pancreas transplantation. J Am Soc Nephrol 2001 — 1-yr patient survival SPK 95% vs PTA 93%; pancreas graft survival SPK 83% vs PTA 74%.",
+        "pearl": "Bladder drainage (historical): urinary amylase is the key rejection monitor — a >50% drop in urinary amylase suggests pancreas rejection before any glycaemic change. Bladder drainage complications (dehydration, acidosis, urethritis, haematuria) affect 20–30% and require conversion to enteric drainage."
+      }
+    },
+    {
+      "id": "E2-Q7",
+      "stem": "A kidney from a 65-year-old deceased donor (DCD category III, warm ischaemia 22 minutes, cold ischaemia 20 hours) shows biopsy with 25% glomerulosclerosis. KDPI is calculated at 82. What is the most appropriate management?",
+      "options": {
+        "A": "Discard the kidney — KDPI >80 and DCD are absolute contraindications to use",
+        "B": "Allocate to highly sensitised patient (cPRA 95%) for equity — high KDPI kidneys should go to disadvantaged patients",
+        "C": "Use with hypothermic machine perfusion assessment — machine resistance index <0.4 supports viability; suitable for recipient with expected poor outcome on dialysis",
+        "D": "Use only for en bloc transplantation — high KDPI kidneys must be transplanted en bloc to dilute poor function"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "High KDPI kidneys (>80) have inferior graft survival but are still beneficial for selected recipients — particularly elderly patients with expected survival shorter than the projected graft survival, or highly sensitised patients who would otherwise wait indefinitely. Machine perfusion (HMP) assessment provides viability data: resistance index <0.4 at 2h supports proceeding; >0.4 with rising lactate suggests poor viability. DCD + 25% glomerulosclerosis + KDPI 82 can be transplanted with appropriate recipient matching and machine perfusion.",
+        "wrong": {
+          "A": "KDPI >80 is not an absolute contraindication to transplantation. High KDPI kidneys provide meaningful survival benefit over remaining on dialysis, particularly for older recipients. Discarding based on KDPI >80 alone would waste a transplantable organ.",
+          "B": "Highly sensitised patients do receive priority in some allocation systems, but allocating a high-KDPI kidney specifically for equity reasons is not current practice. The EPTS (estimated post-transplant survival) score is matched to KDPI to provide 'longevity matching' — young recipients with long EPTS should receive low KDPI kidneys.",
+          "D": "En bloc transplantation refers to two kidneys transplanted together (paediatric en bloc, or bilateral adult kidneys for dual transplant) — it is used for small paediatric donor kidneys, not specifically for high KDPI single adult kidneys."
+        },
+        "guideline": "UNOS KAS 2014: KDPI matching — high KDPI kidneys allocated to recipients with shorter expected survival (higher EPTS). ORCA trial: HMP improves DGF in DCD/high-risk kidneys.",
+        "trial": "Port FK et al. KDPI validation. Am J Transplant 2018 — KDPI 81–100 kidneys have 1-yr survival 81% vs standard KDPI 71-yr survival 90%; still superior to dialysis.",
+        "pearl": "KDPI incorporates: donor age, height, weight, ethnicity, hypertension, diabetes, cause of death, creatinine, HCV status, DCD. A KDPI of 82 means this kidney is predicted to have inferior graft survival compared to 82% of donor kidneys procured in the prior year."
+      }
+    },
+    {
+      "id": "E2-Q8",
+      "stem": "A CMV-seropositive recipient (R+) receives a kidney from a CMV-seronegative donor (D-). What is the appropriate CMV management strategy?",
+      "options": {
+        "A": "Universal prophylaxis with 6 months valganciclovir — same as D+/R- management",
+        "B": "Preemptive strategy — monitor CMV PCR every 2 weeks for 6 months; treat if PCR >1000 IU/mL",
+        "C": "No CMV management required — D- donor cannot transmit CMV",
+        "D": "Prophylaxis for 3 months with valganciclovir — intermediate risk D-/R+"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "D-/R+ is an intermediate-risk CMV combination. The recipient has pre-existing CMV immunity (seropositive), but immunosuppression may allow CMV reactivation of latent virus. Two strategies are acceptable: (1) Preemptive — frequent PCR monitoring (every 2 weeks) and antiviral treatment when PCR exceeds a threshold (1000–5000 IU/mL, centre-specific); (2) Prophylaxis for 3 months. The preemptive strategy is preferred by many transplant centres for D-/R+ to reduce drug toxicity while still preventing CMV disease.",
+        "wrong": {
+          "A": "6 months of prophylaxis is reserved for high-risk D+/R- (primary CMV infection at highest risk of disease). D-/R+ is intermediate risk — 3 months prophylaxis or preemptive is appropriate.",
+          "C": "While the donor cannot transmit CMV (donor seronegative), the recipient's own latent CMV can reactivate under immunosuppression. CMV management is still required for D-/R+ recipients.",
+          "D": "3 months prophylaxis is also acceptable for D-/R+ — this answer is partially correct. However, preemptive strategy is the preferred option listed and is equally endorsed by ECIL guidelines for intermediate-risk combinations."
+        },
+        "guideline": "ECIL-7 2019 Transplant Guidelines; AST IDSA 2019: D+/R- = 6 months prophylaxis; D+/R+ or D-/R+ = 3 months or preemptive; D-/R- = minimal risk.",
+        "trial": "Opelz G et al. Effect of HLA matching on long-term kidney graft survival. Collaborative Transplant Study. Transplantation 1999.",
+        "pearl": "D-/R+ reactivation risk is lower than D+/R- primary infection. CMV primary infection (D+/R-) causes more severe disease because the recipient has no prior T-cell immunity to control the virus. Reactivation in seropositive recipients (R+) is generally milder and more amenable to preemptive management."
+      }
+    },
+    {
+      "id": "E2-Q9",
+      "stem": "A 32-year-old woman with IgA nephropathy receives a living donor renal transplant from her HLA-identical sibling. Her PRA is 5%. At 6 months, renal biopsy shows mesangial IgA deposits identical to her native kidney disease pattern. Creatinine is 1.8 mg/dL (baseline post-transplant 1.3). What is the most likely explanation?",
+      "options": {
+        "A": "Acute cellular rejection — the identical HLA match eliminates the need for immunosuppression",
+        "B": "Recurrent IgA nephropathy in the transplant — recurrence occurs in 30–60% of IgA Nx recipients",
+        "C": "De novo IgA nephropathy — a new immune process in the donor kidney",
+        "D": "BK virus nephropathy — mesangial deposits are typical of BK nephropathy"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "IgA nephropathy (IgAN) is the most common recurrent glomerulonephritis post-renal transplant. Recurrence occurs in 30–60% by biopsy at 5 years, with clinically significant graft loss in 10–15% at 10 years. The pathological hallmark is mesangial IgA deposits — identical to the native disease pattern. Recurrence is driven by systemic abnormal IgA1 glycosylation continuing in the recipient.",
+        "wrong": {
+          "A": "HLA-identical sibling transplants still require maintenance immunosuppression — complete tolerance without IS is not achieved in living donor kidney transplants. ACR occurs even in HLA-identical recipients. However, the biopsy description (mesangial IgA deposits) is not consistent with ACR (which shows tubulitis, interstitial infiltrate, endotheliitis).",
+          "C": "De novo IgA nephropathy in the donor kidney is theoretically possible but rare and would not be expected in a non-IgAN donor (sibling without IgAN). Recurrent disease in a recipient with known IgAN is the correct diagnosis.",
+          "D": "BK nephropathy causes interstitial nephritis with nuclear viral inclusions (Haufen bodies) and is SV40-positive on immunostaining. Mesangial IgA deposits are not a feature of BK nephropathy."
+        },
+        "guideline": "KDIGO GN Guidelines 2021: IgAN recurrence in renal transplant common; manage with ACE inhibition, RAAS blockade; budesonide (Nefecon) may reduce recurrence risk (ProtectIgAN trial).",
+        "trial": "ProtectIgAN trial (NEJM 2023): targeted-release budesonide reduced proteinuria and eGFR decline in native IgAN; implications for post-transplant recurrence under investigation.",
+        "pearl": "Other glomerulonephritis with high recurrence post-transplant: FSGS (recurs in 30–50%; especially primary FSGS; treatable with plasmapheresis + rituximab); membranous nephropathy (20–30%, anti-PLA2R antibody-mediated). MPGN and dense deposit disease have high recurrence but are rare."
+      }
+    },
+    {
+      "id": "E2-Q10",
+      "stem": "A patient 2 weeks post-renal transplant with DCD graft is still dialysis-dependent (DGF). Tacrolimus trough is 9 ng/mL. Creatinine on dialysis is 450 μmol/L and imaging shows appropriate graft perfusion. What is the most appropriate next step?",
+      "options": {
+        "A": "Urgent graft biopsy to exclude rejection — DGF should resolve by day 7",
+        "B": "Continue to observe — DGF in DCD kidneys can last 4–6 weeks; good perfusion on imaging is reassuring",
+        "C": "Re-transplantation — DGF beyond 14 days = primary non-function",
+        "D": "Convert from tacrolimus to cyclosporine — cyclosporine has less nephrotoxic effect in DGF"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "DGF is defined as dialysis requirement in the first week post-transplant. DGF in DCD kidneys can last 4–6 weeks due to severe ischaemia-reperfusion injury and ATN. With good perfusion on imaging (Doppler), continued watchful waiting on dialysis support is appropriate. However, a graft biopsy should be performed if DGF persists beyond 2–3 weeks to exclude rejection or other pathology. The clinical question here is management at 2 weeks with good imaging.",
+        "wrong": {
+          "A": "While graft biopsy is appropriate for prolonged DGF (to exclude rejection), DGF at 2 weeks with DCD kidney and good perfusion is within the expected range. 'Should resolve by day 7' is incorrect — DBD DGF often resolves by 7 days, but DCD DGF commonly lasts 2–6 weeks.",
+          "C": "Primary non-function (PNF) is defined as immediate lack of function that never recovers — requiring re-transplantation. DGF is distinct from PNF: DGF = dialysis-requiring but with eventual recovery. Two weeks of dialysis-dependent DGF is not PNF; PNF would show no improvement in urinary output and elevated resistance on nuclear scan.",
+          "D": "Cyclosporine is MORE nephrotoxic than tacrolimus. Switching from tacrolimus to cyclosporine in DGF would worsen vasoconstriction and delay recovery. CNI dose reduction (not switching) is sometimes used in DGF to reduce nephrotoxicity while maintaining adequate immunosuppression."
+        },
+        "guideline": "BTS/RA Renal Transplant Guidelines 2020. DGF management: dialysis support, avoid nephrotoxins (NSAIDs, aminoglycosides, contrast), maintain CNI levels, biopsy if DGF >3 weeks.",
+        "trial": "Moers C et al. ORCA trial NEJM 2009 — HMP reduces DGF in DCD kidneys (20.8% vs 26.5%); DGF duration 12 vs 17 days with HMP.",
+        "pearl": "DGF vs PNF distinction: in DGF, urine output (even small) is typically present; nuclear renogram shows uptake but delayed excretion (ATN pattern); recovery expected. In PNF: no urine, no nuclear perfusion, immediate re-listing required."
+      }
+    },
+    {
+      "id": "E2-Q11",
+      "stem": "Which of the following best describes the EUROTRANSPLANT zero-mismatch rule for kidney allocation?",
+      "options": {
+        "A": "A kidney with 0 HLA-A mismatches must be offered to all recipients regardless of waiting time",
+        "B": "A kidney with 0 HLA mismatches across A, B, and DR loci must be offered to all Eurotransplant member countries before local allocation",
+        "C": "Zero-mismatch kidneys are automatically allocated to the youngest recipient to maximise graft-years",
+        "D": "The zero-mismatch rule was abolished in 2014 and replaced with the KDPI/EPTS scoring"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "The Eurotransplant 0-mismatch rule: a kidney with 0 HLA mismatches at all three loci (A, B, and DR — 6-antigen match) must be offered to all Eurotransplant member countries simultaneously before local allocation, regardless of waiting time. This preserves the immunological benefit of perfect HLA matching, which significantly reduces rejection risk and improves long-term graft survival.",
+        "wrong": {
+          "A": "The rule applies to complete 0-MM at A, B, AND DR — not just HLA-A alone. A partial match (e.g., 0-MM at A only) does not trigger national sharing.",
+          "C": "Allocation to the youngest recipient is not the criterion for 0-MM kidneys. The rule requires national offering — the recipient among those with 0-MM is then selected by the standard ETKAS scoring (waiting time, PRA, etc.).",
+          "D": "The 0-mismatch rule was abolished in the UNOS/KAS system (USA) in 2014, not in EUROTRANSPLANT. Eurotransplant retains the 0-MM rule. The KDPI/EPTS system is the US allocation reform, not European."
+        },
+        "guideline": "Eurotransplant Kidney Allocation System (ETKAS) Policy Manual 2023. 0-MM rule: maintained in ET for kidneys from DBD donors.",
+        "trial": "Collaborative Transplant Study (Opelz G): 0-MM kidneys have significantly better 10-year graft survival vs 6-MM (HLA antigen-matched) kidneys — effect size decreasing with modern IS but still clinically meaningful.",
+        "pearl": "In Eurotransplant, 0-MM occurs in only 3–5% of allocations but provides a measurable long-term survival benefit. The HLA effect is largest for DR matching (strongest predictor of rejection) and least for HLA-C (less relevant clinically)."
+      }
+    },
+    {
+      "id": "E2-Q12",
+      "stem": "A patient undergoes pancreas transplantation with bladder drainage. Twelve months later, she presents with recurrent urinary tract infections, macroscopic haematuria, and sodium 129 mEq/L with pH 7.31 (metabolic acidosis). What is the most likely complication and management?",
+      "options": {
+        "A": "Pancreas graft rejection — measure urinary amylase and treat with steroids",
+        "B": "Bladder drainage complications (urethritis, dehydration, metabolic acidosis) — convert to enteric drainage",
+        "C": "Urine leak from the duodenocystostomy — percutaneous drainage",
+        "D": "Cystitis from immunosuppression — treat with antibiotics and maintain bladder drainage"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Bladder drainage of pancreatic exocrine secretions causes well-recognised late complications in 20–30% of recipients: urethritis/cystitis from activated pancreatic enzymes in urine, haematuria from mucosal injury, and metabolic acidosis with hyponatraemia (bicarbonate-rich pancreatic juice lost in urine → non-anion gap metabolic acidosis). These are indications for conversion to enteric drainage (duodenojejunostomy). Conversion resolves these complications in >90% of cases.",
+        "wrong": {
+          "A": "Rejection would present as hyperglycaemia (endocrine failure) ± rising creatinine (if SPK). Urinary amylase drop is the bladder-drainage rejection marker, but the clinical picture here (UTI, haematuria, acidosis) is not rejection — it is the metabolic consequence of bladder drainage.",
+          "C": "Urine leak would present acutely with perigraft fluid, pain, and high-creatinine drain output — not recurrent UTIs and chronic metabolic acidosis at 12 months.",
+          "D": "While antibiotics treat the infection, they do not address the underlying cause (activated pancreatic enzymes in the urinary tract). Continuing bladder drainage perpetuates the problem. Enteric drainage conversion is the definitive solution."
+        },
+        "guideline": "IPTR Registry — bladder drainage complications requiring conversion to enteric: 20–30% at 2 years. Most common: chemical cystitis/urethritis (15%), bicarbonate loss/acidosis (12%), haematuria (10%).",
+        "trial": "Gruessner AC. 2011 Update on pancreas transplantation. Curr Opin Organ Transplant 2011 — enteric drainage now preferred at most centres; bladder drainage reserved for select cases requiring urinary amylase monitoring.",
+        "pearl": "Urinary amylase monitoring (the only advantage of bladder drainage): a >50% drop in urinary amylase from baseline predicts pancreas rejection 2–3 days before any glycaemic change. With modern IS and frequent glucose monitoring, this advantage is less critical — hence the shift to enteric drainage."
+      }
+    },
+    {
+      "id": "E2-Q13",
+      "stem": "NMP (normothermic machine perfusion) of a liver graft from a 68-year-old DBD donor shows: lactate clearance from 8 to 1.2 mmol/L at 4 hours, bile production 10 mL in 4 hours, ALT 120 IU/L (stable), glucose consumption appropriate. What do these parameters indicate?",
+      "options": {
+        "A": "Non-viable graft — ALT 120 IU/L is too high to transplant",
+        "B": "Viable graft — lactate clearance to <2.5 mmol/L + bile production + stable enzymes indicate transplantability",
+        "C": "Indeterminate — lactate clearance is the only validated viability criterion; bile production is not validated",
+        "D": "Non-viable — NMP should be continued for 24 hours before any transplant decision"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "NMP viability criteria (OrganOx metra / VITTAL criteria): (1) Lactate clearance to <2.5 mmol/L within 2 hours = most important criterion — indicates aerobic metabolism; (2) Bile production >10 mL/hour by 2 hours = biliary epithelium viability; (3) Stable or falling transaminases; (4) Glucose metabolism normal. This graft meets all criteria — it is viable for transplantation. The VITTAL trial established these criteria.",
+        "wrong": {
+          "A": "ALT 120 IU/L during NMP is not a contraindication. Rising or very high ALT (>500 IU/L) during NMP would be concerning. Stable or mildly elevated ALT during NMP in an older donor graft is expected and not disqualifying.",
+          "C": "Bile production is a validated viability criterion in NMP — it assesses biliary epithelium integrity, the key determinant of NAS. Biliary epithelium ischaemia (not hepatocyte death) is the major mechanism of DCD liver graft failure.",
+          "D": "NMP is typically performed for 6–12 hours for assessment and reconditioning. 24 hours is not required and may increase risk of preservation injury. Decision is made once viability criteria are met (typically by 2–4 hours)."
+        },
+        "guideline": "EASL 2022 OLT guidelines. VITTAL criteria for NMP viability: lactate <2.5 mmol/L at 2h; bile production >10 mL/h; pH >7.30; glucose consumption; absence of progressive transaminase rise.",
+        "trial": "Mergental H et al. VITTAL trial (Nature Medicine 2020): 31 livers that failed static cold storage viability assessment — assessed with NMP; 22 transplanted, with outcomes comparable to standard livers. NMP salvaged otherwise discarded organs.",
+        "pearl": "NMP advantages over static cold storage: (1) Viability assessment before commitment to transplant; (2) Metabolic reconditioning of marginal livers; (3) Extended preservation up to 24h; (4) Drug delivery during perfusion. The main limitation is cost (£20,000+ per device per case) and logistical complexity."
+      }
+    },
+    {
+      "id": "E2-Q14",
+      "stem": "A renal transplant recipient develops acute ABMR 3 months post-transplant. DSA against donor HLA-DQ7 are detected at mean fluorescence intensity (MFI) 12,000. Biopsy shows peritubular capillaritis, glomerulitis, and C4d+ in >50% of PTCs. What is the recommended treatment?",
+      "options": {
+        "A": "Methylprednisolone pulse alone",
+        "B": "Plasmapheresis + IVIG ± rituximab",
+        "C": "Tacrolimus dose increase",
+        "D": "Eculizumab — complement inhibition is first-line for ABMR"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Acute ABMR is treated with: (1) Plasmapheresis (4–5 sessions) — removes circulating DSA; (2) High-dose IVIG (0.5–1 g/kg) after plasmapheresis — neutralises remaining antibody and provides immunomodulation; (3) Rituximab (anti-CD20 — depletes B cells) if DSA level remains high after plasmapheresis/IVIG or refractory cases. The combination reduces DSA load and treats the antibody-mediated endothelial injury.",
+        "wrong": {
+          "A": "Methylprednisolone is the treatment for T-cell mediated rejection (TCMR). ABMR is antibody-driven — steroids alone are ineffective. ABMR requires specific antibody-removal strategies.",
+          "C": "Tacrolimus dose increase is not appropriate for ABMR. Tacrolimus targets T cells, not antibody production. The problem in ABMR is circulating DSA from plasma cells — not T-cell activity.",
+          "D": "Eculizumab (complement C5 inhibitor) has been used in severe or refractory ABMR (particularly in hyperacute/accelerated presentations) but is not established first-line therapy. Evidence is from case series and small trials; cost is prohibitive. Plasmapheresis + IVIG remains the standard first-line."
+        },
+        "guideline": "KDIGO Transplant 2009; KDIGO update 2022: ABMR — plasmapheresis + IVIG ± rituximab. No universally approved therapy — evidence level II.",
+        "trial": "Stegall MD et al. ABMR treatment — Transplantation 2012: plasmapheresis + IVIG achieves DSA reduction in 60–70%; graft survival improved vs no treatment. Bortezomib (proteasome inhibitor — plasma cell depletion) added in some refractory cases.",
+        "pearl": "ABMR carries worse prognosis than TCMR. Chronic active ABMR (transplant glomerulopathy — TG) is a major cause of late graft loss (5–10 years post-transplant) and has no effective treatment at the TG stage — prevention through DSA monitoring and early intervention is critical."
+      }
+    },
+    {
+      "id": "E2-Q15",
+      "stem": "During intestinal transplant surveillance endoscopy at 2 weeks post-transplant, the mucosa appears oedematous with focal erythema. Biopsy shows increased crypt apoptosis (>6 apoptotic bodies per 10 crypts) without ulceration. Stomal output is 800 mL/day (normal). What is the diagnosis?",
+      "options": {
+        "A": "Normal post-transplant appearance — no action required",
+        "B": "Mild acute cellular rejection — increase tacrolimus; repeat endoscopy in 1 week",
+        "C": "Severe rejection — systemic steroids + ATG urgently",
+        "D": "CMV enteritis — start IV ganciclovir and biopsy for CMV immunohistochemistry"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Mild acute cellular rejection in intestinal transplants is defined by: increased crypt apoptosis (>6 apoptotic bodies/10 crypts), mucosal oedema, and mild endoscopic abnormality without ulceration or denudation. Management: increase tacrolimus target; may add steroid boost. Repeat endoscopy in 1 week to assess response. Mild rejection responds well to IS intensification.",
+        "wrong": {
+          "A": "Normal post-transplant intestinal mucosa shows some increased apoptosis due to ischaemia-reperfusion injury in the first week, but >6 apoptotic bodies per 10 crypts at 2 weeks exceeds normal and indicates rejection. This is not normal.",
+          "C": "Severe rejection would show mucosal ulceration, transmural inflammation, stomal dysfunction (high output or cessation), and systemic deterioration. This patient has mild endoscopic changes and normal output — severe rejection criteria are not met.",
+          "D": "CMV enteritis is an important differential in intestinal transplant recipients, but the biopsy description does not mention viral inclusions (owl's eye CMV inclusions) or CMV IHC. CMV should be tested (CMV PCR on blood + IHC on biopsy) but mild rejection is the primary diagnosis given the apoptosis pattern without viral features."
+        },
+        "guideline": "Intestinal Transplant Pathology Grading: No rejection; Indeterminate; Mild ACR (>6 apoptotic bodies/10 crypts, no ulceration); Moderate ACR (ulceration); Severe ACR (denudation, transmural).",
+        "trial": "Grant D. ITR Report 2005. ACR monitoring: endoscopy every 1–2 weeks in first 3 months; every 4 weeks at 3–6 months; monthly at 6–12 months. Rejection detected on biopsy before clinical symptoms in >50% of cases.",
+        "pearl": "Intestinal rejection diagnosis relies heavily on surveillance biopsy — clinical symptoms (increased output, fever, abdominal pain) lag behind histological rejection. This makes scheduled surveillance endoscopy the cornerstone of intestinal transplant management, unlike other solid organ transplants."
+      }
+    },
+    {
+      "id": "E2-Q16",
+      "stem": "A 25-year-old man with T1DM and hypoglycaemia unawareness (DAFNE programme failed; multiple hypoglycaemic episodes requiring paramedic attendance) but eGFR 55 mL/min is being evaluated for transplantation. Which type of pancreas transplant is most appropriate?",
+      "options": {
+        "A": "Simultaneous pancreas-kidney (SPK) — all T1DM patients should receive combined transplant",
+        "B": "Pancreas transplant alone (PTA) — indication is severe hypoglycaemia unawareness without ESRD",
+        "C": "Islet cell transplantation — less invasive; equivalent outcomes to PTA",
+        "D": "No transplant — eGFR 55 is contraindication to pancreas transplant"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "PTA indications: T1DM with severe, life-threatening hypoglycaemia unawareness not controllable by medical therapy (insulin pump, DAFNE, technology) AND eGFR >40 mL/min (no ESRD). eGFR 55 mL/min means this patient does not need a kidney transplant but requires insulin independence for quality of life and hypoglycaemia safety. PTA eliminates endogenous insulin variability and resolves hypoglycaemia unawareness permanently.",
+        "wrong": {
+          "A": "SPK is indicated for T1DM WITH ESRD (eGFR <20 mL/min). This patient's eGFR 55 does not meet ESRD criteria. SPK would expose him to unnecessary kidney transplant risks.",
+          "C": "Islet cell transplantation has inferior outcomes to PTA in terms of insulin independence at 5 years (20–30% islet vs 60–70% PTA). Islet Tx requires multiple donors and multiple infusions. Severe hypoglycaemia unawareness with repeated life-threatening episodes meets the threshold for the definitive solution (PTA) rather than the less effective islet approach.",
+          "D": "eGFR 55 mL/min is not a contraindication to PTA — it is above the minimum required (eGFR >40 mL/min for PTA). The concern with pancreas transplant is postoperative immunosuppression potentially accelerating CKD in those with borderline function, which is why eGFR >40 is the threshold."
+        },
+        "guideline": "IPTR/UNOS PTA Indications: documented hypoglycaemia unawareness with life-threatening episodes AND eGFR >40 mL/min (some centres >30). DAFNE, CGM, and pump therapy must have been tried first.",
+        "trial": "Sutherland DER et al. Lessons learned from more than 1000 pancreas transplants at a single institution. Ann Surg 2001 — PTA 1-yr insulin independence 72%; 5-yr 50%; dramatic improvement in quality of life and hypoglycaemia resolution.",
+        "pearl": "Hypoglycaemia unawareness (HUA) is the inability to perceive hypoglycaemia symptoms due to autonomic neuropathy. HUA is a lethal complication of T1DM — dead in bed syndrome. PTA restores both euglycaemia and hypoglycaemia awareness (restoration of glucagon counterregulatory response from alpha cells of the transplanted pancreas)."
+      }
+    },
+    {
+      "id": "E2-Q17",
+      "stem": "Which advantage does portal venous drainage over systemic venous drainage offer in pancreas transplantation?",
+      "options": {
+        "A": "Lower thrombosis risk due to higher portal vein flow",
+        "B": "More physiological insulin delivery to the liver first-pass; reduced peripheral hyperinsulinaemia",
+        "C": "Easier surgical access to the superior mesenteric vein in the iliac fossa",
+        "D": "Portal drainage eliminates the need for exocrine drainage management"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Portal venous drainage (graft portal vein anastomosed to superior mesenteric vein) delivers insulin in a physiological manner — first to the liver (as in native pancreas) rather than directly to peripheral systemic circulation. Benefits: reduces peripheral hyperinsulinaemia (3–4× lower insulin levels peripherally), more physiological carbohydrate metabolism, potentially reduced risk of insulin resistance and dyslipidaemia. Disadvantage: technically more demanding anastomosis.",
+        "wrong": {
+          "A": "Portal drainage does not reduce thrombosis risk — the pancreas graft has its own unique vascular resistance issues regardless of drainage route. Thrombosis risk relates to graft vascular resistance and recipient anticoagulation, not drainage route.",
+          "C": "Superior mesenteric vein is actually accessed in the root of the mesentery — technically more challenging than the iliac vein in the iliac fossa. Systemic drainage to the iliac vein is technically easier, which is why it was historically preferred.",
+          "D": "Exocrine drainage (bladder or enteric) is independent of venous drainage route. Both portal and systemic drainage require separate management of exocrine secretions."
+        },
+        "guideline": "IPTR Registry: both systemic and portal drainage acceptable; portal drainage increasingly preferred for metabolic benefits. No significant survival difference between drainage routes.",
+        "trial": "Philosophe B et al. Superiority of portal venous drainage. Ann Surg 2001 — portal drainage: superior lipid profiles, lower peripheral insulin, similar graft survival vs systemic drainage.",
+        "pearl": "Peripheral hyperinsulinaemia with systemic drainage: insulin levels 3× higher in systemic circulation → contributes to atherosclerosis progression. In T1DM patients already at cardiovascular risk, portal drainage's metabolic advantage may be clinically relevant long-term."
+      }
+    },
+    {
+      "id": "E2-Q18",
+      "stem": "A deceased donor 45-year-old, previously healthy victim of road traffic accident has creatinine 180 μmol/L after 24 hours in ICU. The family consents to kidney donation. How should this raised creatinine be interpreted?",
+      "options": {
+        "A": "Absolute contraindication to kidney donation — creatinine >150 μmol/L disqualifies the donor",
+        "B": "Concerning — this kidney should be allocated only as dual transplantation (two kidneys to one recipient)",
+        "C": "Context-dependent — acute tubular injury from trauma/hypotension is expected and often reversible; KDPI and machine perfusion assessment guide decision",
+        "D": "No concern — creatinine <200 μmol/L is within acceptable limits regardless of context"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "Elevated creatinine in a trauma donor reflects acute tubular injury (ATI) from shock, rhabdomyolysis, or contrast exposure — not necessarily pre-existing renal disease. ATI in the donor correlates with DGF risk but not long-term graft loss if underlying chronic kidney disease is absent. KDPI incorporates this donor creatinine into the score; HMP (machine perfusion) with resistance index assessment provides additional functional viability data. A 45-year-old previously healthy donor with trauma-related creatinine elevation is typically an acceptable donor.",
+        "wrong": {
+          "A": "There is no absolute creatinine threshold that disqualifies donation alone. Context matters: acute vs chronic cause, age, other KDPI factors. Many centres successfully transplant kidneys from donors with creatinine 200–400 μmol/L when ATN is the clear explanation.",
+          "B": "Dual transplantation (en bloc, two kidneys to one adult) is used for paediatric kidneys (<5kg) or kidneys with very high KDPI (>85) and structural abnormalities. A 45-year-old trauma donor does not meet dual transplant criteria based on creatinine alone.",
+          "D": "Creatinine <200 is not unconditionally acceptable. Context matters — even lower creatinine from a chronically diseased kidney is worse than higher creatinine from an acutely injured healthy kidney. KDPI, biopsy, and machine perfusion provide the full picture."
+        },
+        "guideline": "UNOS KDPI calculator incorporates donor creatinine. BTS/NHSBT Extended Criteria Donor guidance: acute creatinine elevation from identifiable cause does not necessarily disqualify donation.",
+        "trial": "ORCA trial 2009 — machine perfusion reduces DGF in high-risk donors, including those with elevated donor creatinine.",
+        "pearl": "Donor creatinine in the KDPI is used at face value without adjustment for cause. However, clinicians must interpret KDPI in the context of donor history — a 45-year-old trauma victim with creatinine 180 from shock has a different expected outcome than a 45-year-old with hypertensive nephrosclerosis and creatinine 180."
+      }
+    },
+    {
+      "id": "E2-Q19",
+      "stem": "GVHD occurs after an intestinal transplant in a 28-year-old recipient. Which feature distinguishes GVHD from acute cellular rejection of the intestinal graft?",
+      "options": {
+        "A": "GVHD causes rising tacrolimus levels; rejection causes falling levels",
+        "B": "GVHD affects recipient tissues (skin, native colon, bone marrow) while rejection affects the graft itself",
+        "C": "GVHD is diagnosed by graft biopsy; rejection is diagnosed by skin biopsy",
+        "D": "GVHD responds to methylprednisolone pulse; rejection does not"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "The key conceptual distinction: GVHD is donor lymphocytes attacking recipient tissues (skin, native colon, liver, bone marrow) while rejection is recipient immune cells attacking the graft. Therefore: GVHD is diagnosed by biopsy of recipient tissues (skin biopsy = apoptotic bodies in epidermis; native colon biopsy = crypt apoptosis/ulceration) while rejection is diagnosed by graft biopsy (ileostomy biopsy from transplanted intestine). GVHD presents with skin rash, native GI symptoms, and pancytopenia — not stomal output increase.",
+        "wrong": {
+          "A": "Tacrolimus levels are not a distinguishing feature of GVHD vs rejection. Both can occur across a range of tacrolimus levels.",
+          "C": "This is reversed. GVHD is diagnosed by recipient tissue biopsy (skin, native bowel); rejection is diagnosed by graft biopsy (intestinal graft via endoscopy/ileostomy). The correct answer (B) correctly states the opposite.",
+          "D": "GVHD management includes steroids but also ATG, mycophenolate, and IS adjustment. The response to steroids alone is poor in severe GVHD. Rejection also responds to steroids (for TCMR). This statement is not a distinguishing feature."
+        },
+        "guideline": "ITR guidelines on GVHD post-intestinal transplant. GVHD incidence: 5–10%; associated with high antigen burden of intestinal graft; higher risk with immunologically naive recipients and mismatched donors.",
+        "trial": "Ruiz P et al. Guidelines for pathological diagnosis of intestinal transplantation. Am J Transplant 2010 — defines pathological criteria for ACR vs GVHD in intestinal Tx.",
+        "pearl": "GVHD after intestinal Tx is different from GVHD after bone marrow transplant in one key way: in intestinal Tx, the massive lymphoid tissue of the gut (Peyer's patches, mesenteric nodes) contains millions of donor lymphocytes that can reconstitute and engraft, attacking host. Prophylaxis strategy includes depleting lymphoid tissue in the graft (irradiation of graft, Campath, or tacrolimus prophylaxis)."
+      }
+    },
+    {
+      "id": "E2-Q20",
+      "stem": "A newly transplanted kidney recipient takes tacrolimus 0.1 mg/kg/day. On day 5, trough level is 4.2 ng/mL (target 8–12 ng/mL). The patient is also on a proton pump inhibitor, fluconazole, and diltiazem. Which drug interaction is most likely explaining the unexpectedly low tacrolimus level?",
+      "options": {
+        "A": "Fluconazole — CYP3A4 inhibitor, should increase tacrolimus levels",
+        "B": "Diltiazem — CYP3A4 inhibitor, should increase tacrolimus levels; low level paradoxical",
+        "C": "The patient may be a CYP3A5 rapid metaboliser — low tacrolimus despite correct dosing",
+        "D": "PPI reduces tacrolimus absorption by raising gastric pH"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "CYP3A5 polymorphism is the primary pharmacogenetic determinant of tacrolimus metabolism. CYP3A5 extensive metabolisers (*1/*1 or *1/*3 genotype — more common in African-American and some Asian populations) require 2–3× higher tacrolimus doses to reach target levels. Fluconazole and diltiazem are CYP3A4 inhibitors that should actually raise tacrolimus levels. Despite these inhibitors, a low level suggests extremely rapid metabolism from CYP3A5 extensive metaboliser status.",
+        "wrong": {
+          "A": "Fluconazole inhibits CYP3A4 and CYP2C19 — it should INCREASE tacrolimus levels, not decrease them. If anything, fluconazole's presence should push the level up, making the low level even more unexpected and pointing toward a metabolic explanation like CYP3A5.",
+          "B": "Diltiazem is also a CYP3A4 inhibitor — it raises tacrolimus levels. Both diltiazem and fluconazole should have elevated the level. Their presence yet a low level 4.2 ng/mL strongly implicates a pharmacogenetic cause (rapid CYP3A5 metabolism).",
+          "D": "PPIs do not significantly affect tacrolimus absorption. Tacrolimus bioavailability is primarily determined by intestinal CYP3A4/3A5 metabolism, not gastric pH. Some interactions with omeprazole have been reported (mild tacrolimus level increase via CYP2C19 inhibition) but the level in this case is too low."
+        },
+        "guideline": "KDIGO Transplant 2009 pharmacogenomics section. CYP3A5 genotyping increasingly available; dose adjustment based on genotype reduces time-to-target and reduces under-immunosuppression in first weeks.",
+        "trial": "UNOS Kidney Transplant Living Donors 2021 pharmacogenomics data. Staatz CE et al. CYP3A5 and tacrolimus pharmacokinetics. Clin Pharmacokinet 2004 — CYP3A5 extensive metabolisers require 68% higher doses vs poor metabolisers.",
+        "pearl": "Clinical implication of CYP3A5 genotyping: patients who are CYP3A5 extensive metabolisers (*1/*1) need high starting doses; standard dosing (0.1 mg/kg/day) will leave them sub-therapeutic in the most vulnerable early post-transplant period, risking rejection. Pre-transplant genotyping allows individualised starting doses."
+      }
+    }
+  ]
+}

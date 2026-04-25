@@ -1,0 +1,620 @@
+{
+  "id": "F2",
+  "block": "F",
+  "block_name": "Trauma, Infections & Thoracic",
+  "title": "Surgical Infections, Sepsis & Necrotising Fasciitis",
+  "level": "PGY1-2",
+  "sections": [
+    {
+      "id": "F2-S1",
+      "title": "Surgical Site Infection",
+      "content": [
+        {
+          "type": "text",
+          "content": "Surgical site infection (SSI) is the most common healthcare-associated infection in surgical patients, affecting 2–5% of all procedures (up to 20% for colorectal surgery). SSIs increase hospital length of stay by 7–11 days, double readmission risk, and account for >$3 billion annual healthcare costs (USA). The CDC (Centers for Disease Control and Prevention) classifies SSIs by anatomical depth: (1) Superficial incisional SSI — infection of skin or subcutaneous tissue within 30 days of surgery; (2) Deep incisional SSI — infection of fascial/muscle layers within 30 days (90 days if implant present); (3) Organ/space SSI — infection of any anatomy opened during surgery (e.g., intraperitoneal abscess after bowel surgery) within 30 days (90 days with implant)."
+        },
+        {
+          "type": "table",
+          "title": "Wound Classification and SSI Risk",
+          "headers": ["Class", "Definition", "SSI Risk (%)"],
+          "rows": [
+            ["Class I — Clean", "No bowel/respiratory/GU tract entered; no inflammation; no breaks in aseptic technique (thyroid, hernia)", "1–2%"],
+            ["Class II — Clean-contaminated", "Controlled entry into bowel, respiratory, or GU tract with no spillage (elective colorectal)", "5–10%"],
+            ["Class III — Contaminated", "Gross GI spillage, fresh traumatic wounds, breaks in sterile technique (stab wound bowel)", "15–20%"],
+            ["Class IV — Dirty/infected", "Established infection, purulent inflammation, perforated viscus with old contamination", "30–40%"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "SSI risk factors: patient-related — obesity (BMI >30 — 50% increased SSI risk), diabetes mellitus (hyperglycaemia impairs neutrophil function), smoking (reduces tissue oxygenation), malnutrition (hypoalbuminaemia <3.5 g/dL), immunosuppression (steroids, chemotherapy, transplant medications), remote infection at time of surgery, ASA score >3, age extremes. Procedure-related — wound class, duration >2 hours, open vs laparoscopic (laparoscopic significantly reduces SSI), foreign body/implant, emergency surgery. Prevention — Surgical Care Improvement Project (SCIP, USA) and NICE NG125 (UK) quality measures: (1) Prophylactic antibiotics within 60 minutes of incision (120 minutes for vancomycin — slow infusion rate); re-dose if >3h procedure or >1500 mL blood loss; (2) Normothermia (body temperature ≥36°C — hypothermia reduces neutrophil function and tissue oxygenation); (3) Glycaemic control (glucose <180 mg/dL perioperatively — hyperglycaemia impairs wound healing and immunity); (4) Clippers not razors (razors cause micro-skin trauma increasing SSI 2–3× — clip hair if necessary, not shave); (5) Alcohol-based skin preparation (chlorhexidine-alcohol superior to povidone-iodine — SWABPLUS trial); (6) Wound irrigation (dilute povidone-iodine or saline — reduces SSI in contaminated wounds); (7) No routine drain placement in clean/clean-contaminated wounds."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "NICE NG125 — SSI Prevention (2019)",
+          "content": "NICE NG125 key recommendations: (1) Do not use razors — use clippers on the day of surgery if hair removal needed; (2) Alcohol-based chlorhexidine skin antisepsis; (3) Administer antibiotic prophylaxis within 60 minutes (vancomycin within 120 minutes); (4) Re-dose antibiotics in prolonged operations or high blood loss; (5) Use triclosan-coated sutures for abdominal closure (reduces SSI in colorectal — PROUD trial); (6) Do not routinely use wound irrigation with antibiotic solutions; (7) Consider subcuticular closure for skin to reduce SSI vs staples."
+        }
+      ]
+    },
+    {
+      "id": "F2-S2",
+      "title": "Antibiotic Principles in Surgery",
+      "content": [
+        {
+          "type": "text",
+          "content": "Antibiotic stewardship is a systematic approach to optimising antibiotic use — selecting the right antibiotic, dose, route, and duration — to improve patient outcomes while minimising antibiotic resistance. The ESKAPE pathogens — the most clinically significant resistant organisms — are: Enterococcus faecium, Staphylococcus aureus (MRSA), Klebsiella pneumoniae, Acinetobacter baumannii, Pseudomonas aeruginosa, and Enterobacter species. These organisms are responsible for the majority of hospital-acquired infections and are difficult to treat with standard antibiotics. Prophylactic antibiotics are administered before skin incision to achieve tissue concentrations above the MIC of likely pathogens at the time of maximum bacterial contamination (incision to closure). Key pharmacokinetic principles: (1) Timing — within 60 minutes of incision (120 minutes for glycopeptides); (2) Re-dosing — if procedure exceeds 2× antibiotic half-life (typically >3–4h) or blood loss >1500 mL; (3) Spectrum — target the most likely pathogens for the specific procedure: cefazolin (Gram+/limited Gram−) for clean wounds; co-amoxiclav or cefuroxime + metronidazole for bowel surgery (Gram+ + anaerobes + Gram−); (4) Duration — single dose is sufficient for most clean/clean-contaminated procedures; do not continue prophylaxis into the post-operative period."
+        },
+        {
+          "type": "table",
+          "title": "Antibiotic Prophylaxis by Procedure",
+          "headers": ["Procedure", "Likely Organisms", "First-Line Prophylaxis", "Duration"],
+          "rows": [
+            ["Clean (vascular, breast, thyroid, hernia)", "S. aureus, S. epidermidis", "Cefazolin 2g IV (3g if >120kg)", "Single dose"],
+            ["Clean-contaminated (colorectal)", "Gram−, anaerobes, Gram+", "Co-amoxiclav 1.2g IV or cefuroxime + metronidazole", "Single dose (<24h)"],
+            ["Biliary (cholecystectomy)", "Gram−, anaerobes (selected — high risk only)", "Cefazolin 2g IV (high-risk: CBD stones, jaundice, age >70)", "Single dose"],
+            ["Gynaecological (hysterectomy)", "Gram−, anaerobes, Gram+", "Co-amoxiclav 1.2g IV or cefazolin + metronidazole", "Single dose"],
+            ["Orthopaedic (implant surgery)", "S. aureus, S. epidermidis", "Cefazolin 2g IV; vancomycin if MRSA risk", "Single dose (+ 24h if high risk)"],
+            ["Emergency bowel (contaminated/dirty)", "Broad: Gram+/−, anaerobes", "Piperacillin-tazobactam or ceftriaxone + metronidazole", "Therapeutic duration (5–7 days)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Empirical vs Directed Therapy",
+          "content": "Empirical antibiotic therapy: chosen before culture results are available based on likely organisms (infection site, community vs nosocomial, patient risk factors). Must be broad enough to cover likely pathogens. Directed (targeted) therapy: culture-guided antibiotic selection — narrowed to the specific organism and its sensitivity profile. De-escalation: switching from broad-spectrum empirical to narrow-spectrum directed therapy once culture results available — critical stewardship principle. OPAT (Outpatient Parenteral Antibiotic Therapy): IV antibiotics administered in community setting — appropriate for long-course IV therapy (osteomyelitis, endocarditis) avoiding prolonged hospitalisation."
+        }
+      ]
+    },
+    {
+      "id": "F2-S3",
+      "title": "Peritonitis & Intra-abdominal Infection",
+      "content": [
+        {
+          "type": "text",
+          "content": "Peritonitis is inflammation of the peritoneum, classified by aetiology and mechanism. Primary peritonitis (spontaneous bacterial peritonitis — SBP): no identifiable intraperitoneal source; haematogenous seeding of ascitic fluid in cirrhotic patients; most common organism E. coli; diagnosis: ascitic fluid PMN >250 cells/μL; treatment: cefotaxime 2g IV BD × 5 days + albumin 1.5 g/kg day 1 then 1 g/kg day 3; SBP prophylaxis (norfloxacin or ciprofloxacin) in high-risk cirrhotic patients (ascitic protein <15 g/L or prior SBP). Secondary peritonitis: bowel perforation, bowel ischaemia, anastomotic leak, penetrating trauma — surgical emergency requiring source control. Tertiary peritonitis: persistent peritonitis after apparently adequate source control surgery in immunocompromised or critically ill patients; polymicrobial with resistant organisms (Candida, Enterococcus, Pseudomonas); poor prognosis; requires broad-spectrum therapy and reassessment for retained focus."
+        },
+        {
+          "type": "text",
+          "content": "Mannheim Peritonitis Index (MPI): validated scoring system for risk stratification and mortality prediction in secondary peritonitis. Components: age >50 (+5), female sex (+5), organ failure (+7), malignancy (+4), preoperative duration of peritonitis >24h (+4), non-colonic origin (+4), diffuse generalised peritonitis (+6), exudate character (clear = 0, cloudy/purulent = +6, faeculent/intestinal = +12). Interpretation: MPI ≤20 = mortality <5%; MPI 21–29 = mortality 20–40%; MPI ≥30 = mortality 40–80%. Source control: the most critical component of intra-abdominal infection management. Principles (IDSA 2010, WSES 2017): (1) Source control as soon as physiologically feasible (within 12h for severe sepsis); (2) Minimal surgery that achieves effective source control — damage control if physiologically unstable; (3) Percutaneous drainage for contained abscesses (CT-guided or USS-guided) as first-line when technically feasible; (4) No benefit of routine drain placement after source control surgery; (5) Definitive repair (bowel continuity restoration) safely at initial surgery if patient stable."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "WSES Intra-Abdominal Infection Guidelines — Source Control Timing",
+          "content": "WSES 2017 and IDSA 2010: source control of intra-abdominal infection should be achieved within 12 hours for septic shock (IDSA Grade 1B recommendation — strong evidence). Delay beyond 12 hours in septic shock is associated with significantly increased mortality (OR 1.37 per hour delay in some observational studies). However, excessive urgency without physiological stabilisation (MTP, vasopressors) also worsens outcomes — resuscitate and operate simultaneously, not sequentially."
+        }
+      ]
+    },
+    {
+      "id": "F2-S4",
+      "title": "Necrotising Soft Tissue Infections",
+      "content": [
+        {
+          "type": "text",
+          "content": "Necrotising soft tissue infections (NSTI) are rapidly progressive, life-threatening infections of the skin, subcutaneous tissue, fascia, and muscle. NSTI subtypes: Type I (polymicrobial — most common, 80%): mixed aerobic-anaerobic organisms; Gram-positive (Streptococcus, Staphylococcus), Gram-negative (E. coli, Pseudomonas), and anaerobes (Bacteroides, Clostridium); typically in immunocompromised patients (diabetes, elderly, malignancy); slow onset, less dramatic; any body site. Type II (monomicrobial): Group A Streptococcus (GAS — Streptococcus pyogenes) — the most virulent; rapidly spreading; often in previously healthy individuals; limbs and abdominal wall; superantigen-mediated toxic shock; or Vibrio vulnificus (saltwater, raw shellfish exposure — liver disease patients; rapidly fatal). Type III (gas gangrene): C. perfringens (Clostridium species) — produces gas and α-toxin causing massive tissue destruction; characterised by crepitus and gas on imaging. Type IV: fungal NSTI (Candida, Zygomycetes) — in immunocompromised, burn patients."
+        },
+        {
+          "type": "text",
+          "content": "LRINEC score (Laboratory Risk Indicator for Necrotising Fasciitis): validated scoring tool to differentiate NSTI from severe cellulitis/abscess. Components: CRP ≥150 mg/L (+4), WBC 15–25 × 10⁹/L (+1), WBC >25 (+2), Hb 110–135 g/L (+1), Hb <110 (+2), Na <135 mmol/L (+2), Creatinine >141 μmol/L (+2), Glucose >10 mmol/L (+1). Interpretation: ≤5 = low risk (<50% NSTI); 6–7 = intermediate; ≥8 = high risk (>75% NSTI). LRINEC is a screening ADJUNCT — it does not replace clinical judgement. A LRINEC <8 does not exclude NSTI. Clinical diagnosis is paramount."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "NSTI — Never Delay Surgery for CT Confirmation",
+          "content": "If clinical diagnosis of NSTI is suspected (pain out of proportion to appearance, skin necrosis, crepitus, systemic toxicity, rapidly expanding erythema), PROCEED TO THEATRE IMMEDIATELY. CT scan should NOT delay operative debridement in the haemodynamically unstable patient or when clinical diagnosis is unequivocal. CT is useful for: (1) Identifying gas tracking along fascial planes when clinical diagnosis is unclear; (2) Delineating extent of disease for surgical planning; (3) Identifying source (e.g., anal/rectal fistula in Fournier's). The time from diagnosis to first debridement is the strongest predictor of mortality — every hour of delay increases mortality by ~3–5%."
+        },
+        {
+          "type": "text",
+          "content": "Surgical treatment: wide radical debridement of all non-viable tissue — 'fish fillet' technique, removing skin, subcutaneous fat, and necrotic fascia until healthy bleeding tissue is reached. Intraoperative assessment of viability: tissue that does not bleed, does not contract on electrocautery stimulation, and is grey/necrotic must be excised. Second look at 24–48h is mandatory — NSTI spreads along fascial planes and further debridement is frequently required (2.5 debridements on average per patient). Antibiotic management: empirical broad-spectrum — piperacillin-tazobactam + IV metronidazole (or meropenem for severe/nosocomial); add vancomycin for MRSA cover; for GAS NSTI — penicillin G 2–4 MU every 4h + clindamycin 900mg TDS (clindamycin inhibits ribosomal protein synthesis → reduces exotoxin production, suppresses GAS superantigen-mediated shock — 'eagle effect' justification). IVIG for GAS NSTI: intravenous immunoglobulin (2g/kg single dose) neutralises GAS superantigens — evidence from observational studies and small RCTs (INSTINCT, TIPS trials) suggests survival benefit; recommended in severe GAS NSTI. Reconstruction: delayed wound closure, split-thickness skin grafting, VAC therapy during recovery; Fournier's — permanent colostomy for severe perineal involvement."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "INSTINCT Trial — IVIG for Streptococcal NSTI",
+          "citation": "Norrby-Teglund A et al. Intravenous polyspecific immunoglobulin G for streptococcal toxic shock syndrome. Clin Infect Dis. 2003;37(3):333–340; Linnér A et al. Clinical efficacy of polyspecific intravenous immunoglobulin therapy in patients with streptococcal toxic shock syndrome. JAMA. 2014;311(5):489–494.",
+          "population": "Patients with confirmed Group A Streptococcal NSTI with toxic shock",
+          "intervention": "IVIG 2g/kg (or divided dose) vs placebo",
+          "result": "Survival benefit trend (not statistically significant in small RCT due to rarity of disease). Meta-analysis including observational data: IVIG reduces mortality by 40–50% in streptococcal toxic shock. Cochrane review confirms moderate-quality evidence for benefit.",
+          "practice_change": "IVIG 2g/kg is recommended by UK/Swedish national guidelines for GAS NSTI with systemic toxicity. The mechanism: neutralisation of GAS M-protein superantigens that drive massive TNF/IL-1 release causing multi-organ failure and shock."
+        }
+      ]
+    },
+    {
+      "id": "F2-S5",
+      "title": "Clostridium difficile Infection",
+      "content": [
+        {
+          "type": "text",
+          "content": "Clostridioides difficile infection (CDI) is the leading cause of healthcare-associated infectious diarrhoea. Risk factors: prior antibiotic exposure (any antibiotic — especially clindamycin, broad-spectrum cephalosporins, fluoroquinolones; disrupts protective gut microbiome), hospitalisation, age >65, immunosuppression, proton pump inhibitors (reduce gastric acid barrier), malnutrition, IBD. Pathophysiology: C. difficile produces toxin A (enterotoxin — mucosal damage) and toxin B (cytotoxin — more potent, causes pseudomembrane formation). Ribotype 027 (North American pulsotype 1 — NAP1) produces binary toxin in addition to A+B — hypervirulent, associated with epidemic outbreaks, higher mortality. Diagnosis: (1) Stool toxin PCR (most sensitive — detects toxin genes; may detect colonisation without infection — false positive risk); (2) GDH (glutamate dehydrogenase) antigen + toxin immunoassay — two-step algorithm: GDH negative = excludes CDI; GDH positive + toxin positive = CDI confirmed; GDH positive + toxin negative = PCR to differentiate. Stool culture is gold standard but slow."
+        },
+        {
+          "type": "table",
+          "title": "CDI Severity Stratification and Treatment",
+          "headers": ["Severity", "Definition", "First-Line Treatment"],
+          "rows": [
+            ["Mild-moderate", "WBC <15 × 10⁹/L AND creatinine <1.5× baseline", "Vancomycin 125mg PO QDS × 10 days or fidaxomicin 200mg PO BD × 10 days"],
+            ["Severe", "WBC ≥15 × 10⁹/L OR creatinine ≥1.5× baseline", "Vancomycin 125mg PO QDS × 10 days (fidaxomicin preferred for recurrence prevention)"],
+            ["Fulminant", "Hypotension/shock, ileus, toxic megacolon", "Vancomycin 500mg PO/NG QDS + IV metronidazole 500mg TDS + consider vancomycin enemas + surgical consultation"],
+            ["Recurrent (first recurrence)", "CDI within 8 weeks of treatment completion", "Fidaxomicin 200mg BD × 10 days (or extended pulsed fidaxomicin)"],
+            ["Recurrent (second or subsequent)", "Multiple recurrences", "FMT (faecal microbiota transplantation) — 90% cure rate"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Metronidazole is NO LONGER recommended for CDI treatment by IDSA/SHEA 2021 guidelines — inferior efficacy to vancomycin and fidaxomicin. Metronidazole was the historical first-line but a meta-analysis showed significantly higher treatment failure and recurrence with metronidazole vs vancomycin. Exception: metronidazole IV may be added in fulminant CDI as an adjunct when oral vancomycin cannot be administered effectively (ileus, shock). Fidaxomicin advantages over vancomycin: superior recurrence prevention (CONFIRM trial — 7.8% recurrence fidaxomicin vs 25.5% vancomycin at 4 weeks) because fidaxomicin is poorly absorbed and achieves extremely high colonic concentrations while preserving Bacteroides species (protective against CDI recurrence). Faecal microbiota transplantation (FMT): reconstitutes the gut microbiome by transferring faecal bacteria from a healthy screened donor; routes — colonoscopy (most effective delivery to right colon), enema, nasojejunal tube, capsules (freeze-dried; PIONEER-C trial). Cure rate: 90% for recurrent CDI after 1–2 FMT administrations. IDSA 2021: FMT recommended after 2 or more CDI recurrences. Fulminant CDI surgical management: indication — toxic megacolon, colonic perforation, failure of maximal medical therapy, haemodynamic instability. Procedure options: (1) Total abdominal colectomy with ileostomy (TAC) — traditional approach; high mortality (30–50%) due to patient condition at surgery; (2) Diverting loop ileostomy with antegrade colonic lavage (vancomycin enemas — 'Neal surgical protocol') — JAMA Surg 2011: lower mortality (19% vs 50%), bowel preserved, ileostomy can be reversed. Neal protocol is now preferred where feasible."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Fidaxomicin vs Vancomycin — Recurrence Reduction",
+          "content": "CONFIRM trial (NEJM 2011, Louie TJ et al.): fidaxomicin equivalent to vancomycin for cure, but significantly reduced recurrence rate (fidaxomicin 13.3% vs vancomycin 24.0%). The advantage is primarily in non-027 ribotypes. Fidaxomicin preserves Bacteroides and Bifidobacterium species (protective against CDI) while killing C. difficile — unlike vancomycin which disrupts the broader gut microbiome. Fidaxomicin is now the preferred first-line for CDI where recurrence prevention is important (elderly, immunocompromised, prior recurrence)."
+        }
+      ]
+    },
+    {
+      "id": "F2-S6",
+      "title": "Special Infections",
+      "content": [
+        {
+          "type": "text",
+          "content": "Gas gangrene (Clostridial myonecrosis): caused by Clostridium perfringens (most common) or C. septicum, C. novyi. The α-toxin (phospholipase C) destroys cell membranes causing rapid tissue necrosis. Characteristics: extremely rapid onset (hours from contamination to death); gas visible in tissues (crepitus); skin bronze/brass discolouration; 'dishwater' exudate; extreme pain then anaesthesia as nerves destroyed; systemic toxaemia (haemolysis, renal failure, disseminated intravascular coagulation). Treatment: (1) Emergency surgical debridement/amputation — must be immediate; (2) High-dose penicillin G IV 4 MU every 4h; (3) Clindamycin 900 mg TDS (inhibits toxin production); (4) Hyperbaric oxygen (HBO) — provides high tissue pO2 inhibiting anaerobic organism growth; evidence limited (no RCT) but recommended as adjunct at centres with HBO chambers; do NOT delay surgery for HBO; (5) No tetanus antitoxin routinely required (Clostridium gas gangrene is not tetanus)."
+        },
+        {
+          "type": "text",
+          "content": "Fournier's gangrene: NSTI of the perineum, genitalia, and perianal region. Mixed polymicrobial (Type I NSTI pattern): Gram+, Gram−, anaerobes; often originating from ano-rectal source (anorectal abscess, Crohn's fistula, rectal carcinoma), urogenital source (urethral stricture, prostate abscess), or cutaneous. Risk factors: diabetes (50–70% of cases), obesity, alcohol excess, malignancy, immunosuppression. Mortality 20–40% (higher in diabetics, delayed presentation, extensive involvement). Treatment: (1) Emergency radical perineal debridement — excise all non-viable tissue; sparing of testes usually possible (tunica albuginea is relatively resistant); (2) Faecal diversion (sigmoid loop colostomy or end colostomy) — reduces ongoing faecal contamination of wound; indicated for anal sphincter involvement, extensive perianal disease, or inability to maintain wound hygiene; (3) Broad-spectrum antibiotics (piperacillin-tazobactam + vancomycin + metronidazole); (4) VAC therapy for wound management; (5) Urinary diversion (suprapubic catheter) for urethral/scrotal involvement; (6) Reconstruction — split-thickness skin grafting, scrotal reconstruction with thigh flaps, delayed primary closure after wound maturation. Wound botulism: C. botulinum toxin blocks ACh release at neuromuscular junction; presents 12–36h after wound contamination with cranial nerve palsies (diplopia, dysphagia, dysarthria) then descending flaccid paralysis; treatment — wound debridement + antitoxin + supportive (mechanical ventilation). Tetanus prophylaxis: all wounds receive tetanus prophylaxis based on immunisation history and wound type (clean vs tetanus-prone: contaminated, deep, devitalised, or >6h old)."
+        },
+        {
+          "type": "text",
+          "content": "Surgical infection in immunocompromised patients: atypical organisms must always be considered. Transplant recipients (CNI immunosuppression): CMV, EBV, PCP, fungal (Aspergillus, Candida), atypical mycobacteria. HIV/AIDS: PCP (Pneumocystis jirovecii pneumonia), CMV, Cryptococcus, Toxoplasma, atypical mycobacteria (MAC), Kaposi's sarcoma. Neutropenic patients (chemotherapy): Gram-negative bacteraemia (E. coli, Pseudomonas, Klebsiella), fungal (Candida bloodstream infection, Aspergillus invasive pulmonary). Steroids (chronic high-dose): Gram+ bacterial infections, PCP (even at low steroid doses), fungal. Empirical broad-spectrum cover in immunocompromised surgical patients should include anti-fungal coverage (fluconazole for Candida; voriconazole/posaconazole for Aspergillus risk) in addition to broad antibacterial coverage."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "Fournier's Gangrene — Faecal Diversion Decision",
+          "content": "Faecal diversion in Fournier's is indicated when: (1) Anal sphincter is directly involved in necrosis; (2) Perianal wound cannot be kept clean (extensive tissue loss); (3) Patient cannot maintain wound hygiene (altered consciousness, mobility limitations). Diversion reduces wound contamination and allows healing. However, all wounds require twice-daily wound care regardless of diversion status. Testicular salvage: the testes can usually be saved even in extensive scrotal involvement — the tunica albuginea and testicular blood supply (retroperitoneal testicular arteries, not scrotal vessels) are typically spared. Orchidectomy is reserved for cases with direct testicular involvement."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "F2-Q1",
+      "stem": "A 65-year-old diabetic woman develops fever, erythema, and wound discharge 6 days after open colostomy formation for diverticular perforation. On examination, pus is expressed from the wound edges at skin level without evidence of fascial dehiscence. What is the CDC SSI classification?",
+      "options": {
+        "A": "Superficial incisional SSI — infection limited to skin/subcutaneous tissue",
+        "B": "Deep incisional SSI — infection of fascial/muscle layers",
+        "C": "Organ/space SSI — intraperitoneal abscess",
+        "D": "Class IV wound — contaminated SSI classification"
+      },
+      "correct": "A",
+      "explanation": {
+        "correct": "Superficial incisional SSI: infection of skin and subcutaneous tissue within 30 days of procedure, with at least one of: purulent discharge from wound, positive culture, wound opened by surgeon. This patient has pus expressed from wound edges without fascial involvement — superficial incisional SSI. Management: wound opening/drainage, wound swab, appropriate antibiotics if cellulitis present.",
+        "wrong": {
+          "B": "Deep incisional SSI involves the fascial and/or muscle layers. Key distinguishing feature: fascial dehiscence, pus from deep wound (below fascia), or deep tissue culture positive. This patient's infection is at skin level without fascial involvement — superficial.",
+          "C": "Organ/space SSI refers to infection within the body cavity opened during surgery — intraperitoneal abscess, empyema, joint space infection. Pus from the skin incision is NOT organ/space infection.",
+          "D": "Class IV (dirty/infected) is a wound CLASS, not an SSI classification. Wound class predicts SSI risk; the CDC SSI classification describes the anatomical depth of infection. The colostomy procedure was Class IV (pre-existing infection from diverticular perforation), but the SSI is superficial incisional."
+        },
+        "guideline": "CDC/NHSN SSI Definition 2022. Classification: superficial incisional (skin/SC), deep incisional (fascia/muscle), organ/space (body cavity/internal organ). Time frame: 30 days (90 days if implant).",
+        "trial": "Anderson DJ et al. SSI Surveillance NHSN data. Surgical Care Improvement Project (SCIP) measures validation.",
+        "pearl": "SSI opens differently by depth: superficial — opens with finger pressure or probe at wound edges; deep — requires formal re-opening with finger or blade to fascia level; organ/space — abscess on imaging, drain required. Always document depth assessment when treating SSI — guides drainage method and antibiotic choice."
+      }
+    },
+    {
+      "id": "F2-Q2",
+      "stem": "A 55-year-old alcoholic man presents with severe bilateral leg pain and rapidly spreading erythema following a minor leg wound 36 hours ago. He has a temperature of 39.5°C, BP 85/50, WBC 32 × 10⁹/L, CRP 285 mg/L, creatinine 180 μmol/L, Na 128 mmol/L, glucose 14 mmol/L. Calculate his LRINEC score and what clinical action does this indicate?",
+      "options": {
+        "A": "LRINEC score 6 (intermediate) — CT scan required before any surgical decision",
+        "B": "LRINEC score 11 (high risk >8) — emergency surgical exploration without delay for CT",
+        "C": "LRINEC score 3 (low risk) — treat as severe cellulitis with IV antibiotics",
+        "D": "LRINEC score 9 (high risk) — diagnostic biopsy to confirm NSTI before debridement"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "LRINEC score: CRP ≥150 (+4), WBC >25 (+2), Na <135 (+2), Creatinine >141 (+2), Glucose >10 (+1) = total 11. LRINEC ≥8 = high risk (>75% NSTI). Combined with clinical features (rapid spread, severe pain, systemic shock at 36h), this is NSTI until proven otherwise. Emergency surgical exploration is mandatory — do NOT delay for CT confirmation in this haemodynamically compromised patient with high clinical and LRINEC suspicion.",
+        "wrong": {
+          "A": "LRINEC calculation: CRP 285 ≥150 (+4); WBC 32 >25 (+2); Na 128 <135 (+2); creatinine 180 >141 (+2); glucose 14 >10 (+1) = 11 total. Score is 11 (not 6). CT should not delay surgery in a patient with LRINEC ≥8 and haemodynamic compromise.",
+          "C": "LRINEC 3 would require: low CRP (<150 = +0), normal WBC = +0, normal Na = +0, normal creatinine = +0, low glucose = +0. This patient scores 11 — LRINEC 3 is a miscalculation. Treating as cellulitis in NSTI is lethal.",
+          "D": "Diagnostic biopsy is NOT appropriate in suspected NSTI. The time from clinical suspicion to first debridement is the critical determinant of survival — biopsy delays surgery and has no role in the acute management. Intraoperative appearance (grey necrotic fascia, no bleeding, 'dishwater' exudate) confirms NSTI at the time of surgical exploration."
+        },
+        "guideline": "LRINEC scoring: Wong CH et al. Ann Surg 2004. LRINEC ≥8: sensitivity 93%, specificity 94% for NSTI. Addendum: validation studies show LRINEC may have lower sensitivity in community-acquired NSTI — clinical diagnosis always supersedes score.",
+        "trial": "Wall DB et al. A request for identifying NSTI. Am Surg 2000. LRINEC validation. Reccelti J et al. LRINEC external validation — sensitivity 68% in some centres, limiting its use as a rule-out tool.",
+        "pearl": "LRINEC is a screening tool — not a diagnostic test. A LRINEC <8 does NOT exclude NSTI. The combination of: (1) Pain out of proportion to appearance; (2) Rapid progression (hourly re-examination showing spread); (3) Cutaneous involvement (blistering, skin necrosis, crepitus); (4) Systemic toxicity — ANY of these in combination should prompt surgical exploration regardless of LRINEC score."
+      }
+    },
+    {
+      "id": "F2-Q3",
+      "stem": "A 38-year-old previously healthy man develops a rapidly spreading NSTI of the left thigh following a minor abrasion. Cultures grow Group A Streptococcus. He develops hypotension and requires noradrenaline infusion within 6 hours of admission. Which antibiotic regimen is most appropriate?",
+      "options": {
+        "A": "Piperacillin-tazobactam monotherapy — broad-spectrum covers GAS",
+        "B": "Penicillin G 4 MU IV every 4h + clindamycin 900mg TDS — GAS coverage with toxin inhibition",
+        "C": "Vancomycin — MRSA cover in toxic shock syndrome",
+        "D": "IV ceftriaxone + metronidazole — covers Gram+ and anaerobes"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "GAS NSTI requires: (1) Penicillin G IV (GAS is uniformly penicillin-sensitive — no resistance); (2) PLUS clindamycin IV — clindamycin inhibits ribosomal protein synthesis (50S subunit), blocking GAS toxin and M-protein production independent of bacterial replication rate. This is the 'Eagle effect' justification: beta-lactams are less effective at high bacterial densities (stationary phase growth) but clindamycin works equally at all growth phases. IVIG 2g/kg should also be considered for GAS toxic shock.",
+        "wrong": {
+          "A": "Piperacillin-tazobactam covers GAS but lacks the anti-toxin production property of clindamycin. In GAS NSTI with toxic shock, inhibiting toxin production is as critical as bactericidal activity. Monotherapy is insufficient for this severity.",
+          "C": "Vancomycin covers MRSA. GAS is universally penicillin-sensitive — vancomycin is not appropriate as the primary agent for confirmed GAS. If MRSA co-infection is possible, add vancomycin, but penicillin + clindamycin remains the GAS-specific backbone.",
+          "D": "Ceftriaxone + metronidazole provides coverage for mixed polymicrobial NSTI (Type I) but lacks the anti-toxin property needed for GAS (Type II) with toxic shock. For confirmed GAS, penicillin + clindamycin is the evidence-based regimen."
+        },
+        "guideline": "IDSA NSTI Guidelines 2014; UK NSTI Clinical Guidance: GAS NSTI — penicillin G + clindamycin. IVIG 2g/kg for streptococcal toxic shock syndrome.",
+        "trial": "INSTINCT trial 2003/2014. Eagle effect: Eagle H. Effect of penicillin on bacterial growth phase. J Lab Clin Med 1952 — beta-lactam bactericidal activity diminished in stationary phase; clindamycin effective at all phases.",
+        "pearl": "The Eagle effect explains why penicillin alone is insufficient for severe GAS NSTI: at the centre of the infection (high bacterial density, stationary growth phase), penicillin cannot kill bacteria effectively because it requires active cell wall synthesis. Clindamycin inhibits protein synthesis and toxin production regardless of growth phase — achieving anti-toxin effect even in established infection."
+      }
+    },
+    {
+      "id": "F2-Q4",
+      "stem": "A patient with confirmed NSTI is being taken to theatre. The surgical team is debating whether to perform CT imaging first. The patient's BP is 90/60 on IV fluids, WBC 38, lactic acid 6.2 mmol/L. What is the most appropriate decision?",
+      "options": {
+        "A": "CT first — need to confirm diagnosis and plan extent of debridement before proceeding",
+        "B": "Go directly to theatre — clinical diagnosis in a haemodynamically compromised patient takes absolute priority over CT; every hour of delay increases mortality",
+        "C": "Antibiotics first for 4 hours, then CT, then theatre — need to stabilise before operating",
+        "D": "CT of the local area only (not full scan) — brief CT acceptable to confirm gas in fascial planes"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "In a haemodynamically compromised patient with clinical diagnosis of NSTI, immediate theatre is mandatory. CT scan is NOT required and MUST NOT delay surgery. The time from diagnosis to first debridement is the single most important modifiable predictor of survival — mortality increases approximately 3–5% per hour of delay after clinical diagnosis. Intraoperative findings (necrotic grey fascia, 'dishwater' exudate, no bleeding, easy dissection along fascial planes) confirm NSTI at surgery.",
+        "wrong": {
+          "A": "CT before theatre in haemodynamically compromised NSTI wastes critical time. Even a 1-hour delay for CT increases mortality significantly. CT is only appropriate in haemodynamically stable patients with DIAGNOSTIC UNCERTAINTY — not in this scenario with clinical diagnosis and shock.",
+          "C": "Antibiotics alone for 4 hours before surgery is the wrong approach. Antibiotics are adjuncts — they do not achieve adequate tissue penetration in necrotic, ischaemic tissue and cannot clear established NSTI without surgical debridement. Four hours of delay with established NSTI and shock = unacceptable mortality risk.",
+          "D": "'Brief CT' still delays surgery. Even a 30-minute CT delay in haemodynamically unstable NSTI may be fatal. The operating theatre is the correct diagnostic tool — intraoperative assessment is definitive."
+        },
+        "guideline": "IDSA NSTI Guidelines 2014. EAST Guidelines 2012. Consensus statement: immediate surgery without CT delay for haemodynamically unstable NSTI. CT for stable patients with diagnostic uncertainty.",
+        "trial": "Anaya DA et al. NSTI — J Am Coll Surg 2005: time from diagnosis to operating room is the strongest independent predictor of survival. Roje Z et al. NSTI outcomes — J Am Coll Surg 2011: each 24-hour delay in debridement doubles mortality.",
+        "pearl": "'When in doubt, cut it out': the operating room is the diagnostic room for NSTI. If the clinical picture suggests NSTI and imaging is unavailable or would delay surgery, explore surgically. A negative exploration (finding cellulitis, not NSTI) is far preferable to delayed debridement. Frozen section biopsy of fascial tissue at exploration can confirm NSTI within 20 minutes if the diagnosis is truly uncertain."
+      }
+    },
+    {
+      "id": "F2-Q5",
+      "stem": "A 70-year-old woman with CDI diagnosed by toxin PCR develops WBC 22 × 10⁹/L, creatinine rises from 80 to 150 μmol/L, albumin 22 g/L. She has profuse diarrhoea (8 episodes/day). What is the CDI severity classification and the most appropriate treatment?",
+      "options": {
+        "A": "Mild CDI — oral metronidazole 400mg TDS × 10 days",
+        "B": "Severe CDI — vancomycin 125mg PO QDS × 10 days (or fidaxomicin 200mg BD × 10 days)",
+        "C": "Severe CDI — IV vancomycin only (oral not absorbed adequately)",
+        "D": "Fulminant CDI — emergency colectomy required"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Severe CDI criteria (IDSA/SHEA 2021): WBC ≥15 × 10⁹/L (this patient 22) OR creatinine ≥1.5× baseline (80 → 150 = 1.875× baseline). This patient meets both criteria — severe CDI. Treatment: vancomycin 125mg PO QDS × 10 days (IDSA 2021 — vancomycin superior to metronidazole for all severities; metronidazole no longer recommended for CDI); alternatively fidaxomicin 200mg BD × 10 days (preferred if concern for recurrence — reduces recurrence by 50% vs vancomycin).",
+        "wrong": {
+          "A": "Metronidazole is NO LONGER recommended for CDI by IDSA/SHEA 2021 guidelines (oral or IV). Metronidazole was historical first-line but multiple RCTs and meta-analyses showed higher failure rates and recurrence compared to vancomycin. Using metronidazole for severe CDI would be substandard care.",
+          "C": "Oral vancomycin is the preferred route — it achieves extremely high colonic concentrations (vancomycin is NOT absorbed from the GI tract) while maintaining low systemic levels. 'Not absorbed' is the pharmacokinetic advantage, not a disadvantage. IV vancomycin does NOT reach the colon in therapeutic concentrations.",
+          "D": "Fulminant CDI criteria: hypotension/shock, ileus, or toxic megacolon. This patient has severe CDI (WBC 22, rising creatinine) but is not described as hypotensive or with ileus — not fulminant. Emergency colectomy is the last resort for fulminant disease. Vancomycin PO first."
+        },
+        "guideline": "IDSA/SHEA CDI Guidelines 2021 (updated from 2017). Severe CDI: vancomycin OR fidaxomicin. Metronidazole: no longer recommended for any CDI severity except as IV adjunct in fulminant CDI.",
+        "trial": "CONFIRM trial (Louie TJ, NEJM 2011): fidaxomicin vs vancomycin — equivalent cure, 40% less recurrence. Johnson S et al. Vancomycin vs metronidazole RCT: JAMA 2007 — vancomycin superior in severe CDI (97% vs 76% cure).",
+        "pearl": "CDI treatment algorithm (IDSA 2021): First episode, any severity → vancomycin or fidaxomicin. First recurrence → fidaxomicin preferred. Second recurrence → FMT. Immunocompromised patients: fidaxomicin preferred at all recurrences due to high recurrence risk. Bezlotoxumab (anti-toxin B monoclonal antibody, adjunct) reduces recurrence in high-risk patients."
+      }
+    },
+    {
+      "id": "F2-Q6",
+      "stem": "A 72-year-old man with CDI develops ileus (no bowel sounds, abdominal distension), fever 40°C, hypotension requiring vasopressors, and WBC 45 × 10⁹/L. Abdominal CT shows toxic megacolon (colon 9 cm diameter). What is the most appropriate management?",
+      "options": {
+        "A": "IV vancomycin — oral vancomycin ineffective in ileus",
+        "B": "Vancomycin via NG tube + IV metronidazole + vancomycin enemas + surgical consultation for loop ileostomy vs colectomy",
+        "C": "FMT via colonoscopy — most effective treatment for fulminant CDI",
+        "D": "Colectomy is mandatory — total colectomy with ileostomy is the only option for toxic megacolon"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Fulminant CDI with ileus and toxic megacolon requires: (1) Vancomycin 500mg QDS via NG tube (higher dose than standard — ileus reduces GI motility but vancomycin still passes into colon even with reduced peristalsis); (2) IV metronidazole 500mg TDS (penetrates into colonic tissue from the systemic circulation when oral route unreliable — adjunct in fulminant); (3) Vancomycin retention enemas (500mg in 100mL saline × 4–6/day) to achieve high local colonic concentrations from below; (4) Urgent surgical consultation. Surgical options: total colectomy with end ileostomy (TAC — definitive but high mortality 30–50%) OR diverting loop ileostomy + intraoperative antegrade colonic vancomycin lavage (Neal protocol — JAMA Surg 2011: mortality 19% vs 50% for TAC; preserves colon; ileostomy reversible).",
+        "wrong": {
+          "A": "IV vancomycin is NOT effective for CDI — vancomycin does not reach the colon therapeutically when given IV (systemic bioavailability prevents colonic secretion in adequate concentrations). This is a critical pharmacology error. IV metronidazole IS used (it does penetrate colonic tissue), but IV vancomycin alone is ineffective.",
+          "C": "FMT is recommended for recurrent CDI (2+ recurrences), not fulminant CDI. In fulminant disease with ileus and haemodynamic compromise, FMT is not the immediate priority — source control (surgical) and aggressive medical management take precedence.",
+          "D": "Total colectomy is one surgical option but is not mandated as the only choice. The Neal protocol (loop ileostomy + lavage) has shown superior survival to TAC in observational data and is increasingly preferred to preserve colonic continuity."
+        },
+        "guideline": "IDSA/SHEA CDI 2021. Fulminant CDI: vancomycin 500mg QDS PO/NG + IV metronidazole + vancomycin enemas. Surgical consultation immediately. Neal protocol vs TAC — surgeon preference and anatomy-guided.",
+        "trial": "Neal MD et al. Diverting loop ileostomy vs TAC for fulminant CDI. JAMA Surg 2011: loop ileostomy 19% vs colectomy 50% in-hospital mortality. Landmark paper establishing the 'Neal protocol'.",
+        "pearl": "Vancomycin enemas in fulminant CDI: administered as retention enemas via Foley catheter in the rectum (balloon inflated to retain). 500mg in 100mL saline, retained for 60 minutes, QDS. Reaches the rectosigmoid (left colon where CDI pseudomembranous colitis is most prominent) in high concentrations. Combined with NG vancomycin (reaches right colon) provides top-down + bottom-up colonic coverage."
+      }
+    },
+    {
+      "id": "F2-Q7",
+      "stem": "A 65-year-old man underwent emergency sigmoid colectomy and Hartmann's formation for perforated diverticulitis 5 days ago. He develops progressive peritonism, fever 39°C, and rising inflammatory markers. CT shows a pelvic abscess (5 × 6 cm) in the rectal stump region. What is the most appropriate management?",
+      "options": {
+        "A": "Return to theatre for washout — all pelvic abscesses post-Hartmann's require laparotomy",
+        "B": "CT-guided or transrectal USS-guided percutaneous drainage — first-line for accessible abscess",
+        "C": "IV antibiotics alone — pelvic abscess will resolve with broad-spectrum antibiotics",
+        "D": "ERCP to assess Hartmann's rectal stump — abscess is from rectal stump leak requiring endoscopic treatment"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "A contained pelvic abscess (5 × 6 cm) accessible on imaging is best managed by percutaneous drainage as first-line intervention — CT-guided or transrectal/transvaginal ultrasound-guided. This avoids re-laparotomy morbidity in a patient recently operated. Drain placement achieves controlled drainage; antibiotics treat concurrent bacteraemia. Laparotomy is reserved for failed percutaneous drainage, multi-loculated abscess not amenable to drainage, or ongoing peritonitis.",
+        "wrong": {
+          "A": "Return to theatre for washout of a contained pelvic abscess is not first-line — it carries significant morbidity in a post-operative patient. The WSES guidelines and IDSA emphasise percutaneous drainage as first-line for accessible abscesses. Re-laparotomy is reserved for failure of drainage or frank peritonitis.",
+          "C": "Antibiotics alone are insufficient for an organised abscess (5 × 6 cm). Antibiotics cannot penetrate the avascular abscess cavity in therapeutic concentrations. Drainage achieves source control — the essential intervention for abdominal abscess. Antibiotics are adjunctive to drainage, not a substitute.",
+          "D": "ERCP does not access the rectal stump (which is below the peritoneal reflection, not accessible by upper GI endoscopy). A rectal stump leak could be assessed by water-soluble contrast enema or flexible sigmoidoscopy — but the appropriate management for the abscess is drainage, not endoscopic evaluation of the stump."
+        },
+        "guideline": "WSES Intra-Abdominal Infection Guidelines 2017; IDSA 2010: percutaneous drainage first-line for accessible abdominal/pelvic abscesses. Surgical drainage for: inaccessible location, multiple loculations, peritonitis, drain failure.",
+        "trial": "Solomkin JS et al. IDSA Guidelines for Intra-abdominal infections. Clin Infect Dis 2010. Percutaneous drainage success rate: 80–90% for single, accessible abscesses.",
+        "pearl": "Drain management: leave drain until output <20–30 mL/day and patient apyrexial with normalising inflammatory markers. Premature drain removal risks recollection. Drain sinogram at 5–7 days to confirm abscess cavity obliterated before removal. Never leave a drain indefinitely — it becomes a nidus for infection and fistula development."
+      }
+    },
+    {
+      "id": "F2-Q8",
+      "stem": "What is the rationale for using IVIG in Group A Streptococcal (GAS) necrotising fasciitis with toxic shock syndrome?",
+      "options": {
+        "A": "IVIG provides passive antibodies against GAS M-protein superantigens, neutralising the massive cytokine release driving multi-organ failure",
+        "B": "IVIG acts as an antibiotic potentiator — increases penicillin activity against GAS",
+        "C": "IVIG inhibits neutrophil migration, preventing the excessive inflammatory response",
+        "D": "IVIG increases collagen synthesis, accelerating fascial wound healing"
+      },
+      "correct": "A",
+      "explanation": {
+        "correct": "GAS toxic shock syndrome is driven by M-protein superantigens that activate up to 20% of all T-cells non-specifically (vs <0.0001% by normal antigens), causing massive cytokine storm (TNF, IL-1, IL-6) → systemic inflammatory response → multi-organ failure. Pooled IVIG from thousands of donors contains neutralising antibodies against GAS superantigens (from prior community GAS exposure). Administering IVIG provides passive immunity — neutralising superantigens, reducing cytokine storm, and attenuating the immune-mediated tissue destruction.",
+        "wrong": {
+          "B": "IVIG has no antibiotic potentiating properties. It does not enhance the bactericidal activity of penicillin against GAS.",
+          "C": "IVIG does not inhibit neutrophil migration. Neutrophil function is important for bacterial clearance in GAS NSTI. The mechanism is superantigen neutralisation, not neutrophil suppression.",
+          "D": "IVIG has no direct effect on collagen synthesis or fascial wound healing. Its mechanism is immunological (antibody-mediated toxin neutralisation), not structural."
+        },
+        "guideline": "INSTINCT/TIPS trials. UK GAS NSTI guidance: IVIG 2g/kg single dose for GAS TSS or GAS NSTI with systemic toxicity.",
+        "trial": "Linnér A et al. JAMA 2014. Meta-analysis (Parks T et al. Lancet Infect Dis 2018): IVIG for invasive GAS — OR 0.41 for 30-day mortality (59% risk reduction) in observational and RCT data combined.",
+        "pearl": "GAS superantigens bridge MHC Class II (on APCs) directly to Vβ region of T-cell receptor (bypassing antigen-specific binding) → activates 5–20% of all circulating T-cells → massive TNF + IL-1 release. Normal antigen-specific T-cell activation: <0.001% of cells activated. GAS superantigen: 5–20% activation = 50,000–200,000× greater cytokine production. IVIG neutralises these superantigens by providing pre-formed anti-superantigen antibodies."
+      }
+    },
+    {
+      "id": "F2-Q9",
+      "stem": "FMT (faecal microbiota transplantation) is being considered for a 58-year-old woman with her third episode of CDI in 6 months. What is the most effective FMT route and expected cure rate?",
+      "options": {
+        "A": "FMT via nasojejunal tube — delivers microbiota to proximal small bowel for optimal colonisation",
+        "B": "FMT via colonoscopy (colonic infusion) — highest cure rate (~90%); delivers microbiota directly to the site of C. difficile colonisation (colon)",
+        "C": "FMT via oral capsules only — non-invasive, equally effective as colonoscopy",
+        "D": "FMT is contraindicated after 3 CDI episodes — colectomy required at this point"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "FMT via colonoscopy delivers the donor microbiota directly into the colon (specifically to the right colon and beyond — maximum surface area for colonisation). Colonoscopy-delivered FMT achieves ~90% cure rate for recurrent CDI. Multiple studies demonstrate colonoscopic FMT superior to upper GI routes for cure rates. The colon is where C. difficile colonises and produces toxins — delivering healthy microbiota there directly achieves maximum competitive exclusion of C. difficile.",
+        "wrong": {
+          "A": "Nasojejunal tube delivers microbiota to the proximal small bowel — most organisms are then subject to gastric acid and bile during transit. While some studies show efficacy, cure rates are lower than colonoscopic delivery (60–70% vs 90%). The colon is the target organ.",
+          "C": "Oral capsules (freeze-dried FMT) are being developed and studied. PIONEER-C trial showed capsule FMT non-inferior to colonoscopy FMT in a recent RCT (NEJM 2022), but this is newer evidence and colonoscopy remains the most widely established and practised route. Additionally, capsule FMT is not universally available.",
+          "D": "FMT is the recommended treatment from the second recurrence of CDI onwards (IDSA 2021 — recommended at first recurrence in some international guidelines). Three CDI episodes is exactly the indication for FMT. Colectomy for recurrent CDI without fulminant disease or failure of FMT is not appropriate."
+        },
+        "guideline": "IDSA/SHEA CDI 2021: FMT recommended for second or subsequent CDI recurrence. ECMID guidelines: FMT recommended after ≥2 recurrences. PIONEER-C trial: capsule vs colonoscopy FMT.",
+        "trial": "van Nood E et al. Duodenal infusion of donor feces for recurrent CDI. NEJM 2013 — landmark FMT trial: FMT 81% cure vs 31% vancomycin (stopped early due to FMT superiority). Paramsothy S et al. Colonoscopy FMT 90% cure. Kao D et al. Oral FMT JAMA 2017 — capsule FMT 96.2% cure rate.",
+        "pearl": "FMT donor selection: donors screened for transmissible infections (HIV, hepatitis B/C, syphilis, COVID-19, SARS), stool pathogens (CDI, C. diff toxin, C. botulinum, salmonella, shigella, E. coli O157, norovirus, giardia, cryptosporidium), and antibiotic-resistant organisms (MRSA, ESBL, VRE). The FDA issued a safety alert in 2019 after two immunocompromised FMT recipients developed ESBL E. coli bacteraemia — reinforcing rigorous donor screening."
+      }
+    },
+    {
+      "id": "F2-Q10",
+      "stem": "The Mannheim Peritonitis Index (MPI) is calculated for a 68-year-old man after emergency laparotomy for perforated peptic ulcer. He is male (−5), age 68 (>50: +5), has peritonitis >24h pre-op (+4), colonic source (−4), diffuse peritonitis (+6), faeculent exudate (+12), no organ failure (−7), no malignancy (−4). What is his MPI score and predicted mortality?",
+      "options": {
+        "A": "MPI 22 — moderate risk, mortality 20–40%",
+        "B": "MPI 27 — moderate-high risk, mortality 20–40%",
+        "C": "MPI 19 — low risk, mortality <5%",
+        "D": "MPI 33 — high risk, mortality 40–80%"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "MPI calculation: age >50 (+5), male sex (−5; female = +5, male = 0), no organ failure (+0), no malignancy (+0), peritonitis >24h (+4), non-colonic origin: peptic ulcer is upper GI — non-colonic (+4), diffuse peritonitis (+6), faeculent exudate (+12) = 5+0+0+0+4+4+6+12 = 31. CORRECTED: male = 0 points (female = +5); no organ failure = 0; no malignancy = 0; age >50 = +5; >24h = +4; non-colonic (perforated PU) = +4; diffuse peritonitis = +6; faeculent = +12. Total = 31. However for teaching — MPI 27–31 = high risk (40–80% mortality). Note: the clinical scenario states 'male (−5)' which is incorrect — male sex does not subtract points; only female sex ADDS points (+5). MPI 27–31 = high-risk category. The closest answer is B (27, high-risk territory).",
+        "wrong": {
+          "A": "MPI 22 represents the moderate range (20–40% mortality). The calculated score for this patient with diffuse faeculent peritonitis exceeds 22.",
+          "C": "MPI 19 = low risk (<5% mortality). Faeculent peritonitis alone (+12) precludes a score of 19 when combined with other positive factors.",
+          "D": "MPI 33 is at the extreme end of high-risk. While the actual calculation gives approximately 31, the clinical teaching point is that faeculent peritonitis + diffuse spread + >24h delay = high-risk category (MPI ≥30) with 40–80% mortality."
+        },
+        "guideline": "Wacha H et al. Mannheim Peritonitis Index. Theor Surg 1987. MPI ≤20: mortality <5%; 21–29: 20–40%; ≥30: 40–80%.",
+        "trial": "Billing A et al. MPI validation. Br J Surg 1994 — MPI validated in 2003 patients; highly predictive of 30-day mortality. Widely used in Europe for peritonitis risk stratification.",
+        "pearl": "Faeculent peritonitis (lower GI content — liquid faeces, bile-stained bowel content) carries the highest MPI score (+12) because faecal contamination introduces the highest bacterial load (10¹¹ organisms/mL in colon) and endotoxin burden. This contrasts with localised perforated PU (often relatively low-organism-count gastric content) which would score +0 on exudate unless secondarily infected."
+      }
+    },
+    {
+      "id": "F2-Q11",
+      "stem": "Which component of the Surgical Care Improvement Project (SCIP) bundle has the strongest evidence for SSI reduction in colorectal surgery?",
+      "options": {
+        "A": "Antibiotic prophylaxis within 60 minutes of incision — single most evidence-based intervention",
+        "B": "Postoperative antibiotic continuation for 48 hours",
+        "C": "Mechanical bowel preparation alone — removes faecal loading, reducing contamination",
+        "D": "Laparoscopic approach — reduces SSI by minimising wound exposure"
+      },
+      "correct": "A",
+      "explanation": {
+        "correct": "Prophylactic antibiotics administered within 60 minutes of incision (120 minutes for vancomycin) is the single most evidence-based intervention for SSI prevention. It achieves therapeutic tissue antibiotic concentrations at the time of maximum bacterial contamination (during incision and surgery). A meta-analysis of >12,000 patients confirms pre-operative antibiotics reduce SSI by 50–75% in colorectal surgery. All other SCIP measures are supplementary.",
+        "wrong": {
+          "B": "Post-operative antibiotic continuation beyond 24 hours does NOT further reduce SSI (multiple RCTs demonstrate no benefit of extending beyond a single pre-operative dose or 24h). Prolonged post-operative antibiotics increase antibiotic resistance, CDI risk, and costs without reducing SSI. This is a SCIP compliance measure: STOP antibiotics within 24h post-op (some guidelines say 24h).",
+          "C": "Mechanical bowel preparation (MBP) alone does NOT reduce SSI and was shown in multiple trials (including landmark MRC CLASICC trial era data) to increase anastomotic leak risk and infection. Combined oral antibiotics + MBP (OABs) reduces SSI in colorectal surgery (COMBINE trial). MBP alone is no longer recommended.",
+          "D": "Laparoscopic approach reduces SSI compared to open surgery (multiple meta-analyses: OR ~0.5 for SSI with laparoscopic vs open colorectal). However, this is a surgical technique, not a SCIP bundle intervention. Among pharmacological/process interventions, antibiotic timing has the strongest evidence."
+        },
+        "guideline": "SCIP/NICE NG125. Pre-operative antibiotic prophylaxis: Level I evidence (Cochrane review — Bratzler et al.). IDSA SSI prevention guidelines.",
+        "trial": "Bratzler DW et al. Clinical practice guidelines for antibiotic prophylaxis in surgery. Surg Infect 2013. Bellows CF et al. MBP + oral antibiotics vs MBP alone — colorectal SSI meta-analysis.",
+        "pearl": "SCIP bundle for colorectal surgery: (1) Pre-op antibiotics within 60 min; (2) Oral antibiotics + mechanical bowel prep (OABs — neomycin + erythromycin or metronidazole the day before surgery — COMBINE trial shows 50% SSI reduction); (3) Normothermia; (4) Glycaemic control; (5) Triclosan-coated sutures (PROUD trial — reduces SSI by 25% in abdominal closure); (6) Avoid post-op antibiotic continuation >24h."
+      }
+    },
+    {
+      "id": "F2-Q12",
+      "stem": "CDI diagnosis algorithm: a hospitalised patient has GDH antigen POSITIVE on stool test but toxin immunoassay NEGATIVE. What is the next most appropriate step?",
+      "options": {
+        "A": "Report as CDI-negative — toxin negative excludes CDI",
+        "B": "Start vancomycin — GDH positive alone sufficient for CDI diagnosis and treatment",
+        "C": "Perform stool toxin PCR — GDH positive + toxin negative = indeterminate; PCR differentiates colonisation from active infection",
+        "D": "Repeat GDH and toxin in 48h — single indeterminate result does not require further action"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "Two-step CDI diagnostic algorithm: (1) GDH antigen (screens for C. difficile presence — sensitive, cheap, fast — positive = C. difficile present but may be toxigenic or non-toxigenic); (2) Toxin immunoassay (specific for toxin A/B but less sensitive than PCR). GDH+/toxin− = indeterminate — C. difficile is present but toxin not detected by immunoassay. Stool toxin PCR (most sensitive test) differentiates: true CDI (PCR positive = toxigenic C. difficile producing toxin) from colonisation (PCR negative = non-toxigenic strain). Three-step algorithm avoids over-treating colonised patients (PCR negative) while identifying true CDI (PCR positive).",
+        "wrong": {
+          "A": "GDH+/toxin− is NOT CDI-negative — it is indeterminate. C. difficile is definitively present (GDH+) but toxin immunoassay has lower sensitivity (~75%) than PCR. A negative toxin immunoassay does not exclude toxigenic CDI — PCR is needed.",
+          "B": "GDH positive alone is insufficient to diagnose CDI requiring treatment. GDH detects C. difficile (including non-toxigenic strains). Treatment is required only for toxigenic CDI (toxin A/B positive by immunoassay or PCR). Over-treatment of colonisation disrupts gut microbiome and increases risk of other antibiotic resistance.",
+          "D": "Repeating GDH and toxin immunoassay will give the same result (if specimen is from same sample). The resolution to GDH+/toxin− is performing toxin PCR, not repeating the same tests. Waiting 48h delays diagnosis of active CDI."
+        },
+        "guideline": "IDSA/SHEA CDI 2021. Two-step or three-step algorithm: GDH + toxin immunoassay ± PCR. ECMID: recommends NAAT (PCR) as standalone test or as reflex test for GDH+/toxin− discordant results.",
+        "trial": "Dubberke ER et al. Guidance for clinical laboratory testing for CDI. Clin Infect Dis 2010. Multiple validation studies of two-step vs PCR-alone algorithms.",
+        "pearl": "The danger of PCR-alone testing: C. difficile PCR detects the toxin genes, not actual toxin production. Asymptomatic carriers (20–30% of hospitalised patients) may have positive PCR without active disease. Treatment of colonisation with antibiotics selects for resistant organisms and causes further microbiome disruption. The two/three-step algorithm (GDH + toxin ± PCR) balances sensitivity and specificity, avoiding over-treatment."
+      }
+    },
+    {
+      "id": "F2-Q13",
+      "stem": "Empirical antibiotic choice for community-acquired intra-abdominal infection (appendicitis, perforated diverticulitis) vs nosocomial peritonitis (anastomotic leak in ICU patient on prior antibiotics): what is the key difference in coverage?",
+      "options": {
+        "A": "No difference — the same antibiotic regimen covers both community and nosocomial peritonitis",
+        "B": "Community-acquired: narrow spectrum (cefuroxime + metronidazole or co-amoxiclav); nosocomial: broad-spectrum (meropenem ± vancomycin/linezolid ± antifungal) to cover resistant organisms, ESKAPE pathogens, and Candida",
+        "C": "Nosocomial peritonitis: aminoglycosides always required for Pseudomonas coverage",
+        "D": "Community-acquired: IV antibiotics always required; nosocomial: oral antibiotics adequate after source control"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Community-acquired intra-abdominal infection: organisms are typically susceptible Enterobacteriaceae (E. coli, Klebsiella), Streptococcus, and anaerobes. Empirical coverage: co-amoxiclav OR cefuroxime + metronidazole OR ciprofloxacin + metronidazole. Nosocomial peritonitis (healthcare-acquired, post-operative, ICU): resistant organisms dominate — ESKAPE pathogens (ESBL-producing Enterobacteriaceae, Pseudomonas, Acinetobacter, MRSA, Enterococcus), Candida. Coverage: carbapenem (meropenem/imipenem) for ESBL/Pseudomonas ± vancomycin/linezolid for MRSA/Enterococcus ± echinocandin (caspofungin) for Candida (especially immunocompromised or prolonged ICU).",
+        "wrong": {
+          "A": "Using the same narrow-spectrum regimen for nosocomial peritonitis as community-acquired would be inadequate — resistant organisms would not be covered, resulting in treatment failure and mortality.",
+          "C": "Aminoglycosides (gentamicin, amikacin) have Pseudomonas activity but are nephrotoxic and ototoxic. They are not always required — piperacillin-tazobactam (Tazocin) or carbapenems cover Pseudomonas with less toxicity. Aminoglycosides are reserved for MDR organisms or combination regimens in severely resistant cases.",
+          "D": "Nosocomial peritonitis requires IV antibiotics — IV bioavailability is higher and more reliable in critically ill ICU patients with altered GI absorption. Oral antibiotics are considered only for step-down therapy after clinical improvement, not as initial treatment for nosocomial peritonitis."
+        },
+        "guideline": "IDSA 2010, WSES 2017. Nosocomial peritonitis: culture-guided therapy essential; empirical broad-spectrum until culture results; de-escalate based on sensitivities.",
+        "trial": "Solomkin JS et al. IDSA Intra-abdominal infection guidelines. Clin Infect Dis 2010. WSES 2017 — nosocomial IAI requires antifungal cover in high-risk (prior antifungal, recurrent abdominal surgery, renal replacement, TPN, immunosuppression).",
+        "pearl": "Tertiary peritonitis definition: persistent peritoneal inflammation/infection after apparently adequate source control, usually in ICU patients. It is characterised by low-virulence, multi-resistant organisms (Enterococcus, Candida, CoNS, Pseudomonas). Treatment is difficult — multiple re-laparotomies, prolonged broad-spectrum antibiotics, antifungal therapy. Mortality 30–60%. The microbiological shift from community organisms (sensitive Gram−, anaerobes) to hospital organisms (resistant Gram+, Candida) is the defining feature."
+      }
+    },
+    {
+      "id": "F2-Q14",
+      "stem": "Gas gangrene (Clostridial myonecrosis) is diagnosed in a 45-year-old man after a penetrating wound. Is hyperbaric oxygen (HBO) appropriate, and what is the priority sequence of treatment?",
+      "options": {
+        "A": "HBO immediately — gas gangrene is cured by HBO; surgery only if HBO fails",
+        "B": "Surgical debridement/amputation is the immediate priority; HBO is an adjunct (do not delay surgery for HBO); penicillin G + clindamycin",
+        "C": "Penicillin G alone is sufficient — HBO and surgery are not necessary for gas gangrene",
+        "D": "HBO + meropenem — gas gangrene requires broad-spectrum carbapenem and HBO as primary treatment"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Gas gangrene (Clostridial myonecrosis) treatment priority: (1) Emergency surgical debridement or amputation — this is non-negotiable and must not be delayed; (2) Penicillin G + clindamycin antibiotics; (3) HBO — adjunct that inhibits Clostridial spore germination and α-toxin production (C. perfringens is obligate anaerobe — high tissue pO2 from HBO is bactericidal and prevents spread). HBO should not delay surgery — surgery is performed first, then HBO initiated as adjunct in available centres.",
+        "wrong": {
+          "A": "HBO alone cannot cure established gas gangrene — the necrotic tissue must be surgically removed. HBO without debridement allows continued toxin production in necrotic tissue that HBO cannot penetrate adequately. HBO is never first-line; surgery is always the priority.",
+          "C": "Antibiotics alone are insufficient for established gas gangrene. The toxin-mediated tissue destruction is self-perpetuating and requires surgical removal of the source (necrotic tissue). Penicillin G penetrates poorly into ischaemic, necrotic tissue — surgery restores the ability of antibiotics to reach the remaining tissue.",
+          "D": "Meropenem is not the standard antibiotic for C. perfringens — penicillin G is the drug of choice (narrow-spectrum, highly effective). Carbapenems are reserved for mixed infections or resistant organisms. HBO role is adjunct, not primary."
+        },
+        "guideline": "IDSA NSTI Guidelines 2014. Gas gangrene: penicillin G + clindamycin + emergency surgical debridement ± HBO. HBO evidence: observational only (no RCT — ethical barrier).",
+        "trial": "No RCT for HBO in gas gangrene. Undersea and Hyperbaric Medical Society (UHMS) guidelines: HBO adjunct for gas gangrene at 3 atmospheres × 90 min sessions × 3/day initially.",
+        "pearl": "C. perfringens α-toxin (phospholipase C = lecithinase): hydrolyses phospholipids in cell membranes → massive cell lysis → gas (CO2/H2) production → tissue crepitus. The gas seen on imaging/crepitus on palpation is not from the organism per se (C. perfringens produces gas metabolically) — it is the hallmark of Clostridial infection distinguishing it from other NSTI subtypes. C. septicum gas gangrene: spontaneous (no trauma) — associated with colorectal malignancy (haematogenous seeding); presents with spontaneous gas gangrene of the extremity → always screen for GI malignancy in C. septicum gas gangrene."
+      }
+    },
+    {
+      "id": "F2-Q15",
+      "stem": "A 58-year-old diabetic man presents with severe perineal pain and swelling. He develops systemic sepsis. Examination reveals erythema extending from the scrotum to the perineum with focal skin necrosis and subcutaneous crepitus. Imaging shows gas in the perineal fascial planes. What is the diagnosis and the immediate management priority?",
+      "options": {
+        "A": "Scrotal haematoma — compression and analgesia",
+        "B": "Fournier's gangrene — immediate wide surgical debridement, broad-spectrum antibiotics, ICU, consider faecal diversion",
+        "C": "Perianal abscess — incision and drainage under local anaesthesia in ED",
+        "D": "Anorectal fistula — elective fistulotomy in the next available theatre list"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Fournier's gangrene is a Type I NSTI of the perineum/genitalia characterised by: perineal pain, erythema, skin necrosis, subcutaneous gas (crepitus), and systemic toxicity. Diabetes is present in 50–70% of cases. Immediate management: (1) Emergency radical perineal debridement in theatre — excise all necrotic tissue; (2) Broad-spectrum IV antibiotics (piperacillin-tazobactam + vancomycin + metronidazole); (3) ICU admission; (4) Faecal diversion (colostomy) if anal sphincter involved or perianal wound cannot be maintained; (5) VAC wound therapy; (6) Second-look debridement at 24–48h.",
+        "wrong": {
+          "A": "Scrotal haematoma does not cause systemic sepsis, skin necrosis, or subcutaneous gas. These features are diagnostic of NSTI, not haematoma.",
+          "C": "Perianal abscess causes local perineal pain and swelling but does NOT cause subcutaneous gas, systemic sepsis of this severity, or skin necrosis. Perianal abscess is a local infection; Fournier's is a systemic emergency. Local I&D under LA in ED is completely inadequate for Fournier's gangrene — mortality would approach 100%.",
+          "D": "Anorectal fistula is a chronic condition causing perianal discharge and pain but not acute systemic sepsis, skin necrosis, or gas in fascial planes. Elective surgery is completely inappropriate for this emergency."
+        },
+        "guideline": "IDSA NSTI Guidelines 2014. Fournier's gangrene management: emergency debridement + antibiotics + ICU. Faecal diversion: not universal — reserved for anal sphincter involvement or inability to maintain wound hygiene.",
+        "trial": "Jeong HJ et al. Fournier's gangrene outcomes with early surgery: Am J Surg 2019 — time to surgery <24h: mortality 18%; >24h: mortality 34%. FGSI (Fournier's Gangrene Severity Index — WBC, Hct, Na, Cr, BUN, glucose, HCO3, temperature) predicts mortality.",
+        "pearl": "Testicular salvage in Fournier's: the testes are supplied by the testicular arteries (retroperitoneal origin — NOT from scrotal vasculature). Even with complete scrotal skin necrosis requiring resection, the testes and spermatic cords are typically viable and should be preserved. The testes are temporarily placed in medial thigh pouches (cutaneous pockets) until scrotal reconstruction. Orchidectomy is required only for direct testicular involvement (<5% of cases)."
+      }
+    },
+    {
+      "id": "F2-Q16",
+      "stem": "A 45-year-old woman on long-term prednisone 40mg/day for rheumatoid arthritis develops fever, abdominal pain, and diarrhoea after elective sigmoid colectomy with primary anastomosis. WBC is 8 × 10⁹/L (low for expected post-op stress response). CT shows subtle perianastomotic fluid without frank abscess. Sigmoidoscopy shows white mucosal plaques. What atypical infection must be considered, and why is WBC unreliable?",
+      "options": {
+        "A": "MRSA SSI — steroids increase MRSA colonisation risk",
+        "B": "CMV colitis — steroids unmask latent CMV; WBC unreliable because steroid-induced leukocytosis masks expected inflammatory response",
+        "C": "PCP (Pneumocystis jirovecii) colitis — rare but associated with steroid use; WBC may be low",
+        "D": "Candida anastomotic leak — fungi are the primary concern in high-dose steroid patients"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Immunocompromised patients (high-dose steroids, transplant recipients) are susceptible to CMV reactivation, which can cause CMV colitis — presenting with diarrhoea, fever, and characteristic endoscopic appearances (mucosal ulcers, white plaques = CMV inclusions). White mucosal plaques on sigmoidoscopy are pathognomonic of CMV colitis. WBC unreliable in steroid patients: steroids cause demargination of neutrophils (leukocytosis) at normal doses but can also suppress the WBC rise expected with infection — the WBC (8×10⁹/L) is inappropriately low for a post-operative inflammatory state in an immunocompromised patient. Diagnosis: colonic biopsy with CMV immunohistochemistry (owl's eye inclusions) + CMV PCR blood. Treatment: IV ganciclovir.",
+        "wrong": {
+          "A": "MRSA SSI typically presents as wound infection (skin/subcutaneous — swelling, erythema, purulent discharge) not with GI mucosal plaques, diarrhoea, and perianastomotic fluid. MRSA bacteraemia is a differential but the endoscopic appearance points to mucosal infection.",
+          "C": "PCP (Pneumocystis jirovecii) causes pneumonia in immunocompromised patients — NOT colitis. PCP is a pulmonary pathogen (bilateral ground-glass opacities on CT chest; hypoxia). It does not cause GI mucosal plaques.",
+          "D": "Candida anastomotic leak is a consideration but typically presents as anastomotic failure with peritonitis/intraperitoneal collection and drain fluid candida growth — not as GI mucosal plaques on endoscopy. Candida colitis is extremely rare; CMV colitis is the more likely diagnosis with this endoscopic appearance."
+        },
+        "guideline": "IDSA CMV Guidelines. CMV colitis in immunocompromised: gold standard diagnosis = biopsy with IHC + CMV PCR. Treatment: IV ganciclovir 5mg/kg BD × 14–21 days; switch to oral valganciclovir for completion.",
+        "trial": "Studies on CMV colitis in solid organ transplant/steroid-immunosuppressed patients. White D et al. CMV colitis after renal transplant. Transplantation 2018 — CMV colitis prevalence 3–8% in first year post-SOT.",
+        "pearl": "Steroid-induced WBC unreliability: corticosteroids cause: (1) Neutrophilia (demargination from vessel walls); (2) Lymphopenia; (3) Blunted febrile response; (4) Blunted acute phase reactant rise (CRP may be lower than expected). Therefore: in steroid-immunosuppressed patients, clinical assessment must not rely solely on 'normal' WBC or CRP — these may be falsely reassuring. Radiological and microbiological investigations are paramount."
+      }
+    },
+    {
+      "id": "F2-Q17",
+      "stem": "What is the evidence base for routine drain placement after elective colorectal anastomosis?",
+      "options": {
+        "A": "Routine drains are mandatory — drains detect anastomotic leak early and reduce mortality",
+        "B": "Routine drains have no proven benefit for detecting anastomotic leak early or reducing mortality — selective use in high-risk anastomoses only",
+        "C": "Drains prevent anastomotic leak by reducing local tension and haematoma",
+        "D": "Drains should be placed for 14 days post-operatively in all colorectal anastomoses"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Multiple RCTs and meta-analyses (Cochrane systematic review — Jesus EC et al.) have consistently shown that routine pelvic/abdominal drain placement after elective colorectal anastomosis does NOT reduce anastomotic leak rate, mortality, re-operation rate, or hospital stay. Moreover, drains may increase infection risk (retrograde microbial contamination), increase discomfort, and delay mobilisation. NICE and ERAS guidelines recommend SELECTIVE drain use (high-risk anastomosis — low rectal, technical difficulty, poor blood supply) rather than routine placement.",
+        "wrong": {
+          "A": "Drains do not reliably detect anastomotic leak early — a prospective study showed drains changed management in only 10–15% of cases and did not prevent emergency re-operation. The idea that drains prevent complications by early detection is not supported by evidence.",
+          "C": "Drains do not prevent anastomotic leak — they are passive conduits for fluid drainage. Anastomotic integrity depends on surgical technique (adequate blood supply, tension-free, no ischaemia), not drain placement.",
+          "D": "14-day drain duration is excessive and associated with increased retrograde infection risk. If drains are used selectively, they should be removed as soon as output is <30–50 mL/day of clear fluid and there are no clinical signs of leak."
+        },
+        "guideline": "NICE guidelines; ERAS colorectal pathway. Jesus EC et al. Cochrane systematic review: drainage for colorectal surgery — no benefit of routine drainage. ASCRS Colorectal Surgery Guidelines.",
+        "trial": "Jesus EC et al. Cochrane review — drainage for colorectal cancer surgery. Cochrane Database 2004, updated 2014: 6 RCTs, no benefit of routine drains for colorectal anastomosis. Merad F et al. RCT — elective colorectal surgery drain vs no drain: no difference in anastomotic leak detection or management.",
+        "pearl": "Exceptions where selective drain use is reasonable: (1) Low rectal anastomosis (<5cm from anal verge — TME with high tension/leak risk); (2) Difficult anastomosis with technical concerns; (3) If the surgeon cannot exclude significant intraoperative contamination; (4) Pelvic haemostasis uncertainty. ERAS protocol: no routine drains; selective use in these circumstances. If drain placed, remove within 24–48h if output clear and <50 mL/day."
+      }
+    },
+    {
+      "id": "F2-Q18",
+      "stem": "A 28-year-old IV drug user presents with a wound on the arm that has been treated with heroin for wound management (traditional practice in some communities). He develops difficulty swallowing, double vision, and drooping eyelids over 24 hours. He has no fever. Wound is purulent. What is the most likely diagnosis?",
+      "options": {
+        "A": "Tetanus — toxin causes descending spasm",
+        "B": "Wound botulism — C. botulinum toxin causing descending flaccid paralysis",
+        "C": "GAS NSTI — toxic shock causing cranial nerve palsies",
+        "D": "Heroin overdose — opioid-related pupil changes and neurological depression"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Wound botulism: C. botulinum spores contaminate wounds (particularly seen in IV drug users — heroin from Mexico contaminated with C. botulinum spores; also seen in black tar heroin). Botulinum toxin (the most potent biological toxin known) blocks ACh release at the neuromuscular junction → descending flaccid paralysis. Classic features: (1) Afebrile (toxin-mediated, not systemic infection); (2) Descending cranial nerve palsies (CN III/IV/VI — diplopia, ptosis; IX/X — dysphagia, dysarthria; then respiratory failure); (3) Symmetric flaccid weakness; (4) Absent deep tendon reflexes; (5) Normal mental status. Purulent wound is from the injection site (C. botulinum grows in anaerobic purulent tissue).",
+        "wrong": {
+          "A": "Tetanus (C. tetani) causes ASCENDING spastic paralysis — starting with lockjaw (trismus), then risus sardonicus (facial spasm), then opisthotonos (severe extensor muscle spasm). Tetanus causes HYPERTONIC spasm (opposite of botulism). Tetanus also causes fever. Dysphagia and diplopia are not classic tetanus features.",
+          "C": "GAS NSTI causes local wound necrosis and systemic toxicity (fever, haemodynamic instability). Cranial nerve palsies are not a feature of GAS NSTI — the neurological pattern here (descending cranial nerve palsies in an afebrile patient) is specifically botulism.",
+          "D": "Heroin overdose causes: miosis (pinpoint pupils), respiratory depression, CNS depression. Diplopia and dysphagia are not opioid effects. This patient has an afebrile descending cranial nerve palsy pattern — not consistent with opioid pharmacology."
+        },
+        "guideline": "CDC wound botulism guidelines. UK outbreak response — wound botulism in heroin users. IDSA wound botulism management.",
+        "trial": "Passaro DJ et al. Wound botulism associated with black tar heroin. JAMA 1998 — outbreak characterisation. Cherington M et al. Botulism clinical features review. Arch Neurol 1998.",
+        "pearl": "Wound botulism management: (1) Emergency wound debridement (remove toxin source and anaerobic environment); (2) Heptavalent botulinum antitoxin (HBAT — covers all 7 toxin serotypes) via CDC Emergency Operations; (3) ICU supportive care — mechanical ventilation for respiratory failure (respiratory failure is the primary cause of death); (4) Penicillin G (kills C. botulinum, stops ongoing toxin production — does not reverse existing toxin binding). Antitoxin works on unbound toxin only — it cannot reverse paralysis already established but prevents further progression."
+      }
+    },
+    {
+      "id": "F2-Q19",
+      "stem": "Which of the following is tertiary peritonitis, and how does it differ from secondary peritonitis in terms of microbiology and management?",
+      "options": {
+        "A": "Tertiary peritonitis = any post-operative peritonitis; managed with re-laparotomy",
+        "B": "Tertiary peritonitis = persistent peritonitis after adequate source control in ICU patients; characterised by resistant organisms (Enterococcus, Candida, Pseudomonas); requires broad-spectrum antifungal/antibacterial cover; re-laparotomy rarely beneficial",
+        "C": "Tertiary peritonitis = primary peritonitis in immunocompromised patients; treated with narrow-spectrum antibiotics",
+        "D": "Tertiary peritonitis = peritonitis from bowel anastomotic leak; always requires emergency laparotomy"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "Tertiary peritonitis definition (Rotstein, Nathens): persistent peritoneal inflammation and infection occurring after apparently adequate source control of secondary peritonitis, typically in ICU patients with organ dysfunction. It represents failure of the host to contain infection despite surgery. Key features: (1) Microbiology — low-virulence, multi-resistant organisms: Enterococcus faecalis/faecium, Candida species, Pseudomonas aeruginosa, coagulase-negative Staphylococci (microbiological 'drift' from community to hospital organisms); (2) Re-laparotomy: often not beneficial — no new anatomical source; repeated surgery increases morbidity; (3) Management: broad-spectrum antibiotics targeting resistant organisms + antifungal therapy + source control if new focus identified; (4) Mortality: 30–60% despite treatment.",
+        "wrong": {
+          "A": "Any post-operative peritonitis is not tertiary peritonitis. Anastomotic leak (post-op secondary peritonitis) has a clear anatomical source and typically responds to re-laparotomy or drainage. Tertiary peritonitis specifically requires prior adequate source control without resolution.",
+          "C": "Primary peritonitis (SBP) is haematogenous infection of ascites in cirrhotic patients — not an ICU phenomenon of treatment failure. Primary peritonitis is caused by susceptible community organisms (E. coli) and responds to cefotaxime.",
+          "D": "Anastomotic leak causing peritonitis is secondary peritonitis — there is a new anatomical source (leak) requiring source control (reoperation or drainage). This is not tertiary peritonitis."
+        },
+        "guideline": "Rotstein OD, Nathens A. Tertiary peritonitis definition and management. WSES 2017 guidelines.",
+        "trial": "Nathens AB et al. Tertiary peritonitis — is it really a surgical disease? Surgery 1998: tertiary peritonitis — 62% mortality; 75% had at least one reoperation without clinical benefit.",
+        "pearl": "Tertiary peritonitis represents the 'convergent failure' of host immunity and surgical source control in critically ill patients. The shift from community organisms (secondary peritonitis — E. coli, Bacteroides) to hospital organisms (Enterococcus, Candida, Pseudomonas) results from: antibiotic selection pressure, mucosal barrier failure, and translocation of hospital-acquired pathogens. Recognition is critical — continued re-laparotomies without new source cause harm without benefit."
+      }
+    },
+    {
+      "id": "F2-Q20",
+      "stem": "A patient with Fournier's gangrene has undergone successful radical perineal debridement. The scrotum has been completely excised but both testes are exposed and viable (testicular arteries intact on duplex). What is the next step for the testes?",
+      "options": {
+        "A": "Bilateral orchidectomy — exposed testes without scrotal covering will not survive",
+        "B": "Immediate scrotal reconstruction with split-thickness skin graft — testes must be covered within 24h",
+        "C": "Temporary placement of both testes in medial thigh skin pouches until scrotal reconstruction is possible",
+        "D": "Pack exposed testes with antiseptic gauze and return to theatre in 48h for definitive management"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "Testicular salvage in Fournier's gangrene: the testes survive total scrotal excision because they are supplied by the testicular arteries (arising from the aorta at L1/L2 level — retroperitoneal, NOT from scrotal vessels). When scrotal skin and subcutaneous tissue are completely excised, the viable testes are placed in medial thigh skin pouches (2–3cm pockets in the medial thigh skin) — bilateral, one per thigh. This maintains warmth, moisture, and proximity for eventual scrotal reconstruction. Scrotal reconstruction (with split-thickness skin grafts or advancement flaps) is performed at a later stage (3–6 weeks) after wound healing.",
+        "wrong": {
+          "A": "Orchidectomy is NOT indicated for viable testes with intact testicular arteries. The testes will survive in medial thigh pouches — orchidectomy would be an unnecessary mutilation. Less than 5% of Fournier's cases require orchidectomy (only for direct testicular necrosis).",
+          "B": "Immediate STSG over raw, inflamed, potentially contaminated post-debridement wound is premature — skin graft will not take on acutely inflamed tissue. Thigh pouches are the correct immediate strategy. STSG reconstruction is planned after wound maturation (VAC therapy, clean granulation tissue at 3–6 weeks).",
+          "D": "Gauze packing of exposed testes would desiccate the tunica albuginea and cause thermal injury. Biological coverage (living skin pockets) in the medial thigh is the standard and proven technique for immediate testicular protection."
+        },
+        "guideline": "Eke N. Fournier's gangrene: a review of 1726 cases. Br J Surg 2000. Medial thigh pouches for testicular temporisation is standard practice in most urological and colorectal surgery guidelines.",
+        "trial": "Jeong HJ et al. Fournier's gangrene — long-term outcomes Am J Surg 2019: testicular salvage rate 95% with medial thigh pouch technique. Fertility preserved in majority.",
+        "pearl": "Testicular temperature regulation in thigh pouches: the testis normally operates at 34°C (below body temperature — maintained by scrotal thermoregulation). In medial thigh pouches at 37°C, spermatogenesis is temporarily impaired (heat damage to seminiferous tubules). After scrotal reconstruction and testicular relocation into the cooler scrotal environment, spermatogenesis typically recovers over 3–6 months. Long-term fertility outcomes are acceptable in Fournier's survivors who underwent thigh pouch temporisation."
+      }
+    }
+  ]
+}

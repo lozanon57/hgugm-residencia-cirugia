@@ -1,0 +1,562 @@
+{
+  "id": "G3",
+  "title": "Minimally Invasive Surgery — Laparoscopy & Robotics",
+  "subtitle": "Principles, Energy Devices, Operative Techniques & Evidence",
+  "block": "G",
+  "block_name": "Perioperative & Minimally Invasive",
+  "level": "PGY1-3",
+  "reading_time_min": 95,
+  "guidelines_version": "SAGES Guidelines 2022 · EHS Hernia Guidelines 2023 · EAES/ESCP Robotic Surgery Position Statement 2023",
+  "textbook_refs": [
+    "Mastery of Surgery, 6th ed., Fischer et al., Ch. 12–16",
+    "The SAGES Manual: Fundamentals of Laparoscopy, 3rd ed.",
+    "EHS Guidelines for Treatment of Inguinal Hernia 2020",
+    "ESCP/EAES Position Statement on Robotic Colorectal Surgery 2023"
+  ],
+  "learning_objectives": [
+    "Describe the physiological consequences of pneumoperitoneum and identify contraindications",
+    "Distinguish between monopolar, bipolar, and ultrasonic energy devices and their safety profiles",
+    "Define the Critical View of Safety for laparoscopic cholecystectomy and describe intraoperative cholangiography",
+    "Compare medial-to-lateral vs lateral-to-medial approaches for right hemicolectomy and describe the RIGHT trial findings",
+    "Summarise the ROLARR trial findings for robotic vs laparoscopic TME",
+    "Describe taTME technique and its specific complication profile",
+    "Identify and manage complications specific to minimally invasive surgery"
+  ],
+  "sections": [
+    {
+      "id": "G3-S1",
+      "title": "Principles of Laparoscopy",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Laparoscopic surgery relies on the creation of a pneumoperitoneum — insufflation of the abdominal cavity with carbon dioxide (CO2) gas to create a working space. CO2 is used because it is: non-combustible (safe with energy devices), highly soluble in blood (rapidly absorbed and excreted via respiration), readily available, and inexpensive. However, CO2 insufflation has important physiological effects.\n\nPhysiological effects of pneumoperitoneum: (1) CARDIOVASCULAR: initial peritoneal insufflation causes a vagal bradycardic response (direct peritoneal stretch → vagal stimulation). Sustained pressure (12–15 mmHg) → increased intra-abdominal pressure → increased systemic vascular resistance (SVR — compression of abdominal aorta/vessels), increased venous compression (IVC compression reduces preload, but venous capacitance reduction may transiently increase venous return). Net effect: increased afterload + increased MAP; this is poorly tolerated in patients with severe cardiac disease (LV dysfunction, severe AS). Trendelenburg positioning (used for pelvic surgery) further increases preload and venous return — potential for pulmonary oedema in cardiac patients. (2) RESPIRATORY: increased abdominal pressure elevates the diaphragm, reducing functional residual capacity (FRC) and increasing peak airway pressure. Requires increased ventilator pressures. CO2 absorbed across peritoneum → hypercarbia → increased minute ventilation required. Patients with severe COPD may not tolerate this. (3) RENAL: increased IAP (≥15 mmHg) reduces renal cortical blood flow and GFR → may precipitate AKI in susceptible patients. (4) CO2 EMBOLISM: rare but catastrophic — CO2 enters an open venous channel → gas embolism → mill-wheel murmur, haemodynamic collapse, right heart failure.\n\nContraindications to pneumoperitoneum: RELATIVE (not absolute — experienced laparoscopic surgeon may proceed with modifications): uncorrected coagulopathy (bleeding risk), severe cardiac disease (NYHA IV, severe LV dysfunction — consider open), severe COPD (inability to tolerate hypercarbia), previous multiple abdominal operations with dense adhesions (risk of trocar entry injury). ABSOLUTE contraindications are very few: patient refusal of operation, inability to achieve haemostasis.\n\nTrocar hernia: port site hernias occur through fascial defects ≥10 mm in diameter. Risk: trocar type (radially expanding vs cutting — lower with radially expanding), location (periumbilical higher risk), obesity, age, wound infection. Prevention: fascial closure for ALL port sites ≥10 mm (J-needle, Carter-Thomason, or under direct vision). Port sites <10 mm: fascial closure NOT required. Richter's hernia (partial enterotomy at port site) is a specific risk — presents as subacute obstruction with no full-thickness bowel herniation on imaging."
+        },
+        {
+          "type": "table",
+          "title": "Physiological Effects of Pneumoperitoneum",
+          "headers": ["System", "Effect", "Mechanism", "Clinical Implication"],
+          "rows": [
+            ["Cardiovascular — early", "Vagal bradycardia on insufflation", "Peritoneal stretch → vagal stimulation", "Have atropine ready; usually transient"],
+            ["Cardiovascular — sustained", "↑SVR, ↑MAP, ↑afterload", "IAP compresses aorta → increased impedance to LV ejection", "Poor tolerance in severe LV dysfunction; monitor BP"],
+            ["Cardiovascular — position", "Trendelenburg ↑venous return → risk pulmonary oedema", "IVC decompression + gravity", "Cardiac patients: avoid prolonged steep Trendelenburg"],
+            ["Respiratory", "↑Peak airway pressure, ↓FRC, hypercarbia", "Diaphragm elevation + CO2 absorption", "COPD: may need increased ventilator support; EtCO2 monitoring"],
+            ["Renal", "Reduced GFR, oliguria", "IAP ≥15 mmHg compresses renal cortex", "Reduce IAP to 10–12 mmHg if oliguria; ensure adequate hydration"],
+            ["Venous thromboembolism", "Increased DVT risk", "Venous stasis from IVC compression, pneumoperitoneum", "VTE prophylaxis mandatory; IPC during case"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Veress Needle Entry — Safety Tests",
+          "content": "Veress needle (closed technique): after skin incision (usually umbilical), the Veress needle is advanced through the fascia and peritoneum. Safety tests before insufflation: (1) Aspiration test — aspirate before insufflating; if blood/bowel contents → reposition; clear = safe. (2) Saline drop test — place saline drop in needle hub; release abdomen; drop should fall inward if peritoneal position (negative intra-abdominal pressure). (3) Initial insufflation pressure — should be <8 mmHg (if >10 mmHg immediately → likely not in peritoneal cavity; re-position). (4) Insufflation volume — steady rise in pressure with gas volume = correct position. Hasson (open) technique: minilaparotomy to fascia, direct peritoneal incision under vision, blunt trocar placed — eliminates entry injury risk; preferred in patients with previous abdominal surgery or obesity."
+        }
+      ]
+    },
+    {
+      "id": "G3-S2",
+      "title": "Energy Devices",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Understanding energy devices is essential for safe MIS — each modality has distinct mechanisms, tissue effects, and safety profiles.\n\nMonopolar electrosurgery: current passes from the active electrode (instrument tip), through the patient's body, to the return/dispersive electrode (diathermy pad). Cutting mode: high frequency, low voltage continuous current → rapid cellular water vaporisation → 'cutting' effect. Coagulation mode: high voltage, interrupted current → slower heating → protein denaturation → coagulation. Combined (blend). Safety concerns: (1) Capacitative coupling — current can be induced in adjacent conductive objects (e.g., a metal trocar touching a non-grounded instrument) even without direct contact, causing burns to bowel or other structures. Minimised by: all-metal trocar systems (provide conduction path to abdominal wall) and avoiding hybrid trocar systems (metal sleeve + plastic anchor — concentrate current). (2) Direct coupling — accidental activation of instrument touching adjacent structure. (3) Insulation failure — current escapes through damaged instrument insulation. (4) Lateral thermal spread: monopolar coagulation = 5–10 mm spread.\n\nBipolar electrosurgery: current passes between the two jaws of the instrument (not through the patient body) — more controlled, less arcing risk. Advanced bipolar systems: LigaSure (Medtronic) — uses electrical energy + pressure; seals vessels up to 7 mm diameter with lateral thermal spread 1–2 mm; the fusion technology creates a seal equivalent to three suture ligatures. EnSeal (J&J) — similar vessel sealing with nanoparticle-mediated tissue fusion; lateral thermal spread 1 mm. These devices do NOT cut automatically — a separate blade or scissors is used or they have an integrated blade.\n\nUltrasonic energy (Harmonic): ultrasonic vibration (55,500 Hz) of the blade → mechanical energy → frictional heat (80–100°C) → protein denaturation and coagulation. Key characteristics: no electrical current passes through the patient; lower temperatures (vs electrosurgery); reduced char and smoke; lateral thermal spread 3 mm. Can cut AND coagulate simultaneously. Slower sealing time than bipolar for large vessels. Safe for use near neural tissue (no electrical current). THUNDERBEAT (Olympus): combined advanced bipolar + ultrasonic in one instrument — combines speed of bipolar sealing with ultrasonic cutting.\n\nSafety comparison: lateral thermal spread — monopolar coagulation 5–10 mm; LigaSure/EnSeal 1–2 mm; Harmonic 3 mm. Clinical pearl: near the bile duct, common bile duct, or bowel, use instruments with LOWEST lateral spread — LigaSure/EnSeal (1–2 mm) or Harmonic (3 mm) preferred over monopolar."
+        },
+        {
+          "type": "table",
+          "title": "Energy Devices — Comparison",
+          "headers": ["Device", "Mechanism", "Vessel Seal", "Lateral Spread", "Key Safety Issue", "Best Use"],
+          "rows": [
+            ["Monopolar cutting", "High-freq, low-voltage continuous current → vaporisation", "Poor — not designed for sealing", "5–10 mm (coag)", "Capacitative coupling, direct coupling, insulation failure", "Dissection, cutting avascular tissue"],
+            ["Monopolar coagulation", "High-voltage interrupted current → protein denaturation", "Small vessels (<2 mm)", "5–10 mm", "Arcing to adjacent structures", "Haemostasis of small bleeders"],
+            ["Bipolar LigaSure", "Low-voltage AC + pressure → collagen fusion", "Up to 7 mm vessels", "1–2 mm", "Minimal — well-controlled", "Mesenteric vessels, splenic hilum, liver parenchyma"],
+            ["Bipolar EnSeal", "Nanoparticle tissue-regulated current + compression", "Up to 7 mm vessels", "~1 mm", "Minimal", "Delicate dissection near bile duct"],
+            ["Harmonic (ultrasonic)", "55,500 Hz vibration → frictional heat 80–100°C", "Up to 5 mm vessels", "3 mm", "Delayed burn risk (blade remains hot post-activation)", "All-purpose — no electrical current in patient"],
+            ["THUNDERBEAT", "Combined bipolar + ultrasonic", "Up to 7 mm + rapid cut", "~1.5–2 mm", "Cost; blade complexity", "Efficiency in combined sealing and cutting"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Capacitative Coupling — Monopolar Risk in MIS",
+          "content": "Capacitative coupling occurs when a monopolar instrument generates an electric field that induces current flow in nearby conductors (metal trocars, other instruments) WITHOUT direct contact. Risk scenario: a 5 mm plastic trocar (non-conducting anchor) with a metal sleeve — current concentrates at the junction (no path to ground) and may discharge to adjacent bowel. Prevention: (1) Use all-metal trocar systems (current disperses to abdominal wall). (2) Avoid using monopolar through a hybrid (plastic-anchored metal) trocar in isolation. (3) Use active electrode monitoring (AEM) systems. (4) Keep monopolar instrument in sight at all times when activated. (5) Use lowest effective power setting."
+        }
+      ]
+    },
+    {
+      "id": "G3-S3",
+      "title": "Laparoscopic Cholecystectomy & Common Bile Duct",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Laparoscopic cholecystectomy (LC) is the gold standard for symptomatic gallstone disease and is the most commonly performed laparoscopic operation globally. The Critical View of Safety (CVS — Strasberg, 1995) is the internationally accepted standard for safe cholecystectomy and the primary prevention strategy for bile duct injury (BDI). BDI occurs in ~0.3–0.5% of LCs and carries significant morbidity, mortality, and medicolegal consequence.\n\nCritical View of Safety — THREE criteria (ALL THREE must be met): (1) The hepatocystic triangle must be completely dissected and cleared of fat and fibrous tissue. (2) The lowest part of the gallbladder must be separated from the cystic plate (liver). (3) Two and only two structures should be seen entering the gallbladder — the cystic duct and cystic artery. If CVS cannot be achieved → do NOT clip and divide structures → perform intraoperative cholangiography (IOC) for clarification OR convert to open OR subtotal cholecystectomy (for difficult inflammations).\n\nDome-down (fundus-first) dissection: alternative approach when the hepatocystic triangle is densely inflammatory. Begin dissection at the fundus and work downward to the infundibulum — maintains orientation when the triangle is obscured. Requires clear identification of cystic structures before clipping.\n\nIntraoperative cholangiography (IOC): cannulation of the cystic duct with a cholangiogram catheter → injection of contrast → fluoroscopic imaging. Indicates: (1) CBD stones (filling defects); (2) Anatomical variations (low cystic duct insertion, short cystic duct, right posterior sectoral duct draining into cystic duct — 'the classic ductal injury scenario'); (3) Confirmation of CVS when uncertain. IOC interpretation: two main hepatic ducts should fill; contrast should flow into duodenum; no filling defects; cystic duct remnant should be short (<1 cm).\n\nLaparoscopic common bile duct exploration (LCBDE): performed when intraoperative cholangiography reveals CBD stones. Techniques: (1) Transcystic LCBDE — wire-guided basket retrieval via the cystic duct (suitable for distal CBD stones, cystic duct diameter ≥4 mm); (2) Choledochotomy — direct incision of CBD (for stones >1 cm, proximal stones, multiple stones); requires T-tube or primary closure with or without a stent. Completion cholangiogram confirms clearance. Success rates for LCBDE: 80–90% for transcystic; >90% for choledochotomy.\n\nConversion criteria: (1) Inability to achieve CVS; (2) Suspected CBD injury; (3) Haemorrhage not controllable laparoscopically; (4) Unsuspected malignancy requiring wider resection; (5) Dense adhesions preventing safe access. Conversion is NOT failure — it is sound surgical judgment. Document indication for conversion."
+        },
+        {
+          "type": "table",
+          "title": "Critical View of Safety — Three Criteria",
+          "headers": ["Criterion", "Technical Requirement", "Common Error", "Consequence of Non-compliance"],
+          "rows": [
+            ["1. Hepatocystic triangle cleared", "Complete dissection — no fat or fibrous tissue; triangle fully opened", "Incomplete posterior dissection — only anterior triangle cleared", "Failure to identify CBD running into 'cystic duct' position"],
+            ["2. Lowest GB separated from cystic plate", "Gallbladder bottom separated from liver (cystic plate visible)", "Stopping dissection at infundibulum without separating GB from liver", "Inadequate exposure — cannot confirm two-structure rule"],
+            ["3. Two and only two structures enter GB", "Only cystic duct and cystic artery seen going into gallbladder", "Mistaking CBD or right hepatic duct for 'cystic duct'", "Bile duct injury — catastrophic complication"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Bile Duct Injury — Prevention is Everything",
+          "content": "Bile duct injury (BDI) remains the most feared complication of cholecystectomy. The 'classic' injury: the CBD is mistaken for the cystic duct because the cystic duct and CBD run in parallel. Prevention: (1) ALWAYS achieve CVS before clipping. (2) If anatomy is unclear: call for help; convert; perform IOC. (3) Never clip a structure you cannot confidently identify. (4) Dome-down dissection for difficult cholecystitis. (5) If BDI suspected intraoperatively: stop, perform IOC, seek hepatobiliary surgical expertise (do NOT attempt laparoscopic repair unless experienced). (6) Subtotal cholecystectomy is safer than risking BDI in acute cholecystitis."
+        }
+      ]
+    },
+    {
+      "id": "G3-S4",
+      "title": "Laparoscopic Colectomy & Rectal Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Laparoscopic colorectal surgery has become the standard of care for most colonic and rectal resections. Oncological equivalence with open surgery has been established by multiple RCTs (CLASSIC, COLOR I/II, COST trials). Benefits: reduced wound complications, shorter hospital stay, faster recovery, fewer adhesional complications.\n\nRight hemicolectomy — approaches: (1) Medial-to-lateral (M2L): the ileocolic vessels are divided first (medial dissection), the retroperitoneal plane is developed from medial to lateral (Toldt's fascia dissection), and the bowel is mobilised after vascular ligation. Advantages: oncological (high vascular ligation — clear mesocolic plane), reduced blood loss, cleaner plane. (2) Lateral-to-medial (L2M): traditional — mobilise the right colon by dividing lateral peritoneal attachments first, then proceed medially to vessels. Less common in modern practice — greater bleeding risk during vessel ligation. Most laparoscopic surgeons use M2L as the primary approach.\n\nIntracorporeal vs extracorporeal anastomosis: RIGHT trial (2020) is the key evidence.\n\nLeft hemicolectomy/sigmoid: requires splenic flexure mobilisation (omental dissection from left transverse colon — entering the lesser sac, or retrocolic approach), high vessel ligation (IMA at origin), and mobilisation of descending/sigmoid colon. Laparoscopic stapled colorectal anastomosis with circular stapler.\n\nTotal mesorectal excision (TME) — robotic vs laparoscopic: the ROLARR trial directly compared robotic and laparoscopic TME for rectal cancer.\n\ntaTME (Transanal Total Mesorectal Excision): a hybrid technique combining a transabdominal laparoscopic component with a transanal approach (purse-string closure of rectum, transanal port insertion, working bottom-up in the TME plane). Advantages: may improve access in difficult pelves (obesity, narrow pelvis, bulky tumour), potentially better distal margin. Complications specific to taTME: (1) Urethral injury — the most severe unique complication; reported in 0.5–2% of cases; results from incorrect dissection plane anteriorly entering Denonvilliers' fascia space anterior to urethra. (2) CO2 gas embolism — from transanal gas insufflation. (3) Two-team synchronisation errors. Prevention of urethral injury: strict adherence to anatomical landmarks, always start posterior and lateral, ensure rectal mucosal closure is adequate."
+        },
+        {
+          "type": "landmark_trial",
+          "title": "RIGHT Trial — Intracorporeal vs Extracorporeal Anastomosis (Right Hemicolectomy)",
+          "citation": "Milone M et al. Ann Surg 2021;274:788–796 (RIGHT multicentre RCT)",
+          "population": "240 patients undergoing laparoscopic right hemicolectomy for cancer or benign disease",
+          "intervention": "Intracorporeal anastomosis (ICA) — anastomosis formed inside the abdomen with laparoscopic staplers and suturing",
+          "control": "Extracorporeal anastomosis (ECA) — bowel exteriorised through a small incision; anastomosis formed outside",
+          "primary_outcome": "Surgical site infection (SSI) at 30 days",
+          "results": "ICA: lower overall SSI (8.3% vs 20.8%; p=0.008), lower incisional SSI (0% vs 10.8%; p<0.001), shorter hospital stay (4 vs 5 days). Anastomotic leak rate similar. Operative time similar (ICA 210 min vs ECA 185 min). No difference in mortality.",
+          "conclusion": "Intracorporeal anastomosis is superior to extracorporeal for wound infection and recovery in laparoscopic right hemicolectomy.",
+          "board_relevance": "RIGHT trial: intracorporeal anastomosis = less SSI, shorter stay for laparoscopic right hemicolectomy. ICA is preferred approach in experienced hands. Requires smaller extraction site wound (Pfannenstiel or suprapubic — not required to be over the anastomosis site)."
+        },
+        {
+          "type": "landmark_trial",
+          "title": "ROLARR Trial — Robotic vs Laparoscopic TME for Rectal Cancer",
+          "citation": "Jayne D et al. JAMA 2017;318:1569–1580",
+          "population": "471 patients with rectal adenocarcinoma requiring total mesorectal excision",
+          "intervention": "Robotic-assisted laparoscopic (robotic) proctectomy with TME",
+          "control": "Standard laparoscopic proctectomy with TME",
+          "primary_outcome": "Conversion to open surgery",
+          "results": "Robotic: conversion rate 8.1% vs laparoscopic 12.2% (OR 0.61; p=0.16 — NOT statistically significant). No significant difference in: R0 resection, completeness of mesorectal excision, anastomotic leak, LOS, 30-day mortality. No significant reduction in conversion. Secondary: bladder/sexual dysfunction similar. Robotic: longer operative time (336 vs 295 min) and higher cost.",
+          "conclusion": "Robotic TME does NOT significantly reduce conversion compared with laparoscopic TME. No clear clinical advantage; significantly higher cost. Robotic may have advantages in specific patient subgroups (narrow pelvis, obesity) but this remains unproven in the ROLARR population.",
+          "board_relevance": "ROLARR: robotic TME ≠ lower conversion rate vs laparoscopic TME. No oncological benefit. Higher cost. Know that the primary endpoint was NOT met. Ongoing registry data and subgroup analyses may identify patients who benefit."
+        }
+      ]
+    },
+    {
+      "id": "G3-S5",
+      "title": "Robotic Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Robotic-assisted surgery uses a surgeon console, patient-side cart (robot arm), and a vision system. The da Vinci Surgical System (Intuitive Surgical) is the dominant platform globally. Platforms: da Vinci Xi (current standard — four arms, advanced port positioning flexibility, improved instrument reach and rotation); da Vinci X (lower cost, fewer features than Xi); da Vinci SP (Single Port — single-arm, multi-articulating instruments for single-port access — indications: radical prostatectomy in narrow space, transoral, transvaginal).\n\nAdvantages of robotic surgery: (1) Three-dimensional (3D) high-definition magnified vision (vs 2D in standard laparoscopy — though 3D laparoscopes also exist). (2) Wristed instruments — 7 degrees of freedom (vs 4–5 in laparoscopic instruments) — enables intracorporeal suturing, fine dissection in confined spaces. (3) Tremor filtration — motion scaling reduces fine tremor. (4) Ergonomics — surgeon seated at console; reduced fatigue during long cases. (5) Ambidextrous — no 'fulcrum effect' of laparoscopy (instrument moves opposite to hand inside abdomen).\n\nDisadvantages: (1) No haptic (tactile) feedback — cannot 'feel' tissue. (2) Cost: capital expenditure £1–2 million per robot; consumable instruments £800–2000 per case; service contracts substantial. (3) Setup time: docking the robot adds 15–30 minutes. (4) Limited instrument range compared to laparoscopy. (5) Large robot footprint — restricts theatre access. (6) Need for additional laparoscopic ports for retraction/assistance.\n\nCurrent evidence by procedure: Radical prostatectomy (RALP): robotic is the GOLD STANDARD — near-universally performed robotically in UK/US; evidence for equivalent cancer control, reduced transfusion, shorter stay, possibly better continence/potency (NICE 2019 endorsement). Partial nephrectomy: robotic equivalent or superior to laparoscopic for complex tumours (R.E.N.A.L. score >7) — better intracorporeal suturing for renorrhaphy. Hysterectomy: robotic equivalent to laparoscopic for benign; cancer outcomes similar. Colorectal (rectal): ROLARR — no proven benefit over laparoscopic for TME. Colonic: ongoing RCTs (ROBOCOL). Bariatric: equivalent to laparoscopic for Roux-en-Y bypass; robotic sleeve gastrectomy adds no benefit.\n\nLearning curve: robotic surgery has a significant learning curve — generally considered 25–50 cases for basic proficiency (procedure-dependent). Training frameworks: simulation, proctorship (supervised cases), stepwise skill progression. Most societies recommend structured training pathways before independent robotic practice."
+        },
+        {
+          "type": "table",
+          "title": "Robotic Surgery — Evidence Summary by Procedure",
+          "headers": ["Procedure", "Evidence Level", "Robotic Advantage", "Status"],
+          "rows": [
+            ["Radical prostatectomy (RALP)", "Level I — multiple RCTs and systematic reviews", "Less blood loss, reduced transfusion, possible functional benefit (continence/potency)", "Gold standard — vast majority performed robotically"],
+            ["Partial nephrectomy", "Level II — comparative studies", "Better intracorporeal suturing for complex tumours; reduced warm ischaemia time", "Preferred for complex (R.E.N.A.L. ≥7) partial nephrectomy"],
+            ["Hysterectomy (benign/cancer)", "Level I — LACC trial (radical)", "Equivalent oncology in benign; LACC trial: open superior for cervical cancer", "Robotic for benign; open remains standard for cervical cancer (LACC)"],
+            ["Rectal (TME)", "Level I — ROLARR RCT", "NO benefit in conversion or oncological outcomes vs laparoscopic (ROLARR)", "Used at many centres; not proven superior to laparoscopic TME"],
+            ["Colonic resection", "Level II — case series, small RCTs", "Potentially shorter stay; cost-effective evidence lacking", "Growing use; no Level I evidence over laparoscopic"],
+            ["Bariatric (RYGB)", "Level II — comparative studies", "Equivalent outcomes to laparoscopic; slightly longer operative time", "No clear advantage; higher cost"],
+            ["Oesophagectomy", "Level I — ROBOT trial (2021)", "Reduced blood loss, shorter ICU stay, possibly reduced pulmonary complications", "Growing adoption; ROBOT trial supports non-inferiority to open"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "RALP — Robotic Prostatectomy as Standard",
+          "content": "Robot-assisted laparoscopic prostatectomy (RALP) is the gold standard surgical approach for localised prostate cancer requiring radical prostatectomy. Advantages over open retropubic prostatectomy: reduced blood loss (mean 150 mL vs 500–1000 mL), fewer transfusions, shorter hospital stay (1–2 days vs 3–5 days), comparable oncological control (positive surgical margin rate). Wristed instruments enable precise nerve-sparing dissection (neurovascular bundles) — important for potency preservation. NICE 2019: recommends robotic as standard for radical prostatectomy in centres with appropriate volume and expertise."
+        }
+      ]
+    },
+    {
+      "id": "G3-S6",
+      "title": "Natural Orifice & Single-Port Surgery",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Natural Orifice Transluminal Endoscopic Surgery (NOTES): access to the peritoneal cavity via a natural body orifice (mouth, vagina, rectum, urethra) using a flexible endoscope. Potential advantage: no abdominal incisions → no wound complications or hernias → improved cosmesis. Practical challenges: loss of triangulation (all instruments enter from same point), difficulty achieving haemostasis, closure of entry site, risk of contamination, limited surgeon experience. Current applications: transvaginal cholecystectomy (most established NOTES procedure — performed in selected European centres); transgastric appendicectomy (research setting). Not widely adopted due to technical complexity and unclear benefit over standard laparoscopy.\n\nSingle-Incision Laparoscopic Surgery (SILS): all instruments (camera + working instruments) enter through a single umbilical incision (typically 2.5–3 cm). Technique: multi-channel single port device (e.g., SILS Port, GelPOINT). Advantage: single umbilical incision (superior cosmesis). Disadvantages: (1) Loss of triangulation — instruments conflict ('sword fighting'); (2) Limited instrument movement; (3) Higher trocar site hernia rate — large umbilical incision with significant fascial defect (>2 cm); (4) Longer operative time. Applications: cholecystectomy, appendicectomy, sleeve gastrectomy. Evidence: SILC trial (single-incision laparoscopic cholecystectomy) — equivalent safety to standard 4-port LC but longer operative time and higher hernia rate at the access site (risk ~2% vs <0.5% with standard LC).\n\nRobotic Single Port (SP): da Vinci SP system allows multiple robotic instruments through a single 25 mm port with independently articulating arms. Specific indications: robotic-assisted transoral surgery (base of tongue, larynx), transvaginal natural orifice approach, robotic inguinal hernia repair in selected cases. Growing evidence for radical prostatectomy via perineal approach (SP-TRUP).\n\nReduced port surgery: 3-port technique (reducing from standard 4–5 ports) — minimises wound morbidity while maintaining triangulation. Increasingly used for appendicectomy, cholecystectomy, and hernia repair."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "SILS Trocar Hernia Rate — Higher than Standard",
+          "content": "SILS (Single-Incision Laparoscopic Surgery): the single umbilical incision requires a large fascial defect (20–25 mm), creating a significantly higher risk of trocar site hernia (up to 2–3%) compared with standard multi-port laparoscopy (<0.5% for 5 mm ports; ~1% for 10–12 mm ports with fascial closure). This is the primary disadvantage of SILS — the cosmetic benefit (single scar) must be weighed against the hernia risk. Robotic SP (da Vinci SP) uses a 25 mm port but with fascial closure — hernia rates may be lower with proper closure technique."
+        }
+      ]
+    },
+    {
+      "id": "G3-S7",
+      "title": "Complications of MIS & Conversion",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Minimally invasive surgery has a distinct complication profile in addition to those shared with open surgery.\n\nGas embolism: CO2 enters an open venous channel during peritoneal insufflation → CO2 gas in right heart → 'mill-wheel' murmur on auscultation/precordial Doppler → right heart outflow obstruction → cardiovascular collapse. Risk: penetration of a major vessel with Veress needle or during dissection. Management: (1) Immediately STOP insufflation; (2) Position patient LEFT LATERAL DECUBITUS + Trendelenburg (Durant's manoeuvre — gas migrates away from pulmonary valve); (3) Aspirate via central venous catheter (right atrium); (4) CPR if arrested; (5) ECMO in extremis. Prevention: confirm Veress needle position before insufflation; use safety tests; low initial flow rate.\n\nTrocar injury to vessels/bowel: entry injury is the most dangerous early laparoscopic complication. Vascular injury (aorta, inferior vena cava, iliac vessels) — immediate life-threatening haemorrhage; convert to open laparotomy immediately; compress with hand/packs. Bowel injury: small bowel or colon — may be missed initially; trocar misplacement into bowel; or thermal energy injury (delayed presentation 3–7 days with peritonitis — 'electric burn' injury).\n\nPort site hernia (Richter's hernia): partial herniation of bowel wall through a trocar fascial defect — only a portion of the bowel circumference is caught; lumen remains patent initially → presents as subacute obstruction, not seen on CT (no complete herniation). Suspect in patients with subacute bowel symptoms, pain at port site 1–2 weeks post-op. Management: surgical repair of fascial defect + bowel assessment.\n\nSubcutaneous emphysema: CO2 dissects into subcutaneous tissue during prolonged insufflation or from Veress needle in subcutaneous position → crepitus on palpation of chest/neck. Rarely significant. Usually resolves spontaneously. If severe (extending to neck, affecting airway): reduce insufflation pressure to 8–10 mmHg; may require conversion. Hypercarbia from subcutaneous CO2 absorption may require increased ventilation.\n\nShoulder tip pain: phrenic nerve irritation from residual CO2 in the peritoneal cavity (CO2 irritates the diaphragm → referred pain to shoulder via phrenic nerve C3–C5). Common post-laparoscopy — typically 24–48h. Management: reassure; NSAID analgesia; can be reduced by aspirating residual gas at end of procedure and placing patient Trendelenburg briefly to expel gas.\n\nConversion: the decision to convert to open is a safety intervention, NOT a failure. Indications: inability to achieve adequate visualisation, uncontrollable haemorrhage, iatrogenic injury requiring open repair, identified pathology requiring open approach. Always document indication for conversion clearly in the operative note. Pre-operative counselling must include conversion risk (typically 3–10% for elective laparoscopic colorectal)."
+        },
+        {
+          "type": "table",
+          "title": "MIS-Specific Complications — Summary",
+          "headers": ["Complication", "Presentation", "Immediate Management", "Prevention"],
+          "rows": [
+            ["CO2 gas embolism", "Mill-wheel murmur, haemodynamic collapse, ↑EtCO2 then ↓, ↓SpO2", "Stop insufflation; Durant's position (left lateral + Trendelenburg); aspirate CVP; CPR", "Safety tests before insufflation; low initial flow rate; avoid open veins"],
+            ["Trocar vascular injury (aorta/IVC)", "Immediate massive haemorrhage, haemodynamic collapse", "Do NOT remove trocar; immediately convert to open laparotomy; compress; vascular surgery", "Open (Hasson) entry in high-risk patients; confirm entry before full insufflation"],
+            ["Bowel thermal injury (delayed)", "Day 3–7 peritonitis; patient looked well initially", "Laparotomy; bowel resection; aggressive peritoneal lavage", "Minimise unintended activation; keep instruments in view; check insulation"],
+            ["Trocar/port site hernia", "Subacute obstruction 1–4 weeks post-op; pain at port site", "Hernia repair; bowel assessment", "Fascial closure for ALL ≥10 mm ports"],
+            ["Subcutaneous emphysema", "Crepitus on neck/chest/scrotum; hypercarbia on ventilator", "Reduce IAP to 8–10 mmHg; may need conversion", "Correct Veress needle placement; avoid excessive insufflation"],
+            ["Shoulder tip pain", "Bilateral shoulder/scapular pain post-laparoscopy", "Reassure; NSAID; resolves 24–48h", "Aspirate residual gas at end of case; Trendelenburg briefly to expel gas"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "Conversion is Sound Judgment, NOT Failure",
+          "content": "Converting from laparoscopic to open surgery is a sign of surgical wisdom, not failure. Common indications: inability to achieve CVS (cholecystectomy), dense adhesions, haemorrhage, suspected injury, inadequate exposure, unsuspected pathology. Document: reason for conversion, intraoperative events, any injuries. Consent for conversion must be obtained pre-operatively. Tell the patient post-operatively why conversion was necessary — clear communication reduces patient dissatisfaction. Conversion rates: laparoscopic cholecystectomy ~5%; laparoscopic colectomy ~3–10%; laparoscopic rectal (ROLARR) ~10–12%."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "G3-Q1",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "CVS — Three Criteria",
+      "question": "A surgeon is performing a laparoscopic cholecystectomy for acute cholecystitis. After extensive dissection, only one structure can be seen entering the infundibulum of the gallbladder. The hepatocystic triangle has been cleared of fat on the anterior side only. What should the surgeon do next?",
+      "options": [
+        "A. Clip and divide the single structure seen — only one structure entering gallbladder confirms it is the cystic duct",
+        "B. The Critical View of Safety has not been achieved — perform intraoperative cholangiography and/or subtotal cholecystectomy rather than clip",
+        "C. Convert to open cholecystectomy immediately — laparoscopy is unsafe",
+        "D. Perform dome-down dissection from the fundus only if the triangle dissection fails after 2 further attempts",
+        "E. Continue dissecting until both the cystic duct and cystic artery are identified, regardless of difficulty"
+      ],
+      "correct": "B",
+      "explanation": "The Critical View of Safety requires ALL THREE criteria: (1) hepatocystic triangle cleared of fat and fibrous tissue — FRONT AND BACK (this case only has anterior cleared = CVS criterion 1 NOT MET); (2) lowest part of GB separated from cystic plate; (3) two and only two structures seen entering GB. In this case: (1) triangle not fully cleared (posterior not done); (2) only ONE structure seen = CVS criterion 3 NOT MET. CVS is NOT achieved. Action: do NOT clip the single visible structure — the CBD is commonly misidentified as the 'cystic duct' in this exact scenario (one structure, incompletely dissected triangle). Options: (a) Perform IOC — injects contrast, clarifies anatomy; (b) Subtotal cholecystectomy — divide gallbladder, leave the infundibulum, avoid the hepatocystic triangle if it is dangerous (for acute inflammation); (c) Call for help/senior review. Conversion to open (Option C) is premature before IOC. Continuing aggressive dissection (Option E) without a safety checkpoint risks BDI.",
+      "teaching_point": "CVS — ALL THREE criteria must be met before clipping. Partial CVS = not achieved. If CVS not achievable: IOC first to clarify anatomy, then consider subtotal cholecystectomy or conversion. NEVER clip a structure in the hepatocystic triangle unless CVS is fully achieved OR IOC has confirmed anatomy. One visible structure = NOT CVS (need cystic duct AND cystic artery — two structures)."
+    },
+    {
+      "id": "G3-Q2",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Veress Needle — Initial Pressure Test",
+      "question": "A Veress needle is inserted at the umbilicus in preparation for laparoscopy. When connected to the insufflator, the initial resting pressure reads 15 mmHg before any gas has been delivered. What does this indicate?",
+      "options": [
+        "A. Normal — initial pressure is always elevated before insufflation begins",
+        "B. The needle is likely in an incorrect position (subcutaneous, preperitoneal, or within an organ) — do not proceed; reposition",
+        "C. Excess body weight is causing elevated intra-abdominal pressure — increase insufflation flow rate",
+        "D. The insufflator tubing is kinked — check connections before proceeding",
+        "E. The patient has raised intra-abdominal pressure from obesity — normal finding"
+      ],
+      "correct": "B",
+      "explanation": "Normal resting intra-abdominal pressure (with peritoneal insufflation correctly sited, before gas delivery): 0–8 mmHg. The initial pressure check BEFORE insufflation is a critical safety test. If the initial reading is >8–10 mmHg before any gas has been delivered, this strongly suggests the needle tip is NOT in the peritoneal cavity — it may be: subcutaneous fat (high resistance), preperitoneal space (partial entry), or within an organ (e.g., stomach, bowel — very high pressure). Action: withdraw and reposition Veress needle; re-perform all safety tests (aspiration, saline drop test, initial pressure check). If the initial pressure is <8 mmHg AND the saline drop test is positive (drop falls in) → proceed with insufflation at low flow rate (1 L/min initially) and monitor for steady pressure rise with gas volume.",
+      "teaching_point": "Veress needle safety tests: (1) Aspiration — no blood/bowel contents; (2) Saline drop test — drop falls inward; (3) Initial resting pressure <8 mmHg; (4) Initial low-flow insufflation — pressure should remain <10 mmHg with 1 L/min flow. Initial pressure >10 mmHg = INCORRECT POSITION — reposition before proceeding. Hasson (open) entry eliminates this risk — preferred in high-risk patients."
+    },
+    {
+      "id": "G3-Q3",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Capacitative Coupling — Monopolar Risk",
+      "question": "During a laparoscopic appendicectomy, a 5 mm monopolar L-hook is being used through a 5 mm plastic trocar with a metal sleeve. The caecum is in close proximity to the metal trocar. The surgeon activates the monopolar cautery to coagulate a small appendiceal vessel. What specific risk is present in this setup?",
+      "options": [
+        "A. Direct thermal injury from the hook tip to the caecum",
+        "B. Capacitative coupling — current induced in the metal sleeve of the trocar may be discharged to the adjacent caecum",
+        "C. Insulation failure of the L-hook causing current to escape through the shaft",
+        "D. Ground pad malfunction preventing current return",
+        "E. Direct coupling from the L-hook accidentally touching the laparoscope"
+      ],
+      "correct": "B",
+      "explanation": "This setup describes a 'hybrid trocar' — plastic outer anchor + metal inner sleeve. This is the specific setup for capacitative coupling risk. Mechanism: the monopolar instrument creates an electromagnetic field that induces a current in the adjacent metal sleeve (capacitor effect). In a standard all-metal trocar, this current safely disperses to the abdominal wall. In a hybrid plastic-anchored trocar, the plastic anchor INSULATES the metal sleeve from the abdominal wall, preventing current dispersal. The induced current concentrates at the metal sleeve and may discharge to adjacent tissue (bowel, omentum) — causing a burn without any direct contact between the instrument and the tissue. The caecum close to the trocar sleeve is at specific risk. Prevention: use ALL-METAL trocar systems (same material sleeve and anchor); or use Active Electrode Monitoring (AEM) systems that detect unintended current flow.",
+      "teaching_point": "Capacitative coupling: monopolar instrument → electromagnetic induction → current in adjacent metal conductor (trocar) → discharge to bowel. Highest risk: hybrid trocar (plastic anchor + metal sleeve). Prevention: all-metal trocars; AEM monitoring; lowest effective power setting; keep instrument in view when activated. Bowel burns from capacitative coupling often present late (Day 3–7) with peritonitis."
+    },
+    {
+      "id": "G3-Q4",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "LigaSure — Lateral Thermal Spread",
+      "question": "A surgeon is performing a laparoscopic left hemicolectomy. The sigmoid mesentery is being divided using LigaSure (advanced bipolar vessel sealing). The ureter is identified 8 mm from the intended division line. Is it safe to proceed with LigaSure division at this distance?",
+      "options": [
+        "A. Yes — LigaSure has a lateral thermal spread of only 1–2 mm; the ureter at 8 mm is safe",
+        "B. No — LigaSure has a spread of 5 mm; the ureter should be at least 10 mm away",
+        "C. Yes — bipolar devices have zero lateral spread; distance is irrelevant",
+        "D. No — only ultrasonic devices (Harmonic) are safe near the ureter; bipolar has 10 mm spread",
+        "E. No — the ureter should be at least 20 mm from any energy device regardless of type"
+      ],
+      "correct": "A",
+      "explanation": "LigaSure (advanced bipolar tissue-sealing device) has a lateral thermal spread of 1–2 mm — significantly less than monopolar (5–10 mm) or Harmonic (3 mm). The ureter at 8 mm from the division line is safely outside the 1–2 mm thermal spread zone of LigaSure. Proceeding is safe with this device, provided the ureter is clearly identified and kept in view. However, clinically: always identify and protect the ureter before applying any energy near it; ureteric identification is a standard of care in left colonic surgery (the left ureter crosses the pelvic brim at the level of the IMA in ~75% of cases). The safest practice remains to have the ureter under direct vision regardless of which energy device is used.",
+      "teaching_point": "Lateral thermal spread: monopolar coagulation 5–10 mm; Harmonic (ultrasonic) 3 mm; LigaSure/EnSeal (advanced bipolar) 1–2 mm. LigaSure is the safest energy device near the ureter, bile duct, and bowel anastomosis. Harmonic blade remains hot after activation (delayed burn risk) — keep blade away from ureter/bowel for 3 seconds post-activation. Always identify ureter before energy application in left colonic surgery."
+    },
+    {
+      "id": "G3-Q5",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Harmonic — Lateral Spread",
+      "question": "During a laparoscopic sleeve gastrectomy, the Harmonic ACE+ ultrasonic shears are being used to divide the greater omentum 5 mm from the greater curvature of the stomach. Which specific safety consideration is unique to the Harmonic device?",
+      "options": [
+        "A. Risk of capacitative coupling to the stomach wall",
+        "B. The blade remains HOT (up to 150°C) for 3–5 seconds after activation — keep blade away from adjacent tissue post-firing",
+        "C. Current passes through the patient body — risk of diathermy pad burns",
+        "D. The device cannot seal vessels >3 mm — additional suture ligation required",
+        "E. The Harmonic creates smoke that interferes with laparoscopic visualisation more than bipolar"
+      ],
+      "correct": "B",
+      "explanation": "The most important safety consideration UNIQUE to ultrasonic (Harmonic) devices: the blade retains significant heat (100–150°C) for approximately 3–5 seconds after the device is deactivated. This means that even AFTER the foot pedal is released, placing the hot blade against adjacent tissue causes a thermal burn. In sleeve gastrectomy, if the blade is brought close to the gastric wall immediately after firing, a delayed thermal injury to the gastric wall may occur — risk of subsequent leak. The Harmonic does NOT carry electrical current through the patient (Option C is a monopolar concern), so capacitative coupling and diathermy pad burns are not relevant. Lateral spread is 3 mm (a consideration but not the unique post-activation risk). Management: after each activation of the Harmonic, wait 3–5 seconds before placing the blade against adjacent tissue; cool the blade in normal saline if needed.",
+      "teaching_point": "Harmonic (ultrasonic) safety: blade remains hot (100–150°C) for 3–5 seconds post-activation. Keep hot blade away from adjacent structures after firing. No electrical current in patient = no capacitative coupling, no diathermy pad burns. Lateral thermal spread 3 mm during activation. Vessels up to 5 mm can be sealed. Slower sealing than LigaSure for large vessels."
+    },
+    {
+      "id": "G3-Q6",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "RIGHT Trial — Intracorporeal vs Extracorporeal Anastomosis",
+      "question": "The RIGHT trial compared intracorporeal (ICA) and extracorporeal (ECA) anastomosis for laparoscopic right hemicolectomy. Which of the following correctly summarises the primary finding?",
+      "options": [
+        "A. ICA had significantly higher anastomotic leak rate — extracorporeal is safer",
+        "B. ICA had significantly lower surgical site infection rate (8.3% vs 20.8%) with no difference in anastomotic leak — ICA is preferred",
+        "C. Both techniques had equal SSI rates but ICA had shorter operative time",
+        "D. ECA had lower conversion to open rate compared with ICA",
+        "E. The RIGHT trial showed no significant differences between the two approaches"
+      ],
+      "correct": "B",
+      "explanation": "The RIGHT multicentre RCT (Milone et al., Ann Surg 2021): intracorporeal anastomosis (ICA) vs extracorporeal anastomosis (ECA) for laparoscopic right hemicolectomy. Primary outcome: surgical site infection (SSI). Results: ICA = 8.3% SSI vs ECA = 20.8% SSI (p=0.008 — significant). Incisional SSI: ICA 0% vs ECA 10.8% (p<0.001). Hospital stay: shorter in ICA (4 vs 5 days, p=0.03). Anastomotic leak rate: NOT significantly different between groups (~3% both). Operative time: slightly longer for ICA (210 vs 185 min, NS). The advantage of ICA is that the extraction incision is SMALLER (no need to exteriorise bowel for the anastomosis — any convenient location; Pfannenstiel preferred cosmetically) and the bowel is not eviscerated through the wound, reducing contamination and wound trauma. ICA is the preferred technique in experienced laparoscopic colorectal surgeons.",
+      "teaching_point": "RIGHT trial: ICA reduces SSI (8.3% vs 20.8%) with equivalent leak rate in laparoscopic right hemicolectomy. ICA advantages: smaller extraction incision (any location, no bowel evisceration through wound), less wound contamination, shorter hospital stay. Technically more demanding — requires intracorporeal stapling and suturing skills. ICA is standard at high-volume laparoscopic colorectal centres."
+    },
+    {
+      "id": "G3-Q7",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "ROLARR Trial — Robotic vs Laparoscopic TME",
+      "question": "The ROLARR trial compared robotic and laparoscopic TME for rectal cancer. A surgical registrar claims 'robotic surgery significantly reduces conversion to open surgery compared with laparoscopic TME.' Is this correct?",
+      "options": [
+        "A. Yes — ROLARR showed robotic reduced conversion from 25% to 8%",
+        "B. No — ROLARR showed conversion rates of 8.1% (robotic) vs 12.2% (laparoscopic), which was NOT statistically significant (p=0.16)",
+        "C. Yes — robotic was statistically superior on the primary endpoint (conversion)",
+        "D. No — ROLARR showed no difference in conversion because both rates were equally low (<1%)",
+        "E. Yes — the ROLARR trial was stopped early due to clear benefit in the robotic arm"
+      ],
+      "correct": "B",
+      "explanation": "ROLARR trial (Jayne, JAMA 2017): 471 patients randomised to robotic vs laparoscopic proctectomy for rectal cancer. Primary endpoint: conversion to open surgery. Results: robotic conversion 8.1% vs laparoscopic 12.2% — absolute difference 4.1%; OR 0.61; 95% CI 0.31–1.21; p=0.16 — NOT statistically significant. The trial FAILED to demonstrate a significant reduction in conversion. No significant differences in: R0 resection rate, completeness of TME specimen, anastomotic leak rate, 30-day mortality, or bladder/sexual dysfunction. Robotic was associated with longer operative time (336 vs 295 min) and higher cost. CONCLUSION: robotic TME does not offer proven superiority over laparoscopic TME. The registrar's claim is INCORRECT — the trial's primary endpoint was NOT met. The trial is widely cited as a negative result for robotic colorectal surgery.",
+      "teaching_point": "ROLARR (2017): NEGATIVE trial — robotic TME did NOT significantly reduce conversion vs laparoscopic (8.1% vs 12.2%; p=0.16). No oncological benefit. Higher cost. Longer operative time. This is the most important trial to know for robotic colorectal surgery. Robotic is used at many centres but is NOT proven superior to laparoscopic TME by RCT evidence. Know: ROLARR = negative primary endpoint."
+    },
+    {
+      "id": "G3-Q8",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "taTME — Urethral Injury Prevention",
+      "question": "A 58-year-old man with a mid-rectal cancer (6 cm from the anal verge) undergoes transanal TME (taTME). During the transanal phase of dissection, the anterior dissection plane is being developed. What is the specific preventable complication unique to taTME and how is it prevented?",
+      "options": [
+        "A. Anastomotic leak — prevented by defunctioning ileostomy",
+        "B. Urethral injury — prevented by strict adherence to the correct posterior-to-anterior dissection sequence; starting posterior, then lateral, then anterior last",
+        "C. Internal iliac vessel injury — prevented by superior dissection plane",
+        "D. Presacral haemorrhage — prevented by sharp dissection through the mesorectal fascia",
+        "E. Pelvic nerve injury — prevented by nerve monitoring (NMR)"
+      ],
+      "correct": "B",
+      "explanation": "Urethral injury is the most serious and unique complication of taTME, reported in 0.5–2% of cases in registry data. Mechanism: in the transanal phase, when developing the anterior plane, if the surgeon enters the wrong tissue plane (anterior to Denonvilliers' fascia, entering the space between the rectum and urethra/prostate), the urethra is directly at risk of injury. This results in urethral transection — a devastating complication causing urinary incontinence, fistula, or need for urological reconstruction. Prevention: (1) Begin dissection POSTERIOR (between mesorectum and presacral fascia — safe posteriorly); (2) Develop lateral dissection planes; (3) Approach ANTERIOR dissection LAST and with maximum caution; (4) Always have a urethral catheter in place (palpable landmark); (5) Identify the correct plane — the posterior surface of the prostate/seminal vesicles should be visible in the correct plane (posterior to Denonvilliers'). taTME should only be performed by surgeons with specific taTME training. Two-team coordination is essential.",
+      "teaching_point": "taTME unique complication: urethral injury (0.5–2%). Mechanism: incorrect anterior dissection plane. Prevention: posterior → lateral → anterior sequence; urethral catheter as landmark; stay posterior to Denonvilliers' fascia; experience and taTME-specific training. Also: CO2 gas embolism (from transanal insufflation — use low-pressure CO2 system); synchronisation errors with abdominal team."
+    },
+    {
+      "id": "G3-Q9",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Da Vinci SP — Indications",
+      "question": "The da Vinci SP (Single Port) robotic system is specifically designed for which of the following clinical scenarios?",
+      "options": [
+        "A. Standard laparoscopic cholecystectomy — reduces operative time",
+        "B. Access through single-port sites for confined anatomical spaces — including transoral surgery, transvaginal approaches, and robotic radical prostatectomy in constrained pelvic access",
+        "C. Large abdominal resections requiring multiple robotic arms",
+        "D. Emergency laparotomy — the SP system is faster to set up than the Xi",
+        "E. Robotic TME — the ROLARR-SP trial demonstrated superiority over standard multi-arm robotic"
+      ],
+      "correct": "B",
+      "explanation": "The da Vinci SP system is purpose-designed for single-port access using multiple independently articulating instruments through a single 25 mm cannula. Specific indications: (1) Transoral robotic surgery (TORS) — resection of base of tongue, oropharyngeal cancer, supraglottic laryngectomy — the SP arms can work in the confined oropharyngeal space; (2) Transvaginal approaches — e.g., robotic hysterectomy via vaginal port; (3) Robotic-assisted radical prostatectomy in constrained or retropubic space; (4) Inguinal hernia repair (single umbilical port); (5) Pelvic floor surgery. The SP is NOT designed for multi-quadrant abdominal surgery or large resections — the Xi system is used for those. The SP's articulating design allows 'snake-like' movements around corners that standard robotic and laparoscopic instruments cannot achieve.",
+      "teaching_point": "Da Vinci SP: single 25 mm port with multiple independently articulating arms. Best for: confined spaces (oropharynx, pelvis), transoral surgery (TORS for oropharyngeal cancer), single-port abdominal approaches, transvaginal/transanal access. NOT for multi-quadrant large resections (use Xi/X instead). TORS via SP is increasingly standard for HPV-positive oropharyngeal SCC (allows transoral resection without mandibulotomy)."
+    },
+    {
+      "id": "G3-Q10",
+      "type": "single_best_answer",
+      "difficulty": "easy",
+      "topic": "Trocar Hernia Prevention",
+      "question": "During a laparoscopic right hemicolectomy, a 12 mm trocar is used in the right iliac fossa and a 5 mm trocar in the right upper quadrant. At the end of the procedure, the pneumoperitoneum is released. Which port sites require formal fascial closure?",
+      "options": [
+        "A. Both ports require closure — all port sites carry hernia risk",
+        "B. Only the 12 mm port site — all trocar sites ≥10 mm require fascial closure",
+        "C. Neither port requires closure — port site hernias are exceedingly rare and closure is unnecessary",
+        "D. Only the 5 mm port — larger ports expand the abdominal wall and self-seal",
+        "E. Closure depends on patient BMI — obese patients require closure of all ports"
+      ],
+      "correct": "B",
+      "explanation": "Port site (trocar) hernia: fascial closure is required for ALL trocar sites ≥10 mm in diameter. The 12 mm trocar (RIF) = fascial closure mandatory. The 5 mm trocar (RUQ) = fascial closure NOT required for 5 mm ports (herniation risk is very low at <10 mm). Techniques for fascial closure: (1) J-needle (Keith needle) under direct laparoscopic vision — pass through fascial edge, grasp suture, repeat on opposite side; (2) Carter-Thomason device — suture passer; (3) Open closure under direct vision after removing trocar. Fascial closure at ALL ≥10 mm port sites reduces post-laparoscopic hernia rate from ~3% to <1%. Richter's hernia (partial bowel herniation) specifically occurs at 5–12 mm ports — fascial closure is the primary prevention for ≥10 mm sites.",
+      "teaching_point": "Trocar hernia prevention: close ALL fascial defects ≥10 mm. 5 mm ports: fascial closure NOT required. 12 mm and above: mandatory fascial closure. Umbilical trocar sites: close fascia even for 10–11 mm (pre-existing weakness). Richter's hernia: partial bowel circumference only; presents as subacute obstruction; can occur even through 5–7 mm ports in some cases (close peri-umbilical ≥5 mm as a precaution)."
+    },
+    {
+      "id": "G3-Q11",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Gas Embolism — Management",
+      "question": "During laparoscopic cholecystectomy in a 55-year-old woman, the anaesthetist notes a sudden fall in EtCO2 from 38 to 18 mmHg, associated with haemodynamic collapse (BP 60/30, HR 140). A classic 'mill-wheel' murmur is heard on auscultation. What is the diagnosis and immediate management sequence?",
+      "options": [
+        "A. Pneumothorax — immediate needle decompression, 2nd ICS MCL",
+        "B. CO2 gas embolism — stop insufflation, Durant's position (left lateral decubitus + Trendelenburg), aspirate via CVC, CPR if needed",
+        "C. Tension pneumothorax from trocar injury — insert chest drain and convert to open",
+        "D. Acute massive PE — IV heparin and consider thrombolysis",
+        "E. Anaphylaxis — IV adrenaline 1:1000, 0.5 mL IM"
+      ],
+      "correct": "B",
+      "explanation": "CO2 gas embolism: the classic presentation — (1) Mill-wheel murmur (churning sound from gas in right heart/pulmonary vessels); (2) Sudden EtCO2 DROP then rise (initial drop from obstruction of pulmonary blood flow → reduced CO2 delivery to lungs; then rise if resuscitation is successful). (3) Haemodynamic collapse from right ventricular outflow obstruction. Immediate management sequence: (1) Stop CO2 insufflation immediately; (2) Position: LEFT LATERAL DECUBITUS + Trendelenburg (Durant's manoeuvre) — gas moves to right ventricular apex and away from outflow tract; (3) 100% O2 via FiO2 = 1.0 — promotes CO2 reabsorption; (4) Aspirate via CVC (right atrial catheter) — attempt to aspirate gas; (5) CPR if cardiac arrest; (6) Consider ECMO in extremis. The EtCO2 pattern is key: tension pneumothorax would show increasing airway pressures, not mill-wheel murmur. PE would have gradual onset, not immediate after insufflation.",
+      "teaching_point": "CO2 gas embolism: mill-wheel murmur + EtCO2 sudden drop + haemodynamic collapse. Immediate: STOP GAS → Durant's position (left lateral + Trendelenburg) → 100% O2 → CVC aspiration → CPR. Durant's manoeuvre: gas migrates away from RVOT. Prevention: low-flow initial insufflation; Veress needle position confirmed before insufflation; avoid open vessels during dissection."
+    },
+    {
+      "id": "G3-Q12",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Subcutaneous Emphysema — Laparoscopy Management",
+      "question": "During a 4-hour laparoscopic low anterior resection, the anaesthetist notes increasing EtCO2 (now 65 mmHg) and increasing peak airway pressures despite unchanged ventilator settings. Palpation of the patient's neck and chest reveals extensive crepitus. What is the most appropriate immediate management?",
+      "options": [
+        "A. Convert to open laparotomy immediately — subcutaneous emphysema causes respiratory arrest",
+        "B. Increase minute ventilation to blow off CO2, reduce insufflation pressure to 8–10 mmHg, consider conversion if hypercarbia persists or haemodynamics deteriorate",
+        "C. Apply a chest drain to relieve subcutaneous tension",
+        "D. Administer bicarbonate IV to neutralise the CO2 acidosis",
+        "E. Increase anaesthetic depth — subcutaneous emphysema indicates light anaesthesia"
+      ],
+      "correct": "B",
+      "explanation": "Extensive subcutaneous emphysema during laparoscopy is caused by CO2 dissecting from the peritoneum into the subcutaneous tissue (via trocar sites, fascial planes, or direct dissection). CO2 absorbed from subcutaneous tissue enters the circulation → hypercarbia (EtCO2 65 mmHg). Management: (1) Increase minute ventilation (increase respiratory rate or tidal volume) to increase CO2 elimination via the lungs — this is the primary treatment; (2) Reduce insufflation pressure to 8–10 mmHg (reduces further CO2 leak into subcutaneous space); (3) Monitor haemodynamics and ABG — if PaCO2 remains high despite maximum ventilator settings or haemodynamic instability develops → consider converting to open (laparotomy eliminates pneumoperitoneum). Conversion (Option A) is NOT required immediately unless there is haemodynamic instability or the anaesthetist cannot adequately ventilate the patient. Chest drain (Option C) is incorrect — subcutaneous emphysema does not require drainage. Bicarbonate (Option D) does not address the underlying cause.",
+      "teaching_point": "Subcutaneous emphysema management: (1) Increase minute ventilation; (2) Reduce IAP to 8–10 mmHg; (3) Monitor EtCO2 and haemodynamics; (4) Convert if PaCO2 uncontrolled or haemodynamic compromise. Usually resolves when pneumoperitoneum is released and CO2 is eliminated via lungs within 30–60 minutes. Shoulder tip pain post-op = residual CO2 irritating diaphragm (not subcutaneous emphysema)."
+    },
+    {
+      "id": "G3-Q13",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Laparoscopic Inguinal Hernia vs Open",
+      "question": "A 45-year-old physically active man with a bilateral indirect inguinal hernia presents for elective repair. He is otherwise fit and well. According to EHS (European Hernia Society) 2020 guidelines, what is the recommended approach?",
+      "options": [
+        "A. Bilateral open Lichtenstein repair — gold standard for all inguinal hernias",
+        "B. Laparoscopic TAPP or TEP bilateral repair — preferred for bilateral hernias and for patients wishing to return to activity quickly",
+        "C. Watchful waiting — bilateral hernias do not require surgery unless symptomatic",
+        "D. Robotic TAPP — superior to laparoscopic for bilateral hernias",
+        "E. Open pre-peritoneal (Stoppa) repair — avoids general anaesthesia requirement"
+      ],
+      "correct": "B",
+      "explanation": "EHS guidelines 2020 for inguinal hernia: for BILATERAL inguinal hernias, laparoscopic repair (TAPP — transabdominal preperitoneal, or TEP — totally extraperitoneal) is PREFERRED over open bilateral Lichtenstein. Reason: both sides can be repaired through the same ports (2–3 ports); same recovery time and pain as unilateral laparoscopic; significantly faster recovery than bilateral open repair; lower chronic pain rates than open Lichtenstein (laparoscopic: ~5% chronic pain vs open: ~10–15%). For UNILATERAL hernias: either laparoscopic or open Lichtenstein is acceptable (LEVEL trial and Collaboration showed equivalent outcomes). Laparoscopic preferred for: bilateral, recurrent hernia (especially after previous open repair — difficult scar tissue in inguinal region), patients requiring rapid return to work/activity, obese patients. Open preferred for: previous lower abdominal surgery (adhesions preventing TAPP/TEP), local anaesthesia requirement, surgeon preference.",
+      "teaching_point": "EHS 2020: bilateral inguinal hernia → laparoscopic (TAPP or TEP) preferred — both sides through same ports, faster recovery, less chronic pain. Unilateral: open Lichtenstein or laparoscopic — both acceptable. Recurrent after open → laparoscopic preferred (different anatomical plane). All approaches use mesh (except paediatric — see F4). Laparoscopic: GA required. Open Lichtenstein: can be done under LA/regional."
+    },
+    {
+      "id": "G3-Q14",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Laparoscopic Appendicectomy vs Open",
+      "question": "A 28-year-old woman presents with acute appendicitis. She is obese (BMI 38) and sexually active. According to current SAGES guidelines, what is the preferred surgical approach?",
+      "options": [
+        "A. Open appendicectomy — obesity increases laparoscopic complication risk",
+        "B. Laparoscopic appendicectomy — preferred for women of reproductive age and obese patients",
+        "C. Non-operative management — appendicitis in young women should be treated with antibiotics first",
+        "D. CT-guided drainage — access point of abscess formation",
+        "E. Open appendicectomy via McBurney incision — the traditional approach remains gold standard"
+      ],
+      "correct": "B",
+      "explanation": "Laparoscopic appendicectomy is the PREFERRED approach for women of reproductive age and obese patients, according to SAGES guidelines and multiple RCTs (including the LOTUS trial — Laparoscopic versus Open appendicectomy in women). Reasons for preferring laparoscopic in women: allows inspection of pelvic organs (ovary, fallopian tube, uterus) to exclude gynaecological pathology (ovarian cyst, PID, ectopic pregnancy) — important in the differential diagnosis. LOTUS trial demonstrated: laparoscopic appendicectomy in women had lower wound infection rate, shorter hospital stay, fewer gynaecological complications than open. In obese patients (BMI 38): laparoscopic provides better visualisation (avoids deep abdominal wall retraction), lower wound complication rate. Open through a deep wound in an obese patient carries high SSI risk. Option C (non-operative): while NOM is an option for uncomplicated appendicitis, this patient is presenting without specific mention of 'uncomplicated' and the question asks about surgical approach when surgery is planned.",
+      "teaching_point": "Laparoscopic appendicectomy preferred for: women of reproductive age (diagnostic + therapeutic — inspect pelvis), obese patients, bilateral diagnosis uncertainty. LOTUS trial supports laparoscopic in women. Open appendicectomy: acceptable alternative; preferred by some when laparoscopic skills unavailable. Both approaches acceptable for uncomplicated appendicitis — laparoscopic has lower SSI rate and enables pelvic inspection."
+    },
+    {
+      "id": "G3-Q15",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Pneumoperitoneum Contraindications — Severe COPD/Cardiac",
+      "question": "A 72-year-old man with severe COPD (FEV1 28%, home oxygen) and New York Heart Association Class III heart failure is listed for laparoscopic colectomy for sigmoid cancer. He is not fit for open surgery (frailty score 6/9). What is the most appropriate management of the anaesthetic approach?",
+      "options": [
+        "A. Standard laparoscopy with CO2 pneumoperitoneum — COPD is only a relative contraindication",
+        "B. Laparoscopy with gasless technique (abdominal wall lift) — avoids CO2 physiological effects",
+        "C. Robotic surgery is contraindicated in severe COPD",
+        "D. Proceed with standard laparoscopy — reduce IAP to 20 mmHg to improve visualisation",
+        "E. Only open surgery is safe in severe COPD — proceed despite frailty"
+      ],
+      "correct": "B",
+      "explanation": "Severe COPD (FEV1 28%) represents a significant challenge for CO2 pneumoperitoneum: (1) These patients already have CO2 retention tendency (type 2 respiratory failure); CO2 absorbed from peritoneum adds to the retention burden; (2) Elevated IAP further compromises diaphragmatic excursion and FRC. In selected patients where both open surgery (high operative mortality from frailty) and standard laparoscopy (CO2 intolerance) are problematic, GASLESS laparoscopy is an option: a mechanical lift device (Laparolift or Orienter) elevates the abdominal wall, creating a working space WITHOUT pneumoperitoneum. This avoids all CO2 physiological effects. Alternative: low-pressure pneumoperitoneum (8–10 mmHg) with CO2 — compromise approach reducing but not eliminating CO2 effects; requires close collaboration with anaesthetist (ICU post-operatively, permissive hypercarbia). Option D (IAP 20 mmHg) is WRONG — higher IAP worsens all complications. NHYA III heart failure adds cardiovascular concerns (increased afterload from pneumoperitoneum). Senior MDT decision required.",
+      "teaching_point": "Pneumoperitoneum contraindications: severe COPD (CO2 retention, FEV1 <30%) and severe cardiac disease (NYHA III–IV) are relative contraindications. Options: (1) Low-pressure pneumoperitoneum (8–10 mmHg); (2) Gasless laparoscopy (abdominal wall lift); (3) Open surgery. Use lowest effective IAP (12–15 mmHg standard; reduce to 10–12 in COPD). Always anaesthetist involved in decision. Gasless laparoscopy: no CO2 → no cardiovascular/respiratory effects → safe for high-risk patients; disadvantages: reduced working space, harder instrumentation."
+    },
+    {
+      "id": "G3-Q16",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Hasson vs Veress Technique Safety",
+      "question": "A 62-year-old woman with a previous midline laparotomy for bowel obstruction is scheduled for laparoscopic cholecystectomy. The surgeon plans to use the Veress needle at the umbilicus for initial access. A trainee surgeon suggests the Hasson (open) technique would be safer. Which statement is correct?",
+      "options": [
+        "A. Veress needle is equally safe regardless of prior surgery — the test insufflation pressure confirms correct placement",
+        "B. Hasson (open) technique is preferred in patients with previous abdominal surgery — avoids trocar entry injury from bowel adhesions to the anterior abdominal wall",
+        "C. Optical trocar entry is superior to both Veress and Hasson for patients with prior surgery",
+        "D. Palmer's point (left upper quadrant) entry with Veress is preferred over Hasson in all cases",
+        "E. Prior abdominal surgery is a contraindication to laparoscopy"
+      ],
+      "correct": "B",
+      "explanation": "Hasson (open) technique is preferred (not mandatory, but strongly recommended) in patients with previous abdominal surgery, particularly previous midline laparotomy. Rationale: previous surgery causes adhesion formation between bowel/omentum and the anterior abdominal wall, particularly at the umbilical port site (most common entry point). Blind Veress needle insertion through these adhesions risks: bowel perforation (trocar injury), vascular injury, or unrecognised bowel entry. Hasson technique: a small (2–3 cm) minilaparotomy at the umbilicus under direct vision → fascial incision → peritoneal entry under direct vision → blunt trocar placed → confirmed entry before insufflation. Alternative: Palmer's point entry (left upper quadrant, midclavicular line, 3 cm below costal margin) with Veress — this area is usually adhesion-free even after previous lower abdominal/pelvic surgery (omentum rarely adheres there). Both Hasson and Palmer's point are acceptable alternatives to umbilical Veress after prior surgery.",
+      "teaching_point": "Previous abdominal surgery → use Hasson (open) technique OR Palmer's point for primary access. Veress at umbilicus is HIGH RISK after prior midline laparotomy (adhesion to umbilicus common). Hasson: direct vision entry — cannot enter bowel inadvertently. Palmer's point: left subcostal MCL (3 cm below rib margin, MCL) — minimal adhesion risk. Optical trocar: useful but does not eliminate entry injury risk in adhesions."
+    },
+    {
+      "id": "G3-Q17",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Robotic RALP — Evidence vs Laparoscopic",
+      "question": "A 62-year-old man with localised prostate cancer (T2b, PSA 7.8, Gleason 3+4=7) opts for radical prostatectomy. According to NICE 2019 guidance and current evidence, what is the recommended surgical approach?",
+      "options": [
+        "A. Open retropubic radical prostatectomy — gold standard with most long-term oncological data",
+        "B. Robot-assisted laparoscopic prostatectomy (RALP) — recommended by NICE 2019; lower blood loss, comparable cancer control, possible functional benefit",
+        "C. Laparoscopic radical prostatectomy — equivalent to RALP but lower cost",
+        "D. Watchful waiting — Gleason 3+4 does not require active treatment",
+        "E. Radical radiotherapy only — surgery offers no advantage over radiotherapy for T2 disease"
+      ],
+      "correct": "B",
+      "explanation": "NICE 2019 (NG131 Prostate Cancer) recommends robotic-assisted radical prostatectomy (RALP) as the preferred surgical approach for radical prostatectomy, subject to surgeon experience and hospital case volume. Evidence: RALP vs open — multiple studies show: reduced blood loss (mean ~150 mL vs 500–1000 mL open), fewer transfusions, shorter hospital stay (1–2 days vs 4–7 days), equivalent 5-year biochemical recurrence rate, possible better short-term urinary continence and erectile function recovery (due to superior neurovascular bundle visualisation with 3D magnification and wristed instruments). RALP vs laparoscopic (non-robotic): evidence favours RALP for functional outcomes (potency) in nerve-sparing cases; equivalent oncological control. Cancer control (PSA-free survival) is equivalent across all approaches when performed by experienced surgeons. This patient has intermediate-risk disease (Gleason 3+4, T2b) — suitable for radical prostatectomy with nerve-sparing if appropriate.",
+      "teaching_point": "RALP is the gold standard for radical prostatectomy (NICE 2019). Advantages over open: reduced blood loss and transfusion, shorter stay, possibly better functional outcomes (continence, potency). Oncological outcomes equivalent to open and laparoscopic in experienced hands. RALP requires high case volume: minimum 150 cases/year per unit (NICE recommendation). Laparoscopic RP: equivalent oncology but no advantage over RALP; declining in UK practice."
+    },
+    {
+      "id": "G3-Q18",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "SILS — Hernia Rate Higher than Standard",
+      "question": "A surgical registrar proposes performing single-incision laparoscopic cholecystectomy (SILC) for all patients, citing superior cosmesis. An attending surgeon mentions a specific disadvantage. What is the primary safety concern with SILC compared to standard 4-port laparoscopic cholecystectomy?",
+      "options": [
+        "A. Higher bile duct injury rate — reduced triangulation increases CVS non-achievement",
+        "B. Higher umbilical port site hernia rate — the large single incision creates a significant fascial defect",
+        "C. Higher anaesthetic risk — SILC requires a longer GA duration",
+        "D. Higher rate of conversion to open — visualisation is inferior",
+        "E. SILC carries specific risk of gas embolism from the large single port"
+      ],
+      "correct": "B",
+      "explanation": "Single-Incision Laparoscopic Cholecystectomy (SILC): the primary safety concern is the significantly higher umbilical port site hernia rate. The SILC access requires a single large umbilical incision (typically 2.5–3 cm) creating a large fascial defect. Port site hernia rate with SILC: ~2–3% (vs <0.5% for standard 5 mm ports or ~1% for 10–12 mm ports with fascial closure in standard LC). The SILC trial (Devane, Br J Surg 2017) confirmed higher incisional hernia rate at 1 year (SILC 2.4% vs standard LC 0.4%). The large umbilical fascial defect is difficult to close reliably after SILC (poorly visualised edges, thick subcutaneous fat). Additionally, SILC has a longer operative time and reduced triangulation — but the hernia risk is the primary documented safety concern. Bile duct injury rates are not significantly different between SILC and standard LC in experienced hands.",
+      "teaching_point": "SILC disadvantages: (1) Higher umbilical hernia rate (2–3% vs <1% for standard LC) — large fascial defect; (2) Longer operative time; (3) Reduced triangulation ('sword-fighting' instruments); (4) Limited instrument movement. SILC hernia is the primary safety disadvantage — weigh against cosmetic benefit. Robotic SP system may address hernia risk with better fascial closure technique. For standard patients: 4-port laparoscopic LC is preferred."
+    },
+    {
+      "id": "G3-Q19",
+      "type": "single_best_answer",
+      "difficulty": "hard",
+      "topic": "Laparoscopic Bariatric — Sleeve vs RYGB",
+      "question": "A 42-year-old woman with BMI 42, type 2 diabetes (HbA1c 72 mmol/mol on metformin + insulin), and GORD requiring daily PPI is referred for bariatric surgery. She asks about sleeve gastrectomy vs Roux-en-Y gastric bypass. Which statement best reflects current evidence?",
+      "options": [
+        "A. Sleeve gastrectomy is preferred — lower complication rate and equivalent diabetes remission",
+        "B. Roux-en-Y gastric bypass is preferred — superior diabetes remission, superior GORD control (actually improves GORD vs sleeve which worsens GORD), and superior weight loss in diabetic patients",
+        "C. Both procedures are equivalent for diabetes and GORD — choose based on patient preference only",
+        "D. Sleeve gastrectomy is specifically indicated in patients with GORD — it reduces acid exposure",
+        "E. Adjustable gastric band is the safest option for this patient given her GORD"
+      ],
+      "correct": "B",
+      "explanation": "Current evidence (IFSO/NICE): for patients with TYPE 2 DIABETES and GORD, Roux-en-Y gastric bypass (RYGB) is the preferred bariatric procedure. Reasons: (1) Diabetes remission: RYGB achieves ~80–85% type 2 diabetes remission (vs ~50–60% for sleeve gastrectomy) — the duodenal switch/hormonal effect of RYGB (bypass of duodenum improves GLP-1, insulin sensitivity). (2) GORD: sleeve gastrectomy WORSENS GORD in many patients (increased intragastric pressure, disruption of lower oesophageal sphincter angle of His) — GORD is a specific RELATIVE CONTRAINDICATION to sleeve gastrectomy. RYGB IMPROVES GORD — the gastric bypass diverts acid away from the oesophageal anastomosis and reduces gastric acid production. This patient has GORD requiring daily PPI + diabetes = RYGB is the preferred choice. Option D is WRONG — sleeve worsens GORD. Option A is WRONG for this patient's specific profile.",
+      "teaching_point": "RYGB vs sleeve gastrectomy: RYGB preferred for: GORD (sleeve worsens GORD), type 2 diabetes (better remission), BMI >50, previous sleeve failure. Sleeve preferred for: lower operative risk desired (technically simpler), no GORD, patient preference, previous abdominal surgery making RYGB hazardous. Key: GORD + diabetes = RYGB. Sleeve + GORD = risk of oesophageal complications long-term (Barrett's, severe GORD)."
+    },
+    {
+      "id": "G3-Q20",
+      "type": "single_best_answer",
+      "difficulty": "medium",
+      "topic": "Single Port Cholecystectomy — SILC Trial",
+      "question": "The SILC (Single-Incision Laparoscopic Cholecystectomy) trial compared SILC with standard 4-port laparoscopic cholecystectomy. Which of the following best describes the trial findings relevant to clinical practice?",
+      "options": [
+        "A. SILC demonstrated superior patient satisfaction and equivalent hernia rate — it should replace standard LC",
+        "B. SILC had equivalent operative safety but longer operative time, higher umbilical hernia rate (~2.4% vs 0.4%), and is not recommended as the standard approach",
+        "C. SILC reduced bile duct injury rate by providing a single, controlled access point",
+        "D. SILC showed significantly lower SSI rate — justifying the larger incision",
+        "E. SILC and standard LC had identical hernia rates and operative times"
+      ],
+      "correct": "B",
+      "explanation": "The SILC trial (Devane et al., 2017, Br J Surg — UK multicentre RCT): 391 patients randomised to SILC vs standard 4-port laparoscopic cholecystectomy. Results: SILC had equivalent early outcomes for conversion rate, bile duct injury, and bile leak. SILC had: longer operative time (48 min vs 40 min; p=0.002), higher 1-year umbilical hernia rate (2.4% vs 0.4%; p=0.047), equivalent cosmetic satisfaction (contrary to the cosmetic rationale — patients rated cosmesis similarly). Bile duct injury: not significantly different (rare events). Conclusion: SILC offers no significant clinical advantage over standard 4-port LC while carrying a significantly higher hernia rate and longer operative time. SILC is NOT recommended as the standard approach but remains an option for surgeons with specific SILC training in selected cases. The cosmetic rationale (single umbilical scar) is not validated by patient satisfaction data.",
+      "teaching_point": "SILC trial: SILC = standard LC for safety but longer operative time and HIGHER hernia rate (2.4% vs 0.4%). No significant cosmetic satisfaction advantage. SILC is NOT recommended as the standard approach. Use standard 4-port LC as the default. SILC may be offered by experienced surgeons as an option with informed consent about hernia risk. Key exam fact: SILC has higher trocar hernia rate — the defining disadvantage."
+    }
+  ]
+}

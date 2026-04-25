@@ -1,0 +1,109 @@
+<svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TNM Staging Colorectal Cancer">
+  <title>TNM Staging — Colorectal Cancer (AJCC 8th Edition)</title>
+  <defs>
+    <style>text { font-family: system-ui, -apple-system, sans-serif; }</style>
+  </defs>
+
+  <rect width="600" height="350" fill="#FAFBFC" rx="8"/>
+
+  <!-- Title -->
+  <text x="300" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#1B3A6B">TNM Staging — Colorectal Cancer (AJCC 8th Edition)</text>
+  <text x="300" y="42" text-anchor="middle" font-size="10" fill="#7A8CA0">Bowel wall cross-section showing T-stage invasion depth</text>
+
+  <!-- Bowel wall layers (left half, cross-section) -->
+  <!-- Mucosa -->
+  <rect x="60" y="60" width="340" height="22" rx="0" fill="#FEE2E2" stroke="#EF4444" stroke-width="1"/>
+  <text x="70" y="75" font-size="10" fill="#B91C1C" font-weight="600">Mucosa</text>
+
+  <!-- Submucosa -->
+  <rect x="60" y="82" width="340" height="22" rx="0" fill="#FEF9C3" stroke="#EAB308" stroke-width="1"/>
+  <text x="70" y="97" font-size="10" fill="#92400E" font-weight="600">Submucosa</text>
+
+  <!-- Muscularis propria -->
+  <rect x="60" y="104" width="340" height="28" rx="0" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1"/>
+  <text x="70" y="122" font-size="10" fill="#1D4ED8" font-weight="600">Muscularis propria</text>
+
+  <!-- Pericolorectal tissue -->
+  <rect x="60" y="132" width="340" height="28" rx="0" fill="#D1FAE5" stroke="#10B981" stroke-width="1"/>
+  <text x="70" y="149" font-size="10" fill="#065F46" font-weight="600">Pericolorectal tissue / Mesorectum</text>
+
+  <!-- Visceral peritoneum -->
+  <rect x="60" y="160" width="340" height="20" rx="0" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="70" y="174" font-size="10" fill="#5B21B6" font-weight="600">Visceral peritoneum</text>
+
+  <!-- Adjacent organ -->
+  <rect x="60" y="180" width="340" height="24" rx="0" fill="#E0E7FF" stroke="#4338CA" stroke-width="1"/>
+  <text x="70" y="196" font-size="10" fill="#3730A3" font-weight="600">Adjacent organ / structure</text>
+
+  <!-- T1 arrow — invades submucosa -->
+  <line x1="430" y1="93" x2="395" y2="93" stroke="#EF4444" stroke-width="2" marker-end="url(#redArr)"/>
+  <rect x="432" y="82" width="52" height="22" rx="4" fill="#EF4444"/>
+  <text x="458" y="97" text-anchor="middle" font-size="11" font-weight="700" fill="white">T1</text>
+
+  <!-- T2 arrow — invades muscularis -->
+  <line x1="430" y1="118" x2="395" y2="118" stroke="#F97316" stroke-width="2" marker-end="url(#orangeArr)"/>
+  <rect x="432" y="107" width="52" height="22" rx="4" fill="#F97316"/>
+  <text x="458" y="122" text-anchor="middle" font-size="11" font-weight="700" fill="white">T2</text>
+
+  <!-- T3 arrow — through muscularis -->
+  <line x1="430" y1="146" x2="395" y2="146" stroke="#EAB308" stroke-width="2" marker-end="url(#yellowArr)"/>
+  <rect x="432" y="135" width="52" height="22" rx="4" fill="#EAB308"/>
+  <text x="458" y="150" text-anchor="middle" font-size="11" font-weight="700" fill="#1A1A2E">T3</text>
+
+  <!-- T4a arrow — penetrates peritoneum -->
+  <line x1="430" y1="170" x2="395" y2="170" stroke="#7C3AED" stroke-width="2" marker-end="url(#purpleArr)"/>
+  <rect x="432" y="159" width="52" height="22" rx="4" fill="#7C3AED"/>
+  <text x="458" y="174" text-anchor="middle" font-size="11" font-weight="700" fill="white">T4a</text>
+
+  <!-- T4b arrow — invades adjacent organ -->
+  <line x1="430" y1="192" x2="395" y2="192" stroke="#1B3A6B" stroke-width="2" marker-end="url(#navyArr)"/>
+  <rect x="432" y="181" width="52" height="22" rx="4" fill="#1B3A6B"/>
+  <text x="458" y="196" text-anchor="middle" font-size="11" font-weight="700" fill="white">T4b</text>
+
+  <!-- Arrows defs -->
+  <defs>
+    <marker id="redArr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M6,0 L0,3 L6,6 Z" fill="#EF4444"/></marker>
+    <marker id="orangeArr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M6,0 L0,3 L6,6 Z" fill="#F97316"/></marker>
+    <marker id="yellowArr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M6,0 L0,3 L6,6 Z" fill="#EAB308"/></marker>
+    <marker id="purpleArr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M6,0 L0,3 L6,6 Z" fill="#7C3AED"/></marker>
+    <marker id="navyArr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M6,0 L0,3 L6,6 Z" fill="#1B3A6B"/></marker>
+  </defs>
+
+  <!-- Descriptions -->
+  <text x="495" y="97" font-size="9" fill="#B91C1C">Submucosa</text>
+  <text x="495" y="122" font-size="9" fill="#C2410C">Muscularis propria</text>
+  <text x="495" y="146" font-size="9" fill="#92400E">Pericolorectal tissue</text>
+  <text x="495" y="170" font-size="9" fill="#5B21B6">Visceral peritoneum</text>
+  <text x="495" y="192" font-size="9" fill="#1B3A6B">Adjacent organ</text>
+
+  <!-- Lumen indicator -->
+  <rect x="60" y="38" width="340" height="22" rx="0" fill="#F0F9FF" stroke="#7DD3FC" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="230" y="52" text-anchor="middle" font-size="10" fill="#0284C7" font-style="italic">Bowel lumen</text>
+
+  <!-- Depth arrow -->
+  <defs>
+    <marker id="depthArr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L0,6 L6,3 Z" fill="#94A3B8"/></marker>
+  </defs>
+  <line x1="46" y1="60" x2="46" y2="204" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#depthArr)"/>
+  <text x="38" y="135" text-anchor="middle" font-size="9" fill="#94A3B8" transform="rotate(-90,38,135)">Invasion depth</text>
+
+  <!-- N staging box -->
+  <rect x="20" y="220" width="270" height="115" rx="8" fill="white" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="30" y="238" font-size="11" font-weight="700" fill="#1B3A6B">N — Nodal Staging</text>
+  <text x="30" y="255" font-size="9" fill="#444">N0 — No regional node metastasis</text>
+  <text x="30" y="270" font-size="9" fill="#444">N1a — 1 regional lymph node</text>
+  <text x="30" y="285" font-size="9" fill="#444">N1b — 2–3 regional lymph nodes</text>
+  <text x="30" y="300" font-size="9" fill="#444">N1c — Tumour deposits, no nodes</text>
+  <text x="30" y="315" font-size="9" fill="#444">N2a — 4–6 regional lymph nodes</text>
+  <text x="30" y="330" font-size="9" fill="#444">N2b — ≥7 regional lymph nodes</text>
+
+  <!-- M staging box -->
+  <rect x="300" y="220" width="280" height="115" rx="8" fill="white" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="310" y="238" font-size="11" font-weight="700" fill="#1B3A6B">M — Distant Metastasis</text>
+  <text x="310" y="255" font-size="9" fill="#444">M0 — No distant metastasis</text>
+  <text x="310" y="270" font-size="9" fill="#444">M1a — 1 distant organ/site</text>
+  <text x="310" y="285" font-size="9" fill="#444">M1b — ≥2 distant organs/sites</text>
+  <text x="310" y="300" font-size="9" fill="#444">M1c — Peritoneal metastasis ± other sites</text>
+  <text x="310" y="320" font-size="9" fill="#7A8CA0" font-style="italic">Minimum 12 LN required for adequate staging</text>
+  <text x="310" y="332" font-size="9" fill="#C8933A" font-weight="600">🔑 &lt;12 LN → consider re-excision or upstage</text>
+</svg>

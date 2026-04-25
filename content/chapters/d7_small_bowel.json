@@ -1,0 +1,656 @@
+{
+  "id": "D7",
+  "block": "D",
+  "block_name": "Benign Digestive Surgery",
+  "title": "Small Bowel, Mesentery & Nutritional Access",
+  "level": "PGY1-2",
+  "sections": [
+    {
+      "id": "D7-S1",
+      "title": "Small Bowel Anatomy & Physiology",
+      "content": [
+        {
+          "type": "text",
+          "content": "The small intestine extends from the pylorus to the ileocaecal valve, measuring approximately 6–7 metres in vivo (shorter under anaesthesia due to muscle tone). It is divided anatomically into the duodenum (retroperitoneal C-loop from pylorus to duodenojejunal flexure — ligament of Treitz, approximately 25 cm), jejunum (proximal two-fifths of the mobile small bowel), and ileum (distal three-fifths). There is no sharp anatomical demarcation between jejunum and ileum — the transition is gradual."
+        },
+        {
+          "type": "text",
+          "content": "Macroscopic distinguishing features between jejunum and ileum are clinically important for surgical orientation. Jejunum: thicker wall, wider lumen, prominent circular mucosal folds (plicae circulares/valvulae conniventes), prominent villi, located predominantly in the left upper and central abdomen, short and wide vasa recta with wide arterial arcades (2–3 tiers), and minimal fat in the mesentery (mesentery appears relatively transparent). Ileum: thinner wall, narrower lumen, sparse or absent plicae circulares, shorter villi, predominantly in the right lower abdomen and pelvis, long and thin vasa recta with multiple arterial arcades (4–5 tiers), prominent Peyer's patches (lymphoid aggregates on the anti-mesenteric border), and more abundant mesenteric fat (often opaque mesentery)."
+        },
+        {
+          "type": "table",
+          "title": "Absorption by Small Bowel Segment",
+          "headers": ["Nutrient/Substance", "Primary Absorption Site", "Transporter/Mechanism", "Clinical Consequence of Resection"],
+          "rows": [
+            ["Iron (Fe²⁺)", "Duodenum and proximal jejunum", "Divalent metal transporter 1 (DMT-1); ferritin storage", "Iron deficiency anaemia after Billroth II / Roux-en-Y bypassing duodenum"],
+            ["Folate (B9)", "Proximal jejunum", "Folate receptor; reduced folate carrier", "Megaloblastic anaemia after extensive jejunal resection"],
+            ["Calcium, Phosphate", "Duodenum (active) + jejunum (passive)", "TRPV6, calbindin (vitamin D-dependent active transport)", "Hypocalcaemia, metabolic bone disease after duodenal bypass"],
+            ["Fat-soluble vitamins (A,D,E,K)", "Jejunum (micellar solubilisation)", "Passive diffusion after bile salt micelle formation", "Fat-soluble vitamin deficiency if bile salt pool depleted (ileal disease)"],
+            ["Water-soluble vitamins (except B12)", "Proximal jejunum", "Specific transporters", "Deficiency after extensive jejunal resection"],
+            ["Vitamin B12 (cobalamin)", "Terminal ileum (last 60 cm)", "Intrinsic factor receptor (cubilin) — requires IF from gastric parietal cells", "B12 deficiency/pernicious anaemia after terminal ileal resection; occurs years later due to body stores"],
+            ["Bile acids (conjugated)", "Terminal ileum (last 100 cm)", "Apical sodium bile acid transporter (ASBT)", "Bile acid malabsorption (cholerheic diarrhoea); fat malabsorption; gallstones after ileal resection/Crohn's ileitis"],
+            ["Glucose, amino acids", "Jejunum predominantly", "SGLT-1 (glucose); PEPT-1 (dipeptides)", "Malabsorption after massive jejunal resection"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Arterial supply to the small bowel is via the superior mesenteric artery (SMA), which originates from the aorta at the level of L1/L2, just below the coeliac axis. The SMA gives branches in order: inferior pancreaticoduodenal artery (to duodenum/pancreas head), middle colic artery (to transverse colon), right colic artery, ileocolic artery (most constant terminal branch to terminal ileum, caecum, and appendix), and 12–15 jejunal and ileal arteries forming sequential arcades with terminal vasa recta. Venous drainage parallels the arterial supply via the superior mesenteric vein (SMV), which joins the splenic vein behind the neck of the pancreas to form the portal vein."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "B12 Absorption — Critical Terminal Ileum Dependence",
+          "content": "Vitamin B12 absorption requires intrinsic factor (IF, secreted by gastric parietal cells), which forms a B12-IF complex that binds to the cubilin receptor on enterocytes in the terminal ileum. Resection of >60 cm of terminal ileum necessitates lifelong B12 supplementation (intramuscular hydroxocobalamin 1 mg every 3 months, or high-dose oral if intrinsic factor is intact). B12 body stores last 2–4 years — deficiency is insidious and causes subacute combined degeneration of the cord if undetected."
+        }
+      ]
+    },
+    {
+      "id": "D7-S2",
+      "title": "Small Bowel Obstruction",
+      "content": [
+        {
+          "type": "text",
+          "content": "Small bowel obstruction (SBO) accounts for approximately 15% of all acute surgical admissions. The aetiology varies by prior surgical history: in patients with previous abdominal surgery, adhesions are responsible for approximately 70% of SBO; in virgin abdomens, external hernias (inguinal, femoral, incisional, umbilical) are the leading cause (up to 50%), followed by Crohn's disease, neoplasm (primary small bowel tumours, metastatic disease, carcinoid), bezoar, gallstone ileus (through a cholecystoenteric fistula), and intussusception. Strangulation (vascular compromise of the obstructed segment) represents the feared complication — it occurs in 10–15% of cases and mandates urgent surgery."
+        },
+        {
+          "type": "text",
+          "content": "CT scan of the abdomen and pelvis with IV contrast (and oral contrast if feasible) is the investigation of choice for SBO. It identifies the transition point (dilated proximal loops changing to collapsed distal loops), determines the cause, and identifies signs of strangulation or ischaemia. CT signs of strangulation include: mesenteric haziness and oedema, bowel wall thickening >3 mm, poor or absent bowel wall enhancement (lack of contrast uptake in ischaemic wall), pneumatosis intestinalis (gas within the bowel wall — intramural gas = bowel necrosis until proven otherwise), portal venous gas, ascites, and the 'whirl sign' (swirling of mesentery around a fixed point in closed-loop obstruction or volvulus)."
+        },
+        {
+          "type": "text",
+          "content": "The Gastrografin challenge (water-soluble contrast study) is used for adhesive SBO to predict the likelihood of spontaneous resolution and to potentially have a therapeutic effect. The Bologna guidelines (2013) and ASMBS protocol: after 24–48 hours of conservative management (NG decompression, IV fluids, analgesia) in confirmed adhesive SBO without signs of strangulation, oral/NG Gastrografin 100 mL is administered. An abdominal X-ray at 4–6 hours is obtained: appearance of contrast in the large bowel predicts successful non-operative resolution in >90% of cases (negative predictive value 96%). Failure to progress contrast to the colon at 24 hours predicts need for surgery. In addition to its diagnostic value, Gastrografin may have a therapeutic effect by reducing mucosal oedema (osmotic effect) and stimulating bowel motility."
+        },
+        {
+          "type": "table",
+          "title": "CT Features of Small Bowel Obstruction — Strangulation Signs",
+          "headers": ["CT Feature", "Significance", "Sensitivity", "Specificity"],
+          "rows": [
+            ["Pneumatosis intestinalis (intramural gas)", "Gas in bowel wall from bacterial fermentation; indicates necrosis", "50–60%", "90–95%"],
+            ["Portal venous gas", "Gas in portal system; very late sign of necrosis", "15%", ">98%"],
+            ["Absent bowel wall enhancement (IV contrast)", "Ischaemic bowel — no contrast uptake", "60–80%", "90%"],
+            ["Closed-loop obstruction (C or U-shaped dilated loop)", "Two adjacent obstruction points; high strangulation risk", "70–80%", "85%"],
+            ["Whirl sign (mesenteric twisting)", "Volvulus or internal hernia with mesenteric torsion", "65%", "88%"],
+            ["Mesenteric haziness/fat stranding", "Oedema/ischaemia of mesentery", "70%", "75%"],
+            ["Ascites (free fluid)", "Peritoneal irritation from ischaemia or perforation", "60%", "65%"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Indications for Immediate Surgery in SBO",
+          "content": "Absolute indications for emergency surgery in SBO (do NOT attempt Gastrografin challenge): (1) clinical signs of strangulation (fever, tachycardia, localised peritonism); (2) CT evidence of ischaemia/strangulation (pneumatosis, absent wall enhancement, portal gas, closed-loop); (3) SBO in a virgin abdomen (hernia excluded — consider neoplasm/Crohn's requiring diagnosis); (4) failure to improve or clinical deterioration after 24–48 hours conservative management; (5) SBO with hernia not reducible (immediate surgery)."
+        }
+      ]
+    },
+    {
+      "id": "D7-S3",
+      "title": "Small Bowel Tumours",
+      "content": [
+        {
+          "type": "text",
+          "content": "Despite comprising 75% of the length of the GI tract, the small bowel accounts for only 3% of all GI malignancies. The relative protection is attributed to rapid transit time, alkaline pH, decreased bacterial load, abundant lymphoid tissue (IgA secretion), and low mucosal mitotic activity. Primary small bowel tumours include gastrointestinal stromal tumours (GISTs — most common), carcinoid/neuroendocrine tumours (NETs — most common in the ileum), adenocarcinoma (most common in the duodenum; associated with Crohn's ileitis, Peutz-Jeghers, coeliac disease), and lymphoma (most common in the ileum; associated with coeliac disease — enteropathy-associated T-cell lymphoma, EATL)."
+        },
+        {
+          "type": "text",
+          "content": "Gastrointestinal stromal tumours (GISTs) arise from interstitial cells of Cajal (the pacemaker cells of the gut). They are most common in the stomach (60%) followed by the small bowel (25–30%). Pathogenic mutations: KIT exon 11 (most common, 60–70%), KIT exon 9 (10%), PDGFRA (10%; D842V mutation = imatinib resistant), NF1-associated, SDH-deficient (in young patients and Carney complex), BRAF. Risk stratification for malignant potential uses the Miettinen criteria (also NIH criteria): based on tumour size, mitotic count (per 50 high-power fields), and location. High-risk small bowel GISTs (>5 cm and >5 mitoses/50HPF, or any >10 cm or >10 mitoses) are at significant risk of metastasis. Adjuvant imatinib for 3 years is indicated for resected high-risk GISTs — the SSGXVIII/AIO trial demonstrated significantly improved recurrence-free survival at 5 years (65.6% vs 47.9% for 1-year imatinib)."
+        },
+        {
+          "type": "text",
+          "content": "Small bowel NETs (carcinoid tumours) are the most common primary small bowel malignancy in the ileum. They arise from enterochromaffin cells and secrete serotonin, chromogranin A (CgA), and other vasoactive peptides. The carcinoid syndrome (flushing, diarrhoea, wheezing, right-sided valvular heart disease) occurs only when liver metastases are present (bypassing hepatic first-pass metabolism of serotonin). Diagnosis: chromogranin A (serum), 24-hour urinary 5-HIAA (5-hydroxyindoleacetic acid — serotonin metabolite), and imaging (CT, Ga-68 DOTATATE PET-CT — now superseding octreotide scintigraphy). Carcinoid heart disease (Hedinger syndrome) causes fibrous plaques on the tricuspid and pulmonary valves (right-sided), leading to tricuspid regurgitation and pulmonary stenosis. Echocardiography is recommended pre-operatively. Surgery remains the cornerstone: primary tumour resection (with wide mesenteric lymph node clearance due to the prominent desmoplastic mesenteric reaction), hepatic debulking/resection for liver metastases (if >90% debulkable). Medical: somatostatin analogues (octreotide LAR, lanreotide — antiproliferative and antisecretory) are standard for metastatic disease."
+        },
+        {
+          "type": "table",
+          "title": "Peutz-Jeghers Syndrome — Management Summary",
+          "headers": ["Feature", "Details"],
+          "rows": [
+            ["Genetics", "STK11/LKB1 mutation (chromosome 19p13.3); autosomal dominant"],
+            ["Polyp type", "Hamartomatous polyps (not adenomatous); arborising smooth muscle core"],
+            ["Cutaneous features", "Mucocutaneous melanocytic macules — lips, buccal mucosa, perioral skin, digits"],
+            ["GI complications", "Intussusception (most common acute complication), GI bleeding, obstruction"],
+            ["Cancer risk", "Elevated for GI (small bowel, colorectal, gastric, pancreatic), breast, gynaecological (sex cord stromal tumours — annular tubular), lung"],
+            ["Surveillance", "Upper GI endoscopy and capsule endoscopy every 2–3 years from age 8–10; colonoscopy every 3 years from age 18; breast MRI annually from age 25"],
+            ["Management of polyps", "Single-balloon, double-balloon, or spiral enteroscopy for polypectomy of polyps >1.5 cm to prevent intussusception; intra-operative enteroscopy at laparotomy"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "GIST Imatinib Adjuvant — When to Use",
+          "content": "Adjuvant imatinib (Gleevec, 400 mg OD) is indicated for resected GISTs with HIGH recurrence risk per Miettinen criteria. Key indications: tumour >5 cm with mitotic rate >5/50HPF (high risk); any tumour >10 cm; any tumour with >10 mitoses/50HPF; tumour rupture (intra-operatively or spontaneously). Duration: 3 years (SSGXVIII trial showed 3 years superior to 1 year). PDGFRA D842V mutation = primary imatinib resistance → avapritinib is the targeted therapy. KIT exon 11 mutation = best imatinib response."
+        }
+      ]
+    },
+    {
+      "id": "D7-S4",
+      "title": "Mesenteric Ischaemia",
+      "content": [
+        {
+          "type": "text",
+          "content": "Acute mesenteric ischaemia (AMI) is a catastrophic condition with overall mortality of 50–80% due to delayed diagnosis and rapid progression to bowel necrosis. Four mechanisms account for the vast majority of cases: (1) SMA embolism (50%) — most common cause; cardiac emboli from atrial fibrillation, mural thrombus, endocarditis, or aortic atherosclerosis; abrupt onset of severe periumbilical pain out of proportion to examination findings; sparing of the most proximal jejunum (SMA embolus typically lodges 3–10 cm distal to the SMA origin, past the origin of the middle colic artery); (2) SMA thrombosis (25%) — on a background of chronic mesenteric ischaemia (intestinal angina) and atherosclerosis; often more gradual onset; affects the entire SMA territory from the origin; (3) non-occlusive mesenteric ischaemia (NOMI, 20%) — diffuse mesenteric vasospasm without mechanical occlusion; occurs in low-flow states (cardiogenic shock, septic shock, vasopressor therapy, cocaine toxicity); (4) mesenteric venous thrombosis (MVT, 5–10%) — portal/SMV system thrombosis; slower onset; may be provoked (hypercoagulable states — Factor V Leiden, protein C/S deficiency, JAK2 V617F mutation, oral contraceptive pill, intra-abdominal infection) or unprovoked."
+        },
+        {
+          "type": "table",
+          "title": "Acute Mesenteric Ischaemia — Mechanism Comparison",
+          "headers": ["Feature", "SMA Embolism", "SMA Thrombosis", "NOMI", "MVT"],
+          "rows": [
+            ["Aetiology", "Cardiac embolus (AF, MI, valvular disease)", "Atherosclerosis; thrombosis at stenosis", "Low-flow state; vasospasm; vasopressors", "Hypercoagulable state; sepsis; portal hypertension"],
+            ["Onset", "Sudden, dramatic", "Subacute (chronic history of intestinal angina)", "Gradual, insidious", "Gradual over days to weeks"],
+            ["History", "Known cardiac disease; AF", "Post-prandial pain; weight loss", "ICU patient; shock state; high vasopressors", "DVT/PE history; known thrombophilia; OCP"],
+            ["CT angiography", "Filling defect in SMA (often 3–10 cm from origin)", "Thrombus at SMA origin; diffuse atherosclerosis", "No occlusion; vasoconstriction pattern; patent main vessels", "Thrombus in SMV/portal vein; bowel wall thickening; ascites"],
+            ["Bowel affected", "Mid-small bowel spared (proximal 20 cm usually viable)", "Entire SMA territory from origin", "Diffuse; patchy ischaemia", "Venous congestion → oedema, haemorrhagic infarction"],
+            ["Treatment", "Embolectomy or endovascular (aspiration/thrombolysis) ± bowel resection", "Bypass (aortomesenteric) or endovascular + bowel resection", "IV papaverine (vasodilator) via SMA catheter; treat underlying cause; anticoagulation", "Anticoagulation (LMWH → warfarin); selective thrombolysis for portal vein; bowel resection if necrosed"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "CT angiography (multiphase CTA — non-contrast, arterial, venous phases) is the investigation of choice for acute mesenteric ischaemia. It has >90% sensitivity and specificity for identifying SMA embolism and thrombosis, and is superior to angiography for venous thrombosis and NOMI. A key diagnostic principle: 'pain out of proportion to physical findings' is the classic clinical presentation of early AMI — in the absence of peritonism, bowel necrosis has not yet occurred and time exists for urgent vascular intervention."
+        },
+        {
+          "type": "text",
+          "content": "Second-look laparotomy is performed 24–48 hours after initial revascularisation and bowel resection to reassess bowel viability. It is mandatory when: (1) initial viability was uncertain at first operation; (2) bowel resection was performed near ischaemic margins; (3) primary anastomosis was performed in potentially compromised bowel. Intra-operative viability assessment techniques: Doppler ultrasonography (audible pulsatile flow in mesenteric vessels), clinical assessment (colour, peristalsis, mesenteric pulsations), and fluorescein dye with Wood's lamp (systemic fluorescein 1 g IV — viable bowel fluoresces green; ischaemic bowel does not). Second-look laparotomy is planned electively (not as a rescue procedure)."
+        },
+        {
+          "type": "callout",
+          "variant": "clinical",
+          "title": "NOMI — Papaverine Infusion",
+          "content": "Non-occlusive mesenteric ischaemia (NOMI) is treated with: (1) correction of the underlying low-flow state (restore cardiac output, wean vasopressors if possible); (2) intra-arterial papaverine (30–60 mg/h via SMA catheter) — a phosphodiesterase inhibitor that reverses mesenteric vasospasm; (3) systemic anticoagulation with heparin; (4) laparotomy for bowel resection only if clinical peritonism develops or CT shows transmural infarction. NOMI carries 50–70% mortality even with treatment due to the severity of the underlying illness."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "ISCHAEMIA-EXTEND (Mesenteric Venous Thrombosis Anticoagulation)",
+          "citation": "Orr DW et al. Aliment Pharmacol Ther 2012;36:1022-1029",
+          "population": "Systematic review of mesenteric venous thrombosis management",
+          "intervention": "Anticoagulation (LMWH → warfarin) vs no anticoagulation in MVT",
+          "result": "Anticoagulation reduces 30-day mortality (OR 0.33) and recurrence of thrombosis. Duration: 6 months for provoked; indefinite for spontaneous MVT or underlying thrombophilia.",
+          "practice_change": "Anticoagulation is now standard of care for all cases of mesenteric venous thrombosis without contraindication, regardless of bowel viability, initiated as soon as diagnosis is confirmed."
+        }
+      ]
+    },
+    {
+      "id": "D7-S5",
+      "title": "Enterocutaneous Fistula",
+      "content": [
+        {
+          "type": "text",
+          "content": "An enterocutaneous fistula (ECF) is an abnormal communication between the small bowel lumen and the skin. ECFs are among the most challenging problems in surgical practice, with significant morbidity, prolonged hospital stays, and mortality of 5–20%. Classification is by output volume: low output (<200 mL/24h), moderate output (200–500 mL/24h), and high output (>500 mL/24h — highest mortality risk from fluid/electrolyte losses and malnutrition)."
+        },
+        {
+          "type": "text",
+          "content": "The FRIEND mnemonic summarises the conditions that prevent spontaneous fistula closure: Foreign body in the fistula tract (mesh, suture, drain); Radiation (prior radiotherapy — impairs healing); Inflammation/Infection (active sepsis, ongoing inflammation, IBD — Crohn's); Epithelialisation of the fistula tract (>6 weeks — tract becomes epithelialised, preventing closure); Neoplasm (underlying malignancy); Distal obstruction (fistula will not close if there is distal bowel obstruction preventing normal stream). If ANY of these factors is present, spontaneous closure is unlikely and surgical repair will ultimately be required."
+        },
+        {
+          "type": "text",
+          "content": "Staged management of ECF follows the 4-R protocol: (1) Resuscitate — correct fluid and electrolyte deficits (high-output ECF can lose 3–5 L/day of fluid rich in sodium and potassium); control sepsis (CT-guided drainage of collections, antibiotics); wound care with stoma appliances or VAC (Vacuum Assisted Closure) dressings. (2) Recover — initiate nutritional support (TPN for high-output ECF or fistula in continuity with short circuit; low-residue enteral nutrition may be possible for low-output fistulae); somatostatin analogues (octreotide 100–200 μg TDS SC) may reduce fistula output by 30–50%; optimise metabolic state. (3) Repair — definitive surgery after nutritional optimisation; minimum 12 weeks from last surgery (ideally 6 months) to allow adhesion maturation and tissue recovery; complete fistula excision, resection of involved bowel segment, and primary anastomosis. (4) Reconstruct — abdominal wall reconstruction if extensive contamination or loss required temporary open abdomen management."
+        },
+        {
+          "type": "table",
+          "title": "SNAP Criteria — Predictors of Spontaneous ECF Closure",
+          "headers": ["SNAP Criterion", "Favourable for Spontaneous Closure", "Unfavourable (FRIEND factors present)"],
+          "rows": [
+            ["S — Short fistula tract", "<2 cm tract length", "Long/epithelialised tract"],
+            ["N — No distal obstruction", "Patent distal bowel", "Distal stricture, adhesional obstruction"],
+            ["A — Absence of FRIEND factors", "None of FRIEND present", "Any FRIEND factor = surgery likely needed"],
+            ["P — Proximal fistula (jejunal)", "Proximal small bowel fistula (higher spontaneous closure)", "Distal ileal or colonic fistula (lower spontaneous closure rate)"]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "ECF — Never Rush to Surgery",
+          "content": "The greatest mistake in ECF management is performing definitive repair too early. Operating on a malnourished, septic patient with frozen abdomen from recent surgery has catastrophic consequences (anastomotic leak, new fistulae, death). The minimum waiting time after the last abdominal surgery is 12 weeks; most experts recommend 6 months for complex cases. This period must be used to: control sepsis, reverse malnutrition (TPN), optimise comorbidities, and plan definitive repair with the best possible team."
+        }
+      ]
+    },
+    {
+      "id": "D7-S6",
+      "title": "Nutritional Access",
+      "content": [
+        {
+          "type": "text",
+          "content": "Nutritional support is a fundamental component of surgical care. The principle 'if the gut works, use it' governs the choice between enteral and parenteral nutrition. Enteral nutrition (EN) maintains gut mucosal integrity, prevents bacterial translocation, supports the gut-associated immune system, and avoids the complications of central venous access. Multiple large RCTs and meta-analyses confirm that enteral nutrition is associated with fewer infectious complications, lower cost, and equivalent or better outcomes compared to parenteral nutrition in most post-operative and critically ill patients."
+        },
+        {
+          "type": "table",
+          "title": "Enteral Nutritional Access Routes",
+          "headers": ["Route", "Insertion", "Indication", "Complications", "Duration"],
+          "rows": [
+            ["Nasogastric tube (NGT)", "Bedside (nasal → stomach); confirm with CXR or pH", "Short-term EN in cooperative patient; post-operative feeding", "Aspiration if gastroparesis; nasal erosions; tube displacement", "<4 weeks"],
+            ["Nasojejunal tube (NJT)", "Bedside (weighted) or endoscopic/fluoroscopic placement", "Gastroparesis; high risk of aspiration; post-pancreatic surgery", "Difficult placement; tube migration; jejunal perforation (rare)", "<4 weeks"],
+            ["Percutaneous endoscopic gastrostomy (PEG)", "Endoscopic (pull/push/introducer techniques)", "Long-term EN; neurological dysphagia; head/neck cancer", "Peristomal infection (most common); buried bumper syndrome; leakage; PEG-related peritonitis", ">4 weeks; permanent if needed"],
+            ["Percutaneous endoscopic jejunostomy (PEJ)", "Endoscopic (direct jejunal puncture or jejunal extension through PEG)", "Post-gastrectomy; gastroparesis; aspiration risk", "Tube migration; high rate of dislodgement", ">4 weeks"],
+            ["Surgical jejunostomy", "Laparoscopic or open (Witzel technique)", "Planned post-operative EN; oesophagectomy; gastrectomy; pancreaticoduodenectomy", "Tube dislodgement → peritonitis; intussusception; site infection", "Permanent; removed when no longer required"]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "PEG contraindications include: coagulopathy (INR >1.5, platelets <50,000); inability to appose stomach to anterior abdominal wall (intervening colon, liver, ascites, obesity); oropharyngeal sepsis (relative — risk of contamination of PEG site); head and neck cancer with high risk of implantation metastasis from pull technique (use introducer/Russell technique). Active GERD with aspiration is a relative contraindication — PEJ or surgical jejunostomy is preferred."
+        },
+        {
+          "type": "text",
+          "content": "Parenteral nutrition (PN) delivers nutrients directly into the bloodstream, bypassing the GI tract. Indications: non-functioning gut (short bowel syndrome, intestinal obstruction, high-output ECF, severe mucositis); inability to establish enteral access; supplemental PN when enteral cannot meet >60% of requirements. Central PN (CPN) requires a central venous catheter (subclavian, internal jugular, or PICC — peripherally inserted central catheter). Peripheral PN is limited by osmolarity (<900 mOsm/L) — insufficient for complete nutrition. Complications of PN: central line-associated bloodstream infections (CLABSI) — most serious (Staphylococcus aureus, coagulase-negative Staphylococcus, gram-negative bacilli, Candida); PN-associated liver disease (hepatic steatosis → cholestasis → cirrhosis with long-term PN); metabolic complications (hyperglycaemia — most common; refeeding syndrome — monitor phosphate in malnourished patients initiating PN; hypertriglyceridaemia from lipid emulsions). Intestinal failure is categorised as Type I (acute, short-term — post-operative ileus, SBO — self-resolving), Type II (prolonged, requiring hospital-based PN — ECF, short bowel syndrome during adaptation, abdominal catastrophe), Type III (chronic, requiring long-term/home PN — permanent short bowel syndrome, intestinal dysmotility, extensive Crohn's)."
+        },
+        {
+          "type": "landmark_trial",
+          "name": "CALORIES Trial — Enteral vs Parenteral Nutrition in ICU",
+          "citation": "Harvey SE et al. N Engl J Med 2014;371:1673-1684",
+          "population": "2,400 ICU patients requiring nutritional support, UK multicentre RCT",
+          "intervention": "Early enteral nutrition vs parenteral nutrition for first 5 days of ICU admission",
+          "result": "No significant difference in 30-day mortality (33.1% EN vs 34.2% PN). EN: more vomiting, fewer hypoglycaemic events. PN: less vomiting, more hypoglycaemia. No overall difference in infectious complications.",
+          "practice_change": "CALORIES was a practice-changing null trial — it showed EN and PN have equivalent outcomes in ICU when both are administered appropriately. The principle of 'enteral if gut works' remains valid for practical and cost reasons, but PN is not inferior in skilled hands."
+        },
+        {
+          "type": "callout",
+          "variant": "guideline",
+          "title": "ESPEN Definition of Intestinal Failure",
+          "content": "ESPEN (2016) defines intestinal failure as 'reduction of gut function below the minimum necessary for the absorption of macronutrients and/or water and electrolytes, such that IV supplementation is required to maintain health and/or growth.' Types: Type I (acute, self-limiting); Type II (metabolically stable but prolonged, requiring home or hospital PN beyond 28 days); Type III (chronic, requiring permanent home PN). This definition forms the basis for referral to specialist intestinal failure units."
+        }
+      ]
+    },
+    {
+      "id": "D7-S7",
+      "title": "Short Bowel Syndrome",
+      "content": [
+        {
+          "type": "text",
+          "content": "Short bowel syndrome (SBS) develops when the functional absorptive surface of the small bowel is insufficient to maintain adequate nutrition and hydration without parenteral support. SBS occurs when less than 150–200 cm of small bowel remains after resection. The critical thresholds depend on colon presence: without colon (end-ileostomy), <150 cm of remaining small bowel typically requires parenteral nutrition support; with preserved colon in continuity (colonic adapation), patients may maintain adequate absorption with as little as 50 cm of small bowel, because the colon absorbs water, sodium, and short-chain fatty acids produced by bacterial fermentation of malabsorbed carbohydrates — a crucial adaptive mechanism."
+        },
+        {
+          "type": "text",
+          "content": "Intestinal adaptation is the physiological response to massive small bowel resection, driven primarily by GLP-2 (glucagon-like peptide 2) — a trophic hormone secreted by L-cells in the ileum and colon in response to luminal nutrients. GLP-2 stimulates crypt cell proliferation, villus elongation, increases brush border enzyme activity, and reduces intestinal motility. This adaptive process occurs over 2–3 years post-resection. Teduglutide (Revestive/Gattex) is a recombinant GLP-2 analogue that accelerates and amplifies intestinal adaptation — it reduces parenteral nutrition requirements in adults with SBS (STEPS trial: 63% of teduglutide patients achieved ≥20% reduction in PN volume vs 30% placebo). It is given as a daily SC injection."
+        },
+        {
+          "type": "text",
+          "content": "Surgical options for SBS include: (1) STEP procedure (Serial Transverse Enteroplasty) — serial perpendicular staple firings along the anti-mesenteric border of a dilated, dysmotile segment of bowel; this increases bowel length, reduces diameter, and improves transit by creating a spiralling lumen configuration. Used for intestinal adaptation failure with dilated dysmotile small bowel in paediatric patients predominantly. (2) Intestinal lengthening and tapering (Bianchi procedure) — splits the dilated bowel into two parallel segments, each with its own blood supply, doubling length. (3) Intestinal transplantation — the definitive treatment for irreversible intestinal failure. Indications: life-threatening complications of PN (recurrent CLABSI, progressive liver failure from PN-associated liver disease, thrombosis of all major central venous access routes, single-episode CLABSI with systemic sepsis resulting in hospitalisation). Five-year graft survival approximately 50%; patient survival 60%. Isolated intestinal transplant vs combined liver-intestinal transplant (if PN-associated liver failure)."
+        },
+        {
+          "type": "callout",
+          "variant": "pearl",
+          "title": "SBS — The Colon as an Ally",
+          "content": "The preserved colon dramatically changes the trajectory of SBS. The colon salvages water and electrolytes (up to 5–6 L/day absorption capacity), absorbs short-chain fatty acids from fermented malabsorbed carbohydrates (contributing 500–1000 kcal/day), and slows transit. A patient with 50 cm of small bowel and intact colon may ultimately achieve enteral autonomy; the same patient with only 100 cm and an end-stomy may remain PN-dependent. Always document whether the colon is in continuity when managing SBS."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "D7-Q1",
+      "stem": "A patient with adhesive small bowel obstruction has been managed conservatively for 36 hours with NG decompression and IV fluids. CT scan shows no strangulation signs. The Gastrografin challenge is administered. What finding at 4–6 hours predicts successful non-operative resolution?",
+      "options": {
+        "A": "Gastrografin visible in the stomach on repeat AXR",
+        "B": "Gastrografin passes through the duodenojejunal flexure within 2 hours",
+        "C": "Gastrografin contrast visible in the large bowel (colon) at 4–6 hours",
+        "D": "Passage of flatus after Gastrografin administration"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — The Bologna guideline Gastrografin challenge protocol: appearance of water-soluble contrast in the large bowel (colon) on AXR at 4–24 hours predicts successful non-operative resolution with a negative predictive value of 96% and sensitivity of 97%. The presence of contrast in the colon demonstrates patency of the SBO — indicating the obstruction has resolved or will resolve without surgery.",
+        "wrongA": "Gastrografin remaining in the stomach at 4–6 hours indicates gastroparesis or very proximal obstruction — this does not predict resolution. It suggests impaired motility or delayed transit.",
+        "wrongB": "Passage through the duodenojejunal flexure alone is insufficient — the key endpoint is reaching the colon, confirming that the entire small bowel is patent.",
+        "wrongD": "Passage of flatus may indicate partial resolution but is not the validated endpoint of the Gastrografin challenge test. The AXR finding of colonic contrast is the specific protocol endpoint.",
+        "guideline": "Bologna guidelines (2013) for adhesive SBO: Gastrografin challenge after 24–48h conservative management; AXR at 4–6h (some protocols at 8–24h); colon contrast = non-operative management continued; no colonic contrast at 24h = surgery.",
+        "pearl": "Gastrografin is not just diagnostic — it may be therapeutic. Its hyperosmolarity draws fluid into the bowel lumen, reducing mucosal oedema and stimulating peristalsis. Some series show it actively converts adhesive SBO to resolution."
+      }
+    },
+    {
+      "id": "D7-Q2",
+      "stem": "Which combination of CT findings is most specific for strangulating small bowel obstruction requiring emergency surgery?",
+      "options": {
+        "A": "Dilated small bowel loops >3 cm with air-fluid levels and no transition point",
+        "B": "Pneumatosis intestinalis (gas in the bowel wall) and absent bowel wall enhancement on IV contrast CT",
+        "C": "Oral contrast not reaching the colon within 4 hours on CT",
+        "D": "Mesenteric lymphadenopathy and bowel wall thickening >5 mm"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Pneumatosis intestinalis (intramural gas) combined with absent bowel wall enhancement (ischaemic bowel not taking up IV contrast) represents the most specific combination for bowel strangulation/necrosis on CT. Pneumatosis indicates transmural ischaemia with bacterial gas production within the bowel wall, while absent enhancement confirms vascular compromise.",
+        "wrongA": "Dilated loops with air-fluid levels indicate obstruction but do not specifically indicate strangulation. These are common findings in uncomplicated mechanical SBO.",
+        "wrongC": "Failure of oral contrast to reach the colon indicates obstruction but does not differentiate strangulating from non-strangulating obstruction — this is the Gastrografin challenge finding for predicting resolution, not a strangulation criterion.",
+        "wrongD": "Mesenteric lymphadenopathy and bowel wall thickening are non-specific — they may indicate inflammation, lymphoma, or other causes, but are not specific for strangulation.",
+        "guideline": "EAST Practice Management Guidelines for SBO: CT signs mandating emergency surgery include: pneumatosis, portal venous gas, absent wall enhancement, free perforation — these represent transmural ischaemia/necrosis.",
+        "pearl": "Pneumatosis intestinalis = GAS IN THE BOWEL WALL = bowel necrosis until proven otherwise. Portal venous gas (gas in the portal vein on CT) is an even later and more ominous sign, associated with near-universal bowel necrosis."
+      }
+    },
+    {
+      "id": "D7-Q3",
+      "stem": "A 55-year-old man has a 7 cm jejunal GIST resected. Pathology shows 8 mitoses per 50 high-power fields. KIT exon 11 mutation confirmed. What is the correct adjuvant management?",
+      "options": {
+        "A": "No adjuvant therapy — surgical resection alone is curative",
+        "B": "Adjuvant imatinib 400 mg OD for 1 year",
+        "C": "Adjuvant imatinib 400 mg OD for 3 years",
+        "D": "Adjuvant chemotherapy with doxorubicin-based regimen"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — This is a high-risk small bowel GIST (>5 cm AND >5 mitoses/50HPF in a non-gastric location). The SSGXVIII/AIO trial demonstrated that 3 years of adjuvant imatinib is significantly superior to 1 year for recurrence-free survival (65.6% vs 47.9% at 5 years, p=0.02). KIT exon 11 mutation confirms imatinib sensitivity.",
+        "wrongA": "High-risk GISTs have a significant risk of recurrence after R0 resection — adjuvant imatinib substantially reduces this risk. Surgical resection alone is insufficient for high-risk disease.",
+        "wrongB": "The SSGXVIII/AIO trial showed 1-year adjuvant imatinib is inferior to 3 years for recurrence-free and overall survival. 1 year is no longer the recommended duration for high-risk GISTs.",
+        "wrongD": "Conventional cytotoxic chemotherapy (doxorubicin) has no established role in GIST management. GISTs are driven by KIT/PDGFRA mutations — targeted therapy with imatinib is the standard.",
+        "trial": "SSGXVIII/AIO trial (Joensuu H et al. JAMA 2012): 3 years imatinib vs 1 year — RFS 65.6% vs 47.9% at 5 years (p=0.02); OS benefit also demonstrated.",
+        "pearl": "GIST Miettinen high-risk criteria (small bowel location): >5 cm AND any mitotic rate; ANY size with >10 mitoses/50HPF; >10 cm regardless of mitoses; tumour rupture. If ANY of these present = 3 years adjuvant imatinib."
+      }
+    },
+    {
+      "id": "D7-Q4",
+      "stem": "A patient with metastatic ileal NET (carcinoid) develops right-sided heart failure with severe tricuspid regurgitation. What is the pathophysiological mechanism of carcinoid heart disease?",
+      "options": {
+        "A": "Direct cardiac invasion by metastatic carcinoid tumour deposits",
+        "B": "Systemic serotonin exposure (from liver metastases bypassing hepatic degradation) causing fibrous plaque deposition on the right-sided valves",
+        "C": "Serotonin-induced coronary artery vasospasm leading to right ventricular ischaemia",
+        "D": "Autoimmune cross-reactivity between carcinoid antigens and cardiac valve proteins"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Carcinoid heart disease (Hedinger syndrome) occurs when liver metastases allow serotonin to enter the systemic circulation (bypassing hepatic first-pass metabolism). High systemic serotonin levels cause fibrous plaque deposition (endocardial fibrosis) predominantly on the right-sided valves (tricuspid and pulmonary). Left-sided valves are protected because serotonin is inactivated in the pulmonary circulation before reaching the left heart.",
+        "wrongA": "Carcinoid heart disease is not caused by direct tumour invasion of the heart — it is a paraneoplastic/humoral effect of serotonin.",
+        "wrongC": "Coronary artery vasospasm from serotonin is not the mechanism — endocardial fibrosis (fibrous plaque deposition) is the specific cardiac pathology.",
+        "wrongD": "There is no established autoimmune mechanism for carcinoid heart disease.",
+        "guideline": "ENETS guidelines: all patients with metastatic NETs should have baseline echocardiography to exclude carcinoid heart disease before surgery (carcinoid crisis risk) and annually in those with elevated 5-HIAA/CgA.",
+        "pearl": "Carcinoid heart disease = RIGHT-sided valves affected (tricuspid regurgitation + pulmonary stenosis). LEFT-sided = only in pulmonary/ovarian carcinoids where serotonin bypasses the lung. Predicts surgical risk — severe TR requires cardiac surgery before NET debulking."
+      }
+    },
+    {
+      "id": "D7-Q5",
+      "stem": "On CT angiography, how can SMA embolism be distinguished from SMA thrombosis?",
+      "options": {
+        "A": "SMA embolism shows diffuse atherosclerotic calcification at the SMA origin; SMA thrombosis shows a sharply defined filling defect distally",
+        "B": "SMA embolism: filling defect typically 3–10 cm from SMA origin (past middle colic artery origin), sparing proximal jejunum; SMA thrombosis: thrombus at or near SMA origin, affecting the entire SMA territory from its origin",
+        "C": "SMA embolism is only distinguishable by nuclear medicine scan; CT cannot differentiate",
+        "D": "SMA thrombosis always presents with calcium in the SMA wall; embolism shows no wall calcification"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The key CT distinguishing features: SMA embolism typically shows an abrupt filling defect 3–10 cm from the SMA origin (distal to the origin of the middle colic artery and often the jejunal branches), sparing the most proximal jejunum and preserving proximal jejunal viability. SMA thrombosis occurs at or near the SMA origin in a background of diffuse atherosclerotic disease, affecting the entire SMA territory from its origin — including all jejunal branches.",
+        "wrongA": "Atherosclerotic calcification may be present in both conditions as a background finding. It is not the specific distinguishing feature.",
+        "wrongC": "CTA is highly accurate (>90% sensitivity/specificity) for distinguishing embolism from thrombosis — nuclear medicine is not needed for this distinction.",
+        "wrongD": "SMA wall calcification may accompany thrombosis (atherosclerotic background) but is not a reliable discriminating feature.",
+        "guideline": "TASC II guidelines: SMA embolism → embolectomy (open or endovascular) ± bowel resection. SMA thrombosis → bypass (aortomesenteric) or endovascular recanalization ± bowel resection.",
+        "pearl": "SMA embolism spares proximal 20 cm of jejunum (middle colic + jejunal branches arise proximally, before embolus). SMA thrombosis = no sparing, entire territory affected from origin. This explains why thrombosis has higher bowel loss."
+      }
+    },
+    {
+      "id": "D7-Q6",
+      "stem": "A 35-year-old woman presents with acute small bowel obstruction. CT confirms mesenteric venous thrombosis (SMV/portal vein). There are no signs of peritonism. Her JAK2 V617F mutation is positive. What is the priority management?",
+      "options": {
+        "A": "Emergency laparotomy for bowel resection — MVT always requires surgery",
+        "B": "Anticoagulation with LMWH immediately, converting to warfarin or NOAC; haematology referral for JAK2+ myeloproliferative disorder; monitor for peritonism",
+        "C": "Conservative management with IV fluids and antibiotics — anticoagulation contraindicated in bowel ischaemia",
+        "D": "Thrombolysis with tPA directly into the SMV via interventional radiology"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Mesenteric venous thrombosis without peritonism (no bowel necrosis) is managed with immediate anticoagulation (LMWH bridging to warfarin or NOAC). A JAK2 V617F mutation indicates underlying myeloproliferative neoplasm (polycythaemia vera or essential thrombocythaemia), which is a significant prothrombotic cause — lifelong anticoagulation will likely be required and haematology referral is essential.",
+        "wrongA": "Surgery is NOT the first-line treatment for MVT without peritonism. Anticoagulation is the primary treatment; surgery is reserved for bowel necrosis (peritonism, CT evidence of ischaemia).",
+        "wrongC": "Anticoagulation is NOT contraindicated in MVT — it is the primary treatment. The concern is adding anticoagulation in active bleeding, not in thrombosis-related bowel ischaemia.",
+        "wrongD": "Direct thrombolysis via SMV catheter is reserved for selected cases of acute MVT not responding to anticoagulation with significant clot burden — not first-line management.",
+        "guideline": "BSH and ACCP guidelines: anticoagulate MVT immediately without waiting for symptom resolution. Duration: 6 months provoked; indefinite if underlying thrombophilia (JAK2+) or unprovoked.",
+        "pearl": "MVT + JAK2 V617F = haematological malignancy until proven otherwise. Check FBC: polycythaemia (elevated Hb, RBC) or thrombocytosis. Require bone marrow biopsy. JAK2 inhibitors (ruxolitinib) are the treatment for JAK2+ MPN."
+      }
+    },
+    {
+      "id": "D7-Q7",
+      "stem": "The FRIEND mnemonic identifies factors preventing spontaneous enterocutaneous fistula closure. A patient with a post-operative ECF has a biopsy of the fistula tract showing Crohn's granulomas. Which FRIEND factor is present and what does this imply for management?",
+      "options": {
+        "A": "F — Foreign body; remove the foreign body and closure will occur spontaneously",
+        "B": "I — Inflammation/IBD (Crohn's disease); spontaneous closure is unlikely; medical treatment of Crohn's is required alongside surgical planning",
+        "C": "E — Epithelialisation; de-epithelialise the tract endoscopically to restore potential for closure",
+        "D": "N — Neoplasm; malignancy must be excluded by PET-CT before further management"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The Crohn's granulomas identify 'I' in FRIEND — Inflammation/IBD. Active Crohn's disease in the fistula tract prevents spontaneous closure because ongoing transmural inflammation perpetuates the fistula. Management requires: control of Crohn's activity (biologics — infliximab/adalimumab; immunosuppressants), nutritional optimisation, drainage of sepsis, and definitive surgical repair with resection of the Crohn's-affected segment once disease is controlled.",
+        "wrongA": "Foreign body (F) refers to mesh, suture, or prosthetic material in the fistula tract — not Crohn's granulomas. No foreign body is described here.",
+        "wrongC": "Epithelialisation (E) refers to a mature epithelialised fistula tract (usually after >6 weeks). While Crohn's may contribute, the biopsy finding specifically identifies the I-factor (Inflammation), not epithelialisation.",
+        "wrongD": "Neoplasm (N) refers to malignancy causing the fistula. Crohn's granulomas are not malignant — PET-CT for malignancy is not the priority here.",
+        "guideline": "ESPEN guideline on intestinal failure: Crohn's fistulae require specific IBD management (biologics) before surgical closure. Anti-TNF therapy (infliximab) achieves Crohn's fistula closure in 35–55% of cases.",
+        "pearl": "FRIEND: Foreign body, Radiation, Inflammation/Infection, Epithelialisation, Neoplasm, Distal obstruction. Any ONE factor present = spontaneous closure unlikely. ALL must be evaluated before committing to conservative management."
+      }
+    },
+    {
+      "id": "D7-Q8",
+      "stem": "Which clinical and radiological features FAVOUR spontaneous closure of an enterocutaneous fistula (ECF)?",
+      "options": {
+        "A": "Output >800 mL/day; lateral fistula from mid-ileum; prior radiation to the pelvis; CT showing adjacent collection",
+        "B": "Output <200 mL/day; short tract <2 cm; no FRIEND factors; no distal obstruction; well-nourished patient",
+        "C": "Fistula present for >6 months with epithelialised tract on CT fistulography",
+        "D": "Crohn's disease-related fistula with active perianal disease"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Factors favouring spontaneous ECF closure (SNAP criteria): low output (<200 mL/day), short tract (<2 cm), no FRIEND factors present, no distal obstruction, and a nutritionally replete patient. These patients can be managed conservatively with TPN/enteral nutrition and octreotide with reasonable expectation of spontaneous closure within 4–6 weeks.",
+        "wrongA": "High output (>500 mL/day), lateral mid-ileal position (not favourable), prior pelvic radiation (R in FRIEND), and adjacent collection (ongoing sepsis = I in FRIEND) — all these are unfavourable factors.",
+        "wrongC": "Epithelialised tract after >6 months = E in FRIEND = surgical repair required. This is unfavourable for spontaneous closure.",
+        "wrongD": "Crohn's disease = I in FRIEND = spontaneous closure unlikely without specific IBD management.",
+        "guideline": "ESPEN intestinal failure guideline: spontaneous ECF closure rates — low-output with no FRIEND factors: up to 60–70% within 4–6 weeks. High-output with FRIEND factors: <10%.",
+        "pearl": "The overall spontaneous closure rate for ECF is approximately 30–40%. The presence of ANY FRIEND factor drops this significantly. Identify FRIEND factors early to set realistic expectations and plan definitive surgery."
+      }
+    },
+    {
+      "id": "D7-Q9",
+      "stem": "A patient requires long-term enteral nutrition via PEG but has severe GERD with documented aspiration pneumonia. What is the most appropriate nutritional access route?",
+      "options": {
+        "A": "PEG — aspiration pneumonia from PEG is no more common than from NG feeding",
+        "B": "Percutaneous endoscopic jejunostomy (PEJ) or surgical jejunostomy — delivers feed distal to the pylorus, reducing aspiration risk",
+        "C": "Parenteral nutrition via PICC line — avoid all enteral feeding in aspiration-risk patients",
+        "D": "Continue nasogastric tube long-term — PEG is only for patients without aspiration risk"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — In patients with proven aspiration pneumonia and severe GERD, post-pyloric feeding (PEJ or surgical jejunostomy) delivers nutrients into the jejunum, bypassing the stomach and significantly reducing the risk of aspiration from gastric reflux. PEJ is placed endoscopically either as a direct jejunal puncture or as a jejunal extension through an existing PEG.",
+        "wrongA": "Aspiration risk from gastric feeding (PEG or NGT) is real and clinically significant in patients with severe GERD and documented aspiration. The position of the feeding tube (gastric vs post-pyloric) does affect aspiration risk.",
+        "wrongC": "Parenteral nutrition should not be the default for aspiration-risk patients — if the gut is functional, post-pyloric EN is preferred. PN carries CLABSI risk and is more expensive.",
+        "wrongD": "Nasogastric feeding in an aspiration-risk patient with severe GERD is inappropriate long-term. PEG is contraindicated here, but PEJ or surgical jejunostomy is the correct alternative.",
+        "guideline": "ESPEN guideline on enteral nutrition: post-pyloric feeding is recommended for patients with gastroparesis, high aspiration risk, or failed gastric feeding.",
+        "pearl": "PEG contraindications: GERD with aspiration (use PEJ/jejunostomy), inability to appose stomach to abdominal wall, coagulopathy, oropharyngeal sepsis, head/neck cancer (high implantation metastasis risk — use introducer technique)."
+      }
+    },
+    {
+      "id": "D7-Q10",
+      "stem": "Teduglutide (GLP-2 analogue) is used in short bowel syndrome. What is its mechanism of action?",
+      "options": {
+        "A": "Stimulates pancreatic exocrine secretion to improve fat digestion",
+        "B": "Mimics GLP-2 to promote intestinal mucosal growth, increase villus height, enhance nutrient and water absorption, and slow intestinal transit",
+        "C": "Blocks intestinal motility by antagonising 5-HT4 receptors, slowing transit and increasing contact time",
+        "D": "Replaces bile salts to facilitate fat absorption in the absence of an ileum"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Teduglutide is a recombinant analogue of GLP-2 (glucagon-like peptide 2), the naturally occurring trophic hormone secreted by L-cells in the distal ileum and colon. GLP-2 stimulates intestinal crypt cell proliferation, increases villus height and crypt depth, enhances brush border enzyme activity, slows intestinal transit, and increases intestinal blood flow — collectively improving intestinal absorptive capacity. The STEPS trial showed 63% of teduglutide patients achieved ≥20% reduction in parenteral nutrition requirements vs 30% placebo.",
+        "wrongA": "Teduglutide has no pancreatic exocrine stimulating effect relevant to SBS management.",
+        "wrongC": "5-HT4 receptor antagonism is not the mechanism of teduglutide. Loperamide (mu-opioid agonist) reduces motility in SBS — a different drug and mechanism.",
+        "wrongD": "Bile salt replacement is achieved by cholestyramine (binds bile acids in bile acid malabsorption diarrhoea) or UDCA — not teduglutide.",
+        "trial": "STEPS trial (Jeppesen 2012): teduglutide 0.05 mg/kg/day SC — 63% achieved ≥20% PN volume reduction vs 30% placebo (p=0.007).",
+        "pearl": "GLP-2 = gut trophic hormone. Teduglutide = GLP-2 analogue for SBS. Mechanism: grow more gut mucosa + absorb more. Effect takes weeks to months. Patients must have sufficient remaining bowel to respond."
+      }
+    },
+    {
+      "id": "D7-Q11",
+      "stem": "A patient in the ICU develops worsening abdominal pain and requires escalating vasopressor doses for septic shock. CT scan shows no occlusion of the SMA but diffuse small bowel wall thickening with patchy poor enhancement. What is the most likely diagnosis and initial treatment?",
+      "options": {
+        "A": "SMA embolism — urgent embolectomy",
+        "B": "Non-occlusive mesenteric ischaemia (NOMI) — intraarterial papaverine infusion via SMA catheter and correction of low-flow state",
+        "C": "Mesenteric venous thrombosis — anticoagulation with LMWH",
+        "D": "Clostridioides difficile colitis — oral vancomycin and metronidazole"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Non-occlusive mesenteric ischaemia (NOMI) occurs in ICU patients with low-flow states (cardiogenic or septic shock) and vasopressor therapy causing mesenteric vasoconstriction. CT shows no arterial or venous occlusion but diffuse poor bowel wall enhancement from vasospasm. Treatment: correct the underlying haemodynamic state, and intra-arterial papaverine via SMA catheter (vasodilator) to reverse mesenteric vasospasm.",
+        "wrongA": "SMA embolism shows a filling defect in the SMA on CT. This CT description (patent vessels, diffuse poor enhancement) is inconsistent with embolism.",
+        "wrongC": "MVT shows thrombus in the mesenteric venous system on CT. This patient has patent vasculature — venous thrombosis is excluded by the CT description.",
+        "wrongD": "C. difficile causes colonic inflammation, not small bowel diffuse ischaemia with vasopressor-related haemodynamics in an ICU patient.",
+        "guideline": "ESVS acute mesenteric ischaemia guideline: NOMI = no mechanical occlusion + vasopressor use + low-flow state + diffuse ischaemic pattern. Papaverine 30–60 mg/h via selective SMA catheter is the specific treatment.",
+        "pearl": "NOMI = ICU + vasopressors + shock + patent SMA on CTA = NOMI. Key: no surgical option until clinical peritonism develops. Papaverine via SMA catheter is the specific pharmacological intervention — not used for any other type of mesenteric ischaemia."
+      }
+    },
+    {
+      "id": "D7-Q12",
+      "stem": "Second-look laparotomy is planned 36 hours after emergency small bowel resection for SMA embolism. At the initial operation, two short bowel segments were left in situ due to uncertain viability. The patient is haemodynamically stable. When should the second-look laparotomy be performed and what does it assess?",
+      "options": {
+        "A": "Immediately if the patient deteriorates — not routinely at 36 hours",
+        "B": "24–48 hours post-first laparotomy to reassess bowel viability; allows demarcation of ischaemic vs viable tissue before additional resection or anastomosis",
+        "C": "At 5–7 days when the patient is nutritionally optimised and recovered from anaesthesia",
+        "D": "Only if serum lactate rises post-operatively — no routine second-look is indicated"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The second-look laparotomy should be performed at 24–48 hours after the initial procedure. This timing allows demarcation to become apparent between ischaemic and viable bowel segments (early ischaemia is difficult to differentiate from viable bowel), while being early enough to prevent perforation of necrotic segments. It is planned, not emergency — the decision is made at the first laparotomy and is carried out proactively.",
+        "wrongA": "Second-look laparotomy is a planned procedure at 24–48 hours, not triggered exclusively by deterioration. Waiting for deterioration defeats the purpose of detecting and treating evolving ischaemia before perforation.",
+        "wrongC": "5–7 days is too late — necrotic bowel will have perforated by then, converting a staged procedure into a catastrophe.",
+        "wrongD": "Rising lactate may trigger earlier return to theatre, but the second-look laparotomy is planned routinely regardless of post-operative labs when uncertain viability was left at first operation.",
+        "guideline": "ESVS mesenteric ischaemia guideline: mandatory second-look laparotomy at 24–48 hours when: anastomosis made with uncertain bowel viability; bowel left in situ because of uncertainty; primary anastomosis deferred.",
+        "pearl": "Second-look laparotomy timing: 24–48 hours — the sweet spot between demarcation (needs time to appear) and perforation (occurs if left too long). Always plan it at the end of the first operation as a deliberate step."
+      }
+    },
+    {
+      "id": "D7-Q13",
+      "stem": "The ESPEN definition of intestinal failure Type III characterises which group of patients?",
+      "options": {
+        "A": "Post-operative ileus requiring IV fluids for 5 days",
+        "B": "Post-operative anastomotic leak requiring PN for 6 weeks",
+        "C": "Patients with permanent SBS or intestinal dysmotility requiring long-term home parenteral nutrition with no prospect of GI autonomy",
+        "D": "Patients with Crohn's disease flare requiring PN for 3 weeks during remission induction"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — ESPEN Type III intestinal failure is chronic/permanent — patients who are metabolically stable but require long-term (lifelong) home parenteral nutrition because of permanent short bowel syndrome, chronic intestinal dysmotility, or extensive intestinal disease with no prospect of GI autonomy. These patients are managed in specialised intestinal failure units and may be candidates for intestinal transplantation.",
+        "wrongA": "Post-operative ileus requiring IV fluids is Type I intestinal failure — acute, self-limiting, reversible.",
+        "wrongB": "Prolonged PN requirement of 6 weeks for anastomotic leak is Type II intestinal failure — prolonged acute, requiring hospital-based PN, but expected to resolve.",
+        "wrongD": "Crohn's flare requiring short-term PN is Type I or early Type II — not Type III, which requires permanent home PN with no prospect of enteral autonomy.",
+        "guideline": "ESPEN 2016 intestinal failure definition: Type I = acute self-limiting; Type II = prolonged acute, metabolically stable, PN >28 days, hospital-based; Type III = chronic, home PN, permanent.",
+        "pearl": "Type III IF = home PN = permanent situation. These patients need specialist management: intestinal rehabilitation centre, home PN training, regular monitoring (DEXA, liver function, micronutrients), and assessment for intestinal transplantation candidacy."
+      }
+    },
+    {
+      "id": "D7-Q14",
+      "stem": "A patient with Peutz-Jeghers syndrome (PJS) presents acutely with colicky abdominal pain and vomiting. CT scan confirms small bowel intussusception with a 3 cm lead-point polyp in the mid-jejunum. What is the most appropriate management?",
+      "options": {
+        "A": "Intravenous hydration and observation — PJS intussusception always resolves spontaneously",
+        "B": "Emergency laparotomy with bowel resection including the polyp",
+        "C": "Emergency laparotomy with manual reduction of intussusception and intra-operative enteroscopy to remove the lead-point polyp without bowel resection if possible",
+        "D": "Urgent double-balloon enteroscopy for polypectomy without surgery"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — PJS intussusception requires emergency surgery (manual reduction + intra-operative enteroscopy and polypectomy). The key principle is bowel preservation — resect only if the bowel is ischaemic or the polyp cannot be safely removed endoscopically. Intra-operative enteroscopy allows synchronous examination and clearance of other large polyps (those >1.5 cm) that may cause future intussusception.",
+        "wrongA": "PJS intussusception rarely resolves spontaneously — the lead-point polyp persists and the obstruction is mechanical. Waiting risks bowel ischaemia.",
+        "wrongB": "Routine bowel resection for PJS intussusception is incorrect — the bowel length must be preserved in PJS patients who will require multiple future procedures. Minimal-resection strategy is essential.",
+        "wrongD": "Double-balloon enteroscopy cannot be performed in an acute intussusception — the intussuscepted bowel prevents scope passage and risks perforation. It is the surveillance/elective tool, not the emergency treatment.",
+        "guideline": "British Journal of Surgery consensus on PJS management: emergency surgery for acute intussusception with bowel-preserving intra-operative enteroscopy. Elective double-balloon/capsule enteroscopy for surveillance.",
+        "pearl": "PJS polyps >1.5–2 cm = intussusception risk. Elective polypectomy via double-balloon enteroscopy for polyps in this size range prevents future acute presentations. Timing of surveillance: every 2–3 years starting age 8–10."
+      }
+    },
+    {
+      "id": "D7-Q15",
+      "stem": "A patient with primary small bowel lymphoma is referred for oncological treatment. Which histological subtype is most strongly associated with coeliac disease?",
+      "options": {
+        "A": "Diffuse large B-cell lymphoma (DLBCL) of the small bowel",
+        "B": "Enteropathy-associated T-cell lymphoma (EATL)",
+        "C": "Mantle cell lymphoma with multiple intestinal polyposis",
+        "D": "Mucosa-associated lymphoid tissue (MALT) lymphoma of the ileum"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Enteropathy-associated T-cell lymphoma (EATL) arises from intraepithelial T-lymphocytes and is strongly associated with coeliac disease (specifically refractory coeliac disease Type II — RCD II). It carries a very poor prognosis (5-year survival <10%) and presents with abdominal pain, weight loss, and intestinal perforation/obstruction. HLA-DQ2/DQ8 positive background is almost universal.",
+        "wrongA": "DLBCL is the most common intestinal lymphoma overall but is not specifically associated with coeliac disease.",
+        "wrongC": "Mantle cell lymphoma with multiple lymphomatous polyposis is a systemic lymphoma that can involve the GI tract — it is not specifically coeliac-associated.",
+        "wrongD": "MALT lymphoma of the stomach is strongly associated with H. pylori — intestinal MALT is less common and not specifically coeliac-associated.",
+        "guideline": "BSG coeliac disease guideline: EATL risk is increased in refractory coeliac disease Type II (clonal intraepithelial T-lymphocytes). 5-year surveillance endoscopy after diagnosis; referral to specialist centre for RCD.",
+        "pearl": "Coeliac disease complications: EATL (T-cell lymphoma), adenocarcinoma (small bowel), RCD (refractory coeliac disease). A coeliac patient who deteriorates despite strict gluten-free diet should be investigated for these complications."
+      }
+    },
+    {
+      "id": "D7-Q16",
+      "stem": "Which branches of the SMA supply the small bowel in order from proximal to distal?",
+      "options": {
+        "A": "Inferior pancreaticoduodenal → ileocolic → right colic → middle colic → jejunal and ileal branches",
+        "B": "Inferior pancreaticoduodenal → middle colic → right colic → ileocolic → jejunal and ileal branches",
+        "C": "Jejunal and ileal branches → right colic → middle colic → ileocolic → inferior pancreaticoduodenal",
+        "D": "Middle colic → right colic → inferior pancreaticoduodenal → ileocolic → jejunal/ileal branches"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The SMA branches arise in order: (1) Inferior pancreaticoduodenal artery (to head of pancreas and duodenum — first branch, arising near the SMA origin); (2) Middle colic artery (to transverse colon — left and right branches); (3) Right colic artery (to ascending colon — may be absent in 20–25%); (4) Ileocolic artery (most constant terminal branch — to terminal ileum, appendix, caecum); (5) Jejunal and ileal arteries (12–15 branches forming successive arterial arcades to jejunum and ileum). Note: the middle and right colic arteries are the colonic branches arising from the SMA.",
+        "wrongA": "Incorrect order — ileocolic is the last branch (most distal), not the second.",
+        "wrongC": "This lists branches in reverse order from distal to proximal, which is incorrect.",
+        "wrongD": "Incorrect — middle colic is not the first branch; inferior pancreaticoduodenal arises first near the SMA origin.",
+        "guideline": "Surgical anatomy of the SMA: knowledge of branch order is essential for mesenteric ischaemia localisation (embolus typically lodges past middle colic artery origin, sparing proximal intestine) and for bowel resection planning.",
+        "pearl": "SMA branch order: I Make Really Incredible Jejunal, Ileal dishes — Inferior pancreaticoduodenal, Middle colic, Right colic, Ileocolic, Jejunal/Ileal branches."
+      }
+    },
+    {
+      "id": "D7-Q17",
+      "stem": "Following resection of 80 cm of terminal ileum for Crohn's disease, what is the most important long-term nutritional monitoring required?",
+      "options": {
+        "A": "Monthly serum albumin and pre-albumin levels",
+        "B": "Annual serum vitamin B12 levels and intramuscular B12 supplementation every 3 months",
+        "C": "Weekly full blood count for iron deficiency anaemia",
+        "D": "Annual colonoscopy for adenomatous polyp surveillance (increased risk after ileal resection)"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The terminal ileum is the exclusive site of vitamin B12 (cobalamin) absorption via the intrinsic factor-cubilin receptor mechanism. Resection of 80 cm of terminal ileum eliminates this absorption site, making lifelong B12 supplementation mandatory. Body stores of B12 last 2–4 years — deficiency is insidious. Annual serum B12 monitoring + IM hydroxocobalamin 1 mg every 3 months (or high-dose oral B12 1000 μg daily if intrinsic factor is intact).",
+        "wrongA": "Serum albumin and pre-albumin are markers of nutritional status used in acute malnutrition assessment. Monthly monitoring of these specifically is not the priority after terminal ileal resection — B12 is the critical long-term deficit.",
+        "wrongC": "Iron deficiency occurs with proximal small bowel/duodenal bypass. Terminal ileal resection does not primarily affect iron absorption, which occurs in the proximal jejunum.",
+        "wrongD": "Colonoscopic surveillance for adenomatous polyps is not specifically increased after ileal resection. The cancer risk association with Crohn's ileitis is for small bowel adenocarcinoma, not colonic polyps.",
+        "guideline": "ECCO Crohn's disease guidelines: lifelong B12 supplementation after >60 cm terminal ileal resection. Monitor annually and supplement parenterally.",
+        "pearl": "Terminal ileum resection consequences: B12 deficiency (years later — body stores deplete slowly), bile salt malabsorption (cholerheic diarrhoea → treat with cholestyramine), fat malabsorption (if bile salt pool depleted), gallstones (impaired enterohepatic circulation), and if >100 cm: oxalate kidney stones (colonic hyperabsorption of dietary oxalate due to unabsorbed fatty acids binding calcium — leaving free oxalate)."
+      }
+    },
+    {
+      "id": "D7-Q18",
+      "stem": "The CALORIES trial compared early enteral nutrition (EN) to parenteral nutrition (PN) in ICU patients. What was the primary finding of this landmark RCT?",
+      "options": {
+        "A": "Enteral nutrition significantly reduced 30-day mortality compared to parenteral nutrition",
+        "B": "Parenteral nutrition was superior for infectious complications control",
+        "C": "No significant difference in 30-day mortality between EN and PN; EN had more vomiting; PN had more hypoglycaemia",
+        "D": "Enteral nutrition was superior for all outcomes — confirms the absolute superiority of enteral over parenteral feeding"
+      },
+      "correct": "C",
+      "explanation": {
+        "correct": "C — The CALORIES trial (Harvey, NEJM 2014, n=2,400 ICU patients) found no significant difference in 30-day mortality between EN (33.1%) and PN (34.2%). EN was associated with more vomiting; PN with more hypoglycaemia. No significant difference in infectious complications was observed. This was a practice-changing null trial.",
+        "wrongA": "EN did NOT significantly reduce 30-day mortality compared to PN in CALORIES. The trial was powered to detect such a difference — it found none.",
+        "wrongB": "PN was NOT superior for infectious complications — there was no significant difference between groups for infection rates in CALORIES.",
+        "wrongD": "CALORIES specifically demonstrated that PN is NOT inferior to EN when administered properly. The trial challenged the dogma of EN superiority in the ICU.",
+        "trial": "CALORIES trial (Harvey SE, NEJM 2014;371:1673-84): n=2,400, UK NHS ICU. Primary outcome 30-day mortality: EN 33.1% vs PN 34.2% (OR 0.97, 95%CI 0.76–1.24, p=0.8). No significant difference in secondary outcomes.",
+        "pearl": "CALORIES clinical message: EN and PN are equivalent in critically ill ICU patients when both are properly administered. The practical advantages of EN (gut mucosal protection, lower cost, no CVC required) still justify it as first choice — but PN is a valid and non-inferior alternative when EN is not feasible."
+      }
+    },
+    {
+      "id": "D7-Q19",
+      "stem": "A patient with massive small bowel resection (40 cm of jejunum remaining, no colon) has Type III intestinal failure. He has required home PN for 2 years and now develops recurrent central line sepsis (3 episodes of CLABSI in 12 months) and worsening liver tests (bilirubin 85 μmol/L, ALT 3× ULN). What treatment should be considered?",
+      "options": {
+        "A": "Switch to peripheral PN to reduce CLABSI risk",
+        "B": "Intestinal transplantation assessment — recurrent CLABSI and PN-associated liver disease are primary indications",
+        "C": "Total colectomy to increase intestinal absorptive surface",
+        "D": "Reduce PN volume by 50% and supplement with oral nutrition"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — Recurrent CLABSI (≥3 episodes per year, or single episode of septicaemia with life-threatening organism) and progressive PN-associated liver disease are primary indications for intestinal transplantation referral. Additional indications include: thrombosis of all major central venous access sites, and single-episode CLABSI with systemic sepsis resulting in hospitalisation. This patient meets the criteria for transplantation assessment.",
+        "wrongA": "Peripheral PN cannot provide complete nutrition (osmolarity limit <900 mOsm/L) and does not eliminate CLABSI risk from peripheral venous access. It is not a solution for Type III IF.",
+        "wrongC": "The patient has no colon — colectomy is irrelevant. Even if he had a colon, removal would be counter-productive as the colon is an adaptive organ in SBS.",
+        "wrongD": "With only 40 cm of jejunum and no colon, oral nutrition cannot maintain adequate hydration and nutrition. Reducing PN volume without replacing absorption capacity risks malnutrition and dehydration.",
+        "guideline": "INTESTINAL TRANSPLANT criteria (American Society of Transplant Surgeons): (1) recurrent CLABSI; (2) PN-associated liver disease; (3) thrombosis of 2+ central venous access sites; (4) single life-threatening CLABSI episode; (5) patient preference with impaired QoL on PN.",
+        "pearl": "Intestinal transplant 5-year graft survival ~50%. It is not a cure — it trades PN-related complications for immunosuppression-related complications. Patient selection is critical. Consider STEP procedure first in paediatric patients with dilated bowel."
+      }
+    },
+    {
+      "id": "D7-Q20",
+      "stem": "A 30-year-old woman with 60 cm of remaining jejunum and preserved colon in continuity (after massive resection for mesenteric ischaemia) is referred for management of short bowel syndrome. What critical physiological advantage does the preserved colon provide?",
+      "options": {
+        "A": "The colon provides an alternative site for B12 absorption when the terminal ileum is absent",
+        "B": "The colon absorbs water, sodium, and short-chain fatty acids (from fermented malabsorbed carbohydrates), contributing significantly to fluid balance and caloric intake, and slows intestinal transit",
+        "C": "The colon secretes GLP-2 exclusively, providing intestinal trophic support absent in end-stomy patients",
+        "D": "The colon converts dietary fat to short-chain fatty acids, compensating for absent ileal bile salt absorption"
+      },
+      "correct": "B",
+      "explanation": {
+        "correct": "B — The colon provides multiple critical adaptive benefits in SBS: (1) Water and sodium absorption — the colon can absorb up to 5–6 L/day of fluid, crucial for maintaining hydration when the small bowel absorptive surface is reduced; (2) Short-chain fatty acid (SCFA) salvage — colonic bacteria ferment malabsorbed carbohydrates and proteins into SCFAs (butyrate, propionate, acetate), which are absorbed by colonocytes and provide 500–1000 kcal/day (a significant contribution); (3) Slows transit — colonic braking mechanism increases contact time for remaining small bowel absorption.",
+        "wrongA": "The colon does not absorb vitamin B12 — B12 absorption is exclusive to the terminal ileum via the cubilin/IF receptor. Colon preservation does not compensate for B12 deficiency.",
+        "wrongC": "GLP-2 is secreted by L-cells in both the distal ileum AND colon — colon preservation does contribute more GLP-2, but it is not the 'exclusive' source, and the benefit is shared with end-stomy patients to a lesser degree.",
+        "wrongD": "The colon does not convert dietary fat to SCFAs. Dietary fat is absorbed in the small bowel (requiring bile salts). SCFAs in the colon come from carbohydrate and protein fermentation by colonic bacteria — not from fat.",
+        "guideline": "Clinical threshold for SBS and colon: <150 cm remnant small bowel + end-stomy = likely PN-dependent. <50 cm remnant + colon in continuity = may achieve enteral autonomy with time and adaptation.",
+        "pearl": "The colon = the SBS patient's greatest ally. A patient with 60 cm jejunum + intact colon has a fundamentally better prognosis than one with 100 cm jejunum + end-stomy. Always document and preserve colon continuity in SBS management."
+      }
+    }
+  ]
+}
