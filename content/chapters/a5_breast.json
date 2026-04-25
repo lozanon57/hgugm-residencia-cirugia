@@ -6,7 +6,7 @@
   "block_name": "Surgical Oncology",
   "level": "PGY2-3",
   "reading_time_min": 65,
-  "guidelines_version": "NCCN Breast Cancer v5.2024 · ESMO 2023 · St Gallen Consensus 2023 · SSO/ASTRO 2014",
+  "guidelines_version": "NCCN Breast Cancer v5.2025/v2.2026 · ESMO 2024 · St Gallen Consensus 2023 · SSO/ASTRO 2014",
   "textbook_refs": [
     "Schwartz's Principles of Surgery, 11th ed., Ch. 17",
     "Harris JR et al. Diseases of the Breast, 5th ed.",
@@ -53,8 +53,8 @@
         {
           "type": "callout",
           "variant": "pearl",
-          "title": "Board Pearl — Margin Width",
-          "content": "For invasive breast cancer with BCS, the SSO/ASTRO consensus (2014) defines adequate margin as **no ink on tumour** — a 1mm or 2mm margin is not required. For DCIS, a 2mm margin is recommended. This consensus reduced re-excision rates without increasing local recurrence."
+          "title": "Board Pearl — Margin Width + NCCN 2026: SLNB Omission",
+          "content": "**Margin width:** For invasive breast cancer with BCS, the SSO/ASTRO consensus (2014) defines adequate margin as **no ink on tumour** — a 1mm or 2mm margin is not required. For DCIS, a 2mm margin is recommended. This consensus reduced re-excision rates without increasing local recurrence. **NCCN v2.2026 — SLNB Omission (major update):** Sentinel lymph node biopsy (SLNB) may be omitted for carefully selected patients with **HR+/HER2−, cT1, cN0 by axillary ultrasound** tumours undergoing BCS with planned whole-breast RT and endocrine therapy. Based on SOUND (Lancet Oncology 2023), INSEMA, and BOOG 2013-08 trials showing axillary recurrence rates of only 0.4–0.9% at 5 years. Specific NCCN 2026 criteria: postmenopausal >50 years, HR+/HER2−, grade 1–2, cT1N0, agreeable to whole-breast RT + endocrine therapy. Caution in lobular histology. **This does not apply to patients who received neoadjuvant chemotherapy or to HER2+ or TNBC subtypes.**"
         }
       ]
     },

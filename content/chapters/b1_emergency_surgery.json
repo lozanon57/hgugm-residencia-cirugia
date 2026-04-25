@@ -6,7 +6,7 @@
   "block_name": "General Surgery",
   "level": "PGY1-2",
   "reading_time_min": 90,
-  "guidelines_version": "WSES Jerusalem Guidelines 2022 · EAST Practice Management Guidelines · WSES Diverticulitis Guidelines 2020",
+  "guidelines_version": "WSES Appendicitis Jerusalem Guidelines 2025 (JAMA Surgery) · WSES Diverticulitis Guidelines 2020 · EAST Practice Management Guidelines",
   "textbook_refs": [
     "Schwartz's Principles of Surgery, 11th ed., Ch. 23",
     "Skandalakis' Surgical Anatomy, 3rd ed., Ch. 9",
@@ -45,8 +45,8 @@
         {
           "type": "callout",
           "variant": "pearl",
-          "title": "Board Pearl — Antibiotic-First for Uncomplicated Appendicitis",
-          "content": "The DIAMOND (2021) and APPAC trials (2015) demonstrated that non-operative management with antibiotics alone is safe for uncomplicated acute appendicitis (WSES I) in selected adults. Success rate ~70% at 1 year; recurrence rate ~30% at 5 years; no appendiceal cancer missed if imaging is adequate. Patients must be counselled about 30% risk of recurrence requiring eventual appendicectomy. Offer as alternative to immediate surgery in WSES I without perforation or high clinical concern."
+          "title": "Board Pearl — Antibiotic-First for Uncomplicated Appendicitis (WSES 2025)",
+          "content": "The **WSES Jerusalem Guidelines 2025 edition** (JAMA Surgery, PMID 41604201) formally endorses non-operative management (NOM) with antibiotics as a safe, evidence-based alternative to appendicectomy for uncomplicated appendicitis across all populations (adults, children, elderly, pregnant women, obese patients — with population-specific guidance). The DIAMOND (2021), APPAC (2015), and CODA (2020) trials support this: ~70% success at 1 year, ~30% recurrence requiring eventual appendicectomy. New in 2025 WSES: (1) Appendicectomy can be safely **delayed up to 24 hours** without adverse outcomes. (2) Interval colonoscopy/imaging mandatory after NOM of complicated appendicitis with abscess to exclude underlying neoplasm. (3) Short-course post-operative antibiotics (2–3 days maximum) for complicated appendicitis. Shared decision-making is the cornerstone — document the conversation."
         },
         {
           "type": "callout",
@@ -326,7 +326,7 @@
             "C": "Surgery remains a valid and definitive option — it should not be withheld. The evidence supports both approaches; neither is exclusive.",
             "D": "CT-guided drainage is appropriate for WSES Grade III (periappendiceal abscess). This patient has uncomplicated appendicitis without abscess — drainage is not indicated."
           },
-          "guideline": "WSES Jerusalem Guidelines 2022 — both surgical and non-operative management appropriate for WSES I uncomplicated appendicitis",
+          "guideline": "WSES Jerusalem Guidelines 2025 (JAMA Surgery, PMID 41604201) — both surgical and non-operative management appropriate for WSES I uncomplicated appendicitis across all patient populations; new 2025 edition replaces 2022",
           "trial": "APPAC trial (Salminen, JAMA 2015): antibiotics vs appendicectomy — 73% antibiotic success at 1 year; 27% required appendicectomy.",
           "pearl": "Document the shared decision-making conversation when offering non-operative management. The patient must understand the 30% recurrence risk and commit to follow-up."
         }

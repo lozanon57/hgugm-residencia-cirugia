@@ -6,7 +6,7 @@
   "block_name": "Perioperative & Minimally Invasive",
   "level": "PGY1-2",
   "reading_time_min": 80,
-  "guidelines_version": "ESPEN Clinical Nutrition Guidelines 2021 · NICE CG32 Nutrition Support 2006 (updated 2017) · ASPEN Guidelines 2022",
+  "guidelines_version": "ESPEN Clinical Nutrition in Surgery Practical Guideline 2023 · ASPEN Guidelines 2022 · NICE CG32 Nutrition Support 2017",
   "textbook_refs": [
     "ESPEN Guidelines on Clinical Nutrition in Surgery 2017",
     "ESPEN Guidelines on Clinical Nutrition in the ICU 2019",
@@ -193,8 +193,8 @@
         {
           "type": "callout",
           "variant": "pearl",
-          "title": "Glutamine in ICU — Evidence Reversal",
-          "content": "Glutamine was the archetypal immunonutrient: primary fuel for enterocytes and immune cells; conditionally essential in critical illness (endogenous synthesis insufficient). Early RCTs showed benefit. However: REDOXS trial (NEJM 2013 — Heyland): high-dose enteral + parenteral glutamine (0.35 g/kg/day IV) in critically ill patients with multi-organ failure INCREASED 28-day mortality (32.4% vs 27.2%; p=0.05). METAPLUS trial: similar findings. Mechanism: glutamine drives oxidative stress and citrulline/arginine pathway in severe MODS. CURRENT POSITION (ESPEN/ASPEN 2022): glutamine should NOT be given routinely to critically ill patients with organ failure or haemodynamic instability. Glutamine supplementation may be appropriate in specific conditions (burn patients, patients on PN without organ failure — evidence remains for parenteral glutamine 0.2–0.4 g/kg/day in stable ICU patients on PN)."
+          "title": "Glutamine in ICU — Evidence Reversal (ESPEN 2023 Confirmed)",
+          "content": "Glutamine was the archetypal immunonutrient: primary fuel for enterocytes and immune cells; conditionally essential in critical illness (endogenous synthesis insufficient). Early RCTs showed benefit. However: REDOXS trial (NEJM 2013 — Heyland): high-dose enteral + parenteral glutamine (0.35 g/kg/day IV) in critically ill patients with multi-organ failure INCREASED 28-day mortality (32.4% vs 27.2%; p=0.05). METAPLUS trial: similar findings. **ESPEN 2023 position (confirmed)**: glutamine should NOT be given routinely to critically ill patients with organ failure or haemodynamic instability. Parenteral glutamine 0.2–0.4 g/kg/day may be appropriate in stable ICU patients on PN without organ failure. **ESPEN 2023 key updates for surgical patients:** (1) **Immunonutrition** (arginine + omega-3 + RNA): Grade A for malnourished patients undergoing major GI cancer surgery (5–7 days preoperatively + postoperative); Grade B for well-nourished patients undergoing major upper GI surgery; NOT recommended for well-nourished colorectal surgery patients. (2) **NRS-2002 screening** is mandatory for ALL surgical patients at admission — NRS-2002 ≥3 triggers mandatory nutritional assessment and may justify delaying elective surgery for 7–14 days of nutritional optimisation (Grade A). (3) **IV omega-3 enriched lipid emulsions** (fish oil-based) preferred over pure soybean oil when parenteral nutrition required perioperatively (Grade A — reduced infectious complications)."
         }
       ]
     }

@@ -6,7 +6,7 @@
   "block_name": "Surgical Oncology",
   "level": "PGY2-3",
   "reading_time_min": 80,
-  "guidelines_version": "NCCN v2.2024 · ESMO 2023",
+  "guidelines_version": "NCCN v2.2026 · ESMO Living Guideline 2024",
   "textbook_refs": [
     "Schwartz's Principles of Surgery, 11th ed., Ch. 28",
     "Shackelford's Surgery of the Alimentary Tract, 8th ed.",
@@ -15,7 +15,7 @@
   ],
   "learning_objectives": [
     "Describe the anatomical basis and surgical planes of TME",
-    "Apply NCCN 2024 staging criteria to determine neoadjuvant strategy for rectal cancer",
+    "Apply NCCN 2026 staging criteria to determine neoadjuvant strategy for rectal cancer",
     "Identify the technical steps and critical landmarks of right hemicolectomy, left hemicolectomy, and low anterior resection",
     "Interpret MRI mesorectal staging and CRM threat assessment",
     "Grade and manage anastomotic leak using the International Study Group classification",
@@ -114,8 +114,8 @@
         {
           "type": "callout",
           "variant": "guideline",
-          "title": "NCCN Rectal Cancer v2.2024 — Staging Algorithm",
-          "content": "All rectal cancer patients require: (1) complete colonoscopy; (2) CT chest/abdomen/pelvis with contrast; (3) pelvic MRI (preferred) or endorectal ultrasound; (4) CEA. PET-CT is not routinely indicated but may be considered for equivocal findings on CT or when staging is critical for management (e.g., borderline resectable liver metastases). MSI/MMR status should be tested in all colorectal cancers."
+          "title": "NCCN Rectal Cancer v2.2026 — Staging Algorithm",
+          "content": "All rectal cancer patients require: (1) complete colonoscopy; (2) CT chest/abdomen/pelvis with contrast; (3) pelvic MRI (preferred) or endorectal ultrasound; (4) CEA. PET-CT is not routinely indicated but may be considered for equivocal findings on CT or when staging is critical for management (e.g., borderline resectable liver metastases). **MSI/MMR status must be tested in ALL newly diagnosed colorectal cancers** — mandatory per NCCN 2026 — both for Lynch syndrome screening and to guide neoadjuvant immunotherapy eligibility. Reflexive biomarker panel (RAS/BRAF/HER2/MSI) should be requested at diagnosis anticipating metastatic course."
         },
         {
           "type": "table",
@@ -212,14 +212,15 @@
         },
         {
           "type": "table",
-          "title": "Neoadjuvant Options for Rectal Cancer — NCCN v2.2024",
+          "title": "Neoadjuvant Options for Rectal Cancer — NCCN v2.2026",
           "headers": ["Approach", "Regimen", "Indication", "pCR Rate"],
           "rows": [
             ["Short-course RT (SCRT)", "25 Gy in 5 fractions", "T3 N0, non-threatened CRM, immediate surgery", "5–15%"],
             ["Long-course CRT", "45–50.4 Gy + capecitabine, 6 wks", "cT3 with threatened CRM, cT4, N+", "15–20%"],
-            ["TNT: SCRT + consolidation chemo", "25 Gy → FOLFOX/CAPOX → surgery (RAPIDO)", "High-risk: T4, N2, EMVI+, mrCRM+", "25–30%"],
-            ["TNT: Induction chemo + CRT", "FOLFOX → CRT → surgery (PRODIGE-23)", "cT3-T4 Nx, planned radical surgery", "26–28%"],
-            ["Checkpoint inhibitor (MSI-H)", "Dostarlimab or pembrolizumab neoadjuvant", "MSI-H/dMMR locally advanced rectal", "Up to 100% pCR (NEJM 2022)"]
+            ["TNT: SCRT + consolidation chemo (PREFERRED)", "25 Gy → FOLFOX/CAPOX → surgery (RAPIDO)", "High-risk: T4, N2, EMVI+, mrCRM+", "25–30%"],
+            ["TNT: Induction chemo + CRT (PREFERRED)", "FOLFOX → CRT → surgery (PRODIGE-23)", "cT3-T4 Nx, planned radical surgery", "26–28%"],
+            ["Checkpoint inhibitor — MSI-H (PREFERRED for dMMR)", "Pembrolizumab or dostarlimab monotherapy", "MSI-H/dMMR locally advanced rectal — Category 2A", "Up to 100% cCR; surgery may be avoided"],
+            ["Watch-and-wait after cCR", "Non-operative management", "cCR on MRI + endoscopy after TNT or CKI — Category 2A (NCCN 2026)", "N/A — 25% local regrowth at 2 years; 80–90% salvageable"]
           ]
         },
         {
@@ -285,8 +286,8 @@
         {
           "type": "callout",
           "variant": "guideline",
-          "title": "ESMO Metastatic Colorectal Cancer 2023 — Resectability",
-          "content": "All patients with CRLM should be discussed at an **HPB-experienced MDT**. Resectability must be defined by a surgeon capable of performing the planned resection. The ESMO/EORTC categories: **Resectable** (upfront R0 achievable with adequate FLR); **Potentially resectable** (R0 achievable after downsizing with systemic therapy — typically 4–6 cycles FOLFOX/FOLFIRI ± targeted agent); **Unresectable** (no chance of R0 regardless of systemic therapy response)."
+          "title": "ESMO Metastatic Colorectal Cancer — Living Guideline 2024",
+          "content": "All patients with CRLM should be discussed at an **HPB-experienced MDT**. Resectability must be defined by a surgeon capable of performing the planned resection. The ESMO/EORTC categories: **Resectable** (upfront R0 achievable with adequate FLR); **Potentially resectable** (R0 achievable after downsizing with systemic therapy — typically 4–6 cycles FOLFOX/FOLFIRI ± targeted agent); **Unresectable** (no chance of R0 regardless of systemic therapy response). **2024 update**: For MSI-H/dMMR mCRC, pembrolizumab monotherapy is the Category I first-line standard (KEYNOTE-177); chemotherapy is avoided in MSI-H first-line. For BRAF V600E mutant: encorafenib + cetuximab preferred in second-line. ctDNA-guided anti-EGFR rechallenge is an emerging validated strategy for RAS/RAF wild-type patients. Comprehensive reflexive biomarker panel (RAS/BRAF/MSI/HER2/NTRK) mandatory at metastatic diagnosis."
         },
         {
           "type": "text",

@@ -28,7 +28,7 @@
         },
         {
           "type": "text",
-          "content": "The Child-Pugh score (bilirubin, albumin, PT/INR, ascites, encephalopathy; A/B/C) preceded MELD and remains clinically relevant for operative risk stratification. Child-Pugh C patients (score ≥10) carry perioperative mortality >25%. EASL 2022 guidelines list the following as primary OLT indications: (1) Decompensated cirrhosis — ascites requiring large-volume paracentesis, spontaneous bacterial peritonitis (SBP), variceal haemorrhage refractory to endoscopic/TIPS therapy, hepatic encephalopathy grade III/IV, hepatorenal syndrome; (2) HCC within Milan criteria — single nodule ≤5 cm or up to 3 nodules each ≤3 cm, no macrovascular invasion, no extrahepatic spread; (3) Acute liver failure — King's College Criteria (KCC): paracetamol — pH<7.30 or PT>100s + creatinine>3.4 + encephalopathy grade III/IV; non-paracetamol — PT>100s OR ≥3 of: age<10 or >40, aetiology (Wilson's, indeterminate, halothane), jaundice-to-encephalopathy>7 days, PT>50s, bilirubin>17.5; (4) Cholestatic — PSC (primary sclerosing cholangitis) with recurrent cholangitis, intractable pruritus, or early cholangiocarcinoma in selected centres; PBC with inadequate ursodeoxycholic acid response; (5) Metabolic — Wilson's disease (ALF presentation), alpha-1-antitrypsin deficiency (ZZ phenotype), familial amyloid polyneuropathy (liver is source of TTR — domino donation possible)."
+          "content": "The Child-Pugh score (bilirubin, albumin, PT/INR, ascites, encephalopathy; A/B/C) preceded MELD and remains clinically relevant for operative risk stratification. Child-Pugh C patients (score ≥10) carry perioperative mortality >25%. EASL 2024 guidelines list the following as primary OLT indications: (1) Decompensated cirrhosis — ascites requiring large-volume paracentesis, spontaneous bacterial peritonitis (SBP), variceal haemorrhage refractory to endoscopic/TIPS therapy, hepatic encephalopathy grade III/IV, hepatorenal syndrome; (2) HCC within Milan criteria — single nodule ≤5 cm or up to 3 nodules each ≤3 cm, no macrovascular invasion, no extrahepatic spread; (3) Acute liver failure — King's College Criteria (KCC): paracetamol — pH<7.30 or PT>100s + creatinine>3.4 + encephalopathy grade III/IV; non-paracetamol — PT>100s OR ≥3 of: age<10 or >40, aetiology (Wilson's, indeterminate, halothane), jaundice-to-encephalopathy>7 days, PT>50s, bilirubin>17.5; (4) Cholestatic — PSC (primary sclerosing cholangitis) with recurrent cholangitis, intractable pruritus, or early cholangiocarcinoma in selected centres; PBC with inadequate ursodeoxycholic acid response; (5) Metabolic — Wilson's disease (ALF presentation), alpha-1-antitrypsin deficiency (ZZ phenotype), familial amyloid polyneuropathy (liver is source of TTR — domino donation possible)."
         },
         {
           "type": "table",
@@ -77,8 +77,8 @@
         {
           "type": "callout",
           "variant": "guideline",
-          "title": "Machine Perfusion — EASL 2022 Recommendation",
-          "content": "Normothermic machine perfusion (NMP) and hypothermic oxygenated machine perfusion (HOPE) are endorsed for DCD and marginal donors. NMP allows dynamic viability assessment (bile production, lactate clearance, transaminase trend) over 4–12 hours before transplantation decision, reducing discard rates and improving post-transplant outcomes (COPE trial: HOPE reduced EAD and graft loss in DCD livers)."
+          "title": "Machine Perfusion — EASL 2024 Recommendation (Grade A)",
+          "content": "Normothermic machine perfusion (NMP) and hypothermic oxygenated machine perfusion (HOPE) are endorsed for DCD and marginal donors. NMP allows dynamic viability assessment (bile production, lactate clearance, transaminase trend) over 4–12 hours before transplantation decision, reducing discard rates and improving post-transplant outcomes (COPE trial: HOPE reduced EAD and graft loss in DCD livers). **EASL 2024 update**: Machine perfusion is now Grade A for all DCD livers — centres without this capability should refer DCD cases. NMP also recommended for high-risk DBD grafts (steatosis >30%, prolonged ICU stay, hypernatraemia). This is no longer experimental."
         }
       ]
     },
@@ -191,8 +191,8 @@
         {
           "type": "callout",
           "variant": "guideline",
-          "title": "EASL 2022 — HCC Transplant Selection",
-          "content": "EASL 2022 recommends: (1) Milan criteria as minimum standard; (2) Extended criteria acceptable if validated by centre-specific data showing ≤15% 5-year recurrence; (3) AFP >1000 ng/mL should be factored in even within Milan (risk-stratify); (4) Downstaging to within Milan is acceptable with ≥3-month tumour stability post-LRT confirmed by mRECIST."
+          "title": "EASL 2024 — HCC Transplant Selection",
+          "content": "EASL 2024 recommendations: (1) Milan criteria remain the minimum standard for HCC listing; (2) **AFP-TTV model endorsed** — total tumour volume + AFP score validates listing of tumours up to 8 cm total diameter with AFP <400 ng/mL in selected patients, beyond strict Milan; (3) AFP >1000 ng/mL is a contraindication to listing even within Milan; (4) Downstaging protocols (UNOS DS criteria) accepted with mandatory ≥6-month observation post-downstaging before listing — previously 3 months; (5) MELD-Na exception points for HCC recalibrated to MELD-Na benchmarks (not classic MELD). Key teaching point: a patient with 3 nodules (2+2+3 cm, AFP 300 ng/mL) may be eligible under EASL 2024 AFP-TTV model even if technically outside Milan by lesion count."
         }
       ]
     },
@@ -244,7 +244,7 @@
           "B": "MELD alone (bilirubin, creatinine, INR) is superseded by MELD-Na in the allocation system. MELD-Na is the current standard that accounts for the high waitlist mortality associated with hyponatraemia.",
           "D": "UKELD (UK Model for End-Stage Liver Disease) is used by NHS Blood and Transplant for listing (threshold UKELD ≥49). It is not the standard in the US or most of Europe."
         },
-        "guideline": "EASL 2022 Clinical Practice Guidelines on liver transplantation; UNOS Policy Section 9 (MELD-Na allocation since 2016).",
+        "guideline": "EASL 2024 Clinical Practice Guidelines on liver transplantation; UNOS Policy Section 9 (MELD-Na allocation since 2016).",
         "trial": "Kim WR et al. Hyponatremia and mortality among patients on the liver-transplant waiting list. NEJM 2008;359:1018–1026 — established MELD-Na superiority.",
         "pearl": "MELD-Na = MELD + 1.32 × (137 − Na) − [0.24 × (137 − Na) × MELD]. Maximum Na used in formula is 137; minimum is 125."
       }
@@ -310,7 +310,7 @@
           "C": "ERCP evaluates biliary pathology but cannot diagnose or treat vascular thrombosis. This clinical picture (absent arterial Doppler + acute hepatocellular failure) is vascular emergency, not biliary.",
           "D": "The clinical picture is not rejection — transaminases in rejection typically rise gradually with less severe coagulopathy. Increasing tacrolimus would be inappropriate and dangerous when the problem is HAT."
         },
-        "guideline": "EASL 2022 OLT guidelines. HAT classification: early (<14 days) vs late (>14 days) — different management.",
+        "guideline": "EASL 2024 OLT guidelines. HAT classification: early (<14 days) vs late (>14 days) — different management.",
         "trial": "Stange BJ et al. Hepatic artery thrombosis after adult liver transplantation. Liver Transpl 2003 — overall HAT incidence 3.8%; graft loss without retransplantation near 100% in early HAT without intervention.",
         "pearl": "In the transplanted liver, the biliary tree is supplied solely by the hepatic artery (no peribiliary portal supply after OLT). HAT → biliary ischaemia → NAS — even late HAT causes progressive biliary stricturing requiring re-transplantation."
       }
@@ -332,7 +332,7 @@
           "C": "NMP allows dynamic viability assessment and is particularly useful for marginal/DCD livers when uncertainty about viability exists. However, HOPE has stronger RCT evidence specifically for DCD cholangiopathy reduction (COPE trial). NMP also requires prolonged perfusion time.",
           "D": "Warm ischaemia time is the primary determinant of biliary injury in DCD livers. The peribiliary vascular plexus is exquisitely sensitive to warm ischaemia, unlike hepatocytes. fWIT >30 min substantially increases NAS risk."
         },
-        "guideline": "EASL 2022: Machine perfusion (HOPE or NMP) recommended for DCD livers. COPE trial (van Rijn R, NEJM 2021) established HOPE benefit.",
+        "guideline": "EASL 2024: Machine perfusion (HOPE or NMP) recommended for DCD livers. COPE trial (van Rijn R, NEJM 2021) established HOPE benefit.",
         "trial": "COPE trial (NEJM 2021): 156 DCD livers randomised — HOPE vs static cold storage. HOPE reduced EAD (26% vs 40%), biliary non-anastomotic strictures (6% vs 18%), and graft loss at 1 year.",
         "pearl": "DCD cholangiopathy (ischaemic type NAS) is the Achilles heel of DCD liver transplantation — it affects 15–30% with standard cold storage but <10% with machine perfusion."
       }
@@ -354,7 +354,7 @@
           "C": "PNF occurs within 72 hours of transplantation with absent graft function. Six weeks post-OLT with a cholestatic pattern and patent vasculature is not PNF.",
           "D": "Tacrolimus causes cholestatic liver injury rarely; nephrotoxicity and neurotoxicity are more typical side effects. A cholestatic pattern at 6 weeks demands biliary imaging before attributing to CNI toxicity."
         },
-        "guideline": "EASL 2022 OLT guidelines. Anastomotic stricture most common biliary complication; ERCP is first-line. Note: PSC patients often receive Roux-en-Y biliary reconstruction — ERCP not feasible; PTC is preferred access.",
+        "guideline": "EASL 2024 OLT guidelines. Anastomotic stricture most common biliary complication; ERCP is first-line. Note: PSC patients often receive Roux-en-Y biliary reconstruction — ERCP not feasible; PTC is preferred access.",
         "trial": "Buis CI et al. Biliary complications after OLT: a systematic review. Liver Transpl 2009 — anastomotic strictures account for 40–55% of all biliary complications.",
         "pearl": "PSC patients who received Roux-en-Y hepaticojejunostomy (as is common for PSC to avoid using the diseased recipient duct) cannot be stented by standard ERCP — percutaneous transhepatic cholangiography (PTC) or balloon-enteroscopy-assisted ERCP (DAE-ERCP) is required."
       }
@@ -420,7 +420,7 @@
           "C": "Increasing tacrolimus would worsen nephrotoxicity. CNI nephrotoxicity is dose-dependent — the correct response is dose reduction, not increase.",
           "D": "Sirolimus/everolimus do NOT reverse established CNI nephrotoxicity. Early conversion (before fibrosis) may allow some recovery, but sirolimus itself can worsen proteinuria and renal function in advanced CKD. Sirolimus is not added to tacrolimus — it replaces it as a CNI-sparing strategy."
         },
-        "guideline": "EASL 2022: CNI nephrotoxicity is a major cause of long-term morbidity; dose minimisation and CNI-free protocols (everolimus-based) are recommended for patients with declining GFR.",
+        "guideline": "EASL 2024: CNI nephrotoxicity is a major cause of long-term morbidity; dose minimisation and CNI-free protocols (everolimus-based) are recommended for patients with declining GFR.",
         "trial": "Masetti M et al. Everolimus vs tacrolimus in OLT — H2304 trial (Transplantation 2015): everolimus + reduced tacrolimus superior renal function preservation.",
         "pearl": "CNI-free conversion to everolimus requires baseline GFR >30 mL/min/1.73m² and proteinuria <800 mg/day to minimise risk. Post-conversion proteinuria monitoring is mandatory."
       }
@@ -442,7 +442,7 @@
           "C": "AMR shows C4d deposition on portal endothelium and microvascular injury on biopsy; the RAI histological picture (portal triaditis + endotheliitis + bile duct damage) is characteristic of cellular rejection, not antibody-mediated. DSA testing would be required to evaluate AMR.",
           "D": "Recurrent HCV causes portal inflammation but typically without prominent endotheliitis or eosinophils, and at 4 weeks post-OLT is too early for significant histological recurrence. HCV is also now typically eradicated before OLT with DAAs."
         },
-        "guideline": "Banff 2016 Schema for liver allograft rejection. EASL 2022 OLT guidelines: methylprednisolone pulse for moderate ACR (RAI ≥5); ATG for steroid-resistant ACR.",
+        "guideline": "Banff 2016 Schema for liver allograft rejection. EASL 2024 OLT guidelines: methylprednisolone pulse for moderate ACR (RAI ≥5); ATG for steroid-resistant ACR.",
         "trial": "Demetris AJ et al. Banff schema for grading liver allograft rejection. Hepatology 1997 — RAI scoring: mild 1–2 (portal only), moderate 3–5 (bile duct + endotheliitis), severe ≥6 (pan-lobular involvement).",
         "pearl": "Eosinophils in the portal infiltrate are a hallmark of ACR — their presence distinguishes ACR from recurrent viral hepatitis. RAI 3–4 = mild; 5–6 = moderate; 7–9 = severe. Treat moderate-severe; mild can be managed with CNI optimisation."
       }
@@ -502,13 +502,13 @@
       },
       "correct": "B",
       "explanation": {
-        "correct": "The '6-month abstinence rule' has been widely used but is not evidence-based as a predictor of post-transplant relapse. Multiple studies show no significant difference in relapse rates between patients with <6 vs >6 months abstinence. Contemporary guidelines (AASLD 2021, EASL 2022) recommend individualised psychosocial assessment using validated tools (Stanford Integrated Psychosocial Assessment for Transplant — SIPAT; or SALT score) rather than rigid 6-month cut-offs. Acute-on-chronic liver failure (ACLF) from ALD with high MELD may justify early listing without 6 months.",
+        "correct": "The '6-month abstinence rule' has been widely used but is not evidence-based as a predictor of post-transplant relapse. Multiple studies show no significant difference in relapse rates between patients with <6 vs >6 months abstinence. Contemporary guidelines (AASLD 2021, EASL 2024) recommend individualised psychosocial assessment using validated tools (Stanford Integrated Psychosocial Assessment for Transplant — SIPAT; or SALT score) rather than rigid 6-month cut-offs. Acute-on-chronic liver failure (ACLF) from ALD with high MELD may justify early listing without 6 months.",
         "wrong": {
           "A": "The 6-month rule is NOT mandatory in all guidelines and is NOT evidence-based for relapse prediction. It was historically used as a proxy for patient 'rehabilitation' and liver recovery, not as a validated relapse predictor.",
           "C": "ALD is the second most common indication for OLT in Europe and North America with outcomes equivalent to other aetiologies. Post-transplant alcohol relapse occurs in 20–30% but serious relapse with graft injury is less common. ALD is an established indication for OLT.",
-          "D": "EASL does not specify '3 months abstinence with MELD >20' as a specific recommendation. EASL 2022 recommends psychosocial assessment rather than a fixed abstinence duration."
+          "D": "EASL does not specify '3 months abstinence with MELD >20' as a specific recommendation. EASL 2024 recommends psychosocial assessment rather than a fixed abstinence duration."
         },
-        "guideline": "AASLD Liver Transplant Selection Guidelines 2021; EASL 2022: individualised assessment preferred over 6-month rule for ALD OLT candidacy.",
+        "guideline": "AASLD Liver Transplant Selection Guidelines 2021; EASL 2024: individualised assessment preferred over 6-month rule for ALD OLT candidacy.",
         "trial": "Im GY et al. ACLF from ALD — early transplantation without 6-month abstinence: Am J Gastroenterol 2019 — comparable outcomes to non-ALD OLT patients.",
         "pearl": "European Liver Transplant Registry data show ALD 5-year OS >70% post-OLT, similar to viral hepatitis and NASH — equivalent outcomes justify OLT in ALD regardless of abstinence duration when psychosocial evaluation is favourable."
       }
@@ -552,7 +552,7 @@
           "C": "PBC does not preclude split liver transplantation. Biliary reconstruction (duct-to-duct or Roux-en-Y) is performed according to anatomy at back-table, regardless of the recipient's primary diagnosis.",
           "D": "The standard split is: left lateral segment (II/III) for the paediatric recipient and extended right lobe (IV–VIII +/- caudate) for the adult. This is the correct anatomical split — the left lateral segment is NOT given to the adult recipient."
         },
-        "guideline": "SPLIT Registry. EASL 2022: split liver acceptable for adult recipient if GRWR ≥0.8% and donor optimised (young, standard criteria, short ICU stay).",
+        "guideline": "SPLIT Registry. EASL 2024: split liver acceptable for adult recipient if GRWR ≥0.8% and donor optimised (young, standard criteria, short ICU stay).",
         "trial": "Broering DC et al. Split liver transplantation and risk of graft loss. Liver Transpl 2004 — SFSS in 5–10% of split liver recipients with inadequate graft volume.",
         "pearl": "SFSS features: cholestasis + coagulopathy + ascites + portal hypertension (from portal hyperperfusion of small graft) with elevated bilirubin and modest transaminase elevation. Management: portal flow modulation (splenic artery ligation, splenectomy, or portal vein banding)."
       }

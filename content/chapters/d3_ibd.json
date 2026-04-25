@@ -6,7 +6,7 @@
   "block_name": "Benign Digestive Surgery",
   "level": "PGY2-3",
   "reading_time_min": 50,
-  "guidelines_version": "ECCO Guidelines 2023 · ASCRS IBD Guidelines 2021 · BSG IBD Guidelines 2019",
+  "guidelines_version": "ECCO Surgery in Crohn's Disease 3rd ed. 2023 · ECCO-ESCP UC Surgery Update 2023 · ASCRS IBD Guidelines 2021",
   "sections": [
     {
       "id": "D3-S1",
@@ -98,8 +98,8 @@
         {
           "type": "callout",
           "variant": "warning",
-          "title": "Biologics Pre-operative Considerations",
-          "content": "Anti-TNF biologics (infliximab, adalimumab) increase post-operative infectious complications risk, particularly wound infections and intra-abdominal sepsis. Evidence: infliximab within 12 weeks of surgery associated with higher post-operative complications in some studies (though meta-analyses are conflicting). ECCO 2023 recommends: (1) ideally operate at trough levels (just before next infusion); (2) diverting ileostomy or Hartmann's over primary anastomosis in IBD patients on anti-TNF with poor nutritional status; (3) vedolizumab appears safer peri-operatively (gut-selective mechanism)."
+          "title": "Drug-to-Surgery Intervals — ECCO 2023 Specific Guidance",
+          "content": "**ECCO Crohn's Surgery 3rd ed. 2023** provides specific drug-to-surgery intervals for elective surgery: **(1) Anti-TNF agents (infliximab, adalimumab, certolizumab):** delay elective surgery ≥12 weeks after last infusion when clinically feasible — anti-TNF within 12 weeks is associated with significantly increased infectious complications. **(2) Vedolizumab:** no mandatory delay recommended — lower infectious complication signal due to gut-selective mechanism. **(3) Ustekinumab:** insufficient evidence for firm recommendation. If surgery cannot be delayed: diverting ileostomy over primary anastomosis in patients on anti-TNF with poor nutrition (albumin <30 g/L) or high-dose steroids (>40 mg/day prednisolone). **ASUC algorithm (ECCO-ESCP 2023):** Day 3 assessment is mandatory — if no objective response to IV methylprednisolone → rescue therapy (IFX or cyclosporine); no response by Day 7 → colectomy within 24–48h; second rescue agent after failure of first is explicitly discouraged."
         }
       ]
     },

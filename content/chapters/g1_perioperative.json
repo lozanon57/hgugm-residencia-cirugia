@@ -6,7 +6,7 @@
   "block_name": "Perioperative & Minimally Invasive",
   "level": "PGY1-2",
   "reading_time_min": 90,
-  "guidelines_version": "ERAS Society Guidelines 2023 · NICE NG45 Perioperative Care · ESC/ESA Non-cardiac Surgery Guidelines 2022 · NICE NG89 VTE Prevention",
+  "guidelines_version": "ERAS Society Guidelines 2023–2024 (Colorectal, Liver, Pancreas, Bariatric) · NICE NG45 Perioperative Care · ESC/ESA Non-cardiac Surgery Guidelines 2022 · NICE NG89 VTE Prevention",
   "textbook_refs": [
     "Miller's Anaesthesia, 8th ed., Ch. 34–37",
     "ERAS Society Guidelines for Colonic, Rectal, Liver, Pancreatic Surgery",
@@ -108,8 +108,8 @@
         {
           "type": "callout",
           "variant": "pearl",
-          "title": "ERAS Compliance and Outcomes",
-          "content": "ERAS compliance (% of elements implemented) directly correlates with outcomes — each 10% increase in ERAS compliance reduces major complication rate by ~4% and length of stay by ~1 day (Gustafsson et al., Br J Surg 2019). ERAS programs typically reduce length of stay by 30–50% compared to conventional care. Regular ERAS audits, multidisciplinary team engagement (surgeons, nurses, anaesthetists, dietitians, physiotherapists), and patient education are required for sustained compliance."
+          "title": "ERAS 2023–2024 Key Updates",
+          "content": "**ERAS compliance** directly correlates with outcomes — each 10% increase reduces major complication rate by ~4% and LOS by ~1 day; centres achieving >70% compliance have significantly better outcomes than partial adopters. **2023–2024 specific updates:** (1) **MBP + oral antibiotics (MBP+OAB)** for elective colorectal surgery is now Grade A — replaces the previous 'avoid prep' recommendation. Regimen: PEG-based MBP + neomycin 1g + metronidazole 500mg at 19h, 18h, and 9h before surgery; significantly reduces SSI and anastomotic leak. (2) **Pasireotide** (somatostatin analogue) for high-risk pancreatic anastomosis (soft texture, small duct) is Grade A for POPF reduction — 900 mcg SC twice daily × 7 days from day of surgery; superior to standard octreotide. (3) **Tranexamic acid (TXA)** 1g IV at induction routinely recommended for colorectal surgery (Grade B) to reduce blood loss. (4) **Prehabilitation** (exercise + nutrition + psychological support ≥4 weeks) is Grade B for high-risk patients (ASA III, frail, major resection)."
         }
       ]
     },

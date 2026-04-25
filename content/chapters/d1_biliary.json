@@ -6,7 +6,7 @@
   "block_name": "Benign Digestive Surgery",
   "level": "PGY1-2",
   "reading_time_min": 40,
-  "guidelines_version": "Tokyo Guidelines 2018 · WSES Acute Cholecystitis 2020 · ESGE 2019",
+  "guidelines_version": "Tokyo Guidelines 2018 · WSES Acute Cholecystitis 2020 · SAGES-AHPBA Bile Duct Injury Management 2025 · ESGE 2019",
   "sections": [
     {
       "id": "D1-S1",
@@ -104,8 +104,8 @@
         {
           "type": "callout",
           "variant": "guideline",
-          "title": "SAGES CVS Guidelines 2023",
-          "content": "The Society of American Gastrointestinal and Endoscopic Surgeons mandates: (1) CVS must be achieved and documented in every cholecystectomy. (2) When CVS cannot be safely achieved, the surgeon should use an alternative bail-out strategy: intraoperative cholangiography, conversion to open, or subtotal cholecystectomy. (3) Photo documentation of CVS is recommended as standard of care."
+          "title": "SAGES Multi-Society CVS Guidelines (Current) + SAGES-AHPBA BDI 2025",
+          "content": "**CVS (current multi-society standard):** (1) CVS must be achieved and documented in every cholecystectomy. (2) When CVS cannot be safely achieved: subtotal cholecystectomy is the preferred bail-out (not top-down dissection); alternatively IOC or fluorescent cholangiography when anatomy is uncertain. (3) Photo documentation of CVS recommended as standard of care. **SAGES-AHPBA Bile Duct Injury Management Guideline 2025 (PMID 41266841):** For major bile duct injuries requiring definitive repair — **delayed repair >6 weeks is preferred over early repair <6 weeks** (conditional recommendation based on GRADE evidence synthesis). This is the first joint SAGES-AHPBA evidence-based guideline on BDI management; it formalises what many HPB centres already practiced."
         },
         {
           "type": "table",

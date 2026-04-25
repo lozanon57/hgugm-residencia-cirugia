@@ -6,10 +6,10 @@
   "block_name": "General Surgery",
   "level": "PGY1-2",
   "reading_time_min": 75,
-  "guidelines_version": "EHS Guidelines 2018 · HerniaSurge Group 2018 · IEHS 2019",
+  "guidelines_version": "EHS/HerniaSurge Inguinal Hernia Update 2023 (BJS Open) · EHS Midline Incisional Hernia 2023 (BJS) · EHS Primary Ventral Hernia 2019",
   "textbook_refs": [
     "Schwartz's Principles of Surgery, 11th ed., Ch. 36",
-    "HerniaSurge Group. International guidelines for groin hernia management 2018",
+    "HerniaSurge Group. International guidelines for groin hernia management — Update 2023 (BJS Open)",
     "Skandalakis' Surgical Anatomy, 3rd ed., Ch. 6",
     "Cirugía de la pared abdominal — Manual de la AEC"
   ],
@@ -270,7 +270,7 @@
             "B": "The iliohypogastric nerve runs above the inguinal canal and is at risk in open repair — not typically at risk from tacks in the preperitoneal triangle of pain.",
             "D": "The genital branch of the genitofemoral nerve runs with the spermatic cord through the internal ring — injury causes scrotal or labial numbness, not anterolateral thigh pain."
           },
-          "guideline": "HerniaSurge 2018 — no tacks below the iliopubic tract or lateral to the gonadal vessels (triangle of pain) to prevent nerve injury",
+          "guideline": "HerniaSurge 2023 Update — no tacks below the iliopubic tract or lateral to the gonadal vessels (triangle of pain) to prevent nerve injury; 2023 update adds laparoscopic approach as strongly preferred for bilateral groin hernias and female groin hernias (control of myopectineal orifice and femoral region)",
           "trial": "TIMELI trial (Fumagalli, Hernia 2013): fibrin glue vs tacks in TAPP — significantly less groin pain with fibrin glue; equivalent recurrence at 1 year.",
           "pearl": "Triangle of pain (lateral to gonadal vessels, below iliopubic tract) = danger zone for LFCN and femoral branch of GFN. Triangle of doom (between vas and gonadal vessels) = danger zone for external iliac vessels. Memorise both triangles for TEP/TAPP."
         }
@@ -292,7 +292,7 @@
             "B": "Mesh is not contraindicated after previous mesh repair. The posterior preperitoneal approach uses mesh in a new anatomical plane away from the previous repair.",
             "D": "Open Stoppa preperitoneal repair is an excellent alternative for recurrent hernia but is not mandatory — laparoscopic posterior repair is preferred where expertise exists."
           },
-          "guideline": "HerniaSurge 2018 — recurrence after open anterior repair: laparoscopic posterior (TEP/TAPP) preferred; recurrence after laparoscopic: open anterior (Lichtenstein/Stoppa) preferred",
+          "guideline": "HerniaSurge 2023 Update — recurrence after open anterior repair: laparoscopic posterior (TEP/TAPP) preferred; recurrence after laparoscopic: open anterior (Lichtenstein/Stoppa) preferred. EHS Midline Incisional Hernia Guidelines 2023: small-bites suturing technique with slowly absorbable suture for fascial closure is a strong recommendation to reduce incisional hernia risk; mesh augmentation recommended for repair",
           "trial": "Eklund A, Ann Surg 2010: recurrent hernia repair — laparoscopic after open has lower chronic pain and equivalent recurrence vs repeat open repair.",
           "pearl": "Recurrence management rule: posterior fails → anterior approach; anterior fails → posterior approach. After Lichtenstein failure = TEP/TAPP. After TEP/TAPP failure = Lichtenstein or Stoppa."
         }

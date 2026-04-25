@@ -6,7 +6,7 @@
   "block_name": "Surgical Oncology",
   "level": "PGY3-4",
   "reading_time_min": 72,
-  "guidelines_version": "TARPSWG Retroperitoneal Sarcoma Guidelines 2023 · ESMO Soft Tissue Sarcoma 2021 · ESMO Peritoneal Metastases 2023",
+  "guidelines_version": "TARPSWG Retroperitoneal Sarcoma Guidelines 2023 · ESMO Soft Tissue Sarcoma 2021 (current — no 2024/2025 update published; STRASS2 pending) · ESMO mCRC Peritoneal 2023 · PSOGI HIPEC Consensus 2022",
   "textbook_refs": [
     "Schwartz's Principles of Surgery, 11th ed., Ch. 37",
     "ESMO Clinical Practice Guidelines: Soft Tissue and Visceral Sarcomas 2021",
@@ -276,7 +276,7 @@
             "C": "She has no liver disease — the question states no liver or distant disease. Liver resection is not relevant here.",
             "D": "PIPAC is a palliative option for patients who are not candidates for CRS+HIPEC. This patient is a potential CRS+HIPEC candidate."
           },
-          "guideline": "ESMO Peritoneal Metastases 2023 — CRS+HIPEC recommended for selected colorectal peritoneal metastases; PCI ≤20, PS 0–1, systemic response",
+          "guideline": "ESMO mCRC 2023: CRS+HIPEC should be offered only within clinical trials after PRODIGE 7 showed no OS benefit from oxaliplatin HIPEC. PSOGI Consensus 2022: conditional recommendation IN FAVOUR of CRS+HIPEC for CRC-PM; preferred agent mitomycin C (not oxaliplatin). The ESMO vs PSOGI tension is the key teaching point — ESMO most restrictive ('trials only'); national societies and PSOGI more permissive. Early referral to a peritoneal surface malignancy centre is recommended by all societies for all CRC-PM patients.",
           "trial": "Verwaal RCT (2003, 2008): median OS 22.3 vs 12.6 months for CRS+HIPEC vs chemotherapy alone; 5-year OS 45% vs 0%.",
           "pearl": "Diagnostic laparoscopy before open CRS+HIPEC is not optional — it provides accurate PCI and avoids futile laparotomy in 15–20% of patients who appear resectable on CT."
         }
