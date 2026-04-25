@@ -3,7 +3,7 @@
    Cache-first strategy with network fallback. Offline-capable PWA.
 ───────────────────────────────────────────────────────────────────────────── */
 
-const CACHE_NAME = 'surgres-v8';
+const CACHE_NAME = 'surgres-v9';
 
 const PRECACHE_ASSETS = [
   './',

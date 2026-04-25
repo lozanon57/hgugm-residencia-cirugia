@@ -14,7 +14,7 @@ const CURRICULUM = [
       { id: 'A2', title: 'Colorectal Cancer', level: 'PGY2-3', readingTime: 45 },
       { id: 'A3', title: 'Gastric Cancer', level: 'PGY2-3', readingTime: 38 },
       { id: 'A4', title: 'Hepatopancreatic-Biliary Surgery', level: 'PGY3-4', readingTime: 50 },
-      { id: 'A5', title: 'Breast Surgery & Oncology', level: 'PGY2-3', readingTime: 35 },
+      { id: 'A5', title: 'Breast Surgery & Melanoma', level: 'PGY2-3', readingTime: 95 },
       { id: 'A6', title: 'Sarcoma & Peritoneal Oncology', level: 'PGY3-4', readingTime: 42 },
       { id: 'A7', title: 'Endocrine Surgery & NETs', level: 'PGY2-4', readingTime: 110 },
     ]
