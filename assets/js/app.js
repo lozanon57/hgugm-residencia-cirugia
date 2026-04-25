@@ -130,6 +130,7 @@ const Router = {
     document.querySelectorAll('[data-route]').forEach(el => {
       el.classList.toggle('active', el.dataset.route === navRoute);
     });
+    requestAnimationFrame(() => TabIndicator.update());
   }
 };
 
@@ -342,15 +343,35 @@ function renderCurriculumView() {
 
 /* ── CHAPTER VIEW ───────────────────────────────────────────── */
 async function renderChapterView(chapterId, sectionTarget) {
-  mountView(`<div class="flex-center" style="min-height:60vh;"><div class="spinner"></div></div>`);
+  mountView(`
+    <div class="reader-layout">
+      <aside class="reader-toc" aria-hidden="true">
+        <div class="toc-title"><span class="skeleton skeleton-badge"></span></div>
+        <div style="padding:8px 20px; display:flex; flex-direction:column; gap:10px;">
+          ${Array(6).fill('<span class="skeleton skeleton-text"></span>').join('')}
+        </div>
+      </aside>
+      <div class="reader-main">
+        <div class="reading-container">
+          <div class="skeleton-chapter-header">
+            <span class="skeleton skeleton-badge" style="width:100px; margin-bottom:12px;"></span>
+            <span class="skeleton skeleton-title"></span>
+            <span class="skeleton skeleton-text w-3/4"></span>
+            <span class="skeleton skeleton-text w-1/2" style="margin-top:8px;"></span>
+          </div>
+          ${Array(4).fill('<span class="skeleton skeleton-card"></span>').join('')}
+        </div>
+      </div>
+    </div>
+  `);
 
   try {
     const CHAPTER_FILES = {
       // Block A — Surgical Oncology
       A1: 'a1_oncology_principles', A2: 'a2_colorectal', A3: 'a3_gastric',
-      A4: 'a4_hpb', A5: 'a5_breast', A6: 'a6_sarcoma_peritoneal',
+      A4: 'a4_hpb', A5: 'a5_breast', A6: 'a6_sarcoma_peritoneal', A7: 'a7_endocrine',
       // Block B — General Surgery
-      B1: 'b1_emergency_surgery', B2: 'b2_hernia', B3: 'b3_bariatric', B4: 'b4_endocrine',
+      B1: 'b1_emergency_surgery', B2: 'b2_hernia', B3: 'b3_bariatric',
       // Block D — Benign Digestive Surgery
       D1: 'd1_biliary', D2: 'd2_diverticulitis', D3: 'd3_ibd',
       D4: 'd4_proctology', D5: 'd5_pelvic_floor', D6: 'd6_oesophageal_benign', D7: 'd7_small_bowel',
@@ -607,24 +628,78 @@ function renderFooter() {
 const ThemeManager = {
   init() {
     const saved = localStorage.getItem('surgres_theme');
-    if (saved) document.documentElement.setAttribute('data-theme', saved);
+    if (saved === 'dark') {
+      document.documentElement.classList.add('dark');
+      document.documentElement.classList.remove('light');
+    } else if (saved === 'light') {
+      document.documentElement.classList.add('light');
+      document.documentElement.classList.remove('dark');
+    }
     document.getElementById('themeToggle').addEventListener('click', () => this.toggle());
     this.updateIcon();
   },
 
   toggle() {
-    const current = document.documentElement.getAttribute('data-theme');
-    const next = current === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('surgres_theme', next);
+    const isDark = document.documentElement.classList.contains('dark');
+    if (isDark) {
+      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.add('light');
+      localStorage.setItem('surgres_theme', 'light');
+    } else {
+      document.documentElement.classList.add('dark');
+      document.documentElement.classList.remove('light');
+      localStorage.setItem('surgres_theme', 'dark');
+    }
     this.updateIcon();
   },
 
+  isDark() {
+    return document.documentElement.classList.contains('dark') ||
+      (!document.documentElement.classList.contains('light') &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches);
+  },
+
   updateIcon() {
-    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    document.getElementById('themeToggle').textContent = isDark ? '☀️' : '🌙';
+    document.getElementById('themeToggle').textContent = this.isDark() ? '☀️' : '🌙';
   }
 };
+
+/* ── Bottom Tab Pill Indicator ──────────────────────────────── */
+const TabIndicator = {
+  indicator: null,
+
+  init() {
+    this.indicator = document.getElementById('tabIndicator');
+    this.update();
+    window.addEventListener('hashchange', () => this.update());
+  },
+
+  update() {
+    if (!this.indicator) return;
+    const active = document.querySelector('.bottom-tabs a.active');
+    if (!active) return;
+    const tabs = document.querySelector('.bottom-tabs');
+    const tabRect = tabs.getBoundingClientRect();
+    const activeRect = active.getBoundingClientRect();
+    this.indicator.style.left = (activeRect.left - tabRect.left) + 'px';
+    this.indicator.style.width = activeRect.width + 'px';
+  }
+};
+
+/* ── Scroll Reveal ──────────────────────────────────────────── */
+function initScrollReveal() {
+  const els = document.querySelectorAll('.reveal');
+  if (!els.length) return;
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('revealed');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  els.forEach(el => obs.observe(el));
+}
 
 /* ── Service Worker Registration ────────────────────────────── */
 function registerServiceWorker() {
@@ -636,6 +711,7 @@ function registerServiceWorker() {
 /* ── Init ───────────────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
   ThemeManager.init();
+  TabIndicator.init();
   Knowledge.loadPearls();
   SearchEngine.buildIndex(CURRICULUM);
   Router.init();

@@ -212,15 +212,15 @@ const Reader = {
 
     const variant = block.variant || 'pearl';
     const meta = iconMap[variant] || iconMap.pearl;
-    const title = block.title || meta.label;
+    const label = block.title || meta.label;
 
     return `
       <div class="callout callout-${variant}">
-        <div class="callout-header">
-          <span class="callout-icon">${meta.icon}</span>
-          <span>${title}</span>
+        <div class="callout-icon-wrap" aria-hidden="true">${meta.icon}</div>
+        <div class="callout-body">
+          <div class="callout-label">${label}</div>
+          <div class="callout-content">${this.parseInline(block.content || '')}</div>
         </div>
-        <div class="callout-content">${this.parseInline(block.content || '')}</div>
       </div>
     `;
   },
@@ -328,39 +328,48 @@ const Reader = {
     const totalReal = (chapter.sections || []).length;
     const fab = document.getElementById('tocFab');
 
+    /* Reading progress bar — scroll-based */
     const onScroll = () => {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
       const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
       if (fill) fill.style.width = `${Math.min(pct, 100)}%`;
-
-      let currentIdx = null;
-      sections.forEach(sec => {
-        const rect = sec.getBoundingClientRect();
-        if (rect.top <= 120) currentIdx = sec.dataset.sectionIdx;
-      });
-
-      tocLinks.forEach(link => {
-        link.classList.toggle('active', link.dataset.tocIdx === String(currentIdx));
-      });
-
-      if (counter) {
-        if (currentIdx === 'quiz') {
-          counter.textContent = 'Consolidation';
-          counter.style.display = 'inline-block';
-        } else if (currentIdx !== null) {
-          counter.textContent = `${parseInt(currentIdx) + 1} / ${totalReal}`;
-          counter.style.display = 'inline-block';
-        } else {
-          counter.style.display = 'none';
-        }
-      }
-
       if (fab) fab.style.display = scrollTop > 200 ? 'flex' : 'none';
     };
-
     window.addEventListener('scroll', onScroll, { passive: true });
     this._scrollHandler = onScroll;
+
+    /* TOC active section — IntersectionObserver (threshold 0.4) */
+    let currentIdx = null;
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          currentIdx = entry.target.dataset.sectionIdx;
+
+          tocLinks.forEach(link => {
+            link.classList.toggle('active', link.dataset.tocIdx === String(currentIdx));
+          });
+
+          if (counter) {
+            if (currentIdx === 'quiz') {
+              counter.textContent = 'Consolidation';
+              counter.style.display = 'inline-block';
+            } else if (currentIdx !== null) {
+              counter.textContent = `${parseInt(currentIdx) + 1} / ${totalReal}`;
+              counter.style.display = 'inline-block';
+            } else {
+              counter.style.display = 'none';
+            }
+          }
+        }
+      });
+    }, {
+      rootMargin: '-60px 0px -40% 0px',
+      threshold: 0
+    });
+
+    sections.forEach(sec => obs.observe(sec));
+    this._sectionObserver = obs;
   },
 
   /* ── Mark Section Read ───────────────────────────────────── */
