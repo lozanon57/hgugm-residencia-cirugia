@@ -542,7 +542,7 @@ function renderAboutView() {
           <h2 style="font-size:1.1rem; color:var(--navy); margin-bottom:12px;">About This Course</h2>
           <div class="reading-text">
             <p>This platform is the digital equivalent of having Schwartz, Skandalakis, Chassin, and Shackelford open simultaneously — structured for modern surgical residents at HGUGM.</p>
-            <p>Content is written at postgraduate medical level, referencing specific guideline versions (NCCN 2024, ESMO 2023, JGCA 5th ed.) and landmark trials by name and year.</p>
+            <p>Content is written at postgraduate medical level, referencing specific guideline versions (NCCN 2025–2026, ESMO 2024, WSES 2025, EASL 2024, EHS 2023) and landmark trials by name and year.</p>
             <p>The learning architecture respects the fundamental order of surgical education: <strong>Theory → Synthesis → Application → Consolidation</strong>. You come here to study, not to be tested. Questions exist only to reinforce reading.</p>
           </div>
         </div>
@@ -564,7 +564,7 @@ function renderAboutView() {
           <h2 style="font-size:1.1rem; color:var(--navy); margin-bottom:12px;">Technical Notes</h2>
           <div class="reading-text" style="font-size:0.9rem;">
             <p>This platform runs 100% from GitHub Pages — no server, no login, no cost. It works offline after first load (PWA). All progress is stored locally in your browser.</p>
-            <p>Guidelines: NCCN 2024 · ESMO 2023 · JGCA 5th Edition · AJCC 8th Edition</p>
+            <p>Guidelines: NCCN 2025–2026 · ESMO 2024 · WSES 2025 · EASL 2024 · EHS 2023 · JGCA 5th Edition · AJCC 8th Edition</p>
           </div>
         </div>
       </div>
@@ -576,7 +576,7 @@ function renderAboutView() {
             <div>📧 lozanon57@hotmail.com</div>
             <div>🔬 ORCID: 0000-0002-5413-8449</div>
             <div>🏥 Hospital General Universitario Gregorio Marañón, Madrid</div>
-            <div style="margin-top:12px; font-size:0.82rem;">For educational use within HGUGM Surgical Residency Programme. Content updated to NCCN 2024 · ESMO 2023.</div>
+            <div style="margin-top:12px; font-size:0.82rem;">For educational use within HGUGM Surgical Residency Programme. Content updated to NCCN 2025–2026 · ESMO 2024 · WSES 2025 · EASL 2024.</div>
             <div style="margin-top:8px; font-size:0.82rem;">License: CC BY-NC 4.0</div>
           </div>
         </div>
@@ -595,7 +595,7 @@ function renderFooter() {
       <div class="footer-links">
         <span>lozanon57@hotmail.com</span>
         <span>ORCID: 0000-0002-5413-8449</span>
-        <span>NCCN 2024 · ESMO 2023 · JGCA 5th ed.</span>
+        <span>NCCN 2025–2026 · ESMO 2024 · WSES 2025 · EASL 2024</span>
         <span>For educational use within HGUGM Surgical Residency Programme</span>
         <span>CC BY-NC 4.0</span>
       </div>
