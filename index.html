@@ -21,12 +21,25 @@
   <!-- ── Top Navigation ───────────────────────────────────── -->
   <nav class="top-nav">
     <a href="#/" class="nav-brand">
-      <svg class="nav-logo" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <rect width="32" height="32" rx="8" fill="white" fill-opacity="0.15"/>
-        <path d="M8 16 C8 11.6 11.6 8 16 8 C20.4 8 24 11.6 24 16" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-        <path d="M8 16 C8 20.4 11.6 24 16 24 C20.4 24 24 20.4 24 16" stroke="#C8933A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-        <line x1="16" y1="10" x2="16" y2="22" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
-        <line x1="12" y1="16" x2="20" y2="16" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+      <svg class="nav-logo" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <!-- Background -->
+        <rect width="32" height="32" rx="7" fill="white" fill-opacity="0.15"/>
+        <!-- Surgeon head -->
+        <circle cx="11" cy="9" r="3.5" fill="white" opacity="0.92"/>
+        <!-- Surgeon cap -->
+        <rect x="7.5" y="5.5" width="7" height="2.5" rx="1.2" fill="#C8933A"/>
+        <!-- Surgeon gown body -->
+        <path d="M6 22 Q6 15 11 13.5 Q16 15 16 22 Z" fill="white" opacity="0.82"/>
+        <!-- Gown collar -->
+        <path d="M9 13.5 L11 16 L13 13.5" fill="none" stroke="#1B3A6B" stroke-width="0.8" stroke-linejoin="round"/>
+        <!-- Arm holding scalpel -->
+        <path d="M14 17 L19 14" stroke="white" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+        <!-- Scalpel handle (gold) -->
+        <rect x="18" y="9.5" width="8" height="2.5" rx="1.2" fill="#C8933A" transform="rotate(-35 18 9.5)"/>
+        <!-- Scalpel blade (white) -->
+        <path d="M23 6 L27 3.5 L27.8 5.5 L24.5 9 Z" fill="white" opacity="0.95"/>
+        <!-- Blade edge -->
+        <line x1="27" y1="3.5" x2="24.5" y2="9" stroke="#C8933A" stroke-width="0.6" stroke-linecap="round"/>
       </svg>
       <span>Surgical Residency</span>
     </a>
