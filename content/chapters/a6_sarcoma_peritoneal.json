@@ -5,8 +5,8 @@
   "block": "A",
   "block_name": "Surgical Oncology",
   "level": "PGY3-4",
-  "reading_time_min": 72,
-  "guidelines_version": "TARPSWG Retroperitoneal Sarcoma Guidelines 2023 · ESMO Soft Tissue Sarcoma 2021 (current — no 2024/2025 update published; STRASS2 pending) · ESMO mCRC Peritoneal 2023 · PSOGI HIPEC Consensus 2022",
+  "reading_time_min": 90,
+  "guidelines_version": "TARPSWG Retroperitoneal Sarcoma Guidelines 2023 · ESMO Soft Tissue Sarcoma 2021 · STRASS (Lancet Oncol 2020) · PRODIGE 7 (Lancet Oncol 2021) · OVHIPEC-1 (NEJM 2018) · ESMO Peritoneal Metastases 2023 · PSOGI HIPEC Consensus 2022",
   "textbook_refs": [
     "Schwartz's Principles of Surgery, 11th ed., Ch. 37",
     "ESMO Clinical Practice Guidelines: Soft Tissue and Visceral Sarcomas 2021",
@@ -81,6 +81,44 @@
           "variant": "pearl",
           "title": "Board Pearl — HIPEC Patient Selection",
           "content": "Optimal candidates for CRS+HIPEC: (1) Colorectal peritoneal metastases (no extra-abdominal disease); (2) PCI ≤15–20; (3) ECOG PS 0–1; (4) No hepatic parenchymal metastases (or limited, resectable); (5) Adequate cardiorespiratory reserve for 6–10h surgery; (6) Response or stability on systemic chemotherapy (excludes rapidly progressive disease). Synchronous peritoneal + liver metastases: case-by-case — combined CRS+HIPEC + hepatectomy carries high morbidity."
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "PRODIGE 7 — The Oxaliplatin HIPEC Controversy (Quenet, Lancet Oncol 2021)",
+          "content": "**Design:** 265 patients with colorectal peritoneal metastases, randomised to CRS + oxaliplatin HIPEC (460 mg/m², 30 min, 43°C) vs CRS alone. All patients received perioperative systemic chemotherapy (FOLFOX/FOLFIRI ± bevacizumab). **Result:** No significant difference in OS (41.2 vs 41.7 months; HR 1.00). No DFS benefit. Higher grade 3–4 morbidity with HIPEC (24.1% vs 13.6%). **Key criticisms:** (1) Short HIPEC duration — 30 min may be insufficient for adequate oxaliplatin exposure (Verwaal used mitomycin C with longer contact time); (2) High rate of systemic chemotherapy use equalises arms; (3) Very selected patient population (high-quality surgical centres). **Practice implication:** PRODIGE 7 challenged oxaliplatin-based HIPEC but did NOT invalidate mitomycin C-based HIPEC (Verwaal RCT). ESMO now recommends CRS+HIPEC 'only within clinical trials' for CRC peritoneal metastases; PSOGI and most expert centres continue CRS+HIPEC (mitomycin C preferred) for selected patients. The field remains active — CAIRO6 (mitomycin C HIPEC) results are awaited."
+        },
+        {
+          "type": "text",
+          "content": "**Gastric Cancer Peritoneal Metastases and CRS+HIPEC.** Peritoneal dissemination is the most common pattern of metastatic gastric cancer (30–40% of stage IV cases) and carries a median OS of 3–6 months with systemic chemotherapy alone. CRS+HIPEC for gastric peritoneal metastases remains **investigational** — it is not the standard of care and should be offered exclusively within clinical trials. Patient selection is stringent: PCI ≤6 is the generally accepted threshold; signet ring cell (diffuse-type) histology is a relative contraindication (median OS <18 months even after CC-0 resection); response to perioperative chemotherapy (FLOT or FOLFOX) is mandatory to exclude biologically aggressive disease before surgery. HIPEC regimen for gastric cancer uses cisplatin (75–100 mg/m²) with or without mitomycin C at 42°C for 60–90 minutes. The GASTRICHIP trial (France) failed to complete enrolment. PERISCOPE-II (Netherlands, NCT02810784) is the key ongoing RCT evaluating CRS+HIPEC in stage IV gastric cancer with peritoneal metastases after systemic chemotherapy."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "Common Pitfall — Gastric CRS+HIPEC Outside Trials",
+          "content": "Offering CRS+HIPEC to a gastric cancer patient with peritoneal metastases outside a structured clinical trial is not appropriate. The procedure carries 10–15% grade 3–4 morbidity and 1–3% mortality, and survival benefit has not been demonstrated in an RCT for this indication. Signet ring cell histology (diffuse-type gastric cancer), PCI >6, and progression on systemic chemotherapy are red flags that should prompt discussion at a multidisciplinary peritoneal oncology team meeting before considering any surgical intervention beyond palliative intent."
+        },
+        {
+          "type": "text",
+          "content": "**Ovarian Cancer Peritoneal Metastases and CRS+HIPEC.** Unlike gastric and colorectal peritoneal metastases, CRS+HIPEC for ovarian cancer has prospective RCT evidence from the OVHIPEC-1 trial and a substantial evidence base supporting its use both at initial surgery and at first platinum-sensitive relapse. Ovarian cancer is, by nature, a disease of the peritoneal cavity — primary debulking surgery (PDS) or interval debulking surgery (IDS) after neoadjuvant platinum-taxane chemotherapy is the established surgical approach, with CC-0 (R0) cytoreduction as the primary surgical goal. The integration of HIPEC into ovarian cancer surgery has been evaluated at both the primary (OVHIPEC-2, ongoing) and relapsed (OVHIPEC-1, 2018) settings."
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "OVHIPEC-1 — Cisplatin HIPEC at Interval Debulking Surgery for Ovarian Cancer (van Driel, NEJM 2018)",
+          "content": "**Design:** 245 patients with stage III epithelial ovarian cancer after neoadjuvant platinum-taxane chemotherapy (3 cycles), randomised to IDS + cisplatin HIPEC (100 mg/m², 90 min, 40°C) vs IDS alone. **Results:** Recurrence-free survival 14.2 vs 10.7 months (HR 0.66; p<0.001). Overall survival 45.7 vs 33.9 months (HR 0.67; p=0.02). Adverse events grade 3–4 not significantly different between arms. **Interpretation:** OVHIPEC-1 established cisplatin HIPEC at IDS as a valid treatment strategy for stage III epithelial ovarian cancer, providing an OS benefit of nearly 12 months with acceptable toxicity. **Caveats:** (1) All patients had CC-0 or CC-1 cytoreduction; (2) Investigators were specifically trained; (3) Benefit may differ by histological subtype (high-grade serous benefited most). **OVHIPEC-2** (ongoing, NCT02681432) evaluates HIPEC at primary debulking surgery (no neoadjuvant chemotherapy). The trial supports routine use of cisplatin HIPEC at IDS for stage III ovarian cancer achieving CC-0/CC-1 cytoreduction."
+        },
+        {
+          "type": "table",
+          "title": "CRS+HIPEC Indications by Tumour Type — Evidence Level and Preferred Regimen",
+          "headers": ["Tumour Type", "Evidence Level", "HIPEC Regimen", "PCI Threshold", "Notes"],
+          "rows": [
+            ["CRC peritoneal metastases", "RCT (Verwaal 2003; PRODIGE 7 controversial)", "Mitomycin C 30 mg/m² or oxaliplatin 460 mg/m²", "≤20", "Mitomycin C preferred after PRODIGE 7; ESMO recommends 'trials only'"],
+            ["Pseudomyxoma peritonei (LGMCP)", "Prospective registries (Moran 2019)", "Mitomycin C 30 mg/m² ± cisplatin", "No absolute PCI limit", "High PCI no contraindication in LGMCP; CRS is primary determinant"],
+            ["Peritoneal mesothelioma (epithelioid)", "Prospective registries; no RCT", "Cisplatin 200 mg/m² + doxorubicin 15 mg/m²", "≤20 (selected <30)", "Sarcomatoid histology: contraindication"],
+            ["Ovarian cancer (stage III)", "OVHIPEC-1 RCT (van Driel 2018)", "Cisplatin 100 mg/m², 90 min, 40°C", "CC-0/CC-1 required", "At IDS after 3 cycles NACT; OS benefit 12 months"],
+            ["Gastric cancer peritoneal metastases", "Investigational — no RCT", "Cisplatin 75–100 mg/m² ± mitomycin C", "≤6 (very selective)", "Offer within clinical trials only; SRC histology: relative CI"]
+          ]
         }
       ]
     },
@@ -193,7 +231,7 @@
           "headers": ["Histotype", "Chemosensitivity", "First-Line Agents", "Adjuvant Role", "Notes"],
           "rows": [
             ["WDLPS", "Very poor", "Not typically chemotherapy (low-grade)", "No established role", "CDK4/MDM2 amplified; palbociclib investigational; surgery remains primary treatment"],
-            ["DDLPS", "Partial", "Doxorubicin ± ifosfamide; trabectedin (2nd line)", "No clear benefit — STRASS trial negative", "Trabectedin targets FUS/DDIT3 — activity in DDLPS; Eribulin shows OS benefit in liposarcoma"],
+            ["DDLPS", "Partial", "Doxorubicin ± ifosfamide; trabectedin (2nd line)", "No established adjuvant chemotherapy benefit (STRASS was a radiotherapy trial — see STRASS callout below)", "Trabectedin targets FUS/DDIT3 — activity in DDLPS; Eribulin shows OS benefit in liposarcoma"],
             ["LMS", "Moderate", "Doxorubicin + dacarbazine; gemcitabine/docetaxel", "No clear role for adjuvant", "Gemcitabine/docetaxel active in uterine LMS; retroperitoneal LMS: doxorubicin-based first-line"],
             ["Synovial sarcoma", "High (SYT-SSX)", "Ifosfamide-based regimens", "Ifosfamide-based adjuvant considered", "Highest sensitivity to ifosfamide; trabectedin 2nd line"],
             ["SFT (solitary fibrous tumour)", "Limited", "Bevacizumab + temozolomide (Stacchiotti regimen)", "No standard", "VEGF pathway; risk stratification by Demicco criteria"],
@@ -211,6 +249,12 @@
           "variant": "warning",
           "title": "Common Pitfall — One Size Does Not Fit All",
           "content": "Standard empirical doxorubicin + ifosfamide is appropriate for some RPS histotypes (synovial sarcoma, some DDLPS, LMS) but is largely ineffective and potentially harmful in WDLPS (very low-grade, not chemo-sensitive) and SFT. Administering doxorubicin-based chemotherapy to a WDLPS patient exposes them to cardiotoxicity without benefit. Always confirm histotype before initiating systemic therapy. Molecular profiling (MDM2 amplification for WDLPS/DDLPS; SYT-SSX for synovial sarcoma; STAT6 for SFT) is essential."
+        },
+        {
+          "type": "callout",
+          "variant": "trial",
+          "title": "STRASS Trial — The Only RCT in Retroperitoneal Sarcoma (Bonvalot, Lancet Oncol 2020)",
+          "content": "**STRASS (EORTC 62092)** is the only randomised controlled trial ever conducted in retroperitoneal sarcoma, and it evaluated **preoperative radiotherapy**, NOT chemotherapy. **Design:** 266 patients with primary RPS randomised to preoperative RT (50.4 Gy in 28 fractions) + surgery vs surgery alone. **Primary endpoint:** Abdominal recurrence-free survival (ARFS). **Result:** No difference in ARFS overall (HR 0.95, 95%CI 0.68–1.33; p=0.76). **Pre-specified subgroup analysis:** Significant benefit in WDLPS/DDLPS (HR 0.67; 3yr ARFS 60.4% vs 46.4%), but no benefit in LMS (local recurrence not the dominant failure pattern). **Interpretation:** Preoperative RT is not standard for all RPS; it may be considered in WDLPS/DDLPS at high risk of local recurrence (en-bloc resection not feasible, retroperitoneal location adjacent to structures at risk). **STRASS2** (ongoing) evaluates preoperative chemotherapy (doxorubicin + ifosfamide) in high-grade RPS."
         }
       ]
     },
