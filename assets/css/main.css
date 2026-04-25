@@ -1447,10 +1447,235 @@ code {
   animation: spin 0.7s linear infinite;
 }
 
+/* ── Chapter Breadcrumb / Section Counter ───────────────────── */
+.chapter-breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 12px;
+}
+
+.chapter-section-counter {
+  display: none;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--teal);
+  background: var(--teal-light);
+  padding: 4px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+/* ── Mobile TOC FAB ─────────────────────────────────────────── */
+.toc-fab {
+  display: none;
+  position: fixed;
+  bottom: calc(var(--tab-height) + 16px);
+  right: 16px;
+  z-index: 200;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: white;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  transition: background 0.15s, transform 0.2s;
+}
+
+.toc-fab:hover { background: var(--teal); }
+.toc-fab.fab-open { transform: rotate(90deg); background: var(--teal); }
+
+@media (min-width: 1024px) {
+  .toc-fab { display: none !important; }
+}
+
+/* ── Mobile TOC Overlay + Drawer ───────────────────────────── */
+.toc-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 300;
+}
+
+.toc-overlay.open { display: block; }
+
+.toc-drawer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 70vh;
+  background: var(--card);
+  border-radius: var(--radius) var(--radius) 0 0;
+  z-index: 400;
+  transform: translateY(100%);
+  transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.toc-drawer.open { transform: translateY(0); }
+
+@media (min-width: 1024px) {
+  .toc-drawer, .toc-overlay { display: none !important; }
+}
+
+.toc-drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.toc-drawer-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.toc-drawer-close {
+  background: var(--border);
+  border: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toc-drawer-list {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  flex: 1;
+  padding: 8px 0 24px;
+}
+
+.toc-drawer-list li a {
+  padding: 12px 20px;
+  font-size: 0.95rem;
+}
+
+/* ── TOC Subsection links ───────────────────────────────────── */
+.toc-subsection a {
+  padding: 5px 20px 5px 36px !important;
+  font-size: 0.78rem !important;
+  color: var(--muted);
+  border-left: 3px solid transparent;
+}
+
+.toc-subsection a:hover { color: var(--text); }
+
+/* ── Home Expandable Block Cards ────────────────────────────── */
+.home-blocks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.home-block-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: box-shadow 0.15s;
+}
+
+.home-block-card.expanded {
+  box-shadow: var(--shadow);
+  border-color: var(--teal);
+}
+
+.home-block-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.home-block-header:hover { background: var(--bg); }
+
+.home-block-header .block-icon { font-size: 1.4rem; flex-shrink: 0; }
+.home-block-header .block-name { font-weight: 700; font-size: 0.95rem; flex: 1; }
+.home-block-header .block-chapters { font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
+
+.block-expand-arrow {
+  font-size: 1.1rem;
+  color: var(--muted);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.home-block-card.expanded .block-expand-arrow { transform: rotate(90deg); color: var(--teal); }
+
+.home-block-chapters {
+  display: none;
+  border-top: 1px solid var(--border);
+  padding: 4px 0;
+}
+
+.home-block-card.expanded .home-block-chapters { display: block; }
+
+.home-chapter-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px 10px 20px;
+  text-decoration: none;
+  color: var(--text);
+  transition: background 0.1s;
+}
+
+.home-chapter-link:hover { background: var(--teal-light); }
+
+.home-chapter-id {
+  background: var(--navy);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  min-width: 30px;
+  text-align: center;
+}
+
+.home-chapter-title {
+  flex: 1;
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+
+.home-chapter-time {
+  font-size: 0.72rem;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
 /* ── Print ──────────────────────────────────────────────────── */
 @media print {
   .top-nav, .bottom-tabs, .reading-progress-bar,
-  .reader-toc, .section-nav, .site-footer,
+  .reader-toc, .section-nav, .site-footer, .toc-fab,
+  .toc-drawer, .toc-overlay, .chapter-breadcrumb,
   .btn, .mark-read-btn { display: none !important; }
 
   body {

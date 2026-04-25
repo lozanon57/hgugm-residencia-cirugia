@@ -96,13 +96,14 @@ const Router = {
     const parts = hash.split('/').filter(Boolean);
     const route = parts[0] || '';
     const param = parts[1] || '';
+    const sectionTarget = parts[2]; // deep link: #/chapter/A1/3
 
     this.currentRoute = route;
     this.updateNav(route);
     document.getElementById('readingProgressBar').style.display = 'none';
 
     if (route === 'chapter' && param) {
-      renderChapterView(param.toUpperCase());
+      renderChapterView(param.toUpperCase(), sectionTarget);
       document.title = `Loading… | HGUGM Surgical Course`;
     } else if (route === 'curriculum') {
       renderCurriculumView();
@@ -147,12 +148,15 @@ function renderHomeView() {
   const pct = totalSections > 0 ? Math.round((doneSections / totalSections) * 100) : 0;
 
   const lastRead = getLastRead(progress);
+  const continueHref = lastRead
+    ? `#/chapter/${lastRead.id}${lastRead.nextSectionIdx > 0 ? '/' + lastRead.nextSectionIdx : ''}`
+    : '#/curriculum';
   const continueCard = lastRead
-    ? `<a href="#/chapter/${lastRead.id}" class="continue-card">
+    ? `<a href="${continueHref}" class="continue-card">
         <div>
           <div class="continue-label">Continue Reading</div>
           <div class="continue-title">${lastRead.id} · ${lastRead.title}</div>
-          <div class="continue-progress">Section ${lastRead.sectionIdx + 1}</div>
+          <div class="continue-progress">Section ${lastRead.nextSectionIdx + 1} of chapter</div>
         </div>
         <div class="continue-arrow">→</div>
       </a>`
@@ -165,12 +169,27 @@ function renderHomeView() {
         <div class="continue-arrow">→</div>
       </a>`;
 
-  const blocksHtml = CURRICULUM.map(block => `
-    <a href="#/chapter/${block.chapters[0].id}" class="block-card">
-      <div class="block-icon">${block.icon}</div>
-      <div class="block-name">${block.blockName}</div>
-      <div class="block-chapters">${block.chapters.length} chapters</div>
-    </a>`).join('');
+  const blocksHtml = CURRICULUM.map(block => {
+    const chapterItems = block.chapters.map(ch =>
+      `<a href="#/chapter/${ch.id}" class="home-chapter-link">
+        <span class="home-chapter-id">${ch.id}</span>
+        <span class="home-chapter-title">${ch.title}</span>
+        <span class="home-chapter-time">${ch.readingTime}m</span>
+      </a>`
+    ).join('');
+    return `
+      <div class="home-block-card" id="hblock-${block.block}">
+        <div class="home-block-header" onclick="toggleHomeBlock('${block.block}')">
+          <span class="block-icon">${block.icon}</span>
+          <span class="block-name">${block.blockName}</span>
+          <span class="block-chapters">${block.chapters.length} ch</span>
+          <span class="block-expand-arrow">›</span>
+        </div>
+        <div class="home-block-chapters" id="hblock-list-${block.block}">
+          ${chapterItems}
+        </div>
+      </div>`;
+  }).join('');
 
   const pearl = Knowledge.getRandomPearl();
   const pearlHtml = pearl
@@ -200,7 +219,7 @@ function renderHomeView() {
         ${streakHtml}
       </div>
 
-      <div class="blocks-grid">${blocksHtml}</div>
+      <div class="home-blocks-list">${blocksHtml}</div>
 
       ${pearlHtml}
 
@@ -228,15 +247,21 @@ function getLastRead(progress) {
       latestDate = data.last_date;
       const chapterInfo = ALL_CHAPTERS.find(c => c.id === id);
       if (chapterInfo) {
+        const doneCount = (data.sections_done || []).length;
         latest = {
           id,
           title: chapterInfo.title,
-          sectionIdx: (data.sections_done || []).length
+          nextSectionIdx: doneCount
         };
       }
     }
   }
   return latest;
+}
+
+function toggleHomeBlock(block) {
+  const card = document.getElementById(`hblock-${block}`);
+  card?.classList.toggle('expanded');
 }
 
 function getTotalSections() {
@@ -316,7 +341,7 @@ function renderCurriculumView() {
 }
 
 /* ── CHAPTER VIEW ───────────────────────────────────────────── */
-async function renderChapterView(chapterId) {
+async function renderChapterView(chapterId, sectionTarget) {
   mountView(`<div class="flex-center" style="min-height:60vh;"><div class="spinner"></div></div>`);
 
   try {
@@ -356,6 +381,16 @@ async function renderChapterView(chapterId) {
     Reader.buildTOC(chapter);
     Quiz.initChapterQuiz(chapter);
     Progress.trackChapterOpen(chapterId);
+
+    if (sectionTarget !== undefined) {
+      const idx = parseInt(sectionTarget);
+      if (!isNaN(idx)) {
+        setTimeout(() => {
+          const el = document.getElementById(`section-${idx}`);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 300);
+      }
+    }
 
   } catch (err) {
     const chInfo = ALL_CHAPTERS.find(c => c.id === chapterId);

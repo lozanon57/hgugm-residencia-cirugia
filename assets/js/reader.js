@@ -10,10 +10,12 @@ const Reader = {
   /* ── Main Entry Point ────────────────────────────────────── */
   renderChapter(chapter) {
     const headerHtml = this.renderHeader(chapter);
+    const totalSections = (chapter.sections || []).length;
+    const hasConsolidation = !!chapter.consolidation;
     const sectionsHtml = (chapter.sections || []).map((sec, idx) =>
-      this.renderSection(sec, idx, chapter.id)
+      this.renderSection(sec, idx, chapter.id, totalSections, hasConsolidation)
     ).join('');
-    const consolidationHtml = chapter.consolidation
+    const consolidationHtml = hasConsolidation
       ? this.renderConsolidationIntro(chapter.consolidation)
       : '';
 
@@ -25,7 +27,10 @@ const Reader = {
         </aside>
         <div class="reader-main">
           <div class="reading-container">
-            <a href="#/curriculum" class="btn btn-ghost btn-sm" style="margin-bottom:20px; display:inline-flex;">← Curriculum</a>
+            <div class="chapter-breadcrumb">
+              <a href="#/curriculum" class="btn btn-ghost btn-sm">← Curriculum</a>
+              <span class="chapter-section-counter" id="sectionCounter"></span>
+            </div>
             ${headerHtml}
             <div class="reading-text" id="chapterContent">
               ${sectionsHtml}
@@ -34,8 +39,38 @@ const Reader = {
           </div>
         </div>
       </div>
+      <button class="toc-fab" id="tocFab" onclick="Reader.toggleMobileTOC()" aria-label="Open chapter index" title="Chapter contents">≡</button>
+      <div class="toc-overlay" id="tocOverlay" onclick="Reader.closeMobileTOC()"></div>
+      <div class="toc-drawer" id="tocDrawer" role="dialog" aria-label="Chapter contents">
+        <div class="toc-drawer-header">
+          <span class="toc-drawer-title">Chapter Contents</span>
+          <button class="toc-drawer-close" onclick="Reader.closeMobileTOC()" aria-label="Close">✕</button>
+        </div>
+        <ul class="toc-list toc-drawer-list" id="tocListMobile"></ul>
+      </div>
       ${renderFooter()}
     `;
+  },
+
+  /* ── Mobile TOC Controls ─────────────────────────────────── */
+  toggleMobileTOC() {
+    document.getElementById('tocDrawer')?.classList.contains('open')
+      ? this.closeMobileTOC()
+      : this.openMobileTOC();
+  },
+
+  openMobileTOC() {
+    document.getElementById('tocDrawer')?.classList.add('open');
+    document.getElementById('tocOverlay')?.classList.add('open');
+    document.getElementById('tocFab')?.classList.add('fab-open');
+    document.body.style.overflow = 'hidden';
+  },
+
+  closeMobileTOC() {
+    document.getElementById('tocDrawer')?.classList.remove('open');
+    document.getElementById('tocOverlay')?.classList.remove('open');
+    document.getElementById('tocFab')?.classList.remove('fab-open');
+    document.body.style.overflow = '';
   },
 
   /* ── Chapter Header ──────────────────────────────────────── */
@@ -68,12 +103,17 @@ const Reader = {
   },
 
   /* ── Section Renderer ────────────────────────────────────── */
-  renderSection(section, idx, chapterId) {
+  renderSection(section, idx, chapterId, totalSections, hasConsolidation) {
     const blocksHtml = (section.blocks || section.content || []).map(b => this.renderBlock(b)).join('');
     const progress = Progress.getProgress();
     const isDone = progress.chapters_read &&
       progress.chapters_read[chapterId] &&
       (progress.chapters_read[chapterId].sections_done || []).includes(idx);
+
+    const isLast = idx === (totalSections || 1) - 1;
+    const nextHref = isLast
+      ? (hasConsolidation ? '#squiz' : null)
+      : `#s${idx + 1}`;
 
     return `
       <section id="section-${idx}" data-section-idx="${idx}" data-chapter-id="${chapterId}">
@@ -87,7 +127,7 @@ const Reader = {
           </button>
           <div style="display:flex; gap:8px;">
             ${idx > 0 ? `<a href="#s${idx-1}" class="btn btn-ghost btn-sm">← Prev</a>` : ''}
-            <a href="#s${idx+1}" class="btn btn-secondary btn-sm">Next →</a>
+            ${nextHref ? `<a href="${nextHref}" class="btn btn-secondary btn-sm">Next →</a>` : '<span class="btn btn-ghost btn-sm" style="opacity:0.4;">End</span>'}
           </div>
         </div>
       </section>
@@ -249,17 +289,31 @@ const Reader = {
   /* ── TOC Builder ─────────────────────────────────────────── */
   buildTOC(chapter) {
     const list = document.getElementById('tocList');
-    if (!list) return;
+    const mobileList = document.getElementById('tocListMobile');
+    if (!list && !mobileList) return;
 
-    const items = (chapter.sections || []).map((sec, idx) =>
-      `<li><a href="#s${idx}" data-toc-idx="${idx}">${sec.title}</a></li>`
-    );
+    const items = (chapter.sections || []).map((sec, idx) => {
+      const subHeadings = (sec.blocks || sec.content || [])
+        .filter(b => b.type === 'heading' && b.level >= 3)
+        .map(b => {
+          const subId = (b.content || '').toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+          return `<li class="toc-subsection"><a href="#${subId}">${b.content}</a></li>`;
+        }).join('');
+      return `<li><a href="#s${idx}" data-toc-idx="${idx}">${sec.title}</a></li>${subHeadings}`;
+    });
 
     if (chapter.consolidation) {
-      items.push(`<li><a href="#squiz" data-toc-idx="quiz">Consolidation Questions</a></li>`);
+      items.push(`<li><a href="#squiz" data-toc-idx="quiz">📝 Consolidation Questions</a></li>`);
     }
 
-    list.innerHTML = items.join('');
+    const html = items.join('');
+    if (list) list.innerHTML = html;
+    if (mobileList) {
+      mobileList.innerHTML = html;
+      mobileList.querySelectorAll('a').forEach(a =>
+        a.addEventListener('click', () => this.closeMobileTOC())
+      );
+    }
   },
 
   /* ── Scroll Progress + TOC Active ────────────────────────── */
@@ -270,6 +324,9 @@ const Reader = {
 
     const sections = document.querySelectorAll('[data-section-idx]');
     const tocLinks = document.querySelectorAll('[data-toc-idx]');
+    const counter = document.getElementById('sectionCounter');
+    const totalReal = (chapter.sections || []).length;
+    const fab = document.getElementById('tocFab');
 
     const onScroll = () => {
       const scrollTop = window.scrollY;
@@ -286,6 +343,20 @@ const Reader = {
       tocLinks.forEach(link => {
         link.classList.toggle('active', link.dataset.tocIdx === String(currentIdx));
       });
+
+      if (counter) {
+        if (currentIdx === 'quiz') {
+          counter.textContent = 'Consolidation';
+          counter.style.display = 'inline-block';
+        } else if (currentIdx !== null) {
+          counter.textContent = `${parseInt(currentIdx) + 1} / ${totalReal}`;
+          counter.style.display = 'inline-block';
+        } else {
+          counter.style.display = 'none';
+        }
+      }
+
+      if (fab) fab.style.display = scrollTop > 200 ? 'flex' : 'none';
     };
 
     window.addEventListener('scroll', onScroll, { passive: true });
