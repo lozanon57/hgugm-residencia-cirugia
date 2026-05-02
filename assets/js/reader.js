@@ -84,7 +84,14 @@ const Reader = {
 
     return `
       <div class="chapter-header">
-        <div class="chapter-block-badge">Block ${chapter.block} — ${chapter.block_name || ''}</div>
+        <div class="chapter-header-top">
+          <div class="chapter-block-badge">Block ${chapter.block} — ${chapter.block_name || ''}</div>
+          <div class="text-size-control" aria-label="Text size">
+            <button class="text-size-btn" onclick="Reader.setTextSize('small')"  aria-label="Small text">A−</button>
+            <button class="text-size-btn active" onclick="Reader.setTextSize('medium')" aria-label="Default text">A</button>
+            <button class="text-size-btn" onclick="Reader.setTextSize('large')"  aria-label="Large text">A+</button>
+          </div>
+        </div>
         <h1 class="chapter-title">${chapter.title}</h1>
         ${chapter.subtitle ? `<div class="chapter-subtitle">${chapter.subtitle}</div>` : ''}
         <div class="chapter-meta">
@@ -98,26 +105,38 @@ const Reader = {
             <h4>Learning Objectives</h4>
             <ul>${objectives}</ul>
           </div>` : ''}
+        <div class="chapter-footer-links">
+          <a href="#/abbreviations" class="abbr-glossary-link">📖 Abbreviations Glossary</a>
+        </div>
       </div>
     `;
   },
 
   /* ── Section Renderer ────────────────────────────────────── */
   renderSection(section, idx, chapterId, totalSections, hasConsolidation) {
-    const blocksHtml = (section.blocks || section.content || []).map(b => this.renderBlock(b)).join('');
+    const blocks    = section.blocks || section.content || [];
+    const blocksHtml = blocks.map(b => this.renderBlock(b)).join('');
+
+    // Estimate reading time for this section (230 wpm medical reading speed)
+    const wordCount  = blocks.reduce((n, b) => n + ((b.content || '') + ' ' + (b.rows ? b.rows.flat().join(' ') : '')).split(/\s+/).length, 0);
+    const secMinutes = Math.max(1, Math.ceil(wordCount / 230));
+
     const progress = Progress.getProgress();
-    const isDone = progress.chapters_read &&
+    const isDone   = progress.chapters_read &&
       progress.chapters_read[chapterId] &&
       (progress.chapters_read[chapterId].sections_done || []).includes(idx);
 
-    const isLast = idx === (totalSections || 1) - 1;
+    const isLast  = idx === (totalSections || 1) - 1;
     const nextHref = isLast
       ? (hasConsolidation ? '#squiz' : null)
       : `#s${idx + 1}`;
 
     return `
       <section id="section-${idx}" data-section-idx="${idx}" data-chapter-id="${chapterId}">
-        <h2 id="s${idx}">${section.title}</h2>
+        <div class="section-title-row">
+          <h2 id="s${idx}">${section.title}</h2>
+          <span class="section-reading-time">~${secMinutes} min</span>
+        </div>
         ${blocksHtml}
         <div class="section-nav">
           <button class="mark-read-btn ${isDone ? 'done' : ''}"
@@ -137,15 +156,17 @@ const Reader = {
   /* ── Block Dispatcher ────────────────────────────────────── */
   renderBlock(block) {
     switch (block.type) {
-      case 'text':      return this.renderText(block);
-      case 'heading':   return this.renderHeading(block);
-      case 'figure':    return this.renderFigure(block);
-      case 'table':     return this.renderTable(block);
-      case 'callout':   return this.renderCallout(block);
-      case 'case':      return this.renderCase(block);
-      case 'list':      return this.renderList(block);
+      case 'text':         return this.renderText(block);
+      case 'heading':      return this.renderHeading(block);
+      case 'figure':       return this.renderFigure(block);
+      case 'table':        return this.renderTable(block);
+      case 'callout':      return this.renderCallout(block);
+      case 'case':         return this.renderCase(block);
+      case 'case_opener':  return this.renderCaseOpener(block);
+      case 'list':         return this.renderList(block);
+      case 'key_points':   return this.renderKeyPoints(block);
       case 'landmark_trial': return this.renderLandmarkTrial(block);
-      default:          return '';
+      default:             return '';
     }
   },
 
@@ -221,6 +242,40 @@ const Reader = {
           <div class="callout-label">${label}</div>
           <div class="callout-content">${this.parseInline(block.content || '')}</div>
         </div>
+      </div>
+    `;
+  },
+
+  /* ── Case Opener (Harvard-style vignette before theory) ─── */
+  renderCaseOpener(block) {
+    const resolution = block.resolution_label
+      ? `<div class="case-resolution-link">→ ${block.resolution_label}</div>`
+      : '';
+    return `
+      <div class="case-opener-block callout callout-clinical">
+        <div class="callout-icon-wrap" aria-hidden="true">📋</div>
+        <div class="callout-body">
+          <div class="callout-label">Clinical Scenario</div>
+          <div class="callout-content">${this.parseInline(block.content || '')}</div>
+          ${resolution}
+          <div class="case-opener-hint">Consider this scenario as you read this section.</div>
+        </div>
+      </div>
+    `;
+  },
+
+  /* ── Key Points Summary Card ─────────────────────────────── */
+  renderKeyPoints(block) {
+    const points = (block.points || [])
+      .map((p, i) => `<li><span class="kp-num">${i + 1}</span><span>${this.parseInline(p)}</span></li>`)
+      .join('');
+    return `
+      <div class="key-points-card">
+        <div class="kp-header">
+          <span class="kp-icon">✦</span>
+          <span class="kp-title">${block.title || 'Key Points'}</span>
+        </div>
+        <ol class="kp-list">${points}</ol>
       </div>
     `;
   },
@@ -368,8 +423,180 @@ const Reader = {
       threshold: 0
     });
 
+    // Track current section index for keyboard navigation
+    const sectionObs2 = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const idx = entry.target.dataset.sectionIdx;
+          if (idx !== 'quiz') this._currentSectionIdx = parseInt(idx) || 0;
+        }
+      });
+    }, { rootMargin: '-60px 0px -60% 0px', threshold: 0 });
+    sections.forEach(sec => sectionObs2.observe(sec));
+
     sections.forEach(sec => obs.observe(sec));
     this._sectionObserver = obs;
+
+    // Apply abbreviation tooltips to chapter content
+    if (typeof applyAbbreviationTooltips === 'function') {
+      const content = document.getElementById('chapterContent');
+      if (content) applyAbbreviationTooltips(content);
+    }
+
+    // Figure lightbox on tap/click
+    this.initFigureLightbox();
+
+    // Keyboard shortcuts
+    this.initKeyboardShortcuts(chapter);
+
+    // Restore saved text size preference
+    this.restoreTextSize();
+  },
+
+  /* ── Text Size Control ───────────────────────────────────── */
+  setTextSize(size) {
+    const sizes = { small: '15px', medium: '17px', large: '19.5px' };
+    document.documentElement.style.setProperty('--text-base', sizes[size] || sizes.medium);
+    localStorage.setItem('surgres_text_size', size);
+
+    // Update active button
+    document.querySelectorAll('.text-size-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent.includes(
+        size === 'small' ? 'A−' : size === 'large' ? 'A+' : 'A'
+      ) && !btn.textContent.includes('A−') || (size === 'small' && btn.textContent === 'A−') || (size === 'large' && btn.textContent === 'A+') || (size === 'medium' && btn.textContent === 'A')
+      );
+    });
+
+    // Simpler active state management
+    document.querySelectorAll('.text-size-btn').forEach((btn, i) => {
+      const sizeMap = ['small', 'medium', 'large'];
+      btn.classList.toggle('active', sizeMap[i] === size);
+    });
+  },
+
+  /* ── Restore saved text size ─────────────────────────────── */
+  restoreTextSize() {
+    const saved = localStorage.getItem('surgres_text_size') || 'medium';
+    const sizes = { small: '15px', medium: '17px', large: '19.5px' };
+    document.documentElement.style.setProperty('--text-base', sizes[saved]);
+  },
+
+  /* ── Figure Lightbox ─────────────────────────────────────── */
+  initFigureLightbox() {
+    document.querySelectorAll('.chapter-figure').forEach(fig => {
+      fig.style.cursor = 'zoom-in';
+      fig.addEventListener('click', () => {
+        const lb = document.createElement('div');
+        lb.className = 'lightbox-overlay';
+        lb.setAttribute('role', 'dialog');
+        lb.setAttribute('aria-label', 'Figure enlarged');
+        lb.innerHTML = `
+          <button class="lightbox-close" aria-label="Close enlarged figure">✕</button>
+          <div class="lightbox-content">${fig.innerHTML}</div>
+        `;
+        document.body.appendChild(lb);
+
+        // Close handlers
+        lb.addEventListener('click', (e) => {
+          if (e.target === lb || e.target.classList.contains('lightbox-close')) {
+            lb.remove();
+          }
+        });
+        document.addEventListener('keydown', function escHandler(e) {
+          if (e.key === 'Escape') { lb.remove(); document.removeEventListener('keydown', escHandler); }
+        });
+      });
+    });
+  },
+
+  /* ── Keyboard Shortcuts (chapter reader) ────────────────── */
+  initKeyboardShortcuts(chapter) {
+    if (this._keyHandler) {
+      document.removeEventListener('keydown', this._keyHandler);
+    }
+
+    this._keyHandler = (e) => {
+      // Don't fire when typing in inputs
+      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(e.target.tagName)) return;
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+      const sections     = document.querySelectorAll('[data-section-idx]');
+      const sectionCount = chapter.sections.length;
+
+      switch (e.key) {
+        case 'ArrowRight': {
+          // Navigate to next section anchor
+          const current = this._currentSectionIdx || 0;
+          if (current < sectionCount - 1) {
+            document.getElementById(`s${current + 1}`)?.scrollIntoView({ behavior: 'smooth' });
+          }
+          break;
+        }
+        case 'ArrowLeft': {
+          const current = this._currentSectionIdx || 0;
+          if (current > 0) {
+            document.getElementById(`s${current - 1}`)?.scrollIntoView({ behavior: 'smooth' });
+          }
+          break;
+        }
+        case 'm':
+        case 'M': {
+          // Mark current section as read
+          const btn = document.querySelector(`#section-${this._currentSectionIdx || 0} .mark-read-btn:not([disabled])`);
+          btn?.click();
+          break;
+        }
+        case '/': {
+          e.preventDefault();
+          window.location.hash = '#/search';
+          break;
+        }
+        case '?': {
+          this._showShortcutsHelp();
+          break;
+        }
+        case 'Escape': {
+          // Close any open modal or drawer
+          const lb = document.querySelector('.lightbox-overlay');
+          if (lb) { lb.remove(); break; }
+          this.closeMobileTOC();
+          break;
+        }
+      }
+    };
+
+    document.addEventListener('keydown', this._keyHandler);
+  },
+
+  /* ── Track current section for keyboard nav ──────────────── */
+  _currentSectionIdx: 0,
+
+  /* ── Keyboard shortcuts help modal ──────────────────────── */
+  _showShortcutsHelp() {
+    if (document.querySelector('.shortcuts-modal')) return;
+    const modal = document.createElement('div');
+    modal.className = 'shortcuts-modal lightbox-overlay';
+    modal.setAttribute('role', 'dialog');
+    modal.innerHTML = `
+      <div class="shortcuts-panel">
+        <div class="shortcuts-header">
+          <span>⌨️ Keyboard Shortcuts</span>
+          <button class="lightbox-close" aria-label="Close">✕</button>
+        </div>
+        <table class="shortcuts-table">
+          <tr><td><kbd>→</kbd></td><td>Next section</td></tr>
+          <tr><td><kbd>←</kbd></td><td>Previous section</td></tr>
+          <tr><td><kbd>M</kbd></td><td>Mark section as read</td></tr>
+          <tr><td><kbd>/</kbd></td><td>Search</td></tr>
+          <tr><td><kbd>?</kbd></td><td>Show this help</td></tr>
+          <tr><td><kbd>Esc</kbd></td><td>Close modal / drawer</td></tr>
+        </table>
+      </div>
+    `;
+    document.body.appendChild(modal);
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal || e.target.classList.contains('lightbox-close')) modal.remove();
+    });
   },
 
   /* ── Mark Section Read ───────────────────────────────────── */

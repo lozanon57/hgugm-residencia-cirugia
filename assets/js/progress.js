@@ -1,11 +1,15 @@
 /* ============================================================
-   progress.js — localStorage Progress Tracker
+   progress.js — localStorage Progress Tracker + Spaced Repetition
    HGUGM Surgical Residency Course
    ============================================================ */
 
 'use strict';
 
-const STORAGE_KEY = 'surgres_progress';
+const STORAGE_KEY   = 'surgres_progress';
+const REVIEWS_KEY   = 'surgres_reviews';
+
+/* ── Spaced Repetition Intervals (days) ────────────────────── */
+const SR_INTERVALS = [1, 7, 21, 60];   // wrong=1, correct 1st/2nd/3rd+ attempt
 
 const Progress = {
 
@@ -21,11 +25,11 @@ const Progress = {
 
   _defaultProgress() {
     return {
-      chapters_read: {},
-      quiz_scores:   {},
-      streak:        { current: 0, last_date: null },
-      bookmarks:     [],
-      total_time_min: 0
+      chapters_read:   {},
+      quiz_scores:     {},
+      streak:          { current: 0, last_date: null },
+      bookmarks:       [],
+      total_time_min:  0
     };
   },
 
@@ -39,7 +43,7 @@ const Progress = {
 
   /* ── Track Chapter Open ──────────────────────────────────── */
   trackChapterOpen(chapterId) {
-    const prog = this.getProgress();
+    const prog  = this.getProgress();
     const today = new Date().toISOString().slice(0, 10);
 
     if (!prog.chapters_read[chapterId]) {
@@ -53,7 +57,7 @@ const Progress = {
 
   /* ── Mark Section Read ───────────────────────────────────── */
   markSectionRead(chapterId, sectionIdx) {
-    const prog = this.getProgress();
+    const prog  = this.getProgress();
     const today = new Date().toISOString().slice(0, 10);
 
     if (!prog.chapters_read[chapterId]) {
@@ -62,8 +66,8 @@ const Progress = {
 
     const ch = prog.chapters_read[chapterId];
     if (!ch.sections_done.includes(sectionIdx)) {
-      ch.sections_done = [...ch.sections_done, sectionIdx];
-      prog.total_time_min = (prog.total_time_min || 0) + 5; // estimate 5 min per section
+      ch.sections_done  = [...ch.sections_done, sectionIdx];
+      prog.total_time_min = (prog.total_time_min || 0) + 5;
     }
 
     ch.last_date = today;
@@ -73,7 +77,7 @@ const Progress = {
 
   /* ── Mark Chapter Complete ───────────────────────────────── */
   markChapterComplete(chapterId) {
-    const prog = this.getProgress();
+    const prog  = this.getProgress();
     const today = new Date().toISOString().slice(0, 10);
 
     if (!prog.chapters_read[chapterId]) {
@@ -81,22 +85,22 @@ const Progress = {
     }
 
     prog.chapters_read[chapterId].completed = true;
-    prog.chapters_read[chapterId].date = today;
+    prog.chapters_read[chapterId].date      = today;
     this._save(prog);
   },
 
   /* ── Save Quiz Score ─────────────────────────────────────── */
   saveQuizScore(chapterId, score, total) {
-    const prog = this.getProgress();
-    const today = new Date().toISOString().slice(0, 10);
+    const prog     = this.getProgress();
+    const today    = new Date().toISOString().slice(0, 10);
     const existing = prog.quiz_scores[chapterId];
 
     prog.quiz_scores[chapterId] = {
       score,
       total,
       attempts: ((existing && existing.attempts) || 0) + 1,
-      date: today,
-      best: existing ? Math.max(existing.best || 0, score) : score
+      date:     today,
+      best:     existing ? Math.max(existing.best || 0, score) : score
     };
 
     this._save(prog);
@@ -123,7 +127,7 @@ const Progress = {
 
   /* ── Streak ──────────────────────────────────────────────── */
   _updateStreak(prog, today) {
-    const streak = prog.streak || { current: 0, last_date: null };
+    const streak    = prog.streak || { current: 0, last_date: null };
     const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
 
     if (streak.last_date === today) return;
@@ -142,8 +146,65 @@ const Progress = {
     return this.getProgress().streak || { current: 0 };
   },
 
+  /* ── Spaced Repetition ───────────────────────────────────── */
+
+  /**
+   * Schedule next review for a question.
+   * @param {string} questionId   - unique question ID (e.g. "A2-Q4")
+   * @param {boolean} wasCorrect  - whether the resident answered correctly
+   * @param {number}  attemptNum  - 0-indexed attempt number
+   */
+  scheduleReview(questionId, wasCorrect, attemptNum) {
+    let reviews = {};
+    try {
+      reviews = JSON.parse(localStorage.getItem(REVIEWS_KEY) || '{}');
+    } catch { /* ignore */ }
+
+    const daysUntilReview = wasCorrect
+      ? SR_INTERVALS[Math.min(attemptNum, SR_INTERVALS.length - 1)]
+      : SR_INTERVALS[0];
+
+    const dueDate = new Date();
+    dueDate.setDate(dueDate.getDate() + daysUntilReview);
+
+    reviews[questionId] = {
+      due:          dueDate.toISOString(),
+      attempts:     attemptNum + 1,
+      last_correct: wasCorrect
+    };
+
+    try {
+      localStorage.setItem(REVIEWS_KEY, JSON.stringify(reviews));
+    } catch { /* ignore */ }
+  },
+
+  /**
+   * Return all question IDs with a due review date ≤ now.
+   * @returns {{ id: string, due: string, attempts: number, last_correct: boolean }[]}
+   */
+  getDueReviews() {
+    let reviews = {};
+    try {
+      reviews = JSON.parse(localStorage.getItem(REVIEWS_KEY) || '{}');
+    } catch { return []; }
+
+    const now = new Date();
+    return Object.entries(reviews)
+      .filter(([, r]) => new Date(r.due) <= now)
+      .map(([id, r]) => ({ id, ...r }));
+  },
+
+  /**
+   * Count questions due for review today.
+   * @returns {number}
+   */
+  getDueCount() {
+    return this.getDueReviews().length;
+  },
+
   /* ── Reset ───────────────────────────────────────────────── */
   reset() {
     localStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(REVIEWS_KEY);
   }
 };

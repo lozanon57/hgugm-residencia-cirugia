@@ -1921,3 +1921,422 @@ html.dark .curriculum-block-title { color: #93B4E8; }
   h2, h3 { break-after: avoid; }
   p { orphans: 3; widows: 3; }
 }
+
+/* ══════════════════════════════════════════════════════════════
+   PLATFORM IMPROVEMENTS — v2
+   Abbreviation tooltips · Difficulty badges · Text size
+   Language toggle · Due-reviews banner · Abbreviations page
+   Key Points card · Case opener · Section reading time
+   Figure lightbox · Keyboard shortcuts help
+   ══════════════════════════════════════════════════════════════ */
+
+/* ── Abbreviation Tooltips ──────────────────────────────────── */
+abbr.abbr-tooltip {
+  text-decoration: underline dotted var(--teal-600);
+  cursor: help;
+  position: relative;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+
+abbr.abbr-tooltip::after {
+  content: attr(title);
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--neutral-900, #1a202c);
+  color: #f7fafc;
+  font-family: var(--font-ui);
+  font-weight: 400;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  padding: 8px 12px;
+  border-radius: 8px;
+  width: max-content;
+  max-width: 280px;
+  white-space: normal;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 150ms ease;
+  z-index: 900;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.28);
+}
+
+abbr.abbr-tooltip:hover::after,
+abbr.abbr-tooltip:focus::after,
+abbr.abbr-tooltip.tooltip-active::after { opacity: 1; }
+
+/* Mobile: only show when tapped (.tooltip-active toggled by JS) */
+@media (hover: none) {
+  abbr.abbr-tooltip::after {
+    display: none;
+  }
+  abbr.abbr-tooltip.tooltip-active::after {
+    display: block;
+    opacity: 1;
+  }
+}
+
+html.dark abbr.abbr-tooltip::after {
+  background: #2d3748;
+  color: #e2e8f0;
+}
+
+/* ── Difficulty Badge ────────────────────────────────────────── */
+.difficulty-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  letter-spacing: 0.03em;
+}
+.diff-1 { background: var(--teal-100, #ccfbf1); color: var(--teal-800, #134e4a); }
+.diff-2 { background: var(--amber-100, #fef3c7); color: var(--amber-800, #78350f); }
+.diff-3 { background: var(--rose-100, #ffe4e6); color: var(--rose-800, #9f1239); }
+
+html.dark .diff-1 { background: #134e4a; color: #99f6e4; }
+html.dark .diff-2 { background: #78350f; color: #fde68a; }
+html.dark .diff-3 { background: #9f1239; color: #fecdd3; }
+
+.quiz-header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+/* ── Text Size Control ───────────────────────────────────────── */
+.chapter-header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.text-size-control {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.text-size-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--muted);
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  padding: 3px 8px;
+  font-size: 0.8rem;
+  transition: all var(--dur-fast) var(--ease-out);
+  line-height: 1;
+}
+
+.text-size-btn:hover { border-color: var(--blue-800); color: var(--blue-800); }
+.text-size-btn.active {
+  background: var(--blue-800);
+  border-color: var(--blue-800);
+  color: #fff;
+}
+
+/* ── Language Toggle ─────────────────────────────────────────── */
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  color: var(--text);
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 0.78rem;
+  padding: 5px 12px;
+  transition: all var(--dur-fast) var(--ease-out);
+  white-space: nowrap;
+}
+.lang-toggle:hover { border-color: var(--blue-800); color: var(--blue-800); }
+
+/* ── Due Reviews Banner ──────────────────────────────────────── */
+.due-reviews-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, var(--amber-50, #fffbeb), var(--amber-100, #fef3c7));
+  border: 1px solid var(--amber-200, #fde68a);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: var(--amber-800, #78350f);
+  font-size: 0.9rem;
+  transition: box-shadow var(--dur-fast) var(--ease-out);
+}
+.due-reviews-banner:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
+.due-reviews-icon { font-size: 1.2rem; }
+.due-reviews-banner > span:nth-child(2) { flex: 1; }
+.due-reviews-arrow { font-size: 1rem; opacity: 0.7; }
+
+html.dark .due-reviews-banner {
+  background: rgba(120, 53, 15, 0.2);
+  border-color: rgba(253, 230, 138, 0.3);
+  color: #fde68a;
+}
+
+/* ── Abbreviations Page ──────────────────────────────────────── */
+.abbr-search-wrap {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.abbr-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.abbr-entry {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 0 16px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  align-items: baseline;
+  transition: background var(--dur-fast) var(--ease-out);
+}
+.abbr-entry:last-child { border-bottom: none; }
+.abbr-entry:hover { background: var(--card-alt); }
+
+.abbr-term {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--blue-800);
+}
+.abbr-def {
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+html.dark .abbr-term { color: var(--teal-400, #2dd4bf); }
+
+/* ── Section Title with reading time ────────────────────────── */
+.section-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.section-title-row h2 { margin-bottom: 0; }
+
+.section-reading-time {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+/* ── Chapter Footer Links ────────────────────────────────────── */
+.chapter-footer-links {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.abbr-glossary-link {
+  font-size: 0.82rem;
+  color: var(--teal-600);
+  text-decoration: none;
+  font-weight: 500;
+}
+.abbr-glossary-link:hover { text-decoration: underline; }
+
+/* ── Case Opener block ───────────────────────────────────────── */
+.case-opener-hint {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-top: 8px;
+  font-style: italic;
+}
+.case-resolution-link {
+  margin-top: 10px;
+  font-size: 0.82rem;
+  color: var(--teal-600);
+  font-weight: 600;
+}
+
+/* ── Key Points Card ─────────────────────────────────────────── */
+.key-points-card {
+  background: var(--card);
+  border: 1.5px solid var(--blue-800);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin: 1.75em 0;
+}
+.kp-header {
+  background: var(--blue-800);
+  color: #fff;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.kp-icon { font-size: 1rem; }
+.kp-list {
+  list-style: none;
+  padding: 12px 16px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.kp-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.kp-num {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 0.72rem;
+  background: var(--blue-100, #dbeafe);
+  color: var(--blue-800);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+html.dark .kp-num { background: rgba(22,51,96,0.5); color: #93c5fd; }
+
+/* ── Figure Lightbox ─────────────────────────────────────────── */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.88);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  animation: fadeIn 160ms ease forwards;
+}
+.lightbox-content {
+  max-width: 90vw;
+  max-height: 85vh;
+  overflow: auto;
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+.lightbox-content img,
+.lightbox-content svg {
+  max-width: 100%;
+  height: auto;
+  max-height: 75vh;
+  display: block;
+  margin: 0 auto;
+}
+.lightbox-close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: rgba(255,255,255,0.15);
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1rem;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--dur-fast) var(--ease-out);
+}
+.lightbox-close:hover { background: rgba(255,255,255,0.3); }
+
+/* ── Keyboard Shortcuts Modal ────────────────────────────────── */
+.shortcuts-modal { cursor: default; }
+.shortcuts-panel {
+  background: var(--card);
+  border-radius: var(--radius);
+  overflow: hidden;
+  width: min(380px, 90vw);
+}
+.shortcuts-header {
+  background: var(--blue-800);
+  color: #fff;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.shortcuts-header .lightbox-close {
+  position: static;
+  background: rgba(255,255,255,0.15);
+}
+.shortcuts-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.shortcuts-table td {
+  padding: 10px 18px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+.shortcuts-table tr:last-child td { border-bottom: none; }
+.shortcuts-table td:first-child { width: 80px; }
+
+kbd {
+  display: inline-block;
+  background: var(--card-alt);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 7px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text);
+  box-shadow: 0 1px 0 var(--border);
+}
+
+/* ── Abbreviations glossary link in chapter header ──────────── */
+@media (max-width: 600px) {
+  .chapter-header-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .abbr-entry {
+    grid-template-columns: 80px 1fr;
+    font-size: 0.83rem;
+  }
+  .section-title-row { flex-direction: column; gap: 2px; }
+}

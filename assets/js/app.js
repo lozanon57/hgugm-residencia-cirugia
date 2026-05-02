@@ -117,6 +117,9 @@ const Router = {
     } else if (route === 'about') {
       renderAboutView();
       document.title = 'About | HGUGM Surgical Course';
+    } else if (route === 'abbreviations') {
+      renderAbbreviationsView();
+      document.title = 'Abbreviations | HGUGM Surgical Course';
     } else {
       renderHomeView();
       document.title = 'HGUGM Surgical Residency Course';
@@ -192,6 +195,16 @@ function renderHomeView() {
       </div>`;
   }).join('');
 
+  // Spaced repetition: due reviews banner
+  const dueCount = Progress.getDueCount ? Progress.getDueCount() : 0;
+  const dueHtml  = dueCount > 0
+    ? `<a href="#/progress" class="due-reviews-banner">
+        <span class="due-reviews-icon">🔁</span>
+        <span><strong>${dueCount}</strong> question${dueCount > 1 ? 's' : ''} due for review today</span>
+        <span class="due-reviews-arrow">→</span>
+      </a>`
+    : '';
+
   const pearl = Knowledge.getRandomPearl();
   const pearlHtml = pearl
     ? `<div class="pearl-widget">
@@ -214,6 +227,7 @@ function renderHomeView() {
 
     <div class="container" style="padding-top:24px; padding-bottom:40px;">
       ${continueCard}
+      ${dueHtml}
 
       <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px;">
         <h2 style="font-size:1rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em;">Curriculum Blocks</h2>
@@ -607,6 +621,71 @@ function renderAboutView() {
   `);
 }
 
+/* ── ABBREVIATIONS VIEW ─────────────────────────────────────── */
+function renderAbbreviationsView() {
+  if (typeof ABBREVIATIONS === 'undefined') {
+    mountView(`<div class="container" style="padding-top:40px;"><p class="text-muted">Abbreviations dictionary not loaded.</p></div>`);
+    return;
+  }
+
+  const entries = Object.entries(ABBREVIATIONS).sort(([a], [b]) => a.localeCompare(b));
+
+  const listHtml = entries.map(([abbr, def]) =>
+    `<div class="abbr-entry" data-abbr="${abbr.toLowerCase()}">
+      <span class="abbr-term">${abbr}</span>
+      <span class="abbr-def">${def}</span>
+    </div>`
+  ).join('');
+
+  mountView(`
+    <div class="container" style="padding-top:32px; padding-bottom:40px; max-width:860px;">
+      <div class="page-header">
+        <a href="#/" class="btn btn-ghost btn-sm" style="margin-bottom:16px;">← Back</a>
+        <h1 style="font-size:1.8rem; color:var(--navy);">📖 Abbreviations Glossary</h1>
+        <p class="text-muted" style="margin-top:6px;">${entries.length} abbreviations — hover or tap any highlighted term in chapters to see its definition</p>
+      </div>
+
+      <div class="abbr-search-wrap">
+        <input type="search" class="search-input" id="abbrSearch"
+          placeholder="Filter abbreviations…"
+          oninput="filterAbbreviations(this.value)"
+          autocomplete="off" />
+        <span class="search-icon" aria-hidden="true">🔍</span>
+      </div>
+
+      <div class="abbr-list" id="abbrList">
+        ${listHtml}
+      </div>
+    </div>
+    ${renderFooter()}
+  `);
+}
+
+function filterAbbreviations(query) {
+  const q = (query || '').toLowerCase().trim();
+  document.querySelectorAll('.abbr-entry').forEach(el => {
+    const term = el.dataset.abbr || '';
+    const def  = el.querySelector('.abbr-def')?.textContent.toLowerCase() || '';
+    el.style.display = (!q || term.includes(q) || def.includes(q)) ? '' : 'none';
+  });
+  // Show empty state if none visible
+  const visible = document.querySelectorAll('.abbr-entry:not([style*="none"])').length;
+  let noResults = document.getElementById('abbrNoResults');
+  if (!visible) {
+    if (!noResults) {
+      noResults = document.createElement('p');
+      noResults.id = 'abbrNoResults';
+      noResults.className = 'text-muted';
+      noResults.style.padding = '20px 0';
+      noResults.style.textAlign = 'center';
+      document.getElementById('abbrList').appendChild(noResults);
+    }
+    noResults.textContent = `No abbreviations match "${query}"`;
+  } else if (noResults) {
+    noResults.remove();
+  }
+}
+
 /* ── Footer ─────────────────────────────────────────────────── */
 function renderFooter() {
   return `<footer class="site-footer">
@@ -617,6 +696,7 @@ function renderFooter() {
         <span>lozanon57@hotmail.com</span>
         <span>ORCID: 0000-0002-5413-8449</span>
         <span>NCCN 2025–2026 · ESMO 2024 · WSES 2025 · EASL 2024</span>
+        <a href="#/abbreviations" style="color:inherit;">📖 Abbreviations Glossary</a>
         <span>For educational use within HGUGM Surgical Residency Programme</span>
         <span>CC BY-NC 4.0</span>
       </div>
@@ -714,6 +794,7 @@ document.addEventListener('DOMContentLoaded', () => {
   TabIndicator.init();
   Knowledge.loadPearls();
   SearchEngine.buildIndex(CURRICULUM);
+  if (typeof I18N !== 'undefined') I18N.init();
   Router.init();
   registerServiceWorker();
 });

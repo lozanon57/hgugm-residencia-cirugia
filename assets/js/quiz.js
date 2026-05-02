@@ -5,6 +5,68 @@
 
 'use strict';
 
+/* ── Answer Shuffler (Fisher-Yates) ─────────────────────────── */
+/**
+ * Randomises option order on every question render.
+ * Remaps the correct answer key and all wrong-explanation keys
+ * so the quiz logic stays correct.
+ */
+function shuffleOptions(question) {
+  const entries = Object.entries(question.options || {});
+
+  // Fisher-Yates shuffle
+  for (let i = entries.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [entries[i], entries[j]] = [entries[j], entries[i]];
+  }
+
+  const newKeys = ['A', 'B', 'C', 'D'];
+  const keyMap  = {};            // old key → new key
+  const shuffledOptions = {};
+
+  entries.forEach(([oldKey, text], idx) => {
+    const newKey = newKeys[idx];
+    keyMap[oldKey] = newKey;
+    shuffledOptions[newKey] = text;
+  });
+
+  // Remap correct answer
+  const newCorrect = keyMap[question.correct] || question.correct;
+
+  // Remap wrong explanations
+  const oldWrong = (question.explanation && question.explanation.wrong) || {};
+  const newWrong = {};
+  Object.entries(oldWrong).forEach(([k, v]) => {
+    const mapped = keyMap[k];
+    if (mapped) newWrong[mapped] = v;
+  });
+
+  return {
+    ...question,
+    options: shuffledOptions,
+    correct: newCorrect,
+    _original_correct: question.correct,  // kept for spaced-repetition ID stability
+    explanation: {
+      ...question.explanation,
+      wrong: newWrong
+    }
+  };
+}
+
+/* ── Difficulty Label ────────────────────────────────────────── */
+function difficultyBadge(level) {
+  const map = {
+    1: { dots: '●○○', label: 'Foundation',    cls: 'diff-1' },
+    2: { dots: '●●○', label: 'Intermediate',  cls: 'diff-2' },
+    3: { dots: '●●●', label: 'Advanced',      cls: 'diff-3' },
+  };
+  const d = map[level] || map[1];
+  return `<span class="difficulty-badge ${d.cls}" aria-label="Difficulty: ${d.label}">
+    <span aria-hidden="true">${d.dots}</span> ${d.label}
+  </span>`;
+}
+
+/* ── Quiz Object ─────────────────────────────────────────────── */
 const Quiz = {
 
   /* ── Init ────────────────────────────────────────────────── */
@@ -12,26 +74,34 @@ const Quiz = {
     const mount = document.getElementById('quizMount');
     if (!mount) return;
 
-    const questions = chapter.consolidation && chapter.consolidation.questions;
-    if (!questions || !questions.length) {
+    const rawQuestions = chapter.consolidation && chapter.consolidation.questions;
+    if (!rawQuestions || !rawQuestions.length) {
       mount.innerHTML = `<p class="text-muted" style="text-align:center; padding:20px 0;">No questions available for this chapter yet.</p>`;
       return;
     }
 
-    this._chapter = chapter;
-    this._questions = questions;
+    this._chapter   = chapter;
+    this._rawQuestions = rawQuestions;   // original, unshuffled
+    this._questions = rawQuestions;      // will be shuffled per question
     this._currentIdx = 0;
-    this._results = [];
+    this._results    = [];
+    this._attempts   = {};               // questionId → attempt count
 
     this.renderQuestion(mount, 0);
   },
 
   /* ── Render Question ─────────────────────────────────────── */
   renderQuestion(mount, idx) {
-    const q = this._questions[idx];
-    const total = this._questions.length;
+    // Apply option shuffle on every render (randomised each time)
+    const rawQ = this._rawQuestions[idx];
+    const q    = shuffleOptions(rawQ);
 
-    const dots = this._questions.map((_, i) => {
+    // Store shuffled version for selectAnswer access
+    this._currentShuffled = q;
+
+    const total = this._rawQuestions.length;
+
+    const dots = this._rawQuestions.map((_, i) => {
       let cls = 'quiz-dot';
       if (i < this._results.length) {
         cls += this._results[i] ? ' correct' : ' wrong';
@@ -40,6 +110,8 @@ const Quiz = {
       }
       return `<div class="${cls}"></div>`;
     }).join('');
+
+    const diff = q.difficulty ? difficultyBadge(q.difficulty) : '';
 
     const optionsHtml = Object.entries(q.options || {}).map(([key, val]) =>
       `<button class="option-btn" data-key="${key}" onclick="Quiz.selectAnswer('${key}', this)">
@@ -52,7 +124,10 @@ const Quiz = {
       <div class="quiz-container" id="quizContainer">
         <div class="quiz-header">
           <span style="font-size:0.82rem; color:var(--muted); font-weight:600;">Question ${idx + 1} of ${total}</span>
-          <div class="quiz-progress-dots">${dots}</div>
+          <div class="quiz-header-right">
+            ${diff}
+            <div class="quiz-progress-dots">${dots}</div>
+          </div>
         </div>
 
         <div class="question-stem">${q.stem}</div>
@@ -88,18 +163,23 @@ const Quiz = {
             </div>` : ''}
 
           <div style="margin-top:20px; text-align:right;">
-            ${idx < this._questions.length - 1
+            ${idx < this._rawQuestions.length - 1
               ? `<button class="btn btn-primary" onclick="Quiz.nextQuestion()">Next Question →</button>`
               : `<button class="btn btn-teal" onclick="Quiz.showSummary()">See Results</button>`}
           </div>
         </div>
       </div>
     `;
+
+    // Apply abbreviation tooltips to quiz question
+    if (typeof applyAbbreviationTooltips === 'function') {
+      applyAbbreviationTooltips(mount);
+    }
   },
 
   /* ── Select Answer ───────────────────────────────────────── */
   selectAnswer(key, btn) {
-    const q = this._questions[this._currentIdx];
+    const q       = this._currentShuffled;
     const correct = q.correct;
     const isCorrect = key === correct;
 
@@ -110,6 +190,14 @@ const Quiz = {
     });
 
     this._results.push(isCorrect);
+
+    // Spaced repetition scheduling
+    const qId = q.id || `${this._chapter.id}-Q${this._currentIdx}`;
+    const attempts = (this._attempts[qId] || 0);
+    this._attempts[qId] = attempts + 1;
+    if (typeof Progress !== 'undefined' && Progress.scheduleReview) {
+      Progress.scheduleReview(qId, isCorrect, attempts);
+    }
 
     const panel = document.getElementById('explanationPanel');
     if (panel) {
@@ -127,9 +215,9 @@ const Quiz = {
 
   /* ── Show Summary ────────────────────────────────────────── */
   showSummary() {
-    const score = this._results.filter(Boolean).length;
-    const total = this._questions.length;
-    const pct = Math.round((score / total) * 100);
+    const score    = this._results.filter(Boolean).length;
+    const total    = this._rawQuestions.length;
+    const pct      = Math.round((score / total) * 100);
     const chapterId = this._chapter.id;
 
     Progress.saveQuizScore(chapterId, score, total);
@@ -165,7 +253,7 @@ const Quiz = {
   /* ── Retry ───────────────────────────────────────────────── */
   retryQuiz() {
     this._currentIdx = 0;
-    this._results = [];
+    this._results    = [];
     const mount = document.getElementById('quizMount');
     if (mount) this.renderQuestion(mount, 0);
   },

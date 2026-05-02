@@ -62,6 +62,10 @@
     </div>
 
     <div class="nav-actions">
+      <button class="lang-toggle" onclick="I18N && I18N.toggle()" aria-label="Switch language" title="Switch language EN / ES">
+        <span id="langFlag">🇬🇧</span>
+        <span id="langCode">EN</span>
+      </button>
       <button class="btn-icon" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
       <a href="#/search" class="btn-icon" title="Search" aria-label="Search">🔍</a>
     </div>
@@ -111,6 +115,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 
   <!-- ── App Scripts ───────────────────────────────────────── -->
+  <script src="assets/js/abbreviations.js"></script>
+  <script src="assets/js/i18n.js"></script>
   <script src="assets/js/progress.js"></script>
   <script src="assets/js/knowledge.js"></script>
   <script src="assets/js/reader.js"></script>
