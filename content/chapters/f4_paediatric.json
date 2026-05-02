@@ -34,14 +34,42 @@
         {
           "type": "table",
           "title": "Ladd's Procedure — Steps",
-          "headers": ["Step", "Action", "Purpose"],
+          "headers": [
+            "Step",
+            "Action",
+            "Purpose"
+          ],
           "rows": [
-            ["1. Eviscerate bowel", "Exteriorise entire small bowel to expose the SMA pedicle", "Assess viability and extent of volvulus"],
-            ["2. Detorse volvulus", "Rotate bowel COUNTERCLOCKWISE (anticlockwise) to detorse", "Restore SMA flow; allow reperfusion — assess bowel viability"],
-            ["3. Ladd's bands division", "Divide peritoneal bands (Ladd's bands) crossing duodenum from caecum/right colon to retroperitoneum", "Relieve duodenal obstruction"],
-            ["4. Broaden the mesenteric base", "Divide peritoneum at base of mesentery to widen the SMA pedicle", "Prevent recurrent volvulus"],
-            ["5. Appendicectomy", "Remove appendix (incidental)", "Prevents future diagnostic confusion (appendix now in LEFT iliac fossa)"],
-            ["6. Reposition bowel", "Small bowel to RIGHT, large bowel to LEFT — no attempt to achieve normal rotation", "Stable anatomical positioning"]
+            [
+              "1. Eviscerate bowel",
+              "Exteriorise entire small bowel to expose the SMA pedicle",
+              "Assess viability and extent of volvulus"
+            ],
+            [
+              "2. Detorse volvulus",
+              "Rotate bowel COUNTERCLOCKWISE (anticlockwise) to detorse",
+              "Restore SMA flow; allow reperfusion — assess bowel viability"
+            ],
+            [
+              "3. Ladd's bands division",
+              "Divide peritoneal bands (Ladd's bands) crossing duodenum from caecum/right colon to retroperitoneum",
+              "Relieve duodenal obstruction"
+            ],
+            [
+              "4. Broaden the mesenteric base",
+              "Divide peritoneum at base of mesentery to widen the SMA pedicle",
+              "Prevent recurrent volvulus"
+            ],
+            [
+              "5. Appendicectomy",
+              "Remove appendix (incidental)",
+              "Prevents future diagnostic confusion (appendix now in LEFT iliac fossa)"
+            ],
+            [
+              "6. Reposition bowel",
+              "Small bowel to RIGHT, large bowel to LEFT — no attempt to achieve normal rotation",
+              "Stable anatomical positioning"
+            ]
           ]
         },
         {
@@ -57,13 +85,49 @@
         {
           "type": "table",
           "title": "Bell's Staging — Necrotising Enterocolitis",
-          "headers": ["Stage", "Systemic", "Intestinal", "Radiological", "Management"],
+          "headers": [
+            "Stage",
+            "Systemic",
+            "Intestinal",
+            "Radiological",
+            "Management"
+          ],
           "rows": [
-            ["IA — Suspected NEC", "Temperature instability, apnoea, bradycardia", "Distension, vomiting, blood in stools", "Normal or mild ileus", "NBM 48h, antibiotics, TPN, frequent AXR"],
-            ["IIA — Proven NEC (mild)", "As above", "Absent bowel sounds, abdominal tenderness", "Pneumatosis intestinalis", "NBM 7–10 days, antibiotics, TPN"],
-            ["IIB — Proven NEC (moderate)", "Mild metabolic acidosis, mild thrombocytopenia", "Abdominal wall oedema/cellulitis", "Pneumatosis, portal venous gas", "As IIA + ICU monitoring"],
-            ["IIIA — Advanced NEC (no perforation)", "Mixed acidosis, DIC, oliguria, hypotension", "Peritonitis, marked tenderness", "Marked pneumatosis, ascites", "ICU maximum support; surgical consultation; may require urgent operation"],
-            ["IIIB — Advanced NEC (perforation)", "Shock, DIC", "Peritonitis, erythema", "Pneumoperitoneum", "SURGICAL — peritoneal drain vs laparotomy"]
+            [
+              "IA — Suspected NEC",
+              "Temperature instability, apnoea, bradycardia",
+              "Distension, vomiting, blood in stools",
+              "Normal or mild ileus",
+              "NBM 48h, antibiotics, TPN, frequent AXR"
+            ],
+            [
+              "IIA — Proven NEC (mild)",
+              "As above",
+              "Absent bowel sounds, abdominal tenderness",
+              "Pneumatosis intestinalis",
+              "NBM 7–10 days, antibiotics, TPN"
+            ],
+            [
+              "IIB — Proven NEC (moderate)",
+              "Mild metabolic acidosis, mild thrombocytopenia",
+              "Abdominal wall oedema/cellulitis",
+              "Pneumatosis, portal venous gas",
+              "As IIA + ICU monitoring"
+            ],
+            [
+              "IIIA — Advanced NEC (no perforation)",
+              "Mixed acidosis, DIC, oliguria, hypotension",
+              "Peritonitis, marked tenderness",
+              "Marked pneumatosis, ascites",
+              "ICU maximum support; surgical consultation; may require urgent operation"
+            ],
+            [
+              "IIIB — Advanced NEC (perforation)",
+              "Shock, DIC",
+              "Peritonitis, erythema",
+              "Pneumoperitoneum",
+              "SURGICAL — peritoneal drain vs laparotomy"
+            ]
           ]
         },
         {
@@ -101,13 +165,37 @@
         {
           "type": "table",
           "title": "Metabolic Disturbance in Pyloric Stenosis",
-          "headers": ["Parameter", "Finding", "Mechanism"],
+          "headers": [
+            "Parameter",
+            "Finding",
+            "Mechanism"
+          ],
           "rows": [
-            ["pH", "Raised (>7.45) — metabolic alkalosis", "Loss of HCl in vomit raises serum HCO3−"],
-            ["Chloride", "Low (<95 mmol/L) — hypochloraemia", "Vomit contains high HCl; renal HCO3− retention at expense of Cl−"],
-            ["Potassium", "Low (<3.5 mmol/L) — hypokalaemia", "Aldosterone-driven K+ loss in exchange for Na+ (volume depletion); HCO3−/K+ exchange"],
-            ["Sodium", "Low/normal", "Volume depletion + water retention"],
-            ["Urine pH", "Acidic (paradoxical aciduria)", "Severe K+ depletion → H+ secreted instead of K+ to reclaim Na+"]
+            [
+              "pH",
+              "Raised (>7.45) — metabolic alkalosis",
+              "Loss of HCl in vomit raises serum HCO3−"
+            ],
+            [
+              "Chloride",
+              "Low (<95 mmol/L) — hypochloraemia",
+              "Vomit contains high HCl; renal HCO3− retention at expense of Cl−"
+            ],
+            [
+              "Potassium",
+              "Low (<3.5 mmol/L) — hypokalaemia",
+              "Aldosterone-driven K+ loss in exchange for Na+ (volume depletion); HCO3−/K+ exchange"
+            ],
+            [
+              "Sodium",
+              "Low/normal",
+              "Volume depletion + water retention"
+            ],
+            [
+              "Urine pH",
+              "Acidic (paradoxical aciduria)",
+              "Severe K+ depletion → H+ secreted instead of K+ to reclaim Na+"
+            ]
           ]
         },
         {
@@ -129,16 +217,52 @@
         {
           "type": "table",
           "title": "Paediatric Appendicitis Score (PAS)",
-          "headers": ["Component", "Points", "Notes"],
+          "headers": [
+            "Component",
+            "Points",
+            "Notes"
+          ],
           "rows": [
-            ["Migration of pain to RIF", "1", "History of periumbilical → RIF migration"],
-            ["Anorexia", "1", "Clinically significant loss of appetite"],
-            ["Nausea/vomiting", "1", "Either present"],
-            ["RIF tenderness on coughing/hopping/percussion", "2", "Higher weight — indicates localised peritonism"],
-            ["Fever ≥38°C", "1", "Rectal or tympanic"],
-            ["Leukocytosis ≥10,000/µL", "1", "WBC threshold"],
-            ["RIF tenderness on direct palpation", "2", "Higher weight — most specific sign"],
-            ["TOTAL", "10", "≤2 low risk; 3–5 equivocal (image); ≥6 high risk (operate)"]
+            [
+              "Migration of pain to RIF",
+              "1",
+              "History of periumbilical → RIF migration"
+            ],
+            [
+              "Anorexia",
+              "1",
+              "Clinically significant loss of appetite"
+            ],
+            [
+              "Nausea/vomiting",
+              "1",
+              "Either present"
+            ],
+            [
+              "RIF tenderness on coughing/hopping/percussion",
+              "2",
+              "Higher weight — indicates localised peritonism"
+            ],
+            [
+              "Fever ≥38°C",
+              "1",
+              "Rectal or tympanic"
+            ],
+            [
+              "Leukocytosis ≥10,000/µL",
+              "1",
+              "WBC threshold"
+            ],
+            [
+              "RIF tenderness on direct palpation",
+              "2",
+              "Higher weight — most specific sign"
+            ],
+            [
+              "TOTAL",
+              "10",
+              "≤2 low risk; 3–5 equivocal (image); ≥6 high risk (operate)"
+            ]
           ]
         },
         {
@@ -160,15 +284,47 @@
         {
           "type": "table",
           "title": "Child Abuse — Red Flag Fracture Patterns",
-          "headers": ["Fracture Type", "Specificity for Abuse", "Notes"],
+          "headers": [
+            "Fracture Type",
+            "Specificity for Abuse",
+            "Notes"
+          ],
           "rows": [
-            ["Posterior rib fractures", "Highly specific", "Caused by grasping/squeezing chest; virtually pathognomonic for non-accidental injury"],
-            ["Metaphyseal corner (bucket handle) fractures", "Highly specific", "Caused by twisting/pulling forces; classic in infants <1 year"],
-            ["Multiple fractures at different stages of healing", "Highly specific", "Indicates repeated trauma over time"],
-            ["Spiral fractures of long bones in non-ambulant children", "High specificity", "Children <1 year cannot generate twisting force by themselves"],
-            ["Skull fractures — complex/bilateral/multiple", "Moderate specificity", "Simple linear skull fractures can occur accidentally"],
-            ["Scapular/sternal fractures", "High specificity", "Very rarely accidental in children"],
-            ["Classic accidental fractures (clavicle, toddler's tibial spiral)", "Low specificity", "Must not over-diagnose; clavicle fracture = birth trauma common"]
+            [
+              "Posterior rib fractures",
+              "Highly specific",
+              "Caused by grasping/squeezing chest; virtually pathognomonic for non-accidental injury"
+            ],
+            [
+              "Metaphyseal corner (bucket handle) fractures",
+              "Highly specific",
+              "Caused by twisting/pulling forces; classic in infants <1 year"
+            ],
+            [
+              "Multiple fractures at different stages of healing",
+              "Highly specific",
+              "Indicates repeated trauma over time"
+            ],
+            [
+              "Spiral fractures of long bones in non-ambulant children",
+              "High specificity",
+              "Children <1 year cannot generate twisting force by themselves"
+            ],
+            [
+              "Skull fractures — complex/bilateral/multiple",
+              "Moderate specificity",
+              "Simple linear skull fractures can occur accidentally"
+            ],
+            [
+              "Scapular/sternal fractures",
+              "High specificity",
+              "Very rarely accidental in children"
+            ],
+            [
+              "Classic accidental fractures (clavicle, toddler's tibial spiral)",
+              "Low specificity",
+              "Must not over-diagnose; clavicle fracture = birth trauma common"
+            ]
           ]
         },
         {
@@ -190,13 +346,55 @@
         {
           "type": "table",
           "title": "Paediatric Oncology — Key Tumours Summary",
-          "headers": ["Tumour", "Age Peak", "Tumour Marker", "Key Staging", "Surgical Role", "Chemotherapy Protocol"],
+          "headers": [
+            "Tumour",
+            "Age Peak",
+            "Tumour Marker",
+            "Key Staging",
+            "Surgical Role",
+            "Chemotherapy Protocol"
+          ],
           "rows": [
-            ["Wilms' tumour", "3–4 years", "None specific (AFP NOT elevated)", "Stages I–V (SIOP/COG)", "Nephrectomy (post-chemo in SIOP; primary in COG)", "Vincristine + Actinomycin D ± Doxorubicin"],
-            ["Neuroblastoma", "18 months", "Urinary VMA/HVA, NSE, LDH, ferritin", "INRG (Low/Intermediate/High risk)", "Resection if IDRFs resolved; adrenalectomy for adrenal primary", "Multi-agent (COJEC/OPEC) for high-risk"],
-            ["Hepatoblastoma", "<3 years", "AFP (markedly elevated)", "PRETEXT I–IV", "Resection post-chemo; liver transplant if unresectable", "SIOPEL — cisplatin-based"],
-            ["Rhabdomyosarcoma", "2–6 years; adolescents", "None (CT/MRI for local staging)", "IRS Group I–IV (local to metastatic)", "Resection if feasible (wide margin); avoid mutilating surgery pre-chemo", "VAC (vincristine, actinomycin D, cyclophosphamide)"],
-            ["Retinoblastoma", "<5 years", "None (genetic testing RB1)", "International Classification A–E", "Enucleation for advanced unilateral; eye-sparing for bilateral", "Chemoreduction + local therapy"]
+            [
+              "Wilms' tumour",
+              "3–4 years",
+              "None specific (AFP NOT elevated)",
+              "Stages I–V (SIOP/COG)",
+              "Nephrectomy (post-chemo in SIOP; primary in COG)",
+              "Vincristine + Actinomycin D ± Doxorubicin"
+            ],
+            [
+              "Neuroblastoma",
+              "18 months",
+              "Urinary VMA/HVA, NSE, LDH, ferritin",
+              "INRG (Low/Intermediate/High risk)",
+              "Resection if IDRFs resolved; adrenalectomy for adrenal primary",
+              "Multi-agent (COJEC/OPEC) for high-risk"
+            ],
+            [
+              "Hepatoblastoma",
+              "<3 years",
+              "AFP (markedly elevated)",
+              "PRETEXT I–IV",
+              "Resection post-chemo; liver transplant if unresectable",
+              "SIOPEL — cisplatin-based"
+            ],
+            [
+              "Rhabdomyosarcoma",
+              "2–6 years; adolescents",
+              "None (CT/MRI for local staging)",
+              "IRS Group I–IV (local to metastatic)",
+              "Resection if feasible (wide margin); avoid mutilating surgery pre-chemo",
+              "VAC (vincristine, actinomycin D, cyclophosphamide)"
+            ],
+            [
+              "Retinoblastoma",
+              "<5 years",
+              "None (genetic testing RB1)",
+              "International Classification A–E",
+              "Enucleation for advanced unilateral; eye-sparing for bilateral",
+              "Chemoreduction + local therapy"
+            ]
           ]
         },
         {
@@ -549,5 +747,240 @@
       "explanation": "ATLS paediatric guidelines (10th edition): initial IV fluid bolus for paediatric haemorrhagic shock = 10 mL/kg crystalloid (Hartmann's/Ringer's lactate or 0.9% saline). Weight = 14 kg; 10 mL/kg = 140 mL. This is administered rapidly (wide-bore IV or IO) over 5–10 minutes, then the child is reassessed. If response is adequate (improved BP, reduced HR, improved consciousness): continue monitoring. If no response: repeat 10 mL/kg bolus (second dose = 140 mL). If still no response after second bolus: transfuse packed red cells (10 mL/kg). This is different from the adult ATLS initial bolus (previously 20 mL/kg, now 500 mL crystalloid with permissive hypotension in penetrating trauma). In traumatic haemorrhage, damage control resuscitation with early blood products (MTP activation) is increasingly preferred over large crystalloid volumes.",
       "teaching_point": "Paediatric shock fluid bolus: 10 mL/kg crystalloid (Hartmann's or 0.9% NaCl). Reassess. Second bolus if needed (10 mL/kg). Then blood transfusion (10 mL/kg pRBC) if no response. Total weight formula: weight (kg) = (age + 4) × 2. IO access if IV fails within 60 seconds. Maximum crystalloid before blood products: 2 × 10 mL/kg then switch to blood."
     }
-  ]
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of paediatric surgery — neonatal emergencies, common presentations, and congenital anomalies with 10 clinical questions.",
+    "questions": [
+      {
+        "id": "F4-Q1",
+        "stem": "A 4-week-old male infant presents with a 2-week history of projectile non-bilious vomiting after feeds. He is irritable with a visible peristaltic wave across the upper abdomen. On palpation, an olive-shaped mass is felt in the right upper quadrant. Electrolytes show pH 7.52, sodium 128 mmol/L, chloride 88 mmol/L, potassium 3.0 mmol/L. Ultrasound shows pyloric muscle thickness 4.8mm and pyloric channel length 19mm. What is the diagnosis and the correct sequence of management?",
+        "options": {
+          "A": "Pyloric stenosis — emergency pyloromyotomy immediately",
+          "B": "Pyloric stenosis — correct hypochloraemic, hypokalaemic metabolic alkalosis first, then Ramstedt's pyloromyotomy",
+          "C": "Pyloric stenosis — treat with IV atropine as primary therapy",
+          "D": "Gastro-oesophageal reflux — proton pump inhibitor"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Hypertrophic pyloric stenosis (HPS) — diagnosis confirmed by US (pyloric thickness ≥4mm, channel length ≥16mm) and classic presentation. The metabolic alkalosis from repeated vomiting of gastric acid (HCl) must be corrected BEFORE surgery. pH 7.52 and hypochloraemia indicate significant alkalosis — IV 0.9% NaCl + potassium supplementation normalises electrolytes over 24–48h. Only after biochemical correction (pH <7.45, chloride >100, potassium >3.5) is Ramstedt's pyloromyotomy safe. This is the classic UKMLA/surgical board teaching point.",
+          "wrong": {
+            "A": "Emergency surgery without correcting metabolic alkalosis causes significant post-operative apnoea risk — alkalosis impairs central respiratory drive. The defect is not immediately life-threatening — electrolyte correction is mandatory first.",
+            "C": "IV atropine has been used to relax the pyloric spasm medically (Japan experience, some UK centres), but it requires prolonged IV administration (3–5 weeks), is less reliable than surgery, and is not standard of care in most countries.",
+            "D": "The projectile non-bilious vomiting, olive-shaped mass, peristaltic wave, and US findings confirm HPS — not GORD. GORD does not cause a palpable pyloric mass or metabolic alkalosis."
+          },
+          "guideline": "APSA Pyloric Stenosis Guidelines — electrolyte correction mandatory before surgery; Ramstedt's pyloromyotomy is curative",
+          "trial": "Schwartz MZ et al., J Pediatr Surg 1987: pre-operative electrolyte correction — post-op apnoea rate 0% when pH normalised vs 12% when alkalosis not corrected; confirms metabolic correction mandate.",
+          "pearl": "HPS biochemistry: paradoxical aciduria — despite alkalosis, the kidney initially excretes acid urine (trying to conserve Na via aldosterone); as volume depletion worsens, the kidney swaps to excreting K+ to preserve Na+, worsening hypokalaemia. Correct with 0.9% NaCl + KCl infusion. Target: chloride >100, K+ >3.5, pH <7.45, then surgery."
+        }
+      },
+      {
+        "id": "F4-Q2",
+        "stem": "A 9-month-old boy presents with intermittent episodes of drawing up his knees to his chest, crying, and then appearing well between episodes (15-minute cycles). His parents report redcurrant jelly stools. On examination, he has a sausage-shaped mass in the right upper quadrant. US shows a 'target sign' in the right abdomen. He is haemodynamically stable. What is the first-line treatment?",
+        "options": {
+          "A": "Immediate laparotomy and surgical reduction",
+          "B": "Air enema (pneumatic) or water-soluble contrast enema reduction under image guidance",
+          "C": "IV antibiotics and watchful waiting",
+          "D": "Rectal saline enema at the bedside"
+        },
+        "correct": "B",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Ileocolic intussusception in a haemodynamically stable child without peritonitis or perforation is treated by pneumatic (air) or hydrostatic (water-soluble contrast or saline) enema reduction under fluoroscopic or US guidance. Success rates are 80–95%. The classic triad: abdominal pain (episodic, colicky), redcurrant jelly stool (blood + mucus from mucosal ischaemia), and abdominal mass confirms the diagnosis.",
+          "wrong": {
+            "A": "Immediate laparotomy is reserved for: failed enema reduction, peritonitis, perforation, or haemodynamic instability. Surgery is not first-line for a stable child.",
+            "C": "IV antibiotics have no role in reducing intussusception. Watchful waiting is inappropriate — the intussusception will not reduce spontaneously in most cases, and delay risks bowel necrosis.",
+            "D": "Bedside rectal saline enemas are an older technique with low success rates. Radiologically guided pneumatic or hydrostatic reduction is the modern standard."
+          },
+          "guideline": "APSA Intussusception Management Guidelines — pneumatic/hydrostatic enema reduction as primary treatment for haemodynamically stable intussusception",
+          "trial": "Pittman-Waller VA et al., Am Surg 2000: pneumatic vs hydrostatic enema — pneumatic: 90% reduction rate; hydrostatic: 85%; pneumatic: lower perforation risk (0.4% vs 0.7%); both safe first-line.",
+          "pearl": "Intussusception reduction endpoint: free reflux of contrast/air into the terminal ileum + decompression of all bowel loops. Contraindications: peritoneal signs (perforation), haemodynamic instability, complete bowel obstruction. Recurrence after enema: 5-10% within 24-48h — watchful period after reduction. Lead point tumour (Meckel's, polyp, lymphoma) suspected if >5 years old or recurrent."
+        }
+      },
+      {
+        "id": "F4-Q3",
+        "stem": "A 2-day-old neonate presents with bilious vomiting, failure to pass meconium, and abdominal distension. AXR shows a 'double bubble' with no gas beyond the proximal duodenum. The mother had polyhydramnios during pregnancy. What is the diagnosis and management?",
+        "options": {
+          "A": "Duodenal atresia — nasogastric decompression and surgical duodenoduodenostomy",
+          "B": "Pyloric stenosis — pyloromyotomy",
+          "C": "Malrotation — Ladd's procedure",
+          "D": "Hirschsprung's disease — suction rectal biopsy"
+        },
+        "correct": "A",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Duodenal atresia: classic presentation — bilious vomiting on day 1-2, double bubble on AXR (distended stomach + duodenum with no gas beyond), polyhydramnios (inability to swallow amniotic fluid). Associated with Down syndrome (30%). Management: NG decompression, IV access, correction of fluids, then surgical duodenoduodenostomy (diamond-shaped anastomosis). Non-emergent — surgery performed after stabilisation.",
+          "wrong": {
+            "B": "Pyloric stenosis presents at 3-6 weeks with non-bilious projectile vomiting (pylorus is post-ampullary; duodenal atresia is pre/at-ampullary causing bilious vomiting). Double bubble is not pyloric stenosis.",
+            "C": "Malrotation with midgut volvulus is a paediatric emergency with bilious vomiting, but AXR shows 'double bubble with gas beyond' and US shows the whirlpool sign of volvulus. No gas beyond the duodenum confirms atresia.",
+            "D": "Hirschsprung's disease causes failure to pass meconium with progressive abdominal distension but does not produce a double bubble on AXR. Diagnosis is by suction rectal biopsy (absent ganglion cells)."
+          },
+          "guideline": "APSA Duodenal Atresia Management — NG decompression, IV fluid stabilisation, then elective duodenoduodenostomy",
+          "trial": "Adams SD et al., J Pediatr Surg 2001: duodenal atresia outcomes — laparoscopic vs open duodenoduodenostomy: equivalent; 30% association with Down syndrome; associated anomalies in 60% (cardiac most common).",
+          "pearl": "Duodenal atresia associations: Down syndrome (30%), cardiac defects (20%), VACTERL sequence, annular pancreas (30% — pancreas wraps around duodenum). Two types of anastomosis: (1) duodenoduodenostomy (preferred — diamond technique); (2) duodenojejunostomy if duodenal gap too large. Post-op: may have delayed gastric emptying for weeks (proximal duodenal dilation)."
+        }
+      },
+      {
+        "id": "F4-Q4",
+        "stem": "A 2-year-old child has constipation since birth, failure to thrive, and abdominal distension. AXR shows massive faecal loading of the sigmoid. Barium enema shows a transition zone from a narrow rectum to a dilated proximal colon. Suction rectal biopsy is performed. What finding on biopsy confirms the diagnosis of Hirschsprung's disease?",
+        "options": {
+          "A": "Increased submucosal lymphoid follicles",
+          "B": "Absence of ganglion cells in the submucosal (Meissner's) and myenteric (Auerbach's) plexuses",
+          "C": "Hypertrophy of circular muscle layer",
+          "D": "Abundant goblet cells in the mucosa"
+        },
+        "correct": "B",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Hirschsprung's disease (congenital aganglionic megacolon) results from failure of neural crest cell migration to the rectosigmoid (most common, 75%) or more proximal colon. The diagnostic hallmark is ABSENCE of ganglion cells in the submucosal (Meissner's) and myenteric (Auerbach's) plexuses. AChE staining shows excess acetylcholinesterase-positive nerve fibres (hypertrophy of unmyelinated nerve fibres in the absence of ganglion cells).",
+          "wrong": {
+            "A": "Submucosal lymphoid follicles are normal colonic findings and are not related to Hirschsprung's disease.",
+            "C": "Circular muscle hypertrophy may be present but is not the diagnostic histological criterion. Absence of ganglion cells is the defining feature.",
+            "D": "Goblet cells are normal colonic mucosa components. Their quantity does not diagnose Hirschsprung's disease."
+          },
+          "guideline": "APSA Hirschsprung's Disease Management Guidelines — suction rectal biopsy: absence of ganglion cells + AChE staining for diagnosis",
+          "trial": "Langer JC et al., J Pediatr Surg 2017: one-stage vs staged pull-through for Hirschsprung's — one-stage (neonatal): equivalent outcomes; Swenson, Soave, or Duhamel pull-through all acceptable; laparoscopic-assisted preferred.",
+          "pearl": "Hirschsprung's-associated enterocolitis (HAEC): life-threatening complication (explosive diarrhoea, fever, abdominal distension) — treat with rectal washouts (irrigation) + IV antibiotics + NG decompression. HAEC can occur pre- or post-pull-through. The aganglionic segment retains abnormal motility and causes bacterial overgrowth."
+        }
+      },
+      {
+        "id": "F4-Q5",
+        "stem": "A 3-year-old girl has a 3-month history of haematuria and an enlarging left-sided abdominal mass crossing the midline. CT shows a heterogeneous 8cm renal mass with areas of calcification and no clear tissue planes with the left kidney. Chest CT is clear. What is the most likely diagnosis and recommended treatment?",
+        "options": {
+          "A": "Renal abscess — percutaneous drainage and antibiotics",
+          "B": "Neuroblastoma — resection without preoperative chemotherapy",
+          "C": "Wilms tumour (nephroblastoma) — preoperative chemotherapy (SIOP protocol) followed by nephrectomy",
+          "D": "Clear cell renal carcinoma — immediate radical nephrectomy"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Wilms tumour (nephroblastoma) is the commonest renal tumour in children (peak age 3-4 years). Haematuria + abdominal mass is classic. CT features: intrinsic renal mass. European (SIOP) protocol: preoperative chemotherapy (actinomycin D + vincristine × 4 weeks for unilateral disease) to downstage the tumour before nephrectomy — reduces surgical complications and improves staging accuracy. The COG (North American) protocol favours primary nephrectomy then adjuvant chemotherapy.",
+          "wrong": {
+            "A": "Renal abscess presents with fever, flank pain, and raised inflammatory markers. A 3-month history of a growing mass without systemic infection features is not an abscess.",
+            "B": "Neuroblastoma arises from the adrenal gland/sympathetic chain (not intrinsic to the kidney), calcifies more commonly, and may cross the midline from the retroperitoneum. Urine catecholamines (VMA, HVA) are elevated. Treatment involves chemotherapy but the protocol differs from Wilms.",
+            "D": "Clear cell renal carcinoma is extremely rare in young children. The age, mass characteristics, and haematuria are classic for Wilms tumour."
+          },
+          "guideline": "SIOP/UKCCSG Nephroblastoma Treatment Protocol — preoperative chemotherapy for unilateral Wilms before nephrectomy in the SIOP system",
+          "trial": "Mitchell C et al., J Clin Oncol 2006: SIOP-2001 — preoperative chemotherapy for Wilms: stage III rates reduced from 28% to 18%; fewer complete tumour ruptures at surgery; equivalent 5-yr EFS (~90%).",
+          "pearl": "Wilms tumour associations: WAGR syndrome (Wilms, Aniridia, Genitourinary anomalies, Range of intellectual disabilities), Beckwith-Wiedemann syndrome (overgrowth, macroglossia, omphalocele), Denys-Drash syndrome. Bilateral Wilms (5-10%): treated with bilateral nephron-sparing surgery. 5-year OS overall: 90%. Most common presentation: asymptomatic abdominal mass discovered by parents during bathing."
+        }
+      },
+      {
+        "id": "F4-Q6",
+        "stem": "A 6-week-old premature male infant (born at 28 weeks gestation, now corrected age 36 weeks) develops feeding intolerance, abdominal distension, bloody stools, and bilious aspirates. AXR shows pneumatosis intestinalis and portal venous gas. He is in haemodynamic shock (BP 45/25, HR 192). What is the diagnosis and management?",
+        "options": {
+          "A": "Hirschsprung's enterocolitis — rectal washouts and antibiotics",
+          "B": "Necrotising enterocolitis (NEC) Stage III (Bell's) — emergency laparotomy and bowel resection of non-viable segments",
+          "C": "Spontaneous intestinal perforation — peritoneal drain insertion",
+          "D": "Meconium ileus — Gastrografin enema"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Necrotising enterocolitis (NEC) Stage III (Bell's classification) — intestinal perforation or septic shock with radiological evidence (pneumatosis, portal gas): emergency laparotomy. The entire bowel is inspected, all non-viable bowel resected, and stomas fashioned (anastomosis is avoided in the sick premature infant). Peritoneal drain (primary peritoneal drainage) is an alternative as a bridge to laparotomy in the extremely premature infant weighing <1000g.",
+          "wrong": {
+            "A": "Hirschsprung's enterocolitis causes fever, abdominal distension, explosive diarrhoea — but does not typically cause pneumatosis intestinalis in a 28-week premature infant. NEC is the diagnosis here.",
+            "C": "Spontaneous intestinal perforation (SIP) in prematurity can be managed with peritoneal drainage alone, but NEC Stage IIIB (with pneumatosis and portal gas) typically requires laparotomy to resect the non-viable bowel.",
+            "D": "Meconium ileus presents at birth with failure to pass meconium and AXR showing microcolon. Gastrografin enema reduces the inspissated meconium. This 6-week premature infant with pneumatosis has NEC, not meconium ileus."
+          },
+          "guideline": "ESPGHAN NEC Guidelines 2021 — Bell's Stage III NEC: emergency laparotomy; PPD as bridge for <1000g infants",
+          "trial": "Moss RL et al., NEJM 2006: laparotomy vs PPD for NEC — equivalent 90-day survival; PPD allows stabilisation before laparotomy; most PPD patients require subsequent laparotomy.",
+          "pearl": "Bell's NEC classification: Stage I = clinical signs (temperature instability, apnoea, bradycardia) + feeding intolerance; Stage II = above + pneumatosis intestinalis (II-A) or portal gas (II-B); Stage III = above + intestinal perforation (III-B) or shock (III-A). Stage I-II: medical management (bowel rest, antibiotics, TPN). Stage III: surgery."
+        }
+      },
+      {
+        "id": "F4-Q7",
+        "stem": "A 2-week-old female neonate has been diagnosed with gastroschisis (intestines herniated through a paraumbilical defect, no sac) on antenatal ultrasound and delivered electively at 37 weeks. At birth, the bowel is exposed and oedematous. What is the immediate management at delivery?",
+        "options": {
+          "A": "Wrap exposed bowel in saline-soaked gauze, insert NG tube, IV access, bowel placed in a silo if primary closure not possible",
+          "B": "Cover with clingfilm and refer to plastic surgery for skin graft",
+          "C": "Apply hypertonic solution dressings to reduce bowel oedema before surgical repair",
+          "D": "Primary surgical closure in theatre within 2 hours"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Gastroschisis at delivery requires immediate: (1) wrap exposed bowel in warm, saline-soaked sterile gauze (prevent evaporative heat/fluid loss); (2) insert NG tube for decompression; (3) IV access for fluid resuscitation (significant third-space loss from exposed bowel); (4) transfer to neonatal surgical centre. Primary surgical closure under anaesthesia is attempted — if bowel too oedematous, a silo (spring-loaded or sutured) is placed and the bowel slowly reduced over 5-7 days.",
+          "wrong": {
+            "B": "Clingfilm is actually used as a temporary dressing for burns and gastroschisis in some units (prevents evaporative loss and provides visible inspection), but referral to plastic surgery for skin graft is not the management for gastroschisis.",
+            "C": "Hypertonic solutions are contraindicated on exposed bowel — they cause mucosal damage. Isotonic saline-soaked gauze maintains moisture without damaging the intestinal mucosa.",
+            "D": "Immediate surgical closure without resuscitation risks hypothermia and haemodynamic instability. Some units do perform 'immediate closure' but this requires full neonatal resuscitation, anaesthesia team, and is not done without preparation."
+          },
+          "guideline": "BAPM/BAPS Gastroschisis Guidelines — immediate bowel protection, resuscitation, silo if primary closure not possible",
+          "trial": "Driver CP et al., Pediatr Surg Int 2000: silo vs primary closure for gastroschisis — silo allows gradual reduction without abdominal compartment syndrome; equivalent long-term outcomes; preferred for matted/oedematous bowel.",
+          "pearl": "Gastroschisis vs omphalocele: Gastroschisis = right of umbilicus, no peritoneal sac, bowel directly exposed (matted, oedematous from amniotic fluid exposure), NOT associated with chromosomal abnormalities. Omphalocele = at umbilicus, has peritoneal sac, associated with chromosomal abnormalities (Trisomy 18, 13) and syndromes (Beckwith-Wiedemann). Management and prognosis differ significantly."
+        }
+      },
+      {
+        "id": "F4-Q8",
+        "stem": "A 6-month-old male infant presents with sudden onset bilious vomiting and colicky pain. AXR shows dilated small bowel with air-fluid levels. Upper GI series with contrast shows the duodenojejunal junction (DJ) to the RIGHT of the spine. Doppler US shows the superior mesenteric vein (SMV) to the LEFT of the SMA. What is the diagnosis and required management?",
+        "options": {
+          "A": "Normal variant — DJ junction position varies; reassure",
+          "B": "Malrotation with midgut volvulus — emergency Ladd's procedure",
+          "C": "Jejunal atresia — elective surgical repair",
+          "D": "Meckel's diverticulum — laparoscopy"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Malrotation (DJ junction right of midline, SMV left of SMA — reversed SMA-SMV relationship) with midgut volvulus is a paediatric surgical emergency. Without rapid surgical intervention, the entire midgut (from Treitz to mid-transverse colon) can infarct within hours. Emergency Ladd's procedure: (1) untwist the volvulus (anti-clockwise); (2) divide Ladd's bands (peritoneal bands from caecum crossing the duodenum); (3) broaden the mesenteric base; (4) appendicectomy (place colon on left, small bowel on right).",
+          "wrong": {
+            "A": "The DJ junction to the right of the spine and reversed SMA-SMV relationship on US are diagnostic of malrotation — this is NOT a normal variant. It requires emergency surgery.",
+            "C": "Jejunal atresia presents in neonates with bilious vomiting and fixed small bowel loops on AXR. The upper GI series showing DJ junction position and reversed SMA-SMV confirms malrotation.",
+            "D": "Meckel's diverticulum does not cause the radiological findings described. Laparoscopy is not the emergency management for malrotation with volvulus."
+          },
+          "guideline": "APSA Malrotation Management — Ladd's procedure for malrotation; emergency surgery for volvulus",
+          "trial": "Drewett M et al., J Pediatr Surg 2016: malrotation without volvulus — laparoscopic vs open Ladd's: equivalent; malrotation with volvulus: open emergency procedure given bowel viability uncertainty.",
+          "pearl": "The 'Whirlpool sign' on US: twisted mesenteric vessels (SMV rotating around SMA) = volvulus. Sensitivity 85% for midgut volvulus. Upper GI series: DJ junction should be at the LEFT of T12 vertebral body at the same level as the duodenal bulb. Any deviation right of the spine = malrotation. Do NOT delay upper GI series in a vomiting infant — malrotation is the diagnosis until excluded."
+        }
+      },
+      {
+        "id": "F4-Q9",
+        "stem": "A 3-year-old girl presents to the paediatric surgical clinic with a right inguinal hernia noticed by her parents. She has had one episode of painful groin swelling that resolved spontaneously. On examination, an inguinal bulge is present and reducible. There are no acute symptoms today. What is the recommended management?",
+        "options": {
+          "A": "Elective inguinal herniotomy (without mesh) within weeks — urgent given history of incarceration",
+          "B": "CT scan to assess hernia contents before planning surgery",
+          "C": "Wait until school age (6 years) for elective repair",
+          "D": "Reassure — inguinal hernias in girls resolve spontaneously"
+        },
+        "correct": "A",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Paediatric inguinal hernias do not resolve spontaneously and require surgical repair. The history of a painful, temporarily non-reducible episode indicates a prior incarceration episode — significantly increasing the urgency. Repair should be expedited (within 1-2 weeks) rather than waiting. Paediatric inguinal herniotomy involves high ligation of the patent processus vaginalis (PPV) — no mesh is used in children. In girls, an ovary may be present in the hernia sac (inguinal ovary) and must be reduced before repair.",
+          "wrong": {
+            "B": "CT is not required for straightforward inguinal hernia assessment. Clinical examination is sufficient. Ultrasound may be used to assess ovarian position in girls if needed.",
+            "C": "Waiting until school age is inappropriate given the prior incarceration episode. Incarceration risk justifies early elective repair within weeks.",
+            "D": "Unlike umbilical hernias in children, inguinal hernias do NOT resolve spontaneously. They require surgical repair — the risk of incarceration is 5-30% in the first year of life, declining with age."
+          },
+          "guideline": "APSA Paediatric Inguinal Hernia Guidelines — surgical repair required for all inguinal hernias in children; herniotomy (no mesh); urgency increased after incarceration",
+          "trial": "Bronsther B et al., Ann Surg 1972: incarceration rate in inguinal hernia — infants <1yr: 30%; increases morbidity; early elective repair reduces incarceration risk. Laparoscopic herniotomy: equivalent to open in experienced hands.",
+          "pearl": "Paediatric inguinal hernia: caused by patent processus vaginalis (PPV). Girls: up to 20% contain an ovary (inguinal ovary) — do NOT excise ovarian tissue. In girls: always consider androgen insensitivity syndrome (AIS) if bilateral inguinal masses (testes in phenotypic female). Contralateral PPV: may be assessed laparoscopically through the ipsilateral port during repair."
+        }
+      },
+      {
+        "id": "F4-Q10",
+        "stem": "A neonate is delivered at 36 weeks with prenatal diagnosis of omphalocele. At delivery, a 6cm defect is present with the liver and bowel contained within a sac of amnion and peritoneum. The sac is intact. What is the key initial management priority that differs from gastroschisis?",
+        "options": {
+          "A": "Immediate silo application — identical management to gastroschisis",
+          "B": "Topical silver sulphadiazine and elective repair at 6 months",
+          "C": "Emergency laparotomy and primary fascial closure within 2 hours",
+          "D": "Cardiac echocardiography and chromosomal karyotyping before surgical planning — assess for associated anomalies"
+        },
+        "correct": "D",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Omphalocele is strongly associated with chromosomal abnormalities (Trisomy 18 — 50% if no liver; Trisomy 13, Beckwith-Wiedemann syndrome) and cardiac defects (30–50%). Unlike gastroschisis (isolated, no chromosomal association), omphalocele management requires echocardiography (cardiac anomaly detection) and chromosomal analysis before surgical planning. An intact sac provides bowel protection — the priority is investigation, not emergency surgery. The sac is treated with antiseptic agents (silver nitrate or sulfadiazine) allowing 'escharification' while investigations proceed.",
+          "wrong": {
+            "A": "Gastroschisis management (silo) is for exposed, unprotected bowel. Omphalocele has an intact protective sac — silo application is not immediately required.",
+            "B": "Topical silver sulphadiazine and elective repair at 6 months is an acceptable management strategy for giant omphalocele (liver-containing) but this ignores the critical priority of investigating associated anomalies first.",
+            "C": "Emergency surgery is not required for intact sac omphalocele — the sac protects the bowel. Investigations for associated anomalies take priority and guide surgical planning and prognosis discussion."
+          },
+          "guideline": "BAPS Omphalocele Guidelines — investigate cardiac and chromosomal anomalies before surgery; intact sac provides protection; management stratified by sac size and associated conditions",
+          "trial": "Ledbetter DJ et al., Pediatr Surg Int 2012: omphalocele outcomes — 50% have cardiac defects; chromosomal anomalies in 30-50% (liver-containing omphalocele: lower chromosomal anomaly rate); early investigation changes management and counselling.",
+          "pearl": "Omphalocele vs gastroschisis key differences: Omphalocele: at umbilicus, peritoneal sac, associated anomalies (cardiac, chromosomal, Beckwith-Wiedemann), Gastroschisis: right paraumbilical, no sac, isolated (no chromosomal anomalies), bowel exposed and thickened. Surgical approach: omphalocele — primary closure (small), staged silo + delayed fascial closure (large/liver-containing), escharification (topical treatment) for giant omphalocele."
+        }
+      }
+    ]
+  }
 }

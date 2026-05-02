@@ -34,11 +34,35 @@
         {
           "type": "table",
           "title": "NRS-2002 — Scoring System",
-          "headers": ["Component", "Score 0", "Score 1", "Score 2", "Score 3"],
+          "headers": [
+            "Component",
+            "Score 0",
+            "Score 1",
+            "Score 2",
+            "Score 3"
+          ],
           "rows": [
-            ["Nutritional Status", "Normal nutritional status", "Weight loss >5% in 3 months OR food intake 50–75% of normal in past week", "Weight loss >5% in 2 months OR BMI 18.5–20.5 + poor condition OR food intake 25–50% of normal", "Weight loss >5% in 1 month (>15% in 3 months) OR BMI <18.5 + poor condition OR food intake 0–25% of normal"],
-            ["Disease Severity", "Normal nutritional requirements", "Hip fracture, chronic illness with acute complication (cirrhosis, COPD, haemodialysis, diabetes, oncology)", "Major abdominal surgery, stroke, severe pneumonia, haematological malignancy", "Head injury, bone marrow transplant, ICU patients (APACHE >10)"],
-            ["Age Adjustment", "N/A", "+1 if age ≥70 years", "N/A", "N/A"]
+            [
+              "Nutritional Status",
+              "Normal nutritional status",
+              "Weight loss >5% in 3 months OR food intake 50–75% of normal in past week",
+              "Weight loss >5% in 2 months OR BMI 18.5–20.5 + poor condition OR food intake 25–50% of normal",
+              "Weight loss >5% in 1 month (>15% in 3 months) OR BMI <18.5 + poor condition OR food intake 0–25% of normal"
+            ],
+            [
+              "Disease Severity",
+              "Normal nutritional requirements",
+              "Hip fracture, chronic illness with acute complication (cirrhosis, COPD, haemodialysis, diabetes, oncology)",
+              "Major abdominal surgery, stroke, severe pneumonia, haematological malignancy",
+              "Head injury, bone marrow transplant, ICU patients (APACHE >10)"
+            ],
+            [
+              "Age Adjustment",
+              "N/A",
+              "+1 if age ≥70 years",
+              "N/A",
+              "N/A"
+            ]
           ]
         },
         {
@@ -82,13 +106,49 @@
         {
           "type": "table",
           "title": "Enteral Access Routes — Summary",
-          "headers": ["Route", "Duration", "Indications", "Contraindications", "Complications"],
+          "headers": [
+            "Route",
+            "Duration",
+            "Indications",
+            "Contraindications",
+            "Complications"
+          ],
           "rows": [
-            ["Nasogastric (NGT)", "<4–6 weeks", "Short-term EN, intact gag reflex, low aspiration risk", "High aspiration risk, gastroparesis (relative)", "Misplacement (bronchial), aspiration, sinusitis"],
-            ["Nasojejunal (NJT)", "<4–6 weeks", "High aspiration risk, gastroparesis, post-pyloric feeding needed", "None absolute; requires fluoroscopy/endoscopy for placement", "Misplacement, tube migration back to stomach"],
-            ["PEG", ">4–6 weeks", "Neurological dysphagia, head/neck cancer, long-term EN", "Inability to transilluminate, coagulopathy, ascites, obstructed stomach, peritoneal dialysis", "Buried bumper syndrome, leakage, infection, aspiration"],
-            ["Surgical jejunostomy", ">4 weeks (post-major GI surgery)", "Post-oesophagectomy/gastrectomy, early post-op EN, anastomotic leak", "Short mesentery (technical), poor nutritional state precluding surgery", "Volvulus around tube, tube dislodgement, intestinal fistula"],
-            ["PEJ", ">4–6 weeks", "Gastroparesis, gastric outlet obstruction", "As PEG + poor jejunal access", "Dislodgement, obstruction"]
+            [
+              "Nasogastric (NGT)",
+              "<4–6 weeks",
+              "Short-term EN, intact gag reflex, low aspiration risk",
+              "High aspiration risk, gastroparesis (relative)",
+              "Misplacement (bronchial), aspiration, sinusitis"
+            ],
+            [
+              "Nasojejunal (NJT)",
+              "<4–6 weeks",
+              "High aspiration risk, gastroparesis, post-pyloric feeding needed",
+              "None absolute; requires fluoroscopy/endoscopy for placement",
+              "Misplacement, tube migration back to stomach"
+            ],
+            [
+              "PEG",
+              ">4–6 weeks",
+              "Neurological dysphagia, head/neck cancer, long-term EN",
+              "Inability to transilluminate, coagulopathy, ascites, obstructed stomach, peritoneal dialysis",
+              "Buried bumper syndrome, leakage, infection, aspiration"
+            ],
+            [
+              "Surgical jejunostomy",
+              ">4 weeks (post-major GI surgery)",
+              "Post-oesophagectomy/gastrectomy, early post-op EN, anastomotic leak",
+              "Short mesentery (technical), poor nutritional state precluding surgery",
+              "Volvulus around tube, tube dislodgement, intestinal fistula"
+            ],
+            [
+              "PEJ",
+              ">4–6 weeks",
+              "Gastroparesis, gastric outlet obstruction",
+              "As PEG + poor jejunal access",
+              "Dislodgement, obstruction"
+            ]
           ]
         },
         {
@@ -110,16 +170,52 @@
         {
           "type": "table",
           "title": "CLABSI Prevention Bundle",
-          "headers": ["Element", "Specific Action", "Evidence Level"],
+          "headers": [
+            "Element",
+            "Specific Action",
+            "Evidence Level"
+          ],
           "rows": [
-            ["Hand hygiene", "Handwashing + alcohol gel before and after CVC handling", "Level I"],
-            ["Chlorhexidine skin antisepsis", "2% chlorhexidine-alcohol skin prep; 30-second scrub; allow to dry", "Level I"],
-            ["Maximal sterile barrier", "Full gown, gloves, mask, cap, full body drape during CVC insertion", "Level I"],
-            ["Optimal insertion site", "Subclavian preferred (lowest CLABSI); femoral highest risk; avoid if possible", "Level II"],
-            ["Port access antisepsis", "'Scrub the hub' — 15s alcohol wipe before every port access", "Level I"],
-            ["Daily line review", "Remove CVC as soon as clinically no longer needed", "Level I"],
-            ["Chlorhexidine dressings", "Biopatch/chlorhexidine-impregnated dressing at insertion site", "Level II"],
-            ["Closed system connectors", "Needleless connectors — change every 96h", "Level II"]
+            [
+              "Hand hygiene",
+              "Handwashing + alcohol gel before and after CVC handling",
+              "Level I"
+            ],
+            [
+              "Chlorhexidine skin antisepsis",
+              "2% chlorhexidine-alcohol skin prep; 30-second scrub; allow to dry",
+              "Level I"
+            ],
+            [
+              "Maximal sterile barrier",
+              "Full gown, gloves, mask, cap, full body drape during CVC insertion",
+              "Level I"
+            ],
+            [
+              "Optimal insertion site",
+              "Subclavian preferred (lowest CLABSI); femoral highest risk; avoid if possible",
+              "Level II"
+            ],
+            [
+              "Port access antisepsis",
+              "'Scrub the hub' — 15s alcohol wipe before every port access",
+              "Level I"
+            ],
+            [
+              "Daily line review",
+              "Remove CVC as soon as clinically no longer needed",
+              "Level I"
+            ],
+            [
+              "Chlorhexidine dressings",
+              "Biopatch/chlorhexidine-impregnated dressing at insertion site",
+              "Level II"
+            ],
+            [
+              "Closed system connectors",
+              "Needleless connectors — change every 96h",
+              "Level II"
+            ]
           ]
         },
         {
@@ -141,12 +237,32 @@
         {
           "type": "table",
           "title": "Refeeding Syndrome — At-Risk Criteria (NICE CG32)",
-          "headers": ["Risk Level", "Criteria", "Action"],
+          "headers": [
+            "Risk Level",
+            "Criteria",
+            "Action"
+          ],
           "rows": [
-            ["HIGH RISK (≥1 major factor)", "BMI <16; weight loss >15% in 3–6 months; intake negligible >10 days; low K+/phosphate/Mg2+ before feeding", "Start at 5–10 kcal/kg/day; thiamine before feeding; daily electrolytes; cardiac monitoring"],
-            ["AT RISK (≥2 minor factors)", "BMI 16–18.5; weight loss 10–15%; intake negligible >5 days; history of alcohol; drugs (insulin/diuretics/chemotherapy)", "Start at 10 kcal/kg/day; thiamine before feeding; electrolytes 3×/week"],
-            ["LOW RISK", "None of the above", "Standard feeding; monitor clinically"],
-            ["ELECTROLYTE THRESHOLD", "Phosphate <0.50 mmol/L OR K+ <2.5 mmol/L OR Mg2+ <0.40 mmol/L", "STOP or hold nutrition temporarily; urgent IV correction; resume at lower rate when corrected"]
+            [
+              "HIGH RISK (≥1 major factor)",
+              "BMI <16; weight loss >15% in 3–6 months; intake negligible >10 days; low K+/phosphate/Mg2+ before feeding",
+              "Start at 5–10 kcal/kg/day; thiamine before feeding; daily electrolytes; cardiac monitoring"
+            ],
+            [
+              "AT RISK (≥2 minor factors)",
+              "BMI 16–18.5; weight loss 10–15%; intake negligible >5 days; history of alcohol; drugs (insulin/diuretics/chemotherapy)",
+              "Start at 10 kcal/kg/day; thiamine before feeding; electrolytes 3×/week"
+            ],
+            [
+              "LOW RISK",
+              "None of the above",
+              "Standard feeding; monitor clinically"
+            ],
+            [
+              "ELECTROLYTE THRESHOLD",
+              "Phosphate <0.50 mmol/L OR K+ <2.5 mmol/L OR Mg2+ <0.40 mmol/L",
+              "STOP or hold nutrition temporarily; urgent IV correction; resume at lower rate when corrected"
+            ]
           ]
         },
         {
@@ -168,14 +284,56 @@
         {
           "type": "table",
           "title": "Nutritional Strategy by Surgical Condition",
-          "headers": ["Operation", "Standard Route", "Start Time", "Key ERAS Points", "Special Considerations"],
+          "headers": [
+            "Operation",
+            "Standard Route",
+            "Start Time",
+            "Key ERAS Points",
+            "Special Considerations"
+          ],
           "rows": [
-            ["Oesophagectomy", "Surgical jejunostomy", "Within 6–12h post-op", "Oral diet Day 3–5 after contrast swallow", "Continue jejunostomy 6 weeks; contrast study before oral fluids"],
-            ["Gastrectomy (total)", "Surgical jejunostomy or NJT", "Within 24h post-op", "Oral diet Day 4–5 after contrast swallow", "Vitamin B12 deficiency long-term — injection every 3 months"],
-            ["Colonic resection (laparoscopic)", "Oral diet", "Within 4h of surgery", "No routine NGT; no routine jejunostomy", "High-protein diet; oral supplements if <60% intake"],
-            ["Pancreaticoduodenectomy (Whipple)", "Oral diet (ERAS Day 1)", "ERAS Day 1 — oral", "NJT or supplements if oral insufficient", "Pancreatic exocrine insufficiency — PERT (enzyme replacement); DM monitoring"],
-            ["Liver resection", "Oral diet (ERAS Day 1–2)", "ERAS Day 1–2", "Branched-chain amino acids if cirrhotic", "Hypoglycaemia monitoring; glucose infusion first 24h if major hepatectomy"],
-            ["ICU (critical illness)", "Enteral (NGT/NJT)", "Within 24–48h of ICU admission", "Permissive underfeeding (40–60%) Days 1–3; full nutrition Day 4–7", "Full protein from Day 1 (1.5–2.0 g/kg); avoid early PN if EN feasible"]
+            [
+              "Oesophagectomy",
+              "Surgical jejunostomy",
+              "Within 6–12h post-op",
+              "Oral diet Day 3–5 after contrast swallow",
+              "Continue jejunostomy 6 weeks; contrast study before oral fluids"
+            ],
+            [
+              "Gastrectomy (total)",
+              "Surgical jejunostomy or NJT",
+              "Within 24h post-op",
+              "Oral diet Day 4–5 after contrast swallow",
+              "Vitamin B12 deficiency long-term — injection every 3 months"
+            ],
+            [
+              "Colonic resection (laparoscopic)",
+              "Oral diet",
+              "Within 4h of surgery",
+              "No routine NGT; no routine jejunostomy",
+              "High-protein diet; oral supplements if <60% intake"
+            ],
+            [
+              "Pancreaticoduodenectomy (Whipple)",
+              "Oral diet (ERAS Day 1)",
+              "ERAS Day 1 — oral",
+              "NJT or supplements if oral insufficient",
+              "Pancreatic exocrine insufficiency — PERT (enzyme replacement); DM monitoring"
+            ],
+            [
+              "Liver resection",
+              "Oral diet (ERAS Day 1–2)",
+              "ERAS Day 1–2",
+              "Branched-chain amino acids if cirrhotic",
+              "Hypoglycaemia monitoring; glucose infusion first 24h if major hepatectomy"
+            ],
+            [
+              "ICU (critical illness)",
+              "Enteral (NGT/NJT)",
+              "Within 24–48h of ICU admission",
+              "Permissive underfeeding (40–60%) Days 1–3; full nutrition Day 4–7",
+              "Full protein from Day 1 (1.5–2.0 g/kg); avoid early PN if EN feasible"
+            ]
           ]
         },
         {
@@ -540,5 +698,240 @@
       "explanation": "This patient has laboratory features of refeeding syndrome: severe hypophosphataemia (0.38 mmol/L <0.5 mmol/L threshold), hypokalaemia (2.6 mmol/L), hypomagnesaemia (0.52 mmol/L, threshold 0.6 mmol/L) with clinical features (tachycardia, confusion). NICE CG32 management: (1) STOP or significantly reduce nutritional feeding to allow electrolyte correction; (2) Give IV Pabrinex (thiamine + B vitamins) immediately — confusion may represent Wernicke's encephalopathy; (3) CORRECT PHOSPHATE first (most critical — phosphate <0.5 is life-threatening; IV Phosphate-Sandoz or IV phosphate infusion as per protocol); (4) Correct potassium (IV KCl) and magnesium (IV MgSO4) simultaneously; (5) ECG monitoring for arrhythmias; (6) Resume EN at REDUCED RATE once phosphate >0.6 mmol/L; advance slowly (NICE: do not exceed 5 kcal/kg/day increase per 2–3 days). Option E (potassium first) is incorrect — phosphate is the priority in true refeeding syndrome as it is the hallmark electrolyte and is most immediately life-threatening at <0.5 mmol/L.",
       "teaching_point": "Refeeding syndrome management sequence: (1) STOP EN; (2) IV Pabrinex IMMEDIATELY (thiamine before any carbohydrate); (3) Correct PHOSPHATE first (IV — most critical); (4) Correct K+ and Mg2+ simultaneously; (5) ECG monitoring; (6) Resume EN at reduced rate when phosphate >0.6 mmol/L. Phosphate threshold for STOPPING EN: <0.5 mmol/L (severe) → stop, correct, restart slowly. Never restart EN until phosphate corrected."
     }
-  ]
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of surgical nutrition — assessment tools, enteral and parenteral support with 10 clinical questions.",
+    "questions": [
+      {
+        "id": "G2-Q1",
+        "stem": "A 68-year-old man is admitted for emergency sigmoid colectomy for perforated diverticulitis. Pre-operatively, he has had no oral intake for 5 days, has lost 6kg over 2 months, and has a serum albumin of 22 g/L (normal 35-50). His BMI is 18.5. NRS-2002 score is being calculated. Which NRS-2002 score component most accurately captures his nutritional risk?",
+        "options": {
+          "A": "Nutritional status score 2 (moderate — weight loss >5% in 2 months or food intake 25-50% normal)",
+          "B": "Disease severity score 3 (ICU, major head injury)",
+          "C": "Nutritional status score 1 (mild — weight loss >5% in 3 months or BMI <20.5)",
+          "D": "Nutritional status score 3 (severe — weight loss >5% in 1 week, BMI <18.5, OR severely reduced intake)"
+        },
+        "correct": "D",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "NRS-2002 nutritional status score 3 (severe) requires ONE of: weight loss >5% in 1 week, OR BMI <18.5 + impaired general condition, OR food intake 0-25% of normal. This patient has: BMI 18.5 (borderline), albumen 22 g/L (hypoalbuminaemia as malnutrition marker), 6kg loss over 2 months (>5% over 2 months = score 2 component), and 5 days of no oral intake (0% intake). The combination and albumin 22 g/L indicating severe malnutrition place him in score 3.",
+          "wrong": {
+            "A": "Score 2 (moderate) applies to weight loss >5% in 2 months or food intake 25-50%. The 6kg/2-month weight loss does meet score 2, but the BMI <18.5 + albumin 22 + complete fasting indicate score 3.",
+            "B": "Disease severity score 3 is for ICU/major head injury — not for emergency abdominal surgery. Emergency surgery = disease severity score 2 in NRS-2002.",
+            "C": "Score 1 underestimates the severity. Weight loss >5% in 3 months alone = score 1. This patient has more severe indicators (BMI <18.5, albumin 22, complete fasting)."
+          },
+          "guideline": "ESPEN NRS-2002 Nutritional Risk Screening Tool — NRS-2002 ≥3 = nutritional risk requiring intervention",
+          "trial": "Kondrup J et al., Clin Nutr 2003: NRS-2002 validation — score ≥3: nutritional support reduces complication rates; score <3: nutritional support does not improve outcomes. 128 RCTs validated the tool.",
+          "pearl": "NRS-2002 total score = Nutritional status score (0-3) + Disease severity score (0-3) + 1 if age ≥70. Total ≥3 = at nutritional risk → start nutritional support. Nutritional status score 3 = BMI <18.5 + impaired condition OR >5% weight loss in 1 week OR <25% food intake for >1 week."
+        }
+      },
+      {
+        "id": "G2-Q2",
+        "stem": "A 55-year-old woman who weighs 60kg is recovering in the ICU after emergency bowel resection for mesenteric ischaemia. She has a 45cm jejunal remnant with intact colon and has been on TPN for 5 days. She is now haemodynamically stable and ready to start enteral nutrition. What is the most appropriate initial enteral nutrition approach?",
+        "options": {
+          "A": "No enteral nutrition possible with 45cm jejunum — continue TPN indefinitely",
+          "B": "Start full-dose enteral nutrition at 25 kcal/kg/day immediately",
+          "C": "Introduce enteral nutrition at 10-20 mL/hour and advance slowly over 48-72h while monitoring for refeeding syndrome",
+          "D": "Continue TPN for 4 weeks before attempting enteral nutrition"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "After prolonged fasting (5+ days on TPN), gradual reintroduction of enteral feeding is essential to avoid refeeding syndrome. Start at low rate (10-20 mL/h), advance by 10-20 mL/h every 8-12h as tolerated, while monitoring electrolytes (phosphate, potassium, magnesium) and thiamine levels. With 45cm jejunum and intact colon, enteral nutrition is feasible and should be attempted — the colon provides significant absorptive capacity.",
+          "wrong": {
+            "A": "45cm jejunum with intact colon is a short bowel with significant enteral nutrition potential — the colon absorbs water, electrolytes, and short-chain fatty acids. TPN independence is achievable in many patients with this anatomy.",
+            "B": "Starting at full-dose immediately after prolonged fasting risks refeeding syndrome — potentially fatal electrolyte shifts (hypophosphataemia, hypokalaemia, hypomagnesaemia) causing cardiac arrhythmias and cardiac failure.",
+            "D": "4 weeks of TPN without attempting enteral feeding is excessive. Enteral nutrition should be attempted as soon as haemodynamic stability and bowel function allow — it maintains gut mucosal integrity and reduces bacterial translocation."
+          },
+          "guideline": "ESPEN Short Bowel Syndrome Guidelines 2016 — gradual enteral reintroduction; start low and advance slowly; monitor for refeeding syndrome",
+          "trial": "Crenn P et al., Gastroenterology 2000: enteral autonomy prediction in short bowel — 45cm jejunum + intact colon: 85% probability of eventual enteral autonomy; colon presence is the key prognostic factor.",
+          "pearl": "Refeeding syndrome: occurs when malnourished/starved patients receive nutritional support. Phosphate shifts into cells with glucose, causing hypophosphataemia → cardiac arrhythmias, respiratory failure. NICE 2006: check electrolytes daily for first 5 days; supplement phosphate, potassium, magnesium prophylactically; give thiamine 200-300mg IV before feeding. High risk: BMI <16, weight loss >15%, minimal nutrition >10 days, hypokalaemia/phosphataemia/magnesaemia."
+        }
+      },
+      {
+        "id": "G2-Q3",
+        "stem": "A 72-year-old man with oesophageal cancer is planned for neoadjuvant chemotherapy before oesophagectomy. His BMI is 20.5 kg/m², NRS-2002 score is 5, and he has been unable to swallow solids for 3 weeks. Albumin is 26 g/L. How should his nutritional support be provided?",
+        "options": {
+          "A": "Naso-jejunal (NJ) tube feeding or jejunostomy feeding to bypass the oesophageal obstruction",
+          "B": "High-calorie oral supplements only",
+          "C": "No nutritional support — start chemotherapy and reassess after 2 cycles",
+          "D": "TPN via CVC for the duration of chemotherapy"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Enteral nutrition via NJ tube or surgically placed jejunostomy is the preferred route for oesophageal cancer patients with significant dysphagia. Enteral nutrition maintains gut mucosal integrity, is physiological, and is associated with fewer infectious complications than TPN. NJ tube: can be placed endoscopically; jejunostomy: placed at laparoscopy or during the oesophagectomy itself. A jejunostomy also provides nutritional support during the post-oesophagectomy recovery period.",
+          "wrong": {
+            "B": "High-calorie oral supplements are useful for mild dysphagia but are not sufficient when the patient cannot swallow solids. They cannot deliver adequate calories to a malnourished patient with near-complete dysphagia.",
+            "C": "Nutritional support is essential before chemotherapy in a malnourished patient — malnutrition impairs chemotherapy tolerance, increases toxicity, and is associated with poorer response rates. Delaying nutrition is harmful.",
+            "D": "TPN is reserved for patients in whom enteral access cannot be achieved. It carries higher infection risk (CRBSI), metabolic complications, and liver dysfunction with long-term use. Enteral nutrition is preferred when the gut is functional."
+          },
+          "guideline": "ESPEN Cancer Nutrition Guidelines 2021 — enteral nutrition preferred; TPN only if enteral impossible; jejunostomy for oesophageal cancer",
+          "trial": "Bower M et al., Eur J Cancer 2006: jejunostomy feeding in oesophageal cancer — post-oesophagectomy jejunostomy: maintains nutritional status, allows early discharge, reduces hospital stay by 3 days vs TPN.",
+          "pearl": "ESPEN cancer nutrition principles: (1) enteral > parenteral; (2) nutritional assessment at diagnosis; (3) aim for 25-30 kcal/kg/day (cancer cachexia: higher protein 1.2-2g/kg/day); (4) omega-3 fatty acids (EPA/DHA) — possible benefit in cancer cachexia (anti-inflammatory, muscle preservation); (5) glutamine supplementation reduces mucosal toxicity during chemotherapy."
+        }
+      },
+      {
+        "id": "G2-Q4",
+        "stem": "A 45-year-old woman with Crohn's disease has lost 12kg over 3 months and has a BMI of 17. She has a complex enteroenteric fistula and multiple inflammatory strictures. Exclusive enteral nutrition (EEN) is being considered. What is the primary nutritional and therapeutic indication for EEN in Crohn's disease?",
+        "options": {
+          "A": "Weight restoration only — EEN has no anti-inflammatory effect",
+          "B": "EEN induces remission in Crohn's disease (equivalent to steroids) AND provides nutritional rehabilitation",
+          "C": "EEN reduces risk of surgical complications only — it does not induce remission",
+          "D": "EEN is only effective in children with Crohn's, not adults"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Exclusive enteral nutrition (EEN) achieves Crohn's disease remission in 50-80% of patients (equivalent to steroid-induced remission) while providing complete nutritional rehabilitation. EEN is the first-line treatment for active Crohn's disease in children (endorsed by ECCO) and an important option in adults (especially pre-operatively). It reduces mucosal inflammation by: altering gut microbiome, reducing antigenic load, improving mucosal barrier function. Pre-operative EEN for 4-6 weeks reduces surgical complications and stoma rate.",
+          "wrong": {
+            "A": "EEN has documented anti-inflammatory and mucosal healing effects beyond simple nutritional restoration. Multiple studies show mucosal healing on endoscopy after EEN.",
+            "C": "EEN does induce remission — not just reduces surgical risk. Pre-operative EEN + biologic combination reduces surgical risk, stoma rate, and postoperative complications.",
+            "D": "EEN is first-line for children (steroid-sparing benefit is greatest, avoids steroid-related growth impairment), but it is also effective in adults — remission rates 50-60% in adults vs 80% in children."
+          },
+          "guideline": "ECCO Crohn's Disease Nutritional Therapy Guidelines 2023 — EEN first-line for active paediatric CD; important option in adults pre-operatively",
+          "trial": "Zachos M et al., Cochrane 2007: EEN vs corticosteroids in Crohn's — EEN: 60% remission vs steroids 73% (not statistically inferior); EEN superior mucosal healing; no systemic side effects.",
+          "pearl": "EEN practical delivery: polymeric formulas (whole protein, easier tolerance, cheaper) equivalent to elemental formulas. Must be EXCLUSIVE — any oral food intake reduces efficacy by reversing microbiome changes. Duration: 6-8 weeks for remission induction. Limitations: palatability (often requires NG tube), compliance in adults (50-60%), not suitable for patients who prefer oral food."
+        }
+      },
+      {
+        "id": "G2-Q5",
+        "stem": "A 60-year-old man with alcoholic liver disease and chronic malnutrition is admitted for an elective hernia repair. He weighs 55kg. Pre-operatively, his serum phosphate is 0.5 mmol/L (normal 0.8-1.5), potassium 3.1 mmol/L, and magnesium 0.6 mmol/L. He has received 1.5L of 5% dextrose IV over the past 24 hours. What is the likely diagnosis and management priority?",
+        "options": {
+          "A": "Alcoholic hepatitis flare — IV methylprednisolone",
+          "B": "Hypoalbuminaemia — albumin infusion",
+          "C": "Acute kidney injury — IV fluid resuscitation with 0.9% saline",
+          "D": "Refeeding syndrome — electrolyte correction (phosphate, potassium, magnesium) + thiamine + slow nutritional reintroduction"
+        },
+        "correct": "D",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Refeeding syndrome: hypophosphataemia (0.5 mmol/L) + hypokalaemia + hypomagnesaemia in a malnourished patient following glucose administration (IV dextrose stimulates insulin release → intracellular phosphate shift). Treatment: (1) stop glucose infusion temporarily; (2) IV phosphate replacement; (3) IV thiamine (Pabrinex) before resuming any carbohydrate; (4) correct potassium and magnesium; (5) resume feeding SLOWLY. Thiamine deficiency causes Wernicke's encephalopathy when glucose is given without thiamine — always give thiamine first.",
+          "wrong": {
+            "A": "Alcoholic hepatitis presents with jaundice, fever, and elevated LFTs. Electrolyte shifts from glucose infusion without nutritional support are refeeding syndrome, not hepatitis flare.",
+            "B": "Albumin infusion is not evidence-based for nutritional hypoalbuminaemia. Albumin is an acute-phase reactant — it falls in inflammation regardless of nutritional status. Correcting refeeding syndrome is the priority.",
+            "C": "AKI may cause electrolyte disturbance but hypophosphataemia is NOT a feature of AKI. The clinical context (malnourished alcoholic, glucose infusion, hypophosphataemia + hypokalaemia + hypomagnesaemia) is classic refeeding syndrome."
+          },
+          "guideline": "NICE CG32 Refeeding Syndrome 2006 — identify high-risk patients; thiamine before feeding; electrolyte correction; slow refeeding",
+          "trial": "Mehanna H et al., BMJ 2008: refeeding syndrome review — incidence in hospitalised malnourished patients 34%; hypophosphataemia <0.5 mmol/L: cardiac arrest risk; NICE 2006 algorithm reduces mortality.",
+          "pearl": "Refeeding syndrome high-risk criteria (NICE): any ONE: BMI <16, >15% weight loss in 3-6 months, minimal/no intake >10 days, low electrolytes pre-feed. OR any TWO: BMI <18.5, 10-15% weight loss, minimal intake >5 days, history of alcohol misuse/drugs. Prophylactic phosphate, potassium, magnesium + Pabrinex before starting feeding in high-risk patients."
+        }
+      },
+      {
+        "id": "G2-Q6",
+        "stem": "A 70-year-old woman is 10 days post-Whipple procedure (pancreaticoduodenectomy) for pancreatic cancer. She has a functioning jejunostomy placed intra-operatively. She is tolerating jejunostomy feeds at 70 mL/h but has persistent nausea and cannot eat orally. Her blood glucose is 14 mmol/L (post-pancreatectomy diabetes). What is the most appropriate nutritional and glycaemic management?",
+        "options": {
+          "A": "Stop all feeds and allow further GI recovery — administer dextrose IV",
+          "B": "Start oral pancreatic enzyme replacement (PERT) immediately to improve enteral absorption",
+          "C": "Continue jejunostomy feeds + insulin therapy to manage post-pancreatectomy diabetes",
+          "D": "Switch to TPN — jejunostomy feeds are contraindicated after Whipple procedure"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Post-Whipple jejunostomy feeding is the standard of care — jejunostomy provides reliable enteral access bypassing the gastrojejunostomy anastomosis. Post-pancreatectomy diabetes mellitus (PPDM) is common (30-50%) and requires insulin therapy. Blood glucose 14 mmol/L requires insulin (variable rate infusion or subcutaneous regimen adjusted for enteral feeding). Oral PERT is started when oral intake resumes — it has no role during jejunostomy feeds.",
+          "wrong": {
+            "A": "Stopping feeds and administering dextrose is counterproductive — it worsens hyperglycaemia without providing protein or adequate calories. Continuing enteral nutrition is essential for recovery.",
+            "B": "Pancreatic enzyme replacement (PERT) is essential for enteral oral feeding after Whipple (exocrine insufficiency). However, jejunostomy feeds bypass the duodenum and pancreatic enzyme mixing — PERT is initiated when oral/gastric feeding begins, not during jejunostomy feeding.",
+            "D": "Jejunostomy feeds after Whipple are the preferred nutritional route — they are not contraindicated. TPN is reserved for jejunostomy intolerance or technical failure."
+          },
+          "guideline": "ESPEN Surgery Nutrition Guidelines 2017 — jejunostomy feeding after Whipple; insulin for post-pancreatectomy DM; PERT when oral eating resumes",
+          "trial": "Gerber SA et al., J Gastrointest Surg 2012: post-Whipple nutritional outcomes — jejunostomy feeding: faster recovery of nutritional parameters; PPDM: 35% incidence; insulin requirement: 90% of PPDM patients.",
+          "pearl": "Post-Whipple nutritional complications: (1) delayed gastric emptying (DGE): prokinetics (metoclopramide, erythromycin) + jejunostomy feeds; (2) exocrine insufficiency (steatorrhoea, malabsorption): PERT with meals; (3) PPDM: insulin adjustment for variable oral intake. DGE: most common complication after Whipple (25-40%) — keep jejunostomy feeds as enteral backup."
+        }
+      },
+      {
+        "id": "G2-Q7",
+        "stem": "A 58-year-old woman has a BMI of 19 and has lost 8% of body weight in 2 months. She is on prednisolone 20mg/day for inflammatory bowel disease and is planned for elective ileostomy closure. MUST score is being calculated. A MUST score ≥2 indicates high nutritional risk. Which statement about MUST scoring is correct?",
+        "options": {
+          "A": "MUST uses serum albumin as its primary nutritional marker",
+          "B": "MUST is based on: BMI score + unplanned weight loss score + acute disease effect score",
+          "C": "MUST score of 1 indicates malnutrition requiring immediate TPN",
+          "D": "MUST is only validated in oncology patients"
+        },
+        "correct": "B",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "MUST (Malnutrition Universal Screening Tool) comprises 3 components: (1) BMI score: >20 = 0, 18.5-20 = 1, <18.5 = 2; (2) Unplanned weight loss score: <5% in 3-6 months = 0, 5-10% = 1, >10% = 2; (3) Acute disease effect: 0 or 2 (if patient is acutely ill and has had no nutritional intake for >5 days). Total: 0 = low risk; 1 = medium risk; ≥2 = high risk → nutritional support.",
+          "wrong": {
+            "A": "MUST does not include serum albumin — albumin reflects acute-phase response and inflammation, not current nutritional status. It was deliberately excluded from MUST because it is not a reliable malnutrition indicator in acute illness.",
+            "C": "MUST score 1 = medium risk → observe and document dietary intake; repeat screening weekly in hospital. Immediate TPN is not indicated for MUST 1.",
+            "D": "MUST is a general screening tool validated across all clinical settings: hospital inpatients, outpatients, and community. It is widely used in surgical, medical, and elderly populations."
+          },
+          "guideline": "BAPEN MUST Validation Studies — MUST is recommended by NICE for nutritional screening in all hospital inpatients",
+          "trial": "Stratton RJ et al., Clin Nutr 2004: MUST validation — sensitivity 93%, specificity 82% for malnutrition vs gold standard assessment; MUST ≥2 predicts increased LOS, complications, and mortality.",
+          "pearl": "MUST vs NRS-2002: MUST is simpler (used in community and non-specialists); NRS-2002 incorporates disease severity score (more appropriate for hospital inpatients including surgical patients). Both validated. ESPEN recommends NRS-2002 for hospitalised patients; BAPEN recommends MUST. For surgical patients: NRS-2002 ≥3 triggers nutritional support."
+        }
+      },
+      {
+        "id": "G2-Q8",
+        "stem": "A 60-year-old man has been on long-term home parenteral nutrition (HPN) for short bowel syndrome (50cm jejunum, no colon) for 18 months. He now has rising liver enzymes (ALP 420, bilirubin 62 µmol/L) and his liver biopsy shows progressive cholestasis with bile duct proliferation and mild fibrosis. What is the most likely cause and management?",
+        "options": {
+          "A": "Parenteral nutrition-associated liver disease (PNALD) — review PN composition, reduce lipid dose, increase cycling time",
+          "B": "Primary sclerosing cholangitis — ERCP",
+          "C": "HPN is contraindicated long-term — convert immediately to intestinal transplantation",
+          "D": "CRBSI — remove PICC line and give antibiotics"
+        },
+        "correct": "A",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Parenteral nutrition-associated liver disease (PNALD) is the leading cause of TPN-related morbidity in long-term HPN patients. Risk factors: PN duration, high lipid doses, soybean-based lipid emulsions (high phytosterols), septic episodes. Management: (1) maximise enteral nutrition (any oral/tube feeds); (2) reduce PN lipid dose to minimum; (3) cycle PN (10-12h infusion vs 24h) — reduces insulin peaks; (4) switch to fish oil-based lipid emulsions (SMOFlipid — reduces phytosterol content); (5) ursodeoxycholic acid; (6) consider intestinal transplant in end-stage PNALD.",
+          "wrong": {
+            "B": "PSC causes intrahepatic/extrahepatic bile duct stricturing with beaded appearance on MRCP. PNALD has a different histological pattern (cholestasis, canalicular bile plugs, bile duct proliferation) related to TPN toxicity.",
+            "C": "Intestinal transplantation is a last resort for irreversible intestinal failure with liver failure (end-stage PNALD). It is not the immediate response to early PNALD — optimise PN first.",
+            "D": "CRBSI presents with fever, positive blood cultures, and CVC site infection. Rising cholestatic liver enzymes over months without systemic infection is PNALD, not CRBSI."
+          },
+          "guideline": "ESPEN HPN Guidelines 2020 — PNALD management: lipid reduction, cycling, fish-oil lipids, maximise enteral; intestinal transplant for end-stage",
+          "trial": "Nandivada P et al., JPEN 2012: SMOFlipid (fish oil-containing) vs soybean lipid in paediatric intestinal failure — SMOFlipid: reversal of PNALD in 78% vs 6%; established fish-oil lipids for PNALD management.",
+          "pearl": "PNALD pathophysiology: phytosterols in soybean-based lipid emulsions inhibit bile acid transporters → cholestasis. Fish oil lipids (EPA/DHA) → anti-inflammatory + lower phytosterol content → cholestasis resolution. SMOFlipid composition: 30% soy, 30% MCT, 25% olive, 15% fish oil. Cycling PN: avoids constant insulin stimulation, reduces hepatic fat deposition."
+        }
+      },
+      {
+        "id": "G2-Q9",
+        "stem": "A 55-year-old woman is 3 days post-emergency Hartmann's procedure for perforated sigmoid diverticulitis. She is haemodynamically stable, on vasopressors (noradrenaline 0.12 µg/kg/min), and mechanically ventilated in the ICU. She was previously well-nourished. When should enteral nutrition be started, and via which route?",
+        "options": {
+          "A": "Start TPN immediately — enteral route is contraindicated post-Hartmann's procedure",
+          "B": "Start enteral nutrition only when GCS is >10 and patient is extubated",
+          "C": "Delay until vasopressors are completely weaned — enteral nutrition contraindicated during vasopressor use",
+          "D": "Start low-dose enteral nutrition via nasogastric tube within 24-48h of admission to ICU, even on low-dose vasopressors"
+        },
+        "correct": "D",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "SCCM/ASPEN 2016 and ESPEN 2019 critical care nutrition guidelines: early enteral nutrition (within 24-48h) is recommended even in patients receiving low-to-moderate dose vasopressors if they are haemodynamically stable and responding to resuscitation. Low-dose noradrenaline (0.12 µg/kg/min) is not a contraindication to enteral feeding. Start low rate (10-20 mL/h) and advance gradually. Hartmann's procedure does not contraindicate gastric feeding — the proximal gastrointestinal tract is intact.",
+          "wrong": {
+            "A": "Hartmann's procedure (sigmoid resection + end colostomy) does NOT contraindicate enteral nutrition. The stomach and small bowel are intact and functional. TPN is only for gut inaccessibility or intolerance.",
+            "B": "Waiting for GCS >10 or extubation in a critically ill ICU patient delays nutrition for potentially weeks. Early enteral nutrition is a critical care intervention for mechanically ventilated patients — the NG tube provides the route.",
+            "C": "Waiting until complete vasopressor cessation unnecessarily delays nutrition. Low-dose vasopressors with haemodynamic stability are acceptable for enteral feeding. The concern is high-dose vasopressors causing mesenteric ischaemia."
+          },
+          "guideline": "ESPEN Critical Care Nutrition Guidelines 2019 — early EN within 24-48h in ICU; low-dose vasopressors not a contraindication; start at 10-20 mL/h",
+          "trial": "NUTRIREA-3 trial (Reignier, NEJM 2023): low vs standard calorie EN in ICU — no mortality difference; early low-dose EN is safe; key principle is 'start early, advance slowly'.",
+          "pearl": "ICU nutrition: early EN goal 20-25 kcal/kg/day (first week: permissive underfeeding 70-80% target); protein 1.2-2g/kg/day. High-dose vasopressors (noradrenaline >0.3 µg/kg/min): consider withholding EN (bowel ischaemia risk). Prokinetics (metoclopramide, erythromycin) for delayed gastric emptying (GRV >200mL/4h): add post-pyloric feeding if persistent high GRV."
+        }
+      },
+      {
+        "id": "G2-Q10",
+        "stem": "A 40-year-old woman requires 2500 kcal/day total parenteral nutrition (TPN) via a central venous catheter after a high-output fistula from her small bowel. The TPN bag composition is to be calculated. Which electrolyte supplementation is most critical to include to prevent life-threatening cardiac complications?",
+        "options": {
+          "A": "Calcium gluconate — prevents hypocalcaemia-related tetany",
+          "B": "Potassium — hypokalaemia causes fatal cardiac arrhythmias and is lost in fistula output",
+          "C": "Sodium — hyponatraemia causes cerebral oedema",
+          "D": "Chloride — high fistula output causes metabolic alkalosis"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "High-output small bowel fistula causes massive potassium loss in the fistula effluent (intestinal secretions are rich in potassium, 5-10 mmol/L; output may be 2-4L/day → 10-40 mmol K+ loss/day). Hypokalaemia causes fatal ventricular arrhythmias (torsades de pointes, ventricular fibrillation). Potassium replacement is therefore the most critical TPN electrolyte. Typical TPN potassium requirement: 60-120 mmol/day in high-output fistula.",
+          "wrong": {
+            "A": "Calcium is important in TPN (especially with prolonged fasting and bone loss), but hypocalcaemia causes tetany and prolonged QT — less acutely life-threatening than hypokalaemia-induced arrhythmias in the immediate term.",
+            "C": "Hyponatraemia is important and sodium is included in TPN, but high fistula output causes HYPONATRAEMIA from sodium and water loss — managed with normal saline replacement and sodium in TPN. Not the single most critical electrolyte for cardiac protection.",
+            "D": "Chloride loss from gastric aspiration or high small bowel fistula contributes to metabolic alkalosis, but the most immediately lethal TPN electrolyte omission is potassium in the context of high-output fistula."
+          },
+          "guideline": "ESPEN TPN Composition Guidelines 2020 — potassium: 60-150 mmol/day standard requirement; adjust for fistula output; monitor daily",
+          "trial": "Singer P et al., Clin Nutr 2019: ESPEN ICU critical care guidelines — electrolyte supplementation critical; hypokalaemia in ICU: 6× increased mortality risk; correct before and during nutritional support.",
+          "pearl": "TPN electrolyte requirements (standard adult daily): Na+ 80-100 mmol; K+ 60-100 mmol; Ca2+ 5-10 mmol; Mg2+ 5-10 mmol; Phosphate 20-30 mmol; Cl- 100-150 mmol. High-output fistula/stoma: add losses to standard requirements. Monitor electrolytes daily during acute phase — adjust TPN composition based on measured serum levels."
+        }
+      }
+    ]
+  }
 }

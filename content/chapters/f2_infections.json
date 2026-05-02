@@ -16,12 +16,32 @@
         {
           "type": "table",
           "title": "Wound Classification and SSI Risk",
-          "headers": ["Class", "Definition", "SSI Risk (%)"],
+          "headers": [
+            "Class",
+            "Definition",
+            "SSI Risk (%)"
+          ],
           "rows": [
-            ["Class I — Clean", "No bowel/respiratory/GU tract entered; no inflammation; no breaks in aseptic technique (thyroid, hernia)", "1–2%"],
-            ["Class II — Clean-contaminated", "Controlled entry into bowel, respiratory, or GU tract with no spillage (elective colorectal)", "5–10%"],
-            ["Class III — Contaminated", "Gross GI spillage, fresh traumatic wounds, breaks in sterile technique (stab wound bowel)", "15–20%"],
-            ["Class IV — Dirty/infected", "Established infection, purulent inflammation, perforated viscus with old contamination", "30–40%"]
+            [
+              "Class I — Clean",
+              "No bowel/respiratory/GU tract entered; no inflammation; no breaks in aseptic technique (thyroid, hernia)",
+              "1–2%"
+            ],
+            [
+              "Class II — Clean-contaminated",
+              "Controlled entry into bowel, respiratory, or GU tract with no spillage (elective colorectal)",
+              "5–10%"
+            ],
+            [
+              "Class III — Contaminated",
+              "Gross GI spillage, fresh traumatic wounds, breaks in sterile technique (stab wound bowel)",
+              "15–20%"
+            ],
+            [
+              "Class IV — Dirty/infected",
+              "Established infection, purulent inflammation, perforated viscus with old contamination",
+              "30–40%"
+            ]
           ]
         },
         {
@@ -47,14 +67,49 @@
         {
           "type": "table",
           "title": "Antibiotic Prophylaxis by Procedure",
-          "headers": ["Procedure", "Likely Organisms", "First-Line Prophylaxis", "Duration"],
+          "headers": [
+            "Procedure",
+            "Likely Organisms",
+            "First-Line Prophylaxis",
+            "Duration"
+          ],
           "rows": [
-            ["Clean (vascular, breast, thyroid, hernia)", "S. aureus, S. epidermidis", "Cefazolin 2g IV (3g if >120kg)", "Single dose"],
-            ["Clean-contaminated (colorectal)", "Gram−, anaerobes, Gram+", "Co-amoxiclav 1.2g IV or cefuroxime + metronidazole", "Single dose (<24h)"],
-            ["Biliary (cholecystectomy)", "Gram−, anaerobes (selected — high risk only)", "Cefazolin 2g IV (high-risk: CBD stones, jaundice, age >70)", "Single dose"],
-            ["Gynaecological (hysterectomy)", "Gram−, anaerobes, Gram+", "Co-amoxiclav 1.2g IV or cefazolin + metronidazole", "Single dose"],
-            ["Orthopaedic (implant surgery)", "S. aureus, S. epidermidis", "Cefazolin 2g IV; vancomycin if MRSA risk", "Single dose (+ 24h if high risk)"],
-            ["Emergency bowel (contaminated/dirty)", "Broad: Gram+/−, anaerobes", "Piperacillin-tazobactam or ceftriaxone + metronidazole", "Therapeutic duration (5–7 days)"]
+            [
+              "Clean (vascular, breast, thyroid, hernia)",
+              "S. aureus, S. epidermidis",
+              "Cefazolin 2g IV (3g if >120kg)",
+              "Single dose"
+            ],
+            [
+              "Clean-contaminated (colorectal)",
+              "Gram−, anaerobes, Gram+",
+              "Co-amoxiclav 1.2g IV or cefuroxime + metronidazole",
+              "Single dose (<24h)"
+            ],
+            [
+              "Biliary (cholecystectomy)",
+              "Gram−, anaerobes (selected — high risk only)",
+              "Cefazolin 2g IV (high-risk: CBD stones, jaundice, age >70)",
+              "Single dose"
+            ],
+            [
+              "Gynaecological (hysterectomy)",
+              "Gram−, anaerobes, Gram+",
+              "Co-amoxiclav 1.2g IV or cefazolin + metronidazole",
+              "Single dose"
+            ],
+            [
+              "Orthopaedic (implant surgery)",
+              "S. aureus, S. epidermidis",
+              "Cefazolin 2g IV; vancomycin if MRSA risk",
+              "Single dose (+ 24h if high risk)"
+            ],
+            [
+              "Emergency bowel (contaminated/dirty)",
+              "Broad: Gram+/−, anaerobes",
+              "Piperacillin-tazobactam or ceftriaxone + metronidazole",
+              "Therapeutic duration (5–7 days)"
+            ]
           ]
         },
         {
@@ -129,13 +184,37 @@
         {
           "type": "table",
           "title": "CDI Severity Stratification and Treatment",
-          "headers": ["Severity", "Definition", "First-Line Treatment"],
+          "headers": [
+            "Severity",
+            "Definition",
+            "First-Line Treatment"
+          ],
           "rows": [
-            ["Mild-moderate", "WBC <15 × 10⁹/L AND creatinine <1.5× baseline", "Vancomycin 125mg PO QDS × 10 days or fidaxomicin 200mg PO BD × 10 days"],
-            ["Severe", "WBC ≥15 × 10⁹/L OR creatinine ≥1.5× baseline", "Vancomycin 125mg PO QDS × 10 days (fidaxomicin preferred for recurrence prevention)"],
-            ["Fulminant", "Hypotension/shock, ileus, toxic megacolon", "Vancomycin 500mg PO/NG QDS + IV metronidazole 500mg TDS + consider vancomycin enemas + surgical consultation"],
-            ["Recurrent (first recurrence)", "CDI within 8 weeks of treatment completion", "Fidaxomicin 200mg BD × 10 days (or extended pulsed fidaxomicin)"],
-            ["Recurrent (second or subsequent)", "Multiple recurrences", "FMT (faecal microbiota transplantation) — 90% cure rate"]
+            [
+              "Mild-moderate",
+              "WBC <15 × 10⁹/L AND creatinine <1.5× baseline",
+              "Vancomycin 125mg PO QDS × 10 days or fidaxomicin 200mg PO BD × 10 days"
+            ],
+            [
+              "Severe",
+              "WBC ≥15 × 10⁹/L OR creatinine ≥1.5× baseline",
+              "Vancomycin 125mg PO QDS × 10 days (fidaxomicin preferred for recurrence prevention)"
+            ],
+            [
+              "Fulminant",
+              "Hypotension/shock, ileus, toxic megacolon",
+              "Vancomycin 500mg PO/NG QDS + IV metronidazole 500mg TDS + consider vancomycin enemas + surgical consultation"
+            ],
+            [
+              "Recurrent (first recurrence)",
+              "CDI within 8 weeks of treatment completion",
+              "Fidaxomicin 200mg BD × 10 days (or extended pulsed fidaxomicin)"
+            ],
+            [
+              "Recurrent (second or subsequent)",
+              "Multiple recurrences",
+              "FMT (faecal microbiota transplantation) — 90% cure rate"
+            ]
           ]
         },
         {
@@ -616,5 +695,240 @@
         "pearl": "Testicular temperature regulation in thigh pouches: the testis normally operates at 34°C (below body temperature — maintained by scrotal thermoregulation). In medial thigh pouches at 37°C, spermatogenesis is temporarily impaired (heat damage to seminiferous tubules). After scrotal reconstruction and testicular relocation into the cooler scrotal environment, spermatogenesis typically recovers over 3–6 months. Long-term fertility outcomes are acceptable in Fournier's survivors who underwent thigh pouch temporisation."
       }
     }
-  ]
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of surgical infections — necrotising fasciitis, intra-abdominal sepsis, and SSI with 10 clinical questions.",
+    "questions": [
+      {
+        "id": "F2-Q1",
+        "stem": "A 55-year-old obese diabetic man presents with a 6-hour history of rapidly spreading scrotal and perineal erythema with skin blistering. He is febrile 39.8°C, HR 125/min, BP 95/65mmHg. CT shows gas in the scrotal soft tissues tracking along the fascial planes. LRINEC score is 8. What is the diagnosis and immediate management?",
+        "options": {
+          "A": "Fournier's gangrene — emergency surgical debridement + broad-spectrum antibiotics + HDU admission",
+          "B": "Cellulitis — IV antibiotics and elevation",
+          "C": "Orchitis — IV antibiotics and scrotal support",
+          "D": "Scrotal abscess — incision and drainage under local anaesthesia"
+        },
+        "correct": "A",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Fournier's gangrene is type I necrotising fasciitis affecting the perineum, scrotum, and perianal region. The hallmarks are rapid progression, gas in soft tissues on CT, systemic toxicity, and polymicrobial infection (gram-positive, gram-negative, anaerobes). Emergency radical surgical debridement of ALL necrotic tissue to viable bleeding margins is the cornerstone of treatment, combined with broad-spectrum antibiotics (piperacillin-tazobactam + metronidazole ± antifungal). Multiple planned re-looks at 24-48h are required.",
+          "wrong": {
+            "B": "Cellulitis does not produce gas in fascial planes and does not progress this rapidly. Gas on CT = necrotising fasciitis until proven otherwise — surgical emergency.",
+            "C": "Orchitis (testicular inflammation) is managed medically. Gas in soft tissues with scrotal involvement is Fournier's gangrene — testicular involvement requires orchiectomy if the testis cannot be salvaged.",
+            "D": "Simple incision and drainage is for discrete abscesses. Gas in fascial planes with systemic toxicity is necrotising fasciitis — I&D is wholly inadequate and will result in death."
+          },
+          "guideline": "WSES Skin and Soft Tissue Infections Guidelines 2020 — Fournier's gangrene: emergency debridement; no role for antibiotics alone",
+          "trial": "Yilmazlar T et al., Int J Colorectal Dis 2010: Fournier's — mortality 20-40%; every hour delay increases mortality 9%; average 3.5 debridements required; testicular salvage rate 90% (testes usually spared as they have separate blood supply).",
+          "pearl": "Fournier's gangrene staging: Uludag Fournier's Gangrene Severity Index (UFGSI) = age + temperature + HR + RR + WBC + Hb + Na + creatinine + glucose. Score >9 predicts mortality >75%. Testicular salvage: scrotal testes have separate arterial supply (testicular artery direct from aorta) — the testes are usually preserved even in extensive Fournier's."
+        }
+      },
+      {
+        "id": "F2-Q2",
+        "stem": "A 68-year-old patient is 6 days post-elective sigmoid colectomy with primary anastomosis. She develops fever 38.9°C, WBC 18.4×10⁹/L, CRP 285 mg/L, and ileus with progressive abdominal tenderness. CT shows a 4cm pelvic collection adjacent to the anastomosis with a small amount of free gas and fat stranding, but no generalised peritoneal contamination. What is the grade of anastomotic leak and recommended management?",
+        "options": {
+          "A": "Grade B — laparoscopic washout and ileostomy",
+          "B": "Grade A — conservative (antibiotics only, no drainage)",
+          "C": "Grade B — CT-guided percutaneous drainage + IV broad-spectrum antibiotics",
+          "D": "Grade C — emergency laparotomy and Hartmann's procedure"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "International Study Group of Colon and Rectal Surgeons (ISUCRS) anastomotic leak grading: Grade A = radiological/biochemical only, no clinical change; Grade B = clinical deviation (fever, sepsis) requiring active intervention but not surgery; Grade C = reoperation required (generalised peritonitis, haemodynamic instability). A contained pericolic collection with clinical sepsis but no free peritoneal contamination is Grade B. CT-guided drainage achieves resolution in 80% of Grade B leaks.",
+          "wrong": {
+            "A": "Laparoscopic washout + ileostomy is an operative intervention reserved when percutaneous drainage fails or the collection is inaccessible — it is not the first step for Grade B with a drainable collection.",
+            "B": "Grade A leaks are managed conservatively. This patient has fever, elevated WBC/CRP, and a pelvic collection requiring drainage — Grade A management is inappropriate.",
+            "D": "Grade C requires laparotomy for frank peritonitis, faecal contamination, or haemodynamic instability. This patient has a contained collection — Grade C management is excessive."
+          },
+          "guideline": "ISUCRS Anastomotic Leak Grading and Management 2017 — Grade B: CT drainage + antibiotics; Grade C: surgical intervention",
+          "trial": "Hyman N et al., J Am Coll Surg 2007: anastomotic leak management — Grade B drainage: 80% resolution without surgery; endoscopic vacuum therapy: 85% anastomotic salvage in Grade B rectal leaks.",
+          "pearl": "Anastomotic leak risk factors: low anastomosis (<5cm from anal verge), male sex, malnutrition, obesity, smoking, steroid use, preoperative radiation, tension/ischaemia at anastomosis. All patients with Grade B/C leaks need reassessment of defunctioning stoma need. EVT (endoscopic vacuum therapy) increasingly used for low rectal anastomotic leaks."
+        }
+      },
+      {
+        "id": "F2-Q3",
+        "stem": "A 72-year-old woman develops Clostridioides difficile colitis (CDI) 4 days after completing amoxicillin for a urinary tract infection. She has 8 watery stools/day, WBC 18×10⁹/L, creatinine rising to 175 µmol/L (baseline 85 µmol/L), and CT shows pan-colonic wall thickening with thumbprinting. She cannot swallow tablets. What is the initial treatment for this severe CDI episode?",
+        "options": {
+          "A": "Fidaxomicin 200mg BD — superior to vancomycin in all cases",
+          "B": "Oral metronidazole 400mg TDS for 10 days",
+          "C": "IV metronidazole 500mg TDS (as cannot swallow) for 10 days",
+          "D": "Vancomycin 125mg PO QDS for 10 days (consider NG tube) + IV metronidazole"
+        },
+        "correct": "D",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Severe CDI (WBC >15×10⁹/L, creatinine >1.5× baseline, and signs of colitis) requires oral vancomycin 125mg QDS as first-line — superior to metronidazole for severe disease (cure rate 97% vs 76%). As she cannot swallow tablets, vancomycin can be given via NG tube. IV metronidazole is added because IV vancomycin is not effective for luminal CDI — IV metronidazole reaches the colonic lumen via biliary secretion.",
+          "wrong": {
+            "A": "Fidaxomicin 200mg BD is an alternative first-line for non-severe CDI (lower recurrence vs vancomycin) and for recurrent CDI. For severe CDI, vancomycin has more evidence and is typically chosen. Fidaxomicin is not universally superior in all severity groups.",
+            "B": "Oral metronidazole is first-line for non-severe CDI only. IDSA 2017 guidelines removed metronidazole as first-line for severe CDI — vancomycin is mandatory for severe disease.",
+            "C": "IV metronidazole alone is not adequate for severe CDI. IV vancomycin does not reach the colon. IV metronidazole has some luminal secretion but is less effective than oral vancomycin — both should be combined."
+          },
+          "guideline": "IDSA CDI Guidelines 2017 — vancomycin 125mg QDS first-line for severe CDI; metronidazole only for non-severe when vancomycin unavailable",
+          "trial": "Zar FA et al., Clin Infect Dis 2007: vancomycin vs metronidazole for severe CDI — cure rates 97% vs 76%; vancomycin superior for severe disease; established current guideline recommendation.",
+          "pearl": "CDI severity criteria (IDSA 2017): non-severe = WBC <15 + creatinine <1.5× baseline; severe = WBC ≥15 OR creatinine ≥1.5× baseline; fulminant = ileus, hypotension/shock, toxic megacolon. Fulminant CDI: vancomycin 500mg QDS + IV metronidazole + consider surgery (subtotal colectomy). Recurrent CDI: fidaxomicin or faecal microbiota transplant (FMT)."
+        }
+      },
+      {
+        "id": "F2-Q4",
+        "stem": "A 60-year-old woman who underwent laparoscopic cholecystectomy 3 days ago presents with wound redness and swelling at the umbilical port site. She is afebrile, WBC 11×10⁹/L. There is a 2cm area of superficial wound erythema without fluctuance, no crepitus, and no tracking. What is the classification and management?",
+        "options": {
+          "A": "Superficial SSI — IV antibiotics for 7 days",
+          "B": "Superficial SSI (incisional) — wound opening and oral antibiotics for mild cellulitis",
+          "C": "Deep SSI — return to theatre for wound exploration",
+          "D": "Organ/space SSI — CT-guided drainage"
+        },
+        "correct": "B",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "CDC surgical site infection (SSI) classification: Superficial incisional (skin + subcutaneous tissue only), Deep incisional (fascia + muscle layer), Organ/space (abdominal cavity, joints, organs). This patient has a 2cm superficial erythema without depth, no systemic features, and no abscess — superficial SSI. Management: open the wound (incise and drain any pus), swab for culture, dressings. Oral antibiotics for spreading cellulitis; IV antibiotics are not needed for contained superficial SSI without systemic sepsis.",
+          "wrong": {
+            "A": "IV antibiotics for superficial SSI without systemic sepsis or spreading cellulitis is excessive. Wound opening and drainage is the primary treatment.",
+            "C": "Deep SSI involves the fascial layer — suspected when there is wound separation, purulent drainage from deep to the fascia, or imaging showing deep involvement. Superficial erythema without these features is not deep SSI.",
+            "D": "Organ/space SSI requires intra-abdominal collection (abscess, infected fluid). No CT evidence or clinical signs of intra-abdominal pathology here."
+          },
+          "guideline": "CDC SSI Definition and Classification 1999 — superficial incisional: skin and subcutaneous tissue; treatment: wound opening, irrigation, dressings",
+          "trial": "Muñoz P et al., Infect Control Hosp Epidemiol 2012: post-laparoscopic cholecystectomy SSI — incidence 1.5%; port site infections: most superficial, managed with wound opening; no difference in outcomes with antibiotics vs no antibiotics for non-purulent superficial SSI.",
+          "pearl": "SSI risk factors: diabetes, obesity, smoking, malnutrition, immunosuppression, prolonged operation, wound classification (contaminated/dirty), Staph aureus colonisation, steroid use. Prevention: preoperative antibiotic prophylaxis, normoglycaemia, normothermia, supplemental oxygen, antibiotic-coated sutures, wound protectors for colorectal surgery."
+        }
+      },
+      {
+        "id": "F2-Q5",
+        "stem": "A 55-year-old ICU patient on broad-spectrum antibiotics (meropenem + vancomycin) for 12 days post-emergency colectomy develops fever 39.2°C, WBC 22×10⁹/L, and new central catheter tunnel tenderness. Blood cultures × 4 grow Candida albicans (2/4 bottles positive). He has a CVC in situ. What is the management?",
+        "options": {
+          "A": "IV amphotericin B — most effective antifungal",
+          "B": "Oral fluconazole — treat for 14 days",
+          "C": "Remove CVC + IV echinocandin (micafungin/caspofungin) + ophthalmological examination",
+          "D": "Repeat blood cultures in 48h — single positive bottle is contamination"
+        },
+        "correct": "C",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Candidaemia (2/4 positive blood culture bottles) in an ICU patient is not contamination — it is a medical emergency with 30–40% mortality. Management: (1) remove or replace CVC (catheter is the most common source); (2) IV echinocandin (micafungin or caspofungin) as first-line — superior safety to amphotericin, equivalent efficacy to fluconazole; (3) ophthalmological examination within 48h (Candida endophthalmitis in 10–15%); (4) treat for minimum 14 days from last positive blood culture and resolution of symptoms.",
+          "wrong": {
+            "A": "IV amphotericin B is effective but has significant nephrotoxicity — it is reserved for echinocandin-resistant species (Candida krusei resistant to azoles; C. glabrata reduced echinocandin susceptibility). Echinocandins are first-line per IDSA/ESCMID.",
+            "B": "Oral fluconazole is acceptable for stable non-ICU patients with susceptible Candida, but IV echinocandin is preferred for critically ill ICU patients (faster fungicidal action, reliable IV levels). Fluconazole also requires sensitivity testing first.",
+            "D": "Candidaemia with 2/4 positive bottles is never contamination. Any growth of Candida in blood cultures requires treatment — Candida is not a skin contaminant."
+          },
+          "guideline": "IDSA Candida Guidelines 2016 — candidaemia: echinocandin first-line; remove CVC; ophthalmology review; treat ≥14 days from negative cultures",
+          "trial": "Reboli AC et al., NEJM 2007: anidulafungin vs fluconazole for candidaemia — anidulafungin: 76% treatment success vs 60%; echinocandins recommended as first-line for ICU candidaemia.",
+          "pearl": "Candida risk factors in ICU: broad-spectrum antibiotics >5 days, TPN, CVC, renal replacement therapy, abdominal surgery, corticosteroids, neutropenia. Candida score (De Waele) ≥3 identifies high-risk surgical ICU patients for empirical antifungal prophylaxis. Candida endophthalmitis: confirmed by fundoscopy — if present, extend treatment duration to 4-6 weeks."
+        }
+      },
+      {
+        "id": "F2-Q6",
+        "stem": "A 48-year-old man presents with a perirectal abscess in the left ischiorectal fossa. He is afebrile and otherwise well. What is the definitive treatment and when should definitive fistula investigation be performed?",
+        "options": {
+          "A": "IV antibiotics for 7 days — most anorectal abscesses resolve without drainage",
+          "B": "Incision and drainage (I&D) in theatre + examination under anaesthesia for primary fistula if identifiable, definitive fistula treatment deferred to second EUA",
+          "C": "I&D + primary fistulotomy at the same sitting in all cases",
+          "D": "MRI pelvis before any intervention"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Perirectal/anorectal abscesses require surgical drainage — they do not resolve with antibiotics alone. Standard management: I&D under anaesthesia + EUA. If the primary fistula opening is easily identifiable at the dentate line during EUA without extensive dissection, simple lay-open (for low intersphincteric fistula) can be performed simultaneously. However, a second planned EUA for definitive fistula assessment when the tissues are not inflamed is the safer approach for complex fistulae — minimises risk of inadvertent sphincter damage in the acute setting.",
+          "wrong": {
+            "A": "Antibiotics alone do not treat anorectal abscess — pus under pressure requires drainage. Delaying surgery risks spontaneous rupture, Fournier's gangrene, and extension to the contralateral ischiorectal fossa (horseshoe abscess).",
+            "C": "Primary fistulotomy at the same sitting as drainage is appropriate for simple low intersphincteric fistulae identified easily. However, in a complex fistula (transphincteric, suprasphincteric) performing fistulotomy in inflamed, oedematous tissues risks incomplete division and sphincter injury — second EUA is safer.",
+            "D": "MRI is useful for complex fistula mapping but is NOT required before simple abscess drainage. It is appropriate before repeat EUA for a complex or recurrent fistula."
+          },
+          "guideline": "ASCRS Practice Parameters for Anorectal Abscess and Fistula 2022 — I&D first; EUA fistula if easily identifiable; second EUA for complex fistula",
+          "trial": "Oliver I et al., Colorectal Dis 2003: primary fistulotomy at abscess drainage — 44% fistula found at I&D; primary fistulotomy safe for low simple fistula; complex fistula: higher incontinence risk with primary fistulotomy.",
+          "pearl": "Horseshoe abscess: bilateral ischiorectal fossae involved via deep post-anal space communication. Treatment: drainage via midline posterior incision (Hanley procedure) through the deep postanal space + bilateral counter-incisions. Primary fistula opening typically at 6 o'clock dentate line."
+        }
+      },
+      {
+        "id": "F2-Q7",
+        "stem": "A 35-year-old man is 5 days post-laparotomy for perforated duodenal ulcer (Graham patch + washout). He develops fever 39.5°C, HR 120/min, and abdominal tenderness with peritoneal signs. CT shows a subphrenic collection (8cm) in the right upper quadrant. Blood cultures are pending. WBC 24×10⁹/L, CRP 320 mg/L. What is the most appropriate management?",
+        "options": {
+          "A": "CT-guided percutaneous drainage + broad-spectrum antibiotics",
+          "B": "Return to theatre for laparotomy and abdominal washout",
+          "C": "Endoscopic reassessment of the duodenal repair",
+          "D": "IV antibiotics for 7 days and repeat CT"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Post-operative intra-abdominal abscess after peritonitis surgery is best managed by CT-guided percutaneous drainage when the collection is accessible (>3cm, not involving major vessels/bowel). An 8cm subphrenic collection is ideal for percutaneous drainage. This achieves source control with minimal morbidity and achieves resolution in >80% of cases. Broad-spectrum antibiotics covering gram-positive, gram-negative, and anaerobes are started simultaneously.",
+          "wrong": {
+            "B": "Return to theatre for laparotomy is reserved for: failed percutaneous drainage, inaccessible collections, generalised peritonitis, haemodynamic compromise, or anastomotic leak requiring surgical repair. An accessible collection in a stable patient warrants percutaneous drainage first.",
+            "C": "Endoscopy has no role in a subphrenic collection remote from the duodenum. The collection is in the subphrenic space, not the duodenum.",
+            "D": "IV antibiotics alone cannot treat an established 8cm abscess — antibiotics do not penetrate well into the necrotic centre of an abscess. Source control (drainage) is mandatory."
+          },
+          "guideline": "WSES Intra-Abdominal Infections Guidelines 2022 — percutaneous drainage for accessible post-operative collections; surgery if drainage fails",
+          "trial": "Khurrum Baig M et al., Dis Colon Rectum 2002: CT-guided drainage of post-operative abdominal abscesses — 83% resolution; surgery required in 17%; technique of choice for accessible collections.",
+          "pearl": "Adequate source control is the single most important determinant of outcome in intra-abdominal sepsis. Antibiotics treat systemic infection; drainage treats the source. Post-operative collections: accessible → percutaneous drainage; inaccessible or multi-locular → laparoscopic/open drainage. Review all collections at 48-72h to confirm adequate drainage."
+        }
+      },
+      {
+        "id": "F2-Q8",
+        "stem": "A 72-year-old diabetic man has a central venous catheter-related bloodstream infection (CRBSI) with MRSA identified on blood cultures. He is haemodynamically stable. The CVC was inserted 5 days ago for TPN. What is the correct management?",
+        "options": {
+          "A": "IV vancomycin + keep CVC in situ — no need to remove if improving",
+          "B": "Remove CVC immediately + IV vancomycin for minimum 14 days from first negative blood culture",
+          "C": "Vancomycin through the CVC + oral linezolid to complete 7 days",
+          "D": "Change CVC over a guidewire — equivalent to new site insertion"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "MRSA CRBSI requires: (1) immediate CVC removal (biofilm on catheter is the source and will perpetuate infection despite antibiotics); (2) IV vancomycin (or daptomycin) for minimum 14 days from the first negative blood culture. MRSA endocarditis occurs in 20–30% of S. aureus bacteraemia — echocardiography is mandatory. 14-day treatment reduces risk of seeding (endocarditis, osteomyelitis).",
+          "wrong": {
+            "A": "CVC retention in MRSA CRBSI is associated with treatment failure, endocarditis, and persistent bacteraemia. IDSA guidelines mandate CVC removal for S. aureus bacteraemia — never retain the catheter.",
+            "C": "Oral linezolid does not have IDSA-approved status as first-line for MRSA bacteraemia. IV vancomycin or daptomycin are first-line. Oral step-down is not appropriate for S. aureus bacteraemia.",
+            "D": "Guidewire exchange is contraindicated in CRBSI — it transfers biofilm to the new catheter, perpetuating the infection. CVC must be removed and a new line inserted at a different site."
+          },
+          "guideline": "IDSA CRBSI Guidelines 2009 — MRSA bacteraemia: remove CVC + IV vancomycin ≥14 days from first negative culture; echocardiography for all S. aureus bacteraemia",
+          "trial": "Fowler VG Jr et al., NEJM 2006: S. aureus bacteraemia duration — bacteraemia >72h after appropriate antibiotics predicts endocarditis; echocardiography changed management in 25% of cases.",
+          "pearl": "S. aureus bacteraemia rules: (1) ALWAYS remove the source (CVC, joint, prosthetic material); (2) ALWAYS do echocardiography (TEE preferred — TV >95% sensitivity for endocarditis); (3) ALWAYS treat ≥14 days IV — never treat <14 days regardless of clinical improvement; (4) Follow-up blood cultures at 48-72h to confirm clearance."
+        }
+      },
+      {
+        "id": "F2-Q9",
+        "stem": "A 58-year-old woman has a complex left lower limb wound following road traffic accident with significant soft tissue loss, contamination, and exposed bone. She requires plastic surgical reconstruction but the wound is currently contaminated with mixed flora. What wound management strategy best prepares the wound for definitive reconstruction?",
+        "options": {
+          "A": "Antiseptic irrigation with povidone-iodine",
+          "B": "Primary closure of the wound with drains",
+          "C": "Daily saline wet-to-dry dressings",
+          "D": "Vacuum-assisted closure (VAC) therapy with silver-impregnated foam"
+        },
+        "correct": "D",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Negative pressure wound therapy (NPWT/VAC) is the gold standard for complex contaminated wound management before definitive reconstruction. It: (1) removes wound exudate and reduces bacterial load; (2) promotes granulation tissue formation; (3) reduces wound oedema; (4) prepares wound bed for split-thickness skin graft or flap. Silver-impregnated foam adds antimicrobial activity for contaminated wounds.",
+          "wrong": {
+            "A": "Povidone-iodine is cytotoxic to fibroblasts and delays wound healing. It may be used for initial decontamination but not for ongoing wound management.",
+            "B": "Primary closure of a contaminated wound is contraindicated — this creates an anaerobic environment and guarantees wound infection and dehiscence.",
+            "C": "Wet-to-dry dressings are historical and non-selective — they remove both granulation tissue and devitalised tissue equally, damaging healthy wound bed. They are not recommended for complex wound management."
+          },
+          "guideline": "NICE IPG536 — NPWT for complex wounds including traumatic injuries; gold standard for wound bed preparation",
+          "trial": "Stannard JP et al., J Bone Joint Surg 2012: NPWT for open fractures — infection rate 4.4% vs 10.8% standard dressing; wound failure rate 1.5% vs 8%; NPWT superior for open fracture wound management.",
+          "pearl": "NPWT principles: (1) apply foam to wound bed; (2) seal with drape; (3) apply -125 mmHg continuous or intermittent suction; (4) change every 48-72h (or daily for infection). Contraindications: untreated osteomyelitis, malignancy in wound, exposed vessels, coagulopathy. Granulation tissue should be visible within 3-5 days of NPWT in a well-perfused wound."
+        }
+      },
+      {
+        "id": "F2-Q10",
+        "stem": "A 65-year-old immunocompromised renal transplant patient (tacrolimus + MMF) presents with a spreading right leg erythema, oedema, and purple discolouration with fever 40°C, HR 135/min, BP 85/60mmHg after a minor abrasion. WBC 28×10⁹/L, CRP 450 mg/L, sodium 128 mmol/L, creatinine 290 µmol/L, glucose 18 mmol/L. LRINEC score is 11. CT shows gas in the fascial planes of the right leg. What is the most critical prognostic intervention?",
+        "options": {
+          "A": "Broad-spectrum antibiotics for 48 hours to stabilise before surgery",
+          "B": "Emergency surgical debridement within 12–24 hours of presentation",
+          "C": "Hyperbaric oxygen therapy as primary treatment",
+          "D": "ICU stabilisation with vasopressors before surgery"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Necrotising fasciitis (LRINEC 11, gas in fascial planes, systemic sepsis) — time to surgery is the single most important prognostic factor. Emergency debridement within 12–24 hours of diagnosis reduces mortality from >70% to <30%. Resuscitation (IV fluids, vasopressors, antibiotics) proceeds simultaneously but does NOT delay surgery. 'Stabilisation before surgery' is a dangerous fallacy for necrotising fasciitis — these patients cannot be stabilised without surgical source control.",
+          "wrong": {
+            "A": "48 hours of antibiotics before surgery significantly increases mortality. Necrotising fasciitis is uniformly fatal without surgery — antibiotics reduce bacterial load but do not halt fascial destruction.",
+            "C": "Hyperbaric oxygen has some adjunctive benefit in necrotising fasciitis but is never primary treatment. It is used after multiple debridements when the wound is clean and healing.",
+            "D": "Vasopressors should be started to maintain perfusion pressure, but this must not delay theatre. The source control provided by debridement will reduce the vasopressor requirement more than any amount of ICU supportive treatment."
+          },
+          "guideline": "WSES Skin and Soft Tissue Infections Guidelines 2020 — time to surgery in NF: every hour of delay increases mortality by 7-9%; emergency debridement mandatory",
+          "trial": "Wong CH et al., J Bone Joint Surg 2003: time to surgery in necrotising fasciitis — surgery within 24h: mortality 12%; >24h: mortality 32%; LRINEC score ≥6: high risk NF requiring urgent surgical assessment.",
+          "pearl": "LRINEC Score (Laboratory Risk Indicator for Necrotising Fasciitis): CRP ≥150mg/L (4pts), WBC 15-25 (1pt) or >25 (2pts), Hb 11-13.5 (1pt) or <11 (2pts), Na <135 (2pts), creatinine >141 (2pts), glucose >10 (1pt). Score ≥6 = high risk (75% PPV for NF); ≥8 = very high risk (93% PPV). Use as TRIGGER for urgent CT and surgical assessment, not to delay surgery when clinical suspicion is high."
+        }
+      }
+    ]
+  }
 }

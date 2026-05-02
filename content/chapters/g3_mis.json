@@ -34,14 +34,49 @@
         {
           "type": "table",
           "title": "Physiological Effects of Pneumoperitoneum",
-          "headers": ["System", "Effect", "Mechanism", "Clinical Implication"],
+          "headers": [
+            "System",
+            "Effect",
+            "Mechanism",
+            "Clinical Implication"
+          ],
           "rows": [
-            ["Cardiovascular — early", "Vagal bradycardia on insufflation", "Peritoneal stretch → vagal stimulation", "Have atropine ready; usually transient"],
-            ["Cardiovascular — sustained", "↑SVR, ↑MAP, ↑afterload", "IAP compresses aorta → increased impedance to LV ejection", "Poor tolerance in severe LV dysfunction; monitor BP"],
-            ["Cardiovascular — position", "Trendelenburg ↑venous return → risk pulmonary oedema", "IVC decompression + gravity", "Cardiac patients: avoid prolonged steep Trendelenburg"],
-            ["Respiratory", "↑Peak airway pressure, ↓FRC, hypercarbia", "Diaphragm elevation + CO2 absorption", "COPD: may need increased ventilator support; EtCO2 monitoring"],
-            ["Renal", "Reduced GFR, oliguria", "IAP ≥15 mmHg compresses renal cortex", "Reduce IAP to 10–12 mmHg if oliguria; ensure adequate hydration"],
-            ["Venous thromboembolism", "Increased DVT risk", "Venous stasis from IVC compression, pneumoperitoneum", "VTE prophylaxis mandatory; IPC during case"]
+            [
+              "Cardiovascular — early",
+              "Vagal bradycardia on insufflation",
+              "Peritoneal stretch → vagal stimulation",
+              "Have atropine ready; usually transient"
+            ],
+            [
+              "Cardiovascular — sustained",
+              "↑SVR, ↑MAP, ↑afterload",
+              "IAP compresses aorta → increased impedance to LV ejection",
+              "Poor tolerance in severe LV dysfunction; monitor BP"
+            ],
+            [
+              "Cardiovascular — position",
+              "Trendelenburg ↑venous return → risk pulmonary oedema",
+              "IVC decompression + gravity",
+              "Cardiac patients: avoid prolonged steep Trendelenburg"
+            ],
+            [
+              "Respiratory",
+              "↑Peak airway pressure, ↓FRC, hypercarbia",
+              "Diaphragm elevation + CO2 absorption",
+              "COPD: may need increased ventilator support; EtCO2 monitoring"
+            ],
+            [
+              "Renal",
+              "Reduced GFR, oliguria",
+              "IAP ≥15 mmHg compresses renal cortex",
+              "Reduce IAP to 10–12 mmHg if oliguria; ensure adequate hydration"
+            ],
+            [
+              "Venous thromboembolism",
+              "Increased DVT risk",
+              "Venous stasis from IVC compression, pneumoperitoneum",
+              "VTE prophylaxis mandatory; IPC during case"
+            ]
           ]
         },
         {
@@ -63,14 +98,63 @@
         {
           "type": "table",
           "title": "Energy Devices — Comparison",
-          "headers": ["Device", "Mechanism", "Vessel Seal", "Lateral Spread", "Key Safety Issue", "Best Use"],
+          "headers": [
+            "Device",
+            "Mechanism",
+            "Vessel Seal",
+            "Lateral Spread",
+            "Key Safety Issue",
+            "Best Use"
+          ],
           "rows": [
-            ["Monopolar cutting", "High-freq, low-voltage continuous current → vaporisation", "Poor — not designed for sealing", "5–10 mm (coag)", "Capacitative coupling, direct coupling, insulation failure", "Dissection, cutting avascular tissue"],
-            ["Monopolar coagulation", "High-voltage interrupted current → protein denaturation", "Small vessels (<2 mm)", "5–10 mm", "Arcing to adjacent structures", "Haemostasis of small bleeders"],
-            ["Bipolar LigaSure", "Low-voltage AC + pressure → collagen fusion", "Up to 7 mm vessels", "1–2 mm", "Minimal — well-controlled", "Mesenteric vessels, splenic hilum, liver parenchyma"],
-            ["Bipolar EnSeal", "Nanoparticle tissue-regulated current + compression", "Up to 7 mm vessels", "~1 mm", "Minimal", "Delicate dissection near bile duct"],
-            ["Harmonic (ultrasonic)", "55,500 Hz vibration → frictional heat 80–100°C", "Up to 5 mm vessels", "3 mm", "Delayed burn risk (blade remains hot post-activation)", "All-purpose — no electrical current in patient"],
-            ["THUNDERBEAT", "Combined bipolar + ultrasonic", "Up to 7 mm + rapid cut", "~1.5–2 mm", "Cost; blade complexity", "Efficiency in combined sealing and cutting"]
+            [
+              "Monopolar cutting",
+              "High-freq, low-voltage continuous current → vaporisation",
+              "Poor — not designed for sealing",
+              "5–10 mm (coag)",
+              "Capacitative coupling, direct coupling, insulation failure",
+              "Dissection, cutting avascular tissue"
+            ],
+            [
+              "Monopolar coagulation",
+              "High-voltage interrupted current → protein denaturation",
+              "Small vessels (<2 mm)",
+              "5–10 mm",
+              "Arcing to adjacent structures",
+              "Haemostasis of small bleeders"
+            ],
+            [
+              "Bipolar LigaSure",
+              "Low-voltage AC + pressure → collagen fusion",
+              "Up to 7 mm vessels",
+              "1–2 mm",
+              "Minimal — well-controlled",
+              "Mesenteric vessels, splenic hilum, liver parenchyma"
+            ],
+            [
+              "Bipolar EnSeal",
+              "Nanoparticle tissue-regulated current + compression",
+              "Up to 7 mm vessels",
+              "~1 mm",
+              "Minimal",
+              "Delicate dissection near bile duct"
+            ],
+            [
+              "Harmonic (ultrasonic)",
+              "55,500 Hz vibration → frictional heat 80–100°C",
+              "Up to 5 mm vessels",
+              "3 mm",
+              "Delayed burn risk (blade remains hot post-activation)",
+              "All-purpose — no electrical current in patient"
+            ],
+            [
+              "THUNDERBEAT",
+              "Combined bipolar + ultrasonic",
+              "Up to 7 mm + rapid cut",
+              "~1.5–2 mm",
+              "Cost; blade complexity",
+              "Efficiency in combined sealing and cutting"
+            ]
           ]
         },
         {
@@ -92,11 +176,31 @@
         {
           "type": "table",
           "title": "Critical View of Safety — Three Criteria",
-          "headers": ["Criterion", "Technical Requirement", "Common Error", "Consequence of Non-compliance"],
+          "headers": [
+            "Criterion",
+            "Technical Requirement",
+            "Common Error",
+            "Consequence of Non-compliance"
+          ],
           "rows": [
-            ["1. Hepatocystic triangle cleared", "Complete dissection — no fat or fibrous tissue; triangle fully opened", "Incomplete posterior dissection — only anterior triangle cleared", "Failure to identify CBD running into 'cystic duct' position"],
-            ["2. Lowest GB separated from cystic plate", "Gallbladder bottom separated from liver (cystic plate visible)", "Stopping dissection at infundibulum without separating GB from liver", "Inadequate exposure — cannot confirm two-structure rule"],
-            ["3. Two and only two structures enter GB", "Only cystic duct and cystic artery seen going into gallbladder", "Mistaking CBD or right hepatic duct for 'cystic duct'", "Bile duct injury — catastrophic complication"]
+            [
+              "1. Hepatocystic triangle cleared",
+              "Complete dissection — no fat or fibrous tissue; triangle fully opened",
+              "Incomplete posterior dissection — only anterior triangle cleared",
+              "Failure to identify CBD running into 'cystic duct' position"
+            ],
+            [
+              "2. Lowest GB separated from cystic plate",
+              "Gallbladder bottom separated from liver (cystic plate visible)",
+              "Stopping dissection at infundibulum without separating GB from liver",
+              "Inadequate exposure — cannot confirm two-structure rule"
+            ],
+            [
+              "3. Two and only two structures enter GB",
+              "Only cystic duct and cystic artery seen going into gallbladder",
+              "Mistaking CBD or right hepatic duct for 'cystic duct'",
+              "Bile duct injury — catastrophic complication"
+            ]
           ]
         },
         {
@@ -152,15 +256,55 @@
         {
           "type": "table",
           "title": "Robotic Surgery — Evidence Summary by Procedure",
-          "headers": ["Procedure", "Evidence Level", "Robotic Advantage", "Status"],
+          "headers": [
+            "Procedure",
+            "Evidence Level",
+            "Robotic Advantage",
+            "Status"
+          ],
           "rows": [
-            ["Radical prostatectomy (RALP)", "Level I — multiple RCTs and systematic reviews", "Less blood loss, reduced transfusion, possible functional benefit (continence/potency)", "Gold standard — vast majority performed robotically"],
-            ["Partial nephrectomy", "Level II — comparative studies", "Better intracorporeal suturing for complex tumours; reduced warm ischaemia time", "Preferred for complex (R.E.N.A.L. ≥7) partial nephrectomy"],
-            ["Hysterectomy (benign/cancer)", "Level I — LACC trial (radical)", "Equivalent oncology in benign; LACC trial: open superior for cervical cancer", "Robotic for benign; open remains standard for cervical cancer (LACC)"],
-            ["Rectal (TME)", "Level I — ROLARR RCT", "NO benefit in conversion or oncological outcomes vs laparoscopic (ROLARR)", "Used at many centres; not proven superior to laparoscopic TME"],
-            ["Colonic resection", "Level II — case series, small RCTs", "Potentially shorter stay; cost-effective evidence lacking", "Growing use; no Level I evidence over laparoscopic"],
-            ["Bariatric (RYGB)", "Level II — comparative studies", "Equivalent outcomes to laparoscopic; slightly longer operative time", "No clear advantage; higher cost"],
-            ["Oesophagectomy", "Level I — ROBOT trial (2021)", "Reduced blood loss, shorter ICU stay, possibly reduced pulmonary complications", "Growing adoption; ROBOT trial supports non-inferiority to open"]
+            [
+              "Radical prostatectomy (RALP)",
+              "Level I — multiple RCTs and systematic reviews",
+              "Less blood loss, reduced transfusion, possible functional benefit (continence/potency)",
+              "Gold standard — vast majority performed robotically"
+            ],
+            [
+              "Partial nephrectomy",
+              "Level II — comparative studies",
+              "Better intracorporeal suturing for complex tumours; reduced warm ischaemia time",
+              "Preferred for complex (R.E.N.A.L. ≥7) partial nephrectomy"
+            ],
+            [
+              "Hysterectomy (benign/cancer)",
+              "Level I — LACC trial (radical)",
+              "Equivalent oncology in benign; LACC trial: open superior for cervical cancer",
+              "Robotic for benign; open remains standard for cervical cancer (LACC)"
+            ],
+            [
+              "Rectal (TME)",
+              "Level I — ROLARR RCT",
+              "NO benefit in conversion or oncological outcomes vs laparoscopic (ROLARR)",
+              "Used at many centres; not proven superior to laparoscopic TME"
+            ],
+            [
+              "Colonic resection",
+              "Level II — case series, small RCTs",
+              "Potentially shorter stay; cost-effective evidence lacking",
+              "Growing use; no Level I evidence over laparoscopic"
+            ],
+            [
+              "Bariatric (RYGB)",
+              "Level II — comparative studies",
+              "Equivalent outcomes to laparoscopic; slightly longer operative time",
+              "No clear advantage; higher cost"
+            ],
+            [
+              "Oesophagectomy",
+              "Level I — ROBOT trial (2021)",
+              "Reduced blood loss, shorter ICU stay, possibly reduced pulmonary complications",
+              "Growing adoption; ROBOT trial supports non-inferiority to open"
+            ]
           ]
         },
         {
@@ -198,14 +342,49 @@
         {
           "type": "table",
           "title": "MIS-Specific Complications — Summary",
-          "headers": ["Complication", "Presentation", "Immediate Management", "Prevention"],
+          "headers": [
+            "Complication",
+            "Presentation",
+            "Immediate Management",
+            "Prevention"
+          ],
           "rows": [
-            ["CO2 gas embolism", "Mill-wheel murmur, haemodynamic collapse, ↑EtCO2 then ↓, ↓SpO2", "Stop insufflation; Durant's position (left lateral + Trendelenburg); aspirate CVP; CPR", "Safety tests before insufflation; low initial flow rate; avoid open veins"],
-            ["Trocar vascular injury (aorta/IVC)", "Immediate massive haemorrhage, haemodynamic collapse", "Do NOT remove trocar; immediately convert to open laparotomy; compress; vascular surgery", "Open (Hasson) entry in high-risk patients; confirm entry before full insufflation"],
-            ["Bowel thermal injury (delayed)", "Day 3–7 peritonitis; patient looked well initially", "Laparotomy; bowel resection; aggressive peritoneal lavage", "Minimise unintended activation; keep instruments in view; check insulation"],
-            ["Trocar/port site hernia", "Subacute obstruction 1–4 weeks post-op; pain at port site", "Hernia repair; bowel assessment", "Fascial closure for ALL ≥10 mm ports"],
-            ["Subcutaneous emphysema", "Crepitus on neck/chest/scrotum; hypercarbia on ventilator", "Reduce IAP to 8–10 mmHg; may need conversion", "Correct Veress needle placement; avoid excessive insufflation"],
-            ["Shoulder tip pain", "Bilateral shoulder/scapular pain post-laparoscopy", "Reassure; NSAID; resolves 24–48h", "Aspirate residual gas at end of case; Trendelenburg briefly to expel gas"]
+            [
+              "CO2 gas embolism",
+              "Mill-wheel murmur, haemodynamic collapse, ↑EtCO2 then ↓, ↓SpO2",
+              "Stop insufflation; Durant's position (left lateral + Trendelenburg); aspirate CVP; CPR",
+              "Safety tests before insufflation; low initial flow rate; avoid open veins"
+            ],
+            [
+              "Trocar vascular injury (aorta/IVC)",
+              "Immediate massive haemorrhage, haemodynamic collapse",
+              "Do NOT remove trocar; immediately convert to open laparotomy; compress; vascular surgery",
+              "Open (Hasson) entry in high-risk patients; confirm entry before full insufflation"
+            ],
+            [
+              "Bowel thermal injury (delayed)",
+              "Day 3–7 peritonitis; patient looked well initially",
+              "Laparotomy; bowel resection; aggressive peritoneal lavage",
+              "Minimise unintended activation; keep instruments in view; check insulation"
+            ],
+            [
+              "Trocar/port site hernia",
+              "Subacute obstruction 1–4 weeks post-op; pain at port site",
+              "Hernia repair; bowel assessment",
+              "Fascial closure for ALL ≥10 mm ports"
+            ],
+            [
+              "Subcutaneous emphysema",
+              "Crepitus on neck/chest/scrotum; hypercarbia on ventilator",
+              "Reduce IAP to 8–10 mmHg; may need conversion",
+              "Correct Veress needle placement; avoid excessive insufflation"
+            ],
+            [
+              "Shoulder tip pain",
+              "Bilateral shoulder/scapular pain post-laparoscopy",
+              "Reassure; NSAID; resolves 24–48h",
+              "Aspirate residual gas at end of case; Trendelenburg briefly to expel gas"
+            ]
           ]
         },
         {
@@ -558,5 +737,240 @@
       "explanation": "The SILC trial (Devane et al., 2017, Br J Surg — UK multicentre RCT): 391 patients randomised to SILC vs standard 4-port laparoscopic cholecystectomy. Results: SILC had equivalent early outcomes for conversion rate, bile duct injury, and bile leak. SILC had: longer operative time (48 min vs 40 min; p=0.002), higher 1-year umbilical hernia rate (2.4% vs 0.4%; p=0.047), equivalent cosmetic satisfaction (contrary to the cosmetic rationale — patients rated cosmesis similarly). Bile duct injury: not significantly different (rare events). Conclusion: SILC offers no significant clinical advantage over standard 4-port LC while carrying a significantly higher hernia rate and longer operative time. SILC is NOT recommended as the standard approach but remains an option for surgeons with specific SILC training in selected cases. The cosmetic rationale (single umbilical scar) is not validated by patient satisfaction data.",
       "teaching_point": "SILC trial: SILC = standard LC for safety but longer operative time and HIGHER hernia rate (2.4% vs 0.4%). No significant cosmetic satisfaction advantage. SILC is NOT recommended as the standard approach. Use standard 4-port LC as the default. SILC may be offered by experienced surgeons as an option with informed consent about hernia risk. Key exam fact: SILC has higher trocar hernia rate — the defining disadvantage."
     }
-  ]
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of minimally invasive surgery — principles, robotics, and laparoscopic techniques with 10 clinical questions.",
+    "questions": [
+      {
+        "id": "G3-Q1",
+        "stem": "A 45-year-old woman requires laparoscopic right hemicolectomy for caecal cancer. During port placement, the surgeon notes that the small bowel has fallen into the right iliac fossa, making the initial camera port view challenging. CO2 pneumoperitoneum has been established at 12 mmHg. Which patient positioning optimisation will best improve surgical exposure?",
+        "options": {
+          "A": "Reverse Trendelenburg (head up) and right lateral tilt",
+          "B": "Supine flat position with no tilt",
+          "C": "Increase insufflation pressure to 20 mmHg",
+          "D": "Trendelenburg position (head down) and left lateral tilt"
+        },
+        "correct": "A",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "For laparoscopic right hemicolectomy, gravity-assisted bowel retraction is essential. Reverse Trendelenburg (head up) causes the small bowel to fall cephalad (towards the stomach) under gravity, away from the right iliac fossa. Right lateral tilt causes the small bowel to fall towards the left side of the abdomen. Combined reverse Trendelenburg + right lateral tilt provides optimal exposure of the right colon and ileocaecal region.",
+          "wrong": {
+            "B": "Supine flat position provides no gravity assistance for bowel retraction. Proper positioning is a fundamental component of laparoscopic surgery to avoid the need for excessive retraction.",
+            "C": "Increasing insufflation pressure to 20 mmHg increases cardiac preload compromise, CO2 absorption, and diaphragmatic elevation without significantly improving bowel retraction compared to positioning. Maximum recommended pressure is 12-15 mmHg.",
+            "D": "Trendelenburg (head down) + left lateral tilt is used for laparoscopic rectal surgery (low anterior resection) — it moves small bowel out of the pelvis. For right colon surgery, this position moves bowel into the operative field."
+          },
+          "guideline": "SAGES Laparoscopic Colectomy Guidelines — positioning: reverse Trendelenburg + lateral tilt for right colon; Trendelenburg + left tilt for rectal/left colon; standard of care",
+          "trial": "Guillou PJ et al., Lancet 2005: MRC CLASICC trial — laparoscopic vs open colorectal surgery: equivalent oncological outcomes; laparoscopic: faster recovery; positioning is a learnable technical skill within the learning curve.",
+          "pearl": "Laparoscopic positioning summary: Right hemicolectomy = reverse T + right lateral tilt (patient tilted to left, left arm up, right side down). Left hemicolectomy/sigmoid = reverse T + left lateral tilt. LAR/rectal = steep Trendelenburg + left lateral tilt. Gynaecological/pelvic = steep Trendelenburg. Upper GI (Nissen, Heller) = reverse T only."
+        }
+      },
+      {
+        "id": "G3-Q2",
+        "stem": "A 35-year-old man undergoes laparoscopic cholecystectomy. During dissection, the surgeon inadvertently applies a clip to the common bile duct (CBD) — a Strasberg Type E4 bile duct injury (right hepatic duct + common hepatic duct transected at the confluence). The injury is recognised intra-operatively. What is the appropriate immediate management?",
+        "options": {
+          "A": "Complete the cholecystectomy and arrange ERCP post-operatively",
+          "B": "Remove the clip and close the duct primarily with interrupted absorbable sutures",
+          "C": "Convert to open and perform primary end-to-end CBD repair over T-tube",
+          "D": "Mark the injury, place drains, close, and transfer to a specialist hepatobiliary centre within 24-48h"
+        },
+        "correct": "D",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Strasberg E4 is a high bile duct injury (right hepatic + CHD confluence). The correct management is: (1) do NOT attempt repair at the index operation (primary repair at non-specialist centre is associated with 40% failure); (2) mark the injury with clips/sutures for identification; (3) place intra-abdominal drains; (4) close the abdomen; (5) immediately transfer to a specialist hepatobiliary centre. Definitive repair (Roux-en-Y hepaticojejunostomy) must be performed by experienced biliary surgeons.",
+          "wrong": {
+            "A": "Completing cholecystectomy and arranging post-operative ERCP delays definitive repair and allows further contamination. An E4 injury requires urgent specialist referral, not ERCP.",
+            "B": "Primary suture repair of a high bile duct injury (E4) at a general centre has a high failure rate (40-60%) leading to biliary stricture, hepatic atrophy, and secondary biliary cirrhosis. This approach is condemned in specialist guidelines.",
+            "C": "Open primary end-to-end CBD repair is inappropriate for E4 injury — the right hepatic duct and CHD confluence are involved, making end-to-end anastomosis technically impossible without tension. Hepaticojejunostomy is the definitive repair."
+          },
+          "guideline": "SAGES-AHPBA Bile Duct Injury Management Guidelines 2025 — major BDI: do not repair at index operation; transfer to specialist hepatobiliary centre; Roux-en-Y hepaticojejunostomy is definitive repair",
+          "trial": "Lillemoe KD et al., Ann Surg 1997: bile duct injury repair at specialist centres — hepaticojejunostomy: 90% success at specialist centres vs 40% at general centres; primary repair failure leads to secondary biliary cirrhosis.",
+          "pearl": "Strasberg E classification (equivalent to Bismuth): E1 = BDI >2cm from confluence; E2 = <2cm from confluence; E3 = at confluence; E4 = right hepatic duct involved + confluence; E5 = right sectoral duct + CHD. E4/E5 always require specialist hepatobiliary referral. Never attempt primary repair of E3-E5 at a non-specialist centre."
+        }
+      },
+      {
+        "id": "G3-Q3",
+        "stem": "A 60-year-old man undergoes laparoscopic total mesorectal excision (laparoscopic TME) for T3 N1 rectal cancer at 7cm from the anal verge after LCCRT. The operation takes 4 hours. At the end of the procedure, the surgeon checks the stapled colorectal anastomosis with air insufflation (rectal washout with air test). Bubbles are seen around the anastomosis. What does this intraoperative finding indicate and how should it be managed?",
+        "options": {
+          "A": "The air test is not validated for colorectal anastomoses — rely on tactile assessment only",
+          "B": "Normal finding — air often escapes around the anastomosis after TME",
+          "C": "Positive air leak test — oversew the anastomosis or consider defunctioning ileostomy",
+          "D": "Positive air leak test — abandon the anastomosis and perform Hartmann's procedure"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Positive intraoperative air leak test (bubbles around the anastomosis on submerging it in saline with rectal air insufflation) indicates an anastomotic defect. Options: (1) suture repair of the defect and re-test; (2) formation of a defunctioning loop ileostomy to divert faecal stream and allow healing. For a low rectal anastomosis post-CRT, defunctioning ileostomy is strongly recommended regardless — a positive air test further supports this decision.",
+          "wrong": {
+            "A": "The intraoperative air leak test is validated and recommended by multiple colorectal surgery guidelines as a standard quality assurance step after all colorectal anastomoses. It detects defects that would otherwise manifest as anastomotic leak.",
+            "B": "Bubbles on the air test are NOT normal. They indicate an anastomotic defect. This finding requires intraoperative action.",
+            "D": "Hartmann's procedure (anastomosis takedown) is not immediately required for a positive air test. Suture repair + defunctioning ileostomy is the appropriate, anastomosis-preserving response."
+          },
+          "guideline": "ESCP Rectal Cancer Surgical Guidelines 2024 — intraoperative air leak test for all colorectal anastomoses; positive test: suture repair + defunctioning",
+          "trial": "Ricciardi R et al., Dis Colon Rectum 2006: air leak test after colorectal anastomosis — positive test: 5× higher clinical leak rate; intraoperative repair reduces postoperative leak rate from 20% to 5%.",
+          "pearl": "Defunctioning ileostomy indications for rectal anastomosis: (1) anastomosis <6cm from anal verge; (2) post-CRT; (3) positive air leak test; (4) technical concern; (5) immunosuppression. Does not prevent leak — diverts faecal stream, reduces leak severity and clinical impact. Reversal: typically at 3 months post-operatively if no leak and anastomosis confirmed intact."
+        }
+      },
+      {
+        "id": "G3-Q4",
+        "stem": "A 70-year-old woman with T2N0 rectal cancer at 5cm from the anal verge is being considered for transanal minimally invasive surgery (TAMIS). Which of the following tumour characteristics confirms suitability for TAMIS as a curative local excision?",
+        "options": {
+          "A": "T2 tumour, well-differentiated, no lymphovascular invasion, no mucinous features",
+          "B": "T1 tumour, well-differentiated, no lymphovascular invasion, size <3cm, within 8cm from anal verge",
+          "C": "T2 tumour — can be treated curatively with TAMIS if combined with adjuvant radiotherapy",
+          "D": "Any rectal tumour <4cm can be treated with TAMIS"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "TAMIS (or TEM) curative local excision criteria: T1 tumour (muscularis propria not involved), well or moderately differentiated, no lymphovascular invasion, no perineural invasion, no mucinous/signet ring features, size <3cm, within 8-10cm from anal verge, and accessible circumferential position. T1 tumours have 10-15% lymph node metastasis rate — local excision alone is curative in the remaining 85-90% with favourable pathology.",
+          "wrong": {
+            "A": "T2 tumours (muscularis propria involved) have 25-30% lymph node positivity rate. TAMIS alone for T2 is not curative — radical TME is required for T2 rectal cancer.",
+            "C": "TAMIS + adjuvant radiotherapy for T2 tumours is not standard of care. Some centres offer CRT + TAMIS in select patients, but this is investigational (GRECCAR 2 trial) — TME remains standard for T2.",
+            "D": "Size alone (<4cm) is insufficient. T-stage, histological grade, and lymphovascular invasion must all be favourable. T2 tumours <4cm still require radical surgery."
+          },
+          "guideline": "ESCP Rectal Cancer Guidelines 2024 — TAMIS/TEM for T1 N0 rectal cancer with favourable histology; T2 requires radical TME",
+          "trial": "ACPGBI TATA guidelines: T1 low-risk local excision — 5-year OS 96%; local recurrence 4-8%. T1 high-risk (LVI, poor grade): completion TME recommended after local excision. GRECCAR 2 (Rullier E, Lancet 2017): CRT + TEM vs TME for T2 — TEM: higher local recurrence (10% vs 0%); TME remains standard.",
+          "pearl": "TAMIS platforms: GelPOINT Path Transanal Access Platform, SILS port, or TEM (transanal endoscopic microsurgery) system. All achieve full-thickness excision with 1cm clear margin. High-risk T1 features requiring completion TME: LVI, poor differentiation, margin <1mm, pT1sm3 (deep submucosal invasion). Staging: MRI + EUS for pre-operative T/N staging before TAMIS decision."
+        }
+      },
+      {
+        "id": "G3-Q5",
+        "stem": "A 55-year-old man undergoes laparoscopic oesophagectomy (minimally invasive oesophagectomy — MIO — Ivor Lewis approach). On day 3, his nursing team notices increased drain output: clear fluid 400 mL from the right chest drain with triglycerides 6.2 mmol/L (serum 2.1 mmol/L). What complication has occurred and what is the initial management?",
+        "options": {
+          "A": "Empyema — chest drain antibiotics and pleural decortication",
+          "B": "Anastomotic leak — water-soluble contrast swallow",
+          "C": "Haemothorax — blood transfusion and surgical re-exploration",
+          "D": "Chylothorax — nil by mouth, low-fat enteral nutrition (medium chain triglycerides), octreotide, and drainage"
+        },
+        "correct": "D",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Chylothorax results from thoracic duct injury during oesophagectomy (incidence 1-3%). Diagnosis: pleural fluid triglycerides >1.1 mmol/L (or >1.24 mmol/L when ratio to serum >1). Initial management: (1) nil by mouth OR switch to medium-chain triglyceride (MCT) low-fat diet/enteral feed (MCT bypasses the lymphatic system); (2) somatostatin/octreotide (reduces lymph flow); (3) adequate drainage. If chyle output >1L/day for >5 days → surgical or radiological duct ligation.",
+          "wrong": {
+            "A": "Empyema is infected pleural fluid — not chylous (clear, milky on fat intake, triglyceride-rich). It presents with fever, purulent fluid, and would require antibiotics and drainage, not dietary modification.",
+            "B": "Anastomotic leak after MIO presents with sepsis, tachycardia, and CT/swallow showing extravasation of contrast. Clear fluid with high triglycerides from the chest drain is specific to chylothorax.",
+            "C": "Haemothorax produces blood-stained output (haematocrit similar to serum). Clear/milky fluid with triglycerides 6.2 mmol/L is chylous, not haemorrhagic."
+          },
+          "guideline": "ISDE Chylothorax Management Guidelines 2022 — conservative (MCT diet + octreotide) for <1L/day; surgical thoracic duct ligation for >1L/day for >5 days",
+          "trial": "Brinkmann S et al., Ann Thorac Surg 2016: chylothorax after oesophagectomy — conservative management: 50-60% resolution; failure to respond within 5-7 days: surgical/radiological thoracic duct ligation: 85-90% success.",
+          "pearl": "Thoracic duct ligation: VATS or right-sided thoracoscopy at T8-T9 level (mass ligation of all tissue between vertebra and aorta). Radiological options: percutaneous cannulation of the cisterna chyli and thoracic duct embolisation (80% success). Lymphangiography before embolisation identifies the leak site."
+        }
+      },
+      {
+        "id": "G3-Q6",
+        "stem": "A 65-year-old man undergoes laparoscopic anterior resection for sigmoid cancer. During the operation, the surgeon performs an incomplete lateral dissection, resulting in difficulty reaching the peritoneal reflection. The sigmoid mesentery is not adequately mobilised. What is the likely consequence of incomplete mesocolic excision in sigmoid cancer?",
+        "options": {
+          "A": "Increased local recurrence risk from inadequate lymphovascular clearance and disrupted mesocolic plane",
+          "B": "Increased anastomotic leak rate only — no oncological consequence",
+          "C": "Increased intraoperative bleeding only — no long-term consequence",
+          "D": "No consequence — mesocolic excision does not affect outcomes for sigmoid cancer"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Complete mesocolic excision (CME) for colon cancer — analogous to TME for rectal cancer — requires sharp dissection in the embryological fusion plane (between mesocolon and retroperitoneum), central vessel ligation, and adequate lymphovascular clearance. Incomplete CME (intramesorectal or muscularis propria plane) is associated with higher local recurrence and reduced 5-year survival. The D3 lymphadenectomy (complete removal to vessel origin) is the critical component.",
+          "wrong": {
+            "B": "Incomplete CME has oncological consequences (local recurrence), not just surgical complications. Anastomotic leak is not related to CME completeness.",
+            "C": "Intraoperative bleeding is not the primary consequence of incomplete CME. The oncological impact (residual lymph nodes, positive margins) is the critical issue.",
+            "D": "Multiple studies confirm CME quality significantly impacts local recurrence and survival in colon cancer. The 'quality of surgery' is a prognostic factor independent of tumour biology."
+          },
+          "guideline": "NCCN Colon Cancer Guidelines 2024 — CME + central vascular ligation as oncological quality measure; correlates with local recurrence and survival",
+          "trial": "Hohenberger W et al., Colorectal Dis 2009: CME introduction — local recurrence 6.5% vs 15% pre-CME; 5-yr survival 89.1% vs 82.1%; CME quality is an independent prognostic factor.",
+          "pearl": "CME quality assessment (pathological): mesocolic plane = intact peritoneum covering the mesocolon (highest quality); intramesorectal = defects not reaching muscularis; muscularis = defects reaching muscularis (highest local recurrence). Analogous to Quirke's mesorectal grading for rectal TME. Central vessel ligation (CVL): ligation at the vessel origin, ensuring maximum lymph node clearance."
+        }
+      },
+      {
+        "id": "G3-Q7",
+        "stem": "The ROLARR trial compared robot-assisted laparoscopic surgery (RALS) to standard laparoscopic surgery (LS) for rectal cancer resection. Which of the following best describes the primary findings of this RCT?",
+        "options": {
+          "A": "RALS is not safe for rectal cancer surgery — high complication rates",
+          "B": "RALS had significantly lower conversion rates and better oncological outcomes than LS",
+          "C": "RALS did not significantly reduce conversion to open surgery compared to LS, but demonstrated equivalent oncological outcomes",
+          "D": "RALS was significantly inferior to LS in terms of CRM positivity and 30-day morbidity"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "ROLARR trial (Jayne, JAMA 2017): RCT of 471 patients, robot-assisted vs laparoscopic TME for rectal cancer. Primary endpoint: conversion to open surgery. Results: conversion rate RALS 8.1% vs LS 12.2% — NOT statistically significant (p=0.16). Secondary outcomes: CRM positivity, morbidity, 30-day mortality — all equivalent. Conclusion: RALS does not significantly improve outcomes compared to standard laparoscopic TME. Robot may reduce conversion in specific circumstances (obese, narrow pelvis).",
+          "wrong": {
+            "A": "RALS has equivalent safety to standard laparoscopy. The ROLARR trial confirmed safety equivalence.",
+            "B": "ROLARR showed NO significant reduction in conversion rate with RALS. The ROLARR trial did not find RALS to be superior to LS for primary endpoint (conversion) or oncological outcomes.",
+            "D": "ROLARR found CRM positivity and morbidity EQUIVALENT between RALS and LS — not inferior for RALS. The trial was well-powered and conducted in specialist centres."
+          },
+          "guideline": "ESCP Rectal Cancer Surgical Guidelines 2024 — robot and laparoscopic TME: equivalent outcomes; robot may benefit in specific anatomical situations",
+          "trial": "Jayne D et al., JAMA 2017: ROLARR trial — 471 patients; primary endpoint: conversion to open (RALS 8.1% vs LS 12.2%, p=0.16, NS); CRM equivalent; operative time longer for robot; no safety signal.",
+          "pearl": "Robot advantages over standard laparoscopy: 3D vision, wrist articulation (7 degrees of freedom), tremor filtration, reduced surgeon fatigue. Potential advantages in: narrow male pelvis, obesity, low rectal cancer, complex reoperative pelvis. Disadvantages: cost, longer set-up time, no haptic feedback, smaller workforce with training. ROLARR 2 trial ongoing."
+        }
+      },
+      {
+        "id": "G3-Q8",
+        "stem": "A 40-year-old woman undergoes laparoscopic appendicectomy for perforated appendicitis with localised peritonitis. Port sizes: 12mm camera port (umbilical), two 5mm ports. During specimen retrieval, the inflamed appendix is placed in an endobag. The surgeon is considering whether to irrigate the peritoneal cavity. What does current evidence recommend?",
+        "options": {
+          "A": "Copious irrigation of the entire peritoneal cavity with 3-5L warm saline",
+          "B": "Local irrigation only at the appendix bed, with suctioning of any visible pus — avoid systematic lavage",
+          "C": "Routine post-operative peritoneal lavage via drain left in situ",
+          "D": "Antibiotic lavage with gentamicin solution"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Evidence from the ARISE trial and subsequent studies shows that routine systematic peritoneal lavage for perforated appendicitis does NOT reduce infectious complications and may INCREASE the rate of post-operative abscess formation by disseminating contamination into recesses (Morrison's pouch, subphrenic spaces). Current best practice: suction any visible contamination, local irrigation at the appendix bed, remove the specimen in an endobag, and close. Drains are not routinely placed.",
+          "wrong": {
+            "A": "Copious systemic lavage (3-5L) spreads contamination throughout the peritoneal cavity and increases distant abscess formation. Multiple studies have shown no benefit and potential harm from routine lavage.",
+            "C": "Routine drain placement after laparoscopic appendicectomy for perforated appendicitis is not supported by evidence. Drains are reserved for patients with inadequate source control or persistent contamination at completion.",
+            "D": "Antibiotic lavage (gentamicin, tetracycline) has no proven benefit over saline lavage and is not recommended. Systemic antibiotics provide adequate coverage."
+          },
+          "guideline": "WSES Appendicitis Guidelines 2020 — no routine systematic lavage; local suction; no routine drain; IV antibiotics 3-5 days for perforated appendicitis",
+          "trial": "ARISE trial (post-hoc): systematic lavage for perforated appendicitis — no reduction in SSI; trend towards increased pelvic abscess. Multiple observational studies confirm no lavage benefit.",
+          "pearl": "Perforated appendicitis management: (1) remove specimen in endobag (prevent port site contamination); (2) suction of visible pus; (3) no routine irrigation; (4) IV antibiotics for 3-5 days (piperacillin-tazobactam or amoxicillin-clavulanate); (5) no drain unless specific indication; (6) conversion to open: free faecal peritonitis or technical difficulty."
+        }
+      },
+      {
+        "id": "G3-Q9",
+        "stem": "A 55-year-old man develops port site hernia 6 months after laparoscopic sigmoid colectomy. The 12mm umbilical port site has a 2cm symptomatic defect with omentum incarcerated but no bowel involvement. He is otherwise well. What is the definitive treatment and what is the primary prevention of port site hernias?",
+        "options": {
+          "A": "Port site hernias only require repair if bowel is incarcerated — omentum alone does not require surgery",
+          "B": "Repair with onlay mesh alone without fascial closure",
+          "C": "Conservative management — wait for resolution; port site hernias resolve spontaneously",
+          "D": "Surgical repair of the fascial defect; prevention: close all port sites ≥10mm fascial defects at time of original surgery"
+        },
+        "correct": "D",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Port site hernias at ≥10mm sites are symptomatic defects requiring surgical repair (fascial closure ± mesh). Even omental incarceration requires repair as bowel herniation will follow. Prevention: fascial closure of all ≥10mm port site fascial defects at time of original surgery using a fascial closure device (Carter-Thomason, etc.) or interrupted figure-of-eight absorbable sutures.",
+          "wrong": {
+            "A": "Omental incarceration is a symptomatic hernia requiring repair. The risk of bowel herniation through an established port site defect is high — repair prevents bowel obstruction and strangulation.",
+            "B": "Onlay mesh without fascial closure does not address the hernia defect adequately. Fascial closure is the primary repair — mesh reinforcement is added for larger defects.",
+            "C": "Port site hernias do not resolve spontaneously — the fascial defect will enlarge over time. Symptomatic hernias with incarcerated content require surgical repair."
+          },
+          "guideline": "SAGES Port Site Closure Guidelines — close all ≥10mm fascial defects at time of surgery; 5mm ports: no routine closure needed (except umbilical in children)",
+          "trial": "Kadar N et al., J Am Assoc Gynecol Laparosc 1993: port site hernia incidence — non-closure of 10-12mm ports: 2.1% hernia rate; closure: 0.1%. 5mm ports: negligible hernia risk unless obesity or umbilical location.",
+          "pearl": "Port site hernia risk factors: obesity, immunosuppression, port sites ≥10mm, midline ports (umbilical — weakest abdominal wall location), trocar infection, rapid post-op cough/strain. Prevention: Hasson (open) technique avoids blind trocar insertion; fascial closure device ensures full-thickness bites. Port site cancer implantation: rare (0.1-1%) in oncological laparoscopy — always use endobag for specimen extraction."
+        }
+      },
+      {
+        "id": "G3-Q10",
+        "stem": "A 62-year-old woman with a T2 rectal tumour at 4cm from the anal verge undergoes transanal total mesorectal excision (TaTME) after a failed laparoscopic approach due to a narrow pelvis. During the transanal phase, the surgeon inadvertently enters the posterior vaginal wall while dissecting the rectovaginal septum. The injury is noted immediately. What is the appropriate intraoperative management?",
+        "options": {
+          "A": "Proceed without vaginal repair — the injury will heal with post-operative antibiotics",
+          "B": "Abort the operation and convert to Hartmann's procedure",
+          "C": "Repair the vaginal injury in two layers (mucosa and muscularis) at the time of injury, complete the TME, and form a defunctioning ileostomy",
+          "D": "Pack the wound and return to theatre the following day"
+        },
+        "correct": "C",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Inadvertent vaginal injury during TaTME should be repaired immediately when recognised intra-operatively. Two-layer repair (mucosal layer + muscularis/fascial layer with interrupted absorbable sutures) at the time of injury is the gold standard. The TME is completed, and a defunctioning loop ileostomy is formed to reduce the faecal load and protect the repair from anastomotic leak complications. This approach preserves the operation and allows definitive oncological treatment.",
+          "wrong": {
+            "A": "An unrepaired vaginal wall injury will not heal with antibiotics alone. It will result in rectovaginal fistula, chronic pelvic sepsis, and failed TME — a potentially catastrophic outcome.",
+            "B": "Hartmann's procedure is not required for a manageable vaginal wall injury that can be repaired primarily. Aborting the TME would leave the rectal cancer in situ and expose the patient to a second major operation.",
+            "D": "Delaying vaginal repair leads to contamination, infection, and worsening of the injury. All identified injuries should be repaired immediately."
+          },
+          "guideline": "ESCP TaTME Technical Guidelines 2022 — intraoperative injury recognition and immediate repair; defunctioning ileostomy mandatory after vaginal/urethral injury",
+          "trial": "Penna M et al., Ann Surg 2017: TaTME learning curve and complications — intraoperative urethral injury 0.7%; vaginal injury 1.2%; immediate repair + defunctioning: 90% favourable outcomes; delayed recognition: high fistula rate.",
+          "pearl": "TaTME-specific complications: (1) urethral injury (anterior dissection in male pelvis) — immediate catheterisation + repair; (2) vaginal injury (anterior dissection female) — repair + defunction; (3) CO2 embolism from transanal insufflation — use low-pressure transanal seal; (4) hemorrhage from inferior rectal vessels. TaTME learning curve: 40-60 cases to plateau; mentored training programme essential."
+        }
+      }
+    ]
+  }
 }

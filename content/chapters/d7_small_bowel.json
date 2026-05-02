@@ -20,16 +20,61 @@
         {
           "type": "table",
           "title": "Absorption by Small Bowel Segment",
-          "headers": ["Nutrient/Substance", "Primary Absorption Site", "Transporter/Mechanism", "Clinical Consequence of Resection"],
+          "headers": [
+            "Nutrient/Substance",
+            "Primary Absorption Site",
+            "Transporter/Mechanism",
+            "Clinical Consequence of Resection"
+          ],
           "rows": [
-            ["Iron (Fe²⁺)", "Duodenum and proximal jejunum", "Divalent metal transporter 1 (DMT-1); ferritin storage", "Iron deficiency anaemia after Billroth II / Roux-en-Y bypassing duodenum"],
-            ["Folate (B9)", "Proximal jejunum", "Folate receptor; reduced folate carrier", "Megaloblastic anaemia after extensive jejunal resection"],
-            ["Calcium, Phosphate", "Duodenum (active) + jejunum (passive)", "TRPV6, calbindin (vitamin D-dependent active transport)", "Hypocalcaemia, metabolic bone disease after duodenal bypass"],
-            ["Fat-soluble vitamins (A,D,E,K)", "Jejunum (micellar solubilisation)", "Passive diffusion after bile salt micelle formation", "Fat-soluble vitamin deficiency if bile salt pool depleted (ileal disease)"],
-            ["Water-soluble vitamins (except B12)", "Proximal jejunum", "Specific transporters", "Deficiency after extensive jejunal resection"],
-            ["Vitamin B12 (cobalamin)", "Terminal ileum (last 60 cm)", "Intrinsic factor receptor (cubilin) — requires IF from gastric parietal cells", "B12 deficiency/pernicious anaemia after terminal ileal resection; occurs years later due to body stores"],
-            ["Bile acids (conjugated)", "Terminal ileum (last 100 cm)", "Apical sodium bile acid transporter (ASBT)", "Bile acid malabsorption (cholerheic diarrhoea); fat malabsorption; gallstones after ileal resection/Crohn's ileitis"],
-            ["Glucose, amino acids", "Jejunum predominantly", "SGLT-1 (glucose); PEPT-1 (dipeptides)", "Malabsorption after massive jejunal resection"]
+            [
+              "Iron (Fe²⁺)",
+              "Duodenum and proximal jejunum",
+              "Divalent metal transporter 1 (DMT-1); ferritin storage",
+              "Iron deficiency anaemia after Billroth II / Roux-en-Y bypassing duodenum"
+            ],
+            [
+              "Folate (B9)",
+              "Proximal jejunum",
+              "Folate receptor; reduced folate carrier",
+              "Megaloblastic anaemia after extensive jejunal resection"
+            ],
+            [
+              "Calcium, Phosphate",
+              "Duodenum (active) + jejunum (passive)",
+              "TRPV6, calbindin (vitamin D-dependent active transport)",
+              "Hypocalcaemia, metabolic bone disease after duodenal bypass"
+            ],
+            [
+              "Fat-soluble vitamins (A,D,E,K)",
+              "Jejunum (micellar solubilisation)",
+              "Passive diffusion after bile salt micelle formation",
+              "Fat-soluble vitamin deficiency if bile salt pool depleted (ileal disease)"
+            ],
+            [
+              "Water-soluble vitamins (except B12)",
+              "Proximal jejunum",
+              "Specific transporters",
+              "Deficiency after extensive jejunal resection"
+            ],
+            [
+              "Vitamin B12 (cobalamin)",
+              "Terminal ileum (last 60 cm)",
+              "Intrinsic factor receptor (cubilin) — requires IF from gastric parietal cells",
+              "B12 deficiency/pernicious anaemia after terminal ileal resection; occurs years later due to body stores"
+            ],
+            [
+              "Bile acids (conjugated)",
+              "Terminal ileum (last 100 cm)",
+              "Apical sodium bile acid transporter (ASBT)",
+              "Bile acid malabsorption (cholerheic diarrhoea); fat malabsorption; gallstones after ileal resection/Crohn's ileitis"
+            ],
+            [
+              "Glucose, amino acids",
+              "Jejunum predominantly",
+              "SGLT-1 (glucose); PEPT-1 (dipeptides)",
+              "Malabsorption after massive jejunal resection"
+            ]
           ]
         },
         {
@@ -63,15 +108,55 @@
         {
           "type": "table",
           "title": "CT Features of Small Bowel Obstruction — Strangulation Signs",
-          "headers": ["CT Feature", "Significance", "Sensitivity", "Specificity"],
+          "headers": [
+            "CT Feature",
+            "Significance",
+            "Sensitivity",
+            "Specificity"
+          ],
           "rows": [
-            ["Pneumatosis intestinalis (intramural gas)", "Gas in bowel wall from bacterial fermentation; indicates necrosis", "50–60%", "90–95%"],
-            ["Portal venous gas", "Gas in portal system; very late sign of necrosis", "15%", ">98%"],
-            ["Absent bowel wall enhancement (IV contrast)", "Ischaemic bowel — no contrast uptake", "60–80%", "90%"],
-            ["Closed-loop obstruction (C or U-shaped dilated loop)", "Two adjacent obstruction points; high strangulation risk", "70–80%", "85%"],
-            ["Whirl sign (mesenteric twisting)", "Volvulus or internal hernia with mesenteric torsion", "65%", "88%"],
-            ["Mesenteric haziness/fat stranding", "Oedema/ischaemia of mesentery", "70%", "75%"],
-            ["Ascites (free fluid)", "Peritoneal irritation from ischaemia or perforation", "60%", "65%"]
+            [
+              "Pneumatosis intestinalis (intramural gas)",
+              "Gas in bowel wall from bacterial fermentation; indicates necrosis",
+              "50–60%",
+              "90–95%"
+            ],
+            [
+              "Portal venous gas",
+              "Gas in portal system; very late sign of necrosis",
+              "15%",
+              ">98%"
+            ],
+            [
+              "Absent bowel wall enhancement (IV contrast)",
+              "Ischaemic bowel — no contrast uptake",
+              "60–80%",
+              "90%"
+            ],
+            [
+              "Closed-loop obstruction (C or U-shaped dilated loop)",
+              "Two adjacent obstruction points; high strangulation risk",
+              "70–80%",
+              "85%"
+            ],
+            [
+              "Whirl sign (mesenteric twisting)",
+              "Volvulus or internal hernia with mesenteric torsion",
+              "65%",
+              "88%"
+            ],
+            [
+              "Mesenteric haziness/fat stranding",
+              "Oedema/ischaemia of mesentery",
+              "70%",
+              "75%"
+            ],
+            [
+              "Ascites (free fluid)",
+              "Peritoneal irritation from ischaemia or perforation",
+              "60%",
+              "65%"
+            ]
           ]
         },
         {
@@ -101,15 +186,39 @@
         {
           "type": "table",
           "title": "Peutz-Jeghers Syndrome — Management Summary",
-          "headers": ["Feature", "Details"],
+          "headers": [
+            "Feature",
+            "Details"
+          ],
           "rows": [
-            ["Genetics", "STK11/LKB1 mutation (chromosome 19p13.3); autosomal dominant"],
-            ["Polyp type", "Hamartomatous polyps (not adenomatous); arborising smooth muscle core"],
-            ["Cutaneous features", "Mucocutaneous melanocytic macules — lips, buccal mucosa, perioral skin, digits"],
-            ["GI complications", "Intussusception (most common acute complication), GI bleeding, obstruction"],
-            ["Cancer risk", "Elevated for GI (small bowel, colorectal, gastric, pancreatic), breast, gynaecological (sex cord stromal tumours — annular tubular), lung"],
-            ["Surveillance", "Upper GI endoscopy and capsule endoscopy every 2–3 years from age 8–10; colonoscopy every 3 years from age 18; breast MRI annually from age 25"],
-            ["Management of polyps", "Single-balloon, double-balloon, or spiral enteroscopy for polypectomy of polyps >1.5 cm to prevent intussusception; intra-operative enteroscopy at laparotomy"]
+            [
+              "Genetics",
+              "STK11/LKB1 mutation (chromosome 19p13.3); autosomal dominant"
+            ],
+            [
+              "Polyp type",
+              "Hamartomatous polyps (not adenomatous); arborising smooth muscle core"
+            ],
+            [
+              "Cutaneous features",
+              "Mucocutaneous melanocytic macules — lips, buccal mucosa, perioral skin, digits"
+            ],
+            [
+              "GI complications",
+              "Intussusception (most common acute complication), GI bleeding, obstruction"
+            ],
+            [
+              "Cancer risk",
+              "Elevated for GI (small bowel, colorectal, gastric, pancreatic), breast, gynaecological (sex cord stromal tumours — annular tubular), lung"
+            ],
+            [
+              "Surveillance",
+              "Upper GI endoscopy and capsule endoscopy every 2–3 years from age 8–10; colonoscopy every 3 years from age 18; breast MRI annually from age 25"
+            ],
+            [
+              "Management of polyps",
+              "Single-balloon, double-balloon, or spiral enteroscopy for polypectomy of polyps >1.5 cm to prevent intussusception; intra-operative enteroscopy at laparotomy"
+            ]
           ]
         },
         {
@@ -131,14 +240,56 @@
         {
           "type": "table",
           "title": "Acute Mesenteric Ischaemia — Mechanism Comparison",
-          "headers": ["Feature", "SMA Embolism", "SMA Thrombosis", "NOMI", "MVT"],
+          "headers": [
+            "Feature",
+            "SMA Embolism",
+            "SMA Thrombosis",
+            "NOMI",
+            "MVT"
+          ],
           "rows": [
-            ["Aetiology", "Cardiac embolus (AF, MI, valvular disease)", "Atherosclerosis; thrombosis at stenosis", "Low-flow state; vasospasm; vasopressors", "Hypercoagulable state; sepsis; portal hypertension"],
-            ["Onset", "Sudden, dramatic", "Subacute (chronic history of intestinal angina)", "Gradual, insidious", "Gradual over days to weeks"],
-            ["History", "Known cardiac disease; AF", "Post-prandial pain; weight loss", "ICU patient; shock state; high vasopressors", "DVT/PE history; known thrombophilia; OCP"],
-            ["CT angiography", "Filling defect in SMA (often 3–10 cm from origin)", "Thrombus at SMA origin; diffuse atherosclerosis", "No occlusion; vasoconstriction pattern; patent main vessels", "Thrombus in SMV/portal vein; bowel wall thickening; ascites"],
-            ["Bowel affected", "Mid-small bowel spared (proximal 20 cm usually viable)", "Entire SMA territory from origin", "Diffuse; patchy ischaemia", "Venous congestion → oedema, haemorrhagic infarction"],
-            ["Treatment", "Embolectomy or endovascular (aspiration/thrombolysis) ± bowel resection", "Bypass (aortomesenteric) or endovascular + bowel resection", "IV papaverine (vasodilator) via SMA catheter; treat underlying cause; anticoagulation", "Anticoagulation (LMWH → warfarin); selective thrombolysis for portal vein; bowel resection if necrosed"]
+            [
+              "Aetiology",
+              "Cardiac embolus (AF, MI, valvular disease)",
+              "Atherosclerosis; thrombosis at stenosis",
+              "Low-flow state; vasospasm; vasopressors",
+              "Hypercoagulable state; sepsis; portal hypertension"
+            ],
+            [
+              "Onset",
+              "Sudden, dramatic",
+              "Subacute (chronic history of intestinal angina)",
+              "Gradual, insidious",
+              "Gradual over days to weeks"
+            ],
+            [
+              "History",
+              "Known cardiac disease; AF",
+              "Post-prandial pain; weight loss",
+              "ICU patient; shock state; high vasopressors",
+              "DVT/PE history; known thrombophilia; OCP"
+            ],
+            [
+              "CT angiography",
+              "Filling defect in SMA (often 3–10 cm from origin)",
+              "Thrombus at SMA origin; diffuse atherosclerosis",
+              "No occlusion; vasoconstriction pattern; patent main vessels",
+              "Thrombus in SMV/portal vein; bowel wall thickening; ascites"
+            ],
+            [
+              "Bowel affected",
+              "Mid-small bowel spared (proximal 20 cm usually viable)",
+              "Entire SMA territory from origin",
+              "Diffuse; patchy ischaemia",
+              "Venous congestion → oedema, haemorrhagic infarction"
+            ],
+            [
+              "Treatment",
+              "Embolectomy or endovascular (aspiration/thrombolysis) ± bowel resection",
+              "Bypass (aortomesenteric) or endovascular + bowel resection",
+              "IV papaverine (vasodilator) via SMA catheter; treat underlying cause; anticoagulation",
+              "Anticoagulation (LMWH → warfarin); selective thrombolysis for portal vein; bowel resection if necrosed"
+            ]
           ]
         },
         {
@@ -185,12 +336,32 @@
         {
           "type": "table",
           "title": "SNAP Criteria — Predictors of Spontaneous ECF Closure",
-          "headers": ["SNAP Criterion", "Favourable for Spontaneous Closure", "Unfavourable (FRIEND factors present)"],
+          "headers": [
+            "SNAP Criterion",
+            "Favourable for Spontaneous Closure",
+            "Unfavourable (FRIEND factors present)"
+          ],
           "rows": [
-            ["S — Short fistula tract", "<2 cm tract length", "Long/epithelialised tract"],
-            ["N — No distal obstruction", "Patent distal bowel", "Distal stricture, adhesional obstruction"],
-            ["A — Absence of FRIEND factors", "None of FRIEND present", "Any FRIEND factor = surgery likely needed"],
-            ["P — Proximal fistula (jejunal)", "Proximal small bowel fistula (higher spontaneous closure)", "Distal ileal or colonic fistula (lower spontaneous closure rate)"]
+            [
+              "S — Short fistula tract",
+              "<2 cm tract length",
+              "Long/epithelialised tract"
+            ],
+            [
+              "N — No distal obstruction",
+              "Patent distal bowel",
+              "Distal stricture, adhesional obstruction"
+            ],
+            [
+              "A — Absence of FRIEND factors",
+              "None of FRIEND present",
+              "Any FRIEND factor = surgery likely needed"
+            ],
+            [
+              "P — Proximal fistula (jejunal)",
+              "Proximal small bowel fistula (higher spontaneous closure)",
+              "Distal ileal or colonic fistula (lower spontaneous closure rate)"
+            ]
           ]
         },
         {
@@ -212,13 +383,49 @@
         {
           "type": "table",
           "title": "Enteral Nutritional Access Routes",
-          "headers": ["Route", "Insertion", "Indication", "Complications", "Duration"],
+          "headers": [
+            "Route",
+            "Insertion",
+            "Indication",
+            "Complications",
+            "Duration"
+          ],
           "rows": [
-            ["Nasogastric tube (NGT)", "Bedside (nasal → stomach); confirm with CXR or pH", "Short-term EN in cooperative patient; post-operative feeding", "Aspiration if gastroparesis; nasal erosions; tube displacement", "<4 weeks"],
-            ["Nasojejunal tube (NJT)", "Bedside (weighted) or endoscopic/fluoroscopic placement", "Gastroparesis; high risk of aspiration; post-pancreatic surgery", "Difficult placement; tube migration; jejunal perforation (rare)", "<4 weeks"],
-            ["Percutaneous endoscopic gastrostomy (PEG)", "Endoscopic (pull/push/introducer techniques)", "Long-term EN; neurological dysphagia; head/neck cancer", "Peristomal infection (most common); buried bumper syndrome; leakage; PEG-related peritonitis", ">4 weeks; permanent if needed"],
-            ["Percutaneous endoscopic jejunostomy (PEJ)", "Endoscopic (direct jejunal puncture or jejunal extension through PEG)", "Post-gastrectomy; gastroparesis; aspiration risk", "Tube migration; high rate of dislodgement", ">4 weeks"],
-            ["Surgical jejunostomy", "Laparoscopic or open (Witzel technique)", "Planned post-operative EN; oesophagectomy; gastrectomy; pancreaticoduodenectomy", "Tube dislodgement → peritonitis; intussusception; site infection", "Permanent; removed when no longer required"]
+            [
+              "Nasogastric tube (NGT)",
+              "Bedside (nasal → stomach); confirm with CXR or pH",
+              "Short-term EN in cooperative patient; post-operative feeding",
+              "Aspiration if gastroparesis; nasal erosions; tube displacement",
+              "<4 weeks"
+            ],
+            [
+              "Nasojejunal tube (NJT)",
+              "Bedside (weighted) or endoscopic/fluoroscopic placement",
+              "Gastroparesis; high risk of aspiration; post-pancreatic surgery",
+              "Difficult placement; tube migration; jejunal perforation (rare)",
+              "<4 weeks"
+            ],
+            [
+              "Percutaneous endoscopic gastrostomy (PEG)",
+              "Endoscopic (pull/push/introducer techniques)",
+              "Long-term EN; neurological dysphagia; head/neck cancer",
+              "Peristomal infection (most common); buried bumper syndrome; leakage; PEG-related peritonitis",
+              ">4 weeks; permanent if needed"
+            ],
+            [
+              "Percutaneous endoscopic jejunostomy (PEJ)",
+              "Endoscopic (direct jejunal puncture or jejunal extension through PEG)",
+              "Post-gastrectomy; gastroparesis; aspiration risk",
+              "Tube migration; high rate of dislodgement",
+              ">4 weeks"
+            ],
+            [
+              "Surgical jejunostomy",
+              "Laparoscopic or open (Witzel technique)",
+              "Planned post-operative EN; oesophagectomy; gastrectomy; pancreaticoduodenectomy",
+              "Tube dislodgement → peritonitis; intussusception; site infection",
+              "Permanent; removed when no longer required"
+            ]
           ]
         },
         {
@@ -652,5 +859,240 @@
         "pearl": "The colon = the SBS patient's greatest ally. A patient with 60 cm jejunum + intact colon has a fundamentally better prognosis than one with 100 cm jejunum + end-stomy. Always document and preserve colon continuity in SBS management."
       }
     }
-  ]
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of small bowel pathology and surgery with 10 clinical questions.",
+    "questions": [
+      {
+        "id": "D7-Q1",
+        "stem": "A 68-year-old woman presents with colicky central abdominal pain, vomiting, and distension. She has a prior appendicectomy. CT abdomen shows small bowel loops dilated to 4cm with a transition point and no evidence of closed loop obstruction. There is no fever or peritonism. She has been symptomatic for 18 hours. What is the appropriate initial management?",
+        "options": {
+          "A": "Non-operative management: NGT decompression, IV fluids, and serial clinical assessment",
+          "B": "CT-guided adhesiolysis",
+          "C": "Water-soluble contrast (Gastrografin) challenge at 24 hours if no improvement",
+          "D": "Immediate laparoscopic adhesiolysis"
+        },
+        "correct": "A",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Adhesional small bowel obstruction (SBO) without closed loop obstruction or signs of strangulation (fever, peritonism, raised lactate) is managed non-operatively in 70–80% of cases with NG tube decompression, IV fluid resuscitation, and serial clinical examination. The majority resolve within 48–72 hours. Non-operative management is the initial approach; Gastrografin challenge at 24h may accelerate resolution and predict need for surgery.",
+          "wrong": {
+            "B": "CT-guided adhesiolysis does not exist as a clinical intervention. Adhesions are managed non-operatively or surgically.",
+            "C": "Gastrografin challenge (water-soluble contrast) is an important adjunct but is introduced if there is no improvement after 24–48h of non-operative management, not as first-line therapy before a trial of bowel rest.",
+            "D": "Immediate surgery is not indicated for uncomplicated adhesional SBO without strangulation features. Non-operative management is first-line."
+          },
+          "guideline": "WSES Small Bowel Obstruction Guidelines 2017 — non-operative management for adhesional SBO without strangulation; Gastrografin challenge if no improvement at 24h",
+          "trial": "Fevang BT et al., Ann Surg 2004: Gastrografin in SBO — reduces time to resolution (6.2 vs 23.3h) and surgery rate (when contrast reaches colon within 24h = 97% resolves non-operatively).",
+          "pearl": "Strangulation signs mandating urgent surgery: fever, peritonism, elevated lactate, leukocytosis, closed loop on CT (U-shaped bowel with beak at both ends), mesenteric oedema, pneumatosis. Any ONE of these should trigger emergency surgery."
+        }
+      },
+      {
+        "id": "D7-Q2",
+        "stem": "A 45-year-old man presents with sudden onset central abdominal pain, bloody diarrhoea, and a new atrial fibrillation (HR 128, BP 95/60). CT angiography shows non-occlusive mesenteric ischaemia with no definable filling defect but reduced bowel wall enhancement with pneumatosis intestinalis in the jejunum. Serum lactate 6.2 mmol/L. What is the immediate management?",
+        "options": {
+          "A": "IV heparin anticoagulation and reassess",
+          "B": "Emergency laparotomy, resection of non-viable bowel, and SMA vasodilator therapy (papaverine infusion)",
+          "C": "CT-guided thrombolysis of the superior mesenteric artery",
+          "D": "Endoscopic assessment of the bowel"
+        },
+        "correct": "B",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Pneumatosis intestinalis with elevated lactate indicates transmural bowel infarction — a surgical emergency. Emergency laparotomy, resection of all non-viable bowel with assessment of bowel viability (Doppler, fluorescein), and damage control with staged closure is required. Papaverine infusion via SMA catheter can be added for vasospasm component. This patient requires immediate surgery — no time for further imaging or interventional radiology.",
+          "wrong": {
+            "A": "IV heparin anticoagulation is appropriate for acute SMA embolism or thrombosis without peritonitis/infarction. Pneumatosis intestinalis and elevated lactate indicate established infarction — anticoagulation alone will not reverse this.",
+            "C": "CT-guided thrombolysis is applicable for acute SMA embolism or thrombosis in patients without peritonitis or bowel infarction. Pneumatosis and high lactate preclude conservative vascular approach.",
+            "D": "Endoscopic assessment has no role in acute SMA ischaemia with established infarction. Laparotomy is required to assess viability of the entire small bowel and resect infarcted segments."
+          },
+          "guideline": "ESVS Acute Mesenteric Ischaemia Guidelines 2020 — peritonitis or infarction signs: emergency laparotomy; revascularisation only if no peritonitis",
+          "trial": "Acosta S et al., Br J Surg 2014: acute mesenteric ischaemia — 30-day mortality 60-80%; survival correlates with early surgery (<12h from onset); lactate >4.0 predicts non-viability.",
+          "pearl": "SMA occlusion types: embolism (50%) — sudden onset, AF source, treat with embolectomy or thrombolysis + resection; thrombosis (25%) — chronic mesenteric ischaemia background, treat with revascularisation + resection; non-occlusive (20%) — low-flow state, treat with vasodilators + resection of infarcted bowel."
+        }
+      },
+      {
+        "id": "D7-Q3",
+        "stem": "A 35-year-old woman presents with right iliac fossa pain, vomiting, and a palpable mass. CT shows a 5.5cm Meckel's diverticulum with a 2cm intraluminal polypoid lesion and adjacent mesenteric fat stranding. What is the most appropriate management?",
+        "options": {
+          "A": "Segmental small bowel resection including the Meckel's diverticulum and the adjacent ileal segment",
+          "B": "Conservative management — Meckel's diverticulum does not require surgery if discovered incidentally",
+          "C": "Endoscopic polypectomy of the intraluminal lesion",
+          "D": "Meckel's diverticulectomy alone"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "A symptomatic Meckel's diverticulum with a polypoid lesion (likely gastric ectopic mucosa or carcinoid) and mesenteric inflammation requires segmental ileal resection rather than diverticulectomy alone. Resection ensures: (1) complete removal of ectopic mucosa that extends beyond the diverticulum base; (2) removal of the polypoid lesion with clear margins; (3) removal of the inflamed mesentery. A diverticulectomy would leave ectopic mucosa at the base, risking recurrent bleeding or incomplete carcinoid resection.",
+          "wrong": {
+            "B": "This Meckel's is symptomatic (pain, mass, inflammation) with a suspicious polypoid lesion. Symptomatic Meckel's always requires surgery. Incidental Meckel's in adults is controversial — most guidelines do not recommend prophylactic resection unless criteria met.",
+            "C": "Endoscopic polypectomy cannot reach Meckel's diverticulum — it is located in the distal ileum beyond endoscopic reach in most patients. Even if reachable with balloon enteroscopy, segmental resection is the correct surgical approach.",
+            "D": "Simple diverticulectomy (stapled at base) is appropriate for narrow-based asymptomatic Meckel's discovered incidentally or for simple Meckel's diverticulitis without a base lesion. The polypoid lesion requires segmental resection."
+          },
+          "guideline": "SAGES Guidelines for Small Bowel Surgery 2019 — symptomatic Meckel's: segmental resection; incidental Meckel's criteria for resection",
+          "trial": "Cullen JJ et al., Ann Surg 1994: resection for incidental Meckel's — risk of complications decreasing with age; resection justified if: age <50, male sex, length >2cm, palpable lesion (polypoid/ectopic tissue). Symptomatic always requires resection.",
+          "pearl": "Rule of twos for Meckel's diverticulum: 2% incidence, 2 feet from ileocaecal valve, 2 inches long, 2% symptomatic, 2:1 male predominance, 2 types of ectopic mucosa (gastric most common — causes bleeding; pancreatic). Commonest complication in children: bleeding; in adults: obstruction/intussusception."
+        }
+      },
+      {
+        "id": "D7-Q4",
+        "stem": "A 55-year-old man with short bowel syndrome (SBS) following emergency mesenteric ischaemia has 90cm of jejunum remaining with an intact ileocaecal valve and colon in continuity. He is 6 months post-operation. He requires 2.5L TPN daily. What is the most important prognostic factor for achieving enteral autonomy?",
+        "options": {
+          "A": "Type of bowel remaining (jejunum vs ileum)",
+          "B": "Length of remaining bowel only",
+          "C": "Presence of ileocaecal valve and colon in continuity",
+          "D": "Patient's BMI"
+        },
+        "correct": "C",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "The ileocaecal valve and colon in continuity are the most critical prognostic factors for achieving enteral autonomy in SBS. The ileocaecal valve slows intestinal transit, increasing contact time for nutrient absorption. The colon absorbs 1–2L of water and electrolytes daily, providing substantial caloric contribution through short-chain fatty acid absorption from bacterial fermentation. With ICV + colon: autonomy achievable with 60–90cm jejunum. Without colon: requires 120–150cm.",
+          "wrong": {
+            "A": "Ileum has greater absorptive capacity (B12, fat-soluble vitamins, bile salts), but with colon in continuity and ICV present, even predominantly jejunal remnants can achieve adaptation.",
+            "B": "While residual bowel length is important, the anatomical context (ICV, colon) is more predictive than length alone. 90cm with colon in continuity has an excellent prognosis for autonomy.",
+            "D": "BMI influences nutritional status but does not determine intestinal adaptation capacity. ICV and colon are far more prognostically significant."
+          },
+          "guideline": "ESPEN Short Bowel Syndrome Guidelines 2016 — ICV and colon in continuity are primary prognostic factors for enteral autonomy",
+          "trial": "O'Keefe SJD et al., Nat Rev Gastroenterol Hepatol 2006: SBS adaptation — colon in continuity adds 500-1000 kcal/day from SCFA; ICV extends transit time; combination allows autonomy with shorter bowel remnant.",
+          "pearl": "SBS management phases: (1) Acute (0-3mo): TPN + fluid balance; (2) Adaptation (3-24mo): enteral feeds to maximise adaptation (teduglutide/GLP-2 analogue if indicated); (3) Maintenance (>24mo): determine autonomy potential. Teduglutide (GLP-2 analogue) reduces TPN requirements by 20-50% in SBS with colon in continuity."
+        }
+      },
+      {
+        "id": "D7-Q5",
+        "stem": "A 32-year-old woman with Crohn's disease of the terminal ileum (30cm fibrotic segment) presents with intermittent SBO symptoms. CT enterography confirms a single fibrotic stricture without active inflammation or prestenotic dilation. She has had no previous intestinal resections. What is the optimal management approach?",
+        "options": {
+          "A": "Ileocolonic resection",
+          "B": "Endoscopic balloon dilation of the stricture",
+          "C": "Strictureplasty (Heineke-Mikulicz)",
+          "D": "Defunctioning ileostomy"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Endoscopic balloon dilation is appropriate for short (<4cm), accessible, fibrotic Crohn's strictures without active inflammation, especially in the terminal ileum (accessible to colonoscope). Technical success is >80%, with 60–70% symptom-free at 2 years. Repeated dilation is feasible. In a patient with no previous resections, endoscopic dilation is the least morbid first-line intervention.",
+          "wrong": {
+            "A": "Ileocolonic resection is appropriate when endoscopic dilation fails, the stricture is longer (>5cm), or there is active Crohn's inflammation. As first-line for a single short stricture in a patient with no previous resections, endoscopic dilation is preferred.",
+            "C": "Strictureplasty is bowel-conserving surgery best used for patients with multiple previous resections or multiple strictures. For a first-presentation single stricture amenable to endoscopic dilation, surgery is not first-line.",
+            "D": "Defunctioning ileostomy does not treat the stricture and commits the patient to a stoma without addressing the underlying disease."
+          },
+          "guideline": "ECCO Crohn's Disease Surgical Guidelines 2024 — endoscopic dilation for short fibrotic Crohn's strictures as first-line",
+          "trial": "Thienpont C et al., Gut 2010: endoscopic balloon dilation for Crohn's strictures — technical success 87%; 5-yr surgery-free rate 59%; repeat dilation extended surgery-free time.",
+          "pearl": "Endoscopic dilation contraindications: active deep ulceration, fistula at stricture site, suspicion of cancer. Dilation limit: strictures <4cm are best candidates; 4-8cm have lower success rates. Always biopsy the stricture — Crohn's strictures have 1–2% cancer risk."
+        }
+      },
+      {
+        "id": "D7-Q6",
+        "stem": "A 72-year-old man presents with bilious vomiting and an AXR showing a large bowel shadow in the right upper quadrant with a 'double bubble' appearance and air-fluid levels in the small bowel. CT shows a large gallstone (4cm) in the terminal ileum causing obstruction, with a cholecystoduodenal fistula and air in the biliary tree. What is the surgical management?",
+        "options": {
+          "A": "Conservative management with IV fluids and antibiotics",
+          "B": "Cholecystectomy and fistula repair as the priority, gallstone extracted at same time",
+          "C": "ERCP to remove the gallstone endoscopically",
+          "D": "Laparotomy, enterotomy proximal to the stone, stone extraction, and repair — with or without fistula repair at the same sitting"
+        },
+        "correct": "D",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Gallstone ileus (impaction of a large gallstone in the distal ileum through a cholecystoduodenal fistula) is managed by laparotomy with enterotomy proximal to the stone, stone extraction, and bowel repair. Cholecystectomy and fistula closure at the same operation is associated with higher morbidity and is generally deferred to a second operation when the patient has recovered. One-stage surgery is only considered in fit, stable patients at specialist centres.",
+          "wrong": {
+            "A": "Conservative management will not resolve a 4cm gallstone obstruction. Large stones do not spontaneously pass through the ileocaecal valve (normal lumen ~2cm). Surgery is mandatory.",
+            "B": "Cholecystectomy and fistula repair as the priority would delay stone extraction and risk bowel perforation from the impacted stone. Stone extraction (enterolithotomy) is the immediate surgical priority.",
+            "C": "The stone is in the terminal ileum, beyond endoscopic reach. ERCP cannot retrieve it. The cholecystoduodenal fistula may be visible on ERCP but the stone has already passed."
+          },
+          "guideline": "WSES Gallstone Ileus Management Guidelines 2019 — enterolithotomy as primary; cholecystectomy deferred to second operation",
+          "trial": "Doko M et al., Arch Surg 2003: gallstone ileus — one-stage vs two-stage — one-stage: higher morbidity (47% vs 11%); two-stage preferred: enterolithotomy first, fistula repair electively.",
+          "pearl": "Gallstone ileus Rigler's triad: (1) small bowel obstruction, (2) ectopic gallstone, (3) pneumobilia (air in bile ducts). The stone must be ≥2.5cm to cause ileal obstruction. Check for second stone in gallbladder (30%) — if present, fistula repair at second operation removes the source."
+        }
+      },
+      {
+        "id": "D7-Q7",
+        "stem": "A 2-year-old child presents with episodic severe colicky abdominal pain, 'currant jelly' stools, and a right upper quadrant mass on palpation. US shows a 'target sign' in the right iliac fossa. What is the condition and first-line treatment?",
+        "options": {
+          "A": "Volvulus — emergency laparotomy",
+          "B": "Intussusception — pneumatic or hydrostatic enema reduction",
+          "C": "Intestinal atresia — surgical repair",
+          "D": "Hirschsprung's disease — rectal biopsy and pull-through"
+        },
+        "correct": "B",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Intussusception (ileocolic) in a toddler presents with the classic triad: colicky pain, currant jelly stools (blood + mucus), and right-sided abdominal mass. US target sign confirms the diagnosis. Non-surgical reduction by pneumatic or hydrostatic enema (under fluoroscopic or US guidance) is the treatment of choice, with 85–90% success rate. Surgery is reserved for failed reduction, peritonitis, or perforation.",
+          "wrong": {
+            "A": "Volvulus in children (midgut volvulus from malrotation) presents with bilious vomiting in a neonate and requires emergency surgery. The clinical presentation here is classic for intussusception, not volvulus.",
+            "C": "Intestinal atresia presents in the neonatal period with bilious vomiting and failure to pass meconium. Double bubble on AXR is the classic sign. This toddler has episodic pain and blood per rectum.",
+            "D": "Hirschsprung's disease presents in neonates with failure to pass meconium and chronic constipation, not acute colicky pain with rectal bleeding. Diagnosis requires suction rectal biopsy."
+          },
+          "guideline": "APSA (American Pediatric Surgical Association) Intussusception Guidelines — pneumatic/hydrostatic reduction as first-line; surgery for failure or peritonitis",
+          "trial": "Daneman A et al., Pediatr Radiol 1995: pneumatic vs hydrostatic reduction — pneumatic: 90% success, 0.5% perforation; hydrostatic: 85% success, 0.2% perforation; both safe first-line approaches.",
+          "pearl": "Intussusception reduction success criteria: complete reduction confirmed by free flow into terminal ileum and decompression of all bowel loops. Contraindications to enema: peritonitis, perforation on AXR (free gas), haemodynamic instability. Recurrence rate after enema: 5-10%; surgery if 3rd recurrence (search for lead point in older children)."
+        }
+      },
+      {
+        "id": "D7-Q8",
+        "stem": "A 60-year-old man has an incidental finding of a 1.8cm well-circumscribed submucosal lesion in the mid-jejunum on CT performed for abdominal pain. Capsule endoscopy shows a yellowish submucosal lesion with intact overlying mucosa. He has no carcinoid syndrome symptoms. Chromogranin A is 2× upper limit of normal. What is the most likely diagnosis and next investigation?",
+        "options": {
+          "A": "Small bowel carcinoid (neuroendocrine tumour) — somatostatin receptor scintigraphy (Ga-68 DOTATATE PET-CT)",
+          "B": "Lipoma — no further investigation required",
+          "C": "Lymphoma — staging CT and PET-CT",
+          "D": "GIST — CT-guided biopsy"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "A submucosal yellowish lesion in the small bowel with elevated chromogranin A is highly suspicious for a small bowel neuroendocrine tumour (NET/carcinoid). Ga-68 DOTATATE PET-CT has 95% sensitivity for NET and is used for staging (mesenteric nodes, liver metastases, lymph nodes) before surgical planning. Small bowel NETs are the commonest small bowel malignancy and frequently present with mesenteric deposits despite small primary tumour size.",
+          "wrong": {
+            "B": "Lipoma is echogenic/hypodense on CT (fat density), not yellowish on endoscopy, and does not cause chromogranin A elevation. This presentation is not a lipoma.",
+            "C": "Small bowel lymphoma is uncommon and presents with ulcerating mucosal lesions, not a small submucosal yellowish lesion with chromogranin elevation.",
+            "D": "GIST is a possibility (submucosal, well-circumscribed) but the yellowish colour and elevated chromogranin A strongly suggest NET rather than GIST. Biopsy of small bowel lesions carries perforation risk — DOTATATE PET-CT is a better next step to characterise and stage."
+          },
+          "guideline": "ENETS NET Guidelines 2023 — Ga-68 DOTATATE PET-CT for staging small bowel NET; surgical resection recommended for localised disease",
+          "trial": "Hope TA et al., J Nucl Med 2020: Ga-68 DOTATATE PET vs OctreoScan — 90% vs 55% sensitivity for small bowel NET staging; significantly changes management in 35% of cases.",
+          "pearl": "Small bowel NETs: even small primaries (<2cm) frequently have regional lymph node and mesenteric metastases (40–60%). Mesenteric root involvement causes desmoplastic reaction, kinking, ischaemia. Carcinoid syndrome (flushing, diarrhoea) only occurs with hepatic metastases. Treatment: surgical resection even in metastatic disease for symptom control and debulking."
+        }
+      },
+      {
+        "id": "D7-Q9",
+        "stem": "A 75-year-old man develops sudden severe abdominal pain, vomiting, and distension 3 hours after receiving haemodialysis. He has AF on warfarin (INR 3.8). CT angiography shows an acute SMA embolism at the origin of the middle colic artery, with no pneumatosis and good bowel wall enhancement. His lactate is 1.8 mmol/L. What is the most appropriate management?",
+        "options": {
+          "A": "Conservative management — imaging findings are incidental",
+          "B": "Emergency laparotomy and SMA embolectomy",
+          "C": "Catheter-directed thrombolysis or aspiration thrombectomy via SMA",
+          "D": "Systemic anticoagulation with IV heparin only"
+        },
+        "correct": "C",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Acute SMA embolism without peritonitis, normal lactate, and good bowel wall enhancement on CT is at a stage where revascularisation without bowel resection is possible. Catheter-directed thrombolysis or mechanical aspiration thrombectomy via interventional radiology is the preferred approach in a centre with mesenteric IR expertise. This avoids major surgery in a high-risk patient (AF, warfarin, haemodialysis). Surgery is required if IR fails or clinical deterioration occurs.",
+          "wrong": {
+            "A": "An SMA embolism causing acute abdominal symptoms is not an incidental finding. Without treatment, bowel ischaemia will develop within hours. Immediate management is mandatory.",
+            "B": "Emergency open SMA embolectomy is appropriate when IR is unavailable, the patient has peritonitis, or bowel viability is in question. This patient has no peritonitis and good bowel enhancement — IR-first is appropriate.",
+            "D": "Systemic heparin anticoagulation alone does not lyse the embolus. It prevents propagation but does not restore perfusion. Active revascularisation (IR or surgery) is required."
+          },
+          "guideline": "ESVS Acute Mesenteric Ischaemia Guidelines 2020 — catheter-directed thrombolysis for acute SMA embolism without peritonitis",
+          "trial": "Acosta S et al., Br J Surg 2014: endovascular treatment for acute AMI — 30-day mortality 36% (vs 56% open); bowel resection avoided in 60% of IR-treated patients.",
+          "pearl": "Second-look laparotomy: after revascularisation (surgical or endovascular), a second-look laparotomy at 24–48h is recommended to assess bowel viability. Segments with delayed recovery are resected at second-look. This principle avoids excessive resection at the initial operation when bowel viability is uncertain."
+        }
+      },
+      {
+        "id": "D7-Q10",
+        "stem": "A 45-year-old man has a CT scan during workup for weight loss showing a 6cm small bowel mass with an exophytic growth pattern, low attenuation, and cystic change. EUS-FNA is inconclusive. The mass is resected and pathology confirms a GIST (c-kit positive) with a mitotic rate of 8/50 HPF. Margins are clear. What is the recommended adjuvant treatment?",
+        "options": {
+          "A": "Adjuvant chemotherapy with FOLFOX",
+          "B": "Adjuvant imatinib for 3 years",
+          "C": "Surveillance CT every 6 months — no adjuvant therapy needed",
+          "D": "Adjuvant radiotherapy to the tumour bed"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "High-risk GIST (tumour size ≥5cm + mitotic rate ≥5/50 HPF, or size ≥10cm, or ≥10/50 HPF any size) requires adjuvant imatinib (tyrosine kinase inhibitor, targets c-kit/PDGFRA). ACOSOG Z9001 and SSGXVIII trials show 3 years of adjuvant imatinib reduces recurrence-free survival from 17.9 months (1 year) to improved survival at 3 years. This 6cm GIST with 8/50 HPF mitoses is high-risk.",
+          "wrong": {
+            "A": "FOLFOX is colorectal cancer chemotherapy with no role in GIST. GIST is resistant to conventional cytotoxic chemotherapy.",
+            "C": "Surveillance only (no adjuvant imatinib) would be appropriate for very low-risk GIST (<2cm, <5 mitoses/50 HPF). This is high-risk GIST — adjuvant imatinib is evidence-based standard.",
+            "D": "Radiotherapy has no established role in GIST management. GIST is not radiosensitive, and the small bowel tolerates radiotherapy poorly."
+          },
+          "guideline": "ESMO Soft Tissue Sarcoma/GIST Guidelines 2021 — adjuvant imatinib 3 years for high-risk GIST (c-kit positive)",
+          "trial": "SSGXVIII trial (Joensuu H, JAMA 2012): 3 vs 1 year adjuvant imatinib for high-risk GIST — 3 years: 5-yr RFS 65.6% vs 47.9%; 5-yr OS 92% vs 81.7%; 3 years is now standard.",
+          "pearl": "GIST risk stratification (Miettinen/Lasota): size + mitotic rate + tumour location. Small bowel GISTs have higher malignant potential than gastric GISTs at equivalent size/mitoses. Test for PDGFRA D842V mutation — imatinib-resistant, requires avapritinib. KIT exon 11 deletion — best imatinib response."
+        }
+      }
+    ]
+  }
 }

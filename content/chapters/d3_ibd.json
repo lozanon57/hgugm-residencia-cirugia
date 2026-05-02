@@ -19,56 +19,180 @@
         {
           "type": "table",
           "title": "Ulcerative Colitis vs Crohn's Disease — Histopathological & Clinical Differences",
-          "headers": ["Feature", "Ulcerative Colitis", "Crohn's Disease"],
+          "headers": [
+            "Feature",
+            "Ulcerative Colitis",
+            "Crohn's Disease"
+          ],
           "rows": [
-            ["Distribution", "Continuous, starts at rectum, extends proximally; colon only", "Discontinuous (skip lesions); any segment of GI tract (mouth to anus)"],
-            ["Depth of inflammation", "Mucosal and submucosal only", "Transmural (all layers) — allows fistula, abscess, stricture formation"],
-            ["Histology", "Crypt abscesses, goblet cell depletion, mucosal pseudopolyps", "Transmural inflammation, granulomas (pathognomonic, found in 30–50%), skip lesions"],
-            ["Granulomas", "Absent", "Present (non-caseating, 30–50%) — differentiates from UC"],
-            ["Rectal involvement", "Always involved", "Spared in ~50% of cases (rectal sparing)"],
-            ["Perianal disease", "Rare", "Present in 25–35% (fistulae, abscesses, skin tags)"],
-            ["Smoking", "PROTECTIVE (paradoxically)", "Risk factor (worsens disease)"],
-            ["Surgical cure", "Yes — proctocolectomy curative", "No — surgery does not cure; recurrence common"]
+            [
+              "Distribution",
+              "Continuous, starts at rectum, extends proximally; colon only",
+              "Discontinuous (skip lesions); any segment of GI tract (mouth to anus)"
+            ],
+            [
+              "Depth of inflammation",
+              "Mucosal and submucosal only",
+              "Transmural (all layers) — allows fistula, abscess, stricture formation"
+            ],
+            [
+              "Histology",
+              "Crypt abscesses, goblet cell depletion, mucosal pseudopolyps",
+              "Transmural inflammation, granulomas (pathognomonic, found in 30–50%), skip lesions"
+            ],
+            [
+              "Granulomas",
+              "Absent",
+              "Present (non-caseating, 30–50%) — differentiates from UC"
+            ],
+            [
+              "Rectal involvement",
+              "Always involved",
+              "Spared in ~50% of cases (rectal sparing)"
+            ],
+            [
+              "Perianal disease",
+              "Rare",
+              "Present in 25–35% (fistulae, abscesses, skin tags)"
+            ],
+            [
+              "Smoking",
+              "PROTECTIVE (paradoxically)",
+              "Risk factor (worsens disease)"
+            ],
+            [
+              "Surgical cure",
+              "Yes — proctocolectomy curative",
+              "No — surgery does not cure; recurrence common"
+            ]
           ]
         },
         {
           "type": "table",
           "title": "Montreal Classification — Ulcerative Colitis (Extent)",
-          "headers": ["Class", "Extent", "Clinical Significance"],
+          "headers": [
+            "Class",
+            "Extent",
+            "Clinical Significance"
+          ],
           "rows": [
-            ["E1 (Proctitis)", "Disease limited to rectum (distal to rectosigmoid junction)", "Lowest risk of complications; topical treatment often sufficient"],
-            ["E2 (Left-sided/distal UC)", "Disease up to but not beyond splenic flexure", "Moderate disease extent; oral + topical combination therapy"],
-            ["E3 (Pancolitis/extensive UC)", "Disease proximal to splenic flexure, including transverse colon", "Highest complication risk (toxic megacolon, colorectal cancer); systemic therapy required"]
+            [
+              "E1 (Proctitis)",
+              "Disease limited to rectum (distal to rectosigmoid junction)",
+              "Lowest risk of complications; topical treatment often sufficient"
+            ],
+            [
+              "E2 (Left-sided/distal UC)",
+              "Disease up to but not beyond splenic flexure",
+              "Moderate disease extent; oral + topical combination therapy"
+            ],
+            [
+              "E3 (Pancolitis/extensive UC)",
+              "Disease proximal to splenic flexure, including transverse colon",
+              "Highest complication risk (toxic megacolon, colorectal cancer); systemic therapy required"
+            ]
           ]
         },
         {
           "type": "table",
           "title": "Montreal Classification — Crohn's Disease (Location, Behaviour, Perianal)",
-          "headers": ["Category", "Class", "Definition"],
+          "headers": [
+            "Category",
+            "Class",
+            "Definition"
+          ],
           "rows": [
-            ["Location (L)", "L1 — Ileal", "Terminal ileum ± caecum"],
-            ["Location (L)", "L2 — Colonic", "Colon only (any segment)"],
-            ["Location (L)", "L3 — Ileocolonic", "Terminal ileum + colon"],
-            ["Location (L)", "L4 — Upper GI (modifier)", "Oesophagus, stomach, duodenum (add to L1–L3)"],
-            ["Behaviour (B)", "B1 — Non-stricturing, non-penetrating", "Inflammatory phenotype (no stricture/fistula)"],
-            ["Behaviour (B)", "B2 — Stricturing", "Luminal narrowing causing obstruction symptoms"],
-            ["Behaviour (B)", "B3 — Penetrating", "Fistulae, abscesses, inflammatory masses"],
-            ["Perianal (p)", "p modifier", "Add '+p' if perianal disease present, regardless of B category"]
+            [
+              "Location (L)",
+              "L1 — Ileal",
+              "Terminal ileum ± caecum"
+            ],
+            [
+              "Location (L)",
+              "L2 — Colonic",
+              "Colon only (any segment)"
+            ],
+            [
+              "Location (L)",
+              "L3 — Ileocolonic",
+              "Terminal ileum + colon"
+            ],
+            [
+              "Location (L)",
+              "L4 — Upper GI (modifier)",
+              "Oesophagus, stomach, duodenum (add to L1–L3)"
+            ],
+            [
+              "Behaviour (B)",
+              "B1 — Non-stricturing, non-penetrating",
+              "Inflammatory phenotype (no stricture/fistula)"
+            ],
+            [
+              "Behaviour (B)",
+              "B2 — Stricturing",
+              "Luminal narrowing causing obstruction symptoms"
+            ],
+            [
+              "Behaviour (B)",
+              "B3 — Penetrating",
+              "Fistulae, abscesses, inflammatory masses"
+            ],
+            [
+              "Perianal (p)",
+              "p modifier",
+              "Add '+p' if perianal disease present, regardless of B category"
+            ]
           ]
         },
         {
           "type": "table",
           "title": "Extraintestinal Manifestations of IBD",
-          "headers": ["System", "Manifestation", "Association"],
+          "headers": [
+            "System",
+            "Manifestation",
+            "Association"
+          ],
           "rows": [
-            ["Joint", "Peripheral arthropathy Type 1 (pauciarticular, parallels disease activity); Type 2 (polyarticular, independent)", "UC > CD"],
-            ["Joint", "Axial arthropathy: sacroiliitis, ankylosing spondylitis", "CD > UC; independent of bowel disease"],
-            ["Skin", "Erythema nodosum (parallels disease activity)", "UC and CD equally"],
-            ["Skin", "Pyoderma gangrenosum (may be independent of activity)", "UC > CD"],
-            ["Eye", "Episcleritis (parallels activity), uveitis/iritis (independent)", "UC and CD"],
-            ["Liver/Biliary", "Primary sclerosing cholangitis (PSC)", "UC (70–80% of PSC patients have UC); independent of UC activity"],
-            ["Liver/Biliary", "Cholelithiasis (increased in CD — terminal ileum disease → bile salt malabsorption)", "CD (ileal involvement)"],
-            ["Renal", "Oxalate nephrolithiasis (fat malabsorption → increased oxalate absorption)", "CD (ileal disease or short bowel)"]
+            [
+              "Joint",
+              "Peripheral arthropathy Type 1 (pauciarticular, parallels disease activity); Type 2 (polyarticular, independent)",
+              "UC > CD"
+            ],
+            [
+              "Joint",
+              "Axial arthropathy: sacroiliitis, ankylosing spondylitis",
+              "CD > UC; independent of bowel disease"
+            ],
+            [
+              "Skin",
+              "Erythema nodosum (parallels disease activity)",
+              "UC and CD equally"
+            ],
+            [
+              "Skin",
+              "Pyoderma gangrenosum (may be independent of activity)",
+              "UC > CD"
+            ],
+            [
+              "Eye",
+              "Episcleritis (parallels activity), uveitis/iritis (independent)",
+              "UC and CD"
+            ],
+            [
+              "Liver/Biliary",
+              "Primary sclerosing cholangitis (PSC)",
+              "UC (70–80% of PSC patients have UC); independent of UC activity"
+            ],
+            [
+              "Liver/Biliary",
+              "Cholelithiasis (increased in CD — terminal ileum disease → bile salt malabsorption)",
+              "CD (ileal involvement)"
+            ],
+            [
+              "Renal",
+              "Oxalate nephrolithiasis (fat malabsorption → increased oxalate absorption)",
+              "CD (ileal disease or short bowel)"
+            ]
           ]
         }
       ]
@@ -84,15 +208,55 @@
         {
           "type": "table",
           "title": "Medical Therapy in IBD — Drug Classes & Mechanisms",
-          "headers": ["Drug Class", "Agents", "Mechanism", "Use"],
+          "headers": [
+            "Drug Class",
+            "Agents",
+            "Mechanism",
+            "Use"
+          ],
           "rows": [
-            ["Aminosalicylates (5-ASA)", "Mesalazine (oral, topical), sulfasalazine", "Anti-inflammatory at mucosal level; inhibit NF-κB, prostaglandins", "UC mild-moderate (induction + maintenance); NOT effective in CD"],
-            ["Corticosteroids", "Prednisolone, budesonide (ileocaecal CD), IV hydrocortisone/methylprednisolone", "Broad anti-inflammatory; suppress cytokine production", "Induction of remission (not maintenance — steroid dependency is indication for escalation)"],
-            ["Immunomodulators", "Azathioprine (AZA), 6-mercaptopurine (6-MP), methotrexate (MTX, CD only)", "AZA/6-MP: thiopurine → inhibit purine synthesis → lymphocyte apoptosis. MTX: folate antagonist", "Maintenance; used with biologics to prevent antibody formation; TPMT testing before AZA"],
-            ["Anti-TNF biologics", "Infliximab (IV), adalimumab (SC), certolizumab pegol, golimumab (UC)", "Neutralize tumour necrosis factor-α", "Moderate-severe UC and CD; perianal CD; top-down in high-risk disease"],
-            ["Anti-integrin biologics", "Vedolizumab (IV)", "Blocks α4β7-MAdCAM-1 — gut-selective; prevents lymphocyte trafficking to intestine", "Moderate-severe UC and CD; preferred in patients where systemic immunosuppression is a concern"],
-            ["Anti-IL-12/23 biologics", "Ustekinumab (IV induction, SC maintenance)", "Binds p40 subunit of IL-12 and IL-23 — inhibits Th1 and Th17 pathways", "Moderate-severe CD (approved for UC from 2019); good safety profile"],
-            ["JAK Inhibitors (small molecules)", "Tofacitinib (oral, UC), upadacitinib (oral, UC+CD), filgotinib", "Inhibit Janus kinases → block multiple inflammatory cytokine signaling pathways", "Moderate-severe UC; rapid onset; caution: VTE risk, cardiovascular risk (tofacitinib)"]
+            [
+              "Aminosalicylates (5-ASA)",
+              "Mesalazine (oral, topical), sulfasalazine",
+              "Anti-inflammatory at mucosal level; inhibit NF-κB, prostaglandins",
+              "UC mild-moderate (induction + maintenance); NOT effective in CD"
+            ],
+            [
+              "Corticosteroids",
+              "Prednisolone, budesonide (ileocaecal CD), IV hydrocortisone/methylprednisolone",
+              "Broad anti-inflammatory; suppress cytokine production",
+              "Induction of remission (not maintenance — steroid dependency is indication for escalation)"
+            ],
+            [
+              "Immunomodulators",
+              "Azathioprine (AZA), 6-mercaptopurine (6-MP), methotrexate (MTX, CD only)",
+              "AZA/6-MP: thiopurine → inhibit purine synthesis → lymphocyte apoptosis. MTX: folate antagonist",
+              "Maintenance; used with biologics to prevent antibody formation; TPMT testing before AZA"
+            ],
+            [
+              "Anti-TNF biologics",
+              "Infliximab (IV), adalimumab (SC), certolizumab pegol, golimumab (UC)",
+              "Neutralize tumour necrosis factor-α",
+              "Moderate-severe UC and CD; perianal CD; top-down in high-risk disease"
+            ],
+            [
+              "Anti-integrin biologics",
+              "Vedolizumab (IV)",
+              "Blocks α4β7-MAdCAM-1 — gut-selective; prevents lymphocyte trafficking to intestine",
+              "Moderate-severe UC and CD; preferred in patients where systemic immunosuppression is a concern"
+            ],
+            [
+              "Anti-IL-12/23 biologics",
+              "Ustekinumab (IV induction, SC maintenance)",
+              "Binds p40 subunit of IL-12 and IL-23 — inhibits Th1 and Th17 pathways",
+              "Moderate-severe CD (approved for UC from 2019); good safety profile"
+            ],
+            [
+              "JAK Inhibitors (small molecules)",
+              "Tofacitinib (oral, UC), upadacitinib (oral, UC+CD), filgotinib",
+              "Inhibit Janus kinases → block multiple inflammatory cytokine signaling pathways",
+              "Moderate-severe UC; rapid onset; caution: VTE risk, cardiovascular risk (tofacitinib)"
+            ]
           ]
         },
         {
@@ -114,15 +278,47 @@
         {
           "type": "table",
           "title": "Indications for Surgery in Ulcerative Colitis",
-          "headers": ["Category", "Indication", "Urgency"],
+          "headers": [
+            "Category",
+            "Indication",
+            "Urgency"
+          ],
           "rows": [
-            ["Emergency", "Toxic megacolon unresponsive to 24–48h medical therapy", "Emergency"],
-            ["Emergency", "Free perforation", "Emergency"],
-            ["Emergency", "Massive hemorrhage", "Emergency"],
-            ["Acute", "Severe UC (Truelove & Witts) failing 3–5 days IV corticosteroids; failure of rescue therapy (infliximab, ciclosporin)", "Urgent (within days)"],
-            ["Elective", "Medically refractory UC — steroid-dependent or -refractory disease; intolerable medical side effects", "Elective (planned)"],
-            ["Elective", "Low-grade dysplasia (multifocal or recurring); high-grade dysplasia; cancer", "Semi-urgent to elective depending on stage"],
-            ["Elective", "Growth retardation in children/adolescents unresponsive to medical therapy", "Elective"]
+            [
+              "Emergency",
+              "Toxic megacolon unresponsive to 24–48h medical therapy",
+              "Emergency"
+            ],
+            [
+              "Emergency",
+              "Free perforation",
+              "Emergency"
+            ],
+            [
+              "Emergency",
+              "Massive hemorrhage",
+              "Emergency"
+            ],
+            [
+              "Acute",
+              "Severe UC (Truelove & Witts) failing 3–5 days IV corticosteroids; failure of rescue therapy (infliximab, ciclosporin)",
+              "Urgent (within days)"
+            ],
+            [
+              "Elective",
+              "Medically refractory UC — steroid-dependent or -refractory disease; intolerable medical side effects",
+              "Elective (planned)"
+            ],
+            [
+              "Elective",
+              "Low-grade dysplasia (multifocal or recurring); high-grade dysplasia; cancer",
+              "Semi-urgent to elective depending on stage"
+            ],
+            [
+              "Elective",
+              "Growth retardation in children/adolescents unresponsive to medical therapy",
+              "Elective"
+            ]
           ]
         },
         {
@@ -132,12 +328,32 @@
         {
           "type": "table",
           "title": "IPAA (J-Pouch) — Pouch Configurations",
-          "headers": ["Configuration", "Construction", "Advantages/Disadvantages"],
+          "headers": [
+            "Configuration",
+            "Construction",
+            "Advantages/Disadvantages"
+          ],
           "rows": [
-            ["J-pouch (most common, 90%)", "Two 15 cm ileal limbs folded, stapled. Apex anastomosed to anal transition zone (±mucosectomy)", "Easiest construction; good function; 4–8 stools/day (functional result)"],
-            ["W-pouch (4-loop)", "Four ileal limbs — larger reservoir volume", "Higher volume; technically complex; used rarely for specific indications"],
-            ["S-pouch (3-loop)", "Three ileal limbs; efferent spout to anus", "Historically used; efferent limb can cause evacuation difficulty (catheterization sometimes needed); largely replaced by J-pouch"],
-            ["Kock pouch (continent ileostomy)", "Intra-abdominal reservoir with continent valve", "Used when IPAA failed or anus non-functional; requires intubation to empty"]
+            [
+              "J-pouch (most common, 90%)",
+              "Two 15 cm ileal limbs folded, stapled. Apex anastomosed to anal transition zone (±mucosectomy)",
+              "Easiest construction; good function; 4–8 stools/day (functional result)"
+            ],
+            [
+              "W-pouch (4-loop)",
+              "Four ileal limbs — larger reservoir volume",
+              "Higher volume; technically complex; used rarely for specific indications"
+            ],
+            [
+              "S-pouch (3-loop)",
+              "Three ileal limbs; efferent spout to anus",
+              "Historically used; efferent limb can cause evacuation difficulty (catheterization sometimes needed); largely replaced by J-pouch"
+            ],
+            [
+              "Kock pouch (continent ileostomy)",
+              "Intra-abdominal reservoir with continent valve",
+              "Used when IPAA failed or anus non-functional; requires intubation to empty"
+            ]
           ]
         },
         {
@@ -163,16 +379,52 @@
         {
           "type": "table",
           "title": "Surgical Indications in Crohn's Disease",
-          "headers": ["Indication", "Operation", "Notes"],
+          "headers": [
+            "Indication",
+            "Operation",
+            "Notes"
+          ],
           "rows": [
-            ["Ileocaecal CD — obstruction or medically refractory", "Laparoscopic ileocaecal resection (ICR)", "Most common CD operation; first episode of terminal ileum disease — surgery as valid alternative to medical therapy (LIR!C trial)"],
-            ["Colonic CD — medically refractory", "Segmental colectomy OR subtotal colectomy depending on extent", "Preserve bowel; total colectomy if pancolonic disease; rectal preservation if possible"],
-            ["Stricture (B2 CD)", "Strictureplasty (if <10 cm, non-inflamed) OR resection", "Bowel-sparing when possible; multiple strictureplasties in one operation acceptable"],
-            ["Penetrating CD — abscess (B3)", "Percutaneous drainage (acute); resection of offending segment (elective)", "Drain acute abscess; resect diseased segment when inflammation resolved"],
-            ["Enterocutaneous fistula", "Resection of diseased bowel segment + fistula tract excision", "Medical therapy first (anti-TNF); surgery for refractory fistulae"],
-            ["Enteroenteric fistula", "Resect diseased segment; repair healthy recipient bowel", "Short segment affected; functioning bowel segment usually only needs primary repair"],
-            ["Rectal CD — severe, refractory (proctitis)", "Proctectomy ± colectomy", "IPAA contraindicated in CD — end ileostomy; Hartmann's pouch or proctocolectomy"],
-            ["Cancer in CD", "Resection per oncological principles", "Colorectal cancer in CD managed as for sporadic CRC"]
+            [
+              "Ileocaecal CD — obstruction or medically refractory",
+              "Laparoscopic ileocaecal resection (ICR)",
+              "Most common CD operation; first episode of terminal ileum disease — surgery as valid alternative to medical therapy (LIR!C trial)"
+            ],
+            [
+              "Colonic CD — medically refractory",
+              "Segmental colectomy OR subtotal colectomy depending on extent",
+              "Preserve bowel; total colectomy if pancolonic disease; rectal preservation if possible"
+            ],
+            [
+              "Stricture (B2 CD)",
+              "Strictureplasty (if <10 cm, non-inflamed) OR resection",
+              "Bowel-sparing when possible; multiple strictureplasties in one operation acceptable"
+            ],
+            [
+              "Penetrating CD — abscess (B3)",
+              "Percutaneous drainage (acute); resection of offending segment (elective)",
+              "Drain acute abscess; resect diseased segment when inflammation resolved"
+            ],
+            [
+              "Enterocutaneous fistula",
+              "Resection of diseased bowel segment + fistula tract excision",
+              "Medical therapy first (anti-TNF); surgery for refractory fistulae"
+            ],
+            [
+              "Enteroenteric fistula",
+              "Resect diseased segment; repair healthy recipient bowel",
+              "Short segment affected; functioning bowel segment usually only needs primary repair"
+            ],
+            [
+              "Rectal CD — severe, refractory (proctitis)",
+              "Proctectomy ± colectomy",
+              "IPAA contraindicated in CD — end ileostomy; Hartmann's pouch or proctocolectomy"
+            ],
+            [
+              "Cancer in CD",
+              "Resection per oncological principles",
+              "Colorectal cancer in CD managed as for sporadic CRC"
+            ]
           ]
         },
         {
@@ -203,13 +455,43 @@
         {
           "type": "table",
           "title": "Parks Classification of Perianal Fistulae",
-          "headers": ["Type", "Course", "Prevalence in PACD", "Management"],
+          "headers": [
+            "Type",
+            "Course",
+            "Prevalence in PACD",
+            "Management"
+          ],
           "rows": [
-            ["Superficial", "Below both sphincters, below dentate line", "Rare in PACD", "Lay-open fistulotomy"],
-            ["Intersphincteric", "Between internal and external sphincters; exits at perineum", "Most common (45%)", "Seton or lay-open (assess sphincter involvement)"],
-            ["Transsphincteric", "Crosses external sphincter at variable height; exits ischioanal fossa", "40% of PACD fistulae", "Non-cutting seton (draining seton); anti-TNF; LIFT procedure; advancement flap"],
-            ["Suprasphincteric", "Over puborectalis, through levators, to ischioanal fossa", "3–5%", "Seton; complex repair; sphincter-preserving approach"],
-            ["Extrasphincteric", "Above levators, through ischioanal fossa to skin; bypasses entire sphincter", "Rare (<1%)", "Faecal diversion; staged repair; high morbidity"]
+            [
+              "Superficial",
+              "Below both sphincters, below dentate line",
+              "Rare in PACD",
+              "Lay-open fistulotomy"
+            ],
+            [
+              "Intersphincteric",
+              "Between internal and external sphincters; exits at perineum",
+              "Most common (45%)",
+              "Seton or lay-open (assess sphincter involvement)"
+            ],
+            [
+              "Transsphincteric",
+              "Crosses external sphincter at variable height; exits ischioanal fossa",
+              "40% of PACD fistulae",
+              "Non-cutting seton (draining seton); anti-TNF; LIFT procedure; advancement flap"
+            ],
+            [
+              "Suprasphincteric",
+              "Over puborectalis, through levators, to ischioanal fossa",
+              "3–5%",
+              "Seton; complex repair; sphincter-preserving approach"
+            ],
+            [
+              "Extrasphincteric",
+              "Above levators, through ischioanal fossa to skin; bypasses entire sphincter",
+              "Rare (<1%)",
+              "Faecal diversion; staged repair; high morbidity"
+            ]
           ]
         },
         {
@@ -224,14 +506,49 @@
         {
           "type": "table",
           "title": "Complex Perianal Fistula Management in Crohn's — Surgical Options",
-          "headers": ["Procedure", "Mechanism", "Success Rate", "Best Indication"],
+          "headers": [
+            "Procedure",
+            "Mechanism",
+            "Success Rate",
+            "Best Indication"
+          ],
           "rows": [
-            ["Draining (loose) seton", "Non-cutting seton through fistula tract maintains drainage; prevents abscess", "Symptom control; not curative", "First step for all complex fistulae; always place before anti-TNF"],
-            ["Cutting seton", "Progressively tightens through sphincter — gradual division", "50–60% closure", "Low transsphincteric (risk of incontinence with high fistulae); AVOIDED in CD due to incontinence risk"],
-            ["LIFT procedure (Ligation of Intersphincteric Fistula Tract)", "Ligates and divides tract in intersphincteric plane", "60–75% (non-CD); 40–60% (CD)", "Simple transsphincteric fistulae in CD; sphincter-preserving"],
-            ["Endorectal advancement flap", "Mucosal-submucosal flap from rectal wall covers internal opening", "40–60% in CD", "Complex transsphincteric; requires quiescent luminal CD; failure more common in CD"],
-            ["Faecal diversion (loop ileostomy)", "Defunction bowel; reduces contamination; allows fistula healing", "Partial/temporary remission 60%; fistula closure ~30%", "Severe PACD refractory to all other measures; bridge to definitive repair"],
-            ["Proctectomy", "Remove rectum; permanent end colostomy/ileostomy", "Definitive; 10–15% of PACD patients ultimately require", "Severe refractory proctitis + perianal disease; last resort"]
+            [
+              "Draining (loose) seton",
+              "Non-cutting seton through fistula tract maintains drainage; prevents abscess",
+              "Symptom control; not curative",
+              "First step for all complex fistulae; always place before anti-TNF"
+            ],
+            [
+              "Cutting seton",
+              "Progressively tightens through sphincter — gradual division",
+              "50–60% closure",
+              "Low transsphincteric (risk of incontinence with high fistulae); AVOIDED in CD due to incontinence risk"
+            ],
+            [
+              "LIFT procedure (Ligation of Intersphincteric Fistula Tract)",
+              "Ligates and divides tract in intersphincteric plane",
+              "60–75% (non-CD); 40–60% (CD)",
+              "Simple transsphincteric fistulae in CD; sphincter-preserving"
+            ],
+            [
+              "Endorectal advancement flap",
+              "Mucosal-submucosal flap from rectal wall covers internal opening",
+              "40–60% in CD",
+              "Complex transsphincteric; requires quiescent luminal CD; failure more common in CD"
+            ],
+            [
+              "Faecal diversion (loop ileostomy)",
+              "Defunction bowel; reduces contamination; allows fistula healing",
+              "Partial/temporary remission 60%; fistula closure ~30%",
+              "Severe PACD refractory to all other measures; bridge to definitive repair"
+            ],
+            [
+              "Proctectomy",
+              "Remove rectum; permanent end colostomy/ileostomy",
+              "Definitive; 10–15% of PACD patients ultimately require",
+              "Severe refractory proctitis + perianal disease; last resort"
+            ]
           ]
         },
         {
@@ -253,11 +570,23 @@
         {
           "type": "table",
           "title": "Jalan Criteria for Toxic Megacolon — Diagnosis Requires 3 of 4 Minor + 1 Major",
-          "headers": ["Category", "Criteria"],
+          "headers": [
+            "Category",
+            "Criteria"
+          ],
           "rows": [
-            ["Major (radiological)", "Colonic dilatation >6 cm on AXR (transverse colon most commonly measured)"],
-            ["Minor (3 of 4 required)", "Fever >38.6°C OR HR >120/min OR WBC >10,500/μL OR anemia (Hb <6 g/dL below normal)"],
-            ["Supportive features", "Dehydration, altered consciousness, hypotension, electrolyte disturbances"]
+            [
+              "Major (radiological)",
+              "Colonic dilatation >6 cm on AXR (transverse colon most commonly measured)"
+            ],
+            [
+              "Minor (3 of 4 required)",
+              "Fever >38.6°C OR HR >120/min OR WBC >10,500/μL OR anemia (Hb <6 g/dL below normal)"
+            ],
+            [
+              "Supportive features",
+              "Dehydration, altered consciousness, hypotension, electrolyte disturbances"
+            ]
           ]
         },
         {
@@ -285,11 +614,31 @@
         {
           "type": "table",
           "title": "Strictureplasty Techniques by Stricture Length",
-          "headers": ["Technique", "Stricture Length", "Principle", "Outcome"],
+          "headers": [
+            "Technique",
+            "Stricture Length",
+            "Principle",
+            "Outcome"
+          ],
           "rows": [
-            ["Heineke-Mikulicz (HM)", "<10 cm (short strictures)", "Longitudinal full-thickness enterotomy along stricture → transverse closure (similar to pyloplasty); widening without resection", "Technically simple; success rate 85–90%; recurrence at strictureplasty site ~3–5%"],
-            ["Finney", "10–25 cm (intermediate strictures)", "Side-to-side isoperistaltic enterotomy; loop formed and anastomosed — creates larger side-to-side reservoir", "Good for medium strictures; more complex than HM"],
-            ["Michelassi (side-to-side isoperistaltic strictureplasty)", ">25 cm (long/multiple strictures)", "Two long parallel segments of diseased bowel anastomosed side-to-side in isoperistaltic fashion; up to 100 cm", "For diffuse jejunoileitis; excellent bowel preservation; most complex technique"]
+            [
+              "Heineke-Mikulicz (HM)",
+              "<10 cm (short strictures)",
+              "Longitudinal full-thickness enterotomy along stricture → transverse closure (similar to pyloplasty); widening without resection",
+              "Technically simple; success rate 85–90%; recurrence at strictureplasty site ~3–5%"
+            ],
+            [
+              "Finney",
+              "10–25 cm (intermediate strictures)",
+              "Side-to-side isoperistaltic enterotomy; loop formed and anastomosed — creates larger side-to-side reservoir",
+              "Good for medium strictures; more complex than HM"
+            ],
+            [
+              "Michelassi (side-to-side isoperistaltic strictureplasty)",
+              ">25 cm (long/multiple strictures)",
+              "Two long parallel segments of diseased bowel anastomosed side-to-side in isoperistaltic fashion; up to 100 cm",
+              "For diffuse jejunoileitis; excellent bowel preservation; most complex technique"
+            ]
           ]
         },
         {
@@ -315,12 +664,32 @@
         {
           "type": "table",
           "title": "ECCO 2023 / BSG 2019 — IBD Colorectal Cancer Surveillance Intervals",
-          "headers": ["Risk Category", "Criteria", "Surveillance Interval"],
+          "headers": [
+            "Risk Category",
+            "Criteria",
+            "Surveillance Interval"
+          ],
           "rows": [
-            ["Low risk", "Extensive UC or left-sided UC in remission; no PSC; no family history CRC; no stricture/post-inflammatory polyps", "Every 5 years starting at 8–10 years from symptom onset"],
-            ["Intermediate risk", "Extensive UC with mildly active inflammation; left-sided UC + family history CRC; post-inflammatory polyps; stricture (exclude cancer)", "Every 3 years"],
-            ["High risk", "Pancolitis + active inflammation; stricture that cannot exclude cancer; PSC (UC or CD); family history CRC age <50; previous dysplasia managed endoscopically", "Annual colonoscopy"],
-            ["PSC + UC", "ANY extent of UC with PSC", "Annual colonoscopy (from diagnosis of PSC, regardless of disease duration)"]
+            [
+              "Low risk",
+              "Extensive UC or left-sided UC in remission; no PSC; no family history CRC; no stricture/post-inflammatory polyps",
+              "Every 5 years starting at 8–10 years from symptom onset"
+            ],
+            [
+              "Intermediate risk",
+              "Extensive UC with mildly active inflammation; left-sided UC + family history CRC; post-inflammatory polyps; stricture (exclude cancer)",
+              "Every 3 years"
+            ],
+            [
+              "High risk",
+              "Pancolitis + active inflammation; stricture that cannot exclude cancer; PSC (UC or CD); family history CRC age <50; previous dysplasia managed endoscopically",
+              "Annual colonoscopy"
+            ],
+            [
+              "PSC + UC",
+              "ANY extent of UC with PSC",
+              "Annual colonoscopy (from diagnosis of PSC, regardless of disease duration)"
+            ]
           ]
         },
         {
@@ -680,7 +1049,7 @@
         "C": "5–8 fold increased risk in extensive UC of long duration, accumulating to approximately 8% cumulative risk at 20 years",
         "D": "20-fold increased risk — all UC patients require annual colonoscopy from diagnosis"
       },
-        "correct": "C",
+      "correct": "C",
       "explanation": {
         "correct": "IBD-associated CRC risk in extensive UC (E3 pancolitis): approximately 5–8× the general population risk. Cumulative risk estimates: ~2% at 10 years, ~8% at 20 years, ~18% at 30 years from disease onset. These figures have decreased with modern surveillance programs and effective anti-inflammatory therapy (mucosal healing reduces carcinogenic risk). However, the risk remains significantly elevated compared to general population — justifying surveillance programs.",
         "wrong": {
@@ -781,5 +1150,240 @@
         "pearl": "SBS thresholds: with colon → <100–150 cm = TPN-dependent. Without colon (end-jejunostomy) → <50–60 cm = TPN-dependent. Colon is crucial — absorbs water, Na, and SCFA. Losing the colon dramatically worsens SBS prognosis. Intestinal transplantation considered for irreversible TPN-dependent SBS with complications."
       }
     }
-  ]
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of inflammatory bowel disease surgery with 10 clinical questions.",
+    "questions": [
+      {
+        "id": "D3-Q1",
+        "stem": "A 28-year-old woman with ulcerative colitis on infliximab and azathioprine develops sudden severe abdominal pain and distension. AXR shows colonic diameter 8cm with mucosal islands. She is febrile (39.1°C), HR 118, and has not opened her bowels in 24 hours. Traube's space is resonant. What is the diagnosis and the timeframe for surgical intervention if she fails medical treatment?",
+        "options": {
+          "A": "Toxic megacolon — urgent colectomy if no improvement within 24–72 hours of intensive medical therapy",
+          "B": "Toxic megacolon — emergency colectomy immediately without trial of medical treatment",
+          "C": "Sigmoid volvulus — flexible sigmoidoscopy and decompression",
+          "D": "Acute severe UC — continue infliximab and reassess in 7 days"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Toxic megacolon (colon ≥6cm + systemic toxicity: fever, tachycardia, anaemia, leukocytosis or hypoalbuminaemia) requires intensive medical therapy: IV steroids, IV fluids, bowel rest, NG decompression, rolling technique, and correction of electrolytes. If no improvement within 24–72 hours (or at any point there is clinical deterioration), emergency subtotal colectomy with end ileostomy is mandatory. Continued medical treatment beyond 72h increases mortality.",
+          "wrong": {
+            "B": "Immediate colectomy without a brief trial of medical therapy is not standard unless there is frank perforation or haemodynamic collapse. The 24-72h medical trial is the evidence-based window.",
+            "C": "Sigmoid volvulus shows a 'bent inner tube' or 'coffee bean' sign on AXR. Mucosal islands and diffuse colonic distension with known UC and systemic toxicity is toxic megacolon.",
+            "D": "Continuing infliximab in toxic megacolon is inappropriate. Infliximab may be used as rescue therapy in acute severe UC (Oxford criteria), but toxic megacolon with systemic toxicity requires IV steroids and urgent surgical consultation, not continuation of biologics."
+          },
+          "guideline": "ECCO IBD Guidelines 2023 — toxic megacolon management; BSG Acute Severe Colitis 2019",
+          "trial": "Randall J et al., Aliment Pharmacol Ther 2010: toxic megacolon — mortality <10% with timely colectomy; mortality rises to 40-50% with perforation before colectomy.",
+          "pearl": "Truelove & Witts criteria for acute severe UC: >6 bloody stools/day + any of: pulse >90, temp >37.8°C, Hb <10.5g/dL, ESR >30mm/h. Toxic megacolon = severe colitis + colonic distension ≥6cm + systemic toxicity."
+        }
+      },
+      {
+        "id": "D3-Q2",
+        "stem": "A 35-year-old man with long-standing pancolitis (UC for 12 years) undergoes surveillance colonoscopy showing low-grade dysplasia (LGD) in flat mucosa in the sigmoid colon, confirmed on two separate biopsies by two independent pathologists. He is in clinical remission on mesalazine. What is the recommended surgical management?",
+        "options": {
+          "A": "Repeat colonoscopy in 3 months to confirm persistence",
+          "B": "Intensify mesalazine and repeat colonoscopy in 6 months",
+          "C": "Proctocolectomy with ileal pouch-anal anastomosis (IPAA)",
+          "D": "Targeted endoscopic resection (EMR) of the dysplastic area only"
+        },
+        "correct": "C",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Flat LGD confirmed by two expert pathologists in UC is a strong indication for proctocolectomy. ECCO and BSG guidelines recommend colectomy for confirmed flat LGD due to the 30–50% risk of synchronous colorectal cancer found at colectomy and the 5-year cumulative incidence of CRC of 30–50% in confirmed LGD. IPAA is the preferred reconstruction in suitable patients, offering good quality of life and cancer prevention.",
+          "wrong": {
+            "A": "Repeating colonoscopy in 3 months after confirmed LGD by two pathologists delays appropriate treatment. The confirmation by two pathologists on two separate occasions already constitutes the gold standard for dysplasia confirmation.",
+            "B": "Mesalazine chemoprevention does not reverse established dysplasia. Intensifying medical therapy is not a recognised treatment for confirmed flat LGD.",
+            "D": "Endoscopic resection is appropriate for polypoid dysplasia (raised, endoscopically resectable). Flat LGD in UC represents a field change — EMR removes a visible lesion but leaves the dysplastic field, carrying persistent cancer risk."
+          },
+          "guideline": "ECCO IBD Guidelines 2023 — colectomy for confirmed flat low-grade dysplasia in UC; BSG Surveillance in IBD 2022",
+          "trial": "Pekow JR et al., Gastroenterology 2010: confirmed LGD in UC — 30% synchronous CRC at colectomy; 50% develop advanced neoplasia within 5 years without colectomy.",
+          "pearl": "Raised (polypoid) dysplasia in UC that is completely resectable endoscopically may be managed with EMR + 3-monthly surveillance. Flat dysplasia or dysplasia at a non-targetable site mandates colectomy."
+        }
+      },
+      {
+        "id": "D3-Q3",
+        "stem": "A 32-year-old woman with Crohn's disease involving a 15cm segment of terminal ileum presents with obstructive symptoms. CT enterography shows a fibrotic, fixed stricture without prestenotic dilation of >3cm or active inflammation. She has had two previous resections. What is the preferred surgical approach to preserve bowel length?",
+        "options": {
+          "A": "Resection of the strictured segment with primary anastomosis",
+          "B": "Strictureplasty (Heineke-Mikulicz technique for short strictures)",
+          "C": "Balloon dilation via colonoscopy",
+          "D": "Defunctioning ileostomy to rest the bowel"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Strictureplasty is the bowel-sparing procedure of choice for fibrotic Crohn's strictures, especially in patients with multiple previous resections at risk of short bowel syndrome. For strictures ≤10cm, the Heineke-Mikulicz technique (longitudinal incision, transverse closure) is standard. For strictures 10–25cm, the Finney (side-to-side) technique is used. Strictureplasty has equivalent recurrence rates to resection and preserves bowel length.",
+          "wrong": {
+            "A": "Resection with anastomosis is appropriate for short segments or when malignancy is suspected. However, with previous resections and 15cm involvement, preserving bowel with strictureplasty is preferred to avoid short bowel syndrome risk.",
+            "C": "Endoscopic balloon dilation is appropriate for short (<4cm), accessible anastomotic strictures. A 15cm fibrotic stricture in the terminal ileum is not suitable for endoscopic dilation — perforation risk is high.",
+            "D": "Defunctioning ileostomy does not treat the stricture. It temporarily bypasses the obstruction but does not address the fibrotic segment and requires subsequent resection or strictureplasty."
+          },
+          "guideline": "ECCO-ESCP Crohn's Disease Surgical Guidelines 2024 — strictureplasty for fibrotic Crohn's strictures",
+          "trial": "Yamamoto T et al., Dis Colon Rectum 1999: meta-analysis of strictureplasty — symptomatic recurrence 28% vs resection 34%; complication rate equivalent; bowel length preserved.",
+          "pearl": "Strictureplasty contraindications: (1) malignancy suspected in the stricture, (2) free perforation or fistula at stricture site, (3) very short bowel syndrome already established, (4) stricture with excessive bleeding. Take biopsies at all strictureplasty sites — Crohn's strictures have 1–2% CRC risk."
+        }
+      },
+      {
+        "id": "D3-Q4",
+        "stem": "A 45-year-old man with UC refractory to IV steroids and infliximab rescue therapy requires urgent subtotal colectomy. He is on prednisolone 40mg/day and infliximab. Which statement about surgical risk and postoperative management is most accurate?",
+        "options": {
+          "A": "Steroids should be stopped immediately preoperatively to reduce infection risk",
+          "B": "Chronic steroid use increases anastomotic leak and infectious complication rates; IPAA should be performed at the same sitting",
+          "C": "Subtotal colectomy with end ileostomy is performed; steroids are tapered postoperatively; IPAA reconstructed in 6–12 months",
+          "D": "Infliximab administered within 12 weeks does not affect surgical outcomes"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Emergency subtotal colectomy with end ileostomy is the preferred approach in acute severe UC/toxic megacolon. A three-stage approach is used: (1) subtotal colectomy + end ileostomy; (2) completion proctectomy + IPAA formation 3–6 months later; (3) ileostomy closure at 3 months. This allows steroid withdrawal, nutritional optimisation, and Crohn's disease exclusion on the colectomy specimen before pouch formation. Immediate IPAA in an acutely ill, steroid-dependent patient carries prohibitively high leak rates.",
+          "wrong": {
+            "A": "Abrupt steroid withdrawal causes adrenal crisis. Patients on chronic steroids (>5mg prednisolone >3 weeks) require perioperative stress-dose steroids (hydrocortisone 100mg TDS) rather than abrupt cessation.",
+            "B": "Immediate IPAA at the emergency colectomy carries prohibitively high rates of pouch failure (anastomotic leak, pelvic sepsis) in malnourished, immunosuppressed patients. Three-stage approach is standard.",
+            "D": "Infliximab within 12 weeks of surgery is associated with increased infectious complications (anastomotic leak, wound infection, intra-abdominal abscess) — particularly relevant for the reconstructive stage."
+          },
+          "guideline": "ECCO IBD Surgical Guidelines 2023 — three-stage IPAA for emergency UC colectomy; steroid management perioperatively",
+          "trial": "Kulaylat AN et al., Dis Colon Rectum 2017: preoperative infliximab and postoperative complications in UC — increased 30-day infectious complications (OR 1.4); advocate staged approach.",
+          "pearl": "Three-stage IPAA: emergency colectomy → optimisation (nutrition, steroid taper, Crohn's exclusion) → completion proctectomy + IPAA (6-12mo) → diverting ileostomy closure (3mo later). Two-stage (proctocolectomy + IPAA + covering ileostomy) is for elective cases in well patients."
+        }
+      },
+      {
+        "id": "D3-Q5",
+        "stem": "A 26-year-old woman with Crohn's colitis has a perianal fistula (transphincteric, low, simple) confirmed on MRI. She has no active luminal disease. Which is the most appropriate initial management?",
+        "options": {
+          "A": "Fistulotomy (laying open)",
+          "B": "Placement of a cutting seton",
+          "C": "Seton drainage plus anti-TNF therapy (infliximab)",
+          "D": "Proctectomy with permanent stoma"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Perianal Crohn's fistula management combines surgical drainage (seton placement to decompress the fistula tract and prevent abscess) with anti-TNF therapy. Infliximab (ACCENT II trial) achieves fistula closure in 36% and remission in 46% compared to 19% with placebo. The seton controls sepsis while biologics achieve inflammatory remission. Fistulotomy has a high incontinence risk in Crohn's due to poor wound healing.",
+          "wrong": {
+            "A": "Fistulotomy has high success rates for idiopathic perianal fistula but is associated with impaired wound healing and sphincter damage in Crohn's disease. Recurrence rates are high, and incontinence risk is significant due to the underlying inflammatory state.",
+            "B": "A cutting seton gradually divides the sphincter and is used for high idiopathic fistulae. In Crohn's disease, it causes tissue inflammation, poor healing, and incontinence — it is contraindicated.",
+            "D": "Proctectomy is a last resort for end-stage perianal Crohn's disease with severe incontinence, severe proctitis, or fistula not responding to all medical and surgical options. It should not be the initial approach."
+          },
+          "guideline": "ECCO Perianal Crohn's Disease Guidelines 2023 — combined seton and anti-TNF for transphincteric Crohn's fistula",
+          "trial": "ACCENT II (Sands, NEJM 2004): infliximab for perianal Crohn's fistula — 36% complete fistula closure vs 19% placebo; maintained response at 54 weeks.",
+          "pearl": "Perianal Crohn's requires: MRI to stage fistula (Parks classification) + EUA for abscess drainage + seton placement + anti-TNF. Never perform fistulotomy in Crohn's without careful sphincter-preserving risk assessment. LIFT or advancement flap are options for fistulae in remission."
+        }
+      },
+      {
+        "id": "D3-Q6",
+        "stem": "A 30-year-old man has Crohn's disease affecting 30cm of terminal ileum with a single internal opening ileovesical fistula, recurrent urinary infections, and pneumaturia. He is on adalimumab with partial response. What is the surgical approach?",
+        "options": {
+          "A": "Resection of the involved ileal segment with primary closure of the bladder defect",
+          "B": "Resection of ileum, partial cystectomy, and Roux-en-Y ileal conduit",
+          "C": "Bladder-only repair without bowel resection",
+          "D": "Continued medical management — surgical fistula closure is not feasible"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Ileovesical fistula in Crohn's disease is managed by resection of the diseased ileal segment with closure of the bladder defect. The fistula orifice in the bladder is typically small (secondary involvement) and can be excised and closed primarily in two layers. Primary ileoileal or ileocolonic anastomosis is performed. Partial cystectomy is rarely required — simple fistula excision and bladder closure suffices in most cases.",
+          "wrong": {
+            "B": "Urinary diversion (ileal conduit) is reserved for severe bladder damage or involvement requiring extensive cystectomy. The bladder involvement in ileovesical Crohn's fistula is typically focal and does not require major urological reconstruction.",
+            "C": "Bladder-only repair without resecting the diseased ileum will result in immediate recurrence — the ileum is the source of the fistula due to active Crohn's disease.",
+            "D": "Medical therapy alone (anti-TNF) rarely achieves closure of established enterovesical fistulae. Surgery is required when fistula is established and causing recurrent sepsis or urinary symptoms."
+          },
+          "guideline": "ECCO-ESCP Crohn's Surgical Guidelines 2024 — enterovesical fistula: ileal resection + bladder closure",
+          "trial": "Taxonera C et al., J Crohns Colitis 2014: enterovesical fistula in Crohn's — surgical closure rate 90%; anti-TNF alone: 10-15% fistula closure; combined approach not superior to surgery.",
+          "pearl": "Key intraoperative step: identify and protect both ureters before bladder repair. Leave a urinary catheter for 7-10 days post-repair. Omentoplasty between the bowel anastomosis and bladder closure reduces recurrence."
+        }
+      },
+      {
+        "id": "D3-Q7",
+        "stem": "A 22-year-old woman with UC undergoes elective proctocolectomy with IPAA. On day 5 post-operatively she develops fever, perineal pain, and purulent discharge from the perianal wound. MRI shows a presacral collection. What complication has occurred and what is the management?",
+        "options": {
+          "A": "Anastomotic leak with pelvic sepsis — EUA, abscess drainage, consider pouch rescue or defunctioning",
+          "B": "Wound infection only — oral antibiotics",
+          "C": "Pouchitis — oral metronidazole",
+          "D": "Cuffitis — topical mesalazine suppositories"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Pelvic sepsis after IPAA (anastomotic leak, anastomotic dehiscence, or pelvic haematoma infection) is a serious complication occurring in 5–10% of cases and is the leading cause of pouch failure. Management: EUA for drainage, seton/drain placement, consider transanal pouch drainage or irrigation. A diverting ileostomy (if not already in place) may be required. Early aggressive management preserves pouch function — delayed treatment leads to permanent pouch failure in 30–50% of cases.",
+          "wrong": {
+            "B": "A presacral collection on MRI is not a superficial wound infection. Oral antibiotics alone will not drain a pelvic collection and will delay definitive management.",
+            "C": "Pouchitis typically presents weeks-to-months after pouch construction with frequency, urgency, and pouch inflammation on endoscopy. Day 5 post-op fever and presacral collection is anastomotic leak/sepsis.",
+            "D": "Cuffitis is inflammation of the rectal mucosa cuff in stapled IPAA, presenting months later with rectal bleeding. It is not the cause of presacral collection on day 5."
+          },
+          "guideline": "ECCO IBD Surgical Guidelines 2023 — pelvic sepsis after IPAA: EUA, drainage, pouch rescue protocol",
+          "trial": "Fazio VW et al., Ann Surg 2013: IPAA in 3707 patients — pelvic sepsis 6.4%; pouch failure rate 3-fold higher with pelvic sepsis vs no sepsis; early drainage critical for pouch salvage.",
+          "pearl": "IPAA pelvic sepsis management algorithm: EUA → transanal drainage if accessible → CT-guided percutaneous drain if posterior → consider diverting ileostomy. Long-term: 30-40% of pelvic sepsis cases result in pouch excision if inadequately treated."
+        }
+      },
+      {
+        "id": "D3-Q8",
+        "stem": "A 40-year-old man with Crohn's disease is on adalimumab and is scheduled for elective ileocolonic resection for fibrostenotic disease. His last adalimumab dose was 10 days ago. What is the recommended perioperative management of his biologic therapy?",
+        "options": {
+          "A": "Restart adalimumab 24 hours post-operatively to prevent flare",
+          "B": "Hold adalimumab perioperatively; restart 4–8 weeks post-operatively when wound healing is established",
+          "C": "Give additional pre-operative dose to achieve maximum anti-inflammatory effect at surgery",
+          "D": "Switch to IV corticosteroids perioperatively and avoid biologics for 6 months"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Current ECCO and ESCP guidelines recommend withholding biologics (anti-TNF, vedolizumab, ustekinumab) perioperatively due to increased infectious complications (anastomotic leak, wound infection, intraabdominal abscess). The timing of last dose relative to surgery is important: anti-TNF agents are typically held for 1-2 half-lives before surgery. Post-operative restart at 4–8 weeks allows wound healing and reduces immunosuppression during the critical healing period.",
+          "wrong": {
+            "A": "Restarting adalimumab 24 hours post-op provides no time for wound healing recovery and maintains high immunosuppression during the period of greatest infection risk.",
+            "C": "An additional pre-operative dose increases serum drug levels further into the perioperative period, prolonging immunosuppression during surgery and early recovery.",
+            "D": "Switching to IV steroids perioperatively adds another immunosuppressive agent rather than reducing it. This approach has no evidence base and increases adrenal suppression risk."
+          },
+          "guideline": "ECCO Crohn's Disease Medical Management 2021 — perioperative biologic management: hold anti-TNF; restart 4-8 weeks post-op",
+          "trial": "Xu Y et al., Int J Colorectal Dis 2019: meta-analysis of preoperative anti-TNF and surgical outcomes in IBD — increased 30-day infectious complications (OR 1.5); recommend holding biologics pre-operatively.",
+          "pearl": "Anti-TNF half-lives: infliximab ~8-10 days; adalimumab ~14 days; vedolizumab ~25 days. The risk window extends to 2-3 half-lives. Adalimumab at day 10 means surgery occurs within one half-life — meaningful immunosuppressive effect persists."
+        }
+      },
+      {
+        "id": "D3-Q9",
+        "stem": "A 50-year-old woman with pancolitis-associated UC has a surveillance colonoscopy showing a 1.5cm sessile polyp in the transverse colon, which is completely resected by EMR. Histology confirms tubular adenoma with HGD in the polyp and normal surrounding mucosa. No other dysplasia is found. What is the most appropriate next management?",
+        "options": {
+          "A": "Proctocolectomy — HGD in UC mandates colectomy",
+          "B": "Repeat endoscopy in 3 months to confirm clear resection margins",
+          "C": "Intensify surveillance to 3-monthly colonoscopy for 1 year",
+          "D": "Proctocolectomy is recommended but the decision is made jointly with the patient based on individual risk"
+        },
+        "correct": "B",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "A polypoid dysplastic lesion in UC that is completely resected endoscopically with clear margins (confirmed by EMR pathology) and no surrounding flat dysplasia can be managed endoscopically. Current BSG 2022 and ECCO 2023 guidelines support endoscopic follow-up rather than immediate colectomy for completely excised polypoid LGD or HGD, provided: (1) complete resection confirmed, (2) no flat dysplasia elsewhere, (3) 3-monthly endoscopy for at least 1 year.",
+          "wrong": {
+            "A": "Proctocolectomy for all HGD is outdated. Current guidelines distinguish between polypoid (endoscopically resectable) and flat dysplasia. Completely resected polypoid HGD without surrounding flat dysplasia can be managed endoscopically.",
+            "C": "3-monthly colonoscopy for 1 year is part of the management, but the immediate next step after complete EMR is to confirm clear resection margins at short-interval endoscopy (3 months) rather than just scheduling surveillance.",
+            "D": "While shared decision-making applies to borderline cases, the current evidence supports endoscopic management for completely resected polypoid HGD — recommending colectomy as the preferred option misrepresents current guidelines."
+          },
+          "guideline": "BSG Surveillance in IBD Guidelines 2022 — polypoid HGD completely resected: endoscopic surveillance rather than immediate colectomy",
+          "trial": "Gui X et al., Am J Gastroenterol 2015: surveillance after endoscopic resection of polypoid dysplasia in UC — cancer incidence equivalent to colectomy cohort at 5-year follow-up with adequate surveillance.",
+          "pearl": "Key distinction: (1) Flat LGD/HGD = field change = colectomy. (2) Raised/polypoid LGD/HGD = complete EMR + surveillance if margins clear and no surrounding flat dysplasia. This distinction drives the management decision."
+        }
+      },
+      {
+        "id": "D3-Q10",
+        "stem": "A 38-year-old man with Crohn's disease has been on vedolizumab for 18 months with good mucosal response but develops a new right iliac fossa mass and small bowel obstruction. CT shows a 6cm intra-abdominal abscess between loops of terminal ileum with surrounding matted bowel. What is the appropriate sequence of management?",
+        "options": {
+          "A": "Emergency ileocolonic resection",
+          "B": "IV antibiotics + CT-guided percutaneous drainage → optimisation → elective resection in 6–8 weeks",
+          "C": "Increase vedolizumab dose and reassess in 4 weeks",
+          "D": "Defunctioning ileostomy to rest the bowel and allow abscess resolution"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "An intra-abdominal abscess complicating Crohn's disease should be managed with antibiotics and percutaneous drainage as first-line, followed by optimisation (nutritional support, steroid taper if on steroids) and elective resection 6–8 weeks later. This staged approach avoids emergency resection in a contaminated field, reduces stoma rate, and allows patient optimisation. Vedolizumab should be held during the sepsis and perioperative period.",
+          "wrong": {
+            "A": "Emergency resection into a contaminated field with a 6cm abscess carries high risk of anastomotic failure, stoma formation, and further septic complications. Non-operative drainage first is strongly preferred.",
+            "C": "Increasing vedolizumab dose in the setting of established intra-abdominal abscess and obstruction is not appropriate — increased immunosuppression risks worsening sepsis and delayed diagnosis of perforation.",
+            "D": "Defunctioning ileostomy without draining the abscess addresses the obstruction but leaves the septic focus. The abscess must be drained. Defunctioning is not a standard component of Crohn's abscess management."
+          },
+          "guideline": "ECCO-ESCP Crohn's Surgical Guidelines 2024 — Crohn's abscess: drain first, optimise, then elective resection",
+          "trial": "Gervais DA et al., AJR 2002: percutaneous drainage of Crohn's abscesses — technical success 91%; avoids emergency surgery in 75%; allows subsequent elective resection with primary anastomosis.",
+          "pearl": "Pre-operative enteral nutrition in Crohn's is critical: 2–4 weeks of enteral nutritional support reduces inflammation, improves albumin, and halves stoma rate at surgery. Do not rush to the operating room — optimise first."
+        }
+      }
+    ]
+  }
 }

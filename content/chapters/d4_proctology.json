@@ -28,14 +28,49 @@
         {
           "type": "table",
           "title": "Anorectal Spaces — Anatomy, Contents, and Clinical Relevance",
-          "headers": ["Space", "Location", "Contents", "Abscess Drainage"],
+          "headers": [
+            "Space",
+            "Location",
+            "Contents",
+            "Abscess Drainage"
+          ],
           "rows": [
-            ["Perianal", "Subcutaneous around anal verge", "Fat, inferior rectal vessels", "Lateral to anus, no anaesthesia required if superficial"],
-            ["Intersphincteric", "Between IAS and EAS", "Anal glands, fatty tissue", "Internal drainage via proctoscope or EUA"],
-            ["Ischiorectal (ischioanal)", "Lateral to EAS, below levators", "Fat, inferior rectal nerves/vessels", "Large radial incision lateral to anus"],
-            ["Supralevator", "Above levator ani, lateral to rectum", "Fat, lymphatics", "Drain via ischiorectal fossa (if origin ischiorectal) OR transrectal (if origin pelvic/intersphincteric — never transsphincteric)"],
-            ["Submucosal", "Between mucosa and IAS", "Haemorrhoidal plexus", "Rare; internal drainage"],
-            ["Retrorectal (presacral)", "Between rectum and sacrum", "Fat, sacral vessels, autonomic nerves", "Posterior midline or trans-sacral approach"]
+            [
+              "Perianal",
+              "Subcutaneous around anal verge",
+              "Fat, inferior rectal vessels",
+              "Lateral to anus, no anaesthesia required if superficial"
+            ],
+            [
+              "Intersphincteric",
+              "Between IAS and EAS",
+              "Anal glands, fatty tissue",
+              "Internal drainage via proctoscope or EUA"
+            ],
+            [
+              "Ischiorectal (ischioanal)",
+              "Lateral to EAS, below levators",
+              "Fat, inferior rectal nerves/vessels",
+              "Large radial incision lateral to anus"
+            ],
+            [
+              "Supralevator",
+              "Above levator ani, lateral to rectum",
+              "Fat, lymphatics",
+              "Drain via ischiorectal fossa (if origin ischiorectal) OR transrectal (if origin pelvic/intersphincteric — never transsphincteric)"
+            ],
+            [
+              "Submucosal",
+              "Between mucosa and IAS",
+              "Haemorrhoidal plexus",
+              "Rare; internal drainage"
+            ],
+            [
+              "Retrorectal (presacral)",
+              "Between rectum and sacrum",
+              "Fat, sacral vessels, autonomic nerves",
+              "Posterior midline or trans-sacral approach"
+            ]
           ]
         },
         {
@@ -57,14 +92,49 @@
         {
           "type": "table",
           "title": "Haemorrhoid Classification",
-          "headers": ["Type", "Grade/Degree", "Description", "Treatment Options"],
+          "headers": [
+            "Type",
+            "Grade/Degree",
+            "Description",
+            "Treatment Options"
+          ],
           "rows": [
-            ["Internal", "Grade I", "Bleed, do not prolapse", "Dietary modification, fibre supplementation, sclerotherapy, IRC"],
-            ["Internal", "Grade II", "Prolapse on straining, reduce spontaneously", "Rubber band ligation (most effective office procedure)"],
-            ["Internal", "Grade III", "Prolapse requiring manual reduction", "Rubber band ligation or surgical haemorrhoidectomy"],
-            ["Internal", "Grade IV", "Irreducible prolapse; includes strangulated/thrombosed", "Surgical haemorrhoidectomy; emergency if strangulated"],
-            ["External", "N/A", "Below dentate line, covered by anoderm; thrombosed = acute pain", "Conservative (warm baths, analgesia) vs excision if <72 h"],
-            ["Mixed/Circumferential", "N/A", "Combination of internal and external components", "Haemorrhoidectomy; STARR if associated rectal prolapse"]
+            [
+              "Internal",
+              "Grade I",
+              "Bleed, do not prolapse",
+              "Dietary modification, fibre supplementation, sclerotherapy, IRC"
+            ],
+            [
+              "Internal",
+              "Grade II",
+              "Prolapse on straining, reduce spontaneously",
+              "Rubber band ligation (most effective office procedure)"
+            ],
+            [
+              "Internal",
+              "Grade III",
+              "Prolapse requiring manual reduction",
+              "Rubber band ligation or surgical haemorrhoidectomy"
+            ],
+            [
+              "Internal",
+              "Grade IV",
+              "Irreducible prolapse; includes strangulated/thrombosed",
+              "Surgical haemorrhoidectomy; emergency if strangulated"
+            ],
+            [
+              "External",
+              "N/A",
+              "Below dentate line, covered by anoderm; thrombosed = acute pain",
+              "Conservative (warm baths, analgesia) vs excision if <72 h"
+            ],
+            [
+              "Mixed/Circumferential",
+              "N/A",
+              "Combination of internal and external components",
+              "Haemorrhoidectomy; STARR if associated rectal prolapse"
+            ]
           ]
         },
         {
@@ -82,16 +152,52 @@
         {
           "type": "table",
           "title": "Complications of Haemorrhoidectomy",
-          "headers": ["Complication", "Incidence", "Management"],
+          "headers": [
+            "Complication",
+            "Incidence",
+            "Management"
+          ],
           "rows": [
-            ["Post-operative pain", "Universal; worst days 1–3", "Multi-modal analgesia: regular paracetamol + NSAIDs + topical lidocaine; avoid constipation"],
-            ["Urinary retention", "5–20%; higher in males, spinal anaesthesia", "Catheterisation; limit intra-op IV fluids; early mobilisation"],
-            ["Primary haemorrhage (<24 h)", "1–2%", "Return to theatre for suture ligation; rarely transfusion"],
-            ["Secondary haemorrhage (day 7–10)", "1–2%; band slough", "Hospital admission; digital pressure; EUA + suture; blood transfusion if severe"],
-            ["Anal stenosis", "1–3%; long-term", "Dilatation; advancement flap for severe cases"],
-            ["Faecal incontinence", "0.5–1%; due to IAS injury or excessive skin tag excision", "Anorectal physiology; SNS if significant"],
-            ["Anal fistula/skin tags", "Rare post-Milligan-Morgan", "Elective treatment once healed"],
-            ["Perianal sepsis", "Rare but serious post-RBL", "IV antibiotics; EUA; drainage"]
+            [
+              "Post-operative pain",
+              "Universal; worst days 1–3",
+              "Multi-modal analgesia: regular paracetamol + NSAIDs + topical lidocaine; avoid constipation"
+            ],
+            [
+              "Urinary retention",
+              "5–20%; higher in males, spinal anaesthesia",
+              "Catheterisation; limit intra-op IV fluids; early mobilisation"
+            ],
+            [
+              "Primary haemorrhage (<24 h)",
+              "1–2%",
+              "Return to theatre for suture ligation; rarely transfusion"
+            ],
+            [
+              "Secondary haemorrhage (day 7–10)",
+              "1–2%; band slough",
+              "Hospital admission; digital pressure; EUA + suture; blood transfusion if severe"
+            ],
+            [
+              "Anal stenosis",
+              "1–3%; long-term",
+              "Dilatation; advancement flap for severe cases"
+            ],
+            [
+              "Faecal incontinence",
+              "0.5–1%; due to IAS injury or excessive skin tag excision",
+              "Anorectal physiology; SNS if significant"
+            ],
+            [
+              "Anal fistula/skin tags",
+              "Rare post-Milligan-Morgan",
+              "Elective treatment once healed"
+            ],
+            [
+              "Perianal sepsis",
+              "Rare but serious post-RBL",
+              "IV antibiotics; EUA; drainage"
+            ]
           ]
         },
         {
@@ -126,14 +232,56 @@
         {
           "type": "table",
           "title": "Treatment Algorithm for Anal Fissure",
-          "headers": ["Stage", "Treatment", "Mechanism", "Healing Rate", "Side Effects"],
+          "headers": [
+            "Stage",
+            "Treatment",
+            "Mechanism",
+            "Healing Rate",
+            "Side Effects"
+          ],
           "rows": [
-            ["Acute (<6 weeks)", "Fibre, sitz baths, topical lidocaine, stool softeners", "Reduce trauma; symptomatic relief", "50% at 4 weeks", "Minimal"],
-            ["Chronic — first line", "Topical 0.2–0.4% GTN (glyceryl trinitrate) TDS for 8 weeks", "Nitric oxide → IAS relaxation → reduced ischaemia", "40–50% healing", "Headache 20–30% (dose-limiting)"],
-            ["Chronic — alternative first line", "Topical 2% diltiazem cream BD for 8 weeks", "Calcium channel blocker → IAS relaxation", "40–65% healing", "Less headache than GTN; local irritation"],
-            ["Chronic — second line", "Botulinum toxin A injection (20–30 units IAS each side of fissure)", "Chemical sphincterotomy; reversible; effect lasts 3–4 months", "60–80% healing at 2 months", "Temporary faecal incontinence 0–10%; fissure may recur"],
-            ["Chronic — surgical first line", "Lateral internal sphincterotomy (LIS)", "Division of distal 1/3 IAS; reduces spasm permanently", "90–95% healing", "Faecal incontinence (any) 0–35%; keyhole deformity"],
-            ["Recurrent/failed LIS", "Advancement flap (V-Y or rotational anoderm)", "Brings healthy vascularised tissue to fissure bed", "60–80%", "Flap necrosis; requires anaesthesia"]
+            [
+              "Acute (<6 weeks)",
+              "Fibre, sitz baths, topical lidocaine, stool softeners",
+              "Reduce trauma; symptomatic relief",
+              "50% at 4 weeks",
+              "Minimal"
+            ],
+            [
+              "Chronic — first line",
+              "Topical 0.2–0.4% GTN (glyceryl trinitrate) TDS for 8 weeks",
+              "Nitric oxide → IAS relaxation → reduced ischaemia",
+              "40–50% healing",
+              "Headache 20–30% (dose-limiting)"
+            ],
+            [
+              "Chronic — alternative first line",
+              "Topical 2% diltiazem cream BD for 8 weeks",
+              "Calcium channel blocker → IAS relaxation",
+              "40–65% healing",
+              "Less headache than GTN; local irritation"
+            ],
+            [
+              "Chronic — second line",
+              "Botulinum toxin A injection (20–30 units IAS each side of fissure)",
+              "Chemical sphincterotomy; reversible; effect lasts 3–4 months",
+              "60–80% healing at 2 months",
+              "Temporary faecal incontinence 0–10%; fissure may recur"
+            ],
+            [
+              "Chronic — surgical first line",
+              "Lateral internal sphincterotomy (LIS)",
+              "Division of distal 1/3 IAS; reduces spasm permanently",
+              "90–95% healing",
+              "Faecal incontinence (any) 0–35%; keyhole deformity"
+            ],
+            [
+              "Recurrent/failed LIS",
+              "Advancement flap (V-Y or rotational anoderm)",
+              "Brings healthy vascularised tissue to fissure bed",
+              "60–80%",
+              "Flap necrosis; requires anaesthesia"
+            ]
           ]
         },
         {
@@ -165,12 +313,42 @@
         {
           "type": "table",
           "title": "Parks Classification of Fistula-in-Ano",
-          "headers": ["Type", "Tract Path", "Incidence", "Sphincter at Risk", "Notes"],
+          "headers": [
+            "Type",
+            "Tract Path",
+            "Incidence",
+            "Sphincter at Risk",
+            "Notes"
+          ],
           "rows": [
-            ["Intersphincteric", "Between IAS and EAS → perianal skin", "45–70%", "IAS only", "Simplest; lay open (fistulotomy) safe; low risk of incontinence"],
-            ["Transsphincteric", "Through EAS → ischiorectal fossa → perianal skin", "25–30%", "EAS (variable amount)", "Most common type requiring seton; amount of EAS crossed determines approach"],
-            ["Suprasphincteric", "Over top of puborectalis → ischiorectal fossa", "5%", "EAS + puborectalis", "Unusual; complex management; seton, LIFT, or flap"],
-            ["Extrasphincteric", "From rectum, outside entire sphincter complex", "1–5%", "Entire complex bypassed", "Usually secondary (Crohn's, trauma, pelvic sepsis); requires treating primary cause"]
+            [
+              "Intersphincteric",
+              "Between IAS and EAS → perianal skin",
+              "45–70%",
+              "IAS only",
+              "Simplest; lay open (fistulotomy) safe; low risk of incontinence"
+            ],
+            [
+              "Transsphincteric",
+              "Through EAS → ischiorectal fossa → perianal skin",
+              "25–30%",
+              "EAS (variable amount)",
+              "Most common type requiring seton; amount of EAS crossed determines approach"
+            ],
+            [
+              "Suprasphincteric",
+              "Over top of puborectalis → ischiorectal fossa",
+              "5%",
+              "EAS + puborectalis",
+              "Unusual; complex management; seton, LIFT, or flap"
+            ],
+            [
+              "Extrasphincteric",
+              "From rectum, outside entire sphincter complex",
+              "1–5%",
+              "Entire complex bypassed",
+              "Usually secondary (Crohn's, trauma, pelvic sepsis); requires treating primary cause"
+            ]
           ]
         },
         {
@@ -223,14 +401,56 @@
         {
           "type": "table",
           "title": "Surgical Options for Chronic Pilonidal Disease",
-          "headers": ["Procedure", "Technique", "Wound", "Recurrence", "Return to Work"],
+          "headers": [
+            "Procedure",
+            "Technique",
+            "Wound",
+            "Recurrence",
+            "Return to Work"
+          ],
           "rows": [
-            ["Midline excision with laying open", "Excise sinus; leave wound open for secondary healing", "Open; heals by granulation over 6–10 weeks", "High (20–40%); midline wound vulnerable to re-implantation", "Delayed (4–6 weeks); daily dressing required"],
-            ["Excision with primary midline closure", "Excise sinus; close primarily in midline", "Closed; faster initial healing", "Very high (up to 40%); tension on wound", "Faster but high wound breakdown rate"],
-            ["Karydakis procedure (off-midline closure)", "Asymmetric ellipse excision; advance skin flap to close off midline", "Closed; scar lateral to midline", "5–10%", "10–14 days; well-tolerated"],
-            ["Bascom cleft lift (modified Karydakis)", "Asymmetric skin flap to flatten and relocate the natal cleft laterally", "Closed; excellent cosmesis", "3–8%; lowest recurrence rates", "10–14 days"],
-            ["Limberg (rhomboid) flap", "Rhomboid excision + rotation flap", "Closed with flap", "5–15%", "Longer recovery; more extensive surgery"],
-            ["Sinusectomy (Bascom original)", "Minimal excision of sinus pits only; curettage", "Minimal; primary closure", "15–25%; good for limited disease", "Rapid (days); outpatient"]
+            [
+              "Midline excision with laying open",
+              "Excise sinus; leave wound open for secondary healing",
+              "Open; heals by granulation over 6–10 weeks",
+              "High (20–40%); midline wound vulnerable to re-implantation",
+              "Delayed (4–6 weeks); daily dressing required"
+            ],
+            [
+              "Excision with primary midline closure",
+              "Excise sinus; close primarily in midline",
+              "Closed; faster initial healing",
+              "Very high (up to 40%); tension on wound",
+              "Faster but high wound breakdown rate"
+            ],
+            [
+              "Karydakis procedure (off-midline closure)",
+              "Asymmetric ellipse excision; advance skin flap to close off midline",
+              "Closed; scar lateral to midline",
+              "5–10%",
+              "10–14 days; well-tolerated"
+            ],
+            [
+              "Bascom cleft lift (modified Karydakis)",
+              "Asymmetric skin flap to flatten and relocate the natal cleft laterally",
+              "Closed; excellent cosmesis",
+              "3–8%; lowest recurrence rates",
+              "10–14 days"
+            ],
+            [
+              "Limberg (rhomboid) flap",
+              "Rhomboid excision + rotation flap",
+              "Closed with flap",
+              "5–15%",
+              "Longer recovery; more extensive surgery"
+            ],
+            [
+              "Sinusectomy (Bascom original)",
+              "Minimal excision of sinus pits only; curettage",
+              "Minimal; primary closure",
+              "15–25%; good for limited disease",
+              "Rapid (days); outpatient"
+            ]
           ]
         },
         {
@@ -260,12 +480,47 @@
         {
           "type": "table",
           "title": "Surgical Approaches for Full-Thickness Rectal Prolapse",
-          "headers": ["Approach", "Procedure", "Mechanism", "Recurrence", "Continence", "Best For"],
+          "headers": [
+            "Approach",
+            "Procedure",
+            "Mechanism",
+            "Recurrence",
+            "Continence",
+            "Best For"
+          ],
           "rows": [
-            ["Perineal", "Delorme procedure", "Strip mucosal sleeve; plicate underlying muscularis", "15–25%", "Improvement in 30–50%", "Elderly/high surgical risk; short prolapse (<3 cm)"],
-            ["Perineal", "Altemeier procedure (perineal rectosigmoidectomy)", "Full-thickness resection of prolapsed segment + coloanal anastomosis ± levatorplasty", "10–20%", "Variable; levatorplasty improves", "Elderly/high risk; long prolapse; strangulation"],
-            ["Abdominal", "Laparoscopic ventral mesh rectopexy (D'Hoore)", "Anterior rectopexy via presacral space; no posterior dissection; mesh from ventral rectum to sacral promontory", "3–8%", "Best improvement; no new constipation", "Fit patients; associated ODS; women with anterior compartment prolapse"],
-            ["Abdominal", "Suture rectopexy (Wells/Frykman-Goldberg with sigmoidectomy)", "Lateral rectal fixation to presacral fascia ± sigmoid resection for constipation", "5–15%", "Moderate improvement", "When sigmoidectomy required for concurrent constipation"]
+            [
+              "Perineal",
+              "Delorme procedure",
+              "Strip mucosal sleeve; plicate underlying muscularis",
+              "15–25%",
+              "Improvement in 30–50%",
+              "Elderly/high surgical risk; short prolapse (<3 cm)"
+            ],
+            [
+              "Perineal",
+              "Altemeier procedure (perineal rectosigmoidectomy)",
+              "Full-thickness resection of prolapsed segment + coloanal anastomosis ± levatorplasty",
+              "10–20%",
+              "Variable; levatorplasty improves",
+              "Elderly/high risk; long prolapse; strangulation"
+            ],
+            [
+              "Abdominal",
+              "Laparoscopic ventral mesh rectopexy (D'Hoore)",
+              "Anterior rectopexy via presacral space; no posterior dissection; mesh from ventral rectum to sacral promontory",
+              "3–8%",
+              "Best improvement; no new constipation",
+              "Fit patients; associated ODS; women with anterior compartment prolapse"
+            ],
+            [
+              "Abdominal",
+              "Suture rectopexy (Wells/Frykman-Goldberg with sigmoidectomy)",
+              "Lateral rectal fixation to presacral fascia ± sigmoid resection for constipation",
+              "5–15%",
+              "Moderate improvement",
+              "When sigmoidectomy required for concurrent constipation"
+            ]
           ]
         },
         {
@@ -303,13 +558,43 @@
         {
           "type": "table",
           "title": "Nigro Protocol — Definitive Chemoradiotherapy for Anal SCC",
-          "headers": ["Component", "Drug/Dose", "Schedule", "Rationale"],
+          "headers": [
+            "Component",
+            "Drug/Dose",
+            "Schedule",
+            "Rationale"
+          ],
           "rows": [
-            ["Radiotherapy", "50.4–54 Gy (IMRT preferred)", "25–30 fractions over 5–6 weeks; inguinal nodes if involved", "Primary tumour control; sphincter preservation"],
-            ["Chemotherapy — cycle 1", "5-Fluorouracil 1000 mg/m²/day CI days 1–4 + Mitomycin C 12 mg/m² IV bolus day 1", "Concurrent with RT week 1", "5-FU: radiosensitiser; MMC: hypoxic cell radiosensitiser; synergistic"],
-            ["Chemotherapy — cycle 2", "5-Fluorouracil 1000 mg/m²/day CI days 29–32", "Concurrent with RT week 5", "Maintains concurrent sensitisation"],
-            ["Assessment", "Clinical examination + MRI pelvis", "8–12 weeks post-treatment (mucositis must resolve)", "Residual disease assessed; biopsy only if clinical suspicion"],
-            ["Complete response", "No biopsy needed if clinical CR", "Surveillance: EUA 6-monthly for 2 years, then annually", "APR avoided; OS equivalent to surgery in responders"]
+            [
+              "Radiotherapy",
+              "50.4–54 Gy (IMRT preferred)",
+              "25–30 fractions over 5–6 weeks; inguinal nodes if involved",
+              "Primary tumour control; sphincter preservation"
+            ],
+            [
+              "Chemotherapy — cycle 1",
+              "5-Fluorouracil 1000 mg/m²/day CI days 1–4 + Mitomycin C 12 mg/m² IV bolus day 1",
+              "Concurrent with RT week 1",
+              "5-FU: radiosensitiser; MMC: hypoxic cell radiosensitiser; synergistic"
+            ],
+            [
+              "Chemotherapy — cycle 2",
+              "5-Fluorouracil 1000 mg/m²/day CI days 29–32",
+              "Concurrent with RT week 5",
+              "Maintains concurrent sensitisation"
+            ],
+            [
+              "Assessment",
+              "Clinical examination + MRI pelvis",
+              "8–12 weeks post-treatment (mucositis must resolve)",
+              "Residual disease assessed; biopsy only if clinical suspicion"
+            ],
+            [
+              "Complete response",
+              "No biopsy needed if clinical CR",
+              "Surveillance: EUA 6-monthly for 2 years, then annually",
+              "APR avoided; OS equivalent to surgery in responders"
+            ]
           ]
         },
         {
@@ -720,5 +1005,240 @@
         "pearl": "The key difference: Delorme = mucosa only stripped + muscularis plication (no anastomosis). Altemeier = full-thickness resection + anastomosis. Altemeier allows levatorplasty and excision of redundant sigmoid, making it more versatile for longer prolapses."
       }
     }
-  ]
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of proctology and anorectal disease with 10 clinical questions.",
+    "questions": [
+      {
+        "id": "D4-Q1",
+        "stem": "A 45-year-old woman presents with painless bright red rectal bleeding per rectum for 3 months, mostly on defaecation. Proctoscopy shows prolapsing internal haemorrhoids that reduce spontaneously. There are no associated skin tags. She has failed 6 weeks of dietary modification and topical treatment. What is the most appropriate next step?",
+        "options": {
+          "A": "Doppler-guided haemorrhoidal artery ligation (DGHAL)",
+          "B": "Haemorrhoidectomy (Milligan-Morgan)",
+          "C": "Rubber band ligation (RBL)",
+          "D": "Sclerotherapy"
+        },
+        "correct": "C",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "This patient has Grade II internal haemorrhoids (prolapse with spontaneous reduction). Rubber band ligation (RBL) is the most effective office-based procedure for Grade II–III haemorrhoids, with 70–80% symptom resolution. It is more effective than sclerotherapy and avoids the morbidity of surgical haemorrhoidectomy. RBL can be repeated if needed.",
+          "wrong": {
+            "A": "DGHAL (or THD — transanal haemorrhoidal dearterialisation) is effective for Grade II–III haemorrhoids but is an operative procedure requiring theatre. RBL is first-line in the outpatient setting.",
+            "B": "Haemorrhoidectomy is appropriate for Grade III–IV haemorrhoids, mixed disease with skin tags, or failure of multiple RBL sessions. It carries significant post-operative pain and recovery time.",
+            "D": "Sclerotherapy is less effective than RBL for Grade II haemorrhoids (40–50% vs 70–80% resolution). It is an option when RBL is contraindicated (anticoagulation) or patient preference."
+          },
+          "guideline": "ASCRS Practice Parameters for Haemorrhoidal Disease 2023 — RBL first-line for Grade II internal haemorrhoids",
+          "trial": "MacRae HM et al., Dis Colon Rectum 1995: meta-analysis — RBL superior to sclerotherapy and infrared coagulation for Grade II; comparable to haemorrhoidectomy at 1 year with less morbidity.",
+          "pearl": "Haemorrhoid grading: I = bleeding only, no prolapse; II = prolapse with spontaneous reduction; III = prolapse requiring digital reduction; IV = irreducible prolapse. Grades I–II = office procedure; Grades III–IV = operative."
+        }
+      },
+      {
+        "id": "D4-Q2",
+        "stem": "A 32-year-old man presents with severe anal pain, worse on defaecation, for 6 weeks. He describes bright red bleeding on toilet paper. Examination reveals a posterior midline skin tag and a visible fissure in the posterior midline. Internal sphincter hypertonia is noted. First-line treatment has failed (dietary fibre, topical lidocaine). What is the recommended second-line treatment?",
+        "options": {
+          "A": "Topical diltiazem 2% or glyceryl trinitrate (GTN) 0.4% cream",
+          "B": "Botulinum toxin injection into the internal anal sphincter",
+          "C": "Advancement flap repair",
+          "D": "Lateral internal sphincterotomy"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Chronic anal fissure (>6 weeks) with sphincter hypertonia: after first-line treatment failure (fibre, topical anaesthetic), second-line is topical chemical sphincterotomy — either topical GTN 0.4% or diltiazem 2%. Both reduce internal sphincter resting pressure, improving fissure healing in 50–70%. GTN causes headache (limiting adherence); diltiazem has similar efficacy with fewer headaches. Botulinum toxin is third-line.",
+          "wrong": {
+            "B": "Botulinum toxin injection into the internal sphincter is third-line therapy, after failed topical agents. It achieves 60–80% healing and serves as a bridge between medical and surgical treatment.",
+            "C": "Advancement flap is used for chronic fissures associated with low sphincter tone (e.g., post-obstetric, Crohn's disease) where sphincterotomy would worsen incontinence. This patient has hypertonia — not an indication for flap repair.",
+            "D": "Lateral internal sphincterotomy is the most effective treatment (95% healing) but carries 1–5% permanent incontinence risk (flatus/soiling). It is reserved for failure of medical and Botox treatment, not after only one line of medical therapy."
+          },
+          "guideline": "ASCRS Practice Parameters for Anal Fissure 2023 — topical GTN/diltiazem as second-line medical therapy",
+          "trial": "LIFT trial (ACPGBI 2007): topical GTN vs diltiazem for chronic anal fissure — diltiazem: fewer headaches (6% vs 40%); equivalent healing (65% vs 60%). Botulinum toxin meta-analysis: 60-80% healing.",
+          "pearl": "Posterior midline location is classic for benign fissure (90% posterior, 10% anterior — especially in women post-partum). Atypical location (lateral, multiple) suggests: Crohn's disease, HIV, syphilis, TB — biopsy and investigate. Never perform lateral internal sphincterotomy in Crohn's."
+        }
+      },
+      {
+        "id": "D4-Q3",
+        "stem": "A 38-year-old man presents with a painful perianal abscess. EUA reveals a transphincteric fistula passing through the upper third of the external sphincter. There is no evidence of Crohn's disease. What is the most appropriate surgical management to preserve continence?",
+        "options": {
+          "A": "Fistula plug insertion as immediate definitive treatment",
+          "B": "Fistulotomy — lay open the entire fistula tract",
+          "C": "Loose seton drainage as a primary definitive treatment",
+          "D": "Seton drainage followed by definitive repair (LIFT procedure or advancement flap) when inflammation resolves"
+        },
+        "correct": "D",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "High transphincteric fistulae (through upper third of external sphincter) carry significant incontinence risk with fistulotomy (10–40%). The two-stage approach is standard: (1) loose seton drainage to control infection and delineate the tract; (2) definitive sphincter-preserving repair (LIFT — ligation of intersphincteric fistula tract, or advancement flap) once inflammation resolves (6–12 weeks). LIFT achieves 60–80% success with low incontinence risk.",
+          "wrong": {
+            "A": "Fistula plugs (biologic) have limited success rates (20–50%) and should not be used in the acute phase with active sepsis. They are an option after seton drainage in carefully selected patients.",
+            "B": "Fistulotomy for high transphincteric fistula would divide the upper third of the external sphincter — associated with 10–40% incontinence rate for flatus/liquid, and 5% for solid stool. Not acceptable without sphincter-sparing alternatives being tried first.",
+            "C": "A loose seton alone is a definitive treatment option for selected patients who decline more complex procedures or have poor sphincter baseline. However, optimal management is seton followed by definitive repair."
+          },
+          "guideline": "ASCRS Practice Parameters for Anorectal Abscess and Fistula 2022 — seton + definitive repair for high transphincteric fistula",
+          "trial": "Rojanasakul A et al., Tech Coloproctol 2007: LIFT procedure — 94% primary healing; 0% incontinence; recurrence 6% at 1 year. Superior to fistulotomy for high fistulae.",
+          "pearl": "Parks classification: intersphincteric (45%), transphincteric (30%), suprasphincteric (20%), extrasphincteric (5%). The higher the fistula, the greater the incontinence risk with fistulotomy. Always assess sphincter integrity (anal manometry, endoanal US) before deciding on surgical approach."
+        }
+      },
+      {
+        "id": "D4-Q4",
+        "stem": "A 25-year-old male presents with a chronically discharging midline pit in the natal cleft and multiple secondary openings laterally. He has had two previous incision and drainage procedures. Examination confirms a pilonidal sinus with 3 secondary pits, 2 lateral openings, and no acute abscess. What is the most appropriate surgical treatment?",
+        "options": {
+          "A": "Wide excision with primary midline closure",
+          "B": "Wide excision with off-midline closure (Karydakis flap or Bascom's procedure)",
+          "C": "Lay-open (unroofing) and healing by secondary intention",
+          "D": "Phenol injection under local anaesthetic"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Recurrent pilonidal sinus is best managed by excision with off-midline closure (Karydakis flap or Bascom's cleft lift). These techniques excise the sinus and flatten the natal cleft, moving the suture line off the midline. Off-midline closure has lower recurrence rates (2–4%) compared to midline primary closure (15–40%) and secondary intention healing (20–30%). They are the preferred definitive treatment for recurrent/complex disease.",
+          "wrong": {
+            "A": "Wide excision with midline primary closure has high wound dehiscence (30%) and recurrence (15–40%) due to tension on the suture line and persistence of the deep natal cleft. It is largely abandoned in favour of off-midline techniques.",
+            "C": "Lay-open with secondary intention is appropriate for simple/first-episode pilonidal sinus and is the most robust approach for acute abscess drainage. For complex recurrent disease, it results in prolonged healing and high recurrence.",
+            "D": "Phenol injection under local anaesthetic (Bascom's pit procedure variant) achieves 60–80% success for simple, single-pit disease. For recurrent disease with multiple pits and lateral tracks, surgical excision is required."
+          },
+          "guideline": "ASCRS Practice Parameters for Pilonidal Disease 2024 — off-midline closure (Karydakis/Bascom) for complex/recurrent pilonidal sinus",
+          "trial": "Karydakis GE, Lancet 1992: Karydakis flap — 2.5% recurrence in 7471 patients; vs wide excision primary midline closure: 22% recurrence.",
+          "pearl": "Key principle of pilonidal surgery: the natal cleft depth (the crease) is the primary risk factor for recurrence — procedures that flatten or lateralise the cleft have the lowest recurrence rates. Post-operative hair depilation further reduces recurrence."
+        }
+      },
+      {
+        "id": "D4-Q5",
+        "stem": "A 62-year-old woman presents with faecal incontinence affecting quality of life. She has a history of third-degree perineal tear during vaginal delivery 30 years ago. Anal manometry shows reduced resting and squeeze pressures. Endoanal ultrasound reveals an anterior sphincter defect (anterior external sphincter disruption, 120°). She has tried pelvic floor physiotherapy for 6 months without improvement. What is the recommended surgical option?",
+        "options": {
+          "A": "Colostomy as first-line surgical treatment",
+          "B": "Sacral nerve stimulation (SNS)",
+          "C": "Anterior sphincter repair (overlapping sphincteroplasty)",
+          "D": "Total anorectal reconstruction with graciloplasty"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Anterior sphincter defect from obstetric trauma with reduced pressures and failed conservative management is the classic indication for anterior overlapping sphincteroplasty. The disrupted sphincter ends are identified, mobilised, and overlapped to restore sphincter circumference. Short-term success rates are 70–80%, with decline at 5–10 years (50–60%). It is the preferred operation when an identifiable structural defect is present.",
+          "wrong": {
+            "A": "Colostomy as a first-line intervention for faecal incontinence is reserved for patients who have failed all sphincter-preserving options. It should not be the first surgical recommendation.",
+            "B": "Sacral nerve stimulation (SNS) achieves 50–70% reduction in faecal incontinence episodes and is first-line surgical treatment for incontinence WITHOUT a structural sphincter defect. In the presence of a large structural defect (120° disruption), sphincteroplasty is preferred, though SNS is increasingly used as an alternative even in defect patients.",
+            "D": "Dynamic graciloplasty (electrically stimulated gracilis wrap) is a complex operation reserved for patients with complete sphincter loss. It is not first-line for obstetric sphincter defect."
+          },
+          "guideline": "ASCRS Practice Parameters for Faecal Incontinence 2023 — sphincteroplasty for structural defect; SNS for functional incontinence",
+          "trial": "Bravo Gutierrez A et al., Dis Colon Rectum 2004: long-term outcome after sphincteroplasty — 54% good or excellent continence at 10 years; 30% no improvement; long-term decline expected.",
+          "pearl": "Endoanal ultrasound (EAUS) is the gold standard for identifying sphincter defect anatomy. MRI of the sphincter is superior for external sphincter defects and scar thickness. Manometry quantifies functional severity. Both imaging and manometry are needed before surgical planning."
+        }
+      },
+      {
+        "id": "D4-Q6",
+        "stem": "A 55-year-old man presents for post-haemorrhoidectomy follow-up. He had a Milligan-Morgan haemorrhoidectomy 6 weeks ago and now presents with inability to hold flatus and faecal soiling. He had no pre-operative incontinence. Examination shows a keyhole deformity at the anterior commissure. What is the likely cause and initial management?",
+        "options": {
+          "A": "Anorectal stenosis — anal dilation under anaesthesia",
+          "B": "Inadvertent anterior sphincter damage — physiotherapy and biofeedback, then reassess",
+          "C": "Mucosal prolapse — stapled transanal mucosal resection (STARR)",
+          "D": "Post-operative pain causing voluntary sphincter guarding — reassurance"
+        },
+        "correct": "B",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "A keyhole deformity is a groove or defect at the anal verge from excessive tissue removal during haemorrhoidectomy, resulting in loss of the normal mucocutaneous junction and mucous seepage/soiling. This can also indicate underlying sphincter damage. Conservative management (physiotherapy, biofeedback) is first-line, with careful assessment of sphincter integrity by manometry and EAU. Surgical repair (perineal repair or mucosal advancement flap) is considered if conservative management fails.",
+          "wrong": {
+            "A": "Anorectal stenosis presents with difficulty passing stool (obstructive symptoms) not incontinence. Anal dilation would worsen incontinence if sphincter damage is the underlying problem.",
+            "C": "STARR is used for obstructed defaecation syndrome (incomplete evacuation, prolapse), not for post-haemorrhoidectomy incontinence. Applying it here would cause further sphincter and anorectal damage.",
+            "D": "Post-operative pain resolves within days to weeks. New-onset faecal soiling at 6 weeks with keyhole deformity is a structural complication, not a pain-related functional symptom."
+          },
+          "guideline": "ASCRS Practice Parameters for Haemorrhoidal Disease 2023 — keyhole deformity: conservative management first, surgical correction if refractory",
+          "trial": "Pescatori M et al., Dis Colon Rectum 2006: post-haemorrhoidectomy complications — keyhole deformity 1-2%; managed with biofeedback initially; surgical mucosal advancement flap in refractory cases.",
+          "pearl": "Keyhole deformity prevention: (1) preserve adequate skin bridges between excised haemorrhoids; (2) avoid removing anterior or posterior quadrant haemorrhoids in same sitting as other haemorrhoidectomy sites; (3) ensure mucosal bridges ≥1cm at each excision site."
+        }
+      },
+      {
+        "id": "D4-Q7",
+        "stem": "A 68-year-old woman presents with a painful, acutely thrombosed external haemorrhoid she first noticed 18 hours ago. Examination shows a tense, tender, dark 3cm perianal mass at the 6 o'clock position, with intact overlying skin and no signs of infection. What is the recommended treatment?",
+        "options": {
+          "A": "Conservative management — sitz baths, ice packs, analgesia, and topical treatment",
+          "B": "Incision and drainage under local anaesthesia",
+          "C": "Emergency haemorrhoidectomy",
+          "D": "Simple excision of the thrombosed haemorrhoid under local anaesthesia within 72 hours"
+        },
+        "correct": "D",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Thrombosed external haemorrhoid presenting within 72 hours with severe pain is best managed by excision (elliptical excision of the entire thrombosed haemorrhoid under local anaesthesia) rather than simple incision and drainage. Excision removes the entire clot and haemorrhoidal tissue, providing rapid pain relief and preventing recurrence. After 72 hours, the acute pain typically begins to resolve and conservative management is preferred.",
+          "wrong": {
+            "A": "Conservative management is appropriate after 72 hours when the acute peak pain has passed. Within 72 hours, excision provides faster relief and prevents recurrence.",
+            "B": "Incision and drainage releases the clot but leaves the haemorrhoidal tissue, leading to re-thrombosis in 30–50% of cases. Excision of the entire thrombosed tissue is more definitive.",
+            "C": "Emergency formal haemorrhoidectomy is not required for a single thrombosed external haemorrhoid. Simple excision under local anaesthesia in the clinic or emergency setting is sufficient."
+          },
+          "guideline": "ASCRS Practice Parameters for Haemorrhoidal Disease 2023 — excision of thrombosed external haemorrhoid within 72h",
+          "trial": "Jongen J et al., Dis Colon Rectum 2003: excision vs incision for thrombosed external haemorrhoid — excision: lower recurrence (6% vs 30%); shorter healing time; similar pain relief at 24h.",
+          "pearl": "Thrombosed internal haemorrhoid (prolapsed, oedematous, irreducible — Grade IV) is different: managed conservatively in most cases (IV opioids, ice, bed rest, topical treatments); emergency haemorrhoidectomy in severe cases with gangrenous change. Do not confuse with thrombosed external haemorrhoid (external, palpable clot, acute)."
+        }
+      },
+      {
+        "id": "D4-Q8",
+        "stem": "A 42-year-old man presents with a perianal abscess that drained spontaneously 3 days ago. He now has a persistent discharging sinus in the right lateral perianal region. On EUA, a probe passes along a track at the intersphincteric plane from the external opening to the dentate line at the 3 o'clock position. What is the Parks classification and recommended treatment?",
+        "options": {
+          "A": "Parks Type 1 intersphincteric fistula — fistulotomy",
+          "B": "Parks Type 2 transphincteric fistula — seton placement",
+          "C": "Parks Type 3 suprasphincteric fistula — transanal advancement flap",
+          "D": "Parks Type 4 extrasphincteric fistula — combined abdominoperineal repair"
+        },
+        "correct": "A",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Parks Type 1 (intersphincteric fistula) passes through the internal sphincter only, traversing the intersphincteric space to reach the skin. It does not involve the external sphincter. Fistulotomy (laying open the intersphincteric tract) is safe, effective (>90% healing), and carries minimal incontinence risk because only the internal sphincter and overlying skin are divided.",
+          "wrong": {
+            "B": "Parks Type 2 transphincteric fistula passes through both internal and external sphincters. Seton is used for high transphincteric fistulae. This patient's track is confined to the intersphincteric plane — no external sphincter involvement.",
+            "C": "Parks Type 3 suprasphincteric fistula tracks above the puborectalis and down to the perianal skin — a high complex fistula. Advancement flap is not indicated for simple intersphincteric fistula.",
+            "D": "Parks Type 4 extrasphincteric fistula bypasses the sphincter completely, often from pelvic disease (Crohn's, diverticulitis). Combined approach is not required for simple intersphincteric disease."
+          },
+          "guideline": "ASCRS Practice Parameters for Anorectal Abscess and Fistula 2022 — Parks classification and fistulotomy for Type 1",
+          "trial": "Garcia-Aguilar J et al., Dis Colon Rectum 1996: Parks classification and treatment outcomes — Type 1 fistulotomy: 95% healing, minimal incontinence. Higher Parks types: increasing complexity and incontinence risk with fistulotomy.",
+          "pearl": "Parks Type 1 (intersphincteric): most common (45%), fistulotomy safe. Type 2 (transphincteric): 30%, treatment depends on height (low = fistulotomy; high = seton + LIFT/flap). Type 3 (suprasphincteric): 20%, always sphincter-preserving approach. Type 4 (extrasphincteric): 5%, requires pelvic cause identification."
+        }
+      },
+      {
+        "id": "D4-Q9",
+        "stem": "A 72-year-old man has Grade IV haemorrhoids (irreducible prolapse) with mucous discharge and perianal soreness. He has multiple comorbidities (AF on warfarin, COPD, LVEF 35%). He is unfit for general anaesthesia. What is the best treatment option?",
+        "options": {
+          "A": "Milligan-Morgan haemorrhoidectomy under spinal anaesthesia",
+          "B": "Multiple sessions of rubber band ligation in outpatient clinic",
+          "C": "DGHAL (Doppler-guided haemorrhoidal artery ligation) under local anaesthesia",
+          "D": "Stapled haemorrhoidopexy (PPH procedure) under local anaesthesia"
+        },
+        "correct": "C",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "DGHAL/THD (transanal haemorrhoidal dearterialisation) can be performed under local anaesthesia or sedation, avoiding general/spinal anaesthesia in a high-risk patient. It achieves haemorrhoidal artery ligation and mucopexy without excision, making it suitable for Grade III–IV haemorrhoids in patients unfit for formal haemorrhoidectomy. Warfarin should be bridged carefully.",
+          "wrong": {
+            "A": "Even spinal anaesthesia poses significant risk in a patient with LVEF 35% and COPD. DGHAL under local anaesthesia avoids this risk.",
+            "B": "RBL is first-line for Grade I–III but is less effective for Grade IV irreducible prolapse. Multiple RBL sessions may provide partial symptom relief but are unlikely to address irreducible prolapse adequately.",
+            "D": "Stapled haemorrhoidopexy (PPH) requires regional or general anaesthesia and a surgical theatre. It is not performed under local anaesthesia in a standard outpatient setting."
+          },
+          "guideline": "ASCRS Practice Parameters for Haemorrhoidal Disease 2023 — DGHAL/THD as effective alternative to haemorrhoidectomy",
+          "trial": "Gupta PJ et al., Eur J Gastroenterol Hepatol 2011: DGHAL under local anaesthesia — 89% patient satisfaction; Grade IV: 78% prolapse control at 1 year; minimal post-procedure pain.",
+          "pearl": "For high-risk surgical patients with symptomatic haemorrhoids: DGHAL/THD under local anaesthesia is optimal. RBL can be used as a temporising measure. Key warfarin consideration: Grade IV haemorrhoid bleeding risk may require temporary cessation — discuss with cardiology before intervention."
+        }
+      },
+      {
+        "id": "D4-Q10",
+        "stem": "A 28-year-old man presents with Fournier's gangrene involving the scrotum and perineum. He is diabetic, febrile (40°C), and has HR 130, BP 88/60. CT shows gas tracking along the inguinal canal. What is the immediate management priority and the surgical principle?",
+        "options": {
+          "A": "Broad-spectrum antibiotics for 48 hours before surgery to stabilise the patient",
+          "B": "Urgent surgical debridement of all necrotic tissue plus broad-spectrum antibiotics, with planned early re-look (24-48h)",
+          "C": "CT-guided percutaneous drainage of identified gas collections",
+          "D": "Hyperbaric oxygen therapy as primary treatment"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Fournier's gangrene is a necrotising fasciitis requiring emergency surgical debridement as the definitive treatment. No amount of antibiotics will control spreading necrotising infection without surgical source control. The principle is radical excision of ALL necrotic tissue (skin, subcutaneous tissue, fascia) to clean, bleeding margins. Planned relook at 24–48 hours is mandatory as the necrosis often extends beyond initial debridement. Broad-spectrum antibiotics (covering gram-positives, gram-negatives, anaerobes) are commenced immediately but do not replace surgery.",
+          "wrong": {
+            "A": "Delaying surgery for antibiotics significantly increases mortality. Fournier's mortality rises by 9% per hour of surgical delay. Resuscitation and surgery must occur simultaneously.",
+            "C": "Percutaneous drainage of gas is not appropriate for necrotising fasciitis — the gas is produced by bacteria in necrotic tissue, not in a discrete abscess. Open debridement is required.",
+            "D": "Hyperbaric oxygen is an adjunct with some evidence in necrotising fasciitis but is never primary treatment. It follows emergency surgical debridement, not replaces it."
+          },
+          "guideline": "WSES Guidelines for Skin and Soft Tissue Infections 2020 — emergency debridement for Fournier's gangrene; no role for antibiotics alone",
+          "trial": "Yilmazlar T et al., Int J Colorectal Dis 2010: Fournier's gangrene — mortality 20-40%; early surgery (<24h) reduces mortality vs delayed surgery; average 3.5 debridements required.",
+          "pearl": "LRINEC score (Laboratory Risk Indicator for Necrotising Fasciitis): CRP ≥150 = 4pts; WBC: 15-25 = 1pt, >25 = 2pts; Hb: 11-13.5 = 1pt, <11 = 2pts; Na <135 = 2pts; creatinine >141 = 2pts; glucose >10 = 1pt. Score ≥6 = high risk NF. Score useful for triggering CT and surgical urgency, but clinical suspicion trumps score."
+        }
+      }
+    ]
+  }
 }

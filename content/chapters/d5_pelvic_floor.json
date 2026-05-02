@@ -24,13 +24,43 @@
         {
           "type": "table",
           "title": "Anorectal Angle Changes with Pelvic Floor Function",
-          "headers": ["State", "Puborectalis", "Anorectal Angle", "Clinical Significance"],
+          "headers": [
+            "State",
+            "Puborectalis",
+            "Anorectal Angle",
+            "Clinical Significance"
+          ],
           "rows": [
-            ["Rest", "Tonic contraction", "90°", "Passive continent mechanism; flap valve effect"],
-            ["Maximum squeeze", "Maximal voluntary contraction", "70°", "Active continence; assessed by squeeze pressure on manometry"],
-            ["Normal defaecation", "Coordinated relaxation", "110–130°", "Opens anorectal junction; assessed by defaecography"],
-            ["Anismus (dyssynergia)", "Paradoxical contraction on straining", "Fails to open / narrows", "Functional outlet obstruction; identified by EMG, defaecography, balloon expulsion test"],
-            ["Rectal prolapse", "Deficient puborectal sling", ">130° at rest", "Loss of flap valve; associated faecal incontinence"]
+            [
+              "Rest",
+              "Tonic contraction",
+              "90°",
+              "Passive continent mechanism; flap valve effect"
+            ],
+            [
+              "Maximum squeeze",
+              "Maximal voluntary contraction",
+              "70°",
+              "Active continence; assessed by squeeze pressure on manometry"
+            ],
+            [
+              "Normal defaecation",
+              "Coordinated relaxation",
+              "110–130°",
+              "Opens anorectal junction; assessed by defaecography"
+            ],
+            [
+              "Anismus (dyssynergia)",
+              "Paradoxical contraction on straining",
+              "Fails to open / narrows",
+              "Functional outlet obstruction; identified by EMG, defaecography, balloon expulsion test"
+            ],
+            [
+              "Rectal prolapse",
+              "Deficient puborectal sling",
+              ">130° at rest",
+              "Loss of flap valve; associated faecal incontinence"
+            ]
           ]
         },
         {
@@ -76,13 +106,55 @@
         {
           "type": "table",
           "title": "Wexner (Cleveland Clinic) Continence Score",
-          "headers": ["Category", "Never (0)", "Rarely <1/month (1)", "Sometimes <1/week (2)", "Usually <1/day (3)", "Always ≥1/day (4)"],
+          "headers": [
+            "Category",
+            "Never (0)",
+            "Rarely <1/month (1)",
+            "Sometimes <1/week (2)",
+            "Usually <1/day (3)",
+            "Always ≥1/day (4)"
+          ],
           "rows": [
-            ["Solid stool leakage", "0", "1", "2", "3", "4"],
-            ["Liquid stool leakage", "0", "1", "2", "3", "4"],
-            ["Flatus leakage", "0", "1", "2", "3", "4"],
-            ["Need for pad", "0", "1", "2", "3", "4"],
-            ["Lifestyle alteration", "0", "1", "2", "3", "4"]
+            [
+              "Solid stool leakage",
+              "0",
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            [
+              "Liquid stool leakage",
+              "0",
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            [
+              "Flatus leakage",
+              "0",
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            [
+              "Need for pad",
+              "0",
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            [
+              "Lifestyle alteration",
+              "0",
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
           ]
         },
         {
@@ -147,15 +219,63 @@
         {
           "type": "table",
           "title": "Perineal vs Abdominal Procedures for Rectal Prolapse",
-          "headers": ["Parameter", "Delorme", "Altemeier", "Laparoscopic Ventral Rectopexy (D'Hoore)", "Suture Rectopexy ± Sigmoidectomy"],
+          "headers": [
+            "Parameter",
+            "Delorme",
+            "Altemeier",
+            "Laparoscopic Ventral Rectopexy (D'Hoore)",
+            "Suture Rectopexy ± Sigmoidectomy"
+          ],
           "rows": [
-            ["Approach", "Perineal", "Perineal", "Abdominal (laparoscopic)", "Abdominal (open or laparoscopic)"],
-            ["Anaesthesia", "Spinal/LA", "Spinal/GA", "General", "General"],
-            ["Tissue removed", "Mucosa only", "Full-thickness bowel + anastomosis", "None", "Sigmoid ± none"],
-            ["Recurrence rate", "15–25%", "10–20%", "3–8%", "5–15%"],
-            ["Continence improvement", "30–50%", "Variable; improved with levatorplasty", "70–85%", "Moderate"],
-            ["Constipation risk", "Low", "Low", "Low (no posterior dissection)", "Higher (posterior dissection)"],
-            ["Nerve injury risk", "Very low", "Low (presacral approach avoided)", "Presacral plexus at promontory (key risk)", "Parasympathetic (posterior dissection)"]
+            [
+              "Approach",
+              "Perineal",
+              "Perineal",
+              "Abdominal (laparoscopic)",
+              "Abdominal (open or laparoscopic)"
+            ],
+            [
+              "Anaesthesia",
+              "Spinal/LA",
+              "Spinal/GA",
+              "General",
+              "General"
+            ],
+            [
+              "Tissue removed",
+              "Mucosa only",
+              "Full-thickness bowel + anastomosis",
+              "None",
+              "Sigmoid ± none"
+            ],
+            [
+              "Recurrence rate",
+              "15–25%",
+              "10–20%",
+              "3–8%",
+              "5–15%"
+            ],
+            [
+              "Continence improvement",
+              "30–50%",
+              "Variable; improved with levatorplasty",
+              "70–85%",
+              "Moderate"
+            ],
+            [
+              "Constipation risk",
+              "Low",
+              "Low",
+              "Low (no posterior dissection)",
+              "Higher (posterior dissection)"
+            ],
+            [
+              "Nerve injury risk",
+              "Very low",
+              "Low (presacral approach avoided)",
+              "Presacral plexus at promontory (key risk)",
+              "Parasympathetic (posterior dissection)"
+            ]
           ]
         },
         {
@@ -209,16 +329,61 @@
         {
           "type": "table",
           "title": "Anorectal Physiology Test Reference Values and Clinical Interpretation",
-          "headers": ["Test", "Normal Value", "Abnormal Finding", "Clinical Interpretation"],
+          "headers": [
+            "Test",
+            "Normal Value",
+            "Abnormal Finding",
+            "Clinical Interpretation"
+          ],
           "rows": [
-            ["Resting anal pressure (IAS)", "40–80 mmHg", "<40 mmHg (low); >100 mmHg (high)", "Low = IAS dysfunction/neuropathy/post-LIS. High = fissure, anismus. Measured by automated HRAM."],
-            ["Squeeze pressure (EAS)", "Add ≥50 mmHg to resting", "Low increment = EAS weakness", "Low squeeze = EAS injury (obstetric, surgical), pudendal neuropathy, or denervation"],
-            ["Rectoanal inhibitory reflex (RAIR)", "Present with balloon insufflation 10–50 mL", "Absent", "Absent RAIR = Hirschsprung's disease (must confirm with rectal biopsy for ganglion cells)"],
-            ["Rectal sensation — first sensation", "10–30 mL", ">60 mL = reduced sensation", "Reduced sensation = megarectum, overflow incontinence, pudendal neuropathy"],
-            ["Maximum tolerated volume (MTV)", "100–300 mL", "<100 mL = hyper-reactive; >300 mL = hypocompliant/megarectum", "Low MTV = urgency, proctitis. High MTV = megarectum, overflow."],
-            ["Balloon expulsion test", "Expulsion <60 seconds, 50 mL balloon", "Failure to expel = anismus", "Anismus (dyssynergic defaecation); confirms ODS functional component"],
-            ["Pudendal nerve terminal motor latency (PNTML)", "<2.2 ms bilaterally", ">2.2 ms = prolonged", "Neuropathic sphincter injury; associated with poorer sphincteroplasty outcomes"],
-            ["Colonic transit (radio-opaque markers)", "<5 markers at 5 days (>80% cleared)", ">5 markers = delayed transit", "Slow transit constipation; segmental vs pan-colonic distribution guides surgical approach"]
+            [
+              "Resting anal pressure (IAS)",
+              "40–80 mmHg",
+              "<40 mmHg (low); >100 mmHg (high)",
+              "Low = IAS dysfunction/neuropathy/post-LIS. High = fissure, anismus. Measured by automated HRAM."
+            ],
+            [
+              "Squeeze pressure (EAS)",
+              "Add ≥50 mmHg to resting",
+              "Low increment = EAS weakness",
+              "Low squeeze = EAS injury (obstetric, surgical), pudendal neuropathy, or denervation"
+            ],
+            [
+              "Rectoanal inhibitory reflex (RAIR)",
+              "Present with balloon insufflation 10–50 mL",
+              "Absent",
+              "Absent RAIR = Hirschsprung's disease (must confirm with rectal biopsy for ganglion cells)"
+            ],
+            [
+              "Rectal sensation — first sensation",
+              "10–30 mL",
+              ">60 mL = reduced sensation",
+              "Reduced sensation = megarectum, overflow incontinence, pudendal neuropathy"
+            ],
+            [
+              "Maximum tolerated volume (MTV)",
+              "100–300 mL",
+              "<100 mL = hyper-reactive; >300 mL = hypocompliant/megarectum",
+              "Low MTV = urgency, proctitis. High MTV = megarectum, overflow."
+            ],
+            [
+              "Balloon expulsion test",
+              "Expulsion <60 seconds, 50 mL balloon",
+              "Failure to expel = anismus",
+              "Anismus (dyssynergic defaecation); confirms ODS functional component"
+            ],
+            [
+              "Pudendal nerve terminal motor latency (PNTML)",
+              "<2.2 ms bilaterally",
+              ">2.2 ms = prolonged",
+              "Neuropathic sphincter injury; associated with poorer sphincteroplasty outcomes"
+            ],
+            [
+              "Colonic transit (radio-opaque markers)",
+              "<5 markers at 5 days (>80% cleared)",
+              ">5 markers = delayed transit",
+              "Slow transit constipation; segmental vs pan-colonic distribution guides surgical approach"
+            ]
           ]
         },
         {
@@ -628,5 +793,240 @@
         "pearl": "SRUS histology: fibromuscular obliteration of the lamina propria + disorganised muscle fibres in the submucosa. This specific histological pattern distinguishes SRUS from IBD, carcinoma, and endometriosis."
       }
     }
-  ]
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of pelvic floor disorders and rectal prolapse surgery with 10 clinical questions.",
+    "questions": [
+      {
+        "id": "D5-Q1",
+        "stem": "A 72-year-old woman presents with a visible rectal prolapse on straining, present for 2 years. She can reduce it digitally but it re-prolapses on walking. She has faecal urgency but no incontinence. Examination confirms full-thickness rectal prolapse. She is fit for surgery. What is the preferred surgical approach?",
+        "options": {
+          "A": "Abdominal suture rectopexy without resection",
+          "B": "Delorme's procedure (perineal mucosal sleeve resection)",
+          "C": "Altemeier procedure (perineal proctosigmoidectomy)",
+          "D": "Laparoscopic ventral mesh rectopexy (D'Hoore technique)"
+        },
+        "correct": "D",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Laparoscopic ventral mesh rectopexy (VMR/D'Hoore technique) is the preferred operation for full-thickness rectal prolapse in fit patients. The rectum is mobilised anteriorly only (avoiding posterior autonomic nerve dissection), a mesh is sutured to the anterior rectal wall and fixed to the sacral promontory. VMR has the lowest recurrence rate (<5%) and best functional outcomes (improved continence, reduced constipation) compared to other approaches.",
+          "wrong": {
+            "A": "Posterior suture rectopexy (Wells or Ripstein) has higher constipation rates post-operatively (30–50%) due to posterior dissection with autonomic nerve disruption. VMR avoids this by limiting dissection to the anterior plane.",
+            "B": "Delorme's procedure (mucosal sleeve resection with plication of the muscular layer) is a perineal approach reserved for frail/high-risk patients or shorter prolapses. Higher recurrence rate (15–20%) than abdominal approaches.",
+            "C": "Altemeier (perineal proctosigmoidectomy) resects the prolapsed bowel perineal approach. Appropriate for elderly frail patients or very large prolapses, but higher recurrence (10–20%) and risk of anastomotic leak."
+          },
+          "guideline": "ESCP/ACPGBI Rectal Prolapse Guidelines 2018 — laparoscopic ventral mesh rectopexy preferred for fit patients",
+          "trial": "D'Hoore A et al., Br J Surg 2006: VMR — 5% recurrence at 5 years; constipation improved in 76%; continence improved in 60%. Superior to posterior suture rectopexy.",
+          "pearl": "Full-thickness vs mucosal (partial) prolapse distinction: full-thickness shows concentric mucosal folds; mucosal prolapse shows radial folds. Full-thickness requires VMR or perineal operation. Mucosal prolapse responds to RBL, Delorme, or stapled mucopexy."
+        }
+      },
+      {
+        "id": "D5-Q2",
+        "stem": "A 58-year-old woman complains of difficulty evacuating her bowels, requiring digital perineal support and vaginal digitation to complete defaecation. MRI defaecography shows a 4cm anterior rectocele with contrast trapping and paradoxical puborectalis contraction on straining. What is the most appropriate initial management?",
+        "options": {
+          "A": "Posterior mesh repair (site-specific rectocele repair)",
+          "B": "Surgical rectocele repair (posterior colporrhaphy)",
+          "C": "Biofeedback therapy for dyssynergic defaecation",
+          "D": "Stapled transanal rectal resection (STARR procedure)"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Paradoxical puborectalis contraction (dyssynergia) is identified on defaecography. Biofeedback retraining of the pelvic floor is first-line treatment for dyssynergic defaecation, with 60–80% improvement. Surgery for rectocele in the presence of unresolved dyssynergia has poor outcomes — the functional outlet obstruction must be addressed before structural repair.",
+          "wrong": {
+            "A": "Posterior mesh repair for rectocele is a gynaecological approach with good anatomical results but no proven functional improvement. It does not address dyssynergia.",
+            "B": "Surgical repair before treating the underlying dyssynergia leads to treatment failure. The rectocele may be a consequence of high intrarectal pressure from outlet obstruction, and biofeedback must be first-line.",
+            "D": "STARR procedure removes a full-thickness cylinder of anterior and posterior rectal wall. It is indicated for obstructed defaecation with internal rectal prolapse and rectocele, but only after biofeedback has failed to address functional obstruction."
+          },
+          "guideline": "ESCP Pelvic Floor Disorders Guidelines 2024 — biofeedback first-line for dyssynergic defaecation before surgical intervention",
+          "trial": "Chiarioni G et al., Gastroenterology 2006: biofeedback vs laxatives for dyssynergic defaecation — biofeedback: 80% improvement in global bowel symptoms vs 22% laxatives; sustained at 24 months.",
+          "pearl": "Rectocele management decision tree: (1) Is there dyssynergia? → biofeedback first; (2) Is rectocele >3cm with trapping and digitating patient? → consider surgery after biofeedback; (3) Small rectocele, no trapping → pelvic floor physiotherapy only. MRI defaecography is the gold standard for assessment."
+        }
+      },
+      {
+        "id": "D5-Q3",
+        "stem": "A 65-year-old woman undergoes laparoscopic ventral mesh rectopexy with a synthetic polypropylene mesh for rectal prolapse. Six months post-operatively she develops pelvic pain, rectal discharge, and a mesh is visible protruding through the rectal anterior wall on sigmoidoscopy. What complication has occurred and what is the management?",
+        "options": {
+          "A": "Mesh erosion into the rectum — transanal mesh removal and rectal repair",
+          "B": "Recurrent prolapse — repeat rectopexy with biological mesh",
+          "C": "Pouchitis — oral metronidazole",
+          "D": "Rectovaginal fistula — Martius flap repair"
+        },
+        "correct": "A",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Synthetic mesh erosion into the rectum or vagina is a recognised complication of ventral mesh rectopexy (1–4% with synthetic mesh). Management requires removal of the eroded mesh, repair of the rectal or vaginal wall defect, and assessment for residual infection. Transanal approach for accessible anterior rectal erosions, or laparoscopic/open for complex cases. Following mesh removal, consideration of repeat rectopexy with biological mesh or suture rectopexy.",
+          "wrong": {
+            "B": "Recurrent prolapse presents with return of the prolapse symptoms, not pelvic pain and rectal discharge with visible mesh. Mesh erosion is the diagnosis here.",
+            "C": "Pouchitis occurs in ileal pouches, not after rectopexy. Metronidazole has no role here.",
+            "D": "Rectovaginal fistula is a possible consequence of mesh erosion through both rectal and vaginal walls simultaneously. However, the initial diagnosis is mesh erosion, and the primary management is mesh removal, not fistula repair."
+          },
+          "guideline": "ESCP Position Statement on Mesh in Rectal Prolapse Surgery 2019 — biological mesh preferred; synthetic mesh: erosion risk 1-4%, removal required",
+          "trial": "Mercer-Jones M et al., Colorectal Dis 2018: mesh erosion after VMR — synthetic polypropylene: 4.2% erosion; biological mesh: 0.8%; symptoms: discharge, pain, visible mesh.",
+          "pearl": "Following mesh erosion controversy in pelvic floor surgery (UK mesh pause 2018), current guidance: use biological mesh for VMR or perform suture rectopexy without mesh. Synthetic mesh retains higher recurrence risk — biological mesh or suture rectopexy are preferred."
+        }
+      },
+      {
+        "id": "D5-Q4",
+        "stem": "A 70-year-old man has faecal incontinence (liquid and solid) following radiation for prostate cancer 8 years ago. Anal manometry shows profoundly reduced resting (5 mmHg) and squeeze (20 mmHg) pressures. Endoanal ultrasound shows intact (though thin) sphincters. MRI shows radiation fibrosis of the sphincter complex. He has failed 12 months of biofeedback and dietary modification. What is the most appropriate next intervention?",
+        "options": {
+          "A": "Anterior overlapping sphincteroplasty",
+          "B": "Sacral nerve stimulation (SNS)",
+          "C": "Dynamic graciloplasty",
+          "D": "Permanent colostomy"
+        },
+        "correct": "B",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Sacral nerve stimulation (SNS/SNM) is effective for neurogenic and idiopathic faecal incontinence with intact (though functionally weak) sphincters — the pattern seen after pelvic irradiation. With intact sphincters (no structural defect), SNS modulates sacral nerve afferents, improving sphincter function and continence. 50–80% of patients achieve ≥50% reduction in incontinent episodes. It avoids surgery on irradiated, fibrotic tissue.",
+          "wrong": {
+            "A": "Anterior sphincteroplasty requires a structural defect. This patient has fibrotic but intact sphincters — no defect to repair. Surgery on irradiated tissue has very poor healing rates and high complication rates.",
+            "C": "Dynamic graciloplasty (electrically stimulated gracilis transposition) is reserved for total sphincter loss. With intact but weak sphincters, SNS is far less invasive and more appropriate.",
+            "D": "Permanent colostomy should be the final option after all sphincter-preserving approaches have failed. SNS has not yet been tried in this patient."
+          },
+          "guideline": "ASCRS Practice Parameters for Faecal Incontinence 2023 — SNS first-line for neurogenic/functional incontinence with intact sphincters",
+          "trial": "Mellgren A et al., Dis Colon Rectum 2011: SNS long-term results — 86% maintained ≥50% improvement at 5 years; mean incontinence episodes 9.4/week → 1.7/week.",
+          "pearl": "SNS mechanism: not simply 'electrical stimulation of the sphincter' — SNS modulates afferent sacral nerve signals, improving rectal sensory threshold and sphincter coordination. Test stimulation (2-week trial) before permanent implant — only proceed if ≥50% improvement in symptom diary."
+        }
+      },
+      {
+        "id": "D5-Q5",
+        "stem": "A 52-year-old woman presents with urinary stress incontinence, anterior vaginal wall prolapse (cystocele POP-Q stage III), and obstructed defaecation. She has no rectal prolapse or rectocele on MRI defaecography. She is fit for surgery. What is the recommended surgical approach?",
+        "options": {
+          "A": "Biofeedback and pelvic floor physiotherapy without surgery",
+          "B": "Anterior vaginal mesh repair only",
+          "C": "Laparoscopic sacrocolpopexy with mesh (addressing anterior and vault prolapse)",
+          "D": "Laparoscopic ventral mesh rectopexy"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "POP-Q Stage III cystocele with vault prolapse component in a fit woman is best managed by laparoscopic sacrocolpopexy, which fixes the vaginal vault to the sacral promontory with a Y-shaped mesh. This addresses the anterior compartment prolapse (cystocele) and vault prolapse simultaneously. Sacrocolpopexy has the highest anatomical success rates (90–95%) and lowest recurrence compared to vaginal approaches.",
+          "wrong": {
+            "A": "POP-Q stage III is symptomatic prolapse affecting quality of life and failing conservative management. Surgery is appropriate in a fit patient. Physiotherapy alone has limited effectiveness for stage III.",
+            "B": "Anterior vaginal mesh repair (colporrhaphy) for stage III prolapse has higher recurrence rates (30–40%) than sacrocolpopexy. The MHRA UK mesh pause (2018) also restricted anterior vaginal mesh use to specialist mesh centres.",
+            "D": "Laparoscopic VMR is used for rectal prolapse and obstructed defaecation with posterior compartment pathology. It does not address anterior compartment (cystocele) or vault prolapse."
+          },
+          "guideline": "NICE Clinical Guideline 171 — Urinary incontinence and pelvic organ prolapse: laparoscopic sacrocolpopexy for vault/anterior prolapse",
+          "trial": "CARE trial (Brubaker, NEJM 2006): sacrocolpopexy + Burch colposuspension — 2-year anatomical success 95%; recurrence 5%; combination prevents post-op stress incontinence.",
+          "pearl": "Sacrocolpopexy anatomy: mesh arm to anterior vaginal wall (cystocele), second arm to posterior wall (rectocele), fixed to sacral promontory at S1-S2 level. Peritoneum closed over mesh to reduce bowel adhesion risk. Concurrent Burch colposuspension or TVT for concurrent stress incontinence."
+        }
+      },
+      {
+        "id": "D5-Q6",
+        "stem": "A 45-year-old woman presents with incomplete rectal evacuation, sensation of incomplete emptying, and straining. MRI defaecography shows a grade 3 internal rectal intussusception (intrarectal only, not externalising) without rectocele. She has failed 6 months of biofeedback. What is the next appropriate surgical option?",
+        "options": {
+          "A": "Laparoscopic ventral mesh rectopexy",
+          "B": "STARR procedure (stapled transanal rectal resection)",
+          "C": "Anterior Delorme's procedure",
+          "D": "Abdominal rectopexy with sigmoid resection (Frykman-Goldberg)"
+        },
+        "correct": "A",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Internal rectal intussusception (IRI) causing obstructed defaecation is an indication for laparoscopic ventral mesh rectopexy after failure of biofeedback. VMR addresses the underlying anterior compartment weakness that drives IRI, corrects the intussusception, and has better long-term functional outcomes and recurrence rates than STARR. The PROSPER trial showed limited benefit for STARR over biofeedback.",
+          "wrong": {
+            "B": "STARR procedure staples out anterior and posterior full-thickness rectal tissue. The PROSPER RCT (Brown, Lancet 2016) showed STARR was NOT superior to biofeedback/laxatives for obstructed defaecation at 24 months, and carries risks of urgency and incontinence.",
+            "C": "Anterior Delorme's (anterior rectal mucosal sleeve resection) is used for mucosal prolapse, not internal intussusception. It does not address the full-thickness intussusception.",
+            "D": "Frykman-Goldberg (abdominal rectopexy + sigmoid resection) is used for full-thickness rectal prolapse, not intrarectal intussusception. It does not address the anterior pelvic floor weakness driving IRI."
+          },
+          "guideline": "ESCP Pelvic Floor Disorders 2024 — VMR for internal rectal intussusception after failed biofeedback",
+          "trial": "PROSPER trial (Brown SR, Lancet 2016): STARR vs biofeedback for ODS — no significant difference in symptom scores at 24 months; STARR not recommended as first surgical approach for ODS.",
+          "pearl": "Obstructed defaecation syndrome (ODS) management pyramid: (1) biofeedback + dietary modification; (2) if anatomy confirmed (IRI, rectocele >3cm) → VMR; (3) STARR only if VMR contraindicated or patient-specific anatomy. Avoid STARR if low rectal compliance or weak sphincters."
+        }
+      },
+      {
+        "id": "D5-Q7",
+        "stem": "A 68-year-old woman with uterovaginal prolapse (POP-Q stage III) is offered laparoscopic sacrocolpopexy. She mentions she is sexually active. Which preoperative assessment is most important before proceeding with sacrocolpopexy involving posterior mesh?",
+        "options": {
+          "A": "Endoanal ultrasound to assess sphincter integrity",
+          "B": "Uroflowmetry to assess bladder outflow",
+          "C": "MRI defaecography to assess posterior compartment and exclude posterior mesh need",
+          "D": "Urodynamics to assess for occult stress urinary incontinence"
+        },
+        "correct": "D",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Occult (masked) stress urinary incontinence is present in up to 40% of women with significant pelvic organ prolapse — the prolapse mechanically kinks the urethra, masking incontinence. Reducing the prolapse during urodynamic testing (with a ring pessary) unmasks occult SUI. If identified preoperatively, concurrent continence procedure (Burch colposuspension or TVT) can be planned. Failing to identify and address occult SUI results in de-novo SUI post-colpopexy in 25–40% of patients.",
+          "wrong": {
+            "A": "Endoanal ultrasound is relevant if there is faecal incontinence or a sphincter defect to assess. In a patient whose primary concern is prolapse and sexual activity, urodynamics is the priority test.",
+            "B": "Uroflowmetry assesses bladder outflow and is less relevant than full urodynamics. In the context of pre-operative planning for major pelvic floor surgery, full urodynamics is required.",
+            "C": "MRI defaecography is useful for planning posterior compartment surgery but is not the most critical preoperative test for sacrocolpopexy planning specifically — urodynamics takes priority for continence outcomes."
+          },
+          "guideline": "NICE CG171 — urodynamics mandatory before pelvic floor surgery; assess for occult SUI with prolapse reduction",
+          "trial": "CARE trial (Brubaker, NEJM 2006): sacrocolpopexy + Burch vs sacrocolpopexy alone — Burch addition reduced post-op SUI from 44% to 23% in patients with occult SUI preoperatively.",
+          "pearl": "Prolapse pessary test: insert a ring pessary to reduce the prolapse and perform a cough stress test. If patient leaks with pessary in situ → occult SUI → plan concurrent continence procedure. Also prevents de-novo SUI post-sacrocolpopexy."
+        }
+      },
+      {
+        "id": "D5-Q8",
+        "stem": "A 55-year-old woman presents with a rectal prolapse visible at rest, prolapsing 8cm beyond the anal verge. Defaecography confirms full-thickness rectal prolapse. She has a BMI of 42 and moderate COPD (FEV1 65%). She cannot tolerate general or spinal anaesthesia. What is the most appropriate surgical option?",
+        "options": {
+          "A": "Laparoscopic ventral mesh rectopexy",
+          "B": "Altemeier perineal proctosigmoidectomy under local/regional anaesthesia",
+          "C": "Abdominal suture rectopexy",
+          "D": "Conservative management with pessary"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Altemeier's perineal proctosigmoidectomy can be performed under spinal or epidural anaesthesia (or even local block in very frail patients), avoiding the pneumoperitoneum of laparoscopy and the physiological stress of general anaesthesia. It is the perineal approach of choice for large prolapses in high-risk patients who cannot tolerate abdominal surgery. Recurrence rates are higher (10–20%) but acceptable given the risk profile.",
+          "wrong": {
+            "A": "Laparoscopic VMR requires general anaesthesia and pneumoperitoneum, contraindicated with severe COPD (FEV1 65%) and BMI 42. The risk of respiratory failure and conversion is prohibitive.",
+            "C": "Open abdominal suture rectopexy also requires general anaesthesia. The same contraindications apply.",
+            "D": "Rectal prolapse cannot be managed with a pessary — prolapse requires manual reduction and is symptomatic with defaecation, bleeding, and mucous discharge. Pessaries are for vaginal prolapse. For very frail patients with rectal prolapse, Delorme's under local anaesthesia is an alternative."
+          },
+          "guideline": "ESCP/ACPGBI Rectal Prolapse Guidelines 2018 — perineal approaches (Altemeier/Delorme) for high-risk patients unfit for abdominal surgery",
+          "trial": "Chun SW et al., Dis Colon Rectum 2004: Altemeier vs abdominal rectopexy — Altemeier: higher recurrence (16% vs 5%); equivalent mortality; preferred in elderly/high-risk; shorter hospital stay.",
+          "pearl": "Altemeier advantage over Delorme's: removes the redundant sigmoid (can resect elongated colon causing constipation), and allows levatorplasty. Delorme advantage: preserves bowel length. Both avoid abdominal surgery. For large prolapses (>6cm), Altemeier is preferred."
+        }
+      },
+      {
+        "id": "D5-Q9",
+        "stem": "A 40-year-old woman has had 4 vaginal deliveries, the last complicated by a third-degree perineal tear repaired immediately post-partum. She now presents with passive faecal soiling and urgency incontinence. Anal manometry shows reduced resting pressure (30 mmHg; normal 60–80) with preserved squeeze pressure. Endoanal ultrasound shows an anterior internal sphincter defect (90° arc). What is the most likely mechanism of her incontinence and the preferred treatment?",
+        "options": {
+          "A": "Pudendal neuropathy — biofeedback",
+          "B": "Rectocele causing incomplete evacuation and passive soiling — STARR",
+          "C": "External sphincter defect — overlapping sphincteroplasty",
+          "D": "Internal sphincter defect causing passive leakage — sacral nerve stimulation"
+        },
+        "correct": "D",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Passive soiling (leakage without awareness) with reduced resting pressure and an internal sphincter defect is the classic pattern of internal sphincter insufficiency. The internal sphincter maintains resting anal tone (60–80% of resting pressure). Reduced resting pressure despite preserved squeeze indicates internal sphincter dysfunction, not external sphincter damage. SNS is effective for passive incontinence with internal sphincter dysfunction and is less invasive than sphincteroplasty.",
+          "wrong": {
+            "A": "Pudendal neuropathy impairs both resting and squeeze pressures diffusely. Biofeedback is appropriate but will not repair an internal sphincter defect.",
+            "B": "Rectocele causes obstructed defaecation (difficulty evacuating), not passive soiling. STARR for passive soiling is inappropriate.",
+            "C": "External sphincter defect causes urge incontinence (unable to defer defaecation) with reduced squeeze pressure, not passive soiling with preserved squeeze. Sphincteroplasty repairs external sphincter structural defects."
+          },
+          "guideline": "ASCRS Practice Parameters for Faecal Incontinence 2023 — SNS effective for passive incontinence from internal sphincter dysfunction",
+          "trial": "Leroi AM et al., Gut 2012: SNS for passive faecal incontinence — 75% improvement; resting pressure improved from 28 to 42 mmHg; effective for internal sphincter insufficiency.",
+          "pearl": "Distinguishing incontinence mechanisms: passive soiling (unaware) = internal sphincter dysfunction = low resting pressure; urgency incontinence = external sphincter dysfunction = low squeeze pressure. Both can coexist. EAUS identifies defect anatomy. Manometry identifies functional pattern."
+        }
+      },
+      {
+        "id": "D5-Q10",
+        "stem": "A 60-year-old woman undergoes laparoscopic ventral mesh rectopexy for full-thickness rectal prolapse. Post-operatively she reports worsening constipation — she previously had 1 stool per day but now has 1 per week. She has no evidence of new anatomical obstruction. What is the most likely cause and how can this be prevented?",
+        "options": {
+          "A": "Sigmoid redundancy and colonic inertia — sigmoid resection should have been performed",
+          "B": "Mesh contraction causing rectal stenosis — endoscopic dilation",
+          "C": "Lateral ligament division causing rectal denervation and constipation — avoided by VMR technique",
+          "D": "Post-operative constipation is expected with VMR and resolves spontaneously within 3 months"
+        },
+        "correct": "C",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Posterior rectopexy techniques (suture rectopexy, Wells, Ripstein) requiring division of the lateral ligaments disrupt the autonomic nerves supplying the rectum, causing rectal denervation and constipation in 30–50% of cases. VMR avoids posterior dissection entirely (only anterior mobilisation), which is why it has a significantly lower post-operative constipation rate. When posterior dissection cannot be avoided, resection rectopexy (sigmoid resection + rectopexy) reduces constipation risk.",
+          "wrong": {
+            "A": "Sigmoid resection (Frykman-Goldberg) is combined with posterior rectopexy to counteract the constipation from lateral ligament division. VMR does not routinely require sigmoid resection because constipation is not its primary complication.",
+            "B": "Mesh contraction causing stenosis is a recognised complication, but would present with both constipation and obstructive symptoms, and would be identified on imaging/endoscopy. The question implies a functional cause.",
+            "D": "Post-operative constipation after VMR is less common than after posterior approaches but should not be dismissed as expected/self-limiting when it is severe (1/week). Investigation and laxative therapy are required."
+          },
+          "guideline": "ESCP Rectal Prolapse Guidelines 2018 — VMR avoids lateral ligament division, preserving autonomic innervation",
+          "trial": "Boons P et al., Colorectal Dis 2010: VMR vs posterior suture rectopexy — post-op constipation: 8% VMR vs 38% posterior rectopexy; VMR preserves bowel function by avoiding autonomic nerve division.",
+          "pearl": "The three autonomic innervations at risk in rectal dissection: (1) superior hypogastric plexus (sympathetic) — presacral, at level of aortic bifurcation; (2) hypogastric nerves (sympathetic) — lateral, retroperitoneal; (3) pelvic splanchnic nerves (parasympathetic, S2-4) — lateral to rectum at pelvic sidewall. VMR preserves all three by limiting dissection to the anterior plane."
+        }
+      }
+    ]
+  }
 }

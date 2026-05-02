@@ -16,14 +16,42 @@
         {
           "type": "table",
           "title": "AAA Size Thresholds for Intervention and Surveillance",
-          "headers": ["Diameter", "Risk of Rupture/Year", "Recommendation"],
+          "headers": [
+            "Diameter",
+            "Risk of Rupture/Year",
+            "Recommendation"
+          ],
           "rows": [
-            ["<3.0 cm", "Negligible", "No surveillance"],
-            ["3.0–3.9 cm", "<1%/yr", "USS every 3 years"],
-            ["4.0–4.9 cm", "0.5–1%/yr", "USS every 12 months"],
-            ["5.0–5.4 cm", "1–2%/yr", "USS every 3–6 months; surgical review"],
-            ["≥5.5 cm (men) / ≥5.0 cm (women)", "~5–7%/yr", "Elective repair recommended"],
-            ["Growth >1 cm/year (any size)", "High (rapid expansion)", "Expedited repair"]
+            [
+              "<3.0 cm",
+              "Negligible",
+              "No surveillance"
+            ],
+            [
+              "3.0–3.9 cm",
+              "<1%/yr",
+              "USS every 3 years"
+            ],
+            [
+              "4.0–4.9 cm",
+              "0.5–1%/yr",
+              "USS every 12 months"
+            ],
+            [
+              "5.0–5.4 cm",
+              "1–2%/yr",
+              "USS every 3–6 months; surgical review"
+            ],
+            [
+              "≥5.5 cm (men) / ≥5.0 cm (women)",
+              "~5–7%/yr",
+              "Elective repair recommended"
+            ],
+            [
+              "Growth >1 cm/year (any size)",
+              "High (rapid expansion)",
+              "Expedited repair"
+            ]
           ]
         },
         {
@@ -87,12 +115,47 @@
         {
           "type": "table",
           "title": "Rutherford Classification of Acute Limb Ischaemia",
-          "headers": ["Class", "Description", "Sensory Loss", "Motor Loss", "Doppler Signals", "Management"],
+          "headers": [
+            "Class",
+            "Description",
+            "Sensory Loss",
+            "Motor Loss",
+            "Doppler Signals",
+            "Management"
+          ],
           "rows": [
-            ["I — Viable", "Not immediately threatened", "None", "None", "Arterial and venous audible", "Anticoagulation; urgent work-up; elective revascularisation"],
-            ["IIa — Marginally threatened", "Salvageable with treatment", "Minimal (toes only)", "None", "Arterial often absent; venous audible", "Urgent revascularisation within hours"],
-            ["IIb — Immediately threatened", "Salvageable with immediate treatment", "More than toes; rest pain", "Mild-moderate", "Arterial absent; venous audible", "Emergency revascularisation — within 1 hour"],
-            ["III — Irreversible", "Major tissue loss/permanent nerve damage", "Profound; anaesthetic", "Profound paralysis, rigor", "Arterial + venous absent", "Amputation; consider primary amputation"]
+            [
+              "I — Viable",
+              "Not immediately threatened",
+              "None",
+              "None",
+              "Arterial and venous audible",
+              "Anticoagulation; urgent work-up; elective revascularisation"
+            ],
+            [
+              "IIa — Marginally threatened",
+              "Salvageable with treatment",
+              "Minimal (toes only)",
+              "None",
+              "Arterial often absent; venous audible",
+              "Urgent revascularisation within hours"
+            ],
+            [
+              "IIb — Immediately threatened",
+              "Salvageable with immediate treatment",
+              "More than toes; rest pain",
+              "Mild-moderate",
+              "Arterial absent; venous audible",
+              "Emergency revascularisation — within 1 hour"
+            ],
+            [
+              "III — Irreversible",
+              "Major tissue loss/permanent nerve damage",
+              "Profound; anaesthetic",
+              "Profound paralysis, rigor",
+              "Arterial + venous absent",
+              "Amputation; consider primary amputation"
+            ]
           ]
         },
         {
@@ -118,14 +181,42 @@
         {
           "type": "table",
           "title": "ABPI Interpretation",
-          "headers": ["ABPI", "Interpretation", "Clinical Action"],
+          "headers": [
+            "ABPI",
+            "Interpretation",
+            "Clinical Action"
+          ],
           "rows": [
-            [">1.3", "Arterial calcification (non-compressible — diabetes, ESRD)", "Unreliable ABPI — use toe pressure or TcPO2"],
-            ["1.0–1.3", "Normal", "No PAD; other cause for symptoms"],
-            ["0.9–1.0", "Borderline", "Investigate further if symptomatic"],
-            ["0.5–0.9", "Mild-moderate PAD", "Claudication range; supervised exercise; medical management"],
-            ["<0.5", "Severe PAD / CLI territory", "Urgent vascular review; revascularisation planning"],
-            ["<0.3", "Critical ischaemia", "Emergency vascular — high risk of gangrene"]
+            [
+              ">1.3",
+              "Arterial calcification (non-compressible — diabetes, ESRD)",
+              "Unreliable ABPI — use toe pressure or TcPO2"
+            ],
+            [
+              "1.0–1.3",
+              "Normal",
+              "No PAD; other cause for symptoms"
+            ],
+            [
+              "0.9–1.0",
+              "Borderline",
+              "Investigate further if symptomatic"
+            ],
+            [
+              "0.5–0.9",
+              "Mild-moderate PAD",
+              "Claudication range; supervised exercise; medical management"
+            ],
+            [
+              "<0.5",
+              "Severe PAD / CLI territory",
+              "Urgent vascular review; revascularisation planning"
+            ],
+            [
+              "<0.3",
+              "Critical ischaemia",
+              "Emergency vascular — high risk of gangrene"
+            ]
           ]
         },
         {
@@ -199,13 +290,31 @@
         {
           "type": "table",
           "title": "IVC Filter — Indications",
-          "headers": ["Indication", "Filter Type"],
+          "headers": [
+            "Indication",
+            "Filter Type"
+          ],
           "rows": [
-            ["Proximal DVT/PE with absolute contraindication to anticoagulation", "Retrievable (retrieve when AC can be restarted)"],
-            ["Recurrent PE despite therapeutic anticoagulation", "Permanent"],
-            ["High-risk patients undergoing bariatric surgery with prior VTE (selected)", "Retrievable pre-op"],
-            ["Free-floating proximal thrombus with high PE risk (controversial)", "Retrievable"],
-            ["Anticoagulation complications requiring dose reduction", "Permanent or retrievable"]
+            [
+              "Proximal DVT/PE with absolute contraindication to anticoagulation",
+              "Retrievable (retrieve when AC can be restarted)"
+            ],
+            [
+              "Recurrent PE despite therapeutic anticoagulation",
+              "Permanent"
+            ],
+            [
+              "High-risk patients undergoing bariatric surgery with prior VTE (selected)",
+              "Retrievable pre-op"
+            ],
+            [
+              "Free-floating proximal thrombus with high PE risk (controversial)",
+              "Retrievable"
+            ],
+            [
+              "Anticoagulation complications requiring dose reduction",
+              "Permanent or retrievable"
+            ]
           ]
         },
         {
@@ -679,5 +788,240 @@
         "pearl": "WIfI classification (SVS 2014): Wound severity (W0–W3), Ischaemia (I0–I3 based on ABPI/TBI), Infection (fI0–fI3). High WIfI score = high amputation risk — guides urgency of revascularisation. ABPI 0.32 = Stage I3 (severe ischaemia) — maps to very high amputation risk without revascularisation."
       }
     }
-  ]
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of vascular surgery — AAA, acute limb ischaemia, and carotid disease with 10 clinical questions.",
+    "questions": [
+      {
+        "id": "E3-Q1",
+        "stem": "A 72-year-old man with hypertension and a 20-pack-year smoking history is found incidentally to have a 5.8cm infrarenal abdominal aortic aneurysm on CT performed for urological workup. He is asymptomatic, and his fitness for surgery is currently unknown. What is the most appropriate next step?",
+        "options": {
+          "A": "Urgent open repair — aneurysm diameter exceeds 5.5cm threshold",
+          "B": "Continue surveillance — operate only if >7cm",
+          "C": "Cardiopulmonary risk assessment and elective repair (EVAR or open) based on anatomy and fitness",
+          "D": "Emergency CT angiography — the aneurysm may be symptomatic"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "AAA ≥5.5cm (men) or ≥5.0cm (women) meets the threshold for elective repair. Before proceeding to surgery, cardiopulmonary risk stratification is mandatory (ECG, echocardiography, exercise/functional capacity assessment). CT angiography defines anatomy for EVAR suitability (neck length, angulation, iliac access). Elective repair (EVAR preferred if anatomy suitable) reduces rupture risk.",
+          "wrong": {
+            "A": "Urgent repair without cardiopulmonary assessment risks perioperative cardiac events. The aneurysm is asymptomatic — there is time for appropriate preoperative assessment.",
+            "B": "Waiting until >7cm significantly increases rupture risk. The 5.5cm threshold is based on evidence that annual rupture risk exceeds operative mortality at this size.",
+            "D": "The aneurysm is described as asymptomatic. Emergency CT angiography is not indicated for an incidentally discovered asymptomatic AAA — a planned CT angiogram for anatomy and EVAR planning is appropriate."
+          },
+          "guideline": "ESVS AAA Guidelines 2019 — repair threshold 5.5cm (men) / 5.0cm (women); EVAR preferred over open repair if anatomy suitable",
+          "trial": "EVAR-1 trial (NEJM 2010): EVAR vs open repair — 30-day mortality EVAR 1.8% vs open 4.3%; long-term all-cause mortality equivalent; EVAR: higher re-intervention rates from endoleak.",
+          "pearl": "AAA surveillance protocol (UK): <4.5cm — annual USS; 4.5-5.4cm — 3-monthly USS; ≥5.5cm → consider repair. Rupture risk: 4.5cm = 2%/yr; 5.0cm = 5%/yr; 5.5cm = 10%/yr; 6.0cm = 15%/yr; >7cm = 30%/yr. Elective mortality: EVAR 1.2%; open 4.3%."
+        }
+      },
+      {
+        "id": "E3-Q2",
+        "stem": "A 65-year-old man presents to A&E with sudden onset severe back and abdominal pain, BP 80/50mmHg, and a pulsatile abdominal mass. He is on aspirin and has a known 6.5cm AAA. CT shows a large retroperitoneal haematoma with contrast extravasation from the posterior aortic wall. What is the immediate management priority?",
+        "options": {
+          "A": "Urgent CT angiography for EVAR planning",
+          "B": "Permissive hypotension (target SBP 50-100 mmHg), massive transfusion protocol, and emergency vascular surgery (EVAR or open)",
+          "C": "Aggressive fluid resuscitation to normalise blood pressure before theatre",
+          "D": "Endovascular aortic balloon occlusion (REBOA) in A&E before definitive repair"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Ruptured AAA is a surgical emergency with mortality rising rapidly with delay. Management: (1) permissive hypotension (SBP 50–100 mmHg — prevents massive clot displacement); (2) massive transfusion protocol (1:1:1 RBC:FFP:platelets); (3) immediate transfer to theatre for EVAR (if pre-operative CT available and anatomy suitable) or emergency open repair. Permissive hypotension avoids the 'pressure pop' of aggressive fluid resuscitation dislodging the retroperitoneal tamponade.",
+          "wrong": {
+            "A": "CT angiography is appropriate if the patient is haemodynamically stable — it guides EVAR planning. In haemodynamic shock with confirmed rupture on CT already obtained, immediate theatre is the priority.",
+            "C": "Aggressive fluid resuscitation to normalise BP in ruptured AAA is harmful — it increases bleeding by dislodging the tamponading haematoma. Permissive hypotension is the evidence-based approach.",
+            "D": "REBOA (Resuscitative Endovascular Balloon Occlusion of the Aorta) at zone 3 (infrarenal) can temporise ruptured AAA but requires operator expertise and access. It is not standard first-line management in most centres — immediate theatre is the priority."
+          },
+          "guideline": "ESVS AAA Guidelines 2019 — ruptured AAA: permissive hypotension (SBP 50-100); immediate theatre; EVAR if anatomy allows",
+          "trial": "IMPROVE trial (NEJM 2014): EVAR vs open repair for suspected ruptured AAA — 30-day mortality: EVAR 35.4% vs open 37.4% (no significant difference); EVAR associated with shorter ICU stay.",
+          "pearl": "EVAR for ruptured AAA: feasible in 40-60% (requires: neck length ≥10mm, infrarenal neck, iliac access). Open repair required for: suprarenal, juxtarenal, unfavourable anatomy, unavailable EVAR team. Aortic occlusion balloon via femoral access provides haemostasis during open conversion."
+        }
+      },
+      {
+        "id": "E3-Q3",
+        "stem": "A 68-year-old man presents with sudden onset rest pain, pallor, paraesthesia, and paralysis of his right leg starting 2 hours ago. The leg is cold to the knee with fixed mottling at the ankle. ABI cannot be obtained. He is in AF with rate 110/min. What is the Rutherford classification and immediate management?",
+        "options": {
+          "A": "Rutherford IIa — urgent surgical embolectomy",
+          "B": "Rutherford III — primary amputation; limb is not salvageable",
+          "C": "Rutherford IIb — emergency surgical revascularisation (embolectomy or bypass)",
+          "D": "Rutherford I — commence anticoagulation and observe"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Rutherford IIb acute limb ischaemia: immediately threatened limb requiring emergency revascularisation. Criteria: rest pain AND sensory loss AND motor deficit (paralysis). Paralysis distinguishes IIb from IIa. Fixed mottling at ankle indicates very severe ischaemia — borderline IIb/III. Source is likely AF embolism (cardiac embolus is most common in AF). Emergency embolectomy (Fogarty catheter) under local anaesthesia is first-line; bypass if embolectomy fails or in-situ thrombosis.",
+          "wrong": {
+            "A": "Rutherford IIa: sensory deficit but NO paralysis. This patient has paralysis — IIb. IIa can tolerate a slightly longer window before irreversibility. Both IIa and IIb require emergency revascularisation, but IIb is more urgent.",
+            "B": "Rutherford III (irreversible ischaemia): profound paralysis, anaesthesia, woody consistency (rigor), fixed mottling above the ankle — limb unsalvageable → primary amputation. Fixed ankle mottling alone does not confirm III — assess for muscle rigidity before declaring irreversible.",
+            "D": "Rutherford I: viable limb, no sensory/motor deficit, no rest pain — anticoagulation while planning definitive treatment. Paralysis and rest pain confirm at least class II."
+          },
+          "guideline": "ESVS Peripheral Arterial Occlusion Guidelines 2020 — Rutherford classification; IIb: emergency revascularisation within 6h",
+          "trial": "TOPAS trial (Ouriel, NEJM 1998): thrombolysis vs surgery for ALI — comparable 30-day amputation rates; surgery faster for severe ischaemia (IIb); thrombolysis preferred for IIa if presenting within 14 days of onset.",
+          "pearl": "Rutherford classification: I = viable (no sensory/motor deficit); IIa = marginally threatened (sensory loss, no paralysis); IIb = immediately threatened (paralysis present); III = irreversible (rigidity, fixed mottling, anaesthesia). IIb → OR immediately; III → assess amputation level. 6P's of ALI: Pain, Pallor, Pulselessness, Paraesthesia, Paralysis, Perishing cold."
+        }
+      },
+      {
+        "id": "E3-Q4",
+        "stem": "A 70-year-old woman has a 70% symptomatic internal carotid artery stenosis (recent TIA 3 weeks ago). She is on aspirin and statin. CT/MRI brain shows no infarction. What is the most appropriate intervention and timing?",
+        "options": {
+          "A": "Carotid endarterectomy (CEA) within 2 weeks of the TIA",
+          "B": "Carotid artery stenting (CAS) as it is safer than CEA in all patients",
+          "C": "Continue dual antiplatelet therapy (aspirin + clopidogrel) and reassess at 6 months",
+          "D": "MRI-guided stereotactic radiosurgery of the carotid plaque"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Symptomatic carotid artery stenosis ≥70% (NASCET criteria) with recent TIA/minor stroke is an indication for urgent carotid endarterectomy (CEA) within 2 weeks. The risk of stroke is highest in the first 2–4 weeks after TIA (5–10% within 48 hours). CEA reduces 5-year stroke risk from 26% (medical therapy) to 9% (NNT=6). Timing: ideally within 14 days.",
+          "wrong": {
+            "B": "CAS is associated with higher 30-day stroke risk than CEA in patients over 70 years. CREST trial: CAS vs CEA — CAS: higher stroke risk in >70-year-old. CEA is preferred in older patients and symptomatic stenosis.",
+            "C": "Dual antiplatelet therapy is appropriate for the acute TIA management but does not replace carotid revascularisation for ≥70% symptomatic stenosis. Risk of recurrent stroke without surgery remains high.",
+            "D": "Radiosurgery has no established role in carotid stenosis management. It is used for intracranial arteriovenous malformations."
+          },
+          "guideline": "ESVS Carotid Artery Disease Guidelines 2023 — CEA within 2 weeks for symptomatic ≥70% stenosis; CAS for anatomically inaccessible lesions or high surgical risk",
+          "trial": "NASCET (NEJM 1991): CEA vs medical for 70-99% symptomatic stenosis — absolute risk reduction 17% stroke at 2 years; NNT=6; landmark trial establishing CEA benefit.",
+          "pearl": "NASCET criteria: stenosis measured from the narrowest diameter to the distal normal ICA diameter. 70-99% symptomatic stenosis: CEA within 14 days. 50-69% symptomatic: CEA beneficial in men (6-month risk high), less clear in women. <50% symptomatic: medical therapy only. Asymptomatic: CEA for ≥60-70% if lifetime expectancy >5 years."
+        }
+      },
+      {
+        "id": "E3-Q5",
+        "stem": "A 55-year-old man presents with calf pain on walking 200m that is completely relieved by rest. He has diabetes, hypertension, and smokes 20 cigarettes/day. ABI is 0.65 bilaterally. He is on aspirin and statin. Duplex ultrasound shows a 7cm SFA occlusion. What is the most appropriate initial management?",
+        "options": {
+          "A": "Immediate SFA stenting",
+          "B": "Femoral-popliteal bypass with saphenous vein",
+          "C": "Supervised exercise therapy programme (SET) and optimisation of cardiovascular risk factors",
+          "D": "Prostacyclin infusion for claudication symptoms"
+        },
+        "correct": "C",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Intermittent claudication (Rutherford 1-3, claudication at 200m) is first managed conservatively: supervised exercise therapy (SET) increases walking distance by 100-150% at 3-6 months, optimisation of cardiovascular risk factors (smoking cessation, statin, diabetes control, BP control, aspirin). Intervention (angioplasty/stenting or bypass) is reserved for lifestyle-limiting claudication refractory to 3 months of SET, or critical limb ischaemia.",
+          "wrong": {
+            "A": "Immediate SFA stenting for claudication is not first-line. NICE and ESVS guidelines recommend ≥3 months of SET before considering intervention. Short-term patency of SFA stents in claudication is good, but long-term patency requires reintervention.",
+            "B": "Femoral-popliteal bypass is a major operation with significant complications — it is not appropriate for moderate claudication at 200m. Surgery is reserved for critical limb ischaemia or claudication severely limiting lifestyle after all conservative measures have failed.",
+            "D": "Prostacyclin infusion (iloprost) is used for critical limb ischaemia (rest pain, tissue loss) — not for claudication. It has no evidence base in intermittent claudication."
+          },
+          "guideline": "NICE PAD Guidelines 2020 — supervised exercise therapy first-line for intermittent claudication; angioplasty if SET fails after ≥3 months",
+          "trial": "MIMIC trial (Murphy TP, Circ Cardiovasc Interv 2012): SET vs stenting for claudication — SET equivalent to stenting at 6 months; stenting + SET superior; SET remains first-line as initial approach.",
+          "pearl": "ABI interpretation: 1.0-1.3 = normal; 0.9-1.0 = borderline; 0.7-0.9 = mild PAD; 0.5-0.7 = moderate (claudication); <0.5 = severe (critical limb ischaemia/rest pain); >1.3 = non-compressible arteries (diabetes/renal failure — measure toe-brachial index instead)."
+        }
+      },
+      {
+        "id": "E3-Q6",
+        "stem": "A 78-year-old man with known AF (on apixaban) presents with right leg swelling, erythema, and tenderness in the right calf extending to the thigh for 3 days. Duplex US confirms proximal DVT (femoral and popliteal veins). He has no contraindications to anticoagulation. What is the recommended treatment?",
+        "options": {
+          "A": "Therapeutic anticoagulation with DOAC (apixaban or rivaroxaban) for 3 months minimum",
+          "B": "IVC filter placement",
+          "C": "Catheter-directed thrombolysis",
+          "D": "Surgical thrombectomy"
+        },
+        "correct": "A",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Proximal DVT (femoral/popliteal) is treated with therapeutic anticoagulation for a minimum of 3 months. Direct oral anticoagulants (DOACs — apixaban or rivaroxaban) are preferred over LMWH/warfarin based on AMPLIFY and EINSTEIN trials. The patient is already on apixaban for AF — this may already cover DVT treatment (therapeutic AF dose may be subtherapeutic for DVT initially — confirm dosing). Anticoagulation prevents PE and reduces post-thrombotic syndrome.",
+          "wrong": {
+            "B": "IVC filter is reserved for patients with DVT/PE who have absolute contraindications to anticoagulation, or for recurrent PE despite adequate anticoagulation. This patient has no contraindications.",
+            "C": "Catheter-directed thrombolysis is considered for massive iliofemoral DVT with limb-threatening phlegmasia cerulea dolens or venous gangrene. Routine proximal DVT does not require thrombolysis — anticoagulation alone is effective.",
+            "D": "Surgical venous thrombectomy is largely historical. CDT and anticoagulation are the modern approaches. Surgical thrombectomy is rarely performed and not first-line."
+          },
+          "guideline": "NICE VTE Treatment Guidelines 2020 — DOAC (apixaban/rivaroxaban) first-line for DVT; 3 months minimum; extend if provoked by cancer or recurrent VTE",
+          "trial": "AMPLIFY trial (Agnelli G, NEJM 2013): apixaban vs LMWH/warfarin for VTE — equivalent efficacy; significantly less major bleeding (0.6% vs 1.8%); DOAC now preferred over LMWH/warfarin.",
+          "pearl": "DVT duration of anticoagulation: provoked (surgery, immobilisation, fracture) → 3 months; unprovoked first DVT → 3-6 months then reassess; recurrent unprovoked → indefinite; cancer-associated VTE → DOAC (rivaroxaban or apixaban) or LMWH, indefinite while cancer active."
+        }
+      },
+      {
+        "id": "E3-Q7",
+        "stem": "A 62-year-old man presents to A&E with a 2-hour history of sudden-onset pleuritic chest pain and dyspnoea. HR 118/min, SpO2 92% on air, BP 108/72mmHg. CT pulmonary angiography shows bilateral pulmonary emboli with right heart strain (RV:LV ratio 1.3, McConnell's sign). Troponin is 0.8 µg/L. Echo shows RV hypokinesis. What is the classification of this PE and the appropriate management?",
+        "options": {
+          "A": "Low-risk PE — DOAC outpatient treatment",
+          "B": "Intermediate-high risk PE — anticoagulation + consider systemic thrombolysis or catheter-directed treatment if haemodynamically unstable",
+          "C": "Massive PE — immediate systemic thrombolysis without further investigation",
+          "D": "Intermediate-low risk PE — anticoagulation and discharge with DOAC"
+        },
+        "correct": "B",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "This is intermediate-high risk PE (submassive PE): haemodynamically stable (SBP >90) but with right heart dysfunction (RV:LV >1 on CTPA + troponin elevation + echo RV hypokinesis). ESC classification: high-risk (haemodynamic instability, shock) vs intermediate-high (stable but RV strain + biomarker +) vs intermediate-low (either RV strain or biomarker) vs low-risk (neither). Management: anticoagulation (LMWH or UFH) as primary treatment; monitor closely; systemic thrombolysis (alteplase 100mg/2h) reserved for haemodynamic deterioration. Catheter-directed thrombolysis (EKOS) is an alternative.",
+          "wrong": {
+            "A": "Low-risk PE (no haemodynamic instability, no RV dysfunction, no biomarker elevation) may be treated as an outpatient with DOAC (PESI score I-II). This patient has RV dysfunction and troponin elevation — not low-risk.",
+            "C": "Massive (high-risk) PE requires SBP <90 or circulatory collapse. This patient is borderline (BP 108/72) — haemodynamically borderline but not in shock. Immediate thrombolysis without monitoring risks bleeding in an intermediate-risk patient.",
+            "D": "Intermediate-low risk PE has either RV strain OR biomarker elevation, not both. This patient has both (echo RV hypokinesis + troponin) — intermediate-high risk, requiring closer monitoring and lower threshold for thrombolysis."
+          },
+          "guideline": "ESC Pulmonary Embolism Guidelines 2019 — intermediate-high risk PE: anticoagulate; rescue thrombolysis for haemodynamic deterioration",
+          "trial": "PEITHO trial (Meyer G, NEJM 2014): tenecteplase vs heparin for intermediate-high risk PE — thrombolysis: less haemodynamic compromise but higher major bleeding (11.5% vs 2.4%); no mortality benefit; thrombolysis not routine for intermediate-high risk.",
+          "pearl": "PE risk stratification: (1) haemodynamically unstable (massive PE) → systemic thrombolysis or embolectomy; (2) stable + RV dysfunction + troponin (intermediate-high) → anticoagulate, ICU monitoring, rescue thrombolysis if deteriorates; (3) stable, no RV strain → anticoagulate ± early discharge (low-risk)."
+        }
+      },
+      {
+        "id": "E3-Q8",
+        "stem": "A 58-year-old diabetic woman presents with an ischaemic right foot ulcer at the base of the 2nd toe (tissue loss, ABI 0.45). Duplex and CTA show a long SFA occlusion (15cm) with 3-vessel tibial disease. She has a good saphenous vein. She is fit for surgery. What is the most appropriate vascular intervention for limb salvage?",
+        "options": {
+          "A": "Primary amputation — 3-vessel tibial disease is not reconstructable",
+          "B": "Femoral to posterior tibial artery bypass with reversed saphenous vein",
+          "C": "PTA/stenting of the SFA occlusion only",
+          "D": "Prostaglandin infusion as primary treatment"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "This is critical limb-threatening ischaemia (CLTI — tissue loss, ABI 0.45). BASIL-2 and WIfI classification guide management. With a long SFA occlusion and distal tibial disease, and an available saphenous vein, femoral-distal bypass (infrainguinal bypass) to the best tibial target vessel provides the best long-term patency (5-year primary patency 70% for vein bypass vs 50% for angioplasty) and limb salvage rate.",
+          "wrong": {
+            "A": "Primary amputation is not appropriate when a bypass target vessel exists and good vein is available. Limb salvage should be attempted — bypass achieves 70-80% limb salvage at 1 year in CLTI.",
+            "C": "SFA angioplasty/stenting alone in 3-vessel tibial disease would not restore adequate pedal perfusion for wound healing. The target vessel for tissue loss must be revascularised — tibial bypass is required.",
+            "D": "Prostaglandin infusion (iloprost) is used for CLTI in patients not suitable for revascularisation. This patient is fit for surgery with a suitable vein — bypass provides superior limb salvage."
+          },
+          "guideline": "ESVS CLTI Guidelines 2019 — infrainguinal bypass with autologous vein for CLTI with suitable anatomy; angioplasty if no vein available",
+          "trial": "BASIL-1 trial (Bradbury AW, Lancet 2005): bypass vs angioplasty for CLTI — equivalent limb salvage at 1 year; bypass superior at 2 years (amputation-free survival 52% vs 39%); vein bypass preferred in patients with >2-year life expectancy.",
+          "pearl": "WIfI classification for CLTI: Wound (0-3), Ischaemia (0-3), foot Infection (0-3). High WIfI stages predict amputation risk and guide revascularisation urgency. Autologous vein bypass: reversed or in-situ great saphenous vein is the conduit of choice — 5-year patency 70%. PTFE conduit: 5-year patency 40-50% (inferior to vein)."
+        }
+      },
+      {
+        "id": "E3-Q9",
+        "stem": "A 70-year-old man undergoes elective EVAR for a 5.8cm infrarenal AAA. CT at 6 months shows a type II endoleak from a patent inferior mesenteric artery with a sac size increase of 5mm compared to the post-operative CT. What is the appropriate management?",
+        "options": {
+          "A": "Immediate conversion to open repair",
+          "B": "Observation — type II endoleak always resolves spontaneously",
+          "C": "Embolisation (coil or glue) of the feeding vessel via transarterial or translumbar approach",
+          "D": "Re-EVAR with a new covered stent extension"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Type II endoleak (retrograde flow into the sac from branch vessels — IMA, lumbar arteries) with sac expansion (>5mm) requires intervention. First-line is embolisation: transarterial IMA embolisation via the SMA/IMA arcade, or direct translumbar sac puncture and coil/glue embolisation of the feeding vessel and sac. Sac growth indicates ongoing pressurisation and rupture risk if untreated.",
+          "wrong": {
+            "A": "Conversion to open repair is not first-line for type II endoleak — it carries significant morbidity after EVAR. Embolisation is minimally invasive and effective as first-line treatment.",
+            "B": "Type II endoleak without sac expansion may be observed, but sac growth ≥5mm indicates ongoing pressurisation requiring intervention. Not all type II endoleaks resolve spontaneously — 30% require treatment.",
+            "D": "Re-EVAR with stent extension is for type I or type III endoleaks (poor seal at proximal/distal landing zones or modular junction). Type II endoleak arises from branch vessels — a new stent does not address this."
+          },
+          "guideline": "ESVS AAA Guidelines 2019 — type II endoleak: observe if no sac growth; treat if sac growth ≥5mm or ongoing at 6 months",
+          "trial": "Sidloff DA et al., Eur J Vasc Endovasc Surg 2019: type II endoleak management — transarterial embolisation: 60% primary success; translumbar: 80% success; sac growth the critical trigger for intervention.",
+          "pearl": "Endoleak classification: I = poor seal at landing zones (proximal Ia, distal Ib) — urgent; II = retrograde branch flow (IMA, lumbar) — treat if sac grows; III = modular disconnection or fabric tear — urgent; IV = fabric porosity (historical); V = endotension (sac growth, no visible leak). Types I, III = urgent conversion or re-EVAR."
+        }
+      },
+      {
+        "id": "E3-Q10",
+        "stem": "A 65-year-old man with critical limb ischaemia undergoes femoral-popliteal bypass with reversed saphenous vein. On day 2 post-operatively, his foot pulses disappear. Duplex shows no flow in the graft. What is the most likely cause and immediate management?",
+        "options": {
+          "A": "Graft infection — IV antibiotics and observe",
+          "B": "Early graft thrombosis — urgent return to theatre for thrombectomy and revision",
+          "C": "Normal post-operative oedema causing reduced flow — elevation and compression",
+          "D": "Heparin-induced thrombocytopenia — stop heparin and start argatroban"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Early graft thrombosis within 30 days is caused by: technical error (anastomotic kink, intimal flap, poor runoff), inadequate anticoagulation, or poor conduit quality. Immediate return to theatre for graft thrombectomy (Fogarty catheter) and revision (check anastomoses, correct technical errors, assess runoff with on-table angiography) is mandatory — delay increases limb loss risk.",
+          "wrong": {
+            "A": "Graft infection is a late complication (>30 days) presenting with sepsis, wound breakdown, and anastomotic false aneurysm — not acute foot pulse loss on day 2. Acute loss of pulses is thrombosis until proven otherwise.",
+            "C": "Post-operative oedema causes leg swelling but does not abolish graft flow or foot pulses. Absent duplex signal confirms occlusion — elevation and compression have no role.",
+            "D": "HIT typically presents 5–10 days after heparin exposure with thrombocytopenia. While HIT can cause graft thrombosis, it is not the primary management in the acute setting — urgent thrombectomy takes priority, followed by investigation for HIT."
+          },
+          "guideline": "ESVS Bypass Surgery Guidelines 2018 — early graft thrombosis: urgent re-exploration; thrombectomy + revision; on-table angiography to identify technical cause",
+          "trial": "Conte MS et al., J Vasc Surg 2019: infrainguinal bypass outcomes — early graft thrombosis (<30 days): 3-5%; causes: technical 60%, runoff 30%, conduit 10%; surgical revision: 60% graft salvage.",
+          "pearl": "Causes of graft thrombosis by timing: <30 days (early) = technical; 1-24 months (intermediate) = intimal hyperplasia at anastomosis; >24 months (late) = atherosclerosis progression in outflow. Surveillance duplex at 1, 6, 12, 24 months detects stenosis before thrombosis — intervention when peak systolic velocity ratio >3.5 at anastomosis."
+        }
+      }
+    ]
+  }
 }

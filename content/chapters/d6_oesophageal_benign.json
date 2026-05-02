@@ -24,13 +24,43 @@
         {
           "type": "table",
           "title": "GERD Diagnostic Investigations",
-          "headers": ["Investigation", "Key Parameters", "Normal Threshold", "When to Use"],
+          "headers": [
+            "Investigation",
+            "Key Parameters",
+            "Normal Threshold",
+            "When to Use"
+          ],
           "rows": [
-            ["24h pH-impedance (off PPI 7 days)", "DeMeester score; % time pH<4; symptom correlation index", "DeMeester <14.72; % time pH<4 < 4.5%", "Pre-operative workup; persistent symptoms on PPI; atypical symptoms"],
-            ["BRAVO pH capsule", "% time pH<4 over 48–96h; symptom index", "As per standard pH thresholds", "Patients intolerant of nasogastric catheter; off vs on PPI comparison"],
-            ["High-resolution manometry", "LOS resting pressure; length; intra-abdominal segment; peristaltic reserve", "LOS >6 mmHg; adequate peristalsis", "Pre-operative essential; assess motility before fundoplication selection"],
-            ["Upper GI endoscopy", "LA Grade (A/B/C/D) oesophagitis; Barrett's; Hiatal hernia; malignancy", "No erosive oesophagitis; SCJ at/below hiatus", "All surgical candidates; Barrett's surveillance"],
-            ["Barium swallow", "Hiatal hernia size/type; reflux; stricture; motility", "No reflux; GEJ below diaphragm", "Type assessment of hiatal hernia; motility disorders; post-operative assessment"]
+            [
+              "24h pH-impedance (off PPI 7 days)",
+              "DeMeester score; % time pH<4; symptom correlation index",
+              "DeMeester <14.72; % time pH<4 < 4.5%",
+              "Pre-operative workup; persistent symptoms on PPI; atypical symptoms"
+            ],
+            [
+              "BRAVO pH capsule",
+              "% time pH<4 over 48–96h; symptom index",
+              "As per standard pH thresholds",
+              "Patients intolerant of nasogastric catheter; off vs on PPI comparison"
+            ],
+            [
+              "High-resolution manometry",
+              "LOS resting pressure; length; intra-abdominal segment; peristaltic reserve",
+              "LOS >6 mmHg; adequate peristalsis",
+              "Pre-operative essential; assess motility before fundoplication selection"
+            ],
+            [
+              "Upper GI endoscopy",
+              "LA Grade (A/B/C/D) oesophagitis; Barrett's; Hiatal hernia; malignancy",
+              "No erosive oesophagitis; SCJ at/below hiatus",
+              "All surgical candidates; Barrett's surveillance"
+            ],
+            [
+              "Barium swallow",
+              "Hiatal hernia size/type; reflux; stricture; motility",
+              "No reflux; GEJ below diaphragm",
+              "Type assessment of hiatal hernia; motility disorders; post-operative assessment"
+            ]
           ]
         },
         {
@@ -52,12 +82,47 @@
         {
           "type": "table",
           "title": "Comparison of Fundoplication Types",
-          "headers": ["Type", "Wrap", "Degree", "Indication", "Advantages", "Risks"],
+          "headers": [
+            "Type",
+            "Wrap",
+            "Degree",
+            "Indication",
+            "Advantages",
+            "Risks"
+          ],
           "rows": [
-            ["Nissen", "Total posterior wrap", "360°", "Normal/near-normal oesophageal motility", "Most durable anti-reflux effect; lowest recurrence", "Dysphagia (6–10%); gas-bloat syndrome; inability to belch/vomit"],
-            ["Toupet", "Posterior partial wrap", "270°", "Impaired oesophageal motility (<70% peristaltic waves or amplitude <30 mmHg)", "Less dysphagia than Nissen; preserves some ability to belch", "Slightly less acid control than Nissen; higher recurrence rate"],
-            ["Dor", "Anterior partial wrap", "180°", "After Heller myotomy (achalasia); poor motility", "Protects myotomy; easy to perform without posterior dissection", "Least anti-reflux efficacy; rarely used for primary GERD"],
-            ["Linx", "Magnetic sphincter augmentation ring (MSA)", "Circumferential augmentation", "Mild-moderate GERD; normal anatomy", "Reversible; preserves ability to belch/vomit; less dysphagia", "MRI restrictions (conditional device); Dysphagia 6%; removal needed in 3–5%"]
+            [
+              "Nissen",
+              "Total posterior wrap",
+              "360°",
+              "Normal/near-normal oesophageal motility",
+              "Most durable anti-reflux effect; lowest recurrence",
+              "Dysphagia (6–10%); gas-bloat syndrome; inability to belch/vomit"
+            ],
+            [
+              "Toupet",
+              "Posterior partial wrap",
+              "270°",
+              "Impaired oesophageal motility (<70% peristaltic waves or amplitude <30 mmHg)",
+              "Less dysphagia than Nissen; preserves some ability to belch",
+              "Slightly less acid control than Nissen; higher recurrence rate"
+            ],
+            [
+              "Dor",
+              "Anterior partial wrap",
+              "180°",
+              "After Heller myotomy (achalasia); poor motility",
+              "Protects myotomy; easy to perform without posterior dissection",
+              "Least anti-reflux efficacy; rarely used for primary GERD"
+            ],
+            [
+              "Linx",
+              "Magnetic sphincter augmentation ring (MSA)",
+              "Circumferential augmentation",
+              "Mild-moderate GERD; normal anatomy",
+              "Reversible; preserves ability to belch/vomit; less dysphagia",
+              "MRI restrictions (conditional device); Dysphagia 6%; removal needed in 3–5%"
+            ]
           ]
         },
         {
@@ -138,12 +203,42 @@
         {
           "type": "table",
           "title": "Chicago Classification v4.0 — Achalasia Subtypes and Treatment Response",
-          "headers": ["Subtype", "HRM Findings", "Oesophageal Body", "Best Response", "Notes"],
+          "headers": [
+            "Subtype",
+            "HRM Findings",
+            "Oesophageal Body",
+            "Best Response",
+            "Notes"
+          ],
           "rows": [
-            ["Type I (Classic)", "Absent peristalsis; IRP >15 mmHg (HRIM); 100% failed sequences", "Minimal pressurisation; dilated oesophagus", "Surgery (Heller+Dor) = POEM > PD", "Most advanced; dilated megaoesophagus in longstanding disease"],
-            ["Type II (Compartmentalised pressurisation)", "Absent peristalsis; IRP >15 mmHg; ≥20% pan-oesophageal pressurisation", "Pan-oesophageal pressurisation in ≥20% swallows", "Best overall response to ALL treatments; POEM preferred", "Most common in practice; best prognosis"],
-            ["Type III (Spastic/jackhammer)", "IRP >15 mmHg; ≥20% premature (spastic) contractions; DL <4.5s", "Spastic contractions; high DCI", "POEM superior (targets both LOS and spastic body)", "Chest pain predominant; POEM targets myotomy along entire spastic segment"],
-            ["Pseudo-achalasia / Secondary", "IRP elevated; aperistalsis; NO LOS relaxation", "Variable — often mimics Type I/II", "Treat underlying cause", "Must exclude malignancy at GEJ (CT chest/abdomen, EUS, endoscopy)"]
+            [
+              "Type I (Classic)",
+              "Absent peristalsis; IRP >15 mmHg (HRIM); 100% failed sequences",
+              "Minimal pressurisation; dilated oesophagus",
+              "Surgery (Heller+Dor) = POEM > PD",
+              "Most advanced; dilated megaoesophagus in longstanding disease"
+            ],
+            [
+              "Type II (Compartmentalised pressurisation)",
+              "Absent peristalsis; IRP >15 mmHg; ≥20% pan-oesophageal pressurisation",
+              "Pan-oesophageal pressurisation in ≥20% swallows",
+              "Best overall response to ALL treatments; POEM preferred",
+              "Most common in practice; best prognosis"
+            ],
+            [
+              "Type III (Spastic/jackhammer)",
+              "IRP >15 mmHg; ≥20% premature (spastic) contractions; DL <4.5s",
+              "Spastic contractions; high DCI",
+              "POEM superior (targets both LOS and spastic body)",
+              "Chest pain predominant; POEM targets myotomy along entire spastic segment"
+            ],
+            [
+              "Pseudo-achalasia / Secondary",
+              "IRP elevated; aperistalsis; NO LOS relaxation",
+              "Variable — often mimics Type I/II",
+              "Treat underlying cause",
+              "Must exclude malignancy at GEJ (CT chest/abdomen, EUS, endoscopy)"
+            ]
           ]
         },
         {
@@ -182,14 +277,42 @@
         {
           "type": "table",
           "title": "Barrett's Oesophagus — Surveillance Intervals and Endoscopic Treatment",
-          "headers": ["Histology", "Surveillance Interval", "Management"],
+          "headers": [
+            "Histology",
+            "Surveillance Interval",
+            "Management"
+          ],
           "rows": [
-            ["Non-dysplastic intestinal metaplasia (NDBO)", "3–5 years (BSG 2014)", "Lifestyle + PPI; surveillance endoscopy with Seattle protocol biopsies (4-quadrant biopsies every 2 cm)"],
-            ["Indefinite for dysplasia (IND)", "6–12 months after PPI optimisation (2 months high-dose PPI)", "Repeat endoscopy after PPI — if persistent IND, manage as LGD"],
-            ["Low-grade dysplasia (LGD)", "6 months to 1 year; confirmed by 2nd expert pathologist", "Endoscopic eradication therapy (RFA preferred) — reduces progression to HGD/cancer by 25% (AIM-LGD trial)"],
-            ["High-grade dysplasia (HGD)", "Immediate endoscopic treatment", "EMR of any visible lesion FIRST (complete staging) + RFA (HALO) for flat HGD. If T1a or T1b sm1 = endoscopic management; T1b sm2+ = surgical resection"],
-            ["Intramucosal carcinoma (T1a)", "Post-EMR surveillance at 3, 6, 12 months, then annually", "EMR + RFA for complete eradication; oesophagectomy not required"],
-            ["T1b submucosal carcinoma", "Oncology MDT", "EMR for staging + risk stratification: sm1 (<500μm depth, no LVI) = endoscopic; sm2+ = oesophagectomy"]
+            [
+              "Non-dysplastic intestinal metaplasia (NDBO)",
+              "3–5 years (BSG 2014)",
+              "Lifestyle + PPI; surveillance endoscopy with Seattle protocol biopsies (4-quadrant biopsies every 2 cm)"
+            ],
+            [
+              "Indefinite for dysplasia (IND)",
+              "6–12 months after PPI optimisation (2 months high-dose PPI)",
+              "Repeat endoscopy after PPI — if persistent IND, manage as LGD"
+            ],
+            [
+              "Low-grade dysplasia (LGD)",
+              "6 months to 1 year; confirmed by 2nd expert pathologist",
+              "Endoscopic eradication therapy (RFA preferred) — reduces progression to HGD/cancer by 25% (AIM-LGD trial)"
+            ],
+            [
+              "High-grade dysplasia (HGD)",
+              "Immediate endoscopic treatment",
+              "EMR of any visible lesion FIRST (complete staging) + RFA (HALO) for flat HGD. If T1a or T1b sm1 = endoscopic management; T1b sm2+ = surgical resection"
+            ],
+            [
+              "Intramucosal carcinoma (T1a)",
+              "Post-EMR surveillance at 3, 6, 12 months, then annually",
+              "EMR + RFA for complete eradication; oesophagectomy not required"
+            ],
+            [
+              "T1b submucosal carcinoma",
+              "Oncology MDT",
+              "EMR for staging + risk stratification: sm1 (<500μm depth, no LVI) = endoscopic; sm2+ = oesophagectomy"
+            ]
           ]
         },
         {
@@ -222,11 +345,27 @@
         {
           "type": "table",
           "title": "Pittsburgh Classification for Oesophageal Perforation Severity",
-          "headers": ["Class", "Criteria", "Management"],
+          "headers": [
+            "Class",
+            "Criteria",
+            "Management"
+          ],
           "rows": [
-            ["Class I (Low risk)", "Age <75 years; no malignancy; cervical perforation; minimal contrast extravasation; diagnosis within 24h; no fluid in mediastinum or pleura; no tachycardia/fever", "Conservative: nil by mouth, IV antibiotics, PPI, NG decompression, close monitoring; surgery if deteriorating"],
-            ["Class II (Medium risk)", "1 risk factor: age >75, delayed presentation (24–48h), location (thoracic), moderate mediastinal soiling, pleural fluid without empyema", "Primary repair (if <24h, tissue viable) + mediastinal drainage; or T-tube drainage; oesophageal stent (SEMS) if repair not possible"],
-            ["Class III (High risk)", "≥2 risk factors, delayed >48–72h, malignancy, severe mediastinal soiling, empyema, systemic sepsis, established fistula", "Oesophageal diversion (spit fistula) or stent + drainage; resection ± reconstruction in staged approach; ICU admission"]
+            [
+              "Class I (Low risk)",
+              "Age <75 years; no malignancy; cervical perforation; minimal contrast extravasation; diagnosis within 24h; no fluid in mediastinum or pleura; no tachycardia/fever",
+              "Conservative: nil by mouth, IV antibiotics, PPI, NG decompression, close monitoring; surgery if deteriorating"
+            ],
+            [
+              "Class II (Medium risk)",
+              "1 risk factor: age >75, delayed presentation (24–48h), location (thoracic), moderate mediastinal soiling, pleural fluid without empyema",
+              "Primary repair (if <24h, tissue viable) + mediastinal drainage; or T-tube drainage; oesophageal stent (SEMS) if repair not possible"
+            ],
+            [
+              "Class III (High risk)",
+              "≥2 risk factors, delayed >48–72h, malignancy, severe mediastinal soiling, empyema, systemic sepsis, established fistula",
+              "Oesophageal diversion (spit fistula) or stent + drainage; resection ± reconstruction in staged approach; ICU admission"
+            ]
           ]
         },
         {
@@ -260,14 +399,49 @@
         {
           "type": "table",
           "title": "Forrest Classification — Upper GI Bleeding from Peptic Ulcer",
-          "headers": ["Forrest Class", "Endoscopic Appearance", "Rebleeding Risk (%)", "Treatment"],
+          "headers": [
+            "Forrest Class",
+            "Endoscopic Appearance",
+            "Rebleeding Risk (%)",
+            "Treatment"
+          ],
           "rows": [
-            ["Ia", "Arterial spurting haemorrhage", "90%", "Immediate endoscopic therapy (dual: injection + thermal/clip); PPI infusion; consider IR embolisation if fails"],
-            ["Ib", "Oozing haemorrhage", "50–55%", "Endoscopic therapy (dual); high-dose PPI infusion (80 mg bolus then 8 mg/h × 72h)"],
-            ["IIa", "Non-bleeding visible vessel (pigmented protuberance)", "40–50%", "Endoscopic therapy (dual); high-dose PPI; admit for 72h"],
-            ["IIb", "Adherent blood clot", "20–30%", "Irrigate to remove clot; if underlying IIa = treat; if clear base = IIc management"],
-            ["IIc", "Flat pigmented haematin spot", "5–10%", "High-dose oral PPI; early discharge if haemodynamically stable"],
-            ["III", "Clean base ulcer", "<5%", "Oral PPI; same-day or next-day discharge if stable"]
+            [
+              "Ia",
+              "Arterial spurting haemorrhage",
+              "90%",
+              "Immediate endoscopic therapy (dual: injection + thermal/clip); PPI infusion; consider IR embolisation if fails"
+            ],
+            [
+              "Ib",
+              "Oozing haemorrhage",
+              "50–55%",
+              "Endoscopic therapy (dual); high-dose PPI infusion (80 mg bolus then 8 mg/h × 72h)"
+            ],
+            [
+              "IIa",
+              "Non-bleeding visible vessel (pigmented protuberance)",
+              "40–50%",
+              "Endoscopic therapy (dual); high-dose PPI; admit for 72h"
+            ],
+            [
+              "IIb",
+              "Adherent blood clot",
+              "20–30%",
+              "Irrigate to remove clot; if underlying IIa = treat; if clear base = IIc management"
+            ],
+            [
+              "IIc",
+              "Flat pigmented haematin spot",
+              "5–10%",
+              "High-dose oral PPI; early discharge if haemodynamically stable"
+            ],
+            [
+              "III",
+              "Clean base ulcer",
+              "<5%",
+              "Oral PPI; same-day or next-day discharge if stable"
+            ]
           ]
         },
         {
@@ -660,5 +834,240 @@
         "pearl": "Type I achalasia treatment decision tree: (1) Heller + Dor or POEM if not sigmoid/end-stage. (2) If sigmoid megaoesophagus without end-stage features — POEM/Heller still attempted. (3) If true end-stage sigmoid megaoesophagus, failed multiple treatments — oesophagectomy with gastric pull-up."
       }
     }
-  ]
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of benign oesophageal disease and oesophageal surgery with 10 clinical questions.",
+    "questions": [
+      {
+        "id": "D6-Q1",
+        "stem": "A 48-year-old woman presents with progressive dysphagia to solids and liquids for 18 months, weight loss of 6kg, and regurgitation of undigested food. Barium swallow shows a 'bird-beak' tapering of the distal oesophagus. Oesophageal manometry shows aperistalsis of the oesophageal body and incomplete lower oesophageal sphincter relaxation. What is the diagnosis and the treatment of choice for a fit patient?",
+        "options": {
+          "A": "Peptic stricture — endoscopic dilation",
+          "B": "Achalasia — laparoscopic Heller myotomy with partial fundoplication",
+          "C": "Achalasia — pneumatic balloon dilation",
+          "D": "Diffuse oesophageal spasm — calcium channel blockers"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "The clinical presentation (dysphagia to solids AND liquids, aperistalsis, incomplete LES relaxation, bird-beak appearance) is classic for achalasia. For a fit patient, laparoscopic Heller myotomy (LHM) with partial fundoplication (Dor or Toupet) provides durable symptom relief in 85–95% of patients at 5 years. It is superior to single pneumatic dilation for long-term durability.",
+          "wrong": {
+            "A": "Peptic stricture causes dysphagia to solids (not liquids early), occurs in GORD context, and does not show aperistalsis on manometry. The bird-beak appearance with manometric findings is diagnostic of achalasia.",
+            "C": "Pneumatic dilation achieves 80–85% short-term success but has a 50% recurrence rate at 5 years and requires repeat procedures. LHM is preferred for fit patients. The POETSS trial showed POEM (per-oral endoscopic myotomy) to be equivalent to LHM.",
+            "D": "Diffuse oesophageal spasm presents with chest pain and dysphagia, with simultaneous high-amplitude contractions on manometry. Incomplete LES relaxation and aperistalsis are not DES features — this is achalasia."
+          },
+          "guideline": "ISDE/ACG Achalasia Guidelines 2020 — LHM with fundoplication as preferred surgical treatment; POEM as equivalent endoscopic option",
+          "trial": "POETSS trial (Ponds FA, Gastroenterology 2019): POEM vs pneumatic dilation — POEM: 92% success at 2 years vs 54% for single dilation; equivalent to LHM at 5 years.",
+          "pearl": "Achalasia subtypes (Chicago Classification v4.0): Type I (classic, no pressurisation), Type II (panesophageal pressurisation — best surgical outcomes 95%), Type III (spastic, premature contractions — POEM preferred over LHM as longer myotomy needed). Always exclude pseudoachalasia (malignancy at gastro-oesophageal junction) with CT/EUS."
+        }
+      },
+      {
+        "id": "D6-Q2",
+        "stem": "A 55-year-old man with a 15-year history of GORD, currently on PPI, undergoes upper GI endoscopy showing Barrett's oesophagus (2cm segment, Prague classification C1M3). Four-quadrant biopsies confirm intestinal metaplasia with no dysplasia. What is the recommended surveillance interval?",
+        "options": {
+          "A": "Repeat endoscopy in 6 weeks to confirm diagnosis",
+          "B": "Annual endoscopy with four-quadrant biopsies",
+          "C": "Endoscopy every 2–3 years for non-dysplastic Barrett's ≥3cm (long-segment)",
+          "D": "No further endoscopy needed — non-dysplastic Barrett's requires no surveillance"
+        },
+        "correct": "C",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "BSG 2023 and ASGE 2022 guidelines for non-dysplastic Barrett's oesophagus: long-segment (≥3cm) → surveillance endoscopy every 2–3 years. Short-segment (<3cm) → every 3–5 years. This patient has Prague C1M3 (circumferential 1cm, maximal extent 3cm), placing him in the long-segment category.",
+          "wrong": {
+            "A": "Re-biopsy at 6 weeks is not recommended after confirmed intestinal metaplasia on multiple four-quadrant biopsies. The diagnosis is established.",
+            "B": "Annual endoscopy is appropriate for low-grade dysplasia (LGD) after confirmation and treatment decision. Non-dysplastic Barrett's does not warrant annual surveillance.",
+            "D": "Non-dysplastic Barrett's carries 0.3% per year risk of progression to oesophageal adenocarcinoma. Surveillance is recommended, particularly for long-segment disease, as part of agreed BSG/ASGE guidelines."
+          },
+          "guideline": "BSG Barrett's Oesophagus Guidelines 2023 — surveillance intervals: non-dysplastic short-segment 3-5y; long-segment 2-3y",
+          "trial": "Hvid-Jensen F et al., NEJM 2011: population-based Barrett's surveillance — annual cancer incidence 0.12%; cancer risk increases with segment length; surveillance justified for ≥3cm.",
+          "pearl": "Prague classification: C = circumferential extent (cm above GOJ); M = maximum extent. C1M3 = circumferential 1cm, maximum 3cm. Key surveillance thresholds: non-dysplastic: 2-3y (long); LGD confirmed: ablation (RFA) or 6-monthly surveillance; HGD: endoscopic ablation mandatory; T1a cancer: endoscopic resection (EMR/ESD)."
+        }
+      },
+      {
+        "id": "D6-Q3",
+        "stem": "A 65-year-old man presents to the emergency department with sudden severe chest pain and dysphagia after forceful vomiting. CXR shows a left pleural effusion and mediastinal air. CT confirms oesophageal perforation with left pleural contamination. He is 8 hours from the event and haemodynamically stable. What is the most appropriate management?",
+        "options": {
+          "A": "Conservative management — nil by mouth, IV antibiotics, and chest drain",
+          "B": "Primary surgical repair of the perforation with tissue flap reinforcement",
+          "C": "Endoscopic covered stent insertion to seal the perforation",
+          "D": "Emergency oesophagectomy"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Boerhaave syndrome (spontaneous oesophageal perforation from forceful vomiting) requires urgent management. At 8 hours with pleural contamination, primary surgical repair (left thoracotomy, two-layer closure, reinforced with pleural/intercostal muscle flap or diaphragm patch) is the treatment of choice. Success rates are 80–90% when repaired within 24 hours. Left thoracotomy also allows pleural debridement and drain placement.",
+          "wrong": {
+            "A": "Conservative management (nil by mouth, antibiotics, chest drain) is appropriate only for very small, contained perforations in a clinically well patient with no mediastinal contamination. Established pleural contamination requires surgical or endoscopic intervention.",
+            "C": "Covered oesophageal stents can seal perforations and are a viable option for perforations detected late (>24h) or in patients unfit for surgery. At 8 hours with a stable patient, primary repair achieves better outcomes.",
+            "D": "Emergency oesophagectomy is not indicated for Boerhaave syndrome. It is only considered if the perforation is at a site of malignancy or if primary repair fails with extensive necrosis."
+          },
+          "guideline": "WSES Oesophageal Perforation Guidelines 2019 — primary repair within 24h for Boerhaave; stent for late presentation or high surgical risk",
+          "trial": "Biancari F et al., Ann Thorac Surg 2014: oesophageal perforation meta-analysis — primary repair: mortality 18%; endoscopic stent: 19%; conservative: 11% (but only for contained/small perforations). Surgery preferred for pleural contamination.",
+          "pearl": "Mackler's triad (Boerhaave): vomiting → chest pain → subcutaneous emphysema. CXR: left pleural effusion, mediastinal air. Confirm with water-soluble swallow or CT with oral contrast. Gastrografin first (aspiration risk of barium); if negative but strong suspicion, dilute barium or CT."
+        }
+      },
+      {
+        "id": "D6-Q4",
+        "stem": "A 72-year-old woman presents with progressive dysphagia to solids, a sensation of food sticking in the throat, gurgling sounds, and halitosis. She occasionally regurgitates undigested food eaten hours earlier. Barium swallow shows a posterior pharyngeal diverticulum at the level of Killian's dehiscence. What is the management?",
+        "options": {
+          "A": "Endoscopic cricopharyngeal myotomy and septotomy (stapled or laser)",
+          "B": "Open transcervical diverticulectomy with cricopharyngeal myotomy",
+          "C": "Conservative management — dietary modification",
+          "D": "PEG tube insertion for long-term nutrition"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Zenker's diverticulum (posterior pharyngeal diverticulum at Killian's dehiscence) is managed endoscopically in most symptomatic patients. Flexible or rigid endoscopic stapling/laser septotomy divides the cricopharyngeus muscle (the bar between the diverticulum and the oesophagus), creating a common cavity. This is less invasive than open surgery, with equivalent symptom relief (85–90%) and faster recovery.",
+          "wrong": {
+            "B": "Open transcervical diverticulectomy with cricopharyngeal myotomy achieves equivalent success (85–90%) but carries higher complication rates (recurrent laryngeal nerve injury, fistula). It is reserved for very large (>5cm) diverticula, endoscopic failure, or contraindications to endoscopy.",
+            "C": "Dietary modification does not treat Zenker's diverticulum. The diverticulum will continue to enlarge and risk aspiration. Symptomatic diverticula require procedural treatment.",
+            "D": "PEG tube insertion is a last resort for patients with severe dysphagia who cannot be fed orally and are unfit for any procedure. It does not treat the diverticulum."
+          },
+          "guideline": "ESGE Guidelines for Upper GI Endoscopy 2022 — endoscopic septotomy preferred for Zenker's diverticulum",
+          "trial": "Verdonck J et al., Laryngoscope 2020: systematic review — endoscopic vs open Zenker's — equivalent efficacy (85-90%); endoscopic: shorter hospital stay, fewer complications; preferred approach.",
+          "pearl": "Zenker's diverticulum arises at Killian's dehiscence (between thyropharyngeus and cricopharyngeus muscles of inferior pharyngeal constrictor) — a weak posterior point. The diverticulum is not in the true oesophagus but in the pharynx. Cricopharyngeal hypertonia is the underlying cause — myotomy addresses this."
+        }
+      },
+      {
+        "id": "D6-Q5",
+        "stem": "A 52-year-old man has a 3.5cm type II (rolling/paraesophageal) hiatus hernia on CT, with the gastric fundus herniating into the chest alongside the gastro-oesophageal junction. He is asymptomatic. What is the recommended management?",
+        "options": {
+          "A": "Watchful waiting — repair only if symptoms develop",
+          "B": "Elective laparoscopic hiatus hernia repair because all paraesophageal hernias require surgical repair",
+          "C": "Long-term PPI therapy",
+          "D": "Elective laparoscopic repair given risk of acute gastric volvulus and strangulation"
+        },
+        "correct": "A",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "The management of asymptomatic paraesophageal (type II) hernia is controversial. The SAGES 2013 guidelines and contemporary data do not support universal elective repair for asymptomatic paraesophageal hernias. The annual risk of acute presentation (gastric volvulus, strangulation) is 1.1–1.2%. In older/comorbid patients, elective repair carries 1-2% mortality that may equal the natural history risk. Watchful waiting with patient education about acute symptoms is appropriate for asymptomatic patients.",
+          "wrong": {
+            "B": "The dogma of 'all PEH require repair' has been challenged by observational data showing low acute complication rates. Asymptomatic PEH in elderly or high-risk patients can be safely observed.",
+            "C": "PPIs treat GORD symptoms but do not prevent mechanical complications of paraesophageal herniation (volvulus, strangulation, Cameron's erosions). Long-term PPI is not the definitive management.",
+            "D": "While acute gastric volvulus is a risk, the absolute annual risk is low (1.1%) and elective repair carries morbidity. This logic applies to symptomatic PEH — elective repair is indicated for symptoms, not simply for risk prevention in asymptomatic patients."
+          },
+          "guideline": "SAGES Guidelines for Hiatal Hernia Repair 2013 — elective repair for symptomatic PEH; watchful waiting acceptable for asymptomatic PEH",
+          "trial": "Stylopoulos N et al., Ann Surg 2002: decision analysis for asymptomatic PEH — watchful waiting preferred up to age 65; annual complication risk 1.1%; elective repair: 1.4% mortality at age 65.",
+          "pearl": "Symptomatic PEH (GORD, anaemia from Cameron ulcers, post-prandial pain, dysphagia) warrants elective laparoscopic repair. Type III (mixed) and Type IV (with other organs) are more complex — combined Nissen/Toupet fundoplication with crural repair and mesh reinforcement."
+        }
+      },
+      {
+        "id": "D6-Q6",
+        "stem": "A 45-year-old man presents with heartburn and regurgitation refractory to twice-daily PPI for 3 months. 24-hour pH impedance study confirms pathological acid reflux (DeMeester score 48) despite PPIs. High-resolution manometry shows normal peristalsis and LES resting pressure 8 mmHg (low). He declines ongoing medication. What is the surgical treatment of choice?",
+        "options": {
+          "A": "Laparoscopic Nissen fundoplication (360° wrap)",
+          "B": "Laparoscopic Toupet fundoplication (270° posterior wrap)",
+          "C": "Magnetic sphincter augmentation (LINX device)",
+          "D": "Laparoscopic anterior fundoplication (180°)"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "For GORD with pathological acid reflux confirmed on pH impedance, normal oesophageal peristalsis, and low LES pressure, laparoscopic Nissen fundoplication (360° wrap) is the gold standard surgical treatment. It achieves pH normalisation in >90% and freedom from PPIs in 85–90% at 10 years. Normal peristalsis (essential prerequisite) means the 360° wrap can be tolerated without significant dysphagia.",
+          "wrong": {
+            "B": "Toupet (270°) is preferred when peristalsis is weak (amplitude <30 mmHg) to reduce dysphagia risk. With normal peristalsis, Nissen provides superior acid control.",
+            "C": "LINX magnetic sphincter augmentation is an effective alternative for mild-to-moderate GORD with intact peristalsis, achieving 85% freedom from PPIs. It is particularly suitable for patients with concerns about fundoplication complications. However, Nissen remains the gold standard for durability.",
+            "D": "Anterior 180° fundoplication has lower dysphagia rates but also lower anti-reflux efficacy (75% freedom from PPIs vs 85–90% for Nissen). Not the first-line surgical option in a fit patient with good peristalsis."
+          },
+          "guideline": "ISDE GORD Surgical Guidelines 2022 — laparoscopic Nissen fundoplication as gold standard for pathological GORD with normal peristalsis",
+          "trial": "LOTUS trial (Lundell, Gut 2011): laparoscopic Nissen vs esomeprazole — GORD control at 5 years: 85% vs 93%; both effective; surgery preferred in patients who desire medication-free life.",
+          "pearl": "Pre-operative requirements for Nissen: (1) confirmed pathological GORD on pH/impedance; (2) HRM showing normal peristalsis (amplitude >30 mmHg); (3) no Barrett's HGD/cancer; (4) hiatus hernia repair if present. Weak peristalsis → Toupet. Failed previous fundoplication → LINX or redo Nissen at expert centre."
+        }
+      },
+      {
+        "id": "D6-Q7",
+        "stem": "A 35-year-old woman with achalasia (Type II, confirmed on HRM) undergoes POEM (per-oral endoscopic myotomy). At 3 months follow-up she reports excellent dysphagia relief (Eckardt score 1) but has new daily heartburn. Upper GI endoscopy shows LA grade B oesophagitis. What is the most appropriate management of this complication?",
+        "options": {
+          "A": "Redo POEM — oesophagitis indicates incomplete myotomy",
+          "B": "Long-term PPI therapy — GORD is an expected consequence of POEM without fundoplication",
+          "C": "Laparoscopic Nissen fundoplication",
+          "D": "No treatment — LA grade B oesophagitis resolves spontaneously"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "GORD is the primary disadvantage of POEM compared to laparoscopic Heller myotomy (LHM). POEM does not include fundoplication, resulting in pathological GORD in 40–50% of patients. This is managed with long-term PPI therapy in most cases. Some patients require magnetic sphincter augmentation (LINX) or fundoplication if PPIs fail. The dysphagia relief and GORD trade-off is the key POEM vs LHM comparison point.",
+          "wrong": {
+            "A": "Redo POEM is not indicated for post-POEM GORD. GORD after POEM results from absence of anti-reflux mechanism, not incomplete myotomy. Incomplete myotomy causes persistent dysphagia, not oesophagitis.",
+            "C": "Laparoscopic Nissen fundoplication is a surgical escalation reserved for PPI-refractory post-POEM GORD. PPI therapy is first-line and effective in most patients.",
+            "D": "LA grade B oesophagitis (breaks in mucosa <5mm) requires treatment to prevent progression to Barrett's and oesophageal stricture. PPIs are safe, effective, and inexpensive."
+          },
+          "guideline": "ISDE Achalasia Guidelines 2020 — post-POEM GORD: PPI long-term; 40-50% incidence; annual Barrett's surveillance",
+          "trial": "POETSS trial: GORD after POEM in 49% vs 10% after LHM; PPI effectively managed in 90%; annual surveillance endoscopy recommended after POEM.",
+          "pearl": "POEM vs LHM comparison: POEM — superior for Type III achalasia (longer myotomy possible), minimal surgical invasiveness; LHM — adds fundoplication reducing GORD. Post-POEM surveillance for Barrett's is essential given elevated GORD rates. POEM GORD incidence: 40-50% at pH monitoring, but symptomatic in only 30%."
+        }
+      },
+      {
+        "id": "D6-Q8",
+        "stem": "A 58-year-old woman has Barrett's oesophagus (C3M5) with confirmed low-grade dysplasia (LGD) on two sets of biopsies 3 months apart, reported by an expert GI pathologist. She is on twice-daily PPI. What is the preferred treatment?",
+        "options": {
+          "A": "Oesophagectomy",
+          "B": "Radiofrequency ablation (RFA) of the entire Barrett's segment",
+          "C": "Surveillance endoscopy every 6 months without treatment",
+          "D": "Continue PPI and repeat endoscopy in 2 years"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Confirmed LGD in Barrett's oesophagus warrants endoscopic ablation (radiofrequency ablation — RFA) of the entire Barrett's segment. The AIM Dysplasia trial showed RFA for LGD reduces 5-year progression to HGD/cancer from 26.5% to 1.5%. BSG 2023 and ASGE 2022 guidelines recommend RFA for confirmed LGD as first-line treatment.",
+          "wrong": {
+            "A": "Oesophagectomy carries 2–5% mortality and significant morbidity. It is reserved for T1b or higher oesophageal cancer, or HGD/T1a cancer not amenable to endoscopic resection. LGD is not an indication for oesophagectomy.",
+            "C": "Surveillance every 6 months without treatment is not optimal for confirmed LGD. The AIM Dysplasia trial demonstrates significantly higher progression rates without ablation.",
+            "D": "Continuing PPI and repeating endoscopy in 2 years is the recommendation for non-dysplastic Barrett's, not confirmed LGD. LGD requires ablation."
+          },
+          "guideline": "BSG Barrett's Guidelines 2023 — RFA for confirmed low-grade dysplasia",
+          "trial": "AIM Dysplasia trial (Shaheen NJ, NEJM 2009): RFA for LGD — 91% complete eradication of dysplasia vs 23% sham; 5-year cancer incidence 1.5% vs 9.5%; NNT to prevent one cancer: 12.",
+          "pearl": "Barrett's endoscopic treatment principles: (1) EMR/ESD for any visible lesion first (staging and therapy); (2) RFA for flat dysplasia ablation; (3) surveillance after eradication (3mo × 2, then annual). Eradication of intestinal metaplasia (complete eradication of IM — CEIM) is the treatment endpoint."
+        }
+      },
+      {
+        "id": "D6-Q9",
+        "stem": "A 60-year-old woman underwent laparoscopic Nissen fundoplication 6 months ago. She now presents with severe dysphagia to liquids and solids, weight loss 4kg, and is unable to belch. Barium swallow shows near-complete obstruction at the level of the wrap. What is the most likely complication and initial management?",
+        "options": {
+          "A": "Recurrent GORD — increase PPI dose",
+          "B": "Tight wrap causing dysphagia — endoscopic pneumatic dilation",
+          "C": "Oesophageal cancer — urgent CT staging",
+          "D": "Wrap herniation — laparoscopic redo fundoplication"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Post-Nissen dysphagia with near-complete obstruction at the wrap level 6 months post-operatively is a tight wrap. Initial management is endoscopic pneumatic balloon dilation — this stretches the wrap, providing immediate relief in 70–80% of cases. If repeated dilation fails, laparoscopic revision (conversion to Toupet or takedown) is indicated.",
+          "wrong": {
+            "A": "Recurrent GORD presents with heartburn and regurgitation, not dysphagia. The barium swallow shows obstruction at the wrap site, not GORD recurrence.",
+            "C": "Oesophageal cancer must be considered in new dysphagia, but the context of recent Nissen fundoplication and obstruction at the wrap level makes tight wrap the diagnosis. Upper GI endoscopy would exclude malignancy.",
+            "D": "Wrap herniation (intraoperative slippage of the wrap around the stomach body) presents differently on barium swallow with the wrap above the diaphragm. Redo surgery is not first-line for tight wrap — dilation first."
+          },
+          "guideline": "SAGES Fundoplication Complication Management 2022 — pneumatic dilation for post-fundoplication dysphagia",
+          "trial": "Khajanchee YS et al., Arch Surg 2002: post-fundoplication dysphagia management — 70% resolved with 1-2 dilations; persistent dysphagia (30%): redo laparoscopic surgery (Toupet or takedown).",
+          "pearl": "Post-Nissen complications: (1) tight wrap (dysphagia, gas-bloat, inability to belch) → dilation then revision; (2) slipped wrap (GORD recurrence + dysphagia) → redo; (3) recurrent GORD (wrap disruption) → redo Nissen or LINX; (4) gas-bloat syndrome → reassurance, simethicone, dietary modification."
+        }
+      },
+      {
+        "id": "D6-Q10",
+        "stem": "A 50-year-old man presents with progressive dysphagia over 6 months and 8kg weight loss. Oesophagogastroscopy shows a mid-oesophageal mucosal irregularity. Biopsies confirm squamous cell carcinoma. CT/PET shows no distant metastases. EUS shows T2 N1 disease. What is the staging and recommended treatment?",
+        "options": {
+          "A": "T2 N1 M0 — primary surgery (oesophagectomy) without neoadjuvant treatment",
+          "B": "T2 N1 M0 — definitive chemoradiotherapy (dCRT) without surgery",
+          "C": "T2 N1 M0 — neoadjuvant chemoradiotherapy followed by transthoracic oesophagectomy (CROSS protocol)",
+          "D": "T2 N1 M0 — endoscopic mucosal resection"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "T2 N1 M0 oesophageal squamous cell carcinoma is locally advanced, stage IIB/IIIA. The CROSS trial demonstrated that neoadjuvant chemoradiotherapy (carboplatin + paclitaxel × 5 weeks + 41.4 Gy radiotherapy) followed by oesophagectomy significantly improves R0 resection rates and 5-year OS (47% vs 34% surgery alone) for both adenocarcinoma and SCC. This is the standard of care for resectable locally advanced oesophageal cancer.",
+          "wrong": {
+            "A": "Primary surgery without neoadjuvant therapy for T2 N1 disease results in inferior R0 resection rates and 5-year survival. CROSS trial established neoadjuvant CRT as standard.",
+            "B": "Definitive CRT (without surgery) achieves 30–40% long-term disease control for SCC, less than trimodality therapy. It is reserved for patients unfit for surgery or with cervical oesophageal location.",
+            "D": "EMR is limited to T1a (mucosal) disease. T2 involves the muscularis propria — EMR cannot achieve R0 resection and has no role in T2 disease."
+          },
+          "guideline": "NCCN Oesophageal Cancer 2024 — neoadjuvant CRT + surgery (CROSS) for resectable T2+ oesophageal cancer",
+          "trial": "CROSS trial (van Hagen, NEJM 2012): neoadjuvant CRT + surgery vs surgery alone — R0 resection 92% vs 69%; 5-yr OS 47% vs 34%; pCR 29% (SCC 49%, adenocarcinoma 23%).",
+          "pearl": "After neoadjuvant CRT, allow 6–8 weeks before oesophagectomy (allows tumour response assessment and patient recovery). Ivor Lewis (right thoracotomy + laparotomy) for mid/distal tumours. McKeown (right thoracotomy + laparotomy + cervical anastomosis) for upper/mid tumours. MIRO trial: minimally invasive oesophagectomy reduces pulmonary complications."
+        }
+      }
+    ]
+  }
 }

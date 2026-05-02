@@ -16,13 +16,37 @@
         {
           "type": "table",
           "title": "ATLS Primary Survey — Life-Threatening Conditions by Category",
-          "headers": ["Category", "Life-Threatening Condition", "Immediate Management"],
+          "headers": [
+            "Category",
+            "Life-Threatening Condition",
+            "Immediate Management"
+          ],
           "rows": [
-            ["A — Airway", "Airway obstruction (blood, foreign body, oedema)", "Jaw thrust, suction, oral airway; RSI + intubation if GCS ≤8"],
-            ["B — Breathing", "Tension pneumothorax, massive haemothorax, open pneumothorax, flail chest", "Needle decompression (tension PTx); chest drain (massive haemothorax); occlusive dressing (open PTx)"],
-            ["C — Circulation", "Haemorrhagic shock (external, abdominal, pelvic, long bone)", "Haemorrhage control (direct pressure, tourniquet); 2× large bore IV; MTP activation"],
-            ["D — Disability", "Severe TBI with herniation (Cushing's triad)", "Hyperventilate temporarily; mannitol/hypertonic saline; neurosurgical consultation"],
-            ["E — Exposure", "Hypothermia, missed injuries", "Warm IV fluids; bear-hugger; log roll for posterior assessment"]
+            [
+              "A — Airway",
+              "Airway obstruction (blood, foreign body, oedema)",
+              "Jaw thrust, suction, oral airway; RSI + intubation if GCS ≤8"
+            ],
+            [
+              "B — Breathing",
+              "Tension pneumothorax, massive haemothorax, open pneumothorax, flail chest",
+              "Needle decompression (tension PTx); chest drain (massive haemothorax); occlusive dressing (open PTx)"
+            ],
+            [
+              "C — Circulation",
+              "Haemorrhagic shock (external, abdominal, pelvic, long bone)",
+              "Haemorrhage control (direct pressure, tourniquet); 2× large bore IV; MTP activation"
+            ],
+            [
+              "D — Disability",
+              "Severe TBI with herniation (Cushing's triad)",
+              "Hyperventilate temporarily; mannitol/hypertonic saline; neurosurgical consultation"
+            ],
+            [
+              "E — Exposure",
+              "Hypothermia, missed injuries",
+              "Warm IV fluids; bear-hugger; log roll for posterior assessment"
+            ]
           ]
         },
         {
@@ -60,13 +84,37 @@
         {
           "type": "table",
           "title": "FAST Exam — Acoustic Windows and Findings",
-          "headers": ["Window", "Structure Assessed", "Positive Finding (Free Fluid)"],
+          "headers": [
+            "Window",
+            "Structure Assessed",
+            "Positive Finding (Free Fluid)"
+          ],
           "rows": [
-            ["RUQ (Morrison's pouch)", "Hepatorenal space", "Anechoic stripe between liver and right kidney"],
-            ["LUQ (Koller's pouch)", "Splenorenal space", "Anechoic stripe between spleen and left kidney"],
-            ["Suprapubic (pelvic)", "Pouch of Douglas / rectovesical pouch", "Fluid behind bladder (>500mL detected)"],
-            ["Subxiphoid (pericardial)", "Pericardial space", "Anechoic ring around heart = haemopericardium"],
-            ["E-FAST (thoracic)", "Bilateral pleural spaces", "Absent lung sliding + B-lines absent = pneumothorax; dependent fluid = haemothorax"]
+            [
+              "RUQ (Morrison's pouch)",
+              "Hepatorenal space",
+              "Anechoic stripe between liver and right kidney"
+            ],
+            [
+              "LUQ (Koller's pouch)",
+              "Splenorenal space",
+              "Anechoic stripe between spleen and left kidney"
+            ],
+            [
+              "Suprapubic (pelvic)",
+              "Pouch of Douglas / rectovesical pouch",
+              "Fluid behind bladder (>500mL detected)"
+            ],
+            [
+              "Subxiphoid (pericardial)",
+              "Pericardial space",
+              "Anechoic ring around heart = haemopericardium"
+            ],
+            [
+              "E-FAST (thoracic)",
+              "Bilateral pleural spaces",
+              "Absent lung sliding + B-lines absent = pneumothorax; dependent fluid = haemothorax"
+            ]
           ]
         },
         {
@@ -92,14 +140,49 @@
         {
           "type": "table",
           "title": "AAST Liver OIS — Management by Grade",
-          "headers": ["Grade", "Description", "NOM", "Operative Indication"],
+          "headers": [
+            "Grade",
+            "Description",
+            "NOM",
+            "Operative Indication"
+          ],
           "rows": [
-            ["I", "Subcapsular haematoma <10%; laceration <1cm", "Yes — >95% success", "Only if haemodynamically unstable"],
-            ["II", "Subcapsular haematoma 10–50%; laceration 1–3cm", "Yes — >90% success", "Instability or failure of NOM"],
-            ["III", "Subcapsular haematoma >50% or expanding; laceration >3cm", "Yes — angioembolisation if blush", "Instability; expanding haematoma"],
-            ["IV", "Lobar parenchymal disruption 25–75%", "Angioembolisation first if stable", "Instability; failed embolisation"],
-            ["V", "Bilobar disruption >75%; hepatic vein injury", "Selected stable patients only", "Most require operative management"],
-            ["VI", "Hepatic avulsion", "No", "Damage control packing; near-universal operative"]
+            [
+              "I",
+              "Subcapsular haematoma <10%; laceration <1cm",
+              "Yes — >95% success",
+              "Only if haemodynamically unstable"
+            ],
+            [
+              "II",
+              "Subcapsular haematoma 10–50%; laceration 1–3cm",
+              "Yes — >90% success",
+              "Instability or failure of NOM"
+            ],
+            [
+              "III",
+              "Subcapsular haematoma >50% or expanding; laceration >3cm",
+              "Yes — angioembolisation if blush",
+              "Instability; expanding haematoma"
+            ],
+            [
+              "IV",
+              "Lobar parenchymal disruption 25–75%",
+              "Angioembolisation first if stable",
+              "Instability; failed embolisation"
+            ],
+            [
+              "V",
+              "Bilobar disruption >75%; hepatic vein injury",
+              "Selected stable patients only",
+              "Most require operative management"
+            ],
+            [
+              "VI",
+              "Hepatic avulsion",
+              "No",
+              "Damage control packing; near-universal operative"
+            ]
           ]
         },
         {
@@ -141,12 +224,32 @@
         {
           "type": "table",
           "title": "Blunt Thoracic Aortic Injury (BTAI) — AAST Classification & Management",
-          "headers": ["Grade", "Description", "Management"],
+          "headers": [
+            "Grade",
+            "Description",
+            "Management"
+          ],
           "rows": [
-            ["I", "Intimal tear only — no haematoma", "Anticoagulation + antihypertensive; serial imaging; observation"],
-            ["II", "Intramural haematoma", "Antihypertensive (β-blocker); serial CT; selective TEVAR for progression"],
-            ["III", "Pseudoaneurysm — contained rupture", "TEVAR (thoracic endovascular aortic repair) — urgent; gold standard"],
-            ["IV", "Aortic transection / free rupture", "Immediate TEVAR or open repair; extreme-risk case"]
+            [
+              "I",
+              "Intimal tear only — no haematoma",
+              "Anticoagulation + antihypertensive; serial imaging; observation"
+            ],
+            [
+              "II",
+              "Intramural haematoma",
+              "Antihypertensive (β-blocker); serial CT; selective TEVAR for progression"
+            ],
+            [
+              "III",
+              "Pseudoaneurysm — contained rupture",
+              "TEVAR (thoracic endovascular aortic repair) — urgent; gold standard"
+            ],
+            [
+              "IV",
+              "Aortic transection / free rupture",
+              "Immediate TEVAR or open repair; extreme-risk case"
+            ]
           ]
         },
         {
@@ -181,14 +284,42 @@
         {
           "type": "table",
           "title": "Damage Control Surgery — Indications (Lethal Triad Criteria)",
-          "headers": ["Parameter", "DCS Threshold", "Rationale"],
+          "headers": [
+            "Parameter",
+            "DCS Threshold",
+            "Rationale"
+          ],
           "rows": [
-            ["Temperature", "<35°C", "Hypothermia impairs coagulation factors; below 32°C — refractory coagulopathy"],
-            ["pH", "<7.20", "Acidosis impairs platelet aggregation and coagulation cascade enzymatic function"],
-            ["INR", ">1.5", "Coagulopathy from dilution, consumption, and hypothermia"],
-            ["Base excess", "<-6 or worse", "Marker of global tissue ischaemia/shock severity"],
-            ["Lactate", ">5 mmol/L", "Anaerobic metabolism marker — impending multi-organ failure"],
-            ["Ongoing haemorrhage", "Not controllable", "Technical inability to achieve haemostasis definitively in a reasonable time"]
+            [
+              "Temperature",
+              "<35°C",
+              "Hypothermia impairs coagulation factors; below 32°C — refractory coagulopathy"
+            ],
+            [
+              "pH",
+              "<7.20",
+              "Acidosis impairs platelet aggregation and coagulation cascade enzymatic function"
+            ],
+            [
+              "INR",
+              ">1.5",
+              "Coagulopathy from dilution, consumption, and hypothermia"
+            ],
+            [
+              "Base excess",
+              "<-6 or worse",
+              "Marker of global tissue ischaemia/shock severity"
+            ],
+            [
+              "Lactate",
+              ">5 mmol/L",
+              "Anaerobic metabolism marker — impending multi-organ failure"
+            ],
+            [
+              "Ongoing haemorrhage",
+              "Not controllable",
+              "Technical inability to achieve haemostasis definitively in a reasonable time"
+            ]
           ]
         },
         {
@@ -214,12 +345,42 @@
         {
           "type": "table",
           "title": "Intracranial Haematoma — CT Characteristics",
-          "headers": ["Type", "CT Shape", "Location", "Vessel", "Key Clinical Feature"],
+          "headers": [
+            "Type",
+            "CT Shape",
+            "Location",
+            "Vessel",
+            "Key Clinical Feature"
+          ],
           "rows": [
-            ["Epidural (EDH)", "Biconvex (lens-shaped)", "Between skull and dura", "Middle meningeal artery (temporal)", "Lucid interval; temporal skull fracture"],
-            ["Acute subdural (SDH)", "Crescent (follows brain surface)", "Between dura and arachnoid", "Bridging cortical veins", "Older patients; worse prognosis than EDH"],
-            ["SAH", "Hyperdense cisterns/sulci", "Subarachnoid space", "Circle of Willis aneurysm (non-traumatic) / traumatic cortical", "Thunderclap headache; xanthochromia LP"],
-            ["Cerebral contusion", "Heterogeneous hypodense/hyperdense", "Parenchyma (often temporal/frontal)", "Intraparenchymal", "Delayed haematoma expansion common"]
+            [
+              "Epidural (EDH)",
+              "Biconvex (lens-shaped)",
+              "Between skull and dura",
+              "Middle meningeal artery (temporal)",
+              "Lucid interval; temporal skull fracture"
+            ],
+            [
+              "Acute subdural (SDH)",
+              "Crescent (follows brain surface)",
+              "Between dura and arachnoid",
+              "Bridging cortical veins",
+              "Older patients; worse prognosis than EDH"
+            ],
+            [
+              "SAH",
+              "Hyperdense cisterns/sulci",
+              "Subarachnoid space",
+              "Circle of Willis aneurysm (non-traumatic) / traumatic cortical",
+              "Thunderclap headache; xanthochromia LP"
+            ],
+            [
+              "Cerebral contusion",
+              "Heterogeneous hypodense/hyperdense",
+              "Parenchyma (often temporal/frontal)",
+              "Intraparenchymal",
+              "Delayed haematoma expansion common"
+            ]
           ]
         },
         {
@@ -676,5 +837,240 @@
         "pearl": "SDH vs EDH prognostic difference: EDH has excellent prognosis with timely surgery (mortality <5%) because brain parenchyma is not directly injured. Acute SDH has worse prognosis (mortality 30–50%) even with timely surgery because: (1) Brain directly injured (coup-contrecoup); (2) Bridging vein mechanism often associated with underlying contusion; (3) SDH typically involves elderly/atrophic brain with greater stretch forces. Young age and rapid evacuation improve SDH outcomes."
       }
     }
-  ]
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of trauma surgery — ATLS, damage control, and haemorrhage management with 10 clinical questions.",
+    "questions": [
+      {
+        "id": "F1-Q1",
+        "stem": "A 28-year-old motorcyclist arrives following a high-speed RTA. GCS 14, HR 128/min, BP 88/58mmHg, RR 28/min, SpO2 94% on 15L O2. There is absent breath sounds on the right with tracheal deviation to the left and distended neck veins. What is the immediate life-threatening diagnosis and management?",
+        "options": {
+          "A": "Massive haemothorax — massive transfusion protocol",
+          "B": "Haemothorax — insert right chest drain",
+          "C": "Tension pneumothorax — immediate needle decompression at 2nd ICS mid-clavicular line, then chest drain",
+          "D": "Cardiac tamponade — pericardiocentesis"
+        },
+        "correct": "C",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Tension pneumothorax: absent breath sounds + tracheal deviation AWAY from affected side + distended neck veins + haemodynamic compromise (Beck's triad variant). Immediate management: needle decompression (14G cannula, 2nd ICS mid-clavicular line right side) to convert to simple pneumothorax, followed immediately by definitive chest drain (5th ICS mid-axillary line). This is a clinical diagnosis — do NOT wait for CXR.",
+          "wrong": {
+            "A": "Massive haemothorax (>1500mL blood in chest) requires chest drain and MTP but causes dullness to percussion, not hyper-resonance, and does not cause tracheal deviation away from the lesion.",
+            "B": "Haemothorax causes absent breath sounds but tracheal deviation is towards the affected side (contralateral in tension pneumothorax). Haemothorax does not cause tracheal deviation away from the lesion or neck vein distension.",
+            "D": "Cardiac tamponade (Beck's triad: hypotension, muffled heart sounds, distended neck veins) can mimic but does not cause absent breath sounds or tracheal deviation. This presentation is tension pneumothorax."
+          },
+          "guideline": "ATLS 10th Edition — Primary survey: C-ABCDE; tension pneumothorax is a Category A (airway/breathing) threat requiring immediate needle decompression",
+          "trial": "Leigh-Smith S et al., Emerg Med J 2005: needle decompression success rates — 2nd ICS MCL: 66% success rate vs 5th ICS MAL: 90% success; some centres prefer finger thoracostomy as primary approach.",
+          "pearl": "ATLS Primary Survey (c-ABCDE): c = catastrophic haemorrhage; A = Airway + cervical spine; B = Breathing (tension pneumo, open pneumo, flail chest, massive haemothorax); C = Circulation (haemorrhage); D = Disability (GCS, pupils); E = Exposure. Tension pneumo is diagnosed clinically — never delay for imaging."
+        }
+      },
+      {
+        "id": "F1-Q2",
+        "stem": "A 35-year-old man arrives after a stab wound to the left upper quadrant. He is haemodynamically unstable (BP 70/40, HR 140). FAST ultrasound shows free fluid in all four quadrants and pericardial effusion. After 2 units of O-negative blood, BP remains at 78/50. CT is not possible due to instability. What is the appropriate next step?",
+        "options": {
+          "A": "Continue fluid resuscitation with crystalloids until BP >90",
+          "B": "Emergency laparotomy (damage control surgery) with simultaneous activation of massive transfusion protocol",
+          "C": "Diagnostic peritoneal lavage before deciding on surgery",
+          "D": "CT angiography for haemorrhage mapping before definitive repair"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Haemodynamically unstable trauma patient with positive FAST (free fluid + pericardial effusion) requires immediate damage control laparotomy. The pericardial effusion warrants urgent pericardial window or median sternotomy during or immediately before laparotomy. The massive transfusion protocol (1:1:1 RBC:FFP:platelets) runs simultaneously. CT is only for haemodynamically stable patients.",
+          "wrong": {
+            "A": "Crystalloid resuscitation in haemorrhagic shock is harmful (dilutional coagulopathy, hypothermia, acidosis). Current ATLS and EAST guidelines advocate haemostatic resuscitation with blood products in a 1:1:1 ratio. Surgery is needed, not more IV fluids.",
+            "C": "DPL has been largely replaced by FAST in the primary survey. In an unstable patient with positive FAST, DPL adds delay without additional information — immediate surgery is required.",
+            "D": "CT in a haemodynamically unstable patient risks death in the scanner ('CT is the doughnut of death' for unstable patients). CT is only for patients who respond to initial resuscitation."
+          },
+          "guideline": "ATLS 10th Edition — haemodynamically unstable patient + positive FAST: immediate operative intervention; damage control resuscitation",
+          "trial": "PROPPR trial (Holcomb JB, JAMA 2015): 1:1:1 vs 1:1:2 RBC:FFP:platelets — 1:1:1 ratio: improved 24h survival (66% vs 62%); less massive transfusion; haemostasis achieved faster.",
+          "pearl": "Damage control surgery (DCS) principles: (1) control haemorrhage (packing, clamps); (2) control contamination (staple bowel, do NOT anastomose); (3) temporary closure; (4) ICU resuscitation (correct hypothermia, acidosis, coagulopathy — 'lethal triad'); (5) planned relook at 24-48h for definitive repair."
+        }
+      },
+      {
+        "id": "F1-Q3",
+        "stem": "A 32-year-old woman is brought in after a fall from height. CT abdomen shows a grade III splenic laceration (laceration >3cm parenchymal depth, involving segmental or hilar vessels, >25% devascularisation) without active bleeding on CT. She is haemodynamically stable (BP 118/78, HR 92). What is the recommended management?",
+        "options": {
+          "A": "Non-operative management (NOM) — admission, bed rest, serial abdominal exams, and repeat imaging",
+          "B": "Splenic artery embolisation",
+          "C": "Non-operative management is contraindicated for Grade III — immediate splenectomy required",
+          "D": "Emergency splenectomy"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "AAST Grade III splenic injury in a haemodynamically stable adult: non-operative management is successful in 70–90% of cases. NOM involves: hospital admission (ICU/HDU for high grades), monitoring, bed rest, serial abdominal examination, and repeat CT at 48–72h. Splenic artery embolisation is added for Grade III+ with active extravasation on CT or pseudoaneurysm.",
+          "wrong": {
+            "B": "Splenic artery embolisation (SAE) is indicated for Grade III with active extravasation or pseudoaneurysm, or Grade IV/V as an adjunct to NOM. Without these features, NOM alone (without SAE) is appropriate first-line.",
+            "C": "NOM is the standard of care for Grade I–IV splenic injuries in haemodynamically stable patients. EAST guidelines: NOM success rates — Grade I/II: 95%; Grade III: 90%; Grade IV/V: 75% with SAE.",
+            "D": "Emergency splenectomy is reserved for haemodynamically unstable patients (failing NOM) or Grade IV/V with active bleeding. Grade III in a stable patient does not mandate immediate surgery."
+          },
+          "guideline": "EAST Splenic Injury Practice Management Guidelines 2017 — NOM for haemodynamically stable Grade I-IV; SAE for extravasation/pseudoaneurysm",
+          "trial": "Velmahos GC et al., Ann Surg 2010: splenic artery embolisation — failure rate NOM alone for Grade IV/V: 25%; with SAE: 7%; SAE reduces NOM failure for high-grade injuries.",
+          "pearl": "AAST Splenic Injury Scale: Grade I = subcapsular haematoma <10% surface, laceration <1cm; Grade II = subcapsular 10-50%, laceration 1-3cm; Grade III = subcapsular >50%/ruptured, laceration >3cm, segmental vessel; Grade IV = laceration involving hilar vessels, >25% devascularisation; Grade V = completely shattered spleen."
+        }
+      },
+      {
+        "id": "F1-Q4",
+        "stem": "A 45-year-old man with a gunshot wound to the right upper quadrant has a Grade IV liver laceration (involving 25-75% of hepatic lobe, involving three Couinaud segments) with ongoing haemorrhage at laparotomy. The surgeon has packed the injury but bleeding continues. Which manoeuvre best controls hepatic arterial and portal venous inflow?",
+        "options": {
+          "A": "Right hepatic artery ligation",
+          "B": "Pringle manoeuvre (manual compression of the hepatoduodenal ligament)",
+          "C": "Infrarenal aortic cross-clamping",
+          "D": "Hepatic vein suture ligation"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "The Pringle manoeuvre involves manual compression (or clamping) of the hepatoduodenal ligament between the thumb and index finger (or with a vascular clamp), occluding the portal vein and hepatic artery simultaneously. This controls ~75% of hepatic blood inflow and significantly reduces hepatic bleeding, allowing damage control packing and assessment. Safe for up to 60 minutes (longer with intermittent release).",
+          "wrong": {
+            "A": "Right hepatic artery ligation controls arterial flow to the right lobe but not portal venous flow (which contributes 70% of hepatic blood flow). It also risks hepatic ischaemia and is irreversible.",
+            "C": "Infrarenal aortic cross-clamping is appropriate for pelvic/retroperitoneal haemorrhage control and trauma laparotomy haemorrhage, but does not specifically control hepatic inflow — it reduces systemic pressure.",
+            "D": "Hepatic vein suture ligation addresses outflow (retrohepatic vena cava injuries) but does not control the massive arterial/portal inflow causing most liver haemorrhage."
+          },
+          "guideline": "ATLS 10th Edition — Pringle manoeuvre for hepatic bleeding control; packing as damage control",
+          "trial": "Chen RJ et al., Ann Surg 1996: Pringle manoeuvre during hepatic trauma — mortality Grade IV/V with packing + Pringle: 35% vs operation without Pringle: 55%; inflow control critical for high-grade liver trauma.",
+          "pearl": "Hepatic haemorrhage control hierarchy: (1) manual packing + Pringle; (2) fibrin glue/haemostatic agents; (3) suture repair (simple lacerations); (4) anatomic resection only if unavoidable; (5) total hepatic vascular isolation (Pringle + suprahepatic and infrahepatic IVC clamping) for juxtahepatic vein injuries."
+        }
+      },
+      {
+        "id": "F1-Q5",
+        "stem": "A 50-year-old man is brought in after a high-speed MVC. His GCS is 8 (E2V2M4), pupils 4mm bilaterally reactive, BP 160/95mmHg, HR 65/min. He has no external injuries. Head CT shows diffuse cerebral oedema with midline shift. What is the most immediate priority in his management?",
+        "options": {
+          "A": "Emergency craniotomy",
+          "B": "Cervical spine immobilisation and MRI",
+          "C": "Mannitol infusion to reduce ICP",
+          "D": "Definitive airway management (RSI and endotracheal intubation), targeting normocapnia"
+        },
+        "correct": "D",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "GCS ≤8 is the threshold for definitive airway management in trauma (ATLS). RSI (rapid sequence induction) with endotracheal intubation secures the airway, protects against aspiration, and allows controlled ventilation. Target normocapnia (pCO2 35-40 mmHg) — hypocapnia causes cerebral vasoconstriction (useful short-term for acute ICP crisis but harmful long-term). Hypoxia is the most preventable secondary brain injury.",
+          "wrong": {
+            "A": "Emergency craniotomy may be indicated for mass lesion (extradural/subdural haematoma) with herniation. This patient has diffuse oedema, not a surgical haematoma — medical ICP management is the priority. Craniotomy is not indicated for diffuse cerebral oedema.",
+            "B": "Cervical spine immobilisation is part of the primary survey and should be maintained, but it does not address the immediate airway threat. MRI is inappropriate in the acute trauma setting.",
+            "C": "Mannitol (0.5-1g/kg IV) or hypertonic saline is used for ICP management but is secondary to airway/ventilation. Without airway control, hypoxia and hypercapnia will worsen ICP regardless of osmotic therapy."
+          },
+          "guideline": "ATLS 10th Edition — GCS ≤8: immediate definitive airway (intubation); TBI management: normocapnia, avoid hypoxia, head-up 30°",
+          "trial": "CRASH trial (Roberts I, Lancet 2004): steroids in TBI — EARLY STOP: dexamethasone increases mortality in severe TBI. Steroids are CONTRAINDICATED in TBI. This is a critical board fact.",
+          "pearl": "Secondary brain injury prevention: (1) Avoid hypoxia (SpO2 >95%); (2) Avoid hypotension (SBP >90 mmHg — target MAP ≥70 in TBI); (3) Avoid hypercapnia/hypocapnia (target pCO2 35-40); (4) Avoid fever; (5) Head-up 30°; (6) No steroids (CRASH study). Steroids in TBI = INCORRECT answer on any examination."
+        }
+      },
+      {
+        "id": "F1-Q6",
+        "stem": "An 18-year-old man arrives after a crush injury to the pelvis from a heavy vehicle. BP 62/40mmHg, HR 145/min. Pelvic X-ray shows an open-book pelvic fracture (APC Type III). FAST is positive. What is the correct sequence of management to address both bleeding sources?",
+        "options": {
+          "A": "External pelvic fixation → FAST-positive → laparotomy → PPP (pre-peritoneal pelvic packing) if pelvic bleeding persists",
+          "B": "Pelvic binder application → MTP activation → damage control laparotomy → pre-peritoneal pelvic packing or angioembolisation for ongoing pelvic haemorrhage",
+          "C": "Immediate laparotomy first, then pelvic fixation",
+          "D": "Pelvic binder application → activation of MTP → angioembolisation of pelvic vessels → laparotomy for intra-abdominal haemorrhage"
+        },
+        "correct": "B",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Open-book pelvis with haemodynamic instability requires immediate pelvic binder (closes the pelvic ring, reduces pelvic volume, tamponades venous bleeding) + MTP activation. If FAST is positive (intra-abdominal bleeding), damage control laparotomy is performed first. After laparotomy and abdominal packing, pre-peritoneal pelvic packing (PPP) is performed via a separate pre-peritoneal space to tamponade pelvic venous/bony bleeding. Angioembolisation follows for ongoing arterial bleeding.",
+          "wrong": {
+            "A": "External pelvic fixation in the trauma bay delays definitive haemorrhage control. Pelvic binder provides equivalent reduction and is faster. The sequence does not address both bleeding sources adequately.",
+            "C": "Laparotomy first without pelvic stabilisation misses the pelvic haemorrhage and disrupts the retroperitoneal tamponade. The pelvic binder must be applied before or simultaneously with laparotomy.",
+            "D": "Angioembolisation addresses arterial pelvic bleeding (15-20% of pelvic haemorrhage) but not the dominant venous/bony source (80-85%). FAST positive with intra-abdominal bleeding requires laparotomy — angioembolisation before laparotomy in an unstable patient delays definitive surgery."
+          },
+          "guideline": "WSES Pelvic Trauma Guidelines 2017 — pelvic binder → MTP → laparotomy (if FAST+) → PPP for pelvic haemorrhage → angioembolisation for arterial bleeding",
+          "trial": "Coccolini F et al., World J Emerg Surg 2017: PPP for pelvic trauma — 80% haemostasis rate; superior to angioembolisation alone for venous pelvic bleeding; combined approach optimal.",
+          "pearl": "Pelvic binder: apply at ASIS level for open-book APC fractures (NOT for lateral compression fractures — binder worsens them). Pre-peritoneal pelvic packing: via 6cm midline incision below umbilicus, bluntly dissect pre-peritoneal space, pack 3 laparotomy sponges around haematoma on each side. Peritoneal cavity not entered."
+        }
+      },
+      {
+        "id": "F1-Q7",
+        "stem": "A 40-year-old man is brought to the trauma centre following a penetrating abdominal stab wound. He is haemodynamically stable. CT shows a grade II liver laceration, no bowel injury, and no active extravasation. He was stabbed in the left lower quadrant and has a small amount of free fluid in the pelvis on CT. You suspect a small bowel injury. What is the most appropriate management?",
+        "options": {
+          "A": "Diagnostic peritoneal lavage",
+          "B": "Non-operative management — observe with serial abdominal exams",
+          "C": "Diagnostic laparoscopy",
+          "D": "Wound exploration under local anaesthesia to determine peritoneal violation"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "In a haemodynamically stable patient with suspected bowel injury from penetrating trauma, diagnostic laparoscopy is the preferred approach. It accurately identifies peritoneal violation, bowel injury, and mesenteric haematoma, and can be converted to laparotomy for definitive repair. It avoids unnecessary laparotomy in 50% of stable penetrating trauma cases where no significant injury is found.",
+          "wrong": {
+            "A": "DPL has largely been replaced by CT and laparoscopy. In the era of CT, DPL adds radiation and invasiveness without the diagnostic precision of CT + laparoscopy.",
+            "B": "Free fluid in the pelvis on CT following left lower quadrant stabbing (bowel injury suspected) is not safely managed by observation alone. Hollow viscus injuries can deteriorate rapidly if missed.",
+            "D": "Local anaesthetic wound exploration assesses peritoneal violation but cannot identify bowel injury within the abdominal cavity. It is used when wound depth is uncertain — CT has already shown free fluid, making peritoneal violation confirmed."
+          },
+          "guideline": "EAST Penetrating Abdominal Trauma Guidelines 2019 — diagnostic laparoscopy for haemodynamically stable suspected hollow viscus penetrating trauma",
+          "trial": "Villavicencio RT et al., J Trauma 1999: laparoscopy for penetrating trauma — avoided unnecessary laparotomy in 53%; diagnosed all significant injuries; converted to open in 47% when injury found.",
+          "pearl": "Penetrating abdominal trauma management: unstable → immediate laparotomy. Stable: (1) anterior wound + CT suggesting no injury → observation; (2) suspected bowel/mesenteric injury → diagnostic laparoscopy; (3) gunshot wounds: mandatory laparotomy (tangential or back wounds: CT to assess trajectory). Stab wounds: selective non-operative management in stable patients."
+        }
+      },
+      {
+        "id": "F1-Q8",
+        "stem": "A 55-year-old man sustains blunt abdominal trauma in a high-speed RTA. CT shows a duodenal injury: full-thickness laceration of the 2nd part of the duodenum (D2) with retroperitoneal contamination. He is haemodynamically stable. What is the standard surgical repair for an isolated D2 duodenal injury?",
+        "options": {
+          "A": "Primary repair alone if <50% circumference laceration + NG decompression + drain",
+          "B": "Whipple procedure (pancreaticoduodenectomy) — standard for D2 injury",
+          "C": "Resection and duodenoduodenostomy",
+          "D": "Primary repair + pyloric exclusion + gastrojejunostomy"
+        },
+        "correct": "A",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Duodenal laceration <50% circumference in D2 can be repaired primarily (two-layer closure with absorbable suture) transversely to avoid narrowing, combined with retroperitoneal drain placement and NG decompression. Pyloric exclusion (stapling or suture) + gastrojejunostomy is added for: >50% circumference, long injuries, associated pancreatic injury, delay to repair >8h, or retroperitoneal contamination.",
+          "wrong": {
+            "B": "Whipple procedure has a 5% mortality even in elective cases. It is reserved for complete duodenal disruption with pancreatic head injury, or when primary repair is impossible. It is not standard for an isolated D2 laceration.",
+            "C": "Duodenoduodenostomy (anastomosis between duodenal ends after resection) is technically very challenging due to poor mobility of the duodenum. Primary repair of lacerations <50% circumference is preferred.",
+            "D": "Pyloric exclusion + gastrojejunostomy is for complex duodenal injuries (>50% circumference, pancreatic injury, delayed presentation). For a primary repairable <50% laceration in a stable patient, primary repair alone is appropriate."
+          },
+          "guideline": "WSES Duodenal Trauma Guidelines 2019 — primary repair for <50% circumference D2 injury; pyloric exclusion for complex injuries",
+          "trial": "Cogbill TH et al., J Trauma 1990: duodenal injuries — primary repair: 60% of cases; pyloric exclusion: 20%; Whipple: 5%; primary repair had lowest leak rate (2%) when done within 6h.",
+          "pearl": "Duodenal 'D-sign' on CT: retroperitoneal gas tracking along the right psoas and retroduodenal space (lack of peritoneal signs) — classic for retroperitoneal duodenal perforation. The retroperitoneal position makes these injuries occult clinically until significant contamination occurs."
+        }
+      },
+      {
+        "id": "F1-Q9",
+        "stem": "A 22-year-old male soldier sustains a gunshot wound to the right thigh with massive haemorrhage from the femoral vessels. He is in extremis on the battlefield. Which haemorrhage control intervention is most effective as an immediate first responder measure before arrival to a surgical facility?",
+        "options": {
+          "A": "Wound packing with haemostatic gauze and direct pressure",
+          "B": "Tourniquet application proximal to the wound",
+          "C": "IV TXA (tranexamic acid) alone",
+          "D": "Pneumatic antishock garment (PASG)"
+        },
+        "correct": "B",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Tourniquet application is the most effective immediate life-saving intervention for massive extremity haemorrhage — it completely occludes arterial inflow. Combat Application Tourniquet (CAT) or SOFTT-Wide applied 5–8cm above the wound achieves immediate haemostasis. The TCCC (Tactical Combat Casualty Care) protocol and ATLS mandate tourniquet as first-line for life-threatening extremity bleeding.",
+          "wrong": {
+            "A": "Wound packing with haemostatic gauze (QuikClot, HemCon) + direct pressure is very effective for junctional wounds (groin, axilla, neck) where tourniquet cannot be applied, but is less effective than tourniquet for high-flow femoral artery injury.",
+            "C": "TXA (tranexamic acid) is a critical adjunct (CRASH-2 trial: reduces mortality when given within 3h) but does not immediately control haemorrhage. It prevents clot lysis, not initial clot formation. TXA + tourniquet together are standard.",
+            "D": "PASG (pneumatic antishock garment) is no longer recommended — evidence shows it does not improve outcomes and may delay definitive care. It has been removed from ATLS algorithms."
+          },
+          "guideline": "ATLS 10th Edition / TCCC — tourniquet first-line for extremity haemorrhage; junctional wound packing with haemostatic gauze",
+          "trial": "CRASH-2 trial (Roberts I, Lancet 2010): TXA within 3h of injury — reduced all-cause mortality (14.5% vs 16.0%, RRR 10%); within 1h: greater benefit; after 3h: no benefit or harm. TXA = 1g IV in 10 min, then 1g over 8h.",
+          "pearl": "Haemostatic resuscitation triangle: (1) control haemorrhage (tourniquet/packing/surgery); (2) MTP 1:1:1; (3) TXA within 3 hours. Lethal triad: hypothermia + acidosis + coagulopathy — each worsens the others. Damage control resuscitation reverses all three."
+        }
+      },
+      {
+        "id": "F1-Q10",
+        "stem": "A 38-year-old man is 3 days post-damage control laparotomy for multiple bowel injuries (two small bowel resections stapled, descending colon resection stapled). He is now haemodynamically stable, warming, coagulopathy corrected (INR 1.2, platelets 145×10⁹/L), and lactate is 1.1 mmol/L. He is on the ICU with an open abdomen (Bogotá bag). What criteria confirm readiness for definitive abdominal closure and bowel reconstruction?",
+        "options": {
+          "A": "Fascial closure only — anastomoses should wait until 6 weeks post-injury",
+          "B": "Continue open abdomen indefinitely until bowel oedema resolves (4-6 weeks)",
+          "C": "He is ready — any patient >48h after DCS can undergo definitive repair",
+          "D": "Physiological restoration: temperature >36°C, INR <1.5, lactate <2.5, no ongoing vasopressors — proceed with anastomosis and fascial closure"
+        },
+        "correct": "D",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Criteria for return to theatre (relook laparotomy) and definitive reconstruction after DCS: (1) temperature >35-36°C; (2) coagulopathy corrected (INR <1.5, fibrinogen normal); (3) lactate <2.5 (acidosis corrected); (4) vasopressors weaned or minimal; (5) no ongoing bleeding. When these criteria are met (typically 24–48h), definitive repair includes anastomosis formation and fascial closure.",
+          "wrong": {
+            "A": "Anastomosis is safe and preferred at the time of definitive relook once physiology is restored. Deferring anastomosis to 6 weeks is outdated — prolonged stoma prolongs ICU stay and complications.",
+            "B": "Open abdomen beyond 5–7 days significantly increases risk of fistula formation, fascial retraction, and inability to close primarily. Early definitive closure when physiology allows is the goal.",
+            "C": "48h alone is not sufficient — physiological criteria must be met. Returning before physiological restoration risks anastomotic failure and re-bleeding."
+          },
+          "guideline": "WSES Open Abdomen Guidelines 2018 — DCS relook: 24-48h; definitive repair when physiological criteria met; fascial closure within 5-7 days to avoid fistula and fascial retraction",
+          "trial": "Pommerening MJ et al., J Trauma 2015: DCS and damage control resuscitation — fascial closure at first relook (<48h): 78% success when physiological criteria met; delayed closure: lower primary fascial closure rates.",
+          "pearl": "Damage control laparotomy sequence: (1) abbreviated surgery (control, contamination containment); (2) temporary closure (Bogotá bag or vacuum-assisted); (3) ICU: warm, correct coagulopathy, treat acidosis; (4) 24-48h relook: anastomoses when physiology normal; (5) fascial closure: primary if possible, vacuum + mesh if not."
+        }
+      }
+    ]
+  }
 }

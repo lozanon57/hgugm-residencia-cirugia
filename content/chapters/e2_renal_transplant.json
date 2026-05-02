@@ -24,13 +24,43 @@
         {
           "type": "table",
           "title": "Living vs Deceased Donor Renal Transplant Outcomes",
-          "headers": ["Outcome", "Living Donor", "DBD Deceased", "DCD Deceased"],
+          "headers": [
+            "Outcome",
+            "Living Donor",
+            "DBD Deceased",
+            "DCD Deceased"
+          ],
           "rows": [
-            ["1-year graft survival", "~95%", "~89%", "~85%"],
-            ["Half-life (graft)", "12–15 years", "8–10 years", "6–8 years"],
-            ["DGF rate", "5–10%", "20–30%", "40–50%"],
-            ["Cold ischaemia time", "Minimal (<2h)", "12–24h typical", "8–18h (shorter preferred)"],
-            ["Primary non-function", "<1%", "2–3%", "4–8%"]
+            [
+              "1-year graft survival",
+              "~95%",
+              "~89%",
+              "~85%"
+            ],
+            [
+              "Half-life (graft)",
+              "12–15 years",
+              "8–10 years",
+              "6–8 years"
+            ],
+            [
+              "DGF rate",
+              "5–10%",
+              "20–30%",
+              "40–50%"
+            ],
+            [
+              "Cold ischaemia time",
+              "Minimal (<2h)",
+              "12–24h typical",
+              "8–18h (shorter preferred)"
+            ],
+            [
+              "Primary non-function",
+              "<1%",
+              "2–3%",
+              "4–8%"
+            ]
           ]
         },
         {
@@ -58,13 +88,43 @@
         {
           "type": "table",
           "title": "Rejection Types in Renal Transplantation",
-          "headers": ["Type", "Timing", "Biopsy Features (Banff)", "Treatment"],
+          "headers": [
+            "Type",
+            "Timing",
+            "Biopsy Features (Banff)",
+            "Treatment"
+          ],
           "rows": [
-            ["Hyperacute", "Minutes (intraoperative)", "Thrombotic microangiopathy, haemorrhagic necrosis", "Nephrectomy — prevention only (crossmatch)"],
-            ["Acute T-cell mediated (TCMR)", "Days–months", "Tubulitis (t-score ≥1) + interstitial infiltrate (i-score ≥2) — Banff IA/IB/IIA/IIB", "Methylprednisolone pulse; ATG for steroid-resistant"],
-            ["Acute antibody-mediated (ABMR)", "Days–weeks (or late)", "Peritubular capillaritis + C4d + DSA; glomerulitis (g≥1)", "Plasmapheresis + IVIG ± rituximab ± bortezomib"],
-            ["Chronic active ABMR", "Months–years", "Transplant glomerulopathy (GBM duplication), arteriolar hyalinosis, C4d±", "Intensify IS; plasmapheresis; poor prognosis"],
-            ["CNI toxicity (mimic)", "Any", "Arteriolar hyalinosis, vacuolisation — NO inflammatory infiltrate; SV40 negative", "CNI dose reduction; switch to mTOR inhibitor"]
+            [
+              "Hyperacute",
+              "Minutes (intraoperative)",
+              "Thrombotic microangiopathy, haemorrhagic necrosis",
+              "Nephrectomy — prevention only (crossmatch)"
+            ],
+            [
+              "Acute T-cell mediated (TCMR)",
+              "Days–months",
+              "Tubulitis (t-score ≥1) + interstitial infiltrate (i-score ≥2) — Banff IA/IB/IIA/IIB",
+              "Methylprednisolone pulse; ATG for steroid-resistant"
+            ],
+            [
+              "Acute antibody-mediated (ABMR)",
+              "Days–weeks (or late)",
+              "Peritubular capillaritis + C4d + DSA; glomerulitis (g≥1)",
+              "Plasmapheresis + IVIG ± rituximab ± bortezomib"
+            ],
+            [
+              "Chronic active ABMR",
+              "Months–years",
+              "Transplant glomerulopathy (GBM duplication), arteriolar hyalinosis, C4d±",
+              "Intensify IS; plasmapheresis; poor prognosis"
+            ],
+            [
+              "CNI toxicity (mimic)",
+              "Any",
+              "Arteriolar hyalinosis, vacuolisation — NO inflammatory infiltrate; SV40 negative",
+              "CNI dose reduction; switch to mTOR inhibitor"
+            ]
           ]
         }
       ]
@@ -100,11 +160,31 @@
         {
           "type": "table",
           "title": "Pancreas Transplant Categories — Indications & Outcomes",
-          "headers": ["Category", "Indication", "1-yr Graft Survival", "Advantage"],
+          "headers": [
+            "Category",
+            "Indication",
+            "1-yr Graft Survival",
+            "Advantage"
+          ],
           "rows": [
-            ["SPK", "T1DM + ESRD (eGFR <20)", "Pancreas ~85%; Kidney ~93%", "Kidney acts as 'sentinel' for rejection; single operation"],
-            ["PAK", "T1DM with prior successful kidney Tx", "Pancreas ~75%", "Avoids combined surgery complexity"],
-            ["PTA", "T1DM + hypoglycaemia unawareness, no ESRD", "Pancreas ~72%", "Eliminates diabetes risk without ESRD"]
+            [
+              "SPK",
+              "T1DM + ESRD (eGFR <20)",
+              "Pancreas ~85%; Kidney ~93%",
+              "Kidney acts as 'sentinel' for rejection; single operation"
+            ],
+            [
+              "PAK",
+              "T1DM with prior successful kidney Tx",
+              "Pancreas ~75%",
+              "Avoids combined surgery complexity"
+            ],
+            [
+              "PTA",
+              "T1DM + hypoglycaemia unawareness, no ESRD",
+              "Pancreas ~72%",
+              "Eliminates diabetes risk without ESRD"
+            ]
           ]
         },
         {
@@ -155,13 +235,43 @@
         {
           "type": "table",
           "title": "Cold Ischaemia Time Limits by Organ",
-          "headers": ["Organ", "Acceptable CIT", "Maximum CIT", "Most Sensitive to"],
+          "headers": [
+            "Organ",
+            "Acceptable CIT",
+            "Maximum CIT",
+            "Most Sensitive to"
+          ],
           "rows": [
-            ["Kidney", "≤18h (optimal)", "24h", "Warm ischaemia (DCD)"],
-            ["Liver", "≤10h (optimal)", "12–16h (DBD)", "Biliary epithelium; warm ischaemia"],
-            ["Pancreas", "≤10h (optimal)", "12h", "Venous thrombosis; oedema"],
-            ["Intestine", "≤6h (optimal)", "8h", "Mucosal ischaemia; bacterial translocation"],
-            ["Heart", "≤4h", "6h (exceptional)", "Cardiomyocyte ischaemia"]
+            [
+              "Kidney",
+              "≤18h (optimal)",
+              "24h",
+              "Warm ischaemia (DCD)"
+            ],
+            [
+              "Liver",
+              "≤10h (optimal)",
+              "12–16h (DBD)",
+              "Biliary epithelium; warm ischaemia"
+            ],
+            [
+              "Pancreas",
+              "≤10h (optimal)",
+              "12h",
+              "Venous thrombosis; oedema"
+            ],
+            [
+              "Intestine",
+              "≤6h (optimal)",
+              "8h",
+              "Mucosal ischaemia; bacterial translocation"
+            ],
+            [
+              "Heart",
+              "≤4h",
+              "6h (exceptional)",
+              "Cardiomyocyte ischaemia"
+            ]
           ]
         },
         {
@@ -627,5 +737,240 @@
         "pearl": "Clinical implication of CYP3A5 genotyping: patients who are CYP3A5 extensive metabolisers (*1/*1) need high starting doses; standard dosing (0.1 mg/kg/day) will leave them sub-therapeutic in the most vulnerable early post-transplant period, risking rejection. Pre-transplant genotyping allows individualised starting doses."
       }
     }
-  ]
+  ],
+  "consolidation": {
+    "intro": "Test your knowledge of renal transplantation — indications, rejection, and immunosuppression with 10 clinical questions.",
+    "questions": [
+      {
+        "id": "E2-Q1",
+        "stem": "A 45-year-old man with ESRD secondary to IgA nephropathy has been on haemodialysis for 2 years. He has a living donor offer from his 50-year-old sister, who is HLA 3/6 match. What is the primary advantage of living donor kidney transplantation over deceased donor transplantation?",
+        "options": {
+          "A": "Shorter cold ischaemia time, pre-emptive transplantation feasibility, and superior long-term graft survival",
+          "B": "Elimination of delayed graft function",
+          "C": "Avoidance of immunosuppression",
+          "D": "Better HLA matching in all cases"
+        },
+        "correct": "A",
+        "difficulty": 1,
+        "explanation": {
+          "correct": "Living donor kidney transplantation has several advantages: (1) minimal cold ischaemia time (minutes vs hours for deceased donor); (2) pre-emptive transplantation (before dialysis begins, associated with superior outcomes); (3) elective scheduling; (4) better long-term graft survival (15-year graft survival 60% living vs 40% deceased donor). These advantages persist even with modest HLA mismatches.",
+          "wrong": {
+            "B": "Delayed graft function (DGF) is significantly reduced with living donors (5% vs 20-30% deceased donor), but not eliminated. Excellent organ quality and minimal cold ischaemia markedly reduce DGF risk.",
+            "C": "Immunosuppression is required for all non-identical transplants, including living donor transplants. Only identical twin (syngeneic) transplants can minimise immunosuppression.",
+            "D": "HLA matching is not always better in living donors — a 3/6 match from a sibling may be less matched than a well-matched deceased donor. Nevertheless, outcomes remain superior for living donors due to cold ischaemia and donation quality."
+          },
+          "guideline": "KDIGO Kidney Transplantation Guidelines 2022 — living donor transplantation preferred when available; pre-emptive transplantation associated with best outcomes",
+          "trial": "Wolfe RA et al., NEJM 1999: transplantation vs dialysis — living donor transplant: 5-yr survival benefit 60% reduction in mortality vs dialysis; pre-emptive LDT: 25% better graft survival at 10 years.",
+          "pearl": "Pre-emptive transplantation (before dialysis initiation) achieves best long-term outcomes — each year on dialysis before transplant worsens graft survival by 2-4%. Living donor evaluation: must confirm donor safety (one functional kidney left with GFR >80% predicted); ABO compatibility or ABOi protocol; crossmatch negative."
+        }
+      },
+      {
+        "id": "E2-Q2",
+        "stem": "A 55-year-old woman received a deceased donor renal transplant 4 days ago. She has had no urine output since transplantation despite adequate fluid resuscitation and patent vascular anastomosis on Doppler. Creatinine has remained at 820 µmol/L (baseline on dialysis). Biopsy shows tubular vacuolisation without rejection. What is the diagnosis and appropriate management?",
+        "options": {
+          "A": "Hyperacute rejection — urgent graft nephrectomy",
+          "B": "Delayed graft function — continue haemodialysis and await graft recovery",
+          "C": "Ureteric anastomotic leak — return to theatre",
+          "D": "Acute cellular rejection — IV methylprednisolone"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Delayed graft function (DGF) is defined as the need for dialysis within 7 days of transplantation. It occurs in 20–30% of deceased donor transplants due to ischaemia-reperfusion injury. Management is supportive — continue haemodialysis (avoid fluid overload), maintain adequate perfusion pressure, avoid nephrotoxic immunosuppression doses (reduce tacrolimus targets initially). Most DGF grafts recover function within 2–4 weeks.",
+          "wrong": {
+            "A": "Hyperacute rejection occurs within minutes to hours (pre-formed antibodies) and shows haemorrhagic infarction on biopsy. It is extremely rare with current crossmatch protocols. Biopsy showing tubular vacuolisation (ischaemia) is DGF, not hyperacute rejection.",
+            "C": "Ureteric anastomotic leak would present with decreased urine output alongside a rising urine collection on CT (urinoma), contrast leak on CT, or pelvic pain. Biopsy showing tubular vacuolisation and no urine from the outset with normal Doppler is DGF.",
+            "D": "ACR presents with rising creatinine after initial graft function, 5-30 days post-transplant. No initial urine output from day 1 and tubular vacuolisation on biopsy is DGF from ischaemia-reperfusion injury."
+          },
+          "guideline": "KDIGO Transplantation Guidelines 2022 — DGF: supportive care, haemodialysis continuation, serial biopsies to exclude rejection",
+          "trial": "Irish W et al., Transplantation 2010: DGF risk factors — deceased donor, cold ischaemia >24h, donor age >55, DCD donation; DGF: 30-day graft failure 15% vs 5% non-DGF; long-term graft survival reduced.",
+          "pearl": "DGF vs primary non-function (PNF): DGF = initially non-functioning graft that recovers within days to weeks; PNF = permanent failure with no recovery. PNF (rare, 1-3%) requires biopsy, exclude rejection, assess for thrombosis — if confirmed irreversible failure → re-transplantation or return to dialysis."
+        }
+      },
+      {
+        "id": "E2-Q3",
+        "stem": "A 42-year-old man has a renal transplant (T-cell depleting induction + tacrolimus/MMF/steroids). 3 weeks post-transplant, his creatinine rises from 110 to 195 µmol/L. US shows mild hydronephrosis. Tacrolimus trough is 8 ng/mL. Biopsy shows infiltration of the tubules by CD8+ lymphocytes (tubulitis), portal inflammation, and no C4d deposition. What is the diagnosis and treatment?",
+        "options": {
+          "A": "Ureteric obstruction — antegrade nephrostomy",
+          "B": "Antibody-mediated rejection (ABMR) — IV methylprednisolone + plasmapheresis",
+          "C": "Acute cellular rejection (ACR) Banff Grade IA — IV methylprednisolone 500mg daily × 3 days",
+          "D": "BK virus nephropathy — reduce immunosuppression"
+        },
+        "correct": "C",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Acute cellular rejection (ACR) Banff Grade IA is defined by tubulitis (≥10 mononuclear cells per tubular cross-section in most affected tubule) with mild interstitial inflammation. No C4d deposition excludes antibody-mediated rejection. Treatment is IV methylprednisolone 500mg–1g daily for 3 days. Mild hydronephrosis may be a coincidental finding or caused by oedema at the uretero-vesical junction.",
+          "wrong": {
+            "A": "Mild hydronephrosis with rising creatinine after biopsy-confirmed ACR: the ACR is the primary diagnosis. Ureteric obstruction would show more severe hydronephrosis and no tubulitis on biopsy.",
+            "B": "ABMR requires: C4d deposition in peritubular capillaries, donor-specific antibodies (DSA) in serum, and microvascular injury on biopsy. No C4d is present — ABMR is excluded.",
+            "D": "BK nephropathy presents with tubular injury but shows specific viral cytopathic changes (owl-eye inclusions) on biopsy, and BK PCR is elevated in urine/plasma. The Banff pattern described is ACR."
+          },
+          "guideline": "KDIGO Transplantation Guidelines 2022 — ACR: IV steroid bolus; steroid-resistant: anti-thymocyte globulin",
+          "trial": "Opelz G et al., Transplantation 2005: treatment of acute rejection — steroid bolus: 70-80% reversal rate; steroid-resistant (Banff IIA+): ATG improves reversal; graft survival improved with early aggressive treatment.",
+          "pearl": "Banff classification for renal biopsy: Grade IA: mild tubulitis (≤4 cells), mild inflammation; Grade IB: moderate tubulitis (>4 cells); Grade IIA: mild intimal arteritis; Grade IIB: severe arteritis; Grade III: transmural arteritis. Higher grade = more aggressive treatment and worse prognosis."
+        }
+      },
+      {
+        "id": "E2-Q4",
+        "stem": "A 38-year-old woman receives a kidney transplant and requires triple immunosuppression. She develops a tacrolimus trough level of 18 ng/mL (target 8–12 ng/mL at 3 months post-transplant) inadvertently after an azithromycin course for a respiratory infection. She develops tremor, hypertension, and creatinine rises from 100 to 160 µmol/L. What is the likely drug interaction and management?",
+        "options": {
+          "A": "Azithromycin reduces tacrolimus metabolism — reduce tacrolimus dose and recheck trough in 3 days",
+          "B": "Azithromycin increases tacrolimus clearance — increase tacrolimus dose",
+          "C": "Azithromycin causes direct nephrotoxicity unrelated to tacrolimus",
+          "D": "The tacrolimus level is incidental — evaluate for acute rejection"
+        },
+        "correct": "A",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Azithromycin inhibits CYP3A4 and P-glycoprotein — the enzymes responsible for tacrolimus metabolism. This interaction increases tacrolimus blood levels significantly. The elevated trough (18 ng/mL), neurological (tremor), vascular (hypertension), and renal effects (nephrotoxicity from vasoconstriction) are consistent with tacrolimus toxicity. Management: reduce tacrolimus dose, recheck trough level in 3 days until within therapeutic range.",
+          "wrong": {
+            "B": "Azithromycin INHIBITS (not increases) tacrolimus metabolism through CYP3A4 inhibition, leading to elevated levels. Increasing the dose would worsen toxicity.",
+            "C": "While azithromycin can cause QT prolongation, it does not cause significant direct nephrotoxicity. The creatinine rise in this context is tacrolimus-induced nephrotoxicity from supratherapeutic levels.",
+            "D": "A tacrolimus trough of 18 ng/mL in the context of azithromycin is the primary cause of the creatinine rise — this is drug toxicity, not rejection. Evaluating for rejection without adjusting tacrolimus would be inappropriate."
+          },
+          "guideline": "KDIGO Immunosuppression Management 2022 — CYP3A4 inhibitors increase tacrolimus levels; azithromycin: moderate CYP3A4 inhibition; monitor levels",
+          "trial": "Gomez G et al., Transplantation 2019: azithromycin-tacrolimus interaction — average tacrolimus level increase 70% within 48h; dose reduction required in 90% of cases.",
+          "pearl": "Major CYP3A4 INHIBITORS (increase tacrolimus): azoles (fluconazole, voriconazole), macrolides (azithromycin, erythromycin), diltiazem, grapefruit juice, tacrolimus levels ↑. Major CYP3A4 INDUCERS (decrease tacrolimus): rifampicin, carbamazepine, phenytoin → rejection risk. Tacrolimus also inhibited by P-gp."
+        }
+      },
+      {
+        "id": "E2-Q5",
+        "stem": "A 50-year-old renal transplant recipient (8 years post-transplant, tacrolimus + MMF) presents with a new 2cm nodule on his right forearm. Biopsy confirms squamous cell carcinoma. His cumulative sun exposure is significant. What is the most important management change and long-term surveillance plan?",
+        "options": {
+          "A": "Discontinue all immunosuppression to control the cancer",
+          "B": "Surgical excision only — no change to immunosuppression",
+          "C": "Refer to dermatology, excise the lesion, and increase immunosuppression to protect against rejection",
+          "D": "Switch from tacrolimus to mTOR inhibitor (sirolimus/everolimus) — anti-tumour effect"
+        },
+        "correct": "D",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Post-transplant skin cancers (especially SCC) are 65–250 times more common in transplant recipients than the general population, driven by immunosuppression. Calcineurin inhibitors (CNI — tacrolimus, ciclosporin) increase cancer risk by impairing T-cell tumour surveillance. Switching to mTOR inhibitors (sirolimus, everolimus) reduces cancer risk (anti-proliferative effect via mTOR pathway) and is recommended for transplant recipients with post-transplant malignancy. Surgical excision of the primary lesion is also required.",
+          "wrong": {
+            "A": "Discontinuing all immunosuppression risks acute rejection and graft loss. Immunosuppression must be reduced and switched, not stopped.",
+            "B": "Surgical excision is necessary but insufficient — the underlying immunosuppression regimen drives skin cancer development. Without switching to mTOR inhibitor, new lesions will continue to develop.",
+            "C": "Increasing immunosuppression would worsen cancer risk. The approach to post-transplant malignancy is to reduce/switch immunosuppression, not intensify it."
+          },
+          "guideline": "KDIGO Transplantation and Cancer Guidelines — switch to mTOR inhibitor for post-transplant skin malignancy; annual dermatology review for all transplant recipients",
+          "trial": "Campistol JM et al., Transplantation 2016: CONVERT trial — sirolimus conversion reduces skin cancer incidence by 50% vs CNI; applicable to established post-transplant skin cancer management.",
+          "pearl": "Post-transplant malignancy surveillance: annual dermatology review; avoid peak UV exposure; use sunscreen. Most common post-LT cancers: skin SCC > BCC > PTLD > lip cancer. Skin cancer in transplant recipients is particularly aggressive — 3× higher metastatic rate than in immunocompetent patients. Low-dose acitretin (retinoid) reduces new SCC incidence."
+        }
+      },
+      {
+        "id": "E2-Q6",
+        "stem": "A 48-year-old man with a renal transplant (3 years post-transplant) is found to have donor-specific antibodies (DSA) against HLA-DQ7 on routine screening. His creatinine is stable at 115 µmol/L and there is no proteinuria. Repeat biopsy shows mild C4d deposition in peritubular capillaries without histological features of rejection. What is the diagnosis and management?",
+        "options": {
+          "A": "Subclinical ABMR — treat with IV methylprednisolone",
+          "B": "Chronic ABMR — intensify immunosuppression + IVIG + plasmapheresis",
+          "C": "Subclinical DSA positivity — optimise CNI levels, monitor renal function, and repeat DSA/biopsy in 6 months",
+          "D": "Hyperacute rejection — urgent graft nephrectomy"
+        },
+        "correct": "C",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Subclinical DSA positivity with C4d staining but no microvascular injury or clinical dysfunction represents an intermediate state — not meeting full Banff criteria for ABMR. Management: ensure adequate immunosuppression (tacrolimus trough, mycophenolate adherence), monitor creatinine and proteinuria closely, and repeat biopsy and DSA quantification at 6 months. Treating with IVIG/plasmapheresis without evidence of histological ABMR is not evidence-based.",
+          "wrong": {
+            "A": "Methylprednisolone is for ACR (cellular). C4d + DSA without microvascular injury is not a complete ABMR diagnosis — steroid bolus is not indicated.",
+            "B": "Chronic active ABMR requires microvascular injury (glomerulitis, peritubular capillaritis), C4d, and DSA plus histological damage. Without these histological features, intensified treatment is not evidence-based and carries immunosuppression toxicity risk.",
+            "D": "Hyperacute rejection is an immediate catastrophic event from pre-formed antibodies at the time of reperfusion. Stable creatinine 3 years post-transplant with new DSA detection is not hyperacute rejection."
+          },
+          "guideline": "KDIGO Transplantation Guidelines 2022 — subclinical DSA: close monitoring; full ABMR requires Banff criteria (DSA + C4d + microvascular injury)",
+          "trial": "Loupy A et al., NEJM 2013: DSA and graft survival — DSA positive: 10-year graft survival 68% vs 94% DSA negative; microvascular injury on biopsy is the critical prognostic factor.",
+          "pearl": "Banff 2022 ABMR criteria: (1) histological evidence of microvascular injury (glomerulitis ≥1 or peritubular capillaritis ≥1); (2) C4d positivity or evidence of endothelial activation; (3) current DSA. All 3 required for active ABMR. C4d without microvascular injury = 'C4d staining without rejection'."
+        }
+      },
+      {
+        "id": "E2-Q7",
+        "stem": "A 52-year-old man is 10 years post-deceased donor renal transplant (tacrolimus/MMF/steroids). Creatinine has been slowly rising for 2 years: 110 → 140 → 160 µmol/L. Proteinuria is 1.2g/day. Biopsy shows interstitial fibrosis and tubular atrophy (IFTA) with transplant glomerulopathy (double contour GBM), C4d in peritubular capillaries, and positive DSA anti-HLA-DQ. What is the diagnosis and management approach?",
+        "options": {
+          "A": "Calcineurin inhibitor nephrotoxicity — reduce tacrolimus",
+          "B": "Chronic active antibody-mediated rejection — consider plasmapheresis, IVIG, and rituximab",
+          "C": "Recurrent IgA nephropathy — mycophenolate dose increase",
+          "D": "Chronic cellular rejection — steroid bolus"
+        },
+        "correct": "B",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "Chronic active ABMR meeting all Banff criteria: (1) microvascular injury (transplant glomerulopathy — double contour GBM + GBM reduplication); (2) C4d in peritubular capillaries; (3) donor-specific antibody (anti-HLA-DQ). This is the leading cause of late graft loss. Management: plasmapheresis (remove circulating DSA) + IVIG + rituximab (deplete B cells). Evidence is limited but this combination is current best practice at specialist centres.",
+          "wrong": {
+            "A": "CNI nephrotoxicity causes interstitial fibrosis and arteriolar hyalinosis but does NOT cause transplant glomerulopathy or C4d deposition. Tacrolimus reduction alone is insufficient for ABMR.",
+            "C": "Recurrent IgA nephropathy can cause proteinuria and slow graft deterioration, but shows mesangial IgA deposits on IF — not transplant glomerulopathy or C4d. MMF increase does not treat IgA recurrence.",
+            "D": "Chronic cellular rejection shows tubulitis and interstitial inflammation without C4d or transplant glomerulopathy. This case has the full Banff ABMR pattern."
+          },
+          "guideline": "KDIGO Transplantation Guidelines 2022 — chronic active ABMR: plasmapheresis + IVIG ± rituximab; poor prognosis without treatment",
+          "trial": "Choi J et al., J Am Soc Nephrol 2018: treatment of chronic active ABMR — plasmapheresis + IVIG ± rituximab: 50% stabilisation of graft function at 2 years; bortezomib as experimental option.",
+          "pearl": "Transplant glomerulopathy (TG) on biopsy is almost pathognomonic of chronic ABMR: double contour of GBM (tram-tracking) on PASM stain from new lamina densa formation. TG is the morphological hallmark of endothelial injury from sustained antibody attack. Once TG is established, prognosis for graft survival at 5 years is ~50%."
+        }
+      },
+      {
+        "id": "E2-Q8",
+        "stem": "A 30-year-old female renal transplant recipient plans to become pregnant. She is 2 years post-transplant, stable creatinine 100 µmol/L, no proteinuria, on tacrolimus 3mg daily, mycophenolate mofetil 1500mg daily, and prednisolone 5mg daily. What medication change is most critical before conception?",
+        "options": {
+          "A": "Stop tacrolimus and switch to ciclosporin",
+          "B": "Stop mycophenolate mofetil and substitute with azathioprine",
+          "C": "Stop prednisolone — steroids are teratogenic",
+          "D": "No medication changes are needed — all immunosuppressants are safe in pregnancy"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Mycophenolate mofetil (MMF) is teratogenic (ear and limb malformations, pregnancy loss) — it must be stopped at least 6 weeks before conception and switched to azathioprine (the preferred antimetabolite in pregnancy). Tacrolimus and prednisolone are relatively safe in pregnancy at standard doses. Stable graft function (creatinine <150, no proteinuria) is a prerequisite before conception.",
+          "wrong": {
+            "A": "Tacrolimus can be continued in pregnancy — it is not categorically teratogenic, though dose adjustments may be needed due to altered pharmacokinetics in pregnancy. Switching to ciclosporin is not required.",
+            "C": "Prednisolone is not teratogenic at doses ≤15mg daily and should be continued for immunosuppression. It does not require cessation before conception.",
+            "D": "MMF is absolutely contraindicated in pregnancy. 'No changes needed' would expose the foetus to a known teratogen."
+          },
+          "guideline": "KDIGO Pregnancy After Transplant Guidelines 2021 — MMF: switch to azathioprine ≥6 weeks before conception; tacrolimus and prednisolone safe",
+          "trial": "Coscia LA et al., Transplantation 2009: NTPR registry — MMF in pregnancy: 22% congenital malformations vs 4% azathioprine; MMF-exposed: microtia, cleft lip/palate, limb malformations.",
+          "pearl": "Recommended immunosuppression in pregnancy: tacrolimus (adjust trough, increased clearance in pregnancy) + azathioprine (not MMF) + low-dose prednisolone. Stable graft criteria before conception: ≥1 year post-LT, creatinine <150, no rejection in past year, proteinuria <1g/day, well-controlled BP."
+        }
+      },
+      {
+        "id": "E2-Q9",
+        "stem": "A 60-year-old woman has a kidney from a deceased donor with acute tubular necrosis (ATN) on biopsy. The donor creatinine at retrieval was 220 µmol/L. She develops delayed graft function. Serial biopsies at 1 and 3 weeks show persistent ATN without rejection. What additional complication must be actively screened for during DGF?",
+        "options": {
+          "A": "Calcineurin inhibitor toxicity masking recovery",
+          "B": "Ureteric anastomotic stricture",
+          "C": "Cytomegalovirus (CMV) pneumonitis",
+          "D": "BK polyomavirus nephropathy"
+        },
+        "correct": "D",
+        "difficulty": 3,
+        "explanation": {
+          "correct": "BK polyomavirus nephropathy is an important complication to screen for during DGF because: (1) DGF requires high-level immunosuppression (to exclude rejection); (2) this creates conditions for BK reactivation; (3) BK nephropathy causes tubular injury similar to ATN on biopsy, and can be missed without BK staining (SV40) and plasma PCR. Early detection allows IS reduction before irreversible tubular destruction.",
+          "wrong": {
+            "A": "CNI toxicity is relevant — tacrolimus causes vasoconstriction and can impair tubular recovery. However, the question asks about complications to screen for 'actively' — BK nephropathy is specifically screened with PCR, while CNI toxicity is managed by monitoring trough levels.",
+            "B": "Ureteric stricture presents with hydronephrosis and obstruction on US, causing oliguria — it is diagnosed by imaging, not biopsy. Serial biopsies showing ATN without hydronephrosis point to an intrinsic problem.",
+            "C": "CMV pneumonitis is a significant post-transplant infection complication but is not specifically associated with DGF or the pattern of persistent ATN on biopsy. CMV screening is routine but not the priority in this specific scenario."
+          },
+          "guideline": "KDIGO Transplantation Guidelines 2022 — BK screening: plasma PCR monthly for 9 months, then 3-monthly to 2 years",
+          "trial": "Hirsch HH et al., Am J Transplant 2019: BK nephropathy — incidence 1-10%; reduction of IS reverses nephropathy in 50%; early detection by PCR is critical for graft salvage.",
+          "pearl": "BK screening strategy: plasma BK PCR thresholds: >1000 copies/mL = presumptive nephropathy → reduce IS; >10,000 copies/mL + histological damage = definitive BK nephropathy. SV40 immunostaining on biopsy is diagnostic. No approved antiviral for BK — IS reduction is the only treatment."
+        }
+      },
+      {
+        "id": "E2-Q10",
+        "stem": "A deceased donor kidney is retrieved from a 58-year-old hypertensive donor after brain death. Donor creatinine was 135 µmol/L. The kidney is deemed marginal. Machine perfusion is available. Compared to static cold storage, what does normothermic machine perfusion (NMP) offer for marginal kidneys?",
+        "options": {
+          "A": "Complete elimination of delayed graft function",
+          "B": "Reduced DGF incidence, viability assessment during preservation, and reconditioning of marginal organs",
+          "C": "Allows preservation for up to 7 days without deterioration",
+          "D": "Eliminates the need for immunosuppression post-transplantation"
+        },
+        "correct": "B",
+        "difficulty": 2,
+        "explanation": {
+          "correct": "Normothermic machine perfusion (NMP) of kidneys provides: (1) active metabolic support (oxygenated blood-based perfusion at 37°C) allowing organ reconditioning; (2) real-time viability assessment (urine production, lactate clearance, oxygen consumption during perfusion); (3) reduced DGF incidence compared to static cold storage, particularly for marginal (ECD/DCD) kidneys. The COMPARE trial showed hypothermic machine perfusion (HMP) reduces DGF by 50%.",
+          "wrong": {
+            "A": "Machine perfusion reduces but does not eliminate DGF. The incidence drops from 20-30% to 10-15% with machine perfusion for standard criteria donors, and from 50-60% to 30-40% for extended criteria donors.",
+            "C": "Current machine perfusion techniques allow preservation up to 48–72 hours at most. 7-day preservation is not achievable with current technology.",
+            "D": "Immunosuppression is still required for all allografts. Machine perfusion addresses preservation quality, not the immunological mismatch between donor and recipient."
+          },
+          "guideline": "KDIGO Transplantation Guidelines 2022 — hypothermic machine perfusion preferred over static cold storage for all deceased donor kidneys; NMP emerging for viability assessment",
+          "trial": "COMPARE trial (Moers C, NEJM 2009): HMP vs static cold storage — DGF 20.8% vs 26.5%; 1-yr graft survival 94% vs 90%; NMP (Peters-Sengers, Lancet 2021): viability assessment changes accept/decline decision in 20% of marginal kidneys.",
+          "pearl": "Machine perfusion types: HMP (hypothermic, 4°C — reduces metabolism, standard of care); NMP (normothermic, 37°C — active metabolism, viability assessment, reconditioning); SNMP (subnormothermic, 20°C — intermediate). NMP viability thresholds: urine >100mL/h, lactate <4 mmol/L, and renal vascular resistance all predict good post-transplant function."
+        }
+      }
+    ]
+  }
 }
