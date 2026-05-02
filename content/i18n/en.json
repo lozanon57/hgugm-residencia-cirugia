@@ -108,6 +108,23 @@
     "browse_other": "Browse Other Chapters",
     "not_translated": "This chapter has not yet been translated. Showing English version."
   },
+  "review": {
+    "title": "Review Session",
+    "caught_up": "All caught up!",
+    "caught_up_msg": "No review questions due. Keep reading to build your review queue.",
+    "back_home": "Back to Home",
+    "exit": "← Exit",
+    "of": "{{n}} of {{total}}",
+    "next": "Next →",
+    "see_results": "See Results",
+    "correct_answer": "✅ Correct",
+    "wrong_answer": "❌ Incorrect",
+    "why_correct": "Why this is correct:",
+    "done_title": "Review Complete!",
+    "done_score": "{{correct}} of {{total}} correct",
+    "study_chapters": "Study these chapters:",
+    "back_home2": "← Back to Home"
+  },
   "shortcuts": {
     "title": "Keyboard Shortcuts",
     "next": "Next section",

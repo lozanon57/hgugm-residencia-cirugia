@@ -108,6 +108,23 @@
     "browse_other": "Ver otros capítulos",
     "not_translated": "Este capítulo aún no está traducido al español. Se muestra la versión en inglés."
   },
+  "review": {
+    "title": "Sesión de repaso",
+    "caught_up": "¡Al día!",
+    "caught_up_msg": "No tienes preguntas pendientes de repaso. Sigue leyendo para acumular preguntas en la cola.",
+    "back_home": "Volver al inicio",
+    "exit": "← Salir",
+    "of": "{{n}} de {{total}}",
+    "next": "Siguiente →",
+    "see_results": "Ver resultados",
+    "correct_answer": "✅ Correcto",
+    "wrong_answer": "❌ Incorrecto",
+    "why_correct": "Por qué es correcta:",
+    "done_title": "¡Repaso completado!",
+    "done_score": "{{correct}} de {{total}} correctas",
+    "study_chapters": "Estudia estos capítulos:",
+    "back_home2": "← Volver al inicio"
+  },
   "shortcuts": {
     "title": "Atajos de teclado",
     "next": "Sección siguiente",

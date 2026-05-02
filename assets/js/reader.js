@@ -10,6 +10,7 @@ const Reader = {
   /* ── Main Entry Point ────────────────────────────────────── */
   renderChapter(chapter) {
     const headerHtml = this.renderHeader(chapter);
+    const breadcrumbHtml = this.renderBreadcrumb(chapter, null);
     const totalSections = (chapter.sections || []).length;
     const hasConsolidation = !!chapter.consolidation;
     const sectionsHtml = (chapter.sections || []).map((sec, idx) =>
@@ -20,6 +21,7 @@ const Reader = {
       : '';
 
     return `
+      ${breadcrumbHtml}
       <div class="reader-layout">
         <aside class="reader-toc" id="readerToc" aria-label="Table of contents">
           <div class="toc-title">Contents</div>
@@ -332,6 +334,67 @@ const Reader = {
     `;
   },
 
+  /* ── Breadcrumb Navigation ───────────────────────────────── */
+  renderBreadcrumb(chapter, currentSectionTitle) {
+    const blockLabel = `Block ${chapter.block}: ${chapter.block_name || ''}`;
+    const chapterLabel = `${chapter.id}: ${chapter.title}`;
+    const sectionPart = currentSectionTitle
+      ? `<span class="bc-sep">›</span><span class="bc-current" id="bcSection">${currentSectionTitle}</span>`
+      : `<span class="bc-current bc-chapter" id="bcSection"></span>`;
+
+    return `
+      <nav class="breadcrumb-bar" id="chapterBreadcrumb" aria-label="Breadcrumb">
+        <a href="#/curriculum">Curriculum</a>
+        <span class="bc-sep">›</span>
+        <a href="#/curriculum">${blockLabel}</a>
+        <span class="bc-sep">›</span>
+        <span class="bc-current">${chapterLabel}</span>
+        ${sectionPart}
+      </nav>
+    `;
+  },
+
+  /* ── Update breadcrumb active section ───────────────────── */
+  updateBreadcrumbSection(sectionTitle) {
+    const el = document.getElementById('bcSection');
+    if (!el) return;
+    if (sectionTitle) {
+      el.textContent = sectionTitle;
+      el.style.display = '';
+    } else {
+      el.textContent = '';
+    }
+  },
+
+  /* ── Scroll Position Memory ──────────────────────────────── */
+  saveScrollPosition(chapterId, sectionId, scrollY) {
+    const key = `surgres_scroll_${chapterId}_${sectionId}`;
+    try {
+      localStorage.setItem(key, String(scrollY));
+    } catch (_) { /* storage full or unavailable */ }
+  },
+
+  restoreScrollPosition(chapterId) {
+    const sectionId = this._currentSectionIdx || 0;
+    const key = `surgres_scroll_${chapterId}_${sectionId}`;
+    const saved = localStorage.getItem(key);
+    if (!saved) return;
+    const scrollY = parseInt(saved, 10);
+    if (isNaN(scrollY) || scrollY <= 0) return;
+    setTimeout(() => { window.scrollTo({ top: scrollY, behavior: 'instant' }); }, 100);
+  },
+
+  clearScrollPosition(chapterId) {
+    // Clear all section scroll entries for this chapter
+    const prefix = `surgres_scroll_${chapterId}_`;
+    const keysToRemove = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k && k.startsWith(prefix)) keysToRemove.push(k);
+    }
+    keysToRemove.forEach(k => localStorage.removeItem(k));
+  },
+
   /* ── Inline Markdown Parser ──────────────────────────────── */
   parseInline(text) {
     return text
@@ -384,12 +447,20 @@ const Reader = {
     const fab = document.getElementById('tocFab');
 
     /* Reading progress bar — scroll-based */
+    let _scrollSaveTimer = null;
     const onScroll = () => {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
       const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
       if (fill) fill.style.width = `${Math.min(pct, 100)}%`;
       if (fab) fab.style.display = scrollTop > 200 ? 'flex' : 'none';
+
+      // Debounced scroll position save (500ms)
+      clearTimeout(_scrollSaveTimer);
+      _scrollSaveTimer = setTimeout(() => {
+        const sectionId = this._currentSectionIdx || 0;
+        this.saveScrollPosition(chapter.id, sectionId, scrollTop);
+      }, 500);
     };
     window.addEventListener('scroll', onScroll, { passive: true });
     this._scrollHandler = onScroll;
@@ -423,12 +494,18 @@ const Reader = {
       threshold: 0
     });
 
-    // Track current section index for keyboard navigation
+    // Track current section index for keyboard navigation + breadcrumb + scroll save
     const sectionObs2 = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           const idx = entry.target.dataset.sectionIdx;
-          if (idx !== 'quiz') this._currentSectionIdx = parseInt(idx) || 0;
+          if (idx !== 'quiz') {
+            this._currentSectionIdx = parseInt(idx) || 0;
+            const sec = chapter.sections && chapter.sections[this._currentSectionIdx];
+            if (sec) this.updateBreadcrumbSection(sec.title);
+          } else {
+            this.updateBreadcrumbSection('Consolidation Questions');
+          }
         }
       });
     }, { rootMargin: '-60px 0px -60% 0px', threshold: 0 });
@@ -451,6 +528,9 @@ const Reader = {
 
     // Restore saved text size preference
     this.restoreTextSize();
+
+    // Restore saved scroll position for this chapter
+    this.restoreScrollPosition(chapter.id);
   },
 
   /* ── Text Size Control ───────────────────────────────────── */
@@ -614,6 +694,7 @@ const Reader = {
 
     if (doneSections.length >= totalSections) {
       Progress.markChapterComplete(chapterId);
+      this.clearScrollPosition(chapterId);
     }
   }
 };
