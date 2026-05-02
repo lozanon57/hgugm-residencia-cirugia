@@ -38,12 +38,37 @@
         {
           "type": "table",
           "title": "IMRaD — The Question Each Section Must Answer",
-          "headers": ["Section", "Core Question", "Length (typical)", "Common Error"],
+          "headers": [
+            "Section",
+            "Core Question",
+            "Length (typical)",
+            "Common Error"
+          ],
           "rows": [
-            ["Introduction", "Why was this study needed? What gap does it fill?", "3–4 paragraphs / 400–600 words", "Narrating all existing literature instead of identifying the gap"],
-            ["Methods", "How was the study done? Could another centre replicate it?", "Largest section — unlimited, limited only by necessity", "Insufficient detail on eligibility criteria, exposures, and statistical analysis"],
-            ["Results", "What did the study find?", "Guided by figures/tables; text guides the reader", "Interpretation or discussion of results in the Results section"],
-            ["Discussion", "What do the findings mean in context?", "4–5 paragraphs / 600–900 words", "Repeating results; overreaching conclusions; ignoring limitations"]
+            [
+              "Introduction",
+              "Why was this study needed? What gap does it fill?",
+              "3–4 paragraphs / 400–600 words",
+              "Narrating all existing literature instead of identifying the gap"
+            ],
+            [
+              "Methods",
+              "How was the study done? Could another centre replicate it?",
+              "Largest section — unlimited, limited only by necessity",
+              "Insufficient detail on eligibility criteria, exposures, and statistical analysis"
+            ],
+            [
+              "Results",
+              "What did the study find?",
+              "Guided by figures/tables; text guides the reader",
+              "Interpretation or discussion of results in the Results section"
+            ],
+            [
+              "Discussion",
+              "What do the findings mean in context?",
+              "4–5 paragraphs / 600–900 words",
+              "Repeating results; overreaching conclusions; ignoring limitations"
+            ]
           ]
         },
         {
@@ -79,11 +104,31 @@
         {
           "type": "table",
           "title": "Three-Paragraph Introduction Template",
-          "headers": ["Paragraph", "Function", "Content", "Word Target"],
+          "headers": [
+            "Paragraph",
+            "Function",
+            "Content",
+            "Word Target"
+          ],
           "rows": [
-            ["Paragraph 1", "Clinical context and burden", "Disease epidemiology, clinical impact, unmet need. Start with the patient, not the biology.", "100–150 words"],
-            ["Paragraph 2", "State of the evidence and its limitations", "What prior studies have shown and why they are insufficient (design limitations, population gaps, outcome gaps, conflicting results).", "150–200 words"],
-            ["Paragraph 3", "Gap statement and study aim", "Explicit gap statement followed by: 'Therefore, the aim of this study was to...' or 'The objective of this prospective cohort study was to...'", "80–100 words"]
+            [
+              "Paragraph 1",
+              "Clinical context and burden",
+              "Disease epidemiology, clinical impact, unmet need. Start with the patient, not the biology.",
+              "100–150 words"
+            ],
+            [
+              "Paragraph 2",
+              "State of the evidence and its limitations",
+              "What prior studies have shown and why they are insufficient (design limitations, population gaps, outcome gaps, conflicting results).",
+              "150–200 words"
+            ],
+            [
+              "Paragraph 3",
+              "Gap statement and study aim",
+              "Explicit gap statement followed by: 'Therefore, the aim of this study was to...' or 'The objective of this prospective cohort study was to...'",
+              "80–100 words"
+            ]
           ]
         },
         {
@@ -135,15 +180,47 @@
         {
           "type": "table",
           "title": "SAMPL Guidelines — Statistical Reporting Standards for Methods",
-          "headers": ["Element", "Required Information", "Example"],
+          "headers": [
+            "Element",
+            "Required Information",
+            "Example"
+          ],
           "rows": [
-            ["Descriptive statistics", "Specify distribution before choosing measure of central tendency", "Normally distributed → mean ± SD; skewed → median (IQR)"],
-            ["Comparative tests", "Name the test, state whether one- or two-tailed, and justify", "Mann-Whitney U test (two-tailed) for non-normally distributed continuous variables"],
-            ["Regression models", "Specify type, variable selection method, and goodness-of-fit", "Binary logistic regression; a priori variable selection based on clinical plausibility; Hosmer-Lemeshow test"],
-            ["Survival analysis", "State the method, censoring rules, and assumption verification", "Kaplan-Meier with log-rank; censored at last known alive contact; PH assumption verified by Schoenfeld residuals (p=0.38)"],
-            ["Sample size", "State primary outcome, α, power, expected effect, and calculated n", "α=0.05, power=80%, expected difference in leak rate 8% vs 14%, n=186 per arm"],
-            ["Missing data", "Report amount, pattern, and handling method", "Missing data in 12/250 (4.8%) cases; multiple imputation with 20 datasets under MAR assumption"],
-            ["Software", "Name and version", "All analyses in R v4.3.1 (R Foundation, Vienna); survival package v3.5-7"]
+            [
+              "Descriptive statistics",
+              "Specify distribution before choosing measure of central tendency",
+              "Normally distributed → mean ± SD; skewed → median (IQR)"
+            ],
+            [
+              "Comparative tests",
+              "Name the test, state whether one- or two-tailed, and justify",
+              "Mann-Whitney U test (two-tailed) for non-normally distributed continuous variables"
+            ],
+            [
+              "Regression models",
+              "Specify type, variable selection method, and goodness-of-fit",
+              "Binary logistic regression; a priori variable selection based on clinical plausibility; Hosmer-Lemeshow test"
+            ],
+            [
+              "Survival analysis",
+              "State the method, censoring rules, and assumption verification",
+              "Kaplan-Meier with log-rank; censored at last known alive contact; PH assumption verified by Schoenfeld residuals (p=0.38)"
+            ],
+            [
+              "Sample size",
+              "State primary outcome, α, power, expected effect, and calculated n",
+              "α=0.05, power=80%, expected difference in leak rate 8% vs 14%, n=186 per arm"
+            ],
+            [
+              "Missing data",
+              "Report amount, pattern, and handling method",
+              "Missing data in 12/250 (4.8%) cases; multiple imputation with 20 datasets under MAR assumption"
+            ],
+            [
+              "Software",
+              "Name and version",
+              "All analyses in R v4.3.1 (R Foundation, Vienna); survival package v3.5-7"
+            ]
           ]
         }
       ]
@@ -189,12 +266,37 @@
         {
           "type": "table",
           "title": "Four-Paragraph Discussion Architecture",
-          "headers": ["Paragraph", "Function", "Content", "Do NOT"],
+          "headers": [
+            "Paragraph",
+            "Function",
+            "Content",
+            "Do NOT"
+          ],
           "rows": [
-            ["1 — Summary", "Restate principal findings in clinical terms", "3–5 sentences synthesising the 1–2 most important results; include direction and magnitude", "Re-present all results with numbers (that is the Results section)"],
-            ["2 — Contextualisation", "Compare with existing literature", "Where do your results agree/disagree with prior work and why? Explain discordances.", "List prior studies without synthesising what they mean collectively"],
-            ["3 — Strengths & Limitations", "Honest methodological appraisal", "Name specific limitations with direction and likely magnitude of bias; match strengths to claims", "Use vague language ('some limitations exist') or omit limitations entirely"],
-            ["4 — Conclusion", "Clinical implication and future research", "One sentence of implication; one sentence of future research needed", "Introduce new data; overclaim causality; hedge excessively"]
+            [
+              "1 — Summary",
+              "Restate principal findings in clinical terms",
+              "3–5 sentences synthesising the 1–2 most important results; include direction and magnitude",
+              "Re-present all results with numbers (that is the Results section)"
+            ],
+            [
+              "2 — Contextualisation",
+              "Compare with existing literature",
+              "Where do your results agree/disagree with prior work and why? Explain discordances.",
+              "List prior studies without synthesising what they mean collectively"
+            ],
+            [
+              "3 — Strengths & Limitations",
+              "Honest methodological appraisal",
+              "Name specific limitations with direction and likely magnitude of bias; match strengths to claims",
+              "Use vague language ('some limitations exist') or omit limitations entirely"
+            ],
+            [
+              "4 — Conclusion",
+              "Clinical implication and future research",
+              "One sentence of implication; one sentence of future research needed",
+              "Introduce new data; overclaim causality; hedge excessively"
+            ]
           ]
         },
         {
@@ -216,12 +318,37 @@
         {
           "type": "table",
           "title": "Structured Abstract — Section-by-Section Requirements",
-          "headers": ["Heading", "Content Required", "Word Budget", "Common Error"],
+          "headers": [
+            "Heading",
+            "Content Required",
+            "Word Budget",
+            "Common Error"
+          ],
           "rows": [
-            ["Background", "Clinical problem + knowledge gap (2–3 sentences)", "40–60 words", "Starting with generic epidemiology rather than the gap"],
-            ["Methods", "Design, setting, population (eligibility), intervention/exposure, primary outcome", "60–80 words", "Omitting sample size, date range, or primary outcome definition"],
-            ["Results", "n analysed, primary outcome with effect size + 95%CI, 2–3 secondary outcomes", "80–100 words", "Reporting only p-values without effect sizes; omitting CIs"],
-            ["Conclusions", "One sentence of clinical implication; one sentence of scope/limitation", "30–40 words", "Overreaching causality; repeating results rather than interpreting them"]
+            [
+              "Background",
+              "Clinical problem + knowledge gap (2–3 sentences)",
+              "40–60 words",
+              "Starting with generic epidemiology rather than the gap"
+            ],
+            [
+              "Methods",
+              "Design, setting, population (eligibility), intervention/exposure, primary outcome",
+              "60–80 words",
+              "Omitting sample size, date range, or primary outcome definition"
+            ],
+            [
+              "Results",
+              "n analysed, primary outcome with effect size + 95%CI, 2–3 secondary outcomes",
+              "80–100 words",
+              "Reporting only p-values without effect sizes; omitting CIs"
+            ],
+            [
+              "Conclusions",
+              "One sentence of clinical implication; one sentence of scope/limitation",
+              "30–40 words",
+              "Overreaching causality; repeating results rather than interpreting them"
+            ]
           ]
         },
         {
@@ -251,13 +378,43 @@
         {
           "type": "table",
           "title": "Figure Design Standards by Type",
-          "headers": ["Figure Type", "Recommended Format", "Key Elements", "Common Errors"],
+          "headers": [
+            "Figure Type",
+            "Recommended Format",
+            "Key Elements",
+            "Common Errors"
+          ],
           "rows": [
-            ["Kaplan-Meier survival curve", "Line graph with censoring marks", "Both groups clearly labelled; at-risk table below x-axis; median survival ± 95%CI stated in figure or legend; log-rank p-value", "No at-risk table; missing censoring marks; no confidence bands"],
-            ["Forest plot (meta-analysis)", "Horizontal CI plot", "Study names + weights; point estimates (squares scaled to weight); CI lines; diamond for pooled estimate; line of no effect; I² and Q-test p-value", "Missing overall diamond; no heterogeneity statistic; unlabelled axes"],
-            ["Box plot", "Box-and-whisker", "Median line; IQR box; whiskers at 1.5×IQR; outliers as individual points; n per group labelled", "Showing mean±SEM instead of median/IQR for non-normal data; no individual data points for small n"],
-            ["Flow diagram (CONSORT)", "Structured flowchart", "All exclusions numbered with reasons; n at each stage; parallel allocation arms shown", "Omitting reasons for exclusion; non-standard format"],
-            ["Bar chart", "Vertical bars", "Error bars must be defined (SD, SEM, or 95%CI) in legend; y-axis starting at zero", "Broken y-axis; undefined error bars; 3D effects that distort perception"]
+            [
+              "Kaplan-Meier survival curve",
+              "Line graph with censoring marks",
+              "Both groups clearly labelled; at-risk table below x-axis; median survival ± 95%CI stated in figure or legend; log-rank p-value",
+              "No at-risk table; missing censoring marks; no confidence bands"
+            ],
+            [
+              "Forest plot (meta-analysis)",
+              "Horizontal CI plot",
+              "Study names + weights; point estimates (squares scaled to weight); CI lines; diamond for pooled estimate; line of no effect; I² and Q-test p-value",
+              "Missing overall diamond; no heterogeneity statistic; unlabelled axes"
+            ],
+            [
+              "Box plot",
+              "Box-and-whisker",
+              "Median line; IQR box; whiskers at 1.5×IQR; outliers as individual points; n per group labelled",
+              "Showing mean±SEM instead of median/IQR for non-normal data; no individual data points for small n"
+            ],
+            [
+              "Flow diagram (CONSORT)",
+              "Structured flowchart",
+              "All exclusions numbered with reasons; n at each stage; parallel allocation arms shown",
+              "Omitting reasons for exclusion; non-standard format"
+            ],
+            [
+              "Bar chart",
+              "Vertical bars",
+              "Error bars must be defined (SD, SEM, or 95%CI) in legend; y-axis starting at zero",
+              "Broken y-axis; undefined error bars; 3D effects that distort perception"
+            ]
           ]
         },
         {
@@ -303,16 +460,61 @@
         {
           "type": "table",
           "title": "Reporting Guidelines — Surgical Research",
-          "headers": ["Guideline", "Study Type", "Key Items", "Source"],
+          "headers": [
+            "Guideline",
+            "Study Type",
+            "Key Items",
+            "Source"
+          ],
           "rows": [
-            ["CONSORT 2010", "Randomised controlled trials", "25 items + flow diagram; requires allocation sequence, blinding details, ITT analysis", "www.consort-statement.org"],
-            ["STROBE 2007", "Cohort, case-control, cross-sectional", "22 items; addresses selection bias, confounding, and missing data", "www.strobe-statement.org"],
-            ["PRISMA 2020", "Systematic reviews and meta-analyses", "27 items + flow diagram; requires protocol registration, search strategy, risk of bias", "www.prisma-statement.org"],
-            ["CARE 2013", "Case reports", "13 items; timeline, patient perspective, diagnostic reasoning, follow-up", "www.care-statement.org"],
-            ["SCARE 2020", "Surgical case reports", "Extension of CARE with surgical-specific items", "www.scarecriteria.org"],
-            ["TRIPOD 2015", "Prediction models (diagnostic/prognostic)", "22 items; model development, validation, discrimination, calibration", "www.tripod-statement.org"],
-            ["CHEERS 2022", "Health economic evaluations", "28 items; perspective, time horizon, discount rate, sensitivity analysis", "www.equator-network.org"],
-            ["SAMPL 2015", "Statistical analysis and methods in literature", "Covers descriptive stats, inferential tests, regression, survival, Bayesian", "www.equator-network.org"]
+            [
+              "CONSORT 2010",
+              "Randomised controlled trials",
+              "25 items + flow diagram; requires allocation sequence, blinding details, ITT analysis",
+              "www.consort-statement.org"
+            ],
+            [
+              "STROBE 2007",
+              "Cohort, case-control, cross-sectional",
+              "22 items; addresses selection bias, confounding, and missing data",
+              "www.strobe-statement.org"
+            ],
+            [
+              "PRISMA 2020",
+              "Systematic reviews and meta-analyses",
+              "27 items + flow diagram; requires protocol registration, search strategy, risk of bias",
+              "www.prisma-statement.org"
+            ],
+            [
+              "CARE 2013",
+              "Case reports",
+              "13 items; timeline, patient perspective, diagnostic reasoning, follow-up",
+              "www.care-statement.org"
+            ],
+            [
+              "SCARE 2020",
+              "Surgical case reports",
+              "Extension of CARE with surgical-specific items",
+              "www.scarecriteria.org"
+            ],
+            [
+              "TRIPOD 2015",
+              "Prediction models (diagnostic/prognostic)",
+              "22 items; model development, validation, discrimination, calibration",
+              "www.tripod-statement.org"
+            ],
+            [
+              "CHEERS 2022",
+              "Health economic evaluations",
+              "28 items; perspective, time horizon, discount rate, sensitivity analysis",
+              "www.equator-network.org"
+            ],
+            [
+              "SAMPL 2015",
+              "Statistical analysis and methods in literature",
+              "Covers descriptive stats, inferential tests, regression, survival, Bayesian",
+              "www.equator-network.org"
+            ]
           ]
         },
         {
@@ -338,13 +540,37 @@
         {
           "type": "table",
           "title": "Cover Letter Structure",
-          "headers": ["Paragraph", "Content", "Length"],
+          "headers": [
+            "Paragraph",
+            "Content",
+            "Length"
+          ],
           "rows": [
-            ["Opening", "Manuscript title, study type, and direct statement of submission ('We submit for consideration...')", "2–3 sentences"],
-            ["Novelty and significance", "What is new in this study and why does it matter? State the knowledge gap and how this manuscript fills it.", "3–4 sentences"],
-            ["Fit to journal", "Why this journal? Reference the journal's readership, recent related publications, or scope — never generic ('EJSO is a leading journal'). Be specific.", "2–3 sentences"],
-            ["Ethical and compliance statements", "Ethical approval reference number, patient consent, data availability, conflict of interest statement, no simultaneous submission", "3–5 sentences"],
-            ["Suggested reviewers", "2–3 names (optional but welcomed) with institution and reason for expertise — never competitors or collaborators", "Optional, 2–3 lines"]
+            [
+              "Opening",
+              "Manuscript title, study type, and direct statement of submission ('We submit for consideration...')",
+              "2–3 sentences"
+            ],
+            [
+              "Novelty and significance",
+              "What is new in this study and why does it matter? State the knowledge gap and how this manuscript fills it.",
+              "3–4 sentences"
+            ],
+            [
+              "Fit to journal",
+              "Why this journal? Reference the journal's readership, recent related publications, or scope — never generic ('EJSO is a leading journal'). Be specific.",
+              "2–3 sentences"
+            ],
+            [
+              "Ethical and compliance statements",
+              "Ethical approval reference number, patient consent, data availability, conflict of interest statement, no simultaneous submission",
+              "3–5 sentences"
+            ],
+            [
+              "Suggested reviewers",
+              "2–3 names (optional but welcomed) with institution and reason for expertise — never competitors or collaborators",
+              "Optional, 2–3 lines"
+            ]
           ]
         },
         {
@@ -376,14 +602,42 @@
         {
           "type": "table",
           "title": "Response-to-Reviewers Document Structure",
-          "headers": ["Element", "Content", "Standard"],
+          "headers": [
+            "Element",
+            "Content",
+            "Standard"
+          ],
           "rows": [
-            ["Cover page", "Date, manuscript ID, title, and acknowledgement of reviewers", "Professional, brief, non-effusive"],
-            ["General response", "1–2 paragraphs summarising the major changes made and the revised manuscript's improvements", "Substantive, not generic"],
-            ["Reviewer 1, Comment 1", "Verbatim quote of reviewer comment, then author response, then revised text with page/line reference", "Every comment addressed individually"],
-            ["Agreement responses", "When reviewer is correct: 'The reviewer correctly identifies...We have revised the manuscript to...(page X, line Y)'", "Concrete: show the change, state where"],
-            ["Disagreement responses", "When reviewer is incorrect: 'We respectfully disagree. [Evidence/reference]. The original text has been retained but we have added clarification...'", "Evidence-based; respectful; non-capitulating"],
-            ["Revised text excerpts", "Paste the revised text in full within the response document", "Allows reviewers to verify changes without re-reading entire manuscript"]
+            [
+              "Cover page",
+              "Date, manuscript ID, title, and acknowledgement of reviewers",
+              "Professional, brief, non-effusive"
+            ],
+            [
+              "General response",
+              "1–2 paragraphs summarising the major changes made and the revised manuscript's improvements",
+              "Substantive, not generic"
+            ],
+            [
+              "Reviewer 1, Comment 1",
+              "Verbatim quote of reviewer comment, then author response, then revised text with page/line reference",
+              "Every comment addressed individually"
+            ],
+            [
+              "Agreement responses",
+              "When reviewer is correct: 'The reviewer correctly identifies...We have revised the manuscript to...(page X, line Y)'",
+              "Concrete: show the change, state where"
+            ],
+            [
+              "Disagreement responses",
+              "When reviewer is incorrect: 'We respectfully disagree. [Evidence/reference]. The original text has been retained but we have added clarification...'",
+              "Evidence-based; respectful; non-capitulating"
+            ],
+            [
+              "Revised text excerpts",
+              "Paste the revised text in full within the response document",
+              "Allows reviewers to verify changes without re-reading entire manuscript"
+            ]
           ]
         },
         {
@@ -409,15 +663,47 @@
         {
           "type": "table",
           "title": "Main Text vs Supplementary Material — Decision Framework",
-          "headers": ["Content Type", "Main Text", "Supplementary"],
+          "headers": [
+            "Content Type",
+            "Main Text",
+            "Supplementary"
+          ],
           "rows": [
-            ["Primary outcome results", "Always main text", "Never supplementary-only"],
-            ["Full database search strategy", "Abbreviated in Methods", "Full Boolean string in supplement"],
-            ["Sensitivity analyses", "If primary, main text; if secondary, supplement acceptable", "Supplementary acceptable for exploratory analyses"],
-            ["Additional patient subgroup analyses", "If pre-specified and clinically important, main text", "Post-hoc subgroups → supplementary"],
-            ["Operative technique description", "Key technical steps in Methods", "Step-by-step protocol or video → supplementary"],
-            ["Extended baseline characteristics", "Core demographics in Table 1", "Extended comorbidity lists → supplementary table"],
-            ["Risk of bias assessments (meta-analysis)", "Summary RoB figure in main text", "Full domain-level RoB table in supplementary"]
+            [
+              "Primary outcome results",
+              "Always main text",
+              "Never supplementary-only"
+            ],
+            [
+              "Full database search strategy",
+              "Abbreviated in Methods",
+              "Full Boolean string in supplement"
+            ],
+            [
+              "Sensitivity analyses",
+              "If primary, main text; if secondary, supplement acceptable",
+              "Supplementary acceptable for exploratory analyses"
+            ],
+            [
+              "Additional patient subgroup analyses",
+              "If pre-specified and clinically important, main text",
+              "Post-hoc subgroups → supplementary"
+            ],
+            [
+              "Operative technique description",
+              "Key technical steps in Methods",
+              "Step-by-step protocol or video → supplementary"
+            ],
+            [
+              "Extended baseline characteristics",
+              "Core demographics in Table 1",
+              "Extended comorbidity lists → supplementary table"
+            ],
+            [
+              "Risk of bias assessments (meta-analysis)",
+              "Summary RoB figure in main text",
+              "Full domain-level RoB table in supplementary"
+            ]
           ]
         },
         {
@@ -443,12 +729,32 @@
         {
           "type": "table",
           "title": "ICMJE Authorship Criteria (all four required)",
-          "headers": ["Criterion", "Practical Standard", "Common Misconception"],
+          "headers": [
+            "Criterion",
+            "Practical Standard",
+            "Common Misconception"
+          ],
           "rows": [
-            ["1. Substantial contribution to conception/design OR acquisition/analysis/interpretation", "Significant intellectual input — not mere data collection", "Collecting data without intellectual contribution does not qualify"],
-            ["2. Drafting OR critically revising the manuscript for intellectual content", "Reading and approving the final draft is insufficient", "Reviewing for typos is not critical revision for intellectual content"],
-            ["3. Final approval of the version to be published", "Must read and agree to the submitted version", "Cannot approve a version you have not read"],
-            ["4. Accountability for all aspects of the work", "Willing to investigate and resolve accuracy/integrity concerns", "Cannot be an author without accepting this responsibility"]
+            [
+              "1. Substantial contribution to conception/design OR acquisition/analysis/interpretation",
+              "Significant intellectual input — not mere data collection",
+              "Collecting data without intellectual contribution does not qualify"
+            ],
+            [
+              "2. Drafting OR critically revising the manuscript for intellectual content",
+              "Reading and approving the final draft is insufficient",
+              "Reviewing for typos is not critical revision for intellectual content"
+            ],
+            [
+              "3. Final approval of the version to be published",
+              "Must read and agree to the submitted version",
+              "Cannot approve a version you have not read"
+            ],
+            [
+              "4. Accountability for all aspects of the work",
+              "Willing to investigate and resolve accuracy/integrity concerns",
+              "Cannot be an author without accepting this responsibility"
+            ]
           ]
         },
         {
@@ -470,16 +776,61 @@
         {
           "type": "table",
           "title": "Reference Journals for Surgical Oncology",
-          "headers": ["Journal", "IF (approx.)", "Scope", "Submission Notes"],
+          "headers": [
+            "Journal",
+            "IF (approx.)",
+            "Scope",
+            "Submission Notes"
+          ],
           "rows": [
-            ["JAMA Surgery", "~16", "Broad surgical practice; high novelty bar", "Multi-centre or methodologically exceptional"],
-            ["Annals of Surgery", "~13", "Major surgical RCTs, large cohorts", "Landmark trial data; surgical innovation"],
-            ["BJS (British Journal of Surgery)", "~10", "European surgical practice; oncology strong", "Rigorous methodology; CONSORT mandatory"],
-            ["Annals of Surgical Oncology", "~5", "Surgical oncology — peritoneal, HPB, colorectal", "Excellent fit for HGUGM oncology work"],
-            ["EJSO", "~4–5", "European surgical oncology, peritoneal disease", "Accepts single-centre cohorts with novel findings"],
-            ["Colorectal Disease", "~3–4", "Colorectal surgery — international readership", "Accepts technique papers and medium-size cohorts"],
-            ["Cancers (MDPI)", "~5", "Open access; broad oncology", "Rapid review; lower barrier; OA fee applies"],
-            ["JCO", "~28", "Medical oncology; surgery as part of multimodal", "Surgical data within large oncology RCTs"]
+            [
+              "JAMA Surgery",
+              "~16",
+              "Broad surgical practice; high novelty bar",
+              "Multi-centre or methodologically exceptional"
+            ],
+            [
+              "Annals of Surgery",
+              "~13",
+              "Major surgical RCTs, large cohorts",
+              "Landmark trial data; surgical innovation"
+            ],
+            [
+              "BJS (British Journal of Surgery)",
+              "~10",
+              "European surgical practice; oncology strong",
+              "Rigorous methodology; CONSORT mandatory"
+            ],
+            [
+              "Annals of Surgical Oncology",
+              "~5",
+              "Surgical oncology — peritoneal, HPB, colorectal",
+              "Excellent fit for HGUGM oncology work"
+            ],
+            [
+              "EJSO",
+              "~4–5",
+              "European surgical oncology, peritoneal disease",
+              "Accepts single-centre cohorts with novel findings"
+            ],
+            [
+              "Colorectal Disease",
+              "~3–4",
+              "Colorectal surgery — international readership",
+              "Accepts technique papers and medium-size cohorts"
+            ],
+            [
+              "Cancers (MDPI)",
+              "~5",
+              "Open access; broad oncology",
+              "Rapid review; lower barrier; OA fee applies"
+            ],
+            [
+              "JCO",
+              "~28",
+              "Medical oncology; surgery as part of multimodal",
+              "Surgical data within large oncology RCTs"
+            ]
           ]
         },
         {
@@ -514,7 +865,8 @@
           "guideline": "ICMJE recommendations — Results should present but not interpret data",
           "trial": "Glasziou P et al., 'What is missing from descriptions of treatment in trials?' — systematic review showing frequent interpretation within results sections.",
           "pearl": "The test for every Results sentence: does it state a finding only? If it explains, interprets, or contextualises — it belongs in the Discussion."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C5-Q2",
@@ -536,7 +888,8 @@
           "guideline": "CONSORT 2010 item 5 — 'The interventions for each group with sufficient details to allow replication'",
           "trial": "Jacquier I et al., Trials 2013: item 5 non-compliance found in 78% of surgical RCTs examined.",
           "pearl": "For surgical interventions, item 5 must specify: procedure name, key technical steps, surgeon credentialling (case volume), and learning curve management."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C5-Q3",
@@ -558,7 +911,8 @@
           "guideline": "ICMJE Recommendations 2024 — all four authorship criteria required; contributions below threshold should be acknowledged",
           "trial": "Wislar JS et al., BMJ 2011: 21% of Annals of Internal Medicine articles contained honorary authors.",
           "pearl": "If you encounter gift authorship pressure: COPE provides resources for managing authorship disputes and journals have ethics boards that take complaints seriously."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C5-Q4",
@@ -580,7 +934,8 @@
           "guideline": "STROBE 2007 — applicable to all observational epidemiological study designs",
           "trial": "von Elm E et al., Lancet 2007 — original STROBE publication: 22-item checklist for observational studies.",
           "pearl": "Use EQUATOR Network's study design filter at www.equator-network.org to identify the correct guideline for any study type."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C5-Q5",
@@ -602,7 +957,8 @@
           "guideline": "ICMJE recommendations — conclusions should be consistent with the data and acknowledge limitations",
           "trial": "Ioannidis JP (PLOS Medicine 2005): 'Why Most Published Research Findings Are False' — overreach in observational research.",
           "pearl": "Match language to study design: cohort → 'associated with'; RCT → 'caused/prevented/reduced'. Never use causal language for observational designs."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C5-Q6",
@@ -624,7 +980,8 @@
           "guideline": "SAMPL Guidelines 2015 — specify statistical tests appropriate to data distribution; report median (IQR) for non-normal continuous variables",
           "trial": "Lang TA, Altman DG. Basic statistical reporting for articles published in biomedical journals: the SAMPL Guidelines. Eur J Clin Invest 2015.",
           "pearl": "Check normality before choosing a test: normally distributed → t-test (mean±SD); skewed → Mann-Whitney U (median/IQR). Reporting mean±SD for clearly skewed data is both statistically wrong and misleading."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C5-Q7",
@@ -646,7 +1003,8 @@
           "guideline": "SAMPL Guidelines 2015 — report values to a precision consistent with measurement precision; percentages to one decimal place",
           "trial": "Simera I et al. — reporting checklist meta-research consistently identifies inconsistent decimal reporting as a quality marker.",
           "pearl": "Decimal place rule: percentages → one decimal (14.7%); ORs and HRs → two decimal (OR 1.85); p-values → two decimal when ≥0.01, then p<0.001."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C5-Q8",
@@ -668,7 +1026,8 @@
           "guideline": "ICMJE — cover letter should state why the manuscript is appropriate for the specific journal",
           "trial": "Ware M, Mabe M. The STM Report 2015: editors report that cover letter quality predicts submission seriousness.",
           "pearl": "Cover letter formula: (1) title + design; (2) gap filled; (3) key result with effect size; (4) why specifically THIS journal; (5) ethical compliance; (6) no simultaneous submission declaration."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C5-Q9",
@@ -690,7 +1049,8 @@
           "guideline": "PRISMA 2020 item 7 — 'Present the full search strategies for all databases, registers and websites, including any filters and limits used'",
           "trial": "Page MJ et al. PRISMA 2020 explanation and elaboration. BMJ 2021;372:n160.",
           "pearl": "The PRESS checklist (Peer Review of Electronic Search Strategies) provides a tool for having search strategies independently reviewed by a librarian — recommended before systematic review publication."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C5-Q10",
@@ -712,7 +1072,8 @@
           "guideline": "EQUATOR/CONSORT — figures must be self-explanatory; ICMJE requires all abbreviations in figures to be defined in the legend",
           "trial": "Moher D et al. CONSORT 2010 — item 13b: 'For each group, number of participants (denominator) included in each analysis and whether the analysis was by original assigned groups'",
           "pearl": "Legend sufficiency test: give the figure and legend to a colleague who hasn't read the paper — can they describe the main finding? If not, the legend is insufficient."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C5-Q11",
@@ -734,7 +1095,8 @@
           "guideline": "STROBE item 19 — 'Discuss limitations of the study, taking into account sources of potential bias or imprecision and discuss both direction and magnitude of potential biases'",
           "trial": "Vandenbroucke JP et al. Strengthening the Reporting of Observational Studies in Epidemiology (STROBE). PLoS Med 2007.",
           "pearl": "For each limitation, ask three questions: (1) What bias does this introduce? (2) In which direction does it push my estimate? (3) How large is the likely effect? Answering all three is the standard."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C5-Q12",
@@ -756,7 +1118,8 @@
           "guideline": "International Committee of Medical Journal Editors — Vancouver style: 'Number references consecutively in the order in which they are first mentioned in the text'",
           "trial": "ICMJE Recommendations 2024, Section IV.A.9 — reference formatting standards for biomedical journals.",
           "pearl": "Most surgical journals use Vancouver style (numbered, appearance-order). Social science journals use APA (Author, Year). Check the target journal's Instructions to Authors before formatting references — errors here cause immediate formatting rejection."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C5-Q13",
@@ -778,7 +1141,8 @@
           "guideline": "ICMJE Recommendations 2024 — 'All persons designated as authors should qualify for authorship... persons who do not meet criteria should be listed in the acknowledgements with written permission'",
           "trial": "Bates T et al. Authorship and contributorship in medical publications. JAMA 2004.",
           "pearl": "Before listing anyone in Acknowledgements: (1) check they don't qualify as an author; (2) obtain their written consent to be named; (3) briefly describe their contribution (e.g., 'statistical consultation', 'database management')."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C5-Q14",
@@ -800,7 +1164,8 @@
           "guideline": "COPE — 'Redundant publication and data fragmentation (salami publishing) are unethical; prior related publications must be declared'",
           "trial": "Baggs JG et al. Duplicate publication and related issues. J Am Geriatr Soc 2008.",
           "pearl": "When in doubt about whether a manuscript represents legitimate reporting of new data: ask 'Would a reader who had read the first paper learn something genuinely new and independently valuable from this second paper?' If no — the publication is fragmented."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C5-Q15",
@@ -822,7 +1187,8 @@
           "guideline": "ICMJE Recommendations 2024 — 'Conflicts of interest exist when an author...has financial or personal relationships that inappropriately influence (bias) his or her actions'; mandatory disclosure for all relevant financial relationships",
           "trial": "Krimsky S, Rothenberg LS. Financial interest and its disclosure in scientific publications. JAMA 1998 — early landmark study on undisclosed conflicts.",
           "pearl": "ICMJE provides a standardised COI disclosure form (ICMJE COI form) that most journals now require authors to complete individually. When completing it: disclose everything related to the study topic from the past 36 months. 'When in doubt, disclose' is the operative standard."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C5-Q16",
@@ -844,7 +1210,8 @@
           "guideline": "Spanish ISCIII Open Science Policy 2022; Horizon Europe Open Research Data mandate; ICMJE data sharing policy 2018",
           "trial": "Wilkinson MD et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 2016 — foundational paper for open data standards.",
           "pearl": "Check funder data sharing requirements before study design, not at submission. Plan for anonymised dataset creation, appropriate consent language for data sharing, and repository selection (Zenodo is free; figshare is free; OSF is free) as part of the research protocol."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C5-Q17",
@@ -866,7 +1233,8 @@
           "guideline": "CONSORT 2010 item 5 — 'The interventions for each group with sufficient details to allow replication, including how and when they were actually administered'",
           "trial": "Boutron I et al. Extending the CONSORT statement to randomised trials of non-pharmacological treatment: explanation and elaboration. Ann Intern Med 2008.",
           "pearl": "For surgical expertise in Methods: specify (1) number of surgeons; (2) minimum individual case volume; (3) centre annual volume; (4) any credentialling process; (5) whether a run-in phase was included. These five elements meet the reproducibility standard."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C5-Q18",
@@ -889,7 +1257,8 @@
           "guideline": "SAMPL Guidelines 2015 — logistic regression: 'Report odds ratios (with 95% CIs), the overall model fit (e.g., Hosmer-Lemeshow test), and the model's discriminatory ability (e.g., c-statistic)'",
           "trial": "Harrell FE. Regression Modeling Strategies. Springer 2001 — definitive reference for regression reporting standards.",
           "pearl": "Multivariable logistic regression minimum reporting set: individual predictor ORs + 95%CIs + p-values; model AUC/c-statistic; Hosmer-Lemeshow p-value; number of events per variable (EPV ≥10 recommended). Missing any element will trigger a reviewer revision request."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C5-Q19",
@@ -911,7 +1280,8 @@
           "guideline": "JAMA Surgery author guidelines — figures should use colourblind-safe palettes; EQUATOR visual abstract standards recommend blue-orange colour scheme",
           "trial": "Wong B. Points of view: Color blindness. Nature Methods 2011;8:441 — foundational guidance on colorblind-safe figure design.",
           "pearl": "Colorblind-safe colour pairs: blue + orange (best); blue + red; purple + orange. Test any figure using Coblis (Color Blindness Simulator) or the Ishihara simulation tool before submission. Always add line-style differentiation as a secondary distinguishing feature."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C5-Q20",
@@ -934,7 +1304,8 @@
           "guideline": "ICMJE 2023 update — AI tools may not be listed as authors; their use in manuscript preparation must be disclosed; corresponding author takes responsibility for AI-generated content",
           "trial": "Thacker SB. Meta-analysis: a quantitative approach to research integration. JAMA 1988 — predates AI, but the principle of transparent methodology reporting is foundational.",
           "pearl": "Standard AI disclosure language (adapt as needed): 'The authors used [Tool Name, Version] (Company, Location) to assist with initial drafting of the Discussion section. The AI-generated text was subsequently reviewed, substantially revised, and critically appraised by all authors, who take full responsibility for the accuracy and integrity of the final manuscript.'"
-        }
+        },
+        "difficulty": 2
       }
     ]
   }

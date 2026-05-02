@@ -64,11 +64,31 @@
         {
           "type": "table",
           "title": "Post-Pancreatectomy Complications — ISGPS Definitions",
-          "headers": ["Complication", "Definition (ISGPS)", "Grade", "Management"],
+          "headers": [
+            "Complication",
+            "Definition (ISGPS)",
+            "Grade",
+            "Management"
+          ],
           "rows": [
-            ["POPF (Post-op pancreatic fistula)", "Drain amylase >3× upper limit normal on Day 3+", "A (biochemical), B (clinical), C (re-op)", "Octreotide, NPO; drain; re-operation for C"],
-            ["DGE (Delayed gastric emptying)", "Unable to return to solid oral diet by POD 7", "A (POD 7–14), B (POD 14–21), C (>21)", "NG tube, prokinetics, TPN for severe"],
-            ["PPH (Post-pancreatectomy haemorrhage)", "Haemorrhage >24h post-op from surgical site", "Early (<24h) / Late; Grade B,C require intervention", "Angioembolisation; re-operation"]
+            [
+              "POPF (Post-op pancreatic fistula)",
+              "Drain amylase >3× upper limit normal on Day 3+",
+              "A (biochemical), B (clinical), C (re-op)",
+              "Octreotide, NPO; drain; re-operation for C"
+            ],
+            [
+              "DGE (Delayed gastric emptying)",
+              "Unable to return to solid oral diet by POD 7",
+              "A (POD 7–14), B (POD 14–21), C (>21)",
+              "NG tube, prokinetics, TPN for severe"
+            ],
+            [
+              "PPH (Post-pancreatectomy haemorrhage)",
+              "Haemorrhage >24h post-op from surgical site",
+              "Early (<24h) / Late; Grade B,C require intervention",
+              "Angioembolisation; re-operation"
+            ]
           ]
         },
         {
@@ -106,12 +126,42 @@
         {
           "type": "table",
           "title": "NCCN/ISGPS Resectability Criteria for Pancreatic Adenocarcinoma",
-          "headers": ["Category", "SMA / Celiac Axis", "SMV / Portal Vein", "CHA", "Approach"],
+          "headers": [
+            "Category",
+            "SMA / Celiac Axis",
+            "SMV / Portal Vein",
+            "CHA",
+            "Approach"
+          ],
           "rows": [
-            ["Resectable", "No contact", "No contact or ≤180° without vein deformity", "No contact", "Upfront surgery (Whipple or distal pancreatectomy)"],
-            ["Borderline Resectable", "Contact ≤180° (SMA) or any contact (CA) without involvement of aorta", ">180° contact OR occlusion reconstructible", "Short segment contact or encasement at GDA origin; reconstructible", "Neoadjuvant FOLFIRINOX ± RT, then re-stage"],
-            ["Locally Advanced", "Contact >180° (SMA); any CA involvement encasing aorta", "Occlusion not reconstructible", "Long-segment encasement", "Systemic therapy; consider conversion surgery at expert centres"],
-            ["Metastatic", "Any", "Any", "Any", "Palliative systemic therapy (FOLFIRINOX or gem/nab-P)"]
+            [
+              "Resectable",
+              "No contact",
+              "No contact or ≤180° without vein deformity",
+              "No contact",
+              "Upfront surgery (Whipple or distal pancreatectomy)"
+            ],
+            [
+              "Borderline Resectable",
+              "Contact ≤180° (SMA) or any contact (CA) without involvement of aorta",
+              ">180° contact OR occlusion reconstructible",
+              "Short segment contact or encasement at GDA origin; reconstructible",
+              "Neoadjuvant FOLFIRINOX ± RT, then re-stage"
+            ],
+            [
+              "Locally Advanced",
+              "Contact >180° (SMA); any CA involvement encasing aorta",
+              "Occlusion not reconstructible",
+              "Long-segment encasement",
+              "Systemic therapy; consider conversion surgery at expert centres"
+            ],
+            [
+              "Metastatic",
+              "Any",
+              "Any",
+              "Any",
+              "Palliative systemic therapy (FOLFIRINOX or gem/nab-P)"
+            ]
           ]
         },
         {
@@ -143,13 +193,49 @@
         {
           "type": "table",
           "title": "BCLC Staging System for Hepatocellular Carcinoma",
-          "headers": ["Stage", "Tumour", "Liver Function", "PS", "Recommended Treatment"],
+          "headers": [
+            "Stage",
+            "Tumour",
+            "Liver Function",
+            "PS",
+            "Recommended Treatment"
+          ],
           "rows": [
-            ["0 — Very early", "Single ≤2 cm", "Child-Pugh A", "0", "Resection or ablation (RFA) — 5yr OS ~70%"],
-            ["A — Early", "Single any size OR up to 3 nodules ≤3 cm", "Child-Pugh A–B", "0", "Resection (if adequate FLR) / ablation / transplant (Milan criteria)"],
-            ["B — Intermediate", "Multinodular, no vascular invasion, no extra-hepatic", "Child-Pugh A–B", "0", "TACE (transarterial chemoembolisation)"],
-            ["C — Advanced", "Vascular invasion OR extra-hepatic spread", "Child-Pugh A–B", "1–2", "Sorafenib / lenvatinib / atezolizumab+bevacizumab"],
-            ["D — End-stage", "Any", "Child-Pugh C", "3–4", "Best supportive care; consider transplant listing if <10pts Child-Pugh C"]
+            [
+              "0 — Very early",
+              "Single ≤2 cm",
+              "Child-Pugh A",
+              "0",
+              "Resection or ablation (RFA) — 5yr OS ~70%"
+            ],
+            [
+              "A — Early",
+              "Single any size OR up to 3 nodules ≤3 cm",
+              "Child-Pugh A–B",
+              "0",
+              "Resection (if adequate FLR) / ablation / transplant (Milan criteria)"
+            ],
+            [
+              "B — Intermediate",
+              "Multinodular, no vascular invasion, no extra-hepatic",
+              "Child-Pugh A–B",
+              "0",
+              "TACE (transarterial chemoembolisation)"
+            ],
+            [
+              "C — Advanced",
+              "Vascular invasion OR extra-hepatic spread",
+              "Child-Pugh A–B",
+              "1–2",
+              "Sorafenib / lenvatinib / atezolizumab+bevacizumab"
+            ],
+            [
+              "D — End-stage",
+              "Any",
+              "Child-Pugh C",
+              "3–4",
+              "Best supportive care; consider transplant listing if <10pts Child-Pugh C"
+            ]
           ]
         },
         {
@@ -181,14 +267,49 @@
         {
           "type": "table",
           "title": "Bismuth-Corlette Classification — Resectability and Operative Approach",
-          "headers": ["Type", "Bile Duct Involvement", "Typical Operation", "Resectability"],
+          "headers": [
+            "Type",
+            "Bile Duct Involvement",
+            "Typical Operation",
+            "Resectability"
+          ],
           "rows": [
-            ["I", "Below the confluence", "Bile duct excision + hepaticojejunostomy", "Resectable — liver-sparing"],
-            ["II", "At the confluence; right and left hepatic ducts patent", "Hilar resection + hepaticojejunostomy ± caudate lobe", "Resectable"],
-            ["IIIa", "Right hepatic duct second-order radicles involved", "Right hepatectomy (±extended) + caudate + bile duct excision", "Resectable"],
-            ["IIIb", "Left hepatic duct second-order radicles involved", "Left hepatectomy (±extended) + caudate + bile duct excision", "Resectable"],
-            ["IV", "Both right and left second-order radicles involved", "Hepatectomy (typically right trisectionectomy) + caudate or palliation", "Often unresectable; selected cases at expert centres"],
-            ["Distal CCA", "Distal CBD (below cystic duct)", "Pancreaticoduodenectomy (Whipple)", "Resectable in ~70%"]
+            [
+              "I",
+              "Below the confluence",
+              "Bile duct excision + hepaticojejunostomy",
+              "Resectable — liver-sparing"
+            ],
+            [
+              "II",
+              "At the confluence; right and left hepatic ducts patent",
+              "Hilar resection + hepaticojejunostomy ± caudate lobe",
+              "Resectable"
+            ],
+            [
+              "IIIa",
+              "Right hepatic duct second-order radicles involved",
+              "Right hepatectomy (±extended) + caudate + bile duct excision",
+              "Resectable"
+            ],
+            [
+              "IIIb",
+              "Left hepatic duct second-order radicles involved",
+              "Left hepatectomy (±extended) + caudate + bile duct excision",
+              "Resectable"
+            ],
+            [
+              "IV",
+              "Both right and left second-order radicles involved",
+              "Hepatectomy (typically right trisectionectomy) + caudate or palliation",
+              "Often unresectable; selected cases at expert centres"
+            ],
+            [
+              "Distal CCA",
+              "Distal CBD (below cystic duct)",
+              "Pancreaticoduodenectomy (Whipple)",
+              "Resectable in ~70%"
+            ]
           ]
         },
         {
@@ -220,12 +341,47 @@
         {
           "type": "table",
           "title": "ISGPS/ISGLS Post-Hepatectomy Complications — Grading and Management",
-          "headers": ["Complication", "ISGLS Definition", "Grade A", "Grade B", "Grade C", "Key Management"],
+          "headers": [
+            "Complication",
+            "ISGLS Definition",
+            "Grade A",
+            "Grade B",
+            "Grade C",
+            "Key Management"
+          ],
           "rows": [
-            ["Post-Hepatectomy Liver Failure (PHLF)", "Peak bilirubin >50 µmol/L on Day 5+ OR 50% rise from preop with INR >1.5", "Biochemical only; no change in clinical management", "Requires change in clinical management; non-invasive interventions", "Requires invasive interventions (dialysis, transplant evaluation)", "Avoid nephrotoxins; nutritional support; plasma exchange in severe; transplant evaluation for grade C"],
-            ["Bile Leak", "Bilirubin in drain >3× serum on Day 3+ OR bile peritonitis requiring intervention", "Managed conservatively", "Requires interventional radiology or ERCP", "Requires re-operation", "ERCP + stent for anastomotic leak; IR-guided drain for collections"],
-            ["POPF (after hepato-pancreatectomy)", "Drain amylase >3× ULN on Day 3+", "Biochemical leak only", "Clinical impact; drain maintained; antibiotics; TPN", "Re-operation or percutaneous drainage", "NPO, octreotide, drain management; IR drainage"],
-            ["PPH (Post-pancreatectomy haemorrhage)", "Haemorrhage from surgical site >24h", "Grade B: haemodynamically stable; angiography/transfusion", "Grade C: haemodynamic instability; re-operation", "—", "Early: surgical haemostasis; Late: angioembolisation preferred over re-operation"]
+            [
+              "Post-Hepatectomy Liver Failure (PHLF)",
+              "Peak bilirubin >50 µmol/L on Day 5+ OR 50% rise from preop with INR >1.5",
+              "Biochemical only; no change in clinical management",
+              "Requires change in clinical management; non-invasive interventions",
+              "Requires invasive interventions (dialysis, transplant evaluation)",
+              "Avoid nephrotoxins; nutritional support; plasma exchange in severe; transplant evaluation for grade C"
+            ],
+            [
+              "Bile Leak",
+              "Bilirubin in drain >3× serum on Day 3+ OR bile peritonitis requiring intervention",
+              "Managed conservatively",
+              "Requires interventional radiology or ERCP",
+              "Requires re-operation",
+              "ERCP + stent for anastomotic leak; IR-guided drain for collections"
+            ],
+            [
+              "POPF (after hepato-pancreatectomy)",
+              "Drain amylase >3× ULN on Day 3+",
+              "Biochemical leak only",
+              "Clinical impact; drain maintained; antibiotics; TPN",
+              "Re-operation or percutaneous drainage",
+              "NPO, octreotide, drain management; IR drainage"
+            ],
+            [
+              "PPH (Post-pancreatectomy haemorrhage)",
+              "Haemorrhage from surgical site >24h",
+              "Grade B: haemodynamically stable; angiography/transfusion",
+              "Grade C: haemodynamic instability; re-operation",
+              "—",
+              "Early: surgical haemostasis; Late: angioembolisation preferred over re-operation"
+            ]
           ]
         },
         {
@@ -257,22 +413,58 @@
         {
           "type": "table",
           "title": "Fukuoka 2017 Criteria for Branch-Duct IPMN Management",
-          "headers": ["Feature Category", "Features", "Action"],
+          "headers": [
+            "Feature Category",
+            "Features",
+            "Action"
+          ],
           "rows": [
-            ["High-Risk Stigmata (resect)", "Obstructive jaundice with pancreatic cyst; enhancing solid component; main duct ≥10 mm", "Surgical resection recommended in all operable patients"],
-            ["Worrisome Features (EUS ± resect)", "Cyst ≥3 cm; enhancing cyst wall; main duct 5–9 mm; abrupt MPD calibre change with upstream atrophy; lymphadenopathy; elevated CA 19-9; cyst growth ≥5mm/2yr; new-onset DM", "EUS-FNA; resection if concerning cytology/EUS features"],
-            ["Low-risk (surveillance)", "BD-IPMN <3 cm; no worrisome features or high-risk stigmata", "MRI surveillance: 6m, 1yr, then annually if stable; indefinite for young patients"]
+            [
+              "High-Risk Stigmata (resect)",
+              "Obstructive jaundice with pancreatic cyst; enhancing solid component; main duct ≥10 mm",
+              "Surgical resection recommended in all operable patients"
+            ],
+            [
+              "Worrisome Features (EUS ± resect)",
+              "Cyst ≥3 cm; enhancing cyst wall; main duct 5–9 mm; abrupt MPD calibre change with upstream atrophy; lymphadenopathy; elevated CA 19-9; cyst growth ≥5mm/2yr; new-onset DM",
+              "EUS-FNA; resection if concerning cytology/EUS features"
+            ],
+            [
+              "Low-risk (surveillance)",
+              "BD-IPMN <3 cm; no worrisome features or high-risk stigmata",
+              "MRI surveillance: 6m, 1yr, then annually if stable; indefinite for young patients"
+            ]
           ]
         },
         {
           "type": "table",
           "title": "Surveillance Intervals for Low-Risk BD-IPMN (Fukuoka 2017)",
-          "headers": ["Cyst Size", "Initial Surveillance Interval", "Subsequent Interval"],
+          "headers": [
+            "Cyst Size",
+            "Initial Surveillance Interval",
+            "Subsequent Interval"
+          ],
           "rows": [
-            ["<1 cm", "CT/MRI in 2–3 years", "Every 2 years"],
-            ["1–2 cm", "CT/MRI annually for 2 years", "Every 1–2 years if stable"],
-            ["2–3 cm", "EUS in 3–6 months, then MRI every 6–12 months", "Alternate MRI and EUS every 6 months; resection if equivocal"],
-            [">3 cm (no worrisome features)", "EUS alternate with MRI every 3–6 months", "Consider resection in young fit patients given cumulative risk"]
+            [
+              "<1 cm",
+              "CT/MRI in 2–3 years",
+              "Every 2 years"
+            ],
+            [
+              "1–2 cm",
+              "CT/MRI annually for 2 years",
+              "Every 1–2 years if stable"
+            ],
+            [
+              "2–3 cm",
+              "EUS in 3–6 months, then MRI every 6–12 months",
+              "Alternate MRI and EUS every 6 months; resection if equivocal"
+            ],
+            [
+              ">3 cm (no worrisome features)",
+              "EUS alternate with MRI every 3–6 months",
+              "Consider resection in young fit patients given cumulative risk"
+            ]
           ]
         },
         {
@@ -307,7 +499,8 @@
           "guideline": "ESMO Metastatic CRC 2023 — FLR minimum 25% normal liver; PVE for inadequate FLR",
           "trial": "Abdalla EK et al., Ann Surg 2002: PVE induces median 37% FLR hypertrophy; enables resection in 85% of initially inadequate-FLR patients.",
           "pearl": "Always perform CT volumetry before major hepatectomy. An FLR calculation from the CT is mandatory — clinical impression is insufficient."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "A4-Q2",
@@ -329,7 +522,8 @@
           "guideline": "NCCN Pancreatic Adenocarcinoma v2.2024 — Borderline Resectable: SMA contact ≤180° or SMV involvement reconstructible; neoadjuvant therapy preferred",
           "trial": "PREOPANC-2 (van Dam, Lancet Gastroenterol 2022): neoadjuvant gemcitabine-based CRT vs upfront surgery in resectable/borderline-resectable PDAC — OS benefit in borderline-resectable subgroup.",
           "pearl": "For borderline-resectable PDAC: neoadjuvant FOLFIRINOX → restage CT → if no progression → surgery. CA 19-9 normalisation is the best surrogate marker of response to neoadjuvant therapy."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A4-Q3",
@@ -351,7 +545,8 @@
           "guideline": "ISGPS POPF Definition 2016 (revised 2017) — Grade A: biochemical only, no clinical change; Grade B: clinical impact; Grade C: re-operation required",
           "trial": "Bassi C et al., Surgery 2017: Updated ISGPS POPF grading — Grade A reclassified as 'biochemical leak' to distinguish from clinically relevant fistula.",
           "pearl": "Grade A POPF is a biochemical finding, not a true complication. The clinical relevance threshold is Grade B (changes management). On boards: if patient is asymptomatic and eating → Grade A; if febrile, drain infected, or requires intervention → Grade B."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A4-Q4",
@@ -373,7 +568,8 @@
           "guideline": "ESMO Liver Surgery 2023 — FLR ≥25% safe for normal liver; ≥30% after chemotherapy; ≥40% for cirrhotic/diseased liver",
           "trial": "Makuuchi M et al., Hepatology 1990: Original FLR criteria for major hepatectomy; Farges O et al., Ann Surg 2013: validated FLR thresholds.",
           "pearl": "FLR thresholds: Normal liver ≥25%, Chemotherapy-damaged ≥30%, Cirrhotic/cholestatic ≥40%. Memorise these three numbers — they recur on boards."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A4-Q5",
@@ -395,7 +591,8 @@
           "guideline": "Couinaud Classification — standard hepatic segmental anatomy; Bismuth H. (1982) functional anatomy of the liver.",
           "trial": "Makuuchi M et al.: ultrasound-guided anatomical hepatectomy based on Couinaud segments.",
           "pearl": "Cantlie's line = plane of middle hepatic vein = boundary between right and left functional lobes. The anatomical right lobe (right of falciform) ≠ functional right liver (right of Cantlie's line, i.e., segments V–VIII)."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "A4-Q6",
@@ -417,7 +614,8 @@
           "guideline": "EASL HCC Clinical Practice Guidelines 2022 — BCLC staging and treatment allocation; NCCN Hepatocellular Carcinoma v3.2024",
           "trial": "Llovet JM et al., NEJM 2008 (sorafenib SHARP trial): established BCLC-C/D treatment; Mazzaferro V et al., NEJM 1996: Milan criteria for transplant.",
           "pearl": "BCLC-A ≠ ablation-only. For a 3.5 cm tumour, ablation has inferior local control compared to resection. RFA vs resection: resection preferred for lesions >3 cm or adjacent to major bile ducts/vessels. Transplant within Milan criteria offers definitive oncological and cirrhosis treatment simultaneously."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "A4-Q7",
@@ -439,7 +637,8 @@
           "guideline": "ESMO Biliary Tract Cancer 2023 — Bismuth IV: resect when portal vein involvement is unilateral and FLR is adequate; caudate lobe mandatory",
           "trial": "Nagino M et al., Ann Surg 2010: extended right hepatectomy with caudate lobe for hilar CCA — 5-year OS 40% for R0 resection.",
           "pearl": "In Bismuth IV: the side of portal vein invasion determines which lobe is resected (the involved side goes) and which lobe becomes FLR (the clear side stays). Caudate lobe resection is ALWAYS required in Bismuth II–IV — segment I bile ducts drain directly into the confluence."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "A4-Q8",
@@ -461,7 +660,8 @@
           "guideline": "ISGLS Post-Hepatectomy Liver Failure Definition 2011 — 50-50 rule on Day 5 predicts severe PHLF",
           "trial": "Balzan S et al., J Am Coll Surg 2005: 50-50 rule validated in 775 hepatectomies as predictor of 90-day mortality.",
           "pearl": "The 50-50 rule on Day 5: bilirubin >50 µmol/L AND prothrombin activity <50% (INR >1.5) = PHLF with ~50% 90-day mortality. This combination with confusion = Grade C = transplant evaluation needed urgently."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A4-Q9",
@@ -483,7 +683,8 @@
           "guideline": "Revised Fukuoka International Consensus Guidelines 2017 — IPMN management: high-risk stigmata vs worrisome features",
           "trial": "Tanaka M et al., Pancreatology 2017: International consensus guidelines for IPMN management.",
           "pearl": "High-risk stigmata = operate; Worrisome features = EUS ± consider resection; No features + size <3cm = surveillance. The key difference: enhancing solid component = high-risk stigma = resect."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A4-Q10",
@@ -505,7 +706,8 @@
           "guideline": "NCCN Pancreatic Adenocarcinoma v2.2024 — M1 disease (hepatic metastases): systemic chemotherapy; resection not standard",
           "trial": "Hackert T et al., Ann Surg 2016: conversion surgery for locally advanced PDAC — valid concept but not applicable to M1 disease.",
           "pearl": "Liver metastases from PDAC = M1 = stage IV = systemic therapy. This is categorically different from CRLM, where resection of liver metastases is curative intent. PDAC liver metastases reflect haematogenous spread — resection has not demonstrated survival benefit."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A4-Q11",
@@ -527,7 +729,8 @@
           "guideline": "ATOM classification of bile duct injuries 2013 — Type A: peripheral leaks; ERCP + stent as first-line management",
           "trial": "Perera MT et al., Ann R Coll Surg Engl 2014: systematic review confirming ERCP as definitive management for Type A post-cholecystectomy bile leaks.",
           "pearl": "ATOM bile duct injury classification: A = peripheral leak (cystic stump/radicle) → ERCP; B = partial occlusion of bile duct → ERCP; C = non-occlusive injury to major duct → ERCP ± hepaticojejunostomy; D = complete transection → surgical reconstruction."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "A4-Q12",
@@ -549,7 +752,8 @@
           "guideline": "BSG/AUGIS CBD Stone Guidelines 2022 — ERCP + sphincterotomy for CBD stones; cholecystectomy in same admission or within 2 weeks",
           "trial": "Reinders JS et al., Ann Surg 2010: ERCP vs LCBDE — equivalent stone clearance; ERCP preferred if expertise available.",
           "pearl": "After ERCP stone clearance, cholecystectomy should ideally occur in the same admission to prevent gallstone pancreatitis recurrence (risk 15–30% if deferred >6 weeks)."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "A4-Q13",
@@ -571,7 +775,8 @@
           "guideline": "Standard hepatobiliary surgical anatomy — hepatoduodenal ligament contents.",
           "trial": "N/A — anatomical fact.",
           "pearl": "Mnemonic for hepatoduodenal ligament: from right to left anteriorly = Bile duct (right), Hepatic artery (left), Portal vein (posterior). BHP — or 'Big HPB': B=bile duct right, H=hepatic artery left, P=portal vein posterior."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "A4-Q14",
@@ -593,7 +798,8 @@
           "guideline": "EASL HCC Clinical Practice Guidelines 2022 — BCLC-D: Child-Pugh C or PS 3–4 → best supportive care; transplant evaluation if appropriate",
           "trial": "Llovet JM et al., J Hepatol 2016: Updated BCLC staging; Child-Pugh C defines BCLC-D.",
           "pearl": "Child-Pugh score ≥10 (class C) = contraindication to hepatic resection regardless of tumour characteristics. Always assess liver function first, then tumour characteristics. The liver matters more than the tumour in surgical planning for HCC."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A4-Q15",
@@ -615,7 +821,8 @@
           "guideline": "NCCN Pancreatic Adenocarcinoma v2.2024 — laparoscopic distal pancreatectomy is appropriate for body/tail tumours at experienced centres",
           "trial": "LEOPARD trial (van Hilst, JAMA Surg 2019): n=108 RCT; laparoscopic distal pancreatectomy superior for functional recovery (4 vs 6 days); equivalent POPF and oncological outcomes.",
           "pearl": "For distal pancreatectomy: laparoscopic is now preferred over open at experienced centres based on LEOPARD. For pancreaticoduodenectomy (head), laparoscopic vs open equivalence is less established — LEOPARD-2 evaluated robotic vs laparoscopic for distal pancreatectomy."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A4-Q16",
@@ -637,7 +844,8 @@
           "guideline": "ISGPS Venous Resection Guidelines 2014 — venous resection acceptable for R0 intent; NCCN v2.2024 endorses vein resection as part of PD",
           "trial": "Nakao A et al., Ann Surg 2006: portal vein resection during PD — equivalent OS to standard PD when R0 achieved; meta-analysis Tseng JF 2004.",
           "pearl": "Venous resection (SMV/PV) during Whipple: acceptable; Arterial resection (SMA/CA): high morbidity, select cases only at expert centres. The distinction between vein and artery involvement is fundamental to surgical planning."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A4-Q17",
@@ -659,7 +867,8 @@
           "guideline": "NCCN Pancreatic v2.2024 — R0 resection is goal; re-excise for positive neck margin if technically feasible",
           "trial": "Raut CP et al., Ann Surg 2007: margin status after PD — R0 vs R1 OS 25 vs 15 months; supports aggressive margin management.",
           "pearl": "For pancreatic neck margin on frozen section: PanIN-1/2 (low-grade dysplasia) at margin → acceptable; PanIN-3 / invasive carcinoma at margin → re-excise. Aim for R0 at all anastomotic margins (pancreatic neck, bile duct, retroperitoneal margin)."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "A4-Q18",
@@ -681,7 +890,8 @@
           "guideline": "ESMO Biliary Tract Cancer 2023 — adjuvant capecitabine for 8 cycles after R0/R1 resection (BILCAP evidence)",
           "trial": "BILCAP (Primrose JN, Lancet Oncol 2019): 447 patients, adjuvant capecitabine vs observation; median OS 51.1 vs 36.4 months in per-protocol analysis; HR 0.75.",
           "pearl": "BILCAP = adjuvant biliary tract cancers (capecitabine, 8 cycles, 6 months). ABC-02 = palliative biliary tract cancers (cisplatin+gemcitabine). Do not confuse these two landmark trials."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "A4-Q19",
@@ -703,7 +913,8 @@
           "guideline": "ISGPS DGE Definition 2007 (revised 2010) — Grade A: POD 7–14 NGT; Grade B: POD 14–21; Grade C: >POD 21",
           "trial": "Wente MN et al., Surgery 2007: International Study Group of Pancreatic Surgery DGE definition and grading.",
           "pearl": "DGE Grades: A = NGT POD 7–14; B = NGT POD 14–21; C = NGT >POD 21. Management: exclude collection (CT), prokinetics, jejunal feeding. DGE after Whipple is common (20–50%) — it almost always resolves without re-operation."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "A4-Q20",
@@ -725,7 +936,8 @@
           "guideline": "ESMO 2023 / ISGLS — ALPPS as rescue for failed PVE; target FLR >30% after chemotherapy before major hepatectomy",
           "trial": "LIGRO trial (Sandstrom, Ann Surg 2018): ALPPS vs TSH for CRLM — higher R0 rates with ALPPS; ALPPS Group International Registry 2015: safety data.",
           "pearl": "PVE failure → ALPPS. ALPPS: Stage 1 (PVL + liver split) → wait 7–14 days → volumetry → Stage 2 (hepatectomy) when FLR adequate. Higher morbidity than sequential PVE+hepatectomy but indispensable in inadequate PVE responders."
-        }
+        },
+        "difficulty": 2
       }
     ]
   }

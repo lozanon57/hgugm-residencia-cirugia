@@ -38,17 +38,67 @@
         {
           "type": "table",
           "title": "Statistical Test Selection Guide",
-          "headers": ["Data Type", "Groups", "Distribution", "Test"],
+          "headers": [
+            "Data Type",
+            "Groups",
+            "Distribution",
+            "Test"
+          ],
           "rows": [
-            ["Continuous", "2 independent", "Normal", "Independent t-test"],
-            ["Continuous", "2 independent", "Non-normal / skewed", "Mann-Whitney U (Wilcoxon rank-sum)"],
-            ["Continuous", "2 paired (pre/post)", "Normal", "Paired t-test"],
-            ["Continuous", "2 paired", "Non-normal", "Wilcoxon signed-rank test"],
-            ["Continuous", "≥3 independent", "Normal", "One-way ANOVA → post-hoc (Tukey)"],
-            ["Continuous", "≥3 independent", "Non-normal", "Kruskal-Wallis → post-hoc (Dunn)"],
-            ["Categorical (2×2)", "2 groups, n>5/cell", "—", "Chi-squared test (χ²)"],
-            ["Categorical (2×2)", "2 groups, n<5/cell", "—", "Fisher's exact test"],
-            ["Survival/time-to-event", "2+ groups", "—", "Kaplan-Meier + log-rank test; Cox regression for HRs"]
+            [
+              "Continuous",
+              "2 independent",
+              "Normal",
+              "Independent t-test"
+            ],
+            [
+              "Continuous",
+              "2 independent",
+              "Non-normal / skewed",
+              "Mann-Whitney U (Wilcoxon rank-sum)"
+            ],
+            [
+              "Continuous",
+              "2 paired (pre/post)",
+              "Normal",
+              "Paired t-test"
+            ],
+            [
+              "Continuous",
+              "2 paired",
+              "Non-normal",
+              "Wilcoxon signed-rank test"
+            ],
+            [
+              "Continuous",
+              "≥3 independent",
+              "Normal",
+              "One-way ANOVA → post-hoc (Tukey)"
+            ],
+            [
+              "Continuous",
+              "≥3 independent",
+              "Non-normal",
+              "Kruskal-Wallis → post-hoc (Dunn)"
+            ],
+            [
+              "Categorical (2×2)",
+              "2 groups, n>5/cell",
+              "—",
+              "Chi-squared test (χ²)"
+            ],
+            [
+              "Categorical (2×2)",
+              "2 groups, n<5/cell",
+              "—",
+              "Fisher's exact test"
+            ],
+            [
+              "Survival/time-to-event",
+              "2+ groups",
+              "—",
+              "Kaplan-Meier + log-rank test; Cox regression for HRs"
+            ]
           ]
         },
         {
@@ -98,14 +148,49 @@
         {
           "type": "table",
           "title": "Diagnostic Test Accuracy Measures",
-          "headers": ["Measure", "Formula", "Interpretation", "Clinical Use"],
+          "headers": [
+            "Measure",
+            "Formula",
+            "Interpretation",
+            "Clinical Use"
+          ],
           "rows": [
-            ["Sensitivity", "TP / (TP + FN)", "Ability to detect disease when present", "High sensitivity: good for ruling OUT disease (SnNout)"],
-            ["Specificity", "TN / (TN + FP)", "Ability to exclude disease when absent", "High specificity: good for ruling IN disease (SpPin)"],
-            ["PPV", "TP / (TP + FP)", "Probability disease present given positive test", "Depends on prevalence — higher in high-prevalence populations"],
-            ["NPV", "TN / (TN + FN)", "Probability disease absent given negative test", "Depends on prevalence — higher in low-prevalence populations"],
-            ["LR+", "Sensitivity / (1 − Specificity)", "How much more likely positive test in disease", ">10 = strong evidence of disease"],
-            ["LR−", "(1 − Sensitivity) / Specificity", "How much less likely negative test in disease", "<0.1 = strong evidence against disease"]
+            [
+              "Sensitivity",
+              "TP / (TP + FN)",
+              "Ability to detect disease when present",
+              "High sensitivity: good for ruling OUT disease (SnNout)"
+            ],
+            [
+              "Specificity",
+              "TN / (TN + FP)",
+              "Ability to exclude disease when absent",
+              "High specificity: good for ruling IN disease (SpPin)"
+            ],
+            [
+              "PPV",
+              "TP / (TP + FP)",
+              "Probability disease present given positive test",
+              "Depends on prevalence — higher in high-prevalence populations"
+            ],
+            [
+              "NPV",
+              "TN / (TN + FN)",
+              "Probability disease absent given negative test",
+              "Depends on prevalence — higher in low-prevalence populations"
+            ],
+            [
+              "LR+",
+              "Sensitivity / (1 − Specificity)",
+              "How much more likely positive test in disease",
+              ">10 = strong evidence of disease"
+            ],
+            [
+              "LR−",
+              "(1 − Sensitivity) / Specificity",
+              "How much less likely negative test in disease",
+              "<0.1 = strong evidence against disease"
+            ]
           ]
         },
         {
@@ -131,14 +216,42 @@
         {
           "type": "table",
           "title": "Logistic Regression — Common Reporting Elements",
-          "headers": ["Element", "Why Report", "Surgical Example"],
+          "headers": [
+            "Element",
+            "Why Report",
+            "Surgical Example"
+          ],
           "rows": [
-            ["Number of events", "Determines maximum model complexity (10 EPV rule)", "82 anastomotic leaks → maximum 8 predictor variables"],
-            ["Adjusted OR (95% CI)", "Primary measure of association after confounding adjustment", "OR 2.4 (95% CI 1.3–4.5) for diabetes → 2.4× odds of leak in diabetics"],
-            ["Hosmer-Lemeshow p-value", "Calibration — does model fit the data well?", "p=0.45 (non-significant) indicates good calibration"],
-            ["C-statistic (AUC)", "Discrimination — does model distinguish cases from non-cases?", "AUC = 0.78 indicates acceptable discrimination"],
-            ["Complete case vs imputed", "Missing data handling transparency", "Multiple imputation of missing BMI in 12% of patients"],
-            ["Variable selection method", "Avoid stepwise selection — use clinical a priori or LASSO", "Pre-specified clinically based variable selection, not data-driven"]
+            [
+              "Number of events",
+              "Determines maximum model complexity (10 EPV rule)",
+              "82 anastomotic leaks → maximum 8 predictor variables"
+            ],
+            [
+              "Adjusted OR (95% CI)",
+              "Primary measure of association after confounding adjustment",
+              "OR 2.4 (95% CI 1.3–4.5) for diabetes → 2.4× odds of leak in diabetics"
+            ],
+            [
+              "Hosmer-Lemeshow p-value",
+              "Calibration — does model fit the data well?",
+              "p=0.45 (non-significant) indicates good calibration"
+            ],
+            [
+              "C-statistic (AUC)",
+              "Discrimination — does model distinguish cases from non-cases?",
+              "AUC = 0.78 indicates acceptable discrimination"
+            ],
+            [
+              "Complete case vs imputed",
+              "Missing data handling transparency",
+              "Multiple imputation of missing BMI in 12% of patients"
+            ],
+            [
+              "Variable selection method",
+              "Avoid stepwise selection — use clinical a priori or LASSO",
+              "Pre-specified clinically based variable selection, not data-driven"
+            ]
           ]
         },
         {
@@ -174,13 +287,43 @@
         {
           "type": "table",
           "title": "Mixed Models — Key Applications in Surgical Research",
-          "headers": ["Application", "Random Effect", "Fixed Effects", "Outcome"],
+          "headers": [
+            "Application",
+            "Random Effect",
+            "Fixed Effects",
+            "Outcome"
+          ],
           "rows": [
-            ["Cluster RCT analysis", "Hospital", "Treatment arm, patient covariates", "Binary (complication) or continuous (LOS)"],
-            ["Repeated measures QoL", "Patient (subject)", "Time, treatment, time×treatment interaction", "Continuous QoL score"],
-            ["Surgeon volume-outcomes", "Surgeon + hospital", "Annual volume, patient risk, procedure year", "Binary (mortality, complication)"],
-            ["Multicentre longitudinal study", "Centre + patient", "Time, intervention, centre-level variables", "Any outcome type"],
-            ["Meta-analysis of IPD", "Study", "Treatment, patient-level covariates, study characteristics", "OR, RR, HR depending on design"]
+            [
+              "Cluster RCT analysis",
+              "Hospital",
+              "Treatment arm, patient covariates",
+              "Binary (complication) or continuous (LOS)"
+            ],
+            [
+              "Repeated measures QoL",
+              "Patient (subject)",
+              "Time, treatment, time×treatment interaction",
+              "Continuous QoL score"
+            ],
+            [
+              "Surgeon volume-outcomes",
+              "Surgeon + hospital",
+              "Annual volume, patient risk, procedure year",
+              "Binary (mortality, complication)"
+            ],
+            [
+              "Multicentre longitudinal study",
+              "Centre + patient",
+              "Time, intervention, centre-level variables",
+              "Any outcome type"
+            ],
+            [
+              "Meta-analysis of IPD",
+              "Study",
+              "Treatment, patient-level covariates, study characteristics",
+              "OR, RR, HR depending on design"
+            ]
           ]
         }
       ]
@@ -200,17 +343,47 @@
         {
           "type": "table",
           "title": "Bayes Factor Interpretation — Evidence Scale",
-          "headers": ["Bayes Factor (BF₁₀)", "Evidence for H₁ over H₀"],
+          "headers": [
+            "Bayes Factor (BF₁₀)",
+            "Evidence for H₁ over H₀"
+          ],
           "rows": [
-            ["> 100", "Decisive evidence for H₁"],
-            ["30–100", "Very strong evidence for H₁"],
-            ["10–30", "Strong evidence for H₁"],
-            ["3–10", "Moderate evidence for H₁"],
-            ["1–3", "Anecdotal evidence for H₁"],
-            ["1", "No evidence (equal likelihood)"],
-            ["0.33–1", "Anecdotal evidence for H₀"],
-            ["0.1–0.33", "Moderate evidence for H₀"],
-            ["< 0.1", "Strong evidence for H₀"]
+            [
+              "> 100",
+              "Decisive evidence for H₁"
+            ],
+            [
+              "30–100",
+              "Very strong evidence for H₁"
+            ],
+            [
+              "10–30",
+              "Strong evidence for H₁"
+            ],
+            [
+              "3–10",
+              "Moderate evidence for H₁"
+            ],
+            [
+              "1–3",
+              "Anecdotal evidence for H₁"
+            ],
+            [
+              "1",
+              "No evidence (equal likelihood)"
+            ],
+            [
+              "0.33–1",
+              "Anecdotal evidence for H₀"
+            ],
+            [
+              "0.1–0.33",
+              "Moderate evidence for H₀"
+            ],
+            [
+              "< 0.1",
+              "Strong evidence for H₀"
+            ]
           ]
         },
         {
@@ -244,13 +417,43 @@
         {
           "type": "table",
           "title": "ROC Analysis — Key Metrics for Surgical Prediction Models",
-          "headers": ["Metric", "What It Measures", "Acceptable Range", "Surgical Application"],
+          "headers": [
+            "Metric",
+            "What It Measures",
+            "Acceptable Range",
+            "Surgical Application"
+          ],
           "rows": [
-            ["AUC / C-statistic", "Overall discrimination", "≥0.70 for clinical use", "P-POSSUM, NSQIP surgical risk calculator"],
-            ["Calibration (Hosmer-Lemeshow)", "Agreement between predicted and observed rates", "p > 0.05 (non-significant is good)", "POSSUM overpredicts mortality in low-risk patients"],
-            ["Net Reclassification Index (NRI)", "Improvement in classification with new model vs old", ">0 favours new model", "Adding serum albumin improves POSSUM NRI"],
-            ["Integrated Discrimination Improvement (IDI)", "Mean improvement in predicted probability", ">0 favours new model", "Adding frailty score to ASA grade improves IDI"],
-            ["Decision curve analysis", "Net benefit at each threshold probability", "Superior net benefit across clinical range", "Optimal threshold for ERAS candidacy decision"]
+            [
+              "AUC / C-statistic",
+              "Overall discrimination",
+              "≥0.70 for clinical use",
+              "P-POSSUM, NSQIP surgical risk calculator"
+            ],
+            [
+              "Calibration (Hosmer-Lemeshow)",
+              "Agreement between predicted and observed rates",
+              "p > 0.05 (non-significant is good)",
+              "POSSUM overpredicts mortality in low-risk patients"
+            ],
+            [
+              "Net Reclassification Index (NRI)",
+              "Improvement in classification with new model vs old",
+              ">0 favours new model",
+              "Adding serum albumin improves POSSUM NRI"
+            ],
+            [
+              "Integrated Discrimination Improvement (IDI)",
+              "Mean improvement in predicted probability",
+              ">0 favours new model",
+              "Adding frailty score to ASA grade improves IDI"
+            ],
+            [
+              "Decision curve analysis",
+              "Net benefit at each threshold probability",
+              "Superior net benefit across clinical range",
+              "Optimal threshold for ERAS candidacy decision"
+            ]
           ]
         },
         {
@@ -276,12 +479,37 @@
         {
           "type": "table",
           "title": "Missing Data Mechanisms — Summary and Approach",
-          "headers": ["Mechanism", "Definition", "Example in Surgery", "Appropriate Approach"],
+          "headers": [
+            "Mechanism",
+            "Definition",
+            "Example in Surgery",
+            "Appropriate Approach"
+          ],
           "rows": [
-            ["MCAR", "Missingness unrelated to any data", "BMI missing because laboratory tube was lost", "Complete case analysis valid; MI increases efficiency"],
-            ["MAR", "Missingness depends on observed data, not on missing value", "BMI missing more in elderly patients (but BMI itself doesn't predict missingness)", "Multiple imputation with appropriate imputation model"],
-            ["MNAR", "Missingness depends on the unobserved missing value", "Complications not recorded because patient died before assessment", "Sensitivity analysis under different MNAR assumptions; pattern mixture models"],
-            ["Dropout (longitudinal)", "Patient withdraws from follow-up", "Patient stops responding to QoL questionnaires after complications", "Mixed models (MAR assumption) + MNAR sensitivity analysis"]
+            [
+              "MCAR",
+              "Missingness unrelated to any data",
+              "BMI missing because laboratory tube was lost",
+              "Complete case analysis valid; MI increases efficiency"
+            ],
+            [
+              "MAR",
+              "Missingness depends on observed data, not on missing value",
+              "BMI missing more in elderly patients (but BMI itself doesn't predict missingness)",
+              "Multiple imputation with appropriate imputation model"
+            ],
+            [
+              "MNAR",
+              "Missingness depends on the unobserved missing value",
+              "Complications not recorded because patient died before assessment",
+              "Sensitivity analysis under different MNAR assumptions; pattern mixture models"
+            ],
+            [
+              "Dropout (longitudinal)",
+              "Patient withdraws from follow-up",
+              "Patient stops responding to QoL questionnaires after complications",
+              "Mixed models (MAR assumption) + MNAR sensitivity analysis"
+            ]
           ]
         },
         {
@@ -316,7 +544,8 @@
           "guideline": "STROBE 2007 — Item 12: describe statistical methods; specify whether normality was checked before applying parametric tests",
           "trial": "ERAS programme trials (Kehlet H, Ann Surg 2008): typically use Mann-Whitney U for LOS comparisons due to characteristic right-skewed distribution.",
           "pearl": "Whenever mean >> median in surgical outcome data (LOS, blood loss, operative time), suspect right skewness — use non-parametric tests or log-transformation rather than t-test."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C3-Q2",
@@ -338,7 +567,8 @@
           "guideline": "Sterne JAC et al. 'Multiple imputation for missing data in epidemiological and clinical research.' BMJ 2009 — practical guide to MAR/MCAR/MNAR and imputation",
           "trial": "National Bowel Cancer Audit (NBOCA): Missing BMI is a recognised problem in early registry years — MAR assumption supported by systematic analysis of predictors of missingness.",
           "pearl": "To determine the missing data mechanism: model missingness as an outcome using logistic regression — if observed variables (age, year, centre) predict missingness, MAR is plausible and multiple imputation is appropriate."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C3-Q3",
@@ -360,7 +590,8 @@
           "guideline": "TRIPOD 2015 — Items 10b, 14b: report and compare development and validation model performance; internal and external validation required for model endorsement",
           "trial": "Protopapa KL et al. P-POSSUM (Br J Surg 2014): external validation of P-POSSUM across UK hospitals showed AUC 0.81 — appropriate external validation methodology.",
           "pearl": "The externally validated AUC, not the development AUC, is what goes on your model's performance certificate. Report both, but emphasise the external validation result as the clinically relevant figure."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C3-Q4",
@@ -382,7 +613,8 @@
           "guideline": "STROBE 2007 Item 16a — report adjusted and unadjusted estimates; note that OR overestimates RR for common outcomes",
           "trial": "Frasson M et al. (Br J Surg 2015): multivariate analysis of anastomotic leak after left colectomy — OR for diabetes 2.1 (95% CI 1.1–4.0) after adjustment for bowel preparation, ASA grade, and stapler type.",
           "pearl": "When the outcome proportion in the reference group exceeds 10%, OR substantially overestimates RR. Report risk differences and use methods that estimate RR directly (log-binomial or Poisson regression) for common binary outcomes."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C3-Q5",
@@ -404,7 +636,8 @@
           "guideline": "Schoenfeld D. 'Partial residuals for the proportional hazards regression model.' Biometrika 1982 — original paper; STROBE Item 12b requires documentation of proportional hazards assumption testing",
           "trial": "ESPAC-4 (gemcitabine + capecitabine vs gemcitabine for pancreatic cancer): careful Cox model assumption testing identified early non-proportional hazards — RMST analysis reported alongside HR.",
           "pearl": "Always test the proportional hazards assumption (Schoenfeld residuals) before reporting Cox model results. If violated, plot the log-log survival curves and report time-period specific HRs or RMST."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C3-Q6",
@@ -426,7 +659,8 @@
           "guideline": "STARD 2015 — Standards for Reporting Diagnostic accuracy Studies; Item 20: report sensitivity, specificity, PPV, NPV with CIs; note prevalence-dependence of PPV/NPV",
           "trial": "FALCON trial (fluorescence cholangiography in cholecystectomy): demonstrated high sensitivity (0.91) but PPV was prevalence-dependent — highlighted importance of reporting performance at population prevalence, not just in enriched validation cohorts.",
           "pearl": "PPV and NPV are highly dependent on prevalence. A test with excellent sensitivity and specificity may have poor PPV in low-prevalence populations (and excellent NPV). Likelihood ratios (LR+ and LR−) are prevalence-independent measures of diagnostic performance — prefer them for cross-population comparison."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C3-Q7",
@@ -448,7 +682,8 @@
           "guideline": "FDA guidance on Bayesian statistical methods for medical devices (2010); Bland JM & Altman DG. 'Bayesians and frequentists.' BMJ 1998",
           "trial": "REMAP-CAP trial (corticosteroids in COVID-19 critical illness): reported posterior probability of superiority >99% at early adaptive stopping — an example of compelling Bayesian evidence in a platform trial.",
           "pearl": "The key advantage of Bayesian posterior probability is direct interpretability: 'there is a 72% chance this treatment is beneficial' is more clinically actionable than 'p=0.12 does not reach significance.' But the threshold for action must still be pre-specified — 72% is rarely sufficient."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C3-Q8",
@@ -470,7 +705,8 @@
           "guideline": "Bates D et al. 'Fitting linear mixed-effects models using lme4.' J Stat Softw 2015; CONSORT cluster RCT extension — random effects for cluster accounting required",
           "trial": "Tekkis PP et al. (Ann Surg 2003): random effects model for hospital volume-outcomes in colorectal surgery — hospital random effects captured substantial between-hospital variability in mortality independent of case mix.",
           "pearl": "The intraclass correlation coefficient (ICC) from a mixed effects model — calculated as the variance of the random effect divided by total variance — quantifies how much of the outcome variance is attributable to between-cluster differences. ICC > 0.05 indicates clinically meaningful clustering that must be accounted for in sample size calculations."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C3-Q9",
@@ -492,7 +728,8 @@
           "guideline": "Dignam JJ et al. 'Use of competing risks analysis in cancer research.' J Clin Oncol 2012; Fine JP & Gray RJ. 'A proportional hazards model for the subdistribution of a competing risk.' JASA 1999",
           "trial": "MOSAIC trial (FOLFOX vs LV5FU2 for colon cancer): competing risks analysis for disease-free survival used to account for cardiovascular deaths in an elderly population — standard KM overestimated recurrence risk.",
           "pearl": "In any oncology survival analysis of elderly patients with comorbidities, check: what fraction of 'censored' patients died from non-cancer causes? If substantial (>10%), competing risks analysis is required and KM-based cumulative incidence estimates should not be used."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C3-Q10",
@@ -514,7 +751,8 @@
           "guideline": "CONSORT 2010 Item 17: report effect size with CIs; encourage clinical interpretation beyond p-value",
           "trial": "LANDMARK trial (laparoscopic vs open gastrectomy): p=0.04 for overall survival — absolute survival difference was 2.4%, considered minimally clinically significant by many commentators despite statistical significance.",
           "pearl": "Never interpret a p-value without the effect size and confidence interval. A p=0.001 with CI −0.5% to −3% is clinically trivial; a p=0.04 with CI −8% to −0.2% may be clinically important. The clinical question is always: 'Is this magnitude of difference important enough to change practice?'"
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C3-Q11",
@@ -536,7 +774,8 @@
           "guideline": "Altman DG (1991) Practical Statistics for Medical Research — Chapter 4: normality testing and transformation",
           "trial": "ERAS meta-analyses consistently show right-skewed LOS data — illustrating that formal normality assessment is essential before test selection in surgical research.",
           "pearl": "For n>100, formal normality tests (Shapiro-Wilk, K-S) are often significant for trivial deviations from normality due to high power. For large samples, visual assessment (histogram, Q-Q plot) is more informative for deciding whether the deviation is large enough to warrant non-parametric methods."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C3-Q12",
@@ -558,7 +797,8 @@
           "guideline": "ICH E9(R1) — recommends LMM as the estimand-consistent analysis for longitudinal clinical trial data; Fitzmaurice GM et al. 'Applied Longitudinal Analysis' — standard reference",
           "trial": "RECOVERY trial post-ICU (Denehy et al.): mixed effects models with time × treatment interaction used for primary analysis of physical function recovery — included patients with intermediate missing assessments.",
           "pearl": "Pre-specify the covariance structure for the LMM in the statistical analysis plan. The unstructured covariance structure is the most flexible but uses the most parameters — for surgical trials with 3–5 time points, compound symmetry or AR(1) covariance structures are often appropriate and more parsimonious."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C3-Q13",
@@ -580,7 +820,8 @@
           "guideline": "CONSORT 2010 Item 12b — for multiple primary endpoints or subgroup analyses, specify any multiplicity correction used in the statistical analysis plan",
           "trial": "Birkmeyer JD et al. (NEJM 2002): volume-outcomes analysis in oesophagectomy — used appropriate multiple comparison adjustments for simultaneous assessment of multiple volume thresholds.",
           "pearl": "Bonferroni is appropriate for a small number of pre-specified independent hypotheses. For many correlated tests (e.g., multiple secondary endpoints that share the same patients), Bonferroni is overly conservative — consider hierarchical testing or Benjamini-Hochberg FDR instead."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C3-Q14",
@@ -602,7 +843,8 @@
           "guideline": "Austin PC. 'An introduction to propensity score methods for reducing the effects of confounding in observational studies.' Multivariate Behav Res 2011 — SMD <0.1 benchmark",
           "trial": "Booka E et al. (Ann Surg 2021): propensity-matched comparison of robotic vs open oesophagectomy — SMD <0.1 for all covariates confirmed adequate balance before outcome comparison.",
           "pearl": "Always report SMDs (not p-values) for covariate balance after propensity score matching. A 'love plot' showing pre- and post-matching SMDs is the gold standard for balance reporting. Include it in supplementary materials of any propensity score analysis."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C3-Q15",
@@ -625,7 +867,8 @@
           "guideline": "TRIPOD 2015 Items 16, 17: report calibration plot and calibration test alongside discrimination; AUC alone is insufficient for clinical model evaluation",
           "trial": "Hippisley-Cox et al. QRisk3 (BMJ 2017): cardiovascular risk model — reported both C-statistic (discrimination) and calibration curves by sex and age group — comprehensive model evaluation framework.",
           "pearl": "A model can have high AUC (good at ranking patients) but poor calibration (predicted probabilities are systematically too high or too low). Both must be assessed. Calibration is arguably more important for clinical decision-making — wrong predicted probabilities lead to wrong counselling and wrong treatment thresholds."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C3-Q16",
@@ -647,7 +890,8 @@
           "guideline": "White IR et al. 'Multiple imputation using chained equations: issues and guidance for practice.' Stat Med 2011 — recommended m ≥ fraction missing × 100",
           "trial": "NBOCA analysis (2020 annual report): used m=20 multiple imputation for missing comorbidity data — methodological standard for national audit analysis.",
           "pearl": "A practical rule for the number of imputations: m should be at least equal to the percentage of incomplete cases. For 22% missing data, use m ≥ 22 — m=20 is slightly below but widely accepted. For any missing data analysis, check: what assumptions were made? Were sensitivity analyses under MNAR conducted?"
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C3-Q17",
@@ -669,7 +913,8 @@
           "guideline": "Hernán MA & Robins JM. 'Instruments for causal inference: an epidemiologist's dream?' Epidemiology 2006; Angrist JD & Pischke JS. 'Mostly Harmless Econometrics' — IV conditions",
           "trial": "Birkmeyer JD et al. used distance to high-volume centre as IV for hospital volume in oesophagectomy — found stronger volume-mortality relationship than standard regression, suggesting unmeasured confounding in standard analysis.",
           "pearl": "The exclusion restriction is the most critical and least testable IV assumption. For travel distance IV: does patient distance from a high-volume centre affect mortality through pathways other than which hospital they attend? (Emergency access post-discharge, patient selection by GP referral patterns, etc.) Always discuss exclusion restriction threats explicitly."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C3-Q18",
@@ -691,7 +936,8 @@
           "guideline": "VanderWeele TJ. 'Explanation in Causal Inference: Methods for Mediation and Interaction.' Oxford University Press 2015 — definitive text on mediation analysis in epidemiology",
           "trial": "Blumetti J et al. (2010): mediation analysis showing that SSI prevention strategies mediate a substantial proportion of length-of-stay reduction — same conceptual framework applied to a quality improvement question.",
           "pearl": "Mediation analysis requires strong causal assumptions: no unmeasured confounding of the exposure-outcome, exposure-mediator, or mediator-outcome relationships. In observational surgical data, these assumptions are rarely fully met — results should be interpreted cautiously as suggestive of mechanisms rather than definitive causal estimates."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C3-Q19",
@@ -713,7 +959,8 @@
           "guideline": "Molenberghs G & Verbeke G. 'Models for Discrete Longitudinal Data.' Springer 2005; ICH E9 — longitudinal outcomes require pre-specification of whether the primary test is the overall treatment effect or the time × treatment interaction",
           "trial": "RECOVERY-RS trial (respiratory support for COVID-19): mixed model with treatment × time interaction for SpO2 trajectory — interaction p=0.02 revealed diverging benefit over time for one respiratory support modality.",
           "pearl": "When reporting a treatment × time interaction, show estimated marginal means (with 95% CIs) at each time point plotted graphically — this communicates the clinical trajectory far more effectively than the interaction coefficient alone."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C3-Q20",
@@ -735,7 +982,8 @@
           "guideline": "Tibshirani R. 'Regression shrinkage and selection via the lasso.' J R Stat Soc B 1996 — original LASSO paper; Harrell FE 'Regression Modeling Strategies' — recommends LASSO over stepwise for all prediction modelling tasks",
           "trial": "Andreou A et al. (Br J Surg 2018): LASSO-selected prediction model for pancreatic fistula outperformed stepwise model in external validation — demonstrated real-world superiority of regularisation approach.",
           "pearl": "The 10 events-per-variable (EPV) rule for logistic regression recommends no more than k = events/10 variables. With 200 events and 40 candidates, EPV = 5 — this violates the EPV rule and makes LASSO (which handles high dimensionality) the appropriate approach over unrestricted maximum likelihood estimation."
-        }
+        },
+        "difficulty": 2
       }
     ]
   }

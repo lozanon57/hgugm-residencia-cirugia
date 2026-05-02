@@ -35,12 +35,37 @@
         {
           "type": "table",
           "title": "Bariatric Surgery Indications — ASMBS/IFSO 2022",
-          "headers": ["BMI", "Indication", "Key Comorbidities", "Notes"],
+          "headers": [
+            "BMI",
+            "Indication",
+            "Key Comorbidities",
+            "Notes"
+          ],
           "rows": [
-            ["≥40 kg/m²", "Surgery recommended", "Any or none", "Class III obesity"],
-            ["35–39.9 kg/m²", "Surgery recommended", "Any or none", "Previously required comorbidity — now without"],
-            ["30–34.9 kg/m²", "Surgery recommended with comorbidity", "T2DM, OSA, HTN, NAFLD, GERD", "Updated 2022"],
-            ["<30 kg/m²", "Not standard indication", "Investigational in Asian populations with metabolic disease", "Requires IRB-approved protocol"]
+            [
+              "≥40 kg/m²",
+              "Surgery recommended",
+              "Any or none",
+              "Class III obesity"
+            ],
+            [
+              "35–39.9 kg/m²",
+              "Surgery recommended",
+              "Any or none",
+              "Previously required comorbidity — now without"
+            ],
+            [
+              "30–34.9 kg/m²",
+              "Surgery recommended with comorbidity",
+              "T2DM, OSA, HTN, NAFLD, GERD",
+              "Updated 2022"
+            ],
+            [
+              "<30 kg/m²",
+              "Not standard indication",
+              "Investigational in Asian populations with metabolic disease",
+              "Requires IRB-approved protocol"
+            ]
           ]
         },
         {
@@ -62,14 +87,42 @@
         {
           "type": "table",
           "title": "Pre-operative Optimisation — Key Targets",
-          "headers": ["Parameter", "Target Before Surgery", "Rationale"],
+          "headers": [
+            "Parameter",
+            "Target Before Surgery",
+            "Rationale"
+          ],
           "rows": [
-            ["HbA1c", "<8–9% (ideally <7.5%)", "Reduces wound complication and anastomotic leak risk"],
-            ["Sleep apnoea", "CPAP initiated pre-op", "Reduces post-operative respiratory complications"],
-            ["H. pylori", "Eradicate before RYGB", "Cannot access excluded stomach post-RYGB for endoscopy"],
-            ["Liver volume", "VLCD 2–4 weeks pre-op", "Reduces hepatomegaly; improves intraoperative exposure"],
-            ["Smoking", "Cessation ≥6 weeks pre-op", "Reduces marginal ulcer risk post-RYGB; reduces wound complications"],
-            ["NSAID use", "Discontinue pre-op", "NSAID = strongest risk factor for marginal ulcer after RYGB"]
+            [
+              "HbA1c",
+              "<8–9% (ideally <7.5%)",
+              "Reduces wound complication and anastomotic leak risk"
+            ],
+            [
+              "Sleep apnoea",
+              "CPAP initiated pre-op",
+              "Reduces post-operative respiratory complications"
+            ],
+            [
+              "H. pylori",
+              "Eradicate before RYGB",
+              "Cannot access excluded stomach post-RYGB for endoscopy"
+            ],
+            [
+              "Liver volume",
+              "VLCD 2–4 weeks pre-op",
+              "Reduces hepatomegaly; improves intraoperative exposure"
+            ],
+            [
+              "Smoking",
+              "Cessation ≥6 weeks pre-op",
+              "Reduces marginal ulcer risk post-RYGB; reduces wound complications"
+            ],
+            [
+              "NSAID use",
+              "Discontinue pre-op",
+              "NSAID = strongest risk factor for marginal ulcer after RYGB"
+            ]
           ]
         },
         {
@@ -91,11 +144,31 @@
         {
           "type": "table",
           "title": "RYGB — Limb Lengths and Their Significance",
-          "headers": ["Limb", "Standard Length", "Modified for Super-obesity", "Consequence if Too Long"],
+          "headers": [
+            "Limb",
+            "Standard Length",
+            "Modified for Super-obesity",
+            "Consequence if Too Long"
+          ],
           "rows": [
-            ["Biliopancreatic (BP) limb", "30–75cm from Treitz", "150cm ('distal bypass')", "Protein malnutrition if too long"],
-            ["Roux (alimentary) limb", "100–150cm", "150–200cm", "Nutritional deficiency; diarrhoea"],
-            ["Common channel", "Remainder (typically 250–400cm)", "Minimum 100cm", "Protein malabsorption if <100cm"]
+            [
+              "Biliopancreatic (BP) limb",
+              "30–75cm from Treitz",
+              "150cm ('distal bypass')",
+              "Protein malnutrition if too long"
+            ],
+            [
+              "Roux (alimentary) limb",
+              "100–150cm",
+              "150–200cm",
+              "Nutritional deficiency; diarrhoea"
+            ],
+            [
+              "Common channel",
+              "Remainder (typically 250–400cm)",
+              "Minimum 100cm",
+              "Protein malabsorption if <100cm"
+            ]
           ]
         },
         {
@@ -117,13 +190,37 @@
         {
           "type": "table",
           "title": "Sleeve Gastrectomy — Key Technical Points",
-          "headers": ["Step", "Detail", "Error to Avoid"],
+          "headers": [
+            "Step",
+            "Detail",
+            "Error to Avoid"
+          ],
           "rows": [
-            ["Antrum preservation", "Start stapling 4–6cm from pylorus", "Starting too close to pylorus → GERD + delayed emptying"],
-            ["Fundus mobilisation", "Complete mobilisation of posterior fundus", "Residual fundus → weight regain"],
-            ["Bougie size", "34–40Fr (36Fr most common)", "Too small → higher leak risk; too large → insufficient restriction"],
-            ["Staple line", "Parallel to lesser curve, following the bougie", "Narrowing at the incisura → stricture; twist → obstruction"],
-            ["Angulation (incisura)", "Avoid acute angulation at incisura angularis", "Acute angle → outlet obstruction, dysphagia, leak"]
+            [
+              "Antrum preservation",
+              "Start stapling 4–6cm from pylorus",
+              "Starting too close to pylorus → GERD + delayed emptying"
+            ],
+            [
+              "Fundus mobilisation",
+              "Complete mobilisation of posterior fundus",
+              "Residual fundus → weight regain"
+            ],
+            [
+              "Bougie size",
+              "34–40Fr (36Fr most common)",
+              "Too small → higher leak risk; too large → insufficient restriction"
+            ],
+            [
+              "Staple line",
+              "Parallel to lesser curve, following the bougie",
+              "Narrowing at the incisura → stricture; twist → obstruction"
+            ],
+            [
+              "Angulation (incisura)",
+              "Avoid acute angulation at incisura angularis",
+              "Acute angle → outlet obstruction, dysphagia, leak"
+            ]
           ]
         },
         {
@@ -141,13 +238,49 @@
         {
           "type": "table",
           "title": "Major Bariatric Procedures — Comparison",
-          "headers": ["Procedure", "Mechanism", "%EWL at 5yr", "T2DM Remission", "Key Risk"],
+          "headers": [
+            "Procedure",
+            "Mechanism",
+            "%EWL at 5yr",
+            "T2DM Remission",
+            "Key Risk"
+          ],
           "rows": [
-            ["RYGB", "Restriction + metabolic (GLP-1, ghrelin)", "60–70%", "70–80%", "Internal hernia, nutritional deficiency"],
-            ["Sleeve gastrectomy", "Restriction + ghrelin reduction", "50–60%", "50–60%", "Staple line leak, GERD worsening"],
-            ["SADI-S / One-anastomosis DS", "Restriction + malabsorption", "70–80%", "85–90%", "Protein malnutrition, diarrhoea"],
-            ["Adjustable gastric band", "Restriction only", "40–50%", "40–50%", "Band erosion, slippage — declining use"],
-            ["One-anastomosis gastric bypass (OAGB/MGB)", "Restriction + variable malabsorption", "60–75%", "70–80%", "Bile reflux, nutritional deficiency"]
+            [
+              "RYGB",
+              "Restriction + metabolic (GLP-1, ghrelin)",
+              "60–70%",
+              "70–80%",
+              "Internal hernia, nutritional deficiency"
+            ],
+            [
+              "Sleeve gastrectomy",
+              "Restriction + ghrelin reduction",
+              "50–60%",
+              "50–60%",
+              "Staple line leak, GERD worsening"
+            ],
+            [
+              "SADI-S / One-anastomosis DS",
+              "Restriction + malabsorption",
+              "70–80%",
+              "85–90%",
+              "Protein malnutrition, diarrhoea"
+            ],
+            [
+              "Adjustable gastric band",
+              "Restriction only",
+              "40–50%",
+              "40–50%",
+              "Band erosion, slippage — declining use"
+            ],
+            [
+              "One-anastomosis gastric bypass (OAGB/MGB)",
+              "Restriction + variable malabsorption",
+              "60–75%",
+              "70–80%",
+              "Bile reflux, nutritional deficiency"
+            ]
           ]
         },
         {
@@ -171,16 +304,70 @@
         {
           "type": "table",
           "title": "Bariatric Surgery Complications — Recognition and Management",
-          "headers": ["Complication", "Procedure", "Timing", "Presentation", "Management"],
+          "headers": [
+            "Complication",
+            "Procedure",
+            "Timing",
+            "Presentation",
+            "Management"
+          ],
           "rows": [
-            ["Anastomotic leak", "RYGB", "Day 1–5", "Tachycardia, fever, abdominal pain, rising CRP", "CT → re-operation or percutaneous drain; ICU"],
-            ["Staple line leak", "Sleeve", "Day 1–7", "Same; may be insidious; proximal site most common", "CT → endoscopic stent / drain / re-op; Roux loop for chronic leak"],
-            ["Internal hernia", "RYGB", "Months–years", "Intermittent colicky pain, CT shows mesenteric swirl", "Emergency laparoscopy if suspected"],
-            ["Marginal ulcer", "RYGB", "Months–years", "Epigastric pain, haematemesis; worse with NSAIDs/smoking", "PPI high-dose; endoscopy; NSAID cessation; revision if refractory"],
-            ["Dumping syndrome", "RYGB/sleeve", "Weeks–years", "Early: flushing, palpitations after eating; Late: hypoglycaemia 2–3h post-meal", "Dietary modification; octreotide; acarbose for late dumping"],
-            ["GERD worsening", "Sleeve", "Long-term", "Heartburn, regurgitation, Barrett's", "PPI; consider conversion to RYGB if severe"],
-            ["Band erosion/slippage", "Adjustable band", "Months–years", "Dysphagia (slippage); port site infection/pain (erosion)", "Slippage: urgent deflation ± removal; erosion: endoscopic/surgical removal"],
-            ["Anastomotic stricture", "RYGB", "Weeks–months", "Progressive dysphagia and nausea; reduced intake", "Endoscopic balloon dilation (10–15mm diameter); repeat at 4–6 weeks"]
+            [
+              "Anastomotic leak",
+              "RYGB",
+              "Day 1–5",
+              "Tachycardia, fever, abdominal pain, rising CRP",
+              "CT → re-operation or percutaneous drain; ICU"
+            ],
+            [
+              "Staple line leak",
+              "Sleeve",
+              "Day 1–7",
+              "Same; may be insidious; proximal site most common",
+              "CT → endoscopic stent / drain / re-op; Roux loop for chronic leak"
+            ],
+            [
+              "Internal hernia",
+              "RYGB",
+              "Months–years",
+              "Intermittent colicky pain, CT shows mesenteric swirl",
+              "Emergency laparoscopy if suspected"
+            ],
+            [
+              "Marginal ulcer",
+              "RYGB",
+              "Months–years",
+              "Epigastric pain, haematemesis; worse with NSAIDs/smoking",
+              "PPI high-dose; endoscopy; NSAID cessation; revision if refractory"
+            ],
+            [
+              "Dumping syndrome",
+              "RYGB/sleeve",
+              "Weeks–years",
+              "Early: flushing, palpitations after eating; Late: hypoglycaemia 2–3h post-meal",
+              "Dietary modification; octreotide; acarbose for late dumping"
+            ],
+            [
+              "GERD worsening",
+              "Sleeve",
+              "Long-term",
+              "Heartburn, regurgitation, Barrett's",
+              "PPI; consider conversion to RYGB if severe"
+            ],
+            [
+              "Band erosion/slippage",
+              "Adjustable band",
+              "Months–years",
+              "Dysphagia (slippage); port site infection/pain (erosion)",
+              "Slippage: urgent deflation ± removal; erosion: endoscopic/surgical removal"
+            ],
+            [
+              "Anastomotic stricture",
+              "RYGB",
+              "Weeks–months",
+              "Progressive dysphagia and nausea; reduced intake",
+              "Endoscopic balloon dilation (10–15mm diameter); repeat at 4–6 weeks"
+            ]
           ]
         }
       ]
@@ -196,15 +383,55 @@
         {
           "type": "table",
           "title": "Nutritional Deficiencies After Bariatric Surgery",
-          "headers": ["Nutrient", "Prevalence after RYGB", "Clinical Consequence", "Supplementation"],
+          "headers": [
+            "Nutrient",
+            "Prevalence after RYGB",
+            "Clinical Consequence",
+            "Supplementation"
+          ],
           "rows": [
-            ["Iron", "30–50% (esp. menstruating women)", "Microcytic anaemia, fatigue, hair loss", "Ferrous sulphate 65mg elemental iron 2–3x/day; IV iron if intolerant"],
-            ["Vitamin B12", "30–40% at 5 years", "Megaloblastic anaemia, peripheral neuropathy, cognitive impairment", "IM B12 monthly or sublingual 1000mcg/day or high-dose oral 500–1000mcg"],
-            ["Vitamin D / Calcium", "50–70%", "Secondary hyperparathyroidism, osteopenia/osteoporosis, fractures", "Calcium citrate 1500–2000mg/day + Vitamin D3 1500–3000 IU/day"],
-            ["Thiamine (B1)", "Uncommon; high risk with vomiting", "Wernicke's encephalopathy (encephalopathy, ophthalmoplegia, ataxia)", "IV thiamine 200–500mg before any IV glucose; PO thiamine 100mg/day maintenance"],
-            ["Folate", "30–35%", "Megaloblastic anaemia; neural tube defects in pregnancy", "5mg/day especially in women of childbearing age"],
-            ["Zinc", "30–40% (SADI/DS highest)", "Hair loss, immune dysfunction, taste changes, wound healing delay", "15–25mg elemental zinc/day"],
-            ["Protein", "10–20% (SADI/DS highest)", "Muscle wasting, oedema, impaired healing", "60–80g protein/day minimum; protein supplements"]
+            [
+              "Iron",
+              "30–50% (esp. menstruating women)",
+              "Microcytic anaemia, fatigue, hair loss",
+              "Ferrous sulphate 65mg elemental iron 2–3x/day; IV iron if intolerant"
+            ],
+            [
+              "Vitamin B12",
+              "30–40% at 5 years",
+              "Megaloblastic anaemia, peripheral neuropathy, cognitive impairment",
+              "IM B12 monthly or sublingual 1000mcg/day or high-dose oral 500–1000mcg"
+            ],
+            [
+              "Vitamin D / Calcium",
+              "50–70%",
+              "Secondary hyperparathyroidism, osteopenia/osteoporosis, fractures",
+              "Calcium citrate 1500–2000mg/day + Vitamin D3 1500–3000 IU/day"
+            ],
+            [
+              "Thiamine (B1)",
+              "Uncommon; high risk with vomiting",
+              "Wernicke's encephalopathy (encephalopathy, ophthalmoplegia, ataxia)",
+              "IV thiamine 200–500mg before any IV glucose; PO thiamine 100mg/day maintenance"
+            ],
+            [
+              "Folate",
+              "30–35%",
+              "Megaloblastic anaemia; neural tube defects in pregnancy",
+              "5mg/day especially in women of childbearing age"
+            ],
+            [
+              "Zinc",
+              "30–40% (SADI/DS highest)",
+              "Hair loss, immune dysfunction, taste changes, wound healing delay",
+              "15–25mg elemental zinc/day"
+            ],
+            [
+              "Protein",
+              "10–20% (SADI/DS highest)",
+              "Muscle wasting, oedema, impaired healing",
+              "60–80g protein/day minimum; protein supplements"
+            ]
           ]
         },
         {
@@ -251,13 +478,43 @@
         {
           "type": "table",
           "title": "Common Revision Scenarios",
-          "headers": ["Primary Procedure", "Problem", "Revision Options", "Notes"],
+          "headers": [
+            "Primary Procedure",
+            "Problem",
+            "Revision Options",
+            "Notes"
+          ],
           "rows": [
-            ["Sleeve gastrectomy", "GERD / Barrett's", "Conversion to RYGB", "85–90% GERD resolution post-conversion"],
-            ["Sleeve gastrectomy", "Weight regain", "Conversion to RYGB or SADI-S", "SADI-S preferred for high BMI"],
-            ["RYGB", "Weight regain — dilated pouch/anastomosis", "TORe (endoscopic); pouch revision", "Endoscopic first; surgery if fails"],
-            ["RYGB", "Marginal ulcer refractory to PPI", "Revisional surgery: narrow pouch, remove foreign material", "Exclude excluded stomach perforation/fistula first"],
-            ["Adjustable gastric band", "Band erosion", "Band removal; conversion to sleeve/RYGB after 3–6 months", "Staged approach — single stage has higher complication rate"]
+            [
+              "Sleeve gastrectomy",
+              "GERD / Barrett's",
+              "Conversion to RYGB",
+              "85–90% GERD resolution post-conversion"
+            ],
+            [
+              "Sleeve gastrectomy",
+              "Weight regain",
+              "Conversion to RYGB or SADI-S",
+              "SADI-S preferred for high BMI"
+            ],
+            [
+              "RYGB",
+              "Weight regain — dilated pouch/anastomosis",
+              "TORe (endoscopic); pouch revision",
+              "Endoscopic first; surgery if fails"
+            ],
+            [
+              "RYGB",
+              "Marginal ulcer refractory to PPI",
+              "Revisional surgery: narrow pouch, remove foreign material",
+              "Exclude excluded stomach perforation/fistula first"
+            ],
+            [
+              "Adjustable gastric band",
+              "Band erosion",
+              "Band removal; conversion to sleeve/RYGB after 3–6 months",
+              "Staged approach — single stage has higher complication rate"
+            ]
           ]
         },
         {
@@ -292,7 +549,8 @@
           "guideline": "ASMBS 2022 — all post-bariatric patients with abdominal pain should be evaluated for internal hernia; negative CT does not exclude diagnosis",
           "trial": "Higa KD et al., Obes Surg 2006: internal hernia rate after laparoscopic RYGB 2–5%; closure of mesenteric defects reduces but does not eliminate risk.",
           "pearl": "A post-RYGB patient with colicky abdominal pain has an internal hernia until proven otherwise. Act promptly — incarceration can lead to bowel ischaemia within hours."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "B3-Q2",
@@ -314,7 +572,8 @@
           "guideline": "ASMBS/IFSO 2022 — BMI 30–34.9 with at least one obesity-related comorbidity (T2DM, OSA, HTN, NAFLD) = surgical indication",
           "trial": "STAMPEDE trial (Schauer, NEJM 2017): T2DM remission after bariatric surgery even in patients with BMI 27–32 — motivating the lower BMI threshold.",
           "pearl": "2022 ASMBS/IFSO update: BMI ≥35 regardless of comorbidity; BMI 30–34.9 with comorbidity. No longer the '40/35' threshold only. For exams: if BMI 30–35 + T2DM = operate. If BMI 30–35 with no comorbidity = NOT yet indicated."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B3-Q3",
@@ -336,7 +595,8 @@
           "guideline": "ASMBS 2019 — post-sleeve tachycardia >120 on any post-operative day = staple line leak until proven otherwise; CT + endoscopy for management",
           "trial": "Sakran N, Obes Surg 2013: staple line leak after LSG — most common site angle of His; endoscopic stent success 85%; surgical drainage required for large leaks.",
           "pearl": "Post-bariatric surgery: any tachycardia >120 after day 1 = leak until proven otherwise. Left shoulder tip pain after sleeve = proximal (angle of His) leak with subdiaphragmatic irritation. CT with oral contrast + surgical review immediately."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B3-Q4",
@@ -358,7 +618,8 @@
           "guideline": "ASMBS 2019 — post-bariatric hypoglycaemia: dietary modification first; acarbose; octreotide LAR; very selective surgical candidates (pancreatectomy rarely indicated)",
           "trial": "Vella A, NEJM 2012: post-bariatric hypoglycaemia — exaggerated GLP-1 response confirmed; acarbose reduces hypoglycaemic episodes by 50%; dietary modification effective in 70%.",
           "pearl": "Post-bariatric hypoglycaemia vs insulinoma: post-bariatric = post-prandial ONLY, 2–3h after eating; insulinoma = fasting hypoglycaemia. Management: diet (low GI, small meals, avoid simple carbs) → acarbose → octreotide. Pancreatectomy only as last resort."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B3-Q5",
@@ -380,7 +641,8 @@
           "guideline": "ASMBS 2019 — severe GERD or Barrett's after sleeve gastrectomy: conversion to RYGB is the treatment of choice; resolves GERD in 85–90%",
           "trial": "Altieri MS, Surg Obes Relat Dis 2018: conversion sleeve to RYGB for GERD — 89% resolution of heartburn; 75% regression of Barrett's at 24 months.",
           "pearl": "Sleeve + severe GERD + Barrett's = convert to RYGB. Nissen after sleeve is anatomically impossible. Pre-operative counselling: warn all sleeve patients of 20–30% risk of new or worsened GERD — particularly important in patients with pre-existing GERD (consider RYGB as primary procedure)."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B3-Q6",
@@ -402,7 +664,8 @@
           "guideline": "ASMBS 2019 — all post-bariatric patients with vomiting: IV thiamine 200–500mg before any IV glucose. Wernicke's = medical emergency — thiamine first, glucose never first",
           "trial": "Aasheim ET, Obes Surg 2008: Wernicke's encephalopathy after bariatric surgery — 32 cases identified; all associated with persistent vomiting; recovery rate 75% with prompt thiamine; incomplete recovery if treatment delayed.",
           "pearl": "Post-bariatric + vomiting + encephalopathy/ophthalmoplegia/ataxia = Wernicke's. NEVER give glucose before thiamine in bariatric patients. IV thiamine 200–500mg first. This is a board exam classic — know the order."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B3-Q7",
@@ -425,7 +688,8 @@
           "guideline": "ASMBS 2019 — post-bariatric ulcer: NSAID cessation mandatory; high-dose PPI; EGD recheck at 8–12 weeks; surgery only for refractory or complicated ulcers",
           "trial": "Coblijn UK, JAMA Surg 2014: NSAID use after RYGB — 4.7-fold increased risk of marginal ulcer; absolute cessation of NSAIDs is non-negotiable post-bariatric.",
           "pearl": "Post-bariatric ulcer risk factors: NSAIDs (strongest — must stop), smoking (2x risk), H. pylori, corticosteroids. For marginal ulcer after RYGB specifically: also consider foreign material (suture, staple) and excluded stomach acid hypersecretion as causes. Always check for H. pylori before and after surgery."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "B3-Q8",
@@ -447,7 +711,8 @@
           "guideline": "ASMBS/ACOG 2019 — delay pregnancy 12–18 months after bariatric surgery; nutritional screening mandatory before conception; increased monitoring throughout pregnancy",
           "trial": "Johansson K, JAMA 2015: pregnancy outcomes after bariatric surgery — wait >2 years associated with lower risk of small for gestational age vs <2 years; earlier pregnancy associated with increased preterm birth.",
           "pearl": "Bariatric surgery + pregnancy: wait 12–18 months minimum; not 5 years. Surgery improves fertility (treats PCOS/anovulation). Pre-conception: check iron, B12, folate, vitamin D, protein. Continue all supplements throughout pregnancy — dose may need adjustment. High-dose folate (5mg/day) recommended."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B3-Q9",
@@ -469,7 +734,8 @@
           "guideline": "ASMBS Technical/Safety Recommendations — sleeve gastrectomy: first staple fire 4–6cm from pylorus; bougie 34–40Fr; complete fundus mobilisation mandatory",
           "trial": "Rosenthal RJ et al., SOARD 2012: International Sleeve Gastrectomy Expert Panel Consensus — 4–6cm from pylorus optimal; bougie 32–40Fr; staple line reinforcement recommended.",
           "pearl": "Sleeve technical pearls: (1) start 4–6cm from pylorus; (2) bougie 34–40Fr (36Fr most common); (3) complete posterior fundus mobilisation to prevent weight regain; (4) avoid acute angulation at incisura (stricture/leak risk); (5) check entire staple line for haemostasis."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B3-Q10",
@@ -491,7 +757,8 @@
           "guideline": "ASMBS 2019 — refractory marginal ulcer: EGD for foreign material removal; if fails → excluded stomach fistula evaluation → surgical revision (pouch narrowing, re-anastomosis)",
           "trial": "Bhayani NH, JAMA Surg 2014: marginal ulcer refractory to PPI — foreign suture material identified at EGD in 30%; removal resolved ulcer in 80% of cases.",
           "pearl": "Refractory marginal ulcer management ladder: (1) ensure NSAID cessation + smoking cessation + H. pylori treatment; (2) high-dose PPI (omeprazole 40mg BD) + sucralfate; (3) EGD for foreign material removal; (4) excluded stomach evaluation; (5) surgical revision. Foreign material is underdiagnosed — always repeat EGD for refractory marginal ulcer."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B3-Q11",
@@ -513,7 +780,8 @@
           "guideline": "ASMBS 2019 — band erosion: immediate band removal (endoscopic or laparoscopic); staged conversion to sleeve/RYGB at 3–6 months after healing",
           "trial": "Stroh C, Obes Facts 2015: band erosion — endoscopic removal feasible in 60–70%; laparoscopic in remainder; single-stage conversion increases complication rate 3-fold vs staged.",
           "pearl": "Band erosion = band removal mandatory. Staged approach: remove band now → heal for 3–6 months → plan conversion to sleeve or RYGB. Band slippage (different from erosion): acute slippage = emergency deflation ± urgent removal; chronic slippage = elective removal + conversion."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B3-Q12",
@@ -535,7 +803,8 @@
           "guideline": "ASMBS 2019 — GJ anastomotic stricture after RYGB: endoscopic CRE balloon dilation to 10–15mm; up to 3 sessions before considering surgical revision",
           "trial": "Carrodeguas L, Surg Obes Relat Dis 2006: endoscopic dilation for GJ stricture — 97% resolution with mean 2.5 sessions; perforation <1%; surgical revision needed in 3%.",
           "pearl": "RYGB GJ stricture: endoscopic CRE balloon dilation to 10–15mm is the definitive treatment in 90%+ of cases. Target: able to pass a standard 9.5mm endoscope without resistance. 3 sessions maximum — if still failing, consider surgical revision or conversion."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B3-Q13",
@@ -557,7 +826,8 @@
           "guideline": "IFSO 2019 — SADI-S endorsed for super-obese (BMI>50) patients; ASMBS 2022 recognises SADI-S as an official bariatric procedure",
           "trial": "Sanchez-Pernaute A, SOARD 2022: SADI-S 5-year outcomes — 78% EWL; 87% T2DM remission; 94% hypertension improvement; protein malnutrition 8% (requires intensive nutritional monitoring).",
           "pearl": "For super-obese (BMI>50) with severe metabolic disease: SADI-S > RYGB > sleeve for EWL and T2DM remission. But SADI-S requires intensive lifelong nutritional monitoring (protein, fat-soluble vitamins, B12). Know the hierarchy: SADI-S > RYGB > sleeve > band for metabolic outcomes."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "B3-Q14",
@@ -579,7 +849,8 @@
           "guideline": "ASMBS 2019 — portal vein thrombosis after bariatric surgery: immediate therapeutic anticoagulation; admit for monitoring; thrombolysis if bowel ischaemia develops",
           "trial": "Goitein D, Obes Surg 2013: PVT after sleeve gastrectomy — all cases treated with anticoagulation; complete or partial recanalization in 85%; no bowel resection required with prompt anticoagulation.",
           "pearl": "Post-bariatric PVT: treat immediately with therapeutic LMWH → warfarin (or DOAC). Risk factors: dehydration (most common), hypercoagulable state, abdominal sepsis. Prevention: aggressive hydration post-op, early ambulation. PVT is more common after sleeve than RYGB (unknown mechanism)."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B3-Q15",
@@ -601,7 +872,8 @@
           "guideline": "ASMBS Clinical Practice Guidelines 2019 — B12 supplementation post-RYGB: high-dose oral (500–1000 mcg/day) OR IM (1000 mcg monthly) OR sublingual; not standard multivitamin dose",
           "trial": "Madan AK, Obes Surg 2006: B12 deficiency after RYGB — 37% deficient at 5 years without high-dose supplementation; IM monthly: deficiency rate <5%.",
           "pearl": "B12 post-RYGB: active IF-mediated absorption impaired (no parietal cells in small pouch). High-dose oral or IM bypass this requirement via passive absorption. 1% of any oral dose absorbed passively — so 1000 mcg oral = ~10 mcg absorbed = adequate daily need. Standard multivitamin = inadequate."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B3-Q16",
@@ -623,7 +895,8 @@
           "guideline": "AHA/ESC — elective non-cardiac surgery after DES: defer minimum 12 months; DAPT must not be interrupted; bariatric surgery requires cardiac and anaesthetic MDT evaluation",
           "trial": "Hawn MT, JAMA 2013: perioperative cardiac events after non-cardiac surgery within 6 months of coronary stent — DES within 6 months had highest MACE risk (4.5%); risk decreases progressively after 12 months.",
           "pearl": "DES + elective bariatric surgery: wait minimum 12 months. Never interrupt DAPT for elective surgery <12 months after DES — stent thrombosis mortality >40%. If cardiac stent within 6 months: elective surgery contraindicated. 6–12 months: cardiologist assessment required. >12 months: can proceed with optimisation."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B3-Q17",
@@ -645,7 +918,8 @@
           "guideline": "ASMBS Technical Guidelines 2019 — mandatory closure of all mesenteric defects at RYGB: jejunojejunostomy mesentery + Petersen's space (antecolic) + mesocolic window (retrocolic)",
           "trial": "Stenberg E, JAMA Surg 2016 (STENBERG trial): mesenteric defect closure at RYGB — 57% reduction in internal hernia (1.9% vs 4.5%, p<0.001); closure increases small bowel obstruction due to closure in year 1 but dramatically reduces internal hernia thereafter.",
           "pearl": "Antecolic RYGB mesenteric defects: CLOSE BOTH. (1) jejunojejunostomy mesentery and (2) Petersen's space. Non-absorbable running suture. STENBERG trial: 57% internal hernia reduction with closure. This is now standard of care — document closure in operative note."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B3-Q18",
@@ -667,7 +941,8 @@
           "guideline": "ASMBS 2019 — severe post-bariatric malnutrition: MDT evaluation, structural investigation (EGD, CT), nutritional rehabilitation (IV/NG), consider revisional surgery if structural cause identified",
           "trial": "Coupaye M, Obes Surg 2009: protein malnutrition after RYGB — structural cause identified in 60% (stricture, internal hernia); limb shortening effective in 75% of malabsorption cases.",
           "pearl": "Post-bariatric severe protein malnutrition (albumin <2.5): always investigate for structural cause (stricture, leak, excessive limb length) before attributing to 'inadequate intake'. Revisional surgery (limb shortening or stricture repair) may be required. TPN is a bridge — not a cure."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B3-Q19",
@@ -689,7 +964,8 @@
           "guideline": "ASMBS 2019 — alcohol use disorder: minimum 2 years sobriety pre-operatively; psychiatric/addiction medicine clearance; counsel extensively about post-RYGB alcohol pharmacokinetics and relapse risk",
           "trial": "SOS study (Sjöström, NEJM 2007): alcohol use disorder 2-fold higher after RYGB than matched controls; risk persisted at 20-year follow-up; sleeve had lower alcohol use disorder risk.",
           "pearl": "RYGB + alcohol history: post-RYGB patients reach higher blood alcohol concentrations faster, feel intoxicated with smaller quantities, and have higher addiction relapse rates. This is called 'alcohol transfer addiction' or 'cross-addiction.' Mandatory counselling pre-op. Minimum 2 years sobriety. Consider sleeve over RYGB if alcohol risk is high."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "B3-Q20",
@@ -711,7 +987,8 @@
           "guideline": "ASMBS 2019 — mandatory H. pylori testing and eradication in all RYGB candidates before surgery; excluded stomach inaccessible post-operatively",
           "trial": "Mechanick JI et al., Obesity 2019: H. pylori pre-operative eradication significantly reduces marginal ulcer rate post-RYGB (2.1% vs 5.8% without eradication, p=0.02).",
           "pearl": "RYGB + H. pylori: eradicate before surgery — excluded stomach is inaccessible post-RYGB for standard endoscopy. H. pylori increases marginal ulcer risk 2–3 fold. After eradication, confirm cure with stool antigen or UBT (not serology — antibodies persist). Test: all bariatric candidates should have H. pylori testing as part of pre-operative evaluation."
-        }
+        },
+        "difficulty": 2
       }
     ]
   }

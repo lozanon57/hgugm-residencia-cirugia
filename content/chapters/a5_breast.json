@@ -38,14 +38,42 @@
         {
           "type": "table",
           "title": "Contraindications to Breast-Conserving Surgery",
-          "headers": ["Contraindication", "Type", "Notes"],
+          "headers": [
+            "Contraindication",
+            "Type",
+            "Notes"
+          ],
           "rows": [
-            ["Multicentric disease (≥2 quadrants)", "Relative/Absolute", "May be overcome by oncoplastic techniques in selected cases"],
-            ["Prior breast irradiation to the same breast", "Absolute", "Retreatment RT not feasible"],
-            ["Positive margins not achievable", "Absolute", "After re-excision attempt; anatomy-dependent"],
-            ["Active SLE/scleroderma", "Relative", "Connective tissue disease increases RT toxicity"],
-            ["Pregnancy (1st/2nd trimester)", "Relative", "RT deferred; mastectomy may be preferred to avoid RT exposure"],
-            ["BRCA1/2 mutation with patient preference", "Not contraindication", "Equivalent local recurrence; contralateral risk counselling mandatory"]
+            [
+              "Multicentric disease (≥2 quadrants)",
+              "Relative/Absolute",
+              "May be overcome by oncoplastic techniques in selected cases"
+            ],
+            [
+              "Prior breast irradiation to the same breast",
+              "Absolute",
+              "Retreatment RT not feasible"
+            ],
+            [
+              "Positive margins not achievable",
+              "Absolute",
+              "After re-excision attempt; anatomy-dependent"
+            ],
+            [
+              "Active SLE/scleroderma",
+              "Relative",
+              "Connective tissue disease increases RT toxicity"
+            ],
+            [
+              "Pregnancy (1st/2nd trimester)",
+              "Relative",
+              "RT deferred; mastectomy may be preferred to avoid RT exposure"
+            ],
+            [
+              "BRCA1/2 mutation with patient preference",
+              "Not contraindication",
+              "Equivalent local recurrence; contralateral risk counselling mandatory"
+            ]
           ]
         },
         {
@@ -85,12 +113,37 @@
         {
           "type": "table",
           "title": "Breast Cancer Molecular Subtypes — Surgical Implications",
-          "headers": ["Subtype", "Profile", "Neoadjuvant?", "Key Surgical Point"],
+          "headers": [
+            "Subtype",
+            "Profile",
+            "Neoadjuvant?",
+            "Key Surgical Point"
+          ],
           "rows": [
-            ["Luminal A", "ER+/PR+ high, HER2-, low Ki-67", "Rarely — endocrine therapy preferred", "BCS preferred; Oncotype DX may guide adjuvant chemo"],
-            ["Luminal B", "ER+, HER2-, high Ki-67 OR HER2+", "Consider if downstaging needed", "SLNB standard; post-NAC restage axilla"],
-            ["HER2+ (non-luminal)", "HER2+ ER-/PR-", "Yes — dual HER2 blockade + chemo", "pCR 50–60%; residual disease → T-DM1"],
-            ["Triple-negative (TNBC)", "ER-, PR-, HER2-", "Yes — BRCAm: olaparib; high pCR rate", "pCR 35–45%; residual disease → capecitabine (CREATE-X)"]
+            [
+              "Luminal A",
+              "ER+/PR+ high, HER2-, low Ki-67",
+              "Rarely — endocrine therapy preferred",
+              "BCS preferred; Oncotype DX may guide adjuvant chemo"
+            ],
+            [
+              "Luminal B",
+              "ER+, HER2-, high Ki-67 OR HER2+",
+              "Consider if downstaging needed",
+              "SLNB standard; post-NAC restage axilla"
+            ],
+            [
+              "HER2+ (non-luminal)",
+              "HER2+ ER-/PR-",
+              "Yes — dual HER2 blockade + chemo",
+              "pCR 50–60%; residual disease → T-DM1"
+            ],
+            [
+              "Triple-negative (TNBC)",
+              "ER-, PR-, HER2-",
+              "Yes — BRCAm: olaparib; high pCR rate",
+              "pCR 35–45%; residual disease → capecitabine (CREATE-X)"
+            ]
           ]
         },
         {
@@ -112,12 +165,37 @@
         {
           "type": "table",
           "title": "Neoadjuvant Chemotherapy — Subtypes, Regimens, and Residual Disease Management",
-          "headers": ["Subtype", "NAC Regimen", "pCR Rate", "Residual Disease Management"],
+          "headers": [
+            "Subtype",
+            "NAC Regimen",
+            "pCR Rate",
+            "Residual Disease Management"
+          ],
           "rows": [
-            ["HER2+ (non-luminal)", "AC × 4 → paclitaxel/trastuzumab/pertuzumab × 4 (NeoSphere protocol)", "50–65%", "T-DM1 (ado-trastuzumab emtansine) for 14 cycles (KATHERINE trial)"],
-            ["HER2+ (luminal)", "As above ± neoadjuvant AI", "35–50%", "T-DM1 for residual; consider CDK4/6 inhibitors for HR+ residual"],
-            ["TNBC", "AC × 4 → paclitaxel × 4 ± carboplatin (GeparSixto)", "40–55% with platinum", "Capecitabine × 8 cycles (CREATE-X trial); olaparib if BRCAm"],
-            ["Luminal B (HER2-)", "Anthracycline + taxane-based", "10–20%", "Adjuvant CDK4/6 inhibitor (abemaciclib MONARCH-E); consider extended endocrine therapy"]
+            [
+              "HER2+ (non-luminal)",
+              "AC × 4 → paclitaxel/trastuzumab/pertuzumab × 4 (NeoSphere protocol)",
+              "50–65%",
+              "T-DM1 (ado-trastuzumab emtansine) for 14 cycles (KATHERINE trial)"
+            ],
+            [
+              "HER2+ (luminal)",
+              "As above ± neoadjuvant AI",
+              "35–50%",
+              "T-DM1 for residual; consider CDK4/6 inhibitors for HR+ residual"
+            ],
+            [
+              "TNBC",
+              "AC × 4 → paclitaxel × 4 ± carboplatin (GeparSixto)",
+              "40–55% with platinum",
+              "Capecitabine × 8 cycles (CREATE-X trial); olaparib if BRCAm"
+            ],
+            [
+              "Luminal B (HER2-)",
+              "Anthracycline + taxane-based",
+              "10–20%",
+              "Adjuvant CDK4/6 inhibitor (abemaciclib MONARCH-E); consider extended endocrine therapy"
+            ]
           ]
         },
         {
@@ -139,12 +217,37 @@
         {
           "type": "table",
           "title": "Oncoplastic Breast Surgery — Technique Classification and Indications",
-          "headers": ["Category", "Techniques", "Best Indication", "Tumour:Breast Ratio"],
+          "headers": [
+            "Category",
+            "Techniques",
+            "Best Indication",
+            "Tumour:Breast Ratio"
+          ],
           "rows": [
-            ["Volume Displacement — Level I", "Glandular advancement flaps, batwing/hatchet excision, round block (periareolar)", "Peripheral tumours; small-medium breasts", "<20%"],
-            ["Volume Displacement — Level II", "Therapeutic reduction mammoplasty (inverted-T, vertical scar), wise pattern, inferior pedicle", "Large-breasted women; central/lower tumours; ptotic breasts", "20–50%"],
-            ["Volume Replacement — Pedicled", "Thoracodorsal artery perforator (TAP) flap, lateral intercostal perforator (LICAP) flap", "Lateral quadrant defects; thin-breasted women", ">20%, moderate volume"],
-            ["Volume Replacement — LD mini-flap", "Latissimus dorsi miniflap (without implant)", "Upper outer/inner quadrant; partial mastectomy defect", "20–40%"]
+            [
+              "Volume Displacement — Level I",
+              "Glandular advancement flaps, batwing/hatchet excision, round block (periareolar)",
+              "Peripheral tumours; small-medium breasts",
+              "<20%"
+            ],
+            [
+              "Volume Displacement — Level II",
+              "Therapeutic reduction mammoplasty (inverted-T, vertical scar), wise pattern, inferior pedicle",
+              "Large-breasted women; central/lower tumours; ptotic breasts",
+              "20–50%"
+            ],
+            [
+              "Volume Replacement — Pedicled",
+              "Thoracodorsal artery perforator (TAP) flap, lateral intercostal perforator (LICAP) flap",
+              "Lateral quadrant defects; thin-breasted women",
+              ">20%, moderate volume"
+            ],
+            [
+              "Volume Replacement — LD mini-flap",
+              "Latissimus dorsi miniflap (without implant)",
+              "Upper outer/inner quadrant; partial mastectomy defect",
+              "20–40%"
+            ]
           ]
         },
         {
@@ -166,15 +269,63 @@
         {
           "type": "table",
           "title": "Immediate Breast Reconstruction — Implant-Based vs Autologous Comparison",
-          "headers": ["Parameter", "Implant-Based (Direct/Two-Stage)", "DIEP Flap", "TRAM Flap", "LD Flap ± Implant"],
+          "headers": [
+            "Parameter",
+            "Implant-Based (Direct/Two-Stage)",
+            "DIEP Flap",
+            "TRAM Flap",
+            "LD Flap ± Implant"
+          ],
           "rows": [
-            ["Operative time", "1–2 hours", "6–8 hours (microsurgery)", "4–6 hours", "3–4 hours"],
-            ["Recovery", "2–4 weeks", "4–6 weeks", "4–6 weeks", "3–4 weeks"],
-            ["Donor site morbidity", "None", "Minimal (muscle-sparing)", "Abdominal wall weakness", "Back weakness, seroma"],
-            ["Effect of radiation", "High: capsular contracture, implant failure (30–50% with RT)", "Moderate: fat necrosis but autologous tissue tolerates RT better", "Moderate", "Moderate"],
-            ["Body habitus requirement", "None (requires adequate skin envelope)", "Adequate abdominal tissue", "Adequate abdominal tissue", "Adequate back tissue"],
-            ["Nipple-sparing mastectomy suitability", "Excellent (direct-to-implant)", "Excellent", "Good", "Good"],
-            ["Long-term outcome", "Implant exchange may be needed; 10yr revision ~30%", "Durable; natural feel; ages naturally", "Durable", "Implant-dependent feel"]
+            [
+              "Operative time",
+              "1–2 hours",
+              "6–8 hours (microsurgery)",
+              "4–6 hours",
+              "3–4 hours"
+            ],
+            [
+              "Recovery",
+              "2–4 weeks",
+              "4–6 weeks",
+              "4–6 weeks",
+              "3–4 weeks"
+            ],
+            [
+              "Donor site morbidity",
+              "None",
+              "Minimal (muscle-sparing)",
+              "Abdominal wall weakness",
+              "Back weakness, seroma"
+            ],
+            [
+              "Effect of radiation",
+              "High: capsular contracture, implant failure (30–50% with RT)",
+              "Moderate: fat necrosis but autologous tissue tolerates RT better",
+              "Moderate",
+              "Moderate"
+            ],
+            [
+              "Body habitus requirement",
+              "None (requires adequate skin envelope)",
+              "Adequate abdominal tissue",
+              "Adequate abdominal tissue",
+              "Adequate back tissue"
+            ],
+            [
+              "Nipple-sparing mastectomy suitability",
+              "Excellent (direct-to-implant)",
+              "Excellent",
+              "Good",
+              "Good"
+            ],
+            [
+              "Long-term outcome",
+              "Implant exchange may be needed; 10yr revision ~30%",
+              "Durable; natural feel; ages naturally",
+              "Durable",
+              "Implant-dependent feel"
+            ]
           ]
         },
         {
@@ -226,34 +377,127 @@
         {
           "type": "table",
           "title": "AJCC 8th Edition — T Category Melanoma Staging",
-          "headers": ["T Category", "Breslow Thickness", "Ulceration", "Notes"],
+          "headers": [
+            "T Category",
+            "Breslow Thickness",
+            "Ulceration",
+            "Notes"
+          ],
           "rows": [
-            ["T1a", "< 0.8 mm", "No", "Lowest risk group; SLNB generally not indicated"],
-            ["T1b", "< 0.8 mm with ulceration OR 0.8–1.0 mm ± ulceration", "Yes / Any", "SLNB discussion recommended"],
-            ["T2a", "1.01–2.0 mm", "No", "SLNB recommended"],
-            ["T2b", "1.01–2.0 mm", "Yes", "SLNB recommended; worse prognosis than T2a"],
-            ["T3a", "2.01–4.0 mm", "No", "Intermediate-high risk"],
-            ["T3b", "2.01–4.0 mm", "Yes", "High risk; adjuvant systemic therapy indicated if Stage III"],
-            ["T4a", "> 4.0 mm", "No", "High risk"],
-            ["T4b", "> 4.0 mm", "Yes", "Highest T-category risk; adjuvant therapy mandatory if operable Stage III"]
+            [
+              "T1a",
+              "< 0.8 mm",
+              "No",
+              "Lowest risk group; SLNB generally not indicated"
+            ],
+            [
+              "T1b",
+              "< 0.8 mm with ulceration OR 0.8–1.0 mm ± ulceration",
+              "Yes / Any",
+              "SLNB discussion recommended"
+            ],
+            [
+              "T2a",
+              "1.01–2.0 mm",
+              "No",
+              "SLNB recommended"
+            ],
+            [
+              "T2b",
+              "1.01–2.0 mm",
+              "Yes",
+              "SLNB recommended; worse prognosis than T2a"
+            ],
+            [
+              "T3a",
+              "2.01–4.0 mm",
+              "No",
+              "Intermediate-high risk"
+            ],
+            [
+              "T3b",
+              "2.01–4.0 mm",
+              "Yes",
+              "High risk; adjuvant systemic therapy indicated if Stage III"
+            ],
+            [
+              "T4a",
+              "> 4.0 mm",
+              "No",
+              "High risk"
+            ],
+            [
+              "T4b",
+              "> 4.0 mm",
+              "Yes",
+              "Highest T-category risk; adjuvant therapy mandatory if operable Stage III"
+            ]
           ]
         },
         {
           "type": "table",
           "title": "AJCC 8th Edition — N and M Categories",
-          "headers": ["Category", "Definition", "Key Point"],
+          "headers": [
+            "Category",
+            "Definition",
+            "Key Point"
+          ],
           "rows": [
-            ["N1a", "1 clinically occult node (SLNB+)", "No in-transit/satellite"],
-            ["N1b", "1 clinically detected node", "Macroscopic nodal disease"],
-            ["N1c", "No regional nodes, but in-transit/satellite/microsatellite lesion(s)", "No nodal involvement"],
-            ["N2a", "2–3 clinically occult nodes", "SLNB+ only"],
-            ["N2b", "2–3 clinically detected nodes (any occult)", "Macrometastases"],
-            ["N2c", "1 node (any) + in-transit/satellite/microsatellite", "Combined nodal + in-transit"],
-            ["N3", "4+ nodes, matted, or any in-transit + ≥2 nodes", "Bulky nodal disease"],
-            ["M1a", "Skin, subcutaneous, or distant lymph node mets", "LDH normal/elevated modifies prognosis"],
-            ["M1b", "Lung metastases", "Better prognosis than M1c"],
-            ["M1c", "Other visceral metastases (excluding brain)", "Liver, bowel, adrenal"],
-            ["M1d", "Brain or leptomeningeal metastases", "Worst prognosis; targeted therapy + stereotactic RT"]
+            [
+              "N1a",
+              "1 clinically occult node (SLNB+)",
+              "No in-transit/satellite"
+            ],
+            [
+              "N1b",
+              "1 clinically detected node",
+              "Macroscopic nodal disease"
+            ],
+            [
+              "N1c",
+              "No regional nodes, but in-transit/satellite/microsatellite lesion(s)",
+              "No nodal involvement"
+            ],
+            [
+              "N2a",
+              "2–3 clinically occult nodes",
+              "SLNB+ only"
+            ],
+            [
+              "N2b",
+              "2–3 clinically detected nodes (any occult)",
+              "Macrometastases"
+            ],
+            [
+              "N2c",
+              "1 node (any) + in-transit/satellite/microsatellite",
+              "Combined nodal + in-transit"
+            ],
+            [
+              "N3",
+              "4+ nodes, matted, or any in-transit + ≥2 nodes",
+              "Bulky nodal disease"
+            ],
+            [
+              "M1a",
+              "Skin, subcutaneous, or distant lymph node mets",
+              "LDH normal/elevated modifies prognosis"
+            ],
+            [
+              "M1b",
+              "Lung metastases",
+              "Better prognosis than M1c"
+            ],
+            [
+              "M1c",
+              "Other visceral metastases (excluding brain)",
+              "Liver, bowel, adrenal"
+            ],
+            [
+              "M1d",
+              "Brain or leptomeningeal metastases",
+              "Worst prognosis; targeted therapy + stereotactic RT"
+            ]
           ]
         },
         {
@@ -281,13 +525,43 @@
         {
           "type": "table",
           "title": "NCCN 2025 — Recommended Wide Excision Margins by Breslow Thickness",
-          "headers": ["Breslow Thickness", "Recommended Margin", "Evidence Base", "Notes"],
+          "headers": [
+            "Breslow Thickness",
+            "Recommended Margin",
+            "Evidence Base",
+            "Notes"
+          ],
           "rows": [
-            ["In situ (lentigo maligna)", "0.5–1.0 cm", "Expert consensus; staged excision (Mohs) for facial/LMM", "Larger margins or staged surgery for lentigo maligna on face"],
-            ["≤ 1.0 mm (T1)", "1 cm", "WHO Trial 1; Balch JAMA 2001; UK MGS", "1 cm equivalent to wider margins for thin melanoma"],
-            ["1.01–2.0 mm (T2)", "1–2 cm", "UK MGS (Thomas, NEJM 2004)", "1 cm statistically acceptable; 2 cm preferred when anatomically feasible"],
-            ["2.01–4.0 mm (T3)", "2 cm", "Intergroup Melanoma Surgical Trial; Gillgren LANCET 2011", "3 cm NOT superior to 2 cm in randomised trials"],
-            ["> 4.0 mm (T4)", "2 cm", "Expert consensus based on trial extrapolation", "3 cm not proven superior; anatomical constraints often limit to 2 cm"]
+            [
+              "In situ (lentigo maligna)",
+              "0.5–1.0 cm",
+              "Expert consensus; staged excision (Mohs) for facial/LMM",
+              "Larger margins or staged surgery for lentigo maligna on face"
+            ],
+            [
+              "≤ 1.0 mm (T1)",
+              "1 cm",
+              "WHO Trial 1; Balch JAMA 2001; UK MGS",
+              "1 cm equivalent to wider margins for thin melanoma"
+            ],
+            [
+              "1.01–2.0 mm (T2)",
+              "1–2 cm",
+              "UK MGS (Thomas, NEJM 2004)",
+              "1 cm statistically acceptable; 2 cm preferred when anatomically feasible"
+            ],
+            [
+              "2.01–4.0 mm (T3)",
+              "2 cm",
+              "Intergroup Melanoma Surgical Trial; Gillgren LANCET 2011",
+              "3 cm NOT superior to 2 cm in randomised trials"
+            ],
+            [
+              "> 4.0 mm (T4)",
+              "2 cm",
+              "Expert consensus based on trial extrapolation",
+              "3 cm not proven superior; anatomical constraints often limit to 2 cm"
+            ]
           ]
         },
         {
@@ -331,14 +605,42 @@
         {
           "type": "table",
           "title": "SLNB Indications in Melanoma — NCCN 2025",
-          "headers": ["T Category / Breslow", "SLNB Recommendation", "Notes"],
+          "headers": [
+            "T Category / Breslow",
+            "SLNB Recommendation",
+            "Notes"
+          ],
           "rows": [
-            ["T1a (< 0.8 mm, no ulceration)", "Not recommended", "SLN positivity rate <5%; not cost-effective"],
-            ["T1b (< 0.8 mm + ulceration OR 0.8–1.0 mm)", "Discuss / Offer", "SLN positivity rate 5–12%; shared decision-making"],
-            ["T2 (1.01–2.0 mm)", "Recommended", "SLN positivity rate ~15–20%"],
-            ["T3 (2.01–4.0 mm)", "Recommended", "SLN positivity rate ~30%"],
-            ["T4 (> 4.0 mm)", "Recommended", "SLN positivity rate 35–40%; adjuvant therapy if positive"],
-            ["Desmoplastic melanoma (pure)", "Consider omission", "SLN positivity rate <5% even with thick tumours; exception to standard algorithm"]
+            [
+              "T1a (< 0.8 mm, no ulceration)",
+              "Not recommended",
+              "SLN positivity rate <5%; not cost-effective"
+            ],
+            [
+              "T1b (< 0.8 mm + ulceration OR 0.8–1.0 mm)",
+              "Discuss / Offer",
+              "SLN positivity rate 5–12%; shared decision-making"
+            ],
+            [
+              "T2 (1.01–2.0 mm)",
+              "Recommended",
+              "SLN positivity rate ~15–20%"
+            ],
+            [
+              "T3 (2.01–4.0 mm)",
+              "Recommended",
+              "SLN positivity rate ~30%"
+            ],
+            [
+              "T4 (> 4.0 mm)",
+              "Recommended",
+              "SLN positivity rate 35–40%; adjuvant therapy if positive"
+            ],
+            [
+              "Desmoplastic melanoma (pure)",
+              "Consider omission",
+              "SLN positivity rate <5% even with thick tumours; exception to standard algorithm"
+            ]
           ]
         },
         {
@@ -360,13 +662,49 @@
         {
           "type": "table",
           "title": "Systemic Therapy for Advanced Melanoma — Key Regimens and Trials",
-          "headers": ["Regimen", "Targets", "Key Trial", "5-Year OS", "Notes"],
+          "headers": [
+            "Regimen",
+            "Targets",
+            "Key Trial",
+            "5-Year OS",
+            "Notes"
+          ],
           "rows": [
-            ["Nivolumab + Ipilimumab", "PD-1 + CTLA-4", "CheckMate 067 (Wolchok, NEJM 2022)", "52% vs 44% (nivo) vs 26% (ipi)", "First-line standard regardless of BRAF status; 59% grade 3/4 toxicity"],
-            ["Pembrolizumab", "PD-1", "KEYNOTE-006 (Robert, Lancet 2019)", "38% at 5yr", "Alternative to combo; lower toxicity than nivo+ipi"],
-            ["Dabrafenib + Trametinib", "BRAF V600 + MEK", "COMBI-D/V (Long, NEJM 2015)", "34% at 5yr", "BRAF+ only; rapid response; resistance develops in ~50% by 1 yr"],
-            ["Vemurafenib + Cobimetinib", "BRAF V600 + MEK", "coBRIM (Larkin, NEJM 2014)", "~30% at 5yr", "Alternative BRAF+MEK combo"],
-            ["Encorafenib + Binimetinib", "BRAF V600 + MEK", "COLUMBUS (Dummer, Lancet Oncol 2018)", "34% at 5yr", "Better tolerability profile vs older BRAF+MEK combos"]
+            [
+              "Nivolumab + Ipilimumab",
+              "PD-1 + CTLA-4",
+              "CheckMate 067 (Wolchok, NEJM 2022)",
+              "52% vs 44% (nivo) vs 26% (ipi)",
+              "First-line standard regardless of BRAF status; 59% grade 3/4 toxicity"
+            ],
+            [
+              "Pembrolizumab",
+              "PD-1",
+              "KEYNOTE-006 (Robert, Lancet 2019)",
+              "38% at 5yr",
+              "Alternative to combo; lower toxicity than nivo+ipi"
+            ],
+            [
+              "Dabrafenib + Trametinib",
+              "BRAF V600 + MEK",
+              "COMBI-D/V (Long, NEJM 2015)",
+              "34% at 5yr",
+              "BRAF+ only; rapid response; resistance develops in ~50% by 1 yr"
+            ],
+            [
+              "Vemurafenib + Cobimetinib",
+              "BRAF V600 + MEK",
+              "coBRIM (Larkin, NEJM 2014)",
+              "~30% at 5yr",
+              "Alternative BRAF+MEK combo"
+            ],
+            [
+              "Encorafenib + Binimetinib",
+              "BRAF V600 + MEK",
+              "COLUMBUS (Dummer, Lancet Oncol 2018)",
+              "34% at 5yr",
+              "Better tolerability profile vs older BRAF+MEK combos"
+            ]
           ]
         },
         {
@@ -378,12 +716,42 @@
         {
           "type": "table",
           "title": "Adjuvant Systemic Therapy for Resected Stage III Melanoma",
-          "headers": ["Drug", "Indication", "Key Trial", "RFS Benefit", "Notes"],
+          "headers": [
+            "Drug",
+            "Indication",
+            "Key Trial",
+            "RFS Benefit",
+            "Notes"
+          ],
           "rows": [
-            ["Nivolumab", "Stage IIIA-D, any BRAF status", "CheckMate 238 (Weber, NEJM 2017)", "1yr RFS: 70.5% vs 60.8% (ipilimumab)", "Superior to adjuvant ipilimumab; 12 months duration"],
-            ["Pembrolizumab", "Stage IIIA(N2)-IIID or Stage IIB/C", "KEYNOTE-054 (Eggermont, NEJM 2018) / KEYNOTE-716", "3yr RFS: 63.7% vs 44.1%", "Stage IIB/C now approved (KEYNOTE-716); 12 months"],
-            ["Dabrafenib + Trametinib", "Stage III BRAF V600E/K mutated", "COMBI-AD (Long, NEJM 2017)", "5yr RFS: 52% vs 36%", "BRAF+ only; 12 months; OS benefit confirmed at 5yr (55% vs 47%)"],
-            ["Ipilimumab (3 mg/kg)", "Stage III (if PD-1 ineligible)", "EORTC 18071 (Eggermont, NEJM 2015)", "5yr RFS: 40.8% vs 30.3%", "Higher toxicity (grade 3/4: 41%); largely replaced by anti-PD-1 agents"]
+            [
+              "Nivolumab",
+              "Stage IIIA-D, any BRAF status",
+              "CheckMate 238 (Weber, NEJM 2017)",
+              "1yr RFS: 70.5% vs 60.8% (ipilimumab)",
+              "Superior to adjuvant ipilimumab; 12 months duration"
+            ],
+            [
+              "Pembrolizumab",
+              "Stage IIIA(N2)-IIID or Stage IIB/C",
+              "KEYNOTE-054 (Eggermont, NEJM 2018) / KEYNOTE-716",
+              "3yr RFS: 63.7% vs 44.1%",
+              "Stage IIB/C now approved (KEYNOTE-716); 12 months"
+            ],
+            [
+              "Dabrafenib + Trametinib",
+              "Stage III BRAF V600E/K mutated",
+              "COMBI-AD (Long, NEJM 2017)",
+              "5yr RFS: 52% vs 36%",
+              "BRAF+ only; 12 months; OS benefit confirmed at 5yr (55% vs 47%)"
+            ],
+            [
+              "Ipilimumab (3 mg/kg)",
+              "Stage III (if PD-1 ineligible)",
+              "EORTC 18071 (Eggermont, NEJM 2015)",
+              "5yr RFS: 40.8% vs 30.3%",
+              "Higher toxicity (grade 3/4: 41%); largely replaced by anti-PD-1 agents"
+            ]
           ]
         },
         {
@@ -424,7 +792,8 @@
           "guideline": "NCCN Breast Cancer v5.2025 — BCS appropriate for stage I-II tumours with achievable negative margins; SLNB for all invasive cancers",
           "trial": "Milan Trial (Veronesi, NEJM 2002): quadrantectomy vs mastectomy — equivalent 20-year OS. NSABP B-06: lumpectomy + RT equivalent to mastectomy.",
           "pearl": "Always discuss reconstruction options at the time of surgical planning — even for BCS. Oncoplastic techniques can achieve excellent cosmesis for larger excisions."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "A5-Q2",
@@ -446,7 +815,8 @@
           "guideline": "NCCN Breast v5.2025 — adjuvant capecitabine for non-pCR after NAC in HER2- breast cancer",
           "trial": "CREATE-X (Masuda, NEJM 2017): n=910 HER2- non-pCR patients; capecitabine improved 5yr DFS (74.1% vs 67.6%) and OS; TNBC subgroup had largest benefit.",
           "pearl": "Residual disease algorithm after NAC: HER2+ residual → T-DM1 (KATHERINE); TNBC residual → capecitabine (CREATE-X) ± olaparib if BRCA+; HR+ HER2- residual → capecitabine ± CDK4/6 inhibitor (MONARCH-E)."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A5-Q3",
@@ -468,7 +838,8 @@
           "guideline": "NCCN Breast v5.2025 — IBC: T4d; NAC mandatory first; modified radical mastectomy + PMRT",
           "trial": "Cristofanilli M et al., JCO 2007: IBC clinical diagnostic criteria established; neoadjuvant strategy associated with improved outcomes vs upfront surgery.",
           "pearl": "IBC diagnosis = clinical (erythema + edema ≥1/3 breast + rapid onset) + pathological (biopsy confirming carcinoma). BCS is absolutely contraindicated in IBC. PMRT is mandatory regardless of nodal status or surgical margins."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A5-Q4",
@@ -490,7 +861,8 @@
           "guideline": "NCCN Breast v5.2025 — PMRT: ≥4 positive nodes; T3/T4; positive margins; consider 1–3 nodes (multidisciplinary)",
           "trial": "EBCTCG meta-analysis (Clarke, Lancet 2014): PMRT reduced 10-yr recurrence ~10% and improved 20-yr survival in node-positive disease.",
           "pearl": "PMRT indications: ≥4+ nodes (definitive); T3/T4 primary (definitive); positive margins (definitive). 1–3 nodes: individualised decision (PMRT decreases locoregional recurrence but OS benefit smaller in 1–3 node category)."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A5-Q5",
@@ -512,7 +884,8 @@
           "guideline": "NCCN Breast v5.2025 / ASTRO Guidelines — PMRT planned: consider delayed reconstruction; autologous preferred over implant post-radiation",
           "trial": "Albornoz CR et al., Ann Surg Oncol 2015: systematic review — implant-based reconstruction with PMRT: 30–50% complication rate; autologous after PMRT: superior outcomes.",
           "pearl": "Algorithm: PMRT anticipated → (1) delayed reconstruction after RT (best option) OR (2) TE as placeholder during RT then autologous reconstruction. Avoid implant as final reconstruction if PMRT planned. DIEP = gold standard autologous reconstruction."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "A5-Q6",
@@ -534,7 +907,8 @@
           "guideline": "NCCN Breast v5.2025 — unilateral nipple eczema not responding to steroids: biopsy to exclude Paget's disease",
           "trial": "Kothari AS et al., Eur J Surg Oncol 2002: Paget's disease — nipple biopsy diagnostic; associated with underlying DCIS or invasive cancer in 80–100% of cases.",
           "pearl": "Paget's disease of the nipple: unilateral > bilateral; associated with underlying DCIS/invasive cancer; biopsy = Paget cells (clear cells in epidermis); treatment: central lumpectomy + RT or mastectomy. Bilateral nipple eczema → dermatitis; unilateral → Paget's until proven otherwise."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "A5-Q7",
@@ -556,7 +930,8 @@
           "guideline": "NCCN Breast v5.2025 — cN+ post-NAC: TAD recommended; ypN0 with TAD → ALND omission acceptable",
           "trial": "FALSE Trial (Simons, JAMA Oncol 2022): TAD in cN1-N2 post-NAC — FNR 4.2%; supports ALND omission in ypN0 with adequate TAD sampling.",
           "pearl": "Post-NAC axillary algorithm for cN+ patients: Clip the positive node at diagnosis → post-NAC SLNB + TAD (retrieve clipped node) → if ypN0: omit ALND + give RNI → if ypN1+: ALND required."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "A5-Q8",
@@ -578,7 +953,8 @@
           "guideline": "NCCN Melanoma v2.2025 — T2 melanoma: 1–2 cm margin + SLNB recommended",
           "trial": "MSLT-I (Morton, NEJM 2006): early SLNB + CLND improved 10-yr melanoma-specific survival vs delayed CLND at clinical relapse for intermediate-thickness melanomas.",
           "pearl": "Melanoma margin algorithm: In situ → 0.5-1 cm; T1 (≤1 mm) → 1 cm; T2 (1-2 mm) → 1-2 cm; T3-T4 (>2 mm) → 2 cm. Deep margin should include deep fascia. 3 cm is never evidence-based."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A5-Q9",
@@ -600,7 +976,8 @@
           "guideline": "NCCN Melanoma v2.2025 / ESMO Melanoma 2023 — positive SLNB: CLND not routinely recommended; ultrasound surveillance preferred; adjuvant systemic therapy for Stage III",
           "trial": "MSLT-II (Faries, NEJM 2017): n=1934 SLNB+ patients; CLND vs surveillance — MSS identical; CLND increased lymphedema 24% vs 6%; DeCOG-SLT (Leiter, Lancet Oncol 2016): similar findings.",
           "pearl": "MSLT-II paradigm shift: positive SLNB → NO routine CLND. Start adjuvant systemic therapy (pembrolizumab or dabrafenib+trametinib if BRAF+) + ultrasound every 3 months. CLND only for macroscopic extracapsular extension or clinically palpable nodes."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A5-Q10",
@@ -622,7 +999,8 @@
           "guideline": "NCCN Melanoma v2.2025 — resected Stage III BRAF+: adjuvant dabrafenib+trametinib OR pembrolizumab OR nivolumab for 12 months",
           "trial": "COMBI-AD (Long, NEJM 2017): dabrafenib+trametinib vs placebo for BRAF+ Stage III — 5yr RFS 52% vs 36%, 5yr OS 55% vs 47%; KEYNOTE-054 (Eggermont, NEJM 2018): pembrolizumab vs placebo — 3yr RFS 63.7% vs 44.1%.",
           "pearl": "Stage III adjuvant melanoma therapy: BRAF+ → choice of dabrafenib+trametinib OR pembrolizumab (12 months each). BRAF wild-type → pembrolizumab or nivolumab. Do NOT give BRAF inhibitor to BRAF wild-type — it is paradoxically tumour-promoting via paradoxical MAPK activation."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "A5-Q11",
@@ -644,7 +1022,8 @@
           "guideline": "NCCN Melanoma v2.2025 — Stage III BRAF+: adjuvant dabrafenib+trametinib or pembrolizumab or nivolumab × 12 months",
           "trial": "COMBI-AD (Long, NEJM 2017) — Stage III BRAF+ adjuvant; KEYNOTE-054 (Eggermont, NEJM 2018) — Stage III all-comers adjuvant pembrolizumab.",
           "pearl": "Stage IIIC is NOT too advanced for adjuvant therapy — it has the greatest absolute benefit from treatment intensification. Do not withhold adjuvant therapy in fit IIIC patients."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "A5-Q12",
@@ -666,7 +1045,8 @@
           "guideline": "NCCN Melanoma v2.2025 — Stage IV BRAF wild-type: first-line nivolumab+ipilimumab or pembrolizumab or nivolumab",
           "trial": "CheckMate 067 (Wolchok, NEJM 2022): 7-yr OS nivo+ipi 49% vs nivo 44% vs ipi 21%; median OS 72.1 months (nivo+ipi) — established combination as standard.",
           "pearl": "BRAF wild-type Stage IV → immunotherapy only. Critically: never give BRAF inhibitor to BRAF wild-type melanoma. Confirm BRAF status (tissue or ctDNA) before any targeted therapy. PD-L1 high + BRAF wild-type: nivolumab monotherapy vs combination both acceptable."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "A5-Q13",
@@ -688,7 +1068,8 @@
           "guideline": "NCCN Melanoma v2.2025 — T1a: 1 cm margin; SLNB not recommended; discuss for T1b (0.8-1.0mm or ulcerated)",
           "trial": "WHO Melanoma Trial 1 (Veronesi, NEJM 1988): 1 cm vs 3 cm margin for thin melanomas — equivalent OS and local recurrence; 1 cm is the established standard.",
           "pearl": "T1a (<0.8mm, no ulceration) = 1 cm margin, no SLNB. T1b (ulceration OR 0.8-1.0mm) = 1 cm margin, discuss SLNB (SLN+ rate 5-12%). T2+ = 1-2 cm margin, SLNB recommended."
-        }
+        },
+        "difficulty": 1
       }
     ]
   }

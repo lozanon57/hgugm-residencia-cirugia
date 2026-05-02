@@ -42,12 +42,37 @@
         {
           "type": "table",
           "title": "Database Types — Comparison for Surgical Research",
-          "headers": ["Type", "Examples", "Strengths", "Limitations"],
+          "headers": [
+            "Type",
+            "Examples",
+            "Strengths",
+            "Limitations"
+          ],
           "rows": [
-            ["Clinical registry (prospective)", "ACS-NSQIP, TARN, NBOCA, BAUS", "Validated clinical variables; prospective; predefined outcomes", "Resource-intensive; sampling bias; may not include all operations"],
-            ["Administrative database", "HES (NHS), Medicare/Medicaid claims, ICD-coded databases", "100% population coverage; large numbers; longitudinal", "ICD coding inaccuracies; no clinical detail (grade, stage, BMI); billing bias"],
-            ["Disease-specific registry", "NBOCA (bowel cancer), BAUS (urology), NBCA (breast)", "Deep domain variables; subspecialty-validated", "Single disease; may not capture comorbidities well"],
-            ["Institutional EHR database", "Epic, Cerner extracts; single-centre studies", "High clinical granularity; full record linkage", "Single-centre generalisability; variable data quality; ICD coding still applies"]
+            [
+              "Clinical registry (prospective)",
+              "ACS-NSQIP, TARN, NBOCA, BAUS",
+              "Validated clinical variables; prospective; predefined outcomes",
+              "Resource-intensive; sampling bias; may not include all operations"
+            ],
+            [
+              "Administrative database",
+              "HES (NHS), Medicare/Medicaid claims, ICD-coded databases",
+              "100% population coverage; large numbers; longitudinal",
+              "ICD coding inaccuracies; no clinical detail (grade, stage, BMI); billing bias"
+            ],
+            [
+              "Disease-specific registry",
+              "NBOCA (bowel cancer), BAUS (urology), NBCA (breast)",
+              "Deep domain variables; subspecialty-validated",
+              "Single disease; may not capture comorbidities well"
+            ],
+            [
+              "Institutional EHR database",
+              "Epic, Cerner extracts; single-centre studies",
+              "High clinical granularity; full record linkage",
+              "Single-centre generalisability; variable data quality; ICD coding still applies"
+            ]
           ]
         },
         {
@@ -81,13 +106,43 @@
         {
           "type": "table",
           "title": "UK National Surgical Audits — Key Programmes",
-          "headers": ["Audit", "Full Name", "Scope", "Key Metric"],
+          "headers": [
+            "Audit",
+            "Full Name",
+            "Scope",
+            "Key Metric"
+          ],
           "rows": [
-            ["NBOCA", "National Bowel Cancer Audit", "Colorectal cancer surgery", "30-day mortality; 2-year survival; R0 resection rate; major complication rate"],
-            ["TARN", "Trauma Audit and Research Network", "Major trauma", "Risk-adjusted mortality (TRISS methodology); time-to-imaging; ICU LOS"],
-            ["NBCA", "National Breast and Cosmetic Implant Registry", "Breast implant surgery", "Complication rates; revision rates; patient-reported outcomes"],
-            ["NCEPOD", "National Confidential Enquiry into Patient Outcome and Death", "Perioperative deaths", "Organisational and clinical factors in preventable perioperative deaths"],
-            ["BAUS", "British Association of Urological Surgeons outcomes database", "Urological procedures (TURP, nephrectomy, cystectomy)", "Complication rates; 90-day outcomes; funnel plots by unit"]
+            [
+              "NBOCA",
+              "National Bowel Cancer Audit",
+              "Colorectal cancer surgery",
+              "30-day mortality; 2-year survival; R0 resection rate; major complication rate"
+            ],
+            [
+              "TARN",
+              "Trauma Audit and Research Network",
+              "Major trauma",
+              "Risk-adjusted mortality (TRISS methodology); time-to-imaging; ICU LOS"
+            ],
+            [
+              "NBCA",
+              "National Breast and Cosmetic Implant Registry",
+              "Breast implant surgery",
+              "Complication rates; revision rates; patient-reported outcomes"
+            ],
+            [
+              "NCEPOD",
+              "National Confidential Enquiry into Patient Outcome and Death",
+              "Perioperative deaths",
+              "Organisational and clinical factors in preventable perioperative deaths"
+            ],
+            [
+              "BAUS",
+              "British Association of Urological Surgeons outcomes database",
+              "Urological procedures (TURP, nephrectomy, cystectomy)",
+              "Complication rates; 90-day outcomes; funnel plots by unit"
+            ]
           ]
         },
         {
@@ -133,13 +188,43 @@
         {
           "type": "table",
           "title": "Machine Learning Methods — Application in Surgical Research",
-          "headers": ["Method", "Strengths", "Limitations", "Surgical Application"],
+          "headers": [
+            "Method",
+            "Strengths",
+            "Limitations",
+            "Surgical Application"
+          ],
           "rows": [
-            ["Logistic regression (penalised — LASSO/Ridge)", "Interpretable; well-calibrated; handles regularisation", "Assumes linearity; limited interaction detection", "Pre-operative risk stratification; readmission prediction"],
-            ["Random forest", "Handles non-linearity; automatic interaction detection; robust to outliers", "Black box; poor calibration without post-processing", "Complication prediction from EHR features"],
-            ["Gradient boosting (XGBoost)", "High predictive performance; handles missing data; feature importance", "Prone to overfitting if not tuned; computationally intensive", "30-day mortality prediction; length of stay prediction"],
-            ["Deep learning / neural networks", "Handles unstructured data (imaging, text); very high capacity", "Requires very large datasets; poor interpretability; data hungry", "Intraoperative video analysis; pathology image classification"],
-            ["SHAP (SHapley Additive exPlanations)", "Model-agnostic interpretability; explains individual predictions", "Computational cost for large models", "Explaining which features drive high-risk predictions to clinicians"]
+            [
+              "Logistic regression (penalised — LASSO/Ridge)",
+              "Interpretable; well-calibrated; handles regularisation",
+              "Assumes linearity; limited interaction detection",
+              "Pre-operative risk stratification; readmission prediction"
+            ],
+            [
+              "Random forest",
+              "Handles non-linearity; automatic interaction detection; robust to outliers",
+              "Black box; poor calibration without post-processing",
+              "Complication prediction from EHR features"
+            ],
+            [
+              "Gradient boosting (XGBoost)",
+              "High predictive performance; handles missing data; feature importance",
+              "Prone to overfitting if not tuned; computationally intensive",
+              "30-day mortality prediction; length of stay prediction"
+            ],
+            [
+              "Deep learning / neural networks",
+              "Handles unstructured data (imaging, text); very high capacity",
+              "Requires very large datasets; poor interpretability; data hungry",
+              "Intraoperative video analysis; pathology image classification"
+            ],
+            [
+              "SHAP (SHapley Additive exPlanations)",
+              "Model-agnostic interpretability; explains individual predictions",
+              "Computational cost for large models",
+              "Explaining which features drive high-risk predictions to clinicians"
+            ]
           ]
         },
         {
@@ -165,14 +250,49 @@
         {
           "type": "table",
           "title": "Key International Surgical Registries",
-          "headers": ["Registry", "Country/Region", "Data Captured", "Key Surgical Use Cases"],
+          "headers": [
+            "Registry",
+            "Country/Region",
+            "Data Captured",
+            "Key Surgical Use Cases"
+          ],
           "rows": [
-            ["SEER (Surveillance, Epidemiology, and End Results)", "USA", "Cancer incidence, tumour characteristics, treatment, survival — population-based", "Population-based cancer survival; treatment trends; volume-outcomes; epidemiology"],
-            ["EUROCARE (European Cancer Registry-based study)", "Europe (>30 countries)", "Cancer incidence and survival across European cancer registries", "International survival comparison; healthcare system effects on cancer outcomes"],
-            ["GlobalSurg", "International (>100 countries)", "Prospective surgical outcome data from low-, middle-, and high-income countries", "Global surgical access; 30-day mortality; SSI rates; anastomotic leak across LMICs"],
-            ["NCDB (National Cancer Database)", "USA", "Hospital-based cancer registry — Commission on Cancer sites", "Practice patterns; guideline adherence; hospital volume effects in cancer surgery"],
-            ["TROG (Trans-Tasman Radiation Oncology Group)", "Australia/NZ", "Cancer clinical trial registry and outcomes", "Australasian surgical-oncology trial outcomes"],
-            ["ACS-NSQIP International", "USA + International partners", "Prospective risk-adjusted 30-day outcomes", "International benchmarking; quality improvement in non-US systems"]
+            [
+              "SEER (Surveillance, Epidemiology, and End Results)",
+              "USA",
+              "Cancer incidence, tumour characteristics, treatment, survival — population-based",
+              "Population-based cancer survival; treatment trends; volume-outcomes; epidemiology"
+            ],
+            [
+              "EUROCARE (European Cancer Registry-based study)",
+              "Europe (>30 countries)",
+              "Cancer incidence and survival across European cancer registries",
+              "International survival comparison; healthcare system effects on cancer outcomes"
+            ],
+            [
+              "GlobalSurg",
+              "International (>100 countries)",
+              "Prospective surgical outcome data from low-, middle-, and high-income countries",
+              "Global surgical access; 30-day mortality; SSI rates; anastomotic leak across LMICs"
+            ],
+            [
+              "NCDB (National Cancer Database)",
+              "USA",
+              "Hospital-based cancer registry — Commission on Cancer sites",
+              "Practice patterns; guideline adherence; hospital volume effects in cancer surgery"
+            ],
+            [
+              "TROG (Trans-Tasman Radiation Oncology Group)",
+              "Australia/NZ",
+              "Cancer clinical trial registry and outcomes",
+              "Australasian surgical-oncology trial outcomes"
+            ],
+            [
+              "ACS-NSQIP International",
+              "USA + International partners",
+              "Prospective risk-adjusted 30-day outcomes",
+              "International benchmarking; quality improvement in non-US systems"
+            ]
           ]
         },
         {
@@ -263,7 +383,8 @@
           "guideline": "RECORD Statement (Benchimol, PLOS Med 2015) — requires documentation of coding validity and known coding errors",
           "trial": "Mamidanna R et al. (Gut 2012): administrative data vs clinical registry (NBOCA) comparison for colorectal cancer surgery — found systematic underestimation of morbidity in HES vs registry data.",
           "pearl": "In any administrative database study, always ask: 'Is the exposure (treatment assignment) reliably coded?' Coding accuracy of operative approach varies widely across hospitals and is a major source of misclassification bias."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C4-Q2",
@@ -285,7 +406,8 @@
           "guideline": "ACS-NSQIP Operations Manual — sampling methodology and case inclusion criteria; Shiloach M et al. (JACS 2010): NSQIP case ascertainment methodology validation",
           "trial": "NSQIP-based studies consistently acknowledge the sampling design in their limitations sections — researchers should specify whether they used standard or targeted NSQIP data for any specific procedure analysis.",
           "pearl": "When using NSQIP for procedure-specific analyses (e.g., all laparoscopic colectomies), targeted NSQIP modules are far superior to the standard programme because they capture 100% of cases without sampling bias."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C4-Q3",
@@ -307,7 +429,8 @@
           "guideline": "Mant J et al. (BMJ 1995): systematic review of death certificate accuracy for cardiovascular disease — foundational evidence of coding error in cause of death; NCEPOD uses review of death certificates to assess coding accuracy",
           "trial": "Rizkallah A et al. (Br J Cancer 2020): comparison of ONS cause-of-death-based cancer-specific survival with pathology-confirmed cause — 15% discordance rate for colorectal cancer.",
           "pearl": "For surgical oncology survival analysis, overall survival (OS) is more robust than disease-specific survival (DSS) because OS does not depend on accurate cause-of-death coding. Report OS as the primary measure and DSS as secondary, acknowledging coding limitations."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C4-Q4",
@@ -329,7 +452,8 @@
           "guideline": "RECORD Statement (Benchimol, PLOS Med 2015) — defines routinely collected health data (administrative) and their specific reporting requirements",
           "trial": "Mamidanna R et al. (Gut 2012): direct comparison of HES administrative data vs NBOCA clinical registry for colorectal cancer — HES underreported anastomotic leak by 40% and in-hospital morbidity by 25%.",
           "pearl": "The 'gold standard' comparison for any administrative database study is validation against an independent clinical record review or registry in a sample of the study population. If HES reports 15% complication rate and NBOCA reports 22%, the registry is closer to the truth."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C4-Q5",
@@ -341,7 +465,7 @@
           "D": "Trust X should stop performing elective colectomy immediately until mortality rates improve"
         },
         "correct": "B",
-          "explanation": {
+        "explanation": {
           "correct": "Being outside the 3SD control limits on a funnel plot indicates that Trust X's mortality rate is statistically significantly higher than expected given its case volume — this is a signal warranting investigation, not immediate sanction. The appropriate stepwise response: (1) verify data quality and coding accuracy — could high mortality reflect comprehensive complication capture rather than truly inferior outcomes?; (2) review case mix beyond the standard risk adjustment variables — does Trust X take on disproportionately complex cases (e.g., conversion surgery, high-risk demographics) not adequately captured in the risk model?; (3) if data quality is confirmed and case mix is adequately adjusted, initiate peer review of clinical processes. NCEPOD follows exactly this approach for perioperative death outliers.",
           "wrong": {
             "A": "Immediate public reporting without investigation risks unfairly damaging Trust X's reputation if the signal reflects data quality issues or inadequate risk adjustment. Investigation must precede any public action.",
@@ -351,7 +475,8 @@
           "guideline": "NCEPOD methodology — funnel plots as signals for further investigation, not definitive evidence of poor quality; CQC inspection methodology for outlier hospitals",
           "trial": "de Leval MR et al. (Circulation 2000): analysis of cardiac surgery mortality outliers — structured clinical review identified case mix, data quality, and genuine clinical process issues as distinct contributors to statistical outlier status.",
           "pearl": "A funnel plot outlier is a hypothesis — 'something may be different about this hospital.' Investigation must determine whether the signal reflects: (1) data/coding error; (2) inadequate risk adjustment; or (3) genuine care quality issue. Only (3) warrants clinical action."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C4-Q6",
@@ -373,7 +498,8 @@
           "guideline": "Feinstein AR et al. 'The Will Rogers phenomenon. Stage migration and new diagnostic techniques as a source of misleading statistics for survival in cancer.' NEJM 1985 — classic paper defining stage migration",
           "trial": "EUROCARE-5 (Lancet Oncology 2014): European cancer survival trends — explicitly adjusted for stage migration effects when comparing survival across time periods and countries.",
           "pearl": "Always consider the Will Rogers phenomenon when using registry data to assess temporal trends in stage-specific cancer survival. The improvement may reflect more accurate staging (capturing worse-prognosis patients in the later stage) rather than better treatment of the remaining earlier-stage group."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C4-Q7",
@@ -395,7 +521,8 @@
           "guideline": "Copeland GP et al. 'POSSUM: a scoring system for surgical audit.' Br J Surg 1991 — original development; Prytherch DR et al. 'POSSUM and Portsmouth POSSUM for predicting mortality' (Br J Surg 1998) — Portsmouth modification",
           "trial": "HES-based national audit studies for colorectal cancer (NBOCA) cannot use POSSUM — they rely on Charlson comorbidity index (calculable from ICD codes) and ASA grade as risk adjustment variables instead.",
           "pearl": "For administrative database studies, use risk adjustment variables calculable from available codes: Charlson Comorbidity Index (CCI) or Elixhauser comorbidity score from ICD codes, and age/sex from administrative fields. Reserve POSSUM for prospective clinical studies where physiological data are collected."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C4-Q8",
@@ -417,7 +544,8 @@
           "guideline": "RECORD Statement — NLP-extracted data require validation reporting; TRIPOD NLP extension (in development) will require precision/recall reporting for NLP-derived outcomes",
           "trial": "Osthus D et al. (J Biomed Inform 2020): NLP for surgical complication extraction from EHR — reported precision 0.88, recall 0.83 for anastomotic leak identification — acceptable for population-level analysis but not for individual patient outcome reporting.",
           "pearl": "NLP performance varies by clinical entity complexity: simple, well-defined terms (e.g., 'anastomotic leak', 'wound infection') achieve higher precision/recall than complex contextual concepts (e.g., 'no evidence of anastomotic leak', 'possible wound infection'). Always validate on negative (absent) as well as positive (present) cases."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C4-Q9",
@@ -439,7 +567,8 @@
           "guideline": "GlobalSurg Collaborative (Lancet Infect Dis 2018) — SSI after gastrointestinal surgery in LMICs; STROBE Item 16: adjusted analyses must specify what was adjusted for and acknowledge residual confounding",
           "trial": "GlobalSurg 2 (Lancet Infect Dis 2018): 23,853 patients across 343 hospitals in 66 countries — landmark study quantifying global SSI disparity; identified antibiotic availability as the strongest modifiable system-level predictor.",
           "pearl": "In international observational comparisons, adjusted ORs/HRs should always be interpreted with a clear statement of what was and was NOT adjusted for. The residual difference after patient-level adjustment reflects unmeasured healthcare system effects — it is not proof of surgical skill or patient biology."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C4-Q10",
@@ -461,7 +590,8 @@
           "guideline": "NHS Digital Data Access Request Service (DARS) guidance; UK GDPR Art 9(2)(j); NHS Act 2006 Section 251; HRA guidance on regulatory approvals for research using health data",
           "trial": "NHS Digital DARS approval pathway followed by all major UK database studies including NBOCA analysis, CPRD-HES linked studies, and Cancer Registry-HES-ONS linked cancer survival studies.",
           "pearl": "The Section 251 (CAG) approval process is specifically for studies that need identifiable patient data but where obtaining individual patient consent is not practicable (e.g., retrospective studies of all patients with a condition over 10 years). Applying to CAG before NHS Digital DARS submission is strongly recommended as CAG approval is the gating item for identifiable data access."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C4-Q11",
@@ -483,7 +613,8 @@
           "guideline": "TRIPOD 2015 — external validation in a different population and time period is required before clinical ML model deployment; DECIDE-AI guideline for reporting AI clinical decision support tools",
           "trial": "Steyerberg EW et al. — systematic review of clinical prediction model studies: most models show AUC decline of 0.05–0.15 in external validation compared to internal validation, reflecting real-world generalisability limitations.",
           "pearl": "Before deploying any surgical ML model in clinical practice, validate it in the actual target population (same country, similar hospital type, similar patient demographics). Transfer learning and recalibration using a small local dataset can substantially improve performance in the target setting."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C4-Q12",
@@ -505,7 +636,8 @@
           "guideline": "Bilimoria KY et al. (Ann Surg 2008): NCDB overview and validation — describes captured data fields and explicit limitations for surgical outcome research",
           "trial": "Nassour I et al. (Annals of Surgery 2020): NCDB study of MIS vs open pancreaticoduodenectomy — acknowledged absence of perioperative clinical variables as the primary limitation requiring cautious interpretation of survival differences.",
           "pearl": "Know the data fields of the registries you use: NCDB captures survival and treatment, but not perioperative complications. ACS-NSQIP captures 30-day outcomes with clinical detail but not long-term survival. Combining NCDB and NSQIP requires linkage — not possible at individual patient level in the standard public datasets."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C4-Q13",
@@ -527,7 +659,8 @@
           "guideline": "Fellegi IP & Sunter AB. 'A theory for record linkage.' J Am Stat Assoc 1969 — foundational probabilistic linkage paper; NHS Digital guidance on record linkage methodologies",
           "trial": "Scottish Cancer Registry linkage studies (e.g., wild bird flu surveillance) used probabilistic linkage when CHI (Community Health Index) number was unavailable — demonstrating application in national research.",
           "pearl": "Probabilistic linkage introduces two types of error: false links (two records linked that are different individuals) and missed links (same individual's records not linked). Both must be quantified and reported. Sensitivity analysis excluding records with borderline linkage scores tests the impact on study conclusions."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C4-Q14",
@@ -549,7 +682,8 @@
           "guideline": "Tekkis PP et al. (BMJ 2004): statistical power for surgeon-level outlier detection — seminal analysis of minimum case volumes for reliable individual performance assessment",
           "trial": "NHS Surgeon Performance data (oesophago-gastric surgery): all surgeons in specialist centres report at unit level because individual surgeon volumes (typically 20–40 oesophagectomies/year) are insufficient for reliable individual-level outlier detection.",
           "pearl": "For any surgeon-level quality monitoring proposal, calculate the statistical power to detect a clinically important increase in event rate (e.g., 2× expected) given the expected annual case volume and event rate. If power is <80% with realistic case volumes, the monitoring is statistically futile for individual surgeons and outcomes should be reported at unit level."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C4-Q15",
@@ -571,7 +705,8 @@
           "guideline": "Khuri SF et al. (Ann Surg 1998): NSQIP original paper acknowledges behaviour change from measurement; Heen MJ et al. (2016) quantification of Hawthorne effect in quality improvement programmes",
           "trial": "ACS-NSQIP 10-year outcomes analysis — participating hospitals showed 2.4% reduction in risk-adjusted complications in the first 2 years of participation, before specific quality improvement protocols were implemented — consistent with Hawthorne effect.",
           "pearl": "The Hawthorne effect is a confound in evaluating quality improvement programmes: if hospitals improve just by joining a measurement programme, it is impossible to attribute specific improvement to specific interventions. Stepped-wedge designs (where hospitals join at different times) can help distinguish Hawthorne effects from intervention effects."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C4-Q16",
@@ -593,7 +728,8 @@
           "guideline": "Collins GS et al. 'Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD statement.' Ann Intern Med 2015; DECIDE-AI guideline for reporting AI clinical decision support studies",
           "trial": "Vickers AJ & Elkin EB (2006): decision curve analysis — introduced as the standard for evaluating clinical utility of prediction models; now required by high-impact surgical journals for any prediction model publication.",
           "pearl": "A surgical prediction model checklist for clinical translation: (1) AUC ≥0.70 in external validation; (2) calibration plot with Hosmer-Lemeshow p>0.05; (3) clinical decision curve showing net benefit above treat-all and treat-none; (4) performance in relevant patient subgroups. All four are needed before a model enters clinical practice."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C4-Q17",
@@ -615,7 +751,8 @@
           "guideline": "UK GDPR Article 9(2)(j); Data Protection Act 2018 Schedule 1 Part 1; NHS Act 2006 Section 251; CAG guidance on confidentiality applications",
           "trial": "All large UK NHS database studies operate under this framework: NBOCA research, CPRD studies, HES-ONS linked studies — all use GDPR Art 9(2)(j) + Section 251 or DPA 2018 Schedule 1 + institutional data governance.",
           "pearl": "The two-step framework for identifiable NHS data research: (1) Ethics approval (REC); (2) Data controller permission (NHS Digital DARS, including Section 251 CAG approval if identifiable data needed without consent). Both are required — REC approval alone does not authorise data access."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C4-Q18",
@@ -637,7 +774,8 @@
           "guideline": "Spiegelhalter DJ. 'Funnel plots for comparing institutional performance.' Stat Med 2005 — definitive statistical framework for O/E ratio and funnel plot interpretation",
           "trial": "NBOCA annual reports — present O/E ratios with 95% CIs for all contributing trusts; trusts with CI excluding 1.0 are identified for structured review; those with CI including 1.0 are 'as expected or better' despite O/E > 1.",
           "pearl": "When interpreting O/E ratios, always look at the confidence interval, not just the point estimate. A hospital with O/E = 1.5 (CI 0.95–2.25) is NOT a statistical outlier; a hospital with O/E = 1.2 (CI 1.05–1.38) IS a statistical outlier (despite a lower point estimate) because its high volume gives a narrow CI that excludes 1.0."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C4-Q19",
@@ -659,7 +797,8 @@
           "guideline": "FDA guidance 'Use of Real-World Evidence to Support Regulatory Decision-Making for Medical Devices' (2017); EMA reflection paper on use of registries in clinical research (2020)",
           "trial": "ENROUTE Transcarotid Artery Revascularization (TCAR) regulatory approval: FDA accepted registry-based RWE from the Society for Vascular Surgery VQI (Vascular Quality Initiative) registry as supporting evidence for device approval — first example of registry-supported device approval.",
           "pearl": "The key distinction between research-grade and regulatory-grade registry data is the quality infrastructure: pre-specified outcomes, GCP-level monitoring, validated definitions, and an analysis plan committed before data collection. Retrospective analyses of existing registries, however large, do not meet this standard for regulatory purposes."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C4-Q20",
@@ -681,7 +820,8 @@
           "guideline": "Dixon E et al. (JACS 2004): coding accuracy for laparoscopic vs open colectomy in administrative data — up to 20% misclassification demonstrated; RECORD Item 12.1 requires documentation of coding validation steps",
           "trial": "Mamidanna R et al. (BJS 2010): clinical coding accuracy for operative approach in oesophageal and gastric cancer surgery — sensitivity of OPCS coding for minimally invasive approach ranged from 72–89% depending on centre coding practices.",
           "pearl": "When using administrative data to study variation in surgical approach rates, always: (1) obtain procedure code definitions from both hospitals; (2) validate a sample against operative records or theatre logs; (3) seek ICD/OPCS coding audits if available. Apparent 'practice variation' studies have been substantially confounded by coding variation in the surgical literature."
-        }
+        },
+        "difficulty": 2
       }
     ]
   }

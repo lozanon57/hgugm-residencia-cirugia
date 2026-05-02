@@ -42,13 +42,43 @@
         {
           "type": "table",
           "title": "FINER Criteria — Detailed Assessment Framework",
-          "headers": ["Criterion", "Key Questions", "Common Failure Mode", "Surgical Example"],
+          "headers": [
+            "Criterion",
+            "Key Questions",
+            "Common Failure Mode",
+            "Surgical Example"
+          ],
           "rows": [
-            ["Feasible", "Adequate subjects? Technical capability? Budget? Timeline?", "Overestimating accrual — the commonest grant-failure mode", "Power calculation shows 800 patients needed; your centre does 40/year"],
-            ["Interesting", "Will surgeons, patients, or guidelines act on this answer?", "Incremental questions with no practice impact", "5th RCT comparing two equivalent mesh types"],
-            ["Novel", "Has this been answered? Is a meta-analysis already definitive?", "Replicating existing evidence without added value", "RCT of antibiotic prophylaxis in bowel resection — settled"],
-            ["Ethical", "Could harm to participants outweigh benefit? Equipoise present?", "No clinical equipoise — one arm known inferior", "RCT of no-repair vs repair of rectal perforation — no equipoise"],
-            ["Relevant", "Will a positive OR negative result change something?", "Proxy outcome with no clinical translation", "Measuring cytokine levels with no patient-outcome link"]
+            [
+              "Feasible",
+              "Adequate subjects? Technical capability? Budget? Timeline?",
+              "Overestimating accrual — the commonest grant-failure mode",
+              "Power calculation shows 800 patients needed; your centre does 40/year"
+            ],
+            [
+              "Interesting",
+              "Will surgeons, patients, or guidelines act on this answer?",
+              "Incremental questions with no practice impact",
+              "5th RCT comparing two equivalent mesh types"
+            ],
+            [
+              "Novel",
+              "Has this been answered? Is a meta-analysis already definitive?",
+              "Replicating existing evidence without added value",
+              "RCT of antibiotic prophylaxis in bowel resection — settled"
+            ],
+            [
+              "Ethical",
+              "Could harm to participants outweigh benefit? Equipoise present?",
+              "No clinical equipoise — one arm known inferior",
+              "RCT of no-repair vs repair of rectal perforation — no equipoise"
+            ],
+            [
+              "Relevant",
+              "Will a positive OR negative result change something?",
+              "Proxy outcome with no clinical translation",
+              "Measuring cytokine levels with no patient-outcome link"
+            ]
           ]
         },
         {
@@ -159,11 +189,31 @@
         {
           "type": "table",
           "title": "Hypothesis Types — Summary",
-          "headers": ["Type", "Statement form", "Statistical test", "When to use"],
+          "headers": [
+            "Type",
+            "Statement form",
+            "Statistical test",
+            "When to use"
+          ],
           "rows": [
-            ["Null (H₀)", "'There is no difference between A and B'", "Two-tailed (default)", "Always stated; what you aim to reject"],
-            ["Alternative (H₁)", "'There is a difference between A and B'", "Two-tailed", "Standard for most clinical studies"],
-            ["Directional (H₁)", "'A is greater/less than B'", "One-tailed", "Strong prior evidence of specific direction; use cautiously"]
+            [
+              "Null (H₀)",
+              "'There is no difference between A and B'",
+              "Two-tailed (default)",
+              "Always stated; what you aim to reject"
+            ],
+            [
+              "Alternative (H₁)",
+              "'There is a difference between A and B'",
+              "Two-tailed",
+              "Standard for most clinical studies"
+            ],
+            [
+              "Directional (H₁)",
+              "'A is greater/less than B'",
+              "One-tailed",
+              "Strong prior evidence of specific direction; use cautiously"
+            ]
           ]
         },
         {
@@ -185,14 +235,49 @@
         {
           "type": "table",
           "title": "Hypothesis-to-Design Matching",
-          "headers": ["Research Question Type", "Optimal Design", "Alternative", "Key Limitation"],
+          "headers": [
+            "Research Question Type",
+            "Optimal Design",
+            "Alternative",
+            "Key Limitation"
+          ],
           "rows": [
-            ["Does intervention A cause outcome B?", "RCT", "Prospective cohort (if RCT not feasible)", "Ethical/practical constraints on randomisation"],
-            ["How common is condition X?", "Cross-sectional survey / registry", "Systematic review of prevalence studies", "Sampling bias, temporal validity"],
-            ["What predicts outcome Y?", "Prospective cohort", "Retrospective cohort (registry)", "Confounding by indication in observational studies"],
-            ["What causes rare disease?", "Case-control", "Nested case-control (large cohort)", "Recall bias, selection of controls"],
-            ["What is the evidence base?", "Systematic review + meta-analysis", "Narrative review (lower evidence)", "Publication bias, heterogeneity"],
-            ["What happens after new procedure?", "Case series with structured follow-up", "Registry-based audit", "No comparison group; hypothesis-generating only"]
+            [
+              "Does intervention A cause outcome B?",
+              "RCT",
+              "Prospective cohort (if RCT not feasible)",
+              "Ethical/practical constraints on randomisation"
+            ],
+            [
+              "How common is condition X?",
+              "Cross-sectional survey / registry",
+              "Systematic review of prevalence studies",
+              "Sampling bias, temporal validity"
+            ],
+            [
+              "What predicts outcome Y?",
+              "Prospective cohort",
+              "Retrospective cohort (registry)",
+              "Confounding by indication in observational studies"
+            ],
+            [
+              "What causes rare disease?",
+              "Case-control",
+              "Nested case-control (large cohort)",
+              "Recall bias, selection of controls"
+            ],
+            [
+              "What is the evidence base?",
+              "Systematic review + meta-analysis",
+              "Narrative review (lower evidence)",
+              "Publication bias, heterogeneity"
+            ],
+            [
+              "What happens after new procedure?",
+              "Case series with structured follow-up",
+              "Registry-based audit",
+              "No comparison group; hypothesis-generating only"
+            ]
           ]
         },
         {
@@ -256,14 +341,42 @@
         {
           "type": "table",
           "title": "Declaration of Helsinki — Key Principles for Surgical Research",
-          "headers": ["Principle", "Content", "Surgical Application"],
+          "headers": [
+            "Principle",
+            "Content",
+            "Surgical Application"
+          ],
           "rows": [
-            ["Paragraph 13 — REC approval", "Independent ethics committee must approve all protocols before initiation", "Institutional review board (IRB) or REC approval required before first enrolment"],
-            ["Paragraph 25 — Informed consent", "Free, informed, documented consent from competent participants", "Patient must understand both arms of the RCT including risks of each"],
-            ["Paragraph 26 — Vulnerable populations", "Special protections for incapacitated, emergency, paediatric populations", "Emergency surgical research requires prospective ethics waiver and proxy consent procedures"],
-            ["Paragraph 27 — Surrogate consent", "Legal representative may consent for incapacitated participant if ethics approved", "Emergency laparotomy trial — assent from next of kin with deferred consent from patient"],
-            ["Paragraph 34 — Negative results", "Authors, editors, sponsors have obligation to publish all results", "Negative surgical RCT results must be published, not suppressed"],
-            ["Paragraph 35 — Post-trial access", "Participants should have access to beneficial intervention after trial completion", "Investigational surgical technique available to control arm if proven superior"]
+            [
+              "Paragraph 13 — REC approval",
+              "Independent ethics committee must approve all protocols before initiation",
+              "Institutional review board (IRB) or REC approval required before first enrolment"
+            ],
+            [
+              "Paragraph 25 — Informed consent",
+              "Free, informed, documented consent from competent participants",
+              "Patient must understand both arms of the RCT including risks of each"
+            ],
+            [
+              "Paragraph 26 — Vulnerable populations",
+              "Special protections for incapacitated, emergency, paediatric populations",
+              "Emergency surgical research requires prospective ethics waiver and proxy consent procedures"
+            ],
+            [
+              "Paragraph 27 — Surrogate consent",
+              "Legal representative may consent for incapacitated participant if ethics approved",
+              "Emergency laparotomy trial — assent from next of kin with deferred consent from patient"
+            ],
+            [
+              "Paragraph 34 — Negative results",
+              "Authors, editors, sponsors have obligation to publish all results",
+              "Negative surgical RCT results must be published, not suppressed"
+            ],
+            [
+              "Paragraph 35 — Post-trial access",
+              "Participants should have access to beneficial intervention after trial completion",
+              "Investigational surgical technique available to control arm if proven superior"
+            ]
           ]
         },
         {
@@ -295,15 +408,55 @@
         {
           "type": "table",
           "title": "Major Surgical Research Funding Bodies",
-          "headers": ["Funder", "Country", "Typical Programme", "Focus Area"],
+          "headers": [
+            "Funder",
+            "Country",
+            "Typical Programme",
+            "Focus Area"
+          ],
           "rows": [
-            ["NIHR (National Institute for Health and Care Research)", "UK", "HTA, EME, HS&DR, Research for Patient Benefit", "Pragmatic clinical trials; health technology assessment; implementation"],
-            ["MRC (Medical Research Council)", "UK", "MRC Clinical Trials; MRC/NIHR EME Programme", "Discovery science; methodological development; early-phase trials"],
-            ["NIH (National Institutes of Health)", "USA", "R01 (independent investigator); R21 (exploratory); K-series (career development)", "Broad biomedical research; basic science to clinical translation"],
-            ["ASCO (American Society of Clinical Oncology)", "USA", "ASCO Young Investigator Award; ASCO Career Development Award", "Oncology-focused clinical and translational research"],
-            ["European Research Council (ERC)", "Europe", "ERC Starting Grant; ERC Consolidator Grant", "Frontier research; basic and applied science"],
-            ["Wellcome Trust", "UK/International", "Wellcome Clinical Research Career Development Fellowship; Investigator Awards", "Translational research; global health; mental health"],
-            ["ESMO / EORTC", "Europe", "EORTC clinical trials; ESMO research grants", "European oncology trials; cancer research"]
+            [
+              "NIHR (National Institute for Health and Care Research)",
+              "UK",
+              "HTA, EME, HS&DR, Research for Patient Benefit",
+              "Pragmatic clinical trials; health technology assessment; implementation"
+            ],
+            [
+              "MRC (Medical Research Council)",
+              "UK",
+              "MRC Clinical Trials; MRC/NIHR EME Programme",
+              "Discovery science; methodological development; early-phase trials"
+            ],
+            [
+              "NIH (National Institutes of Health)",
+              "USA",
+              "R01 (independent investigator); R21 (exploratory); K-series (career development)",
+              "Broad biomedical research; basic science to clinical translation"
+            ],
+            [
+              "ASCO (American Society of Clinical Oncology)",
+              "USA",
+              "ASCO Young Investigator Award; ASCO Career Development Award",
+              "Oncology-focused clinical and translational research"
+            ],
+            [
+              "European Research Council (ERC)",
+              "Europe",
+              "ERC Starting Grant; ERC Consolidator Grant",
+              "Frontier research; basic and applied science"
+            ],
+            [
+              "Wellcome Trust",
+              "UK/International",
+              "Wellcome Clinical Research Career Development Fellowship; Investigator Awards",
+              "Translational research; global health; mental health"
+            ],
+            [
+              "ESMO / EORTC",
+              "Europe",
+              "EORTC clinical trials; ESMO research grants",
+              "European oncology trials; cancer research"
+            ]
           ]
         },
         {
@@ -335,14 +488,49 @@
         {
           "type": "table",
           "title": "Forms of Research Misconduct — Definitions and Consequences",
-          "headers": ["Category", "Definition", "Surgical Example", "Consequence"],
+          "headers": [
+            "Category",
+            "Definition",
+            "Surgical Example",
+            "Consequence"
+          ],
           "rows": [
-            ["Fabrication", "Inventing data that were not collected", "Reporting operative times for procedures not actually performed in the stated protocol", "Retraction; dismissal; research funding ban; GMC referral"],
-            ["Falsification", "Manipulating or selectively altering data", "Removing outlier anastomotic leak cases from database to achieve p<0.05", "Retraction; institutional investigation; may constitute fraud"],
-            ["Plagiarism", "Using others' work without attribution", "Copying a methods section from a prior paper without citation", "Retraction of article; copyright infringement; career damage"],
-            ["Duplicate publication", "Publishing the same data in multiple journals", "Submitting the same case series to two journals simultaneously", "Retraction; journal blacklisting; editor alerts"],
-            ["Authorship misconduct", "Gift, ghost, or guest authorship", "Adding department chief as co-author who had no study involvement", "Journal sanctions; institutional policy violation"],
-            ["Image manipulation", "Altering histological or Western blot images", "Artificially enhancing contrast on pathology images", "Retraction; may be classified as fabrication"]
+            [
+              "Fabrication",
+              "Inventing data that were not collected",
+              "Reporting operative times for procedures not actually performed in the stated protocol",
+              "Retraction; dismissal; research funding ban; GMC referral"
+            ],
+            [
+              "Falsification",
+              "Manipulating or selectively altering data",
+              "Removing outlier anastomotic leak cases from database to achieve p<0.05",
+              "Retraction; institutional investigation; may constitute fraud"
+            ],
+            [
+              "Plagiarism",
+              "Using others' work without attribution",
+              "Copying a methods section from a prior paper without citation",
+              "Retraction of article; copyright infringement; career damage"
+            ],
+            [
+              "Duplicate publication",
+              "Publishing the same data in multiple journals",
+              "Submitting the same case series to two journals simultaneously",
+              "Retraction; journal blacklisting; editor alerts"
+            ],
+            [
+              "Authorship misconduct",
+              "Gift, ghost, or guest authorship",
+              "Adding department chief as co-author who had no study involvement",
+              "Journal sanctions; institutional policy violation"
+            ],
+            [
+              "Image manipulation",
+              "Altering histological or Western blot images",
+              "Artificially enhancing contrast on pathology images",
+              "Retraction; may be classified as fabrication"
+            ]
           ]
         },
         {
@@ -386,15 +574,55 @@
         {
           "type": "table",
           "title": "Open Science Practices — Practical Implementation",
-          "headers": ["Practice", "Tool/Platform", "Requirement Level", "Benefit"],
+          "headers": [
+            "Practice",
+            "Tool/Platform",
+            "Requirement Level",
+            "Benefit"
+          ],
           "rows": [
-            ["Trial registration", "ClinicalTrials.gov; ISRCTN", "Mandatory for RCTs (ICMJE)", "Prevents HARKing; enables systematic reviews"],
-            ["Protocol pre-registration", "OSF; PROSPERO (for systematic reviews)", "Best practice for observational studies", "Time-stamps hypothesis; reduces publication bias"],
-            ["Statistical Analysis Plan (SAP)", "Published in trial registry or as protocol paper", "Required by CONSORT, STROBE", "Prevents p-hacking; enables replication"],
-            ["Open access publication", "PubMed Central; institutional repositories; hybrid journals", "Mandated by NIH, NIHR, Wellcome", "Maximises readership and impact"],
-            ["Data sharing", "UK Data Service; Harvard Dataverse; Zenodo; XNAT", "Mandatory for NIH/NIHR funded research", "Enables replication; increases citation rate"],
-            ["Code sharing", "GitHub; OSF; Zenodo", "Increasingly required by journals", "Enables computational reproducibility"],
-            ["Registered reports", "Journals offering Registered Report format", "Voluntary; guarantees publication pre-data", "Eliminates publication bias for small studies"]
+            [
+              "Trial registration",
+              "ClinicalTrials.gov; ISRCTN",
+              "Mandatory for RCTs (ICMJE)",
+              "Prevents HARKing; enables systematic reviews"
+            ],
+            [
+              "Protocol pre-registration",
+              "OSF; PROSPERO (for systematic reviews)",
+              "Best practice for observational studies",
+              "Time-stamps hypothesis; reduces publication bias"
+            ],
+            [
+              "Statistical Analysis Plan (SAP)",
+              "Published in trial registry or as protocol paper",
+              "Required by CONSORT, STROBE",
+              "Prevents p-hacking; enables replication"
+            ],
+            [
+              "Open access publication",
+              "PubMed Central; institutional repositories; hybrid journals",
+              "Mandated by NIH, NIHR, Wellcome",
+              "Maximises readership and impact"
+            ],
+            [
+              "Data sharing",
+              "UK Data Service; Harvard Dataverse; Zenodo; XNAT",
+              "Mandatory for NIH/NIHR funded research",
+              "Enables replication; increases citation rate"
+            ],
+            [
+              "Code sharing",
+              "GitHub; OSF; Zenodo",
+              "Increasingly required by journals",
+              "Enables computational reproducibility"
+            ],
+            [
+              "Registered reports",
+              "Journals offering Registered Report format",
+              "Voluntary; guarantees publication pre-data",
+              "Eliminates publication bias for small studies"
+            ]
           ]
         },
         {
@@ -416,17 +644,57 @@
         {
           "type": "table",
           "title": "Surgical Research Team — Roles and Responsibilities",
-          "headers": ["Role", "Responsibilities", "When Essential"],
+          "headers": [
+            "Role",
+            "Responsibilities",
+            "When Essential"
+          ],
           "rows": [
-            ["Chief Investigator (CI)", "Overall scientific and regulatory accountability; grant holder; lead author", "All funded studies; multicentre trials"],
-            ["Principal Investigator (PI)", "Site-level accountability; GCP responsibility; local recruitment", "Each participating centre in multicentre study"],
-            ["Biostatistician", "Sample size; statistical analysis plan; analysis; reporting", "All quantitative studies (mandatory for grants)"],
-            ["Trial Manager / Research Nurse", "Day-to-day protocol delivery; consent; data collection; adverse event reporting", "All RCTs; complex prospective studies"],
-            ["Data Manager", "Database design; data quality; data governance; linkage", "Large studies; studies using electronic records"],
-            ["Health Economist", "Cost-effectiveness analysis; HTA submissions; budget impact modelling", "NIHR HTA studies; trials with economic endpoint"],
-            ["Qualitative Researcher", "Process evaluation; patient experience; implementation research", "Complex interventions; mixed-methods studies"],
-            ["Patient and Public Involvement (PPI) Representative", "Co-design of research question; outcome selection; trial materials; dissemination", "All NIHR-funded research (mandatory)"],
-            ["Sponsor Representative", "Regulatory oversight; insurance; GCP monitoring", "All CTIMPs; NHS-sponsored studies"]
+            [
+              "Chief Investigator (CI)",
+              "Overall scientific and regulatory accountability; grant holder; lead author",
+              "All funded studies; multicentre trials"
+            ],
+            [
+              "Principal Investigator (PI)",
+              "Site-level accountability; GCP responsibility; local recruitment",
+              "Each participating centre in multicentre study"
+            ],
+            [
+              "Biostatistician",
+              "Sample size; statistical analysis plan; analysis; reporting",
+              "All quantitative studies (mandatory for grants)"
+            ],
+            [
+              "Trial Manager / Research Nurse",
+              "Day-to-day protocol delivery; consent; data collection; adverse event reporting",
+              "All RCTs; complex prospective studies"
+            ],
+            [
+              "Data Manager",
+              "Database design; data quality; data governance; linkage",
+              "Large studies; studies using electronic records"
+            ],
+            [
+              "Health Economist",
+              "Cost-effectiveness analysis; HTA submissions; budget impact modelling",
+              "NIHR HTA studies; trials with economic endpoint"
+            ],
+            [
+              "Qualitative Researcher",
+              "Process evaluation; patient experience; implementation research",
+              "Complex interventions; mixed-methods studies"
+            ],
+            [
+              "Patient and Public Involvement (PPI) Representative",
+              "Co-design of research question; outcome selection; trial materials; dissemination",
+              "All NIHR-funded research (mandatory)"
+            ],
+            [
+              "Sponsor Representative",
+              "Regulatory oversight; insurance; GCP monitoring",
+              "All CTIMPs; NHS-sponsored studies"
+            ]
           ]
         },
         {
@@ -475,7 +743,8 @@
           "guideline": "ICH E6 GCP guidelines — clinical equipoise as prerequisite for RCT conduct",
           "trial": "Elia M et al. (Cochrane 2019): systematic review of nutritional supplements and surgical outcomes — individual nutrients alone have not shown consistent benefit in adequately nourished patients.",
           "pearl": "Every research question must pass FINER before study design begins. A single failing criterion — especially Ethics — is sufficient to abandon or fundamentally redesign the study."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C1-Q2",
@@ -497,7 +766,8 @@
           "guideline": "EQUATOR Network — reporting guidelines emphasise prospective hypothesis specification and full disclosure of exploratory vs confirmatory analyses",
           "trial": "Chan AW et al. (JAMA 2004): 62% of RCTs had primary outcome discrepancies between registration and publication — HARKing and outcome switching are widespread.",
           "pearl": "The solution to HARKing is prospective registration. Register your study with a pre-specified primary outcome on ClinicalTrials.gov before any data collection begins."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C1-Q3",
@@ -519,7 +789,8 @@
           "guideline": "Hulley SB et al. Designing Clinical Research, 4th ed. — Chapter 5: Hypotheses",
           "trial": "COLOR Trial (Veldkamp, Lancet Oncology 2005): primary outcome was SSI and overall morbidity — correctly pre-specified null hypothesis enabled definitive conclusion.",
           "pearl": "Every study has exactly one null hypothesis corresponding to the primary outcome. The null hypothesis is never 'there is a difference' — that is always the alternative."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C1-Q4",
@@ -541,7 +812,8 @@
           "guideline": "Richardson WS et al. JAMA 1995 — original PICO formulation for evidence-based medicine practice",
           "trial": "Cochrane Review: laparoscopic vs open appendicectomy in adults — 85 RCTs, 9,765 patients. This meta-analysis was findable because studies used consistent PICO framing.",
           "pearl": "A well-formed PICO can be directly entered as a search string into MEDLINE. If it yields zero relevant results, it may be too narrow. If 10,000+, too broad."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C1-Q5",
@@ -563,7 +835,8 @@
           "guideline": "CONSORT 2010 — subgroup analyses must be pre-specified with statistical analysis plan and tested with interaction terms",
           "trial": "ISIS-2 (Lancet 1988) — aspirin was ineffective in patients born under Gemini or Libra in an unplanned subgroup. Illustrates the absurdity of unplanned subgroup analyses.",
           "pearl": "The key question for any subgroup analysis is: was it pre-specified? If yes, treat with reasonable confidence. If no (post-hoc), treat as hypothesis-generating only."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C1-Q6",
@@ -585,7 +858,8 @@
           "guideline": "Declaration of Helsinki 2013 — Paragraph 23: Independent Ethics Committee approval mandatory before study initiation",
           "trial": "EORTC trials — all require independent IRB/REC approval at each participating centre before any patients are enrolled at that site.",
           "pearl": "No patient should be approached for research participation, and no research procedure should be performed, before REC approval is in place. Commencing a trial before ethics approval is research misconduct."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C1-Q7",
@@ -607,7 +881,8 @@
           "guideline": "ICH E6(R2) Good Clinical Practice Consolidated Guideline 2016 — foundational document for all clinical trial conduct",
           "trial": "NIHR Clinical Research Network requires GCP certification for all staff involved in adopted portfolio studies, including surgical trials.",
           "pearl": "GCP training must be renewed every 2 years in most NHS institutions. It is a prerequisite for being named as an investigator on any funded clinical trial."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C1-Q8",
@@ -629,7 +904,8 @@
           "guideline": "Declaration of Helsinki Paragraph 27 — deferred consent; EU Clinical Trials Regulation 536/2014 — emergency consent procedures",
           "trial": "CRASH-2 (Lancet 2010) — enrolled >20,000 trauma patients using deferred consent across 40 countries; reduced mortality by 9%; ethical framework approved by ethics committees in all participating countries.",
           "pearl": "Deferred consent requires pre-approval of the specific procedure by the ethics committee — it is not a general waiver. The consent process after recovery must be documented in the research record."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C1-Q9",
@@ -651,7 +927,8 @@
           "guideline": "UK HRA guidance — 'Is my study research?' decision tool; GDPR Article 9 — special category health data; Common Rule 45 CFR 46.104 — exempt categories",
           "trial": "Swaminathan et al. (BJS 2020): UK-wide retrospective NBOCA analysis used HES-NBOCA linked data under Section 251 approval — required NHS Digital Data Access Request Committee approval, not individual consent.",
           "pearl": "When in doubt about ethical requirements for retrospective data use, consult your institutional R&D office BEFORE starting the study. Post-hoc ethics applications are not generally accepted and may prevent publication."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C1-Q10",
@@ -673,7 +950,8 @@
           "guideline": "ICMJE Uniform Requirements — conflict of interest disclosure; COPE guidance on conflicts of interest in peer review and publication",
           "trial": "Lundh A et al. (BMJ 2017): industry-funded trials show systematically more favourable results — demonstrates why financial conflict disclosure is essential for evidence interpretation.",
           "pearl": "When in doubt about whether something constitutes a conflict of interest, declare it. Undisclosed conflicts, when subsequently discovered, result in journal corrections or retractions. Disclosure does not prevent publication — concealment does."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C1-Q11",
@@ -695,7 +973,8 @@
           "guideline": "CONSORT 2010 Item 6a — outcomes must be reported exactly as pre-specified; Chan AW et al. JAMA 2004 — outcome switching prevalence in registered RCTs",
           "trial": "ReACT trial example: TAILORx (NEJM 2018) pre-specified its primary endpoint (recurrence score threshold) precisely before analysis — contrasts with unacceptable post-hoc switching.",
           "pearl": "Always compare a published trial's primary outcome against its registry entry. If they differ without explanation, treat the study's primary finding with suspicion."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C1-Q12",
@@ -717,7 +996,8 @@
           "guideline": "COREQ (Consolidated Criteria for Reporting Qualitative Research) — 32-item checklist for reporting qualitative surgical studies",
           "trial": "Blazeby JM et al. series on qualitative research in surgical oncology — established the role of qualitative methods in understanding surgical decision-making and patient experience.",
           "pearl": "In surgical mixed-methods research, qualitative work typically runs alongside or after a quantitative trial to understand implementation, patient experience, and surgeon behaviour — this is the process evaluation component of complex intervention trials."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C1-Q13",
@@ -739,7 +1019,8 @@
           "guideline": "STROBE 2007 — reporting checklist for observational studies distinguishes prospective from retrospective and requires transparent reporting of data source quality",
           "trial": "Bevan V et al. (Lancet Oncology 2019): prospective NBOCA data enabled valid national outcomes comparison precisely because data collection was prospective within the registry framework.",
           "pearl": "'Retrospective' and 'poor quality' are not synonyms. Ask: (1) Were variables pre-defined before outcome occurred (in the registry)? (2) How complete is data capture? (3) Was outcome assessment standardised? A prospectively collected national registry is far superior to a retrospective single-centre chart review."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C1-Q14",
@@ -761,7 +1042,8 @@
           "guideline": "Freedman B. 'Equipoise and the ethics of clinical research.' NEJM 1987 — foundational paper on collective equipoise as the ethical standard",
           "trial": "TIPP Trial (laparoscopic vs open inguinal hernia repair): conducted with genuine community equipoise despite individual surgeon preferences — found both approaches equivalent in most outcomes.",
           "pearl": "Community equipoise — genuine uncertainty in the broader expert community — is the ethical standard for RCTs, not individual surgeon equipoise. Document the community uncertainty with a systematic literature review."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C1-Q15",
@@ -783,7 +1065,8 @@
           "guideline": "Teare et al. 'Sample size requirements to estimate key design parameters from external pilot randomised controlled trials.' Trials 2014; NIHR guidance on feasibility and pilot studies",
           "trial": "ELECTRIC feasibility trial preceded the full ELECTRIC RCT of electrical stimulation for post-operative ileus — demonstrated 68% recruitment rate and informed the full sample size calculation.",
           "pearl": "Do not test the primary research hypothesis in a feasibility study and report the p-value. This is a fundamental misuse of feasibility data. Report recruitment rate, consent rate, retention, and protocol adherence instead."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C1-Q16",
@@ -805,7 +1088,8 @@
           "guideline": "Prentice RL. Surrogate endpoints in clinical trials. Stat Med 1989 — original criteria for surrogate validity; FDA guidance on surrogate endpoints",
           "trial": "SWOG S0205 (gefitinib in lung cancer) — showed improved EGFR response (surrogate) but no survival benefit — illustrates the danger of unvalidated surrogates as primary endpoints.",
           "pearl": "Before using a surrogate as a primary endpoint, ask: 'Is there a systematic review or meta-analysis showing that treatment effects on this surrogate predict treatment effects on the patient-centred outcome?' If not, use a clinical outcome."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C1-Q17",
@@ -827,7 +1111,8 @@
           "guideline": "COMET Initiative (Core Outcome Measures in Effectiveness Trials) — methodology for developing core outcome sets using Delphi consensus; GRAPPA guidance",
           "trial": "Rahbari NN et al. (Ann Surg 2010) — international Delphi study established the International Study Group of Rectal Surgery definition of anastomotic leak, now used in >100 published trials.",
           "pearl": "A well-conducted Delphi study producing a standardised outcome or variable definition is a highly citable contribution to the field — it enables future meta-analyses by providing a common language across studies."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C1-Q18",
@@ -849,7 +1134,8 @@
           "guideline": "ICMJE Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals — authorship criteria (2023 update)",
           "trial": "McNutt M et al. (Science 2018): analysis of authorship practices — gift and ghost authorship remain prevalent in surgical journals despite ICMJE guidance.",
           "pearl": "Before submitting any manuscript, verify that every listed author genuinely satisfies all four ICMJE criteria. As first author, you are responsible for ensuring this — undisclosed gift authorship discovered post-publication reflects on all named authors."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C1-Q19",
@@ -872,7 +1158,8 @@
           "guideline": "RECORD Statement 2015 — reporting standards for observational studies using routinely collected data; OSBORNE open science framework for observational research",
           "trial": "Hippisley-Cox J et al. (BMJ QResearch studies) — routinely publish Stata analysis code alongside papers using CPRD/HES data, enabling independent replication.",
           "pearl": "Even when you cannot share the raw data (due to governance restrictions), sharing the analysis code and a synthetic data example is a meaningful contribution to reproducibility."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C1-Q20",
@@ -894,7 +1181,8 @@
           "guideline": "UKRIO Code of Practice for Research 2019 — institutional responsibilities for investigation; GMC Good Medical Practice 2013 Para 71 — honesty in research reporting",
           "trial": "Stapel affair (psychology, 2011) — case study in research misconduct investigation process: initial concern raised by junior researchers to institutional committee led to full investigation and >50 retractions.",
           "pearl": "Whistleblowing in research is protected in the UK under the Public Interest Disclosure Act 1998. You cannot be legitimately dismissed or penalised for raising a genuine concern about research misconduct through proper channels."
-        }
+        },
+        "difficulty": 2
       }
     ]
   }

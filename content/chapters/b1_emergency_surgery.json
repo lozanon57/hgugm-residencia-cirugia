@@ -34,12 +34,37 @@
         {
           "type": "table",
           "title": "WSES Classification — Acute Appendicitis",
-          "headers": ["Grade", "Pathology", "CT Findings", "Management"],
+          "headers": [
+            "Grade",
+            "Pathology",
+            "CT Findings",
+            "Management"
+          ],
           "rows": [
-            ["WSES I (uncomplicated)", "Acute non-perforated appendicitis", "Enlarged appendix, periappendiceal fat stranding, no perforation", "Laparoscopic appendicectomy (or antibiotics alone in selected pts)"],
-            ["WSES II (complicated)", "Perforated appendicitis, local peritonitis", "Perforation, localised free fluid, no abscess", "Emergency laparoscopic appendicectomy"],
-            ["WSES III (complicated)", "Periappendiceal abscess", "Walled-off collection >3cm", "Non-operative: IV antibiotics + CT-guided drainage; interval appendicectomy optional"],
-            ["WSES IV (complicated)", "Diffuse peritonitis", "Free intraperitoneal fluid and air, diffuse contamination", "Emergency surgery — laparoscopic or open; peritoneal toilet"]
+            [
+              "WSES I (uncomplicated)",
+              "Acute non-perforated appendicitis",
+              "Enlarged appendix, periappendiceal fat stranding, no perforation",
+              "Laparoscopic appendicectomy (or antibiotics alone in selected pts)"
+            ],
+            [
+              "WSES II (complicated)",
+              "Perforated appendicitis, local peritonitis",
+              "Perforation, localised free fluid, no abscess",
+              "Emergency laparoscopic appendicectomy"
+            ],
+            [
+              "WSES III (complicated)",
+              "Periappendiceal abscess",
+              "Walled-off collection >3cm",
+              "Non-operative: IV antibiotics + CT-guided drainage; interval appendicectomy optional"
+            ],
+            [
+              "WSES IV (complicated)",
+              "Diffuse peritonitis",
+              "Free intraperitoneal fluid and air, diffuse contamination",
+              "Emergency surgery — laparoscopic or open; peritoneal toilet"
+            ]
           ]
         },
         {
@@ -67,13 +92,37 @@
         {
           "type": "table",
           "title": "Operative vs Non-Operative Management — Perforated Peptic Ulcer",
-          "headers": ["Factor", "Favours Surgery", "Favours Non-operative (Taylor)"],
+          "headers": [
+            "Factor",
+            "Favours Surgery",
+            "Favours Non-operative (Taylor)"
+          ],
           "rows": [
-            ["Clinical status", "Peritonitis, septic shock", "Stable; sealed perforation on CT"],
-            ["CT findings", "Large perforation, free fluid", "No free fluid; contained perforation"],
-            ["Duration", "Any (peritonitis)", "<24h from onset; no peritonitis"],
-            ["Age/comorbidity", "Any age with peritonitis", "High surgical risk; no peritonitis"],
-            ["Response to resuscitation", "Non-responder", "Rapid improvement with IV fluids/antibiotics"]
+            [
+              "Clinical status",
+              "Peritonitis, septic shock",
+              "Stable; sealed perforation on CT"
+            ],
+            [
+              "CT findings",
+              "Large perforation, free fluid",
+              "No free fluid; contained perforation"
+            ],
+            [
+              "Duration",
+              "Any (peritonitis)",
+              "<24h from onset; no peritonitis"
+            ],
+            [
+              "Age/comorbidity",
+              "Any age with peritonitis",
+              "High surgical risk; no peritonitis"
+            ],
+            [
+              "Response to resuscitation",
+              "Non-responder",
+              "Rapid improvement with IV fluids/antibiotics"
+            ]
           ]
         },
         {
@@ -117,11 +166,31 @@
         {
           "type": "table",
           "title": "Damage Control Surgery — Three Phases",
-          "headers": ["Phase", "Timing", "Goal", "Key Actions"],
+          "headers": [
+            "Phase",
+            "Timing",
+            "Goal",
+            "Key Actions"
+          ],
           "rows": [
-            ["Phase 1 — Abbreviated surgery", "Intraoperative", "Survival: stop bleeding, stop contamination", "Packing, vascular shunts, staple bowel, TAC, leave abdomen open"],
-            ["Phase 2 — ICU resuscitation", "Hours to days", "Correct lethal triad", "Correct hypothermia, acidosis, coagulopathy; massive transfusion protocol; vasopressors"],
-            ["Phase 3 — Definitive surgery", "24–48h after physiology corrected", "Restore anatomy", "Remove packs, bowel anastomosis, fascial closure, washout"]
+            [
+              "Phase 1 — Abbreviated surgery",
+              "Intraoperative",
+              "Survival: stop bleeding, stop contamination",
+              "Packing, vascular shunts, staple bowel, TAC, leave abdomen open"
+            ],
+            [
+              "Phase 2 — ICU resuscitation",
+              "Hours to days",
+              "Correct lethal triad",
+              "Correct hypothermia, acidosis, coagulopathy; massive transfusion protocol; vasopressors"
+            ],
+            [
+              "Phase 3 — Definitive surgery",
+              "24–48h after physiology corrected",
+              "Restore anatomy",
+              "Remove packs, bowel anastomosis, fascial closure, washout"
+            ]
           ]
         },
         {
@@ -143,13 +212,43 @@
         {
           "type": "table",
           "title": "WSES Classification — Acute Diverticulitis",
-          "headers": ["Grade", "Hinchey", "Description", "Management"],
+          "headers": [
+            "Grade",
+            "Hinchey",
+            "Description",
+            "Management"
+          ],
           "rows": [
-            ["WSES Ia (uncomplicated)", "0", "Mild clinical diverticulitis; CT: pericolic fat stranding only", "Outpatient; oral antibiotics or observation"],
-            ["WSES Ib (uncomplicated)", "0", "Moderate diverticulitis; CT: pericolic fat stranding + wall thickening", "Oral antibiotics; outpatient if tolerating PO"],
-            ["WSES II (complicated)", "Ia/Ib", "Pericolic/mesocolic abscess <4cm or >4cm", "IV antibiotics; CT-guided drainage if >4cm"],
-            ["WSES III (complicated)", "II", "Purulent peritonitis — perforated diverticulitis with generalised peritoneum", "Emergency surgery — laparoscopic lavage OR resection"],
-            ["WSES IV (complicated)", "III/IV", "Faecal peritonitis — free perforation", "Emergency surgery — Hartmann's procedure or primary anastomosis with loop ileostomy"]
+            [
+              "WSES Ia (uncomplicated)",
+              "0",
+              "Mild clinical diverticulitis; CT: pericolic fat stranding only",
+              "Outpatient; oral antibiotics or observation"
+            ],
+            [
+              "WSES Ib (uncomplicated)",
+              "0",
+              "Moderate diverticulitis; CT: pericolic fat stranding + wall thickening",
+              "Oral antibiotics; outpatient if tolerating PO"
+            ],
+            [
+              "WSES II (complicated)",
+              "Ia/Ib",
+              "Pericolic/mesocolic abscess <4cm or >4cm",
+              "IV antibiotics; CT-guided drainage if >4cm"
+            ],
+            [
+              "WSES III (complicated)",
+              "II",
+              "Purulent peritonitis — perforated diverticulitis with generalised peritoneum",
+              "Emergency surgery — laparoscopic lavage OR resection"
+            ],
+            [
+              "WSES IV (complicated)",
+              "III/IV",
+              "Faecal peritonitis — free perforation",
+              "Emergency surgery — Hartmann's procedure or primary anastomosis with loop ileostomy"
+            ]
           ]
         },
         {
@@ -186,12 +285,37 @@
         {
           "type": "table",
           "title": "LGIB Management Algorithm",
-          "headers": ["Patient Status", "Initial Step", "Definitive Investigation", "Intervention"],
+          "headers": [
+            "Patient Status",
+            "Initial Step",
+            "Definitive Investigation",
+            "Intervention"
+          ],
           "rows": [
-            ["Haemodynamically stable, bleeding settled", "Resuscitate; outpatient if stable", "Elective colonoscopy within 24h", "Endoscopic haemostasis if source identified"],
-            ["Active bleeding, stable", "Resuscitate; IV access; transfuse if Hb<7", "CTA → colonoscopy OR angiography", "Endoscopic or angiographic embolisation"],
-            ["Active bleeding, unstable", "Massive resuscitation; consider ICU", "CTA → interventional radiology (embolisation)", "Superselective embolisation; surgery if failed"],
-            ["Refractory/recurrent, source unknown", "Multidisciplinary (IR + endoscopy + surgery)", "Tagged RBC scan; capsule endoscopy", "Surgery (segmental colectomy if localised; subtotal colectomy if diffuse)"]
+            [
+              "Haemodynamically stable, bleeding settled",
+              "Resuscitate; outpatient if stable",
+              "Elective colonoscopy within 24h",
+              "Endoscopic haemostasis if source identified"
+            ],
+            [
+              "Active bleeding, stable",
+              "Resuscitate; IV access; transfuse if Hb<7",
+              "CTA → colonoscopy OR angiography",
+              "Endoscopic or angiographic embolisation"
+            ],
+            [
+              "Active bleeding, unstable",
+              "Massive resuscitation; consider ICU",
+              "CTA → interventional radiology (embolisation)",
+              "Superselective embolisation; surgery if failed"
+            ],
+            [
+              "Refractory/recurrent, source unknown",
+              "Multidisciplinary (IR + endoscopy + surgery)",
+              "Tagged RBC scan; capsule endoscopy",
+              "Surgery (segmental colectomy if localised; subtotal colectomy if diffuse)"
+            ]
           ]
         },
         {
@@ -219,12 +343,37 @@
         {
           "type": "table",
           "title": "Acute Mesenteric Ischaemia — Aetiology and Management",
-          "headers": ["Aetiology", "Frequency", "CTA Finding", "Management"],
+          "headers": [
+            "Aetiology",
+            "Frequency",
+            "CTA Finding",
+            "Management"
+          ],
           "rows": [
-            ["SMA embolism", "50%", "Filling defect in SMA (often at jejunal branches origin)", "Emergency embolectomy (open or endovascular) + bowel assessment + anticoagulation"],
-            ["SMA thrombosis", "25%", "Occlusion at SMA origin; atherosclerotic plaque", "Surgical or endovascular revascularisation; often extensive bowel loss"],
-            ["NOMI", "20%", "Normal vessels; reduced flow; intestinal oedema", "ICU optimisation; vasodilators (papaverine); avoid vasopressors; avoid surgery unless perforation"],
-            ["Mesenteric venous thrombosis", "5%", "Portal/mesenteric vein filling defect", "Anticoagulation; surgery only for peritonitis; better prognosis"]
+            [
+              "SMA embolism",
+              "50%",
+              "Filling defect in SMA (often at jejunal branches origin)",
+              "Emergency embolectomy (open or endovascular) + bowel assessment + anticoagulation"
+            ],
+            [
+              "SMA thrombosis",
+              "25%",
+              "Occlusion at SMA origin; atherosclerotic plaque",
+              "Surgical or endovascular revascularisation; often extensive bowel loss"
+            ],
+            [
+              "NOMI",
+              "20%",
+              "Normal vessels; reduced flow; intestinal oedema",
+              "ICU optimisation; vasodilators (papaverine); avoid vasopressors; avoid surgery unless perforation"
+            ],
+            [
+              "Mesenteric venous thrombosis",
+              "5%",
+              "Portal/mesenteric vein filling defect",
+              "Anticoagulation; surgery only for peritonitis; better prognosis"
+            ]
           ]
         },
         {
@@ -252,11 +401,31 @@
         {
           "type": "table",
           "title": "Sigmoid Volvulus — Treatment Ladder",
-          "headers": ["Step", "Method", "Indication", "Success Rate"],
+          "headers": [
+            "Step",
+            "Method",
+            "Indication",
+            "Success Rate"
+          ],
           "rows": [
-            ["1st line", "Endoscopic decompression (flexible sigmoidoscopy + rectal tube)", "No peritonitis, no CT ischaemia", "60–90%"],
-            ["2nd line (same admission)", "Elective sigmoid colectomy with primary anastomosis", "After successful decompression", "Definitive; recurrence <5%"],
-            ["Emergency", "Hartmann's procedure or primary resection + anastomosis", "Peritonitis, ischaemia, perforation, failed decompression", "Required; Hartmann's preferred if contaminated"]
+            [
+              "1st line",
+              "Endoscopic decompression (flexible sigmoidoscopy + rectal tube)",
+              "No peritonitis, no CT ischaemia",
+              "60–90%"
+            ],
+            [
+              "2nd line (same admission)",
+              "Elective sigmoid colectomy with primary anastomosis",
+              "After successful decompression",
+              "Definitive; recurrence <5%"
+            ],
+            [
+              "Emergency",
+              "Hartmann's procedure or primary resection + anastomosis",
+              "Peritonitis, ischaemia, perforation, failed decompression",
+              "Required; Hartmann's preferred if contaminated"
+            ]
           ]
         },
         {
@@ -282,13 +451,43 @@
         {
           "type": "table",
           "title": "Antibiotic Regimens for Surgical Infections",
-          "headers": ["Infection Type", "Setting", "First-line Regimen", "Alternative"],
+          "headers": [
+            "Infection Type",
+            "Setting",
+            "First-line Regimen",
+            "Alternative"
+          ],
           "rows": [
-            ["Community-acquired intra-abdominal infection (mild-moderate)", "Non-ICU; no prior antibiotics", "Amoxicillin/clavulanate IV or ciprofloxacin + metronidazole", "Ertapenem (if penicillin allergy or ESBL risk)"],
-            ["Community-acquired intra-abdominal infection (severe/ICU)", "Septic shock; organ dysfunction", "Piperacillin/tazobactam or meropenem + antifungal cover", "Imipenem/cilastatin"],
-            ["Healthcare-associated/post-operative peritonitis", "Prior antibiotics; hospital flora", "Meropenem ± vancomycin (MRSA cover) ± anidulafungin (Candida)", "Consult microbiology"],
-            ["Cholangitis (Tokyo grade III)", "Biliary sepsis with organ failure", "Piperacillin/tazobactam or meropenem; biliary drainage within 24h", "Ciprofloxacin + metronidazole if mild"],
-            ["Necrotising fasciitis", "Skin/soft tissue emergency", "Meropenem + clindamycin (toxin inhibition) + vancomycin", "Piperacillin/tazobactam + clindamycin"]
+            [
+              "Community-acquired intra-abdominal infection (mild-moderate)",
+              "Non-ICU; no prior antibiotics",
+              "Amoxicillin/clavulanate IV or ciprofloxacin + metronidazole",
+              "Ertapenem (if penicillin allergy or ESBL risk)"
+            ],
+            [
+              "Community-acquired intra-abdominal infection (severe/ICU)",
+              "Septic shock; organ dysfunction",
+              "Piperacillin/tazobactam or meropenem + antifungal cover",
+              "Imipenem/cilastatin"
+            ],
+            [
+              "Healthcare-associated/post-operative peritonitis",
+              "Prior antibiotics; hospital flora",
+              "Meropenem ± vancomycin (MRSA cover) ± anidulafungin (Candida)",
+              "Consult microbiology"
+            ],
+            [
+              "Cholangitis (Tokyo grade III)",
+              "Biliary sepsis with organ failure",
+              "Piperacillin/tazobactam or meropenem; biliary drainage within 24h",
+              "Ciprofloxacin + metronidazole if mild"
+            ],
+            [
+              "Necrotising fasciitis",
+              "Skin/soft tissue emergency",
+              "Meropenem + clindamycin (toxin inhibition) + vancomycin",
+              "Piperacillin/tazobactam + clindamycin"
+            ]
           ]
         },
         {
@@ -329,7 +528,8 @@
           "guideline": "WSES Jerusalem Guidelines 2025 (JAMA Surgery, PMID 41604201) — both surgical and non-operative management appropriate for WSES I uncomplicated appendicitis across all patient populations; new 2025 edition replaces 2022",
           "trial": "APPAC trial (Salminen, JAMA 2015): antibiotics vs appendicectomy — 73% antibiotic success at 1 year; 27% required appendicectomy.",
           "pearl": "Document the shared decision-making conversation when offering non-operative management. The patient must understand the 30% recurrence risk and commit to follow-up."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "B1-Q2",
@@ -351,7 +551,8 @@
           "guideline": "WSES Guidelines on Acute Mesenteric Ischaemia 2020 — immediate anticoagulation + revascularisation (open or endovascular) for SMA embolism",
           "trial": "Ryer EJ et al., J Vasc Surg 2012: endovascular-first strategy for AMI associated with comparable mortality and shorter hospital stay vs open revascularisation in selected patients.",
           "pearl": "SMA embolism in AF patients: pain out of proportion + soft abdomen + elevated lactate = CTA immediately. Heparin and revascularisation without delay — every hour increases bowel loss."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B1-Q3",
@@ -373,7 +574,8 @@
           "guideline": "WSES Guidelines 2020 — WSES II (abscess >4cm): IV antibiotics + CT-guided drainage; elective resection after recovery recommended after complicated diverticulitis",
           "trial": "AVOD trial (Chabok, Br J Surg 2012): antibiotics are not superior to observation for uncomplicated diverticulitis — but complicated diverticulitis requires IV antibiotics.",
           "pearl": "WSES diverticulitis classification: WSES I = uncomplicated (pericolic fat stranding only); WSES II = abscess; WSES III = purulent peritonitis; WSES IV = faecal peritonitis. Abscess >4cm = drain it."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B1-Q4",
@@ -395,7 +597,8 @@
           "guideline": "WSES Guidelines 2020 — primary anastomosis + loop ileostomy preferred over Hartmann's in stable, non-immunocompromised patients with experienced surgeon",
           "trial": "LADIES trial (Vennix, Lancet 2019): no mortality difference; stoma reversal 94% PA+LI vs 57% Hartmann's (p<0.001).",
           "pearl": "Remember the three factors that favour primary anastomosis in perforated diverticulitis: (1) haemodynamic stability, (2) no immunosuppression, (3) experienced laparoscopic colorectal surgeon. All three must be present."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B1-Q5",
@@ -417,7 +620,8 @@
           "guideline": "ESGE Guideline 2021 — CTA recommended as first-line investigation for acute LGIB with haemodynamic compromise; guides angioembolisation",
           "trial": "Strate LL et al., Am J Gastroenterol 2015: CTA-guided angioembolisation achieves haemostasis in 70–90% of active LGIB, avoiding surgery in the majority.",
           "pearl": "In active LGIB with haemodynamic instability: (1) resuscitate, (2) exclude UGIB (NGT/upper endoscopy), (3) CTA to localise. Do not delay for bowel prep — CTA first, then angioembolisation or endoscopy."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B1-Q6",
@@ -439,7 +643,8 @@
           "guideline": "ESGE 2021 — elective surgical resection recommended after two episodes of significant diverticular bleeding with confirmed source localisation",
           "trial": "McGuire HH, Ann Surg 1994: recurrence rate after first diverticular bleed 25%; after second episode >50% — supports resection after second episode.",
           "pearl": "Right-sided diverticular bleeding: remember that 50–60% of diverticular bleeds originate from the right colon despite left-sided predominance of diverticulosis. Always localise before operating."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B1-Q7",
@@ -461,7 +666,8 @@
           "guideline": "ASMBS 2022 — post-RYGB patients with abdominal pain and CT whirl sign require emergency laparoscopy to exclude internal hernia",
           "trial": "Higa KD et al., Obes Surg 2006: internal hernia after RYGB occurs in 2–5%; fatal in untreated strangulation — emergency laparoscopy is required.",
           "pearl": "Post-RYGB + colicky pain + mesenteric swirl on CT + elevated lactate = emergency laparoscopy for internal hernia. Do not give Gastrografin challenge or observe — act immediately."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "B1-Q8",
@@ -483,7 +689,8 @@
           "guideline": "WSES Guidelines — sigmoid volvulus without ischaemia/perforation: endoscopic decompression first-line; followed by elective sigmoid colectomy during the same admission",
           "trial": "Raveenthiran V, Colorectal Dis 2015: systematic review — endoscopic decompression success 60–90%; recurrence 40–90% without subsequent surgery.",
           "pearl": "Coffee bean sign on AXR pointing to the RUQ = sigmoid volvulus. First-line = endoscopic decompression IF no ischaemia/perforation. Always plan elective sigmoid colectomy during the same admission after successful decompression."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B1-Q9",
@@ -505,7 +712,8 @@
           "guideline": "WSES Guidelines 2020 — Graham omental patch repair is standard of care for PPU; H. pylori eradication mandatory post-operatively",
           "trial": "Søreide K et al., Br J Surg 2015 meta-analysis: laparoscopic vs open Graham patch — equivalent leak rate; shorter hospital stay with laparoscopy.",
           "pearl": "Graham patch = omental patch + interrupted sutures over the perforation. Always culture the peritoneal fluid for H. pylori-directed therapy. Post-op: PPI + H. pylori eradication triple therapy."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B1-Q10",
@@ -527,7 +735,8 @@
           "guideline": "EAST Guidelines on Damage Control Surgery — lethal triad (pH<7.2, temp<35°C, INR>1.5) = absolute indication for DCS; abort and transfer to ICU",
           "trial": "Rotondo MF et al., J Trauma 1993 — original damage control concept: abbreviated surgery + ICU resuscitation + definitive repair reduced mortality from 92% to 58% in high-risk trauma patients.",
           "pearl": "The lethal triad (hypothermia, acidosis, coagulopathy) = stop, pack, close, ICU. Memorise the thresholds: temp <35°C, pH <7.2, INR >1.5. DCS Phase 3 at 24–48h when physiology corrected."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B1-Q11",
@@ -549,7 +758,8 @@
           "guideline": "ISREC classification — Grade B anastomotic leak: active intervention without reoperation (drainage, antibiotics, diversion) is appropriate for contained leaks in stable patients",
           "trial": "Hyman N et al., Ann Surg 2007: contained anastomotic leaks managed with CT drainage and antibiotics have 70% success rate avoiding reoperation.",
           "pearl": "Anastomotic leak classification: (A) asymptomatic/incidental, (B) symptomatic but not requiring reoperation, (C) requiring reoperation. Grade B = drain it; Grade C = operate. Always confirm haemodynamic stability before choosing drainage over surgery."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B1-Q12",
@@ -571,7 +781,8 @@
           "guideline": "IDSA Guidelines on Skin and Soft Tissue Infections 2014 — suspected necrotising fasciitis requires immediate surgical exploration and debridement",
           "trial": "Wong CH et al., J Am Coll Surg 2004: LRINEC score ≥6 has PPV 92% for necrotising fasciitis; immediate surgical exploration mandatory in high clinical suspicion regardless of score.",
           "pearl": "LRINEC score ≥6 + systemic sepsis + wound changes = theatre immediately for necrotising fasciitis. Do not delay for imaging. The 'finger test' at the wound is diagnostic — if the fascia dissects without resistance, NF is confirmed. Mortality increases 5% for every hour delay."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B1-Q13",
@@ -593,7 +804,8 @@
           "guideline": "Alvarado A, Ann Emerg Med 1986 — original MANTRELS scoring system: maximum 10 points; ≥7 = high probability; 4–6 = equivocal",
           "trial": "Ohle R et al., BMC Emerg Med 2011 systematic review: Alvarado score sensitivity 96%, specificity 58% — good for ruling out; CT required for equivocal scores 4–6.",
           "pearl": "Alvarado mnemonic: MANTRELS — Migration, Anorexia, Nausea/vomiting, Tenderness RIF, Rebound, Elevated temperature, Leukocytosis, Shift left (bands). Maximum 10. CRP is NOT included in the original score."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "B1-Q14",
@@ -615,7 +827,8 @@
           "guideline": "EAST Practice Management Guidelines for SBO 2013 — complete SBO without prior abdominal surgery is an indication for operative intervention",
           "trial": "Mak SY et al., J Am Coll Surg 2020: SBO without prior surgery — incarcerated hernia most common cause; all require operative exploration.",
           "pearl": "Gastrografin challenge is for adhesive SBO (prior surgery). For complete SBO without prior abdominal surgery, look for the cause (hernia, neoplasm, Crohn's) — operative management required. Always examine the groins."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B1-Q15",
@@ -637,7 +850,8 @@
           "guideline": "Tokyo Guidelines 2018 — Grade III cholangitis: IV antibiotics + urgent biliary drainage within 24h; ICU admission for haemodynamic support",
           "trial": "Kiriyama S et al., J Hepatobiliary Pancreat Sci 2018: Tokyo Grade III cholangitis mortality 7.4% with guideline-concordant drainage vs 18% with delayed drainage.",
           "pearl": "Tokyo Grade III cholangitis = any of: hypotension, altered consciousness, or respiratory failure with acute cholangitis. Drainage within 24h is mandatory — do not delay for further imaging beyond the minimum necessary."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B1-Q16",
@@ -659,7 +873,8 @@
           "guideline": "WSES/SIS Guidelines — gallstone ileus: enterolithotomy alone is first-line; cholecystectomy performed in a second stage if gallbladder symptoms persist",
           "trial": "Reisner RM, Pearl Diver 1994: enterolithotomy alone vs one-stage repair — equivalent recurrence rate; one-stage has higher peri-operative mortality in elderly.",
           "pearl": "Rigler triad (pneumobilia + ectopic gallstone + SBO) = gallstone ileus. Treatment: enterolithotomy at the point of impaction. Check for additional gallstones in the bowel (10–15% have multiple). Cholecystectomy deferred to elective setting."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B1-Q17",
@@ -681,7 +896,8 @@
           "guideline": "ASGE and ACG Guidelines — Ogilvie syndrome: neostigmine 2mg IV is first-line pharmacological treatment; colonoscopic decompression if neostigmine fails or is contraindicated",
           "trial": "Ponec RJ et al., NEJM 1999: neostigmine vs placebo for Ogilvie syndrome — 91% decompression with neostigmine vs 0% placebo (p<0.001).",
           "pearl": "Ogilvie syndrome = massive colonic dilatation without obstruction in hospitalised patients. Neostigmine 2mg IV = 90% effective. Thresholds: caecum >12cm = urgent decompression; >14cm = very high perforation risk. Colonoscopy if neostigmine fails."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B1-Q18",
@@ -703,7 +919,8 @@
           "guideline": "WSES Guidelines 2020 — controlled duodenal fistula after PPU repair: conservative management (NPO, TPN, octreotide, PPI, drain); ERCP for persistent high-output fistula",
           "trial": "Søreide K et al., World J Gastroenterol 2009: controlled duodenal fistula after patch repair — 85% close within 4–6 weeks with conservative management.",
           "pearl": "Post-PPU repair duodenal leak: if CONTAINED = controlled fistula management (drain in situ, NPO, TPN, PPI, octreotide). If UNCONTROLLED (free peritonitis) = re-operation. The drain converts a potentially lethal situation into a manageable controlled fistula — never remove it."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B1-Q19",
@@ -725,7 +942,8 @@
           "guideline": "WSES Guidelines — transmural colonic ischaemia: emergency resection required; Hartmann's procedure preferred in unstable patients",
           "trial": "Longo WE et al., Ann Surg 1992: post-cardiac surgery colon ischaemia — mortality 70% with conservative management vs 40% with early surgery for transmural disease.",
           "pearl": "Post-cardiac surgery + bloody diarrhoea + absent mucosal enhancement on CT + elevated lactate = transmural colonic ischaemia = emergency operation. Do not attempt colonoscopy or conservative management when transmural ischaemia is suspected — it risks perforation on scope insertion."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "B1-Q20",
@@ -747,7 +965,8 @@
           "guideline": "SAGES 2011 Guidelines — laparoscopy safe in all trimesters; MRI preferred over CT in pregnancy for appendicitis diagnosis",
           "trial": "Freeland M et al., Am J Surg 2009: MRI in pregnancy for suspected appendicitis — sensitivity 94%, specificity 97%; changed management in 50% of cases.",
           "pearl": "Pregnant patient + suspected appendicitis + non-diagnostic US = MRI (no gadolinium). If confirmed = laparoscopic appendicectomy regardless of trimester. Untreated perforation: 20–35% foetal mortality — operating risk is always lower than the risk of untreated perforated appendicitis in pregnancy."
-        }
+        },
+        "difficulty": 2
       }
     ]
   }

@@ -35,11 +35,31 @@
         {
           "type": "table",
           "title": "Groin Hernia Classification",
-          "headers": ["Type", "Position relative to epigastric vessels", "Defect Location", "Frequency"],
+          "headers": [
+            "Type",
+            "Position relative to epigastric vessels",
+            "Defect Location",
+            "Frequency"
+          ],
           "rows": [
-            ["Indirect inguinal", "Lateral to inferior epigastric vessels", "Through internal inguinal ring", "60% of groin hernias"],
-            ["Direct inguinal", "Medial to inferior epigastric vessels", "Hasselbach's triangle floor (transversalis fascia)", "25%"],
-            ["Femoral", "Below inguinal ligament, medial to femoral vein", "Femoral canal", "15%; highest strangulation risk"]
+            [
+              "Indirect inguinal",
+              "Lateral to inferior epigastric vessels",
+              "Through internal inguinal ring",
+              "60% of groin hernias"
+            ],
+            [
+              "Direct inguinal",
+              "Medial to inferior epigastric vessels",
+              "Hasselbach's triangle floor (transversalis fascia)",
+              "25%"
+            ],
+            [
+              "Femoral",
+              "Below inguinal ligament, medial to femoral vein",
+              "Femoral canal",
+              "15%; highest strangulation risk"
+            ]
           ]
         },
         {
@@ -63,12 +83,42 @@
         {
           "type": "table",
           "title": "Groin Hernia Repair — Technique Comparison",
-          "headers": ["Technique", "Approach", "Anaesthesia", "Best Indication", "Advantage"],
+          "headers": [
+            "Technique",
+            "Approach",
+            "Anaesthesia",
+            "Best Indication",
+            "Advantage"
+          ],
           "rows": [
-            ["Lichtenstein", "Open anterior", "LA/GA", "High-risk patient; local anaesthesia preference; recurrent after laparoscopic", "Lowest learning curve; LA option"],
-            ["TEP (totally extraperitoneal)", "Laparoscopic extraperitoneal", "GA", "Primary bilateral inguinal; unilateral with expertise", "No peritoneal entry; faster recovery"],
-            ["TAPP (transabdominal preperitoneal)", "Laparoscopic transperitoneal", "GA", "Recurrent hernia after open; unclear anatomy on TEP; prior pelvic surgery (relative contra-indication)", "Better visualisation; flexible"],
-            ["Shouldice", "Open tissue repair", "LA/GA", "Young patient without mesh preference; small direct hernia", "No mesh; good results in experienced hands"]
+            [
+              "Lichtenstein",
+              "Open anterior",
+              "LA/GA",
+              "High-risk patient; local anaesthesia preference; recurrent after laparoscopic",
+              "Lowest learning curve; LA option"
+            ],
+            [
+              "TEP (totally extraperitoneal)",
+              "Laparoscopic extraperitoneal",
+              "GA",
+              "Primary bilateral inguinal; unilateral with expertise",
+              "No peritoneal entry; faster recovery"
+            ],
+            [
+              "TAPP (transabdominal preperitoneal)",
+              "Laparoscopic transperitoneal",
+              "GA",
+              "Recurrent hernia after open; unclear anatomy on TEP; prior pelvic surgery (relative contra-indication)",
+              "Better visualisation; flexible"
+            ],
+            [
+              "Shouldice",
+              "Open tissue repair",
+              "LA/GA",
+              "Young patient without mesh preference; small direct hernia",
+              "No mesh; good results in experienced hands"
+            ]
           ]
         },
         {
@@ -94,16 +144,52 @@
         {
           "type": "table",
           "title": "TEP vs TAPP — Comparative Summary",
-          "headers": ["Feature", "TEP", "TAPP"],
+          "headers": [
+            "Feature",
+            "TEP",
+            "TAPP"
+          ],
           "rows": [
-            ["Peritoneal entry", "No", "Yes"],
-            ["Risk of visceral injury", "Lower", "Higher (bowel, bladder)"],
-            ["Risk of port site hernia", "Lower", "Higher"],
-            ["Visualisation", "More limited", "Better"],
-            ["Bilateral hernia repair", "Excellent — same working space", "Excellent"],
-            ["Prior infraumbilical surgery", "Relative contra-indication", "Preferred"],
-            ["Learning curve", "Longer", "Shorter"],
-            ["Preferred recurrent after open", "Yes", "Yes (either acceptable)"]
+            [
+              "Peritoneal entry",
+              "No",
+              "Yes"
+            ],
+            [
+              "Risk of visceral injury",
+              "Lower",
+              "Higher (bowel, bladder)"
+            ],
+            [
+              "Risk of port site hernia",
+              "Lower",
+              "Higher"
+            ],
+            [
+              "Visualisation",
+              "More limited",
+              "Better"
+            ],
+            [
+              "Bilateral hernia repair",
+              "Excellent — same working space",
+              "Excellent"
+            ],
+            [
+              "Prior infraumbilical surgery",
+              "Relative contra-indication",
+              "Preferred"
+            ],
+            [
+              "Learning curve",
+              "Longer",
+              "Shorter"
+            ],
+            [
+              "Preferred recurrent after open",
+              "Yes",
+              "Yes (either acceptable)"
+            ]
           ]
         },
         {
@@ -141,12 +227,37 @@
         {
           "type": "table",
           "title": "Mesh Selection by Contamination Grade",
-          "headers": ["CDC Class", "Contamination", "Mesh Choice", "Alternative"],
+          "headers": [
+            "CDC Class",
+            "Contamination",
+            "Mesh Choice",
+            "Alternative"
+          ],
           "rows": [
-            ["Class I (clean)", "No infection, no GI entry", "Lightweight polypropylene", "Polyester; PVDF"],
-            ["Class II (clean-contaminated)", "GI entry, no spillage", "Biological or biosynthetic", "Heavyweight PP with antibiotic prophylaxis"],
-            ["Class III (contaminated)", "Gross spillage, strangulation", "Biological mesh or biosynthetic", "No mesh: tissue repair only"],
-            ["Class IV (dirty-infected)", "Active infection, abscess", "Tissue repair only or biological", "Delayed mesh placement"]
+            [
+              "Class I (clean)",
+              "No infection, no GI entry",
+              "Lightweight polypropylene",
+              "Polyester; PVDF"
+            ],
+            [
+              "Class II (clean-contaminated)",
+              "GI entry, no spillage",
+              "Biological or biosynthetic",
+              "Heavyweight PP with antibiotic prophylaxis"
+            ],
+            [
+              "Class III (contaminated)",
+              "Gross spillage, strangulation",
+              "Biological mesh or biosynthetic",
+              "No mesh: tissue repair only"
+            ],
+            [
+              "Class IV (dirty-infected)",
+              "Active infection, abscess",
+              "Tissue repair only or biological",
+              "Delayed mesh placement"
+            ]
           ]
         },
         {
@@ -229,7 +340,8 @@
           "guideline": "EHS Guidelines 2018 — all strangulated hernias require emergency surgery; femoral hernias should be repaired promptly",
           "trial": "Shearburn EW & Myers RN, 1969: femoral hernia strangulation rate 30% vs 5% for indirect inguinal — highest of all groin hernias.",
           "pearl": "Below the inguinal ligament = femoral hernia until proven otherwise. Above the inguinal ligament = inguinal hernia. This anatomical distinction determines the operative approach."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "B2-Q2",
@@ -251,7 +363,8 @@
           "guideline": "HerniaSurge International Guidelines 2018 — laparoscopic repair (TEP/TAPP) preferred for primary unilateral inguinal hernia where expertise available",
           "trial": "LEVEL trial (Eker, Lancet 2012): TEP vs Lichtenstein — equivalent recurrence; less chronic pain with TEP; faster return to normal activities.",
           "pearl": "For primary unilateral inguinal hernia in a fit patient treated by an experienced surgeon: laparoscopic (TEP/TAPP) = less chronic pain + faster recovery = preferred by EHS guidelines. Lichtenstein preferred when LA desired, high operative risk, or insufficient laparoscopic expertise."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B2-Q3",
@@ -273,7 +386,8 @@
           "guideline": "HerniaSurge 2023 Update — no tacks below the iliopubic tract or lateral to the gonadal vessels (triangle of pain) to prevent nerve injury; 2023 update adds laparoscopic approach as strongly preferred for bilateral groin hernias and female groin hernias (control of myopectineal orifice and femoral region)",
           "trial": "TIMELI trial (Fumagalli, Hernia 2013): fibrin glue vs tacks in TAPP — significantly less groin pain with fibrin glue; equivalent recurrence at 1 year.",
           "pearl": "Triangle of pain (lateral to gonadal vessels, below iliopubic tract) = danger zone for LFCN and femoral branch of GFN. Triangle of doom (between vas and gonadal vessels) = danger zone for external iliac vessels. Memorise both triangles for TEP/TAPP."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B2-Q4",
@@ -295,7 +409,8 @@
           "guideline": "HerniaSurge 2023 Update — recurrence after open anterior repair: laparoscopic posterior (TEP/TAPP) preferred; recurrence after laparoscopic: open anterior (Lichtenstein/Stoppa) preferred. EHS Midline Incisional Hernia Guidelines 2023: small-bites suturing technique with slowly absorbable suture for fascial closure is a strong recommendation to reduce incisional hernia risk; mesh augmentation recommended for repair",
           "trial": "Eklund A, Ann Surg 2010: recurrent hernia repair — laparoscopic after open has lower chronic pain and equivalent recurrence vs repeat open repair.",
           "pearl": "Recurrence management rule: posterior fails → anterior approach; anterior fails → posterior approach. After Lichtenstein failure = TEP/TAPP. After TEP/TAPP failure = Lichtenstein or Stoppa."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B2-Q5",
@@ -317,7 +432,8 @@
           "guideline": "HerniaSurge 2018 — bilateral groin hernia: laparoscopic repair strongly recommended; TEP preferred (single preperitoneal space).",
           "trial": "Westin L, Hernia 2016: bilateral TEP — same operating time as unilateral TAPP + unilateral TAPP; lower complication rate; preferred approach.",
           "pearl": "Bilateral groin hernia = strongest indication for laparoscopic repair (TEP preferred). Single preperitoneal space allows bilateral repair through 3 ports. This is where laparoscopy provides the greatest advantage over open surgery."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B2-Q6",
@@ -339,7 +455,8 @@
           "guideline": "HerniaSurge 2018 — watchful waiting acceptable for asymptomatic or minimally symptomatic male inguinal hernia; surgical risk must be weighed against benefit",
           "trial": "INCA trial (Fitzgibbons, JAMA 2006): watchful waiting vs open repair for asymptomatic inguinal hernia — no difference in mortality; low acute presentation risk with watchful waiting.",
           "pearl": "Watchful waiting is safe for ASYMPTOMATIC male inguinal hernia (INCA trial). All FEMALE groin hernias and all FEMORAL hernias should be repaired promptly — they have higher strangulation risk. Asymptomatic inguinal hernia in a high-risk elderly man: observe with instructions."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B2-Q7",
@@ -361,7 +478,8 @@
           "guideline": "Emergency repair mandatory for obturator hernia with SBO — high strangulation rate due to rigid narrow canal",
           "trial": "Losanoff JE et al., Hernia 2002: obturator hernia — strangulation rate >90%; mortality 13–40% if bowel resection required; CT diagnosis allows early intervention.",
           "pearl": "Obturator hernia: elderly thin woman + SBO + medial thigh pain on hip internal rotation (Howship-Romberg sign) = obturator hernia until proven otherwise. Emergency surgery required. CT diagnosis allows preparation — do not delay."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "B2-Q8",
@@ -383,7 +501,8 @@
           "guideline": "EHS 2018 — chronic inguinodynia management ladder: conservative → nerve block → surgical neurectomy ± mesh removal for refractory neuropathic pain",
           "trial": "Amid PK et al., Hernia 2011: triple neurectomy for post-herniorrhaphy inguinodynia — 70–80% significant pain reduction; preferred over single nerve division due to anastomotic overlap.",
           "pearl": "Chronic inguinodynia management: (1) ≤3 months post-op: conservative; (2) >3 months: diagnostic nerve block; (3) block positive: surgical neurectomy (triple). Block negative: look for mesh migration or recurrence as structural cause."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B2-Q9",
@@ -405,7 +524,8 @@
           "guideline": "EHS 2018 — contaminated operative field: tissue repair preferred; biological mesh acceptable alternative; synthetic mesh contraindicated in contaminated/dirty field",
           "trial": "Itani KM et al., Am J Surg 2012: biological mesh vs synthetic in contaminated hernia repair — lower wound event rate with biological mesh; equivalent recurrence at 2 years.",
           "pearl": "Emergency hernia repair + bowel resection = contaminated field. Rule: no synthetic mesh in contaminated field. Options: tissue repair (Bassini/McVay) or biological mesh. Plan elective synthetic mesh repair at 6–12 months if tissue repair done acutely."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B2-Q10",
@@ -427,7 +547,8 @@
           "guideline": "EAES Guidelines 2019 — Sugarbaker technique preferred for symptomatic parastomal hernia repair; prophylactic mesh at stoma creation reduces incidence by 50%",
           "trial": "STOMA trial (Brandsma, Hernia 2017): keyhole vs Sugarbaker — Sugarbaker has significantly lower recurrence at 2 years (20% vs 40%; p=0.04).",
           "pearl": "Parastomal hernia repair: Sugarbaker > keyhole > relocation > suture repair (order of decreasing recurrence). Prophylactic mesh at stoma creation (PREVENT trial) reduces parastomal hernia by 50% at 2 years — consider for all planned permanent stomas."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B2-Q11",
@@ -449,7 +570,8 @@
           "guideline": "EHS 2018 — peritoneal tear during TEP: Veress decompression first; conversion to TAPP or open if decompression insufficient",
           "trial": "Lal P, Hernia 2009: peritoneal tear TEP — Veress decompression successful in 70% allowing completion of TEP; 30% required conversion to TAPP or open.",
           "pearl": "Peritoneal tear in TEP → Veress needle to decompress peritoneum → continue TEP. If Veress fails → convert to TAPP. Final option: open Lichtenstein. The Veress trick resolves most peritoneal tears without conversion."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B2-Q12",
@@ -471,7 +593,8 @@
           "guideline": "HerniaSurge 2018 — athletic pubalgia: physio first (6 months); surgical posterior wall repair if refractory; adductor release if adductor tendinopathy involved",
           "trial": "Swan KG, Am J Sports Med 2002: surgical repair of athletic pubalgia — 90% return to pre-injury sport level at 3 months post-repair.",
           "pearl": "Athletic pubalgia (Gilmore's groin): young male athlete + chronic exertional groin pain + no hernia on imaging = athletic pubalgia. MRI diagnostic. Physio first → surgery if refractory. Different from true inguinal hernia — do not operate without MRI-based diagnosis."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B2-Q13",
@@ -493,7 +616,8 @@
           "guideline": "EHS Paediatric Hernia Guidelines — incarcerated paediatric inguinal hernia: attempted reduction under sedation; surgery within 24–48h after successful reduction",
           "trial": "Chang SJ, J Pediatr Surg 2012: paediatric incarcerated hernia — successful reduction in 74%; complication rate significantly lower with successful reduction vs emergency surgery.",
           "pearl": "Paediatric incarcerated hernia without strangulation: reduction first (sedation + gentle pressure), then semi-elective repair at 24–48h. Strangulation = emergency surgery. Ovary in girls may incarcerate silently — check the labia for hard non-tender lump. Testicular atrophy risk after incarceration: 2–10%."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "B2-Q14",
@@ -515,7 +639,8 @@
           "guideline": "EHS 2019 incisional hernia guidelines — W3 defects require component separation + sublay mesh; pre-operative optimisation (BMI, smoking) mandatory",
           "trial": "PRIMA trial (Muysoms, Hernia 2016): mesh reinforcement significantly reduces recurrence for defects >4cm — 13% vs 32% at 2 years (p<0.001). TAR outcomes: Balla A, Surg Endosc 2020 — TAR for complex incisional hernia: 8% recurrence at 2 years.",
           "pearl": "Complex incisional hernia algorithm: W1 (<4cm) = primary suture or small mesh; W2 (4–10cm) = sublay mesh ± anterior component separation; W3 (>10cm) = TAR + sublay mesh + pre-operative optimisation. Pre-op BMI <35 and smoking cessation are non-negotiable."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B2-Q15",
@@ -537,7 +662,8 @@
           "guideline": "EHS Lichtenstein technique — minimum 2cm overlap all directions; medial mesh at least 1.5–2cm past pubic tubercle; inferior fixation to inguinal ligament; nerve identification and preservation",
           "trial": "Nordin P, Lancet 2003: recurrence after Lichtenstein — 80% of recurrences occur medially at the pubic tubercle due to insufficient medial overlap.",
           "pearl": "Lichtenstein: the most common recurrence is medial (at the pubic tubercle) due to insufficient medial mesh overlap. Ensure 1.5–2cm of mesh medial to the pubic tubercle. Identify and protect ilioinguinal nerve — never suture it."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B2-Q16",
@@ -559,7 +685,8 @@
           "guideline": "EHS 2019 — ventral hernia repair: defer elective repair until BMI <35–40 and HbA1c <7.5–8%; consider bariatric surgery first if BMI >40",
           "trial": "Liang MK, Ann Surg 2017: pre-operative weight loss before ventral hernia repair — each 1kg/m² reduction in BMI associated with 30% reduction in surgical site occurrence.",
           "pearl": "Pre-op optimisation for ventral hernia repair: BMI <35, HbA1c <7.5–8%, smoking cessation >4 weeks. BMI >40 with hernia: consider bariatric surgery first. These modifiable factors have greater impact on outcomes than choice of technique or mesh type."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "B2-Q17",
@@ -581,7 +708,8 @@
           "guideline": "EHS Lichtenstein guidelines — large scrotal hernia: divide sac at internal ring, leave distal sac in situ to preserve cord structures and testicular blood supply",
           "trial": "Molegraaf MJ, Surg Endosc 2018: scrotal hernia management — complete sac excision associated with 4% testicular atrophy rate vs <1% with distal sac preservation.",
           "pearl": "Scrotal hernia: NEVER excise the entire distal sac — risk of vas and vessel injury. Divide sac at internal ring, transfix proximally, leave distal sac. Evert the distal sac edges (Jaboulay-like technique) to reduce post-operative hydrocele formation."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B2-Q18",
@@ -603,7 +731,8 @@
           "guideline": "HerniaSurge 2018 — triangle of doom: medial border = vas deferens; lateral border = gonadal vessels; contains external iliac vessels — never staple or dissect",
           "trial": "Amid PK, 1997: vascular injury during laparoscopic hernia repair — all major vessel injuries occurred in the triangle of doom; mandatory identification of vas and gonadal vessels before any fixation.",
           "pearl": "Two dangerous triangles in TEP/TAPP: (1) Triangle of DOOM = vas + gonadal vessels (external iliac vessels inside — vascular catastrophe); (2) Triangle of PAIN = gonadal vessels + iliopubic tract laterally (LFCN + femoral branch GFN inside — chronic neuralgia). Know both."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "B2-Q19",
@@ -625,7 +754,8 @@
           "guideline": "HerniaSurge 2018 — femoral hernia elective repair: laparoscopic (TAPP/TEP) preferred; emergency repair: open (McEvedy or high approach) for bowel inspection",
           "trial": "Andresen K, Ann Surg 2018: femoral hernia recurrence rates — laparoscopic 0.3% vs open 1.5% at 5 years (p<0.01, Danish Hernia Database).",
           "pearl": "Femoral hernia: elective = laparoscopic (covers all myopectineal orifices with one mesh). Emergency = open (high approach — McEvedy or Nyhus — to inspect bowel viability). All femoral hernias should be repaired: non-operative management not appropriate."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "B2-Q20",
@@ -648,7 +778,8 @@
           "guideline": "ASMBS 2022 — internal hernia after RYGB: reduction of bowel + closure of all mesenteric defects with non-absorbable suture; prophylactic closure at index operation standard",
           "trial": "Stenberg E, JAMA Surg 2016: prophylactic mesenteric defect closure at RYGB — 57% reduction in internal hernia (1.9% vs 4.5%, p<0.001).",
           "pearl": "Petersen's hernia: reduce + close Petersen's space with non-absorbable running suture. Close ALL three defects at RYGB: (1) jejunojejunostomy mesentery, (2) mesocolic window (retrocolic bypass), (3) Petersen's space. Closure at index operation is standard of care — reduces internal hernia rate by >50%."
-        }
+        },
+        "difficulty": 2
       }
     ]
   }

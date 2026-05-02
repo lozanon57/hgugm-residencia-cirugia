@@ -36,14 +36,49 @@
         {
           "type": "table",
           "title": "Study Design Classification and Appropriate Questions",
-          "headers": ["Design", "Type", "Best for", "Main Limitation"],
+          "headers": [
+            "Design",
+            "Type",
+            "Best for",
+            "Main Limitation"
+          ],
           "rows": [
-            ["Systematic review + meta-analysis", "Synthesis", "Treatment efficacy; prevalence", "Quality of included studies; heterogeneity"],
-            ["RCT", "Experimental", "Causal inference for treatment effects", "Cost; feasibility in surgery; blinding problems"],
-            ["Prospective cohort", "Observational", "Incidence, prognosis, risk factors", "Selection bias; loss to follow-up; confounding"],
-            ["Retrospective cohort / case-control", "Observational", "Rare disease; long-latency outcomes; hypothesis-generating", "Recall bias; confounding; selection bias"],
-            ["Cross-sectional survey", "Observational", "Prevalence; screening test evaluation", "Cannot establish temporality or causation"],
-            ["Case series / case report", "Descriptive", "Novel findings; hypothesis generation; rare complications", "No control group; cannot establish rates"]
+            [
+              "Systematic review + meta-analysis",
+              "Synthesis",
+              "Treatment efficacy; prevalence",
+              "Quality of included studies; heterogeneity"
+            ],
+            [
+              "RCT",
+              "Experimental",
+              "Causal inference for treatment effects",
+              "Cost; feasibility in surgery; blinding problems"
+            ],
+            [
+              "Prospective cohort",
+              "Observational",
+              "Incidence, prognosis, risk factors",
+              "Selection bias; loss to follow-up; confounding"
+            ],
+            [
+              "Retrospective cohort / case-control",
+              "Observational",
+              "Rare disease; long-latency outcomes; hypothesis-generating",
+              "Recall bias; confounding; selection bias"
+            ],
+            [
+              "Cross-sectional survey",
+              "Observational",
+              "Prevalence; screening test evaluation",
+              "Cannot establish temporality or causation"
+            ],
+            [
+              "Case series / case report",
+              "Descriptive",
+              "Novel findings; hypothesis generation; rare complications",
+              "No control group; cannot establish rates"
+            ]
           ]
         },
         {
@@ -79,14 +114,42 @@
         {
           "type": "table",
           "title": "CONSORT 2010 — Key Items for Surgical Trial Critical Appraisal",
-          "headers": ["Item", "What to Check", "Red Flag"],
+          "headers": [
+            "Item",
+            "What to Check",
+            "Red Flag"
+          ],
           "rows": [
-            ["Item 1 — Randomisation method", "Sequence generation: computer-generated or table of random numbers", "Quasi-randomisation (alternating, date of birth, hospital number) is NOT true randomisation"],
-            ["Item 9 — Allocation concealment", "Mechanism to prevent foreknowledge: central telephone/web randomisation, pharmacy control", "Sealed envelopes can be tampered with — not gold standard for surgical trials"],
-            ["Item 11 — Blinding", "Who was blinded: patient, surgeon, outcome assessor, statistician, data monitoring committee", "No mention of blinding at any level is a high-risk-of-bias signal"],
-            ["Item 13 — Flow diagram", "All participants screened, eligible, randomised, analysed; reasons for exclusion at each stage", "Missing or incomplete flow diagram prevents assessment of selection bias"],
-            ["Item 16 — Primary analysis", "Intention-to-treat as primary; per-protocol as sensitivity", "Per-protocol as primary without ITT analysis"],
-            ["Item 19 — Harms", "All serious adverse events and protocol-specified harms must be reported", "Reporting only positive outcomes without harm data"]
+            [
+              "Item 1 — Randomisation method",
+              "Sequence generation: computer-generated or table of random numbers",
+              "Quasi-randomisation (alternating, date of birth, hospital number) is NOT true randomisation"
+            ],
+            [
+              "Item 9 — Allocation concealment",
+              "Mechanism to prevent foreknowledge: central telephone/web randomisation, pharmacy control",
+              "Sealed envelopes can be tampered with — not gold standard for surgical trials"
+            ],
+            [
+              "Item 11 — Blinding",
+              "Who was blinded: patient, surgeon, outcome assessor, statistician, data monitoring committee",
+              "No mention of blinding at any level is a high-risk-of-bias signal"
+            ],
+            [
+              "Item 13 — Flow diagram",
+              "All participants screened, eligible, randomised, analysed; reasons for exclusion at each stage",
+              "Missing or incomplete flow diagram prevents assessment of selection bias"
+            ],
+            [
+              "Item 16 — Primary analysis",
+              "Intention-to-treat as primary; per-protocol as sensitivity",
+              "Per-protocol as primary without ITT analysis"
+            ],
+            [
+              "Item 19 — Harms",
+              "All serious adverse events and protocol-specified harms must be reported",
+              "Reporting only positive outcomes without harm data"
+            ]
           ]
         }
       ]
@@ -98,13 +161,43 @@
         {
           "type": "table",
           "title": "Key Biases in Surgical Observational Research",
-          "headers": ["Bias", "Definition", "Example", "Mitigation"],
+          "headers": [
+            "Bias",
+            "Definition",
+            "Example",
+            "Mitigation"
+          ],
           "rows": [
-            ["Selection bias", "Groups differ systematically at baseline", "Laparoscopic vs open — younger fitter patients get laparoscopic", "Propensity score matching; multivariable regression"],
-            ["Confounding by indication", "Indication for treatment is associated with outcome", "Sicker patients get more radical surgery", "Instrumental variable analysis; restriction"],
-            ["Immortal time bias", "Follow-up period misattributed to exposed group", "Time to receive neoadjuvant therapy counted as exposure", "Correct time-at-risk calculation"],
-            ["Information bias", "Systematic error in data collection/classification", "Retrospective chart review — missing complications", "Prospective data collection; validated registries"],
-            ["Attrition bias", "Differential loss to follow-up by group", "Patients with complications lost to follow-up", "Intention-to-treat analysis; sensitivity analysis"]
+            [
+              "Selection bias",
+              "Groups differ systematically at baseline",
+              "Laparoscopic vs open — younger fitter patients get laparoscopic",
+              "Propensity score matching; multivariable regression"
+            ],
+            [
+              "Confounding by indication",
+              "Indication for treatment is associated with outcome",
+              "Sicker patients get more radical surgery",
+              "Instrumental variable analysis; restriction"
+            ],
+            [
+              "Immortal time bias",
+              "Follow-up period misattributed to exposed group",
+              "Time to receive neoadjuvant therapy counted as exposure",
+              "Correct time-at-risk calculation"
+            ],
+            [
+              "Information bias",
+              "Systematic error in data collection/classification",
+              "Retrospective chart review — missing complications",
+              "Prospective data collection; validated registries"
+            ],
+            [
+              "Attrition bias",
+              "Differential loss to follow-up by group",
+              "Patients with complications lost to follow-up",
+              "Intention-to-treat analysis; sensitivity analysis"
+            ]
           ]
         },
         {
@@ -144,13 +237,43 @@
         {
           "type": "table",
           "title": "Crossover vs Factorial vs Parallel Group — Key Features",
-          "headers": ["Feature", "Parallel Group", "Crossover", "Factorial (2×2)"],
+          "headers": [
+            "Feature",
+            "Parallel Group",
+            "Crossover",
+            "Factorial (2×2)"
+          ],
           "rows": [
-            ["Sample size efficiency", "Reference", "~25% of parallel (within-subject control)", "~50% of parallel (tests 2 questions)"],
-            ["Carryover risk", "None", "Major concern — requires washout period", "None (no temporal sequence)"],
-            ["Applicable in surgery", "Always", "Only non-operative or reversible interventions", "If interventions are independent"],
-            ["CONSORT extension?", "Core CONSORT 2010", "CONSORT crossover extension", "CONSORT factorial extension"],
-            ["Key analysis issue", "ITT primary", "Period and carryover effects must be tested", "Test interaction before main effects"]
+            [
+              "Sample size efficiency",
+              "Reference",
+              "~25% of parallel (within-subject control)",
+              "~50% of parallel (tests 2 questions)"
+            ],
+            [
+              "Carryover risk",
+              "None",
+              "Major concern — requires washout period",
+              "None (no temporal sequence)"
+            ],
+            [
+              "Applicable in surgery",
+              "Always",
+              "Only non-operative or reversible interventions",
+              "If interventions are independent"
+            ],
+            [
+              "CONSORT extension?",
+              "Core CONSORT 2010",
+              "CONSORT crossover extension",
+              "CONSORT factorial extension"
+            ],
+            [
+              "Key analysis issue",
+              "ITT primary",
+              "Period and carryover effects must be tested",
+              "Test interaction before main effects"
+            ]
           ]
         }
       ]
@@ -196,13 +319,43 @@
         {
           "type": "table",
           "title": "Cluster RCT — Sample Size Inflation by ICC and Cluster Size",
-          "headers": ["ICC", "Cluster size (m)", "Design Effect", "Equivalent individual trial ratio"],
+          "headers": [
+            "ICC",
+            "Cluster size (m)",
+            "Design Effect",
+            "Equivalent individual trial ratio"
+          ],
           "rows": [
-            ["0.01", "20", "1.19", "Cluster trial needs 19% more patients"],
-            ["0.05", "20", "1.95", "Cluster trial needs ~2× more patients"],
-            ["0.05", "50", "3.45", "Cluster trial needs 3.5× more patients"],
-            ["0.10", "20", "2.90", "Cluster trial needs ~3× more patients"],
-            ["0.10", "50", "5.90", "Cluster trial needs ~6× more patients"]
+            [
+              "0.01",
+              "20",
+              "1.19",
+              "Cluster trial needs 19% more patients"
+            ],
+            [
+              "0.05",
+              "20",
+              "1.95",
+              "Cluster trial needs ~2× more patients"
+            ],
+            [
+              "0.05",
+              "50",
+              "3.45",
+              "Cluster trial needs 3.5× more patients"
+            ],
+            [
+              "0.10",
+              "20",
+              "2.90",
+              "Cluster trial needs ~3× more patients"
+            ],
+            [
+              "0.10",
+              "50",
+              "5.90",
+              "Cluster trial needs ~6× more patients"
+            ]
           ]
         },
         {
@@ -256,13 +409,37 @@
         {
           "type": "table",
           "title": "Qualitative Research Reporting — COREQ Checklist Key Items",
-          "headers": ["Domain", "Key Items", "Common Omissions"],
+          "headers": [
+            "Domain",
+            "Key Items",
+            "Common Omissions"
+          ],
           "rows": [
-            ["Research team", "Researcher characteristics; relationship to participants; prior assumptions", "Reflexivity statement often missing in surgical papers"],
-            ["Study design", "Sampling method (purposive vs snowball); sample size justification (data saturation)", "Claiming 'saturation' without describing the process"],
-            ["Data collection", "Interview guide development; recording method; field notes", "Failing to provide the topic guide as supplementary material"],
-            ["Analysis", "Coding process; NVivo or other software; member-checking; triangulation", "Single-analyst coding without peer review of themes"],
-            ["Reporting", "Participant quotations; negative cases; researcher impact on findings", "Only reporting quotes that confirm the researcher's prior view"]
+            [
+              "Research team",
+              "Researcher characteristics; relationship to participants; prior assumptions",
+              "Reflexivity statement often missing in surgical papers"
+            ],
+            [
+              "Study design",
+              "Sampling method (purposive vs snowball); sample size justification (data saturation)",
+              "Claiming 'saturation' without describing the process"
+            ],
+            [
+              "Data collection",
+              "Interview guide development; recording method; field notes",
+              "Failing to provide the topic guide as supplementary material"
+            ],
+            [
+              "Analysis",
+              "Coding process; NVivo or other software; member-checking; triangulation",
+              "Single-analyst coding without peer review of themes"
+            ],
+            [
+              "Reporting",
+              "Participant quotations; negative cases; researcher impact on findings",
+              "Only reporting quotes that confirm the researcher's prior view"
+            ]
           ]
         },
         {
@@ -317,7 +494,8 @@
           "guideline": "CONSORT 2010 — Item 16: report ITT analysis as primary; clearly distinguish ITT from per-protocol or as-treated analyses",
           "trial": "COLOR II (van der Pas, Lancet Oncology 2013): laparoscopic vs open rectal cancer — 16% conversion rate; ITT analysis maintained, including converted patients in laparoscopic arm.",
           "pearl": "In a surgical RCT, the conversion rate is itself a clinically meaningful outcome. ITT protects against the bias that excluding conversions would introduce."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C2-Q2",
@@ -339,7 +517,8 @@
           "guideline": "CONSORT 2010 Items 9 (allocation concealment) and 11 (blinding) — both must be reported separately with mechanistic details",
           "trial": "Moher et al. Cochrane meta-epidemiology (Lancet 1998): inadequate allocation concealment inflated ORs by 30–40% in meta-analyses — one of the strongest determinants of bias.",
           "pearl": "When critically appraising a surgical RCT, check Items 9 and 11 separately. 'Sealed envelopes' are frequently cited but are not the gold standard — central telephone/web randomisation is."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C2-Q3",
@@ -361,7 +540,8 @@
           "guideline": "CONSORT crossover extension — requires reporting of test for carryover (period × treatment interaction) and washout period justification",
           "trial": "Hills M & Armitage P (Biometrics 1979): statistical analysis of crossover trials — foundational paper establishing tests for carryover and period effects.",
           "pearl": "Before designing a crossover trial, ensure the washout period is biologically justified. If period-by-treatment interaction is detected, the crossover analysis is invalid — analyse only the first-period data as a parallel group trial."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C2-Q4",
@@ -383,7 +563,8 @@
           "guideline": "CONSORT cluster RCT extension — requires reporting of ICC, design effect, and cluster-adjusted sample size calculation",
           "trial": "EPOCH trial (enhanced recovery after surgery): cluster RCT in 93 UK hospitals — ICC of 0.03 was used in sample size calculation; design effect substantially increased required cluster count.",
           "pearl": "Even small ICCs (0.01–0.05) dramatically inflate required sample sizes in large clusters. Always calculate the design effect before finalising the cluster RCT sample size."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C2-Q5",
@@ -405,7 +586,8 @@
           "guideline": "CONSORT NI extension — non-inferiority conclusion requires upper CI < Δ; figures should show CI plotted against equivalence/NI margins",
           "trial": "LACC trial (Ramirez, NEJM 2018): minimally invasive vs open radical hysterectomy for cervical cancer — failed NI (upper CI exceeded Δ), establishing open surgery as standard. Contrasts with many 'positive' NI trials.",
           "pearl": "In non-inferiority trials, the CI must be interpreted against Δ, not against zero. Draw the CI on a plot with the NI margin marked — it immediately shows whether NI is achieved."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C2-Q6",
@@ -427,7 +609,8 @@
           "guideline": "CONSORT factorial extension — requires testing and reporting of interaction; if interaction present, report effects within strata of the other factor",
           "trial": "ENIGMA trial (nitrous oxide vs air in major surgery) crossed with perioperative supplemental oxygen — interaction between the two gases required stratified reporting of effects.",
           "pearl": "Power to detect interaction requires 4× the sample of the main effect. Most factorial trials are underpowered to detect interaction — a non-significant interaction test does not exclude clinically important interaction."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C2-Q7",
@@ -449,7 +632,8 @@
           "guideline": "Hemming K et al. 'The stepped wedge cluster randomised trial: rationale, design, analysis, and reporting.' BMJ 2015 — definitive methodological paper",
           "trial": "Safe Childbirth Checklist (WHO, Hirschhorn et al.) — tested using stepped-wedge design across 78 facilities in Karnataka, India — sequential roll-out reflected implementation reality.",
           "pearl": "The stepped-wedge design is particularly suited to quality improvement interventions that must be rolled out sequentially for logistical or political reasons — it transforms a roll-out into a research design."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C2-Q8",
@@ -471,7 +655,8 @@
           "guideline": "Schwartz D & Lellouch J. 'Explanatory and pragmatic attitudes in therapeutical trials.' J Chronic Dis 1967 — original distinction between explanatory and pragmatic trials",
           "trial": "CLASSIC trial (laparoscopic vs open rectal surgery): classic explanatory design with credentialled surgeons, strict volume criteria — contrasts with pragmatic ROLARR trial.",
           "pearl": "Use PRECIS-2 (Pragmatic-Explanatory Continuum Indicator Summary) to profile a trial's pragmatic vs explanatory orientation across 9 domains. It helps ensure the trial answers the right question for its intended use — regulatory, clinical practice, or proof-of-concept."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C2-Q9",
@@ -493,7 +678,8 @@
           "guideline": "O'Brien PC & Fleming TR. 'A multiple testing procedure for clinical trials.' Biometrics 1979 — original paper; FDA guidance on adaptive designs",
           "trial": "ROOBY trial (off-pump vs on-pump cardiac surgery): used O'Brien-Fleming boundaries for interim analysis — trial continued to completion without early stopping.",
           "pearl": "The choice between O'Brien-Fleming and Pocock reflects the balance between willingness to stop early for benefit (Pocock: more willing) versus conservatism about early stopping (O'Brien-Fleming: less willing). Most trial statisticians recommend O'Brien-Fleming for surgical trials where early results may not reflect long-term outcomes."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C2-Q10",
@@ -515,7 +701,8 @@
           "guideline": "Renfro LA & Mandrekar SJ. 'Definitions and statistical properties of master protocols for personalized medicine in oncology.' J Biopharm Stat 2018",
           "trial": "NCI-MATCH (Molecular Analysis for Therapy Choice): landmark US basket trial enrolling across >40 tumour types based on molecular profiling — established the basket design in surgical oncology.",
           "pearl": "Basket (molecular across histologies) vs Umbrella (histology, multiple molecular subtypes) vs Platform (multiple arms, shared control, arms added/dropped) — memorise these three as a connected taxonomy."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C2-Q11",
@@ -537,7 +724,8 @@
           "guideline": "CONSORT 2010 Item 16 — requires specification of analytical population and reporting of ITT, PP, and safety populations separately",
           "trial": "ESOPEC trial (perioperative FLOT vs CROSS for oesophageal cancer) — published both ITT and PP analyses, with consistent results supporting the ITT primary analysis.",
           "pearl": "Define the PP population in the Statistical Analysis Plan BEFORE data lock — post-hoc definition of the PP population introduces bias equivalent to HARKing."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C2-Q12",
@@ -559,7 +747,8 @@
           "guideline": "Blencowe NS et al. 'Reporting of interventions in randomised trials of surgery: a systematic review.' Ann Surg 2015; TIDieR checklist (Hoffmann TC, BMJ 2014)",
           "trial": "ROLARR trial (robotic vs laparoscopic rectal resection) — criticised for insufficient standardisation of robotic technique and variable surgeon experience; highlights the importance of these CONSORT extension items.",
           "pearl": "Poor description of the surgical intervention is the most common reporting deficiency in surgical RCTs — it prevents meaningful meta-analysis and replication. The TIDieR checklist provides a practical framework for comprehensive intervention description."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C2-Q13",
@@ -581,7 +770,8 @@
           "guideline": "ICH E9(R1) — Addendum on Estimands and Sensitivity Analysis in Clinical Trials (2019); five strategies for handling intercurrent events: treatment policy, hypothetical, composite, while on treatment, principal stratum",
           "trial": "SUNFISH trial (risdiplam for SMA): estimand framework explicitly specified in protocol using treatment policy strategy for treatment discontinuation — first major trial to fully implement ICH E9(R1).",
           "pearl": "The estimand framework forces researchers to be precise about what question they are answering before data collection begins. 'What is the effect of offering treatment A versus treatment B?' (treatment policy) is a different question from 'What would the effect be if everyone had adhered?' (hypothetical strategy)."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C2-Q14",
@@ -603,7 +793,8 @@
           "guideline": "Cochrane Risk of Bias Tool (RoB 2) — Domain 4: bias in measurement of the outcome; assessor blinding reduces detection bias",
           "trial": "COLOR trial (Veldkamp, Lancet Oncology 2005): used central pathological review of specimens blinded to operative approach to minimise detection bias in pathological outcome assessment.",
           "pearl": "In any surgical RCT, outcome assessor blinding is the most important and achievable form of blinding. For objective outcomes (mortality, pathological margins), detection bias is lower. For subjective outcomes (quality of life, functional assessment), assessor blinding is critical."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C2-Q15",
@@ -625,7 +816,8 @@
           "guideline": "COREQ (Consolidated Criteria for Reporting Qualitative Research) — 32-item checklist for qualitative studies in healthcare",
           "trial": "Aggarwal R et al. qualitative study (Ann Surg 2012): semi-structured interviews with 21 upper GI surgeons exploring barriers to robotic surgery adoption — identified training pathway, case volume, and institutional support as key themes.",
           "pearl": "Qualitative research is not 'soft' science — it requires rigorous methodology (purposive sampling, independent coding, member checking) and produces findings that are not generalisable in the statistical sense but theoretically transferable to similar contexts."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C2-Q16",
@@ -647,7 +839,8 @@
           "guideline": "FDA guidance 'Adaptive Design Clinical Trials for Drugs and Biologics' (2019); EMA reflection paper on adaptive designs (2007)",
           "trial": "I-SPY 2 (Investigation of Serial studies to Predict Your Therapeutic Response): seamless adaptive platform trial in breast cancer — allows drugs to graduate to phase III based on interim Bayesian assessment.",
           "pearl": "The critical requirement for any adaptive design is that all modifications — including how phase II data are used in phase III — must be pre-specified before ANY data are seen. Post-hoc adaptation decisions invalidate the type I error control."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C2-Q17",
@@ -669,7 +862,8 @@
           "guideline": "Loudon K et al. 'The PRECIS-2 tool: designing trials that are fit for purpose.' BMJ 2015 — definitive paper on pragmatic-explanatory assessment",
           "trial": "RECOVER trial (rehabilitation after critical illness): maximally pragmatic — broad eligibility, diverse NHS ICUs, flexible physiotherapy delivery, patient-reported outcome — contrasts with explanatory rehabilitation trials in selected populations.",
           "pearl": "Before designing a surgical trial, complete a PRECIS-2 assessment. If the PRECIS-2 wheel is unbalanced (some domains pragmatic, some explanatory), the trial is likely misaligned — reconcile before finalising the design."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C2-Q18",
@@ -691,7 +885,8 @@
           "guideline": "CONSORT cluster RCT extension — Item 12b: statistical methods for cluster RCTs should account for clustering, typically using multilevel models or GEE",
           "trial": "EPOCH cluster RCT (enhanced recovery): used multilevel mixed-effects logistic regression with hospital as random effect — appropriate primary analysis for the 93-hospital cluster design.",
           "pearl": "The two main approaches for cluster RCT analysis are: (1) mixed effects models (patient-level analysis with random cluster effect); (2) GEE (Generalised Estimating Equations — cluster-level marginal estimates). For pragmatic interpretation, GEE is often preferred; for efficiency, mixed effects models are superior."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C2-Q19",
@@ -713,7 +908,8 @@
           "guideline": "ICH E10 — Choice of Control Group; EMA Guideline on the choice of the non-inferiority margin; FDA guidance on NI trials (2016)",
           "trial": "ACOSOG Z6051 (laparoscopic vs open rectal resection): co-primary ITT and PP analyses — NI was demonstrated in both, providing robust conclusion; contrasts with trials where ITT and PP disagree.",
           "pearl": "In any NI trial, before accepting the NI conclusion, verify: (1) Was the NI margin pre-specified with justification? (2) Do both ITT and PP analyses support NI? (3) Is the active control demonstrably effective vs placebo (assay sensitivity)? All three must be satisfied."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C2-Q20",
@@ -735,7 +931,8 @@
           "guideline": "Moore GF et al. 'Process evaluation of complex interventions: MRC guidance.' BMJ 2015 — defining document for process evaluation in surgical research",
           "trial": "ICAN trial (post-ICU rehabilitation): parallel qualitative process evaluation explored patient and physiotherapist perspectives on rehabilitation delivery — explained variation in intervention dose across centres and informed implementation.",
           "pearl": "A process evaluation should be designed concurrently with the RCT, not as an afterthought. Pre-specify the process evaluation objectives, data sources, and analysis approach in the overall study protocol."
-        }
+        },
+        "difficulty": 2
       }
     ]
   }

@@ -48,18 +48,62 @@
         {
           "type": "table",
           "title": "CRediT Taxonomy — 14 Contributor Roles",
-          "headers": ["Role", "Description", "Example in Surgical Research"],
+          "headers": [
+            "Role",
+            "Description",
+            "Example in Surgical Research"
+          ],
           "rows": [
-            ["Conceptualisation", "Ideas; formulation of overarching research goals and aims", "Identifying the clinical question and hypothesis"],
-            ["Methodology", "Design; creation of models and statistical analysis plans", "Study design, sample size calculation, statistical plan"],
-            ["Data curation", "Annotation, scrubbing, maintaining research data", "Database management, data quality checks"],
-            ["Formal analysis", "Application of statistical, mathematical, computational, or other analysis methods", "Running the statistical analysis"],
-            ["Investigation", "Conducting the research process — patient enrolment, procedures", "Surgeon performing the intervention"],
-            ["Writing — Original Draft", "Preparation of the initial manuscript", "Lead author writing the first draft"],
-            ["Writing — Review & Editing", "Critical revision of the manuscript for intellectual content", "Co-authors revising and providing feedback"],
-            ["Supervision", "Oversight and leadership of the research team", "Senior author supervision — counts toward authorship only with other contributions"],
-            ["Funding acquisition", "Securing financial support", "Grant acquisition — insufficient alone for authorship"],
-            ["Project administration", "Coordination and management", "Research coordination — insufficient alone for authorship"]
+            [
+              "Conceptualisation",
+              "Ideas; formulation of overarching research goals and aims",
+              "Identifying the clinical question and hypothesis"
+            ],
+            [
+              "Methodology",
+              "Design; creation of models and statistical analysis plans",
+              "Study design, sample size calculation, statistical plan"
+            ],
+            [
+              "Data curation",
+              "Annotation, scrubbing, maintaining research data",
+              "Database management, data quality checks"
+            ],
+            [
+              "Formal analysis",
+              "Application of statistical, mathematical, computational, or other analysis methods",
+              "Running the statistical analysis"
+            ],
+            [
+              "Investigation",
+              "Conducting the research process — patient enrolment, procedures",
+              "Surgeon performing the intervention"
+            ],
+            [
+              "Writing — Original Draft",
+              "Preparation of the initial manuscript",
+              "Lead author writing the first draft"
+            ],
+            [
+              "Writing — Review & Editing",
+              "Critical revision of the manuscript for intellectual content",
+              "Co-authors revising and providing feedback"
+            ],
+            [
+              "Supervision",
+              "Oversight and leadership of the research team",
+              "Senior author supervision — counts toward authorship only with other contributions"
+            ],
+            [
+              "Funding acquisition",
+              "Securing financial support",
+              "Grant acquisition — insufficient alone for authorship"
+            ],
+            [
+              "Project administration",
+              "Coordination and management",
+              "Research coordination — insufficient alone for authorship"
+            ]
           ]
         }
       ]
@@ -75,12 +119,42 @@
         {
           "type": "table",
           "title": "Peer Review Types — Comparison",
-          "headers": ["Type", "Who Knows What", "Advantages", "Disadvantages", "Examples"],
+          "headers": [
+            "Type",
+            "Who Knows What",
+            "Advantages",
+            "Disadvantages",
+            "Examples"
+          ],
           "rows": [
-            ["Single-blind", "Reviewers know authors; authors don't know reviewers", "Reduces reviewer retaliation risk; most familiar to reviewers", "Reviewer bias toward prestigious institutions; gender bias documented", "EJSO, ASO, Colorectal Disease"],
-            ["Double-blind", "Neither reviewers nor authors know each other's identity", "Reduces prestige bias; protects junior authors", "Difficult to achieve in small fields; identifiable by writing style", "BJS, Lancet Oncology (optional)"],
-            ["Open peer review", "Both identities disclosed; reviews often published", "Accountability; civility; transparency; reduces reviewer conflicts of interest", "Reviewer reluctance; retaliation risk in competitive fields", "BMJ, PLOS Medicine, F1000Research"],
-            ["Post-publication review", "Community reviews after publication", "Rapid error detection; ongoing quality monitoring", "Risk of harassment; uncontrolled format", "PubPeer, F1000 Recommends"]
+            [
+              "Single-blind",
+              "Reviewers know authors; authors don't know reviewers",
+              "Reduces reviewer retaliation risk; most familiar to reviewers",
+              "Reviewer bias toward prestigious institutions; gender bias documented",
+              "EJSO, ASO, Colorectal Disease"
+            ],
+            [
+              "Double-blind",
+              "Neither reviewers nor authors know each other's identity",
+              "Reduces prestige bias; protects junior authors",
+              "Difficult to achieve in small fields; identifiable by writing style",
+              "BJS, Lancet Oncology (optional)"
+            ],
+            [
+              "Open peer review",
+              "Both identities disclosed; reviews often published",
+              "Accountability; civility; transparency; reduces reviewer conflicts of interest",
+              "Reviewer reluctance; retaliation risk in competitive fields",
+              "BMJ, PLOS Medicine, F1000Research"
+            ],
+            [
+              "Post-publication review",
+              "Community reviews after publication",
+              "Rapid error detection; ongoing quality monitoring",
+              "Risk of harassment; uncontrolled format",
+              "PubPeer, F1000 Recommends"
+            ]
           ]
         },
         {
@@ -102,15 +176,55 @@
         {
           "type": "table",
           "title": "Key Surgical Journals — Impact Factor and Scope",
-          "headers": ["Journal", "Publisher", "IF (2023)", "Scope"],
+          "headers": [
+            "Journal",
+            "Publisher",
+            "IF (2023)",
+            "Scope"
+          ],
           "rows": [
-            ["Annals of Surgery", "LWW", "13.8", "All surgery; high-impact RCTs; landmark trials"],
-            ["JAMA Surgery", "AMA", "16.9", "Clinical surgery; health services; quality"],
-            ["British Journal of Surgery", "Oxford/BJS Society", "8.6", "European surgical research; RCTs; HPB"],
-            ["Annals of Surgical Oncology", "Springer/SSAT", "4.8", "Surgical oncology; multidisciplinary oncology"],
-            ["EJSO (Eur J Surg Oncol)", "Elsevier/BASO", "4.2", "Surgical oncology; peritoneal; sarcoma"],
-            ["Lancet Oncology", "Elsevier", "51.1", "Top-tier oncology RCTs; phase III trials"],
-            ["Colorectal Disease", "Wiley/ACPGBI", "3.5", "Colorectal surgery; inflammatory bowel disease"]
+            [
+              "Annals of Surgery",
+              "LWW",
+              "13.8",
+              "All surgery; high-impact RCTs; landmark trials"
+            ],
+            [
+              "JAMA Surgery",
+              "AMA",
+              "16.9",
+              "Clinical surgery; health services; quality"
+            ],
+            [
+              "British Journal of Surgery",
+              "Oxford/BJS Society",
+              "8.6",
+              "European surgical research; RCTs; HPB"
+            ],
+            [
+              "Annals of Surgical Oncology",
+              "Springer/SSAT",
+              "4.8",
+              "Surgical oncology; multidisciplinary oncology"
+            ],
+            [
+              "EJSO (Eur J Surg Oncol)",
+              "Elsevier/BASO",
+              "4.2",
+              "Surgical oncology; peritoneal; sarcoma"
+            ],
+            [
+              "Lancet Oncology",
+              "Elsevier",
+              "51.1",
+              "Top-tier oncology RCTs; phase III trials"
+            ],
+            [
+              "Colorectal Disease",
+              "Wiley/ACPGBI",
+              "3.5",
+              "Colorectal surgery; inflammatory bowel disease"
+            ]
           ]
         },
         {
@@ -136,13 +250,49 @@
         {
           "type": "table",
           "title": "Open Access Routes — Gold, Green, and Diamond",
-          "headers": ["Route", "Definition", "Cost to Author", "Examples", "Compliance with Plan S"],
+          "headers": [
+            "Route",
+            "Definition",
+            "Cost to Author",
+            "Examples",
+            "Compliance with Plan S"
+          ],
           "rows": [
-            ["Gold OA", "Published version freely available immediately on journal website under CC licence; author pays APC", "€500–€9,500 (varies dramatically)", "PLOS Medicine, Cancers (MDPI), Nature Communications", "Yes — if journal is compliant"],
-            ["Hybrid OA", "Subscription journal with per-article OA option; author pays APC to unlock individual article", "€2,000–€5,000 per article", "Annals of Surgery, BJS, EJSO — most major journals", "Yes — if via Transformative Agreement"],
-            ["Green OA", "Author self-archives accepted manuscript in institutional or subject repository after embargo period", "Free (no APC)", "PubMed Central (PMC), Zenodo, DIGITAL.CSIC, institutional repository", "Yes — immediate CC-BY deposit to repository"],
-            ["Diamond OA", "Published open access; no APC to authors; journal funded by institution, society, or subsidy", "Free", "PLOS Biology (subsidised); many society journals; emerging model", "Yes — ideal but less scalable"],
-            ["Bronze/Gratis", "Freely readable on journal website but no reuse rights; no OA licence — not true OA", "Free", "Many journal websites during COVID emergency access", "No — does not meet Plan S"]
+            [
+              "Gold OA",
+              "Published version freely available immediately on journal website under CC licence; author pays APC",
+              "€500–€9,500 (varies dramatically)",
+              "PLOS Medicine, Cancers (MDPI), Nature Communications",
+              "Yes — if journal is compliant"
+            ],
+            [
+              "Hybrid OA",
+              "Subscription journal with per-article OA option; author pays APC to unlock individual article",
+              "€2,000–€5,000 per article",
+              "Annals of Surgery, BJS, EJSO — most major journals",
+              "Yes — if via Transformative Agreement"
+            ],
+            [
+              "Green OA",
+              "Author self-archives accepted manuscript in institutional or subject repository after embargo period",
+              "Free (no APC)",
+              "PubMed Central (PMC), Zenodo, DIGITAL.CSIC, institutional repository",
+              "Yes — immediate CC-BY deposit to repository"
+            ],
+            [
+              "Diamond OA",
+              "Published open access; no APC to authors; journal funded by institution, society, or subsidy",
+              "Free",
+              "PLOS Biology (subsidised); many society journals; emerging model",
+              "Yes — ideal but less scalable"
+            ],
+            [
+              "Bronze/Gratis",
+              "Freely readable on journal website but no reuse rights; no OA licence — not true OA",
+              "Free",
+              "Many journal websites during COVID emergency access",
+              "No — does not meet Plan S"
+            ]
           ]
         },
         {
@@ -168,13 +318,49 @@
         {
           "type": "table",
           "title": "Major Preprint Servers for Surgical and Medical Research",
-          "headers": ["Server", "Focus", "Moderation", "Permitted Journals", "Citation in Methods"],
+          "headers": [
+            "Server",
+            "Focus",
+            "Moderation",
+            "Permitted Journals",
+            "Citation in Methods"
+          ],
           "rows": [
-            ["medRxiv", "Clinical medicine, surgery, epidemiology, public health", "Basic screening (no peer review); health/safety alerts for COVID-related", "Most medical journals accept prior posting", "Cite as preprint with DOI; note 'not peer reviewed'"],
-            ["bioRxiv", "Biological sciences, molecular biology, physiology", "Basic screening; no peer review", "Most biology and some medical journals", "Cite as preprint with DOI"],
-            ["SSRN (Elsevier)", "Social sciences, economics, law, some clinical", "No formal screening — highest risk of predatory use", "Variable", "Cite with caution; lower quality filter"],
-            ["Research Square", "Preprint server; also provides in-review preprints for Springer/Nature journals", "Basic check; links to journal review", "Springer Nature journals", "Authors can share in-review versions"],
-            ["Preprints.org (MDPI)", "Broad biomedical and science scope", "Basic screening", "MDPI journals primarily", "Lower prestige; suitable for rapid dissemination"]
+            [
+              "medRxiv",
+              "Clinical medicine, surgery, epidemiology, public health",
+              "Basic screening (no peer review); health/safety alerts for COVID-related",
+              "Most medical journals accept prior posting",
+              "Cite as preprint with DOI; note 'not peer reviewed'"
+            ],
+            [
+              "bioRxiv",
+              "Biological sciences, molecular biology, physiology",
+              "Basic screening; no peer review",
+              "Most biology and some medical journals",
+              "Cite as preprint with DOI"
+            ],
+            [
+              "SSRN (Elsevier)",
+              "Social sciences, economics, law, some clinical",
+              "No formal screening — highest risk of predatory use",
+              "Variable",
+              "Cite with caution; lower quality filter"
+            ],
+            [
+              "Research Square",
+              "Preprint server; also provides in-review preprints for Springer/Nature journals",
+              "Basic check; links to journal review",
+              "Springer Nature journals",
+              "Authors can share in-review versions"
+            ],
+            [
+              "Preprints.org (MDPI)",
+              "Broad biomedical and science scope",
+              "Basic screening",
+              "MDPI journals primarily",
+              "Lower prestige; suitable for rapid dissemination"
+            ]
           ]
         },
         {
@@ -200,12 +386,42 @@
         {
           "type": "table",
           "title": "Post-Publication Correction Mechanisms",
-          "headers": ["Mechanism", "When Used", "Who Initiates", "Effect on Record", "COPE Guidance"],
+          "headers": [
+            "Mechanism",
+            "When Used",
+            "Who Initiates",
+            "Effect on Record",
+            "COPE Guidance"
+          ],
           "rows": [
-            ["Erratum (journal error)", "The journal made an error in typesetting, layout, or production not attributable to authors", "Journal editors", "Correction notice published; original article unchanged", "Erratum linked to original article in databases"],
-            ["Corrigendum (author error)", "Authors made an error in the submitted content that does not invalidate conclusions (e.g., transposition of values, figure labelling)", "Authors via editor", "Correction published; original article amended or annotated", "Indexed alongside original; correction must be complete"],
-            ["Expression of Concern (EoC)", "Serious concerns about integrity raised (misconduct allegation, institutional investigation pending) but facts not yet established", "Editor", "Notice published; article remains but flagged; readers warned", "Used when investigation incomplete; does not prejudge outcome"],
-            ["Retraction", "Conclusions are unreliable due to data fabrication, falsification, plagiarism, duplicate publication, or major unresolvable error", "Authors or editor", "Retraction notice replaces or annotates original; article marked RETRACTED in databases", "Authors must cooperate; uncooperative retraction possible; reasons must be stated"]
+            [
+              "Erratum (journal error)",
+              "The journal made an error in typesetting, layout, or production not attributable to authors",
+              "Journal editors",
+              "Correction notice published; original article unchanged",
+              "Erratum linked to original article in databases"
+            ],
+            [
+              "Corrigendum (author error)",
+              "Authors made an error in the submitted content that does not invalidate conclusions (e.g., transposition of values, figure labelling)",
+              "Authors via editor",
+              "Correction published; original article amended or annotated",
+              "Indexed alongside original; correction must be complete"
+            ],
+            [
+              "Expression of Concern (EoC)",
+              "Serious concerns about integrity raised (misconduct allegation, institutional investigation pending) but facts not yet established",
+              "Editor",
+              "Notice published; article remains but flagged; readers warned",
+              "Used when investigation incomplete; does not prejudge outcome"
+            ],
+            [
+              "Retraction",
+              "Conclusions are unreliable due to data fabrication, falsification, plagiarism, duplicate publication, or major unresolvable error",
+              "Authors or editor",
+              "Retraction notice replaces or annotates original; article marked RETRACTED in databases",
+              "Authors must cooperate; uncooperative retraction possible; reasons must be stated"
+            ]
           ]
         },
         {
@@ -231,14 +447,56 @@
         {
           "type": "table",
           "title": "Research Impact Metrics — Definition, Strengths, and Limitations",
-          "headers": ["Metric", "Definition", "Calculated By", "Strength", "Limitation"],
+          "headers": [
+            "Metric",
+            "Definition",
+            "Calculated By",
+            "Strength",
+            "Limitation"
+          ],
           "rows": [
-            ["Citation count", "Total number of times a paper is cited by other papers", "Scopus, Web of Science, Google Scholar", "Direct measure of scientific engagement", "Includes self-citations and negative citations; field-dependent"],
-            ["Impact Factor (IF)", "Average citations per paper published by a journal in the prior 2 years", "Clarivate (Web of Science)", "Familiar; correlates with readership", "Journal-level (not paper-level); manipulable; biased toward review articles"],
-            ["H-index", "Author has published H papers each cited at least H times (e.g., H=20 means 20 papers each cited ≥20 times)", "Scopus, Web of Science, Google Scholar", "Measures sustained productivity AND impact", "Disadvantages early-career researchers; field-dependent; does not credit negative results"],
-            ["CiteScore", "Average citations per document over 4 years (broader than IF)", "Scopus (Elsevier)", "More stable than 2-year IF; includes more document types", "Scopus-specific; may favour certain fields"],
-            ["Altmetric score", "Composite score of social media mentions, news coverage, policy citations, downloads", "Altmetric.com", "Measures real-world translation and public engagement", "Does not correlate with citation impact; easily gamed; unstable over time"],
-            ["Downloads", "Number of times the full text is accessed", "Publisher platforms", "Rapid early measure of interest", "Does not indicate citation; includes automated bots"]
+            [
+              "Citation count",
+              "Total number of times a paper is cited by other papers",
+              "Scopus, Web of Science, Google Scholar",
+              "Direct measure of scientific engagement",
+              "Includes self-citations and negative citations; field-dependent"
+            ],
+            [
+              "Impact Factor (IF)",
+              "Average citations per paper published by a journal in the prior 2 years",
+              "Clarivate (Web of Science)",
+              "Familiar; correlates with readership",
+              "Journal-level (not paper-level); manipulable; biased toward review articles"
+            ],
+            [
+              "H-index",
+              "Author has published H papers each cited at least H times (e.g., H=20 means 20 papers each cited ≥20 times)",
+              "Scopus, Web of Science, Google Scholar",
+              "Measures sustained productivity AND impact",
+              "Disadvantages early-career researchers; field-dependent; does not credit negative results"
+            ],
+            [
+              "CiteScore",
+              "Average citations per document over 4 years (broader than IF)",
+              "Scopus (Elsevier)",
+              "More stable than 2-year IF; includes more document types",
+              "Scopus-specific; may favour certain fields"
+            ],
+            [
+              "Altmetric score",
+              "Composite score of social media mentions, news coverage, policy citations, downloads",
+              "Altmetric.com",
+              "Measures real-world translation and public engagement",
+              "Does not correlate with citation impact; easily gamed; unstable over time"
+            ],
+            [
+              "Downloads",
+              "Number of times the full text is accessed",
+              "Publisher platforms",
+              "Rapid early measure of interest",
+              "Does not indicate citation; includes automated bots"
+            ]
           ]
         },
         {
@@ -277,7 +535,8 @@
           "guideline": "ICMJE Recommendations 2024 — Criteria 1–4 all required; contributions insufficient for authorship should be acknowledged",
           "trial": "Marušić A et al. (PLOS One 2011): survey of surgical authors — 62% reported gift authorship in their last published paper.",
           "pearl": "When in doubt about authorship: ask whether the individual could defend the published work to a journal editor if questioned about data integrity. If not — they are not an author."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C6-Q2",
@@ -299,7 +558,8 @@
           "guideline": "COPE Ethical Guidelines for Peer Reviewers 2017 — 'Reviewers should not agree to review a manuscript if they have...a competitive relationship with the authors'",
           "trial": "Schroter S et al. Relationships between manuscript characteristics and acceptance rates of journals. J R Soc Med 2004.",
           "pearl": "COPE lists the following as mandatory reviewer conflict of interest disclosures: financial relationships with authors; institutional relationships; personal relationships; being a direct competitor; having previously expressed strong public views on the topic."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C6-Q3",
@@ -321,7 +581,8 @@
           "guideline": "ICMJE Recommendations 2024 — 'Authors should not submit a manuscript that is under consideration by another journal'",
           "trial": "COPE flowchart C2: Handling of submissions that are simultaneously submitted to more than one journal.",
           "pearl": "If rejected without review (desk rejection) within 24–48 hours, immediate resubmission to the next journal is acceptable — desk rejection frees the manuscript for resubmission without a waiting period."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C6-Q4",
@@ -343,7 +604,8 @@
           "guideline": "COPE — 'Redundant publication and data fragmentation are unethical; all prior related publications using the same data must be declared at submission'",
           "trial": "Baggs JG et al. Duplicate publication and related issues. J Am Geriatr Soc 2008.",
           "pearl": "When submitting any paper that overlaps with a previously published dataset: declare it in the cover letter, the Methods section (with citation), and the conflict of interest statement. Proactively declaring overlap demonstrates good faith — concealing it constitutes misconduct."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C6-Q5",
@@ -365,7 +627,8 @@
           "guideline": "COPE — financial relationships between publishers and commercial entities should be transparent and should not influence editorial decisions",
           "trial": "Lundh A et al. Industry sponsorship and research outcome (Cochrane Review 2017) — industry-sponsored trials are 4 times more likely to report positive results.",
           "pearl": "Impact factor inflation through reprint-driven acceptance of industry-sponsored trials is a recognised form of impact factor manipulation — it biases both the IF and the literature."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C6-Q6",
@@ -387,7 +650,8 @@
           "guideline": "PRISMA 2020 — preprints may be included in systematic reviews with clear notation; ICMJE — preprints should be clearly labelled and distinguished from peer-reviewed publications",
           "trial": "Fraser N et al. Preprinting the COVID-19 pandemic. eLife 2021 — analysis of preprint use in COVID-19 research and its strengths and risks.",
           "pearl": "When citing a preprint: always add '(preprint, not peer reviewed)' in the citation text; check at submission/publication whether the preprint has since been published and update citations accordingly."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C6-Q7",
@@ -409,7 +673,8 @@
           "guideline": "COPE Retraction and Correction Guidelines — Corrigendum for author errors that do not invalidate conclusions; Erratum for journal production errors; Retraction for errors that invalidate conclusions",
           "trial": "Errami M, Garner H. A tale of two citations. Nature 2008 — analysis of the frequency of citation of retracted and corrected papers.",
           "pearl": "Distinction: **Erratum** = journal production error (typesetting, layout); **Corrigendum** = author error in submitted content. Both correct the record without retraction when conclusions remain valid."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C6-Q8",
@@ -431,7 +696,8 @@
           "guideline": "COPE Guidelines 2022 — 'An expression of concern should be considered when an investigation is underway but a definitive finding cannot yet be reached; it alerts readers to potential problems'",
           "trial": "Budd JM et al. Retracted publications in biomedicine: cause for concern. Bull Med Libr Assoc 1998 — foundational analysis of retraction mechanisms.",
           "pearl": "EoC → retraction or exoneration: the investigation determines the final action. If images are confirmed manipulated → retraction. If manipulation is not substantiated → EoC withdrawn and article remains with editorial note."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C6-Q9",
@@ -453,7 +719,8 @@
           "guideline": "ICMJE — authors must understand the copyright agreements they sign; SHERPA/RoMEO database provides self-archiving policies for all major journals",
           "trial": "Tennant JP et al. The academic, economic and societal impacts of Open Access. F1000Research 2016.",
           "pearl": "Check self-archiving rights at SHERPA/RoMEO (v2.jisc.ac.uk) before uploading any manuscript version to any platform. Three manuscript versions: (1) Preprint (pre-peer review) — most often freely shareable; (2) Accepted Manuscript (post-review, pre-formatting) — embargo period typically 12 months; (3) Version of Record (final formatted PDF) — usually restricted to publisher site unless OA."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C6-Q10",
@@ -475,7 +742,8 @@
           "guideline": "Plan S / cOAlition S — ISCIII-funded research must be OA with immediate CC-BY licence; Transformative Agreements and Green OA are compliant routes; Journal Checker Tool (journalcheckertool.org) verifies compliance",
           "trial": "Laakso M et al. The development of open access journal publishing from 1993 to 2009. PLOS ONE 2011.",
           "pearl": "Use the Journal Checker Tool (journalcheckertool.org) — input your funder (ISCIII) and journal — to get a specific compliance determination and the lowest-cost compliant route."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C6-Q11",
@@ -497,7 +765,8 @@
           "guideline": "No single guideline mandates one database — the European Research Council recommends multiple metrics from multiple sources",
           "trial": "Harzing AW, van der Wal R. Google Scholar as a new source for citation analysis. Ethics in Science and Environmental Politics 2008.",
           "pearl": "H-index reporting convention: always state '(Google Scholar, accessed [date])' or '(Scopus, accessed [date])'. For grant applications, some funders specify which database to use — check before applying."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C6-Q12",
@@ -519,7 +788,8 @@
           "guideline": "COPE — predatory journals violate publication ethics by misrepresenting peer review processes and claiming false credentials",
           "trial": "Bohannon J. Who's Afraid of Peer Review? Science 2013 — 157 predatory journals accepted a fatally flawed paper.",
           "pearl": "Verification checklist for any journal: (1) Is it indexed in PubMed/MEDLINE? (2) Is it indexed in Scopus? (3) Is the publisher a COPE member? (4) Is the IF verifiable in Clarivate Journal Citation Reports? (5) Does the journal have a verifiable editorial board? Fail any two → investigate further before submitting."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C6-Q13",
@@ -541,7 +811,8 @@
           "guideline": "COPE flowchart C14 — Suspected duplicate publication in a submitted manuscript; ICMJE — duplicate publication is a violation of publication ethics",
           "trial": "Von Elm E et al. Different patterns of duplicate publication: an analysis of articles used in systematic reviews. JAMA 2004.",
           "pearl": "iThenticate/Crossref Similarity Check generates a similarity score — percentage alone does not determine plagiarism or duplication (high similarity may reflect quoted methods sections or common field terminology). Context and source of similar text matter more than the percentage."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C6-Q14",
@@ -563,7 +834,8 @@
           "guideline": "Clarivate Journal Citation Reports — journals with excessive self-citation rates may be suppressed from IF calculations",
           "trial": "Falagas ME et al. The impact factor and its use in scholarly publishing and the assessment of research. Eur J Clin Pharmacol 2010.",
           "pearl": "When evaluating journal quality, look beyond the raw IF: check the self-citation rate (available in Clarivate's Journal Citation Reports); check CiteScore (which uses a 4-year window — less susceptible to gaming); and check whether the journal is indexed in multiple databases."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C6-Q15",
@@ -585,7 +857,8 @@
           "guideline": "No formal guideline — Altmetric scores are complementary to, not replacements for, citation-based impact metrics",
           "trial": "Haustein S et al. Tweeting biomedicine: an analysis of tweets and citations in the biomedical literature. J Am Soc Inf Sci Technol 2014.",
           "pearl": "Report impact using multiple metrics: citation count (Scopus/WoS) for scientific impact; Altmetric score for public engagement; downloads for early dissemination interest. No single metric captures the full picture."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C6-Q16",
@@ -607,7 +880,8 @@
           "guideline": "ICMJE Recommendations 2024 — 'Posting of manuscripts to preprint servers is not considered prior publication; authors should inform editors at the time of submission if the paper has been posted as a preprint'",
           "trial": "Desjardins-Proulx P et al. The case for open preprints in biology. PLOS Biology 2013.",
           "pearl": "Preprint posting advantages: rapid dissemination (months before publication); priority claim (timestamped); community feedback before formal peer review; improved manuscript quality at submission. Check target journal policy at SHERPA/RoMEO or journal website before posting."
-        }
+        },
+        "difficulty": 2
       },
       {
         "id": "C6-Q17",
@@ -629,7 +903,8 @@
           "guideline": "Journal-specific — check Instructions to Authors for Technical Note format specifications (typically 800–1500 words, 3–5 figures, 10–15 references)",
           "trial": "Demartines N et al. SCARE criteria for surgical case reports — distinguishing case reports and surgical techniques.",
           "pearl": "Technical Note checklist: (1) describe each procedural step clearly; (2) include intraoperative images at key steps; (3) specify learning curve and surgeon volume prerequisites; (4) report safety data (30-day morbidity at minimum); (5) discuss how the technique improves on prior approaches. A video supplement significantly increases engagement and citation."
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C6-Q18",
@@ -651,7 +926,8 @@
           "guideline": "ICMJE 2023 update on AI in academic publishing — mandatory disclosure; non-authorship of AI tools; corresponding author accountability",
           "trial": "Thorp HH. ChatGPT is fun, but not an author. Science 2023 — editorial establishing non-authorship of AI tools.",
           "pearl": "Recommended AI disclosure template: 'The authors used [Tool Name vX] (Company) to generate an initial draft of the Introduction and Discussion sections. This AI-generated content was subsequently reviewed, substantially revised, and verified for accuracy by all authors, who take full responsibility for the integrity of the final manuscript.'"
-        }
+        },
+        "difficulty": 3
       },
       {
         "id": "C6-Q19",
@@ -673,7 +949,8 @@
           "guideline": "COPE Guidelines — Suspected research misconduct: editors should notify the institution; publish EoC if appropriate; cooperate with institutional investigation; take definitive action (retraction or exoneration notice) after investigation concludes",
           "trial": "Fanelli D. How many scientists fabricate and falsify research? A systematic review and meta-analysis. PLOS ONE 2009 — ~2% of scientists admit to data fabrication.",
           "pearl": "Statistically implausible data patterns are an established detection tool for fabrication: too-round numbers, identical standard deviations across samples, normally distributed data with suspiciously symmetric tails, and digit frequency analysis (Benford's law for first-digit frequency) are all used by data forensic investigators."
-        }
+        },
+        "difficulty": 1
       },
       {
         "id": "C6-Q20",
@@ -695,7 +972,8 @@
           "guideline": "COPE — editors should have mechanisms to protect reviewers from retaliation; retaliation concerns should be investigated; reviewer identities should be protected if confidentiality is requested",
           "trial": "Van Rooyen S et al. Effect of open peer review on quality of reviews and on reviewers' recommendations: a randomised trial. BMJ 1999 — foundational RCT on open vs blinded peer review.",
           "pearl": "Open peer review trade-off: increased transparency and accountability vs reduced reviewer willingness to provide critical assessment. Journals that implement open peer review should offer opt-in/opt-out for reviewers and have explicit anti-retaliation policies."
-        }
+        },
+        "difficulty": 2
       }
     ]
   }
