@@ -252,7 +252,7 @@ function renderHomeView() {
   const dueHtml  = dueCount > 0
     ? `<a href="#/review" class="due-reviews-banner">
         <span class="due-reviews-icon">🔁</span>
-        <span><strong>${dueCount}</strong> ${t('home.due_review', { n: dueCount, s: dueCount > 1 ? 's' : '' })}</span>
+        <span>${t('home.due_review', { n: `<strong>${dueCount}</strong>`, s: dueCount > 1 ? 's' : '' })}</span>
         <span class="due-reviews-arrow">${t('home.review_now')}</span>
       </a>`
     : '';
@@ -1048,17 +1048,18 @@ function registerServiceWorker() {
 }
 
 /* ── Init ───────────────────────────────────────────────────── */
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   ThemeManager.init();
   TabIndicator.init();
   Knowledge.loadPearls();
   SearchEngine.buildIndex(CURRICULUM);
-  if (typeof I18N !== 'undefined') I18N.init();
+  if (typeof I18N !== 'undefined') await I18N.init();
   Router.init();
   registerServiceWorker();
 
   // Re-render current view when language is toggled
-  document.addEventListener('locale-changed', () => {
+  // NOTE: i18n.js dispatches on window — must listen on window, not document
+  window.addEventListener('locale-changed', () => {
     Router.resolve();
   });
 });
