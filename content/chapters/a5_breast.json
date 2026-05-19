@@ -1070,6 +1070,167 @@
           "pearl": "T1a (<0.8mm, no ulceration) = 1 cm margin, no SLNB. T1b (ulceration OR 0.8-1.0mm) = 1 cm margin, discuss SLNB (SLN+ rate 5-12%). T2+ = 1-2 cm margin, SLNB recommended."
         },
         "difficulty": 1
+      },
+      {
+        "id": "A5-Q14",
+        "stem": "A 55-year-old woman undergoes sentinel lymph node biopsy (SLNB) for a 1.8cm T1c invasive ductal carcinoma. Two sentinel nodes are removed; one contains a 1.2mm micrometastasis, the other is negative. She plans to have BCS followed by whole-breast radiotherapy and adjuvant systemic therapy. What is the recommended axillary management?",
+        "options": {
+          "A": "Completion axillary lymph node dissection (ALND) — any positive sentinel node mandates ALND",
+          "B": "No further axillary surgery — the ACOSOG Z0011 criteria are met",
+          "C": "Axillary radiotherapy alone without further surgery",
+          "D": "Repeat SLNB with immunohistochemistry to confirm micrometastasis"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "ACOSOG Z0011 demonstrated that in clinically N0 patients with T1-T2 invasive breast cancer undergoing BCS + whole-breast RT with ≤2 positive sentinel nodes, omission of ALND is non-inferior in OS and DFS. Completion ALND can be safely omitted in this scenario.",
+          "wrong": {
+            "A": "ALND is no longer mandated for all SN-positive patients meeting Z0011 criteria — this would result in unnecessary morbidity.",
+            "C": "Regional nodal irradiation may be added but is not mandated here; the question specifically asks about axillary management per Z0011.",
+            "D": "IHC-confirmed micrometastasis (<2mm) does not change management under Z0011 criteria."
+          },
+          "guideline": "ACOSOG Z0011 (Giuliano, JAMA 2011 / JAMA 2017 10-yr follow-up); NCCN Breast Cancer v5.2025 — ALND omission for ≤2 positive SN in BCS + RT patients",
+          "trial": "ACOSOG Z0011: 891 patients, cT1-2 N0, BCS + WBRT. No difference in 10-year OS (83.6% vs 82.2%) or DFS between ALND and SLNB-alone arms.",
+          "pearl": "Z0011 criteria: cT1-2, cN0, BCS, whole-breast RT (not partial), ≤2 positive SN, no matted nodes or gross extracapsular extension."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q15",
+        "stem": "A 40-year-old woman is found to carry a BRCA1 pathogenic variant after her sister was diagnosed with ovarian cancer. She is currently healthy with normal screening mammogram and MRI. She asks about her options for breast cancer risk reduction. Which of the following best describes the risk reduction achieved by risk-reducing bilateral mastectomy (RRBM) in BRCA1 carriers?",
+        "options": {
+          "A": "RRBM reduces breast cancer risk by approximately 25–30%",
+          "B": "RRBM reduces breast cancer risk by approximately 50%",
+          "C": "RRBM reduces breast cancer risk by approximately 90–95%",
+          "D": "RRBM eliminates breast cancer risk completely (100% reduction)"
+        },
+        "correct": "C",
+        "explanation": {
+          "correct": "Risk-reducing bilateral mastectomy reduces breast cancer risk by approximately 90–95% in BRCA1/2 carriers. It does not eliminate risk entirely because small amounts of residual breast tissue may persist after surgery. RRBM is the most effective risk-reduction strategy for high-risk women who opt for surgery.",
+          "wrong": {
+            "A": "25–30% reduction is far below what RRBM achieves — this might describe the benefit of chemoprevention with tamoxifen.",
+            "B": "50% reduction underestimates the efficacy of prophylactic mastectomy in BRCA carriers.",
+            "D": "Residual breast tissue after mastectomy means 100% elimination is not achievable; risk is ~90–95% reduced."
+          },
+          "guideline": "NCCN Genetic/Familial High-Risk Assessment: Breast, Ovarian and Pancreatic v3.2025; NICE CG164 — RRBM reduces risk by >90% in BRCA1/2 carriers",
+          "trial": "Hartmann et al. (NEJM 1999): retrospective cohort of BRCA carriers — RRBM reduced breast cancer incidence by 90–94%. Meijers-Heijboer et al. (NEJM 2001): prospective study confirming ~100% risk reduction in follow-up period.",
+          "pearl": "Counsel BRCA1 carriers that lifetime breast cancer risk is 60–72% and ovarian cancer risk 44–46%. RRBSO (bilateral salpingo-oophorectomy) should also be discussed as it further reduces both ovarian and breast cancer risk."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q16",
+        "stem": "A 52-year-old postmenopausal woman presents with a 3.5cm T2 ER+/PR+/HER2- invasive lobular carcinoma. She strongly desires breast conservation but the tumour-to-breast ratio makes immediate BCS likely to result in poor cosmesis. What is the primary rationale for offering neoadjuvant endocrine therapy (NET) rather than neoadjuvant chemotherapy (NACT) in this scenario?",
+        "options": {
+          "A": "NET achieves higher pathological complete response (pCR) rates than NACT in ER+ tumours",
+          "B": "NET avoids systemic toxicity while achieving tumour downsizing in hormone-receptor-positive tumours, enabling BCS; pCR is rare but tumour regression allows surgery",
+          "C": "NET is preferred because ER+ tumours are chemotherapy-resistant and NACT provides no benefit",
+          "D": "NET is mandatory per NCCN guidelines for all T2 lobular carcinomas"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "In postmenopausal women with HR+/HER2- tumours, NET (typically an aromatase inhibitor for 4–6 months) can achieve sufficient tumour downsizing to enable BCS with better cosmesis. pCR rates with NET are very low (~3%), but clinical response rates of 50–70% allow surgical downstaging. The key advantage is avoiding chemotherapy toxicity in a hormone-sensitive tumour.",
+          "wrong": {
+            "A": "pCR rates with NET (~3%) are far lower than NACT in TNBC or HER2+ subtypes. The goal of NET is downsizing, not pCR.",
+            "C": "ER+ tumours do respond to NACT (pCR ~7–15%), but sensitivity is lower than in TNBC. NACT is still an option; NET is preferred in postmenopausal HR+/HER2- patients to avoid toxicity.",
+            "D": "No guideline mandates NET for all T2 lobular cancers; the decision is individualised based on patient preference, tumour biology, and menopausal status."
+          },
+          "guideline": "NCCN Breast Cancer v5.2025; ESO-ESMO POSH Guidelines 2020 — NET preferred in postmenopausal HR+/HER2- patients for downstaging; NACT preferred for TNBC and HER2+ subtypes to assess pCR",
+          "trial": "ACOSOG Z1031: Randomised trial comparing anastrozole, letrozole, exemestane as NET — all equivalent; 62–69% objective response rate. P024 trial (Letrozole NET): 55% OR rate, BCS rate increased from 36% to 48%.",
+          "pearl": "Premenopausal patients with HR+ tumours should receive NACT rather than NET if neoadjuvant treatment is needed, as the benefit of NET is less established in this group."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q17",
+        "stem": "A 48-year-old woman is diagnosed with pure ductal carcinoma in situ (DCIS), grade 2, ER+, 2.5cm on mammography, with no invasive component. She undergoes wide local excision with clear margins (≥2mm). She asks whether she needs radiotherapy. Which statement best reflects current evidence-based guidance?",
+        "options": {
+          "A": "Radiotherapy is not required for DCIS — it is a non-invasive lesion and local recurrence risk is negligible",
+          "B": "Whole-breast radiotherapy after BCS reduces local recurrence by approximately 50% and is recommended for most patients, but does not improve overall survival",
+          "C": "Radiotherapy converts DCIS to invasive cancer in approximately 10% of cases and should be avoided",
+          "D": "Radiotherapy is only indicated if margins are <1mm"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Four large randomised trials (NSABP B-17, EORTC 10853, UK ANZ DCIS, SweDCIS) consistently show that whole-breast RT after BCS for DCIS reduces the risk of ipsilateral breast events (both DCIS recurrence and invasive recurrence) by approximately 50%. However, none demonstrated an OS benefit. Adjuvant RT is recommended for most DCIS patients after BCS.",
+          "wrong": {
+            "A": "Without RT, the 10-year ipsilateral recurrence rate after BCS alone is 20–30% — not negligible. RT halves this risk.",
+            "C": "RT does not cause conversion to invasive cancer; this is factually incorrect.",
+            "D": "RT is recommended regardless of margin width when margins are ≥2mm (clear). The decision is based on overall risk, not solely margin distance."
+          },
+          "guideline": "NICE NG101 (2018, updated 2023); NCCN Breast Cancer v5.2025 — whole-breast RT recommended after BCS for DCIS; omission may be considered in very low-risk DCIS (low grade, small size, wide margins, older patients)",
+          "trial": "NSABP B-17 (Fisher 1998): BCS alone vs BCS+RT for DCIS — RT reduced IBTR from 31.7% to 15.7% at 12 years. UK ANZ DCIS trial confirmed ~50% relative risk reduction in both DCIS and invasive recurrence.",
+          "pearl": "The LORIS, LORD, and COMET trials are investigating active surveillance (vs surgery) for low-risk DCIS — results are pending. Until then, surgery + RT remains standard."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q18",
+        "stem": "A 44-year-old woman undergoes nipple-sparing mastectomy for a 2cm T1c ER+/HER2- invasive ductal carcinoma (cN0). She desires immediate breast reconstruction. She has no prior chest wall irradiation and is a non-smoker with BMI 24. Which reconstructive option best balances oncological safety, long-term outcomes, and patient preference in this scenario?",
+        "options": {
+          "A": "Delayed reconstruction only — immediate reconstruction is oncologically contraindicated for invasive cancer",
+          "B": "Immediate implant-based reconstruction (prepectoral or subpectoral) — appropriate when post-mastectomy RT is not anticipated",
+          "C": "Autologous TRAM flap is mandatory for all reconstruction after mastectomy for invasive cancer",
+          "D": "Tissue expander with delayed exchange is the only safe option regardless of RT plans"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Immediate implant-based reconstruction (IBR) is the preferred option when post-mastectomy radiotherapy (PMRT) is not anticipated, as in this cT1 cN0 patient. Modern prepectoral IBR (implant above pectoralis major with ADM) offers shorter recovery, preserved muscle function, and equivalent oncological safety to delayed reconstruction in non-irradiated patients. Immediate reconstruction does not delay adjuvant treatment.",
+          "wrong": {
+            "A": "Immediate reconstruction is oncologically safe for most mastectomy patients and does not increase local recurrence risk or delay adjuvant therapy.",
+            "C": "Autologous TRAM flap is not mandatory — it is one of several options. It is preferred when PMRT is planned due to better tolerance of radiation vs implants.",
+            "D": "Two-stage tissue expander/implant exchange is one option but not the only safe approach. Prepectoral direct-to-implant reconstruction is increasingly used."
+          },
+          "guideline": "ASPS/ASTRO/SSO Joint Guideline 2022 on Breast Reconstruction; NCCN Breast Cancer v5.2025 — immediate reconstruction appropriate when PMRT not anticipated; autologous reconstruction preferred if PMRT required",
+          "trial": "PGRM study (Jagsi, JCO 2014): immediate reconstruction does not increase complication rates or delay RT in non-irradiated patients. BRA Day registry: prepectoral IBR equivalent outcomes to subpectoral with less pain and disability.",
+          "pearl": "Always assess PMRT likelihood before planning reconstruction. If PMRT probability >20%, autologous reconstruction or delayed approach should be strongly considered to avoid implant complications from radiation."
+        },
+        "difficulty": 2
+      },
+      {
+        "id": "A5-Q19",
+        "stem": "A 58-year-old woman is treated with upfront BCS + SLNB for a 2.2cm T2 N1mi ER+/PR+/HER2- grade 2 invasive ductal carcinoma. Final pathology shows clear margins. She will receive adjuvant whole-breast RT and endocrine therapy. Genomic testing (Oncotype DX) shows recurrence score of 18. What is the appropriate adjuvant systemic recommendation for this postmenopausal patient?",
+        "options": {
+          "A": "Adjuvant chemotherapy followed by endocrine therapy — all N1 patients require chemotherapy",
+          "B": "Endocrine therapy alone — RS ≤25 in postmenopausal node-positive patients does not benefit from adjuvant chemotherapy",
+          "C": "Adjuvant trastuzumab + chemotherapy — HER2 status has been misreported",
+          "D": "Adjuvant CDK4/6 inhibitor + endocrine therapy is preferred over chemotherapy for all HR+/HER2- patients"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "RxPONDER (SWOG S1007) demonstrated that postmenopausal women with HR+/HER2- breast cancer, 1–3 positive nodes, and Oncotype DX RS ≤25 do not benefit from adjuvant chemotherapy. Endocrine therapy alone provides equivalent outcomes. Premenopausal women with RS ≤25 and node-positive disease may benefit from chemotherapy per the same trial.",
+          "wrong": {
+            "A": "Not all N1 patients require chemotherapy. Genomic assays (Oncotype DX, MammaPrint) are specifically designed to identify patients who can safely omit chemotherapy.",
+            "C": "HER2- status is confirmed — there is no indication for trastuzumab.",
+            "D": "Adjuvant CDK4/6 inhibitors (abemaciclib — MonarchE trial) are used for high-risk HR+/HER2- patients, typically with ≥4 positive nodes or other high-risk features. With N1mi and RS 18, this patient is intermediate-risk, not high-risk."
+          },
+          "guideline": "RxPONDER (Kalinsky, NEJM 2021); NCCN Breast Cancer v5.2025 — endocrine therapy alone for postmenopausal HR+/HER2-, N1, RS ≤25",
+          "trial": "RxPONDER: 5,083 patients with HR+/HER2-, N1-3, RS ≤25. In postmenopausal women: 5-year iDFS 91.9% (chemo+ET) vs 91.3% (ET alone) — no significant difference. In premenopausal women: chemotherapy benefit observed.",
+          "pearl": "The menopausal status is critical in interpreting RxPONDER results. Premenopausal N1 patients with RS ≤25 have a relative benefit from chemotherapy (possibly via ovarian suppression effect), while postmenopausal patients do not."
+        },
+        "difficulty": 3
+      },
+      {
+        "id": "A5-Q20",
+        "stem": "A 65-year-old woman completes primary treatment for stage II HR+/HER2- breast cancer (BCS + SLNB + whole-breast RT + 5 years of letrozole). She is now entering the surveillance phase. Which surveillance strategy is recommended by current guidelines?",
+        "options": {
+          "A": "Annual whole-body PET-CT to detect distant metastases early",
+          "B": "Annual mammography of the treated and contralateral breast; no routine imaging for distant disease in asymptomatic patients",
+          "C": "CT chest/abdomen/pelvis every 6 months for the first 5 years, then annually",
+          "D": "Annual bone scan and liver ultrasound to monitor for the most common sites of HR+ metastases"
+        },
+        "correct": "B",
+        "explanation": {
+          "correct": "Evidence-based surveillance after curative breast cancer treatment consists of annual mammography of the ipsilateral (if BCS) and contralateral breast, plus regular clinical examination. Routine imaging for distant metastases (CT, PET, bone scan) in asymptomatic patients has NOT been shown to improve survival and is not recommended by major guidelines. Investigations should be symptom-driven.",
+          "wrong": {
+            "A": "Routine PET-CT for surveillance is not recommended — multiple RCTs (GIVIO, Del Turco) showed intensive follow-up with imaging does not improve OS compared to clinical follow-up with mammography.",
+            "C": "6-monthly CT is not guideline-recommended for asymptomatic survivors — it adds radiation exposure, cost, and anxiety without survival benefit.",
+            "D": "Routine bone scans and liver ultrasound are not recommended in asymptomatic patients — investigations should be triggered by symptoms."
+          },
+          "guideline": "NCCN Breast Cancer v5.2025 — annual ipsilateral mammography after BCS, contralateral mammography, and history/physical examination; ESMO Guidelines 2023: no routine staging investigations in asymptomatic patients",
+          "trial": "GIVIO trial (JAMA 1994): intensive follow-up (chest X-ray, bone scan, liver echo, blood tests every 6M) vs clinical follow-up — no difference in 5-year OS (70% vs 71%) or QoL. Del Turco et al. (JAMA 1994): same conclusion.",
+          "pearl": "Patients often request 'full body scans' for reassurance. Explain that surveillance guidelines are evidence-based: routine distant imaging has not been shown to save lives in asymptomatic survivors and may cause harm through false-positive findings and over-investigation."
+        },
+        "difficulty": 1
       }
     ]
   }

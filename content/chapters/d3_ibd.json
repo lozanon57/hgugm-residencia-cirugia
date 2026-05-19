@@ -5,6 +5,10 @@
   "block": "D",
   "block_name": "Benign Digestive Surgery",
   "level": "PGY2-3",
+  "textbook_refs": [
+    "Townsend CM et al. Sabiston Textbook of Surgery, 21st ed. Elsevier, 2022.",
+    "Brunicardi FC et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill, 2019."
+  ],
   "reading_time_min": 50,
   "guidelines_version": "ECCO Surgery in Crohn's Disease 3rd ed. 2023 · ECCO-ESCP UC Surgery Update 2023 · ASCRS IBD Guidelines 2021",
   "sections": [

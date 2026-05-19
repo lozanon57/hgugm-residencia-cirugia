@@ -4,6 +4,11 @@
   "block_name": "Transplantation & Vascular",
   "title": "Renal & Multivisceral Transplantation",
   "level": "PGY4-5",
+  "guidelines_version": "KDIGO 2022; ERA 2022",
+  "textbook_refs": [
+    "Townsend CM et al. Sabiston Textbook of Surgery, 21st ed. Elsevier, 2022.",
+    "Brunicardi FC et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill, 2019."
+  ],
   "sections": [
     {
       "id": "E2-S1",

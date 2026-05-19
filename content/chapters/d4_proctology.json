@@ -4,6 +4,11 @@
   "block_name": "Benign Digestive Surgery",
   "title": "Proctology — Haemorrhoids, Fissures, Fistulae & Pilonidal",
   "level": "PGY1-2",
+  "guidelines_version": "ASCRS 2023; ESCP 2021",
+  "textbook_refs": [
+    "Townsend CM et al. Sabiston Textbook of Surgery, 21st ed. Elsevier, 2022.",
+    "Brunicardi FC et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill, 2019."
+  ],
   "sections": [
     {
       "id": "D4-S1",

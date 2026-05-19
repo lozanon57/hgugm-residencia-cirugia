@@ -4,6 +4,11 @@
   "block_name": "Benign Digestive Surgery",
   "title": "Oesophageal & Benign Gastric Disease",
   "level": "PGY2-3",
+  "guidelines_version": "SAGES 2022; ESGE 2022",
+  "textbook_refs": [
+    "Townsend CM et al. Sabiston Textbook of Surgery, 21st ed. Elsevier, 2022.",
+    "Brunicardi FC et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill, 2019."
+  ],
   "sections": [
     {
       "id": "D6-S1",

@@ -4,6 +4,11 @@
   "block_name": "Transplantation & Vascular",
   "title": "Liver Transplantation",
   "level": "PGY4-5",
+  "guidelines_version": "EASL 2021; ILTS 2022",
+  "textbook_refs": [
+    "Townsend CM et al. Sabiston Textbook of Surgery, 21st ed. Elsevier, 2022.",
+    "Brunicardi FC et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill, 2019."
+  ],
   "sections": [
     {
       "id": "E1-S1",

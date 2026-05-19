@@ -5,6 +5,10 @@
   "block": "D",
   "block_name": "Benign Digestive Surgery",
   "level": "PGY1-2",
+  "textbook_refs": [
+    "Townsend CM et al. Sabiston Textbook of Surgery, 21st ed. Elsevier, 2022.",
+    "Brunicardi FC et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill, 2019."
+  ],
   "reading_time_min": 38,
   "guidelines_version": "WSES 2020 · ASCRS 2020 · ESCP 2020 · ACG Clinical Guideline 2015",
   "sections": [

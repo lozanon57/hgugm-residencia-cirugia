@@ -4,6 +4,11 @@
   "block_name": "Trauma, Infections & Thoracic",
   "title": "Surgical Infections, Sepsis & Necrotising Fasciitis",
   "level": "PGY1-2",
+  "guidelines_version": "SIS 2022; WSES 2021",
+  "textbook_refs": [
+    "Townsend CM et al. Sabiston Textbook of Surgery, 21st ed. Elsevier, 2022.",
+    "Brunicardi FC et al. Schwartz's Principles of Surgery, 11th ed. McGraw-Hill, 2019."
+  ],
   "sections": [
     {
       "id": "F2-S1",
